@@ -1,0 +1,363 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05839535",
+            "orgStudyIdInfo": {
+                "id": "2023P000908"
+            },
+            "organization": {
+                "fullName": "Massachusetts General Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Enhancing Modulation Effects of Baduanjin Through Neuromodulation for Knee OA",
+            "officialTitle": "Enhancing Modulation Effects of Baduanjin Through Non-invasive Neuromodulation for Knee Osteoarthritis",
+            "therapeuticArea": [
+                "Orthopedics"
+            ],
+            "study": "enhancing-modulation-effects-of-baduanjin-through-neuromodulation-for-knee-oa"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-03-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-03-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-08-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-19",
+            "studyFirstSubmitQcDate": "2023-05-01",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-03",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jian Kong",
+                "investigatorTitle": "Principal investigator",
+                "investigatorAffiliation": "Massachusetts General Hospital"
+            },
+            "leadSponsor": {
+                "name": "Massachusetts General Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will combine brain imaging and neuromodulation tools to investigate the underlying neurobiological mechanisms of exercises. The findings will enhance our understanding of the mechanisms underlying mind-body exercise and facilitate the development of new pain management approaches."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Knee Osteoarthritis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Clinical mechanism study",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 140,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "BDJ + real tDCS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Behavioral: BDJ",
+                        "Device: tDCS"
+                    ]
+                },
+                {
+                    "label": "Exercise + real tDCS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Device: tDCS",
+                        "Other: exercise"
+                    ]
+                },
+                {
+                    "label": "BDJ + sham tDCS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Behavioral: BDJ",
+                        "Device: sham tDCS"
+                    ]
+                },
+                {
+                    "label": "Exercise + sham tDCS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Device: sham tDCS",
+                        "Other: exercise"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "BDJ",
+                    "description": "BDJ is a mind-body intervention",
+                    "armGroupLabels": [
+                        "BDJ + real tDCS",
+                        "BDJ + sham tDCS"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "tDCS",
+                    "description": "tDCS is a brain stimulation method.",
+                    "armGroupLabels": [
+                        "BDJ + real tDCS",
+                        "Exercise + real tDCS"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "sham tDCS",
+                    "description": "sham tDCS",
+                    "armGroupLabels": [
+                        "BDJ + sham tDCS",
+                        "Exercise + sham tDCS"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "exercise",
+                    "description": "exercise including stretching and other activities.",
+                    "armGroupLabels": [
+                        "Exercise + real tDCS",
+                        "Exercise + sham tDCS"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "M1 resting state functional connectivity",
+                    "description": "Changes in brain resting-state connectivity between the primary motor cortex (M1) and other brain regions pre- and post-treatments, analyzed using the CONN Toolbox (https://web.conn-toolbox.org/)",
+                    "timeFrame": "Baseline, post-treatment (12 weeks)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change on Cerebral blood flow",
+                    "description": "Cerebral blood flow will be measured using arterial spin labeling (ASL)",
+                    "timeFrame": "Baseline, post-treatment (12 weeks)"
+                },
+                {
+                    "measure": "Change on M1 corticospinal excitability and cortico-cortical excitability",
+                    "description": "M1 corticospinal excitability will be measured using motor threshold, motor evoked potential, short-interval intracortical inhibition (SICI) and intracortical facilitation (ICF).",
+                    "timeFrame": "Baseline, post-treatment (12 weeks)"
+                },
+                {
+                    "measure": "Change on brain gray matter volume",
+                    "description": "Voxel-based morphometry (VBM) analysis will be performed to investigate gray matter volume changes.",
+                    "timeFrame": "Baseline, post-treatment (12 weeks)"
+                },
+                {
+                    "measure": "Change on Knee Injury and Osteoarthritis Outcome Score (KOOS)",
+                    "description": "The KOOS is a 35-item self-administered survey of pain and function in knee OA patients.",
+                    "timeFrame": "Baseline, post-treatment (12 weeks), follow-up (24 weeks)"
+                },
+                {
+                    "measure": "Change on Patient-Reported Outcomes Measurement Information System (PROMIS)-29",
+                    "description": "We will use PROMIS-29 to assess pain, function, depression, anxiety, and sleep in the past 7 days.",
+                    "timeFrame": "Baseline, post-treatment (12 weeks), follow-up (24 weeks)"
+                },
+                {
+                    "measure": "change on Beck's Depression Inventory (BDI-II)",
+                    "description": "BDI-II is designed for individuals aged 13 and over and is composed of items relating to symptoms of depression.",
+                    "timeFrame": "Baseline, post-treatment (12 weeks), follow-up (24 weeks)"
+                },
+                {
+                    "measure": "Change on Pain Catastrophizing Scale (PCS)",
+                    "description": "PCS is a 15-item questionnaire used to characterize an individual's tendency to magnify the threat value of a pain experience and to feel helpless in the presence of pain.",
+                    "timeFrame": "Baseline, post-treatment (12 weeks), follow-up (24 weeks)"
+                },
+                {
+                    "measure": "Change on Quantitative Sensory Testing (QST)",
+                    "description": "Pressure pain thresholds will be assessed 3 times using a Somedic digital pressure algometer. Contact heat stimuli will be delivered using a PATHWAY CHEPS (Contact Heat-Evoked Potential Stimulator, Medoc Advanced Medical Systems).",
+                    "timeFrame": "Baseline, post-treatment (12 weeks), follow-up (24 weeks)"
+                },
+                {
+                    "measure": "Change on 6-Minute Walk Test",
+                    "description": "The 6-Minute Walk Test is a self-paced endurance test that assesses walking ability and endurance and includes standardized encouragement that increase tolerability in elders and those with physical impairment.",
+                    "timeFrame": "Baseline, post-treatment (12 weeks), follow-up (24 weeks)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Volunteers 45-75 years of age\n* Meet the Classification Criteria of the American College of Rheumatology for osteoarthritis of the right and/or left knee for at least the past 3 months;\n* Physically able to participate in the BDJ and stretching control education programs\n* Willing to complete the 12-week study\n* Can participate in MRI scan\n* Ability to read and understand English; English can be a second language provided that the patient feels he or she can understand all the questions used in the assessment measures\n\nExclusion Criteria:\n\n* Has performed BDJ, Tai Chi, Yoga, other mind-body intervention, physical therapy, or routine exercise (running, cycling, etc.) regularly in the past year\n* Serious medical conditions limiting ability of patient to participate in the study, such as symptomatic cardiovascular disease, symptomatic pulmonary disease requiring supplemental oxygen, uncontrolled metabolic diseases, severe renal and liver disease\n* Has had intra-articular steroid injections or reconstructive surgery in the prior 3 months on the affected knee; any intra-articular hyaluronic acid injections in the previous 6 months\n* Patient Mini-Mental Status Examination score below 24 \\[293\\]\n* Unable to walk without a cane or other assistive device\n* The intent to undergo surgery during the time of involvement in the study\n* Plan to permanently relocate from the region during the trial period",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "45 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jian Kong",
+                    "role": "CONTACT",
+                    "phone": "617-7267893",
+                    "email": "jkong2@mgh.harvard.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Charlestown",
+                    "state": "Massachusetts",
+                    "zip": "02129",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "meixuan Zhu",
+                            "role": "CONTACT",
+                            "phone": "617-726-5004",
+                            "email": "mzhu11@mgh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.37787,
+                        "lon": -71.062
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010003",
+                    "term": "Osteoarthritis"
+                },
+                {
+                    "id": "D000020370",
+                    "term": "Osteoarthritis, Knee"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001168",
+                    "term": "Arthritis"
+                },
+                {
+                    "id": "D000007592",
+                    "term": "Joint Diseases"
+                },
+                {
+                    "id": "D000009140",
+                    "term": "Musculoskeletal Diseases"
+                },
+                {
+                    "id": "D000012216",
+                    "term": "Rheumatic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12926",
+                    "name": "Osteoarthritis",
+                    "asFound": "Osteoarthritis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22168",
+                    "name": "Osteoarthritis, Knee",
+                    "asFound": "Knee Osteoarthritis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4476",
+                    "name": "Arthritis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10621",
+                    "name": "Joint Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12097",
+                    "name": "Musculoskeletal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15045",
+                    "name": "Rheumatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6323",
+                    "name": "Collagen Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

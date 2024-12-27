@@ -1,0 +1,806 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04606264",
+            "orgStudyIdInfo": {
+                "id": "STUDY19030022"
+            },
+            "organization": {
+                "fullName": "University of Pittsburgh",
+                "class": "OTHER"
+            },
+            "briefTitle": "Recommendations of Enhanced Recovery Interventions for Patient's Clinical Team and Collection of Associated Data",
+            "officialTitle": "Randomized, Embedded, Multifactorial Adaptive Platform for Perioperative Medicine at UPMC (UPMC REMAP): Core Protocol - Enhanced Recovery Protocols (ERP)",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "recommendations-of-enhanced-recovery-interventions-for-patient-s-clinical-team-and-collection-of-associated-data"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-10-08",
+            "studyFirstSubmitQcDate": "2020-10-21",
+            "studyFirstPostDateStruct": {
+                "date": "2020-10-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Jennifer Holder-Murray",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "University of Pittsburgh"
+            },
+            "leadSponsor": {
+                "name": "Jennifer Holder-Murray",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Berry Consultants",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This REMAP Periop ERP domain study falls under the Periop Core Protocol, which compares the different recommended strategies for enhancing recovery through the use of various standard of care treatments before, during and after surgery in all patients with elective surgical encounters at UPMC who meet eligibility criteria.\n\nThe ERP domain seeks to enhance recovery by optimizing strategies of perioperative care through evaluating combinations of perioperative treatment, which consists of preoperative, intraoperative and postoperative care. Optimal combinations of perioperative care will be generated and analyzed to determine the best outcomes for patients as defined by reduction in hospital free days, reduction in postoperative nausea and vomiting, and improved pain control.",
+            "detailedDescription": "The Periop Core Protocol is an administration structure designed to provide appropriate management of all aspects of the study, taking into account multiple factors including representation from clinics and hospitals that are participating in the trial, availability of skills and expertise related to trial conduct and statistical analysis, and content knowledge regarding acute illness, elective surgery, and the interventions that are being evaluated. Eligible patients will be randomized to a recommended set of standard of care treatments related to their surgery to identify those that improve outcomes as defined by hospital free days at 30 days from the date of the surgical encounter. The administration model is designed to provide effective operational and strategic management of the REMAP that operates in multiple UPMC facilities, is supported by multiple funding bodies and sponsors, and will evolve with addition of domains and interventions that are being evaluated.\n\nThe ERP domain under the Periop Core Protocol will evaluate the varying recommended combinations of perioperative treatments, in hopes to determine the optimal strategies for perioperative care based on surgery type and patient specific factors. In this study, patient care components within the preoperative, perioperative, and postoperative domains will be randomized with a machine learning REMAP technique. Optimal strategies combining the entire perioperative process will be analyzed that determine best outcomes for patients including hospital free days, reductions in postoperative nausea and vomiting, and improved pain control."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Perioperative Optimization"
+            ],
+            "keywords": [
+                "perioperative",
+                "enhanced recovery",
+                "patient-directed care",
+                "randomized embedded multifactorial adaptive platform",
+                "REMAP",
+                "ERP",
+                "90-day hospital free days",
+                "length of stay",
+                "perioperative optimization",
+                "oral morphine equivalents",
+                "postoperative nausea and vomiting",
+                "readmission"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 2500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Major Abdominal: Neuraxial Analgesia",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Intrathecal morphine",
+                    "interventionNames": [
+                        "Drug: Neuraxial Analgesia"
+                    ]
+                },
+                {
+                    "label": "Major Abdominal: Regional Analgesia Block 1",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Paravertebral block",
+                    "interventionNames": [
+                        "Drug: Regional Block 1: Paravertebral"
+                    ]
+                },
+                {
+                    "label": "Major Abdominal: PONV Optimal Prophylaxis",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Pre-op\n\n-perphenazine\n\nInduction -dexamethasone\n\nEmergence\n\n-ondansetron",
+                    "interventionNames": [
+                        "Drug: Perphenazine",
+                        "Drug: Ondansetron 4 MG",
+                        "Drug: Dexamethasone"
+                    ]
+                },
+                {
+                    "label": "Major Abdominal: PONV Supraoptimal Prophylaxis",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Pre-op\n\n* aprepitant\n* dimenhydrinate\n* perphenazine\n* ondansetron\n\nInduction -dexamethasone\n\nEmergence\n\n-ondansetron",
+                    "interventionNames": [
+                        "Drug: Perphenazine",
+                        "Drug: Aprepitant",
+                        "Drug: Dimenhydrinate",
+                        "Drug: Ondansetron 4 MG",
+                        "Drug: Dexamethasone"
+                    ]
+                },
+                {
+                    "label": "Major Abdominal: Regional Analgesia Block 2",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "QL1",
+                    "interventionNames": [
+                        "Drug: Regional Block 2: QL1"
+                    ]
+                },
+                {
+                    "label": "Major Abdominal: Neuraxial and Regional Analgesia Block 2",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "IT morphine and QL1",
+                    "interventionNames": [
+                        "Drug: Neuraxial Analgesia",
+                        "Drug: Regional Block 2: QL1"
+                    ]
+                },
+                {
+                    "label": "Major Abdominal: Neuraxial and Regional Analgesia Block 1",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "IT morphine and paravertebral",
+                    "interventionNames": [
+                        "Drug: Neuraxial Analgesia",
+                        "Drug: Regional Block 1: Paravertebral"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Neuraxial Analgesia",
+                    "description": "This randomized group will receive a neuraxial morphine injection (intrathecal morphine/hydromorphone).",
+                    "armGroupLabels": [
+                        "Major Abdominal: Neuraxial Analgesia",
+                        "Major Abdominal: Neuraxial and Regional Analgesia Block 1",
+                        "Major Abdominal: Neuraxial and Regional Analgesia Block 2"
+                    ],
+                    "otherNames": [
+                        "Intrathecal morphine/hydromorphone",
+                        "IT morphine/hydromorphine"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Regional Block 1: Paravertebral",
+                    "description": "This randomized group will receive regional technique analgesia with sodium channel nerve blockade pharmacotherapy (ie nerve block)",
+                    "armGroupLabels": [
+                        "Major Abdominal: Neuraxial and Regional Analgesia Block 1",
+                        "Major Abdominal: Regional Analgesia Block 1"
+                    ],
+                    "otherNames": [
+                        "Nerve Block"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Perphenazine",
+                    "description": "This randomized group will receive 8 mg of perphenazine orally preoperatively.",
+                    "armGroupLabels": [
+                        "Major Abdominal: PONV Optimal Prophylaxis",
+                        "Major Abdominal: PONV Supraoptimal Prophylaxis"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Aprepitant",
+                    "description": "This randomized group will receive 40 mg of aprepitant orally preoperatively.",
+                    "armGroupLabels": [
+                        "Major Abdominal: PONV Supraoptimal Prophylaxis"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Dimenhydrinate",
+                    "description": "This randomized group will receive 25 mg of dimenhydrinate orally preoperatively.",
+                    "armGroupLabels": [
+                        "Major Abdominal: PONV Supraoptimal Prophylaxis"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Ondansetron 4 MG",
+                    "description": "This randomized group will receive 4 mg of ondansetron orally.",
+                    "armGroupLabels": [
+                        "Major Abdominal: PONV Optimal Prophylaxis",
+                        "Major Abdominal: PONV Supraoptimal Prophylaxis"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Dexamethasone",
+                    "description": "This randomized group will receive 4-5 mg of dexamethasone intravenously.",
+                    "armGroupLabels": [
+                        "Major Abdominal: PONV Optimal Prophylaxis",
+                        "Major Abdominal: PONV Supraoptimal Prophylaxis"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Regional Block 2: QL1",
+                    "description": "This randomized group will receive regional technique analgesia with sodium channel nerve blockade pharmacotherapy (ie nerve block)",
+                    "armGroupLabels": [
+                        "Major Abdominal: Neuraxial and Regional Analgesia Block 2",
+                        "Major Abdominal: Regional Analgesia Block 2"
+                    ],
+                    "otherNames": [
+                        "Nerve Block"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "30 day hospital free days",
+                    "description": "The primary endpoint for this domain is the REMAP Periop primary outcome of hospital free days at 30 days after the elective surgical encounter.",
+                    "timeFrame": "Day 0 - Day 30"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in postoperative nausea and vomiting (PONV) by measurement incidences of emesis within 24 hours post surgery",
+                    "description": "Change in number of incidences of emesis 24 hours post surgery",
+                    "timeFrame": "0 - 24 hours surgery"
+                },
+                {
+                    "measure": "Change in the rate of postoperative opioid use by measurement of oral morphine equivalents (OME) postoperative day 0 to postoperative day 1",
+                    "description": "Change in the rate (mg/day) of Oral Morphine Equivalents administered",
+                    "timeFrame": "Day 0 - Day 1"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\n1. Patient is seen in preoperative appointment prior to surgery\n2. \u2265 18 years of age\n3. Anticipated overnight hospital stay\n4. Scheduled for elective abdominal surgery that utilizes ERP PowerPlans - placed into the patient's electronic chart at least one night before surgery\n5. ERP Abdominal Complex Pathway PowerPlan (used for colorectal and gastrointestinal surgery)\n6. ERP Bariatric Surgery Pathway PowerPlan\n7. ERP Gynecology Oncology Pathway PowerPlan\n8. ERP Whipple/Pancreas Pathway PowerPlan\n9. ERP Open Liver Resection Pathway PowerPlan\n10. Surgery is scheduled for one of the following UPMC sites:\n11. UPMC Presbyterian Hospital\n12. UPMC Passavant Hospital\n13. UPMC Magee-Women's Hospital\n\nExclusion Critera\n\n1. Death is deemed to be imminent or inevitable\n2. Patient is pregnant \\< 18 years of age\n3. Patients undergoing emergent/urgent surgery\n4. Patients that are pregnant\n5. Patients that have an eligible PowerPlan ordered less than one night before surgery",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jennifer Holder-Murray, MD, FACS",
+                    "role": "CONTACT",
+                    "phone": "877-684-7189",
+                    "email": "holdermurrayjm@upmc.edu"
+                },
+                {
+                    "name": "Miranda Masters",
+                    "role": "CONTACT",
+                    "email": "mastersmd@upmc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Stephen Esper, MD, MBA",
+                    "affiliation": "University of Pittsburgh",
+                    "role": "STUDY_CHAIR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UPMC Magee-Womens Hospital",
+                    "status": "RECRUITING",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15213",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nicole Zharichenko, MHS",
+                            "role": "CONTACT",
+                            "email": "zharichenkon3@upmc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                },
+                {
+                    "facility": "UPMC Presbyterian",
+                    "status": "RECRUITING",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15213",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nicole Zharichenko, MHS",
+                            "role": "CONTACT",
+                            "email": "zharichenkon3@upmc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                },
+                {
+                    "facility": "UPMC Passavant",
+                    "status": "RECRUITING",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15237",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nicole Zharichenko, MHS",
+                            "role": "CONTACT",
+                            "email": "zharichenkon3@upmc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified participant-level data underlying the results reported in journal articles, subject to appropriate security controls, may be available for sharing with other researchers.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP"
+            ],
+            "timeFrame": "Relevant data may be available 1 year following publication.",
+            "accessCriteria": "Data access is subject to a methodically sound proposal and the necessary data sharing agreements."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M17582",
+                    "name": "Vomiting",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12273",
+                    "name": "Nausea",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22074",
+                    "name": "Postoperative Nausea and Vomiting",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003907",
+                    "term": "Dexamethasone"
+                },
+                {
+                    "id": "D000009020",
+                    "term": "Morphine"
+                },
+                {
+                    "id": "D000004091",
+                    "term": "Hydromorphone"
+                },
+                {
+                    "id": "D000017294",
+                    "term": "Ondansetron"
+                },
+                {
+                    "id": "D000077608",
+                    "term": "Aprepitant"
+                },
+                {
+                    "id": "D000004111",
+                    "term": "Dimenhydrinate"
+                },
+                {
+                    "id": "D000010546",
+                    "term": "Perphenazine"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000893",
+                    "term": "Anti-Inflammatory Agents"
+                },
+                {
+                    "id": "D000000932",
+                    "term": "Antiemetics"
+                },
+                {
+                    "id": "D000001337",
+                    "term": "Autonomic Agents"
+                },
+                {
+                    "id": "D000018373",
+                    "term": "Peripheral Nervous System Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000005765",
+                    "term": "Gastrointestinal Agents"
+                },
+                {
+                    "id": "D000005938",
+                    "term": "Glucocorticoids"
+                },
+                {
+                    "id": "D000006728",
+                    "term": "Hormones"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                },
+                {
+                    "id": "D000018931",
+                    "term": "Antineoplastic Agents, Hormonal"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000000701",
+                    "term": "Analgesics, Opioid"
+                },
+                {
+                    "id": "D000009294",
+                    "term": "Narcotics"
+                },
+                {
+                    "id": "D000002492",
+                    "term": "Central Nervous System Depressants"
+                },
+                {
+                    "id": "D000000700",
+                    "term": "Analgesics"
+                },
+                {
+                    "id": "D000018689",
+                    "term": "Sensory System Agents"
+                },
+                {
+                    "id": "D000000982",
+                    "term": "Antipruritics"
+                },
+                {
+                    "id": "D000003879",
+                    "term": "Dermatologic Agents"
+                },
+                {
+                    "id": "D000058831",
+                    "term": "Serotonin 5-HT3 Receptor Antagonists"
+                },
+                {
+                    "id": "D000012702",
+                    "term": "Serotonin Antagonists"
+                },
+                {
+                    "id": "D000018490",
+                    "term": "Serotonin Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000064729",
+                    "term": "Neurokinin-1 Receptor Antagonists"
+                },
+                {
+                    "id": "D000014150",
+                    "term": "Antipsychotic Agents"
+                },
+                {
+                    "id": "D000014149",
+                    "term": "Tranquilizing Agents"
+                },
+                {
+                    "id": "D000011619",
+                    "term": "Psychotropic Drugs"
+                },
+                {
+                    "id": "D000018492",
+                    "term": "Dopamine Antagonists"
+                },
+                {
+                    "id": "D000015259",
+                    "term": "Dopamine Agents"
+                },
+                {
+                    "id": "D000006634",
+                    "term": "Histamine H1 Antagonists"
+                },
+                {
+                    "id": "D000006633",
+                    "term": "Histamine Antagonists"
+                },
+                {
+                    "id": "D000018494",
+                    "term": "Histamine Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7102",
+                    "name": "Dexamethasone",
+                    "asFound": "High",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M235549",
+                    "name": "Dexamethasone acetate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7275",
+                    "name": "Hydromorphone",
+                    "asFound": "Package",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11982",
+                    "name": "Morphine",
+                    "asFound": "400",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19588",
+                    "name": "Ondansetron",
+                    "asFound": "Extremity",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1864",
+                    "name": "Aprepitant",
+                    "asFound": "Muscle strength",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7295",
+                    "name": "Dimenhydrinate",
+                    "asFound": "Triceps surae",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13454",
+                    "name": "Perphenazine",
+                    "asFound": "Happen",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4217",
+                    "name": "Anti-Inflammatory Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4251",
+                    "name": "Antiemetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8881",
+                    "name": "Gastrointestinal Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9047",
+                    "name": "Glucocorticoids",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20966",
+                    "name": "Antineoplastic Agents, Hormonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4033",
+                    "name": "Analgesics, Opioid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4032",
+                    "name": "Analgesics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12245",
+                    "name": "Narcotics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7074",
+                    "name": "Dermatologic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15512",
+                    "name": "Serotonin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29246",
+                    "name": "Serotonin 5-HT3 Receptor Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30376",
+                    "name": "Neurokinin-1 Receptor Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16161",
+                    "name": "Substance P",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17988",
+                    "name": "Neurokinin A",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16904",
+                    "name": "Antipsychotic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14474",
+                    "name": "Psychotropic Drugs",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7473",
+                    "name": "Dopamine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20596",
+                    "name": "Dopamine Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17962",
+                    "name": "Dopamine Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9708",
+                    "name": "Histamine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9710",
+                    "name": "Histamine H1 Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M212144",
+                    "name": "Histamine phosphate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9709",
+                    "name": "Histamine Antagonists",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infl",
+                    "name": "Anti-Inflammatory Agents"
+                },
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "AnEm",
+                    "name": "Antiemetics"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "Derm",
+                    "name": "Dermatologic Agents"
+                },
+                {
+                    "abbrev": "PsychDr",
+                    "name": "Psychotropic Drugs"
+                },
+                {
+                    "abbrev": "CaAg",
+                    "name": "Cardiotonic Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

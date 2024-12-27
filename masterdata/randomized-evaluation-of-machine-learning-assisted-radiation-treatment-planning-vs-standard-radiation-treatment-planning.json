@@ -1,0 +1,449 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05979883",
+            "orgStudyIdInfo": {
+                "id": "GMROR2371"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "23-004732",
+                    "type": "OTHER",
+                    "domain": "Mayo Clinic Institutional Review Board"
+                }
+            ],
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Randomized Evaluation of Machine Learning Assisted Radiation Treatment Planning vs Standard Radiation Treatment Planning",
+            "officialTitle": "A Randomized Evaluation of Machine Learning Assisted Radiation Treatment Planning Versus Standard Radiation Treatment Planning",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "randomized-evaluation-of-machine-learning-assisted-radiation-treatment-planning-vs-standard-radiation-treatment-planning"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-07",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-11",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-31",
+            "studyFirstSubmitQcDate": "2023-07-31",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Daniel J. Ma, M.D.",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine the magnitude of clinical benefit achieved through machine learning assisted radiation treatment planning (MLAP) on post-treatment clinical outcomes such as acute toxicity and patient reported outcomes.",
+            "detailedDescription": "This is a randomized phase III trial to evaluate the effectiveness of MLAP compared to Standard of Care. Patients will undergo a randomization procedure with a variable allocation ratio where the first third of patients are randomized 3:1 in favor of SOC, the next third randomized 1:1, and the last third randomized 1:3 in favor of MLAP. This is done to give dosimetrists time to optimize the MLAP workflow. Since the treatment team may learn to improve their treatment planning process in the SOC arm through interactions with RapidPlan, as a sensitivity analysis, the primary and secondary goals will be re-analyzed including time of registration as a moderator of the treatment effect."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cancer Head Neck",
+                "Cancer, Head",
+                "Cancer Neck"
+            ],
+            "keywords": [
+                "MLAP (Machine Learning Adaptive Planning)",
+                "RapidPlan"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 204,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm A: Standard of care (SOC) treatment planning",
+                    "type": "OTHER",
+                    "description": "Patients randomized to the SOC treatment planning arm will receive a treatment planning computed tomography (CT) scan followed by dosimetric planning with a medical dosimetrist; and the plan will be reviewed by a medical physicist and radiation oncologist. This is the current standard practice for all radiation oncology patients.",
+                    "interventionNames": [
+                        "Radiation: Radiation Therapy Standard of Care (SOC)"
+                    ]
+                },
+                {
+                    "label": "Arm B: Machine Learning Assisted Planning (MLAP)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Patients randomized to the MLAP arm will receive a treatment planning scan followed by MLAP through the RapidPlan module produced by Varian. Of note, RapidPlan is an FDA cleared module with treatment planning being the approved usage for the program. The RapidPlan module has site specific treatment packages for different disease sites. These separate disease specific packages have different capabilities. For example, the Head and Neck package currently audits dosimetrist-generated plans for possible improvements. The MLAP arm of the trial will leverage the RapidPlan module's full capabilities upwards to the FDA-approved usage.",
+                    "interventionNames": [
+                        "Radiation: Machine Learning Assisted Radiation (MLAP) RapidPlan"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "Machine Learning Assisted Radiation (MLAP) RapidPlan",
+                    "description": "Radiation therapy simulation, target delineation, dosing, localization, and follow-up will be followed per standard of care practices and/or at the discretion of the treating radiation oncologist. To elaborate, patients will receive a treatment planning CT (computed tomography) scan, followed by normal tissue delineation through the physician and/or medical dosimetry assistant, followed by target delineation by the physician, followed by radiation treatment planning with the dosimetrist and medical physicist. The preliminary plan will be run through the RapidPlan module, which will give a list of possible improvements to the plan. The dosimetrist will then make an amendment to the plan according to RapidPlan suggestions, followed by plan change requests and approval by the physician.",
+                    "armGroupLabels": [
+                        "Arm B: Machine Learning Assisted Planning (MLAP)"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Radiation Therapy Standard of Care (SOC)",
+                    "description": "Radiation therapy simulation, target delineation, dosing, localization, and follow-up will be followed per standard of care practices and/or at the discretion of the treating radiation oncologist. To elaborate, patients will receive a treatment planning CT (computed tomography) scan, followed by normal tissue delineation through the physician and/or medical dosimetry assistant, followed by target delineation by the physician, followed by radiation treatment planning with the dosimetrist and medical physicist, followed by plan change requests and approval by the physician.",
+                    "armGroupLabels": [
+                        "Arm A: Standard of care (SOC) treatment planning"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in scores on the Swallowing subscale of the European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Head and Neck module (EORTC QLQ-H&N35)",
+                    "description": "Swallowing score will be measured at baseline (up to 30 days prior to treatment planning), at the end of Radiation Treatment (+ 14 days), and 3 months post Radiation Treatment (+/-30 days from 3 months post-radiotherapy). An ANCOVA model with the baseline Swallowing score as a covariate will be used to test for a significant difference between the two treatment arms at the 5% alpha level. The analysis will be modified intent-to-treat. Specifically, all patients meeting eligibility criteria who have signed a consent form, were randomized, started radiation treatment, and have a scale score within the time window of +/-30 days from 3 months post-radiotherapy will be considered evaluable for this endpoint.",
+                    "timeFrame": "Baseline; 6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in physician-reported toxicities as defined by the Common Terminology Criteria for Adverse Events (CTCAE) v5.0",
+                    "description": "CTCAES will be recorded at baseline (up to 30 days prior to treatment planning), at the end of Radiation Treatment (+14 days), and 3 months post Radiation Treatment (+/-30 days from 3 months post-radiotherapy). Physician-reported toxicities is defined as the dysphasia, dry mouth, and oral pain items from the CTCAE v5.0. The items will be analyzed individually and as a composite. Further, there will be two sets of comparisons: Grade 3+ versus not and Grade 2+ versus not. Comparisons between treatment arms will be made using a Chi-square test with an alpha level of 5%. The analyses will be modified intent-to-treat. Specifically, all patients meeting eligibility criteria who have signed a consent form, were randomized, started radiation treatment, and have toxicity scores within the time window of +/-30 days from 3 months post-radiotherapy will be considered evaluable for this endpoint.",
+                    "timeFrame": "Baseline; 6 months"
+                },
+                {
+                    "measure": "Difference in treatment plan quality metrics (PQMs) across treatment arms",
+                    "description": "Treatment PQM is a continuous-valued function depending on selected dose-volume histogram statistics for 5 organs-at-risk. Comparisons between treatment arms will be made using a two-sided Student's t-test (or Wilcoxon Rank-Sum test for non-normal data) with an alpha level of 5%. All eligible patients who went through treatment planning should be evaluable for this endpoint. Sensitivity analyses will be conducted for all secondary endpoints where the analyses will be repeated including the interaction of time of registration and treatment group and subgroup analyses for the 3 different allocation ratios will be conducted.",
+                    "timeFrame": "Baseline; 6 months"
+                },
+                {
+                    "measure": "Difference in time to complete treatment planning",
+                    "description": "Treatment planning time is defined as the time in minutes from the end of physician contouring to the end of physician plan approval. Comparisons between treatment arms will be made using a two-sided Student's t-test (or Wilcoxon Rank-Sum test for non-normal data) with an alpha level of 5%. All eligible patients who went through treatment planning should be evaluable for this endpoint. Sensitivity analyses will be conducted for all secondary endpoints where the analyses will be repeated including the interaction of time of registration and treatment group and subgroup analyses for the 3 different allocation ratios will be conducted.",
+                    "timeFrame": "Baseline; 6 months"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Difference in quality of life scores",
+                    "description": "Compare quality of life as measured by the 6 remaining subscales and 11 single item scores of the European Organization for Research and Treatment of Cancer Quality of Life Questionnaire Head and Neck module (EORTC QLQ-H\\&N35). EORTC scores will be recorded at baseline (up to 30 days prior to treatment planning), at the end of Radiation Treatment (+14 days), and 3 months post Radiation Treatment (+/-30 days from 3 months post-radiotherapy). Comparisons between treatment arms will be made using an ANCOVA model with the baseline Patient Reported Outcome (PRO) score included as a covariate and tested at an alpha level of 5%.",
+                    "timeFrame": "Baseline; 6 months"
+                },
+                {
+                    "measure": "Change in dose-volume histograms (DVHs)",
+                    "description": "DVH statistics will be compared between treatment arms within cohorts of planned radiation dose (30-54 Gy vs. 54-66 Gy vs. 66-76 Gy) and laterality (bilateral vs. unilateral). Comparisons between treatment arms will be made using a two-sided Student's t-test (or Wilcoxon Rank-Sum test for non-normal data) with an alpha level of 5%. All eligible patients who went through treatment planning should be evaluable for this endpoint.",
+                    "timeFrame": "Baseline; 6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18 years at time of registration\n* Receiving curative intent intensity modulated radiotherapy for head and neck primary cancer at the discretion of the treating medical doctor (MD)\n* Provide written informed consent or allow legally authorized representative to consent on behalf of a participant\n* Willing to return to enrolling institution for study follow-up visit\n\nExclusion Criteria:\n\n* Incarcerated\n* Unable to provide informed consent\n* Prior Head and Neck (H\\&N) radiation therapy\n* Planned radiation dosing LK\\<30 Gy or \\>76 Gy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Clinical Trials Referral Office",
+                    "role": "CONTACT",
+                    "phone": "855-77 6-0015",
+                    "email": "mayocliniccancerstudies@mayo.edu"
+                },
+                {
+                    "name": "Christy Todd",
+                    "role": "CONTACT",
+                    "phone": "507-293-2310",
+                    "email": "Todd.Christy@mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel J. Ma, M.D.",
+                    "affiliation": "Mayo Clinic in Rochester",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Arizona",
+                    "status": "RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85259",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Shawn Haren",
+                            "role": "CONTACT",
+                            "phone": "480-342-6083",
+                            "email": "Haren.Shawn@mayo.edu"
+                        },
+                        {
+                            "name": "Samir H. Patel, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic in Florida",
+                    "status": "RECRUITING",
+                    "city": "Jacksonville",
+                    "state": "Florida",
+                    "zip": "32224",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Caroline Pamboukas",
+                            "role": "CONTACT",
+                            "phone": "904-953-2791",
+                            "email": "Pamboukas.Caroline@mayo.edu"
+                        },
+                        {
+                            "name": "Byron C. May, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.33218,
+                        "lon": -81.65565
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic Health System in Albert Lea",
+                    "status": "RECRUITING",
+                    "city": "Albert Lea",
+                    "state": "Minnesota",
+                    "zip": "56007",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Christy Todd",
+                            "role": "CONTACT",
+                            "phone": "507-293-2310",
+                            "email": "Todd.Christy@mayo.edu"
+                        },
+                        {
+                            "name": "Timothy F. Kozelsky, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.64801,
+                        "lon": -93.36827
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic Health Systems-Mankato",
+                    "status": "RECRUITING",
+                    "city": "Mankato",
+                    "state": "Minnesota",
+                    "zip": "56001",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Christy Todd",
+                            "role": "CONTACT",
+                            "phone": "507-293-2310",
+                            "email": "Todd.Christy@mayo.edu"
+                        },
+                        {
+                            "name": "Ron S. Smith, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.15906,
+                        "lon": -94.00915
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic Health System-Eau Claire Clinic",
+                    "status": "RECRUITING",
+                    "city": "Eau Claire",
+                    "state": "Wisconsin",
+                    "zip": "54701",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Christy Todd",
+                            "role": "CONTACT",
+                            "phone": "507-293-2310",
+                            "email": "Todd.Christy@mayo.edu"
+                        },
+                        {
+                            "name": "Zachary C. Wilson, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.81135,
+                        "lon": -91.49849
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic Health System-Franciscan Healthcare",
+                    "status": "RECRUITING",
+                    "city": "La Crosse",
+                    "state": "Wisconsin",
+                    "zip": "54601",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Christy Todd",
+                            "role": "CONTACT",
+                            "phone": "507-293-2310",
+                            "email": "Todd.Christy@mayo.edu"
+                        },
+                        {
+                            "name": "Abigail L. Stockham, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.80136,
+                        "lon": -91.23958
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006258",
+                    "term": "Head and Neck Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "asFound": "Cancer, Head",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

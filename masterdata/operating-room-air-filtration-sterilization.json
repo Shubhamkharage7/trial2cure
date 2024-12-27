@@ -1,0 +1,283 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04610294",
+            "orgStudyIdInfo": {
+                "id": "20-656"
+            },
+            "organization": {
+                "fullName": "The Cleveland Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Operating Room Air Filtration/Sterilization",
+            "officialTitle": "Operating Room Air Filtration/Sterilization and Surgical Site Infection: A Randomized Multiple Cross-over Cluster Trial",
+            "acronym": "ORACLE",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "operating-room-air-filtration-sterilization"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-05-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-10-26",
+            "studyFirstSubmitQcDate": "2020-10-26",
+            "studyFirstPostDateStruct": {
+                "date": "2020-10-30",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "The Cleveland Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Determine whether operating room air filtration and sterilization with the ActivePure system reduces a composite of serious surgical site infections, infection-related complications, and death within 30 days after surgery.",
+            "detailedDescription": "The investigators primary goal is thus to determine whether supplemental filtering and sterilizing operating room air reduces a composite of serious surgical site infections, infection-related complications, and death within 30 days after surgery. The primary outcome will be restricted to inpatients. However, outpatients will be simultaneously enrolled given the trial's cluster design. Sample-size is based on our primary inpatient analysis, N= 66,273 inpatients. Available outpatients will be included for analysis of our secondary outcome which includes both inpatients and outpatients."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Surgery"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "Randomized multiple crossover cluster trial",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "QUADRUPLE",
+                    "maskingDescription": "Identical-looking test devices are either active or inactive. None of the investigators, clinicians, patients, or outcome assessors knows which are which.",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 66273,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Aerus air sterilization",
+                    "type": "EXPERIMENTAL",
+                    "description": "Aerus air sterilization system will be used in an operating room, in addition to routine room air filtration",
+                    "interventionNames": [
+                        "Device: Functioning Aerus air filtration/sterilization"
+                    ]
+                },
+                {
+                    "label": "Conventional air handling",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Only routine room air filtration will be used in an operation room.",
+                    "interventionNames": [
+                        "Device: Deactivated Aerus air filtration/sterilization"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Functioning Aerus air filtration/sterilization",
+                    "description": "Two units of Aerus air sterilization system will be used in each operating room, and each will be set to \"high.\" Units used for the trial will be modified internally to be active and will be sealed to prevent operating room personnel from opening the system and determining a unit's status.",
+                    "armGroupLabels": [
+                        "Aerus air sterilization"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Deactivated Aerus air filtration/sterilization",
+                    "description": "Two units of Aerus air sterilization system will be used in each operating room, and each will be set to \"high.\" Units used for the trial will be modified internally to be inactivated and will be sealed to prevent operating room personnel from opening the system and determining a unit's status. Units will be inactivated by removing the activated carbon, high-efficiency particulate filter, and ionization chamber. However, the fan will remain active as will the \"run\" lights.",
+                    "armGroupLabels": [
+                        "Conventional air handling"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Serious surgical site infections and related complication in previously uninfected surgical inpatients",
+                    "description": "Composite of serious surgical site infections, infection-related complications, and death in surgical inpatients without present-on-admission composite infection components",
+                    "timeFrame": "30 days after surgery"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Serious surgical site infections and related complication in previously uninfected surgical inpatients and outpatients",
+                    "description": "Composite of serious surgical site infections, infection-related complications, and death in surgical inpatients and outpatients without present-on-admission composite infection components",
+                    "timeFrame": "30 days after surgery"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All patients in designated adult operating rooms\n* American Society of Anesthesiologists physical status 1-4.\n* Surgery lasting at least 1 hour.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Fabio Rodriguez Patarroyo, MD",
+                    "role": "CONTACT",
+                    "phone": "\u202d(216) 507-3610\u202c",
+                    "email": "Rodrigf3@ccf.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel I Sessler, MD",
+                    "affiliation": "The Cleveland Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cleveland Clinic",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Fabio Rodrizues Patarroyo, MD",
+                            "role": "CONTACT",
+                            "phone": "216-507-3610\u202c",
+                            "email": "Rodrigf3@ccf.org"
+                        },
+                        {
+                            "name": "Daniel I Sessler, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Patient level data will be shared collaboratively. Sharing will require approval of the trial steering committee and appropriate institutions approvals and data-sharing contracts.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "1 year after publication of the main trial paper.",
+            "accessCriteria": "Contact principal investigator."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M16310",
+                    "name": "Surgical Wound Infection",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4202",
+                    "name": "Oculocerebral Syndrome With Hypopigmentation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M5852",
+                    "name": "Charcoal",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

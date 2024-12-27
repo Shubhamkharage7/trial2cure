@@ -1,0 +1,321 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05201014",
+            "orgStudyIdInfo": {
+                "id": "21-006790"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2022-05920",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trials Reporting Program)"
+                }
+            ],
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Cancer Survivor Cardiomyopathy Detection",
+            "officialTitle": "CAncer Survivor CArdiomyopathy DEtection Pilot Study",
+            "acronym": "CASCADE",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "cancer-survivor-cardiomyopathy-detection"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-03-03",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-02",
+            "studyFirstSubmitQcDate": "2022-01-19",
+            "studyFirstPostDateStruct": {
+                "date": "2022-01-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Joerg Herrmann, MD",
+                "investigatorTitle": "Professor of Medicine",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Miami Heart Research Institute",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to improve the cardiovascular care of adult cancer survivors. The goal is to obtain the data necessary to plan and develop a nation-wide network of a screening program that can help provide cost-effective and long-term monitoring.",
+            "detailedDescription": "The primary objective of this study is to define the diagnostic performance and optimal cutoffs of AI-ECG and NT-pro-BNP for the detection of left ventricular dysfunction (LVD, defined as a left ventricular ejection fraction (LVEF) \\<50%) in cancer patients at 1 year after completion of anthracycline-based chemotherapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cardiovascular Diseases",
+                "Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "OTHER"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "1 year follow-up",
+                    "description": "patients who were treated in the year before and are now returning for their 1-year follow-up.",
+                    "interventionNames": [
+                        "Diagnostic Test: NT-pro-BNP",
+                        "Diagnostic Test: Electrocardiogram",
+                        "Diagnostic Test: Echocardiogram"
+                    ]
+                },
+                {
+                    "label": "Prior to anthracycline-based therapy",
+                    "description": "patients presenting before the start of anthracycline-based therapy, then to be followed thereafter for 1 year and thereby contributing to the pool of patients with 1-year post-anthracycline assessment.",
+                    "interventionNames": [
+                        "Diagnostic Test: NT-pro-BNP",
+                        "Diagnostic Test: Electrocardiogram",
+                        "Diagnostic Test: Echocardiogram"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "NT-pro-BNP",
+                    "description": "Blood draw",
+                    "armGroupLabels": [
+                        "1 year follow-up",
+                        "Prior to anthracycline-based therapy"
+                    ],
+                    "otherNames": [
+                        "Blood Biomarker"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Electrocardiogram",
+                    "description": "electrodes are placed on certain spots and a reading obtained to measure the voltage of the heart",
+                    "armGroupLabels": [
+                        "1 year follow-up",
+                        "Prior to anthracycline-based therapy"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Echocardiogram",
+                    "description": "medical imaging of the heart",
+                    "armGroupLabels": [
+                        "1 year follow-up",
+                        "Prior to anthracycline-based therapy"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Diagnostic performance of AI-ECG for left ventricular ejection fraction (LVEF) < 50%",
+                    "description": "Determination of the sensitivity, specificity, positive and negative prediction value as well as area under the curve for receiver operating characteristics for the 12-lead AI ECG algorithm for an LVEF \\<50%",
+                    "timeFrame": "1 year post anthracycline therapy"
+                },
+                {
+                    "measure": "Diagnostic performance of NT-pro-BNP for left ventricular ejection fraction (LVEF) < 50%",
+                    "description": "Determination of the sensitivity, specificity, positive and negative prediction value as well as area under the curve for receiver operating characteristics for NT-pro-BNP \\>125 for an LVEF \\<50%",
+                    "timeFrame": "1 year post anthracycline therapy"
+                },
+                {
+                    "measure": "Diagnostic performance of AI-ECG and NT-pro-BNP for left ventricular ejection fraction (LVEF) < 50%",
+                    "description": "Determination of the sensitivity, specificity, positive and negative prediction value as well as area under the curve for receiver operating characteristics for the 12-lead AI ECG algorithm and NT-pro-BNP \\>125 combined for an LVEF \\<50%",
+                    "timeFrame": "1 year post anthracycline therapy"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Absolute change in LVEF from baseline to 1 year from anthracycline-based therapy",
+                    "description": "Calculation of the the change in LVEF from baseline to 1 year from anthracycline-based therapy",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Absolute change in AI-ECG probability for LVEF <50% from baseline to 1 year from anthracycline-based therapy",
+                    "description": "Calculation of the change in AI-ECG probability of LVEF \\<50% from baseline to 1 year from anthracycline-based therapy",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Correlation of change in LVEF and AI-ECG probability of LVEF <50% from baseline to 1 year from anthracycline-based therapy",
+                    "description": "Calculation of the correlation coefficient of change in LVEF and AI-ECG probability of LVEF \\<50% from baseline to 1 year from anthracycline-based therapy",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Absolute change in NT-pro-BNP from baseline to 1 year from anthracycline-based therapy",
+                    "description": "Calculation of the change NT-pro-BNP from baseline to 1 year from anthracycline-based therapy",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Correlation of change in LVEF and NT-pro-BNP from baseline to 1 year from anthracycline-based therapy",
+                    "description": "Calculation of the correlation coefficient of change in LVEF and NT-pro-BNP from baseline to 1 year from anthracycline-based therapy",
+                    "timeFrame": "1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u226518 years of age prior to enrollment and anthracycline start date\n* diagnosis of breast cancer, lymphoma, or sarcoma with either planned or at 1 year after completion of anthracycline therapy, including patients from 6-12 months and greater than 1 year post-anthracycline exposure.\n\nExclusion Criteria:\n\n* LVEF \\<50% or prior confirmed history of cardiomyopathy, heart failure, persistent atrial fibrillation, left bundle branch block, or paced rhythm\n* Individuals with pacemakers, defibrillators, or other implanted electronic devices\n* Inability/unwillingness of individual to give written informed consent",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "99 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "200 cancer survivors who are 1 year out from anthracycline-based therapy.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Tiffany Hansen",
+                    "role": "CONTACT",
+                    "phone": "507-293-0196",
+                    "email": "Hansen.Tiffany@mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Joerg Herrmann, MD",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Rochester",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Tiffany Hansen",
+                            "role": "CONTACT",
+                            "phone": "507-293-0196",
+                            "email": "Hansen.Tiffany@mayo.edu"
+                        },
+                        {
+                            "name": "Joerg Herrmann, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000009202",
+                    "term": "Cardiomyopathies"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12154",
+                    "name": "Cardiomyopathies",
+                    "asFound": "Cardiomyopathy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,332 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT02549638",
+            "orgStudyIdInfo": {
+                "id": "15-000548"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Identification of Prognostic Biomarkers for Progression of Invasive Squamous Cell Carcinoma",
+            "officialTitle": "Identification of Prognostic Biomarkers for Progression of Invasive Squamous Cell Carcinoma",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "identification-of-prognostic-biomarkers-for-progression-of-invasive-squamous-cell-carcinoma"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2015-08"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2015-09-10",
+            "studyFirstSubmitQcDate": "2015-09-11",
+            "studyFirstPostDateStruct": {
+                "date": "2015-09-15",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2023-10-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Dennis Wigle",
+                "investigatorTitle": "PI",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study will utilize both retrospective and prospective data collection from patients that already had a bronchoscopy and lung resection or will have a bronchoscopy and lung resection for squamous cell carcinoma. The investigators plan to prospectively collect 5 bronchoscopic biopsies, 10ml blood and one tumor and adjacent normal samples from 200 qualified patients who meet the study criteria.",
+            "detailedDescription": "The study will utilize both retrospective and prospective data collection from patients that have already had a bronchoscopy and lung resection or will have a bronchoscopy and lung resection for squamous cell carcinoma. The investigators plan to prospectively collect 5 bronchoscopic biopsies, 10ml blood and one tumor and adjacent normal samples from 200 qualified patients who meet the study criteria. If a patient has already had a bronchoscopy and has consented to have samples stored for research at the Mayo Clinic Rochester we will access them for the research study if available. Otherwise, if the patient has already had surgery and tissue has not been stored for research the investigators will consent patients to use their clinical specimens for the research study. The investigators will then extract DNA from tissue sections and blood and use a custom targeted sequencing panel of 23 cancer driver genes with significant mutations in squamous cell carcinoma that they have developed to find the prognostic biomarkers. The DNA will be used in a PCR reaction to generate amplicons for library preparation using Illumina Nextera XT library preparation protocol and targeted sequencing on the Illumina Hiseq sequencer. The reads will be aligned to the HG19 using BWA aligner and variant detection performed with Agilent SureCall and GATK analytic tools."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Carcinoma, Squamous Cell",
+                "Carcinoma, Squamous",
+                "Squamous Cell Carcinoma",
+                "Lung Neoplasms",
+                "Cancer of Lung",
+                "Cancer of the Lung",
+                "Lung Cancer",
+                "Neoplasms, Lung",
+                "Neoplasms, Pulmonary",
+                "Pulmonary Cancer",
+                "Pulmonary Neoplasms"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "5 bronchoscopic biopsies, 10ml blood and one tumor and adjacent normal samples"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Tissue Collection",
+                    "description": "We plan to prospectively collect 5 bronchoscopic biopsies, 3ml blood and one tumor and adjacent normal samples from 200 qualified patients who meet the study criteria. If a patient has already had a bronchoscopy and has samples available that were previously collected and stored for research at the Mayo Clinic we will use those samples.",
+                    "interventionNames": [
+                        "Genetic: DNA Extraction"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "GENETIC",
+                    "name": "DNA Extraction",
+                    "description": "We will then extract DNA from tissue sections and blood and use a custom targeted sequencing panel of 23 cancer driver genes with significant mutations in squamous cell carcinoma that we have developed to find the prognostic biomarkers. The DNA will be used in a PCR reaction to generate amplicons for library preparation using Illumina Nextera XT library preparation protocol and targeted sequencing on the Illumina Hiseq sequencer. The reads will be aligned to the HG19 using BWA aligner and variant detection performed with Agilent SureCall and GATK analytic tools.",
+                    "armGroupLabels": [
+                        "Tissue Collection"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number and types of recurrent genomic alterations evaluated by a custom targeted sequencing panel.",
+                    "description": "The aim of this study is to identify and characterized recurrent genomic alteration found in invasive squamous cell carcinoma that are present in the precursor airway epithelial tissues but absent in normal tissues examined from samples taken during a lung procedure.",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* known or suspected squamous cell carcinoma of the lung\n* able to provide consent\n* could have already had a bronchoscopy or surgical resection with tissue saved at the Mayo Clinic Rochester\n* will be undergoing a bronchoscopy and having a surgical resection at the Mayo Clinic Rochester\n\nExclusion Criteria:\n\n* unable to provide consent\n* pregnant",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Mayo Clinic Thoracic Surgery Patients",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Karlyn Pierson, MAN, RN",
+                    "role": "CONTACT",
+                    "phone": "507-538-1960",
+                    "email": "pierson.karlyn@mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Dennis Wigle, MD, PhD",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Rochester",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Karlyn E Pierson, RN",
+                            "role": "CONTACT",
+                            "phone": "507-538-1960",
+                            "email": "pierson.karlyn@mayo.edu"
+                        },
+                        {
+                            "name": "Dennis A Wigle, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000002294",
+                    "term": "Carcinoma, Squamous Cell"
+                },
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000018307",
+                    "term": "Neoplasms, Squamous Cell"
+                },
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20559",
+                    "name": "Disease Progression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5550",
+                    "name": "Carcinoma, Squamous Cell",
+                    "asFound": "Carcinoma, Squamous",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20451",
+                    "name": "Neoplasms, Squamous Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

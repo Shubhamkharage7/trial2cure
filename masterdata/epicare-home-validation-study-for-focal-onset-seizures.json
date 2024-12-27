@@ -1,0 +1,339 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05738226",
+            "orgStudyIdInfo": {
+                "id": "BF0002"
+            },
+            "organization": {
+                "fullName": "Byteflies",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "EpiCare@Home Validation Study for Focal Onset Seizures",
+            "officialTitle": "Validation Study for Monitoring of Focal Onset Epileptic Seizures With a Wearable Seizure Monitoring Device, EpiCare@Home",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "epicare-home-validation-study-for-focal-onset-seizures"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-01-23",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2023-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-02-01",
+            "studyFirstSubmitQcDate": "2023-02-10",
+            "studyFirstPostDateStruct": {
+                "date": "2023-02-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-02-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-02-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Byteflies",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Thomas Jefferson University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to validate a wearable seizure monitoring device, EpiCare@Home, as an objective seizure monitoring tool for people with focal onset epileptic seizures. The device continuously records brain, cardiorespiratory, and physical activity data.\n\nThe study aims to 1) collect benchmark data for seizure detection algorithm development and validation, and 2) evaluate the performance of the device in clinical and at home workflows.\n\nParticipants will wear the device during a routine Epilepsy Monitoring Unit (EMU) admission. Additionally, they can continue wearing the device at home after the EMU admission.",
+            "detailedDescription": "Epilepsy, a neurological disorder characterized by recurrent epileptic seizures of often complex etiology, affects 65 million people globally. The current reference for home use is self-reported outcomes (typically via a seizure diary) which leads to significant under and inaccurate reporting of seizures. As seizure counting is the basis for many medical decisions, the ability to accurately and unobtrusively log seizures during activities of daily living would: 1) improve clinical practice by reducing the need for patients to spend time in an Epilepsy Monitoring Unit (EMU) and more quickly identify an appropriate treatment plan; and 2) provide a means to collect real-world data (RWD) for research and clinical purposes.\n\nEpiCare@Home is a multimodal device that can continuously record EEG with unobtrusive behind-the-ear electrodes, in addition to cardiorespiratory and physical motion data. The device is intended to be used by a trained healthcare professional (HCP) as a clinical decision support tool during the management of people with epilepsy.\n\nThe clinical trial aims to analytically validate the performance of the seizure detection component of the device, specifically for focal onset seizures. In addition, it intends to clinically validate the ability of the device to support clinical workflows, from the perspective of healthcare professional and patient users alike."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Epilepsy",
+                "Seizures",
+                "Seizures, Focal",
+                "Seizure, Refractory"
+            ],
+            "keywords": [
+                "Wearable device",
+                "Seizure monitoring",
+                "Diagnostic support",
+                "EpiCare@Home",
+                "Clinical Decision Support (CDS)"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "EpiCare@Home",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients with a history or suspicion of focal onset epilepsy admitted to the EMU for routine observation will be able to opt-in to using EpiCare@Home during their admission. Optionally, they will be able to continue using the device at home after EMU discharge.",
+                    "interventionNames": [
+                        "Device: EpiCare@Home, wearable multimodal seizure monitoring system"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "EpiCare@Home, wearable multimodal seizure monitoring system",
+                    "description": "Two wearable devices (Byteflies Sensor Dots) will be used. One Sensor Dot will be placed in the neck with a skin adhesive and will be connected to EEG electrodes placed behind each ear. The second Sensor Dot will be placed on the chest with an adhesive ECG electrode (i.e., a cardiac \"patch\").",
+                    "armGroupLabels": [
+                        "EpiCare@Home"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity of algorithmic detection of potential epileptic events on EpiCare@Home data as compared to video-EEG ground truth annotations.",
+                    "description": "Analytical validation of the algorithmic processing will be conducted by calculating the sensitivity (recall) of potential epileptic events and comparing it to ground truth annotations. The sensitivity is expected to be 65% or higher.",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days"
+                },
+                {
+                    "measure": "Sensitivity of algorithmic detection of potential epileptic events on a subset of temporal lobe epilepsy EpiCare@Home study participants as compared to video-EEG ground truth annotations.",
+                    "description": "Analytical validation of the algorithmic processing will be conducted by calculating the sensitivity (recall) of potential epileptic events and comparing it to ground truth annotations. The sensitivity is expected to be 85% or higher.",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days"
+                },
+                {
+                    "measure": "Specificity of the classification of potential epileptic events as seizures by two independent trained reviewers as compared to video-EEG ground truth annotations.",
+                    "description": "Clinical validation of the ability of trained reviewers to identify \"real\" seizures will be conducted by calculating the specificity of reviewed events and comparing it to ground truth annotations. The specificity is expected to be 95% or higher.",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Compare the seizure duration as measured by EpiCare@Home to video-EEG ground truth annotations.",
+                    "description": "For confirmed seizures in both the EpiCare@Home and ground truth datasets, the length of each event is expected to be 85% similar.",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days"
+                },
+                {
+                    "measure": "Sensitivity and specificity of the potential epileptic events as detected by EpiCare@Home, compared to events recorded in a seizure diary.",
+                    "description": "In the optional home portion of the study, participants will be asked to keep a seizure diary. The events recorded in that diary will be compared to validated seizures in the EpiCare@Home dataset to calculate sensitivity and specificity.",
+                    "timeFrame": "From EMU discharge until the end of the home use period, for up to 14 days"
+                },
+                {
+                    "measure": "Post-analysis of the sensitivity of detection of potential epileptic events on subsets of data categorized based on seizure origin.",
+                    "description": "A post-analysis will be performed to quantify the effect of seizure origin on the sensitivity (recall) of potential epileptic events, as compared to video-EEG ground truth annotations.",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days"
+                },
+                {
+                    "measure": "Interrater reliability (IRR) of the trained reviewers.",
+                    "description": "The IRR of the trained annotators who conduct clinical validation will be calculated and used to consider if the training was sufficient. A moderate or better reliability (IRR \\> 0.60) is expected.",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Evaluate device performance by comparing the total length of recorded usable data with EpiCare@Home to video-EEG or the expected recording time at home.",
+                    "description": "Usable data is defined as data that an expert reviewer can read and interpret. The length of recorded data with EpiCare@Home will be compared against the expected recording length, either based on video-EEG timing or prescribed home use period.",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days with an optional home use period of up to 14 days"
+                },
+                {
+                    "measure": "Assess the usability of the device via user surveys for healthcare professionals and patients.",
+                    "description": "Surveys will be provided to patients at the end of study participation and healthcare professionals will be interviewed about their experience with the device. Surveys will be scored on a 5-point Likert scale (\\[1\\] strongly disagree, \\[5\\] strongly agree).",
+                    "timeFrame": "From EMU admission to discharge, up to 10 days with an optional home use period of up to 14 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult (age \u2265 18) and adolescent (12 \u2264 age \\< 18) patients with a known history or suspicion of focal onset epilepsy, including focal-to-bilateral tonic-clonic seizures\n* A clinical indication for \u2265 1 h EMU observation.\n* Participants should be able to maintain a seizure diary in the provided EpiCare@Home Patient App (themselves or via a caregiver). Alternatively, the use of a paper seizure diary is allowed.\n\nExclusion Criteria:\n\n* Inability to provide written informed consent, either direct or via a proxy.\n* Known allergy or skin-sensitivity to the materials used in the Byteflies Adhesives or any 3rd party biopotential electrode.\n* Having an implanted device may be grounds for exclusion, depending on the type and location of the implant. Implanted devices, such as (but not limited to) pacemakers, cardioverter defibrillators (ICD), and/or neural stimulation devices may contain magnetic switches. Byteflies Sensor Dots contain magnets that may interfere with the operation of these devices. The chance of this happening based on the strength of the magnets is exceedingly low (for comparison, the magnet strength is 10x lower than what is found in Apple Magsafe cases) but it has not been excluded by formal testing either. The risk will be evaluated on a case-by-case basis.\n* Any other condition or finding that would compromise the safety of the participant or the quality of the study data, or otherwise interfere with achieving the study objectives, as determined by the investigator or research coordinator.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Waverlee Harvey, BSc",
+                    "role": "CONTACT",
+                    "phone": "+32 32 94 74 99",
+                    "email": "waverlee.harvey@byteflies.com"
+                },
+                {
+                    "name": "Julie Nys, PhD",
+                    "role": "CONTACT",
+                    "phone": "+32 32 94 74 99",
+                    "email": "julie.nys@byteflies.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Benjamin Vandendriessche, PhD",
+                    "affiliation": "Byteflies",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Thomas Jefferson University",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19107",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Sperling, MD",
+                            "role": "CONTACT",
+                            "phone": "215-955-1222",
+                            "email": "michael.sperling@jefferson.edu"
+                        },
+                        {
+                            "name": "Jessica Rinaldi, BA",
+                            "role": "CONTACT",
+                            "phone": "+1 (215) 955-4672",
+                            "email": "jessica.rinaldi@jefferson.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "29295522",
+                    "type": "BACKGROUND",
+                    "citation": "Gu Y, Cleeren E, Dan J, Claes K, Van Paesschen W, Van Huffel S, Hunyadi B. Comparison between Scalp EEG and Behind-the-Ear EEG for Development of a Wearable Seizure Detection System for Patients with Focal Epilepsy. Sensors (Basel). 2017 Dec 23;18(1):29. doi: 10.3390/s18010029."
+                },
+                {
+                    "pmid": "32160324",
+                    "type": "BACKGROUND",
+                    "citation": "Vandecasteele K, De Cooman T, Dan J, Cleeren E, Van Huffel S, Hunyadi B, Van Paesschen W. Visual seizure annotation and automated seizure detection using behind-the-ear electroencephalographic channels. Epilepsia. 2020 Apr;61(4):766-775. doi: 10.1111/epi.16470. Epub 2020 Mar 11."
+                },
+                {
+                    "pmid": "32563052",
+                    "type": "BACKGROUND",
+                    "citation": "Boada CM, French JA, Dumanis SB. Proceedings of the 15th Antiepileptic Drug and Device Trials Meeting: State of the Science. Epilepsy Behav. 2020 Oct;111:107189. doi: 10.1016/j.yebeh.2020.107189. Epub 2020 Jun 17."
+                },
+                {
+                    "pmid": "34240748",
+                    "type": "BACKGROUND",
+                    "citation": "Vandecasteele K, De Cooman T, Chatzichristos C, Cleeren E, Swinnen L, Macea Ortiz J, Van Huffel S, Dumpelmann M, Schulze-Bonhage A, De Vos M, Van Paesschen W, Hunyadi B. The power of ECG in multimodal patient-specific seizure monitoring: Added value to an EEG-based detector using limited channels. Epilepsia. 2021 Oct;62(10):2333-2343. doi: 10.1111/epi.16990. Epub 2021 Jul 9."
+                },
+                {
+                    "pmid": "34490891",
+                    "type": "BACKGROUND",
+                    "citation": "Swinnen L, Chatzichristos C, Jansen K, Lagae L, Depondt C, Seynaeve L, Vancaester E, Van Dycke A, Macea J, Vandecasteele K, Broux V, De Vos M, Van Paesschen W. Accurate detection of typical absence seizures in adults and children using a two-channel electroencephalographic wearable behind the ears. Epilepsia. 2021 Nov;62(11):2741-2752. doi: 10.1111/epi.17061. Epub 2021 Sep 7."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "EpiCare@Home product website",
+                    "url": "https://www.byteflies.com/epicarehome"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012640",
+                    "term": "Seizures"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7983",
+                    "name": "Epilepsy",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15452",
+                    "name": "Seizures",
+                    "asFound": "Seizures",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

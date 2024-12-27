@@ -1,0 +1,322 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05816473",
+            "orgStudyIdInfo": {
+                "id": "2000034521"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "1K23DK125718-01A1",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/1K23DK125718-01A1"
+                }
+            ],
+            "organization": {
+                "fullName": "Yale University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Artificial Intelligent Clinical Decision Support System Simulation Center Study for Technology Acceptance",
+            "officialTitle": "Artificial Intelligent Clinical Decision Support System Simulation Center Study: Trust and Usefulness of Machine Learning Risk Stratification Tool for Acute Gastrointestinal Bleeding Using the Technology Acceptance Model",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "artificial-intelligent-clinical-decision-support-system-simulation-center-study-for-technology-acceptance"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-23",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-13",
+            "studyFirstSubmitQcDate": "2023-04-14",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-09",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Yale University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this research study is to measure the effect on of a large language model interface on the usability, attitudes, and provider trust when using a machine learning algorithm-based clinical decision support system in the setting of bleeding from the upper gastrointestinal tract (upper GIB). Specifically, the investigators are looking to assess the optimal implementation of such machine learning algorithms in simulation scenarios to best engender trust and improve usability. Participants will be randomized to either machine learning algorithm alone or algorithm with a large language model interface and exposed to simulation cases of upper GIB.",
+            "detailedDescription": "The experiment will deploy a previously validated machine learning algorithm trained on existing clinical datasets within simulation scenarios in which a patient with acute gastrointestinal bleeding (at low, moderate, and high risk for poor outcome) is evaluated.\n\nPrior to the simulation, a baseline educational module about artificial intelligence, machine learning, and clinical decision support will be provided to all participants. The investigators will establish psychological safety by detailing what is available in the room, the opportunity to call a consultant, and availability of laboratory and radiographic studies. Each clinical scenario will run for approximately 10 minutes based on real patient cases where vital signs change over time and laboratory values are made available at specific points in the assessment. The study will evaluate the effect of a large language model-based interaction with the machine learning algorithm with interpretability dashboard compared to the machine learning algorithm with interpretability dashboard alone. Each participant will receive three scenarios in randomized order of risk.\n\nFor the large language model interaction arm, participants will be provided the computer workstation a LLM chatbot interface of the algorithm and interpretability dashboard For the machine learning dashboard arm, participants will be provided the computer workstation with the algorithm and interpretability dashboard."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Gastrointestinal Hemorrhage"
+            ],
+            "keywords": [
+                "Implementation science",
+                "Artificial intelligence",
+                "Decision Support Systems, Clinical",
+                "Simulation Training"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 85,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Large Language Model-based Interaction",
+                    "type": "EXPERIMENTAL",
+                    "description": "LLM-powered chatbot with the machine learning dashboard to provide the risk assessment and provide rationale based on interpretability metrics provided by the dashboard in which study participants can directly interact with using natural language. Participants will be provided the Generative Pre-trained Transformer (GPT) chatbot powered machine learning model dashboard.",
+                    "interventionNames": [
+                        "Other: LLM"
+                    ]
+                },
+                {
+                    "label": "Machine Learning Dashboard",
+                    "type": "NO_INTERVENTION",
+                    "description": "Machine learning algorithm output with an interactive dashboard that can be used to explain, or interpret the input factors that contribute most towards the generated risk score. Participants will have access to the machine learning dashboard only."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "LLM",
+                    "description": "Use of a Large Language Model (LLM) chatbot interface to Interact with the Machine Learning Algorithm and interpretability dashboard.",
+                    "armGroupLabels": [
+                        "Large Language Model-based Interaction"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Attitudes Towards Machine Learning Algorithms in Clinical Care using UTAUT",
+                    "description": "The study will use a common set of dependent variables to assess baseline and post-intervention attitudes towards machine learning algorithms in clinical care using an adapted Unified Theory of Acceptance and Use of Technology (UTAUT) survey assessing perceived usefulness of the system, perceived ease of use, attitudes towards using it, behavioral intentions, and trust, measured with a 5-point Likert scale. Change in UTAUT survey response at recruitment prior to administration of scenarios and immediately after completion of scenarios. The difference in time between the two will be approximately 60 minutes.",
+                    "timeFrame": "Approximately 60 minutes"
+                },
+                {
+                    "measure": "Clinician Decision Making of Triage of GI bleeding",
+                    "description": "This study will determine the number of study participants (out of all study participants in the group) who accurately choose the correct clinical decision for each simulation scenario of acute upper GI bleeding for each treatment condition. Immediately after completion of scenarios (60 minutes from initiation of study for each participant). No further follow up afterwards.",
+                    "timeFrame": "Approximately 60 minutes"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Internal Medicine residency trainees at study institution\n* Emergency Medicine residency trainees at study institution\n\nExclusion Criteria:\n\n* N/A",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sunny Chung, MD",
+                    "role": "CONTACT",
+                    "phone": "8436189423",
+                    "email": "sunny.chung@yale.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Dennis Shung, MD",
+                    "affiliation": "Yale School of Medicine Section of Digestive Diseases",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Yale New Haven Hospital",
+                    "status": "RECRUITING",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06510",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sunny Chung, MD",
+                            "role": "CONTACT",
+                            "phone": "843-618-9423",
+                            "email": "sunny.chung@yale.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "27521511",
+                    "type": "BACKGROUND",
+                    "citation": "Laine L. Risk Assessment Tools for Gastrointestinal Bleeding. Clin Gastroenterol Hepatol. 2016 Nov;14(11):1571-1573. doi: 10.1016/j.cgh.2016.08.003. Epub 2016 Aug 10. No abstract available."
+                },
+                {
+                    "pmid": "22310222",
+                    "type": "BACKGROUND",
+                    "citation": "Laine L, Jensen DM. Management of patients with ulcer bleeding. Am J Gastroenterol. 2012 Mar;107(3):345-60; quiz 361. doi: 10.1038/ajg.2011.480. Epub 2012 Feb 7."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Leonardi, P. M. 2009. Why do people reject new technologies and stymie organizational changes of which they are in favor? Exploring misalignments between social interactions and materiality. Human Communication Research, 35(3): 407-441."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Venkatesh, V., Morris, M. G., Davis, G. B., & Davis, F. D. (2003). User Acceptance of Information Technology: Toward a Unified View. MIS Quarterly, 27(3), 425-478"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006471",
+                    "term": "Gastrointestinal Hemorrhage"
+                },
+                {
+                    "id": "D000006470",
+                    "term": "Hemorrhage"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9556",
+                    "name": "Hemorrhage",
+                    "asFound": "Hemorrhage",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9557",
+                    "name": "Gastrointestinal Hemorrhage",
+                    "asFound": "Gastrointestinal Hemorrhage",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11767",
+                    "name": "Metronidazole",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

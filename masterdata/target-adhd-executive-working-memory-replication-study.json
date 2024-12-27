@@ -1,0 +1,267 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06446284",
+            "orgStudyIdInfo": {
+                "id": "HHC-2023-0178"
+            },
+            "organization": {
+                "fullName": "Hartford Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Target ADHD Executive Working Memory Replication Study",
+            "officialTitle": "Behavioral and Neural Target Engagement for ADHD Executive Working Memory Training",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "target-adhd-executive-working-memory-replication-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-08-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-26",
+            "studyFirstSubmitQcDate": "2024-06-04",
+            "studyFirstPostDateStruct": {
+                "date": "2024-06-06",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Hartford Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The proposed study will replicate target engagement as assessed in the first phase while also determining if it correlates with clinically meaningful improvements in ADHD dysfunction",
+            "detailedDescription": "This proposal is a 3-year clinical trial study replicating an R61 study that targeted brain engagement in 62 ADHD diagnosed adolescents. This study will recruit n=130 adolescents, n=90 ADHD, 40 non-ADHD. The ADHD group will be randomized to a 'sham training' placebo or to train 4 times each week using 4 different EWM exercises that have been combined into the format of a typical cognitive training intervention. Exercise difficulty levels in the active intervention will increase across 5 weeks to continually challenge EWM ability. EWM training will use a novel, remotely-supervised 'at home' computerized training approach that was developed in the Phase I study. This study will attempt to establish a convincing link between the hypothesized targets found in Phase I and ADHD symptom expression. It also will characterize ADHD brain activity or EWM ability changes relative to typical levels seen in the n=40 non-ADHD control group."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "ADHD"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 130,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "ADHD EWM",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive EWM training sessions.",
+                    "interventionNames": [
+                        "Behavioral: EWM Training"
+                    ]
+                },
+                {
+                    "label": "ADHD Placebo",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "Participants will receive placebo training sessions.",
+                    "interventionNames": [
+                        "Behavioral: Placebo Training"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "EWM Training",
+                    "description": "Training tasks will target Executive Working Memory areas of the brain. Task difficulty will be adaptively increased across the 5 weeks of training based on session-to-session performance.",
+                    "armGroupLabels": [
+                        "ADHD EWM"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Placebo Training",
+                    "description": "Computerized tasks with comparable engagement that do not tap executive working memory processes",
+                    "armGroupLabels": [
+                        "ADHD Placebo"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Magnetic Resonance Imaging Functional Brain Scan using a Seimens 3T Skyra.",
+                    "description": "fMRI measures of brain activation and functional connectivity - Conventional measures of 'brain activation' are estimated using GLM regression models that fit the fMRI BOLD timeseries data to a model of expected hemodynamic change as elicited by fMRI versions of the executive working memory training task trials. Functional connectivity is assessed using a form of cross-correlation analysis that quantifies how much the entire BOLD timeseries in different brain regions are similar to one another. Our a priori treatment target brain regions are the superior frontal sulcus and mid-lateral prefrontal cortex region of interest. Brain activity and functional connectivity specifically to these regions represent the primary outcome measures of the study.",
+                    "timeFrame": "Change in fMRI measurements from baseline assessment versus 5 weeks at the conclusion of training"
+                },
+                {
+                    "measure": "Experimental executive working memory training tasks - Reaction Time",
+                    "description": "Reaction time (RT) from training tasks of executive working memory. These are experimental, non-published tasks that were tested in this project for the first time in Phase I: Updating (removal then replacement of stimuli by new information to be maintained in working memory), Shifting (refocusing selective attention on different stimuli held concurrent in working memory without altering contents), distractor Filtering (inhibiting irrelevant information) and Suppression (resolution of proactive interference from initial stimuli to be able to respond optimally to control trials). Trial structure and duration are similar across these tasks. The tasks record RT in milliseconds. Data from active experimental conditions will be log-transformed prior to statistical testing.",
+                    "timeFrame": "Change in scores from baseline assessment versus 5 weeks at the conclusion of training"
+                },
+                {
+                    "measure": "Experimental executive working memory training tasks - Performance Accuracy",
+                    "description": "Accuracy (defined as percentage of correct answers from the pool of available items) from training tasks of executive working memory. These are experimental, non-published tasks that were tested in this project for the first time in Phase I: Updating (removal then replacement of stimuli by new information to be maintained in working memory), Shifting (refocusing selective attention on different stimuli held concurrent in working memory without altering contents), distractor Filtering (inhibiting irrelevant information) and Suppression (resolution of proactive interference from initial stimuli to be able to respond optimally to control trials). Trial structure and duration are similar across these tasks. Data from active experimental conditions will be arcsine-transformed prior to statistical testing.",
+                    "timeFrame": "Change in scores from baseline assessment versus 5 weeks at the conclusion of training"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Conners Rating Scales 3rd Edition",
+                    "description": "The parent and self-report short forms of the Conners' Rating Scales were designed for repeated and/or brief assessment of symptoms relevant to ADHD and related disorders.\n\nItems are measured on a likert scale from 0-3. There are 39 items with total raw scores ranging from 0-117. Higher scores indicate greater severity in ADHD sympotms. This instrument will be used as confirmation of significant association between symptom severity and evidence of target engagement in brain regions.",
+                    "timeFrame": "Change in scores from baseline assessment versus 5 weeks at the conclusion of training"
+                },
+                {
+                    "measure": "Near/Far transfer tasks",
+                    "description": "The Near/Far transfer tasks are computer tasks designed by the Principal Investigator to detail common Working Memory processes. They are programmed and adminstered utilizing E-Prime software. The Near Transfer tasks will test the generalizability of Executive Working Memory training outside of trained tasks, and the Far Transfer tasks will test the training effects to other abilities often impaired in ADHD. They are comprised of four categories: Shifting - Refresh/Repeat Task, Updating - Spatial Updating Task, Filtering - Attend-Ignore Task, and Suppression - Introducing Resistance Task",
+                    "timeFrame": "Change in measurements from baseline assessment versus 5 weeks at the conclusion of training."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteriia:\n\n* Diagnosis of ADHD\n* English speaking\n* Right-handed\n* \\>5th grade reading level\n* \\>80 IQ level\n\nExclusion Criteria:\n\n* Braces, metal or implant devices\n* Brain abnormality, neurological disorder\n* TBI or loss of consciousness\\>30 minutes\n* Diagnosis of Psychosis, Bipolar Disorder, ASD, PTSD, OCD, SUD, Tourette's Disorder",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "18 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Karen L Kesten, MS",
+                    "role": "CONTACT",
+                    "phone": "8605457776",
+                    "email": "Karen.kesten@hhchealth.org"
+                },
+                {
+                    "name": "Abigail Sullivan, MS",
+                    "role": "CONTACT",
+                    "phone": "8605457363",
+                    "email": "Abigail.sullivan@hhchhealth.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Michael C Stevens, PhD",
+                    "affiliation": "Institute of Living/Hartford Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Institute of Living/Hartford Hospital",
+                    "status": "RECRUITING",
+                    "city": "Hartford",
+                    "state": "Connecticut",
+                    "zip": "06106",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Karen L Kesten, MS",
+                            "role": "CONTACT",
+                            "phone": "860-545-7776",
+                            "email": "Karen.kesten@hhchealth.org"
+                        },
+                        {
+                            "name": "Abigail Sullivan, MS",
+                            "role": "CONTACT",
+                            "phone": "(860) 545-7363",
+                            "email": "Abigail.sullivan@hhchealth.org"
+                        },
+                        {
+                            "name": "Michael C Stevens, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.76371,
+                        "lon": -72.68509
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "Prot_SAP",
+                    "hasProtocol": true,
+                    "hasSap": true,
+                    "hasIcf": false,
+                    "label": "Study Protocol and Statistical Analysis Plan",
+                    "date": "2023-09-22",
+                    "uploadDate": "2024-03-26T11:53",
+                    "filename": "Prot_SAP_000.pdf",
+                    "size": 1055598
+                },
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2024-02-13",
+                    "uploadDate": "2024-02-19T15:14",
+                    "filename": "ICF_001.pdf",
+                    "size": 241274
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

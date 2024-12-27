@@ -1,0 +1,407 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06083454",
+            "orgStudyIdInfo": {
+                "id": "202303162"
+            },
+            "organization": {
+                "fullName": "University of Iowa",
+                "class": "OTHER"
+            },
+            "briefTitle": "Ascorbate With Durvalumab in Non-Small Cell Lung Cancer (NSCLC)",
+            "officialTitle": "Assessing the Immunomodulatory Effects of Pharmacologic Ascorbate With Durvalumab (MEDI 4736) in Non-Small Cell Lung Cancer: A Window of Opportunity Trial",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "ascorbate-with-durvalumab-in-non-small-cell-lung-cancer-nsclc"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+                "date": "2023-10-23",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-09-12",
+            "studyFirstSubmitQcDate": "2023-10-10",
+            "studyFirstPostDateStruct": {
+                "date": "2023-10-16",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-12",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Muhammad Furqan",
+                "investigatorTitle": "Clinical Associate Professor",
+                "investigatorAffiliation": "University of Iowa"
+            },
+            "leadSponsor": {
+                "name": "Muhammad Furqan",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a descriptive, proof of concept, open-label, randomized, 3-arm, window of opportunity trial to evaluate the immunomodulatory role of pharmacological ascorbate with Durvalumab",
+            "detailedDescription": "Participants in this research study have stage I Non-Small Cell Lung Cancer (NSCLC) that was found to be suitable for surgery as a first line treatment.\n\nThe usual treatment for this disease is to remove the tumor with surgery, and then evaluate after surgery if other additional treatments such as chemotherapy or targeted therapy are needed.\n\nThe purpose of this research study is to compare three different ways of treating stage 1 NSCLC, to see if adding treatment before surgery can reduce the chance of the tumor recurring after surgical removal.\n\nIn this study, patients will be randomly assigned to one of three treatments:\n\n* Durvalumab followed by surgical resection of the tumor.\n* Durvalumab plus ascorbate (also known as vitamin C), followed by surgical resection of the tumor.\n* Surgical resection alone. No therapy prior to surgery. This is the same as standard care (SOC) for this disease."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Non-small Cell Lung Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "This is a descriptive, proof of concept, open-label, randomized, 3-arm, window of opportunity trial to evaluate the immunomodulatory role of pharmacological ascorbate with Durvalumab. Translational and clinical findings of this study can then be applied more broadly to design and address clinically oriented questions in various NSCLC treatment settings.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 36,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Durvalumab as monotherapy",
+                    "type": "EXPERIMENTAL",
+                    "description": "Two cycles of Durvalumab 1500 mg every 3 weeks, as monotherapy",
+                    "interventionNames": [
+                        "Drug: Durvalumab"
+                    ]
+                },
+                {
+                    "label": "Combination of pharmacological ascorbate plus Durvalumab",
+                    "type": "EXPERIMENTAL",
+                    "description": "Combination of pharmacological ascorbate 75 grams intravenously three times a week x 4 weeks plus Durvalumab 1500 mg every 3 weeks for two cycles",
+                    "interventionNames": [
+                        "Drug: Durvalumab",
+                        "Drug: Pharmacological ascorbate"
+                    ]
+                },
+                {
+                    "label": "Control (no neoadjuvant therapy)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Serve as control and patients will not receive any neoadjuvant therapy before going to surgery. Once randomize, they can go to surgery without any delays.",
+                    "interventionNames": [
+                        "Procedure: Surgery (SOC)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Durvalumab",
+                    "description": "Given intravenous (IV) infusion as monotherapy or in combination with pharmacological ascorbate",
+                    "armGroupLabels": [
+                        "Combination of pharmacological ascorbate plus Durvalumab",
+                        "Durvalumab as monotherapy"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Pharmacological ascorbate",
+                    "description": "Given intravenously in combination with Durvalumab",
+                    "armGroupLabels": [
+                        "Combination of pharmacological ascorbate plus Durvalumab"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Surgery (SOC)",
+                    "description": "Surgery SOC",
+                    "armGroupLabels": [
+                        "Control (no neoadjuvant therapy)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "CD8+ T cells quantified as the percentage of lymphocytes that are CD8+ T cells",
+                    "description": "Determine if Pharmacological Ascorbate and durvalumab can potentiate or enhance an immune response in the NSCLC tumor-microenvironment compared to durvalumab alone. This will be evaluated in the surgically resected specimens of patients after receiving neoadjuvant therapy. CD8+ T cells will be quantified as the percentage of lymphocytes that are CD8+ T cells",
+                    "timeFrame": "Following surgical resection which will be performed during weeks 5-9 from the day of randomization."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Incidence of dose limiting toxicities (DLTs) and adverse events (AEs) per CTCAE v5",
+                    "description": "Assess safety and tolerability of the combination of Pharmacological Ascorbate and Durvalumab in the neoadjuvant setting (Arm:2)",
+                    "timeFrame": "Throughout the treatment period, 4 weeks"
+                },
+                {
+                    "measure": "Pathologic Complete Response (pCR) rate",
+                    "description": "The proportion of patients with a pathologic complete response, defined as no viable tumor.",
+                    "timeFrame": "Up to three years following completion of treatment"
+                },
+                {
+                    "measure": "Major Pathologic Response (MPR) rate",
+                    "description": "The proportion of patients with a major pathologic response, defined as residual viable tumor of 10% or less.",
+                    "timeFrame": "Up to three years following completion of treatment"
+                },
+                {
+                    "measure": "Event-Free Survival",
+                    "description": "Time from randomization to progression of disease that precludes surgery, local or distant recurrence, or death due to any cause.",
+                    "timeFrame": "Up to three years following completion of treatment"
+                },
+                {
+                    "measure": "Overall Survival",
+                    "description": "Time from randomization to death due to any cause.",
+                    "timeFrame": "Up to three years following completion of treatment"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Capable of giving signed informed consent which includes compliance with the requirements and restrictions listed in the informed consent form (ICF) and in this protocol.\n* Age \\> 18 years at time of study entry regardless of gender or ethnic/racial background.\n* Histologically or cytologically confirmed non-small cell lung cancer\n* Clinical stage I with tumor size \\>1 cm to 4 cm (either T1b or T1c or T2a and N0 M0) according to American Joint Committee on Cancer 8th edition\n* Surgically resectable with adequate lung functions to undergo surgery as determined by thoracic surgeon.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1\n* Body weight \\>30 kg\n* Adequate normal organ and marrow function as defined below:\n\n  * Hemoglobin \u22659.0 g/dL\n  * Absolute neutrophil count (ANC) \u22651.0 \u00d7 109 /L\n  * Platelet count \u226575 \u00d7 109/L\n  * Serum bilirubin \u22641.5 x institutional upper limit of normal (ULN). This will not apply to patients with confirmed Gilbert's syndrome (persistent or recurrent hyperbilirubinemia that is predominantly unconjugated in the absence of hemolysis or hepatic pathology), who will be allowed only in consultation with their physician.\\>\\>\n  * AST (SGOT)/ALT (SGPT) \u22642.5 x institutional upper limit of normal.\n  * Measured creatinine clearance (CL) \u226550 mL/min or Calculated creatinine CL\u226550 mL/min by the Cockcroft-Gault formula (Cockcroft and Gault 1976) or by 24-hour urine collection for determination of creatinine clearance:\n\nMales:\n\nCreatinine CL (mL/min)= Weight (kg) x (140 - Age) divided by 72 x serum creatinine (mg/dL)\n\nFemales:\n\nCreatinine CL (mL/min)= Weight (kg) x (140 - Age) x 0.85 divided by 72 x serum creatinine (mg/dL)\n\n* Patient is willing and able to comply with the protocol for the duration of the study including undergoing treatment and scheduled visits and examinations including follow up.\n* Must have a life expectancy of at least 12 weeks\n* Female subjects of childbearing potential and non-sterilized male subjects who intend to be sexually active during the study must agree to use a highly effective method of contraception from the time of screening, throughout the total duration of the drug treatment, and during the 90-day post-drug washout period.\n* Evidence of post-menopausal status or negative urinary or serum pregnancy test for female pre-menopausal patients. Women will be considered post-menopausal if they have been amenorrheic for 12 months without an alternative medical cause. The following age-specific requirements apply: Women 1 year ago, had chemotherapy-induced menopause with last menses \\>1 year ago, or underwent surgical sterilization (bilateral oophorectomy, bilateral salpingectomy or hysterectomy).\n\nExclusion Criteria:\n\nPatients should not enter the study if any of the following exclusion criteria are fulfilled:\n\n* Participation in another clinical study with an investigational product during the last 4 weeks prior to randomization\n* Concurrent enrollment in another clinical study, unless it is an observational (non-interventional) clinical study or during the follow-up period of an interventional study\n* Prior systemic therapy for early-stage NSCLC that is under consideration for thisstudy.\n* Any unresolved toxicity NCI CTCAE Grade \u22652 from previous anticancer therapy with the exception of alopecia, vitiligo, clinically non-significant labs values (e.g., lymphopenia), and the laboratory values defined in the inclusion criteria\n\n  1. Patients with Grade \u22652 neuropathy will be evaluated on a case-by-case basis after consultation with the Study Physician.\n  2. Patients with irreversible toxicity not reasonably expected to be exacerbated by treatment with durvalumab may be included only after consultation with the Study Physician.\n* Any concurrent chemotherapy, IP, biologic, or hormonal therapy for cancer treatment.Concurrent use of hormonal therapy for non-cancer-related conditions (e.g., hormone replacement therapy) is acceptable.\n* Radiotherapy treatment to more than 30% of the bone marrow or with a wide field of radiation within 4 weeks of the first dose of study drug\n* Major surgical procedure (as defined by the Investigator) within 28 days prior to the first dose of IP.\n* History of allogenic organ transplantation.\n* Active or prior documented autoimmune or inflammatory disorders (including inflammatory bowel disease \\[e.g., colitis or Crohn's disease\\], diverticulitis \\[with the exception of diverticulosis\\], systemic lupus erythematosus, Sarcoidosis syndrome, or Wegener syndrome \\[granulomatosis with polyangiitis, Graves' disease, rheumatoid arthritis, hypophysitis, uveitis, etc\\]). The following are exceptions to this criterion:\n\n  1. Patients with vitiligo or alopecia\n  2. Patients with hypothyroidism (e.g., following Hashimoto syndrome) clinically stable on hormone replacement\n  3. Any chronic skin condition that does not require systemic therapy\n  4. Patients without active disease in the last 5 years may be included but only after consultation with the Study Physician\n  5. Patients with celiac disease controlled by diet alone\n  6. Patients with type 2 DM (insulin dependent or independent) are allowed.\n* Uncontrolled intercurrent illness, including but not limited to, ongoing or active infection, symptomatic congestive heart failure, uncontrolled hypertension, unstable angina pectoris, cardiac arrhythmia, interstitial lung disease, serious chronic gastrointestinal conditions associated with diarrhea, or psychiatric illness/social situations that would limit compliance with study requirement, substantially increase risk of incurring AEs or compromise the ability of the patient to give written informed consent\n* History of another primary malignancy except for\n\n  1. Malignancy treated with curative intent and with no known active disease \u22652 years before the first dose of IP and of low potential risk for recurrence\n  2. Adequately treated non-melanoma skin cancer or lentigo maligna without evidence of disease\n  3. Adequately treated non-melanoma skin cancer, in situ bladder, gastric, breast, colon or cervical cancers/dysplasia's, noninvasive colonic polyps, superficial bladdertumors,\n  4. Monoclonal B-cell lymphocytosis, or monoclonal gammopathy of undetermined significance.\n* Known to have nodal or distant metastases\n* Mean QT interval corrected for heart rate using Fridericia's formula (QTcF) \u2265470 ms\n* History of active primary immunodeficiency\n* Known history of active hepatitis infection, positive hepatitis C virus (HCV) antibody, hepatitis B virus (HBV) surface antigen (HBsAg) or HBV core antibody (anti-HBc), at screening. Participants with a past or resolved HBV infection (defined as the presence of antiHBc and absence of HBsAg) are eligible. Participants positive for HCV antibody are eligible only if polymerase chain reaction is negative for HCV RNA\n* Known to have tested positive for human immunodeficiency virus (HIV) (positive HIV 1/2 antibodies) or active tuberculosis infection (clinical evaluation that may include clinical history, physical examination and radiographic findings, or tuberculosis testing in line with local practice).\n* Current or prior use of immunosuppressive medication within 14 days before the first dose of durvalumab. The following are exceptions to this criterion:\n\n  1. Intranasal, inhaled, topical steroids, or local steroid injections (e.g., intra articular injection)\n  2. Systemic corticosteroids at physiologic doses not to exceed 10 mg/day of prednisone or its equivalent\n  3. Steroids as premedication for hypersensitivity reactions (e.g., CT scan premedication)\n* Receipt of live attenuated vaccine within 30 days prior to the first dose of IP. Note:\n\nPatients, if enrolled, should not receive live vaccine while receiving IP and up to 30 days after the last dose of IP.\n\n* Participant that is pregnant or breastfeeding.\n* Known allergy or hypersensitivity to any of the study drugs or any of the study drug excipients.\n* Prior randomization or treatment in a previous durvalumab clinical study regardless of treatment Arm assignment.\n* Prior anti PD-1, PD-L1 and CTLA-4 therapy in the last 2 years\n\n  1. Experienced a toxicity that led to permanent discontinuation of prior immunotherapy.\n  2. All AEs while receiving prior immunotherapy must have completely resolved or resolved to baseline prior to screening for this study.\n  3. Experienced a \u2265Grade 3 immune related AE or an immune related neurologic or ocular AE of any grade while receiving prior immunotherapy. NOTE: Patients with endocrine AE of \u2264Grade 2 are permitted to enroll if they are stably maintained on appropriate replacement therapy and are asymptomatic.\n  4. Required the use of additional immunosuppression other than corticosteroids for the management of an AE, experienced recurrence of an AE if re-challenged, and currently require maintenance doses of \\> 10 mg prednisone or equivalent per day.\n* Judgment by the investigator that the patient is unsuitable to participate in the study and the patient is unlikely to comply with study procedures, restrictions and requirements.\n* Known allergy or hypersensitivity to IP or any excipient.\n* Clinically significant active infection requiring systemic therapy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Muhammad Furqan, MD",
+                    "role": "CONTACT",
+                    "phone": "319-356-1527",
+                    "email": "muhammad-furqan@uiowa.edu"
+                },
+                {
+                    "name": "Alisha Demsky",
+                    "role": "CONTACT",
+                    "phone": "319-384-5461",
+                    "email": "alisha-demsky@uiowa.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Muhammad Furqan, MD",
+                    "affiliation": "University of Iowa",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Iowa",
+                    "status": "RECRUITING",
+                    "city": "Iowa City",
+                    "state": "Iowa",
+                    "zip": "52242",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Muhammad Furqan, MD",
+                            "role": "CONTACT",
+                            "phone": "319-356-1527",
+                            "email": "muhammad-furqan@uiowa.edu"
+                        },
+                        {
+                            "name": "Alisha Demsky",
+                            "role": "CONTACT",
+                            "phone": "319-384-5461",
+                            "email": "alisha-demsky@uiowa.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.66113,
+                        "lon": -91.53017
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000002289",
+                    "term": "Carcinoma, Non-Small-Cell Lung"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "asFound": "Non-small Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000613593",
+                    "term": "Durvalumab"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000074322",
+                    "term": "Antineoplastic Agents, Immunological"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M272500",
+                    "name": "Durvalumab",
+                    "asFound": "Pancreatic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1346",
+                    "name": "Antineoplastic Agents, Immunological",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

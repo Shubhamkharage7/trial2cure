@@ -1,0 +1,309 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04365855",
+            "orgStudyIdInfo": {
+                "id": "19-004848"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "The Olmsted NAFLD Epidemiology Study (TONES)",
+            "officialTitle": "The Olmsted NAFLD Epidemiology Study (TONES)",
+            "therapeuticArea": [
+                "Gastroenterology"
+            ],
+            "study": "the-olmsted-nafld-epidemiology-study-tones"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-09-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-04-09",
+            "studyFirstSubmitQcDate": "2020-04-27",
+            "studyFirstPostDateStruct": {
+                "date": "2020-04-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-09",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Alina M. Allen",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Researchers are assessing the prevalence of Non-alcoholic Fatty Liver Disease (NAFLD) and Nonalcoholic Steatohepatitis (NASH) in the population and assembling a well-characterized cohort of adults with NAFLD and NASH to validate models of NAFLD diagnosis and determine long-term outcomes.",
+            "detailedDescription": "Non-Alcoholic Fatty Liver Disease (NAFLD) is the most common cause of chronic liver disease in the world and a major public health issue in the US. Recent information on the prevalence of NAFLD in general and Non-Alcoholic Steatohepatitis (NASH) with fibrosis in particular is very scarce. Such information is crucial for defining the epidemiology of NAFLD, identifying risk factors for advanced fibrosis and longitudinal outcomes. This study will enroll a random sample of adults from Olmsted County, Minnesota, to validate machine learning models for NAFLD diagnosis and disease severity. These data would be fundamental for the development of screening strategies in the community, which are urgently needed for early diagnosis of liver fibrosis and therapeutic interventions before cirrhosis develops."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Non-Alcoholic Fatty Liver Disease",
+                "Non-Alcoholic Steatohepatitis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "We will invite adult Olmsted County residents with research authorization, identified based on a random search of the Rochester Epidemiology Project database. We plan to accrue 800 participants. Based on literature estimates, approximately 25-30% of adults will be at risk for NAFLD due to overweight/obese status. Participants will undergo tests for NAFLD screening: blood tests, Magnetic Resonance Imaging/Elastography and electrocardiogram. Those identified with fatty liver will undergo Transient elastography and liver biopsy for disease severity assessment. These results will be used to validate a machine learning model of NAFLD diagnosis and liver disease severity which uses the participants clinical and laboratory data (noninvasive electronic health records). The cohort will be followed for 5 years, when they will return for repeat imaging and blood tests to monitor for incident NAFLD, liver disease progression and outcomes.",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 800,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Subjects at risk for NAFLD",
+                    "type": "OTHER",
+                    "description": "Adult Olmsted County residents identified as at risk for NAFLD will receive Magnetic Resonance Imaging (MRE,) blood tests,and possible biopsy.",
+                    "interventionNames": [
+                        "Diagnostic Test: Magnetic Resonance Elastography",
+                        "Other: Blood draw",
+                        "Procedure: Liver biopsy",
+                        "Procedure: Fibro Scan"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Magnetic Resonance Elastography",
+                    "description": "Combines MRI imaging with sound waves to create a visual map (elastogram) showing the stiffness of body tissues.",
+                    "armGroupLabels": [
+                        "Subjects at risk for NAFLD"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Blood draw",
+                    "description": "Clinical blood tests with a focus on liver function parameters and diabetes",
+                    "armGroupLabels": [
+                        "Subjects at risk for NAFLD"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Liver biopsy",
+                    "description": "If indicated per MRE results a biopsy will be taken of the liver.",
+                    "armGroupLabels": [
+                        "Subjects at risk for NAFLD"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Fibro Scan",
+                    "description": "If indicated per MRE results a fibroscan will be performed of the liver.",
+                    "armGroupLabels": [
+                        "Subjects at risk for NAFLD"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Prevalence of NAFLD and NASH in the population",
+                    "description": "Number of subjects with NAFLD and NASH determined by the MRE",
+                    "timeFrame": "5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Long-term health outcomes",
+                    "description": "Number of participants to experience the development of NAFLD, NASH, NASH cirrhosis complications, liver transplant, cardiovascular events, cancers or death",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Olmsted County residents at the time of search\n* Age 18 or older\n* No personal history of NAFLD diagnosis (administrative codes)\n\nExclusion Criteria:\n\n* Alcohol in excess (more than 20 gm per week in women and 30 gm per week in men)\n* Currently pregnant\n* Have contraindications to MRI (MRI incompatible implanted devices, severe claustrophobia)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jessica L Olson",
+                    "role": "CONTACT",
+                    "phone": "507-266-3995",
+                    "email": "olson.jessica3@mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "ALINA M ALLEN, MD",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Rochester",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                },
+                {
+                    "id": "D000005234",
+                    "term": "Fatty Liver"
+                },
+                {
+                    "id": "D000065626",
+                    "term": "Non-alcoholic Fatty Liver Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M8375",
+                    "name": "Fatty Liver",
+                    "asFound": "Fatty Liver",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M30540",
+                    "name": "Non-alcoholic Fatty Liver Disease",
+                    "asFound": "Non-alcoholic Fatty Liver Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "asFound": "Liver Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5868",
+                    "name": "Visceral Steatosis",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11110",
+                    "name": "Liver Extracts",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

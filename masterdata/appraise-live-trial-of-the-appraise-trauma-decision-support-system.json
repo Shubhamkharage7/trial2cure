@@ -1,0 +1,221 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06121661",
+            "orgStudyIdInfo": {
+                "id": "2022P001136"
+            },
+            "organization": {
+                "fullName": "Massachusetts General Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "APPRAISE 2.0: Live Trial of the APPRAISE Trauma Decision Support System",
+            "officialTitle": "APPRAISE 2.0: Live Trial of the APPRAISE Trauma Decision Support System",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "appraise-live-trial-of-the-appraise-trauma-decision-support-system"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-02-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-12-14",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-12-14",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-18",
+            "studyFirstSubmitQcDate": "2023-11-02",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Andrew Tomas Reisner",
+                "investigatorTitle": "Principal Investigator; Associate Prof. of Emergency Medicine",
+                "investigatorAffiliation": "Massachusetts General Hospital"
+            },
+            "leadSponsor": {
+                "name": "Andrew Tomas Reisner",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a pilot evaluation of the APPRAISE trauma decision-support software system (\"the System\"). The specific objections are as follows:\n\n1. Evaluate the robustness of the System (i.e., whether the software performs in real-time in accordance with a priori technical specifications during real-time clinical use);\n2. Evaluate whether the real-time display of the System causes distraction or confusion to clinicians treating the trauma patient such that its risks exceed its benefits;\n3. Collect pilot data to allow for a statistical power analysis to design a future clinical trial evaluating efficacy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Wounds and Injuries"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DEVICE_FEASIBILITY",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "APPRAISE cases",
+                    "type": "EXPERIMENTAL",
+                    "description": "Trauma patients for which APPRAISE system was used",
+                    "interventionNames": [
+                        "Device: APPRAISE Trauma Clinical Decision Support System"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "APPRAISE Trauma Clinical Decision Support System",
+                    "description": "Real-time bedside decision-support system for trauma patient management",
+                    "armGroupLabels": [
+                        "APPRAISE cases"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Software session with error messages or critical software errors",
+                    "description": "Each time the software is used (\"session\"), a log file is generated. We will quantify how many sessions generate error messages or critical software errors.",
+                    "timeFrame": "From patient arrival in the Emergency Department through enrollment, protocol initiation, and protocol completion (which is typically 30 min after protocol initiation)."
+                },
+                {
+                    "measure": "Clinician surveys that the software negatively affected patient care",
+                    "description": "Each time the software is used, clinicians are surveyed whether the software negatively affected patient care, in their professional judgement",
+                    "timeFrame": "From patient arrival in the Emergency Department through enrollment, protocol initiation, and protocol completion (which is typically 30 min after protocol initiation)"
+                },
+                {
+                    "measure": "Clinician surveys that the software positively affected patient care",
+                    "description": "Each time the software is used, clinicians are surveyed whether the software negatively affected patient care, in their professional judgement",
+                    "timeFrame": "From patient arrival in the Emergency Department through enrollment, protocol initiation, and protocol completion (which is typically 30 min after protocol initiation)"
+                },
+                {
+                    "measure": "Clinician surveys that ongoing use of the software poses risks that exceeds benefits",
+                    "description": "Each time the software is used, clinicians are surveyed whether ongoing use of the software poses risks that exceeds benefits",
+                    "timeFrame": "From patient arrival in the Emergency Department through enrollment, protocol initiation, and protocol completion (which is typically 30 min after protocol initiation)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult (\u226518 yrs) Emergency Department (ED) patient\n* Triaged to the \"Acute\" area of the ED. (The \"Acute\" area is the designated area for ED patients with potential or established critical illness. Triage to Acute is a routine ED operation that is performed based on departmental guidelines and the professional judgement of an experienced triage nurse).\n* Clinical concern for acute injury (based on either an explicitly chief complaint of acute injury, or clinical team with documented concern for acute injury as a relevant part of patient presentation).\n\nExclusion Criteria:\n\n* Prisoners\n* Patients known to be pregnant, based on patient report, physical exam, or bedside ultrasound\n* Patients wearing an \"EFIC Opt-Out\" bracelet\n* Any concern about the suitability of the software system for a specific patient by any clinician involved in the patient's ED care, or by the patient themselves (or by any LAR \\[lawfully authorized representative\\] of the patient).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Iain Kehoe",
+                    "role": "CONTACT",
+                    "phone": "6177262241",
+                    "email": "ikehoe@mgh.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Andrew Reisner, MD",
+                    "affiliation": "Mass. General Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02460",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrew T Reisner",
+                            "role": "CONTACT",
+                            "phone": "617-726-2241",
+                            "email": "areisner@mgh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "asFound": "Wounds and Injuries",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

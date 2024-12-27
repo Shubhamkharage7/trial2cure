@@ -1,0 +1,363 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05864612",
+            "orgStudyIdInfo": {
+                "id": "IRB00086172"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R03TR004251",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R03TR004251"
+                }
+            ],
+            "organization": {
+                "fullName": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            },
+            "briefTitle": "Tools for Anxiety and Depression Screening in Epilepsy",
+            "officialTitle": "Developing Interoperable Tools for Anxiety and Depression Screening in Epilepsy",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "tools-for-anxiety-and-depression-screening-in-epilepsy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-09-20",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-09",
+            "studyFirstSubmitQcDate": "2023-05-09",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-30",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Center for Advancing Translational Sciences (NCATS)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "A randomized trial to compare patient-completion success of REDCap and Electronic Health Record (EHR)-based anxiety \\& depression instrument delivery methods. Study hypothesis is that the screening completion proportion will vary across the 4 modalities tested.",
+            "detailedDescription": "In this randomized study of four modalities, we will compare Twilio text message delivery via REDCap versus (vs.) REDCap email survey links vs. EHR portal questionnaires with reminder message vs. current standard delivery EHR portal questionnaires without reminder. Screening instruments will be delivered by randomized method 7 days prior to scheduled clinic visit and outcomes occur by the time of the scheduled clinic visit. The study setting is the Wake Forest Comprehensive Epilepsy Center, with 2 clinic sites where adult patients are served (Atrium Health Wake Forest Baptist main campus, Atrium Health High Point Medical Center). EHR portal questionnaires without reminder is the current standard care screener delivery method."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Epilepsy"
+            ],
+            "keywords": [
+                "anxiety",
+                "depression",
+                "screening tools"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "The four instrument delivery methods to be used in this pragmatic trial represent distinct prompts \\& cues for screening instrument completion. Examining these multiple instrument delivery methods will generate outputs that will support flexibility in instrument delivery modalities across multiple sites in future multicenter studies in this area. These 4 distinct delivery methods are used to deliver identical standard care validated anxiety and depression screening instruments.",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 880,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Text Message",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects in this arm will be asked to complete standard care screening questionnaires on anxiety and depression, delivered by Twilio text message.",
+                    "interventionNames": [
+                        "Behavioral: Screening Questionnaires"
+                    ]
+                },
+                {
+                    "label": "Customized Email Prompt",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects in this arm will be asked to complete standard care screening questionnaires on anxiety and depression, delivered by an email with a REDCap email survey link.",
+                    "interventionNames": [
+                        "Behavioral: Screening Questionnaires"
+                    ]
+                },
+                {
+                    "label": "Generic Electronic Health Record (EHR) portal email",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects in this arm will be prompted with customized EHR portal message after login to EHR portal.",
+                    "interventionNames": [
+                        "Behavioral: Screening Questionnaires"
+                    ]
+                },
+                {
+                    "label": "EHR Portal with No Message",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects in this arm will not receive a reminder, but previsit questionnaires associated with a visit will be in their EHR portal.",
+                    "interventionNames": [
+                        "Behavioral: Screening Questionnaires"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Screening Questionnaires",
+                    "description": "Standard care screening questionnaires on anxiety and depression",
+                    "armGroupLabels": [
+                        "Customized Email Prompt",
+                        "EHR Portal with No Message",
+                        "Generic Electronic Health Record (EHR) portal email",
+                        "Text Message"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Screening completion - Yes or No",
+                    "description": "Proportion of screening instruments completed by each of the 4 methods prior to clinic visit will be used to compare the effect of the different methods on patient self-completion, and to estimate completion rates by different methods for use in future screening implementation trials.",
+                    "timeFrame": "Week 1"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Research team time-sending instruments",
+                    "description": "Time in minutes will be recorded",
+                    "timeFrame": "Baseline Day 0"
+                },
+                {
+                    "measure": "Research team time-instrument data entry",
+                    "description": "Time in minutes will be recorded",
+                    "timeFrame": "Week 1"
+                },
+                {
+                    "measure": "Participant time from instrument delivery to completion",
+                    "description": "Time in minutes will be recorded",
+                    "timeFrame": "Week 1"
+                },
+                {
+                    "measure": "Accuracy of Kit Application Programming Interface (API)",
+                    "description": "This will provide key information about whether a Kit API REDCap data collection may improve accuracy of EHR-based data collection compared to manual collection.",
+                    "timeFrame": "Week 1"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Clinic visit attendance:Visit completed",
+                    "description": "Number of visits completed out of number scheduled",
+                    "timeFrame": "Week 1"
+                },
+                {
+                    "measure": "Clinic visit attendance:Visit canceled",
+                    "description": "Number of visits completed out of number scheduled",
+                    "timeFrame": "Week 1"
+                },
+                {
+                    "measure": "Clinic visit attendance: no-show",
+                    "description": "Number of no-show visits out of number scheduled",
+                    "timeFrame": "Week 1"
+                },
+                {
+                    "measure": "Time For Data Entry",
+                    "description": "Time collected in minutes",
+                    "timeFrame": "Week 1"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Visit scheduled 7 days in advance at an adult-focused epilepsy clinic at the study site\n\nExclusion Criteria:\n\n* No exclusions",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Heidi M. Munger Clary, MD, MPH",
+                    "role": "CONTACT",
+                    "phone": "336-716-7110",
+                    "email": "hmungerc@wakehealth.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Heidi M. Munger Clary, MD, MPH",
+                    "affiliation": "Wake Forest University Health Sciences",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Atrium Health Wake Forest Baptist",
+                    "status": "RECRUITING",
+                    "city": "Winston-Salem",
+                    "state": "North Carolina",
+                    "zip": "27157",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Heidi M. Munger Clary, MD, MPH",
+                            "role": "CONTACT",
+                            "phone": "336-716-7110",
+                            "email": "hmungerc@wakehealth.edu"
+                        },
+                        {
+                            "name": "Heidi M. Munger Clary, MD, MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.09986,
+                        "lon": -80.24422
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "After the study is completed and results published by primary study team, de-identified, archived data will be stored for potential use if requested by other qualified researchers including those outside of the study.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "ICF"
+            ],
+            "timeFrame": "After the study is completed and results published, de-identified, archived data will be available upon request."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000004827",
+                    "term": "Epilepsy"
+                },
+                {
+                    "id": "D000003863",
+                    "term": "Depression"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001526",
+                    "term": "Behavioral Symptoms"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7058",
+                    "name": "Depression",
+                    "asFound": "Depression",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7061",
+                    "name": "Depressive Disorder",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4324",
+                    "name": "Anxiety Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7983",
+                    "name": "Epilepsy",
+                    "asFound": "Epilepsy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4818",
+                    "name": "Behavioral Symptoms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

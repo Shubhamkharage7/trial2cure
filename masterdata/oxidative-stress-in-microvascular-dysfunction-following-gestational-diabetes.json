@@ -1,0 +1,452 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05946785",
+            "orgStudyIdInfo": {
+                "id": "202009357"
+            },
+            "organization": {
+                "fullName": "University of Iowa",
+                "class": "OTHER"
+            },
+            "briefTitle": "Oxidative Stress in Microvascular Dysfunction Following Gestational Diabetes",
+            "officialTitle": "Role of Oxidative Stress in Microvascular Dysfunction Following Gestational Diabetes",
+            "therapeuticArea": [
+                "Endocrinology",
+                "Other"
+            ],
+            "study": "oxidative-stress-in-microvascular-dysfunction-following-gestational-diabetes"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-07-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-29",
+            "studyFirstSubmitQcDate": "2023-07-07",
+            "studyFirstPostDateStruct": {
+                "date": "2023-07-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Anna Stanhewicz, PhD",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "University of Iowa"
+            },
+            "leadSponsor": {
+                "name": "Anna Stanhewicz, PhD",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this investigation is to examine the role of oxidative stress in aberrant microvascular function in otherwise healthy women with a history of GDM.",
+            "detailedDescription": "Women with a history of gestational diabetes mellitus (GDM) are at a 2-fold greater risk for the development of overt cardiovascular disease (CVD) following the effected pregnancy. While subsequent development of type II diabetes elevates this risk, prior GDM is an independent risk factor for CVD morbidity, particularly within the first decade postpartum. GDM is associated with impaired endothelial function during pregnancy and decrements in macro- and microvascular function persist postpartum, despite the remission of insulin resistance following delivery. Collectively, while the association between GDM and elevated lifetime CVD risk is clear, and available evidence demonstrates a link between GDM and vascular dysfunction in the decade following pregnancy, the mechanisms mediating this persistent dysfunction remain unexamined.\n\nThe purpose of this investigation is to examine the role of oxidative stress in mediating vascular dysfunction in women who have had gestational diabetes.\n\nIn this study, the investigators use the blood vessels in the skin as a representative vascular bed for examining mechanisms of microvascular dysfunction in humans. Using a minimally invasive technique (intradermal microdialysis for the local delivery of pharmaceutical agents) they examine the blood vessels in a dime-sized area of the skin in women who have had GDM. As a compliment to these measures, the investigators also collect endothelial cells from an antecubital vein and measure markers of oxidative stress and insulin-mediated eNOS phosphorylation in these cells."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Gestational Diabetes",
+                "Vascular Endothelial Function"
+            ],
+            "keywords": [
+                "gestational diabetes",
+                "postpartum",
+                "vascular"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "EARLY_PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 28,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "local lactated Ringer's perfusion",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "lactated Ringer's is perfused through the microdialysis fiber to serve as the vehicle control",
+                    "interventionNames": [
+                        "Drug: Acetylcholine",
+                        "Drug: insulin aspart"
+                    ]
+                },
+                {
+                    "label": "local ascorbate perfusion",
+                    "type": "EXPERIMENTAL",
+                    "description": "local ascorbate is perfused through the microdialysis fiber to serve as the antioxidant experimental treatment",
+                    "interventionNames": [
+                        "Drug: Acetylcholine",
+                        "Drug: insulin aspart"
+                    ]
+                },
+                {
+                    "label": "local L-NAME perfusion",
+                    "type": "EXPERIMENTAL",
+                    "description": "local L-NAME is perfused through the microdialysis fiber to inhibit nitric oxide synthase",
+                    "interventionNames": [
+                        "Drug: Acetylcholine",
+                        "Drug: insulin aspart"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Acetylcholine",
+                    "description": "acetylcholine is perfused at 10 ascending concentrations (10\\^-10M - 10\\^-1 M) for 5 minutes each",
+                    "armGroupLabels": [
+                        "local L-NAME perfusion",
+                        "local ascorbate perfusion",
+                        "local lactated Ringer's perfusion"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "insulin aspart",
+                    "description": "insulin aspart is perfused at 5 ascending concentrations (10\\^-8M - 10\\^-4 M) for 10 minutes each",
+                    "armGroupLabels": [
+                        "local L-NAME perfusion",
+                        "local ascorbate perfusion",
+                        "local lactated Ringer's perfusion"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "microvascular acetylcholine-mediated dilation",
+                    "description": "cutaneous vascular vasodilator responses to acetylcholine perfusion in lactated Ringer's, ascorbate, and L-NAME treated microdialysis sites",
+                    "timeFrame": "at the study visit, an average of 4 hours"
+                },
+                {
+                    "measure": "microvascular insulin-mediated dilation",
+                    "description": "cutaneous vascular vasodilator responses to insulin perfusion in lactated Ringer's, ascorbate, and L-NAME treated microdialysis sites",
+                    "timeFrame": "at the study visit, an average of 4 hours"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "endothelial cell markers of oxidative stress",
+                    "description": "nitrotyrosine, MnSOD and NADPH oxidase expression in biopsied endothelial cells",
+                    "timeFrame": "at the study visit, an average of 4 hours"
+                },
+                {
+                    "measure": "endothelial cell insulin-stimulated eNOS phosphorylation",
+                    "description": "eNOS phosphorylation response to incubation with insulin in biopsied endothelial cells",
+                    "timeFrame": "at the study visit, an average of 4 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "INCLUSION CRITERIA:\n\n* female sex\n* 18 -50 years old\n* pregnancy history within 5 years of the study visit\n* had gestational diabetes diagnosed by their obstetrician and confirmed according to the American College of Obstetricians and Gynecologists criteria for gestational diabetes\n* or without a history of gestational diabetes\n\nEXCLUSION CRITERIA:\n\n* skin diseases\n* current tobacco/e-cigarette use\n* diagnosed or suspected hepatic or metabolic disease including diabetes\n* statin or other cholesterol-lowering medication\n* current antihypertensive medication\n* history of preeclampsia or gestational hypertension\n* current pregnancy\n* body mass index \\<18.5 kg/m2\n* allergy to materials used during the experiment.(e.g. latex), known allergies to study drugs.",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Anna Reid-Stanhewicz, PHD",
+                    "role": "CONTACT",
+                    "phone": "319-467-1732",
+                    "email": "anna-stanhewicz@uiowa.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Iowa",
+                    "status": "RECRUITING",
+                    "city": "Iowa City",
+                    "state": "Iowa",
+                    "zip": "52242",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Anna Stanhewicz, PhD",
+                            "role": "CONTACT",
+                            "phone": "319-467-1732",
+                            "email": "anna-stanhewicz@uiowa.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.66113,
+                        "lon": -91.53017
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000016640",
+                    "term": "Diabetes, Gestational"
+                },
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                },
+                {
+                    "id": "D000011248",
+                    "term": "Pregnancy Complications"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "asFound": "Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19012",
+                    "name": "Diabetes, Gestational",
+                    "asFound": "Gestational Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000061267",
+                    "term": "Insulin Aspart"
+                },
+                {
+                    "id": "D000000109",
+                    "term": "Acetylcholine"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007004",
+                    "term": "Hypoglycemic Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000014665",
+                    "term": "Vasodilator Agents"
+                },
+                {
+                    "id": "D000018679",
+                    "term": "Cholinergic Agonists"
+                },
+                {
+                    "id": "D000018678",
+                    "term": "Cholinergic Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3473",
+                    "name": "Acetylcholine",
+                    "asFound": "Hyaluronidase",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29801",
+                    "name": "Insulin Aspart",
+                    "asFound": "Oxaliplatin",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4292",
+                    "name": "Antioxidants",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12507",
+                    "name": "Nitric Oxide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21308",
+                    "name": "NG-Nitroarginine Methyl Ester",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10054",
+                    "name": "Hypoglycemic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17412",
+                    "name": "Vasodilator Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20758",
+                    "name": "Cholinergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "VaDiAg",
+                    "name": "Vasodilator Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "Resp",
+                    "name": "Respiratory System Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

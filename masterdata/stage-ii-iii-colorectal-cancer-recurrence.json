@@ -1,0 +1,562 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06314958",
+            "orgStudyIdInfo": {
+                "id": "23228/CENSURE"
+            },
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Stage II/III Colorectal Cancer Recurrence",
+            "officialTitle": "Predicting Recurrence-Free Survival in Stage III and High-Risk Stage II Colorectal Cancer After Curative-Intent Treatment",
+            "acronym": "CENSURE",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "stage-ii-iii-colorectal-cancer-recurrence"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-11",
+            "studyFirstSubmitQcDate": "2024-03-15",
+            "studyFirstPostDateStruct": {
+                "date": "2024-03-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will develop an assay to predict disease recurrence in patients with stage II/III CRC after receiving adjuvant chemotherapy, using genome-wide DNA methylation.",
+            "detailedDescription": "Adjuvant chemotherapy (ACT) is the standard clinical care for patients with stage III or high-risk stage II colorectal cancer (CRC) after curative-intent resection. Nonetheless, more than 30% of patients experience CRC recurrence. Accurate prediction of recurrence risk in stage II/III CRC patients who undergo ACT is crucial for determining the necessity and duration of ACT, as well as for tailoring novel treatment strategies for these patients.\n\nThis study will comprise three phases\n\n1. A systematic and comprehensive CpG methylation-based epigenetic biomarker discovery phase to identify the differentially methylated CpG sites associated with recurrence-free survival (RFS) \\< 5 years and \\> 5 years. In this phase, LASSO-based machine learning algorithms will be used to optimize the biomarker candidates.\n2. A tissue-based clinical assay development phase by quantitative pyrosequencing\n3. An independent validation phase.\n\nAt completion, this study will validate a tissue-based assay to predict the development of recurrence after the completion of chemotherapy in patients with stage III and II CRC"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Colorectal Cancer",
+                "Colorectal Adenocarcinoma",
+                "Colorectal Cancer Stage II",
+                "Colorectal Cancer Stage III",
+                "Colorectal Cancer Recurrent"
+            ],
+            "keywords": [
+                "Recurrence-free Survival (RFS)",
+                "Overall Survival (OS)",
+                "Methylation",
+                "DNA methylation",
+                "carcinoembryonic antigen (CEA)"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Formalin-fixed and paraffin-embedded samples derived from the primary tumor."
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Stage II/III Colorectal Cancer, with Recurrence (Training)",
+                    "description": "Stage II/III Colorectal Cancer patients who received treatment with surgery and adjuvant chemotherapy, and experienced recurrence within five years.",
+                    "interventionNames": [
+                        "Other: CENSURE"
+                    ]
+                },
+                {
+                    "label": "Stage II/III Colorectal Cancer, without Recurrence (Training)",
+                    "description": "Stage II/III Colorectal Cancer patients who received treatment with surgery and adjuvant chemotherapy, and did not experience recurrence within five years.",
+                    "interventionNames": [
+                        "Other: CENSURE"
+                    ]
+                },
+                {
+                    "label": "Stage II/III Colorectal Cancer, with Recurrence (Validation)",
+                    "description": "Stage II/III Colorectal Cancer patients who received treatment with surgery and adjuvant chemotherapy, and experienced recurrence within five years.",
+                    "interventionNames": [
+                        "Other: CENSURE"
+                    ]
+                },
+                {
+                    "label": "Stage II/III Colorectal Cancer, without Recurrence (Validation)",
+                    "description": "Stage II/III Colorectal Cancer patients who received treatment with surgery and adjuvant chemotherapy, and did not experience recurrence within five years.",
+                    "interventionNames": [
+                        "Other: CENSURE"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "CENSURE",
+                    "description": "A panel of CpG sites, whose methylation level is tested in macro-dissected formalin-fixed and paraffin-embedded (FFPE) samples derived from the primary tumor.",
+                    "armGroupLabels": [
+                        "Stage II/III Colorectal Cancer, with Recurrence (Training)",
+                        "Stage II/III Colorectal Cancer, with Recurrence (Validation)",
+                        "Stage II/III Colorectal Cancer, without Recurrence (Training)",
+                        "Stage II/III Colorectal Cancer, without Recurrence (Validation)"
+                    ],
+                    "otherNames": [
+                        "CENSURE (CpG mEthylation-based epigeNetic SignatURE)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Recurrence-Free Survival",
+                    "description": "Time from treatment completion to development of recurrence (or death)",
+                    "timeFrame": "Up to 120 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Overall Survival",
+                    "description": "Time from treatment completion to death from any cause",
+                    "timeFrame": "Up to 120 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Stage II (high-risk) or III colorectal cancer (TNM classification, 8th edition).\n* Received standard diagnostic, staging, and therapeutic procedures as per local guidelines\n* Received stage-specific curative-intent resection followed by adjuvant chemotherapy.\n* Confirmed cancer-free survivorship confirmed at the time of study inclusion.\n\nExclusion Criteria:\n\n* Lack of written informed consent.\n* Development of recurrence in the first 6 months following adjuvant chemotherapy completion.\n* Hereditary colorectal cancer syndromes (identified through genetic testing)\n* Inflammatory bowel diseases",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Two independent cohorts of colorectal cancer survivors (high-risk stage II and stage III), who received curative-intent surgery and adjuvant chemotherapy",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "role": "CONTACT",
+                    "phone": "6262183452",
+                    "email": "AJGOEL@COH.ORG"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Monrovia",
+                    "state": "California",
+                    "zip": "91016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-218-3452",
+                            "email": "AJGOEL@COH.ORG"
+                        },
+                        {
+                            "name": "Caiming Xu, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Alessandro Mannucci, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.14806,
+                        "lon": -117.99895
+                    }
+                },
+                {
+                    "facility": "Second Affiliated Hospital of Dalian Medical University",
+                    "status": "RECRUITING",
+                    "city": "Dalian",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Man Li",
+                            "role": "CONTACT",
+                            "email": "man_li@dmu.edu.cn"
+                        },
+                        {
+                            "name": "Man Li",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.91222,
+                        "lon": 121.60222
+                    }
+                },
+                {
+                    "facility": "Barcelona University",
+                    "status": "RECRUITING",
+                    "city": "Barcelona",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Francesc Balaguer, MD, PhD",
+                            "role": "CONTACT",
+                            "email": "fprunes@clinic.cat"
+                        },
+                        {
+                            "name": "Francesc Balaguer, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.38879,
+                        "lon": 2.15899
+                    }
+                },
+                {
+                    "facility": "La Paz University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Madrid",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Marta Mendiola",
+                            "role": "CONTACT",
+                            "email": "marta.mendiola@salud.madrid.org"
+                        },
+                        {
+                            "name": "Marta Mendiola",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.4165,
+                        "lon": -3.70256
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "33538338",
+                    "type": "BACKGROUND",
+                    "citation": "Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries. CA Cancer J Clin. 2021 May;71(3):209-249. doi: 10.3322/caac.21660. Epub 2021 Feb 4."
+                },
+                {
+                    "pmid": "36633525",
+                    "type": "BACKGROUND",
+                    "citation": "Siegel RL, Miller KD, Wagle NS, Jemal A. Cancer statistics, 2023. CA Cancer J Clin. 2023 Jan;73(1):17-48. doi: 10.3322/caac.21763."
+                },
+                {
+                    "pmid": "38301689",
+                    "type": "BACKGROUND",
+                    "citation": "Frei AL, McGuigan A, Sinha RRAK, Jabbar F, Gneo L, Tomasevic T, Harkin A, Iveson T, Saunders MP, Oien KA, Maka N, Pezzella F, Campo L, Browne M, Glaire M, Kildal W, Danielsen HE, Hay J, Edwards J, Sansom O, Kelly C, Tomlinson I, Kerr R, Kerr D, Domingo E; TransSCOT consortium; Church DN, Koelzer VH. Multiplex analysis of intratumoural immune infiltrate and prognosis in patients with stage II-III colorectal cancer from the SCOT and QUASAR 2 trials: a retrospective analysis. Lancet Oncol. 2024 Feb;25(2):198-211. doi: 10.1016/S1470-2045(23)00560-0."
+                },
+                {
+                    "pmid": "32702383",
+                    "type": "BACKGROUND",
+                    "citation": "Argiles G, Tabernero J, Labianca R, Hochhauser D, Salazar R, Iveson T, Laurent-Puig P, Quirke P, Yoshino T, Taieb J, Martinelli E, Arnold D; ESMO Guidelines Committee. Electronic address: clinicalguidelines@esmo.org. Localised colon cancer: ESMO Clinical Practice Guidelines for diagnosis, treatment and follow-up. Ann Oncol. 2020 Oct;31(10):1291-1305. doi: 10.1016/j.annonc.2020.06.022. Epub 2020 Jul 20. No abstract available."
+                },
+                {
+                    "pmid": "34922323",
+                    "type": "BACKGROUND",
+                    "citation": "Liu Z, Guo C, Dang Q, Wang L, Liu L, Weng S, Xu H, Lu T, Sun Z, Han X. Integrative analysis from multi-center studies identities a consensus machine learning-derived lncRNA signature for stage II/III colorectal cancer. EBioMedicine. 2022 Jan;75:103750. doi: 10.1016/j.ebiom.2021.103750. Epub 2021 Dec 15."
+                },
+                {
+                    "pmid": "30988081",
+                    "type": "BACKGROUND",
+                    "citation": "Feng Q, Chang W, Mao Y, He G, Zheng P, Tang W, Wei Y, Ren L, Zhu D, Ji M, Tu Y, Qin X, Xu J. Tumor-associated Macrophages as Prognostic and Predictive Biomarkers for Postoperative Adjuvant Chemotherapy in Patients with Stage II Colon Cancer. Clin Cancer Res. 2019 Jul 1;25(13):3896-3907. doi: 10.1158/1078-0432.CCR-18-2076. Epub 2019 Apr 15."
+                },
+                {
+                    "pmid": "30086050",
+                    "type": "BACKGROUND",
+                    "citation": "Osterman E, Glimelius B. Recurrence Risk After Up-to-Date Colon Cancer Staging, Surgery, and Pathology: Analysis of the Entire Swedish Population. Dis Colon Rectum. 2018 Sep;61(9):1016-1025. doi: 10.1097/DCR.0000000000001158. Erratum In: Dis Colon Rectum. 2020 Mar;63(3):e36-e37. doi: 10.1097/DCR.0000000000001618."
+                },
+                {
+                    "pmid": "26648796",
+                    "type": "BACKGROUND",
+                    "citation": "Varghese A. Chemotherapy for Stage II Colon Cancer. Clin Colon Rectal Surg. 2015 Dec;28(4):256-61. doi: 10.1055/s-0035-1564430."
+                },
+                {
+                    "pmid": "25430983",
+                    "type": "BACKGROUND",
+                    "citation": "Bockelman C, Engelmann BE, Kaprio T, Hansen TF, Glimelius B. Risk of recurrence in patients with colon cancer stage II and III: a systematic review and meta-analysis of recent literature. Acta Oncol. 2015 Jan;54(1):5-16. doi: 10.3109/0284186X.2014.975839. Epub 2014 Nov 28."
+                },
+                {
+                    "pmid": "34995084",
+                    "type": "BACKGROUND",
+                    "citation": "Cheng E, Ou FS, Ma C, Spiegelman D, Zhang S, Zhou X, Bainter TM, Saltz LB, Niedzwiecki D, Mayer RJ, Whittom R, Hantel A, Benson A, Atienza D, Messino M, Kindler H, Giovannucci EL, Van Blarigan EL, Brown JC, Ng K, Gross CP, Meyerhardt JA, Fuchs CS. Diet- and Lifestyle-Based Prediction Models to Estimate Cancer Recurrence and Death in Patients With Stage III Colon Cancer (CALGB 89803/Alliance). J Clin Oncol. 2022 Mar 1;40(7):740-751. doi: 10.1200/JCO.21.01784. Epub 2022 Jan 7."
+                },
+                {
+                    "pmid": "28453697",
+                    "type": "BACKGROUND",
+                    "citation": "Dienstmann R, Mason MJ, Sinicrope FA, Phipps AI, Tejpar S, Nesbakken A, Danielsen SA, Sveen A, Buchanan DD, Clendenning M, Rosty C, Bot B, Alberts SR, Milburn Jessup J, Lothe RA, Delorenzi M, Newcomb PA, Sargent D, Guinney J. Prediction of overall survival in stage II and III colon cancer beyond TNM system: a retrospective, pooled biomarker study. Ann Oncol. 2017 May 1;28(5):1023-1031. doi: 10.1093/annonc/mdx052."
+                },
+                {
+                    "pmid": "29270608",
+                    "type": "BACKGROUND",
+                    "citation": "Konishi T, Shimada Y, Hsu M, Tufts L, Jimenez-Rodriguez R, Cercek A, Yaeger R, Saltz L, Smith JJ, Nash GM, Guillem JG, Paty PB, Garcia-Aguilar J, Gonen M, Weiser MR. Association of Preoperative and Postoperative Serum Carcinoembryonic Antigen and Colon Cancer Outcome. JAMA Oncol. 2018 Mar 1;4(3):309-315. doi: 10.1001/jamaoncol.2017.4420."
+                },
+                {
+                    "pmid": "26661580",
+                    "type": "BACKGROUND",
+                    "citation": "Nicholson BD, Shinkins B, Pathiraja I, Roberts NW, James TJ, Mallett S, Perera R, Primrose JN, Mant D. Blood CEA levels for detecting recurrent colorectal cancer. Cochrane Database Syst Rev. 2015 Dec 10;2015(12):CD011134. doi: 10.1002/14651858.CD011134.pub2."
+                },
+                {
+                    "pmid": "31504112",
+                    "type": "BACKGROUND",
+                    "citation": "Dienstmann R, Villacampa G, Sveen A, Mason MJ, Niedzwiecki D, Nesbakken A, Moreno V, Warren RS, Lothe RA, Guinney J. Relative contribution of clinicopathological variables, genomic markers, transcriptomic subtyping and microenvironment features for outcome prediction in stage II/III colorectal cancer. Ann Oncol. 2019 Oct 1;30(10):1622-1629. doi: 10.1093/annonc/mdz287."
+                },
+                {
+                    "pmid": "21383284",
+                    "type": "BACKGROUND",
+                    "citation": "Hutchins G, Southward K, Handley K, Magill L, Beaumont C, Stahlschmidt J, Richman S, Chambers P, Seymour M, Kerr D, Gray R, Quirke P. Value of mismatch repair, KRAS, and BRAF mutations in predicting recurrence and benefits from chemotherapy in colorectal cancer. J Clin Oncol. 2011 Apr 1;29(10):1261-70. doi: 10.1200/JCO.2010.30.1366. Epub 2011 Mar 7. Erratum In: J Clin Oncol. 2011 Jul 20;29(21):2949."
+                },
+                {
+                    "pmid": "29754777",
+                    "type": "BACKGROUND",
+                    "citation": "Pages F, Mlecnik B, Marliot F, Bindea G, Ou FS, Bifulco C, Lugli A, Zlobec I, Rau TT, Berger MD, Nagtegaal ID, Vink-Borger E, Hartmann A, Geppert C, Kolwelter J, Merkel S, Grutzmann R, Van den Eynde M, Jouret-Mourin A, Kartheuser A, Leonard D, Remue C, Wang JY, Bavi P, Roehrl MHA, Ohashi PS, Nguyen LT, Han S, MacGregor HL, Hafezi-Bakhtiari S, Wouters BG, Masucci GV, Andersson EK, Zavadova E, Vocka M, Spacek J, Petruzelka L, Konopasek B, Dundr P, Skalova H, Nemejcova K, Botti G, Tatangelo F, Delrio P, Ciliberto G, Maio M, Laghi L, Grizzi F, Fredriksen T, Buttard B, Angelova M, Vasaturo A, Maby P, Church SE, Angell HK, Lafontaine L, Bruni D, El Sissy C, Haicheur N, Kirilovsky A, Berger A, Lagorce C, Meyers JP, Paustian C, Feng Z, Ballesteros-Merino C, Dijkstra J, van de Water C, van Lent-van Vliet S, Knijn N, Musina AM, Scripcariu DV, Popivanova B, Xu M, Fujita T, Hazama S, Suzuki N, Nagano H, Okuno K, Torigoe T, Sato N, Furuhata T, Takemasa I, Itoh K, Patel PS, Vora HH, Shah B, Patel JB, Rajvik KN, Pandya SJ, Shukla SN, Wang Y, Zhang G, Kawakami Y, Marincola FM, Ascierto PA, Sargent DJ, Fox BA, Galon J. International validation of the consensus Immunoscore for the classification of colon cancer: a prognostic and accuracy study. Lancet. 2018 May 26;391(10135):2128-2139. doi: 10.1016/S0140-6736(18)30789-X. Epub 2018 May 10."
+                },
+                {
+                    "pmid": "24220557",
+                    "type": "BACKGROUND",
+                    "citation": "Yothers G, O'Connell MJ, Lee M, Lopatin M, Clark-Langone KM, Millward C, Paik S, Sharif S, Shak S, Wolmark N. Validation of the 12-gene colon cancer recurrence score in NSABP C-07 as a predictor of recurrence in patients with stage II and III colon cancer treated with fluorouracil and leucovorin (FU/LV) and FU/LV plus oxaliplatin. J Clin Oncol. 2013 Dec 20;31(36):4512-9. doi: 10.1200/JCO.2012.47.3116. Epub 2013 Nov 12. Erratum In: J Clin Oncol. 2014 Mar 10;32(8):866."
+                },
+                {
+                    "pmid": "34625408",
+                    "type": "BACKGROUND",
+                    "citation": "Henriksen TV, Tarazona N, Frydendahl A, Reinert T, Gimeno-Valiente F, Carbonell-Asins JA, Sharma S, Renner D, Hafez D, Roda D, Huerta M, Rosello S, Madsen AH, Love US, Andersen PV, Thorlacius-Ussing O, Iversen LH, Gotschalck KA, Sethi H, Aleshin A, Cervantes A, Andersen CL. Circulating Tumor DNA in Stage III Colorectal Cancer, beyond Minimal Residual Disease Detection, toward Assessment of Adjuvant Therapy Efficacy and Clinical Behavior of Recurrences. Clin Cancer Res. 2022 Feb 1;28(3):507-517. doi: 10.1158/1078-0432.CCR-21-2404. Epub 2021 Oct 8."
+                },
+                {
+                    "pmid": "36171662",
+                    "type": "BACKGROUND",
+                    "citation": "Romesser PB, Sanchez-Vega F, Joshua Smith J. A methylation-based prognostic signature in stage II colorectal patients: Considerations for clinical adoption. J Natl Cancer Inst. 2023 Jan 10;115(1):8-11. doi: 10.1093/jnci/djac184. No abstract available."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data collected for the study will be made available to others, including de-identified participant data, at publication, via a signed data access agreement and at the discretion of the investigators' approval of the proposed use of such data."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000012008",
+                    "term": "Recurrence"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000003108",
+                    "term": "Colonic Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14850",
+                    "name": "Recurrence",
+                    "asFound": "Recurrence",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "asFound": "Colorectal Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6336",
+                    "name": "Colonic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M8681",
+                    "name": "Formaldehyde",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

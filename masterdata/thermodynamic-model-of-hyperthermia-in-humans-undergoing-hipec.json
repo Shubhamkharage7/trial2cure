@@ -1,0 +1,393 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05426928",
+            "orgStudyIdInfo": {
+                "id": "15538"
+            },
+            "organization": {
+                "fullName": "Henry Ford Health System",
+                "class": "OTHER"
+            },
+            "briefTitle": "Thermodynamic Model of Hyperthermia in Humans Undergoing HIPEC",
+            "officialTitle": "Development of a Computational, Thermodynamic Model of Intraabdominal Hyperthermia in Humans Undergoing HIPEC",
+            "acronym": "HIPEC",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "thermodynamic-model-of-hyperthermia-in-humans-undergoing-hipec"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-10-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-07-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-06-06",
+            "studyFirstSubmitQcDate": "2022-06-16",
+            "studyFirstPostDateStruct": {
+                "date": "2022-06-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Carlos E. Guerra",
+                "investigatorTitle": "Principal Investigator, Senior Staff Anesthesiologist, Assistant Professor",
+                "investigatorAffiliation": "Henry Ford Health System"
+            },
+            "leadSponsor": {
+                "name": "Henry Ford Health System",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Hyperthermic Intraperitoneal Chemotherapy (HIPEC) is a well-established alternative for patients with peritoneal surface malignancies. Although HIPEC has a predetermined protocol to manage body temperature, the resultant bladder and core-body temperatures are highly variable and unstable in clinical practice. Such results highlight an incomplete understanding of the thermodynamic processes during HIPEC in humans.\n\nPrevious clinical and animal investigations have studied abdominal hyperthermia, but a full human model incorporating patient variables, heat delivery, and the impact of the circulatory system and anesthesia in HIPEC has not been established.\n\nThis project seeks to develop and validate a computational thermodynamic model using prospective real-world data from humans undergoing HIPEC surgery. It is hypothesized that by incorporating patient, anesthetic, and perfusion-related variables in a thermodynamic model, the temperatures inside and outside the abdomen during HIPEC can be predicted.",
+            "detailedDescription": "Peritoneal surface malignancies are a group of cancers arising from rare primary or common secondary tumors. Regardless of the etiology, the prognosis is poor and only a few therapies have shown promising results. Hyperthermic Intraperitoneal Chemotherapy (HIPEC) is a well-established alternative for patients with these malignancies. Still, as many as 46% of patients recur early after treatment.\n\nAlthough HIPEC has a predetermined protocol to manage body temperature, the resultant bladder and core-body temperatures are highly variable. Age, gender, body mass index, and type and duration of chemotherapy are key factors influencing the incidence and severity of bladder hyperthermia. While clinical and animal investigations have studied abdominal hyperthermia, a full human model incorporating patient variables, heat delivery, and the impact of the circulatory system and anesthesia in HIPEC has not been established.\n\nTo bridge this gap in knowledge, this project seeks to develop and validate a computational thermodynamic model using prospective real-world data from humans undergoing HIPEC surgery. It is hypothesized that by incorporating patient, anesthetic, and perfusion-related variables in a thermodynamic model, the temperatures inside and outside the abdomen during HIPEC can be predicted. By predicting temperature changes during HIPEC, clinicians can improve the safety and efficacy of therapeutic hyperthermia.\n\nThe hypothesis will be evaluated through two specific aims:\n\nSpecific aim 1: To develop a computational, thermodynamic model of intraabdominal hyperthermia for humans undergoing HIPEC. The rationale is that existing thermodynamic models are designed for non-anesthetized or hypothermic humans, implying the need of a new model with the conditions of a HIPEC treatment.\n\nSpecific aim 2: To validate our novel computational thermodynamic model using prospective real-world data from humans undergoing HIPEC surgery. Our rationale is that by using real-world data, the initial (SA1) computational model can be optimized and ultimately used to formulate individualized hyperthermia treatments."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "HIPEC"
+            ],
+            "keywords": [
+                "Predictive model",
+                "Intraabdominal hyperthermia",
+                "Thermodynamics"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HIPEC",
+                    "description": "Adults undergoing cytoreductive surgery and who are deemed eligible for HIPEC after surgical exploration in the operating theatre.\n\nThe patients will receive HIPEC according to routine practice, as defined by the surgical oncologist.",
+                    "interventionNames": [
+                        "Other: Additional temperature monitoring/recording"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Additional temperature monitoring/recording",
+                    "description": "All patients in this study will receive the same standard of care treatment for their HIPEC procedure. The only difference will be the use of additional temperature probes to collect more robust data regarding intraabdominal temperature, and the prospective collection of actual boundary conditions of the system.",
+                    "armGroupLabels": [
+                        "HIPEC"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Core-body Temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Bladder temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Mean Temperature of the Skin (C)",
+                    "description": "Weighed calculation of the skin temperature values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Intrabdominal wall tissue temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Set Temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Inflow Temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hrs)"
+                },
+                {
+                    "measure": "Outflow Temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "HIPEC Flow",
+                    "description": "Flow values (mL/min) over time during a HIPEC treatment",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Operating Room Temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Underbody Blanket Temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Convection Air Blanket Temperature (Celsius)",
+                    "description": "Temperature values over time during a HIPEC treatment",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Intrabdominal Cavity Volume (mL)",
+                    "description": "3D-lab post-processing of preoperative CT scans.",
+                    "timeFrame": "Preoperative, on average within 3 months prior to surgery."
+                },
+                {
+                    "measure": "Peritoneal Cavity Volume (mL)",
+                    "description": "3D-lab post-processing of preoperative CT scans.",
+                    "timeFrame": "Preoperative, on average within 3 months prior to surgery."
+                },
+                {
+                    "measure": "Abdominal Volume (mL)",
+                    "description": "3D-lab post-processing of preoperative CT scans.",
+                    "timeFrame": "Preoperative, on average within 3 months prior to surgery."
+                },
+                {
+                    "measure": "Blood Pressure (mmHg)",
+                    "description": "Blood pressure values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Heart Rate (beats/min)",
+                    "description": "Heart rate values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Cardiac Output (L/min)",
+                    "description": "Cardiac output values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Stroke Volume Variation (%)",
+                    "description": "Stroke volume variation values over time during a HIPEC treatment.",
+                    "timeFrame": "Duration of HIPEC procedure (2-4 hours)"
+                },
+                {
+                    "measure": "Body fat percentage (%)",
+                    "description": "Determined by impedancemetry",
+                    "timeFrame": "Preoperative, obtained the day of surgery."
+                },
+                {
+                    "measure": "Weight (Kg)",
+                    "description": "Participant's weight",
+                    "timeFrame": "Preoperative, obtained the day of surgery."
+                },
+                {
+                    "measure": "Height (m)",
+                    "description": "Participant's height",
+                    "timeFrame": "Preoperative, obtained the day of surgery."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults (at least 18 years or older)\n* Scheduled to undergo HIPEC surgery for abdominal cancer at HFH-Main\n\nExclusion Criteria:\n\n* Pregnant females\n* Minors\n* Disease not amenable for treatment with HIPEC after surgical examination.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "The study population will consist of all patients who are scheduled to undergo hyperthermic intraperitoneal chemotherapy (HIPEC) for abdominal cancer at Henry Ford Main Hospital",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Katherine Nowak, PhD",
+                    "role": "CONTACT",
+                    "phone": "313-771-7128",
+                    "email": "knowak2@hfhs.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Carlos Guerra, MD",
+                    "affiliation": "Staff Anesthesiologist",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Katherine Nowak",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Katherine Nowak, PhD",
+                            "role": "CONTACT",
+                            "phone": "313-771-7128",
+                            "email": "knowak2@hfhs.org"
+                        },
+                        {
+                            "name": "Carlos Guerra, MD",
+                            "role": "CONTACT",
+                            "email": "cguerra1@hfhs.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "33487083",
+                    "type": "BACKGROUND",
+                    "citation": "Loke DR, Helderman RFCPA, Rodermond HM, Tanis PJ, Streekstra GJ, Franken NAP, Oei AL, Crezee J, Kok HP. Demonstration of treatment planning software for hyperthermic intraperitoneal chemotherapy in a rat model. Int J Hyperthermia. 2021;38(1):38-54. doi: 10.1080/02656736.2020.1852324."
+                },
+                {
+                    "pmid": "29564201",
+                    "type": "BACKGROUND",
+                    "citation": "Ladhari T, Szafnicki K. Modelling of some aspects of a biomedical process: application to the treatment of digestive cancer (HIPEC). 3 Biotech. 2018 Apr;8(4):190. doi: 10.1007/s13205-018-1211-5. Epub 2018 Mar 20."
+                },
+                {
+                    "pmid": "4807388",
+                    "type": "BACKGROUND",
+                    "citation": "Stolwijk JA, Nadel ER, Wenger CB, Roberts MF. Development and application of a mathematical model of human thermoregulation. Arch Sci Physiol (Paris). 1973;27(3):303-10. No abstract available."
+                },
+                {
+                    "pmid": "17762076",
+                    "type": "BACKGROUND",
+                    "citation": "Severens NM, van Marken Lichtenbelt WD, Frijns AJ, Van Steenhoven AA, de Mol BA, Sessler DI. A model to predict patient temperature during cardiac surgery. Phys Med Biol. 2007 Sep 7;52(17):5131-45. doi: 10.1088/0031-9155/52/17/002. Epub 2007 Aug 7."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000084462",
+                    "term": "Hyperthermia"
+                },
+                {
+                    "id": "D000005334",
+                    "term": "Fever"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001832",
+                    "term": "Body Temperature Changes"
+                },
+                {
+                    "id": "D000018882",
+                    "term": "Heat Stress Disorders"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M2454",
+                    "name": "Hyperthermia",
+                    "asFound": "Hyperthermia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8464",
+                    "name": "Fever",
+                    "asFound": "Hyperthermia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5111",
+                    "name": "Body Temperature Changes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M24916",
+                    "name": "Stress Disorders, Traumatic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20924",
+                    "name": "Heat Stress Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

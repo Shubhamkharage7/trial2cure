@@ -1,0 +1,358 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06290570",
+            "orgStudyIdInfo": {
+                "id": "23-007685"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "A Study of Artificial Intelligence ECG With ECG Devices to Detect Hypertrophic Cardiomyopathy Distinct From Athlete's Heart",
+            "officialTitle": "Prospective Evaluation of Artificial Intelligence ECG With Consumer-Facing ECG Devices for Detection of Hypertrophic Cardiomyopathy and Distinction From Athlete's Heart",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "a-study-of-artificial-intelligence-ecg-with-ecg-devices-to-detect-hypertrophic-cardiomyopathy-distinct-from-athlete-s-heart"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05-07",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-26",
+            "studyFirstSubmitQcDate": "2024-02-26",
+            "studyFirstPostDateStruct": {
+                "date": "2024-03-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-28",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Konstantinos Siontis",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the AI-ECG algorithm for HCM in detecting HCM and in differentiating it from athlete's heart using not only the standard 12-lead ECG, but also ECGs obtained with the Apple Watch and Alivecor KardiaMobile devices."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hypertrophic Cardiomyopathy",
+                "Athlete Heart"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Hypertrophic Cardiomyopathy (HCM)",
+                    "description": "Subjects with clinically validated diagnoses of HCM will be enrolled and have a clinically indicated 12-Lead ECG obtained as well as ECG tracings collected using an Apple Smart Watch (single-lead) and AliveCor KardiaMobile (6-Lead).",
+                    "interventionNames": [
+                        "Diagnostic Test: 12-Lead ECG",
+                        "Diagnostic Test: Apple Smart Watch Single Lead ECG",
+                        "Diagnostic Test: AliveCor KardiaMobile 6-Lead ECG"
+                    ]
+                },
+                {
+                    "label": "Athlete's Heart",
+                    "description": "Subjects with clinically validated diagnoses of Athlete's Heart will be enrolled and have a clinically indicated 12-Lead ECG obtained as well as ECG tracings collected using an Apple Smart Watch (single-lead) and AliveCor KardiaMobile (6-Lead).",
+                    "interventionNames": [
+                        "Diagnostic Test: 12-Lead ECG",
+                        "Diagnostic Test: Apple Smart Watch Single Lead ECG",
+                        "Diagnostic Test: AliveCor KardiaMobile 6-Lead ECG"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "12-Lead ECG",
+                    "description": "A clinically performed 12-lead ECG tracing within 30 days of the appointment will be obtained from the subject medical record and will be used for AI-ECG analyses.",
+                    "armGroupLabels": [
+                        "Athlete's Heart",
+                        "Hypertrophic Cardiomyopathy (HCM)"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Apple Smart Watch Single Lead ECG",
+                    "description": "A single lead ECG tracing will be collected using an Apple Smart Watch and tracing will be used for AI-ECG analyses.",
+                    "armGroupLabels": [
+                        "Athlete's Heart",
+                        "Hypertrophic Cardiomyopathy (HCM)"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "AliveCor KardiaMobile 6-Lead ECG",
+                    "description": "A 6-lead ECG tracing will be collected using an AliveCor KardiaMobile device and tracing will be used for AI-ECG analyses.",
+                    "armGroupLabels": [
+                        "Athlete's Heart",
+                        "Hypertrophic Cardiomyopathy (HCM)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Distribution of AI-ECG probabilities in HCM",
+                    "description": "Artificial Intelligence (AI) scores will be measured using the AI Algorithm on ECG tracings obtained from clinically indicated 12-Lead ECG, Apple Smart Watch (single-lead), and AliveCor KardiaMobile (6-Lead) in subjects with HCM. The AI scores will be utilized to generate the AI-ECG probability of accurately diagnosing HCM (labelled as true positive, true negative, false positive, false negative) and the distribution of AI-ECG probabilities will be evaluated. A higher distribution of AI-ECG probabilities (more true positives) will reflect better diagnostic performance of the AI-ECG Algorithm.",
+                    "timeFrame": "Baseline"
+                },
+                {
+                    "measure": "Comparative diagnostic performance between tracings obtained from different devices",
+                    "description": "Artificial Intelligence (AI) scores will be measured using the AI Algorithm on ECG tracings obtained from clinically indicated 12-Lead ECG, Apple Smart Watch (single-lead), and AliveCor KardiaMobile (6-Lead). Diagnostic performance of AI Algorithm (labelled as true positive, true negative, false positive, false negative) based on tracing from each ECG form factor (12-lead, single-lead, 6-lead) will be evaluated and compared.",
+                    "timeFrame": "Baseline"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Distribution of AI-ECG probabilities in Athlete's Heart",
+                    "description": "Artificial Intelligence (AI) scores will be measured using the AI Algorithm on ECG tracings obtained from clinically indicated 12-Lead ECG, Apple Smart Watch (single-lead), and AliveCor KardiaMobile (6-Lead) in subjects with Athlete's Heart. The AI scores will be utilized to generate the AI-ECG probability of accurately diagnosing HCM (true positive, true negative, false positive, false negative) and the distribution of AI-ECG probabilities will be evaluated. A higher distribution of AI-ECG probabilities (more true positives) will reflect better diagnostic performance of the AI-ECG Algorithm.",
+                    "timeFrame": "Baseline"
+                },
+                {
+                    "measure": "Correlation with false negative AI ECG result",
+                    "description": "Artificial Intelligence (AI) scores will be measured using the AI Algorithm on ECG tracings obtained from clinically indicated 12-Lead ECG, Apple Smart Watch (single-lead), and AliveCor KardiaMobile (6-Lead). Diagnostic performance of AI Algorithm (labelled as true positive, true negative, false positive, false negative) based on tracing from each ECG form factor (12-lead, single-lead, 6-lead) will be evaluated and the correlation of the form factor to a false negative AI ECG result will be determined.",
+                    "timeFrame": "Baseline"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with clinically validated diagnoses of HCM (n=150) and athlete's heart (n=150) will be identified by pre-screening of the clinic appointments for each of the specialty HCM and Sports Cardiology clinics or in the CV fellows' clinic (in patients with an established diagnosis and no pending testing). All diagnoses will need to be supported by unequivocal imaging and other ancillary data per our standard of care and at the determination of clinic experts.\n\nExclusion Criteria:\n\n* Any exception to the above criteria.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Outpatients scheduled for appointments in the sports cardiology or HCM clinic at Mayo Clinic in Rochester, MN will be approached to participate in the study.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Heart Rhythm Services Research Team",
+                    "role": "CONTACT",
+                    "phone": "(507) 255-0774"
+                },
+                {
+                    "name": "Konstantinos Siontis, MD",
+                    "role": "CONTACT",
+                    "phone": "(507) 255-1051",
+                    "email": "Siontis.Konstantinos@mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Konstantinos Siontis, MD",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Rochester",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Heart Rhythm Services Research Team",
+                            "role": "CONTACT",
+                            "phone": "507-255-0774"
+                        },
+                        {
+                            "name": "Konstantinos Siontis, MD",
+                            "role": "CONTACT",
+                            "phone": "(507) 255-1051",
+                            "email": "Siontis.Konstantinos@mayo.edu"
+                        },
+                        {
+                            "name": "Konstantinos Siontis, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009202",
+                    "term": "Cardiomyopathies"
+                },
+                {
+                    "id": "D000002312",
+                    "term": "Cardiomyopathy, Hypertrophic"
+                },
+                {
+                    "id": "D000006984",
+                    "term": "Hypertrophy"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000020763",
+                    "term": "Pathological Conditions, Anatomical"
+                },
+                {
+                    "id": "D000001020",
+                    "term": "Aortic Stenosis, Subvalvular"
+                },
+                {
+                    "id": "D000001024",
+                    "term": "Aortic Valve Stenosis"
+                },
+                {
+                    "id": "D000082862",
+                    "term": "Aortic Valve Disease"
+                },
+                {
+                    "id": "D000006349",
+                    "term": "Heart Valve Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12154",
+                    "name": "Cardiomyopathies",
+                    "asFound": "Cardiomyopathy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10035",
+                    "name": "Hypertrophy",
+                    "asFound": "Hypertrophic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5568",
+                    "name": "Cardiomyopathy, Hypertrophic",
+                    "asFound": "Hypertrophic Cardiomyopathy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22519",
+                    "name": "Pathological Conditions, Anatomical",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4340",
+                    "name": "Aortic Valve Stenosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6475",
+                    "name": "Constriction, Pathologic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2379",
+                    "name": "Aortic Valve Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9437",
+                    "name": "Heart Valve Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T449",
+                    "name": "Aortic Valve Stenosis",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

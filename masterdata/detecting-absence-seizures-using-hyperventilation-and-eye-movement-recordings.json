@@ -1,0 +1,363 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06093490",
+            "orgStudyIdInfo": {
+                "id": "1R43NS129363",
+                "type": "NIH",
+                "link": "https://reporter.nih.gov/quickSearch/1R43NS129363"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "1R43NS129363",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/1R43NS129363"
+                }
+            ],
+            "organization": {
+                "fullName": "Eysz, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Detecting Absence Seizures Using Hyperventilation and Eye Movement Recordings",
+            "officialTitle": "A Mobile Health Application to Detect Absence Seizures Using Hyperventilation and Eye-Movement Recordings",
+            "acronym": "DASHER",
+            "therapeuticArea": [
+                "Other",
+                "Neurology"
+            ],
+            "study": "detecting-absence-seizures-using-hyperventilation-and-eye-movement-recordings"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-16",
+            "studyFirstSubmitQcDate": "2023-10-19",
+            "studyFirstPostDateStruct": {
+                "date": "2023-10-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-20",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Rachel Kuperman",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Eysz, Inc."
+            },
+            "leadSponsor": {
+                "name": "Eysz, Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is being done to find out if a smartphone app can identify absence seizures. Children who have a history of absence seizures, as well as children without any seizure history, will be testing out the app. If participating the child will be guided through hyperventilation, an activity that asks the child to take quick, deep breaths. The app will record video of the child's face and sounds they make during hyperventilation. Hyperventilation is a safe and established technique frequently used during EEG (electroencephalogram) to encourage seizure occurrence. The App will be used during a regularly scheduled EEG.",
+            "detailedDescription": "This observational study focuses on validating the use of the Eysz mHealth App - a smartphone-based tool for guided Hyperventilation (HV) and data collection - to aid clinicians in identifying absence seizures in people at risk for childhood absence epilepsy (CAE). The Eysz mHealth app will guide users through HV via interactive graphics while capturing audio and video data using smartphone sensors (e.g., camera, microphone) from which eye movements, facial biometrics/ expressions, number and length of exhales will be extracted.\n\nThe goal of this observational study is to determine an epileptologist's performance in identifying HV-induced absence seizures using video data collected from a smartphone when compared to the gold standard interpretation of the EEG. The exploratory goal is to develop machine learning based algorithms to identify HV-induced seizures."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Absence Epilepsy, Childhood",
+                "Absence Seizures",
+                "Absence Epilepsy",
+                "Epilepsy in Children",
+                "Staring",
+                "Seizures"
+            ],
+            "keywords": [
+                "absence seizures",
+                "absence epilepsy",
+                "hyperventilation",
+                "staring spells"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 75,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Absence Seizure",
+                    "description": "Age 4-12, Typical Absence Seizure captured during hyperventilation",
+                    "interventionNames": [
+                        "Device: Eysz Hyperventilation Recorder"
+                    ]
+                },
+                {
+                    "label": "Control Group",
+                    "description": "Age 4-12, Control Group without seizure activity during hyperventilation",
+                    "interventionNames": [
+                        "Device: Eysz Hyperventilation Recorder"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Eysz Hyperventilation Recorder",
+                    "description": "App used to guide and record hyperventilation",
+                    "armGroupLabels": [
+                        "Absence Seizure",
+                        "Control Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Accuracy of Eysz Hyperventilation (HV) Recorder Compared to video EEG (VEEG)",
+                    "description": "Voluntary HV triggers seizures in \\>90% of people with absence epilepsy and is a standard clinical procedure to assist in diagnosing and monitoring absence epilepsy. Clinical studies have shown HV to be a safe and effective procedure. This study focuses demonstrating the accuracy of the physician read of a smartphone video generated by the Eysz Hyperventilation (HV) Recorder- a smartphone-based tool for guided HV and video data collection. Three epileptologists will review the VEEG during use of the Eysz HV Recorder to identify typical absence seizures. Three independent epileptologists will review the concurrently generated video from the Eysz HV Recorder to identify typical absence seizures.\n\nOur primary endpoint is that the lower bound of the 95% confidence interval of the accuracy of the majority classification of the smartphone video is \u2265 75% in comparison to the majority classification of the VEEG by 3 independent expert reviewers.",
+                    "timeFrame": "epileptologist review of 5 minutes of use of the Eysz Hyperventilation Recorder"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* typical absence seizure during use of the Eysz Hyperventilation Recorder or Control\n\nExclusion Criteria:\n\n* Other seizure type besides typical absence seizure during use of the Eysz Hyperventilation Recorder\n* subclinical seizure activity\n* inability to participate with study procedures\n* contraindications to hyperventilation including history of subarachnoid hemorrhage, sickle cell anemia, recent cerebrovascular accident or myocardial infarction, significant cardiopulmonary disease, active asthma, known aneurysm, known moyamoya disease, or pregnancy.\n* People who have a history of generalized tonic clonic convulsions (GTCs) provoked by hyperventilation",
+            "sex": "ALL",
+            "minimumAge": "4 Years",
+            "maximumAge": "12 Years",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "Children undergoing routine EEG as part of clinical care at risk or known to have childhood absence epilepsy who will be undergoing hyperventilation",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Rachel Kuperman, MD",
+                    "role": "CONTACT",
+                    "phone": "\u202a(415) 857-1794\u202c",
+                    "email": "rkuperman@eyszlab.com"
+                },
+                {
+                    "name": "Parth Amin, BE",
+                    "role": "CONTACT",
+                    "phone": "(919)-473-3326",
+                    "email": "parth@eyszlab.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cincinnati Children's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Cincinnati",
+                    "state": "Ohio",
+                    "zip": "045229",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Richard Rathbun",
+                            "role": "CONTACT",
+                            "email": "Richard.Rathbun@cchmc.org"
+                        },
+                        {
+                            "name": "Gewalin Aungaroon, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.12713,
+                        "lon": -84.51435
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006985",
+                    "term": "Hyperventilation"
+                },
+                {
+                    "id": "D000004827",
+                    "term": "Epilepsy"
+                },
+                {
+                    "id": "D000012640",
+                    "term": "Seizures"
+                },
+                {
+                    "id": "D000004832",
+                    "term": "Epilepsy, Absence"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000012818",
+                    "term": "Signs and Symptoms, Respiratory"
+                },
+                {
+                    "id": "D000004829",
+                    "term": "Epilepsy, Generalized"
+                },
+                {
+                    "id": "D000073376",
+                    "term": "Epileptic Syndromes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7983",
+                    "name": "Epilepsy",
+                    "asFound": "Epilepsy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15452",
+                    "name": "Seizures",
+                    "asFound": "Seizures",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7988",
+                    "name": "Epilepsy, Absence",
+                    "asFound": "Absence Epilepsy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10036",
+                    "name": "Hyperventilation",
+                    "asFound": "Hyperventilation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15623",
+                    "name": "Signs and Symptoms, Respiratory",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7985",
+                    "name": "Epilepsy, Generalized",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1165",
+                    "name": "Epileptic Syndromes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

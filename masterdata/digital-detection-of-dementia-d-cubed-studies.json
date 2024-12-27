@@ -1,0 +1,343 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06224205",
+            "orgStudyIdInfo": {
+                "id": "2008372812b"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01AG069765-01",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01AG069765-01"
+                }
+            ],
+            "organization": {
+                "fullName": "Indiana University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Digital Detection of Dementia (D Cubed) Studies: D3",
+            "officialTitle": "Digital Detection of Dementia (D Cubed) Studies: D3",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "digital-detection-of-dementia-d-cubed-studies"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-11-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-16",
+            "studyFirstSubmitQcDate": "2024-01-16",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-25",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "MALAZ BOUSTANI",
+                "investigatorTitle": "Professor of Aging Research",
+                "investigatorAffiliation": "Indiana University"
+            },
+            "leadSponsor": {
+                "name": "Indiana University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute on Aging (NIA)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The specific aim of the pragmatic trial is to evaluate the practical utility and effect of the PDM, the QDRS, and the combined approach (PDM + QDRS) in improving the annual rate of new documented ADRD diagnosis in primary care practices.",
+            "detailedDescription": "Alzheimer's disease and related dementias (ADRD) negatively impact millions of Americans with an annual societal cost of more than $200 million.1 Currently, half of Americans living with ADRD never receive a diagnosis.2-7 For those who do, the diagnosis often occurs two to five years after the onset of symptoms.6-9 As stated by the National Institute on Aging (NIA) (RFA-AG-20-051) \"The inability to diagnose and treat cognitive impairment results in prolonged and expensive medical care\" and \"early detection could help persons with dementia and their care partners plan for the future\". Furthermore, if the development of disease modifying therapeutics for ADRD is successful, this may require the use of such therapeutics at a very early stage of ADRD.1 However, the current approaches of using cognitive tests or biomarkers for early detection of ADRD are not scalable due to their low acceptance, their invasive nature, their cost, or their lack of accessibility in rural or underserved areas. Thus, the NIA called out for the development of low cost, effective, and scalable approaches for early detection of ADRD (RFA-AG-20-051).\n\nIn response to the RFA-AG-20-051 call for the \"validation, and translation of screening and assessment tools for measuring cognitive decline a pragmatic cluster-randomized controlled comparative effectiveness (NIH Stage IV) trial will be executed in Eskenazi Health in central Indiana and one additional replicated pragmatic trial among patients from diverse rural, suburban and urban primary care practices in south Florida. The pragmatic trial will incorporate the Passive Digital Marker (PDM) and the Quick Dementia Rating Scale (QDRS) within the Medicare paid Annual Wellness Visit (AWV) for a cohort of patients from practices across the two independent sites, with practices randomized in each pragmatic trial to one of the 3 arms (AWV alone, the AWV with PDM and the PDM and the QDRS).\n\nQuick Dementia Rating Scale (QDRS)- is a validated patient reported outcome (PRO) tool.\n\nPassive Digital Marker (PDM) - is a Machine Learning (ML) algorithm which can predict ADRD one year and three years prior to its onset by using routine care electronic health record (EHR) data. The algorithm was trained using structured and unstructured data from three EHR datasets: diagnosis (Dx), prescriptions (Rx), and medical notes (Nx). Individual algorithms derived from each of the three datasets were developed and compared to a combined one that included all three datasets."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Alzheimer Disease and Related Dementias (ADRD)"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "This is a pragmatic cluster randomized control trial with randomizing clinic and with wavier of consent for human subjects. The data collection is from the EHR. There is no research data collection outside the EHR.",
+                "primaryPurpose": "SCREENING",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 3150,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Annual Well Visit or any other visit to Primary Care Doctor",
+                    "type": "NO_INTERVENTION",
+                    "description": "Annual Well Visit or any other visit to Primary Care Doctor: This is the usual care arm. Electronic Health Record Data for patients from the clinics randomized to usual care will be collected for comparison with the other 2 arms. Patients from these primary care clinics must have had a visit to their doctor either as an annual well visit (AWV) or any other type of visit. These clinics will not have to do anything for the study but run their business as usual without altering anything."
+                },
+                {
+                    "label": "Passive Digital Marker (PDM)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Passive Digital Marker (PDM): Electronic Health Record Data from those clinics randomized to PDM will be run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset.",
+                    "interventionNames": [
+                        "Other: Passive Digital Marker for screening for ADRD"
+                    ]
+                },
+                {
+                    "label": "Passive Digital Marker (PDM) + Quick Dementia Rating Scale (QDRS)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD.",
+                    "interventionNames": [
+                        "Other: Passive Digital Marker for screening for ADRD"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Passive Digital Marker for screening for ADRD",
+                    "description": "Patients in the primary care clinics randomized to PDM+QDRS will have Electronic Health Record Data of their patients run through the PDM, a machine learning algorithm which can predict ADRD one year and three years prior to its onset. In addition, patients from these clinics will have their patients complete the QDRS, a validated patient reported outcome (PRO) tool. This combined approach will assess the value of early detection of ADRD and if the annual well visit can overcome the barriers related to early detection of ADRD.",
+                    "armGroupLabels": [
+                        "Passive Digital Marker (PDM)",
+                        "Passive Digital Marker (PDM) + Quick Dementia Rating Scale (QDRS)"
+                    ],
+                    "otherNames": [
+                        "Patient reported outcome (QDRS) for screening for ADRD"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Incidence of ADRD",
+                    "description": "The primary outcome measure will be any new ADRD case identified (documented in the EHR) within 12 months of the Annual Wellness Visit (index visit).",
+                    "timeFrame": "12 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Incidence of ADRD services",
+                    "description": "The secondary outcome measures will be any services related to cognitive diagnostic assessment in the post Annual Wellness Visit (index) period that providers may order to diagnose or exclude ADRD. Specifically, the metrics of diagnostic assessment will be evaluated as proportions of patients with a record of 1 or more of:\n\n* Laboratory tests for TSH, serum B12, folate, or syphilis; individually or combined at any point during the 90 days after index\n* Neuropsychological testing, including testing by psychologist or physician, technician administrator, computer, or other providers during the 12 months after index date\n* Brain imaging testing (computed tomography, magnetic resonance imaging, positron emission tomography, magnetic resonance angiogram) of the head and neck, brain, or skull during the 12 months after index date\n* Medications approved for management of ADRD (cholinesterase inhibitors, memantine) during the 12 months after index date",
+                    "timeFrame": "12 months after index date"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 65 years or older\n* At least one visit to primary care practice within the past year\n* Ability to provide informed consent\n* Ability to communicate in English or Spanish\n* Available EHR data from at least the past three years\n\nExclusion Criteria:\n\n* Prior ADRD or mild cognitive impairment diagnosis as determined by ICD-10 code\n* Evidence of any history of prescription for a cholinesterase inhibitors or memantine.\n* Has serious mental illness such as bipolar or schizophrenia as determined by ICD-10 code\n* Permanent resident of a nursing facility",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "65 Years",
+            "stdAges": [
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Malaz Boustani, MD, MPH",
+                    "role": "CONTACT",
+                    "phone": "317-274-8536",
+                    "email": "mboustan@iu.edu"
+                },
+                {
+                    "name": "Katrina Coppedge, BA",
+                    "role": "CONTACT",
+                    "phone": "317-278-1602",
+                    "email": "kcoppedg@iu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Malaz Boustani, MD, MPH",
+                    "affiliation": "Indiana University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Miami School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Boca Raton",
+                    "state": "Florida",
+                    "zip": "33431 -6437",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "James Galvin, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 26.3669,
+                        "lon": -80.13033
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "We are collecting clinic based aggregated data."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000544",
+                    "term": "Alzheimer Disease"
+                },
+                {
+                    "id": "D000003704",
+                    "term": "Dementia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000024801",
+                    "term": "Tauopathies"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3885",
+                    "name": "Alzheimer Disease",
+                    "asFound": "Alzheimer's Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6904",
+                    "name": "Dementia",
+                    "asFound": "Dementia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23002",
+                    "name": "Tauopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2192",
+                    "name": "Familial Alzheimer Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

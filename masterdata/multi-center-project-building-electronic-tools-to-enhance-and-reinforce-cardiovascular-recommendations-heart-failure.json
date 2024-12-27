@@ -1,0 +1,322 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06457152",
+            "orgStudyIdInfo": {
+                "id": "24-00179"
+            },
+            "organization": {
+                "fullName": "NYU Langone Health",
+                "class": "OTHER"
+            },
+            "briefTitle": "Multi-Center Project: Building Electronic Tools To Enhance and Reinforce CArdiovascular REcommendations - Heart Failure",
+            "officialTitle": "Multi-Center Project: BETTER CARE - HF (Building Electronic Tools To Enhance and Reinforce CArdiovascular REcommendations - Heart Failure)",
+            "acronym": "BETTER CARE-HF",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "multi-center-project-building-electronic-tools-to-enhance-and-reinforce-cardiovascular-recommendations-heart-failure"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2025-04-30",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-10",
+            "studyFirstSubmitQcDate": "2024-06-10",
+            "studyFirstPostDateStruct": {
+                "date": "2024-06-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "NYU Langone Health",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Massachusetts General Hospital",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "University of Pennsylvania",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "OhioHealth",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will test an automated, electronic health record (EHR-)embedded alert to improve prescribing of guideline-directed medical therapy for patients with heart failure and reduced ejection fraction (HFrEF). The investigators have previously tested and implemented this alert at NYU Langone Health (NYULH), and will now test and implement this alert across three other health systems."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 3000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Intervention",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants who are randomized to receive the intervention (i.e., displaying the automated EHR-embedded alert).",
+                    "interventionNames": [
+                        "Other: EHR-Emedded Alert"
+                    ]
+                },
+                {
+                    "label": "Standard of Care",
+                    "type": "NO_INTERVENTION",
+                    "description": "Participants who are randomized to the control group (i.e., not displaying the automated EHR-embedded alert)."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "EHR-Emedded Alert",
+                    "description": "For patients randomized to the intervention group, an automated, EHR-embedded alert will be visible in the patient's chart that promotes appropriate medical therapy for patients with HFrEF.",
+                    "armGroupLabels": [
+                        "Intervention"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of Patients with a Prescription for Mineralocorticoid Antagonists (MRA)",
+                    "description": "Measured at the prescription encounter level using patient EHR data.",
+                    "timeFrame": "Up to Day 30"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of Patients with a Prescription for Beta-Blocker (BB)",
+                    "description": "Measured at the prescription encounter level using patient EHR data.",
+                    "timeFrame": "Up to Day 30"
+                },
+                {
+                    "measure": "Number of Patients with a Prescription for ACE-I/ARB/ARNI",
+                    "description": "Prescription for angiotensin converting enzyme-inhibitors/angiotensin receptor blockers/angiotensin receptor neprilysin inhibitors (ACE-I/ARB/ARNI) measured at the prescription encounter level using patient EHR data.",
+                    "timeFrame": "Up to Month 36"
+                },
+                {
+                    "measure": "Number of Patients with a Prescription for Sodium-Glucose Cotransporter-2 Inhibitor (SGLT2i)",
+                    "description": "Measured at the prescription encounter level using patient EHR data.",
+                    "timeFrame": "Up to Month 36"
+                },
+                {
+                    "measure": "Number of Patients with Hyperkalemia",
+                    "description": "Measured using patient EHR data.",
+                    "timeFrame": "Up to Month 36"
+                },
+                {
+                    "measure": "Number of Patients who are Hospitalized",
+                    "description": "Measured using patient EHR data.",
+                    "timeFrame": "Up to Month 36"
+                },
+                {
+                    "measure": "Number of Patients who are Hospitalized for Heart Failure (HF)",
+                    "description": "Measured using patient EHR data.",
+                    "timeFrame": "Up to Month 36"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient with an encounter visit at participating cardiology practice during the study period\n* Patient with EF of less than or equal to 40% on most recent echocardiogram at the time of visit\n* Patient ages 18-90\n\nExclusion Criteria:\n\n* Pregnancy\n* Ventricular assist device\n* Hospice\n* Cardiac amyloid\n* Medication-specific exclusion for MRA: most recent systolic blood pressure less than 105 mm Hg, most recent potassium \\< 5.1, any potassium \\> 5.5, most recent glomerular filtration rate \\< 30 (using MDRD equation), or a documented MRA allergy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "90 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sarah Tsuruo",
+                    "role": "CONTACT",
+                    "phone": "914-815-4079",
+                    "email": "Sarah.tsuruo@nyulangone.org"
+                },
+                {
+                    "name": "Amrita Mukhopadhyay, MD",
+                    "role": "CONTACT",
+                    "phone": "212-263-7751",
+                    "email": "Amrita.mukhopadhyay@nyulangone.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Amrita Mukhopadhyay",
+                    "affiliation": "NYU Langone Health",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02114",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jason Wasfy, MD, MPhil",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "NYU Langone Health",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amrita Mukhopadhyay, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "OhioHealth",
+                    "city": "Columbus",
+                    "state": "Ohio",
+                    "zip": "43228",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.96118,
+                        "lon": -82.99879
+                    }
+                },
+                {
+                    "facility": "University of Pennsylvania",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The de-identified participant data from the final research dataset used in the published manuscript will be shared upon reasonable request beginning 9 months and ending 36 months following article publication or as required by a condition of awards and agreements supporting the research provided the investigator who proposes to use the data executes a data use agreement with NYU Langone Health. Requests may be directed to: amrita.mukhopadhyay@nyulangone.org. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP"
+            ],
+            "timeFrame": "Beginning 9 months and ending 36 months following article publication or as required by a condition of awards and agreements supporting the research.",
+            "accessCriteria": "The investigator who proposed to use the data will be granted access upon reasonable request. Requests should be directed to amrita.mukhopadhyay@nyulangone.org. To gain access, data requestors will need to sign a data access agreement."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

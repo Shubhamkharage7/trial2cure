@@ -1,0 +1,357 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05128006",
+            "orgStudyIdInfo": {
+                "id": "IIR 21-103"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "HX003473",
+                    "type": "OTHER_GRANT",
+                    "domain": "VA Office of Research and Development"
+                }
+            ],
+            "organization": {
+                "fullName": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "briefTitle": "Direct-to-patient Teledermatology and Computer-assisted Diagnosis",
+            "officialTitle": "Improving Dermatology Access by Direct-to-Patient Teledermatology and Computer-Assisted Diagnosis",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "direct-to-patient-teledermatology-and-computer-assisted-diagnosis"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-11-07",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-09-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-10-22",
+            "studyFirstSubmitQcDate": "2021-11-08",
+            "studyFirstPostDateStruct": {
+                "date": "2021-11-19",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "collaborators": [
+                {
+                    "name": "VA Boston Healthcare System",
+                    "class": "FED"
+                },
+                {
+                    "name": "Durham VA Health Care System",
+                    "class": "FED"
+                },
+                {
+                    "name": "Providence VA Medical Center",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will examine access to dermatology care. The operational partner will implement a direct-to-new patient teledermatology clinical care pathway while the research will study the effects of that implementation, use data associated with deployment to develop and test an Artificial Intelligence system, and understand key stakeholders' attitudes regarding and readiness for remote dermatology care.",
+            "detailedDescription": "VA is uniquely positioned to develop and study direct-to-patient teledermatology in parallel with computer vision for skin disease. The following aims will assess the performance of these emerging patient-facing dermatology innovations and assess their ability to improve access to quality skin care VA-wide.\n\n1. Assess the impact of direct-to-patient teledermatology on access and health system utilization. In collaboration with the VA operational partner, Office of Connected Care, the My VA Images app will be deployed to three VA facilities where the app will be introduced as an option to refer eligible new patients for dermatology consultation. Multiple access metrics, including time to consult completion and geographic distance traveled. will be measured in exposed patients and compared with patients referred to usual in-person and consultative teledermatology pathways. Facility-centric measures of access such as clinic appointment wait times and in-person dermatology clinic and community care utilization will also be measured. To better understand end-user experiences, the investigators will survey patients and staff at each study site to evaluate their satisfaction with My VA Images as well as the overall process.\n2. Assess, refine and augment computer-assisted evaluation of patient-submitted images. An artificial intelligence-powered computer vision model, trained and validated on clinic-captured images of melanoma and nevi, will be tested and refined on patient-submitted teledermatology images from the My VA images app. The investigators will also extend the computer vision model by using all patient submissions to train and validate the model on a wider variety of skin diagnoses. Patient-submitted teledermatology images at study sites will be prospectively evaluated by the investigators' own computer vision model as well as by a commercial system currently available to VA clinicians and patients, and results will be compared with benchmark diagnoses to measure concordance across a range of diagnostic categories.\n3. Assess readiness of VA and Veterans' acceptance to implement direct-to-patient care. The investigators will survey Veterans and key VA leadership and staff at three selected VA facilities, supplemented by interviews of key VA stakeholders, to understand patients' and organizational readiness, including facilitators and barriers, for transitioning to patient-facing technologies in general, and direct-to-patient dermatologic care in particular. National Veteran surveys, and VA Mobile Health user satisfaction data will help place local observations in perspective. Implementation and sustainability of the patient-facing teledermatology app technology will also be measured."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "New Patient Use of Teledermatology Mobile App"
+            ],
+            "keywords": [
+                "teledermatology",
+                "ehealth",
+                "mobile health",
+                "telemedicine",
+                "artificial intelligence",
+                "telehealth",
+                "access"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 63200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "In-person new VA dermatology patients",
+                    "description": "In-person dermatology patients that are new patients at three facilities"
+                },
+                {
+                    "label": "New patient consultative Teledermatology users",
+                    "description": "New patient consultative Teledermatology users at three facilities"
+                },
+                {
+                    "label": "New patient Mobile teledermatology users",
+                    "description": "New patient Mobile teledermatology users at three facilities",
+                    "interventionNames": [
+                        "Other: New patient teledermatology visit"
+                    ]
+                },
+                {
+                    "label": "In-person new patient in Community Care",
+                    "description": "In-person new patient in Community Care"
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "New patient teledermatology visit",
+                    "description": "new patient teledermatology visits",
+                    "armGroupLabels": [
+                        "New patient Mobile teledermatology users"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "New patient in-person dermatology visits",
+                    "description": "Proportion of in-person dermatology visits that are for new dermatology patients at facility level",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Consult completion time",
+                    "description": "Total time in days from consult request date to consult completion date, excluding discontinued consults.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Appointment completion time",
+                    "description": "Total time in days from appointment create date to appointment completed date following (in-person groups).",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Travel distance for VA care",
+                    "description": "Average driving distance from the centroid of the patient's residential zip code to physical location of VA dermatology care. Distances for MVAI cases are defined as zero.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Third next available dermatology clinic appt completion time",
+                    "description": "Total time in days from appointment create date to third next available clinic appointment date. A forward-looking measure of access. While not as reliable as consult completion time, it is frequently used in VA as a practical forward-looking measure of access.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "New Patient Teledermatology encounters",
+                    "description": "New TD visits as fraction of total encounters at each facility reflecting degree of TD integration.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Organizational Readiness to implement mobile teledermatology for direct new patient care",
+                    "description": "Using the Organizational Readiness for Implementing Change survey the investigators will attain an overall average score by facility and a score for the 3 facilities in the study combined to indicate organizational readiness to implement a new patient mobile teledermatology. The score is derived from a Likert response scale from 1 to 5. Higher score denotes higher organizational readiness.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Readiness of Veterans to use mobile teledermatology for direct new patient care",
+                    "description": "The investigators will assess readiness of Veterans to use mobile teledermatology for a new patient visit with a new survey. The investigators will use a 5 point scale, the higher score the greater readiness.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Patient Satisfaction of different types of dermatologic care",
+                    "description": "Assessment of satisfaction of dermatologic care. A new survey was created with questions regarding ease of care and barriers, for example. The investigators will use a 5-point scale, the higher the score the greater the satisfaction.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Readiness of Veterans to use Artificial Intelligence for dermatologic care",
+                    "description": "The investigators will assess readiness of Veterans to use Artificial Intelligence for dermatologic care with a new survey. The investigators will use a 5 point scale, the higher score the greater readiness.",
+                    "timeFrame": "4 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Scheduled compared to clinically indicated appointment date",
+                    "description": "Patient X has a scheduled appointment for x date and clinically indicated date appt was Y so X-Y=Z days. Captures availability in contrast to clinical capacity or clinic booking patterns.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Whether patient had a no-show event for an intended encounter",
+                    "description": "Yes/No - whether patient had a no-show event for an intended encounter. For MVAI No Show in CDW is an absence of a 304 stop code encounter by the Provider indicated date; in VA Mobile health data, no show equates to an incomplete request by end-date, which should match CDW's provider indicated date.",
+                    "timeFrame": "4 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* New patient referrals to dermatology at San Francisco, Decatur, and Aurora from 2021-2025\n\nExclusion Criteria:\n\n* Patients who are not dermatology patients\n* Dermatology patients who are not seen at San Francisco, Decatur, and Aurora\n* Dermatology patients at San Francisco, Decatur, and Aurora who have visits only before 2021 or after 2025",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "All patients referred as new patients to dermatology at sites in study.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Dennis H Oh, MD PhD",
+                    "role": "CONTACT",
+                    "phone": "(415) 750-2091",
+                    "email": "Dennis.Oh@va.gov"
+                },
+                {
+                    "name": "Sara B Peracca, PhD MPH MS",
+                    "role": "CONTACT",
+                    "phone": "(415) 221-4810",
+                    "phoneExt": "23797",
+                    "email": "sara.peracca@va.gov"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Dennis H. Oh, MD PhD",
+                    "affiliation": "San Francisco VA Medical Center, San Francisco, CA",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "San Francisco VA Medical Center, San Francisco, CA",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94121-1563",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Dennis H Oh, MD PhD",
+                            "role": "CONTACT",
+                            "phone": "415-750-2091",
+                            "email": "Dennis.Oh@va.gov"
+                        },
+                        {
+                            "name": "Sara B Peracca, PhD MPH MS",
+                            "role": "CONTACT",
+                            "phone": "(415) 221-4810",
+                            "phoneExt": "23797",
+                            "email": "sara.peracca@va.gov"
+                        },
+                        {
+                            "name": "Dennis H. Oh, MD PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                },
+                {
+                    "facility": "Rocky Mountain Regional VA Medical Center, Aurora, CO",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Aurora",
+                    "state": "Colorado",
+                    "zip": "80045",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Robert P Dellavalle, MD",
+                            "role": "CONTACT",
+                            "phone": "303-399-8020",
+                            "phoneExt": "2475",
+                            "email": "Robert.Dellavalle@va.gov"
+                        },
+                        {
+                            "name": "Sara B Peracca, PhD MPH MS",
+                            "role": "CONTACT",
+                            "phone": "(415) 221-4810",
+                            "phoneExt": "23797",
+                            "email": "sara.peracca@va.gov"
+                        },
+                        {
+                            "name": "Robert P Dellavalle, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.72943,
+                        "lon": -104.83192
+                    }
+                },
+                {
+                    "facility": "Atlanta VA Medical and Rehab Center, Decatur, GA",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Decatur",
+                    "state": "Georgia",
+                    "zip": "30033-4004",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Howa Yeung",
+                            "role": "CONTACT",
+                            "phone": "404-321-6111",
+                            "phoneExt": "203309",
+                            "email": "Howa.Yeung2@va.gov"
+                        },
+                        {
+                            "name": "Sara B Peracca, PhD MPH MS",
+                            "role": "CONTACT",
+                            "phone": "(415) 221-4810",
+                            "phoneExt": "23797",
+                            "email": "sara.peracca@va.gov"
+                        },
+                        {
+                            "name": "Howa Yeung",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.77483,
+                        "lon": -84.29631
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

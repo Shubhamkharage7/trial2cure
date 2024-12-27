@@ -1,0 +1,841 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04006405",
+            "orgStudyIdInfo": {
+                "id": "ECD-AUR87A001"
+            },
+            "organization": {
+                "fullName": "Elypta",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "AURORAX-0087A: GAG Scores for Surveillance of Recurrence in Leibovich Points \u22655 Non-metastatic ccRCC",
+            "officialTitle": "AURORAX-0087A: Glycosaminoglycan Scores for Surveillance of Recurrence in Leibovich Points \u22655 Non-metastatic Clear Cell Renal Cell Carcinoma",
+            "acronym": "AUR87A",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "aurorax-gag-scores-for-surveillance-of-recurrence-in-leibovich-points-non-metastatic-ccrcc"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-01-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-02",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-07-01",
+            "studyFirstSubmitQcDate": "2019-07-02",
+            "studyFirstPostDateStruct": {
+                "date": "2019-07-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-05-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-05-11",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Elypta",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "AUR87A is an observational prospective multicenter diagnostics test cohort study for detection of renal cell carcinoma recurrence as determined by the reference standard, which is imaging using computed tomography (CT) of the chest and abdomen at defined intervals after primary surgery.",
+            "detailedDescription": "Non-metastatic clear cell renal cell carcinoma (ccRCC) recur in \\~20% of cases within 5 years after radical surgery. Current postoperative follow-up protocols, being schematic and at best based on risk of recurrence scores, are sub-optimal for early detection of recurrences which could potentially be available for curative management. Blood and urine collected glycosaminoglycans (GAGs) are promising novel class of biomarkers from which a new diagnostic test based on so called GAG scores has been developed. GAG scores have accurately distinguished localized/locally-advanced and advanced RCC from healthy subjects.\n\nAUR87A features an adaptive design. The primary endpoint analysis is conducted when 30 events (i.e. recurrences) are reached - expected at 140 patients with a minimum follow-up of 12 months (cohort 1). An interim analysis at 15 events is conducted to verify whether the sensitivity and specificity estimates are in line with the study assumptions. In case of futility, the GAG scores formulations and/or cut-offs are optimized based on data from cohort 1. The primary endpoints are then validated on a second independent cohort, powered depending on the results from cohort 1. This second cohort is estimated in 140 patients (cohort 2). In case of non-futility, cohort 2 may be used as external validation.\n\nAUR87A will prospectively enroll an estimated 280 non-metastatic ccRCC patients curatively treated with surgery (partial or radical nephrectomy). Patients are followed-up longitudinally using GAG scores in blood and urine every 3 months after surgery, alongside the current standard follow-up protocol, i.e. imaging, as reference standard.\n\nThe hypothesis of AUR87A is that postoperative increase of the GAG scores, so called \"GAG recurrence \", can predict or detect recurrence at an earlier time-point compared to the reference standard, referred to as \"radiological recurrence\", and thereby improve the clinical utility of current follow-up protocols."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Clear Cell Renal Cell Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "blood and urine samples"
+            },
+            "enrollmentInfo": {
+                "count": 280,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cohort 1",
+                    "description": "140 patients with a minimum follow-up of 12 months",
+                    "interventionNames": [
+                        "Diagnostic Test: GAG score"
+                    ]
+                },
+                {
+                    "label": "Cohort 2",
+                    "description": "up to 140 patients with a minimum follow-up of 12 months",
+                    "interventionNames": [
+                        "Diagnostic Test: GAG score"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "GAG score",
+                    "description": "blood and urine samples to determine GAG scores",
+                    "armGroupLabels": [
+                        "Cohort 1",
+                        "Cohort 2"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity and specificity of GAG recurrence",
+                    "description": "Sensitivity and specificity of GAG recurrence to LP\u22655 ccRCC radiological or histologically verified recurrence with a minimum follow-up time of 12 months",
+                    "timeFrame": "minimum follow-up of 12 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Absolute and relative risk increase (ARI/RRI) of radiological recurrence",
+                    "description": "Absolute and relative risk increase (ARI/RRI) of radiological recurrence in patients with GAG recurrence versus no GAG recurrence",
+                    "timeFrame": "within 6 months since last GAG score evaluation"
+                },
+                {
+                    "measure": "Recurrence-free survival (RFS)",
+                    "description": "Recurrence-free survival (RFS) in the LP\u22655 ccRCC for GAG recurrence vs. no GAG recurrence with a minimum follow-up time of 12 months",
+                    "timeFrame": "minimum follow-up of 12 months"
+                },
+                {
+                    "measure": "Positive and negative predictive value (PPV/NPV) of GAG recurrence",
+                    "description": "Positive and negative predictive value (PPV/NPV) of GAG recurrence to LP \u22655 ccRCC radiological recurrence",
+                    "timeFrame": "minimum follow-up of 12 months"
+                },
+                {
+                    "measure": "Area under the receiver-operating-characteristic curve (AUC) of GAG scores",
+                    "description": "Area under the receiver-operating-characteristic curve (AUC) of GAG scores to LP \u22655 ccRCC radiological recurrence",
+                    "timeFrame": "minimum follow-up of 12 months"
+                },
+                {
+                    "measure": "RFS, overall survival (OS) and cancer specific survival (CSS)",
+                    "description": "RFS, overall survival (OS) and cancer specific survival (CSS) in patients with GAG recurrence versus no GAG recurrence",
+                    "timeFrame": "follow-up time of 2 years and 5 years respectively after primary surgery"
+                },
+                {
+                    "measure": "Concordance-index (C-index) of preoperative GAG scores",
+                    "description": "Concordance-index (C-index) of preoperative GAG scores versus risk nomograms for RFS and for CSS",
+                    "timeFrame": "follow-up time of 2 years and 5 years respectively after primary surgery"
+                },
+                {
+                    "measure": "Lead-time GAG vs. radiological recurrence among true positives",
+                    "description": "Lead-time GAG vs. radiological recurrence among true positives",
+                    "timeFrame": "minimum follow-up of 12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPre-screening inclusion criteria\n\n* Size of primary tumor \\>4cm (\\>cT1a) in greatest dimension on pre-operative abdominal CT-scan\n* Size of primary tumor \u22644cm is allowed if pre-operative abdominal CT-scan shows suspected RCCs with radiological sign of venous tumor thrombus (renal vein or caval).\n* Pre-operative CT-scan of chest and abdomen show no signs of metastatic disease\n* Localized and biopsy proven clear cell RCC (ccRCC) under active surveillance which at timepoint of study recruitment, opted for surgery because of growth rate of primary tumor to a size \\> 4cm\n* Elected for curative intent surgery for RCC\n\nFinal screening inclusion criteria\n\n* Any gender being 18 years or older at timepoint of final inclusion\n* In postoperative pathology report shown to be ccRCC subtype according to 8th Edition of the American Joint Committee on Cancer (AJCC)\n* Leibovich points (LP) \u22655 according to Leibovich score system (2003)\n* If pathology report shows multiple subtypes in same tumor, as long as the majority of tumor is ccRCC (\\>50%), participant can be included\n\nExclusion Criteria:\n\nPre-screening exclusion criteria\n\n* TNM-stage T(any) N(any) M1 according to AJCC, i.e. metastatic disease at diagnosis\n* Absence of preoperative chest imaging (chest CT) within 60 days prior to primary surgery\n* Previous history of curatively treated for other cancers, still not deemed fully cured and participant still under surveillance for said cancer\n* Participants offered active surveillance for RCC instead of curative intent surgery\n* Participants offered any type of thermal ablation treatment instead of surgery, i.e. LP cannot be assessed\n\nFinal screening exclusion criteria\n\n* Participants with AJCC cN0 status at preoperative imaging in whom a clinically suspicious regional lymph-node metastases (enlarged lymph node(s)) is noted during primary surgery, but who subsequently do not undergo any lymph node dissection. (Note: participants with cN0 status at pre-operative imaging and no clinical signs of regional lymph node metastases during primary surgery can still be included irrespective of lymph node dissection having been performed, i.e. being pN0 or pN1 if it is performed or pNx if it is not performed)\n* Participants with AJCC cN1 status at pre-operative imaging in which lymph node dissection is not performed (i.e. pNx).\n* Elected for any adjuvant therapy (i.e. systemic therapy) outside or within any clinical study\n* Non-clear cell RCC histology or benign tumor (i.e. oncocytoma and angiomyolipoma, which are the most common benign types, but also any other rare types of benign renal tumors) after pathological analysis\n* Any hereditary form of RCC (e.g. Von Hippel-Lindau, Birt-Hogg-Dub\u00e9, Hereditary Papillary RCC)\n* RCC with pure sarcomatoid differentiation, also called sarcoma of the kidney\n* Previous history of curatively treated for RCC with a suspected de novo RCC in the remaining kidney tissue\n* Prior or current use of instillation therapy with hyaluronic acid and/or chondroitin sulfate (HA-CS).\n* Use of heparin, including low molecular weight heparin (e.g. Enoxaparin, Dalteparin, Tinzaparin) for concurrent disease in need of blood dilution (e.g. ongoing deep vein thrombosis or lung emboli). Note: use of of heparin for thrombus prophylaxis in conjunction with primary surgery or postoperatively \u22644 weeks will be allowed.\n* Patients who were not radically operated during primary surgery with the exception of histological positive surgical margin in participants who have undergone partial nephrectomy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "The study population is a representative sample of the North American and European population of ccRCC patients with LP \u2265 5 after curative intent surgery",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Saeed Dabestani",
+                    "role": "CONTACT",
+                    "phone": "+46(0)707198567",
+                    "email": "saeed.dabestani@gmail.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Saeed Dabestani",
+                    "affiliation": "Lund University, Dept. Clinical Sciences, Sk\u00e5ne University Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Emory University School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30322",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Viraj Master",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Memorial Sloan Kettering Cancer Center",
+                    "status": "COMPLETED",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10065",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "MD Anderson Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jose Karam",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "Prostate Cancer Centre",
+                    "status": "RECRUITING",
+                    "city": "Calgary",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Bimal Bhindi",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.05011,
+                        "lon": -114.08529
+                    }
+                },
+                {
+                    "facility": "Aarhus University Hospital",
+                    "status": "COMPLETED",
+                    "city": "Aarhus",
+                    "country": "Denmark",
+                    "geoPoint": {
+                        "lat": 56.15674,
+                        "lon": 10.21076
+                    }
+                },
+                {
+                    "facility": "Odense University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Odense",
+                    "country": "Denmark",
+                    "contacts": [
+                        {
+                            "name": "Lars Lund",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 55.39594,
+                        "lon": 10.38831
+                    }
+                },
+                {
+                    "facility": "Zealand University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Roskilde",
+                    "country": "Denmark",
+                    "contacts": [
+                        {
+                            "name": "Nessn Azawi",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 55.64152,
+                        "lon": 12.08035
+                    }
+                },
+                {
+                    "facility": "Helsinki University Central Hospital",
+                    "status": "RECRUITING",
+                    "city": "Helsinki",
+                    "country": "Finland",
+                    "contacts": [
+                        {
+                            "name": "Petrus J\u00e4rvinen",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Harry Nisen",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 60.16952,
+                        "lon": 24.93545
+                    }
+                },
+                {
+                    "facility": "H\u00f4pital Henri Mondor",
+                    "status": "RECRUITING",
+                    "city": "Cr\u00e9teil",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Alexandre Ingels",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.78333,
+                        "lon": 2.46667
+                    }
+                },
+                {
+                    "facility": "AOU San Orsola Malpighi",
+                    "status": "RECRUITING",
+                    "city": "Bologna",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Lorenzo Bianchi",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.49381,
+                        "lon": 11.33875
+                    }
+                },
+                {
+                    "facility": "Careggi University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Florence",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Riccardo Campi",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Andrea Minervini",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.77925,
+                        "lon": 11.24626
+                    }
+                },
+                {
+                    "facility": "San Raffaele Hospital",
+                    "status": "RECRUITING",
+                    "city": "Milano",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Umberto Capitanio",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.46427,
+                        "lon": 9.18951
+                    }
+                },
+                {
+                    "facility": "AOU San Luigi Gonzaga",
+                    "status": "RECRUITING",
+                    "city": "Orbassano",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Francesco Porpiglia",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.00547,
+                        "lon": 7.53813
+                    }
+                },
+                {
+                    "facility": "Istituto Nazionale Tumori Regina Elena",
+                    "status": "RECRUITING",
+                    "city": "Roma",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Giuseppe Simone",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.89193,
+                        "lon": 12.51133
+                    }
+                },
+                {
+                    "facility": "AOU Integrata Verona",
+                    "status": "RECRUITING",
+                    "city": "Verona",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Alessandro Antonelli",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.4299,
+                        "lon": 10.98444
+                    }
+                },
+                {
+                    "facility": "Hospital da Luz Coimbra",
+                    "status": "RECRUITING",
+                    "city": "Coimbra",
+                    "country": "Portugal",
+                    "contacts": [
+                        {
+                            "name": "Lorenzo Marconi",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.20564,
+                        "lon": -8.41955
+                    }
+                },
+                {
+                    "facility": "Hospital Universitario Cabue\u00f1es",
+                    "status": "RECRUITING",
+                    "city": "Gij\u00f3n",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Sergio Fernandez-Pello",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.53573,
+                        "lon": -5.66152
+                    }
+                },
+                {
+                    "facility": "Sahlgrenska University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Gothenburg",
+                    "country": "Sweden",
+                    "contacts": [
+                        {
+                            "name": "John \u00c5kerlund",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 57.70716,
+                        "lon": 11.96679
+                    }
+                },
+                {
+                    "facility": "Addenbrooke's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Cambridge",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Grant Stewart",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 52.2,
+                        "lon": 0.11667
+                    }
+                },
+                {
+                    "facility": "Western General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Edinburgh",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Alexander Laird",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 55.95206,
+                        "lon": -3.19648
+                    }
+                },
+                {
+                    "facility": "Frimley Park Hospital",
+                    "status": "RECRUITING",
+                    "city": "Frimley",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Neil Barber",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.31667,
+                        "lon": -0.74544
+                    }
+                },
+                {
+                    "facility": "Guys & St Thomas Hospital",
+                    "status": "RECRUITING",
+                    "city": "London",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Rajesh Nair",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.50853,
+                        "lon": -0.12574
+                    }
+                },
+                {
+                    "facility": "Royal Free Hospital",
+                    "status": "RECRUITING",
+                    "city": "London",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Alex Bex",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.50853,
+                        "lon": -0.12574
+                    }
+                },
+                {
+                    "facility": "Norfolk & Norwich University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Norwich",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Mark Rochester",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 52.62783,
+                        "lon": 1.29834
+                    }
+                },
+                {
+                    "facility": "Royal Berkshire Hospital",
+                    "status": "RECRUITING",
+                    "city": "Reading",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Christopher Blick",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.45625,
+                        "lon": -0.97113
+                    }
+                },
+                {
+                    "facility": "Salford Royal NHS Foundation Trust",
+                    "status": "RECRUITING",
+                    "city": "Salford",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Satish Maddineni",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 53.48771,
+                        "lon": -2.29042
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Official website for AURORAX-87A",
+                    "url": "https://elypta.com"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Unidentified clinical and biochemical data will become available to the research community along with the publication of a scientific article related to the present investigation."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30",
+            "removedCountries": [
+                "Norway"
+            ]
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000002292",
+                    "term": "Carcinoma, Renal Cell"
+                },
+                {
+                    "id": "D000012008",
+                    "term": "Recurrence"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000007680",
+                    "term": "Kidney Neoplasms"
+                },
+                {
+                    "id": "D000014571",
+                    "term": "Urologic Neoplasms"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14850",
+                    "name": "Recurrence",
+                    "asFound": "Recurrence",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5548",
+                    "name": "Carcinoma, Renal Cell",
+                    "asFound": "Clear Cell Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10703",
+                    "name": "Kidney Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17320",
+                    "name": "Urologic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4906",
+                    "name": "Renal Cell Carcinoma",
+                    "asFound": "Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1341",
+                    "name": "Clear Cell Renal Cell Carcinoma",
+                    "asFound": "Clear Cell Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

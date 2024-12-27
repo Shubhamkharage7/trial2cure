@@ -1,0 +1,355 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06453980",
+            "orgStudyIdInfo": {
+                "id": "HUM00201483"
+            },
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "Multimodal Investigation of Neural Plasticity",
+            "officialTitle": "Multimodal Investigation of Neural Plasticity Induced by Non-invasive Brain Stimulation",
+            "acronym": "miniSTIM",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "multimodal-investigation-of-neural-plasticity"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-17",
+            "studyFirstSubmitQcDate": "2024-06-05",
+            "studyFirstPostDateStruct": {
+                "date": "2024-06-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Alexandru Iordan",
+                "investigatorTitle": "Assistant Professor of Psychiatry, Medical School",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Alzheimer's Association",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Wayne State University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will evaluate the effects of a form of non-invasive brain stimulation on brain functioning and memory in cognitively intact older adults (healthy controls, HC) and in those with mild cognitive impairment (MCI).",
+            "detailedDescription": "The goal of this study is to learn important information about the effects of weak electrical stimulation (known as high-definition transcranial direct current stimulation or HD-tDCS) on brain functioning in those with mild cognitive impairment (MCI). The findings will help determine how stimulation affects brain's activity and metabolism (in particular, the neurotransmitter glutamate). Ultimately, this information may help develop new treatments for those with Alzheimer's disease. The study will use different forms of brain imaging to see whether stimulation changes how the brain responds during a memory task. Functional magnetic resonance spectroscopy (fMRS), functional magnetic resonance imaging (fMRI), and functional near-infrared spectroscopy (fNIRS) will be used. The study also uses cognitive tests and questionnaires."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Mild Cognitive Impairment"
+            ],
+            "keywords": [
+                "tDCS",
+                "Glutamate",
+                "MRS",
+                "fMRI",
+                "fNIRS"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Healthy controls (HC) and individuals with MCI will be randomized 1:1:1:1 to receive either sham or active stimulation (i.e., HC sham tDCS, HC active tDCS, MCI sham tDCS, MCI active tDCS) for 1 session using a blocked randomization design.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HC sham tDCS",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "Sham (placebo) dose of HD-tDCS treatment for 20 minutes, for 1 session.",
+                    "interventionNames": [
+                        "Device: sham tDCS"
+                    ]
+                },
+                {
+                    "label": "HC active tDCS",
+                    "type": "EXPERIMENTAL",
+                    "description": "3 milliAmp dose of HD-tDCS treatment for 20 minutes, for 1 session.",
+                    "interventionNames": [
+                        "Device: active tDCS"
+                    ]
+                },
+                {
+                    "label": "MCI sham tDCS",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "Sham (placebo) dose of HD-tDCS treatment for 20 minutes, for 1 session.",
+                    "interventionNames": [
+                        "Device: sham tDCS"
+                    ]
+                },
+                {
+                    "label": "MCI active tDCS",
+                    "type": "EXPERIMENTAL",
+                    "description": "3 milliAmp dose of HD-tDCS treatment for 20 minutes, for 1 session.",
+                    "interventionNames": [
+                        "Device: active tDCS"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "sham tDCS",
+                    "description": "Participants will receive sham (placebo) HD-tDCS for 20 minutes, for 1 session.",
+                    "armGroupLabels": [
+                        "HC sham tDCS",
+                        "MCI sham tDCS"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "active tDCS",
+                    "description": "Participants will receive HD-tDCS at 3 milliAmp for 20 minutes, for 1 session.",
+                    "armGroupLabels": [
+                        "HC active tDCS",
+                        "MCI active tDCS"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Changes in glutamate concentration (fMRS)",
+                    "description": "Analyses via fMRS using units of concentration",
+                    "timeFrame": "average on 1 week"
+                },
+                {
+                    "measure": "Changes in brain activation (fMRI)",
+                    "description": "Analyses via fMRI using units of brain activation",
+                    "timeFrame": "average of 1 week"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Changes in memory performance",
+                    "description": "Analyses of memory performance indexed as percent accuracy",
+                    "timeFrame": "average of 1 week"
+                },
+                {
+                    "measure": "Changes in brain activation (fNIRS)",
+                    "description": "Analyses via fNIRS using units of brain activation",
+                    "timeFrame": "immediate, concurrent with tDCS"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Normal cognition for HC and diagnosis of Mild Cognitive Impairment (MCI) for MCI participants\n* Right-handedness\n* Magnetic resonance compatible, criteria that also apply for high definition transcranial direct current stimulation (HD-tDCS; e.g., absence of metallic or electronic implants in the upper body or head)\n\nExclusion Criteria:\n\n* History of other contributing neurological or medical conditions known to affect cognitive functioning\n* Significant mental illness\n* Sensory impairments that limit ability to participate\n* History of alcohol or drug abuse/dependence",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "60 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Harini Babu, MSc",
+                    "role": "CONTACT",
+                    "phone": "734-647-3704",
+                    "email": "hariniba@umich.edu"
+                },
+                {
+                    "name": "Eileen Robinson, RN-BC",
+                    "role": "CONTACT",
+                    "phone": "734-763-1356",
+                    "email": "robinsoe@med.umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Alexandru Iordan, PhD",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alexandru Iordan, Ph.D",
+                            "role": "CONTACT",
+                            "phone": "734-764-2909",
+                            "email": "adiordan@med.umich.edu"
+                        },
+                        {
+                            "name": "Alexandru Iordan, Ph.D",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000060825",
+                    "term": "Cognitive Dysfunction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003072",
+                    "term": "Cognition Disorders"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29705",
+                    "name": "Cognitive Dysfunction",
+                    "asFound": "Mild Cognitive Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11910",
+                    "name": "Mitral Valve Insufficiency",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6301",
+                    "name": "Cognition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "T5",
+                    "name": "Glutamic Acid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "AA",
+                    "name": "Amino Acids"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

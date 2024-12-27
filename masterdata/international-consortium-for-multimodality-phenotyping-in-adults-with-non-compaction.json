@@ -1,0 +1,413 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04424030",
+            "orgStudyIdInfo": {
+                "id": "56001"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "SSU00099737",
+                    "type": "OTHER",
+                    "domain": "Advarra Single IRB"
+                }
+            ],
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "International Consortium for Multimodality Phenotyping in Adults With Non-compaction",
+            "officialTitle": "International Consortium for Multimodality Phenotyping in Adults With Non-compaction",
+            "acronym": "NONCOMPACT",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "international-consortium-for-multimodality-phenotyping-in-adults-with-non-compaction"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-01-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-04-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-04-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-06-05",
+            "studyFirstSubmitQcDate": "2020-06-05",
+            "studyFirstPostDateStruct": {
+                "date": "2020-06-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-04-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-04-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Koen Nieman",
+                "investigatorTitle": "Associate Professor of Medicine",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "The Cleveland Clinic",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "University of Pennsylvania",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Erasmus Medical Center",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Seoul National University Hospital",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Non-compaction cardiomyopathy (NCCM) is a heterogeneous, poorly understood disorder characterized by a prominent inner layer of loose myocardial tissue, and associated with heart failure, stroke, severe rhythm irregularities and death. For a growing population diagnosed with NCCM there is a need for better risk stratification to appropriately allocate (or safely withhold) these impactful preventive measures. The goal of this international consortium is to improve care of patients with non-compaction cardiomyopathy. We hypothesize that comprehensive analysis of clinical, genetic, structural and functional information will improve risk stratification. In addition, we hypothesize that detailed structural analysis will allow for differentiation of pathological and benign patterns of non-compaction. In a large cohort of adult patients with suspected NCCM we will perform in-depth phenotyping, including clinical information, pedigree data, genetics, echocardiography and MRI, and follow patients for up to 3 years. We will apply machine-learning based analytics to develop predictive models and compare their performance to currently used models and treatment criteria. Secondly, in a subset of patients we will perform high-resolution cardiac CT for detailed structural characterization of the myocardial wall. We will investigate associations between myocardial structure and regional contractile function, as assessed by echo and MRI. The aim of this proposal is to identify a structural signature associated with pathological non-compaction and improve developed risk prediction models. Discovery of pathological structural signatures through innovative imaging techniques, in relation to myocardial contractility, will advance our understanding of NCCM."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Non-Compaction Cardiomyopathy"
+            ],
+            "keywords": [
+                "Echocardiography",
+                "Magnetic resonance imaging",
+                "Computed tomography",
+                "Prognosis",
+                "Genetics"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "After enrollment, blood will be drawn via venipuncture. The blood samples (35cc in total) will be centrifuged (15 minutes at 3500 RPM), after which the plasma, serum, red cells and buffy coat will be aliquoted from the vacutainers into color-coded vials. In addition to standard EDTA tubes we may include a CPT or PAX tube for more extensive analytics, or an Oragene tube for remote saliva collection. The aliquots and tubes will be stored at -70\u2070C. The samples will remain at the site until analysis."
+            },
+            "enrollmentInfo": {
+                "count": 600,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Multimodality imaging",
+                    "description": "Patients who have undergone echocardiography and cardiac MRI as part of their clinical management A research cardiac CT scan will be performed in eligible participants",
+                    "interventionNames": [
+                        "Diagnostic Test: Echocardiography",
+                        "Diagnostic Test: Magnetic resonance imaging (MRI)",
+                        "Diagnostic Test: Computed tomography (CT)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Echocardiography",
+                    "description": "Standard echocardiography exam performed as part of clinical management.",
+                    "armGroupLabels": [
+                        "Multimodality imaging"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Magnetic resonance imaging (MRI)",
+                    "description": "Standard comprehensive cardiac MRI exam of the heart performed as part of clinical management.",
+                    "armGroupLabels": [
+                        "Multimodality imaging"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Computed tomography (CT)",
+                    "description": "ECG-triggered, contrast-enhanced CT scan of the heart performed for research purposes in eligible study participants.",
+                    "armGroupLabels": [
+                        "Multimodality imaging"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Incidence of hard embolic adverse events",
+                    "description": "Clinical neuro/systemic embolic event by autopsy, imaging or specialist evaluation",
+                    "timeFrame": "Up to 4 years after enrollment"
+                },
+                {
+                    "measure": "Incidence of hard arrhythmic adverse events",
+                    "description": "Sudden death (aborted), appropriate ICD discharge or VT/VF on ECG or rhythm/device monitoring",
+                    "timeFrame": "Up to 4 years after enrollment"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Incidence of hard heart failure related adverse events",
+                    "description": "Heart failure death, cardiac transplantation or mechanical circulatory support",
+                    "timeFrame": "Up to 4 years after enrollment"
+                },
+                {
+                    "measure": "Incidence of composite of hard adverse events",
+                    "description": "Hard embolic, arrhythmic and heart failure related adverse events (as described above)",
+                    "timeFrame": "Up to 4 years after enrollment"
+                },
+                {
+                    "measure": "Incidence of all embolic adverse events",
+                    "description": "Hard embolic adverse events or transient neurologic event without objective infarction",
+                    "timeFrame": "Up to 4 years after enrollment"
+                },
+                {
+                    "measure": "Incidence of all arrhythmic adverse events",
+                    "description": "Hard arrhythmic adverse events or syncope without recorded arrhythmia",
+                    "timeFrame": "Up to 4 years after enrollment"
+                },
+                {
+                    "measure": "Incidence of all heart failure related adverse events",
+                    "description": "Hard heart failure related adverse events or resynchronization therapy, heart failure hospital admission",
+                    "timeFrame": "Up to 4 years after enrollment"
+                },
+                {
+                    "measure": "Incidence of composite of adverse events",
+                    "description": "All embolic, arrhythmic or heart failure related adverse events (as described above)",
+                    "timeFrame": "Up to 4 years after enrollment"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u226518 years old\n* Hypertrabeculation of the left ventricle fulfilling the echo-based Jenni criteria of NCCM\n* Clinical cardiac MRI examination performed or planned\n\nExclusion Criteria (general cohort):\n\n* Complex congenital disease (including transposition great arteries, tetralogy of Fallot, tricuspid atresia, truncus arteriosis, single ventricle, hypoplastic left heart, pulmonary atresia, double-outlet RV), neuromuscular disorders or isolated RV non-compaction\n* Inability to provide informed consent\n* Contra-indications to MRI, which apply if the clinical cardiac MRI has not yet been performed at the time of study enrollment: permanent pacemakers/ICDs, MRI contrast medium allergy, significant arrhythmia with highly irregular RR intervals, severe dyspnea with inability to lay flat/breath hold, inability to communicate with the MRI technician or follow commands for any reason (psychosis, agitation, etc.), other site-specific contra-indications to clinical MRI of the heart.\n\nExclusion Criteria (cardiac CT examination):\n\n* Age \\<21 years\n* Decompensated heart failure, or otherwise clinically unstable\n* BMI\\>40 kg/m2\n* Pregnancy (or cannot be ruled out)\n* Known iodine contrast medium allergy\n* Kidney dysfunction: eGFR\\<45 ml/min\n* Thyroid disease: toxic multinodular goiter, Graves' disease, Hashimoto's thyroiditis",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients with hypertrabeculation of the left ventricle fulfilling echo-based criteria of non-compaction cardiomyopathy",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Koen Nieman, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "6507237476",
+                    "email": "knieman@stanford.edu"
+                },
+                {
+                    "name": "Katie DeSutter, BS",
+                    "role": "CONTACT",
+                    "phone": "6507254151",
+                    "email": "ksutter@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Koen Nieman, MD, PhD",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University",
+                    "status": "RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94304",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Matthew Wheeler, MD",
+                            "role": "CONTACT",
+                            "phone": "650-725-7622",
+                            "email": "wheelerm@stanford.edu"
+                        },
+                        {
+                            "name": "Koen Nieman, MD",
+                            "role": "CONTACT",
+                            "phone": "6507237476",
+                            "email": "knieman@stanford.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                },
+                {
+                    "facility": "Cleveland Clinic Foundation",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Wilson Tang, MD PhD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Deborah Kwon, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                },
+                {
+                    "facility": "University of Pennsylvania",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Anjali Owens, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Harold Litt, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Seoul National University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Seoul",
+                    "zip": "03080",
+                    "country": "Korea, Republic of",
+                    "contacts": [
+                        {
+                            "name": "Seung-Pyo Lee, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Whal Lee, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.566,
+                        "lon": 126.9784
+                    }
+                },
+                {
+                    "facility": "Erasmus Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Rotterdam",
+                    "zip": "3015GD",
+                    "country": "Netherlands",
+                    "contacts": [
+                        {
+                            "name": "Kadir Caliskan, MD PhD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Ricardo Budde, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Alexander Hirsch, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.9225,
+                        "lon": 4.47917
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified datasets will be created and maintained on a public website in a password-protected area, where the frequency of use of the datasets can be monitored by Stanford and NHLBI."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009202",
+                    "term": "Cardiomyopathies"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12154",
+                    "name": "Cardiomyopathies",
+                    "asFound": "Cardiomyopathy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

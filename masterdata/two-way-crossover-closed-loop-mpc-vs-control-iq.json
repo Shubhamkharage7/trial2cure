@@ -1,0 +1,397 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05799781",
+            "orgStudyIdInfo": {
+                "id": "OHSU24218"
+            },
+            "organization": {
+                "fullName": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Two Way Crossover Closed Loop MPC vs Control IQ",
+            "officialTitle": "A Randomized Study to Compare a Fully-closed MPC Control Algorithm With a Commercial Hybrid Closed-loop Algorithm",
+            "therapeuticArea": [
+                "Endocrinology"
+            ],
+            "study": "two-way-crossover-closed-loop-mpc-vs-control-iq"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-04-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-04-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-23",
+            "studyFirstSubmitQcDate": "2023-03-23",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Leah Wilson",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Oregon Health and Science University"
+            },
+            "leadSponsor": {
+                "name": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "University of Washington",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "An artificial pancreas (AP) is a control system for automatic insulin delivery. The investigators have implemented a missed meal bolus detection algorithm for use within an AP control system. If a meal is detected that was not reported by the user, the system shall calculate the amount of meal insulin that will be dosed and deliver that insulin. The investigators will test how well the new algorithm manages glucose compared to the participant's usual care including the tslim X2 pump with Control IQ enabled. This type of algorithm may improve glucose control for high risk patient populations.",
+            "detailedDescription": "Participants will undergo one 7-day Intervention Period and one 7-day Control Period in randomized order. During the 7-day intervention, participants will wear an Omnipod to deliver Fiasp insulin and a Dexcom G6 CGM. The CGM system will provide sensed glucose data every 5 minutes. Sensor glucose data will be wirelessly transmitted via Bluetooth Low Energy (BTLE) from the Dexcom G6 to the smartphone master controller every 5 minutes. The smartphone will communicate via BTLE to an Omnipod for insulin delivery. The closed loop system will receive activity data through a Polar M600 watch worn by the participant. Participants will eat one meal in clinic and complete system training on Day 1 and then spend the rest of the 7 days at home. During the 7-day control, the participant will continue their usual diabetes care regimen using the tslim X2 pump with Dexcom G6 with Control IQ enabled."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Type 1 Diabetes"
+            ],
+            "keywords": [
+                "automated insulin delivery systems",
+                "glucose sensor"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "MPC Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will use the MPC closed-loop system for 7 days using Fiasp insulin. The first 6 hours will be spent in clinic being trained on the system, then eating a meal. Then the participant will take the system home to continue using for 7 days.",
+                    "interventionNames": [
+                        "Device: MPC closed-loop system"
+                    ]
+                },
+                {
+                    "label": "Control IQ arm",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Participants will continue their normal diabetes regimen which includes the t:slim X2 pump with Dexcom G6 CGM and Control IQ for 7 days. Participants will share their pump download and Dexcom Clarity data with study staff after the 7 days is complete.",
+                    "interventionNames": [
+                        "Device: t:slim X2 pump with Dexcom G6 CGM and Control IQ"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "MPC closed-loop system",
+                    "description": "The Model Predictive Control (MPC) insulin infusion algorithm contains a model within the controller that takes as an input the aerobic metabolic expenditure in addition to the CGM and meal in puts. The algorithm uses heart rate and accelerometer data collected on the patient's body to calculate metabolic expenditure (METs). The METs then acts on the model for the insulin dynamics, whereby more energy expenditure and longer duration exercise can lead to a more substantial effect of insulin on the CGM. The MPC also has missed meal insulin bolus detection where the system will calculate the amount of insulin that was missed for a meal. The missed meal boluses can be delivered automatically without any input from the user. This feature can also be disabled.",
+                    "armGroupLabels": [
+                        "MPC Arm"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "t:slim X2 pump with Dexcom G6 CGM and Control IQ",
+                    "description": "The t:slim pump is a hybrid closed-loop system available to consumers for automated insulin delivery. Control IQ technology automatically adjusts insulin levels based on continuous glucose monitoring (CGM) readings from Dexcom G6.",
+                    "armGroupLabels": [
+                        "Control IQ arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Percent of time with sensed glucose between 70-180 mg/dl",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-180 mg/dl using Dexcom sensor across both arms.",
+                    "timeFrame": "entire 7 day study"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Percent of time with sensed glucose < 70 mg/dl",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 70 mg/dl using Dexcom sensor across both arms.",
+                    "timeFrame": "entire 7 day study"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose < 54 mg/dl",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 54 mg/dl using Dexcom sensor across both arms.",
+                    "timeFrame": "entire 7 day study"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose > 180 mg/dl",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 180 mg/dl using Dexcom sensor across both arms.",
+                    "timeFrame": "entire 7 day study"
+                },
+                {
+                    "measure": "Mean sensed glucose",
+                    "description": "Assess the mean sensed glucose from the Dexcom G6 reported sensor glucose values across both arms.",
+                    "timeFrame": "entire 7 day study"
+                },
+                {
+                    "measure": "Coefficient of variation of glucose",
+                    "description": "Assess the coefficient of variation of glucose from the Dexcom G6 reported sensor glucose values across both arms.",
+                    "timeFrame": "entire 7 day study"
+                },
+                {
+                    "measure": "Mean amount of insulin delivered per day",
+                    "description": "Assess the mean amount of insulin delivered per day by the Omnipod through the AP system study in units/kg across both arms.",
+                    "timeFrame": "entire 7 day study"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of type 1 diabetes mellitus for at least 1 year.\n* Age 18 years and older.\n* Current use of a t:slim X2 insulin pump with Dexcom G6 with the use of Control IQ for at least 12 weeks.\n* Willingness to use Fiasp insulin during intervention study\n* Lives with another person age 18 or older who will sleep in the house at night and that can attend the training on using the system.\n* Lives within 40 miles of enrollment site.\n* HbA1c \u2265 7.5% at screening.\n* Total daily insulin requirement is less than 139 units/day.\n* Current use of a smartphone so can be contacted by study staff off-campus\n* Willingness to follow all study procedures, including attending all clinic visits.\n* Willingness to sign informed consent and HIPAA documents.\n\nExclusion Criteria:\n\n* Female of childbearing potential who is pregnant or intending to become pregnant or breast-feeding, or is not using adequate contraceptive methods. Acceptable contraception includes birth control pill / patch / vaginal ring, Depo-Provera, Norplant, an IUD, the double barrier method (the woman uses a diaphragm and spermicide and the man uses a condom), or abstinence.\n* HbA1c \\>10% at screening.\n* Any cardiovascular disease, defined as a clinically significant EKG abnormality at the time of screening or any history of: stroke, heart failure, myocardial infarction, angina pectoris, or coronary arterial bypass graft or angioplasty. Diagnosis of 2nd or 3rd degree heart block or any non-physiological arrhythmia judged by the investigator to be exclusionary.\n* Renal insufficiency (GFR \\< 60 ml/min, using the MDRD equation as reported by the site laboratory).\n* Liver failure, cirrhosis, or any other liver disease that compromises liver function as determined by the investigator.\n* History of severe hypoglycemia during the past 12 months prior to screening visit or hypoglycemia unawareness as judged by the investigator. Participants will complete a hypoglycemia awareness questionnaire. Participants will be excluded for four or more R responses.\n* History of diabetes ketoacidosis during the prior 6 months prior to screening visit, as diagnosed on hospital admission or as judged by the investigator.\n* Adrenal insufficiency.\n* Any active infection.\n* Known or suspected abuse of alcohol, narcotics, or illicit drugs.\n* Seizure disorder.\n* Active foot ulceration.\n* Severe peripheral arterial disease characterized by ischemic rest pain or severe claudication.\n* Major surgical operation within 30 days prior to screening.\n* Use of an investigational drug within 30 days prior to screening.\n* Chronic usage of any immunosuppressive medication (such as cyclosporine, azathioprine, sirolimus, or tacrolimus).\n* Bleeding disorder, treatment with warfarin, or platelet count below 50,000.\n* Allergy to Fiasp insulin.\n* Current administration of oral or parenteral corticosteroids.\n* Any life-threatening disease, including malignant neoplasms and medical history of malignant neoplasms within the past 5 years prior to screening (except basal and squamous cell skin cancer).\n* Current use of beta blockers or non-dihydropyridine calcium channel blockers.\n* Current use of any medication intended to lower glucose other than insulin (ex. use of metformin or liraglutide).\n* Gastroparesis\n* Low carbohydrate diet at the time of screening defines as less than 50 grams of carbohydrate per day.\n* Any clinically significant disease or disorder which in the opinion of the Investigator may jeopardize the participant's safety or compliance with the protocol.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Leah Wilson, MD",
+                    "role": "CONTACT",
+                    "phone": "503-494-3273",
+                    "email": "wilsolea@ohsu.edu"
+                },
+                {
+                    "name": "Deborah Branigan",
+                    "role": "CONTACT",
+                    "phone": "503-418-9070",
+                    "email": "branigad@ohsu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Leah Wilson, MD",
+                    "affiliation": "Oregon Health and Science University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Oregon Health and Science University",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Leah Wilson, MD",
+                            "role": "CONTACT",
+                            "phone": "503-494-3273",
+                            "email": "wilsolea@ohsu.edu"
+                        },
+                        {
+                            "name": "Deborah Branigan",
+                            "role": "CONTACT",
+                            "phone": "503-418-9070",
+                            "email": "branigad@ohsu.edu"
+                        },
+                        {
+                            "name": "Peter Jacobs, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                },
+                {
+                    "facility": "University of Washington",
+                    "status": "RECRUITING",
+                    "city": "Seattle",
+                    "state": "Washington",
+                    "zip": "98105",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Subbulaxmi Trikudanathan, MD",
+                            "role": "CONTACT",
+                            "email": "tsubbu@uw.edu"
+                        },
+                        {
+                            "name": "Dori Khakpour",
+                            "role": "CONTACT",
+                            "email": "dorik@uw.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.60621,
+                        "lon": -122.33207
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003922",
+                    "term": "Diabetes Mellitus, Type 1"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                },
+                {
+                    "id": "D000001327",
+                    "term": "Autoimmune Diseases"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7117",
+                    "name": "Diabetes Mellitus, Type 1",
+                    "asFound": "Type 1 Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4629",
+                    "name": "Autoimmune Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29801",
+                    "name": "Insulin Aspart",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

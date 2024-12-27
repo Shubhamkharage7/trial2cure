@@ -1,0 +1,753 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05315700",
+            "orgStudyIdInfo": {
+                "id": "ORIC-114-01"
+            },
+            "organization": {
+                "fullName": "ORIC Pharmaceuticals",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of ORIC-114 in Patients With Advanced Solid Tumors Harboring an EGFR or HER2 Alteration",
+            "officialTitle": "An Open-Label, Phase 1/2 Study of ORIC-114 as a Single Agent or in Combination With Chemotherapy, in Patients With Advanced Solid Tumors Harboring an EGFR or HER2 Alteration",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "study-of-oric-in-patients-with-advanced-solid-tumors-harboring-an-egfr-or-alteration"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+                "date": "2022-03-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-24",
+            "studyFirstSubmitQcDate": "2022-04-06",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "ORIC Pharmaceuticals",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to establish the recommended Phase 2 dose (RP2D) and/or maximum tolerated dose (MTD), safety, pharmacokinetics (PK), pharmacodynamics (PD), and antitumor activity of ORIC-114 as a Single Agent or in Combination with Chemotherapy when administered to patients with advanced solid tumors harboring an EGFR or HER2 alteration.",
+            "detailedDescription": "ORIC-114 is a brain penetrant, selective, orally bioavailable, irreversible small molecule inhibitor designed to target EGFR and HER2 alterations, making it a promising therapeutic candidate for development in patients whose tumors harbor these alterations, including those with CNS metastases.\n\nThis is a first-in-human, open-label, single arm, multicenter, dose escalation study of ORIC-114 as a single agent (Part I), followed by dose optimization (Part II) to establish the recommended phase 2 dose (RP2D) and antitumor activity of ORIC-114 in patients with advanced solid tumors harboring an EGFR or HER2 alteration who have exhausted available treatment options. After the optimal RP2D has been determined, Phase 2 will be initiated via protocol amendment to add one or more expansion cohorts of patients with specific tumor types, treatment history, and/or expression of a specific biomarker to evaluate the antitumor activity of ORIC-114.\n\nAfter completion of Part I dose escalation, Part III, a dose escalation study of ORIC-114 in combination with chemotherapy (carboplatin-pemetrexed) may be initiated to establish the RP2D and/or MTD and antitumor activity for the combination (US sites only)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Solid Tumors"
+            ],
+            "keywords": [
+                "EGFR exon 20 insertion mutation",
+                "Atypical EGFR mutation",
+                "HER2 exon 20 insertion mutation",
+                "HER2 amplification/overexpression",
+                "NSCLC",
+                "Breast cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "interventionModelDescription": "Interval 3+3 dose escalation design",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 350,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Dose Escalation and Dose Optimization",
+                    "type": "EXPERIMENTAL",
+                    "description": "ORIC-114 dosed orally on a continuous once daily dosing regimen in 28-day cycles.",
+                    "interventionNames": [
+                        "Drug: ORIC-114"
+                    ]
+                },
+                {
+                    "label": "Combination Dose Escalation",
+                    "type": "EXPERIMENTAL",
+                    "description": "ORIC-114 dosed orally on a continuous once daily dosing regimen in 21-day cycles.",
+                    "interventionNames": [
+                        "Drug: ORIC-114",
+                        "Drug: Chemotherapy drug"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "ORIC-114",
+                    "description": "ORIC-114 oral daily",
+                    "armGroupLabels": [
+                        "Combination Dose Escalation",
+                        "Dose Escalation and Dose Optimization"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Chemotherapy drug",
+                    "description": "21 days for up to 4 cycles",
+                    "armGroupLabels": [
+                        "Combination Dose Escalation"
+                    ],
+                    "otherNames": [
+                        "carboplatin and pemetrexed"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Recommended Phase 2 Dose (RP2D)",
+                    "description": "RP2D as determined by interval 3+3 dose escalation design",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Maximum plasma concentration (Cmax)",
+                    "description": "PK of ORIC-114",
+                    "timeFrame": "28 Days"
+                },
+                {
+                    "measure": "Time of maximum observed concentration (Tmax)",
+                    "description": "PK of ORIC-114",
+                    "timeFrame": "28 Days"
+                },
+                {
+                    "measure": "Area under the curve (AUC)",
+                    "description": "PK of ORIC-114",
+                    "timeFrame": "28 Days"
+                },
+                {
+                    "measure": "Apparent plasma terminal elimination half-life (t1/2)",
+                    "description": "PK of ORIC-114",
+                    "timeFrame": "28 Days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Objective response rate (ORR)",
+                    "description": "Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Duration of response (DOR)",
+                    "description": "Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Clinical benefit rate (CBR)",
+                    "description": "Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Progression-free survival (PFS)",
+                    "description": "Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Intracranial response rate (CR and/or PR)",
+                    "description": "Modified Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Intracranial progression-free survival (PFS)",
+                    "description": "Modified Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1",
+                    "timeFrame": "36 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically or cytologically confirmed locally advanced or metastatic solid tumor with a documented EGFR or HER2 exon 20 insertion mutation or atypical EGFR mutation as determined by any nucleic acid-based diagnostic testing method, or HER2 amplification/overexpression as determined by an immunohistochemistry (IHC) or an in situ hybridization (ISH) test\n\n  1. Part I Dose Escalation (CLOSED) Any solid tumor with\n\n     * EGFR exon 20 insertion mutation\n     * HER2 exon 20 insertion mutation\n     * Atypical EGFR mutations (NSCLC only) (Appendix 8)\n     * HER2 amplification or overexpression (HER2+)\n     * Previously received and progressed on or after available standard therapies and for whom additional standard therapy is considered unsuitable or intolerable\n  2. Part I Extension (ONGOING)\n\n     * Cohort IA: Patients with HER2+ breast cancer previously received and progressed on or after available standard therapies and for whom additional standard therapy is considered unsuitable or intolerable\n     * Cohort IB: NSCLC patients with EGFR exon 20 insertion mutation previously treated with chemotherapy and amivantamab\n     * Cohort IC: Treatment-na\u00efve NSCLC patients with EGFR exon 20 insertion mutation\n  3. Part II Dose Optimization (ONGOING): NSCLC patients with\n\n     * Cohort IIA: EGFR exon 20 insertion mutation, patients must have received platinum-based chemotherapy or other chemotherapy regimen if platinum- based chemotherapy was contraindicated. Additionally, patients must be na\u00efve to an EGFR exon 20 targeted agent, ie, must have declined or be ineligible for all available exon 20 targeted therapies with proven benefit\n     * Cohort IIB: HER2 exon 20 insertion mutation, patients must have received platinum-based chemotherapy or other chemotherapy regimen if platinum- based chemotherapy was contraindicated. Additionally, patients must be na\u00efve to a HER2 exon 20 targeted TKI\n     * Cohort IIC: Atypical EGFR mutation, patients may have received a prior EGFR TKI\n* Agreement and ability to undergo pretreatment biopsy\n* Measurable disease according to RECIST 1.1\n* CNS involvement, which is either previously treated and controlled, or untreated and asymptomatic\n* ECOG performance status of 0 or 1\n* Adequate organ function\n\nExclusion Criteria:\n\n* Known EGFR T790M mutation\n* Leptomeningeal disease and spinal cord compression\n\n  -- Except if LMD has been reported radiographically on baseline MRI, but is not suspected clinically by the Investigator; the subject must be free of neurological symptoms of LMD\n* History of class III or IV congestive heart failure or severe non-ischemic cardiomyopathy, unstable or poorly controlled angina, myocardial infarction, or ventricular arrhythmia within the previous 6 months\n* Past medical history of interstitial lung disease (ILD), drug induced ILD, radiation pneumonitis which required steroid treatment, or any evidence of clinically active ILD\n* Known, symptomatic human immunodeficiency virus (HIV) infection\n* Known active infection requiring treatment or history of hepatitis B virus (HBV) or hepatitis C virus (HCV). Patients positive for HBsAg but normal HBV DNA level are allowed.\n* Active gastrointestinal disease (eg, Crohn's disease, ulcerative colitis, or short gut syndrome) or other malabsorption syndromes\n* Any other concurrent serious uncontrolled medical, psychological, or addictive conditions",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "ORIC Clinical",
+                    "role": "CONTACT",
+                    "phone": "650-388-5600",
+                    "email": "clinical@oricpharma.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Pratik S. Multani, MD, MS",
+                    "affiliation": "ORIC Pharmaceuticals",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope",
+                    "status": "RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91010",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                },
+                {
+                    "facility": "City of Hope",
+                    "status": "RECRUITING",
+                    "city": "Huntington Beach",
+                    "state": "California",
+                    "zip": "90813",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.6603,
+                        "lon": -117.99923
+                    }
+                },
+                {
+                    "facility": "City of Hope",
+                    "status": "RECRUITING",
+                    "city": "Irvine",
+                    "state": "California",
+                    "zip": "92618",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.66946,
+                        "lon": -117.82311
+                    }
+                },
+                {
+                    "facility": "City of Hope",
+                    "status": "RECRUITING",
+                    "city": "Long Beach",
+                    "state": "California",
+                    "zip": "90813",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.76696,
+                        "lon": -118.18923
+                    }
+                },
+                {
+                    "facility": "University of California, San Francisco",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94122",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                },
+                {
+                    "facility": "Yale Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06510",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                },
+                {
+                    "facility": "Georgetown University",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Washington",
+                    "state": "District of Columbia",
+                    "zip": "20007",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.89511,
+                        "lon": -77.03637
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Jacksonville",
+                    "state": "Florida",
+                    "zip": "32224",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.33218,
+                        "lon": -81.65565
+                    }
+                },
+                {
+                    "facility": "Moffitt Cancer Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Tampa",
+                    "state": "Florida",
+                    "zip": "33612",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 27.94752,
+                        "lon": -82.45843
+                    }
+                },
+                {
+                    "facility": "Northwestern University",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60611",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Dana Farber Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                },
+                {
+                    "facility": "NYU Langone Health Perlmutter Cancer Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Duke Cancer Institute",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "University of Pennsylvania",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Spartanburg Regional Healthcare System",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Spartanburg",
+                    "state": "South Carolina",
+                    "zip": "29303",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.94957,
+                        "lon": -81.93205
+                    }
+                },
+                {
+                    "facility": "Next Oncology",
+                    "status": "RECRUITING",
+                    "city": "Fairfax",
+                    "state": "Virginia",
+                    "zip": "22031",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.84622,
+                        "lon": -77.30637
+                    }
+                },
+                {
+                    "facility": "Chris O'Brien Lifehouse",
+                    "status": "RECRUITING",
+                    "city": "Camperdown",
+                    "country": "Australia",
+                    "geoPoint": {
+                        "lat": -33.88965,
+                        "lon": 151.17642
+                    }
+                },
+                {
+                    "facility": "Peter MacCallum Cancer Centre",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Melbourne",
+                    "country": "Australia",
+                    "geoPoint": {
+                        "lat": -37.814,
+                        "lon": 144.96332
+                    }
+                },
+                {
+                    "facility": "One Clinical Research, Hollywood Medical Centre",
+                    "status": "RECRUITING",
+                    "city": "Nedlands",
+                    "country": "Australia",
+                    "geoPoint": {
+                        "lat": -31.98184,
+                        "lon": 115.8073
+                    }
+                },
+                {
+                    "facility": "Sydney Adventist Health",
+                    "status": "RECRUITING",
+                    "city": "Sydney",
+                    "country": "Australia",
+                    "geoPoint": {
+                        "lat": -33.86785,
+                        "lon": 151.20732
+                    }
+                },
+                {
+                    "facility": "Princess Margaret Cancer Centre",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Toronto",
+                    "state": "Ontario",
+                    "zip": "M5G 2C4",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "The Chinese University of Hong Kong",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Shatin",
+                    "country": "Hong Kong",
+                    "geoPoint": {
+                        "lat": 22.38333,
+                        "lon": 114.18333
+                    }
+                },
+                {
+                    "facility": "Chungbuk University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Cheongju-si",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 36.63722,
+                        "lon": 127.48972
+                    }
+                },
+                {
+                    "facility": "National Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Goyang-si",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 37.65639,
+                        "lon": 126.835
+                    }
+                },
+                {
+                    "facility": "Catholic University of Korea, St, Vincent Hospital",
+                    "status": "RECRUITING",
+                    "city": "Gyeonggi-do",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 37.58944,
+                        "lon": 126.76917
+                    }
+                },
+                {
+                    "facility": "Gachon University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Incheon",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 37.45646,
+                        "lon": 126.70515
+                    }
+                },
+                {
+                    "facility": "Seoul National Bundang Hospital",
+                    "status": "RECRUITING",
+                    "city": "Seongnam-si",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 37.43861,
+                        "lon": 127.13778
+                    }
+                },
+                {
+                    "facility": "Asan Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Seoul",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 37.566,
+                        "lon": 126.9784
+                    }
+                },
+                {
+                    "facility": "Samsung Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Seoul",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 37.566,
+                        "lon": 126.9784
+                    }
+                },
+                {
+                    "facility": "Severance Hospital, Yonsei University Health System",
+                    "status": "RECRUITING",
+                    "city": "Seoul",
+                    "country": "Korea, Republic of",
+                    "geoPoint": {
+                        "lat": 37.566,
+                        "lon": 126.9784
+                    }
+                },
+                {
+                    "facility": "Medical University of Gda\u0144sk",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Gda\u0144sk",
+                    "country": "Poland",
+                    "geoPoint": {
+                        "lat": 54.35205,
+                        "lon": 18.64637
+                    }
+                },
+                {
+                    "facility": "National Taiwan University Hospital",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Taipei",
+                    "country": "Taiwan",
+                    "geoPoint": {
+                        "lat": 25.04776,
+                        "lon": 121.53185
+                    }
+                },
+                {
+                    "facility": "The Christie NHS Foundation Trust",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Manchester",
+                    "state": "England",
+                    "country": "United Kingdom",
+                    "geoPoint": {
+                        "lat": 53.48095,
+                        "lon": -2.23743
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000016190",
+                    "term": "Carboplatin"
+                },
+                {
+                    "id": "D000068437",
+                    "term": "Pemetrexed"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000005493",
+                    "term": "Folic Acid Antagonists"
+                },
+                {
+                    "id": "D000019384",
+                    "term": "Nucleic Acid Synthesis Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18650",
+                    "name": "Carboplatin",
+                    "asFound": "System",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M264",
+                    "name": "Pemetrexed",
+                    "asFound": "Target",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17546",
+                    "name": "Vitamin B Complex",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8618",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8619",
+                    "name": "Folic Acid Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T446",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T447",
+                    "name": "Folinic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T448",
+                    "name": "Folate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T475",
+                    "name": "Vitamin B9",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                },
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "Vi",
+                    "name": "Vitamins"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

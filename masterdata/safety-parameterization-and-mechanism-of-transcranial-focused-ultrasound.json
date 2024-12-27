@@ -1,0 +1,236 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05792020",
+            "orgStudyIdInfo": {
+                "id": "Pro00124327"
+            },
+            "organization": {
+                "fullName": "Medical University of South Carolina",
+                "class": "OTHER"
+            },
+            "briefTitle": "Safety, Parameterization, and Mechanism of Transcranial Focused Ultrasound",
+            "officialTitle": "Safety, Parameterization, and Mechanism of Transcranial Focused Ultrasound (fUS) Over the Motor Cortex",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "safety-parameterization-and-mechanism-of-transcranial-focused-ultrasound"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-09-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-17",
+            "studyFirstSubmitQcDate": "2023-03-17",
+            "studyFirstPostDateStruct": {
+                "date": "2023-03-30",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kevin Caulfield",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Medical University of South Carolina"
+            },
+            "leadSponsor": {
+                "name": "Medical University of South Carolina",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "BRAINBox Solutions Inc",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "Through the BrainBox Initiative, investigators propose to study the effects of motor tFUS on Motor Evoked Potentials (MEPs) and GABA and Glutamate Concentrations in the Brain.",
+            "detailedDescription": "tFUS is an emerging neuromodulatory tool that uses pulses of low-intensity acoustic waves to stimulate deep brain structures such as the thalamus. tFUS has recently been used to probe deep brain structures in unresponsive wakefulness, pain, anxiety, and other neuropsychiatric conditions. However, tFUS is restricted mainly by use in the MR scanner environment, thus limiting session numbers by scan cost and participant comfort. Furthermore, with few human studies to date, the parameter space and mechanisms of action warrant further elucidation. Using novel focused ultrasound methods, investigators can stimulate at a minimum penetration distance of 20mm, uniquely enabling the study of the neuromodulatory effects of tFUS on cortical tissue. Specifically, investigators propose to study the effects of motor tFUS on motor-evoked potentials (MEPs) and GABA concentration. The proposed research is critical for understanding tFUS and advancing its therapeutic potential for future clinical trials."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Healthy"
+            ],
+            "keywords": [
+                "Transcranial Focused Ultrasound"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "Within-subject, each participant will receive one excitatory course of stimulation and one inhibitory course of stimulation of the motor cortex.",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "maskingDescription": "Device stimulation will be blinded by the outcomes assessor to maintain the blinding of the participants and care provider",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Excitatory tFUS parameters effect on Motor Evoked Potentials",
+                    "type": "EXPERIMENTAL",
+                    "description": "All participants will receive three sessions of Focused Ultrasound Stimulation to their motor hotspot. This stimulation cycle will operate at a 50% duty cycle.",
+                    "interventionNames": [
+                        "Device: Focused Ultrasound Stimulation"
+                    ]
+                },
+                {
+                    "label": "Inhibitory tFUS parameters effect of Motor Evoked Potentials",
+                    "type": "EXPERIMENTAL",
+                    "description": "All participants will receive three sessions of Focused Ultrasound Stimulation to their motor hotspot. This stimulation cycle will operate at a 5% duty cycle",
+                    "interventionNames": [
+                        "Device: Focused Ultrasound Stimulation"
+                    ]
+                },
+                {
+                    "label": "Sham tFUS parameters effect of Motor Evoked Potentials",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "All participants will receive three sessions of Focused Ultrasound Stimulation to their motor hotspot. This stimulation cycle will utilize an air-filled spacer to block stimulation from reaching the brain",
+                    "interventionNames": [
+                        "Device: Focused Ultrasound Stimulation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Focused Ultrasound Stimulation",
+                    "description": "This aim will test whether motor tFUS parameters thought to be excitatory (50% duty cycle) vs. inhibitory (5% duty cycle) elicit their predicted effects on MEPs before and after each of three stimulation blocks, using 50 MEPs at each time point.",
+                    "armGroupLabels": [
+                        "Excitatory tFUS parameters effect on Motor Evoked Potentials",
+                        "Inhibitory tFUS parameters effect of Motor Evoked Potentials",
+                        "Sham tFUS parameters effect of Motor Evoked Potentials"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Motor Evoked Potential Amplitude",
+                    "description": "How has the focused ultrasound stimulation affected MEP amplitude",
+                    "timeFrame": "Immediate Post-Stimulation"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female\n* Age 18-55\n* Endorse good health with no history of mental or physical illness or implanted metal\n* English as a primary language\n* Capacity to consent\n* Negative urine pregnancy test if a female of childbearing potential\n* Willingness to adhere to the tFUS and MRI study schedule\n\nExclusion Criteria:\n\n* Any psychotropic medication is taken within 5 half-lives of procedure time\n* Any head trauma resulting in loss of consciousness\n* Personal or family history of neurological illness or injury\n* Alcohol or substance abuse or dependence (other than tobacco) in the past week\n* Diagnosis or current treatment (pharmacological or otherwise) of any psychiatric condition\n* Pregnancy\n* Personal or family history of seizures or epilepsy\n* Claustrophobia or inability to stay still in the MR scanner environment\n* Any metal in the body\n* Other contraindications to electrical or electromagnetic stimulation\n* Hair in dreadlocks, braids, or weave\n* Diagnosis of COVID-19 in the past 14 days\n* Inability to adhere to the treatment schedule.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Lisa M McTeague, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "8437928274",
+                    "email": "mcteague@musc.edu"
+                },
+                {
+                    "name": "Kevin A Caulfield",
+                    "role": "CONTACT",
+                    "email": "caulfiel@musc.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Medical University of South Carolina",
+                    "city": "Charleston",
+                    "state": "South Carolina",
+                    "zip": "29425",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Lisa M McTeague, PhD",
+                            "role": "CONTACT",
+                            "phone": "843-792-8274",
+                            "email": "mcteague@musc.edu"
+                        },
+                        {
+                            "name": "Allison K Wilkerson, PhD",
+                            "role": "CONTACT",
+                            "phone": "843-792-4636",
+                            "email": "wilkersa@musc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.77657,
+                        "lon": -79.93092
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2022-11-02",
+                    "uploadDate": "2023-12-15T13:38",
+                    "filename": "ICF_000.pdf",
+                    "size": 612803
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

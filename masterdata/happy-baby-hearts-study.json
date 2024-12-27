@@ -1,0 +1,396 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05842876",
+            "orgStudyIdInfo": {
+                "id": "2022-1710"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "SMPH\\PEDIATRICS\\NEONATO",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "Protocol Version 3/29/2024",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "A536757",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "briefTitle": "Happy Baby Hearts Study",
+            "officialTitle": "Renal NIRS Monitoring to Detect Coarctation of the Aorta - A Pilot Study",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "happy-baby-hearts-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-04-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-21",
+            "studyFirstSubmitQcDate": "2023-05-01",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-06",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-11",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Meriter Foundation",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this observational study is to determine the feasibility of renal Near Infrared Spectroscopy (NIRS) monitoring in the newborn nursery for newborns at low risk of coarctation of the aorta (CoA). The main questions it aims to answer are:\n\n* whether continuous renal NIRS monitoring is feasible;\n* whether NIRS monitoring results in higher nursing and parent/caregiver satisfaction than current standard monitoring; and,\n* whether participants who develop CoA will spend a smaller proportion of time within the normal range than patients who do not have CoA.\n\nParticipants will be observed through continuous renal oxygenation monitoring with NIRS."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Coarctation of Aorta"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 140,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Caregiver + Low Risk neonates",
+                    "description": "Participants in the nursery who are expected to be lower risk for CoA",
+                    "interventionNames": [
+                        "Device: Continuous Renal NIRS Monitoring",
+                        "Diagnostic Test: Standard Clinical Care",
+                        "Other: Satisfaction Survey"
+                    ]
+                },
+                {
+                    "label": "Caregiver + Medium to High Risk neonates",
+                    "description": "Participants in the NICU who are expected to be at a higher risk for CoA",
+                    "interventionNames": [
+                        "Diagnostic Test: Standard Clinical Care"
+                    ]
+                },
+                {
+                    "label": "Nurses in the Newborn Nursery",
+                    "description": "Nurses who work at the Meriter Hospital, Inc. Newborn Nursery",
+                    "interventionNames": [
+                        "Other: Satisfaction Survey"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Continuous Renal NIRS Monitoring",
+                    "description": "Renal oxygenation data collected every 6 seconds",
+                    "armGroupLabels": [
+                        "Caregiver + Low Risk neonates"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Standard Clinical Care",
+                    "description": "q6 h BP, q6 h Pulse ox, Echo at 24-72h",
+                    "armGroupLabels": [
+                        "Caregiver + Low Risk neonates"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Standard Clinical Care",
+                    "description": "Renal oxygenation data collected every 6 seconds, q6 h BP, continuous Pulse ox, Echo at 12-72h",
+                    "armGroupLabels": [
+                        "Caregiver + Medium to High Risk neonates"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Satisfaction Survey",
+                    "description": "Survey to assess which method of monitoring is preferred",
+                    "armGroupLabels": [
+                        "Caregiver + Low Risk neonates",
+                        "Nurses in the Newborn Nursery"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Percent of time monitored",
+                    "description": "Amount of time continuously monitored will be calculated",
+                    "timeFrame": "Up to 2 weeks post-delivery, on average"
+                },
+                {
+                    "measure": "Count of adverse and unexpected events",
+                    "description": "All adverse and unexpected events will be recorded",
+                    "timeFrame": "Up to 2 weeks post-delivery"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in nursing satisfaction with renal NIRS monitoring",
+                    "description": "A subjective description of survey responses in addition to determining which method of monitoring is preferred: NIRS vs. Enhanced BP/Pulse ox checks. Survey will be conducted at the beginning of the study, and one year later.",
+                    "timeFrame": "Study start to one year later"
+                },
+                {
+                    "measure": "Parent/caregiver satisfaction with renal NIRS monitoring",
+                    "description": "A subjective description of survey responses in addition to determining which method of monitoring is preferred: NIRS vs. Enhanced BP/Pulse ox checks",
+                    "timeFrame": "Up to 2 weeks post-delivery, on average"
+                },
+                {
+                    "measure": "Renal oxygen trends",
+                    "description": "A permutation test will be used to compare the distribution of proportions (of time spent within normal range) between the two groups (CoA vs. normal)",
+                    "timeFrame": "Through study completion, approximately 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Neonate Inclusion Criteria:\n\n* Delivered at \u2265 35 weeks of gestation\n* \\<12 hours of age\n* Inpatient at Meriter Hospital, Inc. NICU or Newborn Nursery or AFCH PICU or NICU\n* Diagnosed as at risk for CoA\n\nNeonate Exclusion Criteria:\n\n* Major congenital anomalies of the kidney\n* Attending physician's discretion to not place sensors due to clinical concerns\n* In the researcher's medical opinion, there is a significant likelihood that the neonate would not survive the first 3 days of life\n\nPrimary Caregiver Inclusion Criteria:\n\n* Able to understand and the willing to sign a written informed consent document\n* Willing to comply with all study procedures and be available for the duration of the study\n* Birth parent (i.e., the parent who gave birth to the baby) who is the primary caregiver of a neonate who is eligible to participate in study\n* Agrees to enroll neonate into study\n* Aged 15 years or older\n* Pregnant mother with a baby diagnosed prenatally as at risk for CoA will be eligible for the study. They must also meet the following criteria:\n* Require an \"arch watch care plan\" as a results of prenatal ultrasonography findings\n* Agree to enroll offspring into the study at birth\n\nPrimary Caregiver Exclusion Criteria:\n\n* Subject is unable to provide informed consent, including subjects who are in foster care and subjects within state custody\n* Pregnant woman who does not plan to maintain custody of the child after birth, such as instances of adoption or surrogacy\n\nNewborn Nursery Nursing Staff:\n\n* All Newborn Nursery nursing staff at Meriter Hospital, Inc.'s Newborn Nursery are eligible to participate",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "15 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "1. Neonates admitted to the nursery or NICU at Meriter Hospital, Inc. or UWHealth Kids - American Family Children's Hospital (AFCH) who are \u2265 35 weeks' gestation and have a prenatally identified concern for coarctation of the aorta.\n2. Primary parent/guardian of neonate.\n3. Nursing staff at Meriter Hospital, Inc.'s Newborn Nursery",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Meg Baker",
+                    "role": "CONTACT",
+                    "phone": "608-263-7125",
+                    "email": "meg.baker@wisc.edu"
+                },
+                {
+                    "name": "Matthew Harer, MD",
+                    "role": "CONTACT"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Matthew Harer, MD",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53705",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Meg Baker",
+                            "role": "CONTACT",
+                            "email": "meg.baker@wisc.edu"
+                        },
+                        {
+                            "name": "Matthew Harer, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                },
+                {
+                    "facility": "Meriter Hospital, Inc.",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53715",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Singh Y. Evaluation of a child with suspected congenital heart disease. Paediatrics and Child Health 2018, 28(12): 556-561"
+                },
+                {
+                    "pmid": "20165844",
+                    "type": "BACKGROUND",
+                    "citation": "Levey A, Glickstein JS, Kleinman CS, Levasseur SM, Chen J, Gersony WM, Williams IA. The impact of prenatal diagnosis of complex congenital heart disease on neonatal outcomes. Pediatr Cardiol. 2010 Jul;31(5):587-97. doi: 10.1007/s00246-010-9648-2. Epub 2010 Feb 18."
+                },
+                {
+                    "pmid": "34441986",
+                    "type": "BACKGROUND",
+                    "citation": "Gomez-Montes E, Herraiz Garcia I, Escribano Abad D, Rodriguez Calvo J, Villalain Gonzalez C, Galindo Izquierdo A. Application of a Global Multiparameter Scoring System for the Prenatal Prediction of Coarctation of the Aorta. J Clin Med. 2021 Aug 20;10(16):3690. doi: 10.3390/jcm10163690."
+                },
+                {
+                    "pmid": "34181988",
+                    "type": "BACKGROUND",
+                    "citation": "Maskatia SA, Kwiatkowski D, Bhombal S, Davis AS, McElhinney DB, Tacy TA, Algaze C, Blumenfeld Y, Quirin A, Punn R. A Fetal Risk Stratification Pathway for Neonatal Aortic Coarctation Reduces Medical Exposure. J Pediatr. 2021 Oct;237:102-108.e3. doi: 10.1016/j.jpeds.2021.06.047. Epub 2021 Jun 26."
+                },
+                {
+                    "pmid": "28471443",
+                    "type": "BACKGROUND",
+                    "citation": "Korcek P, Stranak Z, Sirc J, Naulaers G. The role of near-infrared spectroscopy monitoring in preterm infants. J Perinatol. 2017 Oct;37(10):1070-1077. doi: 10.1038/jp.2017.60. Epub 2017 May 4."
+                },
+                {
+                    "pmid": "23317940",
+                    "type": "BACKGROUND",
+                    "citation": "Hazle MA, Gajarski RJ, Aiyagari R, Yu S, Abraham A, Donohue J, Blatt NB. Urinary biomarkers and renal near-infrared spectroscopy predict intensive care unit outcomes after cardiac surgery in infants younger than 6 months of age. J Thorac Cardiovasc Surg. 2013 Oct;146(4):861-867.e1. doi: 10.1016/j.jtcvs.2012.12.012. Epub 2013 Jan 12."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001017",
+                    "term": "Aortic Coarctation"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006330",
+                    "term": "Heart Defects, Congenital"
+                },
+                {
+                    "id": "D000018376",
+                    "term": "Cardiovascular Abnormalities"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4333",
+                    "name": "Aortic Coarctation",
+                    "asFound": "Coarctation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9418",
+                    "name": "Heart Defects, Congenital",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20503",
+                    "name": "Cardiovascular Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T447",
+                    "name": "Aortic Coarctation",
+                    "asFound": "Coarctation",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

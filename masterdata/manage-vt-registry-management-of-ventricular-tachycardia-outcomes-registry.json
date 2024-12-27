@@ -1,0 +1,396 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06455488",
+            "orgStudyIdInfo": {
+                "id": "2020-CSF-00300"
+            },
+            "organization": {
+                "fullName": "CorVita Science Foundation",
+                "class": "OTHER"
+            },
+            "briefTitle": "MANAGE-VT Registry - MANAGEment of Ventricular Tachycardia Outcomes Registry",
+            "officialTitle": "MANAGEment of Ventricular Tachycardia Outcomes Registry",
+            "acronym": "MANAGE-VT",
+            "therapeuticArea": [
+                "Critical Care"
+            ],
+            "study": "manage-vt-registry-management-of-ventricular-tachycardia-outcomes-registry"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-07-20",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2030-07-20",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2030-07-20",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-05",
+            "studyFirstSubmitQcDate": "2024-06-11",
+            "studyFirstPostDateStruct": {
+                "date": "2024-06-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-12",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "CorVita Science Foundation",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Data collection registry for patients with ventricular tachycardia to help physicians give better care for patients clinically and procedurally.",
+            "detailedDescription": "After consent from a patient the research team will input patients data from many different categories. There is a link to the PDF for the consent form, a patients anticoagulant medications will be assessed, their ventricular tachycardia (VT) history will be inputted, and their date of birth and zip code will inputted. The research team will then input any EKG's, echocardiograms, VT ablations, ICD's, S-ICD's, lab results, and comorbidities."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Ventricular Tachycardia"
+            ],
+            "keywords": [
+                "ventricular arrhythmia",
+                "ventricular tachycardia",
+                "ventricular fibrillation",
+                "stroke"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 130,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "MANAGE-VT Patients",
+                    "description": "Patients will be assessed on the status of their ventricular tachycardia as well as other criteria such as: EKG,",
+                    "interventionNames": [
+                        "Procedure: Ventricular Tachycardia Ablation",
+                        "Device: ICD Implant",
+                        "Drug: Antiarrhythmic drug",
+                        "Diagnostic Test: EKG",
+                        "Diagnostic Test: Cardioversion",
+                        "Diagnostic Test: Echocardiogram"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Ventricular Tachycardia Ablation",
+                    "description": "This is a surgical ablation meant to reset patients irregular rhythm back to sinus.",
+                    "armGroupLabels": [
+                        "MANAGE-VT Patients"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "ICD Implant",
+                    "description": "A pacemaker or defibrillator implant to prevent SCD",
+                    "armGroupLabels": [
+                        "MANAGE-VT Patients"
+                    ],
+                    "otherNames": [
+                        "Pacemaker Implant"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Antiarrhythmic drug",
+                    "description": "Drug therapies",
+                    "armGroupLabels": [
+                        "MANAGE-VT Patients"
+                    ],
+                    "otherNames": [
+                        "Statin Therapy",
+                        "Anticoagulants"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "EKG",
+                    "description": "Monitoring EKG testing done on registry patients",
+                    "armGroupLabels": [
+                        "MANAGE-VT Patients"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Cardioversion",
+                    "description": "Monitoring cardioversions on registry patients",
+                    "armGroupLabels": [
+                        "MANAGE-VT Patients"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Echocardiogram",
+                    "description": "Monitoring echocardiogram testing done on patients",
+                    "armGroupLabels": [
+                        "MANAGE-VT Patients"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Recurrence of Ventricular Tachycardia",
+                    "description": "The natural progression of v-tach will be assessed through medical record review",
+                    "timeFrame": "July 20, 2020 - Present"
+                },
+                {
+                    "measure": "Number of Participants with Risk of Sudden Cardiac Death",
+                    "description": "All events of sudden cardiac death that arise from patients with ventricular tachycardia",
+                    "timeFrame": "July 20, 2020 - Present"
+                },
+                {
+                    "measure": "Prevent Risk of Stroke",
+                    "description": "All strokes, transient ischemic and systemic thrombo-embolic events",
+                    "timeFrame": "July 20, 2020 - Present"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Must be at least 18 years old\n* Must not be\n\nExclusion Criteria:\n\n-",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "All patients who have been diagnosed and have evidence of ventricular tachycardia and are over the age of 18. Every patient was presented with a consent form and was given a description of the study in a clinical setting.",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Martin C Burke, DO",
+                    "role": "CONTACT",
+                    "phone": "7735208322",
+                    "email": "mburke@corvitahealth.org"
+                },
+                {
+                    "name": "Edward M Burke",
+                    "role": "CONTACT",
+                    "phone": "7737297956",
+                    "email": "eddie@corvitahealth.org"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Corvita Science Foundation",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60643",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Martin C Burke, DO",
+                            "role": "CONTACT",
+                            "phone": "773-520-8322",
+                            "email": "mburke@corvitahealth.org"
+                        },
+                        {
+                            "name": "Edward M Burke",
+                            "role": "CONTACT",
+                            "phone": "7737297956",
+                            "email": "eddie@corvitahealth.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013610",
+                    "term": "Tachycardia"
+                },
+                {
+                    "id": "D000017180",
+                    "term": "Tachycardia, Ventricular"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000075224",
+                    "term": "Cardiac Conduction System Disease"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M22306",
+                    "name": "Stroke",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16384",
+                    "name": "Tachycardia",
+                    "asFound": "Tachycardia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19488",
+                    "name": "Tachycardia, Ventricular",
+                    "asFound": "Ventricular Tachycardia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17439",
+                    "name": "Ventricular Fibrillation",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1472",
+                    "name": "Cardiac Conduction System Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4437",
+                    "name": "Paroxysmal Ventricular Fibrillation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000889",
+                    "term": "Anti-Arrhythmia Agents"
+                },
+                {
+                    "id": "D000000925",
+                    "term": "Anticoagulants"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4213",
+                    "name": "Anti-Arrhythmia Agents",
+                    "asFound": "Obstructive Sleep Apnea Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4244",
+                    "name": "Anticoagulants",
+                    "asFound": "Dioxide",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21155",
+                    "name": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "AnArAg",
+                    "name": "Anti-Arrhythmia Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AnCoag",
+                    "name": "Anticoagulants"
+                },
+                {
+                    "abbrev": "Lipd",
+                    "name": "Lipid Regulating Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

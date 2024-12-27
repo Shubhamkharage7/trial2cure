@@ -1,0 +1,1658 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04056247",
+            "orgStudyIdInfo": {
+                "id": "OH-HRPP-001"
+            },
+            "organization": {
+                "fullName": "OncoHost Ltd.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Predicting Responsiveness in Oncology Patients Based on Host Response Evaluation During Anti Cancer Treatments",
+            "officialTitle": "PROPHETIC - Predicting Responsiveness in Oncology Patients Based on Host Response Evaluation During Anti Cancer Treatments",
+            "acronym": "PROPHETIC",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "predicting-responsiveness-in-oncology-patients-based-on-host-response-evaluation-during-anti-cancer-treatments"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-10-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2029-10-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2029-10-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-08-11",
+            "studyFirstSubmitQcDate": "2019-08-13",
+            "studyFirstPostDateStruct": {
+                "date": "2019-08-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "OncoHost Ltd.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will develop an algorithm of identifying patients with stage IV NSCLC and Melanoma who could benefit from cancer treatment they receive.",
+            "detailedDescription": "The goal of this research study is to develop an algorithm that predicts the patient's treatment outcome.This algorithm will serve as a tool for physicians when making treatment decisions, specifically for stage IV NSCLC and malignant melanoma patients receiving anti-cancer treatments. The investigators also aim to identify the metabolic pathways that could lead to better therapeutic options. The patients will be given their treatment according to the institute's standard of care. The patients will provide two blood samples and clinical data will be collected from their medical records.\n\nIn the first part of the trial, the data obtained from the blood samples and the medical records of the patients will be used to develop the prediction algorithm, and in the second part of the trial, the algorithm will be validated by comparing the objective response rate of the patients to the theoretical response prediction of the algorithm."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Stage IV Non-small Cell Lung Cancer",
+                "Stage IV Malignant Melanoma",
+                "Stage IV Small Cell Lung Cancer",
+                "Stage III Malignant Melanoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "plasma samples."
+            },
+            "enrollmentInfo": {
+                "count": 2000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Newly diagnosed NSCLC stage IV",
+                    "description": "Patients with newly diagnosed stage IV NSCLC treated with Immunotherapy or Immunotherapy + Chemotherapy.",
+                    "interventionNames": [
+                        "Other: Plasma sample collection"
+                    ]
+                },
+                {
+                    "label": "NSCLC stage IV 2nd line and further of immunotherapy",
+                    "description": "Patients with NSCLC stage IV treated with Immunotherapy at 2nd line or consecutive lines.",
+                    "interventionNames": [
+                        "Other: Plasma sample collection"
+                    ]
+                },
+                {
+                    "label": "Malignant melanoma stage IV",
+                    "description": "Patients with stage IV malignant melanoma treated with Immunotherapy with or without targeted therapy.",
+                    "interventionNames": [
+                        "Other: Plasma sample collection"
+                    ]
+                },
+                {
+                    "label": "Malignant melanoma stage IIIb-d",
+                    "description": "Patients with stage IIIb-d malignant melanoma treated with Immunotherapy as adjuvant therapy.",
+                    "interventionNames": [
+                        "Other: Plasma sample collection"
+                    ]
+                },
+                {
+                    "label": "SCLC stage IV",
+                    "description": "Patients with stage IV SCLC treated with Immunotherapy or Immunotherapy + Chemotherapy.",
+                    "interventionNames": [
+                        "Other: Plasma sample collection"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Plasma sample collection",
+                    "description": "Collect at least two plasma samples",
+                    "armGroupLabels": [
+                        "Malignant melanoma stage IIIb-d",
+                        "Malignant melanoma stage IV",
+                        "NSCLC stage IV 2nd line and further of immunotherapy",
+                        "Newly diagnosed NSCLC stage IV",
+                        "SCLC stage IV"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Overall response rate (ORR) at 3 months",
+                    "description": "ORR as defined by RECIST 1.1 or other validated method for ORR evaluation",
+                    "timeFrame": "At 3 months after therapy"
+                },
+                {
+                    "measure": "Overall response rate (ORR) at 6 months",
+                    "description": "ORR as defined by RECIST 1.1 or other validated method for ORR evaluation",
+                    "timeFrame": "At 6 months after therapy"
+                },
+                {
+                    "measure": "Changes in the blood levels of different proteins that represent the host response",
+                    "description": "Changes in Blood levels of proteins representing the Host response",
+                    "timeFrame": "At baseline (pre-therapy) and after 1st dose administration (post therapy)"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Adverse Events (AE)",
+                    "description": "AE, as reported by the patients",
+                    "timeFrame": "At second blood collection, 3 months and 6 months after treatment and EOS (2 years)"
+                },
+                {
+                    "measure": "Progression Free Survival (PFS)",
+                    "description": "Collect Progression Free Survival (PFS) dates",
+                    "timeFrame": "At End of study (2 years)"
+                },
+                {
+                    "measure": "Overall Survival (OS)",
+                    "description": "Collect Overall Survival (OS) dates",
+                    "timeFrame": "At End of study (2 years)"
+                },
+                {
+                    "measure": "Duration of Response (DOR)",
+                    "description": "Collect Duration of Response (DOR) dates",
+                    "timeFrame": "At End of study (2 years)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Cancer patients with stage IV NSCLC or stage IV malignant melanoma\n* Patient must have at least one measurable lesion and the relevant images in order to enable assessment of response\n* ECOG PS - 0/1-2\n* Normal hematologic, renal and liver function:\n\n  1. Absolute neutrophil count higher than 1500/mm3\n  2. Platelets count higher than 100,000/mm3\n  3. haemoglobin higher than 9 g/dL\n  4. Creatinine concentration \u22641.4 mg/dL, or creatinine clearance higher than 40 mL/min\n  5. Total bilirubin lower than 1.5 mg/dL, ALT and AST levels \u2264 3 times above the upper normal limit.\n\nExclusion Criteria:\n\n* Concurrent and/or other active malignancy that has required systemic treatment within 2 years of first dose of study drug\n* Generalized impairment or mental incompetence that would render the patient unable to understand his/her participation in the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "1. Patients with newly diagnosed stage IV NSCLC treated with Immunotherapy or Immunotherapy + Chemotherapy.\n2. Patients with NSCLC stage IV treated with Immunotherapy at 2nd line or consecutive lines.\n3. Patients with stage IV malignant melanoma treated with Immunotherapy with or without targeted therapy.\n4. Patients with stage IIIb-d malignant melanoma treated with Immunotherapy as adjuvant therapy.\n5. Patients with stage IV SCLC treated with Immunotherapy or Immunotherapy + Chemotherapy.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Shani Raveh Shoval, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "97248537554",
+                    "email": "shani@oncohost.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Alona Zer, MD",
+                    "affiliation": "003 Rambam Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Michal Lotem, MD",
+                    "affiliation": "001 Hadassah Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Jair Bar, MD",
+                    "affiliation": "016 Sheba Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Maya Gottfried, MD",
+                    "affiliation": "005 Meir Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Abed Agbaria, MD",
+                    "affiliation": "004 Bnai Zion Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Ido Wolf, MD",
+                    "affiliation": "002 Tel Aviv Sourasky Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Mahmud Abu-Amana, MD",
+                    "affiliation": "007 Haemek Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Rivka Katsenelson, MD",
+                    "affiliation": "008 Kaplan Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Alexander Yakobson, MD",
+                    "affiliation": "009 Soroka Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Tatiana Harkovsky, MD",
+                    "affiliation": "011 Barzilai Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Mor Moskovitz, MD",
+                    "affiliation": "012 Rabin Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Elizabeta Dudnik, MD",
+                    "affiliation": "013 Assuta Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Raya Leibowitz, MD",
+                    "affiliation": "014 Shamir Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Adam Berger, MD",
+                    "affiliation": "030 Rutgers Cancer Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Jose Lutzky, MD",
+                    "affiliation": "032 University of Miami",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Antony Magliocco, MD",
+                    "affiliation": "015 Protean Biodiagnostics",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Gillian Price, MD",
+                    "affiliation": "020 Aberdeen Royal Infirmary",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Helen Cheley",
+                    "affiliation": "021 Swansea Bay UHB - Cancer Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Louise Medley, MD",
+                    "affiliation": "022 Torbay and South Devon NHS foundation",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Tom Geldart, MD",
+                    "affiliation": "023 Royal Bournemouth General Hospital Dorset",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Anirban Chatterjee, MD",
+                    "affiliation": "024 The Shrewsbury and Telford Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "David Farrugia, MD",
+                    "affiliation": "025 Cheltenham General Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Andreas Polychronis, MD",
+                    "affiliation": "026 Mount Vernon Cancer Centre",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Andreas Polychronis, MD",
+                    "affiliation": "027 Lister Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Ari VanderWalde, MD",
+                    "affiliation": "031 West Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Davika Das, MD",
+                    "affiliation": "033 VAHCS Birmingham",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Alison Brewster, MD",
+                    "affiliation": "051 Withybush Hospital Hawl Dda University Health Board",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Adam Hassani",
+                    "affiliation": "029 Sunderland Royal Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Adam Hassani, MD",
+                    "affiliation": "028 South Tyneside District",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Andrew Conn, MD",
+                    "affiliation": "050 Bradford Teaching Hospitals",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Yanyan Lou, MD",
+                    "affiliation": "034 Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Igor Puzanov, MD",
+                    "affiliation": "035 Roswell Park",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Ernesto Bustinza, MD",
+                    "affiliation": "153 Florida Cancer Specialists and Research Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Anita Sabichi, MD",
+                    "affiliation": "036 Michael E Debakey VA Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Ronnie Shapira Frommer, MD",
+                    "affiliation": "017 Sheba Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Ina Koch, PhD",
+                    "affiliation": "040 Asklepios Klinik Gauting GmbH",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Petros Christopoulos, MD",
+                    "affiliation": "041 Thoraxklinik-Heidelberg gGmbH",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Marina Messinger, MD",
+                    "affiliation": "150 Northwest Community Healthcare",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Sunil Patel, MD",
+                    "affiliation": "151 CHRISTUS St. Michael Health System",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "William P Fusselman, MD",
+                    "affiliation": "152 Physicians Clinic of Iowa",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "David Vecente, MD",
+                    "affiliation": "044 Hospital Universitario Virgen Macarena",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Birmingham VAHCS",
+                    "status": "RECRUITING",
+                    "city": "Birmingham",
+                    "state": "Alabama",
+                    "zip": "35233",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Davika Das, MD",
+                            "role": "CONTACT",
+                            "email": "devika.das@va.gov"
+                        },
+                        {
+                            "name": "Davika Das, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.52066,
+                        "lon": -86.80249
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic",
+                    "status": "RECRUITING",
+                    "city": "Jacksonville",
+                    "state": "Florida",
+                    "zip": "32224",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Yanyan Lou, MD",
+                            "role": "CONTACT",
+                            "email": "Lou.Yanyan@mayo.edu"
+                        },
+                        {
+                            "name": "Yanyan Lou, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.33218,
+                        "lon": -81.65565
+                    }
+                },
+                {
+                    "facility": "University of Miami",
+                    "status": "RECRUITING",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33136",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jose Lutzky, MD",
+                            "role": "CONTACT",
+                            "email": "jose.lutzky@med.miami.edu"
+                        },
+                        {
+                            "name": "Jose Lutzky, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Florida Cancer Specialist and Research Institute",
+                    "status": "RECRUITING",
+                    "city": "Orlando",
+                    "state": "Florida",
+                    "zip": "32827",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ernesto Bustinza, MD",
+                            "role": "CONTACT",
+                            "email": "ebustinza@flcancer.com"
+                        },
+                        {
+                            "name": "Ernesto Bustinza, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 28.53834,
+                        "lon": -81.37924
+                    }
+                },
+                {
+                    "facility": "Protean Biodiagnosics",
+                    "status": "RECRUITING",
+                    "city": "Orlando",
+                    "state": "Florida",
+                    "zip": "32827",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Anthony Magliocco, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Anthony Magliocco, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 28.53834,
+                        "lon": -81.37924
+                    }
+                },
+                {
+                    "facility": "Northwest Community Healthcare",
+                    "status": "RECRUITING",
+                    "city": "Rolling Meadows",
+                    "state": "Illinois",
+                    "zip": "60008",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "So Hyeon Park",
+                            "role": "CONTACT",
+                            "email": "marina.messinger@gmail.com"
+                        },
+                        {
+                            "name": "Marina Messinger",
+                            "role": "CONTACT",
+                            "phone": "8476184358"
+                        },
+                        {
+                            "name": "Marina Messinger, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.08419,
+                        "lon": -88.01313
+                    }
+                },
+                {
+                    "facility": "Helen Nassif Community Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Cedar Rapids",
+                    "state": "Iowa",
+                    "zip": "52403",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "So Hyeon Park",
+                            "role": "CONTACT",
+                            "email": "wfusselman@ocofiowa.com"
+                        },
+                        {
+                            "name": "William Fusselman, MD",
+                            "role": "CONTACT",
+                            "phone": "3193697775"
+                        },
+                        {
+                            "name": "William Fusselman, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.00833,
+                        "lon": -91.64407
+                    }
+                },
+                {
+                    "facility": "Rutgers Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "New Brunswick",
+                    "state": "New Jersey",
+                    "zip": "08903",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Adam Berger, MD",
+                            "role": "CONTACT",
+                            "email": "ab2047@cinj.rutgers.edu"
+                        },
+                        {
+                            "name": "Adam Berger, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.48622,
+                        "lon": -74.45182
+                    }
+                },
+                {
+                    "facility": "Roswell Park",
+                    "status": "RECRUITING",
+                    "city": "Buffalo",
+                    "state": "New York",
+                    "zip": "14263",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Igor Puzanov, MD",
+                            "role": "CONTACT",
+                            "email": "Igor.Puzanov@RoswellPark.org"
+                        },
+                        {
+                            "name": "Igor Puzanov, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.88645,
+                        "lon": -78.87837
+                    }
+                },
+                {
+                    "facility": "West Clinic",
+                    "status": "RECRUITING",
+                    "city": "Germantown",
+                    "state": "Tennessee",
+                    "zip": "38138",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Noam VanderWalde, MD",
+                            "role": "CONTACT",
+                            "email": "nvanderwalde@westclinic.com"
+                        },
+                        {
+                            "name": "Ari VanderWalde, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.08676,
+                        "lon": -89.81009
+                    }
+                },
+                {
+                    "facility": "Michael E. Debakey VA Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Anita Sabichi, MD",
+                            "role": "CONTACT",
+                            "email": "Anita.Sabichi@va.gov"
+                        },
+                        {
+                            "name": "Anita Sabichi, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "151-Christus Health St. Michael",
+                    "status": "RECRUITING",
+                    "city": "Texarkana",
+                    "state": "Texas",
+                    "zip": "75503",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sunil Patel, MD",
+                            "role": "CONTACT",
+                            "email": "sapd@pm.me"
+                        },
+                        {
+                            "name": "Sunil Patel, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.42513,
+                        "lon": -94.04769
+                    }
+                },
+                {
+                    "facility": "Asklepois",
+                    "status": "RECRUITING",
+                    "city": "Gauting",
+                    "zip": "82131",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Ina Koch, PhD",
+                            "role": "CONTACT",
+                            "email": "ina.koch@asklepios.com"
+                        },
+                        {
+                            "name": "Ina Koch, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.06919,
+                        "lon": 11.37703
+                    }
+                },
+                {
+                    "facility": "Thoraxklinik Heidelberg gGmbH",
+                    "status": "RECRUITING",
+                    "city": "Heidelberg",
+                    "zip": "69126",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Marc Schneider, PhD",
+                            "role": "CONTACT",
+                            "email": "marc.schneider@med.uni-heidelberg.de"
+                        },
+                        {
+                            "name": "Petros Christopoulos, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 49.40768,
+                        "lon": 8.69079
+                    }
+                },
+                {
+                    "facility": "Haemek Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Afula",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Mahmud Abu-Amana, MD",
+                            "role": "CONTACT",
+                            "phone": "972-4-6495686",
+                            "email": "mahmud_ab@clalit.org.il"
+                        },
+                        {
+                            "name": "Mahmud Abu-Amana, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Gil Bar-Sela, Prof.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Kamel Mahmid, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Olga Vornicova, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.60907,
+                        "lon": 35.2892
+                    }
+                },
+                {
+                    "facility": "Barzilai Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Ashkelon",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Tatiana Charkovsky, MD",
+                            "role": "CONTACT",
+                            "phone": "972-8-6745378",
+                            "email": "tatianah@bmc.gov.il"
+                        },
+                        {
+                            "name": "Tatiana Charkovsky, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Moshe Schaffer, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.66926,
+                        "lon": 34.57149
+                    }
+                },
+                {
+                    "facility": "Soroka Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Be'er Sheva",
+                    "country": "Israel",
+                    "geoPoint": {
+                        "lat": 31.25181,
+                        "lon": 34.7913
+                    }
+                },
+                {
+                    "facility": "Shamir Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Be'er Ya'aqov",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Raya Leibowitz-Amit, MD",
+                            "role": "CONTACT",
+                            "phone": "972-8-9779715",
+                            "email": "rayal@shamir.gov.il"
+                        },
+                        {
+                            "name": "Raya Leibowitz-Amit, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Nirit Yarom, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Tatiana Nisimov, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Svetlana Kovel, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Adi Rasco, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.93864,
+                        "lon": 34.83749
+                    }
+                },
+                {
+                    "facility": "Bnai Zion Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Haifa",
+                    "country": "Israel",
+                    "geoPoint": {
+                        "lat": 32.81841,
+                        "lon": 34.9885
+                    }
+                },
+                {
+                    "facility": "Rambam Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Haifa",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Alona Zer, MD",
+                            "role": "CONTACT",
+                            "email": "a_zerkuch@rambam.health.gov.il"
+                        },
+                        {
+                            "name": "Mira Wollner, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Talia Shentzer, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.81841,
+                        "lon": 34.9885
+                    }
+                },
+                {
+                    "facility": "Hadassah Medcial Center",
+                    "status": "RECRUITING",
+                    "city": "Jerusalem",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Michal Lotem, Prof.",
+                            "role": "CONTACT",
+                            "phone": "972-2677-6781",
+                            "email": "mlotem@hadassah.org.il"
+                        },
+                        {
+                            "name": "Michal Lotem, Prof.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Hovav Hovav Nechushtan, Prof.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jonathan Cohen, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yakir Rottenberg, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Avner Mordechay, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.76904,
+                        "lon": 35.21633
+                    }
+                },
+                {
+                    "facility": "Meir medical center",
+                    "status": "RECRUITING",
+                    "city": "Kfar Saba",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Maya Gottfried, MD",
+                            "role": "CONTACT",
+                            "phone": "972-9747-2414",
+                            "email": "Maya.Gottfried@clalit.org.il"
+                        },
+                        {
+                            "name": "Maya Gottfried, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Natalie Maimon-Rabinovich, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Moshe Mishaly, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.175,
+                        "lon": 34.90694
+                    }
+                },
+                {
+                    "facility": "Rabin Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Petah tikva",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Mor Moskovitz, MD",
+                            "role": "CONTACT",
+                            "email": "mormos1@clalit.org.il"
+                        },
+                        {
+                            "name": "Hendler Daniel, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Mor Moskovitz, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.08707,
+                        "lon": 34.88747
+                    }
+                },
+                {
+                    "facility": "Kaplan Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Re\u1e96ovot",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Rivka Katsenelson, MD",
+                            "role": "CONTACT",
+                            "phone": "972-89441087",
+                            "email": "Rivka_K@clalit.org.il"
+                        },
+                        {
+                            "name": "Rivka Katsenelson, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.89421,
+                        "lon": 34.81199
+                    }
+                },
+                {
+                    "facility": "Assuta Medical Cetner",
+                    "status": "RECRUITING",
+                    "city": "Tel Aviv",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Elizabeta Dudnik, MD",
+                            "role": "CONTACT",
+                            "phone": "972-3-7896541",
+                            "email": "elizabethd@assuta.co.il"
+                        },
+                        {
+                            "name": "Elizabeta Dudnik, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.08088,
+                        "lon": 34.78057
+                    }
+                },
+                {
+                    "facility": "Sheba Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Tel Aviv",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Ronnie Shapira, MD",
+                            "role": "CONTACT",
+                            "email": "Ronnie.Shapira@sheba.health.gov.il"
+                        },
+                        {
+                            "name": "Ronnie Shapira, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.08088,
+                        "lon": 34.78057
+                    }
+                },
+                {
+                    "facility": "Sourasky Medical Center",
+                    "status": "COMPLETED",
+                    "city": "Tel Aviv",
+                    "country": "Israel",
+                    "geoPoint": {
+                        "lat": 32.08088,
+                        "lon": 34.78057
+                    }
+                },
+                {
+                    "facility": "Sheba medical center",
+                    "status": "RECRUITING",
+                    "city": "Tel HaShomer",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Jair Bar, MD",
+                            "role": "CONTACT",
+                            "phone": "972-3530-7096",
+                            "email": "Yair.Bar@sheba.health.gov.il"
+                        },
+                        {
+                            "name": "Jair Bar, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Amir Onn, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Sameh Daher, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Akram Saad, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Shirley Grinberg, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ronen Shtoff, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Smadar Bauer, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Tamar Beller, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.04195,
+                        "lon": 34.85623
+                    }
+                },
+                {
+                    "facility": "044 Hospital Universitario Virgen Macarena",
+                    "status": "RECRUITING",
+                    "city": "Seville",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "David Vicente, MD",
+                            "role": "CONTACT",
+                            "email": "david.vicente.sspa@juntadeandalucia.es"
+                        },
+                        {
+                            "name": "David Vicente, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.38283,
+                        "lon": -5.97317
+                    }
+                },
+                {
+                    "facility": "Aberdeen Royal Infirmary",
+                    "status": "RECRUITING",
+                    "city": "Aberdeen",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Gillian Price, MD",
+                            "role": "CONTACT",
+                            "email": "gillian.price1@nhs.scot"
+                        },
+                        {
+                            "name": "Gillian Price, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 57.14369,
+                        "lon": -2.09814
+                    }
+                },
+                {
+                    "facility": "Royal Bournemouth General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Bournemouth",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Tom Geldart, MD",
+                            "role": "CONTACT",
+                            "email": "Tom.Geldart@uhd.nhs.uk"
+                        },
+                        {
+                            "name": "Tom Geldart, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 50.72048,
+                        "lon": -1.8795
+                    }
+                },
+                {
+                    "facility": "Bradford Teaching Hospitals",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Bradford",
+                    "zip": "BD9 6RJ",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Andrew Conn, MD",
+                            "role": "CONTACT",
+                            "email": "Andrew.Conn@bthft.nhs.uk"
+                        },
+                        {
+                            "name": "Andrew Conn, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 53.79391,
+                        "lon": -1.75206
+                    }
+                },
+                {
+                    "facility": "Cheltenham General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Cheltenham",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "David Farrugia, MD",
+                            "role": "CONTACT",
+                            "email": "davidfarrugia@nhs.net"
+                        },
+                        {
+                            "name": "David Farrugia, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.90006,
+                        "lon": -2.07972
+                    }
+                },
+                {
+                    "facility": "Withybush Hospital",
+                    "status": "RECRUITING",
+                    "city": "Haverfordwest",
+                    "zip": "SA61 2PZ",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Alison Brewster, MD",
+                            "role": "CONTACT",
+                            "email": "Alison.Brewster2@wales.nhs.uk"
+                        },
+                        {
+                            "name": "Alison Brewster, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.80169,
+                        "lon": -4.96914
+                    }
+                },
+                {
+                    "facility": "Mount Vernon Cancer Centre",
+                    "status": "RECRUITING",
+                    "city": "Northwood",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Andreas Polychronis, MD",
+                            "role": "CONTACT",
+                            "email": "andreas.polychronis@nhs.net"
+                        },
+                        {
+                            "name": "Andreas Polychronis, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ]
+                },
+                {
+                    "facility": "The Shrewsbury and Telford Hospital",
+                    "status": "RECRUITING",
+                    "city": "Shrewsbury",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Anirban Chatterjee, MD",
+                            "role": "CONTACT",
+                            "email": "anirban.chatterjee1@nhs.net"
+                        },
+                        {
+                            "name": "Anirban Chatterjee, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 52.71009,
+                        "lon": -2.75208
+                    }
+                },
+                {
+                    "facility": "South Tyneside",
+                    "status": "RECRUITING",
+                    "city": "South Shields",
+                    "zip": "NE34 0PL",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Adam Hassani, MD",
+                            "role": "CONTACT",
+                            "email": "adam.hassani@nhs.net"
+                        },
+                        {
+                            "name": "Adam Hassani, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 54.99859,
+                        "lon": -1.4323
+                    }
+                },
+                {
+                    "facility": "Lister Hospital",
+                    "status": "RECRUITING",
+                    "city": "Stevenage",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Andreas Polychronis, MD",
+                            "role": "CONTACT",
+                            "email": "andreas.polychronis@nhs.net"
+                        },
+                        {
+                            "name": "Andreas Polychronis, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.90224,
+                        "lon": -0.20256
+                    }
+                },
+                {
+                    "facility": "Sunderland Royal Hospital",
+                    "status": "RECRUITING",
+                    "city": "Sunderland",
+                    "zip": "SR4 7TP",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Adam Hassani, MD",
+                            "role": "CONTACT",
+                            "email": "adam.hassani@nhs.net"
+                        },
+                        {
+                            "name": "Adam Hassani, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 54.90465,
+                        "lon": -1.38222
+                    }
+                },
+                {
+                    "facility": "Swansea Bay UHB Singleton Hospital",
+                    "status": "RECRUITING",
+                    "city": "Swansea",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Helen Cheley",
+                            "role": "CONTACT",
+                            "email": "Helen.Cheley@wales.nhs.uk"
+                        },
+                        {
+                            "name": "Helen Cheley",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.62079,
+                        "lon": -3.94323
+                    }
+                },
+                {
+                    "facility": "Torbay Hospital",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Torquay",
+                    "country": "United Kingdom",
+                    "contacts": [
+                        {
+                            "name": "Louise Medley, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Louise Medley, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 50.46198,
+                        "lon": -3.5252
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "27118493",
+                    "type": "BACKGROUND",
+                    "citation": "Shaked Y. Balancing efficacy of and host immune responses to cancer therapy: the yin and yang effects. Nat Rev Clin Oncol. 2016 Oct;13(10):611-26. doi: 10.1038/nrclinonc.2016.57. Epub 2016 Apr 26."
+                },
+                {
+                    "pmid": "17671170",
+                    "type": "BACKGROUND",
+                    "citation": "Shaked Y, Kerbel RS. Antiangiogenic strategies on defense: on the possibility of blocking rebounds by the tumor vasculature after chemotherapy. Cancer Res. 2007 Aug 1;67(15):7055-8. doi: 10.1158/0008-5472.CAN-07-0905."
+                },
+                {
+                    "pmid": "16305351",
+                    "type": "BACKGROUND",
+                    "citation": "Shaked Y, Bocci G, Munoz R, Man S, Ebos JM, Hicklin DJ, Bertolini F, D'Amato R, Kerbel RS. Cellular and molecular surrogate markers to monitor targeted and non-targeted antiangiogenic drug activity and determine optimal biologic dose. Curr Cancer Drug Targets. 2005 Nov;5(7):551-9. doi: 10.2174/156800905774574020."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000008545",
+                    "term": "Melanoma"
+                },
+                {
+                    "id": "D000055752",
+                    "term": "Small Cell Lung Carcinoma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                },
+                {
+                    "id": "D000018358",
+                    "term": "Neuroendocrine Tumors"
+                },
+                {
+                    "id": "D000017599",
+                    "term": "Neuroectodermal Tumors"
+                },
+                {
+                    "id": "D000009373",
+                    "term": "Neoplasms, Germ Cell and Embryonal"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009380",
+                    "term": "Neoplasms, Nerve Tissue"
+                },
+                {
+                    "id": "D000018326",
+                    "term": "Nevi and Melanomas"
+                },
+                {
+                    "id": "D000012878",
+                    "term": "Skin Neoplasms"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28323",
+                    "name": "Small Cell Lung Carcinoma",
+                    "asFound": "Small Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11528",
+                    "name": "Melanoma",
+                    "asFound": "Malignant Melanoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20495",
+                    "name": "Neuroendocrine Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19845",
+                    "name": "Neuroectodermal Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20388",
+                    "name": "Neuroectodermal Tumors, Primitive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12318",
+                    "name": "Neoplasms, Germ Cell and Embryonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12325",
+                    "name": "Neoplasms, Nerve Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12448",
+                    "name": "Nevus, Pigmented",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12446",
+                    "name": "Nevus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20470",
+                    "name": "Nevi and Melanomas",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15681",
+                    "name": "Skin Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5271",
+                    "name": "Small Cell Lung Cancer",
+                    "asFound": "Small Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T4091",
+                    "name": "Neuroendocrine Tumor",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4092",
+                    "name": "Neuroepithelioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M2853",
+                    "name": "Immunomodulating Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

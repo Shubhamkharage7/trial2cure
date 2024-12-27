@@ -1,0 +1,554 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05359965",
+            "orgStudyIdInfo": {
+                "id": "IIS2018-10747"
+            },
+            "organization": {
+                "fullName": "University of Arizona",
+                "class": "OTHER"
+            },
+            "briefTitle": "Effect of CPAP on Abnormal Gastroesophageal Reflux and Lung Inflammation in IPF",
+            "officialTitle": "Effect of Continuous Positive Airway Pressure (CPAP) on Abnormal Gastroesophageal Reflux and Lung Inflammation in Idiopathic Pulmonary Fibrosis (IPF)",
+            "therapeuticArea": [
+                "Respiratory",
+                "Other"
+            ],
+            "study": "effect-of-cpap-on-abnormal-gastroesophageal-reflux-and-lung-inflammation-in-ipf"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-10-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-21",
+            "studyFirstSubmitQcDate": "2022-04-28",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-04-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-04-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Arizona",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Boehringer Ingelheim",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will evaluate the effect of CPAP therapy on esophageal pH and lung inflammation in patients with idiopathic pulmonary fibrosis (IPF) and sleep apnea.",
+            "detailedDescription": "Participants in this study will have an overnight sleep study done while wearing a 24 hour pH monitor in the esophagus. If the participant has sleep apnea, he or she will be randomly assigned to receive either CPAP treatment or no CPAP treatment. After 4-8 weeks, the participant will have another overnight sleep study with 24 hour pH monitoring. Blood will also be collected at both time points and again after 6 months to measure biomarkers that are related to lung inflammation."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Idiopathic Pulmonary Fibrosis",
+                "Obstructive Sleep Apnea",
+                "Gastro Esophageal Reflux"
+            ],
+            "keywords": [
+                "IPF",
+                "OSA",
+                "GERD"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Subjects will be assigned to treatment groups using a 1:1 randomized block design via the randomization module in REDCap. The PI and study coordinator will be blinded to next assignment.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "maskingDescription": "Study investigators and care providers will be blinded and not involved in any CPAP or no CPAP related set-up, instruction, or device troubleshooting during the course the treatment phase. Lab personnel performing biomarker analysis will only have access to subject study ID and not treatment group assignments.",
+                    "whoMasked": [
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "CPAP",
+                    "type": "EXPERIMENTAL",
+                    "description": "Subjects randomized to the treatment arm, will receive continuous positive airway pressure (CPAP) while sleeping via an autoPAP device for 4-8 weeks.",
+                    "interventionNames": [
+                        "Device: Positive Airway Pressure"
+                    ]
+                },
+                {
+                    "label": "No CPAP",
+                    "type": "NO_INTERVENTION",
+                    "description": "Subjects assigned to the no CPAP group will not have any intervention for a 4-8 week period."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Positive Airway Pressure",
+                    "description": "Gentle and steady pressure (with or without supplemental oxygen) delivered to the airways of the lungs while subjects are sleeping.",
+                    "armGroupLabels": [
+                        "CPAP"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Composite Biomarker Score",
+                    "description": "The primary outcome will be a composite value that is a weighted average of z-scores of the biomarkers MMP1, MMP7, IL-8, KL-6, and CXCL13, weighted by the univariate effect sizes of each biomarker. MMP1, MMP7, IL-8, KL-6, and CXCL13 will be measured using enzyme linked immunosorbent assays (ELISA) for these analytes. (Z-score is a unitless number, as is the weighted average.)",
+                    "timeFrame": "4-8 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Biomarker of Lung Inflammation: KL-6",
+                    "description": "The value of KL-6 measured by ELISA in U/ml.",
+                    "timeFrame": "4-8 weeks"
+                },
+                {
+                    "measure": "Biomarker of Lung Inflammation: MMP1",
+                    "description": "The value of MMP1 measured by ELISA in ng/ml.",
+                    "timeFrame": "4-8 weeks"
+                },
+                {
+                    "measure": "Biomarker of Lung Inflammation: MMP7",
+                    "description": "The value of MMP7 measured by ELISA in ng/ml.",
+                    "timeFrame": "4-8 weeks"
+                },
+                {
+                    "measure": "Biomarker of Lung Inflammation: IL-8",
+                    "description": "The value of IL-8 measured by ELISA in pg/ml.",
+                    "timeFrame": "4-8 weeks"
+                },
+                {
+                    "measure": "Biomarker of Lung Inflammation: CXCL13",
+                    "description": "The value of CXCL-13 measured by ELISA in pg/ml.",
+                    "timeFrame": "4-8 weeks"
+                },
+                {
+                    "measure": "Esophageal pH During Sleep",
+                    "description": "Total sleep time (in minutes) with pH less than 4.",
+                    "timeFrame": "4-8 weeks"
+                },
+                {
+                    "measure": "24hr-Esophageal pH",
+                    "description": "Total time (minutes in 24hr period) with pH less than 4.",
+                    "timeFrame": "4-8 weeks"
+                },
+                {
+                    "measure": "FVC change",
+                    "description": "FVC change in percentage of predicted values over 6 months (baseline to 6 months).",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Composite Biomarker Score at Six Months",
+                    "description": "Weighted average of z-scores of the biomarkers MMP1, MMP7, IL8, KL-6, and CXCL13, weighted by the univariate effect sizes of each biomarker at six months. (Z-score is a unitless number, as is the weighted average.)",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* confirmed diagnosis of IPF based on the 2018 IPF guidelines\n* high likelihood of OSA based on the STOP-BANG measure, with a score of 3 or greater\n* patients on nintedanib, or in whom nintedanib will be initiated prior to enrollment in the study\n* able to participated in 24hr pH monitoring\n* able to comply with CPAP treatment\n* able to provide written informed consent prior to any study procedures\n* willing to complete all study measurements and assessments in compliance with the protocol\n\nExclusion Criteria:\n\n* interstitial lung disease caused by conditions other than IPF\n* severe concomitant illness limiting life expectancy (\\< 1 year)\n* residual lung volume \\> or equal to 120% of predicted\n* obstructive lung disease: FEV1/FVC ratio \\< 0.70\n* current drug or alcohol dependence\n* patients who are unable to tolerate nintedanib\n* patients who are unable to use CPAP or are unwilling to participate in the 24 hr pH probe placement\n* patients who were diagnosed with recent IPF exacerbation within 4 weeks of enrollment (may be rescheduled for enrollment once recovered)\n* patients who have had prior nasal surgery or trauma that would make pH probe placement difficult\n* patients on anticoagulation (aspirin is not an exclusion)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "50 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sachin Chaudhary, MD",
+                    "role": "CONTACT",
+                    "phone": "520-621-4368",
+                    "email": "sachin@deptofmed.arizona.edu"
+                },
+                {
+                    "name": "Sairam Parthasarathy, MD",
+                    "role": "CONTACT",
+                    "phone": "520-626-8309",
+                    "email": "sparthasarathy@deptofmed.arizona.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Sachin Chaudhary, MD",
+                    "affiliation": "University of Arizona",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Arizona",
+                    "status": "RECRUITING",
+                    "city": "Tucson",
+                    "state": "Arizona",
+                    "zip": "85724",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Heidi Erickson, RN",
+                            "role": "CONTACT",
+                            "phone": "520-626-5287",
+                            "email": "herickso@email.arizona.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.22174,
+                        "lon": -110.92648
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000005764",
+                    "term": "Gastroesophageal Reflux"
+                },
+                {
+                    "id": "D000020181",
+                    "term": "Sleep Apnea, Obstructive"
+                },
+                {
+                    "id": "D000011658",
+                    "term": "Pulmonary Fibrosis"
+                },
+                {
+                    "id": "D000054990",
+                    "term": "Idiopathic Pulmonary Fibrosis"
+                },
+                {
+                    "id": "D000007249",
+                    "term": "Inflammation"
+                },
+                {
+                    "id": "D000005355",
+                    "term": "Fibrosis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000012891",
+                    "term": "Sleep Apnea Syndromes"
+                },
+                {
+                    "id": "D000001049",
+                    "term": "Apnea"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000020919",
+                    "term": "Sleep Disorders, Intrinsic"
+                },
+                {
+                    "id": "D000020920",
+                    "term": "Dyssomnias"
+                },
+                {
+                    "id": "D000012893",
+                    "term": "Sleep Wake Disorders"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000015154",
+                    "term": "Esophageal Motility Disorders"
+                },
+                {
+                    "id": "D000003680",
+                    "term": "Deglutition Disorders"
+                },
+                {
+                    "id": "D000004935",
+                    "term": "Esophageal Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000017563",
+                    "term": "Lung Diseases, Interstitial"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14512",
+                    "name": "Pulmonary Fibrosis",
+                    "asFound": "Pulmonary Fibrosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8485",
+                    "name": "Fibrosis",
+                    "asFound": "Fibrosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8880",
+                    "name": "Gastroesophageal Reflux",
+                    "asFound": "Gastro Esophageal Reflux",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "asFound": "Inflammation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22010",
+                    "name": "Sleep Apnea, Obstructive",
+                    "asFound": "Obstructive Sleep Apnea",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4361",
+                    "name": "Apnea",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15694",
+                    "name": "Sleep Apnea Syndromes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "asFound": "Lung Inflammation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27989",
+                    "name": "Idiopathic Pulmonary Fibrosis",
+                    "asFound": "Idiopathic Pulmonary Fibrosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22242",
+                    "name": "Parasomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22654",
+                    "name": "Sleep Disorders, Intrinsic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22655",
+                    "name": "Dyssomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15696",
+                    "name": "Sleep Wake Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17874",
+                    "name": "Esophageal Motility Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17875",
+                    "name": "Esophageal Spasm, Diffuse",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6882",
+                    "name": "Deglutition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8085",
+                    "name": "Esophageal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19813",
+                    "name": "Lung Diseases, Interstitial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3003",
+                    "name": "Idiopathic Pulmonary Fibrosis",
+                    "asFound": "Idiopathic Pulmonary Fibrosis",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

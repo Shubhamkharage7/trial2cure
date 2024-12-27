@@ -1,0 +1,396 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05640271",
+            "orgStudyIdInfo": {
+                "id": "IRB22-0277"
+            },
+            "organization": {
+                "fullName": "University of Chicago",
+                "class": "OTHER"
+            },
+            "briefTitle": "Tocilizumab for Acute Chest Syndrome",
+            "officialTitle": "Low-Dose Tocilizumab for Acute Chest Syndrome in Sickle Cell Disease",
+            "therapeuticArea": [
+                "Rare Diseases",
+                "Other"
+            ],
+            "study": "tocilizumab-for-acute-chest-syndrome"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-04-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-04",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-11-28",
+            "studyFirstSubmitQcDate": "2022-11-28",
+            "studyFirstPostDateStruct": {
+                "date": "2022-12-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Chicago",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The investigators are evaluating the role of a low dose of tocilizumab in treating acute chest syndrome in patients with sickle cell disease. Tocilizumab inhibits interleukin-6 (IL-6) receptors and is used to treat rheumatoid arthritis and severe cytokine release syndrome, which can be seen with chimeric antigen receptor T-cell (CAR-T) therapy, and it is also authorized for treatment of COVID-19. Since IL-6 levels are elevated in the sputum of patients with acute chest syndrome, the investigators are hopeful that this will be an effective strategy. The investigators will be looking at how a low dose of tocilizumab affects oxygen status, clinical outcomes, and laboratory markers in patients admitted to the hospital with acute chest syndrome.",
+            "detailedDescription": "In this randomized, placebo-controlled, double-blinded phase II study, enrolled patients admitted to the University of Chicago who are diagnosed with acute chest syndrome will receive one dose of tocilizumab 80 mg IV and one normal saline placebo dose. The order of these doses will be randomized at a 1:1 ratio. After collecting oxygenation data as a baseline for 8 hours, patients will then receive tocilizumab versus placebo as their early dose and then the opposite (placebo versus tocilizumab) 48 hours later. Clinical, laboratory, and patient-reported outcome data will be collected during their admission and compared between arms."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sickle Cell Disease",
+                "Acute Chest Syndrome"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "All participants will receive tocilizumab 80 mg on one day and placebo (normal saline 50 mL) on another day, separated by 48 hours, and the order of these two doses will be randomized. Half the patients will receive tocilizumab at the time of acute chest syndrome diagnosis and subsequent randomization, and then that half will receive placebo two days later. The other half will receive placebo first and then tocilizumab two days later.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "QUADRUPLE",
+                    "maskingDescription": "The study statistician will generate randomizations using the method of permuted block randomization. The pharmacy will access the prepared randomization list via REDCap (a module separate from the clinical REDCap database) to guide tocilizumab versus placebo administration at the time of placing an inpatient order. Prior to randomization, the SpO2 to FiO2 ratio will be determined over an 8-hour period to serve as a baseline measure. Thus, randomization will be done at the time of placing the initial order for inpatient tocilizumab versus placebo, not at the time of enrollment. Patients, study investigators, and inpatient clinicians will all be blinded to the patient's randomized group assignment. Only the investigational pharmacy will be aware of the randomization arm.",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Early Tocilizumab",
+                    "type": "EXPERIMENTAL",
+                    "description": "This arm will receive tocilizumab 80 mg at the time of acute chest syndrome diagnosis and subsequent randomization. Then, two days later, they will receive 50 mL of normal saline.",
+                    "interventionNames": [
+                        "Drug: Tocilizumab"
+                    ]
+                },
+                {
+                    "label": "Delayed Tocilizumab",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "This arm will receive 50 mL of normal saline at the time of acute chest syndrome diagnosis and subsequent randomization. Then, two days later, they will receive tocilizumab 80 mg. Thus, this delayed arm will serve as a placebo comparator for the first 48 hours and then as an active comparator for the remaining duration on study.",
+                    "interventionNames": [
+                        "Drug: Tocilizumab"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Tocilizumab",
+                    "description": "Tocilizumab 80 mg IV dose (one time per patient)",
+                    "armGroupLabels": [
+                        "Delayed Tocilizumab",
+                        "Early Tocilizumab"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Time-weighted SaO2/FiO2 ratio",
+                    "description": "Oxygenation data will be obtained as part of routine clinical care. All changes in pulse oximetry measurement that are documented in the chart will be recorded in an oxygen saturation case report form with the date and time from Day 0 to Day 4. These peripheral oxygen saturation (SpO2) measurements will serve as surrogates for SaO2. Additionally, all changes in the route of supplemental oxygen delivery, rate of supplemental oxygen delivery, and fraction of inspired oxygen (FiO2) will be recorded in a corresponding case report form with the date and time from Day 0 to Day 4. The time-weighted SaO2/FiO2 ratio, our primary endpoint, will be calculated based on these two case report forms.",
+                    "timeFrame": "Total of 4 days (Day 0 to Day 4)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Red cell exchange transfusion rate",
+                    "description": "As part of routine clinical care by the inpatient team, patients may receive a red cell exchange transfusion. The study team will assess if participants received any exchange transfusions from Day 0 to Day 8, and if so, they will record the date of the first exchange transfusion and the total number of units transfused during that time period.",
+                    "timeFrame": "Total of 9 days (Day 0 to Day 8)"
+                },
+                {
+                    "measure": "Intensive Care Unit (ICU) transfer rate",
+                    "description": "Patients will be assessed for if they were admitted directly to the intensive care unit (ICU) or if they were transferred from the general medicine floor to the ICU between Day 0 and Day 8. The date of transfer to the ICU will be recorded if applicable.",
+                    "timeFrame": "Total of 9 days (Day 0 to Day 8)"
+                },
+                {
+                    "measure": "Length of stay",
+                    "description": "Patients will be assessed for their admission and discharge dates. Length of stay will be calculated based on those two dates.",
+                    "timeFrame": "Up to 3 months (Admission Date to Discharge Date)"
+                },
+                {
+                    "measure": "Readmission rate",
+                    "description": "Patients will be assessed for readmission for 28 days from discharge. Readmission will be assessed at the University of Chicago as well as through any linked hospitals through Care Everywhere within the electronic medical record system. The date of readmission will be recorded if applicable.",
+                    "timeFrame": "Total of 29 days (Discharge Date to 28 days after discharge)"
+                },
+                {
+                    "measure": "Mortality rate",
+                    "description": "Patients will be assessed for mortality from Day 0 to Day 28. The date of death will be recorded if applicable.",
+                    "timeFrame": "Total of 29 days (Day 0 to Day 28)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults \u2265 18 years of age\n* Prior diagnosis of sickle cell disease (Hb SS, Hb SC, Hb Sb+, and Hb Sb0)\n\nExclusion Criteria:\n\n* Pregnant patients or breastfeeding mothers.\n* On active therapy with a Bruton's tyrosine kinase-targeted agent, which include the following:\n\nAcalabrutinib Ibrutinib Zanubrutinib\n\n* On active therapy with a JAK2-targeted agent, which include the following:\n\nBaricitinib Ruxolitinib Tofacitinib Upadacitinib\n\n* Any of the following biologic immunosuppressive agent (and any biosimilar versions thereof) administered in the past 6 months:\n\nAbatacept Adalimumab Alemtuzumab Atezolizumab Belimumab Blinatumomab Brentuximab Certolizumab Daratumumab Durvalumab Eculizumab Elotuzumab Etanercept Gemtuzumab Golimumab Ibritumomab Infliximab Inotuzumab Ipilimumab Ixekizumab Moxetumomab Nivolumab Obinutuzumab Ocrelizumab Ofatumumab Pembrolizumab Polatuzumab Rituximab Sarilumab Secukinumab Tocilizumab Tositumumab Tremelimumab Urelumab Ustekinumab",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Austin Wesevich, MD",
+                    "role": "CONTACT",
+                    "phone": "773-834-6732",
+                    "email": "austin.wesevich@uchicagomedicine.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Austin Wesevich, MD",
+                    "affiliation": "University of Chicago",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Chicago",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60637",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Austin Wesevich, MD",
+                            "role": "CONTACT",
+                            "phone": "773-834-6732",
+                            "email": "austin.wesevich@uchicagomedicine.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000056586",
+                    "term": "Acute Chest Syndrome"
+                },
+                {
+                    "id": "D000000755",
+                    "term": "Anemia, Sickle Cell"
+                },
+                {
+                    "id": "D000013577",
+                    "term": "Syndrome"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004194",
+                    "term": "Disease"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000000745",
+                    "term": "Anemia, Hemolytic, Congenital"
+                },
+                {
+                    "id": "D000000743",
+                    "term": "Anemia, Hemolytic"
+                },
+                {
+                    "id": "D000000740",
+                    "term": "Anemia"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000006453",
+                    "term": "Hemoglobinopathies"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "asFound": "Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4085",
+                    "name": "Anemia, Sickle Cell",
+                    "asFound": "Sickle Cell Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28515",
+                    "name": "Acute Chest Syndrome",
+                    "asFound": "Acute Chest Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4070",
+                    "name": "Anemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9547",
+                    "name": "Hemolysis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4073",
+                    "name": "Anemia, Hemolytic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4075",
+                    "name": "Anemia, Hemolytic, Congenital",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9539",
+                    "name": "Hemoglobinopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5229",
+                    "name": "Sickle Cell Anemia",
+                    "asFound": "Sickle Cell Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

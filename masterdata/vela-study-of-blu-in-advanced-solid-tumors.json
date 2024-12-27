@@ -1,0 +1,968 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05252416",
+            "orgStudyIdInfo": {
+                "id": "BLU-222-1101"
+            },
+            "organization": {
+                "fullName": "Blueprint Medicines Corporation",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "(VELA) Study of BLU-222 in Advanced Solid Tumors",
+            "officialTitle": "A Phase 1/2 Study to Evaluate the Safety, Pharmacokinetics, and Efficacy of BLU-222 as a Single Agent and in Combination Therapy for Patients With Advanced Solid Tumors",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "vela-study-of-blu-in-advanced-solid-tumors"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-04-07",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-11-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-09-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-01-25",
+            "studyFirstSubmitQcDate": "2022-02-11",
+            "studyFirstPostDateStruct": {
+                "date": "2022-02-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-23",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Blueprint Medicines Corporation",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a Phase 1/2, open-label, first-in-human (FIH) study designed to evaluate the safety, tolerability, pharmacokinetics (PK), pharmacodynamics (PD), and anticancer activity of BLU-222, a selective inhibitor of CDK2."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Advanced Solid Tumors",
+                "HR+ Breast Cancer",
+                "CCNE1 Amplification",
+                "HER2-negative Breast Cancer",
+                "Ovarian Cancer",
+                "Endometrial Cancer",
+                "Gastric Cancer",
+                "Esophageal Adenocarcinoma",
+                "Carcinosarcoma"
+            ],
+            "keywords": [
+                "CDK2",
+                "CCNE1",
+                "Platinum-resistance",
+                "Platinum-refractory",
+                "CDK4/6i",
+                "Ribociclib",
+                "Carboplatin",
+                "Fulvestrant",
+                "ER+ Breast Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 366,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "BLU-222 Monotherapy",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose Escalation: Multiple doses for BLU-222 for oral administration Dose Expansion: Oral dose of BLU-222 as determined during Dose Escalation",
+                    "interventionNames": [
+                        "Drug: BLU-222"
+                    ]
+                },
+                {
+                    "label": "BLU-222 + Carboplatin",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose Escalation: Multiple doses for BLU-222 for oral administration at doses deemed appropriate based on BLU-222 Monotherapy arm and multiple doses of Carboplatin at the approved dose.\n\nDose Expansion: Oral dose of BLU-222 as determined during Dose Escalation and Carboplatin IV infusion at approved dose",
+                    "interventionNames": [
+                        "Drug: BLU-222",
+                        "Drug: Carboplatin"
+                    ]
+                },
+                {
+                    "label": "BLU-222 + Ribociclib + Fulvestrant",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose Escalation: Multiple doses for BLU-222 for oral administration at doses deemed appropriate based on BLU-222 Monotherapy arm along with Ribociclib and Fulvestrant at the approved doses.\n\nDose Expansion: Oral dose of BLU-222 as determined during dose escalation and approved doses of Ribociclib and Fulvestrant",
+                    "interventionNames": [
+                        "Drug: BLU-222",
+                        "Drug: Ribociclib",
+                        "Drug: Fulvestrant"
+                    ]
+                },
+                {
+                    "label": "BLU-222 + Fulvestrant",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose Expansion: Oral dose of BLU-222 as determined during Dose Escalation + fulvestrant at the approved dose",
+                    "interventionNames": [
+                        "Drug: BLU-222",
+                        "Drug: Fulvestrant"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "BLU-222",
+                    "description": "Oral administration",
+                    "armGroupLabels": [
+                        "BLU-222 + Carboplatin",
+                        "BLU-222 + Fulvestrant",
+                        "BLU-222 + Ribociclib + Fulvestrant",
+                        "BLU-222 Monotherapy"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Carboplatin",
+                    "description": "IV Infusion",
+                    "armGroupLabels": [
+                        "BLU-222 + Carboplatin"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Ribociclib",
+                    "description": "Oral administration",
+                    "armGroupLabels": [
+                        "BLU-222 + Ribociclib + Fulvestrant"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Fulvestrant",
+                    "description": "Intra muscular administration",
+                    "armGroupLabels": [
+                        "BLU-222 + Fulvestrant",
+                        "BLU-222 + Ribociclib + Fulvestrant"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "[Phase 1] Determine the maximum tolerated dose (MTD) of BLU-222",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Determine the recommended Phase 2 dose (RP2D) of BLU-222",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Rate and severity of adverse events",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 2] Overall response rate (ORR)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 2] Rate and severity of adverse events",
+                    "timeFrame": "Approximately 43 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "[Phase 1] Overall response rate (ORR)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Time of last quantifiable plasma drug concentration (Tlast)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Area under the plasma concentration time curve from time 0 to 12 hours (AUC0-12)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Area under the plasma concentration time curve from time 0 to 24 hours (AUC0-24)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Trough concentration (Ctrough)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Apparent volume of distribution (Vz/F)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Terminal elimination half-life (t\u00bd)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Apparent oral clearance(CL/F)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] Accumulation ratio (R)",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1] To assess treatment-induced modulation of biomarkers",
+                    "timeFrame": "Approximately 21 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Duration of Response (DOR)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Disease control rate (DCR)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Clinical benefit rate (CBR)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Progression free survival (PFS)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Change in CA-125 levels",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Maximum plasma drug concentration (Cmax)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Time to maximum plasma drug concentration (Tmax)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Last measurable concentration (Clast)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 1 and Phase 2] Area under the concentration-time curve from time 0 to the time of the last measured concentration AUC(0-last)",
+                    "timeFrame": "Approximately 43 months"
+                },
+                {
+                    "measure": "[Phase 2] Overall survival (OS)",
+                    "timeFrame": "Approximately 43 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Advanced solid tumors that has progressed beyond standard of care OR\n2. HR+ HER2- BC that has progressed following treatment with a CDK4/6 inhibitor OR\n3. Endometrial and gastric cancer that has progressed after at least 2 prior therapies (including one prior platinum therapy) OR\n4. Platinum refractory or platinum resistant ovarian cancer CCNE1 amplified tumors that have progressed beyond standard of care\n\nExclusion Criteria:\n\n1. Have visceral crisis, lymphangitic spread, or leptomeningeal carcinomatosis.\n2. Have received the following anticancer therapy:\n\n   a. Previous therapy with CDK2i, PKMYT1i, or WEE1i, except in Part 1A where up to 10 patients who previously received PKMYT1i, or WEE1 inhibitor will be permitted.\n3. Have central nervous system (CNS) metastases or spinal cord compression that is associated with progressive neurological symptoms or requires increasing doses of corticosteroids to control the CNS disease.\n4. Have known intracranial hemorrhage and/or bleeding diatheses.\n5. Have clinically active ongoing ILD of any etiology, including drug-induced ILD, and radiation pneumonitis within 28 days prior to initiation of study treatment.\n6. Have any unresolved toxicities from prior therapy greater than CTCAE Grade 1 or that have not resolved to baseline at the time of starting the study.\n7. Have mean resting QTcF \\> 450 msec in men or QTcF \\> 470 msec in women, a history of prolonged QT syndrome or Torsades de pointes, or a familial history of prolonged QT syndrome.\n8. Have clinically significant, uncontrolled, cardiovascular disease including congestive heart failure Grade III or IV according to the New York Heart Association classification; myocardial infarction or unstable angina within the previous 6 months, uncontrolled hypertension, or clinically significant, uncontrolled arrhythmias, including bradyarrhythmia that may cause QT prolongation (eg, Type II second degree heart block or third-degree heart block).\n9. Have a history of another primary malignancy other than completely resected carcinomas in situ) that has been diagnosed or required therapy within 2 years prior to initiation of study treatment.\n10. Have known active, uncontrolled infection (viral, bacterial, or fungal), including tuberculosis, hepatitis B virus (HBV), hepatitis C virus, AIDS-related illness, or COVID-19 infection (symptoms and a positive test result).\n11. Requires treatment with a prohibited medication or herbal remedy that cannot be discontinued at least 2 weeks before the start of study drug administration.\n12. Have planned major surgical procedure within 14 days of the first dose of study drug (procedures such as central venous catheter placement, tumor needle biopsy, and feeding tube placement are not considered major surgical procedures).\n13. Unwilling or unable to comply with scheduled visits, study drug administration plan, laboratory tests, or other study procedures and study restrictions.\n14. Patient is a woman who is not postmenopausal or surgically sterile, and is unwilling to abstain from sexual intercourse or employ highly effective contraception OR is a man who is not surgically sterile, and is unwilling to abstain from sexual intercourse or employ highly effective contraception\n15. Patient is a pregnant female",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Blueprint Medicines",
+                    "role": "CONTACT",
+                    "phone": "617-714-6707",
+                    "email": "medinfo@blueprintmedicines.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Arkansas for Medical Sciences",
+                    "status": "RECRUITING",
+                    "city": "Little Rock",
+                    "state": "Arkansas",
+                    "zip": "72205",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.74648,
+                        "lon": -92.28959
+                    }
+                },
+                {
+                    "facility": "UCSF Helen Diller Family Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94158",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                },
+                {
+                    "facility": "Stanford Women's Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94305",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                },
+                {
+                    "facility": "Florida Cancer Specialists",
+                    "status": "RECRUITING",
+                    "city": "Sarasota",
+                    "state": "Florida",
+                    "zip": "34232",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 27.33643,
+                        "lon": -82.53065
+                    }
+                },
+                {
+                    "facility": "University of Chicago Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60637",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Johns Hopkins Sidney Kimmel Comprehensive Cancer Center (SKCCC)",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21287",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02114",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Dana-Farber Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Henry Ford Health System",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48202",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Columbia University Herbert Irving Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Memorial Sloan Kettering Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10065",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Montefiore Medical Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10461",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "UNC Hospitals at Chapel Hill - The University of North Carolina at Chapel Hill",
+                    "status": "RECRUITING",
+                    "city": "Chapel Hill",
+                    "state": "North Carolina",
+                    "zip": "27514",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.9132,
+                        "lon": -79.05584
+                    }
+                },
+                {
+                    "facility": "OU Health Stephenson Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Oklahoma City",
+                    "state": "Oklahoma",
+                    "zip": "73104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.46756,
+                        "lon": -97.51643
+                    }
+                },
+                {
+                    "facility": "Hospital of the Fox Chase Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19111",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Vanderbilt Breast Center at One Hundred Oaks",
+                    "status": "RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37204",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "MD Anderson Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "University of Utah - Huntsman Cancer Institute - PPDS",
+                    "status": "RECRUITING",
+                    "city": "Salt Lake City",
+                    "state": "Utah",
+                    "zip": "84112",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.76078,
+                        "lon": -111.89105
+                    }
+                },
+                {
+                    "facility": "University of Virginia Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Charlottesville",
+                    "state": "Virginia",
+                    "zip": "22903",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.02931,
+                        "lon": -78.47668
+                    }
+                },
+                {
+                    "facility": "Fondazione IRCCS Istituto Nazionale dei Tumori",
+                    "status": "RECRUITING",
+                    "city": "Milano",
+                    "zip": "20133",
+                    "country": "Italy",
+                    "geoPoint": {
+                        "lat": 45.46427,
+                        "lon": 9.18951
+                    }
+                },
+                {
+                    "facility": "Instituto Europeo di Oncologia",
+                    "status": "RECRUITING",
+                    "city": "Milano",
+                    "zip": "20141",
+                    "country": "Italy",
+                    "geoPoint": {
+                        "lat": 45.46427,
+                        "lon": 9.18951
+                    }
+                },
+                {
+                    "facility": "Fondazione Policlinico Universitario A Gemelli-Rome",
+                    "status": "RECRUITING",
+                    "city": "Rome",
+                    "zip": "00168",
+                    "country": "Italy",
+                    "geoPoint": {
+                        "lat": 41.89193,
+                        "lon": 12.51133
+                    }
+                },
+                {
+                    "facility": "St Bartholomew's Hospital",
+                    "status": "RECRUITING",
+                    "city": "London",
+                    "state": "Middlesex",
+                    "zip": "EC1A 7BE",
+                    "country": "United Kingdom",
+                    "geoPoint": {
+                        "lat": 51.50853,
+                        "lon": -0.12574
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                },
+                {
+                    "id": "D000016889",
+                    "term": "Endometrial Neoplasms"
+                },
+                {
+                    "id": "D000002296",
+                    "term": "Carcinosarcoma"
+                },
+                {
+                    "id": "D000018200",
+                    "term": "Mixed Tumor, Mullerian"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000005831",
+                    "term": "Genital Diseases, Female"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000005833",
+                    "term": "Genital Neoplasms, Female"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000014594",
+                    "term": "Uterine Neoplasms"
+                },
+                {
+                    "id": "D000014591",
+                    "term": "Uterine Diseases"
+                },
+                {
+                    "id": "D000018193",
+                    "term": "Neoplasms, Complex and Mixed"
+                },
+                {
+                    "id": "D000012509",
+                    "term": "Sarcoma"
+                },
+                {
+                    "id": "D000018204",
+                    "term": "Neoplasms, Connective and Soft Tissue"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12974",
+                    "name": "Ovarian Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16064",
+                    "name": "Stomach Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1704",
+                    "name": "Carcinoma, Ovarian Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5552",
+                    "name": "Carcinosarcoma",
+                    "asFound": "Carcinosarcoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20346",
+                    "name": "Mixed Tumor, Mullerian",
+                    "asFound": "Carcinosarcoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19235",
+                    "name": "Endometrial Neoplasms",
+                    "asFound": "Endometrial Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11914",
+                    "name": "Adenoma, Pleomorphic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8943",
+                    "name": "Genital Diseases, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8945",
+                    "name": "Genital Neoplasms, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17342",
+                    "name": "Uterine Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17339",
+                    "name": "Uterine Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15327",
+                    "name": "Sarcoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20350",
+                    "name": "Neoplasms, Connective and Soft Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4352",
+                    "name": "Ovarian Cancer",
+                    "asFound": "Ovarian Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T5486",
+                    "name": "Stomach Cancer",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4354",
+                    "name": "Ovarian Epithelial Cancer",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3586",
+                    "name": "Malignant Mixed Mullerian Tumor",
+                    "asFound": "Carcinosarcoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T5284",
+                    "name": "Soft Tissue Sarcoma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000016190",
+                    "term": "Carboplatin"
+                },
+                {
+                    "id": "D000077267",
+                    "term": "Fulvestrant"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000018931",
+                    "term": "Antineoplastic Agents, Hormonal"
+                },
+                {
+                    "id": "D000065171",
+                    "term": "Estrogen Receptor Antagonists"
+                },
+                {
+                    "id": "D000004965",
+                    "term": "Estrogen Antagonists"
+                },
+                {
+                    "id": "D000006727",
+                    "term": "Hormone Antagonists"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18650",
+                    "name": "Carboplatin",
+                    "asFound": "System",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1723",
+                    "name": "Fulvestrant",
+                    "asFound": "Challenge",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20966",
+                    "name": "Antineoplastic Agents, Hormonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8116",
+                    "name": "Estrogens",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8114",
+                    "name": "Estrogen Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30483",
+                    "name": "Estrogen Receptor Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

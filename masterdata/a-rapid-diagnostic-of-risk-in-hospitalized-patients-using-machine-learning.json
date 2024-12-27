@@ -1,0 +1,579 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05893420",
+            "orgStudyIdInfo": {
+                "id": "1.0"
+            },
+            "organization": {
+                "fullName": "AgileMD, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "A Rapid Diagnostic of Risk in Hospitalized Patients Using Machine Learning",
+            "officialTitle": "A Rapid Diagnostic of Risk in Hospitalized Patients With COVID-19, Sepsis, and Other High-Risk Conditions to Improve Outcomes and Critical Resource Allocation Using Machine Learning",
+            "therapeuticArea": [
+                "Respiratory",
+                "Cardiovascular",
+                "Infectious Diseases",
+                "Other"
+            ],
+            "study": "a-rapid-diagnostic-of-risk-in-hospitalized-patients-using-machine-learning"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-12-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-24",
+            "studyFirstSubmitQcDate": "2023-06-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-06-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-06-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "AgileMD, Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Department of Health and Human Services",
+                    "class": "FED"
+                },
+                {
+                    "name": "University of Chicago",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "BayCare Health System",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "University of Wisconsin, Madison",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "In this study, the investigators will deploy a software-based clinical decision support tool (eCARTv5) into the electronic health record (EHR) workflow of multiple hospital wards. eCART's algorithm is designed to analyze real-time EHR data, such as vitals and laboratory results, to identify which patients are at increased risk for clinical deterioration. The algorithm specifically predicts imminent death or the need for intensive care unit (ICU) transfer. Within the eCART interface, clinical teams are then directed toward standardized guidance to determine next steps in care for elevated-risk patients.\n\nThe investigators hypothesize that implementing such a tool will be associated with a decrease in ventilator utilization, length of stay, and mortality for high-risk hospitalized adults.",
+            "detailedDescription": "The objective of this proposal is to rapidly deploy a clinical decision support tool (eCARTv5) within the electronic health record of multiple medical-surgical units. eCART combines a real-time machine learning algorithm for identifying patients at increased risk for intensive care (ICU) transfer and death with clinical pathways to standardize the care of these patients based on a real-time, quantitative assessment of patient risk.\n\nThe investigators hypothesize that implementing such a tool will be associated with a decrease in ventilator utilization, length of stay, and mortality for high-risk hospitalized adults.\n\nBackground:\n\nClinical deterioration occurs in approximately 5% of hospitalized adults. Delays in recognition of deterioration heighten the risk of adverse outcomes. Machine learning algorithms enhance clinical decision-making and can improve the quality of patient care. However, their impact on clinical outcomes depends not only on the sensitivity and specificity of the algorithm but also on how well that algorithm is integrated into provider workflows and facilitates timely and appropriate intervention.\n\nPreliminary Data:\n\neCART has been built upon more than a decade of ongoing scientific research and chronicled in numerous peer-reviewed publications. eCART was developed at the University of Chicago by Drs. Dana Edelson and Matthew Churpek. The first version (eCARTv1) was derived and validated using linear logistic regression in a dataset of nearly 60,000 adult ward patients from a single medical center. That model had 16 variables in it and was subsequently validated in silent mode, demonstrating that eCART could alert clinicians more than 24 hours in advance of ICU transfer or cardiac arrest. eCARTv2, derived and validated in a dataset of nearly 270,000 patients from 5 hospitals, improved upon the earlier version by utilizing a cubic spline logistic regression model with 27 variables and demonstrated improved accuracy over the Modified Early Warning Score (MEWS), a commonly used score that can be hand- calculated by nurses at the bedside (AUC 0.77 vs. 0.70 for cardiac arrest, ICU transfer or death). In a multicenter clinical implementation study, eCARTv2 was associated with a 29% relative risk reduction for mortality. In further development of eCART, the University of Chicago research team demonstrated that upgrading from a cubic spline model to a machine learning model, such as a random forest or gradient boosted machine (GBM), could increase the AUC. In the most recent development - eCART v5 - the research team has advanced the analytic using a gradient boosted machine learning model trained on a multi-center dataset of more than 800,000 patient records. Now with 97 variables, this more sophisticated model increases the accuracy by which clinicians can predict clinical deterioration."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sepsis",
+                "Septicemia",
+                "Respiratory Failure",
+                "Hemodynamic Instability",
+                "COVID-19",
+                "Cardiac Arrest",
+                "Clinical Deterioration"
+            ],
+            "keywords": [
+                "machine learning",
+                "artificial intelligence",
+                "early warning scores",
+                "clinical decision support"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "This a parallel study with an intervention group of medical-surgical patients where the tool will be used by providers, and a control group wherein the tool will run silently in the background. The primary analysis will utilize a delta-delta design comparing the intervention hospitals' pre vs. post results to the control hospitals' pre vs. post results. The primary analysis will be limited to patients who ever had an elevated eCARTv5 as those are the ones who would have been eligible for intervention (viewing of the eCARTv5 trend and following the clinical pathway).",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "maskingDescription": "In control hospitals, eCART will be scoring silently in the background and not visible to the care provider or the patient. Because this is administrative data, the outcomes assessor will similarly be blinded to the score. In the intervention hospitals, care providers will be aware of the score and trained to it. Patients may be aware as a result.",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Intervention Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Intervention Arm (experimental): eCARTv5 will monitor all adult medical-surgical (ward) patients at hospitals that implement the tool in their EHR. A pre vs. post analysis will be done to compare the impact of the tool at the intervention hospitals.",
+                    "interventionNames": [
+                        "Device: eCARTv5 clinical deterioration monitoring"
+                    ]
+                },
+                {
+                    "label": "Control Arm",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Control Arm (active comparator): hospital sites that do not implement eCARTv5 will be active comparator.",
+                    "interventionNames": [
+                        "Other: Standard of care control"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "eCARTv5 clinical deterioration monitoring",
+                    "description": "eCART is a predictive analytic used for the identification of acute clinical deterioration built upon more than a decade of ongoing scientific research and chronicled in numerous peer-reviewed publications. eCART draws upon readily available patient data from the EHR, rapidly quantifies disease severity, and predicts the likelihood of critical illness onset.",
+                    "armGroupLabels": [
+                        "Intervention Arm"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Standard of care control",
+                    "description": "Standard of care is the health system's clinical best practices and workflows for identifying high-risk patients for clinical deterioration, including other tools already built into the electronic health record (EHR). Hospitals that do not implement eCARTv5 will be compared as a control against hospitals that do implement eCARTv5.",
+                    "armGroupLabels": [
+                        "Control Arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Hospital mortality for elevated risk patients",
+                    "description": "Hospital mortality, a measure of how many patients died in the hospital, will come from administrative data, specifically from the discharge disposition of each eCART elevated risk patient. This data will be taken from the complete hospitalization, from admission to discharge.",
+                    "timeFrame": "The outcome of hospital mortality for elevated risk patients will be tracked across 12 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Total hospital length of stay (LOS) for elevated risk patients",
+                    "description": "Total hospital length of stay (LOS) for patients with any elevated eCART score during hospitalization, defined as the time period between hospital admission and discharge. LOS is defined as the time (hours or fraction of a day) from first vital sign to last vital sign within a patient encounter.",
+                    "timeFrame": "Total hospital length of stay (LOS) for elevated risk patients will be tracked across 12 months"
+                },
+                {
+                    "measure": "ICU-free days following an eCART elevation",
+                    "description": "30-day ICU-free days, defined as the number of days patients were both alive and not being cared for in an ICU in the first 30 days following hospital admission with any elevated eCART score. Because death is biased toward fewer ICU days and is a competing outcome, patients who die prior to day 30 are assigned with 0 ICU-free days.",
+                    "timeFrame": "The outcome of 30-day ICU-free days will be tracked across 12 months"
+                },
+                {
+                    "measure": "Ventilator-free days following an eCART elevation",
+                    "description": "30-day ventilator-free days, defined as the number of days patients were both alive and not mechanically ventilated in the first 30 days following hospital admission with any elevated eCART score. Because death is biased toward fewer ventilator days and is a competing outcome, patients who die prior to day 30 are assigned with 0 ventilator-free days.",
+                    "timeFrame": "The outcome of 30-day ventilator-free days will be tracked across 12 months"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Sepsis Mortality",
+                    "description": "Hospital mortality, a measure of how many patients died in the hospital, will come from administrative data, specifically from the discharge disposition of each eCART elevated risk patient meeting Sep-1 criteria for sepsis.",
+                    "timeFrame": "The outcome of sepsis mortality will be tracked across 12 months"
+                },
+                {
+                    "measure": "Sepsis Length of Stay (LOS)",
+                    "description": "Total hospital length of stay (LOS) for patients with any elevated eCART score during hospitalization that met Sep-1 criteria for sepsis.",
+                    "timeFrame": "The outcome of sepsis length of stay (LOS) will be tracked across 12 months"
+                },
+                {
+                    "measure": "COVID-19 Mortality",
+                    "description": "Hospital mortality, a measure of how many patients died in the hospital, will come from administrative data, specifically from the discharge disposition of each eCART elevated risk patient with a COVID-19 diagnosis or positive COVID-19 test result.",
+                    "timeFrame": "The outcome of COVID-19 mortality will be tracked across 12 months"
+                },
+                {
+                    "measure": "COVID-19 Length of Stay (LOS)",
+                    "description": "Total hospital length of stay (LOS) for patients with any elevated eCART score during hospitalization with a COVID-19 diagnosis or positive COVID-19 test result.",
+                    "timeFrame": "The outcomes of COVID-19 length of stay (LOS) will be tracked across 12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years old\n* Admitted to an eCART-monitored medical-surgical unit (scoring location)\n\nExclusion Criteria:\n\n* Younger than 18 years old\n* Not admitted to an eCART-monitored medical surgical unit (scoring location)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Dana P Edelson, MD, MS",
+                    "role": "CONTACT",
+                    "phone": "415-650-0522",
+                    "email": "dana@agilemd.com"
+                },
+                {
+                    "name": "Borna Safabakhsh, MS, MBA",
+                    "role": "CONTACT",
+                    "phone": "415-650-0522",
+                    "email": "borna@agilemd.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Dana P Edelson, MD, MS",
+                    "affiliation": "AgileMD, Inc.",
+                    "role": "STUDY_CHAIR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "BayCare Health System",
+                    "status": "RECRUITING",
+                    "city": "Clearwater",
+                    "state": "Florida",
+                    "zip": "33759",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Danielle Mauck, MPH",
+                            "role": "CONTACT",
+                            "phone": "727-519-1904",
+                            "email": "Danielle.mauck@baycare.org"
+                        },
+                        {
+                            "name": "Stephanie Yapchanyk, RN, BSN",
+                            "role": "CONTACT",
+                            "phone": "813- 533-1416",
+                            "email": "Stephenie.yapchanyk@baycare.org"
+                        },
+                        {
+                            "name": "Devendra N Amin, MBBS",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 27.96585,
+                        "lon": -82.8001
+                    }
+                },
+                {
+                    "facility": "University of Wisconsin Health",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53792",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Majid Afshar, MD, MS",
+                            "role": "CONTACT",
+                            "phone": "608-263-0661",
+                            "email": "majid.afshar@wisc.edu"
+                        },
+                        {
+                            "name": "Majid Afshar, MD, MS",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "22584764",
+                    "type": "BACKGROUND",
+                    "citation": "Churpek MM, Yuen TC, Park SY, Meltzer DO, Hall JB, Edelson DP. Derivation of a cardiac arrest prediction model using ward vital signs*. Crit Care Med. 2012 Jul;40(7):2102-8. doi: 10.1097/CCM.0b013e318250aa5a."
+                },
+                {
+                    "pmid": "25089847",
+                    "type": "BACKGROUND",
+                    "citation": "Churpek MM, Yuen TC, Winslow C, Robicsek AA, Meltzer DO, Gibbons RD, Edelson DP. Multicenter development and validation of a risk stratification tool for ward patients. Am J Respir Crit Care Med. 2014 Sep 15;190(6):649-55. doi: 10.1164/rccm.201406-1022OC."
+                },
+                {
+                    "pmid": "27075140",
+                    "type": "BACKGROUND",
+                    "citation": "Kang MA, Churpek MM, Zadravecz FJ, Adhikari R, Twu NM, Edelson DP. Real-Time Risk Prediction on the Wards: A Feasibility Study. Crit Care Med. 2016 Aug;44(8):1468-73. doi: 10.1097/CCM.0000000000001716."
+                },
+                {
+                    "pmid": "35452010",
+                    "type": "BACKGROUND",
+                    "citation": "Winslow CJ, Edelson DP, Churpek MM, Taneja M, Shah NS, Datta A, Wang CH, Ravichandran U, McNulty P, Kharasch M, Halasyamani LK. The Impact of a Machine Learning Early Warning Score on Hospital Mortality: A Multicenter Clinical Intervention Trial. Crit Care Med. 2022 Sep 1;50(9):1339-1347. doi: 10.1097/CCM.0000000000005492. Epub 2022 Aug 15."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000086382",
+                    "term": "COVID-19"
+                },
+                {
+                    "id": "D000018805",
+                    "term": "Sepsis"
+                },
+                {
+                    "id": "D000012131",
+                    "term": "Respiratory Insufficiency"
+                },
+                {
+                    "id": "D000075902",
+                    "term": "Clinical Deterioration"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000011024",
+                    "term": "Pneumonia, Viral"
+                },
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000018352",
+                    "term": "Coronavirus Infections"
+                },
+                {
+                    "id": "D000003333",
+                    "term": "Coronaviridae Infections"
+                },
+                {
+                    "id": "D000030341",
+                    "term": "Nidovirales Infections"
+                },
+                {
+                    "id": "D000012327",
+                    "term": "RNA Virus Infections"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000018746",
+                    "term": "Systemic Inflammatory Response Syndrome"
+                },
+                {
+                    "id": "D000007249",
+                    "term": "Inflammation"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                },
+                {
+                    "id": "D000018450",
+                    "term": "Disease Progression"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14968",
+                    "name": "Respiratory Insufficiency",
+                    "asFound": "Respiratory Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9411",
+                    "name": "Heart Arrest",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2561",
+                    "name": "COVID-19",
+                    "asFound": "COVID-19",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "asFound": "Septicemia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1541",
+                    "name": "Clinical Deterioration",
+                    "asFound": "Clinical Deterioration",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13914",
+                    "name": "Pneumonia, Viral",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20490",
+                    "name": "Coronavirus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6555",
+                    "name": "Coronaviridae Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23685",
+                    "name": "Nidovirales Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15149",
+                    "name": "RNA Virus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20818",
+                    "name": "Systemic Inflammatory Response Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20559",
+                    "name": "Disease Progression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

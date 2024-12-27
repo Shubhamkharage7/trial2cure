@@ -1,0 +1,181 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT02045381",
+            "orgStudyIdInfo": {
+                "id": "UMCC 2012.113"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "HUM00068061",
+                    "type": "OTHER",
+                    "domain": "University of Michigan"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Optimization of MRI for Radiation Therapy",
+            "officialTitle": "Optimization of MRI for Radiation Therapy",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "optimization-of-mri-for-radiation-therapy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2013-03-14",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2013-12-18",
+            "studyFirstSubmitQcDate": "2014-01-22",
+            "studyFirstPostDateStruct": {
+                "date": "2014-01-24",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2024-04-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true
+        },
+        "descriptionModule": {
+            "briefSummary": "Currently, appropriate patients undergo MRI imaging with immobilization and sequences optimized for diagnostic radiology purposes. Using a mutual information algorithm, these images are then registered to a treatment planning CT obtained with custom immobilization to minimize intra-and inter-treatment motion and positional variation. This image registration process is time-consuming and introduces additional layers of geometric uncertainty into what should be a highly precise treatment planning process. However, it is necessary, since radiation dose calculations cannot be performed on MRI data due to the lack of crucial density information. The investigator envisions CT-less treatment planning, using only MRI, due to superior imaging characteristics, fully integrated into the radiation oncology clinic. This study will begin this process."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cancer Liver",
+                "Cancer Brain",
+                "Cancer Head &Neck",
+                "Cancer Pelvis"
+            ],
+            "keywords": [
+                "Cancer",
+                "MRI"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "CROSS_SECTIONAL"
+            },
+            "enrollmentInfo": {
+                "count": 432,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "MRI group",
+                    "description": "Patient receives one research MRI prior to radiation treatment.",
+                    "interventionNames": [
+                        "Procedure: MRI Group"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "MRI Group",
+                    "description": "A single research MRI",
+                    "armGroupLabels": [
+                        "MRI group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Percentage of participants with MRI images suitable for analyses",
+                    "description": "Patients will be off protocol immediately after the single MRI scan. Comparative treatment planning will occur off-line and will not be used for patient care.",
+                    "timeFrame": "Day One"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients \u226518 years of age\n* A working diagnosis of malignancy in the liver, brain, H\\&N, or pelvis\n* A plan to treat with radiotherapy\n\nExclusion Criteria:\n\n* Patients with contraindications to having a contrast enhanced MRI scan. These contraindications will be assessed at the time of enrollment using the guidelines set up and in clinical use by the Radiology Department.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Participants having a working diagnosis of malignancy in the liver, brain, head and neck, or pelvis, and a plan to treat with radiotherapy.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Shruti Jolly, MD",
+                    "role": "CONTACT",
+                    "phone": "734-936-4300",
+                    "email": "shrutij@umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Shruti Jolly, MD",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Univeristy of Michigan",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Shruti Jolly, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

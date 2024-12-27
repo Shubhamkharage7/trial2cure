@@ -1,0 +1,507 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06513351",
+            "orgStudyIdInfo": {
+                "id": "240187"
+            },
+            "organization": {
+                "fullName": "Vanderbilt University Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "A Pragmatic Randomized Controlled Trial to Predict Postpartum Hemorrhage",
+            "officialTitle": "Logistic Regression Prediction Model vs. Standard of Care for Prediction of Postpartum Hemorrhage - A Pragmatic Randomized Controlled Trial",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "a-pragmatic-randomized-controlled-trial-to-predict-postpartum-hemorrhage"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-07-02",
+            "studyFirstSubmitQcDate": "2024-07-16",
+            "studyFirstPostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Holly Ende",
+                "investigatorTitle": "Associate Professor of Anesthesiology",
+                "investigatorAffiliation": "Vanderbilt University Medical Center"
+            },
+            "leadSponsor": {
+                "name": "Holly Ende",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Vanderbilt University Medical Center",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This research project aims to enhance the safety of childbirth by using advanced computer models to predict the risk of postpartum hemorrhage (PPH).\n\nPPH is a significant concern for mothers during and after delivery. Current risk assessment tools are basic and do not adapt to changing conditions. This study will investigate whether a new and recently validated model for predicting PPH, combined with a provider-facing Best Practice Advisory (BPA) regarding currently recommended strategies triggered by an increased predicted risk, can improve perinatal outcomes.\n\nThis study will compare the current category based risk assessment tool with a new, enhanced prediction model which calculates risk based on 21 factors, automatically updates as new information becomes available during labor and, if elevated, provides a provider-facing Best Practice Advisory (BPA) recommending consideration of strategies that are institutionally agreed to represent high-quality practice.\n\nInvestigators hypothesize that the enhanced care approach will result in improved perinatal outcomes.\n\nThe goal of the study is to improve the wellbeing of mothers during childbirth by harnessing the power of modern technology and data analysis.",
+            "detailedDescription": "Postpartum hemorrhage (PPH) is a common complication following vaginal or cesarean delivery and contributes significantly to maternal morbidity and mortality in the United States. There are numerous clinical factors which contribute to a patient's risk of developing PPH. Utilization of an evidence-based tool for PPH risk prediction is recommended by national societies and required by the Joint Commission.\n\nMost currently used tools are category based and assign a low, medium, or high risk of hemorrhage. These tools fail to take advantage of the vast amounts of data and computing power available via modern electronic medical records. Predictive modeling and informatics-based solutions could help to modernize PPH risk prediction and improve patient outcomes.\n\nThis study proposes to continue standard of care risk assessment for all patients, including those randomized to the intervention arm (ARM B). Those patients in the intervention arm (ARM B) will have an additional risk prediction displayed, which will show the quantitative output from the logistic regression PPH risk prediction model, (validated in a previous study). In addition to this display, patients above a preset threshold of 3% risk will have a Best Practice Advisory (BPA) deployed to clinicians with recommended actions. These recommended actions, including the prophylactic use of tranexamic acid and second-line uterotonics, are supported by best evidence in those patients deemed to be at elevated a priori risk of PPH. These prophylactic treatments are accepted standard of care for those patients deemed high risk, and may be administered, at the discretion of the covering clinician, to patients rated high risk by the current risk assessment tool in the comparator arm (Arm A) of the study. The recommendations within the best practice advisory serve as a reminder of best practices as defined by the department and providers are not forced to follow the recommendations of the best practice advisory."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Post Partum Hemorrhage"
+            ],
+            "keywords": [
+                "Post Partum Hemorrhage",
+                "Cesarean Section",
+                "Vaginal Birth",
+                "Risk Prediction"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Single Center Pragmatic Randomized Controlled Clinical Trial",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 10000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Standard Care - Comparator Arm A",
+                    "type": "NO_INTERVENTION",
+                    "description": "Standard Care, which includes a category-based risk assessment tool as part of nursing admission workflow. The prophylactic interventions in the intervention are recommended by the tool but not specifically tied to provider-facing clinical decision support."
+                },
+                {
+                    "label": "Novel PPH Risk Prediction Model - Comparator Arm B",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Standard Care with addition of a recently developed, novel PPH risk prediction model.",
+                    "interventionNames": [
+                        "Behavioral: Novel PPH Risk Prediction Model - Comparator Arm B"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Novel PPH Risk Prediction Model - Comparator Arm B",
+                    "description": "Patients in this group will receive the standard care risk assessment with the addition of a recently developed, novel PPH risk prediction model, which will automatically calculate a patient's numerical risk of hemorrhage based on 21 risk factors. Elevated risk of hemorrhage (\\>=3% predicted risk), as predicted by the model, will be linked to clinical decision support, including a best practice advisory with recommendations presented to providers for consideration when they access the patient's electronic health record.",
+                    "armGroupLabels": [
+                        "Novel PPH Risk Prediction Model - Comparator Arm B"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Numerical hierarchical composite score of postpartum morbidity and mortality at hospital discharge",
+                    "description": "Patients will be assigned the most severe morbidity and mortality outcome score based on a range of criteria from 1 to 7 with 1 being the least severe and 7 being the most severe outcome. 1 is Estimated blood loss \\<1000 mL, 2 is Estimated blood loss \\>=1000 mL, 3 is Mechanical treatment of hemorrhage (uterine tamponade device insertion, uterine compression suture), 4 is Post-delivery red blood cell transfusion, 5 is Uterine artery embolization, 6 is Hysterectomy due to bleeding, and 7 is Death.\n\nFor example, a patient who experiences an estimated blood loss \\>=1000mL and does not experience another more serious outcome would receive a score of 2, whereas a patient who requires a hysterectomy due to bleeding might meet several of the criteria, but would receive a score of 6, as this is the most severe criteria they experience.",
+                    "timeFrame": "Date of randomization to Postpartum hospital discharge (usually 2-4 days)"
+                },
+                {
+                    "measure": "Numerical hierarchical composite score of postpartum morbidity and mortality at 30 days postpartum",
+                    "description": "Patients will be assigned the most severe morbidity and mortality outcome score based on a range of criteria from 1 to 7 with 1 being the least severe and 7 being the most severe outcome. 1 is Estimated blood loss \\<1000 mL, 2 is Estimated blood loss \\>=1000 mL, 3 is Mechanical treatment of hemorrhage (uterine tamponade device insertion, uterine compression suture), 4 is Post-delivery red blood cell transfusion, 5 is Uterine artery embolization, 6 is Hysterectomy due to bleeding, and 7 is Death.\n\nFor example, a patient who experiences an estimated blood loss \\>=1000mL and does not experience another more serious outcome would receive a score of 2, whereas a patient who requires a hysterectomy due to bleeding might meet several of the criteria, but would receive a score of 6, as this is the most severe criteria they experience.",
+                    "timeFrame": "30 days postpartum"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Estimated blood loss <1000 mL",
+                    "description": "Number of patients with estimated blood loss \\<1000mL",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Estimated blood loss >=1000 mL",
+                    "description": "Number of patients with estimated blood loss \\>=1000mL",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Mechanical treatment of hemorrhage",
+                    "description": "Number of patients who required mechanical treatment of hemorrhage (uterine tamponade device insertion, uterine compression suture)",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Post-delivery packed red blood cell transfusion",
+                    "description": "Number of patients who required post-delivery packed red blood cell transfusion",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Uterine artery embolization",
+                    "description": "Number of patients who required uterine artery embolization",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Hysterectomy due to bleeding",
+                    "description": "Number of patients requiring a hysterectomy due to bleeding",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Death",
+                    "description": "Number of patients who died within 30 days postpartum",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Medication to prevent bleeding",
+                    "description": "Number of patients who received medication to prevent bleeding",
+                    "timeFrame": "Date of randomization to Postpartum hospital discharge (usually 2-4 days)"
+                },
+                {
+                    "measure": "Estimated blood loss (mL)",
+                    "description": "median and interquartile range for all patients",
+                    "timeFrame": "Date of randomization to Postpartum hospital discharge (usually 2-4 days)"
+                },
+                {
+                    "measure": "Total packed red blood cells (units)",
+                    "description": "median and interquartile range for all patients",
+                    "timeFrame": "Date of randomization to Postpartum hospital discharge (usually 2-4 days)"
+                },
+                {
+                    "measure": "Postpartum hospital length of stay (hours)",
+                    "description": "median and interquartile range for all patients",
+                    "timeFrame": "Date of randomization to Postpartum hospital discharge (usually 2-4 days)"
+                },
+                {
+                    "measure": "Acute myocardial infarction",
+                    "description": "Number of patients who experienced an acute myocardial infarction",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Aneurysm",
+                    "description": "Number of patients who experienced an aneurysm",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Acute renal failure",
+                    "description": "Number of patients who experienced acute renal failure",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Acute respiratory distress syndrome",
+                    "description": "Number of patients who experienced acute respiratory distress syndrome",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Amniotic fluid embolism",
+                    "description": "Number of patients who experienced amniotic fluid embolism",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Cardiac arrest/ventricular fibrillation",
+                    "description": "Number of patients who experienced cardiac arrest/ventricular fibrillation",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Conversion of cardiac rhythm",
+                    "description": "Number of patients who required conversion of cardiac rhythm",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Disseminated intravascular coagulation",
+                    "description": "Number of patients who experienced disseminated intravascular coagulation",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Blood transfusion",
+                    "description": "Number of patients who required a blood transfusion",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Eclampsia",
+                    "description": "Number of patients who experienced eclampsia",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Heart failure/arrest during surgery or procedure",
+                    "description": "Number of patients who experienced heart failure/arrest during surgery or procedure",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Puerperal cerebrovascular disorders",
+                    "description": "Number of patients who experienced puerperal cerebrovascular disorders",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Pulmonary edema/acute heart failure",
+                    "description": "Number of patients who experienced pulmonary edema/acute heart failure",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Severe anesthesia complications",
+                    "description": "Number of patients who experienced severe anesthesia complications",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Sepsis",
+                    "description": "Number of patients who experienced sepsis",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Shock",
+                    "description": "Number of patients who experienced shock",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Sickle cell disease with crisis",
+                    "description": "Number of patients who experienced sickle cell disease with crisis",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Air and thrombotic embolism",
+                    "description": "Number of patients who experienced air and thrombotic embolism",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Hysterectomy",
+                    "description": "Number of patients who required a hysterectomy",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Temporary tracheostomy",
+                    "description": "Number of patients who required a temporary tracheostomy",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Ventilation",
+                    "description": "Number of patients who required ventilation",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Post-delivery ICU admission",
+                    "description": "Number of patients who required ICU admission following delivery",
+                    "timeFrame": "Date of randomization up to 30 days postpartum"
+                },
+                {
+                    "measure": "Time from delivery to OR for patients requiring operative repair",
+                    "description": "Time from delivery to entry into the operating room for dilation and curettage, or operative repair of vaginal/cervical laceration",
+                    "timeFrame": "Date of randomization to Postpartum hospital discharge (usually 2-4 days)"
+                },
+                {
+                    "measure": "Fetal APGAR score at 1 minute",
+                    "description": "The median and interquartile range of the APGAR score will be reported for all patients. The Apgar score is a method to quickly summarize the health of newborn children. The Apgar score is determined by evaluating the newborn baby on five simple criteria: appearance (skin color), pulse (heart rate), grimace (reflex irritability), activity (muscle tone) and respiration on a scale from 0 to 2. Apgar total score (obtained by summing up values from all five items) ranges from 0 to 10 with a score of 0 expressing the worst neonatal status and a score of 10 the best status.",
+                    "timeFrame": "1 minute post-delivery"
+                },
+                {
+                    "measure": "Fetal APGAR score at 5 minutes",
+                    "description": "The median and interquartile range of the APGAR score will be reported for all patients. The Apgar score is a method to quickly summarize the health of newborn children. The Apgar score is determined by evaluating the newborn baby on five simple criteria: appearance (skin color), pulse (heart rate), grimace (reflex irritability), activity (muscle tone) and respiration on a scale from 0 to 2. Apgar total score (obtained by summing up values from all five items) ranges from 0 to 10 with a score of 0 expressing the worst neonatal status and a score of 10 the best status.",
+                    "timeFrame": "5 minutes post-delivery"
+                },
+                {
+                    "measure": "Fetal APGAR score at 10 minutes",
+                    "description": "The median and interquartile range of the APGAR score will be reported for all patients. The Apgar score is a method to quickly summarize the health of newborn children. The Apgar score is determined by evaluating the newborn baby on five simple criteria: appearance (skin color), pulse (heart rate), grimace (reflex irritability), activity (muscle tone) and respiration on a scale from 0 to 2. Apgar total score (obtained by summing up values from all five items) ranges from 0 to 10 with a score of 0 expressing the worst neonatal status and a score of 10 the best status.",
+                    "timeFrame": "10 minutes post-delivery"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All vaginal and cesarean deliveries occurring at Vanderbilt University Medical Center\n\nExclusion Criteria:\n\n* All patients will be randomized at the time of admission to the obstetric service. Patients who are discharged prior to delivery will be excluded from subsequent analysis. Any patients with a pre-delivery planned hysterectomy (for placenta increta or percreta) will be excluded from the treatment algorithm and primary analysis.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Holly Ende, MD",
+                    "role": "CONTACT",
+                    "phone": "615-322-8476",
+                    "email": "holly.ende@vumc.org"
+                },
+                {
+                    "name": "Tracie Baker, CCRP",
+                    "role": "CONTACT",
+                    "phone": "615-875-1852",
+                    "email": "tracie.d.baker@vumc.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Holly Ende, MD",
+                    "affiliation": "Vanderbilt University Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Vanderbilt University Medical Center",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37212",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Holly Ende, MD",
+                            "role": "CONTACT",
+                            "phone": "615-322-8476",
+                            "email": "holly.ende@vumc.org"
+                        },
+                        {
+                            "name": "Holly Ende, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006473",
+                    "term": "Postpartum Hemorrhage"
+                },
+                {
+                    "id": "D000006470",
+                    "term": "Hemorrhage"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000007744",
+                    "term": "Obstetric Labor Complications"
+                },
+                {
+                    "id": "D000011248",
+                    "term": "Pregnancy Complications"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011644",
+                    "term": "Puerperal Disorders"
+                },
+                {
+                    "id": "D000014592",
+                    "term": "Uterine Hemorrhage"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9556",
+                    "name": "Hemorrhage",
+                    "asFound": "Hemorrhage",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9559",
+                    "name": "Postpartum Hemorrhage",
+                    "asFound": "Post Partum Hemorrhage",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10764",
+                    "name": "Obstetric Labor Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14499",
+                    "name": "Puerperal Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17340",
+                    "name": "Uterine Hemorrhage",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

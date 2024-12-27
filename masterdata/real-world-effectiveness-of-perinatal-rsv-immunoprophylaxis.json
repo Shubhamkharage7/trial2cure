@@ -1,0 +1,358 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06172660",
+            "orgStudyIdInfo": {
+                "id": "2000036550"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "1R01AI179874-01",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/1R01AI179874-01"
+                }
+            ],
+            "organization": {
+                "fullName": "Yale University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Real-World Effectiveness of Perinatal RSV Immunoprophylaxis",
+            "officialTitle": "Real-World Effectiveness of Perinatal RSV Immunoprophylaxis",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "real-world-effectiveness-of-perinatal-rsv-immunoprophylaxis"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-12-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-12-06",
+            "studyFirstSubmitQcDate": "2023-12-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-12-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Yale University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Allergy and Infectious Diseases (NIAID)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to continue evaluating how well the RSV vaccines work as they are currently being used in routine clinical practice. Some of the questions that the investigators hope to answer with this study are: 1) What is the overall effectiveness of these vaccines? 2) How long does immunity last? 3) How effective are the vaccines against new strains? 3) Does the vaccine's effectiveness vary by age?",
+            "detailedDescription": "This will be a large-scale case-control study aiming to evaluate the effectiveness of perinatal RSV immunoprophylaxis. Cases and controls will be identified using active surveillance in both inpatient and outpatient clinical sites of the Yale New Haven Health System. Investigators will enroll patients seeking health care for acute respiratory illness and confirm RSV infection using approved molecular assays. Data will be collected from multiple sources, including health records, interviews, immunization registries, and population-based surveys. Investigators will generate estimates of effectiveness for each type of immunization used, disaggregated by time from immunization, disease severity, and sociodemographic characteristics (Aim 1). Investigators will also perform genetic characterization of all RSV viruses in the study, monitor the genetic diversity of the virus over time, and quantify the relative effectiveness of immunoprophylaxis against various viral lineages (Aim 2). Finally, investigators will collect acute and convalescent blood from a subset of infants and employ a single-cell and multi-omics approach to study the dynamics of the innate and adaptive immune responses during RSV infection and explore the molecular mechanisms that contribute to immunoprophylaxis failure (Aim 3)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "RSV Infection"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "3,750 participants will be enrolled in this study. They will provide respiratory samples for the identification of viruses. One hundred patients will provide acute and convalescent blood."
+            },
+            "enrollmentInfo": {
+                "count": 3750,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "ARI Cases",
+                    "description": "Cases will be defined as infants \u226412 months old who had a clinical encounter for acute respiratory illness (ARI) and tested positive for RSV using polymerase chain reaction (PCR).",
+                    "interventionNames": [
+                        "Drug: Nirsevimab"
+                    ]
+                },
+                {
+                    "label": "Healthy Controls",
+                    "description": "Healthy controls will be individually matched to enrolled vaccine failures (immunized and RSV+) by date of birth (\u00b11 month), sex, and immunoprophylactic agent received (i.e., maternal vaccine or monoclonal antibody).",
+                    "interventionNames": [
+                        "Drug: Nirsevimab"
+                    ]
+                },
+                {
+                    "label": "ARI Controls",
+                    "description": "Controls will be individuals with ARI who test negative for RSV and will be frequency matched based on time and clinical setting.",
+                    "interventionNames": [
+                        "Drug: Nirsevimab"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Nirsevimab",
+                    "description": "Immunoprophylaxis against RSV",
+                    "armGroupLabels": [
+                        "ARI Cases",
+                        "ARI Controls",
+                        "Healthy Controls"
+                    ],
+                    "otherNames": [
+                        "RSV vaccines"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Overall effectiveness of RSV immunoprophylaxis",
+                    "description": "The overall effectiveness of each immunoprophylactic strategy (monoclonal antibodies and maternal immunization) will be estimated separately. Logistic regression models will be used for analysis, with the outcome being case/control status and immunization status as the main predictor, controlling for known confounders.",
+                    "timeFrame": "Up to 5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Relative effectiveness of RSV immunoprophylaxis by viral groups or clades.",
+                    "description": "A case-only analysis in which investigators compare the immune status among cases infected with RSV group A versus B and assess the relative effectiveness of immunization. For this analysis, logistic regression will be used to control for the time of testing and other relevant confounders.",
+                    "timeFrame": "Up to 5 years"
+                },
+                {
+                    "measure": "Kinetics of the innate and adaptive immune responses",
+                    "description": "The proportion of innate and adaptive immune cells in infants with breakthrough infections will be compared to healthy matched controls and test-negative controls. The frequency and phenotypic differences of peripheral blood immune cells during acute and convalescent blood of RSV+ infants who were both immunized and unimmunized will also be compared.",
+                    "timeFrame": "Up to 5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u2264 12 months of age at the time of presentation for evaluation for an acute respiratory infection (ARI).\n* Documentation of an ARI, which is defined as an acute onset (\\<10 days) illness that includes: At least two of the following symptoms: fever (measured or subjective), chills, rigors, myalgia, headache, sore throat, nausea or vomiting, diarrhea, fatigue, congestion OR any one of the following: cough, shortness of breath, difficulty breathing, olfactory disorder, taste disorder, confusion, persistent chest pain, pale, gray, hypoxia, clinical or radiographic evidence of pneumonia or respiratory distress syndrome.\n* Residents of Connecticut\n\nExclusion Criteria:\n\n* Illness duration of \\>10 days at the time of respiratory specimen collection, measured from the date of the first symptom of the current acute illness.\n* Parents/guardians are not able to provide informed consent\n\nTo be eligible for inclusion in the study as a healthy control, an individual must meet all of the following criteria:\n\n* Immunized against RSV \u2264 12 months of age\n* Residents of Connecticut\n* Match an enrolled case that was a vaccine failure by date of birth (\u00b11 month), sex, and immunoprophylactic agent received (i.e., maternal vaccine vs mAb).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "maximumAge": "12 Months",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "Eligible participants will include those who have a medically-attended ARI at one of the inpatient or ambulatory recruitment sites affiliated with the Yale New Haven Health System. Investigators will enroll males and females of all racial and ethnic groups meeting the inclusion criteria.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Carlos R Oliveira, MD",
+                    "role": "CONTACT",
+                    "phone": "203-785-5474",
+                    "email": "carlos.oliveira@yale.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Carlos R Oliveira, MD",
+                    "affiliation": "Yale University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Yale Child Health Research Center",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06519",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Research Coordinator",
+                            "role": "CONTACT",
+                            "phone": "203-785-5474"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018357",
+                    "term": "Respiratory Syncytial Virus Infections"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018186",
+                    "term": "Pneumovirus Infections"
+                },
+                {
+                    "id": "D000018184",
+                    "term": "Paramyxoviridae Infections"
+                },
+                {
+                    "id": "D000018701",
+                    "term": "Mononegavirales Infections"
+                },
+                {
+                    "id": "D000012327",
+                    "term": "RNA Virus Infections"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20494",
+                    "name": "Respiratory Syncytial Virus Infections",
+                    "asFound": "RSV Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20330",
+                    "name": "Paramyxoviridae Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20778",
+                    "name": "Mononegavirales Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15149",
+                    "name": "RNA Virus Infections",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000014612",
+                    "term": "Vaccines"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4225",
+                    "name": "Antibodies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17360",
+                    "name": "Vaccines",
+                    "asFound": "Other",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10184",
+                    "name": "Immunoglobulins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4230",
+                    "name": "Antibodies, Monoclonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

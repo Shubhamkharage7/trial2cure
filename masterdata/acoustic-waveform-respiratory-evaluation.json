@@ -1,0 +1,592 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06512064",
+            "orgStudyIdInfo": {
+                "id": "20030"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01HL170368",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01HL170368"
+                }
+            ],
+            "organization": {
+                "fullName": "Indiana University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Acoustic Waveform Respiratory Evaluation",
+            "officialTitle": "Advancing Telemedicine in Pulmonology: Acoustic-waveform Respiratory Evaluation (AWARE) Via Sensing and Machine Learning on Smartphones",
+            "acronym": "AWARE",
+            "therapeuticArea": [
+                "Respiratory",
+                "Other"
+            ],
+            "study": "acoustic-waveform-respiratory-evaluation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2029-04",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2029-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-26",
+            "studyFirstSubmitQcDate": "2024-07-15",
+            "studyFirstPostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Erick Forno",
+                "investigatorTitle": "Professor of Pediatrics",
+                "investigatorAffiliation": "Indiana University"
+            },
+            "leadSponsor": {
+                "name": "Indiana University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "University of Pittsburgh",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study will evaluate the feasibility of using smartphone speakers and microphones to evaluate the caliber of the airways, detect airway obstruction, aid in airway disease diagnosis, and identify disease exacerbations.",
+            "detailedDescription": "Asthma and COPD respectively affect millions of people in the US. Chronic lower respiratory diseases represented the fourth leading cause of death in the country before the pandemic. For these and other pulmonary diseases like cystic fibrosis (CF), monitoring disease remotely but objectively could lead to marked improvements in disease control, quality of life, and overall prognosis. However, current disease monitoring and management often rely on subjective symptom report, and objective pulmonary function tests (PFTs) are often only done a handful of times a year at subspecialty referral centers. The primary hypothesis for this study is that smartphone-based sensing and machine learning (ML) approaches can advance pulmonary telemedicine by enabling comprehensive pulmonary disease evaluation with high accuracy, reliability, and adaptability. The investigators further hypothesize that AWARE can accurately help identify different lung diseases, estimate lung function, and detect changes associated with exacerbations. In Aim 1, investigators will develop and improve a smartphone sensing approach as an accurate and reliable aide in airway disease diagnosis. Investigators will recruit a sample of healthy individuals and individuals with asthma, COPD, CF, and other airway diseases, to assess whether AWARE can accurately classify subjects in their disease groups. In Aim 2, investigators will improve the ML approach to estimate lung function accurately and adaptively, including traditional PFT indices from spirometry and impulse oscillometry. And in Aim 3, investigators will develop deep learning techniques to identify changes in airway conditions associated disease exacerbations, by performing AWARE during stable disease and acute exacerbations. For these aims, investigators will recruit a cohort of pediatric and adult subjects with a wide range of demographic and anthropometric characteristics, to have adequate representation of various airway diseases, a broad range of lung function, and the ability to obtain measurements during acute disease exacerbations. The study protocol will include study questionnaires, anthropometry, body composition, and three sets of PFTs: spirometry, oscillometry, and AWARE. A subgroup of subjects will additionally perform AWARE at home for up to two weeks, allowing investigators to evaluate supervised vs unsupervised and in-clinic vs. at-home measurements. Similarly, a subgroup of subjects will perform AWARE dual testing (i.e., with both study smartphones and their own smartphone) to evaluate repeatability using diverse equipment and software platforms."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Asthma",
+                "COPD",
+                "Cystic Fibrosis",
+                "Ciliary Motility Disorders",
+                "Bronchiectasis",
+                "Airway Malacia",
+                "Healthy Control"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 800,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Asthma",
+                    "type": "EXPERIMENTAL",
+                    "description": "Physician diagnosis plus at least one of the following in the past year: asthma symptoms that improve with albuterol; prescribed asthma controller medication(s); an acute asthma exacerbation requiring systemic steroids; or an emergency department visit or hospitalization for asthma. Alternatively, report of current asthma symptoms per US NAEPP or Global Initiative for Asthma (GINA) guidelines, plus documentation of bronchodilator response or airway hyperresponsiveness.",
+                    "interventionNames": [
+                        "Diagnostic Test: AWARE"
+                    ]
+                },
+                {
+                    "label": "Chronic Obstructive Pulmonary Disease (COPD)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Physician diagnosis, plus symptoms of COPD per GOLD guidelines, plus post-bronchodilator FEV1/FVC \\<0.70 or below the lower limit of normal (LLN) using GLI reference equations.",
+                    "interventionNames": [
+                        "Diagnostic Test: AWARE"
+                    ]
+                },
+                {
+                    "label": "Cystic Fibrosis (CF)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Physician diagnosis based on U.S. CF Foundation guidelines, including signs/symptoms of CF and either a positive sweat chloride test (\\>60 mmol/L), or an indeterminate sweat chloride test (30-59 mmol/L) plus two CF-causing CFTR mutations. The study may include subjects with different CFTR mutation classes as well as both on and off CFTR modulators.",
+                    "interventionNames": [
+                        "Diagnostic Test: AWARE"
+                    ]
+                },
+                {
+                    "label": "Other Airway Diseases",
+                    "type": "EXPERIMENTAL",
+                    "description": "This group will include subjects with airway ciliary motility disorders, bronchiectasis, and airway malaria. Given variability in the clinical presentation and diagnosis of these conditions, they will be ascertained by physician diagnosis and reviewed by study physician investigators.",
+                    "interventionNames": [
+                        "Diagnostic Test: AWARE"
+                    ]
+                },
+                {
+                    "label": "Healthy Controls",
+                    "type": "EXPERIMENTAL",
+                    "description": "This will include generally healthy subjects who do not have any of the airway diseases included in the study, nor other chronic cardiorespiratory or other diseases that may alter lung function or the ability to participate in the study.",
+                    "interventionNames": [
+                        "Diagnostic Test: AWARE"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "AWARE",
+                    "description": "AWARE testing to estimate lung function and aid in disease diagnosis",
+                    "armGroupLabels": [
+                        "Asthma",
+                        "Chronic Obstructive Pulmonary Disease (COPD)",
+                        "Cystic Fibrosis (CF)",
+                        "Healthy Controls",
+                        "Other Airway Diseases"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Accurate and reliable disease diagnosis",
+                    "description": "Ability of AWARE to accurately classify subjects into the study disease categories with high accuracy (\\>80% sensitivity and \\>80% overall accuracy)",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of FEV1",
+                    "description": "Ability of AWARE to estimate FEV1 with high accuracy (\\<5% error compared to spirometry measures). FEV1 (forced expiratory volume in 1 second) is a measurement of how much air a person can exhale in the first second after inhaling.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of FVC",
+                    "description": "Ability of AWARE to estimate FVC with high accuracy (\\<5% error compared to spirometry measures). FVC (forced vital capacity) is a measurement of the maximum amount of air a person can exhale after a deep breath in.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of FEV1/FVC",
+                    "description": "Ability of AWARE to estimate FEV1/FVC with high accuracy (\\<5% error compared to spirometry measures). FEV1/FVC is the proportion of the forced vital capacity (FVC) that is exhaled in the first second (FEV1).",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of FEF2575",
+                    "description": "Ability of AWARE to estimate FEF2575 with high accuracy (\\<5% error compared to spirometry measures). FEF25-75% is defined as forced expiratory flow over the middle one-half of the FVC (the average flow from the point at which 25% of the FVC has been exhaled to the point at which 75% of the FVC has been exhaled).",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of R5",
+                    "description": "Ability of AWARE to estimate R5 with high accuracy (\\<10% error compared to oscillometry measures). R5 (also known as Rrs5), assessed by oscillometry, is the airway resistance to sound waves at a frequency of 5 Hz.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of R20",
+                    "description": "Ability of AWARE to estimate R20 with high accuracy (\\<10% error compared to oscillometry measures). R20 (also known as Rrs20), assessed by oscillometry, is the airway resistance to sound waves at a frequency of 20 Hz.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of R5-R20",
+                    "description": "Ability of AWARE to estimate R5-R20 with high accuracy (\\<10% error compared to oscillometry measures). R5-R20 (also known as Rrs5-Rrs20) is a measurement of small airway dysfunction typically assessed via oscillometry in which the difference in airway resistance to sound waves of 5 Hz and 20 Hz is calculated.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of X5",
+                    "description": "Ability of AWARE to estimate X5 with high accuracy (\\<10% error compared to oscillometry measures). X5 (also known as Xrs5), assessed by oscillometry, is the airway reactance to sound waves at a frequency of 5 Hz.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Estimation of AX",
+                    "description": "Ability of AWARE to estimate AX with high accuracy (\\<10% error compared to oscillometry measures). AX (area of reactance) is a lung function measurement of the lung's ability to store energy for passive expiration obtained via oscillometry. AX is measured by the area under the reactance curve from lowest frequency to the resonant frequency.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Identification of airway changes associated disease exacerbations",
+                    "description": "Ability of AWARE to identify disease exacerbations (\\>80% sensitivity and \\>80% overall accuracy).",
+                    "timeFrame": "Up to two weeks per subject"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Reliable screening for disease diagnosis",
+                    "description": "Ability of AWARE to classify subjects into the study disease categories with adequate sensitivity (\\>70%) and accuracy (\\>50%) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of FEV1",
+                    "description": "Ability of AWARE to estimate FEV1 with acceptable accuracy (\\<10% error) for use as a screening test.",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of FVC",
+                    "description": "Ability of AWARE to estimate FVC with acceptable accuracy (\\<10% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of FEV1/FVC",
+                    "description": "Ability of AWARE to estimate FEV1/FVC with acceptable accuracy (\\<10% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of FEF2575",
+                    "description": "Ability of AWARE to estimate FEF2575 with acceptable accuracy (\\<10% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of R5",
+                    "description": "Ability of AWARE to estimate R5 with acceptable accuracy (\\<20% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of R20",
+                    "description": "Ability of AWARE to estimate R20 with acceptable accuracy (\\<20% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of R5-R20",
+                    "description": "Ability of AWARE to estimate R5-R20 with acceptable accuracy (\\<20% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of X5",
+                    "description": "Ability of AWARE to estimate X5 with acceptable accuracy (\\<20% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of AX",
+                    "description": "Ability of AWARE to estimate AX with acceptable accuracy (\\<20% error) for use as a screening test",
+                    "timeFrame": "Up to two weeks per subject"
+                },
+                {
+                    "measure": "Screening of airway changes associated disease exacerbations",
+                    "description": "Ability of AWARE to identify disease exacerbations with adequate accuracy for use as a screening test (\\>70% sensitivity and \\>50% overall accuracy)",
+                    "timeFrame": "Up to two weeks per subject"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 8-65 years\n2. Ability to perform spirometry and oscillometry\n3. Signed informed consent (and assent for children as appropriate)\n4. No respiratory or other major disease (for healthy controls), or physician-diagnosed asthma, COPD, CF, or other airway diseases\n\nExclusion Criteria:\n\n1. Inability or unwillingness to perform AWARE, spirometry, or oscillometry\n2. Acute or chronic illness that, at the judgement of investigators, may affect lung function and alter the results of AWARE or the reference PFTs (spirometry and AOS)",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "8 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Elizabeth Rizzi, RN",
+                    "role": "CONTACT",
+                    "phone": "317-626-6937",
+                    "email": "lizbuell@iu.edu"
+                },
+                {
+                    "name": "Lisa Bendy, RRT",
+                    "role": "CONTACT",
+                    "phone": "317-278-7152",
+                    "email": "lbendy@iu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Erick Forno, MD MPH",
+                    "affiliation": "Indiana University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Indiana University",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Erick Forno, MD MPH",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                },
+                {
+                    "facility": "University of Pittsburgh",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15224",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Juan C Celed\u00f3n, MD DrPH",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003550",
+                    "term": "Cystic Fibrosis"
+                },
+                {
+                    "id": "D000001987",
+                    "term": "Bronchiectasis"
+                },
+                {
+                    "id": "D000002925",
+                    "term": "Ciliary Motility Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010182",
+                    "term": "Pancreatic Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                },
+                {
+                    "id": "D000007232",
+                    "term": "Infant, Newborn, Diseases"
+                },
+                {
+                    "id": "D000001982",
+                    "term": "Bronchial Diseases"
+                },
+                {
+                    "id": "D000010038",
+                    "term": "Otorhinolaryngologic Diseases"
+                },
+                {
+                    "id": "D000072661",
+                    "term": "Ciliopathies"
+                },
+                {
+                    "id": "D000000015",
+                    "term": "Abnormalities, Multiple"
+                },
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6755",
+                    "name": "Cystic Fibrosis",
+                    "asFound": "Cystic Fibrosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5263",
+                    "name": "Bronchiectasis",
+                    "asFound": "Bronchiectasis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4556",
+                    "name": "Asthma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8485",
+                    "name": "Fibrosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6164",
+                    "name": "Ciliary Motility Disorders",
+                    "asFound": "Ciliary Motility Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13102",
+                    "name": "Pancreatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10276",
+                    "name": "Infant, Newborn, Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5258",
+                    "name": "Bronchial Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12961",
+                    "name": "Otorhinolaryngologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1076",
+                    "name": "Ciliopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14",
+                    "name": "Abnormalities, Multiple",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1710",
+                    "name": "Cystic Fibrosis",
+                    "asFound": "Cystic Fibrosis",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M3767",
+                    "name": "Albuterol",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5269",
+                    "name": "Bronchodilator Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Repr",
+                    "name": "Reproductive Control Agents"
+                },
+                {
+                    "abbrev": "Resp",
+                    "name": "Respiratory System Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

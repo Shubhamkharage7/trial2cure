@@ -1,0 +1,319 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05734690",
+            "orgStudyIdInfo": {
+                "id": "2022P002809"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "COPILOT-HF: Cooperative Program for ImpLementation of Optimal Therapy in Heart Failure",
+            "officialTitle": "COPILOT-HF: Cooperative Program for ImpLementation of Optimal Therapy in Heart Failure",
+            "acronym": "COPILOT-HF",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "copilot-hf-cooperative-program-for-implementation-of-optimal-therapy-in-heart-failure"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-02-09",
+            "studyFirstSubmitQcDate": "2023-02-09",
+            "studyFirstPostDateStruct": {
+                "date": "2023-02-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-05-19",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-05-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Benjamin M. Scirica, MD",
+                "investigatorTitle": "Associate Professor, Harvard Medical School",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Boehringer Ingelheim",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "Eli Lilly and Company",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a randomized, open-label, initiative within the Mass General Brigham healthcare system testing two remote care strategies for optimizing the prescription of guideline-directed medical therapies in patients with heart failure, regardless of left ventricular ejection fraction (LVEF).",
+            "detailedDescription": "The primary objectives are:\n\n1. Determine if a remote, or virtual, clinic that implements a standardized, stepped-approach to guideline-directed medication optimization in patients with heart failure (across the spectrum of ejection fraction), will achieve a higher rate of guideline-directed medical therapy (GDMT) than a strategy of patient and provider education followed by remote heart failure clinic management.\n2. In eligible patients with LVEF\\<50%, determine if the sequencing of GDMT initiation (traditional vs. sodium-glucose co-transporter-2 inhibitors-first) leads to improved GDMT intensification"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "interventionModelDescription": "One group of patients, upon randomization, will immediately begin participation in a remote, pharmacist-driven heart failure clinic that will initiate and titrate medications according to a standardized medical algorithm. The comparator group will first receive curated patient education, an alert to providers, and provider education, and then after 3 months begin participation in the remote heart failure clinic.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Medication & Education-First",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patient will immediately begin participation in a remote, pharmacist-driven heart failure clinic that will initiate and titrate medications according to a standardized medical algorithm.",
+                    "interventionNames": [
+                        "Drug: SGLT2i, beta blocker, ARNI, MRA, MTD"
+                    ]
+                },
+                {
+                    "label": "Education-First",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Patient will first receive curated patient education, an alert to providers, and provider education, and then after 3 months begin participation in the remote heart failure clinic.",
+                    "interventionNames": [
+                        "Drug: SGLT2i, beta blocker, ARNI, MRA, MTD",
+                        "Behavioral: Education-First"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "SGLT2i, beta blocker, ARNI, MRA, MTD",
+                    "description": "Immediate initiation of guideline-directed medical therapy. Will also immediately receive the same educational services provided in the \"Education-First\" intervention.",
+                    "armGroupLabels": [
+                        "Education-First",
+                        "Medication & Education-First"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Education-First",
+                    "description": "For the first 3-months of their participation, patients in this arm will receive curated patient education, an alert to providers, provider education, and then after 3 months, be invited to participate in the remote heart failure clinic. The patient education would consist of curated video content and informational worksheets provided by email or secure patient messaging. Provider alerts would happen through notifying of a patient's eligibility for heart failure therapy. Provider education will also consist of the program's medical algorithm and a summary sheet on indications, outcomes, prescribing, and monitoring information",
+                    "armGroupLabels": [
+                        "Education-First"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Primary Endpoint",
+                    "description": "The percent of eligible enrolled patients who achieve utilization of recommended therapy for heart failure at 3 months after randomization, which includes:\n\n\u2022 In patients with EF\\<50%, utilization of 4 drug classes (ARNI/ARB/ACEI, SGLT2i, BB, and MRA),\n\nOR\n\n\u2022 In patients with EF \u226550%, utilization of SGLT2i.",
+                    "timeFrame": "3-months following randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Secondary Endpoint",
+                    "description": "Any Intensification of guideline-directed medical therapy, which includes any initiation or titration of a GDMT medication.",
+                    "timeFrame": "6-months following randomization"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Documented diagnosis of heart failure (e.g., ICD-9 codes 428 ICD-10 codes I50 or Problem list in the electronic health record)\n* Most recent EF assessed within the past 24 months\n* Seen Mass General Brigham provider within the last 24 months\n* English or Spanish speaking\n\nExclusion Criteria:\n\n* LVEF\\<50% currently prescribed or intolerant to both ARNi and SGLT2i\n* LVEF\\>50% currently prescribed or intolerant to SGLT2i\n* Systolic blood pressure (SBP) \\<90 mmHg at last measure\n* Current severe aortic stenosis or severe aortic insufficiency\n* Known amyloid heart disease\n* Group 1 pulmonary arterial hypertension on disease-specific therapies (e.g., Ambrisentan, Bosentan, Epoprostenol, Treprostinil, Iloprost)\n* eGFR\\<30 mL/min/1.73m2\n* Active chemotherapy\n* Receiving end-of-life care or hospice\n* History of transplant, currently listed above status 4 or being evaluated for transplant\n* Outpatient intravenous inotrope use\n* Current use of a Ventricular Assist Device\n* Physician's discretion as inappropriate for remote management program",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "90 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Daniel Gabovitch, MGB",
+                    "role": "CONTACT",
+                    "phone": "6177633692",
+                    "email": "dgabovitch@bwh.harvard.edu"
+                },
+                {
+                    "name": "Alexander Blood, MD, MSc",
+                    "role": "CONTACT",
+                    "phone": "617-732-7144",
+                    "email": "ablood@bwh.harvard.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alexander J Blood",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000319",
+                    "term": "Adrenergic beta-Antagonists"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018674",
+                    "term": "Adrenergic Antagonists"
+                },
+                {
+                    "id": "D000018663",
+                    "term": "Adrenergic Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3671",
+                    "name": "Adrenergic beta-Antagonists",
+                    "asFound": "Laparoscopic Cholecystectomy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20746",
+                    "name": "Adrenergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20755",
+                    "name": "Adrenergic Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

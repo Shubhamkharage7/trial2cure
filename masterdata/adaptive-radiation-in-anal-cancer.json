@@ -1,0 +1,580 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05838391",
+            "orgStudyIdInfo": {
+                "id": "AAAU0074"
+            },
+            "organization": {
+                "fullName": "Columbia University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Adaptive Radiation in Anal Cancer",
+            "officialTitle": "Feasibility Study of Adaptive Radiotherapy for the Treatment of Locally-Advanced Anal Squamous Cell Carcinoma",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "adaptive-radiation-in-anal-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-04",
+            "studyFirstSubmitQcDate": "2023-04-27",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-11",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Lisa A. Kachnic",
+                "investigatorTitle": "Chu H. Chang Professor of Radiation Oncology; Chair, Department of Radiation Oncology",
+                "investigatorAffiliation": "Columbia University"
+            },
+            "leadSponsor": {
+                "name": "Columbia University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Varian Medical Systems",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a 20 patient pilot study to examine the feasibility of dose-adapted radiation therapy for the treatment of locally advanced anal squamous cell cancer. The tumor and a patient's anatomy may change during radiation treatment and daily adaption of the radiation plan (i.e., a new daily plan based on the anatomy of the day) may help to maximize the dose to the tumor and minimize the radiation dose to the normal surrounding organs.",
+            "detailedDescription": "The standard treatment for Human Papilloma Virus (HPV)-positive locally advanced anal cancer (described as a tumor that is greater than 4 cm in size, or with positive lymph nodes) is 54 Gy of radiation treatment to the anal canal and primary tumor planning total volume (PTV), 50.4-54 Gy to positive nodal PTV and 45 Gy to elective lymph node PTV with 5-fluorouracil (5-FU) and mitomycin-C chemotherapy administered at the same time as radiation in 30 fraction (treatments) delivery. During the six week course of radiotherapy, there is often a notable decrease in volume of the tumor (both primary and regional nodes), as early as one week into treatment, detected on weekly on-board Cone Beam Computed Tomography (CBCT), which is a scan done on the treatment machine while patients receive radiation to ensure that the tumor is being treated and normal tissue is not. However, CT simulation (a CT scan used to plan radiation treatment) and re-planning of the treatment to account for the tumor shrinkage are not routinely performed due to time, patient inconvenience and staffing resources. As such, daily adaptive radiation, which can generate a new CT-based plan using the anatomy of the day, may be a time efficient method to both plan and treat the patient."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Anal Squamous Cell Carcinoma"
+            ],
+            "keywords": [
+                "Anal cancer",
+                "Adaptive radiation",
+                "Chemotherapy",
+                "Radiotherapy"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Chemotherapy and Adaptive Radiation Treatment Planning",
+                    "type": "EXPERIMENTAL",
+                    "description": "Subjects will receive concurrent chemotherapy and radiation as part of their treatment for anal cancer. Subjects will receive standard of care 54 Gy of radiation, 5 days a week for 6 weeks. In addition, subjects will receive standard of care chemotherapy, with mitomycin C (10mg/meters squared IV on Day 1) and 5-Fluorouracil (1000mg/meters squared via IV on days 1-4 and 29-32) or capecitabine (825 mg/meters squared in two divided doses by mouth on days of radiotherapy).",
+                    "interventionNames": [
+                        "Radiation: Artificial Intelligence Guided Daily Radiotherapy Treatment Planning and Delivery",
+                        "Drug: Mitomycin-C",
+                        "Drug: 5-Fluorouracil",
+                        "Drug: Capecitabine"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "Artificial Intelligence Guided Daily Radiotherapy Treatment Planning and Delivery",
+                    "description": "Subjects will receive 54 Gy of radiation delivered 5 day a week for 6 weeks, 30 radiation treatments total. Intensity-Modulated photon radiation therapy will be delivered on a Varian Ethos linear accelerator. Daily image-guided radiation therapy (IGRT) is required. All treatments will have artificial-intelligence (AI) daily adaptations of the radiation plan to optimize the radiation dose to the targeted area and minimize radiation dose to the normal surrounding organs such as the bowel.",
+                    "armGroupLabels": [
+                        "Chemotherapy and Adaptive Radiation Treatment Planning"
+                    ],
+                    "otherNames": [
+                        "Adaptive RT Planning and Delivery"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Mitomycin-C",
+                    "description": "As part of the subjects' treatment, 10 mg/meters squared of Mitomycin C will be administered intravenously (IV-into the vein) on Day 1 and Day 29.",
+                    "armGroupLabels": [
+                        "Chemotherapy and Adaptive Radiation Treatment Planning"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "5-Fluorouracil",
+                    "description": "As part of the subjects' treatment, 1g/meters squared/day for 4 days of 5-Fluorouracil will be administered by continuous infusion on Days 1-4 (for 96 hours) and Days 29-32 (for 96 hours). 5-Fluorouracil or capecitabine will be administered per the physician's discretion.",
+                    "armGroupLabels": [
+                        "Chemotherapy and Adaptive Radiation Treatment Planning"
+                    ],
+                    "otherNames": [
+                        "5-FU"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Capecitabine",
+                    "description": "As part of the subjects' treatment, 825 mg/meters squared per day, divided into 2 daily doses, will be taken on days of radiotherapy. Capecitabine or 5-FU will be administered per the physician's discretion.",
+                    "armGroupLabels": [
+                        "Chemotherapy and Adaptive Radiation Treatment Planning"
+                    ],
+                    "otherNames": [
+                        "Xeloda"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Time to plan and deliver treatment fractions.",
+                    "description": "This is defined by the time the first cone beam computed tomography to the end of treatment delivery for each treatment.",
+                    "timeFrame": "Up to 6 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Acute Treatment Toxicity",
+                    "description": "Toxicity of treatment will be analyzed using NCI-CTCAE v5.0.",
+                    "timeFrame": "Up to 1 month post-treatment"
+                },
+                {
+                    "measure": "Complete Clinical Response Rate",
+                    "description": "Complete response to treatment (CR) is defined as absence of detectable cancer.",
+                    "timeFrame": "6 months following the completion of chemoradiation"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically proven, invasive primary squamous, basaloid or cloacogenic carcinoma of the anal canal.\n* American Joint Committee on Cancer (AJCC) 8th edition stage T2 \\> 4 cm, T3-4 or N1.\n* Age \u226518 years.\n* Eastern Cooperative Oncology Group (ECOG) performance status \u22642 (Karnofsky \u226560%).\n* Life expectancy of greater than 12 months.\n* Patients must have normal organ and marrow function as defined below:\n* leukocytes greater than or equal to 3,000/microliter\n* absolute neutrophil count greater than or equal to 1,500/microliter\n* platelets greater than or equal to 100,000/microliter\n* total bilirubin within normal institutional limits\n* Aspartate transaminase (AST)(SGOT)/Alanine transaminase (ALT)(SGPT) \u2264 2.5 \u00d7 institutional upper limit of normal\n* creatinine within normal institutional limits OR creatinine clearance \u226560 mL/min/1.73 m2 for patients with creatinine levels above institutional normal.\n* Females of childbearing potential and males must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of study participation, and for 6 months after completion of study therapy. All pregnancies must be reported.\n* Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Prior or co-existing invasive malignancy (except non-melanomatous skin cancer) unless disease free \u2265 2 years.\n* Prior chemotherapy or radiation for anal cancer.\n* Patients who have undergone complete surgical resection.\n* Presence of recurrent/metastatic disease.\n* Prior allergic reaction to 5-Fluorouracil or mitomycin C.\n* Artificial organ prosthetics, pacemakers or other implantable devices.\n* Prior radiotherapy to the pelvis that would result in overlap of radiation therapy fields.\n* Uncontrolled inter-current illness including but not limited to known history of HIV with cluster of differentiation 4 (CD4) count less than 200 or symptomatic cardiac disease.\n* Women who are pregnant or lactating.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Mariamne Reyna",
+                    "role": "CONTACT",
+                    "phone": "646-317-4244",
+                    "email": "mo2213@cumc.columbia.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Lisa Kachnic, MD",
+                    "affiliation": "Principal Investigator",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Columbia University Irving Medical Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mariamne Reyna",
+                            "role": "CONTACT",
+                            "phone": "646-317-4244",
+                            "email": "mo2213@cumc.columbia.edu"
+                        },
+                        {
+                            "name": "Lisa Kachnic, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "David Horowitz, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000002294",
+                    "term": "Carcinoma, Squamous Cell"
+                },
+                {
+                    "id": "D000001005",
+                    "term": "Anus Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000018307",
+                    "term": "Neoplasms, Squamous Cell"
+                },
+                {
+                    "id": "D000012004",
+                    "term": "Rectal Neoplasms"
+                },
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000001004",
+                    "term": "Anus Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4321",
+                    "name": "Anus Neoplasms",
+                    "asFound": "Anal Squamous Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5550",
+                    "name": "Carcinoma, Squamous Cell",
+                    "asFound": "Squamous Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20451",
+                    "name": "Neoplasms, Squamous Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14846",
+                    "name": "Rectal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4320",
+                    "name": "Anus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T362",
+                    "name": "Anal Cancer",
+                    "asFound": "Anal Cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000069287",
+                    "term": "Capecitabine"
+                },
+                {
+                    "id": "D000005472",
+                    "term": "Fluorouracil"
+                },
+                {
+                    "id": "D000008937",
+                    "term": "Mitomycins"
+                },
+                {
+                    "id": "D000016685",
+                    "term": "Mitomycin"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000964",
+                    "term": "Antimetabolites, Antineoplastic"
+                },
+                {
+                    "id": "D000000963",
+                    "term": "Antimetabolites"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000000903",
+                    "term": "Antibiotics, Antineoplastic"
+                },
+                {
+                    "id": "D000000477",
+                    "term": "Alkylating Agents"
+                },
+                {
+                    "id": "D000019384",
+                    "term": "Nucleic Acid Synthesis Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M377",
+                    "name": "Capecitabine",
+                    "asFound": "200",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8600",
+                    "name": "Fluorouracil",
+                    "asFound": "According",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11903",
+                    "name": "Mitomycins",
+                    "asFound": "Ipilimumab",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19053",
+                    "name": "Mitomycin",
+                    "asFound": "Ipilimumab",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4281",
+                    "name": "Antimetabolites",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4222",
+                    "name": "Anti-Bacterial Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4224",
+                    "name": "Antibiotics, Antitubercular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3820",
+                    "name": "Alkylating Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

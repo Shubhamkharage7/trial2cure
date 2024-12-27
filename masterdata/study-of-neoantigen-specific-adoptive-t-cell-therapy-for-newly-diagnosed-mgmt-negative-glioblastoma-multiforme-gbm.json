@@ -1,0 +1,642 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05685004",
+            "orgStudyIdInfo": {
+                "id": "TVI-AST-008"
+            },
+            "organization": {
+                "fullName": "TVAX Biomedical",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Study of Neoantigen-specific Adoptive T Cell Therapy for Newly Diagnosed MGMT Negative Glioblastoma Multiforme (GBM)",
+            "officialTitle": "Randomized Phase 2b Study of Safety And Efficacy Of TVI-Brain-1 Combined With Conformal Radiotherapy And Temozolomide Vs Standard Therapy In Newly Diagnosed MGMT Negative Glioblastoma Multiforme (GBM)",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "study-of-neoantigen-specific-adoptive-t-cell-therapy-for-newly-diagnosed-mgmt-negative-glioblastoma-multiforme-gbm"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+                "date": "2023-09-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-12-22",
+            "studyFirstSubmitQcDate": "2023-01-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-01-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-23",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "TVAX Biomedical",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This randomized study is designed to compare the combination of TVI-Brain-1 immunotherapy and standard therapy compared to standard therapy alone as a treatment for newly diagnosed MGMT unmethylated glioblastoma patients. The patients' own cancer cells collected after surgery are combined into a vaccine to produce an immune response that significantly increases the number of cancer neoantigen-specific effector T cell precursors in the patient's body. These cancer neoantigen-specific T cells are harvested from the blood, subsequently stimulated and expanded, and infused back into the patient.",
+            "detailedDescription": "This randomized study is designed to compare the combination of TVI-Brain-1 immunotherapy and standard therapy compared to standard therapy alone as a treatment for newly diagnosed MGMT unmethylated glioblastoma patients. The general procedures include the collection and testing of cancer tissue samples after surgery and chemoradiation therapy (radiation and temozolomide). For the patients randomized into the investigational study treatment group, they will also receive two vaccinations created from their own cancer cells, undergo leukapheresis to collect immune T-cells from their blood, and transfer of those activated effector T-cells after chemoradiation therapy. All patients are followed with MRIs at follow-up visits."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Glioblastoma Multiforme of Brain"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2",
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "maskingDescription": "Blinded over-read of sequential MRI assessments",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 120,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Standard of Care",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects will have standard surgery which will be followed approximately 5 weeks later by combined radiotherapy and chemotherapy consisting of temozolomide 75 mg/m2 dosed once daily beginning on the first day of radiotherapy and continuing until the final day of radiotherapy. Subjects will receive adjuvant temozolomide, and proceed with post therapy surveillance.",
+                    "interventionNames": [
+                        "Procedure: Standard of Care",
+                        "Radiation: Radiotherapy",
+                        "Drug: Temozolomide"
+                    ]
+                },
+                {
+                    "label": "Interventional TVI-Brain-1 Autologous Vaccine and activated autologous blood-derived t cells",
+                    "type": "EXPERIMENTAL",
+                    "description": "TVI-Brain-1 immunotherapy is integrated with radiation and temozolomide in the test group in the following manner: 1) Subjects undergo surgical resection of their cancer and are tapered off steroids. 2) Subjects receive the first vaccination of TVI-Brain-1 as soon as the laboratory prepared vaccine is available for use (approximately 7 - 14 days following surgery). 3) Subjects receive a second vaccination 7-10 days later. 4) Subjects are leukapheresed to obtain immune T cells for ex vivo-activation. 5) Subjects' T cells are stored frozen until after chemoradiotherapy is completed. 6) Following chemoradiotherapy Subjects are infused with activated effector T cells followed by a 10-day course of low-dose interleukin 2 (IL-2). 7) Subjects then proceed with post therapy surveillance.",
+                    "interventionNames": [
+                        "Biological: TVI-Brain-1",
+                        "Procedure: Standard of Care",
+                        "Radiation: Radiotherapy",
+                        "Drug: Temozolomide"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "TVI-Brain-1",
+                    "description": "Attenuated autologous cancer cells and activated autologous blood-derived t cells",
+                    "armGroupLabels": [
+                        "Interventional TVI-Brain-1 Autologous Vaccine and activated autologous blood-derived t cells"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Standard of Care",
+                    "description": "Surgery for tumor removal or debulking to minimize tumor burden",
+                    "armGroupLabels": [
+                        "Interventional TVI-Brain-1 Autologous Vaccine and activated autologous blood-derived t cells",
+                        "Standard of Care"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Radiotherapy",
+                    "description": "Conformal radiotherapy consists of fractionated focal irradiation at a dose of 2 Gy per fraction given once daily five days per week (Monday through Friday) over a period of six weeks.",
+                    "armGroupLabels": [
+                        "Interventional TVI-Brain-1 Autologous Vaccine and activated autologous blood-derived t cells",
+                        "Standard of Care"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Temozolomide",
+                    "description": "All Subjects receive 75 mg/m2 of temozolomide daily beginning on the first day of radiotherapy and continuing until the completion of radiotherapy. Standard of care Subjects will also receive adjuvant temozolomide .",
+                    "armGroupLabels": [
+                        "Interventional TVI-Brain-1 Autologous Vaccine and activated autologous blood-derived t cells",
+                        "Standard of Care"
+                    ],
+                    "otherNames": [
+                        "Chemotherapy"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Survival",
+                    "description": "All Subjects will be evaluated and contacted to evaluate their status",
+                    "timeFrame": "From date of randomization until the date of death from any cause assessed up to 24 months after randomization."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Progression-free survival",
+                    "description": "Time to progression is evaluated by review and analysis of serial MRI's taken at specific Time to progression is evaluated by review and analysis of serial MRI's taken at specific timepoints",
+                    "timeFrame": "From date of randomization until the date of first documented progression assessed up to 24 months after randomization"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Number of participants with treatment-related adverse events as assessed by CTCAE v4.0",
+                    "description": "Assessment of changes in patient through Physical Examination",
+                    "timeFrame": "Through study completion, an average of 2 years"
+                },
+                {
+                    "measure": "Immunogenicity",
+                    "description": "Delayed-type hypersensitivity (DTH) skin testing using attenuated autologous cancer cells will be performed to assess the immunogenicity of the Subject's cancer.",
+                    "timeFrame": "Assessed at 24 hours after each vaccine administration"
+                },
+                {
+                    "measure": "Other genetic and immunologic parameters",
+                    "description": "The study is also designed to determine whether a wide variety of genetic and immunologic parameters that are monitored during and following treatment correlate with clinical outcomes",
+                    "timeFrame": "Assessed at 24 hours after each vaccine administration"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Newly diagnosed MGMT unmethylated glioblastoma multiforme (no prior treatment)\n* Sufficient cancer tissue obtained to allow for manufacture of autologous cancer cell vaccines\n* The attenuated autologous cancer cell product generated has satisfied the product release criteria as determined by the sponsor quality control department\n* Medical history, physical examination and laboratory testing performed within approximately 7 days before enrollment revealing kidney and liver organ function within normal limits\n* not currently receiving glucocorticoids and have been off glucocorticoids for at least 24 hours prior to vaccination as well as when they receive the T cell infusion.\n* Patient function assessment (Karnofsky score is \\> 60)\n* a life expectancy of \\> 12 weeks.\n* Hemoglobin is \\> 10 g/dL (may be transfused)\n* White blood cell count is \\> 3,000 cells/microliter (mcL) of blood.\n* Platelet count is \\> 100,000 platelets per mcL of blood (transfusion independent)\n* Lymphocyte count is \\> 1,000 cells/mcL of blood.\n\nExclusion Criteria:\n\n* another concomitant life-threatening disease (not including glioblastoma multiforme)\n* a second malignancy that is not in remission as determined by the clinical investigator. Exception: squamous or basal cell carcinoma of the skin.\n* requirement for treatment with glucocorticoids to control brain swelling\n* presence of active autoimmune disease that is currently being actively treated.\n* psychological, familial, sociological or geographical conditions that do not permit adequate medical follow-up and compliance with the study protocol.\n* Current pregnancy or a plan to become pregnant within 1-year following the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jean Aguiar",
+                    "role": "CONTACT",
+                    "phone": "1 913 492 2221",
+                    "email": "info@tvaxbiomedical.com"
+                },
+                {
+                    "name": "President and CEO",
+                    "role": "CONTACT",
+                    "phone": "1 913 492 2221",
+                    "email": "info@tvaxbiomedical.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jean Aguiar, APRN",
+                    "affiliation": "TVAX Biomedical, Inc",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cedar-Sanai Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90048",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "John Yu, MD",
+                            "role": "CONTACT",
+                            "phone": "310-423-7900"
+                        },
+                        {
+                            "name": "John Yu, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "University of Southern California Keck School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90048",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Tran, MD",
+                            "role": "CONTACT",
+                            "phone": "323-442-1100",
+                            "email": "dtran642@usc.edu"
+                        },
+                        {
+                            "name": "Francis Chow, MD",
+                            "role": "CONTACT",
+                            "phone": "323-442-1100",
+                            "email": "chow@usc.edu"
+                        },
+                        {
+                            "name": "David Tran, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "Advent Health",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Orlando",
+                    "state": "Florida",
+                    "zip": "32801",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sherif Makar, MD",
+                            "role": "CONTACT",
+                            "phone": "407-303-2770"
+                        },
+                        {
+                            "name": "Sherif Makar, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 28.53834,
+                        "lon": -81.37924
+                    }
+                },
+                {
+                    "facility": "Aaron Mammoser",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30309",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Aaron Mammoser, MD",
+                            "role": "CONTACT",
+                            "phone": "404-605-2050",
+                            "email": "Aaron.Mammoser@piedmont.org"
+                        },
+                        {
+                            "name": "Andrew Sloan, MD",
+                            "role": "CONTACT",
+                            "phone": "(404)605-2050",
+                            "email": "Andrew.Sloan@piedmont.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "University of Kansas Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Kansas City",
+                    "state": "Kansas",
+                    "zip": "66061",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Tolga Tuncer, MD",
+                            "role": "CONTACT",
+                            "phone": "913-588-1227",
+                            "email": "ttuncer@kumc.edu"
+                        },
+                        {
+                            "name": "Anna Davis",
+                            "role": "CONTACT",
+                            "phone": "913-588-0242",
+                            "email": "adavis43@kumc.edu"
+                        },
+                        {
+                            "name": "Tolga Tuncer, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.11417,
+                        "lon": -94.62746
+                    }
+                },
+                {
+                    "facility": "Capital Health",
+                    "status": "RECRUITING",
+                    "city": "Pennington",
+                    "state": "New Jersey",
+                    "zip": "08534",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Salacz, M.D.",
+                            "role": "CONTACT",
+                            "phone": "609-537-5638",
+                            "email": "MSalacz@capitalhealth.org"
+                        },
+                        {
+                            "name": "Navid Redjal, M.D.",
+                            "role": "CONTACT",
+                            "phone": "609-537-5638",
+                            "email": "Nredjal@capitalhealth.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.32844,
+                        "lon": -74.79072
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "1407433",
+                    "type": "BACKGROUND",
+                    "citation": "Holladay FP, Heitz T, Chen YL, Chiga M, Wood GW. Successful treatment of a malignant rat glioma with cytotoxic T lymphocytes. Neurosurgery. 1992 Sep;31(3):528-33. doi: 10.1227/00006123-199209000-00015."
+                },
+                {
+                    "pmid": "1403119",
+                    "type": "BACKGROUND",
+                    "citation": "Holladay FP, Heitz T, Wood GW. Antitumor activity against established intracerebral gliomas exhibited by cytotoxic T lymphocytes, but not by lymphokine-activated killer cells. J Neurosurg. 1992 Nov;77(5):757-62. doi: 10.3171/jns.1992.77.5.0757."
+                },
+                {
+                    "pmid": "9225000",
+                    "type": "BACKGROUND",
+                    "citation": "Plautz GE, Touhalisky JE, Shu S. Treatment of murine gliomas by adoptive transfer of ex vivo activated tumor-draining lymph node cells. Cell Immunol. 1997 Jun 15;178(2):101-7. doi: 10.1006/cimm.1997.1140."
+                },
+                {
+                    "pmid": "16817692",
+                    "type": "BACKGROUND",
+                    "citation": "Sloan AE, Dansey R, Zamorano L, Barger G, Hamm C, Diaz F, Baynes R, Wood G. Adoptive immunotherapy in patients with recurrent malignant glioma: preliminary results of using autologous whole-tumor vaccine plus granulocyte-macrophage colony-stimulating factor and adoptive transfer of anti-CD3-activated lymphocytes. Neurosurg Focus. 2000 Dec 15;9(6):e9. doi: 10.3171/foc.2000.9.6.10."
+                },
+                {
+                    "pmid": "10570748",
+                    "type": "BACKGROUND",
+                    "citation": "Wood GW, Turner T, Wang YY, Holladay FP. Immune rejection of intracerebral gliomas using lymphocytes from glioma-bearing rats. J Immunother. 1999 Nov;22(6):497-505. doi: 10.1097/00002371-199911000-00004."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2022-09-16",
+                    "uploadDate": "2022-12-22T11:30",
+                    "filename": "ICF_000.pdf",
+                    "size": 327622
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000005909",
+                    "term": "Glioblastoma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001254",
+                    "term": "Astrocytoma"
+                },
+                {
+                    "id": "D000005910",
+                    "term": "Glioma"
+                },
+                {
+                    "id": "D000018302",
+                    "term": "Neoplasms, Neuroepithelial"
+                },
+                {
+                    "id": "D000017599",
+                    "term": "Neuroectodermal Tumors"
+                },
+                {
+                    "id": "D000009373",
+                    "term": "Neoplasms, Germ Cell and Embryonal"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009380",
+                    "term": "Neoplasms, Nerve Tissue"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9019",
+                    "name": "Glioblastoma",
+                    "asFound": "Glioblastoma Multiforme",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4561",
+                    "name": "Astrocytoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9020",
+                    "name": "Glioma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20446",
+                    "name": "Neoplasms, Neuroepithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19845",
+                    "name": "Neuroectodermal Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20388",
+                    "name": "Neuroectodermal Tumors, Primitive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12318",
+                    "name": "Neoplasms, Germ Cell and Embryonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12325",
+                    "name": "Neoplasms, Nerve Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2518",
+                    "name": "Glioblastoma",
+                    "asFound": "Glioblastoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2519",
+                    "name": "Glioma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4092",
+                    "name": "Neuroepithelioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000077204",
+                    "term": "Temozolomide"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018906",
+                    "term": "Antineoplastic Agents, Alkylating"
+                },
+                {
+                    "id": "D000000477",
+                    "term": "Alkylating Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M1692",
+                    "name": "Temozolomide",
+                    "asFound": "Cervical",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2853",
+                    "name": "Immunomodulating Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17360",
+                    "name": "Vaccines",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10411",
+                    "name": "Interleukin-2",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20942",
+                    "name": "Antineoplastic Agents, Alkylating",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3820",
+                    "name": "Alkylating Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

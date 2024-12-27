@@ -1,0 +1,222 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06056063",
+            "orgStudyIdInfo": {
+                "id": "UPCC 02923"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "852966",
+                    "type": "OTHER",
+                    "domain": "Abramson Cancer Center"
+                }
+            ],
+            "organization": {
+                "fullName": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "Project Looking-Glass Evaluation",
+            "officialTitle": "Evaluation of Novel CT Imaging for Simulation on a Linear Accelerator",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "project-looking-glass-evaluation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-11-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-28",
+            "studyFirstSubmitQcDate": "2023-09-20",
+            "studyFirstPostDateStruct": {
+                "date": "2023-09-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Varian Medical Systems",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Pilot study to validate the new design and workflow of Cone-Beam CT imaging for radiation therapy treatment simulation.",
+            "detailedDescription": "This study is a prospective, non-randomized imaging evaluation study. A cohort of subjects undergoing standard of care radiation therapy will be selected based on malignancies from six disease sites. The Halcyon 4.0 images acquired in place of standard evaluation CT scans during the course of treatment will be used for target volume delineation and normal structures segmentation. Treatment plans will be recalculated based on the Halcyon 4.0 images from this system and compared to the original treatment plan. Dose differences will be evaluated. Two-tailed t-test will be used to compare the statistical significance of the dosimetric results as well as the volumetric differences among target volume and the volumes of organs at risk."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cone-Beam Computed Tomography"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 36,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Evaluate the Halcyon 4.0 obtained CBCT in comparison to a CT SIM for radiotherapy dose planning",
+                    "type": "EXPERIMENTAL",
+                    "description": "To evaluate the Halcyon 4.0 as a machine that will obtain CBCT that will be comparable to a CT simulator for radiotherapy treatment planning dose calculation. The novel CBCT images of subjects with malignancies from six disease sites obtained during the course of treatment for evaluation in place of the standard evaluation CBCT will be compared to their initial standard conventional CT simulation images used for treatment planning.",
+                    "interventionNames": [
+                        "Device: Halcyon 4.0"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Halcyon 4.0",
+                    "description": "This Halcyon 4.0 is a new imaging hardware recently developed by Varian and approved by the FDA.",
+                    "armGroupLabels": [
+                        "Evaluate the Halcyon 4.0 obtained CBCT in comparison to a CT SIM for radiotherapy dose planning"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Acceptability of image quality of the novel cone-beam CT imaging system compared to that of standard cone-beam CT imaging and that of conventional fan beam CT imaging used for radiotherapy planning purposes",
+                    "description": "Qualitative results (Yes is acceptable/No is not acceptable) will be reported as tabulated data to demonstrate the differences from the standard practice",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Ease of use of the novel cone-beam CT imaging system compared to standard practice",
+                    "description": "Ease of use of the novel cone-beam CT imaging system on a scale of 1 (very easy to use, no difficulty) to 5 (unable to use due to difficulty)",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Quantitative comparison of the image quality of the novel cone-beam CT imaging system to that of standard cone-beam CT imaging and that of conventional fan beam CT imaging used for radiotherapy planning purposes",
+                    "description": "A scale of Better/Worse/Equal will be used for metrics such as CBCT image artifact, CBCT image quality for OAR contouring, CBCT image quality for GTV contouring, motion artifacts, auto-segmentation ability, electron density similarity",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Statistical significance of quantitative comparison of the image quality of the novel cone-beam CT imaging system and standard practice",
+                    "description": "For situations that the quantitative results will be measured, such as the structure volume or predicted electron densities etc., statistical significance will be calculated.",
+                    "timeFrame": "1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Evaluation of the suitability and workflow of the novel CBCT images for radiation treatment planning and dose calculation.",
+                    "description": "The secondary endpoint is to compare the accuracies of dose and volume calculations to the standard arm using the conventional CT simulation.",
+                    "timeFrame": "1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects will be treated with external beam radiotherapy at the Perelman Center for Advanced Medicine for any of the following malignancies: head-and-neck, thoracic, breast, gastrointestinal, gynecologic, or genitourinary.\n* Age \u2265 18 years\n* Ability to understand the requirements of the study and to give written informed consent, as determined by the treating physician\n* Availability of a complete set of treatment plans, including CT simulation images, target and normal structure contours, and radiation treatment prescriptions\n\nExclusion Criteria:\n\n* Subjects who are pregnant or have plans for pregnancy during the period of treatment.\n* Any malignancy not stated above.\n* Those unable to be treated on any linear accelerator (whether Truebeam\u2122 or Halcyon\u2122) unit either due to subject anatomy or treatment plan.\n* Those undergoing proton therapy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Wei Xu",
+                    "role": "CONTACT",
+                    "phone": "215-662-6083",
+                    "email": "weixu@pennmedicine.upenn.edu"
+                },
+                {
+                    "name": "Karen Tang",
+                    "role": "CONTACT",
+                    "phone": "215-662-3546",
+                    "email": "Karen.Tang1@pennmedicine.upenn.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Michelle Alonso-Basanta, MD, PhD",
+                    "affiliation": "University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Perelman Center for Advanced Medicine",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Karen Tang",
+                            "role": "CONTACT",
+                            "phone": "215-662-3546",
+                            "email": "Karen.Tang1@Pennmedicine.upenn.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

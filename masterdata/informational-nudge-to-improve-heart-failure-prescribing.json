@@ -1,0 +1,358 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05986695",
+            "orgStudyIdInfo": {
+                "id": "PPO 22-091"
+            },
+            "organization": {
+                "fullName": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "briefTitle": "Informational Nudge to Improve Heart Failure Prescribing",
+            "officialTitle": "Preliminary Implementation of an Informational Nudge to Improve Heart Failure Prescribing",
+            "acronym": "Nudge",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "informational-nudge-to-improve-heart-failure-prescribing"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-06-09",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-12",
+            "studyFirstSubmitQcDate": "2023-08-02",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "collaborators": [
+                {
+                    "name": "Arizona State University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study addresses a critical gap of care for Veterans with heart failure (HF). Only 1/3 or fewer eligible Veterans are receiving recommended SGLT2 and MRA therapies that save lives and prevents HF hospitalizations. The investigators will compare the effect of clinician directed nudges as strategies to improve the health of Veterans with HF.",
+            "detailedDescription": "This study addresses a critical gap in quality of care for Veterans with heart failure (HF). Only 1/3 or fewer eligible Veterans are receiving SGLT2 inhibitors and mineralocorticoid receptor antagonists, both medications that save lives and prevents HF hospitalizations. The investigators will combine insights from behavioral science and quality improvement science to create two types of 'nudges' - informational alerts and peer comparison feedback - to increase prescribing of these medications. The investigators will create two types of 'nudges' - informational alerts and peer comparison feedback - to increase prescribing of these medications. The investigators will compare the effect of these two nudge strategies alone and in combination compared to usual care. This project will develop simple, scalable, and low-cost strategies to improve the health of Veterans with HF."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure"
+            ],
+            "keywords": [
+                "Sodium-Glucose Transporter 2 Inhibitors",
+                "Mineralocorticoid Receptor Antagonists",
+                "Economics, Behavioral",
+                "feedback",
+                "medical audit"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "interventionModelDescription": "This is a type 3 hybrid (implementation focused), four group, pragmatic trial of cardiology and primary care clinicians at a single VA medical center. The trial will include a 3-month preintervention period and 3-month intervention period. Clinicians will be randomized to one of four arms: usual care, informational alert, peer comparison feedback, and combination of alert and peer comparison.",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "maskingDescription": "Statistician will be blinded to treatment assignment.",
+                    "whoMasked": [
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Peer Comparison Report",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Clinicians assigned to peer comparison, will receive messages by secure email every two weeks regarding their SGLT2i and MRA prescribing performance.",
+                    "interventionNames": [
+                        "Behavioral: Peer comparison report"
+                    ]
+                },
+                {
+                    "label": "Alert",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Clinicians in the alert arm will receive an alert two business days prior to a patient's upcoming appointment. Clinicians will receive approximately two alerts per week.",
+                    "interventionNames": [
+                        "Behavioral: Alert"
+                    ]
+                },
+                {
+                    "label": "Alert and Peer Comparison",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "The combined alert and peer comparison arm will receive both interventions.",
+                    "interventionNames": [
+                        "Behavioral: Alert",
+                        "Behavioral: Peer comparison report"
+                    ]
+                },
+                {
+                    "label": "Control",
+                    "type": "NO_INTERVENTION",
+                    "description": "No alert or peer comparison"
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Alert",
+                    "description": "Interruptive alert. The prototype alert is in the form of a chart note with evidence-based practice guidelines that will actively display in the clinician's list of daily alerts (like an inbox) that must be cleared daily. It is interruptive because can only be dismissed from the clinician's inbox list after signing the note",
+                    "armGroupLabels": [
+                        "Alert",
+                        "Alert and Peer Comparison"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Peer comparison report",
+                    "description": "Clinicians will receive an email describing their recent SGLT2 and MRA prescribing performance relative to their peers.",
+                    "armGroupLabels": [
+                        "Alert and Peer Comparison",
+                        "Peer Comparison Report"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Effectiveness",
+                    "description": "The primary effectiveness outcome is the proportion of SGLT2 or MRA prescriptions in eligible HF patients in the three intervention groups compared with the control group within 30 days of appointment. Thirty days is a common time interval for HF outcomes assessment and allows for chart documentation, care coordination, laboratory testing, and medication prescribing that may occur days after a patient encounter. The investigators will record all SGLT2 or MRA prescriptions, including those from non-targeted clinicians, given that nudge interventions, especially the informational alert, may impact other clinicians directly (e.g., view alert in EHR) or indirectly (e.g., referral from targeted clinician).",
+                    "timeFrame": "30 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Reach-Clinician",
+                    "description": "Reach will be measured at the clinician level as the number of unique clinicians who received an informational alert or peer comparison.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Incidence of Treatment Emergent Adverse Events",
+                    "description": "The investigators will measure safety as the number of discontinued prescribed medicine due to suspected adverse effects within 30 days of the nudge interventions.",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "Implementation-Acceptability",
+                    "description": "Implementation will be assessed by clinician-directed survey of Acceptability of intervention Measure. Likert Scale: minimum 1 and maximum 5. 5 being the highest.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Reach-Patient",
+                    "description": "At the patient level, Reach will be measured as the number of informational alerts delivered for unique patient visits and unique patients.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Reach-Comparison of Strategies",
+                    "description": "the investigators will measure the proportion of alerts relative to the total number of eligible patients with HF; this denominator will allow for comparisons of representativeness of the alert strategy.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Implementation-Appropriateness",
+                    "description": "Implementation will be assessed by clinician direct survey of Intervention Appropriateness Measure. Likert scale: minimum 1 and maximum 5. 5 being the highest.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Implementation-Feasibility",
+                    "description": "Implementation will be assessed by clinician direct survey of Feasibility of Intervention Measure. Likert scale: minimum 1 and maximum 5. 5 being the highest.",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Primary care and cardiology clinicians at Southern AZ VA Health Care System working in outpatient clinic setting\n\nExclusion Criteria:\n\n* Clinicians who are in training status (resident, fellow) will be excluded.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jenice Ria S Guzman, PhD MSN",
+                    "role": "CONTACT",
+                    "phone": "(520) 792-1450",
+                    "email": "JeniceRia.Guzman@va.gov"
+                },
+                {
+                    "name": "Eric E Glenn",
+                    "role": "CONTACT",
+                    "phone": "(520) 792-1450",
+                    "phoneExt": "15446",
+                    "email": "Eric.Glenn@va.gov"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Sandesh Dev, MD",
+                    "affiliation": "Southern Arizona VA Health Care System, Tucson, AZ",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Southern Arizona VA Health Care System, Tucson, AZ",
+                    "status": "RECRUITING",
+                    "city": "Tucson",
+                    "state": "Arizona",
+                    "zip": "85723-0001",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Rene C Hearns, MPA BBA",
+                            "role": "CONTACT",
+                            "phone": "216-791-2300",
+                            "phoneExt": "5835",
+                            "email": "Rene.Hearns@va.gov"
+                        },
+                        {
+                            "name": "Sandesh Dev, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.22174,
+                        "lon": -110.92648
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "There is a plan to make IPD and related data dictionaries available.\n\nA Limited Dataset (LDS) will be created and shared pursuant to a Data Use Agreement (DUA) appropriately limiting use of the dataset and prohibiting the recipient from identifying or re-identifying (or taking steps to identify or re-identify) any individual whose data are included in the dataset.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "ANALYTIC_CODE"
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M1691",
+                    "name": "Sodium-Glucose Transporter 2 Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3797",
+                    "name": "Mineralocorticoid Receptor Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11871",
+                    "name": "Mineralocorticoids",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

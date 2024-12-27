@@ -1,0 +1,341 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04162678",
+            "orgStudyIdInfo": {
+                "id": "2N-19-3"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2019-05861",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                },
+                {
+                    "id": "2N-19-3",
+                    "type": "OTHER",
+                    "domain": "USC / Norris Comprehensive Cancer Center"
+                },
+                {
+                    "id": "P30CA014089",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/P30CA014089"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Southern California",
+                "class": "OTHER"
+            },
+            "briefTitle": "Fluid Biopsy for the Diagnosis of Lung Cancer",
+            "officialTitle": "Establishing a Diagnosis of Lung Cancer Through a Fluid Biopsy",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "fluid-biopsy-for-the-diagnosis-of-lung-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-01-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01-13",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-01-13",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-11-11",
+            "studyFirstSubmitQcDate": "2019-11-11",
+            "studyFirstPostDateStruct": {
+                "date": "2019-11-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-06-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-06-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Southern California",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Cancer Institute (NCI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This trial collects and studies blood samples via fluid biopsy for the diagnosis of lung cancer. Studying blood samples in the laboratory may help doctors develop a blood test for lung cancer in the future and provide a better way to screen patients for lung cancer.",
+            "detailedDescription": "PRIMARY OBJECTIVE:\n\nI. To estimate the sensitivity and specificity of the fluid biopsy in establishing a diagnosis of bronchogenic carcinoma.\n\nSECONDARY OBJECTIVES:\n\nI. To determine the accuracy of determination of the histologic subtype of bronchogenic lung cancer.\n\nII. To determine the relative contribution of cell based high definition circulating tumor cell assay (HD-CTC) and imaging mass cytometry (IMC) and plasma based circulating tumor deoxyribonucleic acid (ctDNA) assays in determination of diagnosis and histologic subtype.\n\nOUTLINE:\n\nPatients undergo collection of blood samples on day 1 for analysis via high definition (HD)-single cell analysis (SCA) fluid biopsy. Medical charts of patients are reviewed at 3 months post-biopsy or computed tomography (CT) screening.\n\nAfter completion of study, patients are followed for up to 1 year."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Lung Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Blood"
+            },
+            "enrollmentInfo": {
+                "count": 75,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Diagnostic (blood collection via fluid biopsy, lab analysis)",
+                    "description": "Patients undergo collection of blood samples on day 1 for analysis via HD-SCA fluid biopsy. Medical charts of patients are reviewed at 3 months post-biopsy or CT screening.",
+                    "interventionNames": [
+                        "Procedure: Biospecimen Collection",
+                        "Other: Laboratory Biomarker Analysis",
+                        "Procedure: Liquid Biopsy",
+                        "Other: Medical Chart Review"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biospecimen Collection",
+                    "description": "Undergo collection of blood via HD-SCA fluid biopsy",
+                    "armGroupLabels": [
+                        "Diagnostic (blood collection via fluid biopsy, lab analysis)"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Laboratory Biomarker Analysis",
+                    "description": "Correlative studies",
+                    "armGroupLabels": [
+                        "Diagnostic (blood collection via fluid biopsy, lab analysis)"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Liquid Biopsy",
+                    "description": "Undergo collection of blood via HD-SCA fluid biopsy",
+                    "armGroupLabels": [
+                        "Diagnostic (blood collection via fluid biopsy, lab analysis)"
+                    ],
+                    "otherNames": [
+                        "Plasma Biopsy"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Medical Chart Review",
+                    "description": "Review of medical chart",
+                    "armGroupLabels": [
+                        "Diagnostic (blood collection via fluid biopsy, lab analysis)"
+                    ],
+                    "otherNames": [
+                        "Chart Review"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Clinical diagnosis of lung cancer",
+                    "description": "Descriptive statistics including sensitivity, specificity, positive, and negative predictive value will be tabulated.",
+                    "timeFrame": "Within 90 days of tissue biopsy"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Scheduled to undergo a diagnostic biopsy for possible lung cancer or\n* Completed a diagnostic lung cancer biopsy in the prior 2 weeks and has not yet undergone treatment or\n* Planning or completed in the last 2 weeks a CT lung cancer screen\n* Ability to understand and the willingness to sign a written informed consent\n\nExclusion Criteria:\n\n* Patients who have had chemotherapy or radiotherapy within 4 weeks prior to entering the study\n* Known other solid tumor malignancy other than lung cancer requiring ongoing active treatment",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients undergoing a biopsy or CT screening for lung cancer",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sandy Tran, RN",
+                    "role": "CONTACT",
+                    "phone": "323-865-0451",
+                    "email": "Sandy.Tran@med.usc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jorge J Nieva, MD",
+                    "affiliation": "University of Southern California",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Los Angeles County-USC Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sandy Tran, RN",
+                            "role": "CONTACT",
+                            "phone": "323-865-0451",
+                            "email": "sandy.tran@med.usc.edu"
+                        },
+                        {
+                            "name": "Jorge J. Nieva, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "USC / Norris Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sandy Tran, RN",
+                            "role": "CONTACT",
+                            "phone": "323-865-0451",
+                            "email": "sandy.tran@med.usc.edu"
+                        },
+                        {
+                            "name": "Jorge J. Nieva, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

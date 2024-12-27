@@ -1,0 +1,324 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05471232",
+            "orgStudyIdInfo": {
+                "id": "801938"
+            },
+            "organization": {
+                "fullName": "Rady Pediatric Genomics & Systems Medicine Institute",
+                "class": "OTHER"
+            },
+            "briefTitle": "Mental Health Crises in Youth With IDDs",
+            "officialTitle": "Understanding Mental Health Crises in Youth With Intellectual and Developmental Disabilities",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "mental-health-crises-in-youth-with-idds"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-07-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-07-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-07-08",
+            "studyFirstSubmitQcDate": "2022-07-20",
+            "studyFirstPostDateStruct": {
+                "date": "2022-07-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-04-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-04-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Aaron Besterman",
+                "investigatorTitle": "Psychiatrist, Clinical Investigator",
+                "investigatorAffiliation": "Rady Pediatric Genomics & Systems Medicine Institute"
+            },
+            "leadSponsor": {
+                "name": "Rady Pediatric Genomics & Systems Medicine Institute",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is an unmatched, case-control study of 150 youth (Ages 7-17) with a parent reported Intellectual Developmental Disability (IDD) who present to Rady Children's Hospital Emergency Department with a Mental Health Crisis (MHC). Rady Children's Institute for Genomic Medicine (RCIGM) will collect biological samples (such as blood) of these participants to study their genomes, medical and psychiatric profiles to better understand specific characteristics that may predispose them to MHC's. The 150 youth will be compared to historical, publicly available cohorts of youth with IDD's",
+            "detailedDescription": "Approximately 7 million youth in the US have intellectual and developmental disabilities (IDDs) and about 10% of youth with IDDs are admitted to hospitals due to a mental health crisis (MHC) each year. With insufficient community services to support youth with IDDs and less than half of US mental health facilities providing services for them, emergency departments (EDs) have boarding rates for children with IDDs 2-3 times higher than peers without IDDs, part of a national youth mental health crisis. There is a critical need to identify youth with IDDs at risk for MHCs prior to onset. Machine-learning based electronic health record (EHR) analysis and whole genome sequencing (WGS) will be used to identify biopsychosocial and genomic risk factors that put youth with IDDs at risk for MHCs so that at-risk patients can be identified early and improved models of psychiatric care can be developed. Demographic, biomedical, socioeconomic, and service use data will be extracted from Rady Children's Hospital San Diego (RCHSD) EHR for 150 youth with IDDs presenting to the ED for MHCs. This experimental group will be compared to two historical groups of youth from the RCHSD EHR: 1)\\~4000 youth with IDDs and psychiatric comorbidities but no history of MHCs and 2) \\~4000 youth with IDDs without any psychiatric history. A machine learning-based network model will be used to classify psychiatric outcomes for youth with IDDs and perform leave-one-out cross validation to estimate the performance of these models and calculate metrics of classification performance. WGS will be completed for the cohort of 150 youth and neuropsychiatric polygenic scores (PGS) will be derived and their effect sizes compared to two groups of youth with IDDs from the Simons Simplex Collection: 1) \\~50 youth with IDDs and severe psychiatric comorbidities and 2) \\~1000 youth with IDDs and minimal or no psychiatric comorbidities. The rate of pathogenic rare variants will also be compared across cohorts. By applying machine learning methods to EHR data leveraging WGS, a combination of factors will be identified that predict psychiatric outcomes in youth with IDDs with high accuracy to allow for earlier intervention."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Intellectual Disability"
+            ],
+            "keywords": [
+                "Genomic",
+                "Intellectual and Developmental Disability",
+                "Mental Health Crisis",
+                "Pediatric",
+                "Rady Children's Hospital"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Using whole genome sequencing, with biospecimens stored at RCIGM laboratory, evaluate the rate of pathogenic rare variants detected between cohorts."
+            },
+            "enrollmentInfo": {
+                "count": 150,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Enrollees",
+                    "description": "These participants will be subject to whole genome sequencing to identify genetic changes and a EHR-Based network model to predict psychiatric outcomes in youth with IDDs.",
+                    "interventionNames": [
+                        "Genetic: Genomic sequencing and molecular diagnostic results, if any.",
+                        "Other: EHR-Based Network Model"
+                    ]
+                },
+                {
+                    "label": "Historical Control Group",
+                    "description": "A historical control group from public databases will be used to compare against enrollees."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "GENETIC",
+                    "name": "Genomic sequencing and molecular diagnostic results, if any.",
+                    "description": "Genomic sequencing results may be used for diagnosis and treatment of participants.",
+                    "armGroupLabels": [
+                        "Enrollees"
+                    ],
+                    "otherNames": [
+                        "Pediatric Precision Medicine"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "EHR-Based Network Model",
+                    "description": "EHR-based network will be created to predict psychiatric outcomes in youth with IDDs",
+                    "armGroupLabels": [
+                        "Enrollees"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Extract from Rady EHR demographic, biomedical, socioeconomic, and service use data for 150 youth with IDDs presenting to the ED for MHCs",
+                    "description": "Area under the receiver operating characteristic curve for a network model that predicts psychiatric outcomes for youth with intellectual and developmental disabilities. Area under the receiver operating characteristic curve has a minimum value of 0.5 and a maximum value of 1, where higher scores represent more accurate predictions of psychiatric outcomes.",
+                    "timeFrame": "4 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Adjusted Relative Risk of Neuropsychiatric Polygenic Scores",
+                    "description": "The adjusted relative risk of neuropsychiatric polygenic scores in youth with intellectual and developmental disabilities and mental health crises compared to youth with intellectual and developmental disabilities without mental health crises. A relative risk of 1 represents equal risk between groups. A relative risk \\<1 represents a lower risk in the mental health crisis group and a relative risk of \\>1 represents a higher risk in the mental health crisis group.",
+                    "timeFrame": "4 years"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Diagnostic Rate",
+                    "description": "A diagnostic rate of whole genome sequencing will be compared between our primary cohort and two comparator cohorts",
+                    "timeFrame": "4 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nChild/adolescents admitted to the RCHSD ED with an IDD presenting in a MHC that includes, but is not limited to:\n\n* Aggression towards others\n* Severe agitation\n* Self-injury\n* Elopement\n\nOR\n\nBiological parents of child/adolescent enrolled in this study for the purposes of reflex testing. (Family members are eligible for participation in this study if they presumed genetically related to a participant).\n\nExclusion Criteria:\n\nChild/Adolescents participants who do not meet any of the inclusion criteria, or those who:\n\n* Already received any prior whole genome sequencing or exome sequencing\n* Unable to approach the family or patient for enrollment\n* Unable to obtain informed consent\n* family members are ineligible for participation in this study if they are known to not be genetically related to the child/adolescent participant and/or if they are a member of a protected research population.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "7 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "Children/adolescents admitted to the RCHSD ED with an IDD presenting in a MHC",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Aaron Besterman, MD",
+                    "role": "CONTACT",
+                    "phone": "858-576-1700",
+                    "phoneExt": "221633",
+                    "email": "abesterman@health.ucsd.edu"
+                },
+                {
+                    "name": "Corrine Blucher, BS",
+                    "role": "CONTACT",
+                    "phone": "858-576-1700",
+                    "phoneExt": "221632",
+                    "email": "cblucher@rchsd.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Aaron Besterman, MD, MD",
+                    "affiliation": "Rady Children's Institute for Genomic Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Rady Children's Hospital San Diego",
+                    "status": "RECRUITING",
+                    "city": "San Diego",
+                    "state": "California",
+                    "zip": "92123",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Aaron Besterman, MD, MD",
+                            "role": "CONTACT",
+                            "phone": "858-494-2429",
+                            "email": "abesterman@health.ucsd.edu"
+                        },
+                        {
+                            "name": "Corrine Blucher, BS",
+                            "role": "CONTACT",
+                            "phone": "8585761700",
+                            "phoneExt": "221632",
+                            "email": "cblucher@rchsd.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.71533,
+                        "lon": -117.15726
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008607",
+                    "term": "Intellectual Disability"
+                },
+                {
+                    "id": "D000002658",
+                    "term": "Developmental Disabilities"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000019954",
+                    "term": "Neurobehavioral Manifestations"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000065886",
+                    "term": "Neurodevelopmental Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11589",
+                    "name": "Intellectual Disability",
+                    "asFound": "Intellectual Disability",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5902",
+                    "name": "Developmental Disabilities",
+                    "asFound": "Developmental Disabilities",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21826",
+                    "name": "Neurobehavioral Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30644",
+                    "name": "Neurodevelopmental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

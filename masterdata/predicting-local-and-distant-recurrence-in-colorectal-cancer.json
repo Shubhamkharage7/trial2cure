@@ -1,0 +1,609 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06314971",
+            "orgStudyIdInfo": {
+                "id": "23228/T1CR"
+            },
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Predicting Local and Distant Recurrence in T1 Colorectal Cancer",
+            "officialTitle": "Predicting Recurrence After Curative-Intent Resection of T1 Colorectal Cancer With Transcriptomics",
+            "acronym": "T1CR",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "predicting-local-and-distant-recurrence-in-colorectal-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-11",
+            "studyFirstSubmitQcDate": "2024-03-15",
+            "studyFirstPostDateStruct": {
+                "date": "2024-03-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Tumor recurrence significantly affects survival rates following the local resection of submucosal colorectal cancers (T1 CRC). Despite this, there are currently no reliable biomarkers established to predict recurrence in T1 CRC.\n\nThis study seeks to improve the prediction of recurrence-free survival in individuals who have survived T1 CRC.",
+            "detailedDescription": "The incidence of invasive submucosal colorectal cancer (T1 CRC) is increasing, likely as a reflection of improved screening and endoscopy use. Current treatment options for T1 CRC focus on less invasive methods (i.e., endoscopic submucosal dissection), and treatment decisions are based on the risk of lymph node metastasis (LNM). Up to 70-80% of T1 CRC patients may undergo surgery, with adjuvant chemotherapy recommended only for those with LNM.\n\nHowever, current clinical practice guidelines are considered to be overly aggressive and recommend the administration of aggressive treatment to many patients who may be cured with non-invasive therapy alone. This results in the overtreatment of many patients, especially those that are currently defined as 'high-risk' T1 CRC. Existing surveillance methods may not adequately predict the prognosis of T1 CRC, lacking established biomarkers for assessing disease-free survival.\n\nThis study seeks to validate tissue-based biomarkers (micro-RNA and messenger RNA) that are associated with tumor recurrence after curative resection. The identification of patients at high risk of recurrence may help in the selection of patients who truly benefit from additional oncologic surgery or adjuvant therapy. Previous research by this group has identified miRNA signatures for detecting postoperative tumor recurrence and metastasis in CRC, highlighting their potential as biomarkers for disease progression."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Colorectal Cancer",
+                "Colorectal Neoplasms",
+                "Colorectal Adenocarcinoma",
+                "Colorectal Cancer Stage I",
+                "Colorectal Neoplasms Malignant",
+                "Colorectal Cancer Recurrent"
+            ],
+            "keywords": [
+                "Endoscopic Submucosal Dissection (ESD)",
+                "Endoscopic Submucosal Resection",
+                "Surgery",
+                "T1",
+                "Pathological T1 (pT1)",
+                "Messenger RNA",
+                "Micro RNA",
+                "Formail-Fixed Paraffin Embedded",
+                "Tissue",
+                "Transcriptomics"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "Formalin-fixed, paraffin-embedded slide from the primary tumor"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "T1 Colorectal Cancer, With Recurrence (Training)",
+                    "description": "Survivors of T1 colorectal cancer who developed recurrent colorectal cancer within 36 months from primary tumor treatment, in the first cohort",
+                    "interventionNames": [
+                        "Other: Tw1CE"
+                    ]
+                },
+                {
+                    "label": "T1 Colorectal Cancer, Without Recurrence (Training)",
+                    "description": "Survivors of T1 colorectal cancer who did not develop recurrent colorectal cancer within 36 months from primary tumor treatment, in the first cohort",
+                    "interventionNames": [
+                        "Other: Tw1CE"
+                    ]
+                },
+                {
+                    "label": "T1 Colorectal Cancer, With Recurrence (Validation)",
+                    "description": "Survivors of T1 colorectal cancer who developed recurrent colorectal cancer within 36 months from primary tumor treatment, in the second cohort",
+                    "interventionNames": [
+                        "Other: Tw1CE"
+                    ]
+                },
+                {
+                    "label": "T1 Colorectal Cancer, Without Recurrence (Validation)",
+                    "description": "Survivors of T1 colorectal cancer who did not develop recurrent colorectal cancer within 36 months from primary tumor treatment, in the second cohort",
+                    "interventionNames": [
+                        "Other: Tw1CE"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Tw1CE",
+                    "description": "A panel of microRNA and messenger RNA, whose expression level is tested in macro-dissected formalin-fixed and paraffin-embedded (FFPE) samples derived from the primary tumor, with reverse transcriptase quantitative polymerase chain reaction (RT-qPCR)",
+                    "armGroupLabels": [
+                        "T1 Colorectal Cancer, With Recurrence (Training)",
+                        "T1 Colorectal Cancer, With Recurrence (Validation)",
+                        "T1 Colorectal Cancer, Without Recurrence (Training)",
+                        "T1 Colorectal Cancer, Without Recurrence (Validation)"
+                    ],
+                    "otherNames": [
+                        "T1 Colorectal cancer rEcurrence (Tw1CE)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Recurrence-free Survival",
+                    "description": "Time from curative-intent resection to the development of recurrence (or death)",
+                    "timeFrame": "Up to 60 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Stage I, pT1 colorectal cancer (TNM classification, 8th edition).\n* Received standard diagnostic, staging, and stage-specific curative-intent resection (endoscopic or surgical, as per local guidelines).\n* Confirmed cancer-free survivorship at the time of study inclusion.\n\nExclusion Criteria:\n\n* Lack of informed consent.\n* Induction of neoadjuvant systemic therapy before colorectal cancer resection.\n* Synchronous colorectal and non-colorectal cancer diagnosed at or before surgery.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Two cohorts of patients with T1 colorectal cancer",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "role": "CONTACT",
+                    "phone": "6262183452",
+                    "email": "AJGOEL@COH.ORG"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-218-3452",
+                            "email": "AJGOEL@COH.ORG"
+                        },
+                        {
+                            "name": "Takayuki Noma, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Alessandro Mannucci",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                },
+                {
+                    "facility": "Tokushima University",
+                    "status": "RECRUITING",
+                    "city": "Tokushima",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Mitsuo Shimada, PhD",
+                            "role": "CONTACT",
+                            "email": "mitsuo.shimada@tokushima-u.ac.jp"
+                        },
+                        {
+                            "name": "Katsuki Miyazaki",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Takayuki Noma, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yuma Wada, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Mistuo Shimada, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.06667,
+                        "lon": 134.56667
+                    }
+                },
+                {
+                    "facility": "Barcelona University",
+                    "status": "RECRUITING",
+                    "city": "Barcelona",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Maria Pellise",
+                            "role": "CONTACT",
+                            "email": "mpellise@clinic.cat"
+                        },
+                        {
+                            "name": "Karmele Saez de Gordoa",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Mar\u00eda Daca",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Francesc Balaguer",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Maria Pellise",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.38879,
+                        "lon": 2.15899
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "28345456",
+                    "type": "BACKGROUND",
+                    "citation": "Abdelmaksoud-Dammak R, Chamtouri N, Triki M, Saadallah-Kallel A, Ayadi W, Charfi S, Khabir A, Ayadi L, Sallemi-Boudawara T, Mokdad-Gargouri R. Overexpression of miR-10b in colorectal cancer patients: Correlation with TWIST-1 and E-cadherin expression. Tumour Biol. 2017 Mar;39(3):1010428317695916. doi: 10.1177/1010428317695916."
+                },
+                {
+                    "pmid": "36633525",
+                    "type": "BACKGROUND",
+                    "citation": "Siegel RL, Miller KD, Wagle NS, Jemal A. Cancer statistics, 2023. CA Cancer J Clin. 2023 Jan;73(1):17-48. doi: 10.3322/caac.21763."
+                },
+                {
+                    "pmid": "30207593",
+                    "type": "BACKGROUND",
+                    "citation": "Bray F, Ferlay J, Soerjomataram I, Siegel RL, Torre LA, Jemal A. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2018 Nov;68(6):394-424. doi: 10.3322/caac.21492. Epub 2018 Sep 12. Erratum In: CA Cancer J Clin. 2020 Jul;70(4):313. doi: 10.3322/caac.21609."
+                },
+                {
+                    "pmid": "25995082",
+                    "type": "BACKGROUND",
+                    "citation": "Chiu HM, Chen SL, Yen AM, Chiu SY, Fann JC, Lee YC, Pan SL, Wu MS, Liao CS, Chen HH, Koong SL, Chiou ST. Effectiveness of fecal immunochemical testing in reducing colorectal cancer mortality from the One Million Taiwanese Screening Program. Cancer. 2015 Sep 15;121(18):3221-9. doi: 10.1002/cncr.29462. Epub 2015 May 20."
+                },
+                {
+                    "pmid": "31631858",
+                    "type": "BACKGROUND",
+                    "citation": "Dekker E, Tanis PJ, Vleugels JLA, Kasi PM, Wallace MB. Colorectal cancer. Lancet. 2019 Oct 19;394(10207):1467-1480. doi: 10.1016/S0140-6736(19)32319-0."
+                },
+                {
+                    "pmid": "26364679",
+                    "type": "BACKGROUND",
+                    "citation": "Jayanna M, Burgess NG, Singh R, Hourigan LF, Brown GJ, Zanati SA, Moss A, Lim J, Sonson R, Williams SJ, Bourke MJ. Cost Analysis of Endoscopic Mucosal Resection vs Surgery for Large Laterally Spreading Colorectal Lesions. Clin Gastroenterol Hepatol. 2016 Feb;14(2):271-8.e1-2. doi: 10.1016/j.cgh.2015.08.037. Epub 2015 Sep 11."
+                },
+                {
+                    "pmid": "18453542",
+                    "type": "BACKGROUND",
+                    "citation": "Weinberg RA. Mechanisms of malignant progression. Carcinogenesis. 2008 Jun;29(6):1092-5. doi: 10.1093/carcin/bgn104. Epub 2008 May 2. No abstract available."
+                },
+                {
+                    "pmid": "31203527",
+                    "type": "BACKGROUND",
+                    "citation": "Hashiguchi Y, Muro K, Saito Y, Ito Y, Ajioka Y, Hamaguchi T, Hasegawa K, Hotta K, Ishida H, Ishiguro M, Ishihara S, Kanemitsu Y, Kinugasa Y, Murofushi K, Nakajima TE, Oka S, Tanaka T, Taniguchi H, Tsuji A, Uehara K, Ueno H, Yamanaka T, Yamazaki K, Yoshida M, Yoshino T, Itabashi M, Sakamaki K, Sano K, Shimada Y, Tanaka S, Uetake H, Yamaguchi S, Yamaguchi N, Kobayashi H, Matsuda K, Kotake K, Sugihara K; Japanese Society for Cancer of the Colon and Rectum. Japanese Society for Cancer of the Colon and Rectum (JSCCR) guidelines 2019 for the treatment of colorectal cancer. Int J Clin Oncol. 2020 Jan;25(1):1-42. doi: 10.1007/s10147-019-01485-z. Epub 2019 Jun 15."
+                },
+                {
+                    "pmid": "26317585",
+                    "type": "BACKGROUND",
+                    "citation": "Pimentel-Nunes P, Dinis-Ribeiro M, Ponchon T, Repici A, Vieth M, De Ceglie A, Amato A, Berr F, Bhandari P, Bialek A, Conio M, Haringsma J, Langner C, Meisner S, Messmann H, Morino M, Neuhaus H, Piessevaux H, Rugge M, Saunders BP, Robaszkiewicz M, Seewald S, Kashin S, Dumonceau JM, Hassan C, Deprez PH. Endoscopic submucosal dissection: European Society of Gastrointestinal Endoscopy (ESGE) Guideline. Endoscopy. 2015 Sep;47(9):829-54. doi: 10.1055/s-0034-1392882. Epub 2015 Aug 28."
+                },
+                {
+                    "pmid": "32122632",
+                    "type": "BACKGROUND",
+                    "citation": "Kaltenbach T, Anderson JC, Burke CA, Dominitz JA, Gupta S, Lieberman D, Robertson DJ, Shaukat A, Syngal S, Rex DK. Endoscopic Removal of Colorectal Lesions-Recommendations by the US Multi-Society Task Force on Colorectal Cancer. Gastroenterology. 2020 Mar;158(4):1095-1129. doi: 10.1053/j.gastro.2019.12.018. Epub 2020 Feb 11. No abstract available."
+                },
+                {
+                    "pmid": "32526343",
+                    "type": "BACKGROUND",
+                    "citation": "Yeh JH, Tseng CH, Huang RY, Lin CW, Lee CT, Hsiao PJ, Wu TC, Kuo LT, Wang WL. Long-term Outcomes of Primary Endoscopic Resection vs Surgery for T1 Colorectal Cancer: A Systematic Review and Meta-analysis. Clin Gastroenterol Hepatol. 2020 Nov;18(12):2813-2823.e5. doi: 10.1016/j.cgh.2020.05.060. Epub 2020 Jun 8."
+                },
+                {
+                    "pmid": "33724754",
+                    "type": "BACKGROUND",
+                    "citation": "Benson AB, Venook AP, Al-Hawary MM, Arain MA, Chen YJ, Ciombor KK, Cohen S, Cooper HS, Deming D, Farkas L, Garrido-Laguna I, Grem JL, Gunn A, Hecht JR, Hoffe S, Hubbard J, Hunt S, Johung KL, Kirilcuk N, Krishnamurthi S, Messersmith WA, Meyerhardt J, Miller ED, Mulcahy MF, Nurkin S, Overman MJ, Parikh A, Patel H, Pedersen K, Saltz L, Schneider C, Shibata D, Skibber JM, Sofocleous CT, Stoffel EM, Stotsky-Himelfarb E, Willett CG, Gregory KM, Gurski LA. Colon Cancer, Version 2.2021, NCCN Clinical Practice Guidelines in Oncology. J Natl Compr Canc Netw. 2021 Mar 2;19(3):329-359. doi: 10.6004/jnccn.2021.0012."
+                },
+                {
+                    "pmid": "21152938",
+                    "type": "BACKGROUND",
+                    "citation": "Kobayashi H, Mochizuki H, Morita T, Kotake K, Teramoto T, Kameoka S, Saito Y, Takahashi K, Hase K, Oya M, Maeda K, Hirai T, Kameyama M, Shirouzu K, Sugihara K. Characteristics of recurrence after curative resection for T1 colorectal cancer: Japanese multicenter study. J Gastroenterol. 2011 Feb;46(2):203-11. doi: 10.1007/s00535-010-0341-2. Epub 2010 Dec 9."
+                },
+                {
+                    "pmid": "33271339",
+                    "type": "BACKGROUND",
+                    "citation": "Dang H, Dekkers N, le Cessie S, van Hooft JE, van Leerdam ME, Oldenburg PP, Flothuis L, Schoones JW, Langers AMJ, Hardwick JCH, van der Kraan J, Boonstra JJ. Risk and Time Pattern of Recurrences After Local Endoscopic Resection of T1 Colorectal Cancer: A Meta-analysis. Clin Gastroenterol Hepatol. 2022 Feb;20(2):e298-e314. doi: 10.1016/j.cgh.2020.11.032. Epub 2020 Dec 1."
+                },
+                {
+                    "pmid": "24876733",
+                    "type": "BACKGROUND",
+                    "citation": "Akgul O, Cetinkaya E, Ersoz S, Tez M. Role of surgery in colorectal cancer liver metastases. World J Gastroenterol. 2014 May 28;20(20):6113-22. doi: 10.3748/wjg.v20.i20.6113."
+                },
+                {
+                    "pmid": "28684519",
+                    "type": "BACKGROUND",
+                    "citation": "Naxerova K, Reiter JG, Brachtel E, Lennerz JK, van de Wetering M, Rowan A, Cai T, Clevers H, Swanton C, Nowak MA, Elledge SJ, Jain RK. Origins of lymphatic and distant metastases in human colorectal cancer. Science. 2017 Jul 7;357(6346):55-60. doi: 10.1126/science.aai8515."
+                },
+                {
+                    "pmid": "32146501",
+                    "type": "BACKGROUND",
+                    "citation": "Martinez Vila C, Oliveres Montero de Novoa H, Martinez-Bauer E, Serra-Aracil X, Mora L, Casalots-Casado A, Macias-Declara I, Pericay C. A real world analysis of recurrence risk factors for early colorectal cancer T1 treated with standard endoscopic resection. Int J Colorectal Dis. 2020 May;35(5):921-927. doi: 10.1007/s00384-020-03553-7. Epub 2020 Mar 7."
+                },
+                {
+                    "pmid": "36604116",
+                    "type": "BACKGROUND",
+                    "citation": "Morgan E, Arnold M, Gini A, Lorenzoni V, Cabasag CJ, Laversanne M, Vignat J, Ferlay J, Murphy N, Bray F. Global burden of colorectal cancer in 2020 and 2040: incidence and mortality estimates from GLOBOCAN. Gut. 2023 Feb;72(2):338-344. doi: 10.1136/gutjnl-2022-327736. Epub 2022 Sep 8."
+                },
+                {
+                    "pmid": "32194673",
+                    "type": "BACKGROUND",
+                    "citation": "Li Y, Chen Z. The oncogenic role of microRNA-500a in colorectal cancer. Oncol Lett. 2020 Mar;19(3):1799-1805. doi: 10.3892/ol.2020.11291. Epub 2020 Jan 10."
+                },
+                {
+                    "pmid": "27981410",
+                    "type": "BACKGROUND",
+                    "citation": "Hao H, Xia G, Wang C, Zhong F, Liu L, Zhang D. miR-106a suppresses tumor cells death in colorectal cancer through targeting ATG7. Med Mol Morphol. 2017 Jun;50(2):76-85. doi: 10.1007/s00795-016-0150-7. Epub 2016 Dec 15."
+                },
+                {
+                    "pmid": "31713927",
+                    "type": "BACKGROUND",
+                    "citation": "Tang M, Zhou J, You L, Cui Z, Zhang H. LIN28B/IRS1 axis is targeted by miR-30a-5p and promotes tumor growth in colorectal cancer. J Cell Biochem. 2020 Aug;121(8-9):3720-3729. doi: 10.1002/jcb.29529. Epub 2019 Nov 12."
+                },
+                {
+                    "pmid": "23962552",
+                    "type": "BACKGROUND",
+                    "citation": "Yoshii S, Nojima M, Nosho K, Omori S, Kusumi T, Okuda H, Tsukagoshi H, Fujita M, Yamamoto H, Hosokawa M. Factors associated with risk for colorectal cancer recurrence after endoscopic resection of T1 tumors. Clin Gastroenterol Hepatol. 2014 Feb;12(2):292-302.e3. doi: 10.1016/j.cgh.2013.08.008. Epub 2013 Aug 17."
+                },
+                {
+                    "pmid": "35436498",
+                    "type": "BACKGROUND",
+                    "citation": "Zwager LW, Bastiaansen BAJ, Montazeri NSM, Hompes R, Barresi V, Ichimasa K, Kawachi H, Machado I, Masaki T, Sheng W, Tanaka S, Togashi K, Yasue C, Fockens P, Moons LMG, Dekker E. Deep Submucosal Invasion Is Not an Independent Risk Factor for Lymph Node Metastasis in T1 Colorectal Cancer: A Meta-Analysis. Gastroenterology. 2022 Jul;163(1):174-189. doi: 10.1053/j.gastro.2022.04.010. Epub 2022 Apr 15."
+                },
+                {
+                    "pmid": "33955121",
+                    "type": "BACKGROUND",
+                    "citation": "Chang LC, Shun CT, Lin BR, Sanduleanu S, Hsu WF, Wu MS, Chiu HM. Recurrence Outcomes Less Favorable in T1 Rectal Cancer than in T1 Colon Cancer. Oncologist. 2021 Sep;26(9):e1548-e1554. doi: 10.1002/onco.13815. Epub 2021 May 26."
+                },
+                {
+                    "pmid": "30797795",
+                    "type": "RESULT",
+                    "citation": "Kandimalla R, Ozawa T, Gao F, Wang X, Goel A; T1 Colorectal Cancer Study Group. Gene Expression Signature in Surgical Tissues and Endoscopic Biopsies Identifies High-Risk T1 Colorectal Cancers. Gastroenterology. 2019 Jun;156(8):2338-2341.e3. doi: 10.1053/j.gastro.2019.02.027. Epub 2019 Feb 21. No abstract available."
+                },
+                {
+                    "pmid": "29199088",
+                    "type": "RESULT",
+                    "citation": "Ozawa T, Kandimalla R, Gao F, Nozawa H, Hata K, Nagata H, Okada S, Izumi D, Baba H, Fleshman J, Wang X, Watanabe T, Goel A. A MicroRNA Signature Associated With Metastasis of T1 Colorectal Cancers to Lymph Nodes. Gastroenterology. 2018 Mar;154(4):844-848.e7. doi: 10.1053/j.gastro.2017.11.275. Epub 2017 Dec 2."
+                },
+                {
+                    "pmid": "33819484",
+                    "type": "RESULT",
+                    "citation": "Wada Y, Shimada M, Murano T, Takamaru H, Morine Y, Ikemoto T, Saito Y, Balaguer F, Bujanda L, Pellise M, Kato K, Saito Y, Ikematsu H, Goel A. A Liquid Biopsy Assay for Noninvasive Identification of Lymph Node Metastases in T1 Colorectal Cancer. Gastroenterology. 2021 Jul;161(1):151-162.e1. doi: 10.1053/j.gastro.2021.03.062. Epub 2021 Apr 2."
+                },
+                {
+                    "pmid": "36609320",
+                    "type": "RESULT",
+                    "citation": "Miyazaki K, Wada Y, Okuno K, Murano T, Morine Y, Ikemoto T, Saito Y, Ikematsu H, Kinugasa Y, Shimada M, Goel A. An exosome-based liquid biopsy signature for pre-operative identification of lymph node metastasis in patients with pathological high-risk T1 colorectal cancer. Mol Cancer. 2023 Jan 6;22(1):2. doi: 10.1186/s12943-022-01685-8."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data collected for the study will be made available to others, including de-identified participant data, at publication, via a signed data access agreement and at the discretion of the investigators' approval of the proposed use of such data."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000012008",
+                    "term": "Recurrence"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000003108",
+                    "term": "Colonic Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14850",
+                    "name": "Recurrence",
+                    "asFound": "Recurrence",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "asFound": "Colorectal Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6336",
+                    "name": "Colonic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M8681",
+                    "name": "Formaldehyde",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

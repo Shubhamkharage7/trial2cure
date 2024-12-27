@@ -1,0 +1,319 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06105710",
+            "orgStudyIdInfo": {
+                "id": "23-39944"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "2U19AI077439-16",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/2U19AI077439-16"
+                }
+            ],
+            "organization": {
+                "fullName": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "briefTitle": "Mechanistic Insights From Bronchoscopy Airway Samples",
+            "officialTitle": "Mechanistic Insights From Bronchoscopy Airway Samples",
+            "acronym": "MIBAS",
+            "therapeuticArea": [
+                "Respiratory"
+            ],
+            "study": "mechanistic-insights-from-bronchoscopy-airway-samples"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-23",
+            "studyFirstSubmitQcDate": "2023-10-23",
+            "studyFirstPostDateStruct": {
+                "date": "2023-10-30",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-19",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-23",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Allergy and Infectious Diseases (NIAID)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to examine the mechanisms of asthma. The investigators are comparing the cells of individuals with and without asthma and looking at the roles various parts of the cell play in the production and secretion of mucus.",
+            "detailedDescription": "The UCSF Airway Clinical Research Center has made longstanding and productive efforts to understand how type 2 immune responses in the airway act on epithelial cells to produce muco-obstructive pathology, a central feature of severe asthma and a major contributor to fatality from this disease. This center has made major contributions to identifying type 2 high asthma as the major asthma endotype, demonstrating that the type 2 cytokine IL-13 acts directly on airway epithelial cells to induce pathological changes in mucus, and showing that mucus plugging is a persistent feature of asthma that is associated with type 2 responses and with increased asthma severity. The overall objective of this proposal is to understand molecular mechanisms that account for alterations in secretory cell and mucus function that are important in severe asthma. The overarching hypothesis is that local type 2 immune responses induce IL-13-mediated changes in epithelial gene expression and that these changes, which involve several novel molecular mechanisms not previously explored, alter differentiation of secretory cells and production and secretion of mucins, leading to mucus plugging and airway obstruction. The proposal includes two highly related projects, each of which focuses on molecules and pathways that have previously unknown roles in secretory cell biology and mucus dysfunction. The proposed studies will provide new mechanistic insights that are highly relevant to the pathogenesis of severe asthma and may lead to novel therapeutic targets that address unmet needs."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Asthma"
+            ],
+            "keywords": [
+                "Asthma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "1 Week",
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "CROSS_SECTIONAL"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Bronchial brushes, lavage, and biopsies. Sputum, induced. Whole blood, serum, plasma"
+            },
+            "enrollmentInfo": {
+                "count": 24,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Asthma",
+                    "description": "Participants with a history of asthma"
+                },
+                {
+                    "label": "Healthy Controls",
+                    "description": "Participants without a history of asthma"
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Quantitate mean gene expression of TSPAN8 in goblet cells from the airways of human asthma and health and report the mean for asthma and health (main outcome 1) and for both goblet cells and non-goblet cells in asthma.",
+                    "description": "Specifically, gene expression will be interrogated in single cells via 10x droplet-based RNA sequencing of airway brushings obtained from bronchoscopy. The gene expression data is used to characterize individuals cells as goblet cells vs other cells. TSPAN8 is then quantitated via the data in these cells",
+                    "timeFrame": "Between 1-12 weeks"
+                },
+                {
+                    "measure": "Quantitate KRT8 in airway cells from human asthma vs health and report the mean level in the transitional secretory cell subset for both asthma and health.",
+                    "description": "Using 10x droplet-based single-cell RNA sequencing, the investigators will interrogate expression in cells that are classified as a transitional secretory cell subset. The investigators will classify transcriptionally similar cells from airway brushings into discrete clusters using the single-cell RNA sequencing data from airway brushings obtained from bronchoscopy (Seurat4 package). The investigators will then map clusters to cell types and transitional states based on published human and mouse scRNAseq data from airway cells. Differentiation trajectories will be inferred using diffusion modeling (Monocle3 package) and analyze nascent versus mature mRNA expression (scVelo package). Investigators will then map KRT8 expression onto these cells and clusters.",
+                    "timeFrame": "Between 1-12 weeks"
+                },
+                {
+                    "measure": "Quantitate expression of miR-141/200 family members report mean expression for the transitional secretory cell population in human asthma vs health using methods similar to those in Outcomes 1 and 2.",
+                    "timeFrame": "Between 1-12 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy Controls\n\n  1. Male and female subjects between the ages of 18 and 70 years\n  2. Ability to provide written informed consent and ability to comply with the requirements of the study\n  3. No hyperreactivity to methacholine (PC20 FEV1 Methacholine \\>16 mg/mL)\n  4. No history of allergic rhinitis/seasonal allergies\n* Asthmatics\n\n  1. Male and female subjects between the ages of 18 and 70 years\n  2. Ability to provide written informed consent and ability to comply with the requirements of the study\n  3. History of asthma\n  4. No use of oral or inhaled corticosteroids for the treatment of asthma during the past 6 weeks\n  5. Hyperreactivity to methacholine (PC20 FEV1 Methacholine \\< 8 mg/ml)\n\nExclusion Criteria:\n\nThe same exclusion criteria will apply to both Sub-studies.\n\n1. Current smokers, defined by (a) \\>5 cigarettes smoked in past 12 months, and (b) \u2264 8 weeks since last time smoking; or former smokers who have a total smoking history\n\n   * 10 pack-years\n2. Pregnant, breastfeeding, or unwilling to practice birth control during participation in the study\n3. Subjects with a history of lung disease other than asthma\n4. Subjects with a history of prior esophageal hernia surgery\n5. Subjects with a history of a medical disease, which in the opinion of the Investigator may put the subject at extra risk from study-related procedures or because the disease may influence the results of the study\n6. Current participation in an investigational drug trial\n\nProhibited Medications and Treatments The following medications are prohibited during the study and must be discontinued prior to enrollment for the amount of time specified below.\n\n1. Astemizole: 12 weeks\n2. Steroids (oral, inhaled or nasal): 6 weeks\n3. Nedocromil sodium, sodium cromoglycate: 4 weeks\n4. Long-acting methylxantines: 2 days\n5. Short-acting methylxantines: 12 hours\n6. Montelukast: 7 days\n7. Zafirlukast: 7 days\n8. Salmeterol: 2 days\n9. Omalizumab: 6 months\n\nMedications to be withheld prior to bronchoscopy: Aspirin or Non- steroidal anti-inflammatory agents (NSAIDs) for 2 days Medications to be withheld before each clinic visit: Short-acting bronchodilators (e.g. Albuterol) for 6 hours; Short-acting anti- cholinergics (e.g. Atrovent, Combivent) for 8 hours; and antihistamines (e.g. Benadryl, Claritin) for 3 days.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Healthy and asthmatic participants recruited from community advertising",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Devin Roberts, BA",
+                    "role": "CONTACT",
+                    "phone": "628-233-1233",
+                    "email": "devin.roberts@ucsf.edu"
+                },
+                {
+                    "name": "Christine P Nguyen, BS, CCRP",
+                    "role": "CONTACT",
+                    "phone": "415-476-3824",
+                    "email": "christine.nguyen@ucsf.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Nirav Bhakta, MD, PhD",
+                    "affiliation": "University of California, San Francisco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Prescott Woodruff, MD, MPH",
+                    "affiliation": "University of California, San Francisco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of California, San Francisco",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94143",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Devin Roberts, BA",
+                            "role": "CONTACT",
+                            "phone": "628-233-1233",
+                            "email": "devin.roberts@ucsf.edu"
+                        },
+                        {
+                            "name": "Christine P Nguyen, BS, CCRP",
+                            "role": "CONTACT",
+                            "phone": "415-476-3824",
+                            "email": "christine.nguyen@ucsf.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001249",
+                    "term": "Asthma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001982",
+                    "term": "Bronchial Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000008173",
+                    "term": "Lung Diseases, Obstructive"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012130",
+                    "term": "Respiratory Hypersensitivity"
+                },
+                {
+                    "id": "D000006969",
+                    "term": "Hypersensitivity, Immediate"
+                },
+                {
+                    "id": "D000006967",
+                    "term": "Hypersensitivity"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4556",
+                    "name": "Asthma",
+                    "asFound": "Asthma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5258",
+                    "name": "Bronchial Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11170",
+                    "name": "Lung Diseases, Obstructive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10018",
+                    "name": "Hypersensitivity",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14967",
+                    "name": "Respiratory Hypersensitivity",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10020",
+                    "name": "Hypersensitivity, Immediate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

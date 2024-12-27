@@ -1,0 +1,274 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05923606",
+            "orgStudyIdInfo": {
+                "id": "2023P001479"
+            },
+            "organization": {
+                "fullName": "Massachusetts General Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Modulation of Brain Oscillations Underlying Working Memory",
+            "officialTitle": "State-dependent Modulation of Interactions of Theta and Gamma Rhythms in Working Memory",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "modulation-of-brain-oscillations-underlying-working-memory"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-08-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-08-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-20",
+            "studyFirstSubmitQcDate": "2023-06-27",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-12",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Hamdi Eryilmaz, PhD",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "Massachusetts General Hospital"
+            },
+            "leadSponsor": {
+                "name": "Massachusetts General Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will use novel transcranial alternating current stimulation (tACS) protocols and electroencephalography (EEG) to modulate and measure brain oscillations that underlie working memory. tACS is a noninvasive method used to modulate the timing and patterns of brain rhythms via weak electric currents passed through electrodes on the scalp.",
+            "detailedDescription": "In this study, healthy adult individuals will perform a spatial working memory task as investigators record scalp EEG before and immediately after undergoing transcranial alternating current stimulation (tACS). Each participant will complete four tACS sessions in randomized order: 1) theta-nested gamma tACS applied during active task periods, 2) theta-nested gamma tACS applied during passive (rest) periods, 3) gamma stimulation applied in phase with ongoing theta oscillations, and 4) placebo tACS. The different stimulation protocols will take place on different days. Therefore, participants will be expected to attend 4 in-person study visits at the Martinos Center for Biomedical Imaging in Charlestown, Massachusetts."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Working Memory"
+            ],
+            "keywords": [
+                "Working memory",
+                "Attention",
+                "Theta oscillations",
+                "Transcranial Alternating Current Stimulation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 32,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Theta-nested gamma tACS applied during passive task epochs",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive single-session administration of tACS during performance of a working memory task. tACS will be applied during fixation periods between consecutive task trials. EEG will be acquired before and immediately after the intervention.",
+                    "interventionNames": [
+                        "Device: Active tACS"
+                    ]
+                },
+                {
+                    "label": "Theta-nested gamma tACS applied during memory delays",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive single-session administration of tACS during performance of a working memory task. tACS will be applied during memory delays. EEG will be acquired before and immediately after the intervention.",
+                    "interventionNames": [
+                        "Device: Active tACS"
+                    ]
+                },
+                {
+                    "label": "Gamma tACS applied during memory delays",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive single-session administration of tACS during performance of a working memory task. tACS will be applied during memory delays. The stimulation will be phase locked to the peaks of ongoing theta rhythms of the participant. EEG will be acquired before and immediately after the intervention.",
+                    "interventionNames": [
+                        "Device: Active tACS"
+                    ]
+                },
+                {
+                    "label": "Placebo tACS applied during task performance",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "Participants will receive single-session administration of placebo tACS during performance of a working memory task. EEG will be acquired before and immediately after the intervention.",
+                    "interventionNames": [
+                        "Device: Placebo tACS"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Active tACS",
+                    "description": "Active tACS will be administered over the left dorsolateral prefrontal cortex for approximately 25 minutes.",
+                    "armGroupLabels": [
+                        "Gamma tACS applied during memory delays",
+                        "Theta-nested gamma tACS applied during memory delays",
+                        "Theta-nested gamma tACS applied during passive task epochs"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Placebo tACS",
+                    "description": "Placebo tACS will be administered over the left dorsolateral prefrontal cortex for approximately 25 minutes.",
+                    "armGroupLabels": [
+                        "Placebo tACS applied during task performance"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Working memory accuracy",
+                    "description": "Accuracy of working memory retrieval during a Delayed Match-to-Sample task will be assessed before and during tACS interventions",
+                    "timeFrame": "2 hours"
+                },
+                {
+                    "measure": "Working memory accuracy under interference",
+                    "description": "Accuracy of working memory retrieval during interference conditions of a Delayed Match-to-Sample task will be assessed before and during tACS interventions.",
+                    "timeFrame": "2 hours"
+                },
+                {
+                    "measure": "Theta-gamma cross-frequency coupling",
+                    "description": "Cross-frequency coupling between theta band phase and gamma band amplitude will be calculated using the EEG data collected while subjects perform the Delayed Match-to-Sample task before and after tACS interventions.",
+                    "timeFrame": "2 hours"
+                },
+                {
+                    "measure": "Fronto-parietal theta phase synchronization",
+                    "description": "Phase synchronization in the theta band between frontal and parietal brain regions will be calculated using the EEG data collected while subjects perform the Delayed Match-to-Sample task before and after the tACS interventions.",
+                    "timeFrame": "2 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Able to provide informed consent\n* Fluent in English.\n\nExclusion Criteria:\n\n* History of a neurological/psychiatric disorder\n* Current use of psychotropic medications\n* Current use of substances and drugs that were shown to affect tES (transcranial electrical stimulation) efficacy (dopamine altering drugs, nicotine, NMDA (N-methyl-D-aspartate) antagonists/agonists, sodium/calcium channel blockers, norepinephrine reuptake inhibitors, GABAergic modulators and selective serotonin reuptake inhibitors)\n* Contraindications for tACS (e.g., history of seizures, metallic implants in the head or neck, implanted brain stimulators, vagus nerve stimulators, pacemakers, pregnancy)",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "35 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Alexandra O'Neill, B.S.",
+                    "role": "CONTACT",
+                    "phone": "(617) 726-8753",
+                    "email": "agoneill@mgh.harvard.edu"
+                },
+                {
+                    "name": "Hamdi Eryilmaz, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "(617) 643-7462",
+                    "email": "hamdi.eryilmaz@mgh.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Hamdi Eryilmaz, Ph.D.",
+                    "affiliation": "Massachusetts General Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Martinos Center for Biomedical Imaging",
+                    "city": "Charlestown",
+                    "state": "Massachusetts",
+                    "zip": "02129",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.37787,
+                        "lon": -71.062
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M16974",
+                    "name": "Triamcinolone",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16975",
+                    "name": "Triamcinolone Acetonide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M237966",
+                    "name": "Triamcinolone hexacetonide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M209573",
+                    "name": "Triamcinolone diacetate",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infl",
+                    "name": "Anti-Inflammatory Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

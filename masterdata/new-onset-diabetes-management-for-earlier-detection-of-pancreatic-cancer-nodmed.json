@@ -1,0 +1,404 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05188586",
+            "orgStudyIdInfo": {
+                "id": "NODMED"
+            },
+            "organization": {
+                "fullName": "ClearNote Health",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "New Onset Diabetes Management for Earlier Detection of Pancreatic Cancer (NODMED)",
+            "officialTitle": "New Onset Diabetes Management for Earlier Detection of Pancreatic Cancer (NODMED)",
+            "acronym": "NODMED",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "new-onset-diabetes-management-for-earlier-detection-of-pancreatic-cancer-nodmed"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-12-06",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-27",
+            "studyFirstSubmitQcDate": "2021-12-27",
+            "studyFirstPostDateStruct": {
+                "date": "2022-01-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-12-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-12-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "ClearNote Health",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Bluestar Genomics has developed a non-invasive test that aids in detection of occult pancreatic cancer in patients with new onset type II diabetes (NOD) who are 50 years old or older. The purpose of this study is to evaluate the performance of Bluestar Genomics early-detection pancreatic cancer test in a clinical setting. The study is prospective, longitudinal and interventional; tests will be ordered and results returned to site-investigators. If the test returns a pancreatic cancer signal \"detected\" result the study participant will undergo MRI imaging to evaluate for the presence of pancreatic cancer. The study is planned to enroll 6,550 newly diagnosed type 2 diabetic subjects according to inclusion and exclusion criteria.",
+            "detailedDescription": "This is a prospective longitudinal and interventional study of the Bluestar Genomics early detection pancreatic cancer test. The test will be ordered and results returned to site-investigators. The study is planned to enroll 6,550 male and female, \u2265 50 years of age and newly diagnosed with type II diabetes (within 90 days prior to enrollment). NOD subjects will be assessed for eligibility and consented. Each subject can undergo up to 2 blood draws and electronic medical record search at 12 months from diabetes diagnosis.\n\nThe study population will be targeted to enroll a subjects with a BMI \\< 32. Subjects \u2265 50 years of age will be divided into two cohorts based on age as described below:\n\nCohort 1 = 65 years old or older Time 0 (T0) = blood draw within 90 days of diabetes diagnosis Time 1 (T1) = blood draw 6 month draw from diabetes diagnosis Time 2 (T2) = 12 months from diabetes diagnosis, no blood draw, only medical record search for all patients for evidence of pancreatic neoplasia developed after T1.\n\nCohort 2 = 50 - 64 years old Time 0 (T0) = blood draw within 90 days of diabetes diagnosis Time 1 (T1) = blood draw 6 month draw from diabetes diagnosis Time 2 (T2) = 12 months from diabetes diagnosis, no blood draw, only medical record search for all patients for evidence of pancreatic neoplasia developed after T1.\n\nImaging Strategy MRI imaging (or alternate imaging if subject is unable to undergo MRI) will be performed on subjects whose test result is \"detected\".\n\nIf the imaging study results are abnormal, the subject will be referred back to their enrolling clinician for additional diagnostic work up as part of routine healthcare. If pancreatic cancer or other pancreatic lesion is diagnosed, the diagnostic reports will be collected as part of the study clinical data."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pancreatic Cancer"
+            ],
+            "keywords": [
+                "Early Detection",
+                "New Onset Diabetes"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "SCREENING",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 6500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Pancreatic Cancer Signal Detection = Detected",
+                    "type": "OTHER",
+                    "description": "Subjects with test results \"detected\" will undergo MRI/Imaging",
+                    "interventionNames": [
+                        "Other: MRI/Imaging"
+                    ]
+                },
+                {
+                    "label": "Pancreatic Cancer Signal Detection = Not Detected",
+                    "type": "NO_INTERVENTION"
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "MRI/Imaging",
+                    "description": "Blood collection and pancreatic cancer early detection testing with return of results.",
+                    "armGroupLabels": [
+                        "Pancreatic Cancer Signal Detection = Detected"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Positive Predictive Value (PPV)",
+                    "description": "defined as the proportion of participants with pancreatic neoplasia diagnosis out of all subjects with pancreatic signal \"detected\" test result.",
+                    "timeFrame": "12 months or until diagnostic resolution"
+                },
+                {
+                    "measure": "Negative Predictive Value (NPV)",
+                    "description": "defined as the proportion of participants with no pancreatic neoplasia diagnosis out of all the subjects with pancreatic signal \"not detected\" test results.",
+                    "timeFrame": "12 months or until diagnostic resolution"
+                },
+                {
+                    "measure": "Specificity",
+                    "description": "defined as the proportion of participants with pancreatic signal \"not detected\" results out of all subjects with no pancreatic neoplasia diagnosis.",
+                    "timeFrame": "12 months or until diagnostic resolution"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Time to pancreatic cancer diagnosis",
+                    "description": "Median time to pancreatic cancer diagnosis (using Pancreatic Cancer Signal Detection testing) relative to new onset diabetes (NOD) diagnosis compared to Median time to pancreatic cancer diagnosis relative to NOD diagnosis in the absence of Pancreatic Cancer Signal Detection testing, based on published data",
+                    "timeFrame": "12 months or until diagnostic resolution"
+                },
+                {
+                    "measure": "Stage Shift",
+                    "description": "Stage Shift in NODs with Pancreatic Cancer in subjects that have undergone Pancreatic Cancer Signal Detection testing vs subjects without Pancreatic Cancer Signal Detection testing",
+                    "timeFrame": "12 months or until diagnostic resolution"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n\u2265 50 years of age or older at the time of enrollment\n\nWilling to sign the informed consent form\n\nMust have 2 occurrences from among the below parameters of diabetes mellitus (PDMs) in past 90 days measured in outpatient setting (not in urgent care, emergency room or while inpatient):\n\nFBG \u2265126mg/dl HbA1c \u22656.5% RBG \u2265 200mg/dl 2-hour post-glucose \u2265200mg/dl (OGTT)\n\nMust have had glycemic parameter measured in 3-18 months prior to screening that did NOT meet DM criteria\n\nMust be willing to provide several tubes of blood without endangering health\n\nNo history of pancreatic cancer or other known pancreatic neoplasia\n\nNo active cancers within the past 5 years (with the exception of non-melanoma skin cancers resolved/treated \\> 1 year prior to enrollment and in situ cancers)\n\nExclusion Criteria:\n\nPrior DM diagnosis\n\nMet criteria for DM \u226591 days prior to enrollment (patients with prior gestational diabetes that has resolved are NOT acceptable to enroll)\n\nCarried a DM diagnosis or used anti-DM medications at a time greater than or equal to 91 days prior to enrollment\n\nAny known pancreatic lesions (aside from diabetes)\n\nReceived cancer treatment within the past 5 years (with the exception of treatment of non-melanoma skin cancer), carrying a current cancer diagnosis, and/or being investigated for suspicion of past cancer recurrence.\n\nCurrent chronic or acute oral steroid use\n\nHistory of intra-articular steroid injections (\\<1 week) of the qualifying DM blood test (allowed exception: nasal, topical, oral budesonide)\n\nAny surgery requiring general anesthesia within 2 months of collection\n\nLocal anesthetic (including dental novocaine) within 1 week of collection\n\nHistory or presence of HIV/AIDs, Hepatitis A or E within the past five years, TB, any kind of prion disorder (e.g., CJD)\n\nBlood transfusion within 1 month\n\nOrgan transplant recipient\n\nCurrently pregnant, or pregnancy within last 12 months\n\nReceipt of systemic immunomodulation therapy within past 12 months\n\nSignificant medical condition that in the site investigator's opinion would compromise the subject's ability to tolerate study interventions",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "50 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Anna Bergamaschi, PhD",
+                    "role": "CONTACT",
+                    "phone": "650-714-9212",
+                    "email": "abergamaschi@bluestargenomics.com"
+                },
+                {
+                    "name": "Melissa Peters, MA",
+                    "role": "CONTACT",
+                    "email": "mpeters@bluestargenomics.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kelly Bethel, MD",
+                    "affiliation": "Bluestar Genomics",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Headlands Research - Scottsdale - PPDS",
+                    "status": "RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85260-6411",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Matthew Douglas, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                },
+                {
+                    "facility": "JEM Research Institute - Headlands - PPDS",
+                    "status": "RECRUITING",
+                    "city": "Atlantis",
+                    "state": "Florida",
+                    "zip": "33462-6631",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Halpert, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 26.5909,
+                        "lon": -80.10088
+                    }
+                },
+                {
+                    "facility": "Prisma Health/Endocrinology specialist and Thyroid",
+                    "status": "RECRUITING",
+                    "city": "Greenville",
+                    "state": "South Carolina",
+                    "zip": "29605-4289",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sandra Weber, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.85262,
+                        "lon": -82.39401
+                    }
+                },
+                {
+                    "facility": "Consano Clinical Research, LLC",
+                    "status": "RECRUITING",
+                    "city": "Shavano Park",
+                    "state": "Texas",
+                    "zip": "78231-1281",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michelle Welch, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.58495,
+                        "lon": -98.55252
+                    }
+                },
+                {
+                    "facility": "Manassas Clinical Research Center",
+                    "status": "RECRUITING",
+                    "city": "Manassas",
+                    "state": "Virginia",
+                    "zip": "20110-4421",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nabil Andrawis, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.75095,
+                        "lon": -77.47527
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010190",
+                    "term": "Pancreatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004701",
+                    "term": "Endocrine Gland Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000010182",
+                    "term": "Pancreatic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13110",
+                    "name": "Pancreatic Neoplasms",
+                    "asFound": "Pancreatic Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7863",
+                    "name": "Endocrine Gland Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13102",
+                    "name": "Pancreatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4387",
+                    "name": "Pancreatic Cancer",
+                    "asFound": "Pancreatic Cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,275 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06469372",
+            "orgStudyIdInfo": {
+                "id": "AAAT2010"
+            },
+            "organization": {
+                "fullName": "Columbia University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Cardiac Amyloidosis Discovery Trial",
+            "officialTitle": "Cardiac Amyloidosis Discovery Trial",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "cardiac-amyloidosis-discovery-trial"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05-28",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-17",
+            "studyFirstSubmitQcDate": "2024-06-17",
+            "studyFirstPostDateStruct": {
+                "date": "2024-06-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-17",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Timothy Poterucha",
+                "investigatorTitle": "Assistant Professor of Medicine",
+                "investigatorAffiliation": "Columbia University"
+            },
+            "leadSponsor": {
+                "name": "Timothy Poterucha",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Pfizer",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "American Heart Association",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Eidos Therapeutics, a BridgeBio company",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a single center, diagnostic clinical trial in which the investigators aim to prospectively validate a deep learning model that identifies patients with features suggestive of cardiac amyloidosis, including transthyretin cardiac amyloidosis (ATTR-CA).\n\nCardiac Amyloidosis is an age-related infiltrative cardiomyopathy that causes heart failure and death that is frequently unrecognized and underdiagnosed. The investigators have developed a deep learning model that identifies patients with features of ATTR-CA and other types of cardiac amyloidosis using echocardiographic, ECG, and clinical factors. By applying this model to the population served by NewYork-Presbyterian Hospital, the investigators will identify a list of patients at highest predicted risk for having undiagnosed cardiac amyloidosis. The investigators will then invite these patients for further testing to diagnose cardiac amyloidosis. The rate of cardiac amyloidosis diagnosis of patients in this study will be compared to rate of cardiac amyloidosis diagnosis in historic controls from the following two groups: (1) patients referred for clinical cardiac amyloidosis testing at NewYork-Prebysterian Hospital and (2) patients enrolled in the Screening for Cardiac Amyloidosis With Nuclear Imaging in Minority Populations (SCAN-MP) study.",
+            "detailedDescription": "Heart failure is a leading cause of death in the United States and throughout the world. One cause of heart failure is transthyretin cardiac amyloidosis (ATTR-CA), in which misfolded proteins deposit into the heart. This condition is often diagnosed very late when patients have severe symptoms. In this study, the investigators are trying to use a computer algorithm to find patients with cardiac amyloidosis that has not been diagnosed or suspected by their doctors. The investigators will look at patients seen at Columbia University Irving Medical Center and use our algorithm to identify 100 patients with a high probability of having cardiac amyloidosis and bring them in to be tested.\n\n* ATTR-CA diagnosis: A diagnosis of ATTR-CA will be made according to consensus guidelines by an amyloidosis expert. These criteria include either (1) imaging criteria with requires that a patient's cardiac amyloid scintigraphy single-photon emission computed tomography (SPECT) scan shows myocardial uptake, increase left ventricular (LV) wall thickness by cardiac imaging that is unexplained by loading conditions, and follow-up monoclonal protein testing shows no evidence of clinical amyloid light-chain (AL) amyloidosis or (2) pathologic criteria with a biopsy showing systemic transthyretin deposition.\n* Cardiac amyloidosis (AL-CA) diagnosis: A clinical diagnosis of AL-CA will be by an amyloidosis expert according to society guidelines. These includes a diagnosis made in one of the following settings: (1) cardiac biopsy showing AL deposition and (2) extra-cardiac biopsy showing AL deposition with typical cardiac features on imaging such as echocardiography or cardiac magnetic resonance imaging."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cardiac Amyloidosis"
+            ],
+            "keywords": [
+                "Cardiac Amyloidosis",
+                "Artificial Intelligence",
+                "Deep Learning"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Intervention Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients who are identified by the deep learning model as being at high risk for undiagnosed cardiac amyloidosis who are enrolled in the study.",
+                    "interventionNames": [
+                        "Device: Cardiac amyloidosis deep learning model"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Cardiac amyloidosis deep learning model",
+                    "description": "This is a deep learning algorithm which intakes a patient's age, sex, clinical factors known to be related to amyloidosis and their ECG and echocardiogram results and determines their estimated risk for having cardiac amyloidosis.",
+                    "armGroupLabels": [
+                        "Intervention Arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Rate of Cardiac Amyloidosis Diagnosis",
+                    "description": "The primary outcome is the rate of cardiac amyloidosis diagnosis (inclusive of transthyretin and light chain cardiac amyloidosis) which is performed in response to patient identification using the deep learning model.",
+                    "timeFrame": "Up to 1 year after identification"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* High predicted probability of having cardiac amyloidosis as determined by deep learning model.\n* Age \u2265 50 years.\n* Electronically stored ECG and echocardiogram within 5 years of study start date.\n* Ability for the patient or health care proxy to understand and sign the informed consent after the study has been explained.\n\nExclusion Criteria:\n\n* Primary amyloidosis (AL) or secondary amyloidosis (AA).\n* Prior liver or heart transplantation.\n* Active malignancy or non-amyloid disease with expected survival of less than 1 year.\n* Previous testing for cardiac amyloidosis such as amyloid nuclear scintigraphy, cardiac, or fat pad biopsy.\n* Impairment from stroke, injury or other medical disorder that precludes participation in the study.\n* Disabling dementia or other mental or behavioral disease\n* Nursing home resident.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "50 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Timothy J. Poterucha, MD",
+                    "role": "CONTACT",
+                    "phone": "(212) 932-4537",
+                    "email": "tp2558@cumc.columbia.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Timothy J. Poterucha, MD",
+                    "affiliation": "Assistant Professor of Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Columbia University Irving Medical Center / NewYork-Presbyterian Hospital",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Timothy J. Poterucha, MD",
+                            "role": "CONTACT",
+                            "phone": "212-932-4537",
+                            "email": "tp2558@cumc.columbia.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "31468376",
+                    "type": "BACKGROUND",
+                    "citation": "Dorbala S, Ando Y, Bokhari S, Dispenzieri A, Falk RH, Ferrari VA, Fontana M, Gheysens O, Gillmore JD, Glaudemans AWJM, Hanna MA, Hazenberg BPC, Kristen AV, Kwong RY, Maurer MS, Merlini G, Miller EJ, Moon JC, Murthy VL, Quarta CC, Rapezzi C, Ruberg FL, Shah SJ, Slart RHJA, Verberne HJ, Bourque JM. ASNC/AHA/ASE/EANM/HFSA/ISA/SCMR/SNMMI expert consensus recommendations for multimodality imaging in cardiac amyloidosis: Part 1 of 2-evidence base and standardized methods of imaging. J Nucl Cardiol. 2019 Dec;26(6):2065-2123. doi: 10.1007/s12350-019-01760-6. No abstract available. Erratum In: J Nucl Cardiol. 2021 Aug;28(4):1761-1762. doi: 10.1007/s12350-021-02711-w."
+                },
+                {
+                    "pmid": "31468377",
+                    "type": "BACKGROUND",
+                    "citation": "Dorbala S, Ando Y, Bokhari S, Dispenzieri A, Falk RH, Ferrari VA, Fontana M, Gheysens O, Gillmore JD, Glaudemans AWJM, Hanna MA, Hazenberg BPC, Kristen AV, Kwong RY, Maurer MS, Merlini G, Miller EJ, Moon JC, Murthy VL, Quarta CC, Rapezzi C, Ruberg FL, Shah SJ, Slart RHJA, Verberne HJ, Bourque JM. ASNC/AHA/ASE/EANM/HFSA/ISA/SCMR/SNMMI expert consensus recommendations for multimodality imaging in cardiac amyloidosis: Part 2 of 2-Diagnostic criteria and appropriate utilization. J Nucl Cardiol. 2020 Apr;27(2):659-673. doi: 10.1007/s12350-019-01761-5. Erratum In: J Nucl Cardiol. 2021 Aug;28(4):1763-1767. doi: 10.1007/s12350-021-02712-9."
+                },
+                {
+                    "pmid": "33221204",
+                    "type": "BACKGROUND",
+                    "citation": "Poterucha TJ, Elias P, Bokhari S, Einstein AJ, DeLuca A, Kinkhabwala M, Johnson LL, Flaherty KR, Saith SE, Griffin JM, Perotte A, Maurer MS. Diagnosing Transthyretin Cardiac Amyloidosis by Technetium Tc 99m Pyrophosphate: A Test in Evolution. JACC Cardiovasc Imaging. 2021 Jun;14(6):1221-1231. doi: 10.1016/j.jcmg.2020.08.027. Epub 2020 Nov 18."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified individual participant data will be made available to other researchers. Data available will include age range (50-59, 60-69, etc), sex, ECG and echocardiogram findings, pre-study clinical diagnosis, and post-study diagnosis.",
+            "infoTypes": [
+                "STUDY_PROTOCOL"
+            ],
+            "timeFrame": "Data will be made available within 6 months of study publication and will be kept available for up to 3 years following publication",
+            "accessCriteria": "Access will be made available request to academic investigators"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000686",
+                    "term": "Amyloidosis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000057165",
+                    "term": "Proteostasis Deficiencies"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4021",
+                    "name": "Amyloidosis",
+                    "asFound": "Amyloidosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28747",
+                    "name": "Proteostasis Deficiencies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

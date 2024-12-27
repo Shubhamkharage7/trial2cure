@@ -1,0 +1,221 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04125095",
+            "orgStudyIdInfo": {
+                "id": "SJPRONTON2"
+            },
+            "organization": {
+                "fullName": "St. Jude Children's Research Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Estimating Setup Uncertainty in Pediatric Proton Therapy Using Volumetric Images",
+            "officialTitle": "Estimating Setup Uncertainty in Pediatric Proton Therapy Using Volumetric Images",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "estimating-setup-uncertainty-in-pediatric-proton-therapy-using-volumetric-images"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-01-28",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-10-10",
+            "studyFirstSubmitQcDate": "2019-10-10",
+            "studyFirstPostDateStruct": {
+                "date": "2019-10-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "St. Jude Children's Research Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This research study establishes a repository for imaging data generated during image-guided proton therapy for various pediatric cancers. The data facilitate the estimation of patient positioning uncertainty, the comparison of image guidance methods, and the identification of factors contributing to large setup deviations to improve the accuracy of radiation therapy in the future.\n\nPrimary Objective\n\nTo establish a repository of imaging data acquired during the radiation therapy course with linked radiation treatment plans and clinical information from pediatric patients of all cancer types receiving image-guided proton therapy to facilitate secondary and exploratory objectives.\n\nSecondary Objectives\n\n* To estimate distributions of patient setup uncertainty measured with daily pre- treatment volumetric cone beam computed tomography (CBCT) scans.\n* To compare patient setup corrections derived based on 2D (orthogonal radiographs) and 3D (volumetric CBCT scans) image guidance.\n* To assess residual setup errors after CBCT-guided correction based on post- correction repeat CBCT.\n* To estimate distributions and time trends of patient motion during a radiation therapy course based on weekly pre- and post-treatment CBCT scans.\n* To identify clinical and treatment factors that contribute to significantly large setup uncertainty and intra-fractional movement in pediatric patients.\n\nExploratory Objectives\n\n* To determine variation in patient anatomy using images acquired during the treatment course.\n* To evaluate the usefulness of on-treatment CBCT scans for detecting daily changes in proton ranges, evaluating deviations from planned tumor dosimetry, and triggering adaptive replanning.",
+            "detailedDescription": "Image guidance data collected in this study include daily volumetric pre-treatment CBCT for image guidance, post-correction CBCT, weekly post-treatment CBCT, and 2D orthogonal radiographs. Setup uncertainty will be estimated for head and body cohorts separately, further divided into different anatomic sites. The usefulness and necessity of daily volumetric image guidance for pediatric proton therapy patients will be determined. Knowledge gained from this study will provide a basis for reducing patient positioning uncertainty and designing optimal treatment plans for pediatric patients receiving proton therapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pediatric Cancer"
+            ],
+            "keywords": [
+                "Proton therapy, Children and adolescents, Image guidance, Setup uncertainty"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Head Scans",
+                    "description": "Includes patients receiving proton therapy for tumors in the brain, skull, and head and neck region. The same patient could potentially contribute to both cohorts if he/she receives radiation to both head and body sites."
+                },
+                {
+                    "label": "Body Scans",
+                    "description": "Includes proton irradiation to shoulders, thorax, abdomen, pelvis, spine (thoracic or lumbar), extremities, and other body sites. The same patient could potentially contribute to both cohorts if he/she receives radiation to both head and body sites."
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Site-specific distributions of patient setup uncertainty.",
+                    "description": "The numbers of subjects enrolled in the head cohort and the body cohort.",
+                    "timeFrame": "5 years after activation"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Differences in setup errors calculated from orthogonal radiographs and cone beam computed tomography (CBCT)",
+                    "description": "This is to determine if setup corrections estimated from orthogonal radiographs are similar to those from volumetric imaging. The differences of each positional shift (x, y, z, pitch, roll, yaw) are measured.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Residual errors after image-guided setup corrections",
+                    "description": "This is to determine if residual setup errors are submillimeter after image guidance with robotic cone beam computed tomography and 6 degree-of-freedom patient positioner. Residual errors differences for six parameters (x, y, z, pitch, roll, yaw) are measured.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Distributions of intra-fractional patient motion",
+                    "description": "This is to estimate the change in patient position during a treatment fraction based on pre- and post-fractional volumetric imaging. The differences of each positional shift (x, y, z, pitch, roll, yaw) are measured.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Risk factors of large setup uncertainty and intra-fractional movement",
+                    "description": "Risk factors (e.g., age, anesthesia, and anatomic site) that associate with the significantly large setup uncertainty and intra-fractional movement will be identified. The association with p value between age and setup uncertainty is measured.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Risk factors of large setup uncertainty and intra-fractional movement",
+                    "description": "Risk factors (e.g., age, anesthesia, and anatomic site) that associate with the significantly large setup uncertainty and intra-fractional movement will be identified. The association with p value between anesthesia and setup uncertainty is measured.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Risk factors of large setup uncertainty and intra-fractional movement",
+                    "description": "Risk factors (e.g., age, anesthesia, and anatomic site) that associate with the significantly large setup uncertainty and intra-fractional movement will be identified. The association with p value between anatomic site and setup uncertainty is measured.",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patient will receive proton therapy of \u22655 daily fractions.\n* Research participant or legal guardian/representative gives written informed consent.\n\nExclusion Criteria:\n\n* Unwillingness of research participant or legal guardian/representative to give written informed consent.\n* If patients previously enrolled in this study and completed protocol-specified imaging scans but return for re-irradiation, they will not be eligible to participate again.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Pediatric patients of all cancer types who undergo at least 5 daily treatments of proton therapy.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Chia-ho Hua, PhD",
+                    "role": "CONTACT",
+                    "phone": "866-278-5833",
+                    "email": "referralinfo@stjude.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Chia-ho Hua, PhD",
+                    "affiliation": "St. Jude Children's Research Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "St. Jude Children's Research Hospital",
+                    "status": "RECRUITING",
+                    "city": "Memphis",
+                    "state": "Tennessee",
+                    "zip": "38105",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Chia-ho Hua, PhD",
+                            "role": "CONTACT",
+                            "phone": "866-278-5833",
+                            "email": "referralinfo@stjude.org"
+                        },
+                        {
+                            "name": "Chia-ho Hua, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.14953,
+                        "lon": -90.04898
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "38001746",
+                    "type": "BACKGROUND",
+                    "citation": "Becksfort J, Uh J, Saunders A, Byrd JA, Worrall HM, Marker M, Melendez-Suchi C, Li Y, Chang J, Raghavan K, Merchant TE, Hua CH. Setup Uncertainty of Pediatric Brain Tumor Patients Receiving Proton Therapy: A Prospective Study. Cancers (Basel). 2023 Nov 20;15(22):5486. doi: 10.3390/cancers15225486."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "St. Jude Children's Research Hospital",
+                    "url": "http://www.stjude.org"
+                },
+                {
+                    "label": "Clinical Trials Open at St. Jude",
+                    "url": "http://www.stjude.org/protocols"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

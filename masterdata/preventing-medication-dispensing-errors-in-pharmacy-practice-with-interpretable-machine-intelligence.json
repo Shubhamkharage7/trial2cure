@@ -1,0 +1,270 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06245044",
+            "orgStudyIdInfo": {
+                "id": "HUM00241223"
+            },
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "Preventing Medication Dispensing Errors in Pharmacy Practice With Interpretable Machine Intelligence",
+            "officialTitle": "Preventing Medication Dispensing Errors in Pharmacy Practice With Interpretable Machine Intelligence",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "preventing-medication-dispensing-errors-in-pharmacy-practice-with-interpretable-machine-intelligence"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-04-11",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-05",
+            "studyFirstSubmitQcDate": "2024-02-05",
+            "studyFirstPostDateStruct": {
+                "date": "2024-02-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Corey Lester",
+                "investigatorTitle": "Assistant Professor of Clinical Pharmacy",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Pharmacists currently perform an independent double-check to identify drug-selection errors before they can reach the patient. However, the use of machine intelligence (MI) to support this cognitive decision-making work by pharmacists does not exist in practice. This research is being conducted to examine the effectiveness of the timing of machine intelligence (MI) advice on to determine if it results in lower task time, increased accuracy, and increased trust in the MI.",
+            "detailedDescription": "Pharmacists currently perform an independent double-check currently to identify drug-selection errors before they can reach the patient. However, the use of machine intelligence (MI) to support this cognitive decision-making work by pharmacists does not exist in practice. Instead, pharmacists rely solely on reference images of the medication which they can compare to the prescription vial contents. Previous research has shown that decision support systems can effectively improve healthcare delivery efficiency and accuracy, while preventing adverse drug events. However, little is known about how MI technologies impact pharmacists' work performance and cognitive demand.\n\nTo facilitate the long-term symbiotic relationship between the pharmacists and the MI system, proper trust needs to be established. While trust has been identified as the central factor for effective human-machine teaming, issues arise when humans place unjustified trust in automated technologies do not place enough trust in them. Over trust in automation can lead to complacency and automation bias. For instance, the pharmacists may rely on the MI system to the extent that they blindly accept any recommendation by the system. Under trust can result in pharmacist disuse and potential abandonment of the MI system.\n\nFurthermore, little is known about the timing of the MI advice on pharmacists' work performance. For example, showing the MI's advice while the pharmacist is performing the medication verification task may yield different results than showing the MI's advice after the pharmacist made their decision.\n\nThe study investigators have developed a MI system for medication images classification. The objective of this study is to examine the effectiveness of the timing of MI advice to determine if it results in lower task time, increased accuracy, and increased trust in the MI."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Machine Intelligence in the Pharmacy"
+            ],
+            "keywords": [
+                "pharmacy",
+                "medication verification",
+                "artificial intelligence",
+                "machine intelligence"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 36,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "No MI Help",
+                    "type": "EXPERIMENTAL",
+                    "description": "No MI help will be presented during the verification tasks",
+                    "interventionNames": [
+                        "Behavioral: No MI Help",
+                        "Behavioral: Scenario #1",
+                        "Behavioral: Scenario #2"
+                    ]
+                },
+                {
+                    "label": "Scenario #1",
+                    "type": "EXPERIMENTAL",
+                    "description": "MI help will be presented in the form of a pop-up message the participant's decision differs from the MI's determination.",
+                    "interventionNames": [
+                        "Behavioral: No MI Help",
+                        "Behavioral: Scenario #1",
+                        "Behavioral: Scenario #2"
+                    ]
+                },
+                {
+                    "label": "Scenario #2",
+                    "type": "EXPERIMENTAL",
+                    "description": "MI help will be displayed concurrently with the filled and reference images.",
+                    "interventionNames": [
+                        "Behavioral: No MI Help",
+                        "Behavioral: Scenario #1",
+                        "Behavioral: Scenario #2"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "No MI Help",
+                    "description": "Participants will complete the medication verification task without any MI help",
+                    "armGroupLabels": [
+                        "No MI Help",
+                        "Scenario #1",
+                        "Scenario #2"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Scenario #1",
+                    "description": "Participants will receive MI in the form of a pop-up message if their decision differs from the MI's determination.",
+                    "armGroupLabels": [
+                        "No MI Help",
+                        "Scenario #1",
+                        "Scenario #2"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Scenario #2",
+                    "description": "MI help will be displayed concurrently with the filled and reference images.",
+                    "armGroupLabels": [
+                        "No MI Help",
+                        "Scenario #1",
+                        "Scenario #2"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Reaction time",
+                    "description": "Difference in task time measured by the number of seconds from starting the task to accepting or rejecting a medication image",
+                    "timeFrame": "1 day - Single study visit"
+                },
+                {
+                    "measure": "Decision accuracy",
+                    "description": "Difference in detection rate measured by number of medication verification errors",
+                    "timeFrame": "1 day - Single study visit"
+                },
+                {
+                    "measure": "Trust change",
+                    "description": "Difference in trust as measured by visual analog scale will be calculated based on AI advice accuracy. Participants will indicate their level of trust in the AI advice after every trial on a scale from 1-100, with higher scores indicating greater levels of trust.",
+                    "timeFrame": "1 day - Single study visit"
+                },
+                {
+                    "measure": "Trust",
+                    "description": "Score on the Muir \\& Moray's 100-point trust scale where higher scores indicated greater levels of trust.",
+                    "timeFrame": "1 day - Single study visit"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Cognitive effort",
+                    "description": "Difference in cognitive effort measured by fixation count",
+                    "timeFrame": "1 day - Single study visit"
+                },
+                {
+                    "measure": "Cognitive effort",
+                    "description": "Difference in cognitive effort measured by duration of fixation",
+                    "timeFrame": "1 day - Single study visit"
+                },
+                {
+                    "measure": "Workload",
+                    "description": "Workload will be measured by NASA Task Load Index",
+                    "timeFrame": "1 day - Single study visit"
+                },
+                {
+                    "measure": "Usability",
+                    "description": "Usability will be assessed using the System Usability Scale (SUS). SUS scores range from 0 to 100 with a higher scores indicating greater trust.",
+                    "timeFrame": "1 day - Single study visit"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Licensed pharmacist in the United States\n* Age 18 years and older at screening\n* PC/Laptop with Microsoft Windows 10 or Mac (Macbook, iMac) with MacOS with Google Chrome, Edge, Opera, Safari, or Firefox web browser installed on the device\n* Screen resolution of 1024x968 pixels or more\n* A laptop integrated webcam or USB webcam is also required for the eye tracking purpose.\n\nExclusion Criteria:\n\n* Participated in Wave 1 or Wave 2\n* Eyeglasses\n* Uncorrected cataracts, intraocular implants, glaucoma, or permanently dilated pupil\n* Require a screen reader/magnifier or other assistive technology to use the computer\n* Eye movement or alignment abnormalities (lazy eye, strabismus, nystagmus)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Brigid E Rowell, MA",
+                    "role": "CONTACT",
+                    "phone": "734-763-1346",
+                    "email": "browell@med.umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Corey A Lester, PharmD, PhD",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Brigid Rowell",
+                            "role": "CONTACT",
+                            "email": "browell@med.umich.edu"
+                        },
+                        {
+                            "name": "Corey A Lester, PharmD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

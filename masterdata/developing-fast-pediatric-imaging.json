@@ -1,0 +1,304 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03761121",
+            "orgStudyIdInfo": {
+                "id": "18-325"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01EB020613",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01EB020613"
+                }
+            ],
+            "organization": {
+                "fullName": "Boston Children's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Developing Fast Pediatric Imaging",
+            "officialTitle": "Developing Fast Pediatric Imaging",
+            "therapeuticArea": [
+                "Pediatrics"
+            ],
+            "study": "developing-fast-pediatric-imaging"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-04-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-11-27",
+            "studyFirstSubmitQcDate": "2018-11-29",
+            "studyFirstPostDateStruct": {
+                "date": "2018-12-03",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-06-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-06-15",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Ellen Grant",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Boston Children's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Boston Children's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute for Biomedical Imaging and Bioengineering (NIBIB)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "Dana-Farber Cancer Institute",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This research study is evaluating the investigational software for magnetic resonance imaging (MRI) systems and techniques to process magnetic resonance (MR) images",
+            "detailedDescription": "The purpose of the study is to develop new technologies for MRI systems. The new technologies should improve MRI capabilities in terms of how sensitive, specific, and efficient they are. The overall goal is to get better measurements of the brain tumor tissue(s).\n\nIn this research study, the investigators want to learn more about investigational software and about techniques to process MR images. The testing of investigational software will allow the investigators to improve the image quality. As part of the testing process, the investigators will collect more MR images of the brain, and improve current image reconstruction methods. This will allow a more precise analysis of MR images and potentially better assessment of the brain tumor tissue volume."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pediatric Low-grade Gliomas"
+            ],
+            "keywords": [
+                "Neuro Oncology"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Primary Testing Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "* This scan is in the same imaging session as the participant's scheduled clinical MRI and is no longer 15 minutes\n* Wave-CAIPI will be use to enable a 40-60 s acquisition per contrast at 0.9-mm isotropic resolution\n* Wave-CAIPI will be used to acquire a 4-echo GE-SE time-series at 1.5-mm isotropic resolution",
+                    "interventionNames": [
+                        "Other: Wave-CAIPI"
+                    ]
+                },
+                {
+                    "label": "Software Testing Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "* Participants will receive hour research-only scan\n* Wave-CAIPI will be use to enable a 40-60 s acquisition per contrast at 0.9-mm isotropic resolution\n* Wave-CAIPI will be used to acquire a 4-echo GE-SE time-series at 1.5-mm isotropic resolution",
+                    "interventionNames": [
+                        "Other: Wave-CAIPI"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Wave-CAIPI",
+                    "description": "\"wave-CAIPI\" technology, a data acquisition / reconstruction scheme designed to optimally exploit available information in modern multi-channel receivers and in multi-contrast/time-series data for improved image encoding",
+                    "armGroupLabels": [
+                        "Primary Testing Group",
+                        "Software Testing Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Wave-CAIPI validation",
+                    "description": "The outcome measure for this project will be that the rapid scan from Wave-CAIPI can provide equivalent diagnostic quality to that of standard clinical acquisitions which is performed at much slower speed. This will be assess using visual qualitative assessment by experienced radiologists on the project.",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Infants, children and adults who have been diagnosed with Low Grade Glioma\n* Healthy volunteers - Children from age 0 to adults with no upper age limit or;\n* Diagnosed with LGG and being treated at DFCI;\n\nExclusion Criteria:\n\n* Electrical implants such as cardiac pacemakers or perfusion pumps;\n* Ferromagnetic implants such as aneurysm clips, surgical clips, prosthesis, artificial hearts, valves with steel parts, metal fragments, shrapnel, tattoos near the eye, or steel implants;\n* Ferromagnetic objects such as jewelry or metal clips;\n* Women of childbearing age who are seeking to become pregnant, who are breastfeeding, or who suspect they may be pregnant;\n* Pre-existing medical conditions including a likelihood of developing seizures or claustrophobic reactions;\n* Any greater than normal potential for cardiac arrest",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "0 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kawin Setsompop, PhD",
+                    "role": "CONTACT",
+                    "phone": "617-669-6640",
+                    "email": "kawin@nmr.mgh.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kawin Setsompop, PhD",
+                    "affiliation": "Boston Children Hospital/ Massachusetts General Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02214",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kawin Setsompop, PhD",
+                            "role": "CONTACT",
+                            "phone": "617-669-6640",
+                            "email": "kawin@nmr.mgh.harvard.edu"
+                        },
+                        {
+                            "name": "Kawin Setsompop, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Boston Children Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Susan N Chi, MD",
+                            "role": "CONTACT",
+                            "phone": "617-632-3000",
+                            "email": "schi@partners.org"
+                        },
+                        {
+                            "name": "Susan N Chi, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Dana Farber Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Susan N Chi, MD",
+                            "role": "CONTACT",
+                            "phone": "617-632-3000",
+                            "email": "schi@partners.org"
+                        },
+                        {
+                            "name": "Susan N Chi, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The Dana-Farber / Harvard Cancer Center encourages and supports the responsible and ethical sharing of data from clinical trials. De-identified participant data from the final research dataset used in the published manuscript may only be shared under the terms of a Data Use Agreement. Requests may be directed to: \\[contact information for Sponsor- Investigator or designee\\]. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP"
+            ],
+            "timeFrame": "Data can be shared no earlier than 1 year following the date of publication.",
+            "accessCriteria": "Requests may be directed to: \\[contact information for Sponsor- Investigator or designee\\]."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M9020",
+                    "name": "Glioma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2519",
+                    "name": "Glioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

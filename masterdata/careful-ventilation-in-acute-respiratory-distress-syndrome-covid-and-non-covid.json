@@ -1,0 +1,899 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03963622",
+            "orgStudyIdInfo": {
+                "id": "1765"
+            },
+            "organization": {
+                "fullName": "Unity Health Toronto",
+                "class": "OTHER"
+            },
+            "briefTitle": "Careful Ventilation in Acute Respiratory Distress Syndrome (COVID-19 and Non-COVID-19)",
+            "officialTitle": "Careful Ventilation in Acute Respiratory Distress Syndrome",
+            "acronym": "CAVIARDS",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "careful-ventilation-in-acute-respiratory-distress-syndrome-covid-and-non-covid"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-11-23",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-05-06",
+            "studyFirstSubmitQcDate": "2019-05-23",
+            "studyFirstPostDateStruct": {
+                "date": "2019-05-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-12-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-12-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Unity Health Toronto",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Canadian Institutes of Health Research (CIHR)",
+                    "class": "OTHER_GOV"
+                },
+                {
+                    "name": "University of Toronto",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Applied Health Research Centre",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a multicenter randomized controlled clinical trial with an adaptive design assessing the efficacy of setting the ventilator based on measurements of respiratory mechanics (recruitability and effort) to reduce Day 60 mortality in patients with acute respiratory distress syndrome (ARDS).\n\nThe CAVIARDS study is also a basket trial; a basket trial design examines a single intervention in multiple disease populations. CAVIARDS consists of an identical 2-arm mechanical ventilation protocol implemented in two different study populations (COVID-19 and non-COVID-19 patients). As per a typical basket trial design, the operational structure of both the COVID-19 substudy (CAVIARDS-19) and non-COVID-19 substudy (CAVIARDS-all) is shared (recruitment, procedures, data collection, analysis, management, etc.).",
+            "detailedDescription": "Acute respiratory distress syndrome (ARDS) is a major public health problem affecting approximately 10% of patients in the intensive care unit (ICU) and 23% of all patients on a breathing machine (mechanical ventilator). The short-term mortality of patients with ARDS is approximately 40% and better ventilation of these patients has the greatest potential to improve outcomes.\n\nThe lungs in patients with ARDS are severely inflamed which reduces lung volume and their ability to stretch, making ventilation difficult and dangerous. However, mechanical ventilation is the mainstay of supportive therapy. Although it is life-saving, it can also can generate secondary injury and inflammation, called ventilator-induced lung injury (VILI). The investigators know that inadequate mechanical ventilation worsens outcomes but are uncertain of the optimal way to manage ventilators at the bedside.\n\nFurthermore, ARDS is challenging because there is no treatment for the alveolar-capillary leak characterizing this syndrome; aside from treating the underlying cause, the only supportive therapy is mechanical ventilation. This is specially the case for COVID-19 induced ARDS. Despite best practices, over-distension of the lung or inappropriate positive end expiratory pressure (PEEP) is common. Finally, once spontaneous breathing has resumed and is assisted by the ventilator, an additional phenomenon occurs, called patient self-inflicted lung injury. The drive for breathing in many patients is stimulated by lung inflammation, and strong breathing efforts can generate high distending pressures, causing lung (and systemic) inflammation and organ damage. Whether the management of COVID-19 induced ARDS should differ from all other ARDS has been debated at length but has no clear response\n\nRecent advances in our understanding of bedside physiology (airway closure, recruitability, lung distension, respiratory drive) can now be applied for an individual titration of mechanical ventilation."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "ARDS"
+            ],
+            "keywords": [
+                "Ventilation",
+                "ARDS",
+                "Airway closure",
+                "Lung recruitment",
+                "COVID-19",
+                "Basket trial"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "This study is also a basket design, which examines a single intervention in multiple disease populations. This basket trial consists of an identical 2-arm mechanical ventilation protocol implemented in two different study populations (patients with COVID-19-induced ARDS, and patients with all ARDS not induced by COVID-19). The protocol and procedures are identical between the two study populations in this basket trial.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 740,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Control",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Standard ventilation strategy.",
+                    "interventionNames": [
+                        "Other: Standard Ventilation Strategy"
+                    ]
+                },
+                {
+                    "label": "Respiratory Mechanics",
+                    "type": "EXPERIMENTAL",
+                    "description": "The goal of this arm is to individualize tidal volume (VT) and PEEP according to respiratory mechanics.",
+                    "interventionNames": [
+                        "Other: Respiratory Mechanics"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Respiratory Mechanics",
+                    "description": "Different maneuvers based on respiratory mechanics will be assessed at the bedside and will be used to individualize ventilator parameters. Recruitability will be assessed with a one breath decremental PEEP maneuver, and search for airway closure with a low-flow pressure volume or pressure-time curve. If the patient has airway closure, the minimal PEEP will be set at the airway opening pressure to avoid closure. If the patient is considered recruitable, the goal is to set PEEP at or above 15cmH20 to maximize alveolar recruitment, until the plateau pressure reaches the safety limit. Volume control ventilation at 6ml\u00b7kg-1 will be used.\n\nOnce spontaneous breathing has started, the occlusion pressure (P0.1) will be maintained within targets.",
+                    "armGroupLabels": [
+                        "Respiratory Mechanics"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Standard Ventilation Strategy",
+                    "description": "Patients randomized to the control arm will receive standard care. The PEEP is adjusted for oxygenation based on a PEEP-FiO2 table, either the low PEEP-FiO2 or the high PEEP-FiO2 table. Volume targeted ventilation with initial VT 6 mL\u00b7kg-1 and Plateau pressure at 30 cmH2O or below, targeting PaO2 60-80 or SpO2 90-95%, adjusted as per the protocol. Pressure-support ventilation is at physician's discretion, but recommended when FiO2 \\<60%, and is titrated VT 6-8 mL\u00b7kg-1.",
+                    "armGroupLabels": [
+                        "Control"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "All-cause 60-day mortality",
+                    "description": "The lack of an appropriate surrogate endpoint, and the high baseline mortality rate mandate a multicentre RCT to determine the mortality effects of setting the ventilator based on recruitability and effort compared with conventional ventilation.",
+                    "timeFrame": "60 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Duration of ventilation",
+                    "description": "Duration of ventilation in days",
+                    "timeFrame": "May exceed 60 days"
+                },
+                {
+                    "measure": "Duration of ICU and hospital stay",
+                    "description": "Duration of ICU and hospital stay in days",
+                    "timeFrame": "May exceed 60 days"
+                },
+                {
+                    "measure": "Number of patients with organ dysfunction",
+                    "description": "Organ dysfunction as per the SOFA score",
+                    "timeFrame": "Day 1-7, 14, 21, 28"
+                },
+                {
+                    "measure": "Number of patients with barotrauma",
+                    "description": "Barotrauma defined as new onset of pneumothorax",
+                    "timeFrame": "Up to 60 days"
+                },
+                {
+                    "measure": "Mortality at ICU discharge, 28 days, and hospital discharge",
+                    "description": "Mortality",
+                    "timeFrame": "Up to date of ICU discharge, 28 days, and hospital discharge"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "The change in biomarker expression",
+                    "description": "Biomarkers include interleukin 6 (IL-6), interleukin 8 (IL-8), tumor necrosis factor receptor 1 (TNFr1), soluble receptor of the advanced glycation end products (sRAGE), and surfactant protein D (SPD). All measured in pg/ml",
+                    "timeFrame": "Baseline, 24 and 72 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u2265 18 y\n2. Moderate or severe ARDS (PaO2/FiO2 \u2264 200 mmHg) within 48 h of meeting Berlin ARDS criteria\n\nExclusion Criteria:\n\n1. Received continuous mechanical ventilation \\> 7 days\n2. Known or clinically suspected elevated intracranial pressure (\\>18mmHg) necessitating strict control of PaCO2\n3. Known pregnancy\n4. Broncho-pleural fistula\n5. Severe liver disease (Child-Pugh Score \u2265 10)\n6. BMI \\>40kg/m2\n7. Anticipating withdrawal of life support and/or shift to palliation as the goal of care\n8. Patient is receiving ECMO at time of randomization",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Laurent Brochard, MD",
+                    "role": "CONTACT",
+                    "phone": "416-864-6060",
+                    "phoneExt": "5686",
+                    "email": "laurent.brochard@unityhealth.to"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Laurent Brochard, MD",
+                    "affiliation": "Unity Health Toronto",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "New York University Grossman School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Kaufman, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Centro de Educaci\u00f3n M\u00e9dica e Investigaciones Cl\u00ednicas Dr Norberto Quirno (CEMIC)",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Buenos Aires",
+                    "country": "Argentina",
+                    "contacts": [
+                        {
+                            "name": "Pablo Rodriguez, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -34.61315,
+                        "lon": -58.37723
+                    }
+                },
+                {
+                    "facility": "Complejo M\u00e9dico Polic\u00eda Federal Argentina Churruca Visca",
+                    "status": "RECRUITING",
+                    "city": "Buenos Aires",
+                    "country": "Argentina",
+                    "contacts": [
+                        {
+                            "name": "Maria Guaymas, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -34.61315,
+                        "lon": -58.37723
+                    }
+                },
+                {
+                    "facility": "Hospital Brit\u00e1nico de Buenos Aires",
+                    "status": "RECRUITING",
+                    "city": "Buenos Aires",
+                    "country": "Argentina",
+                    "contacts": [
+                        {
+                            "name": "Gustavo Plotnikov, RRT",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -34.61315,
+                        "lon": -58.37723
+                    }
+                },
+                {
+                    "facility": "Sanatorio Anchorena Recoleta",
+                    "status": "RECRUITING",
+                    "city": "Buenos Aires",
+                    "country": "Argentina",
+                    "contacts": [
+                        {
+                            "name": "Daniela Vazquez, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -34.61315,
+                        "lon": -58.37723
+                    }
+                },
+                {
+                    "facility": "Sanatorio Mater Dei",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Buenos Aires",
+                    "country": "Argentina",
+                    "contacts": [
+                        {
+                            "name": "Magal\u00ed Guti\u00e9rrez, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -34.61315,
+                        "lon": -58.37723
+                    }
+                },
+                {
+                    "facility": "Sanatorio Anchorena San Mart\u00edn",
+                    "status": "RECRUITING",
+                    "city": "San Mart\u00edn",
+                    "country": "Argentina",
+                    "contacts": [
+                        {
+                            "name": "Matias Accoce, RRT",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -33.08103,
+                        "lon": -68.46814
+                    }
+                },
+                {
+                    "facility": "St. Michael's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Laurent Brochard, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "Toronto General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Ewan Goligher, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "Toronto Western Hospital",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Irene Telias, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "Pontificia Universidad Cat\u00f3lica de Chile",
+                    "status": "RECRUITING",
+                    "city": "Santiago de Chile",
+                    "country": "Chile",
+                    "contacts": [
+                        {
+                            "name": "Felipe Damiani, PhD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -33.45694,
+                        "lon": -70.64827
+                    }
+                },
+                {
+                    "facility": "Centre hospitalier universitaire d'Angers",
+                    "status": "RECRUITING",
+                    "city": "Angers",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Francois Beloncle, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.46667,
+                        "lon": -0.55
+                    }
+                },
+                {
+                    "facility": "CH Victor Dupouy",
+                    "status": "RECRUITING",
+                    "city": "Argenteuil",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Gaetan Plantefeve, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.95,
+                        "lon": 2.25
+                    }
+                },
+                {
+                    "facility": "CH de Beauvais",
+                    "status": "RECRUITING",
+                    "city": "Beauvais",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Jack Richecoeur, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 49.43333,
+                        "lon": 2.08333
+                    }
+                },
+                {
+                    "facility": "CHU Bordeaux - Haut Leveque",
+                    "status": "RECRUITING",
+                    "city": "Bordeaux",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Hadrien Roze, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.84044,
+                        "lon": -0.5805
+                    }
+                },
+                {
+                    "facility": "Hopital de la Cavale Blanche - CHRU Brest",
+                    "status": "RECRUITING",
+                    "city": "Brest",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Gwenael Prat, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.3903,
+                        "lon": -4.48628
+                    }
+                },
+                {
+                    "facility": "CH de Cholet",
+                    "status": "RECRUITING",
+                    "city": "Cholet",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Johann Auchabie, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.06667,
+                        "lon": -0.88333
+                    }
+                },
+                {
+                    "facility": "Hopital Intercommunal de Creteil",
+                    "status": "RECRUITING",
+                    "city": "Creteil",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Tommaso Maraffi, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.78333,
+                        "lon": 2.46667
+                    }
+                },
+                {
+                    "facility": "CHU Grenoble-Alpes",
+                    "status": "RECRUITING",
+                    "city": "Grenoble",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Nicolas Terzi, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.16667,
+                        "lon": 5.71667
+                    }
+                },
+                {
+                    "facility": "Hopital Roger Salengro - CHU Lille",
+                    "status": "RECRUITING",
+                    "city": "Lille",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Saad Nseir, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 50.63297,
+                        "lon": 3.05858
+                    }
+                },
+                {
+                    "facility": "Groupe Hospitalier de la Region de Mulhouse et Sud Alsace",
+                    "status": "RECRUITING",
+                    "city": "Mulhouse",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Khaldoun Kuteifan, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.75,
+                        "lon": 7.33333
+                    }
+                },
+                {
+                    "facility": "Hopital de l'Archet 1 - CHU de Nice",
+                    "status": "RECRUITING",
+                    "city": "Nice",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Jean Dellamonica, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70313,
+                        "lon": 7.26608
+                    }
+                },
+                {
+                    "facility": "Hopital Europeen Georges-Pompidou",
+                    "status": "RECRUITING",
+                    "city": "Paris",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Jean-Luc Diehl, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.85341,
+                        "lon": 2.3488
+                    }
+                },
+                {
+                    "facility": "CHU de Poitiers - La Miletrie",
+                    "status": "RECRUITING",
+                    "city": "Poitiers",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Remi Coudroy, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 46.58333,
+                        "lon": 0.33333
+                    }
+                },
+                {
+                    "facility": "CH Bretagne Atlantique Vannes-Auray",
+                    "status": "RECRUITING",
+                    "city": "Vannes",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Agathe Delbove, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.66667,
+                        "lon": -2.75
+                    }
+                },
+                {
+                    "facility": "HIA Robert Picque",
+                    "status": "RECRUITING",
+                    "city": "Villenave-d'Ornon",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "David Tran-Van, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.77327,
+                        "lon": -0.5442
+                    }
+                },
+                {
+                    "facility": "Arcispedale Sant'Anna",
+                    "status": "RECRUITING",
+                    "city": "Ferrara",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Savino Spadaro, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.83804,
+                        "lon": 11.62057
+                    }
+                },
+                {
+                    "facility": "University of Foggia",
+                    "status": "RECRUITING",
+                    "city": "Foggia",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Michela Rauseo, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.45845,
+                        "lon": 15.55188
+                    }
+                },
+                {
+                    "facility": "Policlinico Universitario Agostino Gemelli IRCCS",
+                    "status": "RECRUITING",
+                    "city": "Rome",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Domenico L Grieco, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.89193,
+                        "lon": 12.51133
+                    }
+                },
+                {
+                    "facility": "L'Hospital de la Santa Creu i Sant Pau",
+                    "status": "RECRUITING",
+                    "city": "Barcelona",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Jordi Mancebo, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.38879,
+                        "lon": 2.15899
+                    }
+                },
+                {
+                    "facility": "Vall d'Hebron University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Barcelona",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Oriol Roca, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.38879,
+                        "lon": 2.15899
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Study website",
+                    "url": "https://studykeepr.com/caviards"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012128",
+                    "term": "Respiratory Distress Syndrome"
+                },
+                {
+                    "id": "D000012127",
+                    "term": "Respiratory Distress Syndrome, Newborn"
+                },
+                {
+                    "id": "D000055371",
+                    "term": "Acute Lung Injury"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                },
+                {
+                    "id": "D000007235",
+                    "term": "Infant, Premature, Diseases"
+                },
+                {
+                    "id": "D000007232",
+                    "term": "Infant, Newborn, Diseases"
+                },
+                {
+                    "id": "D000055370",
+                    "term": "Lung Injury"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2561",
+                    "name": "COVID-19",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14965",
+                    "name": "Respiratory Distress Syndrome",
+                    "asFound": "Respiratory Distress Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14964",
+                    "name": "Respiratory Distress Syndrome, Newborn",
+                    "asFound": "Respiratory Distress Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28144",
+                    "name": "Acute Lung Injury",
+                    "asFound": "Acute Respiratory Distress Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28143",
+                    "name": "Lung Injury",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25869",
+                    "name": "Premature Birth",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10279",
+                    "name": "Infant, Premature, Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10276",
+                    "name": "Infant, Newborn, Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4927",
+                    "name": "Respiratory Distress Syndrome, Infant",
+                    "asFound": "Respiratory Distress Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T192",
+                    "name": "Acute Respiratory Distress Syndrome",
+                    "asFound": "Acute Respiratory Distress Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

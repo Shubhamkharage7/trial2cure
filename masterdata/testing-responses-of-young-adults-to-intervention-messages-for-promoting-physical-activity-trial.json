@@ -1,0 +1,367 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05794178",
+            "orgStudyIdInfo": {
+                "id": "STUDY00019311"
+            },
+            "organization": {
+                "fullName": "Penn State University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Testing Responses of Young Adults to Intervention Messages for Promoting Physical Activity Trial",
+            "officialTitle": "Testing Responses of Young Adults to Intervention Messages (TRY AIM) for Promoting Physical Activity Trial",
+            "acronym": "TRY AIM",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "testing-responses-of-young-adults-to-intervention-messages-for-promoting-physical-activity-trial"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-31",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-20",
+            "studyFirstSubmitQcDate": "2023-03-20",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-03",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "David E Conroy",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Penn State University"
+            },
+            "leadSponsor": {
+                "name": "Penn State University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to test a precision (person-specific and context-sensitive) messaging algorithm for increasing physical activity and slowing weight gain in insufficiently-active young adults. The main questions it aims to answer are:\n\n* Does physical activity increase more when text messages are sent based on a precision rule for selecting and timing messages compared to when the same message content is selected and sent at random or not at all?\n* Do biological or social characteristics of young adults make them more likely to respond positively to the precision messaging intervention than either of the other two interventions?\n\nParticipants will be provided with education about health-enhancing physical activity and given an activity tracker to wear for 12 months. They will then be randomly assigned to one of three groups. Participants in one group (Precision AIM) will receive up to 4 messages/day selected and timed based on a person-specific algorithm that forecasts possible message effects periodically throughout the day. Messages will be drawn from one of three content libraries: move more, sit less, or inspirational quotes. Participants in a second group (Random AIM) will receive 4 messages/day selected at random from the same three content libraries and delivered at random times within their availability window. Participants in the third group (No AIM) will receive not motivational messages but will randomly assigned to the Random AIM group will receive up to 4 messages/day drawn at random from three content libraries at randomly-selected times. Step counts and weight will be assessed at baseline, and at 3 months, 6 months, 12 months, and 18 months. Researchers will compare Precision AIM, Random AIM and No AIM groups to see if physical activity increased more and weight gain was slower in Precision AIM than Random AIM or No AIM after 3, 6, and 12 months of intervention, and 6 months after the intervention is complete (18 months)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Physical Inactivity",
+                "Weight Gain"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 360,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Precision AIM",
+                    "type": "EXPERIMENTAL",
+                    "description": "Education + activity monitor + up to 4 text messages/day, each drawn from one of 3 content libraries and timed based on a person- and context-specific algorithm that will be updated monthly based on incoming data (within a participant-defined availability window)",
+                    "interventionNames": [
+                        "Behavioral: Education",
+                        "Behavioral: Activity tracker",
+                        "Behavioral: Text messaging (precision dosing)"
+                    ]
+                },
+                {
+                    "label": "Random AIM",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Education + activity monitor + up to 4 text messages/day, each drawn from one of 3 content libraries and timed at random (within a participant-defined availability window).",
+                    "interventionNames": [
+                        "Behavioral: Education",
+                        "Behavioral: Activity tracker",
+                        "Behavioral: Text messaging (random timing and selection)"
+                    ]
+                },
+                {
+                    "label": "No AIM",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Education + activity monitor",
+                    "interventionNames": [
+                        "Behavioral: Education",
+                        "Behavioral: Activity tracker"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Education",
+                    "description": "Education about health benefits of physical activity, 2018 US Physical Activity Guidelines, assigned goals tailored to baseline step counts, and worksheet to develop action and coping plans (three of each)",
+                    "armGroupLabels": [
+                        "No AIM",
+                        "Precision AIM",
+                        "Random AIM"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Activity tracker",
+                    "description": "Fitbit activity tracker and mobile app to provide ad libitum behavioral feedback and self-regulatory support",
+                    "armGroupLabels": [
+                        "No AIM",
+                        "Precision AIM",
+                        "Random AIM"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Text messaging (random timing and selection)",
+                    "description": "Four text messages/day at random times within a participant's availability window and drawn at random from one of three content libraries (move more \\[40%\\], sit less \\[40%\\], inspirational quotes \\[20%\\])",
+                    "armGroupLabels": [
+                        "Random AIM"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Text messaging (precision dosing)",
+                    "description": "Up to four text messages/day within a participant's availability window, timed and selected from one of three content libraries (move more, sit less, inspirational quotes) based on a person-specific dynamic model and contextual data",
+                    "armGroupLabels": [
+                        "Precision AIM"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Average daily step counts (6 months)",
+                    "description": "Average daily step counts recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Average daily step counts (12 months)",
+                    "description": "Average daily step counts recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 12 months"
+                },
+                {
+                    "measure": "Average daily step counts (18 months)",
+                    "description": "Average daily step counts recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from 12 months to 18 months"
+                },
+                {
+                    "measure": "Weight (6 months)",
+                    "description": "Weight (kg) measured by BodyTrace scale",
+                    "timeFrame": "Change from baseline to 6 months"
+                },
+                {
+                    "measure": "Weight (12 months)",
+                    "description": "Weight (kg) measured by BodyTrace scale",
+                    "timeFrame": "Change from baseline to 12 months"
+                },
+                {
+                    "measure": "Weight (18 months)",
+                    "description": "Weight (kg) measured by BodyTrace scale",
+                    "timeFrame": "Change from 12 months to 18 months"
+                },
+                {
+                    "measure": "Moderate-to-vigorous intensity physical activity duration (6 months)",
+                    "description": "Average duration of daily moderate (or higher) physical activity recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 6 months"
+                },
+                {
+                    "measure": "Moderate-to-vigorous intensity physical activity duration (12 months)",
+                    "description": "Average duration of daily moderate (or higher) physical activity recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 12 months"
+                },
+                {
+                    "measure": "Moderate-to-vigorous intensity physical activity duration (18 months)",
+                    "description": "Average duration of daily moderate (or higher) physical activity recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from 12 months to 18 months"
+                },
+                {
+                    "measure": "Light intensity physical activity duration (6 months)",
+                    "description": "Average duration of daily light-intensity physical activity recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 6 months"
+                },
+                {
+                    "measure": "Light intensity physical activity duration (12 months)",
+                    "description": "Average duration of daily light-intensity physical activity recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 12 months"
+                },
+                {
+                    "measure": "Light intensity physical activity duration (18 months)",
+                    "description": "Average duration of daily light-intensity physical activity recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from 12 months to 18 months"
+                },
+                {
+                    "measure": "Sedentary behavior duration (6 months)",
+                    "description": "Average duration of daily sedentary behavior physical activity recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 6 months"
+                },
+                {
+                    "measure": "Sedentary behavior duration (12 months)",
+                    "description": "Average duration of daily sedentary behavior recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from baseline to 12 months"
+                },
+                {
+                    "measure": "Sedentary behavior duration (18 months)",
+                    "description": "Average duration of daily sedentary behavior recorded by Actigraph accelerometer over a 7-day monitoring period",
+                    "timeFrame": "Change from 12 months to 18 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* own an iPhone or Android smartphone that they would be willing to download the Fitbit app onto and sync with a Fitbit tracker and a custom, AIM app\n* willing to wear a Fitbit tracker almost continually (23.5 hours/day) for a 12- month period of time\n* free of visual impairment that would interfere with the receipt of text messages on their phone\n* capable of reading, speaking and understanding English and of giving informed consent\n* willing to complete a full 18-month study protocol\n\nExclusion Criteria:\n\n* self-report sufficient aerobic activity to meet 2018 Physical Activity Guidelines for American adults\n* research-grade accelerometer records sufficient aerobic physical activity to meet 2018 Physical Activity Guidelines for American adults\n* living outside the continental US\n* one or more contraindications to physical activity\n* require an assistive device for mobility or have any other condition that may limit or prevent participation in moderate-intensity physical activity\n* pregnant or planning to become pregnant within the next 12 months\n* prior diagnosis of cancer, cardiovascular disease, diabetes or metabolic syndrome\n* concurrent participation in another research study involving physical activity or weight loss\n* planning to have surgery or relocate outside the continental US within the next year.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "29 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Gabby Ryan, MA",
+                    "role": "CONTACT",
+                    "phone": "814-865-7935",
+                    "email": "gabby.ryan@psu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "David E Conroy, PhD",
+                    "affiliation": "The Pennsylvania State University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Constantino M Lagoa, PhD",
+                    "affiliation": "The Pennsylvania State University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "The Pennsylvania State University",
+                    "status": "RECRUITING",
+                    "city": "University Park",
+                    "state": "Pennsylvania",
+                    "zip": "16802",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David E Conroy, PhD",
+                            "role": "CONTACT",
+                            "phone": "814-863-3451",
+                            "email": "conroy@psu.edu"
+                        },
+                        {
+                            "name": "Gabby Ryan, MA",
+                            "role": "CONTACT",
+                            "phone": "814-865-7935",
+                            "email": "gabby.ryan@psu.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.80201,
+                        "lon": -77.85639
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000015430",
+                    "term": "Weight Gain"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001836",
+                    "term": "Body Weight Changes"
+                },
+                {
+                    "id": "D000001835",
+                    "term": "Body Weight"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5114",
+                    "name": "Body Weight",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18101",
+                    "name": "Weight Gain",
+                    "asFound": "Weight Gain",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5115",
+                    "name": "Body Weight Changes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

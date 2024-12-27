@@ -1,0 +1,228 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05989308",
+            "orgStudyIdInfo": {
+                "id": "2000034372"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "000",
+                    "type": "OTHER",
+                    "domain": "CTGTY"
+                }
+            ],
+            "organization": {
+                "fullName": "Yale University",
+                "class": "OTHER"
+            },
+            "briefTitle": "MyChart Proxy Outreach to Parents (MyPOP)",
+            "officialTitle": "MyChart Proxy Outreach to Parents (MyPOP): Mode of Outreach to Parents for Proxy Patient Portal Enrollment",
+            "acronym": "MyPOP",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "mychart-proxy-outreach-to-parents-mypop"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-02",
+            "studyFirstSubmitQcDate": "2023-08-02",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Yale University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this randomized controlled trial is to assess the extent to which different modes of contacting parents who have not yet enabled to access to their children's medical records will result in greater proxy access. The main questions the study aims to answer are:\n\n* will outreach via text or patient portal message result in more parents having access than usual care (which is in-office suggestions to get access).\n* which mode - text or portal - will get more parents access. Participants will get a text message, or a portal message through their own patient portal, or no message. The investigators will check access to see which group has increased more during the study period.",
+            "detailedDescription": "This study aims to evaluate the feasibility and impact of contacting parents/guardians of children seen in pediatric primary care practices to establish their proxy access to the EHR patient portal, called \"MyChart.\" The primary objective of the study is to determine if directly messaging a guardian results in activation of proxy access to a child's MyChart at a higher rate compared with no specific messaging (usual care).\n\nA secondary objective of the study is to compare messaging strategies, with one arm being a message to the guardian's patient portal, and the other text messaging.\n\nAnother secondary objective of the study is to ascertain whether sending information about activation to a guardian via text or email (as preferred) will result in self-activating their own Electronic Health Record (EHR) patient portal access.\n\nAt the conclusion of the study, the investigators will determine best-method for activation and utilize this method to invite guardians initially randomized to the usual-care arm of the study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Health Technology"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "JDAT will access EHR visit data for these offices to establish the child patient pool and identify guardians.",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 5200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Usual Care",
+                    "type": "NO_INTERVENTION",
+                    "description": "Care as usual"
+                },
+                {
+                    "label": "Preferred Modality",
+                    "type": "EXPERIMENTAL",
+                    "description": "Text or email message to guardian with proxy information. If the guardian has no personal MyChart access, before sending proxy information to set up access to their child's MyChart, the investigators will message the guardian up to two times with information enabling them to access their personal MyChart.",
+                    "interventionNames": [
+                        "Behavioral: Email",
+                        "Behavioral: Text"
+                    ]
+                },
+                {
+                    "label": "Patient Portal",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patient portal message (MyChart) to guardian with proxy information. If the guardian has no personal MyChart access, before sending proxy information to set up access to their child's MyChart, the investigators will message the guardian up to two times with information enabling them to access their personal MyChart.",
+                    "interventionNames": [
+                        "Behavioral: Patient Portal Message"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Email",
+                    "description": "Email message sent to guardian with proxy information.",
+                    "armGroupLabels": [
+                        "Preferred Modality"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Text",
+                    "description": "Text message sent to guardian with proxy information.",
+                    "armGroupLabels": [
+                        "Preferred Modality"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Patient Portal Message",
+                    "description": "Patient portal message (MyChart) to guardian with proxy information.",
+                    "armGroupLabels": [
+                        "Patient Portal"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Proportion of participants who activate MyChart Proxy Access",
+                    "description": "Proportion of participants who activate access to the patient portal of the child's EHR, also known as MyChart Proxy Access, of all those invited. Proxy MyChart activation is a binary function (yes, has proxy activated; no, does not have proxy activated).",
+                    "timeFrame": "up to 12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Proportion of guardians' who activate a personal MyChart account",
+                    "description": "Proportion of guardians' who activate a personal MyChart account, for those without accounts at the outset. Investigators will report if guardians activate their patient portal as a result of activation messaging. This is a binary function (yes, has active patient portal; no, does not have active patient portal).",
+                    "timeFrame": "up to 12 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Guardian of a child aged \u226412 years seen in one of the two identified health centers within the last 3 years with guardian status and contact information documented in the child's EHR\n\nExclusion Criteria:\n\n* Preferred method of contact for guardians with no MyChart is telephone or physical letter to home\n* Guardians with EHR proxy access already activated for all children in their care.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ada Fenick, MD",
+                    "role": "CONTACT",
+                    "phone": "203-688-2475",
+                    "email": "Ada.fenick@yale.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ada Fenick, MD",
+                    "affiliation": "Yale University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Yale New Haven Health",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06520",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                },
+                {
+                    "facility": "Yale School of Medicine",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06520",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Deidentified data per the PIs discretion."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

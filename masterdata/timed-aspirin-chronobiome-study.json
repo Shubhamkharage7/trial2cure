@@ -1,0 +1,426 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03590821",
+            "orgStudyIdInfo": {
+                "id": "829532"
+            },
+            "organization": {
+                "fullName": "University of Pennsylvania",
+                "class": "OTHER"
+            },
+            "briefTitle": "Timed Aspirin Chronobiome Study",
+            "officialTitle": "Modulating Celecoxib Induced Blood Pressure Changes by Timed Administration of Aspirin and the Human Chronobiome",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "timed-aspirin-chronobiome-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-05-03",
+            "studyFirstSubmitQcDate": "2018-07-16",
+            "studyFirstPostDateStruct": {
+                "date": "2018-07-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-09",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Carsten Skarke, MD",
+                "investigatorTitle": "MD",
+                "investigatorAffiliation": "University of Pennsylvania"
+            },
+            "leadSponsor": {
+                "name": "University of Pennsylvania",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "To determine whether timed administration of aspirin ameliorates the effects of celecoxib on blood pressure.",
+            "detailedDescription": "Non-steroidal anti-inflammatory drugs (NSAIDs) are a commonly used and effective treatment of inflammatory pain. However, all NSAID have the potential to raise blood pressure (BP), cause the development of new hypertension or exacerbate preexisting hypertension. Strategies to mitigating that risk short of withholding the analgesic are missing. In this proposal, the investigators wish to determine whether timed administration of low dose aspirin can be developed as a low cost intervention with well-defined risk profile to mitigate the blood pressure raise associated with the COX-2 selective NSAID celecoxib. Low dose aspirin administered in the evening, but not in the morning, normalizes the mean arterial BP in clinical studies of prehypertension, mild essential hypertension and preeclampsia. The investigators will address this in an interventional study in healthy volunteers who displayed a blood pressure increase during celecoxib treatment in an ongoing study. Since individuals have varying chronotypes and work/social rhythms, parameter measuring day/night patterns, the chronobiome, will be part of this study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Healthy"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "EARLY_PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "Prospective study design, double-blinded and randomized by order for acetylsalicylic acid versus placebo, open for celecoxib.\n\nIn a prospective study each individual will undergo two treatment periods randomized by order (separated by 3 weeks of washout). In one period, placebo (matching aspirin for double-blinding) will be administered in the evening for 14 days. In the other period, aspirin (81 mg QD) will be administered in the evening for 14 days. Drug intake will be timed to occur within 1-2 hours prior to falling asleep. Celecoxib (200 mg BID) will be added openly for the final 7 days during each treatment period.",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "maskingDescription": "Administration of acetylsalicylic acid versus placebo will be masked",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Aspirin 81 mg/Placebo",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive aspirin in Phase 1 followed by matched placebo in Phase 2, or vice versa, over 14 days. The order will be randomized and aspirin/placebo will be double-blinded.",
+                    "interventionNames": [
+                        "Drug: Aspirin 81 mg",
+                        "Drug: Celecoxib 200mg capsule"
+                    ]
+                },
+                {
+                    "label": "Celecoxib 200mg capsule",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive celecoxib in Phase 1 and Phase 2 over 7 days. This is open, meaning participant and investigator will recognize celecoxib capsules.",
+                    "interventionNames": [
+                        "Drug: Aspirin 81 mg",
+                        "Drug: Celecoxib 200mg capsule"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Aspirin 81 mg",
+                    "description": "timed administration of aspirin in the evening",
+                    "armGroupLabels": [
+                        "Aspirin 81 mg/Placebo",
+                        "Celecoxib 200mg capsule"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Celecoxib 200mg capsule",
+                    "description": "daily administration of celecoxib",
+                    "armGroupLabels": [
+                        "Aspirin 81 mg/Placebo",
+                        "Celecoxib 200mg capsule"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Blood pressure [mmHg]",
+                    "description": "Ambulatory blood pressure measurements",
+                    "timeFrame": "24-48 hours"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Mean arterial pressure (MAP)",
+                    "description": "MAP calculated as (2 x diastolic blood pressure \\[mmHg\\]) + systolic blood pressure \\[mmHg\\]) /3",
+                    "timeFrame": "24-48 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Men and women greater than 18 years of age\n2. Subjects must be in good health based on medical history, physical examination, vital signs, and laboratory tests. In order to ensure sufficient enrollment of subjects in the higher age groups, volunteers with the following conditions may participate in the study:\n\n   1. Adequately controlled hypertension, with diastolic blood pressure \u2264100 mmHg at screening.\n   2. Total cholesterol of \u2264270 mg/dL\n3. Body mass index (BMI) between 18 and 30 kg/m2.\n4. Has not used tobacco products, including smoking cessation nicotine-containing products (e.g., nicotine patch, nicotine gum), for at least the 3 months prior to screening.\n5. Female subjects of child bearing potential must be using a medically acceptable method of contraception (oral contraception, Depo-Provera injection, IUD, condom with spermicide, diaphragm, cervical cap, progestin implant, abstinence, tubal ligation, oophorectomy, TAH) throughout the entire study period. All female subjects must consent to a serum and urine pregnancy test at screening and close-out and a urine pregnancy test just prior to the start of each treatment phase of the study, which must be negative at all time points.\n6. All subjects must consent to a urine drug and nicotine test at screening. Results must be negative. A positive result will be reported to the subject.\n7. Does not consume more than 1 alcoholic beverage per day on average.\n8. Able and willing to refrain from alcohol use within 48 hours prior to the first dose of study drug and during the study period until the final study visit.\n9. Able to understand and comply with study procedures.\n10. Able and willing to provide written informed consent prior to any study procedures being performed.\n\nExclusion Criteria:\n\n1. Female subjects who are pregnant or nursing a child.\n2. Subjects who have received an investigational drug or used an experimental medical device within 30 days prior to screening, or who gave a blood donation of \u2265 one pint within 8 weeks prior to screening.\n3. Subjects with any coagulation, bleeding or blood disorders.\n4. Subjects who are sensitive or allergic to celecoxib (Celebrex) or aspirin or their components.\n5. Subjects who are sensitive or allergic to aspirin or other NSAIDs.\n6. Subjects with documented history of any gastrointestinal disorders, including bleeding ulcers.\n7. History of significant cardiovascular disease (including stroke or TIA), renal, hepatic, respiratory (except infections which longer \\> 6 months prior to screening), immune, endocrine, hematopoietic disorder or neurological disorders.\n8. History of cancer within the last 5 years (except for cutaneous basal cell or squamous cell cancer resolved by excision, or carcinoma in situ of the cervix adequately treated).\n9. Has taken any prescription medication other than hormone replacement therapy (including males taking testosterone as a hormone replacement to treat a documented low testosterone level), thyroid replacement hormones, anti-hyperlipidemic agents, or anti-hypertensive medications. Individuals taking other/additional chronic stable medications can be considered on a case-by-case basis for inclusion in the study if agreed upon by judgment of the investigators.\n10. Has taken the following NSAID or antisecretory agents within 2 weeks prior to study drug administration:\n\n    1. Nonsteroidal anti-inflammatory drugs (NSAIDs) including acetaminophen or other medications for pain, including aspirin or aspirin-containing products\n    2. Proton pump inhibitors, including Prilosec\u00ae, Prevacid\u00ae, Aciphex\u00ae, Protonix\u00ae, or Nexium\u00ae (antacid medications, including OTC products, are not permitted within 24 hours of dosing)\n    3. H2 blockers, including Tagamet\u00ae, Zantac\u00ae, Axid\u00ae, or Pepcid\u00ae\n11. Has ever taken the following anti-platelet or anti-coagulant agents:\n\n    1. Any anti-platelet agent, including Aggrenox\u00ae, Brilinta\u00ae, Plavix\u00ae, Ticlid\u00ae, Pletal\u00ae, ReoPro\u00ae, Integrilin\u00ae, Aggrastat\u00ae, Persantine\u00ae, or Effient\u00ae\n    2. Any anti-coagulant including Arixtra\u00ae, Coumadin\u00ae, acenocoumarol, Lovenox\u00ae, phenprocoumon, phenindione, heparin, Exanta\u00ae, Pradaxa\u00ae, argatroban, lepirudin, hirudin, bivalirudin, or Xarelto\u00ae\n12. Used dietary or herbal supplements containing salicylates, Vitamin E, fish oil, or any other herbal supplements, within 14 days of study drug administration.\n13. Subjects with any abnormal laboratory value or physical finding that according to the investigator may interfere with interpretation of the study results, be indicative of an underlying disease state, or compromise the safety of a potential subject.\n14. Subjects who have had a history of drug or alcohol abuse within the last 6 months.\n15. Subjects who are unwilling to provide a blood sample for genetic analyses and creation of a lymphoblastoid cell line.\n16. Any contraindication listed below in the separate paragraph \"Contraindications for the use of CorTemp\u00ae Disposable Temperature Sensors\".\n17. Volunteers enrolled in the sub-study who do not own a smartphone.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "LaVenia Banas, CRN",
+                    "role": "CONTACT",
+                    "phone": "215-573-1862",
+                    "email": "banas@pennmedicine.upenn.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Carsten Skarke, MD",
+                    "affiliation": "University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Institute for Translational Medicine and Therapeutics (ITMAT), University of Pennsylvania",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "LaVenia Banas, RN",
+                            "role": "CONTACT",
+                            "phone": "215-573-1862",
+                            "email": "banas@pennmedicine.upenn.edu"
+                        },
+                        {
+                            "name": "Carsten Skarke, MD",
+                            "role": "CONTACT",
+                            "phone": "215-573-0673",
+                            "email": "cskarke@pennmedicine.upenn.edu"
+                        },
+                        {
+                            "name": "Carsten Skarke, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Tilo Grosser, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Katherine Theken, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Garret FitzGerald, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "29215023",
+                    "type": "BACKGROUND",
+                    "citation": "Skarke C, Lahens NF, Rhoades SD, Campbell A, Bittinger K, Bailey A, Hoffmann C, Olson RS, Chen L, Yang G, Price TS, Moore JH, Bushman FD, Greene CS, Grant GR, Weljie AM, FitzGerald GA. A Pilot Characterization of the Human Chronobiome. Sci Rep. 2017 Dec 7;7(1):17141. doi: 10.1038/s41598-017-17362-6."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "to be determined"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001241",
+                    "term": "Aspirin"
+                },
+                {
+                    "id": "D000068579",
+                    "term": "Celecoxib"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000894",
+                    "term": "Anti-Inflammatory Agents, Non-Steroidal"
+                },
+                {
+                    "id": "D000018712",
+                    "term": "Analgesics, Non-Narcotic"
+                },
+                {
+                    "id": "D000000700",
+                    "term": "Analgesics"
+                },
+                {
+                    "id": "D000018689",
+                    "term": "Sensory System Agents"
+                },
+                {
+                    "id": "D000018373",
+                    "term": "Peripheral Nervous System Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000000893",
+                    "term": "Anti-Inflammatory Agents"
+                },
+                {
+                    "id": "D000018501",
+                    "term": "Antirheumatic Agents"
+                },
+                {
+                    "id": "D000005343",
+                    "term": "Fibrinolytic Agents"
+                },
+                {
+                    "id": "D000050299",
+                    "term": "Fibrin Modulating Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000010975",
+                    "term": "Platelet Aggregation Inhibitors"
+                },
+                {
+                    "id": "D000016861",
+                    "term": "Cyclooxygenase Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000058633",
+                    "term": "Antipyretics"
+                },
+                {
+                    "id": "D000052246",
+                    "term": "Cyclooxygenase 2 Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4548",
+                    "name": "Aspirin",
+                    "asFound": "Kangaroo",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M277",
+                    "name": "Celecoxib",
+                    "asFound": "Call",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4218",
+                    "name": "Anti-Inflammatory Agents, Non-Steroidal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4217",
+                    "name": "Anti-Inflammatory Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4032",
+                    "name": "Analgesics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20786",
+                    "name": "Analgesics, Non-Narcotic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20604",
+                    "name": "Antirheumatic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8473",
+                    "name": "Fibrinolytic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13865",
+                    "name": "Platelet Aggregation Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19209",
+                    "name": "Cyclooxygenase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29176",
+                    "name": "Antipyretics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27009",
+                    "name": "Cyclooxygenase 2 Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Antipy",
+                    "name": "Antipyretics"
+                },
+                {
+                    "abbrev": "Infl",
+                    "name": "Anti-Inflammatory Agents"
+                },
+                {
+                    "abbrev": "ARhu",
+                    "name": "Antirheumatic Agents"
+                },
+                {
+                    "abbrev": "FiAg",
+                    "name": "Fibrinolytic Agents"
+                },
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "PlAggInh",
+                    "name": "Platelet Aggregation Inhibitors"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

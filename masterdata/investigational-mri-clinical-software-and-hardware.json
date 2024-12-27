@@ -1,0 +1,266 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05215132",
+            "orgStudyIdInfo": {
+                "id": "STU#00211312"
+            },
+            "organization": {
+                "fullName": "Northwestern University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Investigational MRI Clinical Software and Hardware",
+            "officialTitle": "Study Evaluation of Feasibility and Reproducibility of Investigational MRI Clinical Software",
+            "acronym": "Avery HS",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "investigational-mri-clinical-software-and-hardware"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-12-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-01-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-06-16",
+            "studyFirstSubmitQcDate": "2022-01-17",
+            "studyFirstPostDateStruct": {
+                "date": "2022-01-31",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Ryan Avery",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "Northwestern University"
+            },
+            "leadSponsor": {
+                "name": "Northwestern University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Patients and healthy volunteers will be scanned in order to test new sequences.",
+            "detailedDescription": "The aims of this study are to:\n\n1. Conduct clinical protocol development and validation: The settings of an MRI machine are commonly adjusted according to the body part being scanned and the reason for the exam. When testing out new sequences and settings or adjusting existing settings, human subjects (patients and healthy volunteers) may be scanned in order to make sure that the quality of the images produced by the MRI machine is adequate for diagnostic purposes and to obtain normative values.\n2. Demonstrate and train: In some cases, human subjects may be scanned for the purposes of demonstrating equipment or for training operators on the safe and effective use of MRI systems."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Image, Body"
+            ],
+            "keywords": [
+                "MRI hardware testing"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "If a research MRI is combined with a clinically ordered MRI, the research scan will add about 15 minutes to the clinical MRI procedure. If a research MRI is conducted during a separate visit, it is expected that the research-only MRI visit will last about 1-2 hours. An individual may voluntarily participate in the study on multiple occasions.",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 2000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Patient w/ Contrast",
+                    "type": "OTHER",
+                    "description": "Patients will add 15 minutes to their SOC MRI for research purposes",
+                    "interventionNames": [
+                        "Radiation: MRI",
+                        "Drug: Gadavist 2Ml Solution for Injection"
+                    ]
+                },
+                {
+                    "label": "Patient no contrast",
+                    "type": "OTHER",
+                    "description": "Patients will add 15 minutes to their SOC MRI for research purposes",
+                    "interventionNames": [
+                        "Radiation: MRI"
+                    ]
+                },
+                {
+                    "label": "Volunteer w/ contrast",
+                    "type": "OTHER",
+                    "description": "Volunteers undergo 1 research MRI for research purposes",
+                    "interventionNames": [
+                        "Radiation: MRI",
+                        "Drug: Gadavist 2Ml Solution for Injection"
+                    ]
+                },
+                {
+                    "label": "Volunteer no contrast",
+                    "type": "OTHER",
+                    "description": "Volunteers undergo 1 research MRI for research purposes",
+                    "interventionNames": [
+                        "Radiation: MRI"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "MRI",
+                    "description": "1.5T or 3T MRI scanner (Siemens Medical Systems)",
+                    "armGroupLabels": [
+                        "Patient no contrast",
+                        "Patient w/ Contrast",
+                        "Volunteer no contrast",
+                        "Volunteer w/ contrast"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Gadavist 2Ml Solution for Injection",
+                    "description": "Arm 1 and Arm 3 subjects will undergo this intervention (Gadavist 2Ml solution)",
+                    "armGroupLabels": [
+                        "Patient w/ Contrast",
+                        "Volunteer w/ contrast"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Conduct clinical protocol development and validation",
+                    "description": "Testing of new MRI pulse sequences will be performed for validation of potential new diagnostic capabilities. The MRI pulse sequences will be routinely performed along with clinically-validated and accepted pulse sequences for comparison of the novel sequences in human subjects (patients and healthy volunteers). Novel sequences will be performed in the accepted method with adjustment of settings to evaluate image qualities and normative values produced by the MRI machine. The resulting images provided by the novel sequences will be able to evaluated for diagnostic quality and to obtain comparison of possible improvements alongside clinically-validated MRI pulse sequences.",
+                    "timeFrame": "5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Demonstrate and train",
+                    "description": "Human subjects may be scanned utilizing MRI pulse sequences in the context of a clinical assessment for demonstrating of equipment or sequence function for training of MRI technologist. The sequence will be performed by a skilled technologist with the primary goal of providing information on proper utilizing of MRI hardware and software for technologist who are training and will be possibly utilizing these technique to provided safe and effective use of MRI systems and their software.",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u2022 At least 18 years of age\n\n  * Able to complete the MR safety questionnaire.\n  * Able to comprehend and provide informed consent in English.\n  * When contrast is being administered: healthy volunteers with a GFR\u226560 ml/min\n  * When contrast is being administered: patients with a GFR \u226530 ml/min\n\nExclusion Criteria:\n\n* \u2022 When contrast is being administered: subjects with a GFR \\< 30 ml/min\n\n  * When contrast is being administered: subjects with acute kidney injury\n  * When contrast is administered, allergy to gadolinium-containing contrast media\n  * Contraindication to MRI (implanted device, claustrophobia, dyspnea precluding the ability to follow breath-hold instructions)\n  * Adults unable to consent\n  * Individuals who are not yet adults\n  * Pregnant or breastfeeding women\n  * Prisoners",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "90 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Emily Powell",
+                    "role": "CONTACT",
+                    "phone": "312.695.2956",
+                    "email": "emily.powell@northwestern.edu"
+                },
+                {
+                    "name": "Saira Jahangir",
+                    "role": "CONTACT",
+                    "email": "s-jahangir@northwestern.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Northwestern University- Feinberg School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60611",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Emily Powell",
+                            "role": "CONTACT",
+                            "phone": "312-695-2956",
+                            "email": "emily.powell@northwestern.edu"
+                        },
+                        {
+                            "name": "Saira Jahangir",
+                            "role": "CONTACT",
+                            "email": "s-jahangir@northwestern.edu"
+                        },
+                        {
+                            "name": "Ryan Avery",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The research team may use the data obtained from this study for future institutionally approved studies not yet identified but conducted by Feinberg School of Medicine investigators. This means that information about you, including your name, date of birth, study data, etc. may be given to investigators not currently working on this study.",
+            "infoTypes": [
+                "ICF"
+            ],
+            "timeFrame": "5 years"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

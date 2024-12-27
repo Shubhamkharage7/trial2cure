@@ -1,0 +1,702 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05645380",
+            "orgStudyIdInfo": {
+                "id": "STUDY00149312"
+            },
+            "organization": {
+                "fullName": "University of Kansas Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Neoadjuvant TIL- and Response-Adapted Chemoimmunotherapy for TNBC",
+            "officialTitle": "Neoadjuvant TIL- and Response-Adapted Chemoimmunotherapy for TNBC",
+            "acronym": "NeoTRACT",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "neoadjuvant-til-and-response-adapted-chemoimmunotherapy-for-tnbc"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-12-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-12-01",
+            "studyFirstSubmitQcDate": "2022-12-01",
+            "studyFirstPostDateStruct": {
+                "date": "2022-12-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Kansas Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will assess if the presence of immune system cells in and around the tumor impacts tumor shrinkage in patients receiving neoadjuvant chemoimmunotherapy for triple-negative breast cancer.",
+            "detailedDescription": "Triple negative breast cancers (TNBC) with enrichment of immune system cells in and around the tumor are more sensitive to chemoimmunotherapy and have better prognosis. Imaging is often used during the course of neoadjuvant chemoimmunotherapy to monitor how the disease is responding to treatment, and disappearance of a patient's tumor on imaging after chemoimmunotherapy usually means that the tumor will have completely disappeared when the patient goes for surgery. This study will test whether the presence of immune system cells in and around the tumor and the response of the tumor on MRI can be used to personalize the type and amount of neoadjuvant chemoimmunotherapy for patients with TNBC."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Triple Negative Breast Cancer",
+                "Breast Cancer"
+            ],
+            "keywords": [
+                "Tumor infiltrating lymphocytes",
+                "Neoadjuvant chemotherapy",
+                "Neoadjuvant immunotherapy"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 139,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "High sTILs (\u226530%)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Carboplatin (AUC=6) + Docetaxel (75 mg/m2) + Pembrolizumab (200 mg) every 21 days for four cycles.",
+                    "interventionNames": [
+                        "Drug: Carboplatin",
+                        "Drug: Docetaxel",
+                        "Drug: Pembrolizumab"
+                    ]
+                },
+                {
+                    "label": "Intermediate sTILs (5-29%)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Carboplatin (AUC=6) + Docetaxel (75 mg/m2) + Pembrolizumab (200 mg) every 21 days for six cycles.",
+                    "interventionNames": [
+                        "Drug: Carboplatin",
+                        "Drug: Docetaxel",
+                        "Drug: Pembrolizumab"
+                    ]
+                },
+                {
+                    "label": "Low sTILs (<5%)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Carboplatin (AUC=6) + Docetaxel (75 mg/m2) + Pembrolizumab (200 mg) every 21 days for four cycles followed by Doxorubicin (60 mg/m2) + Cyclophosphamide (600 mg/m2) + Pembrolizumab (200 mg) every 14 or 21 days for four cycles.",
+                    "interventionNames": [
+                        "Drug: Carboplatin",
+                        "Drug: Docetaxel",
+                        "Drug: Doxorubicin",
+                        "Drug: Cyclophosphamide",
+                        "Drug: Pembrolizumab"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Carboplatin",
+                    "description": "AUC=6, IV",
+                    "armGroupLabels": [
+                        "High sTILs (\u226530%)",
+                        "Intermediate sTILs (5-29%)",
+                        "Low sTILs (<5%)"
+                    ],
+                    "otherNames": [
+                        "Paraplatin"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Docetaxel",
+                    "description": "75 mg/m2, IV",
+                    "armGroupLabels": [
+                        "High sTILs (\u226530%)",
+                        "Intermediate sTILs (5-29%)",
+                        "Low sTILs (<5%)"
+                    ],
+                    "otherNames": [
+                        "Taxotere"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Doxorubicin",
+                    "description": "60 mg/m2, IV",
+                    "armGroupLabels": [
+                        "Low sTILs (<5%)"
+                    ],
+                    "otherNames": [
+                        "Adriamycin"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cyclophosphamide",
+                    "description": "600 mg/m2, IV",
+                    "armGroupLabels": [
+                        "Low sTILs (<5%)"
+                    ],
+                    "otherNames": [
+                        "Cytoxan"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Pembrolizumab",
+                    "description": "200 mg, IV",
+                    "armGroupLabels": [
+                        "High sTILs (\u226530%)",
+                        "Intermediate sTILs (5-29%)",
+                        "Low sTILs (<5%)"
+                    ],
+                    "otherNames": [
+                        "Keytruda"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Pathological complete response (pCR) rate in high sTIL cohort with radiographic complete response",
+                    "description": "Defined as percentage of participants who achieve pathological complete response in the breast and axilla. Pathological complete response is defined as no evidence of invasive disease in the breast (residual DCIS permitted) and axilla at the time of pathology review.",
+                    "timeFrame": "Up to 26 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Residual cancer burden (RCB) 0+1 rate in high sTIL cohort with radiographic complete response",
+                    "description": "Defined as summed percentage of participants with RCB=0 and RCB=1 in the breast and axilla. Residual cancer burden score for each patient is calculated using surgical pathology parameters using an online tool (http://www3.mdanderson.org/app/medcalc/index.cfm?pagename=jsconvert3).",
+                    "timeFrame": "Up to 26 weeks"
+                },
+                {
+                    "measure": "pCR and RCB 0+1 in intermediate sTIL cohort",
+                    "description": "Percentage of participants with intermediate sTILs who achieve pCR (RCB=0) and RCB=0+RCB=1.",
+                    "timeFrame": "Up to 26 weeks"
+                },
+                {
+                    "measure": "pCR and RCB 0+1 in low sTIL cohort",
+                    "description": "Percentage of participants with low sTILs who achieve pCR (RCB=0) and RCB=0+RCB=1.",
+                    "timeFrame": "Up to 32 weeks"
+                },
+                {
+                    "measure": "Recurrence-free, event-free, and overall survival",
+                    "description": "Recurrence-free survival is defined as the time from diagnosis to first recurrence (invasive ipsilateral breast, invasive local/regional, or distant), or to death as a result of any cause., event-free survival is defined as time from diagnosis to first recurrence (invasive ipsilateral breast, invasive local/regional, or distant), or to breast cancer related death, and overall survival is defined as time from diagnosis to death from any cause.",
+                    "timeFrame": "Up to 5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Ability of participant OR Legally Authorized Representative (LAR) to understand this study, and participant or LAR willingness to sign a written informed consent\n* Female subjects 18-70 years of age\n* Histologically confirmed cT1c-T3 cN0-N2 cM0 TNBC\n* The invasive tumor must be hormone receptor poor, defined as both estrogen receptor (ER) and progesterone receptor staining in \u2264 10% of invasive cancer cells by IHC\n* The invasive tumor must be HER2-negative based on the current ASCO-CAP guidelines\n* No previous ipsilateral breast surgery for the current breast cancer\n* No previous chemotherapy, immunotherapy, endocrine therapy, or radiotherapy for the current breast cancer\n* ECOG Performance Status 0 - 1 documented within 10 days prior to the start of study treatment\n* Breast and axillary imaging (including ultrasound and MRI) within 30 days prior to treatment initiation\n* Subjects with clinically and/or radiographically abnormal axillary or internal mammary lymph nodes should have pathologic confirmation of disease status with image-guided biopsy or fine needle aspiration\n* Have provided archival breast tumor tissue\n* Staging to rule out metastatic disease is suggested for patients with clinical TNM stage III disease\n* Subjects with bilateral synchronous TNBC are eligible if they meet other eligibility criteria\n* No baseline neuropathy greater than grade 2\n* Patients are not pregnant, not breastfeeding, and either not a woman of childbearing potential or agrees to follow specific contraceptive guidelines during the treatment period and for at least 120 days after the last dose of study treatment\n* Adequate hematologic, hepatic, and renal function assessed \u2264 10 days from treatment initiation\n* LVEF \u2265 50% by echocardiogram or MUGA scan\n\nExclusion Criteria:\n\n* Current or anticipated use of other investigational agents while participating in this study\n* Subject has previously received chemotherapy, immunotherapy, endocrine therapy, radiotherapy, or surgery for this breast cancer\n* Subject has clinically or radiographically detected metastatic disease\n* Subject has inflammatory breast cancer\n* Subject has a concurrent or previous malignancy within the last five years (patients with squamous cell or basal cell carcinoma of the skin, ductal carcinoma in situ (DCIS) of the breast, or carcinoma in situ (CIS) of the uterine cervix who have undergone definitive therapy are not excluded from participation)\n* History of allergic reactions attributed to doxorubicin, cyclophosphamide, carboplatin, or docetaxel\n* History of severe (\u2265 grade 3) hypersensitivity to pembrolizumab or any of its excipients\n* Prior treatment with an anti-PD-1, anti-PD-L1, anti-PD-L2 inhibitor or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (e.g., CTLA4, OX40, CD137)\n* If participant has received major surgery, they must have recovered adequately from the toxicity and/or complications from the intervention prior to starting study treatment.\n* Subject has received a live vaccine within 30 days prior to treatment initiation\n* Subject is currently receiving treatment or has received treatment with an investigational agent within four weeks prior to treatment initiation, or has used an investigational device within four weeks prior to treatment initiation\n* Has a diagnosis of immunodeficiency or is receiving chronic steroid therapy (in doses exceeding 10 mg daily prednisone equivalent) or any other form of immunosuppressive therapy within seven days prior to the first dose of pembrolizumab\n* Active autoimmune disease that has required systemic treatment (e.g., disease-modifying agents, corticosteroids, immunosuppressive drugs) in the past two years\n* Currently has or has history of (within the past one year) non-infectious pneumonitis requiring steroids\n* Active infection requiring systemic therapy\n* Known history of human immunodeficiency virus (HIV) infection\n* Active hepatitis B (defined as HBsAg reactive) or hepatitis C (detectable HCV RNA)\n* History or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of this study, interfere with the subject's participation for the full duration of the study, or it is not in the best interest of the subject to participate, in the opinion of the treating investigator\n* Subject has known psychiatric or substance abuse disorder(s) that would interfere with cooperation with the requirements of the study\n* Subject is pregnant or breastfeeding or expecting to conceive within the projected duration of the study, starting with the screening visit through 120 days after the last dose of trial treatment\n* Inadequate hematologic, renal, hepatic, or cardiac function.\n* Myocardial infarction, unstable angina pectoris, an arterial thrombotic event, stroke, or transient ischemic attack within the past 12 months, uncontrolled hypertension (systolic BP \\> 160 mmHg, diastolic BP \\> 90 mmHg), uncontrolled or symptomatic arrythmia, or greater than grade 2 peripheral vascular disease",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "KUCC Navigation",
+                    "role": "CONTACT",
+                    "phone": "9135883671",
+                    "email": "kucc_navigation@kumc.edu"
+                },
+                {
+                    "name": "Laura Mitchell",
+                    "role": "CONTACT",
+                    "phone": "9135742854",
+                    "email": "lmitchell11@kumc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Shane R Stecklein, MD, PhD",
+                    "affiliation": "University of Kansas Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "The University of Kansas Cancer Center - Clinical Research Center",
+                    "status": "RECRUITING",
+                    "city": "Fairway",
+                    "state": "Kansas",
+                    "zip": "66205",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trial Nurse Navigator",
+                            "role": "CONTACT",
+                            "phone": "913-945-7552",
+                            "email": "ctnursenav@kumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.02223,
+                        "lon": -94.6319
+                    }
+                },
+                {
+                    "facility": "The University of Kansas Cancer Center - Main Hospital",
+                    "status": "RECRUITING",
+                    "city": "Kansas City",
+                    "state": "Kansas",
+                    "zip": "66160",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trial Nurse Navigator",
+                            "role": "CONTACT",
+                            "phone": "913-945-7552",
+                            "email": "ctnursenav@kumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.11417,
+                        "lon": -94.62746
+                    }
+                },
+                {
+                    "facility": "The University of Kansas Cancer Center - Westwood",
+                    "status": "RECRUITING",
+                    "city": "Kansas City",
+                    "state": "Kansas",
+                    "zip": "66205",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trial Nurse Navigator",
+                            "role": "CONTACT",
+                            "phone": "913-945-7552",
+                            "email": "ctnursenav@kumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.11417,
+                        "lon": -94.62746
+                    }
+                },
+                {
+                    "facility": "The University of Kansas Cancer Center - Overland Park",
+                    "status": "RECRUITING",
+                    "city": "Overland Park",
+                    "state": "Kansas",
+                    "zip": "66210",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trial Nurse Navigator",
+                            "role": "CONTACT",
+                            "phone": "913-945-7552",
+                            "email": "ctnursenav@kumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.98223,
+                        "lon": -94.67079
+                    }
+                },
+                {
+                    "facility": "The University of Kansas Cancer Center - North",
+                    "status": "RECRUITING",
+                    "city": "Kansas City",
+                    "state": "Missouri",
+                    "zip": "64154",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trial Nurse Navigator",
+                            "role": "CONTACT",
+                            "phone": "913-945-7552",
+                            "email": "ctnursenav@kumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.09973,
+                        "lon": -94.57857
+                    }
+                },
+                {
+                    "facility": "The University of Kansas Cancer Center - Lee's Summit",
+                    "status": "RECRUITING",
+                    "city": "Lee's Summit",
+                    "state": "Missouri",
+                    "zip": "64064",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trial Nurse Navigator",
+                            "role": "CONTACT",
+                            "phone": "913-945-7552",
+                            "email": "ctnursenav@kumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.91084,
+                        "lon": -94.38217
+                    }
+                },
+                {
+                    "facility": "University of Kansas Cancer Center at North Kansas City Hospital",
+                    "status": "RECRUITING",
+                    "city": "North Kansas City",
+                    "state": "Missouri",
+                    "zip": "64116",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trial Nurse Navigator",
+                            "role": "CONTACT",
+                            "phone": "913-945-7552",
+                            "email": "ctnursenav@kumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.13,
+                        "lon": -94.56218
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                },
+                {
+                    "id": "D000064726",
+                    "term": "Triple Negative Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M30373",
+                    "name": "Triple Negative Breast Neoplasms",
+                    "asFound": "Triple Negative Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003520",
+                    "term": "Cyclophosphamide"
+                },
+                {
+                    "id": "D000016190",
+                    "term": "Carboplatin"
+                },
+                {
+                    "id": "D000077143",
+                    "term": "Docetaxel"
+                },
+                {
+                    "id": "C000582435",
+                    "term": "Pembrolizumab"
+                },
+                {
+                    "id": "D000004317",
+                    "term": "Doxorubicin"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000018501",
+                    "term": "Antirheumatic Agents"
+                },
+                {
+                    "id": "D000018906",
+                    "term": "Antineoplastic Agents, Alkylating"
+                },
+                {
+                    "id": "D000000477",
+                    "term": "Alkylating Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000019653",
+                    "term": "Myeloablative Agonists"
+                },
+                {
+                    "id": "D000050257",
+                    "term": "Tubulin Modulators"
+                },
+                {
+                    "id": "D000050256",
+                    "term": "Antimitotic Agents"
+                },
+                {
+                    "id": "D000050258",
+                    "term": "Mitosis Modulators"
+                },
+                {
+                    "id": "D000074322",
+                    "term": "Antineoplastic Agents, Immunological"
+                },
+                {
+                    "id": "D000082082",
+                    "term": "Immune Checkpoint Inhibitors"
+                },
+                {
+                    "id": "D000000903",
+                    "term": "Antibiotics, Antineoplastic"
+                },
+                {
+                    "id": "D000059005",
+                    "term": "Topoisomerase II Inhibitors"
+                },
+                {
+                    "id": "D000059003",
+                    "term": "Topoisomerase Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6727",
+                    "name": "Cyclophosphamide",
+                    "asFound": "Effect of",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18650",
+                    "name": "Carboplatin",
+                    "asFound": "System",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7492",
+                    "name": "Doxorubicin",
+                    "asFound": "Cognitive",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M349416",
+                    "name": "Pembrolizumab",
+                    "asFound": "Mg/m2",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2853",
+                    "name": "Immunomodulating Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1668",
+                    "name": "Docetaxel",
+                    "asFound": "Management",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M227339",
+                    "name": "Liposomal doxorubicin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20604",
+                    "name": "Antirheumatic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20942",
+                    "name": "Antineoplastic Agents, Alkylating",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3820",
+                    "name": "Alkylating Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26197",
+                    "name": "Tubulin Modulators",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26196",
+                    "name": "Antimitotic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1346",
+                    "name": "Antineoplastic Agents, Immunological",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2342",
+                    "name": "Immune Checkpoint Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4222",
+                    "name": "Anti-Bacterial Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4224",
+                    "name": "Antibiotics, Antitubercular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29348",
+                    "name": "Topoisomerase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "ARhu",
+                    "name": "Antirheumatic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

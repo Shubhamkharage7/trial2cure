@@ -1,0 +1,502 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04717869",
+            "orgStudyIdInfo": {
+                "id": "20-002271"
+            },
+            "organization": {
+                "fullName": "University of California, Los Angeles",
+                "class": "OTHER"
+            },
+            "briefTitle": "Identifying Modifiable PAtient Centered Therapeutics (IMPACT) Frailty",
+            "officialTitle": "Identifying Modifiable PAtient Centered Therapeutics Frailty: An Observational Cohort Study",
+            "acronym": "IMPACT",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "identifying-modifiable-patient-centered-therapeutics-impact-frailty"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-09-22",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-01-12",
+            "studyFirstSubmitQcDate": "2021-01-17",
+            "studyFirstPostDateStruct": {
+                "date": "2021-01-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-09-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Cecilia Canales",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "University of California, Los Angeles"
+            },
+            "leadSponsor": {
+                "name": "University of California, Los Angeles",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Frailty, the decline in physical and cognitive reserves leading to vulnerability to stressors is increasingly being recognized as a public health concern. Although multiple measures exist that can identify frail patients, very little is known about how or when to intervene. Sarcopenia, or the degree of muscle wasting, is closely correlated to frailty and patient outcomes. This is a prospective cohort study of critically ill patients to identify modifiable risk factors of sarcopenia, as potential targets to reduce frailty.",
+            "detailedDescription": "Frailty is the decline in physical and cognitive reserves leading to increased vulnerability to stressors such as surgery or disease states. Frailty is not a disease, but a syndrome with a distinct frail phenotype that includes decreased status in mobility, muscle mass, nutritional status, strength, and endurance. Frail patients are at greater risk of adverse outcomes, such as functional decline, prolonged hospitalization with associated increases in healthcare costs and death. Multiple measures of frailty exist and although they are important for understanding risk for a given patient population or resource utilization, they do not provide any insight as to how to manage or treat frail patients.\n\nIn critically ill patients, sarcopenia has long been tied to poor outcomes, poor nutrition status, and decreased ability to perform activities of daily living (ADLs). We hypothesize that sarcopenia as a marker for frailty in critically ill patients can be used to track development and recovery of frailty.\n\nThe objective of this proposal to create a prospective cohort study of critically ill patients to identify modifiable risk factors of sarcopenia as potential targets for therapeutic measures to improve or reverse frailty.\n\nThe primary aim of the study is to track sarcopenia in critically ill patients. Sarcopenia is a measure of frailty and is associated with worse outcomes in critically ill patients. The aim to understand how the kinetics of sarcopenia differ in critically ill population given the heterogeneity of with various disease process which may affect the degree and rate of muscle wasting. Understanding the disease process is important in identifying when or how to intervene to obtain meaningful recovery.\n\nSecondary aims are to assess the role biomarkers in patients across the frailty spectrum to understand their role frailty. Additionally nutrition is well known to affect sarcopenia and nutritional status is a key component in frailty. Nutrition status will be tracked to understand development of sarcopenia."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Frailty",
+                "Sarcopenia"
+            ],
+            "keywords": [
+                "Frailty",
+                "Sarcopenia",
+                "Ultrasound"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 250,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "ICU Patients",
+                    "description": "Adult Surgical, Cardiothoracic, and Neuro- ICU patients will be enrolled within 48 hrs of admission",
+                    "interventionNames": [
+                        "Diagnostic Test: Ultrasound",
+                        "Diagnostic Test: Biomarker Analysis",
+                        "Other: Frailty Index"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Ultrasound",
+                    "description": "2D ultrasound image collection",
+                    "armGroupLabels": [
+                        "ICU Patients"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Biomarker Analysis",
+                    "description": "Inflammatory and nutritional biomarker analysis",
+                    "armGroupLabels": [
+                        "ICU Patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Frailty Index",
+                    "description": "A Frailty Index Questionnaire be completed by patients or their surrogates to determine the presence of frailty at ICU admission",
+                    "armGroupLabels": [
+                        "ICU Patients"
+                    ],
+                    "otherNames": [
+                        "Questionnaire"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Discharge Disposition",
+                    "description": "Disposition of patient at time of hospital discharge, home, rehabilitation or skilled nursing facility, in hospital death",
+                    "timeFrame": "Patients will be followed from enrollment to hospital discharge. Approximately 2 weeks to 2 months"
+                },
+                {
+                    "measure": "Length of ICU stay",
+                    "description": "Length of time patient is admitted to ICU until transfer out of the ICU",
+                    "timeFrame": "Patients will be followed from enrollment to ICU transfer. Approximately 2 weeks to 2 months"
+                },
+                {
+                    "measure": "Length of Hospital stay",
+                    "description": "Length of time patient is admitted to the hospital including length of time patient spends in the ICU until discharge or death",
+                    "timeFrame": "Patients will be followed from enrollment until discharge from the hospital. Approximately 2 weeks to 2 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Adverse Events",
+                    "description": "Falls, fractures, number of emergency room visits, number of times hospitalized, total hospital days and mortality",
+                    "timeFrame": "Patients will be followed from enrollment to 1 year."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients admitted to the Surgical, Cardiothoracic or Neuro ICU\n* ICU stay longer than 24 hours\n\nExclusion Criteria:\n\n* Patients with muscular or mitochondrial diseases affecting muscle quality or mass\n* Preexisting paralysis\n* Absence of lower limbs\n* Ongoing discussions about goals of care\n* Transfers from a skilled nursing facility\n* Children under the age of 18",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Adult patients admitted to the the Surgical, Cardiothoracic, or Neuro ICU.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jennifer Scovotti, MA",
+                    "role": "CONTACT",
+                    "phone": "3102064484",
+                    "email": "jscovotti@mednet.ucla.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Cecilia Canales, MD, MPH",
+                    "affiliation": "UCLA Department of Anesthesiology and Perioperative Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Ronald Reagan UCLA Medical Center, Department of Anesthesiology & Perioperative Medicine",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90095",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jennifer Scovotti, MA",
+                            "role": "CONTACT",
+                            "phone": "310-206-4484",
+                            "email": "jscovotti@mednet.ucla.edu"
+                        },
+                        {
+                            "name": "Cecilia Canales, MD, MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Maxime Cannesson, MD, Ph.D",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Vadim Gudzenko, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Sumit Singh, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "31609228",
+                    "type": "BACKGROUND",
+                    "citation": "Hoogendijk EO, Afilalo J, Ensrud KE, Kowal P, Onder G, Fried LP. Frailty: implications for clinical practice and public health. Lancet. 2019 Oct 12;394(10206):1365-1375. doi: 10.1016/S0140-6736(19)31786-6."
+                },
+                {
+                    "pmid": "21093718",
+                    "type": "BACKGROUND",
+                    "citation": "Xue QL. The frailty syndrome: definition and natural history. Clin Geriatr Med. 2011 Feb;27(1):1-15. doi: 10.1016/j.cger.2010.08.009."
+                },
+                {
+                    "pmid": "26155837",
+                    "type": "BACKGROUND",
+                    "citation": "Op het Veld LP, van Rossum E, Kempen GI, de Vet HC, Hajema K, Beurskens AJ. Fried phenotype of frailty: cross-sectional comparison of three frailty stages on various health domains. BMC Geriatr. 2015 Jul 9;15:77. doi: 10.1186/s12877-015-0078-0."
+                },
+                {
+                    "pmid": "26624218",
+                    "type": "BACKGROUND",
+                    "citation": "Ritt M, Schwarz C, Kronawitter V, Delinic A, Bollheimer LC, Gassmann KG, Sieber CC. Analysis of Rockwood et Al's Clinical Frailty Scale and Fried et Al's Frailty Phenotype as Predictors of Mortality and Other Clinical Outcomes in Older Patients Who Were Admitted to a Geriatric Ward. J Nutr Health Aging. 2015 Dec;19(10):1043-8. doi: 10.1007/s12603-015-0667-9."
+                },
+                {
+                    "pmid": "16129869",
+                    "type": "BACKGROUND",
+                    "citation": "Rockwood K, Song X, MacKnight C, Bergman H, Hogan DB, McDowell I, Mitnitski A. A global clinical measure of fitness and frailty in elderly people. CMAJ. 2005 Aug 30;173(5):489-95. doi: 10.1503/cmaj.050051."
+                },
+                {
+                    "pmid": "29100219",
+                    "type": "BACKGROUND",
+                    "citation": "Zylberglait Lisigurski M, Bueno YA, Karanam C, Andrade AD, Akkineni S, Cevallos V, Ruiz JG. Healthcare Utilization by Frail, Community-Dwelling Older Veterans: A 1-Year Follow-up Study. South Med J. 2017 Nov;110(11):699-704. doi: 10.14423/SMJ.0000000000000722."
+                },
+                {
+                    "pmid": "28738809",
+                    "type": "BACKGROUND",
+                    "citation": "Eamer G, Gibson JA, Gillis C, Hsu AT, Krawczyk M, MacDonald E, Whitlock R, Khadaroo RG. Surgical frailty assessment: a missed opportunity. BMC Anesthesiol. 2017 Jul 24;17(1):99. doi: 10.1186/s12871-017-0390-7."
+                },
+                {
+                    "pmid": "29186782",
+                    "type": "BACKGROUND",
+                    "citation": "Lim WS, Wong SF, Leong I, Choo P, Pang WS. Forging a Frailty-Ready Healthcare System to Meet Population Ageing. Int J Environ Res Public Health. 2017 Nov 24;14(12):1448. doi: 10.3390/ijerph14121448."
+                },
+                {
+                    "pmid": "18691282",
+                    "type": "BACKGROUND",
+                    "citation": "Hastings SN, Purser JL, Johnson KS, Sloane RJ, Whitson HE. Frailty predicts some but not all adverse outcomes in older adults discharged from the emergency department. J Am Geriatr Soc. 2008 Sep;56(9):1651-7. doi: 10.1111/j.1532-5415.2008.01840.x. Epub 2008 Aug 4."
+                },
+                {
+                    "pmid": "29137576",
+                    "type": "BACKGROUND",
+                    "citation": "Lin H, Peel NM, Scott IA, Vardesh DL, Sivalingam P, McBride RL, Morong JJ, Nelson MJ, Hubbard RE. Perioperative assessment of older surgical patients using a frailty index-feasibility and association with adverse post-operative outcomes. Anaesth Intensive Care. 2017 Nov;45(6):676-682. doi: 10.1177/0310057X1704500605."
+                },
+                {
+                    "pmid": "27580947",
+                    "type": "BACKGROUND",
+                    "citation": "Lin HS, Watts JN, Peel NM, Hubbard RE. Frailty and post-operative outcomes in older surgical patients: a systematic review. BMC Geriatr. 2016 Aug 31;16(1):157. doi: 10.1186/s12877-016-0329-8."
+                },
+                {
+                    "pmid": "23880071",
+                    "type": "BACKGROUND",
+                    "citation": "Robinson TN, Wu DS, Pointer L, Dunn CL, Cleveland JC Jr, Moss M. Simple frailty score predicts postoperative complications across surgical specialties. Am J Surg. 2013 Oct;206(4):544-50. doi: 10.1016/j.amjsurg.2013.03.012. Epub 2013 Jul 20."
+                },
+                {
+                    "pmid": "29165541",
+                    "type": "BACKGROUND",
+                    "citation": "Smart R, Carter B, McGovern J, Luckman S, Connelly A, Hewitt J, Quasim T, Moug S. Frailty Exists in Younger Adults Admitted as Surgical Emergency Leading to Adverse Outcomes. J Frailty Aging. 2017;6(4):219-223. doi: 10.14283/jfa.2017.28."
+                },
+                {
+                    "pmid": "11253156",
+                    "type": "BACKGROUND",
+                    "citation": "Fried LP, Tangen CM, Walston J, Newman AB, Hirsch C, Gottdiener J, Seeman T, Tracy R, Kop WJ, Burke G, McBurnie MA; Cardiovascular Health Study Collaborative Research Group. Frailty in older adults: evidence for a phenotype. J Gerontol A Biol Sci Med Sci. 2001 Mar;56(3):M146-56. doi: 10.1093/gerona/56.3.m146."
+                },
+                {
+                    "pmid": "25154667",
+                    "type": "BACKGROUND",
+                    "citation": "Amrock LG, Neuman MD, Lin HM, Deiner S. Can routine preoperative data predict adverse outcomes in the elderly? Development and validation of a simple risk model incorporating a chart-derived frailty score. J Am Coll Surg. 2014 Oct;219(4):684-94. doi: 10.1016/j.jamcollsurg.2014.04.018. Epub 2014 Jun 3."
+                },
+                {
+                    "pmid": "30631495",
+                    "type": "BACKGROUND",
+                    "citation": "Balsam LB. Psoas muscle area: a new standard for frailty assessment in cardiac surgery? J Thorac Dis. 2018 Nov;10(Suppl 33):S3846-S3849. doi: 10.21037/jtd.2018.10.96. No abstract available."
+                },
+                {
+                    "pmid": "28467535",
+                    "type": "BACKGROUND",
+                    "citation": "Wahl TS, Graham LA, Hawn MT, Richman J, Hollis RH, Jones CE, Copeland LA, Burns EA, Itani KM, Morris MS. Association of the Modified Frailty Index With 30-Day Surgical Readmission. JAMA Surg. 2017 Aug 1;152(8):749-757. doi: 10.1001/jamasurg.2017.1025."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Canales C, Mazor E, Flath CS, Vacas S, Duval V, Cannesson M, Umar S, Singh SP. Preoperative Ultrasound Based Frailty Assessment as a Predictor of Surgical Outcomes. Anesthesiology. 2019;131(4):JS-04."
+                },
+                {
+                    "pmid": "26655919",
+                    "type": "BACKGROUND",
+                    "citation": "Mueller N, Murthy S, Tainter CR, Lee J, Riddell K, Fintelmann FJ, Grabitz SD, Timm FP, Levi B, Kurth T, Eikermann M. Can Sarcopenia Quantified by Ultrasound of the Rectus Femoris Muscle Predict Adverse Outcome of Surgical Intensive Care Unit Patients as well as Frailty? A Prospective, Observational Cohort Study. Ann Surg. 2016 Dec;264(6):1116-1124. doi: 10.1097/SLA.0000000000001546."
+                },
+                {
+                    "pmid": "21847576",
+                    "type": "BACKGROUND",
+                    "citation": "Fukumoto Y, Ikezoe T, Yamada Y, Tsukagoshi R, Nakamura M, Mori N, Kimura M, Ichihashi N. Skeletal muscle quality assessed from echo intensity is associated with muscle strength of middle-aged and elderly persons. Eur J Appl Physiol. 2012 Apr;112(4):1519-25. doi: 10.1007/s00421-011-2099-5. Epub 2011 Aug 17."
+                },
+                {
+                    "pmid": "29846011",
+                    "type": "BACKGROUND",
+                    "citation": "Canales C, Elsayes A, Yeh DD, Belcher D, Nakayama A, McCarthy CM, Chokengarmwong N, Quraishi SA. Nutrition Risk in Critically Ill Versus the Nutritional Risk Screening 2002: Are They Comparable for Assessing Risk of Malnutrition in Critically Ill Patients? JPEN J Parenter Enteral Nutr. 2019 Jan;43(1):81-87. doi: 10.1002/jpen.1181. Epub 2018 May 30."
+                },
+                {
+                    "pmid": "31328301",
+                    "type": "BACKGROUND",
+                    "citation": "Ooi PH, Thompson-Hodgetts S, Pritchard-Wiart L, Gilmour SM, Mager DR. Pediatric Sarcopenia: A Paradigm in the Overall Definition of Malnutrition in Children? JPEN J Parenter Enteral Nutr. 2020 Mar;44(3):407-418. doi: 10.1002/jpen.1681. Epub 2019 Jul 22."
+                },
+                {
+                    "pmid": "24920308",
+                    "type": "BACKGROUND",
+                    "citation": "Joseph B, Pandit V, Zangbar B, Kulvatunyou N, Hashmi A, Green DJ, O'Keeffe T, Tang A, Vercruysse G, Fain MJ, Friese RS, Rhee P. Superiority of frailty over age in predicting outcomes among geriatric trauma patients: a prospective analysis. JAMA Surg. 2014 Aug;149(8):766-72. doi: 10.1001/jamasurg.2014.296."
+                },
+                {
+                    "pmid": "32627923",
+                    "type": "BACKGROUND",
+                    "citation": "Kang S, Oh TJ, Cho BL, Park YS, Roh E, Kim HJ, Lee SG, Kim BJ, Kim M, Won CW, Jang HC. Sex differences in sarcopenia and frailty among community-dwelling Korean older adults with diabetes: The Korean Frailty and Aging Cohort Study. J Diabetes Investig. 2021 Feb;12(2):155-164. doi: 10.1111/jdi.13348. Epub 2020 Aug 8."
+                },
+                {
+                    "pmid": "30082887",
+                    "type": "BACKGROUND",
+                    "citation": "Nguyen HB, Loughead J, Lipner E, Hantsoo L, Kornfield SL, Epperson CN. What has sex got to do with it? The role of hormones in the transgender brain. Neuropsychopharmacology. 2019 Jan;44(1):22-37. doi: 10.1038/s41386-018-0140-7. Epub 2018 Jul 5."
+                },
+                {
+                    "pmid": "31942531",
+                    "type": "BACKGROUND",
+                    "citation": "Pradhananga S, Regmi K, Razzaq N, Ettefaghian A, Dey AB, Hewson D. Ethnic differences in the prevalence of frailty in the United Kingdom assessed using the electronic Frailty Index. Aging Med (Milton). 2019 Sep 13;2(3):168-173. doi: 10.1002/agm2.12083. eCollection 2019 Sep."
+                },
+                {
+                    "pmid": "30093521",
+                    "type": "BACKGROUND",
+                    "citation": "Franse CB, van Grieken A, Qin L, Melis RJF, Rietjens JAC, Raat H. Ethnic differences in frailty: a cross-sectional study of pooled data from community-dwelling older persons in the Netherlands. BMJ Open. 2018 Aug 8;8(8):e022241. doi: 10.1136/bmjopen-2018-022241."
+                },
+                {
+                    "pmid": "29634767",
+                    "type": "BACKGROUND",
+                    "citation": "Griffin FR, Mode NA, Ejiogu N, Zonderman AB, Evans MK. Frailty in a racially and socioeconomically diverse sample of middle-aged Americans in Baltimore. PLoS One. 2018 Apr 10;13(4):e0195637. doi: 10.1371/journal.pone.0195637. eCollection 2018."
+                },
+                {
+                    "pmid": "15528056",
+                    "type": "BACKGROUND",
+                    "citation": "Leffondre K, Abrahamowicz M, Regeasse A, Hawker GA, Badley EM, McCusker J, Belzile E. Statistical measures were proposed for identifying longitudinal patterns of change in quantitative health indicators. J Clin Epidemiol. 2004 Oct;57(10):1049-62. doi: 10.1016/j.jclinepi.2004.02.012."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "The data will not be shared outside the study team."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000055948",
+                    "term": "Sarcopenia"
+                },
+                {
+                    "id": "D000073496",
+                    "term": "Frailty"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000009133",
+                    "term": "Muscular Atrophy"
+                },
+                {
+                    "id": "D000020879",
+                    "term": "Neuromuscular Manifestations"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000001284",
+                    "term": "Atrophy"
+                },
+                {
+                    "id": "D000020763",
+                    "term": "Pathological Conditions, Anatomical"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M1175",
+                    "name": "Frailty",
+                    "asFound": "Frailty",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28396",
+                    "name": "Sarcopenia",
+                    "asFound": "Sarcopenia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4589",
+                    "name": "Atrophy",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12090",
+                    "name": "Muscular Atrophy",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22619",
+                    "name": "Neuromuscular Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22519",
+                    "name": "Pathological Conditions, Anatomical",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M6263",
+                    "name": "Coal Tar",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Derm",
+                    "name": "Dermatologic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

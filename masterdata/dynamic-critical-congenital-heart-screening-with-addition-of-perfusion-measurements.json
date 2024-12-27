@@ -1,0 +1,355 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05637814",
+            "orgStudyIdInfo": {
+                "id": "1933258"
+            },
+            "organization": {
+                "fullName": "University of California, Davis",
+                "class": "OTHER"
+            },
+            "briefTitle": "Dynamic Critical Congenital Heart Screening With Addition of Perfusion Measurements",
+            "officialTitle": "Dynamic Critical Congenital Heart Screening With Addition of Perfusion Measurements",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "dynamic-critical-congenital-heart-screening-with-addition-of-perfusion-measurements"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-17",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-11-22",
+            "studyFirstSubmitQcDate": "2022-12-01",
+            "studyFirstPostDateStruct": {
+                "date": "2022-12-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-23",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Heather Siefkes",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "University of California, Davis"
+            },
+            "leadSponsor": {
+                "name": "University of California, Davis",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institutes of Health (NIH)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to implement and externally validate an inpatient ML algorithm that combines pulse oximetry features for critical congenital heart disease (CCHD) screening.",
+            "detailedDescription": "The study will externally validate an algorithm that combines non-invasive oxygenation and perfusion measurements as a screening tool for CCHD. In a previous study, the investigators created an algorithm that combines non-invasive measurements of oxygenation and perfusion over at least two measurements using machine learning (ML) techniques. The prior model was created and tested using internal validation (k-fold validation). Thus, the investigators will test the model on an external sample of patients to test generalizability of the model. Additionally, the team will trial a repeated measurement for any \"failure\" of the screen to assess impact on the false positive rate. Study team will also use repeated pulse oximetry measurements (up to 4 total and including measurements after 48 hours of age, which may be done outpatient) to create a new algorithm that incorporates new data over time. The central hypothesis is that the addition of non-invasive perfusion measurements will be superior to SpO2-alone screening for CCHD detection and a model that incorporates repeated measurements will enhance detection of CCHD while preserving the specificity."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Congenital Heart Disease"
+            ],
+            "keywords": [
+                "Machine Learning Algorithm",
+                "Pulse Oximetry"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "Non-invasive measurements of oxygenation and perfusion will be measured with pulse oximeters and a machine learning algorithm to improve sensitivity of CCHD screening.",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 240,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "SpO2 and PIx Measurement",
+                    "type": "EXPERIMENTAL",
+                    "description": "Non-invasive measurements of oxygenation (SpO2) and perfusion (PIx) will be measured with pulse oximeters and a ML CCHD screening algorithm will be assigning a prediction every minute.",
+                    "interventionNames": [
+                        "Diagnostic Test: SpO2/PIx Measurement and ML Algorithm"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "SpO2/PIx Measurement and ML Algorithm",
+                    "description": "Right upper and any lower extremity oxygen saturation (SpO2) and perfusion index (PIx) will be measured and an online ML inference model will be used to classify a newborn as healthy versus CCHD as new pulse oximetry data is collected.",
+                    "armGroupLabels": [
+                        "SpO2 and PIx Measurement"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Area under the curve for receiver operating characteristics for critical congenital heart disease using ML inpatient algorithm.",
+                    "description": "Receiver operating characteristics reflect a combination of sensitivity and specificity of a test. The investigators will identify the true positive and true negative rates for CCHD by confirming health status to a minimum of 2 months of age. The investigators will also utilize birth defect and death registries for missing infants.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Sensitivity for critical congenital heart disease using ML inpatient algorithm (0-24 hours and 24-48 hours)",
+                    "description": "The investigators will identify the true positive rate for CCHD by confirming health status to a minimum of 2 months of age. CCHD will be defined based on echocardiogram or parent report if echocardiogram not present. The investigators will also utilize birth defect and death registries for missing infants.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                },
+                {
+                    "measure": "Specificity for critical congenital heart disease using ML inpatient algorithm (0-24 hours and 24-48 hours)",
+                    "description": "The investigators will identify the true negative rate by confirming health status to a minimum of 2 months of age. CCHD will be defined based on echocardiogram or parent report if echocardiogram not present. The investigators will also utilize birth defect and death registries for missing infants.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                },
+                {
+                    "measure": "Area under the curve for receiver operating characteristics for critical congenital heart disease using dynamic ML algorithm",
+                    "description": "Receiver operating characteristics reflect a combination of sensitivity and specificity of a test. The investigators will identify the true positive and true negative rates for CCHD by confirming health status to a minimum of 2 months of age. The investigators will also utilize birth defect and death registries for missing infants.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                },
+                {
+                    "measure": "Sensitivity for critical congenital heart disease using dynamic ML algorithm",
+                    "description": "The investigators will identify the true positive rate for CCHD by confirming health status to a minimum of 2 months of age. CCHD will be defined based on echocardiogram or parent report if echocardiogram not present. The investigators will also utilize birth defect and death registries for missing infants.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                },
+                {
+                    "measure": "Specificity for critical congenital heart disease using dynamic ML model",
+                    "description": "The investigators will identify the true negative rate by confirming health status to a minimum of 2 months of age. CCHD will be defined based on echocardiogram or parent report if echocardiogram not present. The investigators will also utilize birth defect and death registries for missing infants.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                },
+                {
+                    "measure": "Sensitivity for critical coarctation of the aorta using dynamic ML algorithm",
+                    "description": "Critical coarctation of the aorta is the most commonly missed CCHD. The investigators will identify the true positive rate by confirming health status to a minimum of 2 months of age. The investigators will also utilize birth defect and death registries for missing infants.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Frequency of repeated inpatient ML measurements",
+                    "description": "If a newborn has an initial \"fail\" during the inpatient ML screening algorithm, then 1 repeated measurement will occur within 3 hours after waiting at least 30 minutes. If the next repeated measurement is a \"fail\" then the final classification assigned will be a \"fail.\" If the repeat measurement is a \"pass\" the final classification will be a \"pass.\" To gauge impact on nursing time for repeated measurements, The investigators will quantify how often these repeated measurements occur.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                },
+                {
+                    "measure": "Feasibility: Number of minutes needed to obtain simultaneous artifact free hand and foot measurements such that all pulse oximetry features can be included.",
+                    "description": "In order to incorporate the radiofemoral delay component of the pulse oximetry features, the hand and foot waveforms need to be artifact free simultaneously. The pulse oximetry device will give a result every minute to give the investigators an idea on how long it may take to reach simultaneously artifact free waveforms.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                },
+                {
+                    "measure": "Feasibility: Number of outpatient pulse oximetry measurements obtained",
+                    "description": "Pulse oximetry measurements are not currently conducted in the outpatient setting. Thus, the investigators will assess feasibility for future trials based on how many outpatient measurements are obtained versus missed in the study protocol.",
+                    "timeFrame": "Through study completion, an average of 4 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\< 22 days\n* Fetuses suspected to have congenital heart disease\n* Newborns with suspected/confirmed critical congenital heart disease\n* Asymptomatic newborn undergoing SpO2 screening for CCHD\n\nExclusion Criteria:\n\n* Echocardiogram completed prior to enrollment as the newborn would then no longer be considered \"asymptomatic undergoing SpO2 screening for CCHD\"\n* For Newborns with confirmed/suspected congenital heart disease (CHD): a) Patent ductus arteriosus and/or atrial septal defect/patent foramen ovale without other defects, b) Corrective cardiac surgical or catheter intervention performed before enrollment or c) Current infusions of vasoactive medications other than prostaglandin therapy.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "0 Minutes",
+            "maximumAge": "21 Days",
+            "stdAges": [
+                "CHILD"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Heather Siefkes, MD, MSCI",
+                    "role": "CONTACT",
+                    "phone": "916-713-7697",
+                    "email": "hsiefkes@ucdavis.edu"
+                },
+                {
+                    "name": "Elva Horath, IMG",
+                    "role": "CONTACT",
+                    "phone": "916-713-7697",
+                    "email": "ethorath@ucdavis.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UC Davis Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Davis",
+                    "state": "California",
+                    "zip": "95616",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Heather Siefkes, MD, MSCI",
+                            "role": "CONTACT",
+                            "email": "hsiefkes@ucdavis.edu"
+                        },
+                        {
+                            "name": "Heather Siefkes, MD, MSCI",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.54491,
+                        "lon": -121.74052
+                    }
+                },
+                {
+                    "facility": "Cohen Children's Medical Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Queens",
+                    "state": "New York",
+                    "zip": "11040",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Robert Koppel, MD",
+                            "role": "CONTACT",
+                            "email": "rkoppel@northwell.edu"
+                        },
+                        {
+                            "name": "Robert Koppel, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.68149,
+                        "lon": -73.83652
+                    }
+                },
+                {
+                    "facility": "University of Utah Health Care",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Salt Lake City",
+                    "state": "Utah",
+                    "zip": "84102",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Whitnee Hogan, MD",
+                            "role": "CONTACT",
+                            "email": "whitnee.hogan@hsc.utah.edu"
+                        },
+                        {
+                            "name": "Whitnee Hogan, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.76078,
+                        "lon": -111.89105
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000006330",
+                    "term": "Heart Defects, Congenital"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000018376",
+                    "term": "Cardiovascular Abnormalities"
+                },
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "asFound": "Heart Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9418",
+                    "name": "Heart Defects, Congenital",
+                    "asFound": "Congenital Heart Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20503",
+                    "name": "Cardiovascular Abnormalities",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

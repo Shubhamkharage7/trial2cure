@@ -1,0 +1,376 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05421832",
+            "orgStudyIdInfo": {
+                "id": "STU00216902"
+            },
+            "organization": {
+                "fullName": "Northwestern University",
+                "class": "OTHER"
+            },
+            "briefTitle": "A Novel Measurement Concept to Objectively Quantify Severity of Vocal and Speech Related Symptoms Associated With Parkinson's Disease",
+            "officialTitle": "A Novel Measurement Concept to Objectively Quantify Severity of Vocal and Speech Related Symptoms Associated With Parkinson's Disease",
+            "acronym": "Voice-PD",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "a-novel-measurement-concept-to-objectively-quantify-severity-of-vocal-and-speech-related-symptoms-associated-with-parkinson-s-disease"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-09-27",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-06-08",
+            "studyFirstSubmitQcDate": "2022-06-14",
+            "studyFirstPostDateStruct": {
+                "date": "2022-06-16",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-09",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Tanya Simuni, MD",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Northwestern University"
+            },
+            "leadSponsor": {
+                "name": "Northwestern University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Michael J. Fox Foundation for Parkinson's Research",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Koneksa Health",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The aim of this research program is to develop and validate a smartphone app-based digital measurement concept that:\n\n* Objectively quantifies the severity of Parkinson's Disease (PD) related vocal and speech symptoms;\n* Accurately and sensitively identifies vocal and speech abnormalities associated with the prodromal stage of PD.",
+            "detailedDescription": "Although multiple approaches to this problem have been proposed in addition to commercially available speech analytics platforms, there is currently no established measure which incorporates the disparate aspects of affected speech to fully characterize Parkinson's symptom progression, particularly in the prodromal phase.\n\nThe measurement concept being evaluated in the present study utilizes a custom smartphone-based speech assessment tool to extract multiple hypothesis-driven acoustic features from patient speech in a real-life environment. The resultant features will be used to train a pair of supervised machine learning models to predict clinical PD symptom severity scores, and to distinguish prodromal PD patients from both healthy matched controls and PD patients in more advanced phases of disease progression."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Parkinson Disease"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 120,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "PD Cohort 1",
+                    "description": "PD patients assessed via the Hoehn \\& Yahr (H\\&Y) Scale to be in Stages 1-2 of PD (inclusive)",
+                    "interventionNames": [
+                        "Device: Digital Speech Application"
+                    ]
+                },
+                {
+                    "label": "PD Cohort 2",
+                    "description": "PD patients assessed via the H\\&Y Scale to be in Stages 3-4 of PD (inclusive)",
+                    "interventionNames": [
+                        "Device: Digital Speech Application"
+                    ]
+                },
+                {
+                    "label": "Prodromal PD",
+                    "description": "Patients who meet PI-defined criteria for prodromal PD, i.e., the latent phase of disease progression during which clinical PD symptoms have yet to manifest",
+                    "interventionNames": [
+                        "Device: Digital Speech Application"
+                    ]
+                },
+                {
+                    "label": "Age and Sex-matched Healthy Control",
+                    "description": "Age \\& sex matched healthy control subjects who have not been diagnosed with PD",
+                    "interventionNames": [
+                        "Device: Digital Speech Application"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Digital Speech Application",
+                    "description": "A custom smartphone-based speech assessment tool to extract multiple hypothesis-driven acoustic features from patient speech in a real-life environment.",
+                    "armGroupLabels": [
+                        "Age and Sex-matched Healthy Control",
+                        "PD Cohort 1",
+                        "PD Cohort 2",
+                        "Prodromal PD"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Compliance of digital speech assessment data recorded via smartphone assessments",
+                    "description": "o % Interpretable minutes of data per patient",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Quality of digital speech assessment data recorded via smartphone assessments",
+                    "description": "o % Interpretable vs. expected number of minutes of data per patient by complete days on study",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Usability of digital speech assessments",
+                    "description": "o SUS Usability scores by score, grade and adjective rating",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Content validity of digital speech assessments",
+                    "description": "o Percent of patients that score Excellent or Good for usability ratings",
+                    "timeFrame": "8 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Characterization and reliability of digital speech assessment features",
+                    "description": "o Candidate feature characterization: response distributions, and outlier analysis. Stratification of sustained phonation measures by MDS-UPDRS relevant speech items",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Reliability of digital speech assessment features",
+                    "description": "internal consistency and test-retest reliability",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Predictive performance of machine learning (ML) regression model",
+                    "description": "o Construct validity: convergent validity of each model output versus relevant MDS-UPDRS speech items and Parts I-IV total score, respectively; and versus Hoehn \\& Yahr Stage",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Predictive performance of ML classification model",
+                    "description": "o Known group validity by cohort (including by H\\&Y Stage/ MDS-UPDRS Parts I-IV total score)",
+                    "timeFrame": "8 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPD:\n\n1. Male or female age 30 years or older at Screening Visit.\n2. Diagnosis of PD as defined by MDS PD diagnostic criteria \\[1\\]\n3. PD severity at Screening Visit of either:\n\n   * PD Hoehn and Yahr Stage 1-2, inclusive (PD Cohort I)\n   * PD Hoehn and Yahr Stages 3-4, inclusive (PD Cohort II)\n4. Able and willing to complete all aspects of the study, including at home smartphone app and Zoom telehealth assessments.\n5. Able to provide informed consent.\n\nProdromal PD:\n\n1. Confirmation that participant is eligible based on clinician determined predictive criteria of known risk of PD including\n\n   1. Rapid eye movement sleep behavior disorder (RBD), possible, probable or definite, OR\n   2. Hyposmia defined as less than 10th percentile on University of Pennsylvania Smell Identification Test (UPSIT), age and gender adjusted, OR\n   3. Known genetic variants associated with PD risk, AND Confirmed eligible DAT scan.\n2. Male or female age 30 or older at Screening Visit.\n3. Able and willing to complete all aspects of the study, including at home smartphone app and Zoom telehealth assessments\n4. Able to provide informed consent.\n\nAge \\& Sex Matched Healthy Control:\n\n1. Male or female age 30 years or older at Screening visit.\n2. Able and willing to complete all aspects of the study, including at home smartphone app and Zoom telehealth assessments\n3. Able to provide informed consent.\n\nExclusion Criteria:\n\nPD:\n\n1. Late-stage PD diagnosis (i.e., Hoehn \\& Yahr Stage 5) at Screening Visit\n2. Symptomatic or atypical PD syndromes due to either drugs (e.g., metoclopramide, flunarizine, neuroleptics) or metabolic disorders (e.g., Wilson's disease), encephalitis, or degenerative diseases (e.g., progressive supranuclear palsy).\n3. Current or active clinically significant neurological disorder other than PD (in the opinion of the Investigator).\n4. Significant cognitive impairment or clinical dementia at Screening that, in the opinion of the Investigator, would interfere with study evaluation.\n5. History of drug and/or alcohol abuse within the past year prior to Screening Visit.\n6. Inability or unwillingness to complete all aspects of the study - including use of a provisioned smartphone for study assessments; completion of telehealth assessments.\n7. Any other medical or psychiatric condition, which in the opinion of the investigator might preclude participation.\n\nProdromal PD:\n\n1. Clinical diagnosis of PD, other parkinsonism, or dementia.\n2. Any current or active clinically significant neurological disorder (in the opinion of the Investigator).\n3. Previously obtained MRI scan with evidence of clinically significant neurological disorder (in the opinion of the Investigator).\n4. Significant cognitive impairment or clinical dementia at Screening that, in the opinion of the Investigator, would interfere with study evaluation.\n5. History of drug and/or alcohol abuse within the past year prior to Screening Visit.\n6. Inability or unwillingness to complete all aspects of the study - including use of a provisioned smartphone for study assessments; completion of telehealth assessments.\n7. Any other medical or psychiatric condition, which in the opinion of the investigator might preclude participation.\n\nAge \\& Sex Matched Healthy Control:\n\n1. First degree relative with PD (i.e., biologic parent, sibling, child).\n2. Any current or active clinically significant neurological disorder (in the opinion of the Investigator).\n3. Previously obtained MRI scan with evidence of clinically significant neurological disorder (in the opinion of the Investigator).\n4. Significant cognitive impairment or clinical dementia at Screening that, in the opinion of the Investigator, would interfere with study evaluation.\n5. History of drug and/or alcohol abuse within the past year prior to Screening Visit.\n6. Inability or unwillingness to complete all aspects of the study - including use of a provisioned smartphone for study assessments; completion of telehealth assessments.\n7. Any other medical or psychiatric condition, which in the opinion of the investigator might preclude participation",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "30 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "* PD Cohort I (n=30): PD patients assessed via the Hoehn \\& Yahr (H\\&Y) Scale to be in Stages 1-2 of PD (inclusive)\n* PD Cohort II (n = 30): PD patients assessed via the H\\&Y Scale to be in Stages 3-4 of PD (inclusive)\n* Prodromal PD Cohort (n = 30): Patients who meet PI-defined criteria for prodromal PD, i.e., the latent phase of disease progression during which clinical PD symptoms have yet to manifest\n* Age \\& Sex Matched Healthy Control Cohort (n = 30) - age \\& sex matched healthy control subjects who have not been diagnosed with PD",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Max Galarce",
+                    "role": "CONTACT",
+                    "phone": "312-503-4270",
+                    "email": "max.galarce@northwestern.edu"
+                },
+                {
+                    "name": "Cynthia Poon, PhD",
+                    "role": "CONTACT",
+                    "phone": "312-503-8216",
+                    "email": "cynthia.poon@northwestern.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Northwestern University",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60611",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Cynthia Poon, Ph.D",
+                            "role": "CONTACT",
+                            "phone": "312-503-8216",
+                            "email": "cynthia.poon@northwestern.edu"
+                        },
+                        {
+                            "name": "Karen Williams",
+                            "role": "CONTACT",
+                            "phone": "312-503-5645",
+                            "email": "k-williams8@northwestern.edu"
+                        },
+                        {
+                            "name": "Tanya Simuni, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010300",
+                    "term": "Parkinson Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020734",
+                    "term": "Parkinsonian Disorders"
+                },
+                {
+                    "id": "D000001480",
+                    "term": "Basal Ganglia Diseases"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000080874",
+                    "term": "Synucleinopathies"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13213",
+                    "name": "Parkinson Disease",
+                    "asFound": "Parkinson's Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22494",
+                    "name": "Parkinsonian Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25603",
+                    "name": "Ganglion Cysts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16358",
+                    "name": "Synovial Cyst",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4774",
+                    "name": "Basal Ganglia Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2217",
+                    "name": "Synucleinopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

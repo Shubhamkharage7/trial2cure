@@ -1,0 +1,290 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05967273",
+            "orgStudyIdInfo": {
+                "id": "23-39379"
+            },
+            "organization": {
+                "fullName": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "briefTitle": "CirrhosisRx CDS System",
+            "officialTitle": "Pragmatic Randomized Controlled Trial to Evaluate the Effect of CirrhosisRx, a Novel Clinical Decision Support System, on Guideline-adherence and Clinical Outcomes for Patients With Cirrhosis",
+            "therapeuticArea": [
+                "Hepatology",
+                "Other"
+            ],
+            "study": "cirrhosisrx-cds-system"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-08",
+            "studyFirstSubmitQcDate": "2023-07-20",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Francisco",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The aim of the study is to compare the effect of CirrhosisRx, a novel clinical decision support (CDS) system for inpatient cirrhosis care, versus \"usual care\" on adherence to national quality measures and clinical outcomes for hospitalized patients with cirrhosis.",
+            "detailedDescription": "Each year, there over 200,000 hospitalizations for cirrhosis in the United States. Over one-third of these patients are readmitted within 30 days, and up to 10% will die in the hospital. Despite national quality measures and care guidelines, cirrhosis care remains suboptimal and highly variable.\n\nClinical Decision Support (CDS) systems present an attractive strategy to improve guideline-adherence due to low implementation costs. These systems, however, remain largely untested in cirrhosis care and it remains unknown whether they are effective at improving guideline-adherence and whether improving guideline-adherence changes clinical outcomes in cirrhosis care. The investigators have designed \"CirrhosisRx,\" a cirrhosis-specific CDS system, to address these evidence gaps.\n\nThis study intends to compare effect of CirrhosisRx versus \"usual care\" on adherence to quality measures and clinical outcomes through a pragmatic randomized controlled trial (pRCT). Randomization will be based on stepped-wedge cluster randomization of treatment teams at our institution."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cirrhosis",
+                "Decision Support Systems, Clinical"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "This will be a stepped-wedge cluster randomization of primary treatment teams. We will have 8 clusters consisting of at least one teaching medicine team, one non-teaching medicine team, one intensive care team, and equal numbers of other teams. The clusters will be assigned to the CirrhosisRx CDS intervention versus \"usual care\" with clusters crossing over from \"usual care\" to CirrhosisRx at 4 month intervals. All clusters will eventually be exposed to both arms of the study.",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 2106,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "CirrhosisRx",
+                    "type": "EXPERIMENTAL",
+                    "description": "Providers in this arm will have access to the CirrhosisRx CDS system, which aggregates and organizes clinical data, presents them in clinically relevant/intuitive fashion for cirrhosis care, and linked to order sets consistent with national guidelines.",
+                    "interventionNames": [
+                        "Other: CirrhosisRx CDS"
+                    ]
+                },
+                {
+                    "label": "Usual Care",
+                    "type": "NO_INTERVENTION",
+                    "description": "Providers in this arm will not have access to the CirrhosisRx CDS system."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "CirrhosisRx CDS",
+                    "description": "CirrhosisRx is a cirrhosis-specific CDS that organizes clinical data into clinically relevant groupings and links them to order sets consistent with national practice guidelines for inpatient cirrhosis care.",
+                    "armGroupLabels": [
+                        "CirrhosisRx"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Aggregate adherence to quality measures",
+                    "description": "This outcome is the aggregate adherence to five American Gastroenterological Association (AGA) and American Association for the Study of Liver Disease (AASLD) quality measures applicable to hospitalized patients with cirrhosis. The calculation for the measure will be the total number of admissions satisfying the five AGA/AASLD quality measures divided by the total number of addressable admissions (e.g. hospitalizations in which these quality metrics could be applied). In the cases which an admission could satisfying two or more metrics, this single admission will be multiple times per the number of times metrics could be potentially applied.",
+                    "timeFrame": "During the hospitalization, approximately 7 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Inpatient mortality",
+                    "description": "This outcome is death during the admission",
+                    "timeFrame": "During the hospitalization, approximately 7 days"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Reach of CirrhosisRx",
+                    "description": "Number of patients and clinicians randomized to CirrhosisRx",
+                    "timeFrame": "Through study completetion, approximately 36 months"
+                },
+                {
+                    "measure": "Adoption of CirrhosisRx",
+                    "description": "Proportion of clinicians using CirrhosisRx in the intervention arm",
+                    "timeFrame": "Through study completetion, approximately 36 months"
+                },
+                {
+                    "measure": "Implementation of CirrhosisRx",
+                    "description": "Proportions of clinicians implementing an order set through CirrhosisRx",
+                    "timeFrame": "Through study completetion, approximately 36 months"
+                },
+                {
+                    "measure": "Maintenance of CirrhosisRx",
+                    "description": "Rate of use over time and contamination rate",
+                    "timeFrame": "Through study completetion, approximately 36 months"
+                },
+                {
+                    "measure": "Average time spent on CirrhosisRx",
+                    "description": "Average time spent on CirrhosisRx - defined as the total time all clinicians spent on the system divided by the number of clinicians using the system",
+                    "timeFrame": "Through study completetion, approximately 36 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All adult (age \u2265 18 years) patients who have a previous history of cirrhosis identified based on 1+ chronic liver disease and 1+ cirrhosis (or its complications) International Classification of Diseases, Revision 10 diagnosis codes admitted at our institution.\n\nExclusion Criteria:\n\n* Children (age \\< 18 years)\n* patients who do not meet the cirrhosis definition criteria as noted above\n* ambulatory patients",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jin Ge, MD, MBA",
+                    "role": "CONTACT",
+                    "phone": "415-502-8070",
+                    "email": "jin.ge@ucsf.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jin Ge, MD, MBA",
+                    "affiliation": "University of California, San Francisco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of California San Francisco Medical Center",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94143",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jin Ge, MD, MBA",
+                            "role": "CONTACT",
+                            "phone": "415-502-8070",
+                            "email": "jin.ge@ucsf.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008103",
+                    "term": "Liver Cirrhosis"
+                },
+                {
+                    "id": "D000005355",
+                    "term": "Fibrosis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11103",
+                    "name": "Liver Cirrhosis",
+                    "asFound": "Cirrhosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8485",
+                    "name": "Fibrosis",
+                    "asFound": "Cirrhosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

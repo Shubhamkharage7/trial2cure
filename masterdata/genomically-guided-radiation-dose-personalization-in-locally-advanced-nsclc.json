@@ -1,0 +1,337 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05873439",
+            "orgStudyIdInfo": {
+                "id": "MCC 21525"
+            },
+            "organization": {
+                "fullName": "H. Lee Moffitt Cancer Center and Research Institute",
+                "class": "OTHER"
+            },
+            "briefTitle": "Genomically Guided Radiation Dose Personalization in Locally Advanced NSCLC",
+            "officialTitle": "A Feasibility Study of Genomically Guided Radiation Dose Personalization in the Management of Locally Advanced Non-Small Cell Lung Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "genomically-guided-radiation-dose-personalization-in-locally-advanced-nsclc"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-25",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-12",
+            "studyFirstSubmitQcDate": "2023-05-23",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "H. Lee Moffitt Cancer Center and Research Institute",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of the study is to determine the feasibility of genomically guided radiation therapy (RT) with concurrent chemotherapy in the management of stage II and III non-small cell lung cancer (NSCLC)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Nonsmall Cell Lung Cancer",
+                "Nonsmall Cell Lung Cancer, Stage II",
+                "Nonsmall Cell Lung Cancer Stage III",
+                "Unresectable Non-Small Cell Lung Carcinoma"
+            ],
+            "keywords": [
+                "Lung Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "EARLY_PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm A: RSI predicts dose \u2264 60 Gy",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive standard RT dose of 60Gy in 30 fractions targeting the primary tumor and any involved regional lymph nodes.",
+                    "interventionNames": [
+                        "Radiation: Genomically Guided Radiation Therapy (RT)"
+                    ]
+                },
+                {
+                    "label": "Arm B: RSI predicts dose > 60 Gy",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive treatment with RxRSI guided boost to the primary tumor up to 81Gy (2.7Gy/fraction).",
+                    "interventionNames": [
+                        "Radiation: Genomically Guided Radiation Therapy (RT)"
+                    ]
+                },
+                {
+                    "label": "Arm C: unable to calculate RSI",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants in will receive standard RT dose of 60Gy in 30 fractions targeting the primary tumor and any involved regional lymph nodes.",
+                    "interventionNames": [
+                        "Radiation: Genomically Guided Radiation Therapy (RT)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "Genomically Guided Radiation Therapy (RT)",
+                    "description": "Based on the Radiosensitivity Index (RSI) from testing participants tumor sample, participants will receive either standard dose radiation therapy, which is a strength 60Gy or up to 81Gy strength. Radiation treatment is administered 5 days per week for approximately 6 weeks.",
+                    "armGroupLabels": [
+                        "Arm A: RSI predicts dose \u2264 60 Gy",
+                        "Arm B: RSI predicts dose > 60 Gy",
+                        "Arm C: unable to calculate RSI"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Rate of Unacceptable Toxicity",
+                    "description": "Rate of Unacceptable Toxicity will be measured during 12 week period following study enrollment. Unacceptable toxicity is defined as any grade 4 or 5 adverse event (AE) probably or definitely related to experimental dose escalated radiation therapy",
+                    "timeFrame": "12 weeks after start of treatment"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Freedom from local regional progression (FFLRP)",
+                    "description": "Freedom from local regional progression (FFLRP) will be defined as lack of progression as documented by response assessment imaging following completion of concurrent chemotherapy and radiation.",
+                    "timeFrame": "At 2 years"
+                },
+                {
+                    "measure": "Overall Survival (OS)",
+                    "description": "Overall Survival (OS) will be measured from the date of first treatment to the date of death due to any cause.",
+                    "timeFrame": "At 2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of AJCC Stage 2 or Stage 3 unresectable NSCLC as determined by a multidisciplinary oncology team\n* Confirmation of NSCLC with availability of fresh tumor biopsy by tissue biopsy which can include adenocarcinoma, squamous cell, large cell carcinoma, or NSCLC not otherwise specified\n* Life expectancy \\>12 weeks\n* Normal renal (creatinine \\<1.5 \u00d7 upper limit of normal \\[ULN\\]), liver (bilirubin \\< 1.5 \u00d7 ULN, transaminases \\<3.0 \u00d7 ULN, except in known hepatic disease, wherein may be \\<5 \u00d7 ULN) and blood counts (white blood cells \u22652.5, neutrophils \u22651000, platelets \u226550, 000, hemoglobin \u22658)\n* ECOG 0-1\n* Age \u2265 18 years\n* Participants with surgery within 14 days should have recovered from all effects of the surgery and be cleared by their surgeon\n* There is no limit on prior systemic or therapies\n* Women of childbearing potential and sexually active males must commit to the use of effective contraception while on study\n* Ability to sign an informed consent form, which can be signed by a family member or health care proxy. Informed consent must be given before any study related procedures occur.\n\nExclusion Criteria:\n\n* Current or prior participation in a study of an investigational agent or investigational device within 2 weeks of the first dose of study treatment\n* Major surgery or significant traumatic injury that has not been recovered from 14 days before the initiation of study drug\n* Women who are pregnant or breastfeeding\n* History of allergy or hypersensitivity to any of the study drugs or study drug components\n* Concurrent brain metastases or leptomeningeal disease\n* History of prior malignancy within 2 years prior to screening, with the exception of those with a negligible risk of metastasis or death (e.g., 5-year OS of \\> 90%), such as but not limited to, non-melanoma skin carcinoma, ductal carcinoma in situ, or stage I endometriod uterine cancer, and others at the discretion of the PI\n* Active or prior documented autoimmune or inflammatory disorders (including inflammatory bowel disease \\[eg, colitis or Crohn's disease\\], diverticulitis \\[with the exception of diverticulosis\\], systemic lupus erythematosus, Sarcoidosis syndrome, or Wegener syndrome \\[granulomatosis with polyangiitis, Graves' disease, rheumatoid arthritis, hypophysitis, uveitis, etc\\]). The following are exceptions to this criterion:\n* \u2022 Patients with vitiligo or alopecia\n* \u2022 Patients with hypothyroidism (eg, following Hashimoto syndrome) stable on hormone replacement\n* \u2022 Any chronic skin condition that does not require systemic therapy\n* \u2022 Patients without active disease in the last 5 years may be included but only after consultation with the Principal Investigator\n* \u2022 Patients with celiac disease controlled by diet alone\n* Current or prior use of immunosuppressive medication within 14 days before the first dose of durvalumab. The following are exceptions to this criterion:\n* \u2022 Intranasal, inhaled, topical steroids, or local steroid injections (eg, intra articular injection)\n* \u2022 Systemic corticosteroids at physiologic doses not to exceed 10 mg/day of prednisone or its equivalent\n* \u2022 Steroids as premedication for hypersensitivity reactions (eg, CT scan premedication)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Thomas Dilliing, MD",
+                    "role": "CONTACT",
+                    "phone": "813-745-8424",
+                    "email": "Thomas.Dilling@moffitt.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Thomas Dilling, MD",
+                    "affiliation": "Moffitt Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Moffitt Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Tampa",
+                    "state": "Florida",
+                    "zip": "33612",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amalin Asous",
+                            "role": "CONTACT",
+                            "phone": "813-745-6470",
+                            "email": "Amalin.Asous@moffitt.org"
+                        },
+                        {
+                            "name": "Thomas Dilling, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 27.94752,
+                        "lon": -82.45843
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Moffitt Cancer Center Clinical Trial Search",
+                    "url": "https://moffitt.org/clinicaltrialssearch?DiseaseSite=&q=21525"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000002289",
+                    "term": "Carcinoma, Non-Small-Cell Lung"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "asFound": "Nonsmall Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

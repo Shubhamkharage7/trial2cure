@@ -1,0 +1,296 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05433220",
+            "orgStudyIdInfo": {
+                "id": "U22-04-4736"
+            },
+            "organization": {
+                "fullName": "Inova Health Care Services",
+                "class": "OTHER"
+            },
+            "briefTitle": "PRagmatic Trial Of Messaging to Providers About Treatment of Heart Failure at Inova",
+            "officialTitle": "PRagmatic Trial Of Messaging to Providers About Treatment of Heart Failure (PROMPT-HF) at Inova",
+            "acronym": "PROMPTHF-Inova",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "pragmatic-trial-of-messaging-to-providers-about-treatment-of-heart-failure-at-inova"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-08-25",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-06-21",
+            "studyFirstSubmitQcDate": "2022-06-21",
+            "studyFirstPostDateStruct": {
+                "date": "2022-06-27",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Inova Health Care Services",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "A randomized, single-blind intervention trial to test the comparative effectiveness of an electronic health record best practice advisory system that informs clinicians of guideline-indicated and FDA-approved heart failure medications currently not prescribed to their patients with heart failure versus usual care (no alert and how things are done currently). The purpose of the alert is to stimulate appropriate medication prescription for patients with heart failure and a reduced ejection fraction. This will be done across outpatient Inova clinics and at the five Inova hospitals."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure"
+            ],
+            "keywords": [
+                "Heart Failure",
+                "GDMT",
+                "NYHA",
+                "HFrEF",
+                "Implementation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 5000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Alert when provider is entering orders",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Other: Best Practice Advisory using Electronic Health Record"
+                    ]
+                },
+                {
+                    "label": "No alert, usual care",
+                    "type": "NO_INTERVENTION"
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Best Practice Advisory using Electronic Health Record",
+                    "description": "Providers caring for patients randomized to the intervention arm will have a best practice alert appear for each of their eligible patients upon opening of the order entry screen in the patient's medical record. This alert informs the provider to the presence of HFrEF, notes the patient's current LVEF and current evidence-based medications, and gives access to an order set with recommended evidence- based, guideline-recommended, and FDA- approved therapies for patients with HFrEF. Providers will also have access to a link to best available guideline recommended information regarding treatment of heart failure to allow further education if desired by the provider. The alerts will also clearly state the expected monitoring and follow-up required for prescriptions of these medications.",
+                    "armGroupLabels": [
+                        "Alert when provider is entering orders"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Increased use of GDMT in patients with Heart Failure with Reduced Ejection Fraction",
+                    "description": "The primary outcome for the trial will be the proportion of patients with HFrEF who have an increase in the number of prescribed evidence-based therapies for HFrEF (beta-blockers, ACE-I/ARB/ARNI, MRA, SGLT2i) 30 days after randomization.",
+                    "timeFrame": "30 days after randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "All-cause hospitalization and all-cause mortality at 30 days",
+                    "description": "Outcomes will be determined by review of medical, hospital, and billing records.",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "All-cause hospitalization and all-cause mortality at 90 days",
+                    "description": "Outcomes will be determined by review of medical, hospital, and billing records.",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "All-cause hospitalization and all-cause mortality at 180 days",
+                    "description": "Outcomes will be determined by review of medical, hospital, and billing records.",
+                    "timeFrame": "180 days"
+                },
+                {
+                    "measure": "All-cause hospitalization and all-cause mortality at 1 year",
+                    "description": "Outcomes will be determined by review of medical, hospital, and billing records.",
+                    "timeFrame": "1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age\\>18 Years\n* Seen by a Cardiologist in an Inova clinic or Inova hospital setting\n* Left Ventricular Ejection Fraction \u226440%\n\nExclusion Criteria:\n\n* Opted out of EHR-based research\n* Hospice care\n* Already receiving maximally titrated doses of each of the four classes of evidence- based HFrEF medical therapy\n* Prior heart transplant",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Matthew G Dimond, BS",
+                    "role": "CONTACT",
+                    "phone": "7037762828",
+                    "email": "matthew.dimond@inova.org"
+                },
+                {
+                    "name": "Bhruga Shah, MS, BSN-RN",
+                    "role": "CONTACT",
+                    "phone": "7037762828",
+                    "email": "Bhruga.Shah@inova.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Mitchell Psotka, MD, PhD",
+                    "affiliation": "Inova Health Care Services",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Inova Health System",
+                    "status": "RECRUITING",
+                    "city": "Falls Church",
+                    "state": "Virginia",
+                    "zip": "22042",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Matthew Dimond",
+                            "role": "CONTACT",
+                            "phone": "703-776-6248",
+                            "email": "matthew.dimond@inova.org"
+                        },
+                        {
+                            "name": "Bhruga Shah",
+                            "role": "CONTACT",
+                            "phone": "7037762828",
+                            "email": "Bhruga.shah@inova.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.88233,
+                        "lon": -77.17109
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "PRagmatic Trial Of Messaging to Providers About Treatment of Heart Failure in the Inpatient Setting (PROMPT-HF)",
+                    "url": "https://clinicaltrials.gov/ct2/show/NCT04686604?term=PROMPT-HF&draw=2&rank=1"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Only aggregate participant data will be reported upon the completion of the project."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4872",
+                    "name": "Benzoyl Peroxide",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Derm",
+                    "name": "Dermatologic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,633 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06154447",
+            "orgStudyIdInfo": {
+                "id": "VX23-828-001"
+            },
+            "organization": {
+                "fullName": "Vertex Pharmaceuticals Incorporated",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase 1, First-in-human Study of VX-828",
+            "officialTitle": "A Phase 1, First-in-human Study of Safety, Tolerability, and Pharmacokinetics of VX-828",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "a-phase-first-in-human-study-of-vx"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-04",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-04",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-23",
+            "studyFirstSubmitQcDate": "2023-11-23",
+            "studyFirstPostDateStruct": {
+                "date": "2023-12-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Vertex Pharmaceuticals Incorporated",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of the study is to evaluate safety, tolerability, and pharmacokinetics of VX-828 in healthy participants.",
+            "detailedDescription": "This clinical trial information was submitted voluntarily under the applicable law and, therefore, certain submission deadlines may not apply. (That is, clinical trial information for this applicable clinical trial was submitted under section 402(j)(4)(A) of the Public Health Service Act and 42 CFR 11.60 and is not subject to the deadlines established by sections 402(j)(2) and (3) of the Public Health Service Act or 42 CFR 11.24 and 11.44.)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cystic Fibrosis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "QUADRUPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 159,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Part A: Single Ascending Dose (SAD)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will be randomized to receive a single dose of different dose levels of VX-828.",
+                    "interventionNames": [
+                        "Drug: VX-828"
+                    ]
+                },
+                {
+                    "label": "Part A: Placebo",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "Participants will be randomized to receive placebo matched to VX-828.",
+                    "interventionNames": [
+                        "Drug: Placebo"
+                    ]
+                },
+                {
+                    "label": "Part B: Multiple Ascending Dose (MAD)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will be randomized to receive multiple doses of different dose levels of VX-828. The dose levels will be determined based on the data from Part A.",
+                    "interventionNames": [
+                        "Drug: VX-828"
+                    ]
+                },
+                {
+                    "label": "Part B: Placebo",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "Participants will be randomized to receive placebo matched to VX-828.",
+                    "interventionNames": [
+                        "Drug: Placebo"
+                    ]
+                },
+                {
+                    "label": "Part C: Drug Drug Interaction",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive a single dose of VX-828, followed by a washout period, Itraconazole administration, and concomitant administration of itraconazole and VX-828; or participants will receive Midazolam followed by VX-828 administration, and concomitant administration of VX-828 and Midazolam.\n\nPart C will be an open-label optional cohort.",
+                    "interventionNames": [
+                        "Drug: VX-828",
+                        "Drug: Itraconazole",
+                        "Drug: Midazolam"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "VX-828",
+                    "description": "Suspension for Oral Administration",
+                    "armGroupLabels": [
+                        "Part A: Single Ascending Dose (SAD)",
+                        "Part B: Multiple Ascending Dose (MAD)",
+                        "Part C: Drug Drug Interaction"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Placebo",
+                    "description": "Suspension for Oral Administration",
+                    "armGroupLabels": [
+                        "Part A: Placebo",
+                        "Part B: Placebo"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Itraconazole",
+                    "description": "Solution for Oral Administration",
+                    "armGroupLabels": [
+                        "Part C: Drug Drug Interaction"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Midazolam",
+                    "description": "Syrup for Oral Administration",
+                    "armGroupLabels": [
+                        "Part C: Drug Drug Interaction"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Part A: Safety and Tolerability as Assessed by Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+                    "timeFrame": "From Signing of Informed Consent Form (ICF) up to Safety Follow Up (Up to Day 34)"
+                },
+                {
+                    "measure": "Part B: Safety and Tolerability as Assessed by Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+                    "timeFrame": "From Signing of Informed Consent Form (ICF) up to Safety Follow Up (Up to Day 61)"
+                },
+                {
+                    "measure": "Part C: Maximum Observed Concentration (Cmax) of VX-828 in Plasma in the Absence and Presence of Itraconazole",
+                    "timeFrame": "From Day 1 up to Day 71"
+                },
+                {
+                    "measure": "Part C: Area Under the Concentration Versus Time Curve (AUC) of VX-828 in Plasma in the Absence and Presence of Itraconazole",
+                    "timeFrame": "From Day 1 up to Day 71"
+                },
+                {
+                    "measure": "Part C: Maximum Observed Concentration (Cmax) of Midazolam in Plasma in the Absence and Presence of VX-828",
+                    "timeFrame": "From Day 1 up to Day 30"
+                },
+                {
+                    "measure": "Part C: Area Under the Concentration Versus Time Curve (AUC) of Midazolam in Plasma in the Absence and Presence of VX-828",
+                    "timeFrame": "From Day 1 up to Day 30"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Part A: Maximum Observed Concentration (Cmax) of VX-828 in Plasma",
+                    "timeFrame": "From Day 1 up to Day 34"
+                },
+                {
+                    "measure": "Part A: Area Under the Concentration Versus Time Curve (AUC) of VX-828 in Plasma",
+                    "timeFrame": "From Day 1 up to Day 34"
+                },
+                {
+                    "measure": "Part B: Maximum Observed Concentration (Cmax) of VX-828 at Steady State in Plasma",
+                    "timeFrame": "From Day 1 up to Day 61"
+                },
+                {
+                    "measure": "Part B: Area Under the Concentration Versus Time Curve (AUC) of VX-828 at Steady State in Plasma",
+                    "timeFrame": "From Day 1 up to Day 61"
+                },
+                {
+                    "measure": "Part C: Safety and Tolerability as Assessed by Number of Participants With Adverse Events (AEs) and Serious Adverse Events (SAEs)",
+                    "timeFrame": "From Baseline up to Day 71"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Body mass index (BMI) of 18.0 to 32.0 kilogram per meter square (kg/m\\^2)\n* A total body weight of more than (\\>) 50 kg\n* Nonsmoker or ex-smoker for at least 3 months before screening with current nonsmoking status confirmed by urine or blood cotinine at screening\n\nKey Exclusion Criteria:\n\n* History of febrile illness or other acute illness within 14 days before the first dose of study drug\n* Any condition possibly affecting drug absorption\n\nOther protocol defined Inclusion/Exclusion criteria may apply.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Medical Information",
+                    "role": "CONTACT",
+                    "phone": "617-341-6777",
+                    "email": "medicalinfo@vrtx.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Altasciences Clinical Kansas",
+                    "status": "RECRUITING",
+                    "city": "Overland Park",
+                    "state": "Kansas",
+                    "zip": "66212",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.98223,
+                        "lon": -94.67079
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Details on Vertex data sharing criteria and process for requesting access can be found at: https://www.vrtx.com/independent-research/clinical-trial-data-sharing"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003550",
+                    "term": "Cystic Fibrosis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010182",
+                    "term": "Pancreatic Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                },
+                {
+                    "id": "D000007232",
+                    "term": "Infant, Newborn, Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6755",
+                    "name": "Cystic Fibrosis",
+                    "asFound": "Cystic Fibrosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8485",
+                    "name": "Fibrosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13102",
+                    "name": "Pancreatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10276",
+                    "name": "Infant, Newborn, Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1710",
+                    "name": "Cystic Fibrosis",
+                    "asFound": "Cystic Fibrosis",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000017964",
+                    "term": "Itraconazole"
+                },
+                {
+                    "id": "D000008874",
+                    "term": "Midazolam"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000759",
+                    "term": "Adjuvants, Anesthesia"
+                },
+                {
+                    "id": "D000006993",
+                    "term": "Hypnotics and Sedatives"
+                },
+                {
+                    "id": "D000002492",
+                    "term": "Central Nervous System Depressants"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000014151",
+                    "term": "Anti-Anxiety Agents"
+                },
+                {
+                    "id": "D000014149",
+                    "term": "Tranquilizing Agents"
+                },
+                {
+                    "id": "D000011619",
+                    "term": "Psychotropic Drugs"
+                },
+                {
+                    "id": "D000018686",
+                    "term": "Anesthetics, Intravenous"
+                },
+                {
+                    "id": "D000018681",
+                    "term": "Anesthetics, General"
+                },
+                {
+                    "id": "D000000777",
+                    "term": "Anesthetics"
+                },
+                {
+                    "id": "D000018757",
+                    "term": "GABA Modulators"
+                },
+                {
+                    "id": "D000018682",
+                    "term": "GABA Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000935",
+                    "term": "Antifungal Agents"
+                },
+                {
+                    "id": "D000000890",
+                    "term": "Anti-Infective Agents"
+                },
+                {
+                    "id": "D000058888",
+                    "term": "14-alpha Demethylase Inhibitors"
+                },
+                {
+                    "id": "D000065607",
+                    "term": "Cytochrome P-450 Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000065088",
+                    "term": "Steroid Synthesis Inhibitors"
+                },
+                {
+                    "id": "D000006727",
+                    "term": "Hormone Antagonists"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                },
+                {
+                    "id": "D000065692",
+                    "term": "Cytochrome P-450 CYP3A Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11845",
+                    "name": "Midazolam",
+                    "asFound": "Course",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20133",
+                    "name": "Itraconazole",
+                    "asFound": "Fixed dose",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M256158",
+                    "name": "Hydroxyitraconazole",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4107",
+                    "name": "Anesthetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4089",
+                    "name": "Adjuvants, Anesthesia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10043",
+                    "name": "Hypnotics and Sedatives",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16905",
+                    "name": "Anti-Anxiety Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14474",
+                    "name": "Psychotropic Drugs",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20766",
+                    "name": "Anesthetics, Intravenous",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20761",
+                    "name": "Anesthetics, General",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20827",
+                    "name": "GABA Modulators",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6252",
+                    "name": "Clotrimazole",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11796",
+                    "name": "Miconazole",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4254",
+                    "name": "Antifungal Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4214",
+                    "name": "Anti-Infective Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30537",
+                    "name": "Cytochrome P-450 Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30564",
+                    "name": "Cytochrome P-450 CYP3A Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AdjAn",
+                    "name": "Adjuvants, Anesthesia"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "PsychDr",
+                    "name": "Psychotropic Drugs"
+                },
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,339 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04765150",
+            "orgStudyIdInfo": {
+                "id": "19-002202"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2021-00373",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                },
+                {
+                    "id": "19-002202",
+                    "type": "OTHER",
+                    "domain": "UCLA / Jonsson Comprehensive Cancer Center"
+                },
+                {
+                    "id": "R01CA248506",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01CA248506"
+                },
+                {
+                    "id": "441480-KS-29447",
+                    "type": "OTHER_GRANT",
+                    "domain": "NCI"
+                }
+            ],
+            "organization": {
+                "fullName": "Jonsson Comprehensive Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Integrating Quantitative MRI and Artificial Intelligence to Improve Prostate Cancer Classification",
+            "officialTitle": "Integrating Quantitative MRI and Artificial Intelligence to Improve Prostate Cancer Classification",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "integrating-quantitative-mri-and-artificial-intelligence-to-improve-prostate-cancer-classification"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-04-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-02-18",
+            "studyFirstSubmitQcDate": "2021-02-18",
+            "studyFirstPostDateStruct": {
+                "date": "2021-02-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Jonsson Comprehensive Cancer Center",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institutes of Health (NIH)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "National Cancer Institute (NCI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study evaluates how new magnetic resonance imaging (MRI) and artificial intelligence techniques improve the image quality and quantitative information for future prostate MRI exams in patients with suspicious of confirmed prostate cancer. The MRI and artificial intelligence techniques developed in this study may improve the accuracy in diagnosing prostate cancer in the future using less invasive techniques than what is currently used.",
+            "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To develop and evaluate quantitative dynamic contrast-enhanced (DCE)-MRI analysis techniques that minimize patient- and scanner-specific variabilities in the calculation of quantitative parameters.\n\nII. To develop and evaluate diffusion weighted imaging (DWI) methods that reduce prostate geometric distortion due to patient- and scanner-specific susceptibility and eddy current effects.\n\nIII. To develop and evaluate multi-class deep learning models that systematically integrate quantitative multi-parametric (mp)-MRI features for accurate detection and classification of clinically significant prostate cancer (csPCa).\n\nOUTLINE:\n\nRETROSPECTIVE: Patients' medical records are reviewed.\n\nPROSPECTIVE: Patients undergo additional 3 Tesla (T) MRI imaging over 30 minutes before, during, or after their standard of care 3T MRI for a total of 1.5 hours."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "OTHER"
+            },
+            "enrollmentInfo": {
+                "count": 275,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Observational (electronic health record review, 3 T MRI)",
+                    "description": "RETROSPECTIVE: Patients' medical records are reviewed.\n\nPROSPECTIVE: Patients undergo additional 3T MRI imaging over 30 minutes before, during, or after their standard of care 3T MRI for a total of 1.5 hours.",
+                    "interventionNames": [
+                        "Procedure: 3 Tesla Magnetic Resonance Imaging",
+                        "Other: Electronic Health Record Review"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "3 Tesla Magnetic Resonance Imaging",
+                    "description": "Undergo 3T MRI",
+                    "armGroupLabels": [
+                        "Observational (electronic health record review, 3 T MRI)"
+                    ],
+                    "otherNames": [
+                        "3 Tesla MRI",
+                        "3T MRI"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Electronic Health Record Review",
+                    "description": "Medical charts are reviewed",
+                    "armGroupLabels": [
+                        "Observational (electronic health record review, 3 T MRI)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Development of quantitative dynamic contrast (DCE)-enhanced-magnetic resonance imaging (MRI) analysis techniques",
+                    "description": "Both transfer constant (Ktrans) and rate constant (Kep) from normal prostate tissue will be evaluated for the inter-scanner variability. Pairwise dissimilarities between distributions will be estimated by computing the Kolmogorov-Smirnov statistic, defined as the maximum difference between the empirical distribution functions over the range of the parameter, using 200 cases for each of three MRI scanners. The mean of these pairwise dissimilarities between scanners will be computed to quantify the overall discrepancy of each DCE-MRI model. Construction of a 95% confidence interval for the difference in the mean discrepancies using the nonparametric bootstrap will be done to compare this mean discrepancy between DCE-MRI models. 10,000 bootstrap samples will be generated by sampling patients with replacement, stratifying by the scanner. Will conclude that the proposed DCE-MRI model has a reduced inter-scanner variability if the 95% confidence interval is entirely less than zero.",
+                    "timeFrame": "Up to 5 years"
+                },
+                {
+                    "measure": "Development of diffusion weighted imaging (DWI) methods that reduce prostate geometric distortion",
+                    "description": "Differences between rectangular field of view-ENCODE and standard DWI in terms of the prostate Dice's similarity coefficient (primary outcome) and apparent diffusion coefficient consistency will be compared.",
+                    "timeFrame": "Up to 5 years"
+                },
+                {
+                    "measure": "Development of multi-class deep learning models",
+                    "description": "The overall performance of FocalNet and Prostate Imaging Reporting \\& Data System version 2 will be compared in terms of area under the curve. Comparison between area under the curves will be performed using DeLong's test. Will also include the comparison between FocalNet and baseline deep learning methods (U-Net and Deeplab without focal loss \\[FL\\] and mutual finding loss \\[MFL\\]) to characterize the advantages of using FL and MFL with the same study cohort. For each of these approaches, an optimal cut-point for classification of clinically significant prostate cancer will be identified by maximizing Youden's J (= sensitivity + specificity - 1) and will report sensitivity, specificity and 95% confidence intervals based on the selected cut-point.",
+                    "timeFrame": "Up to 5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male patients 18 years of age and older\n* Clinical suspicion of prostate cancer or biopsy-confirmed prostate cancer\n* Undergone or undergoing multi-parametric 3 T prostate MRI at the University of California at Los Angeles (UCLA)\n* Ability to provide consent\n\nExclusion Criteria:\n\n* Contraindications to MRI (e.g., cardiac devices, prosthetic valves, severe claustrophobia)\n* Contraindications to gadolinium contrast-based agents other than the possibility of an allergic reaction to the gadolinium contrast-based agent\n* Prior radiotherapy",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients at the University of California, Los Angeles (UCLA) who may have already undergone 3 T prostate multi-parametric MRI or were referred for 3 T multi-parametric prostate MRI prior to biopsy or radical prostatectomy.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Nashla Barroso",
+                    "role": "CONTACT",
+                    "phone": "(310) 794-7952",
+                    "email": "nbarroso@mednet.ucla.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kyung H Sung, PhD",
+                    "affiliation": "UCLA / Jonsson Comprehensive Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UCLA / Jonsson Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90095",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nashla Barroso",
+                            "role": "CONTACT",
+                            "phone": "310-794-7952",
+                            "email": "nbarroso@mednet.ucla.edu"
+                        },
+                        {
+                            "name": "Kyung H. Sung, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

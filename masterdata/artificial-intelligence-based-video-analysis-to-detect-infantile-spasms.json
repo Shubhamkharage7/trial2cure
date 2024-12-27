@@ -1,0 +1,381 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06315829",
+            "orgStudyIdInfo": {
+                "id": "IRB00429753"
+            },
+            "organization": {
+                "fullName": "Johns Hopkins University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Artificial Intelligence-based Video Analysis to Detect Infantile Spasms",
+            "officialTitle": "A Machine Learning Approach to Infantile Spasms Recognition in Video Recordings",
+            "therapeuticArea": [
+                "Pediatrics"
+            ],
+            "study": "artificial-intelligence-based-video-analysis-to-detect-infantile-spasms"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-11",
+            "studyFirstSubmitQcDate": "2024-03-11",
+            "studyFirstPostDateStruct": {
+                "date": "2024-03-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Johns Hopkins University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Infantile spasms are a type of seizure linked to developmental issues. Unfortunately, they are often misdiagnosed, causing delays in treatment. The purpose of this study is to develop a computer program that can reliably differentiate infantile spasms from similar, yet benign movements in videos. This computer program will learn from videos taken by parents of study participants. Quickly recognizing and treating infantile spasms is crucial for ensuring the best developmental outcomes."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Infantile Spasms"
+            ],
+            "keywords": [
+                "Seizure",
+                "Epilepsy",
+                "Infantile Spasm",
+                "Epileptic Spasm",
+                "West Syndrome",
+                "Hypsarrhythmia",
+                "Artificial Intelligence",
+                "Video Analysis",
+                "Computer Vision",
+                "Machine Learning"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Confirmed Epileptic Spasms (Positive Class)",
+                    "description": "Participants diagnosed with infantile spasms based upon historical data and supportive electroencephalography data (i.e. hypsarrhythmia or modified hypsarrhythmia background).",
+                    "interventionNames": [
+                        "Device: Spasm Vision"
+                    ]
+                },
+                {
+                    "label": "Epileptic Spasm Mimics (Negative Class)",
+                    "description": "Participants diagnosed with non-epileptic movements (e.g. Sandifer syndrome, shuddering attacks, stretching, stereotypy, startle reflex, writhing movements, jitteriness, sleep myoclonus) based upon historical data and supportive electroencephalography data (when available).",
+                    "interventionNames": [
+                        "Device: Spasm Vision"
+                    ]
+                },
+                {
+                    "label": "Awake and Alert (Negative Class)",
+                    "description": "Participants exhibiting spontaneous, subtle movements in the awake and alert state.",
+                    "interventionNames": [
+                        "Device: Spasm Vision"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Spasm Vision",
+                    "description": "Machine learning software developed to analyze videos and accurately distinguish infantile spasms from visually similar movements.",
+                    "armGroupLabels": [
+                        "Awake and Alert (Negative Class)",
+                        "Confirmed Epileptic Spasms (Positive Class)",
+                        "Epileptic Spasm Mimics (Negative Class)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Model Sensitivity (Recall)",
+                    "description": "Proportion of true positives which the model classified correctly in the test dataset.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Model Specificity",
+                    "description": "Proportion of true negatives which the model classified correctly in the test dataset.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Model Positive Predictive Value (Precision)",
+                    "description": "Proportion of positive classifications which were correct in the test dataset.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Model Negative Predictive Value",
+                    "description": "Proportion of negative classifications which were correct in the test dataset.",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant age less than 24 months\n* Participant evaluated in the Johns Hopkins Outpatient Center, Johns Hopkins Pediatric Emergency Department or Johns Hopkins Inpatient Units due to spells of abnormal movement or seizure\n* Participant evaluated by a pediatric neurologist during the outpatient or inpatient visit at Johns Hopkins Hospital\n* At least one video recording of the spell of abnormal movement produced by the parent/guardian available for provider review\n\nExclusion Criteria:\n\n* Poor video recording quality\n* Entire patient is not in frame",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "maximumAge": "2 Years",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "Participants will be recruited from the outpatient and inpatient settings of Johns Hopkins Hospital, an academic medical center located in Baltimore, Maryland offering tertiary and quaternary care.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Glenn Rivera, MD",
+                    "role": "CONTACT",
+                    "phone": "410-955-4259",
+                    "email": "griver14@jh.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Eric Kossoff, MD",
+                    "affiliation": "Johns Hopkins Neurology",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Rama Chellappa, PhD",
+                    "affiliation": "Johns Hopkins Biomedical Engineering",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Johns Hopkins Hospital",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21287",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Glenn Rivera, MD",
+                            "role": "CONTACT",
+                            "phone": "410-955-4259",
+                            "email": "griver14@jh.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009120",
+                    "term": "Muscle Cramp"
+                },
+                {
+                    "id": "D000013035",
+                    "term": "Spasm"
+                },
+                {
+                    "id": "D000013036",
+                    "term": "Spasms, Infantile"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020879",
+                    "term": "Neuromuscular Manifestations"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009135",
+                    "term": "Muscular Diseases"
+                },
+                {
+                    "id": "D000009140",
+                    "term": "Musculoskeletal Diseases"
+                },
+                {
+                    "id": "D000004829",
+                    "term": "Epilepsy, Generalized"
+                },
+                {
+                    "id": "D000004827",
+                    "term": "Epilepsy"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000073376",
+                    "term": "Epileptic Syndromes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7983",
+                    "name": "Epilepsy",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15837",
+                    "name": "Spasm",
+                    "asFound": "Spasm",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15452",
+                    "name": "Seizures",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12077",
+                    "name": "Muscle Cramp",
+                    "asFound": "Spasm",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15838",
+                    "name": "Spasms, Infantile",
+                    "asFound": "Infantile Spasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22619",
+                    "name": "Neuromuscular Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12092",
+                    "name": "Muscular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12097",
+                    "name": "Musculoskeletal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7985",
+                    "name": "Epilepsy, Generalized",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1165",
+                    "name": "Epileptic Syndromes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5916",
+                    "name": "West Syndrome",
+                    "asFound": "Infantile Spasms",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

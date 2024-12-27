@@ -1,0 +1,296 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05906472",
+            "orgStudyIdInfo": {
+                "id": "STUDY 00005099"
+            },
+            "organization": {
+                "fullName": "State University of New York at Buffalo",
+                "class": "OTHER"
+            },
+            "briefTitle": "PUSH-IT Continuing Enteral Feeds for Tracheostomy",
+            "officialTitle": "Prevent Unnecessary Surgeon Holds of Ingestions for Tracheostomy (PUSH-IT)",
+            "therapeuticArea": [
+                "Critical Care",
+                "Other"
+            ],
+            "study": "push-it-continuing-enteral-feeds-for-tracheostomy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-02-06",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-04",
+            "studyFirstSubmitQcDate": "2023-06-12",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-06-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-06-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Eden Nohra",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "State University of New York at Buffalo"
+            },
+            "leadSponsor": {
+                "name": "State University of New York at Buffalo",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to evaluate nutrition administration in the time around the tracheostomy in patients with breathing tubes. The main questions it aims to answer are:\n\n* Will continuing nutrition up to the time of surgery (tracheostomy) decrease nutrition interruptions, thereby increasing food intake?\n* Does continuing nutrition up to the time of surgery increase instances of food going into the lungs or lung infections?\n\nResearchers will compare patients who have nutrition withheld 6 hours prior to surgery versus those who receive nutrition up until the time of surgery to see if there are differences in food intake, instances of food entering the lungs or lung infections.",
+            "detailedDescription": "Malnutrition is a significant problem in the critically ill, however with busy operating room schedules, we often find that feeds are interrupted repetitively prior to elective surgery. These interruptions are practiced based on the American Society of Anesthesiologist guidelines for fasting intervals for elective surgery. These guidelines, however, were not created for critically ill, intubated patients. The theoretical concern for an increased risk of aspiration with continuation of enteral feeds up to the time of surgery persists without supporting evidence. Thus, there is a need for a universal evidence-based guideline on perioperative enteral feeding to benefit critical care patients.\n\nTo this end, the goal of the present study is to implement a protocol designed to decrease the interruption of enteral feeds in critical care patients undergoing tracheostomy and prospectively evaluate whether this leads to a quantitative increase in nutritional intake without increasing the risk of aspiration. Additionally, we hope that increasing quantitative nutrition may decrease morbidity especially in the small subset of patients where feed interruptions occur repetitively.\n\nIf the aims of the project are achieved, the data obtained from this study will be used to create an evidence-based platform from which physicians can practice. This will end the anecdotal controversy regarding perioperative tube feed management for tracheostomy; thereby increasing quantitative nutrition and hopefully improving the care of critically ill patients."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Tracheostomy Complication",
+                "Critical Illness",
+                "Nutritional Deficiency"
+            ],
+            "keywords": [
+                "tube feed",
+                "nil per os",
+                "aspiration",
+                "pneumonia",
+                "nutritional delivery"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Feeds continued",
+                    "type": "EXPERIMENTAL",
+                    "description": "Enteral feeds are continued up until time of tracheostomy.",
+                    "interventionNames": [
+                        "Other: Feeds continued"
+                    ]
+                },
+                {
+                    "label": "Feeds withheld",
+                    "type": "OTHER",
+                    "description": "Enteral feeds are withheld at least 6 hours prior to time of tracheostomy.",
+                    "interventionNames": [
+                        "Other: Feeds held"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Feeds continued",
+                    "description": "Enteral feeds are continued up until time of surgery",
+                    "armGroupLabels": [
+                        "Feeds continued"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Feeds held",
+                    "description": "Enteral feeds are stopped 6 or more hours before surgery",
+                    "armGroupLabels": [
+                        "Feeds withheld"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Rate of aspiration pneumonia",
+                    "description": "To assess differences in rates of aspiration events, a log-rank test for differences in survival curves model will be used. Assuming proportional hazards and non-informative censoring, a cox-model will be used to estimate follow-up hazard ratios for development of aspiration pneumonia between the two groups of interest.",
+                    "timeFrame": "Over 7 days from the time of tracheostomy"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Volume of tube feed delivery",
+                    "description": "We will compare the volume of tube feeds delivered daily between the two groups for the duration of the study.",
+                    "timeFrame": "From day of consent to completion of study which is 7 days from the time of tracheostomy."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years or older\n* admitted to the ICU\n* intubated and require tracheostomy\n\nExclusion Criteria:\n\n* under 18 years\n* unable to obtain informed consent\n* deemed clinically brain dead within 7 days of enrollment\n* transitioned to comfort measures within 7 days of enrollment\n* Pregnant patients\n* Prisoners",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Eden Nohra, MD",
+                    "role": "CONTACT",
+                    "phone": "3144439727",
+                    "email": "edennohra@gmail.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Marcy Jordan, PhD",
+                    "affiliation": "University at Buffalo",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Erie County Medical Center (University at Buffalo)",
+                    "status": "RECRUITING",
+                    "city": "Buffalo",
+                    "state": "New York",
+                    "zip": "14215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Eden Nohra, MD",
+                            "role": "CONTACT",
+                            "phone": "716-898-5283",
+                            "email": "EDENNOHRA@GMAIL.COM"
+                        },
+                        {
+                            "name": "Marcy Jordan, PhD",
+                            "role": "CONTACT",
+                            "phone": "716-898-5312",
+                            "email": "marcyjor@buffalo.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.88645,
+                        "lon": -78.87837
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000044342",
+                    "term": "Malnutrition"
+                },
+                {
+                    "id": "D000016638",
+                    "term": "Critical Illness"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000009748",
+                    "term": "Nutrition Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M19010",
+                    "name": "Critical Illness",
+                    "asFound": "Critical Illness",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25306",
+                    "name": "Malnutrition",
+                    "asFound": "Nutritional Deficiency",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12684",
+                    "name": "Nutrition Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

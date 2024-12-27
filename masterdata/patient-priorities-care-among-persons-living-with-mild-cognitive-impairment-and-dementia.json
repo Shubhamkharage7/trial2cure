@@ -1,0 +1,380 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06001775",
+            "orgStudyIdInfo": {
+                "id": "FY22_Pilot1_Carnahan"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "15345",
+                    "type": "OTHER",
+                    "domain": "Indiana University Institutional Review Board"
+                },
+                {
+                    "id": "Pro00063400",
+                    "type": "OTHER",
+                    "domain": "Advarra (CIRBI) External Institutional Review Board"
+                },
+                {
+                    "id": "U54AG063546",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/U54AG063546"
+                }
+            ],
+            "organization": {
+                "fullName": "Indiana University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Patient Priorities Care Among Persons Living With Mild Cognitive Impairment and Dementia",
+            "officialTitle": "Embedded Clinical Trial of Patient Priorities Care Among Persons Living With Mild Cognitive Impairment and Dementia",
+            "acronym": "IN-TX-PPC",
+            "therapeuticArea": [
+                "Other",
+                "Neurology"
+            ],
+            "study": "patient-priorities-care-among-persons-living-with-mild-cognitive-impairment-and-dementia"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-31",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-09-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-07",
+            "studyFirstSubmitQcDate": "2023-08-14",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-27",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jennifer L Carnahan",
+                "investigatorTitle": "Research Scientist",
+                "investigatorAffiliation": "Regenstrief Institute, Inc."
+            },
+            "leadSponsor": {
+                "name": "Indiana University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institutes of Health (NIH)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "National Institute on Aging (NIA)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this pragmatic, embedded clinical trial is to analyze the implementation of Patient Priorities Care in primary care and geriatrics clinics with patients living with dementia or mild cognitive impairment. This study aims are:\n\n* demonstrate the feasibility of using the electronic health record to identify a diverse cohort of eligible patient and patient-care partner dyads who will engage in a Patient Priorities Care conversation with a trained facilitator.\n* demonstrate feasibility of pragmatically assessing clinical outcomes using the electronic health record, including a) number of days at home, b) total medications, and c) new referrals to specialist physicians.\n* examine key feasibility measures across racial, ethnic, and socioeconomic subgroups.\n\nParticipants will receive a packet of information about Patient Priorities Care from their primary care clinic, in advance of their next upcoming clinic appointment. Individuals who receive a packet will have the opportunity to engage in a conversation about what matters most to them and what their priorities are, with trained facilitators at the clinic."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Dementia",
+                "Mild Cognitive Impairment"
+            ],
+            "keywords": [
+                "dementia",
+                "mild cognitive impairment",
+                "patient priorities care"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 160,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Patient Priorities Care Eligible Persons Living With Dementia and Mild Cognitive Impairment",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients (and their care partners when available) will receive a packet of information about Patient Priorities Care, and when feasible, a trained facilitator(s) will initiate a Patient Priorities Care conversation with the patient or patient care partner dyad. This conversation will be documented in the Electronic Health Record.",
+                    "interventionNames": [
+                        "Behavioral: Patient Priorities Care"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Patient Priorities Care",
+                    "description": "According to patientprioritiescare.org a Patient Priorities Care conversation helps to align healthcare decision-making and care by all clinicians with patients' own health priorities. Patient Priorities Care involves not only the health outcome goals that patients want to achieve, but also their preferences for healthcare.",
+                    "armGroupLabels": [
+                        "Patient Priorities Care Eligible Persons Living With Dementia and Mild Cognitive Impairment"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of patients with documentation of Patient Priorities Care discussion in the electronic health record",
+                    "description": "We will use a previously established natural language processing model to identify patient medical records when a Patient Priorities Care discussion is recorded",
+                    "timeFrame": "Baseline"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Identification of a care partner",
+                    "description": "Identification of a care partner for 50% of eligible persons living with dementia and mild cognitive impairment. Care partners will be identified based on information provided by the patient, the electronic health record, and the clinical team.",
+                    "timeFrame": "2 months pre and 2 months post baseline"
+                },
+                {
+                    "measure": "Acceptability",
+                    "description": "We will utilize Sekhon et al's Theoretical Framework of Acceptability (TFA) to qualitatively assess acceptability, which includes meeting definitions outlined within the framework, represented by seven component constructs: affective attitude, burden, perceived effectiveness, ethicality, intervention coherence, opportunity costs, and self-efficacy.",
+                    "timeFrame": "Baseline and up to 2 months post baseline"
+                },
+                {
+                    "measure": "Appropriateness",
+                    "description": "We will assess appropriateness via qualitative exit interviews with patients, care partners, and clinicians.",
+                    "timeFrame": "Baseline and up to 2 months post baseline"
+                },
+                {
+                    "measure": "Feasibility of the intervention using Proctor et al as a guide",
+                    "description": "Feasibility will be assessed qualitatively using the description provided by Proctor et al as a guide.",
+                    "timeFrame": "Baseline and up to 2 months post baseline"
+                },
+                {
+                    "measure": "Fidelity to the intervention",
+                    "description": "Fidelity will be assessed when select charts are reviewed for adherence to the protocol.",
+                    "timeFrame": "Baseline and up to 2 months post baseline"
+                },
+                {
+                    "measure": "Potential for future adoption of Patient Priorities Care intervention",
+                    "description": "We will assess potential for future adoption of the intervention via qualitative exit interviews with patients, care partners, and clinicians.",
+                    "timeFrame": "Baseline and up to 2 months post baseline"
+                },
+                {
+                    "measure": "Number of patient days at home",
+                    "description": "We will use the electronic health record to assess for hospital visits, emergency room visits, or nursing home admissions.",
+                    "timeFrame": "2 months pre and 2 months post baseline"
+                },
+                {
+                    "measure": "Number of total medications",
+                    "description": "We will use the electronic health record to assess the medication list total at 2 months pre and post baseline.",
+                    "timeFrame": "2 months pre and 2 months post baseline"
+                },
+                {
+                    "measure": "Number of new referrals to specialist physicians",
+                    "description": "We will use the electronic health record to assess referrals to specialists at 2 months pre and post baseline",
+                    "timeFrame": "2 months pre and 2 months post baseline"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPatient Inclusion Criteria\n\nPatients must meet all of the following criteria to participate in this study:\n\n* 40 years or older\n\n  * English-speaking at both Indiana sites or English and/or Spanish speaking at the University of Texas site\n  * Receiving care with a participating physician\n  * Has a scheduled outpatient care visit within 1-2 months (60 days)\n  * Individual has a diagnosis of MCI or dementia\n\nDefinition: To identify individuals with dementia and MCI, we will use two or more instances of use of an ICD-10 code for either diagnosis in the EHR within 24 months. Typically, we would include instances of these billing codes within a year of each other but, due to the COVID-19 pandemic, recognize that there may be less frequent clinical visits and less robust billing. Diagnostic codes include:\n\n\u2022 F01.50, F01.51, F02.80, F02.81, F03.90, G30.0, G30.1, G30.8, G30.9, G31.01, G31.09, G31.1, G31.2, F41.81, G31.84 and F03.91.\n\nCare Partner Inclusion Criteria\n\nCare partners must meet all of the following criteria to participate in the study:\n\n* 18 years or older\n* English-speaking at both Indiana sites or English and/or Spanish speaking at the University of Texas site\n\nA note about inclusion of care partners: Clinician determination of a patient's capacity to participate in a visit independently is part of a pragmatic approach. This means that clinic staff will determine when a care partner is needed. Generally, we act under the assumption that patients who require a care partner will have already included them in previous visits and/or provider communications (and we anticipate that this will be documented in the EHR), whereas patients who attend clinic visits independently and have no documentation indicating the involvement of a care partner in their medical decisions, or a need for one, will be determined to have the capacity to also participate in a PPC visit.\n\nExclusion Criteria:\n\nParticipants who meet any of the following criteria will be excluded from the study:\n\n* Is not community-dwelling- e.g. lives in a nursing home\n* Is enrolled in hospice\n* Individuals who decline to receive the PPC intervention (i.e. decline to have the PPC conversation) will be excluded from the study.\n\n  * Note that declining to receive the PPC intervention will in no way impact the care that patients receive now or in the future.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "40 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Emily Burke, BA",
+                    "role": "CONTACT",
+                    "phone": "3172749047",
+                    "email": "esburke@regenstrief.org"
+                },
+                {
+                    "name": "Jennifer L Carnahan, MD",
+                    "role": "CONTACT",
+                    "email": "jenncarn@iupui.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jennifer L Carnahan, MD",
+                    "affiliation": "Regenstrief Institute, Inc.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Regenstrief Institute, Inc.",
+                    "status": "RECRUITING",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jennifer L Carnahan, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Jennifer L Carnahan, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Rafael Samper-Ternent, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Patient Priorities Care homepage",
+                    "url": "http://patientprioritiescare.org"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Since this study is a pragmatic trial in a clinical environment, the majority of our outcomes will be determined via data that is already held in the EHR. Therefore a plan for sharing IPD seems unnecessary."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003704",
+                    "term": "Dementia"
+                },
+                {
+                    "id": "D000060825",
+                    "term": "Cognitive Dysfunction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000003072",
+                    "term": "Cognition Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29705",
+                    "name": "Cognitive Dysfunction",
+                    "asFound": "Mild Cognitive Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6904",
+                    "name": "Dementia",
+                    "asFound": "Dementia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6301",
+                    "name": "Cognition Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

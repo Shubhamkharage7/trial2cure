@@ -1,0 +1,412 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06124716",
+            "orgStudyIdInfo": {
+                "id": "R18HS028579",
+                "type": "AHRQ",
+                "link": "https://reporter.nih.gov/quickSearch/R18HS028579"
+            },
+            "organization": {
+                "fullName": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Collaboration Oriented Approach to Controlling High Blood Pressure",
+            "officialTitle": "Collaboration Oriented Approach to Controlling High Blood Pressure",
+            "acronym": "COACH",
+            "therapeuticArea": [
+                "Cardiovascular",
+                "Other"
+            ],
+            "study": "collaboration-oriented-approach-to-controlling-high-blood-pressure"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-05-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-06",
+            "studyFirstSubmitQcDate": "2023-11-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "University of Missouri-Columbia",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Vanderbilt University Medical Center",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Hypertension is a significant contributor to poor cardiovascular outcomes. Self-management support tools can increase patient behaviors to improve blood pressure. The investigators created a clinical decision support app, called COACH, to integrate home blood pressure data and goals into EHR reporting and workflow with communications informed by behavioral economics principles to support shared decision-making. The study aims to measure the effectiveness of the COACH intervention in a pragmatic multi-site randomized trial in a primary care setting.",
+            "detailedDescription": "This protocol addresses the challenge of implementing scalable, interoperable clinical decision support (CDS) and the patient-centered outcome of avoiding heart attacks and strokes through high blood pressure control in the setting of multiple chronic illnesses. It leverages substantial extant work to build patient-centered CDS for high blood pressure, electronic care planning and health coaching at scale, implementing and testing these tools in new primary care settings. This protocol implements a new patient-facing CDS across multiple clinic sites spanning three major health systems and in the nation's two leading EHR vendor platforms. Controlling blood pressure is a singularly important goal; nearly 50% of adults in health care have high blood pressure, which increases their risk of heart attack and stroke. However, managing blood pressure requires navigation within a narrow therapeutic index, where overtreatment leads to substantial complications, including kidney damage, low blood pressure, falls, and mood disorders. Balancing treatment to reduce risk while avoiding harm requires engaging patients directly in intensive goal setting, shared care planning around nonpharmacologic and pharmacologic treatments, and self-monitoring for effectiveness and adverse events.\n\nHypertension rarely occurs alone; providing clinical decision support, care planning, and self-management support in the context of multiple chronic illnesses is required.\n\nThe study team will address patient-centered needs by scaling our implemented, patient-facing CDS for eCare Planning, Collaboration Oriented Approach to Controlling High blood pressure (COACH) to 3 sites and testing whether it reduces blood pressure and risk of heart attack and stroke. To do so, we embed a diverse patient perspective into a robust, feasible, and effective CDS implementation and evaluation process by 1) capturing patient input throughout the CDS lifecycle; 2) adapting the COACH CDS to patient preferences, values, and goals; and 3) disseminating the tested FHIR-based (Fast Healthcare Interoperability Resources) patient-facing application into organizations that combines blood pressure control with relevant risk scores into an eCare Plan application and framework and implementing these patient-centered approaches in feasible, context-responsive, and effective ways. The investigators address scalability by helping organizations advance their use of patient-generated health data and patient-reported outcomes using standard implementation frameworks while producing CDS artifacts and implementation guides that can be leveraged to increase adoption beyond the work of this proposal. For interoperability, we use a standard-based, structured process that re-uses concept and value sets whenever possible while using robust techniques to develop new sets and make them available for future innovators.\n\nTo complete these goals, the study investigators leverage previous work in building standardized HBP value sets, logic, and a patient-facing FHIR tool. In this work, we have engaged in several collaborations, most notably with the CDS Connect Community, where we will upload all artifacts, but also with other AHRQ digital health efforts and with other large collaboratives, including the ACC/AHA and JNC8 guideline developers, the HL7 CPG-on-FHIR, and the eCare Planning project from NIDDK and AHRQ. The study investigators will use two frameworks to evaluate the implementation. First, adaptation in implementation science is both common and may be required for success; we explore the ways in which the 5 rights-the right information to the right person in the right intervention format through the right channel at the right time in workflow-can be adapted for key organizational needs while retaining fidelity to the goals. In addition, we consider a framework that combines usability with effectiveness for complex conditions by exploring concepts related to appropriate simplicity, prioritization, summarization, adjudication, and actionability to enhance CDS effectiveness for patient needs.\n\nThus, the study's specific aims are:\n\n1. To refine and implement a patient-facing, adaptable Blood Pressure Control CDS system in 3 diverse settings, using implementation science and patient engagement to maximize effectiveness.\n2. To evaluate the effectiveness of the application at lowering blood pressure employing a mixed methods design, with qualitative inquiry nested within a randomized controlled trial, secondary RE-AIM and social cognitive theory outcomes, and qualitative evaluation of implementations across sites.\n3. To develop robust, sharable, interoperable mechanisms, leveraging collaborations and synthesis of the implementation experience to aid in further dissemination and implementations of patient-facing CDS."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hypertension",
+                "Multiple Chronic Conditions"
+            ],
+            "keywords": [
+                "Pragmatic trial",
+                "Primary care",
+                "Clinical decision support"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Mixed methods design with qualitative RE-AIM inquiry nested within a pragmatic multi-site randomized trial",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "maskingDescription": "Statisticians and investigators will be blinded to allocation status. Study participants will be informed that the study is testing the effectiveness of a home BP monitoring program, but not that the study is comparing two models of care.",
+                    "whoMasked": [
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 550,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Enhanced COACH",
+                    "type": "EXPERIMENTAL",
+                    "description": "Enhanced blood pressure management recommendations that use cognitive and behavioral science to increase the likelihood of self-management goal setting to lower blood pressure. The CDS tool allows participant access to BP visualizations, reminders, and affectively tailored messaging about blood pressure management.",
+                    "interventionNames": [
+                        "Other: Enhanced COACH CDS Tool"
+                    ]
+                },
+                {
+                    "label": "Usual Care COACH",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Equivalent of usual care delivered through the CDS tool: Blood pressure management with basic information, reduced reminders, and no affective alerts.",
+                    "interventionNames": [
+                        "Other: Usual Care COACH CDS Tool"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Enhanced COACH CDS Tool",
+                    "description": "CDS tool with features to promote high blood pressure management",
+                    "armGroupLabels": [
+                        "Enhanced COACH"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Usual Care COACH CDS Tool",
+                    "description": "CDS tool with limited features to promote high blood pressure management",
+                    "armGroupLabels": [
+                        "Usual Care COACH"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Blood Pressure Control",
+                    "description": "Percent of participants at or below 140/90 (office BP) or 135/85 (home BP) average.",
+                    "timeFrame": "Up to 6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Reduction in Systolic and/or Diastolic Blood Pressure",
+                    "description": "Percent of participants displaying a decrease in systolic and/or diastolic blood pressure readings over the 6-month course of measurement",
+                    "timeFrame": "Up to 6 months"
+                },
+                {
+                    "measure": "Demographic factors contributing to blood pressure control",
+                    "description": "Age- and socioeconomic status-reported participant data",
+                    "timeFrame": "Up to 6 months"
+                },
+                {
+                    "measure": "COACH Application System Usability Evaluation",
+                    "description": "Participant assessment of application using the System Usability Scale questions using 4-point scale for 10 agreement questions where low scores indicate less agreement and high scores are higher agreement of usability of the application",
+                    "timeFrame": "Up to 6 months"
+                },
+                {
+                    "measure": "Participant report of health behaviors including Self Efficacy, Social Support, Outcome Expectations and Self-regulation",
+                    "description": "Participant self-report of factors related to health beliefs using 10-point sliding scale for 25 agreement questions where low scores indicate less agreement and high scores are higher agreement of aspects of health beliefs",
+                    "timeFrame": "2 months, 6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients aged 18-100 years old\n* Patient receives care at a participating primary care clinic and has been seen in the last year\n* Patient has high BP, defined as an average of 4 BPs \\> 140 systolic or \\> 90 diastolic (clinic) or \\> 135 OR \\> 85 (home)\n* Patient is enrolled in online health portal\n* Patient can communicate in English\n* Patient has been recommended by their physician who thinks the patient would benefit from a home blood pressure monitoring program.\n\nExclusion Criteria:\n\n* Patient is pregnant at the time of consent\n* Patient who, in the opinion of the primary care clinician, has severe cognitive impairment\n* Patient is on hospice care and/or has a life expectancy of less than 2 years\n* Patient has end stage renal disease\n* Patient for whom tight blood pressure control presents a greater risk, such as those with a history of adverse events from hypertension treatment (falls, dizziness, electrolyte disturbances, hypotension, active heart failure)\n* Patient has any other disease or disorder that in the opinion of the investigator or the patient's primary care clinician, could put participants at risk and affect trial results, or hinder participation will exclude them from participating",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "100 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "LeAnn Michaels",
+                    "role": "CONTACT",
+                    "phone": "5034944806",
+                    "email": "michaell@ohsu.edu"
+                },
+                {
+                    "name": "Aisha Ghumman",
+                    "role": "CONTACT",
+                    "email": "ghumman@ohsu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "David Dorr, MD, MS, FACMI, FAMIA",
+                    "affiliation": "Oregon Health and Science University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Richelle Koopman, MD",
+                    "affiliation": "University of Missouri-Columbia",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Missouri-Columbia",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Columbia",
+                    "state": "Missouri",
+                    "zip": "65211",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Emma E Montgomery",
+                            "role": "CONTACT",
+                            "email": "montgomeryee@health.missouri.eduu"
+                        },
+                        {
+                            "name": "Richelle Koopman, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Victoria Shaffer, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Shannon Canfield, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.95171,
+                        "lon": -92.33407
+                    }
+                },
+                {
+                    "facility": "Oregon Health & Science University",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Dorr, MD, MS",
+                            "role": "CONTACT",
+                            "phone": "503-494-4608",
+                            "email": "coach-ohsu@ohsu.edu"
+                        },
+                        {
+                            "name": "LeAnn Michaels",
+                            "role": "CONTACT",
+                            "phone": "5034944608",
+                            "email": "coach-ohsu@ohsu.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                },
+                {
+                    "facility": "Vanderbilt University Medical Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37232",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kryseana G Harper, M.Ed.",
+                            "role": "CONTACT",
+                            "email": "kryseana.j.harper@vumc.org"
+                        },
+                        {
+                            "name": "Adam Wright, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "William Martinez, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "We will make all materials available as open source documents and CDS artifacts on our GitHub site, on the content implementation guide, on AHRQ's CDS Connect Community, and elsewhere as directed. We will publish the application on the GitHub site as open source. We will share all resources and work with all committees to find conferences, journals, and other opportunities to discuss dissemination.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "ANALYTIC_CODE"
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006973",
+                    "term": "Hypertension"
+                },
+                {
+                    "id": "D000002908",
+                    "term": "Chronic Disease"
+                },
+                {
+                    "id": "D000071069",
+                    "term": "Multiple Chronic Conditions"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10024",
+                    "name": "Hypertension",
+                    "asFound": "High Blood Pressure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M692",
+                    "name": "Multiple Chronic Conditions",
+                    "asFound": "Multiple Chronic Conditions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6147",
+                    "name": "Chronic Disease",
+                    "asFound": "Chronic Conditions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

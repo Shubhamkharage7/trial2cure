@@ -1,0 +1,300 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06381492",
+            "orgStudyIdInfo": {
+                "id": "2024-0057"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "A536130",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "SMPH/ORTHO&REHAB/PHYS THER",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "Protocol Version 4/29/2024",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "briefTitle": "Quantifying Patellar Tendon Microstructure Using DTI",
+            "officialTitle": "Quantifying Patellar Tendon Microstructure Using Diffusion Tensor Imaging",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "quantifying-patellar-tendon-microstructure-using-dti"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-19",
+            "studyFirstSubmitQcDate": "2024-04-19",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-31",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this observational study is to understand how diffusion tensor imaging (DTI) relates to other traditional measures and knee function. The main question it aims to answer is:\n\nWill regions of known patellar tendon pathology present with smaller DTI scalar parameters, shorter fiber length, and lower fiber density compared to the contralateral tendon and healthy regions in the ipsilateral tendon.\n\nParticipants will:\n\n* undergo MRI and ultrasound imaging\n* perform knee function test\n* complete questionnaires",
+            "detailedDescription": "Patellar tendon injuries are commonly accompanied by macrostructural alterations captured on common imaging modalities, and the extent of these alterations correlate to knee joint function. Evidence for using tendon macrostructure for diagnosis and prognosis of tendon injuries is not as clear, suggesting that these imaging modalities are not providing a complete picture of the alterations. Diffusion tensor imaging (DTI) tractography can quantify tendon microstructures that underlie the alterations in pathological tendons and shows promising results in healthy tendons. This study is the first step in evaluating whether tendon microstructure captured using DTI technology can be applied as a biomarker to optimize treatment for patellar tendon injuries."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Patellar Tendinopathy",
+                "Anterior Cruciate Ligament Reconstruction"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 40,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Bone-patellar tendon-bone (BPTB)",
+                    "description": "This group will have patellar injury confirmed through self-reported surgical history and evidence of ipsilateral BPTB graft harvest on ultrasound.",
+                    "interventionNames": [
+                        "Device: MRI",
+                        "Device: Ultrasound (US)"
+                    ]
+                },
+                {
+                    "label": "Patellar tendinopathy group",
+                    "description": "This group will have patellar tendinopathy confirmed based on International Scientific Tendinopathy Symposium Consensus on Clinical Terminology (ICON) statement, which defines patellar tendinopathy as \"persistent patellar tendon pain and loss of function related to mechanical loading.\" Ultrasound diagnosis must confirm alteration of tendon macrostructure.",
+                    "interventionNames": [
+                        "Device: MRI",
+                        "Device: Ultrasound (US)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "MRI",
+                    "description": "MRI using DTI technology",
+                    "armGroupLabels": [
+                        "Bone-patellar tendon-bone (BPTB)",
+                        "Patellar tendinopathy group"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Ultrasound (US)",
+                    "description": "Standard US",
+                    "armGroupLabels": [
+                        "Bone-patellar tendon-bone (BPTB)",
+                        "Patellar tendinopathy group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Compare scalar parameters of known patellar tendon pathology to the contralateral tendon",
+                    "description": "DTI parameters will be obtained by built-in diffusion-weighted sequences on the GE MRI machine. Regions of interest will be selected using clinical scans, and region specific DTI parameters will be compared between regions and over the repeat test sessions",
+                    "timeFrame": "Up to 2 weeks"
+                },
+                {
+                    "measure": "Compare DTI scalar parameters of known patellar tendon pathology to the healthy regions in the ipsilateral tendon",
+                    "description": "DTI parameters will be obtained by built-in diffusion-weighted sequences on the GE MRI machine. Regions of interest will be selected using clinical scans, and region specific DTI parameters will be compared between regions and over the repeat test sessions",
+                    "timeFrame": "Up to 2 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 or older\n* Have patellar tendon injury as confirmed through subjective report, clinical examination, and ultrasound by an experienced physical therapist\n* Patellar tendinopathy group must present with current symptoms of patellar tendinopathy\n\nExclusion Criteria:\n\n* Participants with a history of invasive procedures other than bone-patellar tendon-bone (BPTB) autograft harvest to the patellar tendon or extensor mechanism\n* Participants with bilateral patellar tendinopathy, history of contralateral BPTB autograft harvest, or ACLR using any other graft type\n* Participants with contraindications to MRI",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Adults 18 years or older with a diagnosis of patellar tendinopathy, or with a history of anterior cruciate ligament (ACL) reconstruction using bone-patellar tendon-bone autograft.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Maria Flory",
+                    "role": "CONTACT",
+                    "phone": "608-262-8652",
+                    "email": "flory@ortho.wisc.edu"
+                },
+                {
+                    "name": "Naoaki Ito",
+                    "role": "CONTACT",
+                    "email": "ito@ortho.wisc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Bryan Heiderscheit, PT, PhD",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Daniel Cobian, DPT, PhD",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Wisconsin - Madison",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53705",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Maria Flory",
+                            "role": "CONTACT",
+                            "phone": "608-262-8652",
+                            "email": "flory@ortho.wisc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000052256",
+                    "term": "Tendinopathy"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009135",
+                    "term": "Muscular Diseases"
+                },
+                {
+                    "id": "D000009140",
+                    "term": "Musculoskeletal Diseases"
+                },
+                {
+                    "id": "D000013708",
+                    "term": "Tendon Injuries"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M27013",
+                    "name": "Tendinopathy",
+                    "asFound": "Tendinopathy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12092",
+                    "name": "Muscular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12097",
+                    "name": "Musculoskeletal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16479",
+                    "name": "Tendon Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

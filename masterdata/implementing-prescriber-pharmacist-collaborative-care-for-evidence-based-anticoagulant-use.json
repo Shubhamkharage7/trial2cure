@@ -1,0 +1,441 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05351749",
+            "orgStudyIdInfo": {
+                "id": "HUM00207165"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R18HS028562",
+                    "type": "AHRQ",
+                    "link": "https://reporter.nih.gov/quickSearch/R18HS028562"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "Implementing Prescriber-Pharmacist Collaborative Care for Evidence-based Anticoagulant Use",
+            "officialTitle": "Implementing Prescriber-Pharmacist Collaborative Care for Evidence-based Anticoagulant Use",
+            "therapeuticArea": [
+                "Respiratory",
+                "Other"
+            ],
+            "study": "implementing-prescriber-pharmacist-collaborative-care-for-evidence-based-anticoagulant-use"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-08-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-04-06",
+            "studyFirstSubmitQcDate": "2022-04-27",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Geoffrey Barnes",
+                "investigatorTitle": "Assistant Professor of Internal Medicine",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Agency for Healthcare Research and Quality (AHRQ)",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The researchers hypothesize that existing-prescription notifications directed to pharmacists are more likely to lead to a prescription change than existing-prescription notifications directed to prescribers. Furthermore, the researchers hypothesize that the availability of a pharmacist referral option is associated with a higher rate of prescription changes for initial-prescription alerts that are directed to the prescriber at the time of initial-prescribing errors.\n\nFindings from this project will establish a framework for implementing prescriber-pharmacist collaboration for high risk medications, including anticoagulants",
+            "detailedDescription": "Please note that the 3rd and 4th outcome measures are conditional on the outcomes of the 1st and 2nd outcome measures respectively.\n\nPlease note that enrollment of 300 will provide sufficient power to study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pulmonary Embolism",
+                "Venous Thromboembolism",
+                "Atrial Fibrillation"
+            ],
+            "keywords": [
+                "Prescribing alerts",
+                "Anticoagulation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 5000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "New-prescription Alert / Existing-prescription notification to prescriber",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Behavioral: New-prescription Alert",
+                        "Behavioral: Existing-prescription notification to prescriber"
+                    ]
+                },
+                {
+                    "label": "New-prescription Alert w/ referral option/ Existing-prescription notification to prescriber",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Behavioral: New-prescription Alert with referral option",
+                        "Behavioral: Existing-prescription notification to prescriber"
+                    ]
+                },
+                {
+                    "label": "New-prescription Alert/ Existing-prescription notification to pharmacist",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Behavioral: New-prescription Alert",
+                        "Behavioral: Existing-prescription notification to pharmacist"
+                    ]
+                },
+                {
+                    "label": "New-prescription Alert w/ referral option/ Existing-prescription notification to pharmacist",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Behavioral: New-prescription Alert with referral option",
+                        "Behavioral: Existing-prescription notification to pharmacist"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "New-prescription Alert",
+                    "description": "An enhanced drug alert notification in the Michigan Medicine electronic health record (EHR) that is tailored to the specific type of inappropriate Direct Oral Anticoagulant (DOAC) use (e.g., dosing too high for renal dysfunction) and offers decision support to the prescriber to alter a newly prescribed DOAC prescription.",
+                    "armGroupLabels": [
+                        "New-prescription Alert / Existing-prescription notification to prescriber",
+                        "New-prescription Alert/ Existing-prescription notification to pharmacist"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "New-prescription Alert with referral option",
+                    "description": "An enhanced drug alert notification in the EHR that is tailored to the specific type of inappropriate DOAC use (e.g., dosing too high for renal dysfunction) and offers decision support to the prescriber to alter new DOAC prescription. This alert will ALSO include an option for referral to the anticoagulation clinic pharmacist for assistance.",
+                    "armGroupLabels": [
+                        "New-prescription Alert w/ referral option/ Existing-prescription notification to pharmacist",
+                        "New-prescription Alert w/ referral option/ Existing-prescription notification to prescriber"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Existing-prescription notification to prescriber",
+                    "description": "Prescriber receives a notification through the EHR indicating an existing DOAC prescription may not be appropriate (e.g. due to renal function change, new drug-drug interactions), and recommending a prescription update.",
+                    "armGroupLabels": [
+                        "New-prescription Alert / Existing-prescription notification to prescriber",
+                        "New-prescription Alert w/ referral option/ Existing-prescription notification to prescriber"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Existing-prescription notification to pharmacist",
+                    "description": "Pharmacist receives a notification through the EHR indicating an existing DOAC prescription may not be appropriate (e.g. due to renal function change, new drug-drug interactions), and recommending a prescription update.",
+                    "armGroupLabels": [
+                        "New-prescription Alert w/ referral option/ Existing-prescription notification to pharmacist",
+                        "New-prescription Alert/ Existing-prescription notification to pharmacist"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "The number (proportion) of notifications (in the existing-prescription notification conditions) that are addressed within 7 days.",
+                    "description": "Existing-prescription notification conditions = Prescriber notification \\& Pharmacist notification",
+                    "timeFrame": "Up to 7 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "The number (proportion) of alerts (in the newly prescribed DOAC alert conditions) that are addressed within 7 days.",
+                    "description": "Newly prescribed DOAC alert conditions= Medication alert \\& Medication alert + referral",
+                    "timeFrame": "Up to 7 days"
+                },
+                {
+                    "measure": "Change in effect size for the existing-prescription notification over time",
+                    "description": "Reported on at the institution level (not individual level). Existing-prescription notification conditions = Prescriber notification \\& Pharmacist notification\n\nThis outcome measure analysis is based on the results of outcome #1.",
+                    "timeFrame": "Month 0, Up to 18 months"
+                },
+                {
+                    "measure": "Change in effect size for the initial alert over time",
+                    "description": "Reported on at the institution level (not individual level). Newly prescribed DOAC alert condition= Medication alert \\& Medication alert + referral\n\nThis outcome measure analysis is based on the results of outcome #2.",
+                    "timeFrame": "Month 0, Up to 18 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Prescribers:\n\nInclusion Criteria:\n\n* Michigan Medicine provider with prescribing privileges\n* Providers in ambulatory care settings\n* Prescribe DOAC to patients 18 years and older\n\nExclusion Criteria:\n\n* Providers in inpatient settings\n* Providers who are members of the study team",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jake Seagull, PhD",
+                    "role": "CONTACT",
+                    "phone": "734-615-8377",
+                    "email": "jseagull@umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Geoffrey Barnes, MD",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jake Seagull, PhD",
+                            "role": "CONTACT",
+                            "phone": "734-615-8377",
+                            "email": "jseagull@umich.edu"
+                        },
+                        {
+                            "name": "Geoffrey Barnes, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011655",
+                    "term": "Pulmonary Embolism"
+                },
+                {
+                    "id": "D000001281",
+                    "term": "Atrial Fibrillation"
+                },
+                {
+                    "id": "D000004617",
+                    "term": "Embolism"
+                },
+                {
+                    "id": "D000013923",
+                    "term": "Thromboembolism"
+                },
+                {
+                    "id": "D000054556",
+                    "term": "Venous Thromboembolism"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000016769",
+                    "term": "Embolism and Thrombosis"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14509",
+                    "name": "Pulmonary Embolism",
+                    "asFound": "Pulmonary Embolism",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7784",
+                    "name": "Embolism",
+                    "asFound": "Embolism",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4586",
+                    "name": "Atrial Fibrillation",
+                    "asFound": "Atrial Fibrillation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16682",
+                    "name": "Thromboembolism",
+                    "asFound": "Thromboembolism",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27780",
+                    "name": "Venous Thromboembolism",
+                    "asFound": "Venous Thromboembolism",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16686",
+                    "name": "Thrombosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19128",
+                    "name": "Embolism and Thrombosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4244",
+                    "name": "Anticoagulants",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "AnCoag",
+                    "name": "Anticoagulants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,530 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06342401",
+            "orgStudyIdInfo": {
+                "id": "23228/ENCODE"
+            },
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Early Onset Colorectal Cancer Detection",
+            "officialTitle": "Development and Validation fo an Exosome-Based and Machine Learning Powered Liquid Biopsy for the Detection of Early-Onset Colorectal Cancer",
+            "acronym": "ENCODE",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "early-onset-colorectal-cancer-detection"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-04-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-04-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-10-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-26",
+            "studyFirstSubmitQcDate": "2024-04-01",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Colorectal cancer (CRC) once predominantly affected older individuals, but in recent years has witnessed a progressive increase in incidence among young adults. Once rare, early-onset colorectal cancer (EOCRC, that is, a CRC diagnosed before the age of 50) now constitutes 10-15% of all newly diagnosed CRC cases and it stands as the first cause of cancer-related death in young men and the second for young women.\n\nThis study aims to detect EOCRC with a non-invasive test, using a blood-based molecular assay based on microRNA (ribonucleic acid)",
+            "detailedDescription": "The rising incidence of early-onset colorectal cancer (EOCRC) is a pressing clinical issue unique to our times, and it is expected to grow with an anticipated further 90% increase in incidence by the decade's end. Challenges persist even after reducing the CRC screening age to 45: under-45s lack routine screening and compliance in the 45-50 age group remains low, partly due to invasiveness and discomfort of standard screening methods. Urgent action is warranted to develop affordable, sensitive, and feasible screening for timely detection and improved participation. A non-invasive, patient-friendly screening test, like a blood-based assay, could address these epidemiological concerns and also attract underserved populations.\n\nThis study involves the development and validation of a liquid biopsy, assessing circulating cell-free and exosomal microRNAs (cf-miRNA and exo-miRNA, respectively) for indirect sampling of tumor tissue in the bloodstream. The researchers intend to harness machine learning and bioinformatics to create an integrated panel (with both cf-miRNAs and exo-miRNAs) to enhance the inherently high sensitivity of cf-miRNAs with the distinctive specificity of exo-miRNAs. This combined approach will not only improve the performance of a diagnostic model but will also tap into the diverse tumor biology aspects of EOCRC.\n\nThe study's core goal is to develop cost-efficient, non-invasive, clinic-friendly biomarkers with high sensitivity and specificity, aiding EOCRC detection.\n\nThe researchers intend to do so in three phases:\n\n1. To perform comprehensive small RNA-Seq from matched cf-miRNA, exo-miRNA, cancer-derived miRNA, and mucosa-derived miRNA.\n2. To develop and train two miRNA detection panels (cf-miRNA and exo-miRNA, respectively) based on advanced machine-learning models and, then, combine these two using several machine-learning models to obtain a final detection biomarker.\n3. To validate the findings in an independent cohort of EOCRC and controls.\n\nIn summary, this proposal promises to improve patient care and compliance, and, ultimately, reduce mortality from EOCRC."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Colorectal Cancer",
+                "Colorectal Neoplasms",
+                "Colorectal Adenocarcinoma",
+                "Colorectal Cancer Stage I",
+                "Colorectal Cancer Stage IV",
+                "Colorectal Cancer Stage II",
+                "Colorectal Cancer Stage III",
+                "Colorectal Neoplasms Malignant"
+            ],
+            "keywords": [
+                "Early onset",
+                "Young onset",
+                "Young adult",
+                "micro-RNA",
+                "Rectal cancer",
+                "Cancer of the young",
+                "Cancer detection",
+                "Liquid biopsy"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "Plasma"
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Early onset colorectal cancer (Training cohort)",
+                    "description": "Colorectal cancer diagnosed before the age of 50",
+                    "interventionNames": [
+                        "Diagnostic Test: ENCODE"
+                    ]
+                },
+                {
+                    "label": "Non-disease controls (Training cohort)",
+                    "description": "Individuals free from colorectal cancer, younger than 50 years of age",
+                    "interventionNames": [
+                        "Diagnostic Test: ENCODE"
+                    ]
+                },
+                {
+                    "label": "Early onset colorectal cancer (Validation cohort)",
+                    "description": "Colorectal cancer diagnosed before the age of 50",
+                    "interventionNames": [
+                        "Diagnostic Test: ENCODE"
+                    ]
+                },
+                {
+                    "label": "Non-disease controls (Validation cohort)",
+                    "description": "Individuals free from colorectal cancer, younger than 50 years of age",
+                    "interventionNames": [
+                        "Diagnostic Test: ENCODE"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "ENCODE",
+                    "description": "A panel of microRNA, both cell-free and exosomes, whose expression level is tested from plasma samples from patients with early onset colorectal cancer and non-disease controls.",
+                    "armGroupLabels": [
+                        "Early onset colorectal cancer (Training cohort)",
+                        "Early onset colorectal cancer (Validation cohort)",
+                        "Non-disease controls (Training cohort)",
+                        "Non-disease controls (Validation cohort)"
+                    ],
+                    "otherNames": [
+                        "ENCODE (Early oNset COlorectal cancer DEtection)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity",
+                    "description": "True Positive Rate: the probability of a positive test result, conditioned on the individual truly being positive",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Specificity",
+                    "description": "True Negative Rate: the probability of a negative test result, conditioned on the individual truly being negative",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                },
+                {
+                    "measure": "Proportion of correct predictions (true positives and true negatives) among the total cases (i.e., accuracy)",
+                    "description": "A measure of trueness: proportion of correct predictions (both true positives and true negatives) among the total number of cases examined",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Stage I, II, III, IV colorectal cancer (TNM classification, 8th edition) diagnosed before the age of 50 (EOCRC cases)\n* Received standard diagnostic and staging procedures as per local guidelines, and at least one sample was drawn before receiving any curative-intent treatment\n* Colonoscopy-proven cancer-free status at the time of study inclusion (Non-disease controls)\n\nExclusion Criteria:\n\n* Hereditary colorectal cancer syndromes (identified through genetic testing)\n* Inflammatory bowel diseases\n* Lack of written informed consent",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+                "ADULT"
+            ],
+            "studyPopulation": "Individuals younger than 50 years of age who were diagnosed with colorectal cancer before the age of 50 (cases) or were free from colorectal cancer at the time of study inclusion (controls)",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "role": "CONTACT",
+                    "phone": "626-218-3452",
+                    "email": "AJGOEL@COH.ORG"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-218-3452",
+                            "email": "AJGOEL@COH.ORG"
+                        },
+                        {
+                            "name": "Alessandro Mannucci, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                },
+                {
+                    "facility": "IRCCS San Raffaele",
+                    "status": "RECRUITING",
+                    "city": "Milan",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Giulia Martina Cavestro, MD, PhD",
+                            "role": "CONTACT",
+                            "email": "cavestro.giuliamartina@hsr.it"
+                        },
+                        {
+                            "name": "Alessandro Mannucci, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Giulia Martina Cavestro, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.46427,
+                        "lon": 9.18951
+                    }
+                },
+                {
+                    "facility": "Kawasaki University",
+                    "status": "RECRUITING",
+                    "city": "Kawasaki",
+                    "country": "Japan",
+                    "geoPoint": {
+                        "lat": 35.52056,
+                        "lon": 139.71722
+                    }
+                },
+                {
+                    "facility": "Mie University",
+                    "status": "RECRUITING",
+                    "city": "Mie",
+                    "country": "Japan"
+                },
+                {
+                    "facility": "National Cancer Center Hospital",
+                    "status": "RECRUITING",
+                    "city": "Tokyo",
+                    "country": "Japan",
+                    "geoPoint": {
+                        "lat": 35.6895,
+                        "lon": 139.69171
+                    }
+                },
+                {
+                    "facility": "Tokyo Medical and Dental University",
+                    "status": "RECRUITING",
+                    "city": "Tokyo",
+                    "country": "Japan",
+                    "geoPoint": {
+                        "lat": 35.6895,
+                        "lon": 139.69171
+                    }
+                },
+                {
+                    "facility": "Yamagata University",
+                    "status": "RECRUITING",
+                    "city": "Yamagata",
+                    "country": "Japan",
+                    "geoPoint": {
+                        "lat": 38.23333,
+                        "lon": 140.36667
+                    }
+                },
+                {
+                    "facility": "Barcelona University",
+                    "status": "RECRUITING",
+                    "city": "Barcelona",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Francesc Balaguer, MD, PhD",
+                            "role": "CONTACT",
+                            "email": "fprunes@clinic.cat"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.38879,
+                        "lon": 2.15899
+                    }
+                },
+                {
+                    "facility": "University of La Laguna",
+                    "status": "RECRUITING",
+                    "city": "La Laguna",
+                    "country": "Spain",
+                    "geoPoint": {
+                        "lat": 28.4853,
+                        "lon": -16.32014
+                    }
+                },
+                {
+                    "facility": "Salamanca Biomedical Research Institute",
+                    "status": "RECRUITING",
+                    "city": "Madrid",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Jose Perea, MD",
+                            "role": "CONTACT",
+                            "email": "josepereag@hotmail.com"
+                        },
+                        {
+                            "name": "Jose Perea, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.4165,
+                        "lon": -3.70256
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "30207593",
+                    "type": "BACKGROUND",
+                    "citation": "Bray F, Ferlay J, Soerjomataram I, Siegel RL, Torre LA, Jemal A. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2018 Nov;68(6):394-424. doi: 10.3322/caac.21492. Epub 2018 Sep 12. Erratum In: CA Cancer J Clin. 2020 Jul;70(4):313. doi: 10.3322/caac.21609."
+                },
+                {
+                    "pmid": "33538338",
+                    "type": "BACKGROUND",
+                    "citation": "Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries. CA Cancer J Clin. 2021 May;71(3):209-249. doi: 10.3322/caac.21660. Epub 2021 Feb 4."
+                },
+                {
+                    "pmid": "35090605",
+                    "type": "BACKGROUND",
+                    "citation": "Patel SG, Karlitz JJ, Yen T, Lieu CH, Boland CR. The rising tide of early-onset colorectal cancer: a comprehensive review of epidemiology, clinical features, biology, risk factors, prevention, and early detection. Lancet Gastroenterol Hepatol. 2022 Mar;7(3):262-274. doi: 10.1016/S2468-1253(21)00426-X. Epub 2022 Jan 26."
+                },
+                {
+                    "pmid": "33219329",
+                    "type": "BACKGROUND",
+                    "citation": "Akimoto N, Ugai T, Zhong R, Hamada T, Fujiyoshi K, Giannakis M, Wu K, Cao Y, Ng K, Ogino S. Rising incidence of early-onset colorectal cancer - a call to action. Nat Rev Clin Oncol. 2021 Apr;18(4):230-243. doi: 10.1038/s41571-020-00445-1. Epub 2020 Nov 20."
+                },
+                {
+                    "pmid": "31455888",
+                    "type": "BACKGROUND",
+                    "citation": "Keum N, Giovannucci E. Global burden of colorectal cancer: emerging trends, risk factors and prevention strategies. Nat Rev Gastroenterol Hepatol. 2019 Dec;16(12):713-732. doi: 10.1038/s41575-019-0189-8. Epub 2019 Aug 27."
+                },
+                {
+                    "pmid": "36549470",
+                    "type": "BACKGROUND",
+                    "citation": "Cavestro GM, Mannucci A, Balaguer F, Hampel H, Kupfer SS, Repici A, Sartore-Bianchi A, Seppala TT, Valentini V, Boland CR, Brand RE, Buffart TE, Burke CA, Caccialanza R, Cannizzaro R, Cascinu S, Cercek A, Crosbie EJ, Danese S, Dekker E, Daca-Alvarez M, Deni F, Dominguez-Valentin M, Eng C, Goel A, Guillem JG, Houwen BBSL, Kahi C, Kalady MF, Kastrinos F, Kuhn F, Laghi L, Latchford A, Liska D, Lynch P, Malesci A, Mauri G, Meldolesi E, Moller P, Monahan KJ, Moslein G, Murphy CC, Nass K, Ng K, Oliani C, Papaleo E, Patel SG, Puzzono M, Remo A, Ricciardiello L, Ripamonti CI, Siena S, Singh SK, Stadler ZK, Stanich PP, Syngal S, Turi S, Urso ED, Valle L, Vanni VS, Vilar E, Vitellaro M, You YN, Yurgelun MB, Zuppardo RA, Stoffel EM; Associazione Italiana Familiarita Ereditarieta Tumori; Collaborative Group of the Americas on Inherited Gastrointestinal Cancer; European Hereditary Tumour Group, and the International Society for Gastrointestinal Hereditary Tumours. Delphi Initiative for Early-Onset Colorectal Cancer (DIRECt) International Management Guidelines. Clin Gastroenterol Hepatol. 2023 Mar;21(3):581-603.e33. doi: 10.1016/j.cgh.2022.12.006. Epub 2022 Dec 20."
+                },
+                {
+                    "pmid": "37370811",
+                    "type": "BACKGROUND",
+                    "citation": "Ullah F, Pillai AB, Omar N, Dima D, Harichand S. Early-Onset Colorectal Cancer: Current Insights. Cancers (Basel). 2023 Jun 15;15(12):3202. doi: 10.3390/cancers15123202."
+                },
+                {
+                    "pmid": "37935108",
+                    "type": "BACKGROUND",
+                    "citation": "Syed H, Sommovilla J, Burke CA, McGee S, Macaron C, Heald B, Lyu R, Schmit SL, Nair K, Kamath S, Krishnamurthi S, Khorana AA, Liska D. Referral, Uptake, and Outcome of Genetic Counseling and Testing in Patients With Early-Onset Colorectal Cancer. J Natl Compr Canc Netw. 2023 Nov;21(11):1156-1163.e5. doi: 10.6004/jnccn.2023.7057."
+                },
+                {
+                    "pmid": "32525015",
+                    "type": "BACKGROUND",
+                    "citation": "Boardman LA, Vilar E, You YN, Samadder J. AGA Clinical Practice Update on Young Adult-Onset Colorectal Cancer Diagnosis and Management: Expert Review. Clin Gastroenterol Hepatol. 2020 Oct;18(11):2415-2424. doi: 10.1016/j.cgh.2020.05.058. Epub 2020 Jun 7."
+                },
+                {
+                    "pmid": "34862279",
+                    "type": "BACKGROUND",
+                    "citation": "Rogers CR, Brooks E, Curtin K, De Vera MA, Qeadan F, Rogers TN, Petersen E, Gallagher P, Pesmen C, Johnson W, Henley C, Hickman W, Newcomb E, Korous KM, Handley MA. Protocol for #iBeatCRC: a community-based intervention to increase early-onset colorectal cancer awareness using a sequential explanatory mixed-methods approach. BMJ Open. 2021 Dec 3;11(12):e048959. doi: 10.1136/bmjopen-2021-048959."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data collected for the study will be made available to others, including de-identified participant data, at publication, via a signed data access agreement and at the discretion of the investigators' approval of the proposed use of such data"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000003108",
+                    "term": "Colonic Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "asFound": "Colorectal Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6336",
+                    "name": "Colonic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

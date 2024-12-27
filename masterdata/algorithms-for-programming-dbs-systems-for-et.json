@@ -1,0 +1,249 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03984643",
+            "orgStudyIdInfo": {
+                "id": "CSENG-2018-27182"
+            },
+            "organization": {
+                "fullName": "University of Minnesota",
+                "class": "OTHER"
+            },
+            "briefTitle": "Algorithms for Programming DBS Systems for ET",
+            "officialTitle": "Algorithms for Programming DBS Systems for ET",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "algorithms-for-programming-dbs-systems-for-et"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-10-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-06-10",
+            "studyFirstSubmitQcDate": "2019-06-10",
+            "studyFirstPostDateStruct": {
+                "date": "2019-06-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Minnesota",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Deep brain stimulation (DBS) targeting the Vim thalamus (ventralis intermedius nucleus) is an FDA-approved neuromodulation therapy for treating postural and action tremor in individuals with essential tremor (ET). The success of this treatment, however, is highly dependent on the ability of clinicians to identify therapeutic stimulation settings through a laborious programming process. There is a strong and growing clinical need for new approaches to provide clinicians with more efficient guidance on how to titrate stimulation settings. This study will leverage subject-specific computational models that can predict neural activation of axonal pathways adjacent to the active electrode(s) and implicated in the therapeutic mechanisms of Vim-DBS to in turn guide clinicians with which stimulation settings are likely to be the most therapeutic on tremor.",
+            "detailedDescription": "Primary Endpoint/Event/Outcome:\n\nEndpoint: Identify the neural pathways within the brain that are involved in the reduction of action and postural tremor using directional DBS leads and advanced computational optimization algorithms.\n\nEvent: Using anatomical segmentation of high-field 7-Tesla MRI and diffusion tensor imaging from 25 human ET subjects, the investigators will build prospective subject-specific, multi-compartment neuron models of the afferent and efferent projections from and to the sensorimotor thalamus. Using these models, the investigators will then apply a semi-automated algorithm that can efficiently identify stimulation settings that most selectively target one pathway over other adjacent pathways. Note that these stimulation settings will not exceed the FDA-approved safety limits that are already programmed into the implanted pulse generator. The optimization algorithm defined stimulation settings will then be tested in human ET subjects to compare the therapeutic efficacy and efficiency of DBS targeting the: interposed-receiving area of motor thalamus, dentate-receiving area of motor. Rendering of a 4-channel DBS lead implant in the VIM nucleus (ventralis intermedius nucleus) of thalamus for treating Essential Tremor.\n\nthalamus, pre-lemniscal radiations (raprl) with medial and lateral divisions, and zona incerta, all of which have been implicated in the therapeutic mechanisms of DBS. This clinical evaluation will occur during routine clinical follow-up sessions in which the Essential Tremor Rating Assessment Scale (TETRAS) will serve as the primary form of qualification scoring of each setting tested.\n\nOutcome: The investigators hypothesize that targeting the interposed-receiving region of motor thalamus and in particular the ascending cerebello-thalamic fibers to this region will result in the strongest and most energy-efficient suppression of action and postural tremor."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Essential Tremor"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE",
+                    "maskingDescription": "participants will be blinded to the timing of the experimental settings"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Deep Brain Stimulation",
+                    "type": "EXPERIMENTAL",
+                    "description": "Subjects in this study will have been implanted with a DBS lead in the VIM as part of their routine clinical care and have an existing set of brain MRI's.",
+                    "interventionNames": [
+                        "Device: Vim-Deep Brain Stimulation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Vim-Deep Brain Stimulation",
+                    "description": "This study consists of testing additional model-derived DBS settings during initial and regular follow-up clinical visits every 6 months for up to 2 years in which individuals with DBS implants are re-evaluated by a clinician to make sure that the stimulation settings employed during the previous clinical visit remain therapeutic. It is important to note that this study is post-surgical and all procedures (i.e. stimulation settings that will be tested in the clinic) are within the FDA-approved range of stimulation settings available on the implanted pulse generator.",
+                    "armGroupLabels": [
+                        "Deep Brain Stimulation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Therapeutic Windows",
+                    "description": "Quantify how therapeutic windows (i.e. stimulus amplitude threshold difference between postural and action tremor abolishment and side effect emergence) change over time with human Vim-DBS therapy. During routine clinical evaluation sessions, monopolar stimulation will be applied through each electrode to generate therapeutic window maps and quantify the degree to which stimulus amplitude thresholds for action and postural tremor abolishment and for generating side effects of stimulation (e.g. transient paresthesias) change.",
+                    "timeFrame": "24-months"
+                },
+                {
+                    "measure": "Objective Measures of Tremor",
+                    "description": "Quantify tasks contained in the Essential Tremor Rating Assessment Scale (TETRAS) scoring system. Inertial measurement units (IMUs) will be attached to the limbs and head of the subject to measure tremor while the subject performs tasks associated with the TETRAS scoring scale. The Archimedes spiral task contained in the TETRAS will be quantified by using a digitizing tablet.",
+                    "timeFrame": "24-months"
+                },
+                {
+                    "measure": "Quality of Life Questionnaire: QUEST",
+                    "description": "The Quality of life in Essential Tremor Questionnaire (QUEST) questionnaire consists of 30 items that are rated from 0 (never) to 4 (always), corresponding to the frequency with which tremor is perceived to impact function or to be associated with various feelings and attitudes. The 30 items contribute to five sub scales:\n\nPhysical/ADL, Psychosocial, Communication, Hobbies/Leisure, and Work/Finances. Each sub scale score is expressed as a percentage of the total score possible, with a higher score indicating greater dissatisfaction with that domain. Total score is computed by calculating the mean of the five sub scale scores. Higher score indicates greater disability.",
+                    "timeFrame": "24-months"
+                },
+                {
+                    "measure": "Quality of Life Questionnaire: TETRAS",
+                    "description": "The Essential Tremor Rating Assessment Scale (TETRAS) quantifies the impact of essential tremor (ET) on activities of daily living (ADL) and a performance battery. The ADL section consists of 12 items rating the impact of ET on daily activity, each rated 0 (normal) to 4 (severe), with a maximum subscale score of 48. The performance section has 9 items rating action tremor in different areas of the body from 0 (normal) to 4 (severe), with a maximum subscale score of 64. Total score is an unweighted sum of the two subscale scores. Greater total score indicates worse functioning due to ET.",
+                    "timeFrame": "24-months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* diagnosis of ET\n* medication-refractory tremor\n* VIM-DBS implant (unilateral or bilateral)\n* 7T MRI pre-operative scan under Dr. Harel's IRB (institutional review board) protocol (#1210M22183)\n* Post-operative CT scan\n\nExclusion Criteria:\n\n* history of musculoskeletal disorders that affect movement of the limbs\n* other significant neurological disorder\n* prior history of stereotactic neurosurgery (other than VIM-DBS surgery)\n* pregnancy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Matthew Johnson, PhD",
+                    "role": "CONTACT",
+                    "phone": "6126266492",
+                    "email": "john5101@umn.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Minnesota",
+                    "status": "RECRUITING",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55455",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Matthew Johnson, PhD",
+                            "role": "CONTACT",
+                            "phone": "612-626-6492",
+                            "email": "john5101@umn.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000020329",
+                    "term": "Essential Tremor"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16956",
+                    "name": "Tremor",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22137",
+                    "name": "Essential Tremor",
+                    "asFound": "Essential Tremor",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

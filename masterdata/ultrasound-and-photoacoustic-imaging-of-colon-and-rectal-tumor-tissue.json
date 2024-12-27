@@ -1,0 +1,406 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04339374",
+            "orgStudyIdInfo": {
+                "id": "201707066"
+            },
+            "organization": {
+                "fullName": "Washington University School of Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "Ultrasound and Photoacoustic Imaging of Colon and Rectal Tumor Tissue",
+            "officialTitle": "Pilot Study of Ultrasound and Photoacoustic Imaging of Colon and Rectal Tumor Tissue",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "ultrasound-and-photoacoustic-imaging-of-colon-and-rectal-tumor-tissue"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2017-07-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-03-30",
+            "studyFirstSubmitQcDate": "2020-04-03",
+            "studyFirstPostDateStruct": {
+                "date": "2020-04-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-26",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Washington University School of Medicine",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this pilot study is to a) explore the photoacoustic properties of normal, polypoid, and malignant colorectal tissue and b) demonstrate the functionality of a novel endorectal photoacoustic ultrasound probe in humans with rectal cancer. The study includes two parts. The initial exploratory portion will be conducted ex vivo with resected colon and rectal specimens immediately following surgical excision. Based on those findings, an endorectal probe will then be constructed to examine in vivo tumors. The investigators hypothesize that in vivo photoacoustic imaging will be capable of differentiating normal from malignant tissue."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Rectal Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Ex vivo imaging",
+                    "description": "* Patients with known adenomatous polyps or malignancies in the colon or rectum undergoing resection will be considered for enrollment\n* Participation will include imaging of both normal and known pathologic portions of the specimen ex vivo immediately following resection. The specimen will then undergo fixation and standard pathologic evaluation, with subsequent correlation between imaging and pathologic findings.\n* This data will also be used to develop a convolutional neural network (CNN) to assist in interpreting photoacoustic imaging data.",
+                    "interventionNames": [
+                        "Device: Photoacoustic imaging, photoacoustic microscopy",
+                        "Device: Endorectal photoacoustic imaging probe"
+                    ]
+                },
+                {
+                    "label": "In vivo imaging",
+                    "description": "* Patients with distal rectal lesions (benign or malignant tumors within 15cm of the anal verge) will be enrolled for the in vivo imaging portion of the study\n* Participation will include an intraoperative, in vivo evaluation of the tumor with a novel endorectal photoacoustic ultrasound probe as well as ex vivo imaging post-resection as described above. Following the induction of anesthesia, patients will undergo a 20 minute endorectal imaging evaluation performed by their colorectal surgeon. After imaging, the patient will then undergo standard-of-care surgical resection of the rectum. The resection specimen will then be imaged ex vivo as performed in the \"ex vivo cohort\" of this study.\n* For this portion of the pilot, enrollment will be limited to 40 participants",
+                    "interventionNames": [
+                        "Device: Photoacoustic imaging, photoacoustic microscopy",
+                        "Device: Endorectal photoacoustic imaging probe"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Photoacoustic imaging, photoacoustic microscopy",
+                    "description": "* Emerging technique in which a short-pulsed laser beam penetrates diffusely into a tissue sample, causing the release of acoustic waves due to a transient temperature rise\n* The transient acoustic waves, or photoacoustic waves, are then measured around the sample by US transducers\n* The resolution of the devices can be altered by changing the wavelengths of laser light and spectrum analysis of the receiver. In this manner, human colorectal pathology will be examined under multiple types of photoacoustic ranges (broadly termed photoacoustic microscopy and photoacoustic imaging)\n* The study is strictly observational as specimen imaging will have no impact on the clinical decision-making for the participants",
+                    "armGroupLabels": [
+                        "Ex vivo imaging",
+                        "In vivo imaging"
+                    ],
+                    "otherNames": [
+                        "PAI",
+                        "PAM"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Endorectal photoacoustic imaging probe",
+                    "description": "* Based on data gathered in the ex vivo cohort of patients, an endorectal imaging device using coregistered photoacoustic and ultrasound imaging will be constructed. This probe will then be used to perform in vivo imaging among patients with rectal pathology intraoperatively.\n* The study is strictly observational as specimen imaging will have no impact on the clinical decision-making for the participants",
+                    "armGroupLabels": [
+                        "Ex vivo imaging",
+                        "In vivo imaging"
+                    ],
+                    "otherNames": [
+                        "PAI",
+                        "Coregistered photoacoustic ultrasound imaging",
+                        "PAM"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Area under the receiver operating curve (ROC)",
+                    "description": "-The purpose of this study is to develop and pilot imaging technology that will aid in the differentiation of malignant from normal colorectal tissue. As such, the primary endpoint is the differentiating capability of the endorectal coregistered probe, to be measured as the AUC or area under the receiver operating curve. This primary endpoint to be measured in both the ex vivo and in vivo portions of this study. This will also be used to compare performance of the classification neural network with ultrasound alone compared to ultrasound coupled with photoacoustic techniques.",
+                    "timeFrame": "Approximately 60 minutes"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Characterize both in and ex vivo tissue samples with photoacoustic imaging",
+                    "description": "This outcome will be measured qualitatively by comparing histologic findings to the experimental imaging. The critical features to be analyzed in each image are the cross-sectional structure of normal colorectal tissues in comparison to the loss of a layered structure and its corresponding evenly distributed vascular pattern in the setting of neoplasia.",
+                    "timeFrame": "Approximately 60 minutes"
+                },
+                {
+                    "measure": "Performance characteristics of the novel endorectal ultrasound probe as measured by number of adverse events",
+                    "timeFrame": "Approximately 60 minutes"
+                },
+                {
+                    "measure": "Performance characteristics of the novel endorectal ultrasound probe as measured by evidence of tissue damage from the imaging laser",
+                    "timeFrame": "Approximately 60 minutes"
+                },
+                {
+                    "measure": "Performance characteristics of the novel endorectal ultrasound probe as measured by time required to complete study",
+                    "timeFrame": "Approximately 60 minutes"
+                },
+                {
+                    "measure": "Performance characteristics of the novel endorectal ultrasound probe as measured by variability in image production",
+                    "timeFrame": "Approximately 60 minutes"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with adenomatous polyps or any stage colorectal cancer undergoing surgical resection without intraoperative frozen section analysis\n* Age \\>18 years\n* Able to provide informed consent\n\nAdditional Inclusion Criterion for in vivo imaging\n\n-Lesion located within 15cm of the anal verge\n\nExclusion Criteria:\n\n* Inability to provide consent\n* Collection of intraoperative specimen for frozen section analysis will disqualify patients from participation",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "19 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "-Patients seen at Washington University School of Medicine",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "William Chapman, Jr., M.D.",
+                    "role": "CONTACT",
+                    "phone": "314-454-7177",
+                    "email": "chapmanjr@wustl.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "William Chapman, Jr., M.D.",
+                    "affiliation": "Washington University School of Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Washington University School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "William Chapman, Jr., M.D.",
+                            "role": "CONTACT",
+                            "phone": "314-454-7177",
+                            "email": "chapmanjr@wustl.edu"
+                        },
+                        {
+                            "name": "William Chapman, Jr., M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Quing Zhu, Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Deyali Chatterjee, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Paul Wise, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Matthew Mutch, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "33754826",
+                    "type": "DERIVED",
+                    "citation": "Leng X, Uddin KMS, Chapman W Jr, Luo H, Kou S, Amidi E, Yang G, Chatterjee D, Shetty A, Hunt S, Mutch M, Zhu Q. Assessing Rectal Cancer Treatment Response Using Coregistered Endorectal Photoacoustic and US Imaging Paired with Deep Learning. Radiology. 2021 May;299(2):349-358. doi: 10.1148/radiol.2021202208. Epub 2021 Mar 23."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "Alvin J. Siteman Cancer Center at Barnes-Jewish Hospital and Washington University School of Medicine",
+                    "url": "http://www.siteman.wustl.edu"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "* Data available for sharing - Code and de-identified patient data related to this project will be made available upon request to other academic entities following the publication of project-related results.\n* Data to be shared - Individual participant data, along with code related to the novel neural network developed, that underlie the results reported herein. Data will not be shared until deidentified.\n* With whom will data be shared - academic entities approved by the primary research team",
+            "infoTypes": [
+                "STUDY_PROTOCOL"
+            ],
+            "timeFrame": "Data will be made available to approved persons between 12 and 36 months after publication of these results",
+            "accessCriteria": "* Purpose of accessing data - any purpose allowed.\n* Mechanism for sharing data - data to be shared via institutional file sharing service once appropriate parties have been approved by the research team."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012004",
+                    "term": "Rectal Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14846",
+                    "name": "Rectal Neoplasms",
+                    "asFound": "Rectal Tumor",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4107",
+                    "name": "Anesthetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T120",
+                    "name": "Cola",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "HB",
+                    "name": "Herbal and Botanical"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

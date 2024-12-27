@@ -1,0 +1,252 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05251454",
+            "orgStudyIdInfo": {
+                "id": "SEEG_Stimulation"
+            },
+            "organization": {
+                "fullName": "University of Cincinnati",
+                "class": "OTHER"
+            },
+            "briefTitle": "Studying the Effects of Brain Stimulation on Cognitive Control and Associated EEG in Human Subjects.",
+            "officialTitle": "A Neural Population Model-based Characterization and Modulation of Neural Oscillations Underlying Cognitive Control in Healthy and Depressed/Anxious Human Subjects.",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "studying-the-effects-of-brain-stimulation-on-cognitive-control-and-associated-eeg-in-human-subjects"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-06-20",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-02",
+            "studyFirstSubmitQcDate": "2022-02-11",
+            "studyFirstPostDateStruct": {
+                "date": "2022-02-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Ishita Basu",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "University of Cincinnati"
+            },
+            "leadSponsor": {
+                "name": "University of Cincinnati",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a basic neuroscience study of modulating brain oscillations involved in cognitive control. We will record brain signals and stimulate specific regions of the brain in human participants who are undergoing monitoring for epilepsy surgery. It is not a clinical trial for treating any disease.",
+            "detailedDescription": "Cognitive control is a central element of human cognition that is impaired in several psychiatric diseases. It is closely associated with brain regions that are prominently dysregulated in disease such as the dorsal anterior cingulate cortex (dACC), the dorso-lateral prefrontal cortex (dlPFC), the orbitofrontal cortex (OFC), and the amygdala. Linking cognitive control to specific neural substrates and circuit-level interactions is critical for understanding how control disruptions lead to neurological and psychiatric diseases. This is work that is best done in humans, and so we will study cognitive control using intracranial local field potential recordings in human epilepsy patients. We will study cognitive control in patients who are having electrodes implanted for pre-surgical localization of epileptic seizures. These patients have electrodes in many of the brain regions involved in cognitive control, which is a unique opportunity to record from the human brain at a network level. Participants will perform laboratory tasks that measure cognitive control while we record the brain's electrical activity. The goal of this research proposal is to characterize and model cortical oscillations underlying the conflict resolution aspect of cognitive control in the healthy and anxious/depressed mental states to inform design of neuromodulation interventions for restoration towards healthy mental states. We will take three complimentary approaches to achieve this goal. 1) Using intracranial EEG recorded in epilepsy patients undergoing invasive monitoring for surgical evaluation, we will determine cortical neural oscillations underlying cognitive control in the framework of a conflict task. We will also use this to differentiate between normal and depressed or anxious subjects. 2) We will use a neural population cortical model to simulate and characterize feasible neural mechanisms underlying dlPFC and temporal cortical oscillations observed during conflict processing. We will use a data driven approach for estimating relevant model parameters. 3) We will use the model calibrated to individual subjects to design a cortical electrical stimulation paradigm to modulate the simulated oscillations towards a desired healthy state. We will then validate our model by testing model predictions in 4 human subjects and determine if we can successfully change both neural signals as well as associated behavior.\n\nThis is not a randomized controlled trial. All participants will receive brain recording, and all will receive stimulation once stimulation methods are set up. The randomization will be within subject: some blocks of the task will be performed under different conditions that emphasize different aspects of the control calculation. Some blocks will have brain stimulation, and some will not."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cognitive Deficit"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 5,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Electrical stimulation",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive brief electrical brain stimulation as they perform the study tasks. This will be linked to events occurring on screen and/or to specific changes in their brain activity. The stimulation parameters will be individualized for each participant, but will never exceed safe limits for charge density (30 \u00b5C/phase). They will always be tested beforehand to ensure that they do not cause participants any discomfort or distress.",
+                    "interventionNames": [
+                        "Procedure: Brain Stimulation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Brain Stimulation",
+                    "description": "Participants will receive brief electrical brain stimulation as they perform the study tasks. This will be linked to events occurring on screen and/or to specific changes in their brain activity. The stimulation parameters will be individualized for each participant, but will never exceed safe limits for charge density (30 \u00b5C/phase).",
+                    "armGroupLabels": [
+                        "Electrical stimulation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Electrophysiology",
+                    "description": "We will record local field potential (LFP) data continuously from 100+ electrodes as participants perform cognitive tasks that measure cognitive control. The primary outcome will be how LFP changes in response to changes in cognitive control behavior. This includes multiple sub-measures, such as power at individual electrode sites and connectivity metrics between electrodes.",
+                    "timeFrame": "up to 1 week"
+                },
+                {
+                    "measure": "Cognitive Task Performance",
+                    "description": "Every time a participant performs our cognitive tasks, we will record their response times and whether they responded correctly to a given task trial. These will be collected in blocks, where the optimal strategy changes block to block. We will analyze those responses according to mathematical models that describe different aspects of cognitive control.",
+                    "timeFrame": "up to 1 week"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients who are undergoing electroencephalographic (EEG) monitoring as part of a standard clinical procedure for the treatment of pharmacologically resistant epilepsy at University of Cincinnati Medical Center.\n\nExclusion Criteria:\n\n* Patients who have cognitive or physical impairments that would limit their ability to participate in the cognitive testing will be excluded from the study. Other exclusions include adults unable to consent, non-English speaking patients, children age 17 and younger, pregnant women (note: pregnant women are not candidates for intracranial EEG monitoring), and prisoners.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ishita Basu, PhD",
+                    "role": "CONTACT",
+                    "phone": "5135583991",
+                    "email": "basuia@ucmail.uc.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Cincinnati",
+                    "status": "RECRUITING",
+                    "city": "Cincinnati",
+                    "state": "Ohio",
+                    "zip": "45219",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ishita Basu, PhD",
+                            "role": "CONTACT",
+                            "phone": "217-819-9493",
+                            "email": "basuia@ucmail.uc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.12713,
+                        "lon": -84.51435
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "ANALYTIC_CODE"
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003072",
+                    "term": "Cognition Disorders"
+                },
+                {
+                    "id": "D000060825",
+                    "term": "Cognitive Dysfunction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29705",
+                    "name": "Cognitive Dysfunction",
+                    "asFound": "Cognitive Deficits",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7058",
+                    "name": "Depression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6301",
+                    "name": "Cognition Disorders",
+                    "asFound": "Cognitive Deficits",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

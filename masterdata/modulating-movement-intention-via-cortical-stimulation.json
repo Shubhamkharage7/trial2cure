@@ -1,0 +1,323 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03233399",
+            "orgStudyIdInfo": {
+                "id": "16-01859"
+            },
+            "organization": {
+                "fullName": "NYU Langone Health",
+                "class": "OTHER"
+            },
+            "briefTitle": "Modulating Movement Intention Via Cortical Stimulation",
+            "officialTitle": "Modulating Movement Intention Via Cortical Stimulation in Healthy Subjects and Patients With Psychogenic Movement Disorders and Non-epileptic Seizures",
+            "therapeuticArea": [
+                "Other",
+                "Neurology"
+            ],
+            "study": "modulating-movement-intention-via-cortical-stimulation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2017-07-20",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2017-07-24",
+            "studyFirstSubmitQcDate": "2017-07-25",
+            "studyFirstPostDateStruct": {
+                "date": "2017-07-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-27",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "NYU Langone Health",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this protocol is to learn about movement intention and volition. To improve such knowledge, investigators will conduct sub-studies using multiple non-invasive methodologies. These results could provide preliminary data for subsequent studies evaluating local and global efficacy of plasticity-inducing treatments for PMD symptoms.",
+            "detailedDescription": "This study will:\n\n* Explore effects of TMS and tDCS on movement intention.\n* Discern the neural activity underlying modulation of movement intention with neuroimaging recording.\n* Identify brain stimulation's effect in patients with psychogenic tremor and non-epileptic seizures.\n* Technical development of new experimental paradigms and data analysis methods.\n* Data collection for hypotheses development."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Seizures",
+                "Seizure Disorder",
+                "Psychogenic Movement Disorder"
+            ],
+            "keywords": [
+                "Electroencephalography",
+                "Magnetoencephalography",
+                "Transcranial Magnetic Stimulation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Healthy Patients",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "All healthy volunteers will complete the healthy volunteer form, MRI safety screening form, and the Montreal Cognitive Assessment (MOCA).",
+                    "interventionNames": [
+                        "Device: Sham TMS3 stimulation",
+                        "Device: rTMS of left or right angular gyrus (AG) or frontal cortex (FC)",
+                        "Device: Anodal tDCS of left or right AG or FC"
+                    ]
+                },
+                {
+                    "label": "PMD/PNES patients",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "PMD and PNES subjects will be referred by the treating",
+                    "interventionNames": [
+                        "Device: Sham TMS3 stimulation",
+                        "Device: rTMS of left or right angular gyrus (AG) or frontal cortex (FC)",
+                        "Device: Anodal tDCS of left or right AG or FC"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Sham TMS3 stimulation",
+                    "description": "half of the subjects will receive sham stimulation first",
+                    "armGroupLabels": [
+                        "Healthy Patients",
+                        "PMD/PNES patients"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "rTMS of left or right angular gyrus (AG) or frontal cortex (FC)",
+                    "description": "Half of the subjects will receive active stimulation first; A subject may receive either TMS or tDCS stimulation, but not both, over the course of the sub-study.",
+                    "armGroupLabels": [
+                        "Healthy Patients",
+                        "PMD/PNES patients"
+                    ],
+                    "otherNames": [
+                        "45 Minutes"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Anodal tDCS of left or right AG or FC",
+                    "description": "Half of the subjects will receive active stimulation first; A subject may receive either TMS or tDCS stimulation, but not both, over the course of the sub-study.",
+                    "armGroupLabels": [
+                        "Healthy Patients",
+                        "PMD/PNES patients"
+                    ],
+                    "otherNames": [
+                        "30 Minutes"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Changes in signal intensity measured using of tDCS",
+                    "description": "as a result of altering cerebral perfusion in response to neurophysiologic stimulation",
+                    "timeFrame": "30 Minutes"
+                },
+                {
+                    "measure": "Changes in signal intensity measured during EEG recording",
+                    "description": "as a result of altering cerebral perfusion in response to neurophysiologic stimulation",
+                    "timeFrame": "3 Hours"
+                },
+                {
+                    "measure": "Changes in signal intensity measured during MEG",
+                    "description": "as a result of altering cerebral perfusion in response to neurophysiologic stimulation",
+                    "timeFrame": "3 Hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n(Healthy Controls)\n\n* Fluent in English\n\n(Patients with PMD or PNES):\n\n* Diagnosis of PMD/PNES confirmed by a neurologist with expertise in movement disorders.\n* Per the treating neurologist, subject is unlikely to require treatment and/or dosage changes for 3-6 months following screening\n\nExclusion Criteria:\n\n* Any history of a significant neurological disorder, which may interfere with the interpretation of study data, as determined by the PI\n* Chronic or progressive medical condition\n* Any history of traumatic brain injury or significant head trauma\n* Currently meets criteria for substance abuse or dependence\n* History of any psychotic disorder or other psychiatric condition which may interfere with data interpretation\n* Pregnancy\n* Metal or devices in the head, including neurostimulators or metal foreign bodies\n* Any other implanted metal device, including pacemaker, spinal cord stimulator, VNS.\n* Any other ferromagnetic substance in the body that may increase study risk (including dental prosthetics, etc.).\n* Taking tricyclic antidepressant or antiepileptic medications or CNS active drugs under \"strong potential hazard\" list in Rossi et al., 2009\n* Current diagnosis of any inflammatory or autoimmune disorder within last 6 months\n\nPMD and PNES Patients\n\n* Any history of traumatic brain injury or significant head trauma\n* Diagnosis of organic seizure disorder, including febrile seizures and tonic-clonic seizures;\n* Neurological disorder other than PMD and PNES including stroke, fainting spells or syncope of unknown cause(s);\n* Major or unstable medical illness, especially any current diagnosis of inflammatory or autoimmune disorders within last 6 months\n* Metal or devices in the head, including neurostimulators or metal foreign bodies\n* Taking tricyclic antidepressant medications or CNS active drugs under \"strong potential hazard\" list in Rossi et al., 2009;\n* Diagnosis of dementia, or Montreal Cognitive Assessment (MoCA) \u226424;\n* Recurrent visual hallucinations, within the past 6 months;\n* History of significant uncontrollable movements of the head;\n* Any clinically significant abnormality on vital signs",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Nalini Jeet",
+                    "role": "CONTACT",
+                    "phone": "(212) 263-0228",
+                    "email": "Nalini.Jeet@nyulangone.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Biyu He, MD",
+                    "affiliation": "NYU Langone Health",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "New York University School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Steven Stork",
+                            "role": "CONTACT",
+                            "phone": "212-263-0001",
+                            "email": "steven.stork@nyumc.org"
+                        },
+                        {
+                            "name": "Biyu He, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012640",
+                    "term": "Seizures"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000004827",
+                    "term": "Epilepsy"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "asFound": "Movement Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7983",
+                    "name": "Epilepsy",
+                    "asFound": "Seizure Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15452",
+                    "name": "Seizures",
+                    "asFound": "Seizures",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

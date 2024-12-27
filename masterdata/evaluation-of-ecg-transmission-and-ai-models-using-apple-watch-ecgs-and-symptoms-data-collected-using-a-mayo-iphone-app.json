@@ -1,0 +1,254 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05324566",
+            "orgStudyIdInfo": {
+                "id": "21-001964"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Evaluation of ECG Transmission and AI Models Using Apple Watch ECGs and Symptoms Data Collected Using a Mayo iPhone App",
+            "officialTitle": "EvALuation of ECG Transmission and AI moDels Using Apple Watch ECGs and Symptoms Data Collected usiNg a Mayo iPhone App",
+            "therapeuticArea": [
+                "Cardiovascular",
+                "Other"
+            ],
+            "study": "evaluation-of-ecg-transmission-and-ai-models-using-apple-watch-ecgs-and-symptoms-data-collected-using-a-mayo-iphone-app"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-05-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-22",
+            "studyFirstSubmitQcDate": "2022-04-05",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Paul A. Friedman",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of the study is to determine if the Electrocardiograms (ECGs) and symptoms data obtained from an Apple Watch and transmitted to Mayo Clinic are of sufficient quality to guide a person's care.",
+            "detailedDescription": "1. Patients who have the Mayo Clinic patient app and iOS 14 or higher who are 18 years of age or older will be invited to enroll.\n2. Patient will undergo email survey to assess ownership of Apple Watch v4 or later, and subsequent willingness to participate in the study. Those who agree will undergo digital consent and enrollment.\n3. A customized Mayo Clinic Study App will be available to download to their iOS device and will be used to test whether it is feasible to access ECGs and symptoms data patients have collected using their personal Apple watch that are saved on the patient's phone. The study app will facilitate transmission of past and future patient-recorded watch ECGs.\n4. The patient ECGs and self-reported symptoms data will be uploaded to the AI Dashboard in the patient's medical record (ECG rhythm classification facilitated by Apple ECG program).\n5. We will perform a retrospective review of electronic medical record data from enrolled subjects to assess the quality of the Apple Watch obtained ECGs, assess the results from the AI-ECG dashboard using obtained watch ECGs, and compare these results to prior or subsequently obtained 12 lead ECGs.\n6. Data analysis will be performed with steps to ensure patient confidentiality. Data will be transmitted using similar protocols as with current app data, and all data will be saved in the secure Mayo Clinic electronic environment (called the UDP).\n7. All patients' watch data will be compared to AI dashboard data. Additionally, clinical data in the EMR (such as blood tests, echocardiograms, and other data recorded for routine medical care) will be used to assess the utility of the watch ECG quality for AI algorithms (such as determining whether a weak heart pump is present, for example)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure",
+                "Arrhythmias, Cardiac",
+                "Health Care Utilization"
+            ],
+            "keywords": [
+                "digital health",
+                "artificial intellegence",
+                "neural network",
+                "electrocardiogram",
+                "wearable device"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "12 Months",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1000000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Patients with ECG-capable Apple Watch",
+                    "description": "Patients who own an Apple Watch series 4 or later willing to record and upload personal ECGs to our study App"
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of patient-triggered Apple Watch ECGs recorded",
+                    "description": "Total number of patient-triggered Apple Watch ECGs recorded and uploaded by individual patients over the study period.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Frequency of medical providers accessing Apple Watch data",
+                    "description": "Number of times a medical provider accesses the Apple Watch data via electronic medical record-linked ECG dashboard.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Number of Apple Watch ECGs of acceptable quality",
+                    "description": "A sample of Apple Watch ECGs will undergo manual review by ECG technicians and rated using a standard data form for signal quality and diagnostic utility, summarized as the percent of \"acceptable\" ECGs.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Performance of Artificial Intelligence ECG algorithms for disease prediction with Apple Watch ECGs",
+                    "description": "Artificial Intelligence ECG algorithms to predict various cardiac pathologies will be applied to Apple Watch ECGs. Accuracy and performance of AI algorithm models will be assessed by comparing AI predicted disease and patient's given medical diagnosis in the electronic medical record.",
+                    "timeFrame": "12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n- Using the Mayo patient iPhone app. (determined automatically via Mayo software).\n\nExclusion Criteria:\n\n- Inability to provide informed consent.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients in the general public who own ECG-capable Apple Watches",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jennifer Dugan, BA",
+                    "role": "CONTACT",
+                    "phone": "507-538-1125",
+                    "email": "dugan.jennifer@mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Paul Friedman, MD",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic Rochester",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jennifer Dugan, BA",
+                            "role": "CONTACT",
+                            "phone": "507-538-1125",
+                            "email": "dugan.jennifer@mayo.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Due to patient confidentiality and IRB rules, we will not make individual patient data available"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "asFound": "Arrhythmias, Cardiac",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

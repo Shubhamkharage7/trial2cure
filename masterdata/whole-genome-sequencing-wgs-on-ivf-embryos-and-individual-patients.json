@@ -1,0 +1,296 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05739890",
+            "orgStudyIdInfo": {
+                "id": "RP-GE_02"
+            },
+            "organization": {
+                "fullName": "GenEmbryomics Pty. Ltd",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Whole Genome Sequencing (WGS) on IVF Embryos and Individual Patients",
+            "officialTitle": "Study of the Effect of Paternal Age on de Novo Mutation Rate by Using Whole Genome Sequencing of IVF Embryos",
+            "acronym": "EmbryoWGS",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "whole-genome-sequencing-wgs-on-ivf-embryos-and-individual-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-06-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-03",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-02-13",
+            "studyFirstSubmitQcDate": "2023-02-13",
+            "studyFirstPostDateStruct": {
+                "date": "2023-02-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-09-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "GenEmbryomics Pty. Ltd",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This research project aims to utilise recent advances in whole genome sequencing of preimplantation genetic diagnosis embryos to investigate the impact of paternal age on de novo mutation rates in IVF embryos. Embryos that are deemed unsuitable for transfer following preimplantation genetic testing for monogenic/single gene disorders (PGT-M) due to the detection of genetic abnormalities will be utilized for this study. These embryos will undergo re-biopsy, and both the biopsied samples as well as the remaining embryo tissue will be subject to whole genome sequencing. This will allow the assessment of de novo mutation rates based on the paternal age.",
+            "detailedDescription": "This project proposes a paired non-inferiority trial utilizing the retrospective testing of research embryos to establish the optimized parameters for amplified trophectoderm biopsy and whole genome sequencing compared to traditional preimplantation genetic testing for aneuploidy (PGT-A).\n\nThe primary outcome is the de novo mutation rate, which will be compared between embryos subjected to trophectoderm biopsy and whole genome sequencing versus reanalysis with Sanger sequencing. Trio testing will be performed for each embryo using DNA from the genetic parents in addition to embryo. The study will compare cases that include couples with at least one embryo deemed unsuitable for transfer. A paired study design will be used, with embryos from each couple split into two arms - one subjected to trophectoderm biopsy and whole genome sequencing, the other to reanalysis with targeted sequencing.\n\nBiopsied trophectoderm samples and the remaining embryo tissues from the whole genome sequencing arm will undergo sequencing. Sequencing will also be performed on DNA samples from each genetic parent.\n\nDerivation of de novo mutation rates is a key goal, as these provide insights into effects of paternal age and other factors on germline mutations in preimplantation embryos, increasing the knowledge of the risks associated with advanced paternal age. Secondary metrics will be investigated to supplement the analysis, including clean reads and clean bases indicating the amount of high-quality data for the source templates. Mapping rate, unique rate and duplicate rate, assessing data accuracy and quality. Comparison of multiple metrics will determine the optimized parameters for performing amplified trophectoderm biopsy and whole genome sequencing. This can then inform future research and clinical studies.\n\nThe de novo mutation rate will be derived by modelling the observed mutation rate as a function of parental ages, specifically the paternal age. Whole genome sequencing of embryo samples as well as both parents will identify raw numbers of de novo mutations. The paternal age coefficient for the de novo mutation rate will be calculated using a regression model with the number of de novo mutations as the dependent variable and paternal age as the key independent variable. Covariates like maternal age and sequencing quality metrics will also be included to account for potential confounding factors. The regression model will determine the increase in de novo mutations per year of paternal age, providing the paternal age coefficient. Comparing embryos from older and younger males will reveal differences in mutation rates. The overall model will establish the quantitative relationship between paternal age and de novo mutations in preimplantation embryos based on the study's whole genome sequencing data."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Fertility Issues",
+                "Single-Gene Defects"
+            ],
+            "keywords": [
+                "Genome Sequencing IVF"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "1 Day",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "OTHER"
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Age >18yrs",
+                    "description": "The study will compare embryos from \\>50 couples and their embryo samples flagged not suitable for transfer from deidentified couples with date of birth required.",
+                    "interventionNames": [
+                        "Other: Embryo genome sequencing",
+                        "Other: Parents genome sequencing"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Embryo genome sequencing",
+                    "description": "This project proposes the testing of a cohort of research embryos to establish the key parameters for amplified trophectoderm biopsied embryos using minimum depth required for genome sequencing (\\>depth of 30x per base).The remaining embryo tissue will be whole genome sequenced to validate the results of the biopsy.",
+                    "armGroupLabels": [
+                        "Age >18yrs"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Parents genome sequencing",
+                    "description": "Analysis will be performed using trio testing of each embryo in addition to the DNA from the genetic parent to facilitate the derivation of de novo mutation rate.",
+                    "armGroupLabels": [
+                        "Age >18yrs"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "De novo mutation rates",
+                    "description": "Metrics for investigation include: clean reads, clean bases (Mp), mapping rate, unique rate, duplicate rate, mismatch rate, average sequencing depth, Ti/Tv (Transition/ Transversion) ratio, true-positive rate, false-positive rate, false-negative rate which enables the derivation of de novo mutation rates.",
+                    "timeFrame": "Month 6"
+                },
+                {
+                    "measure": "Variant pathogenicity, Zygosity and mode of inheritance",
+                    "description": "Variant pathogenicity; the zygosity and mode of inheritance will be assessed and documented for validation of variant calls for heritable and non-inherited variants. There will be an examination of the sequencing data from the embryo cohort by using the parental genomes as a validation reference. Initially this will focus on single nucleotide polymorphisms (SNPs) and small insertions/deletions (Indels).",
+                    "timeFrame": "Month 6"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Couples undergoing IVF with 1\u2265 embryo sample unsuitable for transfer due to genetic or chromosome abnormalities.\n\nCases with parental DNA available directly or consenting follow-up.\n\nExclusion Criteria:\n\n* Female patients with low ovarian reserve (\\< 10 follicles or FSH\\>10, AMH \\<1).",
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "48 Years",
+            "stdAges": [
+                "ADULT"
+            ],
+            "studyPopulation": "Couples undergoing IVF with 1\u2265 embryo sample unsuitable for transfer due to genetic or chromosome abnormalities.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Santiago Munn\u00e9, PhD",
+                    "role": "CONTACT",
+                    "phone": "+1-646-2072897",
+                    "email": "santiago.munne@gmail.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Nicholas Murphy, PhD",
+                    "affiliation": "GenEmbryomics Pty. Ltd",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Neway Fertility",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10024",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "ORM Fertility",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97205",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                },
+                {
+                    "facility": "Poma Fertility",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Kirkland",
+                    "state": "Washington",
+                    "zip": "98034",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 47.68149,
+                        "lon": -122.20874
+                    }
+                },
+                {
+                    "facility": "Preimplantation Genetic Testing Unit ART and Reproductive Genetics Unit, Memorial Sisli Hospital",
+                    "status": "RECRUITING",
+                    "city": "Istanbul",
+                    "state": "Okmeydani-Sisli",
+                    "zip": "34385",
+                    "country": "Turkey",
+                    "contacts": [
+                        {
+                            "name": "Semra Kahraman, M.D.",
+                            "role": "CONTACT",
+                            "phone": "90 212 314 6666"
+                        },
+                        {
+                            "name": "Murat Cetinkaya, M.D., PhD",
+                            "role": "CONTACT",
+                            "phone": "+90 533 266 42 24",
+                            "email": "muratcetinkaya01@gmail.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.01384,
+                        "lon": 28.94966
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data sharing plan will be defined once results are available."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007246",
+                    "term": "Infertility"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10290",
+                    "name": "Infertility",
+                    "asFound": "Fertility Issues",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "asFound": "Single-Gene Defects",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

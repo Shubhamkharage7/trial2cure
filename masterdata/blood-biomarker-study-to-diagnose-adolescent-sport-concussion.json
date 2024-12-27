@@ -1,0 +1,412 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05287997",
+            "orgStudyIdInfo": {
+                "id": "NLI01"
+            },
+            "organization": {
+                "fullName": "Neurolytixs",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Blood Biomarker Study to Diagnose Adolescent Sport Concussion",
+            "officialTitle": "A 2-Part Capillary Blood Biomarker Cohort Study to Diagnose Adolescent Sport Concussion",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "blood-biomarker-study-to-diagnose-adolescent-sport-concussion"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-06-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2023-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-22",
+            "studyFirstSubmitQcDate": "2022-03-09",
+            "studyFirstPostDateStruct": {
+                "date": "2022-03-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-03-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-04-04",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Neurolytixs",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Concussions are one of the most complex conditions to manage in sport medicine due to the individualized clinical presentation, caused by a complex neurometabolic cascade, and the lack of a diagnostic standard. There is currently no objective measurement for concussion and the reliance on subjective reporting and clinical judgement is imperfect.\n\nIn previous clinical studies the investigators determined cutoff values of plasma phosphatidylcholines that provided strong indication that a concussion had occurred. Based on this data, the investigators have developed a custom assay, which will work together with a capillary blood collection device. The current clinical trial will be conducted in two parts. Part A will allow the investigators to determine precise AUC cut-off values for the propriety, novel custom assay, and in Part B the investigators will assess the safety and efficacy of this device for concussion diagnosis in adolescent athletes aged 13-17."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Brain Concussion"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Participants will enrol into the Baseline Arm of the study. Participants will attend all Baseline Visits unless they experience a concussion at which point, they will transition to the Concussion Arm for further follow-up.",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 150,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Baseline",
+                    "type": "OTHER",
+                    "description": "Participants in this arm will be evaluated at 3 time periods. Initial pre-season visit, mid-season visit and end-of-season visit. Capillary blood sample collection will occur at each visit.",
+                    "interventionNames": [
+                        "Diagnostic Test: Neurolytixs Index"
+                    ]
+                },
+                {
+                    "label": "Concussion",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants in this arm will transition from the baseline arm to the concussion arm if they experience a concussion during the course of the sporting season. They will be evaluated with 72 hours of the injury and then at 2-, 4-, and 12-weeks post-injury. Capillary blood sample collection will occur at each visit.",
+                    "interventionNames": [
+                        "Diagnostic Test: Neurolytixs Index"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Neurolytixs Index",
+                    "description": "Capillary blood sample will be collected on a dried plasma sample (DPS) filter paper. The sample will be sent to a central laboratory where they will undergo metabolite extraction and analysis via mass spectrometry.",
+                    "armGroupLabels": [
+                        "Baseline",
+                        "Concussion"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Part A: Calculate population reference ranges for 10 phosphatidylcholines (PC) specific to Neurolytixs assay kit.",
+                    "description": "Population reference values will be determined with the standard definition of a reference range as the interval between which 95% of values of a reference population fall into, in such a way that 2.5% of the time a value will be less than the lower limit of this interval, and 2.5% of the time it will be larger than the upper limit of this interval, whatever the distribution of these values. Measured PC values will be plotted against both sex and the age of participants to which the PCs were measured.",
+                    "timeFrame": "End of Part A (4-6 months)"
+                },
+                {
+                    "measure": "Part A: Generate Area Under the Curve (AUC) values specific to the Neurolytixs assay kit",
+                    "description": "Generate AUC values for 10 phosphatidylcholines (PCs) for use in Part B",
+                    "timeFrame": "End of Part A (4-6 months)"
+                },
+                {
+                    "measure": "Part B: Determine efficacy of Neurolytixs assay kit for diagnosing adolescent sports concussion",
+                    "description": "The change of at least 1 PC below the cutoff threshold (determined in Part A)",
+                    "timeFrame": "12-72 hours post-injury"
+                },
+                {
+                    "measure": "Part B: Determine safety of the Neurolytixs assay kit for adolescent sports concussion",
+                    "description": "Calculate the number of false negatives (concussions that are not captured by the assay",
+                    "timeFrame": "Through study completion, up to 1 year"
+                },
+                {
+                    "measure": "Part B: Determine safety of the Neurolytixs assay kit for adolescent sports concussion",
+                    "description": "Calculate the number of false positives identified by the assay",
+                    "timeFrame": "Through study completion, up to 1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Part B: Determine whether repeated plasma PC measurements over time correlate with injury symptom resolution or clinical recovery",
+                    "description": "Sensitivity and specificity of the assay compared to diagnosis via the SCAT5",
+                    "timeFrame": "12 weeks post-injury"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC1",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC2",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC3",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC4",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC5",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC6",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC7",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC8",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC9",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Part B: Compare proportion of males and females with a change in PC10",
+                    "description": "Comparison between proportions of sexes diagnosed with concussion and their corresponding PC levels",
+                    "timeFrame": "12 weeks post-injury"
+                },
+                {
+                    "measure": "Number of Unanticipated Adverse Device Effects",
+                    "description": "Frequency of UADEs",
+                    "timeFrame": "Through study completion, up to 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of signed and dated informed consent/assent form\n2. Stated willingness to comply with all study procedures and availability for the duration of the study\n3. Male or female athletes, aged 13-17 inclusive\n\nExclusion Criteria:\n\n1. Individuals who have suffered a known concussion within the 6 months prior to enrollment\n2. Individuals who suffer from an acute neurological disorder\n3. Known pregnancy",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "13 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+                "CHILD"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Saoirse Cameron, MA",
+                    "role": "CONTACT",
+                    "phone": "5198600462",
+                    "email": "scameron@neurolytixs.com"
+                },
+                {
+                    "name": "Michael Robinson, PhD",
+                    "role": "CONTACT",
+                    "phone": "5196368285",
+                    "email": "mrobinson@neurolytixs.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Douglas D Fraser, MD/PhD",
+                    "affiliation": "Neurolytixs",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Legacy Center Sports Complex",
+                    "status": "RECRUITING",
+                    "city": "Brighton",
+                    "state": "Michigan",
+                    "zip": "48116",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Cori Crocker",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.52948,
+                        "lon": -83.78022
+                    }
+                },
+                {
+                    "facility": "The Hill Academy",
+                    "status": "RECRUITING",
+                    "city": "Caledon",
+                    "state": "Ontario",
+                    "zip": "L7K 1S7",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Jennifer Bell",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.8501,
+                        "lon": -79.99966
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001924",
+                    "term": "Brain Concussion"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000070642",
+                    "term": "Brain Injuries, Traumatic"
+                },
+                {
+                    "id": "D000001930",
+                    "term": "Brain Injuries"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000006259",
+                    "term": "Craniocerebral Trauma"
+                },
+                {
+                    "id": "D000020196",
+                    "term": "Trauma, Nervous System"
+                },
+                {
+                    "id": "D000016489",
+                    "term": "Head Injuries, Closed"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                },
+                {
+                    "id": "D000014949",
+                    "term": "Wounds, Nonpenetrating"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5201",
+                    "name": "Brain Concussion",
+                    "asFound": "Brain Concussion",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5207",
+                    "name": "Brain Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M628",
+                    "name": "Brain Injuries, Traumatic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9349",
+                    "name": "Craniocerebral Trauma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22023",
+                    "name": "Trauma, Nervous System",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18892",
+                    "name": "Head Injuries, Closed",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17687",
+                    "name": "Wounds, Nonpenetrating",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

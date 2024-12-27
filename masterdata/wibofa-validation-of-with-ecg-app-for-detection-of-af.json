@@ -1,0 +1,298 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06351761",
+            "orgStudyIdInfo": {
+                "id": "SCT02-ECG"
+            },
+            "organization": {
+                "fullName": "Withings",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "WIBOFA - Validation of SCT02 With ECG-App for Detection of AF",
+            "officialTitle": "Validation of Withings BeamO With Withings ECG-App for the Detection of Atrial Fibrillation",
+            "acronym": "WIBOFA",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "wibofa-validation-of-with-ecg-app-for-detection-of-af"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-13",
+            "studyFirstSubmitQcDate": "2024-04-04",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Withings",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The aim of the study is to evaluate the performance of Withings SCT02 with embedded Withings ECG-app in the automatic detection of atrial fibrillation"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Atrial Fibrillation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 270,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Normal Sinus Rhythm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Simultaneous ECG recording of patient with Normal Sinus Rhythm with investigational and reference devices",
+                    "interventionNames": [
+                        "Device: Investigational Device (Withings SCT02) 30 second Electrocardiogram recording",
+                        "Device: Reference Device (Schiller Cardiovit FT-1) 30 second Electrocardiogram recording"
+                    ]
+                },
+                {
+                    "label": "Atrial Fibrillation",
+                    "type": "EXPERIMENTAL",
+                    "description": "Simultaneous ECG recording of patient with Atrial Fibrillation with investigational and reference devices",
+                    "interventionNames": [
+                        "Device: Investigational Device (Withings SCT02) 30 second Electrocardiogram recording",
+                        "Device: Reference Device (Schiller Cardiovit FT-1) 30 second Electrocardiogram recording"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Investigational Device (Withings SCT02) 30 second Electrocardiogram recording",
+                    "description": "30 second ECG recording with investigational device (Withings SCT02)",
+                    "armGroupLabels": [
+                        "Atrial Fibrillation",
+                        "Normal Sinus Rhythm"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Reference Device (Schiller Cardiovit FT-1) 30 second Electrocardiogram recording",
+                    "description": "30 second ECG recording with reference device (Schiller Cardiovit FT-1)",
+                    "armGroupLabels": [
+                        "Atrial Fibrillation",
+                        "Normal Sinus Rhythm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Co-primary outcome 1 - Sensitivity of Investigational Device",
+                    "description": "Sensitivity (percentage of true positives) in detecting AF from conclusive recordings generated by the software under test, that is recordings resulting in a classification of AF or SR by the IMD, compared to the reference 12-lead ECG.",
+                    "timeFrame": "10 months"
+                },
+                {
+                    "measure": "Co-primary outcome 2 - Specificity of Investigational Device",
+                    "description": "Specificity (percentage of true negatives) in detecting AF from conclusive recordings generated by the software under test, that is recordings resulting in a classification of AF or SR by the IMD, compared to the reference 12-lead ECG.",
+                    "timeFrame": "10 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Rhythm classification by ranges of heart rate",
+                    "description": "On pairs of strips such that the rhythm classification of the 12-lead ECG is either SR or AF and such that the strip generated by the IMD is classified as either SR or AF, the classification into four heart rate subgroups will be evaluated.\n\n* Sinus Rhythm, (50-99 bpm)\n* High Heart Rate (No signs of AFib) (100-150 bpm)\n* Atrial Fibrillation (50-99 bpm),\n* Atrial Fibrillation (100-150 bpm)",
+                    "timeFrame": "10 months"
+                },
+                {
+                    "measure": "Quality of plots measured by the IMD - ECG Waveform Visibility",
+                    "description": "Clinical Equivalence of ECG waveforms will be qualitatively and quantitatively assessed between the 1-lead generated by the IMD and the lead I of the 12-lead reference ECG determined by certified cardiologists. Equivalence will be evaluated by FV : Fraction of concordant assessments of visibility between the IMD and the reference",
+                    "timeFrame": "10 months"
+                },
+                {
+                    "measure": "Quality of plots measured by the IMD - ECG Waveforms Polarity",
+                    "description": "On waveforms with waves that are Visible, Clinical Equivalence of ECG waveforms will be qualitatively and quantitatively assessed between the 1-lead generated by the IMD and the lead I of the 12-lead reference ECG determined by certified cardiologists. Equivalence will be evaluated by FP : Fraction of concordant assessment of polarity between IMD and reference",
+                    "timeFrame": "10 months"
+                },
+                {
+                    "measure": "Quality of plots measured by the IMD - ECG Waveforms Intervals",
+                    "description": "Determine the equivalence of PR, QRS and QT intervals durations between the lead I of the IMD and the lead I of the reference ECG determined by an independent board of certified cardiologists. Duration error will be calculated.",
+                    "timeFrame": "10 months"
+                },
+                {
+                    "measure": "Quality of plots measured by the IMD - Heart Rate calculation",
+                    "description": "Determine the equivalence of the heart rate (HR) calculated by the IMD and the HR measured by an independent board of certified cardiologists or cardiology technicians on the ECG of the reference.",
+                    "timeFrame": "10 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female who are 22 years of age or older\n* Subject able to read, understand, and provide written informed consent\n* Subject willing and able to participate in the study procedures as described in the consent form\n* Subject able to communicate effectively with and willing to follow instructions from the study staff\n\nExclusion Criteria:\n\n* Subject with an implanted electrical device (i.e. pacemaker, ICD ...), whether active or inactive\n* Pathologic disorders that may affect motricity resulting in significant hands tremor that prevents subject from being able to hold still (e.g. Parkinson disease)\n* Myocardial Infarction (MI) within 90 days prior to the enrollment\n* Pulmonary embolism or pulmonary infarction within 90 days prior to the enrollment\n* Stroke or Transient Ischemic Attack (TIA) within 90 days prior to the enrollment\n* Active or history of life-threatening rhythms as determined by investigators (e.g. ventricular tachycardia, ventricular fibrillation, 3rd degree heart block)\n* Any cardiovascular disease that investigators would consider as a risk to subject or renders data uninterpretable (e.g. recent or ongoing unstable angina, decompensated heart failure, active myocarditis or pericarditis)\n* Active or symptomatic skin disease on Schiller electrode attachment sites or fingertips which would be in contact with BeamO electrodes (e.g. eczema, rosacea, impetigo, dermatomyositis or allergic contact dermatitis)\n* Known sensitivity to medical adhesives, isopropyl alcohol,, electrocardiogram (ECG) electrodes, including known allergy or sensitivity to stainless steel (used in BeamO electrodes).",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "22 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "David Campo",
+                    "role": "CONTACT",
+                    "phone": "+33 1.41.46.04.60",
+                    "email": "clinical-trials@withings.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "FWD Clinical Research",
+                    "city": "Boca Raton",
+                    "state": "Florida",
+                    "zip": "33486",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 26.3669,
+                        "lon": -80.13033
+                    }
+                },
+                {
+                    "facility": "Diverse Clinical Research",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33175",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Henri Mondor University Hospital",
+                    "city": "Cr\u00e9teil",
+                    "state": "Val De Marne",
+                    "zip": "94000",
+                    "country": "France",
+                    "geoPoint": {
+                        "lat": 48.78333,
+                        "lon": 2.46667
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001281",
+                    "term": "Atrial Fibrillation"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4586",
+                    "name": "Atrial Fibrillation",
+                    "asFound": "Atrial Fibrillation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

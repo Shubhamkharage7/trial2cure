@@ -1,0 +1,452 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05123001",
+            "orgStudyIdInfo": {
+                "id": "IRB-60459"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "CCT5049",
+                    "type": "OTHER",
+                    "domain": "OnCore"
+                },
+                {
+                    "id": "NCI-2022-00603",
+                    "type": "REGISTRY",
+                    "domain": "CTRP"
+                }
+            ],
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Wearable Sensors and Molecular Omics to Detect and Mitigate Cell Therapy Adverse Events",
+            "officialTitle": "Wearable Sensors and Molecular Omics to Detect and Mitigate Cell Therapy Adverse Events",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "wearable-sensors-and-molecular-omics-to-detect-and-mitigate-cell-therapy-adverse-events"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-07-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-10-29",
+            "studyFirstSubmitQcDate": "2021-11-12",
+            "studyFirstPostDateStruct": {
+                "date": "2021-11-17",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-12",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to monitor physiological and molecular changes during and following CAR-T cancer cell therapy, towards improved management of adverse events including Cytokine Release Syndrome and neurotoxicity.\n\nOur study aims are to improved early detection and precise management of adverse events for patients receiving Chimeric antigen receptor T- cell (CAR-T):\n\n1. To assess the feasibility, including accuracy, usability, and usefulness of wearable sensors in CAR-T patients.\n2. To generate comprehensive multiomic profile analysis following CAR-T therapy.\n3. To perform integrated analysis of wearables sensor data, omics data, and symptom/clinical data."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hodgkin Lymphoma",
+                "Non Hodgkin Lymphoma",
+                "Leukemia",
+                "Multiple Myeloma"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 15,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Device physiological monitoring",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients will receive wearable sensor devices (Biostrap arm band)",
+                    "interventionNames": [
+                        "Device: Biostrap arm band"
+                    ]
+                },
+                {
+                    "label": "Microsampling",
+                    "type": "NO_INTERVENTION",
+                    "description": "Blood microsamples will be collected at start of conditioning chemotherapy, daily while in the hospital, and after leaving the hospital and outpatient appointments."
+                },
+                {
+                    "label": "Biostrap mobile App",
+                    "type": "NO_INTERVENTION",
+                    "description": "Data collection from wearable sensor."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Biostrap arm band",
+                    "description": "The Biostrap mobile app will connect with the Biostrap arm band and temperature sensor.",
+                    "armGroupLabels": [
+                        "Device physiological monitoring"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Monitoring heart rate data",
+                    "timeFrame": "28 days"
+                },
+                {
+                    "measure": "Monitoring temperature data",
+                    "timeFrame": "28 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Microsampling",
+                    "description": "microsample device collects up to 200 microliters (0.04 teaspoons) of blood from the upper arm",
+                    "timeFrame": "28 days"
+                },
+                {
+                    "measure": "Safety of wearable devices",
+                    "description": "Safety will be measured by skin irritation, rash. Will be assessed using CTCAE criteria version 5 to evaluate by any adverse event definitely, probably or possibly related to the wearable devices",
+                    "timeFrame": "28 days"
+                },
+                {
+                    "measure": "Safety of the microsampling device",
+                    "description": "Microsampling will be measured by process such as minor bruising, bleeding, or infection. Will be assessed using CTCAE criteria version 5 to evaluate by any adverse event definitely, probably or possibly related to the wearable devices",
+                    "timeFrame": "28 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participant must be in the process of undergoing cancer cell therapy at Stanford University.\n\n  * Adults \\> 18 years\n  * Any cell target may be used. (e.g. CD19, CD22, Bispecific CD19/22, Bispecific CD19/20, etc.)\n  * English speaking\n  * Assessed ability for caregiver/patient to use wearable devices and independently perform blood microsample collection\n\nExclusion Criteria:\n\n* In the investigator's judgment, the subject is unlikely to comply with all protocolrequired study visits or procedures.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sharan Claire",
+                    "role": "CONTACT",
+                    "phone": "650-721-4091",
+                    "email": "sharanclaire@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Surbhi Sidana",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University",
+                    "status": "RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94305",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sharan Claire",
+                            "role": "CONTACT",
+                            "phone": "650-721-4091",
+                            "email": "sharanclaire@stanford.edu"
+                        },
+                        {
+                            "name": "Surbhi Sidana, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Michael P. Snyder, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "David Miklos, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Matthew Frank, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Theresa Latchford, MS",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ryan Kellogg, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008223",
+                    "term": "Lymphoma"
+                },
+                {
+                    "id": "D000009101",
+                    "term": "Multiple Myeloma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                },
+                {
+                    "id": "D000008206",
+                    "term": "Lymphatic Diseases"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                },
+                {
+                    "id": "D000054219",
+                    "term": "Neoplasms, Plasma Cell"
+                },
+                {
+                    "id": "D000020141",
+                    "term": "Hemostatic Disorders"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010265",
+                    "term": "Paraproteinemias"
+                },
+                {
+                    "id": "D000001796",
+                    "term": "Blood Protein Disorders"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000006474",
+                    "term": "Hemorrhagic Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11220",
+                    "name": "Lymphoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10945",
+                    "name": "Leukemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12058",
+                    "name": "Multiple Myeloma",
+                    "asFound": "Multiple Myeloma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27588",
+                    "name": "Neoplasms, Plasma Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9751",
+                    "name": "Hodgkin Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11203",
+                    "name": "Lymphatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21977",
+                    "name": "Hemostatic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5059",
+                    "name": "Blood Coagulation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13178",
+                    "name": "Paraproteinemias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5077",
+                    "name": "Blood Protein Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9560",
+                    "name": "Hemorrhagic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3543",
+                    "name": "Lymphosarcoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3947",
+                    "name": "Multiple Myeloma",
+                    "asFound": "Multiple Myeloma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2817",
+                    "name": "Hodgkin Lymphoma",
+                    "asFound": "Hodgkin Lymphoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

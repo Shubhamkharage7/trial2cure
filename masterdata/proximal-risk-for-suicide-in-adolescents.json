@@ -1,0 +1,250 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06400810",
+            "orgStudyIdInfo": {
+                "id": "STUDY00022262"
+            },
+            "organization": {
+                "fullName": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Proximal Risk for Suicide in Adolescents",
+            "officialTitle": "Proximal Risk for Suicide in Adolescents",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "proximal-risk-for-suicide-in-adolescents"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-06-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-07-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-17",
+            "studyFirstSubmitQcDate": "2024-05-01",
+            "studyFirstPostDateStruct": {
+                "date": "2024-05-06",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Dr. David Sheridan",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Oregon Health and Science University"
+            },
+            "leadSponsor": {
+                "name": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Analog Device, Inc.",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The central hypothesis is that biometric data can continuously monitor and allow for early identification/intervention of escalating suicidal symptoms. The rationale is that improved outpatient monitoring through wearable technology can create a more objective platform to provide the ability to identify a worsening condition and utilize patient-specific just-in-time therapeutics developed with mental health providers for suicidal adolescents.",
+            "detailedDescription": "Suicide rates have exponentially increased, and it is now the 2nd leading cause of death in adolescence, accounting for over 1.2 million annual emergency department (ED) visits. After an ED visit or attempt, up to 20% of adolescents will have a second attempt within 12 months, and almost half will have a repeat ED visit. This proposal's overall objectives are to investigate physiologic parameters and biometric data from wearable technology that is temporally related to suicidal behavior and develop a personalized, predictive tool that can improve outpatient identification of adolescent patients with suicidality before a crisis develops requiring an ED visit. The central hypothesis is that biometric data can continuously monitor and allow for early identification/intervention of escalating suicidal symptoms. The rationale is that improved outpatient monitoring through wearable technology can create a more objective platform to provide the ability to identify a worsening condition and utilize patient-specific just-in-time therapeutics developed with mental health providers for suicidal adolescents. To attain the overall objectives, I will pursue the following specific aims: (i) To evaluate whether HRV, combined with patient-specific risk factors, can be used to detect dynamic changes in suicide severity among a prospective cohort of acutely suicidal adolescents, (ii) To utilize machine learning to determine whether there is a temporal relationship/signature in the raw PPG signal before or immediately after changes in suicide severity reporting combined with patient-specific risk factors to develop a prediction tool for suicidality risk. These aims will be accomplished in three years through a prospective observational study enrolling acutely suicidal adolescents in the ED and an inpatient psychiatric unit. Ultimately, such knowledge can offer unique opportunities for early detection, just-in-time interventions, and support over 1.2 million suicidal adolescents presenting to EDs nationally."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Suicide",
+                "Mental Health Issue"
+            ],
+            "keywords": [
+                "adolescent",
+                "emergency"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 144,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Suicidal Adolescent",
+                    "description": "he study will enroll subjects aged 13-17 years admitted with a chief complaint of acute suicidality or attempt. Patients will undergo physiologic and biometric monitoring in the hospital with a wrist-wearable device and chest wall ECG leads. They will undergo serial assessment four times daily to gather data regarding their activities, affect, and suicidality.",
+                    "interventionNames": [
+                        "Device: Analog Devices Inc."
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Analog Devices Inc.",
+                    "description": "Wearable wrist device that collects Photoplethysmography, accelerometer data among other parameters.",
+                    "armGroupLabels": [
+                        "Suicidal Adolescent"
+                    ],
+                    "otherNames": [
+                        "Analog"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Heart rate variability and Suicidality",
+                    "description": "Prediction of Suicidality outcome measured by the Columbia Suicide Severity scale (higher score means more suicidal)",
+                    "timeFrame": "Four times daily up to one week"
+                },
+                {
+                    "measure": "Heart rate variability and Suicidality",
+                    "description": "Prediction of Suicidality outcome measured by the High Frequency Heart Rate Variability Metric (lower score means less parasympathetic response)",
+                    "timeFrame": "Four times daily up to one week"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* subjects aged 13-17 years\n* presenting to the ED or inpatient psychiatric unit with a chief complaint of acute suicidality or attempt.\n\nExclusion Criteria:\n\n* acutely agitated patients per the treating physician\n* adolescents who are not medically cleared from a suicide attempt\n* no legally authorized representative available to provide consent\n* parental report of significant developmental delay or autism diagnosis\n* prisoners\n* non-English speaking.",
+            "sex": "ALL",
+            "minimumAge": "13 Years",
+            "maximumAge": "17 Years",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "All suicidal adolescents presenting with acute suicidality.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "David Sheridan, MD",
+                    "role": "CONTACT",
+                    "phone": "503-494-1691",
+                    "email": "sheridda@ohsu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "David Sheridan, MD",
+                    "affiliation": "Oregon Health and Science University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "OHSU",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David C Sheridan, MD",
+                            "role": "CONTACT",
+                            "phone": "503-494-1691",
+                            "email": "sheridda@Ohsu.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013405",
+                    "term": "Suicide"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000016728",
+                    "term": "Self-Injurious Behavior"
+                },
+                {
+                    "id": "D000001526",
+                    "term": "Behavioral Symptoms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7796",
+                    "name": "Emergencies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16191",
+                    "name": "Suicide",
+                    "asFound": "Suicide",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19089",
+                    "name": "Self-Injurious Behavior",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4818",
+                    "name": "Behavioral Symptoms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

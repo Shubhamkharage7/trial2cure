@@ -1,0 +1,338 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05858320",
+            "orgStudyIdInfo": {
+                "id": "HUM00227631"
+            },
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "The Impact of an Adaptive Patient-centered Web Application on Medication Optimization in HFrEF Patients",
+            "officialTitle": "The Impact of an Adaptive Patient-centered Web Application on Medication Optimization in HFrEF Patients (SmartHF)",
+            "acronym": "SmartHF",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "the-impact-of-an-adaptive-patient-centered-web-application-on-medication-optimization-in-hfref-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-07-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-01",
+            "studyFirstSubmitQcDate": "2023-05-10",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-13",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Michael Dorsch",
+                "investigatorTitle": "Associate Professor of Pharmacy, College of Pharmacy and Clinical Pharmacist, University of Michigan Inpatient Pharmacy Services",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Washington University, Barns Jewish Hospital, St. Louis, MO",
+                    "class": "UNKNOWN"
+                },
+                {
+                    "name": "Henry Ford Hospital, Detroit, MI",
+                    "class": "UNKNOWN"
+                },
+                {
+                    "name": "Emory University, Grady Hospital, Atlanta, GA",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The SmartHF study is a 12-week prospective randomized controlled multicenter clinical trial. This study will investigate the efficacy of an adaptive web application to facilitate guideline-directed medical therapy (GDMT) optimization in HFrEF patients. Eligible participants will be randomized to the web application intervention or control in a 1:1 manner, stratified by site.\n\nThe intervention is an adaptive medication optimization web application that extracts and analyzes the EHR data with a computable medication optimization algorithm. The algorithm provides a medication quality score and outputs medication optimization recommendations written in a patient -friendly manner.",
+            "detailedDescription": "The investigators have developed an adaptive medication optimization web application, named SmartHF, that provides patients with tailored information about potential HFrEF GDMT optimization. SmartHF guides patients to share the GDMT optimization recommendations with their provider during a clinic visit.\n\nParticipants will be randomized to receive the web application intervention or control up to 30 days before a clinic visit in a 1:1 manner and followed for 12 weeks after the clinic visit. This trial will determine the efficacy of SmartHF in prescribing GDMT in HFrEF patients compared to controls."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 225,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "SmartHF application",
+                    "type": "EXPERIMENTAL",
+                    "description": "The web application-based study intervention provides adaptive medication recommendations that can be shared with their HF provider.",
+                    "interventionNames": [
+                        "Other: SmartHF application"
+                    ]
+                },
+                {
+                    "label": "Control - Patients Standard Medication(s)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "No change to current medication(s)",
+                    "interventionNames": [
+                        "Other: SmartHF application"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "SmartHF application",
+                    "description": "Adaptive medication recommendations that can be shared with the participants HF provider.",
+                    "armGroupLabels": [
+                        "Control - Patients Standard Medication(s)",
+                        "SmartHF application"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Primary Endpoint: Change in GDMT medication score",
+                    "description": "Change in GDMT medication score generated by the computable algorithm from baseline to Week 12",
+                    "timeFrame": "Baseline to Week 12"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Secondary Endpoint: Level of agreement between the medication optimization algorithm recommendations and actual GDMT prescribed",
+                    "description": "The level of agreement between the medication optimization algorithm recommendations (Yes/No) and actual GDMT prescribed (Yes/No)",
+                    "timeFrame": "Over 12 Weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18 years and older at screening\n2. Diagnosis of heart failure with a left ventricular ejection fraction (LVEF) \\</= 40% (HFrEF)\n3. Have a general medicine provider or general cardiology provider for HFrEF\n4. Have internet access and access to their health system's patient portal\n5. Fluent in spoken and written English\n6. At least two of the following: systolic blood pressure \u2265 110mmg, potassium \u2264 5.5, serum creatinine \u2264 2.5, heart rate \u2265 70\n7. At least two eligible heart failure therapies (guideline-recommended BB, RASI, MRA, or SGLT2i) not yet initiated or below 50% of the target dose\n\nExclusion Criteria:\n\n1. End-stage HF (hospice candidate)\n2. Actively treated cancer, except non-melanoma skin cancer\n3. Implanted ventricular assist device\n4. Current treatment with chronic inotropic therapy\n5. Patient's provider for HFrEF care is considered an advanced HF specialist\n6. Currently pregnant or intends to become pregnant during the study period\n7. Dialysis",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Mike Dorsch, PharmD, MS",
+                    "role": "CONTACT",
+                    "phone": "734-647-1452",
+                    "email": "mdorsch@med.umich.edu"
+                },
+                {
+                    "name": "Kaitlyn Greer",
+                    "role": "CONTACT",
+                    "email": "kmgreer@med.umich.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Emory University, Grady Hospital",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30303",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Modele Ogunniyi, MD, MPH",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "University of Michigan",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mike Dorsch, PharmD, MS",
+                            "role": "CONTACT",
+                            "phone": "734-647-1452",
+                            "email": "mdorsch@med.umich.edu"
+                        },
+                        {
+                            "name": "Kaitlyn Greer",
+                            "role": "CONTACT",
+                            "email": "kmgreer@med.umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                },
+                {
+                    "facility": "Henry Ford Hospital and Health System",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Khaled Abdul-Nour, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Trinity Healthcare St. Joseph Mercy Ann Arbor",
+                    "status": "RECRUITING",
+                    "city": "Ypsilanti",
+                    "state": "Michigan",
+                    "zip": "48197",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ahmad Mizyed, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.24115,
+                        "lon": -83.61299
+                    }
+                },
+                {
+                    "facility": "Washington University, Barns Jewish Hospital",
+                    "status": "RECRUITING",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Gregory Ewald, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Dorsch MP, Sifuentes A, Cordwin DJ, Kuo R, Rowell BE, Arzac JJ, DeBacker K, Guidi JL, Hummel SL, Koelling TM. A Computable Algorithm for Medication Optimization in Heart Failure With Reduced Ejection Fraction. JACC: Advances. Published online April 12, 2023:100289."
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

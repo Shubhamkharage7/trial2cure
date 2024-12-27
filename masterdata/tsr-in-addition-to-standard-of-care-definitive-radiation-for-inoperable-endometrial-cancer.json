@@ -1,0 +1,476 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03955978",
+            "orgStudyIdInfo": {
+                "id": "201907060"
+            },
+            "organization": {
+                "fullName": "Washington University School of Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "TSR-042 in Addition to Standard of Care Definitive Radiation for Inoperable Endometrial Cancer",
+            "officialTitle": "A Phase I Study of PD-1 Inhibition With TSR-042 in Addition to Standard of Care Definitive Radiation for Inoperable Endometrial Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "tsr-in-addition-to-standard-of-care-definitive-radiation-for-inoperable-endometrial-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-10-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-07-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-05-13",
+            "studyFirstSubmitQcDate": "2019-05-17",
+            "studyFirstPostDateStruct": {
+                "date": "2019-05-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-26",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-28",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Washington University School of Medicine",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Tesaro, Inc.",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Patients with inoperable endometrial cancer have limited treatment options. PD-L1 expression is common in endometrial cancers and RT induces tumor and systemic changes that induce the immune system. The purpose of this trial is to evaluate anti-PD-1/PD-L1 axis therapy in conjunction of standard of care RT for patients with inoperable endometrial cancer in order to establish the safety and efficacy of inducing an anti-tumor immune response."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Endometrial Cancer",
+                "Cancer of the Endometrium"
+            ],
+            "keywords": [
+                "Immune checkpoint inhibition",
+                "Radiation-induced immune response",
+                "CyTOF"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 18,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "TSR-042 and Brachytherapy",
+                    "type": "EXPERIMENTAL",
+                    "description": "* Patients will receive four doses of TSR-042. The first dose is given 21 days prior to the first planned brachytherapy fraction. The second dose is given 21 (+3) days later, corresponding to the time of brachytherapy fraction #1. The third dose is given 21 (+3) days after dose 2, corresponding to the time of brachytherapy fraction #4. The fourth dose is given 21 (+3) days after dose corresponding to 1 weeks after brachytherapy fraction #6.\n* Brachytherapy will consist of 6 weekly fractions of 6 Gy per fraction (total 36Gy)",
+                    "interventionNames": [
+                        "Drug: TSR-042",
+                        "Radiation: Brachytherapy",
+                        "Procedure: Endometrial biopsy",
+                        "Procedure: Blood draw for immune response"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "TSR-042",
+                    "description": "-TSR-042 is administered intravenously via a 30-minute (-5-minute/+15-minute infusion window allowed) infusion",
+                    "armGroupLabels": [
+                        "TSR-042 and Brachytherapy"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Brachytherapy",
+                    "description": "-This trial will include image-guided brachytherapy with three-dimensional (3-D) treatment planning and in cases where pelvic radiation is deemed appropriate by the treating radiation oncologist, external beam radiation therapy (EBRT) using intensity modulated radiation therapy (IMRT) technique.",
+                    "armGroupLabels": [
+                        "TSR-042 and Brachytherapy"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Endometrial biopsy",
+                    "description": "-Prior to the start of treatment with TSR-042. If this biopsy yields insufficient tumor tissue, an archival sample may be requested, with Fraction 1 of brachytherapy, with Fraction 4 of brachytherapy",
+                    "armGroupLabels": [
+                        "TSR-042 and Brachytherapy"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Blood draw for immune response",
+                    "description": "-Prior to the start of any treatment, at the time of brachytherapy fractions 1 and 4 (corresponding to endometrial biopsy), prior to fourth dose of TSR-042, 6 weeks after the completion of all protocol related therapy",
+                    "armGroupLabels": [
+                        "TSR-042 and Brachytherapy"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Safety and tolerability of the regimen as measured by the grade of toxicities experienced as assessed by CTCAE v5.0",
+                    "timeFrame": "6 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Progression-free survival (PFS)",
+                    "description": "PFS is defined as the time from last TSR-042 administration to disease progression or death. Response and progression will be evaluated in this study in a qualitative fashion by symptoms (such as bleeding, abdominal or pelvic pain, changes of bowel or bladder habits lasting more than two weeks), clinical exam and/or evidence of disease on imaging by RECIST 1.1 as not all patients will have measurable disease at baseline on imaging. Persistent/recurrent clinical disease will be confirmed by biopsy whenever possible.",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Newly diagnosed biopsy proven The International Federation of Gynecology and Obstetrics (FIGO) clinical stage I or II endometrial carcinoma.\n* Histology of FIGO grade 1-3 endometrioid endometrial carcinoma.\n* Medically inoperable per treating gynecologic oncologist.\n* Candidate for definitive radiation therapy as determined by treating radiation oncologist.\n* At least 18 years of age.\n* Eastern Cooperative Oncology Group (ECOG) performance status \u2264 2\n* Participant must have adequate organ function, defined as follows:\n\n  * Absolute neutrophil count \u2265 1,500/\u00b5L\n  * Platelets \u2265 100,000/\u00b5L\n  * Hemoglobin \u2265 9 g/dL; transfusion is allowed to meet this criterion\n  * Serum creatinine \u2264 1.5 x upper limit of normal (ULN) or calculated creatinine clearance 60mL/min using the Cockcroft-Gault equation\n  * Total bilirubin \u2264 1.5 x ULN (\u22642.0 in patients with known Gilberts syndrome) OR direct bilirubin \u2264 1 x ULN\n  * Aspartate aminotransferase and alanine aminotransferase \u2264 2.5 x ULN unless liver metastases are present, in which case they must be \u2264 5 x ULN\n  * International normalized ratio (INR) or prothrombin time (PT) \u22641.5\u00d7 ULN unless patient is receiving anticoagulant therapy as long as PT or partial thromboplastin (PTT) is within therapeutic range of intended use of anticoagulants. Activated partial thromboplastin time (aPTT) \u22641.5\u00d7 ULN unless patient is receiving anticoagulant therapy as long as PT or PTT is within therapeutic range of intended use of anticoagulants\n* Participant receiving corticosteroids may continue as long as their dose is stable for at least 4 weeks prior to initiating protocol therapy.\n* Participant must agree to not donate blood during the study or for 90 days after the last dose of study treatment.\n* Female participant has a negative serum pregnancy test the day of and prior to taking study treatment if of childbearing potential and agrees to abstain from activities that could result in pregnancy from screening through 180 days after the last dose of study treatment, or is of non-childbearing potential. Non-childbearing potential is defined as follows (by other than medical reasons):\n\n  \\*\u226545 years of age and has not had menses for \\>1 year\n  * Patients who have been amenorrhoeic for \\<2 years without history of a hysterectomy and oophorectomy must have a follicle stimulating hormone value in the postmenopausal range upon screening evaluation.\n  * Post-bilateral oophorectomy, or post-tubal ligation. Documented oophorectomy must be confirmed with medical records of the actual procedure or confirmed by an ultrasound. Tubal ligation must be confirmed with medical records of the actual procedure, otherwise the patient must be willing to use 2 adequate barrier methods throughout the study, starting with the screening visit through 180 days after the last dose of study treatment. See Section 4.4 for a list of acceptable birth control methods. Information must be captured appropriately within the site's source documents.\n  * Note: Abstinence is acceptable if this is the established and preferred contraception for the patient.\n* Participant must agree to not breastfeed during the study or for 180 days after the last dose of study treatment.\n* Ability to understand and willingness to sign an IRB approved written informed consent document (or that of legally authorized representative, if applicable).\n\nExclusion Criteria:\n\n* Any prior treatment for endometrial cancer or currently receiving chemotherapy for endometrial cancer.\n* Evidence of metastatic disease outside of the cervix or uterus as determined on CT or MRI.\n* A history of other malignancy \u2264 3 years previous with the exception of basal cell or squamous cell carcinoma of the skin which were treated with local resection only.\n* Previous treatment with an anti-PD-1, anti-PD-L1, or any PD-L2 drug.\n* Known brain or leptomeningeal metastases. Patients with known brain metastases must be excluded from this clinical trial because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events.\n* A history of allergic reactions attributed to compounds of similar chemical or biologic composition to TSR-042 or other agents used in the study.\n* Pregnant and/or breastfeeding. Women of childbearing potential must have a negative pregnancy test within 7 days of study entry.\n* Participant must not be simultaneously enrolled in any interventional clinical trial\n* Participant must not have had major surgery \u2264 3 weeks prior to initiating protocol therapy and participant must have recovered from any surgical effects.\n* Participant must not have received investigational therapy \u2264 4 weeks, or within a time interval less than at least 5 half-lives of the investigational agent, whichever is shorter, prior initiating protocol therapy.\n* Participant has had radiation therapy encompassing \\>20% of the bone marrow within 2 weeks; or any radiation therapy within 1 week prior to Day 1 of protocol therapy.\n* Participant must not have a serious, uncontrolled medical disorder, nonmalignant systemic disease, or active, uncontrolled infection. Examples include, but are not limited to, uncontrolled ventricular arrhythmia, recent (within 90 days) myocardial infarction, chronic obstructive pulmonary disease, uncontrolled major seizure disorder, unstable spinal cord compression, superior vena cava syndrome, or any psychiatric disorder that prohibits obtaining informed consent.\n* Patient experienced \u2265 Grade 3 immune-related AE with prior immunotherapy, with the exception of non-clinically significant lab abnormalities.\n* Participant has a diagnosis of immunodeficiency or has receiving systemic steroid therapy or any other form of immunosuppressive therapy within 7 days prior to initiating protocol therapy.\n* Participant has a known history of human immunodeficiency virus (type 1 or 2 antibodies).\n* Participant has known active hepatitis B (eg, hepatitis B surface antigen \\[HBsAg\\] reactive) or hepatitis C (eg, hepatitis C virus \\[HCV\\] ribonucleic acid \\[qualitative\\] is detected).\n* Participant has an active autoimmune disease that has required systemic treatment in the past 2 years (ie, with use of disease-modifying agents, corticosteroids, or immunomodulatory drugs). Replacement therapy (eg, thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment.\n* Participant must not have a history of interstitial lung disease.\n* Participant has received a live vaccine within 14 days of initiating protocol therapy.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Stephanie Markovina, M.D., Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "314-747-1786",
+                    "email": "smarkovina@wustl.edu"
+                },
+                {
+                    "name": "Premal Thaker, M.D.",
+                    "role": "CONTACT",
+                    "phone": "314-362-3181",
+                    "email": "thakerp@wustl.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Stephanie Markovina, M.D, Ph.D.",
+                    "affiliation": "Washington University School of Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Washington University School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Stephanie Markovina, M.D., Ph.D.",
+                            "role": "CONTACT",
+                            "phone": "314-747-1786",
+                            "email": "smarkovina@wustl.edu"
+                        },
+                        {
+                            "name": "Premal Thaker, M.D.",
+                            "role": "CONTACT",
+                            "phone": "314-362-3181",
+                            "email": "thakerp@wustl.edu"
+                        },
+                        {
+                            "name": "Stephanie Markovina, M.D., Ph.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Premal Thaker, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "David G Mutch, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Matthew A Powell, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Leslie S Massad, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Andrea R Hagemann, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Carolyn K McCourt, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Mary M Mullen, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Lindsay M Kuroki, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Julie K Schwarz, M.D., Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Dino Khabele, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jin Zhang, Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yi Huang, M.S.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jessika Contreras, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "26743834",
+                    "type": "BACKGROUND",
+                    "citation": "Acharya S, Esthappan J, Badiyan S, DeWees TA, Tanderup K, Schwarz JK, Grigsby PW. Medically inoperable endometrial cancer in patients with a high body mass index (BMI): Patterns of failure after 3-D image-based high dose rate (HDR) brachytherapy. Radiother Oncol. 2016 Jan;118(1):167-72. doi: 10.1016/j.radonc.2015.12.019. Epub 2015 Dec 29."
+                },
+                {
+                    "pmid": "26433823",
+                    "type": "BACKGROUND",
+                    "citation": "Sharabi AB, Lim M, DeWeese TL, Drake CG. Radiation and checkpoint blockade immunotherapy: radiosensitisation and potential mechanisms of synergy. Lancet Oncol. 2015 Oct;16(13):e498-509. doi: 10.1016/S1470-2045(15)00007-8."
+                },
+                {
+                    "pmid": "28018989",
+                    "type": "BACKGROUND",
+                    "citation": "Spiotto M, Fu YX, Weichselbaum RR. The intersection of radiotherapy and immunotherapy: mechanisms and clinical implications. Sci Immunol. 2016 Sep;1(3):EAAG1266. doi: 10.1126/sciimmunol.aag1266. Epub 2016 Sep 30."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "Alvin J. Siteman Cancer Center at Barnes-Jewish Hospital and Washington University School of Medicine",
+                    "url": "http://www.siteman.wustl.edu"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000016889",
+                    "term": "Endometrial Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014594",
+                    "term": "Uterine Neoplasms"
+                },
+                {
+                    "id": "D000005833",
+                    "term": "Genital Neoplasms, Female"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000014591",
+                    "term": "Uterine Diseases"
+                },
+                {
+                    "id": "D000005831",
+                    "term": "Genital Diseases, Female"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M19235",
+                    "name": "Endometrial Neoplasms",
+                    "asFound": "Endometrial Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17342",
+                    "name": "Uterine Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8945",
+                    "name": "Genital Neoplasms, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17339",
+                    "name": "Uterine Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8943",
+                    "name": "Genital Diseases, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000719628",
+                    "term": "Dostarlimab"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M353292",
+                    "name": "Dostarlimab",
+                    "asFound": "801",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

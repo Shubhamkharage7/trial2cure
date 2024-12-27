@@ -1,0 +1,531 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04545957",
+            "orgStudyIdInfo": {
+                "id": "19-759"
+            },
+            "organization": {
+                "fullName": "Dana-Farber Cancer Institute",
+                "class": "OTHER"
+            },
+            "briefTitle": "Jump: MR Simulation For Radiation Therapy Master Protocol",
+            "officialTitle": "Judging MR Simulation Procedures: A Phase I-II Study of the Use of Magnetic Resonance Imaging Simulation in the Planning of Radiation Treatments",
+            "acronym": "JUMP",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "jump-mr-simulation-for-radiation-therapy-master-protocol"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-10-14",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-10-22",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-09-04",
+            "studyFirstSubmitQcDate": "2020-09-04",
+            "studyFirstPostDateStruct": {
+                "date": "2020-09-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-13",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Raymond Mak, MD",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Dana-Farber Cancer Institute"
+            },
+            "leadSponsor": {
+                "name": "Dana-Farber Cancer Institute",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a master protocol for a prospective Phase I-II study evaluating feasibility and efficacy of incorporating magnetic resonance imaging (MRI) simulation into the planning of radiation treatments.",
+            "detailedDescription": "This is a Phase I/II clinical trial. A Phase I clinical trial tests the feasibility and safety of an investigational intervention. \"Investigational\" means that the process targeting high doses of radiation to the tumor based on MRI is still being studied. This research study is a Feasibility Study, which means it is the first-time investigators at this institution are examining this type of MR-guided dose planning. The U.S. Food and Drug Administration (FDA) has cleared MRI planning for use.\n\n* In Phase I of this study, will prospectively determine the feasibility of using an MRI simulator to plan radiation therapy.\n* In Phase II, the efficacy of adjusting RT based on MRI simulation will be explored, either by utilizing an MRI-simulation and synthetic CT to plan treatment or by dose-painting based on functional MRI data"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer",
+                "Recurrent Adenocarcinoma",
+                "Liver Cancer",
+                "Head and Neck Cancer"
+            ],
+            "keywords": [
+                "Prostate Cancer",
+                "Recurrent Adenocarcinoma",
+                "Liver Cancer",
+                "Head and Neck Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 86,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Phase I MRI Simulation",
+                    "type": "EXPERIMENTAL",
+                    "description": "This research study involves a screening period to determine eligibility.\n\n- Radiation mapping to define the target for radiation.acquiring MR data at the specified timepoint in a patient's care plan and ability to identify the radiation target and develop a radiation therapy plan on the MR data.",
+                    "interventionNames": [
+                        "Device: MRI Simulator",
+                        "Radiation: Radiation Therapy"
+                    ]
+                },
+                {
+                    "label": "Phase II MR Simulation Protocol: Track A",
+                    "type": "EXPERIMENTAL",
+                    "description": "MR-only Radiation Therapy Simulation MRI-simulation and synthetic CT to plan treatment",
+                    "interventionNames": [
+                        "Device: MRI Simulator",
+                        "Radiation: Radiation Therapy"
+                    ]
+                },
+                {
+                    "label": "Phase II MR Simulation Protocol: Track B",
+                    "type": "EXPERIMENTAL",
+                    "description": "Adjusted Margin or / Dose Painted RT Based on Imaging of MR Simulator (e.g. biological imaging or higher resolution imaging)",
+                    "interventionNames": [
+                        "Device: MRI Simulator",
+                        "Radiation: Radiation Therapy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "MRI Simulator",
+                    "description": "Radiation mapping to define the target for radiation.acquiring MR data at the specified timepoint in a patient's care plan and ability to identify the radiation target and develop a radiation therapy plan on the MR data.",
+                    "armGroupLabels": [
+                        "Phase I MRI Simulation",
+                        "Phase II MR Simulation Protocol: Track A",
+                        "Phase II MR Simulation Protocol: Track B"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Radiation Therapy",
+                    "description": "In Phase I, radiation will be institutional standard per disease site. In Phase II, either radiation according to MR-based dose painting or adjusted RT. These adjusted doses and/or RT will vary per disease site and will be pre-specified in the subprotocols.",
+                    "armGroupLabels": [
+                        "Phase I MRI Simulation",
+                        "Phase II MR Simulation Protocol: Track A",
+                        "Phase II MR Simulation Protocol: Track B"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Feasibility of acquiring MRI simulation prior to radiation therapy planning",
+                    "description": "Feasibility is defined as successfully enrolling patients, successfully acquiring MR data at the specified timepoint in a patient's care plan and ability to identify the radiation target and develop a radiation therapy plan on the MR data",
+                    "timeFrame": "1 Year"
+                },
+                {
+                    "measure": "Proportion of patients with QOL decline exceeding 2 x MID",
+                    "description": "12 points; MID of the EPIC-26 urinary irritative/obstructive domain is 6 points) measured by EPIC-26 urinary irritation/obstruction domain from baseline to 2 years",
+                    "timeFrame": "baseline up to 24 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of Participants With Treatment-Related Adverse Events as Assessed by CTCAE v4.0",
+                    "timeFrame": "24 Months"
+                },
+                {
+                    "measure": "MRI evidence of disease at 2 years from treatment initiation.",
+                    "timeFrame": "24 Months"
+                },
+                {
+                    "measure": "PSA progression (nadir + 2) at 2 years from treatment initiation",
+                    "timeFrame": "24 months"
+                },
+                {
+                    "measure": "Progression free survival",
+                    "timeFrame": "24 months"
+                },
+                {
+                    "measure": "Change in target volumes between CT simulation and MRI simulation",
+                    "description": "To ascertain the effects of MRI simulation on size of target volumes and OAR, the volume (cc) will be compared between CT vs MR simulation by t-test for normal data or Wilcoxon signed-rank test if data does not follow a normal distribution. The extent of overlap calculated with the Sorensen-Dice coefficient and Hausdorff distance.",
+                    "timeFrame": "24 Months"
+                },
+                {
+                    "measure": "Change in coverage of target volumes between CT simulation and MRI simulation",
+                    "description": "The dose to OARS using the CT-simulation and MR-simulation derived plans will be compared using the t-test for normal data or Wilcoxon signed-rank test if data does not follow a normal distribution.",
+                    "timeFrame": "24 Months"
+                },
+                {
+                    "measure": "Change in dose to organs at risk (OARs) between CT simulation and MRI simulation",
+                    "description": "The dose to OARS using the CT-simulation and MR-simulation derived plans will be compared using the t-test for normal data or Wilcoxon signed-rank test if data does not follow a normal distribution.",
+                    "timeFrame": "24 Months"
+                },
+                {
+                    "measure": "Performance of the synthetic CT in RT planning",
+                    "description": "To assess performance of the synthetic CT in RT planning, fluence patterns from the synthetic CT plan will be copied onto the CT simulation electron density grids and dose recalculated. Accuracy of synthetic CT dose calculations to target volumes and OARs will be assessed with a goal of \\<1% difference in target and OAR dose between synthetic CT plans and CT simulation plans",
+                    "timeFrame": "24 Months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must have a confirmed malignancy requiring radiation therapy.\n* Age: 18 years or older\n* ECOG performance status \u22642 (Karnofsky \u226560%, see Appendix A)\n* Ability to understand and the willingness to sign a written informed consent document.\n* Disease-specific eligibility criteria will be specified in the appropriate subprotocol.\n\nExclusion Criteria:\n\n* For MRI involving contrast, history of allergic reactions attributed to gadolinium based IV contrast. Note: If patient will not receive contrast, this is not applicable\n* Participants who cannot undergo an MRI\n* Disease-specific exclusion criteria will be specified in the appropriate subprotocol",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Raymond Mak, MD",
+                    "role": "CONTACT",
+                    "phone": "617-632-5734",
+                    "email": "rmak@partners.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Raymond Mak, MD",
+                    "affiliation": "Brigham and Women's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Raymond Mak, MD",
+                            "role": "CONTACT",
+                            "email": "rmak@partners.org"
+                        },
+                        {
+                            "name": "Raymond Mak, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Dana Farber Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Raymond Mak, MD",
+                            "role": "CONTACT",
+                            "email": "rmak@partners.org"
+                        },
+                        {
+                            "name": "Raymond Mak, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The Dana-Farber / Harvard Cancer Center encourages and supports the responsible and ethical sharing of data from clinical trials. De-identified participant data from the final research dataset used in the published manuscript may only be shared under the terms of a Data Use Agreement. Requests may be directed to Sponsor Investigator or designee. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF"
+            ],
+            "timeFrame": "Data can be shared no earlier than 1 year following the date of publication",
+            "accessCriteria": "Contact the Partners Innovations team at http://www.partners.org/innovation"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000006258",
+                    "term": "Head and Neck Neoplasms"
+                },
+                {
+                    "id": "D000008113",
+                    "term": "Liver Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                },
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "asFound": "Adenocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14850",
+                    "name": "Recurrence",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11113",
+                    "name": "Liver Neoplasms",
+                    "asFound": "Liver Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "asFound": "Head and Neck Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11110",
+                    "name": "Liver Extracts",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

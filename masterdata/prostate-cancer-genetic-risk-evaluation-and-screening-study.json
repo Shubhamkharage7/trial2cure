@@ -1,0 +1,492 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05129605",
+            "orgStudyIdInfo": {
+                "id": "2020P000081"
+            },
+            "organization": {
+                "fullName": "Massachusetts General Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Prostate Cancer Genetic Risk Evaluation and Screening Study",
+            "officialTitle": "Prostate Cancer Genetic Risk Evaluation and Screening Study (PROGRESS)",
+            "acronym": "PROGRESS",
+            "therapeuticArea": [
+                "Rare Diseases",
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "prostate-cancer-genetic-risk-evaluation-and-screening-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-02-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2030-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2040-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-11-02",
+            "studyFirstSubmitQcDate": "2021-11-09",
+            "studyFirstPostDateStruct": {
+                "date": "2021-11-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Keyan Salari, MD, PhD",
+                "investigatorTitle": "Urologic Oncology",
+                "investigatorAffiliation": "Massachusetts General Hospital"
+            },
+            "leadSponsor": {
+                "name": "Massachusetts General Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study aims to define the natural history of men at high genetic risk for prostate cancer on the basis of specific germline genetic mutations or a positive family history and evaluate the utility of prostate MRI as a screening tool. The hypothesis is that this targeted population of men are at elevated risk of developing prostate cancer compared to the general population, and enhanced screening with MRI will enable early detection and diagnosis of potentially aggressive prostate cancer, characterization of the penetrance of specific mutations, and potentially identify new genetic risk mutations.",
+            "detailedDescription": "Prostate cancer is the most common malignancy and the second leading cause of cancer-related deaths in American men. Prostate cancer has substantial inherited predisposition and men harboring specific genetic variants or a positive family history have been associated with an increased risk of developing prostate cancer. Men with specific genetic variants, such as pathogenic BRCA2 mutations, are at particularly greater risk of developing aggressive forms of prostate cancer and thus warrant undergoing careful screening for prostate cancer. However, the penetrance of many mutations in prostate cancer risk genes is unknown, and some men have no identifiable mutations in known risk genes despite a strong family history of prostate cancer. Prospectively collected clinical data along with biospecimens from unaffected individuals at high genetic risk for developing prostate cancer will advance the understanding of how specific mutations contribute to the development of prostate cancer and how these prostate cancers might be best detected. The purpose of this study is to prospectively screen men at high risk genetic risk for prostate cancer by prostate exam, PSA, and prostate MRI to characterize the penetrance and cancer-related outcomes of specific mutations, identify potentially novel genetic risk mutations and/or markers for early detection."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostatic Neoplasm",
+                "Prostate Cancer",
+                "BRCA2 Mutation",
+                "BRCA1 Mutation",
+                "ATM Gene Mutation",
+                "MMR Mutation",
+                "Lynch Syndrome",
+                "Genetic Predisposition to Disease"
+            ],
+            "keywords": [
+                "BRCA2",
+                "BRCA1",
+                "Mismatch Repair Deficiency",
+                "Lynch Syndrome",
+                "HOXB13",
+                "Family History of Prostate Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "20 Years",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "* Saliva, blood, and urine on all subjects\n* Tumor tissue on subjects who develop prostate cancer"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cohort A",
+                    "description": "Documented germline known pathogenic or likely pathogenic mutation in a prostate cancer related risk gene",
+                    "interventionNames": [
+                        "Diagnostic Test: Prostate cancer screening"
+                    ]
+                },
+                {
+                    "label": "Cohort B",
+                    "description": "Family history suggestive of high genetic risk for prostate cancer with clinical genetic testing negative for known pathogenic or likely pathogenic mutations in prostate cancer-related risk genes",
+                    "interventionNames": [
+                        "Diagnostic Test: Prostate cancer screening"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Prostate cancer screening",
+                    "description": "Physical exam (digital rectal exam), prostate-specific antigen (PSA) and PSA derivatives, and multiparametric MRI of the prostate",
+                    "armGroupLabels": [
+                        "Cohort A",
+                        "Cohort B"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Diagnosis of prostate cancer",
+                    "description": "Diagnosis of prostate cancer stratified by NCCN clinical risk category incorporating clinical stage, grade, and PSA at diagnosis.",
+                    "timeFrame": "From date of enrollment until date of diagnosis of prostate cancer or age of 75 reached, which ever came first, assessed up to 20 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Positive predictive value of multiparametric MRI for detection of prostate cancer",
+                    "description": "Positive predictive value of multiparametric prostate MRI for detecting clinically significant prostate cancer in men at high genetic risk for prostate cancer with a positive MRI (PI-RADS score of 3 or higher)",
+                    "timeFrame": "From date of enrollment until date of diagnosis of prostate cancer or age of 75 reached, which ever came first, assessed up to 20 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Men 35-74 years old\n* No known diagnosis of prostate cancer\n* Life expectancy \\>10 years\n* Meet either cohort A or B criteria\n* Cohort A: Documented pathogenic or likely pathogenic germline genetic mutation in a prostate cancer risk gene from a CLIA-certified laboratory (ATM, ATR, BRCA1, BRCA2, BRIP1, CHEK2, EPCAM, FANCA, GEN1, HOXB13, MLH1, MSH2, MSH6, NBN, PALB2, PMS2, RAD51C, RAD51D, TP53)\n* Cohort B: A strong family history suggestive of high genetic risk for prostate cancer with negative clinical genetic testing\n\nExclusion Criteria:\n\n* Prior diagnosis or treatment of prostate cancer\n* Inability to undergo prostate MRI\n* Inability to receive MRI contrast agent",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "35 Years",
+            "maximumAge": "74 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Men ages 35-74 years old at high genetic risk for prostate cancer on the basis of a specific germline genetic mutation or a strong family history.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Olympia Price",
+                    "role": "CONTACT",
+                    "phone": "857-238-3838",
+                    "email": "oprice@partners.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Keyan Salari, MD, PhD",
+                    "affiliation": "Massachusetts General Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02114",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                },
+                {
+                    "id": "D000003123",
+                    "term": "Colorectal Neoplasms, Hereditary Nonpolyposis"
+                },
+                {
+                    "id": "D000020022",
+                    "term": "Genetic Predisposition to Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                },
+                {
+                    "id": "D000004198",
+                    "term": "Disease Susceptibility"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009386",
+                    "term": "Neoplastic Syndromes, Hereditary"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000003108",
+                    "term": "Colonic Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                },
+                {
+                    "id": "D000049914",
+                    "term": "DNA Repair-Deficiency Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21875",
+                    "name": "Genetic Predisposition to Disease",
+                    "asFound": "Genetic Predisposition to Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7380",
+                    "name": "Disease Susceptibility",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6351",
+                    "name": "Colorectal Neoplasms, Hereditary Nonpolyposis",
+                    "asFound": "Lynch Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12331",
+                    "name": "Neoplastic Syndromes, Hereditary",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6336",
+                    "name": "Colonic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26131",
+                    "name": "DNA Repair-Deficiency Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5764",
+                    "name": "Turcot Syndrome",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

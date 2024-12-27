@@ -1,0 +1,663 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05390892",
+            "orgStudyIdInfo": {
+                "id": "2022p001160"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "PREvention of CardIovascular and DiabEtic kidNey Disease in Type 2 Diabetes",
+            "officialTitle": "PRECIDENTD: PREvention of CardIovascular and DiabEtic kidNey Disease in Type 2 Diabetes",
+            "acronym": "PRECIDENTD",
+            "therapeuticArea": [
+                "Endocrinology",
+                "Other"
+            ],
+            "study": "prevention-of-cardiovascular-and-diabetic-kidney-disease-in-type-diabetes"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-09-26",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2029-03-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2029-03-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-05-19",
+            "studyFirstSubmitQcDate": "2022-05-23",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-25",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Brendan M. Everett",
+                "investigatorTitle": "Associate Physician and Association Professor",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Patient-Centered Outcomes Research Institute",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "PRECIDENTD is a randomized, open label, pragmatic clinical trial designed to compare rates of the total number of cardiovascular, kidney, and death events among two alternative treatments for patients with type 2 diabetes (T2D) and either established atherosclerotic cardiovascular disease (ASCVD) or at high risk for ASCVD. To accomplish this objective, we will randomly assign 6,000 patients with established T2D and ASCVD or high-risk for ASCVD in a 1:1 allocation to sodium-glucose cotransporter-2 inhibitor (SGLT2i) or glucagon-like peptide-1 receptor agonists (GLP-1RA). Participants will be followed for the occurrence of the trial primary endpoint of the total (first and recurrent) number of episodes of myocardial infarction (MI), stroke, arterial revascularization, hospitalization for heart failure, development of end-stage kidney disease, kidney transplantation, and mortality, counting all events from randomization until end of study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Type2Diabetes",
+                "ASCVD"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 6000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Sodium-glucose cotransporter-2 inhibitor (SGLT2i)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Therapy with an SGLT2i with proven cardiovascular benefit. This means either canagliflozin, dapagliflozin, or empagliflozin",
+                    "interventionNames": [
+                        "Drug: SGLT2 inhibitor"
+                    ]
+                },
+                {
+                    "label": "Glucagon-like peptide-1 receptor agonist (GLP-1 RA)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Therapy with a GLP-1 RA with proven cardiovascular benefit. This means either dulaglutide, liraglutide, or semaglutide.",
+                    "interventionNames": [
+                        "Drug: GLP-1 receptor agonist"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "SGLT2 inhibitor",
+                    "description": "Empagliflozin, dapagliflozin, or canagliflozin",
+                    "armGroupLabels": [
+                        "Sodium-glucose cotransporter-2 inhibitor (SGLT2i)"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "GLP-1 receptor agonist",
+                    "description": "Dulaglutide, liraglutide, semaglutide",
+                    "armGroupLabels": [
+                        "Glucagon-like peptide-1 receptor agonist (GLP-1 RA)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Total (first and recurrent) cardiovascular, kidney, and death events",
+                    "description": "total (first and recurrent) number of episodes of myocardial infarction (MI), stroke, arterial revascularization, hospitalization for heart failure, development of end-stage kidney disease, kidney transplantation, and mortality",
+                    "timeFrame": "Through study completion, with an average follow up of approximately 3 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Type 2 diabetes based on clinical diagnosis\n* HbA1c \u22656% measured within 12 months prior to screening\n* Secondary prevention cohort (at least 70% of cohort):\n\n  * Age 40 to 80 years\n  * Evidence of established atherosclerotic cardiovascular disease (ASCVD), as defined by one or more of the following\n  * Coronary heart disease defined by at least one of the following: prior myocardial infarction, prior coronary percutaneous coronary intervention, \u226550% stenosis of a coronary artery documented by invasive or non-invasive imaging (including CT coronary angiography), positive stress test, or coronary artery calcium score \\>400 Agatston units;\n  * Cerebrovascular disease defined by at least one of the following: prior ischemic stroke, prior carotid revascularization procedure, carotid stenosis \u2265 50% documented by X-ray angiography, MR angiography, CT angiography, or Doppler ultrasound;\n  * Symptomatic peripheral artery disease defined by at least one of the following: leg symptoms with an ABI \u2264 0.9, leg symptoms with imaging evidence of a stenosis \u226550% in a peripheral artery documented by X-ray angiography, MR angiography, CT angiography, or Doppler ultrasound, or prior amputation for atherosclerotic disease.\n* Primary prevention cohort (capped at 30% of cohort):\n\n  * Age 60-80 years and at least 1 additional high-risk feature:\n  * Cardiovascular risk factors/high-risk features:\n  * Active smoking (combustible tobacco or marijuana)\n  * HbA1c \u2265 8% measured within 12 months prior to screening. The most recent value available at the time of screening will be used for screening and to determine eligibility.\n  * Stage 3a CKD, eGFR 45-59 ml/min/1.73m2 measured within 12 months prior to screening. The most recent value available at screening will be used for screening and to determine eligibility.\n* Willingness to be randomly assigned to medication class (SGLT2i or GLP-1 RA or both) and fill prescription through personal pharmacy benefit while having other medications adjusted for safety\n* Willingness to avoid starting a therapy in the alternative treatment group (e.g., if randomized to GLP-1 RA, avoid starting an SGLT2i) unless strongly recommended by the participant's usual care provider.\n* If taking one of the study medication classes, willingness to stop SGLT2i or GLP-1 RA and be randomly assigned to one of the two medication classes\n* Willingness to consent to data collection using the electronic health record and sign a medical release to obtain future medical records from other health care facilities\n\nExclusion Criteria:\n\n* Known or suspected diabetes of other cause (type 1 diabetes, pancreatogenic diabetes, monogenic diabetes, etc.)\n* Any background diabetes medication regimen will be allowed in this pragmatic trial with the following proviso:\n\n  o Participants taking basal-bolus, prandial, or multiple daily injection insulin (MDI) regimens (e.g., short-acting in combination with long-acting insulin, called MDI regimens) are eligible only if the research staff attests that there has been communication with the usual diabetes care provider and that the provider has agreed to manage insulin adjustment with initiation of study medications. If such agreement has not been obtained, participants taking MDI regimens are excluded.\n* History of diabetic ketoacidosis\n* Active diabetic foot ulcer\n* History of pancreatitis\n* Heart failure as a primary reason for hospitalization within the past year\n* Known left ventricular ejection fraction \\<40%\n* Known urinary albumin-to-creatinine ratio \\>200 mg/g at screening\n* Estimated glomerular filtration rate (eGFR) less than 45 ml/min/1.73m2 measured within 12 months prior to screening. The most recent value available at screening will be used for screening and to determine eligibility.\n* Known inability to afford study medication through current insurance coverage.\n* If a woman of child-bearing potential, the patient or partner is unwilling to use birth control\n* Active treatment for cancer, planned treatment for cancer, or recent active cancer with likelihood of recurrence or progression, which, in the opinion of the site investigator, has a likelihood of recurrence that would interfere with study therapy prior to 2028\n\n  * Treated cancer with no evidence of disease, no evidence of disease progression, and no planned change in therapy is allowed. Examples of allowable cancers include:\n  * Breast cancer stable after active treatment, managed with long-term anti-estrogen therapy\n  * Prostate cancer being observed\n  * Stage 0 or 1 tumors status post resection or other definitive treatment\n  * Other similarly stable cancer comorbidities\n* History of solid organ or bone marrow transplant\n* Allergy to SGLT2 inhibitor or GLP-1 receptor agonist",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "40 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Brendan Everett, MD, MPH",
+                    "role": "CONTACT",
+                    "phone": "617-732-8790",
+                    "email": "PRECIDENTDccc@bwh.harvard.edu"
+                },
+                {
+                    "name": "Maureen Malloy",
+                    "role": "CONTACT",
+                    "phone": "617-732-8773",
+                    "email": "PRECIDENTDccc@bwh.harvard.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Johns Hopkins School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21205",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jamie Hyman",
+                            "role": "CONTACT",
+                            "phone": "443-927-8723",
+                            "email": "PRECIDENTD@jhmi.edu"
+                        },
+                        {
+                            "name": "Rita Kalyani, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jodi Segal, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Dan Ford, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Essentia Health",
+                    "status": "RECRUITING",
+                    "city": "Duluth",
+                    "state": "Minnesota",
+                    "zip": "55805",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Leah Tatelovich",
+                            "role": "CONTACT",
+                            "phone": "218-576-0480",
+                            "email": "PrecidentdEH@Essentia.org"
+                        },
+                        {
+                            "name": "Catherine Benziger, MD, MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 46.78327,
+                        "lon": -92.10658
+                    }
+                },
+                {
+                    "facility": "University of Missouri-Columbia",
+                    "status": "RECRUITING",
+                    "city": "Columbia",
+                    "state": "Missouri",
+                    "zip": "65212",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Tea Goletiani",
+                            "role": "CONTACT",
+                            "phone": "833-970-0046",
+                            "email": "MUPRECIDENTD@health.missouri.edu"
+                        },
+                        {
+                            "name": "Camilla Manrique Acevedo, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Guido Lastra, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.95171,
+                        "lon": -92.33407
+                    }
+                },
+                {
+                    "facility": "Naomi Berrie Diabetes Center at New York Presbyterian-Columbia University",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jacqueline Lonier, MD",
+                            "role": "CONTACT",
+                            "phone": "212-851-5492",
+                            "email": "precidentd@cumc.columbia.edu"
+                        },
+                        {
+                            "name": "Jacqueline Lonier, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Robin Goland, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Duke University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Chad Harrell",
+                            "role": "CONTACT",
+                            "phone": "919-668-9049",
+                            "email": "DukePRECIDENTD@duke.edu"
+                        },
+                        {
+                            "name": "W. Schuyler Jones, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ranee Chatterjee, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "Medical University of South Carolina",
+                    "status": "RECRUITING",
+                    "city": "Charleston",
+                    "state": "South Carolina",
+                    "zip": "29425",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ebony Panaccione",
+                            "role": "CONTACT",
+                            "phone": "843-792-4675",
+                            "email": "panacceb@musc.edu"
+                        },
+                        {
+                            "name": "Harsha Karanchi, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Marc Cornier, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.77657,
+                        "lon": -79.93092
+                    }
+                },
+                {
+                    "facility": "Vanderbilt University Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37232",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Lance Roller",
+                            "role": "CONTACT",
+                            "phone": "615-875-6811",
+                            "email": "Lance.j.roller@vumc.org"
+                        },
+                        {
+                            "name": "Leslee Matheny, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Russell Rothman, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "Medical College of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Milwaukee",
+                    "state": "Wisconsin",
+                    "zip": "53226",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kailie Roth",
+                            "role": "CONTACT",
+                            "phone": "414-805-8104",
+                            "email": "kroth@mcw.edu"
+                        },
+                        {
+                            "name": "Jake Decker, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jeffrey Whittle, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.0389,
+                        "lon": -87.90647
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000003928",
+                    "term": "Diabetic Nephropathies"
+                },
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000003924",
+                    "term": "Diabetes Mellitus, Type 2"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                },
+                {
+                    "id": "D000048909",
+                    "term": "Diabetes Complications"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "asFound": "Kidney Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7119",
+                    "name": "Diabetes Mellitus, Type 2",
+                    "asFound": "Type 2 Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "asFound": "Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7123",
+                    "name": "Diabetic Nephropathies",
+                    "asFound": "Diabetic Kidney Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26004",
+                    "name": "Diabetes Complications",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000077203",
+                    "term": "Sodium-Glucose Transporter 2 Inhibitors"
+                },
+                {
+                    "id": "D000097789",
+                    "term": "Glucagon-Like Peptide-1 Receptor Agonists"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000007004",
+                    "term": "Hypoglycemic Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M1691",
+                    "name": "Sodium-Glucose Transporter 2 Inhibitors",
+                    "asFound": "HIV-positive",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M258082",
+                    "name": "Empagliflozin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9043",
+                    "name": "Glucagon",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26997",
+                    "name": "Glucagon-Like Peptide 1",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M353561",
+                    "name": "Semaglutide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M419",
+                    "name": "Liraglutide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M348449",
+                    "name": "Dapagliflozin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3401",
+                    "name": "Glucagon-Like Peptide-1 Receptor Agonists",
+                    "asFound": "Boostrix",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M258626",
+                    "name": "Dulaglutide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M331",
+                    "name": "Canagliflozin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10054",
+                    "name": "Hypoglycemic Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

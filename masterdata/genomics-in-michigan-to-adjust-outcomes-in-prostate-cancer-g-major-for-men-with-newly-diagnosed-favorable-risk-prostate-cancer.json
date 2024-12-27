@@ -1,0 +1,550 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04396808",
+            "orgStudyIdInfo": {
+                "id": "UMCC 2019.132"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "HUM00173277",
+                    "type": "OTHER",
+                    "domain": "University of Michigan"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Genomics in Michigan to AdJust Outcomes in Prostate canceR (G-MAJOR) for Men With Newly Diagnosed Favorable Risk Prostate Cancer",
+            "officialTitle": "Genomics in Michigan to AdJust Outcomes in Prostate canceR (G-MAJOR): A Randomized Multi-center Study for Men With Newly Diagnosed Favorable Risk Prostate Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "genomics-in-michigan-to-adjust-outcomes-in-prostate-cancer-g-major-for-men-with-newly-diagnosed-favorable-risk-prostate-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-11-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-05-15",
+            "studyFirstSubmitQcDate": "2020-05-15",
+            "studyFirstPostDateStruct": {
+                "date": "2020-05-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-17",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institutes of Health (NIH)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "Myrexis Inc.",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "Veracyte, Inc.",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "MDx Health",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This study seeks to determine the clinical impact of Gene Expression Classifier (GEC) testing in prostate cancer care while also developing a pragmatic approach for improved GEC clinical use and future study.",
+            "detailedDescription": "All patients in this study have received or will receive a score from the Michigan Urological Surgery Improvement Collaborative's Cancer of the Prostate Risk Assessment (askMUSIC) scoring system, at the time of enrollment. AskMUSIC is a risk calculator based on standard clinical and pathologic variables and is generally included as part of routine clinical care. The variables used in the risk calculator are prostate-specific antigen (PSA), Gleason score, number of positive core biopsies, number of negative core biopsies, and clinical stage.\n\nPatients will be randomized to either an intervention arm or a control arm. In the control arm, the treating provider will review the askMUSIC score with the patient. In the intervention arm, the treating provider will review the askMUSIC and the GEC score with the patient. Biopsies obtained during the course of standard clinical care will be analyzed using one of the following GECs: Decipher, Prolaris or Oncotype Dx Genomic Prostate Score. No additional biopsies will be obtained as part of this study.\n\nAfter reviewing the results, patients and their treating physicians will decide on a management strategy.\n\nLong-term follow-up will be tracked through the Michigan Urological Surgery Improvement Collaborative (MUSIC) registry."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer"
+            ],
+            "keywords": [
+                "Biomarkers",
+                "Active surveillance",
+                "Gene Expression Classifier"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "1:1 cluster-crossover in 3 month blocks",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 900,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Standard of care (no pre-treatment genomics testing)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Provider will discuss askMUSIC results with patient prior to deciding on a management strategy (standard of care).",
+                    "interventionNames": [
+                        "Other: Standard of care (askMUSIC score)"
+                    ]
+                },
+                {
+                    "label": "Standard of care + pre-treatment genomics testing",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Provider will discuss askMUSIC and Gene Expression Classifier (GEC) results with patient prior to deciding on a cancer management strategy. Patients' biopsy tissue will be analyzed using one of the following GECs: Decipher, Prolaris or Oncotype Dx.",
+                    "interventionNames": [
+                        "Device: Decipher",
+                        "Device: Prolaris",
+                        "Device: Oncotype Dx Genomic Prostate Score (GPS)",
+                        "Other: Standard of care (askMUSIC score)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Decipher",
+                    "description": "The Decipher test (GenomeDx Biosciences) is a genomic test that will be performed on prostate biopsy tissue. Results will be provided to the patient and physician prior to making a treatment decision.",
+                    "armGroupLabels": [
+                        "Standard of care + pre-treatment genomics testing"
+                    ],
+                    "otherNames": [
+                        "Decipher Prostate Cancer Classifier"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Prolaris",
+                    "description": "The Prolaris test (Myriad Genetics, Inc.) is a genomic test that will be performed on prostate biopsy tissue. Results will be provided to the patient and physician prior to making a treatment decision.",
+                    "armGroupLabels": [
+                        "Standard of care + pre-treatment genomics testing"
+                    ],
+                    "otherNames": [
+                        "Prolaris Prostate Cancer Test"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Oncotype Dx Genomic Prostate Score (GPS)",
+                    "description": "The Oncotype Dx GPS test (Exact Sciences corp.) is a genomic test that will be performed on prostate biopsy tissue. Results will be provided to the patient and physician prior to making a treatment decision.",
+                    "armGroupLabels": [
+                        "Standard of care + pre-treatment genomics testing"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Standard of care (askMUSIC score)",
+                    "description": "AskMUSIC is a risk calculator based on standard clinical and pathologic variables (https://ask.musicurology.com/) and is generally included as part of routine clinical care.",
+                    "armGroupLabels": [
+                        "Standard of care (no pre-treatment genomics testing)",
+                        "Standard of care + pre-treatment genomics testing"
+                    ],
+                    "otherNames": [
+                        "askMUSIC score"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Binomial proportion of men on active surveillance without treatment",
+                    "timeFrame": "At 2 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Occurence of grade reclassification",
+                    "description": "Grade reclassification defined as an increase in grade group on surveillance biopsy (GG=1 to GG\u22652 or GG=2 to GG\u22653) for patients managed on active surveillance",
+                    "timeFrame": "At 2 years"
+                },
+                {
+                    "measure": "Rate of indolent pathology",
+                    "description": "To determine the impact of GEC testing on the rate of potentially unnecessary surgery, as defined by indolent pathology at prostatectomy (GG1 and stage pT2).",
+                    "timeFrame": "At time of prostatectomy (for patients who undergo procedure), up to 2 years"
+                },
+                {
+                    "measure": "Mean score per arm of patient reported urinary function questionnaire",
+                    "description": "Assessed by patient reported Expanded Prostate Cancer Index (EPIC) Urinary Incontinence Domain (UIN) questionnaire. Response options form a Likert scale, and multi-item scale scores are transformed linearly to a 0-100 scale, with higher scores representing better quality of life (QOL).",
+                    "timeFrame": "At 2 years"
+                },
+                {
+                    "measure": "Proportion of patients with changes from baseline in urinary function exceeding Minimal Important Differences (MID).",
+                    "description": "Assessed by patient reported EPIC UIN questionnaire. For this measure, MID = 9 points.",
+                    "timeFrame": "Baseline to 12 months and 2 years"
+                },
+                {
+                    "measure": "Mean score per arm of patient reported sexual function questionnaire",
+                    "description": "Assessed by patient reported Expanded Prostate Cancer Index (EPIC) sexual domain questionnaire. Response options form a Likert scale, and multi-item scale scores are transformed linearly to a 0-100 scale, with higher scores representing better QOL.",
+                    "timeFrame": "At 2 years"
+                },
+                {
+                    "measure": "Proportion of patients with changes from baseline in sexual function exceeding Minimal Important Differences (MID).",
+                    "description": "Assessed by patient reported EPIC sexual function questionnaire. For this measure, MID = 11 points.",
+                    "timeFrame": "Baseline to 12 months and 2 years"
+                },
+                {
+                    "measure": "Time to biochemical recurrence (BCR)",
+                    "description": "Time from treatment PSA \\>= 0.2 ng/mL for patients undergoing surgery (with PSA at least 5 weeks after surgery) and nadir plus 2.0 ng/mL for patients undergoing radiotherapy.",
+                    "timeFrame": "From time of radical therapy until the event or the last measured follow-up, up to 2 years"
+                },
+                {
+                    "measure": "Time to distant metastases",
+                    "description": "Assessed by CT, MRI, bone scan, and/or PET scan",
+                    "timeFrame": "From time of radical therapy until the event or the last measured follow-up, up to 2 years"
+                },
+                {
+                    "measure": "Mean score per arm of health-related quality of life (HRQOL)",
+                    "description": "Assessed by patient reported Expanded Prostate Cancer Index Composite short form (EPIC-26). EPIC-26 encompasses 5 domains (Urinary Incontinence, Urinary Irritative/Obstructive, Bowel, Sexual, and Hormonal). Response options for each of 26 items form a Likert scale, and multi-item scale scores are transformed linearly to a 0-100 scale, with higher scores representing better HRQOL.",
+                    "timeFrame": "At 2 years"
+                },
+                {
+                    "measure": "Rate of adverse pathology at prostatectomy",
+                    "description": "To determine the performance of GEC testing in predicting adverse pathology, defined as GG\u22653 and/or \u2265pT3 disease.",
+                    "timeFrame": "At time of prostatectomy, up to 5 years from enrollment"
+                },
+                {
+                    "measure": "Rate of biochemical recurrence",
+                    "description": "To determine the performance of GEC testing in predicting biochemical recurrence, defined as PSA \\>= 0.2 ng/mL for patients undergoing surgery (with PSA at least 5 weeks after surgery) and nadir plus 2.0 ng/mL for patients undergoing radiotherapy.",
+                    "timeFrame": "Up to 5 years following treatment"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Prostate cancer patients who have undergone diagnostic prostate biopsy in the past 9 months.\n* Prostate biopsy tumor tissue (FFPR block) available for processing\n* Age 18 years or older\n* PSA \\<20 ng/ml\n* Grade Group (GG) 1 cancer with \\> 2 biopsy cores involved with cancer OR GG2 cancer\n* Ability to understand and the willingness to sign a written informed consent. A subject's legally acceptable representative may sign the consent form.\n\nExclusion Criteria:\n\n* Clinical (on digital rectal exam) or radiographic evidence (if MRI performed) of T3 disease\n* Nodal or metastatic prostate cancer (if staging imaging performed)\n* Prior prostate cancer treatment, including prostatectomy, radiation therapy, or hormone therapy.\n* Prior prostate gene expression classier testing",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "G-Major Study",
+                    "role": "CONTACT",
+                    "phone": "734-764-4060",
+                    "email": "gmajorstudy@med.umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Todd Morgan, M.D.",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Daniel Spratt, M.D.",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan Rogel Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "G-Major Study",
+                            "role": "CONTACT",
+                            "phone": "734-764-4060",
+                            "email": "gmajorstudy@med.umich.edu"
+                        },
+                        {
+                            "name": "Todd Morgan, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Daniel Spratt, M.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                },
+                {
+                    "facility": "Henry Ford Health System",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Craig Rogers, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Sherwood Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48221",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Conrad Maitland, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Spectrum Health Medical Group",
+                    "status": "RECRUITING",
+                    "city": "Grand Rapids",
+                    "state": "Michigan",
+                    "zip": "49503",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Conrad Tobert",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Conrad Tobert",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.96336,
+                        "lon": -85.66809
+                    }
+                },
+                {
+                    "facility": "Western Michigan Urological Associates",
+                    "status": "RECRUITING",
+                    "city": "Holland",
+                    "state": "Michigan",
+                    "zip": "49423",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "John Ludlow, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.78752,
+                        "lon": -86.10893
+                    }
+                },
+                {
+                    "facility": "University of North Carolina",
+                    "status": "RECRUITING",
+                    "city": "Chapel Hill",
+                    "state": "North Carolina",
+                    "zip": "27599",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ray Tan",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Ray Tan",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.9132,
+                        "lon": -79.05584
+                    }
+                },
+                {
+                    "facility": "University of Pennsylvania Perelman School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Hanna Stambakio",
+                            "role": "CONTACT",
+                            "phone": "215-614-5039",
+                            "email": "Hanna.Stambakio@pennmedicine.upenn.edu"
+                        },
+                        {
+                            "name": "Daniel Lee, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

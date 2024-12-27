@@ -1,0 +1,290 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04160429",
+            "orgStudyIdInfo": {
+                "id": "18380"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2019-07380",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                },
+                {
+                    "id": "18380",
+                    "type": "OTHER",
+                    "domain": "City of Hope Comprehensive Cancer Center"
+                }
+            ],
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Biospecimen Analysis in Detecting Chemical Concentrations in Patients With Chronic or Infectious Diseases Receiving Meditations",
+            "officialTitle": "Pilot Study to Evaluate Substances in Sweat, Saliva, and Blood",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "biospecimen-analysis-in-detecting-chemical-concentrations-in-patients-with-chronic-or-infectious-diseases-receiving-meditations"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2018-11-09",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-10-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-11-08",
+            "studyFirstSubmitQcDate": "2019-11-08",
+            "studyFirstPostDateStruct": {
+                "date": "2019-11-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Cancer Institute (NCI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This trial collects and analyzes sweat and saliva samples compared to blood in detecting chemical concentrations in the body in patients with chronic or infectious diseases receiving medications. Wearable sweat sensors are capable of monitoring electrolytes and metabolites (sodium, potassium, glucose, lactate, etc.) for health monitoring and disease diagnosis. Designing wearable sweat sensors capable of providing information regarding drug administration may be challenging due to ultralow concentrations in biofluids. This trial seeks to determine if the use of a smart wristband can accurately measure the levels of chemicals and substances in sweat.",
+            "detailedDescription": "PRIMARY OBJECTIVE:\n\nI. To compare novel, home-based methods of quantitating medication concentrations in either saliva or sweat to the 'gold standard' of liquid chromatography - mass spectrometry of plasma.\n\nSECONDARY OBJECTIVES:\n\nI. To compare novel home-based methods of quantitating substances in either saliva or sweat to the 'gold standard' in plasma.\n\nII. Assess the ease of obtaining home-based samples.\n\nOUTLINE:\n\nPatients undergo collection of sweat samples via Macroduct Sweat Collection System 3710S and saliva and blood samples within 24 hours after medication administrations. Patients also complete questionnaires over 5-10 minutes and have medical charts reviewed.\n\nAfter completion of study, patients are followed up periodically."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Chronic Disease",
+                "Infectious Disorder"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Sweat, saliva, and blood"
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Device feasibility (Macroduct Sweat Collection System)",
+                    "description": "Patients undergo collection of sweat samples via Macroduct Sweat Collection System 3710S and saliva and blood samples within 24 hours after medication administrations. Patients also complete questionnaires over 5-10 minutes and have medical charts reviewed.",
+                    "interventionNames": [
+                        "Procedure: Biospecimen Collection",
+                        "Other: Medical Chart Review",
+                        "Other: Questionnaire Administration"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biospecimen Collection",
+                    "description": "Undergo collection of sweat, saliva, and blood samples",
+                    "armGroupLabels": [
+                        "Device feasibility (Macroduct Sweat Collection System)"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Medical Chart Review",
+                    "description": "Review of medical chart",
+                    "armGroupLabels": [
+                        "Device feasibility (Macroduct Sweat Collection System)"
+                    ],
+                    "otherNames": [
+                        "Chart Review"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Questionnaire Administration",
+                    "description": "Complete questionnaire",
+                    "armGroupLabels": [
+                        "Device feasibility (Macroduct Sweat Collection System)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Predictive performance of the home-based sampling",
+                    "description": "Will be assessed by Pearson correlation and quantification of the predictive performance. The predictive performance of the home-based sampling methods will be assessed by calculating the median percentage prediction error (MPPE).",
+                    "timeFrame": "Up to 4 hours"
+                },
+                {
+                    "measure": "Observed plasma concentrations",
+                    "description": "Will be assessed by Pearson correlation and quantification of the predictive performance. The values from plasma will be considered the observed concentration.",
+                    "timeFrame": "Up to 4 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Scheduled to receive medications including, but not limited to, cyclophosphamide, mycophenolic acid, mycophenolate mofetil, metformin or busulfan (any dose, any number of doses, any dosing frequency) as part of treatment at any time. Patients with chronic or infectious diseases can participate\n* Willingness to:\n\n  * Provide blood, sweat, and saliva samples\n  * Permit medical record review\n\nExclusion Criteria:\n\n* Pilocarpine allergy\n* Difficulty with understanding written English",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients with chronic or infectious diseases scheduled to receive medications",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Jeannine S McCune",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeannine S. McCune",
+                            "role": "CONTACT",
+                            "phone": "626-218-4611",
+                            "email": "JMCCUNE@coh.org"
+                        },
+                        {
+                            "name": "Jeannine S. McCune",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003141",
+                    "term": "Communicable Diseases"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000002908",
+                    "term": "Chronic Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6147",
+                    "name": "Chronic Disease",
+                    "asFound": "Chronic Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "asFound": "Infectious",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "asFound": "Infectious",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

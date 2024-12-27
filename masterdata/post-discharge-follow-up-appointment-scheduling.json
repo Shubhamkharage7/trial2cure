@@ -1,0 +1,220 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06387576",
+            "orgStudyIdInfo": {
+                "id": "Post-discharge Appointments"
+            },
+            "organization": {
+                "fullName": "University of California, Los Angeles",
+                "class": "OTHER"
+            },
+            "briefTitle": "Post-Discharge Follow-up Appointment Scheduling",
+            "officialTitle": "Post-Discharge Follow-up Appointment Scheduling",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "post-discharge-follow-up-appointment-scheduling"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-04-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-08",
+            "studyFirstSubmitQcDate": "2024-04-23",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-29",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Richard K. Leuchter, MD",
+                "investigatorTitle": "Clinical Instructor of Medicine",
+                "investigatorAffiliation": "University of California, Los Angeles"
+            },
+            "leadSponsor": {
+                "name": "University of California, Los Angeles",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a prospective clinical trial evaluating whether a behaviorally informed intervention (pre-discharge iPad video scheduling) increases post-discharge primary care physician (PCP) appointment completion compared to the status-quo scheduling process (post-discharge via phone), with the ultimate goal of improving patient health outcomes.",
+            "detailedDescription": "Among patients who are discharged from hospitals, having a PCP follow-up visit within 7 days of discharge is associated with decreased likelihood of unplanned readmissions. However, at UCLA Health, less than 60% of patients complete a PCP follow-up visit within this time period.\n\nAs part of a Department of Medicine (DOM) quality improvement initiative at UCLA Health, this trial seeks to improve the process of scheduling post-discharge PCP visits and, in turn, post-discharge PCP visit completion rates. The DOM quality team initiated and is leading this program, with the primary goal to improve the quality of post-acute care among patients. In order to rigorously assess the most effective way to improve the process of scheduling post-discharge PCP visits, the DOM quality team has partnered with the UCLA Anderson School of Management.\n\nThis study will compare two types of appointment scheduling processes:\n\n* the status quo scheduling process whereby a scheduler calls patients after discharge via telephone to schedule a PCP appointment.\n* an iPad-based video scheduling process whereby patients will schedule their PCP appointment before discharge via a video call with the scheduler using an in-room iPad.\n\nPatients discharged from UCLA Health hospital rooms assigned to the control condition will go through the status quo scheduling process, and patients discharged from rooms assigned to the intervention condition will go through the iPad-based video scheduling process.\n\nPatients who meet the following criteria will be included in the study: (1) they are discharged from a hospital room assigned to either the intervention or control condition during the intervention period; (2) their discharge is ordered on a weekday (Monday-Friday); (3) their discharge is planned before 3pm; (4) they have a UCLA PCP; (5) they are not being discharged to a skilled nursing facility (SNF), acute rehab unit (ARU), or assisted living facility (ALF). Patients will be excluded from the study who do not meet these criteria.\n\nThe target sample size is n = 150 in the treatment group. The investigators have an agreement from their field partner to run the evaluation for one month. The investigators will aim to extend the period in 2-week increments until the target sample size is reached. The investigators note that this is subject to field partner agreement. The investigators will also plan to have a check-in period with the schedulers during the first week of the intervention to assess whether any changes to the protocol or script need to occur for unforeseen logistical reasons.\n\nTwo (out of approximately ten) DOM schedulers will be trained on the new iPad-based scheduling procedure (hereafter, the \"intervention schedulers\"). As their time allows, the two intervention schedulers will also continue to schedule post-discharge follow-up appointments using the status quo method (phone calls) for patients who are not discharged from the intervention rooms.\n\nAnalysis Plan:\n\nThe investigators will use patient-level linear regression models with a difference-in-differences design, where the predictor variables are (1) an indicator of the treatment (vs. control) rooms, (2) an indicator of being in the intervention period (vs. three months pre-intervention or the length of the intervention period, whichever is longer), and (3) the interaction between the two indicators. If an outcome measure does not statistically significantly differ between treatment and control rooms during the pre-intervention period, the investigators will also compare the outcome measures between treatment and control patients using an OLS regression with observations from the intervention period.\n\nGiven the possibility that the two intervention schedulers might conduct some scheduling calls for patients in a control room using the status-quo scheduling process (post-discharge via phone), the investigators will conduct all primary and secondary analyses excluding patients in the control condition who were scheduled by an intervention scheduler (to minimize contamination).\n\nIn addition to primary and secondary outcome measures listed later, the investigators also plan to explore whether the patient experienced an unplanned readmission (all-cause) to the hospital within 7, 14, and 30 days. (The investigators will plan to only analyze hospital readmission data if greater than 0.1% of patients across both arms have been readmitted during each respective period.\n\nControl variables to be included in regressions:\n\n* Risk for readmission score (LACE+ score)\n* Patient self-reported ethnicity\n* Scheduler fixed effects\n* Whether patient had been enrolled in intensive care coordination programs\n* Whether patient had a pre-existing PCP appointment at the time of hospital admission"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Appointments and Schedules"
+            ],
+            "keywords": [
+                "quality-improvement",
+                "scheduling",
+                "appointment show rates",
+                "transitions of care",
+                "hospital discharge"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Parallel-arm control trial",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm 1: Status-quo post-discharge appointment scheduling process",
+                    "type": "NO_INTERVENTION",
+                    "description": "Eligible, assigned participants will receive the current status-quo scheduling process for their post-discharge appointment (post-discharge via phone)."
+                },
+                {
+                    "label": "Arm 2: Pre-discharge iPad video scheduling for post-discharge appointment",
+                    "type": "EXPERIMENTAL",
+                    "description": "Eligible, assigned participants will schedule their post-discharge appointment via a video scheduling process prior to discharge.",
+                    "interventionNames": [
+                        "Behavioral: Behaviorally informed pre-discharge iPad video scheduling"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Behaviorally informed pre-discharge iPad video scheduling",
+                    "description": "The iPad video scheduling process will occur prior to patient discharge from the hospital. This intervention harnesses behavioral principles, such as commitment (patient committing to scheduled appointment), social accountability (patients feeling more accountable after scheduling their appointment via the video visit), and social support (patients feeling more supported after engaging in this conversation with a scheduler via video).",
+                    "armGroupLabels": [
+                        "Arm 2: Pre-discharge iPad video scheduling for post-discharge appointment"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Post-discharge follow-up PCP appointment completion rate within 7 days",
+                    "description": "Binary indicator of whether the patient had a post-discharge follow-up PCP appointment",
+                    "timeFrame": "Within 7 days of discharge"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Post-discharge follow-up PCP appointment completion rate within 14 days",
+                    "description": "Binary indicator of whether the patient had a post-discharge follow-up PCP appointment",
+                    "timeFrame": "Within 14 days of discharge"
+                },
+                {
+                    "measure": "Post-discharge follow-up PCP appointment scheduling rate within 7 days",
+                    "description": "Binary indicator of whether the patient scheduled a post-discharge follow-up PCP appointment",
+                    "timeFrame": "Within 7 days of discharge"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. they are discharged from a hospital room assigned to either the intervention or control condition during the intervention period\n2. their discharge is ordered on a weekday (Monday-Friday)\n3. their discharge is planned before 3pm\n4. they have a UCLA PCP\n5. they are not being discharged to a skilled nursing facility (SNF), acute rehab unit (ARU), or assisted living facility (ALF).\n\nExclusion Criteria:\n\nPatients will be excluded from the study who do not meet the inclusion criteria",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Richard Leuchter, MD",
+                    "role": "CONTACT",
+                    "phone": "310-270-3772",
+                    "email": "rleuchter@mednet.ucla.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UCLA Santa Monica Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Santa Monica",
+                    "state": "California",
+                    "zip": "90404",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Rich Leuchter, MD",
+                            "role": "CONTACT",
+                            "phone": "310-825-9111",
+                            "email": "rleuchter@mednet.ucla.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.01945,
+                        "lon": -118.49119
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "The investigators do not plan to make any individual participant data available."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M12478",
+                    "name": "Nicotine",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

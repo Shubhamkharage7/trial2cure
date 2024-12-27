@@ -1,0 +1,261 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05139797",
+            "orgStudyIdInfo": {
+                "id": "STUDY00001720"
+            },
+            "organization": {
+                "fullName": "Cedars-Sinai Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Artificial Intelligence Guided Echocardiographic Screening of Rare Diseases (EchoNet-Screening)",
+            "officialTitle": "Artificial Intelligence Guided Echocardiographic Screening of Rare Diseases",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "artificial-intelligence-guided-echocardiographic-screening-of-rare-diseases-echonet-screening"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-11-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-11-18",
+            "studyFirstSubmitQcDate": "2021-11-30",
+            "studyFirstPostDateStruct": {
+                "date": "2021-12-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-02-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-02-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "David Ouyang",
+                "investigatorTitle": "Staff Physician",
+                "investigatorAffiliation": "Cedars-Sinai Medical Center"
+            },
+            "leadSponsor": {
+                "name": "Cedars-Sinai Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "Despite rapidly advancing developments in targeted therapeutics and genetic sequencing, persistent limits in the accuracy and throughput of clinical phenotyping has led to a widening gap between the potential and the actual benefits realized by precision medicine.\n\nRecent advances in machine learning and image processing techniques have shown that machine learning models can identify features unrecognized by human experts and more precisely/accurately assess common measurements made in clinical practice.\n\nThe investigators have developed an algorithm, termed EchoNet-LVH, to identify cardiac hypertrophy and identify patients who would benefit from additional screening for cardiac amyloidosis and will prospectively evaluate its accuracy in identifying patients whom would benefit from additional screening for cardiac amyloidosis.",
+            "detailedDescription": "Despite rapidly advancing developments in targeted therapeutics and genetic sequencing, persistent limits in the accuracy and throughput of clinical phenotyping has led to a widening gap between the potential and the actual benefits realized by precision medicine. This conundrum is exemplified by current approaches to assessing morphologic alterations of the heart. If reliably identified, certain cardiac diseases (e.g. cardiac amyloidosis and hypertrophic cardiomyopathy) could avoid misdiagnosis and receive efficient treatment initiation with specific targeted therapies. The ability to reliably distinguish between cardiac disease types of similar morphology but different etiology would also enhance specificity for linking genetic risk variants and determining mechanisms\n\nRecent advances in machine learning and image processing techniques have shown that machine learning models can identify features unrecognized by human experts and more precisely/accurately assess common measurements made in clinical practice. In echocardiography, this ability for precision measurement and detection is important in both disease screening as well as diagnosis of cardiovascular disease.\n\nEchocardiography is routinely and frequently used for diagnosis and prognostication in routine clinical care, however there is often subjectivity in interpretation and heterogeneity in application. Human attention is fatigable and has heterogenous interpretation between providers. AI guided disease screening workflows have been proposed for rare diseases such as cardiac amyloidosis and other diseases with relatively low prevalence but significant human impact with targeted therapies when detected early. This is an area particularly suitable for AI as there are multiple mimics where diseases like hypertrophic cardiomyopathy, cardiac amyloidosis, aortic stenosis, and other phenotypes might visually be similar but can be distinguished by AI algorithms. The investigators have developed an algorithm, termed EchoNet-LVH, to identify cardiac hypertrophy and identify patients who would benefit from additional screening for cardiac amyloidosis, hypertrophic cardiomyopathy and other diseases. E"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cardiac Amyloidosis"
+            ],
+            "keywords": [
+                "Echocardiogram",
+                "Artificial Intelligence"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Artificial Intelligence Screening for Cardiac Amyloidosis",
+                    "description": "An artificial intelligence algorithm will produce a probability of cardiac amyloidosis that will trigger referral to specialty clinic for further evaluation.",
+                    "interventionNames": [
+                        "Other: EchoNet-LVH screening for cardiac amyloidosis"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "EchoNet-LVH screening for cardiac amyloidosis",
+                    "description": "An AI algorithm identifies LVH, low voltage, and high suspicion for cardiac amyloidosis. The intervention is the suspicion score. Patients with high suspicion score will be referred to specialty clinic for standard of care evaluation, screening, and treatment as determined by physicians.",
+                    "armGroupLabels": [
+                        "Artificial Intelligence Screening for Cardiac Amyloidosis"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of New Diagnoses of Cardiac Amyloidosis Found",
+                    "description": "From chart review, identification of patients who have a downstream diagnosis of cardiac amyloidosis",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of New Diagnoses of TTR Amyloidosis Found",
+                    "description": "From chart review, identification of patients who have a downstream diagnosis of TTR amyloidosis",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Number of New Diagnoses of AL Amyloidosis Found",
+                    "description": "From chart review, identification of patients who have a downstream diagnosis of AL amyloidosis",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients who have a high suspicion for cardiac amyloidosis by AI algorithm\n\nExclusion Criteria:\n\n* Patients who decline to be seen at specialty clinic\n* Patients who have passed away",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients who have a high suspicion for cardiac amyloidosis by AI algorithm",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "Cedars-Sinai Medical Centre (Los Angeles)",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90048",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Ouyang, MD",
+                            "role": "CONTACT",
+                            "phone": "832-495-1605",
+                            "email": "david.ouyang@cshs.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Related Info",
+                    "url": "https://arxiv.org/abs/2106.12511"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000686",
+                    "term": "Amyloidosis"
+                },
+                {
+                    "id": "D000035583",
+                    "term": "Rare Diseases"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000057165",
+                    "term": "Proteostasis Deficiencies"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M24518",
+                    "name": "Rare Diseases",
+                    "asFound": "Rare disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4021",
+                    "name": "Amyloidosis",
+                    "asFound": "Amyloidosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28747",
+                    "name": "Proteostasis Deficiencies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

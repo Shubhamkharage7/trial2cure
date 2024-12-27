@@ -1,0 +1,484 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05327387",
+            "orgStudyIdInfo": {
+                "id": "HS-21-00108"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01MH123770",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01MH123770"
+                },
+                {
+                    "id": "DP2MH126378",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/DP2MH126378"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Southern California",
+                "class": "OTHER"
+            },
+            "briefTitle": "Model-based Electrical Brain Stimulation",
+            "officialTitle": "Model-based Electrical Brain Stimulation",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "model-based-electrical-brain-stimulation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-02-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-03-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-03-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-24",
+            "studyFirstSubmitQcDate": "2022-04-06",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Maryam Shanechi",
+                "investigatorTitle": "Associate Professor of Electrical and Computer Engineering and Biomedical Engineering",
+                "investigatorAffiliation": "University of Southern California"
+            },
+            "leadSponsor": {
+                "name": "University of Southern California",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Mental Health (NIMH)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "University of California, San Francisco",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Neuropsychiatric disorders are a leading cause of disability worldwide with depressive disorders being one of the most disabling among them. Also, millions of patients do not respond to current medications or psychotherapy, which makes it critical to find an alternative therapy. Applying electrical stimulation at various brain targets has shown promise but there is a critical need to improve efficacy.\n\nGiven inter- and intra-subject variabilities in neuropsychiatric disorders, this study aims to enable personalizing the stimulation therapy via i) tracking a patient's own symptoms based on their neural activity, and ii) a model of how their neural activity responds to stimulation therapy. The study will develop the modeling elements needed to realize a model-based personalized closed-loop system for electrical brain stimulation to achieve this aim.\n\nThe study will provide proof-of-concept demonstration in epilepsy patients who already have intracranial electroencephalography (iEEG) electrodes implanted for their standard clinical monitoring unrelated to this study, and who consent to being part of the study.",
+            "detailedDescription": "The investigators will conduct the study for each subject during their stay in the epilepsy monitoring unit (EMU), which is dictated purely based on their standard clinical needs unrelated to our study. iEEG will be recorded from each patient throughout their stay in the EMU, during which the self-reports from them will be also intermittently collected using validated questionnaires that relate to depression symptoms.\n\nThe investigators will build decoders that can track these depression symptoms from iEEG activity. The investigators will also apply electrical stimulation to learn a personalized input-output model that predicts the iEEG response to ongoing stimulation. The resulting personalized decoder and the input-output model will be combined to achieve model-based personalization of stimulation therapy.\n\nSuccessful completion of this study will help enable precisely-tailored deep brain stimulation therapies across diverse conditions and have a broad public health impact."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Medication Refractory Epilepsy Patients With Electrodes Already Implanted Based on Clinical Criteria for Standard Monitoring"
+            ],
+            "keywords": [
+                "deep brain stimulation",
+                "model-based stimulation",
+                "closed-loop stimulation",
+                "neural biomarkers of depression",
+                "neurotechnology",
+                "neuropsychiatric disorders",
+                "depression",
+                "brain-machine interface"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "In each patient, the investigators will test the decoders of the symptom level and the input-output models of the neural response to stimulation therapy.",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "model-based electrical brain stimulation",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Other: model-based electrical brain stimulation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "model-based electrical brain stimulation",
+                    "description": "Electrical pulse train stimulation delivered to medication refractory epilepsy patients with electrodes already implanted based on clinical criteria for standard monitoring unrelated to this study. The delivery of the electrical brain stimulation can be guided by neural biomarkers of symptom levels computed from ongoing neural activity and by input-output models of neural response to stimulation therapy. The parameters of electrical stimulation will be constrained to be within clinically safe ranges.",
+                    "armGroupLabels": [
+                        "model-based electrical brain stimulation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Decoded depression symptom ratings based on neural activity",
+                    "description": "A personalized decoder is trained for each patient using the recorded neural activity and self-reports. Then this decoder is used to estimate the biomarker purely from neural activity; that is, based on neural activity, it will return the estimation of depression symptom ratings (HAMD-6 or VAS self-reports)",
+                    "timeFrame": "5-10 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Hamilton Depression Rating (HAMD-6) self-reports",
+                    "description": "Hamilton Depression Rating (HAMD-6) is a widely used questionnaire that measures depressive state severity and intervention response. It can range from 0 to 22, with 22 corresponding to the worst depression symptom. Self-reports are obtained intermittently from the patient.",
+                    "timeFrame": "5-10 days"
+                },
+                {
+                    "measure": "Visual Analog Scale (VAS) self-reports",
+                    "description": "Visual Analog Scale (VAS) is a fast self-report validated against the Hamilton scale. It can range from 0 to 300, with 300 corresponding to the worst depression symptom. Self-reports are obtained intermittently from the patient.",
+                    "timeFrame": "5-10 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients being evaluated for surgical treatment of medication refractory epilepsy and brain tumors will be studied. ONLY patients with electrodes implanted based on clinical criteria to locate their seizure focus will be studied. Most patients are healthy adults, outside of their epilepsy and/or brain tumor.\n* Subjects \\>= 18 are only included in this study.\n* All patients with the above conditions and with implanted electrode arrays who are willing to participate and able to cooperate and follow research instructions will be recruited. However, analysis of research recording data will focus on those subjects with an IQ \\>= 80, with no impairments of reading, naming, or articulation (to minimize confounds such as abnormal language processing that may affect their self-reporting with the questionnaire), and with no cerebral pathology affecting the cortical regions from which recordings are made.\n\nExclusion Criteria:\n\n* Subjects \\< 18 years old will be excluded from this study due to the high concordance of developmental disorders (cognitive and language-related) in pediatric epilepsies.\n* There will be no involvement of special classes of subjects, such as fetuses, neonates, pregnant women, children, prisoners, institutionalized individuals, or others who may be considered vulnerable populations.\n* Patients who are unable to give informed consent due to a brain disorder will be excluded from the study, as it is very likely that they would be unable to carry out the tasks demanded by the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Maryam M Shanechi, PhD",
+                    "role": "CONTACT",
+                    "phone": "213-740-1377",
+                    "email": "shanechi@usc.edu"
+                },
+                {
+                    "name": "Omid G Sani, PhD",
+                    "role": "CONTACT",
+                    "phone": "213-740-1377",
+                    "email": "ghasemsa@usc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Maryam M Shanechi, PhD",
+                    "affiliation": "University of Southern California",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Southern California",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90089",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Maryam Shanechi, PhD",
+                            "role": "CONTACT",
+                            "phone": "213-740-1377",
+                            "email": "shanechi@usc.edu"
+                        },
+                        {
+                            "name": "Maryam M Shanechi, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "University of California, San Francisco",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94143",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Edward F Chang, MD",
+                            "role": "CONTACT",
+                            "phone": "415-502-7346",
+                            "email": "edward.chang@ucsf.edu"
+                        },
+                        {
+                            "name": "Edward F Chang, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "23993280",
+                    "type": "BACKGROUND",
+                    "citation": "Whiteford HA, Degenhardt L, Rehm J, Baxter AJ, Ferrari AJ, Erskine HE, Charlson FJ, Norman RE, Flaxman AD, Johns N, Burstein R, Murray CJ, Vos T. Global burden of disease attributable to mental and substance use disorders: findings from the Global Burden of Disease Study 2010. Lancet. 2013 Nov 9;382(9904):1575-86. doi: 10.1016/S0140-6736(13)61611-6. Epub 2013 Aug 29."
+                },
+                {
+                    "pmid": "17074942",
+                    "type": "BACKGROUND",
+                    "citation": "Rush AJ, Trivedi MH, Wisniewski SR, Nierenberg AA, Stewart JW, Warden D, Niederehe G, Thase ME, Lavori PW, Lebowitz BD, McGrath PJ, Rosenbaum JF, Sackeim HA, Kupfer DJ, Luther J, Fava M. Acute and longer-term outcomes in depressed outpatients requiring one or several treatment steps: a STAR*D report. Am J Psychiatry. 2006 Nov;163(11):1905-17. doi: 10.1176/ajp.2006.163.11.1905."
+                },
+                {
+                    "pmid": "15748841",
+                    "type": "BACKGROUND",
+                    "citation": "Mayberg HS, Lozano AM, Voon V, McNeely HE, Seminowicz D, Hamani C, Schwalb JM, Kennedy SH. Deep brain stimulation for treatment-resistant depression. Neuron. 2005 Mar 3;45(5):651-60. doi: 10.1016/j.neuron.2005.02.014."
+                },
+                {
+                    "pmid": "18639234",
+                    "type": "BACKGROUND",
+                    "citation": "Lozano AM, Mayberg HS, Giacobbe P, Hamani C, Craddock RC, Kennedy SH. Subcallosal cingulate gyrus deep brain stimulation for treatment-resistant depression. Biol Psychiatry. 2008 Sep 15;64(6):461-7. doi: 10.1016/j.biopsych.2008.05.034. Epub 2008 Jul 18."
+                },
+                {
+                    "pmid": "17429407",
+                    "type": "BACKGROUND",
+                    "citation": "Schlaepfer TE, Cohen MX, Frick C, Kosel M, Brodesser D, Axmacher N, Joe AY, Kreft M, Lenartz D, Sturm V. Deep brain stimulation to reward circuitry alleviates anhedonia in refractory major depression. Neuropsychopharmacology. 2008 Jan;33(2):368-77. doi: 10.1038/sj.npp.1301408. Epub 2007 Apr 11."
+                },
+                {
+                    "pmid": "18842257",
+                    "type": "BACKGROUND",
+                    "citation": "Malone DA Jr, Dougherty DD, Rezai AR, Carpenter LL, Friehs GM, Eskandar EN, Rauch SL, Rasmussen SA, Machado AG, Kubu CS, Tyrka AR, Price LH, Stypulkowski PH, Giftakis JE, Rise MT, Malloy PF, Salloway SP, Greenberg BD. Deep brain stimulation of the ventral capsule/ventral striatum for treatment-resistant depression. Biol Psychiatry. 2009 Feb 15;65(4):267-75. doi: 10.1016/j.biopsych.2008.08.029. Epub 2008 Oct 8."
+                },
+                {
+                    "pmid": "22473055",
+                    "type": "BACKGROUND",
+                    "citation": "Bewernick BH, Kayser S, Sturm V, Schlaepfer TE. Long-term effects of nucleus accumbens deep brain stimulation in treatment-resistant depression: evidence for sustained efficacy. Neuropsychopharmacology. 2012 Aug;37(9):1975-85. doi: 10.1038/npp.2012.44. Epub 2012 Apr 4."
+                },
+                {
+                    "pmid": "22213770",
+                    "type": "BACKGROUND",
+                    "citation": "Holtzheimer PE, Kelley ME, Gross RE, Filkowski MM, Garlow SJ, Barrocas A, Wint D, Craighead MC, Kozarsky J, Chismar R, Moreines JL, Mewes K, Posse PR, Gutman DA, Mayberg HS. Subcallosal cingulate deep brain stimulation for treatment-resistant unipolar and bipolar depression. Arch Gen Psychiatry. 2012 Feb;69(2):150-8. doi: 10.1001/archgenpsychiatry.2011.1456. Epub 2012 Jan 2."
+                },
+                {
+                    "pmid": "23562618",
+                    "type": "BACKGROUND",
+                    "citation": "Schlaepfer TE, Bewernick BH, Kayser S, Madler B, Coenen VA. Rapid effects of deep brain stimulation for treatment-resistant major depression. Biol Psychiatry. 2013 Jun 15;73(12):1204-12. doi: 10.1016/j.biopsych.2013.01.034. Epub 2013 Apr 3."
+                },
+                {
+                    "pmid": "25726497",
+                    "type": "BACKGROUND",
+                    "citation": "Dougherty DD, Rezai AR, Carpenter LL, Howland RH, Bhati MT, O'Reardon JP, Eskandar EN, Baltuch GH, Machado AD, Kondziolka D, Cusin C, Evans KC, Price LH, Jacobs K, Pandya M, Denko T, Tyrka AR, Brelje T, Deckersbach T, Kubu C, Malone DA Jr. A Randomized Sham-Controlled Trial of Deep Brain Stimulation of the Ventral Capsule/Ventral Striatum for Chronic Treatment-Resistant Depression. Biol Psychiatry. 2015 Aug 15;78(4):240-8. doi: 10.1016/j.biopsych.2014.11.023. Epub 2014 Dec 13."
+                },
+                {
+                    "pmid": "28988904",
+                    "type": "BACKGROUND",
+                    "citation": "Holtzheimer PE, Husain MM, Lisanby SH, Taylor SF, Whitworth LA, McClintock S, Slavin KV, Berman J, McKhann GM, Patil PG, Rittberg BR, Abosch A, Pandurangi AK, Holloway KL, Lam RW, Honey CR, Neimat JS, Henderson JM, DeBattista C, Rothschild AJ, Pilitsis JG, Espinoza RT, Petrides G, Mogilner AY, Matthews K, Peichel D, Gross RE, Hamani C, Lozano AM, Mayberg HS. Subcallosal cingulate deep brain stimulation for treatment-resistant depression: a multisite, randomised, sham-controlled trial. Lancet Psychiatry. 2017 Nov;4(11):839-849. doi: 10.1016/S2215-0366(17)30371-1. Epub 2017 Oct 4."
+                },
+                {
+                    "pmid": "29483673",
+                    "type": "BACKGROUND",
+                    "citation": "Dandekar MP, Fenoy AJ, Carvalho AF, Soares JC, Quevedo J. Deep brain stimulation for treatment-resistant depression: an integrative review of preclinical and clinical findings and translational implications. Mol Psychiatry. 2018 May;23(5):1094-1112. doi: 10.1038/mp.2018.2. Epub 2018 Feb 27."
+                },
+                {
+                    "pmid": "27049915",
+                    "type": "BACKGROUND",
+                    "citation": "Bergfeld IO, Mantione M, Hoogendoorn ML, Ruhe HG, Notten P, van Laarhoven J, Visser I, Figee M, de Kwaasteniet BP, Horst F, Schene AH, van den Munckhof P, Beute G, Schuurman R, Denys D. Deep Brain Stimulation of the Ventral Anterior Limb of the Internal Capsule for Treatment-Resistant Depression: A Randomized Clinical Trial. JAMA Psychiatry. 2016 May 1;73(5):456-64. doi: 10.1001/jamapsychiatry.2016.0152."
+                },
+                {
+                    "pmid": "21285143",
+                    "type": "BACKGROUND",
+                    "citation": "Kennedy SH, Giacobbe P, Rizvi SJ, Placenza FM, Nishikawa Y, Mayberg HS, Lozano AM. Deep brain stimulation for treatment-resistant depression: follow-up after 3 to 6 years. Am J Psychiatry. 2011 May;168(5):502-10. doi: 10.1176/appi.ajp.2010.10081187. Epub 2011 Feb 1."
+                },
+                {
+                    "pmid": "28469875",
+                    "type": "BACKGROUND",
+                    "citation": "Blomstedt P, Naesstrom M, Bodlund O. Deep brain stimulation in the bed nucleus of the stria terminalis and medial forebrain bundle in a patient with major depressive disorder and anorexia nervosa. Clin Case Rep. 2017 Mar 31;5(5):679-684. doi: 10.1002/ccr3.856. eCollection 2017 May."
+                },
+                {
+                    "pmid": "20622083",
+                    "type": "BACKGROUND",
+                    "citation": "Malone DA Jr. Use of deep brain stimulation in treatment-resistant depression. Cleve Clin J Med. 2010 Jul;77 Suppl 3:S77-80. doi: 10.3949/ccjm.77.s3.14."
+                },
+                {
+                    "pmid": "19846068",
+                    "type": "BACKGROUND",
+                    "citation": "Sartorius A, Kiening KL, Kirsch P, von Gall CC, Haberkorn U, Unterberg AW, Henn FA, Meyer-Lindenberg A. Remission of major depression under deep brain stimulation of the lateral habenula in a therapy-refractory patient. Biol Psychiatry. 2010 Jan 15;67(2):e9-e11. doi: 10.1016/j.biopsych.2009.08.027. No abstract available."
+                },
+                {
+                    "pmid": "22824558",
+                    "type": "BACKGROUND",
+                    "citation": "Jimenez F, Nicolini H, Lozano AM, Piedimonte F, Salin R, Velasco F. Electrical stimulation of the inferior thalamic peduncle in the treatment of major depression and obsessive compulsive disorders. World Neurosurg. 2013 Sep-Oct;80(3-4):S30.e17-25. doi: 10.1016/j.wneu.2012.07.010. Epub 2012 Jul 21."
+                },
+                {
+                    "pmid": "21777510",
+                    "type": "BACKGROUND",
+                    "citation": "Puigdemont D, Perez-Egea R, Portella MJ, Molet J, de Diego-Adelino J, Gironell A, Radua J, Gomez-Anson B, Rodriguez R, Serra M, de Quintana C, Artigas F, Alvarez E, Perez V. Deep brain stimulation of the subcallosal cingulate gyrus: further evidence in treatment-resistant major depression. Int J Neuropsychopharmacol. 2012 Feb;15(1):121-33. doi: 10.1017/S1461145711001088. Epub 2011 Jul 22."
+                },
+                {
+                    "pmid": "31551595",
+                    "type": "BACKGROUND",
+                    "citation": "Shanechi MM. Brain-machine interfaces from motor to mood. Nat Neurosci. 2019 Oct;22(10):1554-1564. doi: 10.1038/s41593-019-0488-y. Epub 2019 Sep 24."
+                },
+                {
+                    "pmid": "11301246",
+                    "type": "BACKGROUND",
+                    "citation": "Drevets WC. Neuroimaging and neuropathological studies of depression: implications for the cognitive-emotional features of mood disorders. Curr Opin Neurobiol. 2001 Apr;11(2):240-9. doi: 10.1016/s0959-4388(00)00203-8."
+                },
+                {
+                    "pmid": "22189047",
+                    "type": "BACKGROUND",
+                    "citation": "Kupfer DJ, Frank E, Phillips ML. Major depressive disorder: new clinical, neurobiological, and treatment perspectives. Lancet. 2012 Mar 17;379(9820):1045-55. doi: 10.1016/S0140-6736(11)60602-8. Epub 2011 Dec 19."
+                },
+                {
+                    "pmid": "27653321",
+                    "type": "BACKGROUND",
+                    "citation": "Williams LM. Defining biotypes for depression and anxiety based on large-scale circuit dysfunction: a theoretical review of the evidence and future directions for clinical translation. Depress Anxiety. 2017 Jan;34(1):9-24. doi: 10.1002/da.22556. Epub 2016 Sep 21."
+                },
+                {
+                    "pmid": "30503621",
+                    "type": "BACKGROUND",
+                    "citation": "Rao VR, Sellers KK, Wallace DL, Lee MB, Bijanzadeh M, Sani OG, Yang Y, Shanechi MM, Dawes HE, Chang EF. Direct Electrical Stimulation of Lateral Orbitofrontal Cortex Acutely Improves Mood in Individuals with Symptoms of Depression. Curr Biol. 2018 Dec 17;28(24):3893-3902.e4. doi: 10.1016/j.cub.2018.10.026. Epub 2018 Nov 29."
+                },
+                {
+                    "pmid": "30199076",
+                    "type": "BACKGROUND",
+                    "citation": "Sani OG, Yang Y, Lee MB, Dawes HE, Chang EF, Shanechi MM. Mood variations decoded from multi-site intracranial human brain activity. Nat Biotechnol. 2018 Nov;36(10):954-961. doi: 10.1038/nbt.4200. Epub 2018 Sep 10."
+                },
+                {
+                    "pmid": "30221624",
+                    "type": "BACKGROUND",
+                    "citation": "Yang Y, Connolly AT, Shanechi MM. A control-theoretic system identification framework and a real-time closed-loop clinical simulation testbed for electrical brain stimulation. J Neural Eng. 2018 Dec;15(6):066007. doi: 10.1088/1741-2552/aad1a8. Epub 2018 Sep 17."
+                },
+                {
+                    "pmid": "11556941",
+                    "type": "BACKGROUND",
+                    "citation": "Kroenke K, Spitzer RL, Williams JB. The PHQ-9: validity of a brief depression severity measure. J Gen Intern Med. 2001 Sep;16(9):606-13. doi: 10.1046/j.1525-1497.2001.016009606.x."
+                },
+                {
+                    "pmid": "16717171",
+                    "type": "BACKGROUND",
+                    "citation": "Spitzer RL, Kroenke K, Williams JB, Lowe B. A brief measure for assessing generalized anxiety disorder: the GAD-7. Arch Intern Med. 2006 May 22;166(10):1092-7. doi: 10.1001/archinte.166.10.1092."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Upon completion of the study and after publication, fully de-identified IPD can be made available for research purposes.",
+            "infoTypes": [
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "The sharing will happen upon completion of the study and after publication.",
+            "accessCriteria": "Data will be accessed through data publishing platforms such as the NIH/NIMH Data Archive (NDA)."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000069279",
+                    "term": "Drug Resistant Epilepsy"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004827",
+                    "term": "Epilepsy"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7058",
+                    "name": "Depression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7061",
+                    "name": "Depressive Disorder",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7983",
+                    "name": "Epilepsy",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M369",
+                    "name": "Drug Resistant Epilepsy",
+                    "asFound": "Refractory Epilepsy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

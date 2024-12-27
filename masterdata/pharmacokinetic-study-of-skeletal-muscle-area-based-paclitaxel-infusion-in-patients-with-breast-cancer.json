@@ -1,0 +1,351 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05183126",
+            "orgStudyIdInfo": {
+                "id": "UMCC 2021.109"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "HUM00207945",
+                    "type": "OTHER",
+                    "domain": "University of Michigan"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Pharmacokinetic Study of Skeletal Muscle Area-based Paclitaxel Infusion in Patients With Breast Cancer",
+            "officialTitle": "Phase IV Single-arm Pharmacokinetic Study of Skeletal Muscle Area-based Paclitaxel Infusion in Patients With Breast Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "pharmacokinetic-study-of-skeletal-muscle-area-based-paclitaxel-infusion-in-patients-with-breast-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-03-28",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-20",
+            "studyFirstSubmitQcDate": "2021-12-20",
+            "studyFirstPostDateStruct": {
+                "date": "2022-01-10",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The primary objective of this pharmacokinetics study is to compare the maximum concentration level of paclitaxel in patients with low/sarcopenic skeletal muscle area (SMA), at the end of a 2-3 hour paclitaxel infusion, to the maximum level in patients with normal SMA at the end of a standard 1-hour infusion with the goal of determining whether lengthening the infusion in patients with low/sarcopenic SMA normalizes the levels to those of patients with normal SMA.",
+            "detailedDescription": "Paclitaxel is an FDA-approved and commonly used standard of care agent for patients with early-stage breast cancer. This study will use the standard dose of 80 mg/m\\^2, including the typical pre-medications as per University of Michigan Rogel Cancer Center institutional standard. The only investigational component of this study is lengthening the infusion duration from 1-hour to 2 or 3 hours for a single dose in patients with low SMA."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Breast Cancer"
+            ],
+            "keywords": [
+                "pharmacokinetics"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 22,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Normal SMA (>7310 mm^2)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Standard paclitaxel infusion time.",
+                    "interventionNames": [
+                        "Drug: Paclitaxel"
+                    ]
+                },
+                {
+                    "label": "Low SMA (5120 - 7310 mm^2) and Sarcopenic SMA (<5120 mm^2)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Adjusted paclitaxel infusion time during only one dose; standard paclitaxel infusion time for all other doses.",
+                    "interventionNames": [
+                        "Drug: Paclitaxel"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Paclitaxel",
+                    "description": "Weekly intravenous (IV) infusion of a standard dose of paclitaxel 80 mg/m\\^2. Dose 1 is a 90-minute infusion. All other doses administered as a 1-hour infusion for a total of 12 weekly doses.",
+                    "armGroupLabels": [
+                        "Normal SMA (>7310 mm^2)"
+                    ],
+                    "otherNames": [
+                        "Taxol"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Paclitaxel",
+                    "description": "Weekly intravenous (IV) infusion of a standard dose of paclitaxel 80 mg/m\\^2. Dose 1 is a 90-minute infusion.\n\nDuring doses 2-12, patients with low SMA will receive one 2-hour infusion and patients with sarcopenic SMA will receive one 3-hour infusion. All other doses during weeks 2-12 are standard infusion time.",
+                    "armGroupLabels": [
+                        "Low SMA (5120 - 7310 mm^2) and Sarcopenic SMA (<5120 mm^2)"
+                    ],
+                    "otherNames": [
+                        "Taxol"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Maximum concentration (Cmax) of paclitaxel plasma",
+                    "description": "Compare Cmax in patients with lower SMA with an adjusted infusion duration (i.e., 2-hour or 3-hour) to that of patients with normal SMA receiving standard 1-hour infusion. Blood samples for pharmacokinetic analysis will be collected within 5 minutes prior to the end of SMA-based and standard paclitaxel infusions. Measurement of plasma paclitaxel concentration for Cmax will be conducted using a liquid chromatography/mass spectroscopy assay.",
+                    "timeFrame": "Up to week 12"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Two- to three-hour Cmax vs. one-hour Cmax in low SMA patients",
+                    "description": "To compare Cmax in patients with lower SMA when receiving adjusted infusion duration (i.e., 2-hour or 3-hour) versus standard 1-hour infusion. Blood samples for pharmacokinetic analysis will be collected within 5 minutes prior to the end of SMA-based and standard paclitaxel infusions. Measurement of plasma paclitaxel concentration for Cmax will be conducted using a liquid chromatography/mass spectroscopy assay.",
+                    "timeFrame": "Up to week 12"
+                },
+                {
+                    "measure": "One-hour Cmax in normal SMA patients vs. one-hour Cmax in low SMA patients",
+                    "description": "To compare Cmax in patients with lower SMA versus patients with normal SMA receiving when both receive standard 1-hour infusion. Blood samples for pharmacokinetic analysis will be collected within 5 minutes prior to the end of standard 1-hour paclitaxel infusions in both groups. Measurement of plasma paclitaxel concentration for Cmax will be conducted using a liquid chromatography/mass spectroscopy assay.",
+                    "timeFrame": "Up to week 12"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Stage 1-3 breast cancer\n* Planned neoadjuvant, adjuvant, or curative intent paclitaxel 80 mg/m\\^2, 1-hour infusion (note: combination treatment, e.g., trastuzumab, pertuzumab, carboplatin, or pembrolizumab, and prior treatment, e.g., doxorubicin and cyclophosphamide, are allowable.\n* Evaluable computed tomography (CT) scan, e.g., scan of the chest, abdomen, or pelvis for any indication within 1 year.\n* Adequate organ function based on paclitaxel label.\n* Ability to understand and the willingness to sign a written informed consent.\n\nExclusion Criteria:\n\n* Concomitant administration of any moderate or strong inducer or inhibitor of CYP2C8, including rifampin or clopidogrel.\n* History of hypersensitivity reaction to paclitaxel or any components of paclitaxel (e.g., Cremophor EL) that precludes continued treatment with standard dose and infusion length\n* Pregnant or nursing",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Cancer AnswerLine",
+                    "role": "CONTACT",
+                    "phone": "800-865-1125",
+                    "email": "CancerAnswerLine@med.umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel L Hertz, PharmD, PhD",
+                    "affiliation": "University of Michigan Rogel Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan Rogel Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel L Hertz, PharmD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000017239",
+                    "term": "Paclitaxel"
+                },
+                {
+                    "id": "D000068196",
+                    "term": "Albumin-Bound Paclitaxel"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000972",
+                    "term": "Antineoplastic Agents, Phytogenic"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000050257",
+                    "term": "Tubulin Modulators"
+                },
+                {
+                    "id": "D000050256",
+                    "term": "Antimitotic Agents"
+                },
+                {
+                    "id": "D000050258",
+                    "term": "Mitosis Modulators"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M19537",
+                    "name": "Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M231",
+                    "name": "Albumin-Bound Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26197",
+                    "name": "Tubulin Modulators",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26196",
+                    "name": "Antimitotic Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

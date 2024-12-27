@@ -1,0 +1,338 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04515472",
+            "orgStudyIdInfo": {
+                "id": "HSC20190415H"
+            },
+            "organization": {
+                "fullName": "The University of Texas Health Science Center at San Antonio",
+                "class": "OTHER"
+            },
+            "briefTitle": "Effect of Gender Affirming Hormone Therapy on Glucose Metabolism",
+            "officialTitle": "Effect of Gender Affirming Hormone Therapy on Glucose Metabolism",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "effect-of-gender-affirming-hormone-therapy-on-glucose-metabolism"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-06-17",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-08-13",
+            "studyFirstSubmitQcDate": "2020-08-13",
+            "studyFirstPostDateStruct": {
+                "date": "2020-08-17",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-09",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "The University of Texas Health Science Center at San Antonio",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Foundation for Advancing Veterans' Health Research",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study will test:\n\n1. whether estrogen treatment in transwomen is associated with improved insulin sensitivity and beta cell function\n2. whether testosterone treatment in transmen is associated with worsening insulin sensitivity and beta cell function\n3. whether estrogen therapy leads to enhanced immune response in older transwormen",
+            "detailedDescription": "All subjects will participate in a 2-hour oral glucose tolerance test (OGTT) and DXA scan for estimation of lean body mass. Only the transgender subjects will have a repeat OGTT two weeks after discontinuation of Gender Affirming Hormone Therapy (GAHT).\n\nBeta cell function will be correlated with the Estrogen/Testosterone ratio to evaluate the relationship between sex hormones and beta cell function. Plasma Glucagon-like peptide 1 (GLP-1) response during the OGTT will be measured to evaluate if estrogen treatment modulates insulin secretion by increasing GLP-1 secretion."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Transgender Persons"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "EARLY_PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "MTF and FTM non-diabetic transsexuals will be compared to healthy female and male subjects respectively.",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Healthy Volunteer Male",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Healthy male currently on no testosterone treatment",
+                    "interventionNames": [
+                        "Drug: Botnia Clamp"
+                    ]
+                },
+                {
+                    "label": "Healthy Volunteer Female",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Healthy female currently on no estrogen treatment",
+                    "interventionNames": [
+                        "Drug: Botnia Clamp"
+                    ]
+                },
+                {
+                    "label": "MTF group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "MTF transgender currently on estrogen treatment",
+                    "interventionNames": [
+                        "Drug: Botnia Clamp",
+                        "Other: Withdrawal of Gender Affirming Hormone Therapy (GAHT)"
+                    ]
+                },
+                {
+                    "label": "FTM group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "FTM transgender group currently on testosterone treatment",
+                    "interventionNames": [
+                        "Drug: Botnia Clamp",
+                        "Other: Withdrawal of Gender Affirming Hormone Therapy (GAHT)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Botnia Clamp",
+                    "description": "This clamp technique is designed to obtain independent measures of insulin secretion and insulin sensitivity during the same test. In brief, 0.3g/kg body wt of a 20% glucose solution is given at time 0. Blood samples for the measurement of plasma glucose and serum insulin are obtained at -10, 0, 2, 4, 6, 8, 10, 20, 30, 40, 50, 60, 120, and 180 min.",
+                    "armGroupLabels": [
+                        "FTM group",
+                        "Healthy Volunteer Female",
+                        "Healthy Volunteer Male",
+                        "MTF group"
+                    ],
+                    "otherNames": [
+                        "Glucose solution and insulin"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Withdrawal of Gender Affirming Hormone Therapy (GAHT)",
+                    "description": "GAHT, either estrogen or testosterone therapy will be withdrawn after the Botnia Clamp.",
+                    "armGroupLabels": [
+                        "FTM group",
+                        "MTF group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Effects of Chronic estrogen therapy on insulin secretion",
+                    "description": "Change in GLP-1 in response to glucose",
+                    "timeFrame": "Baseline to 180 minutes"
+                },
+                {
+                    "measure": "Effects of Chronic estrogen therapy on insulin sensitivity",
+                    "description": "Change in beta cell function",
+                    "timeFrame": "Baseline to 6 months"
+                },
+                {
+                    "measure": "Effects of Chronic testosterone therapy on insulin secretion",
+                    "description": "Change in GLP-1 in response to glucose",
+                    "timeFrame": "Baseline to 180 minutes"
+                },
+                {
+                    "measure": "Effects of Chronic testosterone therapy on insulin sensitivity",
+                    "description": "Change in beta cell function",
+                    "timeFrame": "Baseline to 6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Immune response change",
+                    "description": "Withhold GAHT for 2 weeks after Botnia Clamp",
+                    "timeFrame": "Baseline to 6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy volunteers: healthy male or female\n* MTF transgender\n* FTM transgender\n* Non-diabetic (A1c\\<6.5%), fasting glucose \\<126mg/dl and OGTT after 2 hr \\<200mg/dl)\n* Stable hormone treatment (estrogen or testosterone) for at least 6 months\n\nExclusion Criteria:\n\n* History of or newly diagnosed diabetes mellitus\n* For healthy volunteers, not current treatment with estrogen or testosterone\n* For FTM transgender, no recent cardiovascular event: acute coronary syndrome (ACS), stroke (CVA)\n* For MTF and FTM transgender, less than 6 months of stable hormone treatment\n* Anemia with hemoglobin (Hb) \\<11.0 hematocrit (Hto) \\< 34 and Glomerular Filtration rate (GFR) \\<30",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "genderBased": true,
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Devjit Tripathy, MD",
+                    "role": "CONTACT",
+                    "phone": "210-617-5300",
+                    "phoneExt": "17822",
+                    "email": "tripathy@uthscsa.edu"
+                },
+                {
+                    "name": "Emina Case",
+                    "role": "CONTACT",
+                    "phone": "210-617-5300",
+                    "phoneExt": "17822",
+                    "email": "morinae@uthscsa.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Devjit Tripathy, MD",
+                    "affiliation": "University of Texas Health San Antonio",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Bartter Clinical Research Unit, Audie L. Murphy VA Hospital, sTXVHCS",
+                    "status": "RECRUITING",
+                    "city": "San Antonio",
+                    "state": "Texas",
+                    "zip": "78229",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Devjit Tripathy, MD",
+                            "role": "CONTACT",
+                            "phone": "210-617-5300",
+                            "phoneExt": "17822",
+                            "email": "tripathy@uthscsa.edu"
+                        },
+                        {
+                            "name": "Emina Case",
+                            "role": "CONTACT",
+                            "phone": "210-617-5300",
+                            "phoneExt": "17822",
+                            "email": "morinae@uthscsa.edu"
+                        },
+                        {
+                            "name": "Devjit Tripathy, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.42412,
+                        "lon": -98.49363
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006728",
+                    "term": "Hormones"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "asFound": "Clinic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8116",
+                    "name": "Estrogens",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16509",
+                    "name": "Testosterone",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

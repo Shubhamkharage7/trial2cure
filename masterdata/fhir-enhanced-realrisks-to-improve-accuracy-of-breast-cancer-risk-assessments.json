@@ -1,0 +1,314 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05810025",
+            "orgStudyIdInfo": {
+                "id": "AAAU1629"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R21MD017654",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R21MD017654"
+                }
+            ],
+            "organization": {
+                "fullName": "Columbia University",
+                "class": "OTHER"
+            },
+            "briefTitle": "FHIR-Enhanced RealRisks to Improve Accuracy of Breast Cancer Risk Assessments",
+            "officialTitle": "Integrating EHR and Patient-generated Health Data for Breast Cancer Risk Assessment and Decision Support in a Diverse Multiethnic Population",
+            "acronym": "FHIR",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "fhir-enhanced-realrisks-to-improve-accuracy-of-breast-cancer-risk-assessments"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-06-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-04-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-30",
+            "studyFirstSubmitQcDate": "2023-03-30",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Rita Kukafka",
+                "investigatorTitle": "Professor of Biomedical Informatics and Sociomedical Sciences; Department of Biomedical Informatics Chief Diversity Officer",
+                "investigatorAffiliation": "Columbia University"
+            },
+            "leadSponsor": {
+                "name": "Columbia University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute on Minority Health and Health Disparities (NIMHD)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Electronic health records (EHRs) are an increasingly common source for populating risk models, but whether used to populate validated risk assessment models or to de-facto build risk prediction models, EHR data presents several challenges. The purpose of this study is to assess how the integration of patient generated health data (PGHD) and EHR data can generate more accurate risk prediction models, advance personalized cancer prevention, improve digital access to health data in an equitable manner, and advance policy goals for Patient Generated Health Data (PGHD) and EHR interoperability.",
+            "detailedDescription": "While breast cancer (BC) mortality has declined, this decline has begun to plateau, particularly among racial/ethnic minorities. Women identified as high-risk for BC may benefit from chemoprevention, testing for BC susceptibility genes, screening, and other personalized risk reducing strategies; however, barriers exist including the time required to conduct risk assessment of each woman in a population. Electronic health records (EHRs), a common source for populating risk assessment models present challenges, including missing data, and data type more accurate when provided by patients compared to EHRs. The investigators previously extracted EHR data on age, race/ethnicity, family history of BC, benign breast disease, and breast density to calculate BC risk according to the Breast Cancer Surveillance Consortium (BCSC) model among 9,514 women. Comparing self-reported and EHR data, more women with a first-degree family history of BC (14.6% vs. 4.4%) and benign breast biopsies (21.3% vs. 11.3%) were identified with patient reported data, but EHR data identified more women with atypia or lobular carcinoma in situ (1.1% vs. 2.3%). The EHR had missing data on race/ethnicity for 26.8% of women and on first-degree family history of BC for 87.2%. Opportunely, Fast Healthcare Interoperability Resources (FHIR), application programming interfaces (APIs), and new legislation offer an elegant solution for automated BC risk assessment that integrates both patient-generated health data and EHR data to harness the strengths of each approach. In prior work, the investigators developed the RealRisks decision aid using an iterative design process to equitably maximize acceptability, and usability. RealRisks promotes understanding of BC risk and collects patient-entered data to calculate BC risk according to the Gail model, BCSC, and BRCAPRO. When FHIR became available, the investigators updated RealRisks to automatically populate information for BC risk calculation from the EHR, and designed a prototype interface that shows this data to patients with a request to review and modify data before running the risk assessments. The investigators recently conducted a feasibility study to demonstrate that EHR data from FHIR could be incorporated into automated BC risk calculation. To increase the likelihood of developing disseminatable and equitable strategies that integrate EHR and PGHD data for risk assessment and personalized BC risk-reduction, the focus is to refine and test our approach among diverse multiethnic women. The aims are: 1) conduct user evaluations to refine FHIR-enhanced RealRisks; 2) assess the effect of the FHIR-enhanced RealRisks on patient activation, risk perception, and usability in a pilot study of multiethnic high-risk women; and 3) identify multilevel barriers to implementing FHIR-enhanced RealRisks into clinical care. Given the mortality associated with BC, focused efforts are needed to provide accurate risk assessment and shared decision-making about risk-reducing strategies, especially in minority women who are more likely to be diagnosed with advanced stage BC. If successful, the approach tested in this application may provide a roadmap for broadly improving digital access to health data and reducing BC mortality in an equitable manner.\n\nThe investigators will conduct a pre-/post- feasibility study of 55 high-risk diverse multiethnic women with follow-up to assess accuracy of breast cancer risk perception (perceived lifetime risk minus actual risk according to the Gail model) and patient activation."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Breast Cancer"
+            ],
+            "keywords": [
+                "Electronic Health Record",
+                "Decision Aid",
+                "Fast Healthcare Interoperability Resources (FHIR)",
+                "Breast Cancer Risk Assessment",
+                "Lobular Carcinoma In Situ",
+                "Atypical Hyperplasia"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "RealRisks is a patient-facing, web-based decision support tool that was developed using multiple design sessions, participatory workshops, and usability studies to arrive at guiding principles that focus on 1) personalized breast cancer risk calculation, 2) interactive games to communicate breast cancer risk, and 3) patient preferences elicitation to elicit values supporting breast cancer options. The FHIR enhanced-RealRisks functionality that this research focuses on will allow RealRisks to utilize a patient's electronic health record data to support accurate risk assessment.",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 55,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "FHIR-Enhanced RealRisks",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will self-administer FHIR-enhanced RealRisks with access to risk communication games, family history pedigree and modules on chemoprevention and genetics testing, if relevant to them based on their risk and family history. The investigators are interested in gaining short-term feedback on patient activation and other patient reported outcomes, which will be assessed before and within 2 weeks after using RealRisks.",
+                    "interventionNames": [
+                        "Behavioral: RealRisks"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "RealRisks",
+                    "description": "RealRisks is a web-based patient-centered decision aid (DA) designed to improve: 1) accuracy of breast cancer risk perceptions; 2) chemoprevention knowledge, and 3) informed choice. The DA includes audio and modules about breast cancer risk (including interactive games on risk communication) and chemoprevention. Through RealRisks, the investigators will collect information on breast cancer risk factors to calculate a patient's BCSC breast cancer risk score and also factors that influenced decision-making about chemoprevention through the preference elicitation game. RealRisks generates an action plan for patients summarizing their personalized breast cancer risk profile and preference elicitation for chemoprevention. Of note, the tool is designed for patients with varying levels of health literacy and numeracy and is available in English and Spanish.",
+                    "armGroupLabels": [
+                        "FHIR-Enhanced RealRisks"
+                    ],
+                    "otherNames": [
+                        "FHIR-Enhanced RealRisks"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Patient Activation",
+                    "description": "Validated 13-item Patient Activation Measure, which measures patient knowledge, skill, and confidence in self-management of health. Scores range from 0 to 100; higher scores indicate greater activation.",
+                    "timeFrame": "2-weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Accuracy of perceived breast cancer risk",
+                    "description": "Difference between perceived numeric risk estimate and actual lifetime breast cancer risk score, according to the Gail or BCSC risk models, categorized as accurate if the difference between subjective and objective risk estimates are 10% in either direction, underestimate if \\>10% below objective risk, and overestimate if \\>10% above objective risk.",
+                    "timeFrame": "2-weeks"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Perceived usability",
+                    "description": "Measured via the Perceived Health Web Site Usability Questionnaire (PHWSUQ), three separate sections to evaluate patient satisfaction (e.g., \"It is easy to find specific information\"), ease of use (e.g., \"It was easy to understand how to get to EHR data\"), and usefulness (e.g., \"Using the FHIR-enhanced RealRisks will help me improve my understanding about my BC risk; what I can do to reduce my risk\"). The PHWSUQ consists of 12 items on a 7-point Likert scale ranging from Very Unsatisfied (1) to Very Satisfied (7). Scores range from 12-84, with a higher scores indicating greater overall usability of the tool.",
+                    "timeFrame": "2-weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Women, age 35-74 years\n* High-risk defined as 5-year invasive breast cancer risk \u22651.7% or 10 risk \u226520% according to the BCSC or GAIL models\n* English- or Spanish-speaking\n* Able to sign informed consent.\n\nExclusion Criteria:\n\n* Women with a personal history of breast cancer\n* Women who previously participated in a sub-study (Aim 1) of the awarded grant.",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "35 Years",
+            "maximumAge": "74 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Rita Kukafka, DrPH, MA",
+                    "role": "CONTACT",
+                    "phone": "212-305-9193",
+                    "email": "rk326@cumc.columbia.edu"
+                },
+                {
+                    "name": "Katherine Crew, MD, MS",
+                    "role": "CONTACT",
+                    "phone": "212-305-1732",
+                    "email": "kd59@cumc.columbia.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Rita Kukafka, DrPH, MA",
+                    "affiliation": "Columbia University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Columbia University Irving Medical Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Rita Kukafka, DrPH, MA",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Rita Kukafka, DrPH, MA",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10016",
+                    "name": "Hyperplasia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5535",
+                    "name": "Carcinoma in Situ",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20420",
+                    "name": "Carcinoma, Lobular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

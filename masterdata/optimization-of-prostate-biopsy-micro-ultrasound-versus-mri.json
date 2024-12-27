@@ -1,0 +1,677 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05220501",
+            "orgStudyIdInfo": {
+                "id": "EVU-2021-001"
+            },
+            "organization": {
+                "fullName": "Sunnybrook Health Sciences Centre",
+                "class": "OTHER"
+            },
+            "briefTitle": "Optimization of Prostate Biopsy - Micro-Ultrasound Versus MRI",
+            "officialTitle": "Optimization of Prostate Biopsy - Micro-Ultrasound Versus MRI: A 3-arm Randomized Controlled Trial Evaluating the Role of 29MHz Micro-ultrasound in Guiding Prostate Biopsy in Men With Clinical Suspicion of Prostate Cancer.",
+            "acronym": "OPTIMUM",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "optimization-of-prostate-biopsy-micro-ultrasound-versus-mri"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-01-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-03-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-09",
+            "studyFirstSubmitQcDate": "2022-01-20",
+            "studyFirstPostDateStruct": {
+                "date": "2022-02-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Dr. Laurence Klotz",
+                "investigatorTitle": "Affiliate Scientist",
+                "investigatorAffiliation": "Sunnybrook Health Sciences Centre"
+            },
+            "leadSponsor": {
+                "name": "Sunnybrook Health Sciences Centre",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Exact Imaging",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "OPTIMUM is a study designed to compare the ability of ultra-high resolution transrectal micro-ultrasound (microUS) and multiparametric MRI (mpMRI)/US fusion to guide prostate biopsy.",
+            "detailedDescription": "The purpose of the Clinical Investigation Plan and Study Protocol is to present information for the OPTIMUM clinical investigation, including the scientific basis for the study, the procedural details, the ExactVu High Resolution Micro-Ultrasound System, its safety details, and administrative details. It has been designed in such a way as to optimize the scientific validity and reproducibility of the results of the study in accordance with current clinical knowledge and practice so as to fulfill the objectives of the investigation."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer"
+            ],
+            "keywords": [
+                "prostate",
+                "prostate biopsy",
+                "micro-ultrasound"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "All three arms will be active at the same time and subjects will be randomized to one arm.",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 1200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Micro-US Only",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects will undergo biopsy using micro-ultrasound only.",
+                    "interventionNames": [
+                        "Diagnostic Test: Micro-US Targeted Biopsy"
+                    ]
+                },
+                {
+                    "label": "mpMRI + Micro-US",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects will undergo fusion biopsy using mpMRI and micro-ultrasound",
+                    "interventionNames": [
+                        "Diagnostic Test: Micro-US Targeted Biopsy",
+                        "Diagnostic Test: MRI Targeted Biopsy"
+                    ]
+                },
+                {
+                    "label": "mpMRI Only",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects will undergo biopsy using mpMRI fused with regular ultrasound",
+                    "interventionNames": [
+                        "Diagnostic Test: MRI Targeted Biopsy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Micro-US Targeted Biopsy",
+                    "description": "All subjects will be biopsied no matter their arm randomization. In this group, MicroUS targets will be identified and sampled.",
+                    "armGroupLabels": [
+                        "Micro-US Only",
+                        "mpMRI + Micro-US"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "MRI Targeted Biopsy",
+                    "description": "All subjects will be biopsied no matter their arm randomization. In this group, MRI targets will be identified and sampled.",
+                    "armGroupLabels": [
+                        "mpMRI + Micro-US",
+                        "mpMRI Only"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Difference in csPCa rate between mpMRI-based and MicroUS-based biopsy techniques",
+                    "description": "Difference in detection rate of Grade Group \\> 1 Prostate Cancer (csPCa) found during biopsy between the two biopsy interventions tested: mpMRI Biopsy and MicroUS Biopsy.",
+                    "timeFrame": "Immediately after biopsy"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Difference in csPCa rate between conventional mpMRI/US fusion biopsy and mpMRI/MicroUS fusion biopsy",
+                    "description": "Difference in detection rate of Grade Group \\> 1 Prostate Cancer (csPCa) found during biopsy between the two fusion biopsy techniques used: conventional mpMRI/US Biopsy (mpMRI+US arm) and mpMRI/MicroUS Biopsy (mpMRI + Micro-US arm).",
+                    "timeFrame": "Immediately after biopsy"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Prediction of biopsy outcome using imaging risk scores",
+                    "description": "Difference in negative predictive value of highest risk score per patient for prediction of csPCa on biopsy",
+                    "timeFrame": "Immediately after biopsy"
+                },
+                {
+                    "measure": "Added cases of csPCa detected by each biopsy technique",
+                    "description": "Added value (in additional cases of csPCa detected) of each biopsy technique (mpMRI Targeted, MicroUS Targeted, Systematic) when added to the others to optimize the biopsy protocol.",
+                    "timeFrame": "Immediately after biopsy"
+                },
+                {
+                    "measure": "Cost of Interventions",
+                    "description": "Comparison of cost, in dollars, of interventions in each arm.",
+                    "timeFrame": "7 days after biopsy"
+                },
+                {
+                    "measure": "Procedure Time of Interventions",
+                    "description": "Comparison of procedure time, in minutes, of interventions in each arm.",
+                    "timeFrame": "7 days after biopsy"
+                },
+                {
+                    "measure": "Patient Satisfaction using a modified PROBE Questionnaire",
+                    "description": "Comparison of patient satisfaction using the \"Perception\" subset of questions from the PROBE Questionnaire of the ProTect study.",
+                    "timeFrame": "7 days after biopsy"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Men indicated for prostate biopsy due to elevated PSA and/or abnormal DRE\n* No history of prior prostate biopsy\n* No history of genitourinary cancer, including prostate cancer\n* 18 years or older\n* No contraindications to biopsy\n* No contraindications to mpMRI\n* No history of mpMRI for clinical investigation of prostate cancer within 12 months prior to screening and enrollment in the study\n\nExclusion Criteria:\n\n* History of prior prostate biopsy\n* History of genitourinary cancer, including prostate cancer\n* Contraindications to biopsy\n* Contraindications to mpMRI",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "genderBased": true,
+            "genderDescription": "Participants need to have a prostate and have been referred to a urologist",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Laurence Klotz, Dr",
+                    "role": "CONTACT",
+                    "phone": "4164804673",
+                    "email": "laurence.klotz@sunnybrook.ca"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Laurence Klotz",
+                    "affiliation": "Sunnybrook Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UCLA",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90095",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Wayne Brisbane, M.D.",
+                            "role": "CONTACT",
+                            "email": "WBrisbane@mednet.ucla.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "Yale University",
+                    "status": "RECRUITING",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06511",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Joseph Renzulli, MD",
+                            "role": "CONTACT",
+                            "email": "joseph.renzulli@yale.edu"
+                        },
+                        {
+                            "name": "Joseph Brito, MD",
+                            "role": "CONTACT",
+                            "email": "joseph.brito@yale.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                },
+                {
+                    "facility": "University of Florida Health",
+                    "status": "COMPLETED",
+                    "city": "Gainesville",
+                    "state": "Florida",
+                    "zip": "32611",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.65163,
+                        "lon": -82.32483
+                    }
+                },
+                {
+                    "facility": "John Hopkins",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21205",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Christian Pavlovich, MD",
+                            "role": "CONTACT",
+                            "email": "cpavlov2@jhmi.edu"
+                        },
+                        {
+                            "name": "Michael Rezaee, MD",
+                            "role": "CONTACT",
+                            "email": "mrezaee2@jhmi.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Carolina Urologic Research Center",
+                    "status": "RECRUITING",
+                    "city": "Myrtle Beach",
+                    "state": "South Carolina",
+                    "zip": "29572",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Neal Shore, MD",
+                            "role": "CONTACT",
+                            "email": "nshore@gsuro.com"
+                        },
+                        {
+                            "name": "Robert Jansen, MD",
+                            "role": "CONTACT",
+                            "email": "rjansen@atlanticurologyclinics.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.68906,
+                        "lon": -78.88669
+                    }
+                },
+                {
+                    "facility": "Ordensklinikum Elisabethinen",
+                    "status": "RECRUITING",
+                    "city": "Linz",
+                    "country": "Austria",
+                    "contacts": [
+                        {
+                            "name": "Ferdinand Luger, MD",
+                            "role": "CONTACT",
+                            "email": "ferdinand.luger@ordensklinikum.at"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.30639,
+                        "lon": 14.28611
+                    }
+                },
+                {
+                    "facility": "Hopital Delta",
+                    "status": "COMPLETED",
+                    "city": "Brussels",
+                    "country": "Belgium",
+                    "geoPoint": {
+                        "lat": 50.85045,
+                        "lon": 4.34878
+                    }
+                },
+                {
+                    "facility": "University of Alberta",
+                    "status": "RECRUITING",
+                    "city": "Edmonton",
+                    "state": "Alberta",
+                    "zip": "T6G1Z1",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Adam Kinnaird, MD",
+                            "role": "CONTACT",
+                            "email": "ask@ualberta.ca"
+                        },
+                        {
+                            "name": "Stacey Broomfield, PhD",
+                            "role": "CONTACT",
+                            "email": "sbroomfi@ualberta.ca"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 53.55014,
+                        "lon": -113.46871
+                    }
+                },
+                {
+                    "facility": "Sunnybrook and Women's College Health Sciences Centre",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "state": "Ontario",
+                    "zip": "M4N3M5",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Marlene Kebabdjian",
+                            "role": "CONTACT",
+                            "phone": "416-480-6100",
+                            "phoneExt": "2890",
+                            "email": "marlene.kebabdjian@sunnybrook.ca"
+                        },
+                        {
+                            "name": "Laurence Klotz, MD, FRCSC",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "University Health Network - Princess Margaret Hospital",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "state": "Ontario",
+                    "zip": "M5G 2C4",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Sangeet Ghai, M.D.",
+                            "role": "CONTACT",
+                            "email": "sangeet.ghai@uhn.ca"
+                        },
+                        {
+                            "name": "Kateri Corr",
+                            "role": "CONTACT",
+                            "email": "kateri.corr@uhn.ca"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "L'Institut Mutualiste Montsouris",
+                    "status": "RECRUITING",
+                    "city": "Paris",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Petr Macek, MD",
+                            "role": "CONTACT",
+                            "email": "petr.macek@imm.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.85341,
+                        "lon": 2.3488
+                    }
+                },
+                {
+                    "facility": "University of Magdeburg",
+                    "status": "RECRUITING",
+                    "city": "Magdeburg",
+                    "state": "Saxony-Anholt",
+                    "zip": "39120",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Martin Schostak, M.D.",
+                            "role": "CONTACT",
+                            "email": "martin.schostak@med.ovgu.de"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 52.12773,
+                        "lon": 11.62916
+                    }
+                },
+                {
+                    "facility": "ProUro",
+                    "status": "RECRUITING",
+                    "city": "Berlin",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Hannes Cash, MD",
+                            "role": "CONTACT",
+                            "email": "hannes.cash@prouro.de"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 52.52437,
+                        "lon": 13.41053
+                    }
+                },
+                {
+                    "facility": "University of Brandenburg",
+                    "status": "RECRUITING",
+                    "city": "Brandenburg",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Julian Struck, M.D.",
+                            "role": "CONTACT",
+                            "email": "Julian.Struck@uk-brandenburg.de"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 52.41667,
+                        "lon": 12.55
+                    }
+                },
+                {
+                    "facility": "Univerisy of Tuebingen",
+                    "status": "RECRUITING",
+                    "city": "Tuebingen",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Niklas Harland, MD",
+                            "role": "CONTACT",
+                            "email": "niklas.harland@med.uni-tuebingen.de"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.52266,
+                        "lon": 9.05222
+                    }
+                },
+                {
+                    "facility": "Urologica Clinica Bilbao",
+                    "status": "RECRUITING",
+                    "city": "Bilbao",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Felipe Urdaneta, MD",
+                            "role": "CONTACT",
+                            "email": "luisurdaneta03@yahoo.es"
+                        },
+                        {
+                            "name": "Txetxu Pereira, MD",
+                            "role": "CONTACT",
+                            "email": "txeper@yahoo.es"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.26271,
+                        "lon": -2.92528
+                    }
+                },
+                {
+                    "facility": "ICUA Madrid",
+                    "status": "RECRUITING",
+                    "city": "Madrid",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Javier Reinoso, MD",
+                            "role": "CONTACT",
+                            "email": "javier.reinoso@gmail.com"
+                        },
+                        {
+                            "name": "Moises Socarras, MD",
+                            "role": "CONTACT",
+                            "email": "moisessocarras@hotmail.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.4165,
+                        "lon": -3.70256
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

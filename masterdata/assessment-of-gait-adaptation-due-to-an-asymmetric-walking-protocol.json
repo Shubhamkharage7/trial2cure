@@ -1,0 +1,236 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05968729",
+            "orgStudyIdInfo": {
+                "id": "H21-0176"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "K01AR079043",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/K01AR079043"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Connecticut",
+                "class": "OTHER"
+            },
+            "briefTitle": "Assessment of Gait Adaptation Due to an Asymmetric Walking Protocol",
+            "officialTitle": "Assessment of Gait Adaptation Due to an Asymmetric Walking Protocol",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "assessment-of-gait-adaptation-due-to-an-asymmetric-walking-protocol"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-09-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-07-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-07-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-19",
+            "studyFirstSubmitQcDate": "2023-07-27",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kristin Morgan",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "University of Connecticut"
+            },
+            "leadSponsor": {
+                "name": "University of Connecticut",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this work is to conduct a comparative research-focused study to evaluate the effectiveness of how purposefully induced asymmetric walking protocols restore healthy, symmetric limb loading in individuals following post-anterior cruciate ligament reconstruction (ACLR) surgery. Additionally, computational modeling and machine learning to model knee loading in the clinic to determine the optimal asymmetric walking protocol to restore healthy gait in post-ACLR individuals.",
+            "detailedDescription": "This is an intervention study in which participants will be randomized as to the order in which each of the two sessions are completed. Forty post-ACLR will who present with between-limb gait differences will perform two asymmetric walking sessions where they will walk with between-limb gait speed differences of 0.25 m/s and 0.50 m/s at three 15-minute intervals to evaluate the restoration of healthy gait. Post-ACLR participants will perform an asymmetric walking intervention protocol session on two different days. On one day they will perform the protocol with a 0.25 m/s between-limb difference and on a separate day they will perform the protocol with a 0.50 m/s between limb difference. For the 0.25 m/s condition, one limb will be set to 1.0 m/s and the other 1.25 m/s (i.e., 1.0 m/s - 1.25 m/s). Similarly, for the 0.50 m/s condition, one limb will be set to 1.0 m/s and the other 1.50 m/s (i.e., 1.0 m/s - 1.50 m/s). Each participant will perform both the 0.25 m/s and 0.50 m/s protocols on separate days, and we will randomize who performs which protocol first or second. At least 3 weeks must pass between the two one-day sessions. Patient-specific simulations will be generated in OpenSim for each of the 40 post-ACLR individuals to assess differences in knee joint loading. Together with machine learning, these models will help evaluate the effectiveness of the asymmetric walking protocol in reducing detrimental knee loading. The study team hypothesizes that the 0.50 m/s perturbation will produce a larger reduction in between-limb asymmetry than the 0.25 m/s perturbation and reduce detrimental knee loading."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Anterior Cruciate Ligament Reconstruction"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 40,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "0.25 m/s asymmetric session first",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Participants will perform three 15-minute sessions of walking with a 0.25 m/s asymmetric walking gait speed difference where one limb is set at 1.0 m/s and the other limb is set at 1.25 m/s. Each of these sessions will be followed by 5-minute de-adaptation sessions where they will perform a symmetric walking trial at 1.0 m/s.",
+                    "interventionNames": [
+                        "Other: Active Comparator: 0.25 m/s asymmetric session first"
+                    ]
+                },
+                {
+                    "label": "0.50 m/s asymmetric walking session first",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Participants will perform three 15-minute sessions of walking with a 0.50 m/s asymmetric walking gait speed difference where one limb is set at 1.0 m/s and the other limb is set at 1.5 m/s. Each of these sessions will be followed by 5-minute de-adaptation sessions where they will perform a symmetric walking trial at 1.0 m/s.",
+                    "interventionNames": [
+                        "Other: Active Comparator: 0.50 m/s asymmetric session first"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Active Comparator: 0.25 m/s asymmetric session first",
+                    "description": "Participants will first perform an asymmetric walking trial where the between-limb gait speed difference is 0.25 m/s on day one. On the second day, participants will perform an asymmetric walking trial where the between-limb gait speed difference is 0.50 m/s.",
+                    "armGroupLabels": [
+                        "0.25 m/s asymmetric session first"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Active Comparator: 0.50 m/s asymmetric session first",
+                    "description": "Participants will first perform an asymmetric walking trial where the between-limb gait speed difference is 0.50 m/s on day one. On the second day, participants will perform an asymmetric walking trial where the between-limb gait speed difference is 0.25 m/s.",
+                    "armGroupLabels": [
+                        "0.50 m/s asymmetric walking session first"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Loading Rate",
+                    "description": "The rate at which the force is generated (Body Weight/sec). A decrease in loading rate would suggest that the participants adopted improved motor control while an increase would reflect impaired of motor control.",
+                    "timeFrame": "Screening, Baseline, and Post-Treatment (immediately following the completion of the second session)"
+                },
+                {
+                    "measure": "Change in Peak Vertical Ground Reaction Force",
+                    "description": "The largest force (newtons) produced during stance. An increase in force would that the participants are not properly engaging their muscles to control their movement.",
+                    "timeFrame": "Baseline, Post-Treatment (immediately following the completion of the second session)"
+                },
+                {
+                    "measure": "Change in Stride Time",
+                    "description": "The time (seconds) measure from initial contact on the foot to the next initial contact on the same foot. A reduction in stride time would indicate that the participants are walking faster and more comfortable applying force to their limb during walking. An increase in walking speed, suggests that the participants are uncomfortable applying force to their limb.",
+                    "timeFrame": "Baseline, Post-Treatment (immediately following the completion of the second session)"
+                },
+                {
+                    "measure": "Change in Knee Loading",
+                    "description": "The forces (newtons) experienced at the knee. An increase in knee loading would indicate that they participants are unable to properly support their knee during walking, while a reduction in knee loads would indicate the participants are engaging the appropriate muscles to support their knee during walking.",
+                    "timeFrame": "Baseline, Post-Treatment (immediately following the completion of the second session)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able to read and speak English\n2. Age 18 - 30 years old\n3. Undergone ACLR surgery at the UConn Musculoskeletal Institute\n4. Must not have any concomitant surgeries or injuries\n5. Must be cleared to return-to-sport by a physician after they have completed rehabilitation\n6. Must be within 1 month of having been cleared for return-to-sport\n7. Must present with between-limb gait differences in load rate greater than 10%\n\nExclusion Criteria:\n\n1. Participants who have any recent inflammation, bleeding disorders, active bleeding, or infection within the lower limbs.\n2. History of injuries to their patellar tendon\n3. Cannot walk for extended periods of time\n4. Cannot have had any back and/or lower extremity injury that affects their ability to move.\n5. Cannot have difficulty or pain with walking, raising your arms, jogging, or jumping\n6. Must not be allergic to tape.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "30 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kristin Morgan, PhD",
+                    "role": "CONTACT",
+                    "phone": "860-486-8118",
+                    "email": "kristin.2.morgan@uconn.edu"
+                },
+                {
+                    "name": "Noah Davidson, BS",
+                    "role": "CONTACT",
+                    "phone": "860-486-8118",
+                    "email": "noah.davidson@uconn.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kristin Morgan, PhD",
+                    "affiliation": "University of Connecticut",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Connecticut",
+                    "status": "RECRUITING",
+                    "city": "Storrs",
+                    "state": "Connecticut",
+                    "zip": "06269",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kristin Morgan, PhD",
+                            "role": "CONTACT",
+                            "phone": "860-486-8118",
+                            "email": "kristin.2.morgan@uconn.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.80843,
+                        "lon": -72.24952
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

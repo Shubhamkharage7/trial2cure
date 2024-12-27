@@ -1,0 +1,493 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05004727",
+            "orgStudyIdInfo": {
+                "id": "20-01158"
+            },
+            "organization": {
+                "fullName": "NYU Langone Health",
+                "class": "OTHER"
+            },
+            "briefTitle": "Multi-Center PAMPA Study",
+            "officialTitle": "Preventing Arthritis in a Multi-Center Psoriasis At-Risk Cohort",
+            "acronym": "PAMPA",
+            "therapeuticArea": [
+                "Dermatology"
+            ],
+            "study": "multi-center-pampa-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-02-16",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-03-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-08-06",
+            "studyFirstSubmitQcDate": "2021-08-06",
+            "studyFirstPostDateStruct": {
+                "date": "2021-08-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "NYU Langone Health",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Janssen Scientific Affairs, LLC",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a multi-center (North-America), randomized, double-blind, placebo-controlled, wait-list, interventional, preventive trial of guselkumab in high-risk psoriasis patients compared to non-biologic standard of care.\n\nThe primary objective of our proposed trial will be to test the hypothesis that a prolonged, unresolved skin inflammation coupled with musculoskeletal power-doppler ultrasound (MSKPDUS) abnormalities driven by IL-23 increase the risk for transition into PsA and that an intervention that targets one of these pivotal molecules (i.e., Guselkumab) will:\n\n1. Diminish MSKPDUS findings at 24 weeks, and\n2. Significantly reduce or prevent the emergence of synovio-enthesial phenotype at year 2."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Psoriasis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "maskingDescription": "Participants, investigator staff, persons performing the assessments, and the CTT will remain blind to the identity of the treatment from the time of randomization until database lock.",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 350,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Guselkumab + Topicals (GUS)",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Drug: Guselkumab"
+                    ]
+                },
+                {
+                    "label": "Placebo + Topicals (PBO)",
+                    "type": "PLACEBO_COMPARATOR",
+                    "interventionNames": [
+                        "Drug: Guselkumab",
+                        "Drug: Placebo"
+                    ]
+                },
+                {
+                    "label": "Standard-of-Care Therapy (SOC)",
+                    "type": "NO_INTERVENTION",
+                    "description": "In this third, non-randomized arm, patients would continue treatment with topical therapy or UVB, as part of our ongoing natural history of disease registries. This arm will include participants fulfilling RM-PsASon criteria but also those that do not (to serve as \"negative\" controls)."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Guselkumab",
+                    "description": "Guselkumab 100 mg 1 mL liquid formulation in a single-dose pre-filled syringe administered by subcutaneous injection at Week 0, Week 4 and every 8 weeks thereafter (month 0 to month 24 for arm 1; week 24 to month 24 for arm 2).",
+                    "armGroupLabels": [
+                        "Guselkumab + Topicals (GUS)",
+                        "Placebo + Topicals (PBO)"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Placebo",
+                    "description": "\u2022 Placebo to Guselkumab 1 mL liquid formulation in a single-dose pre-filled syringe administered by subcutaneous injection at Week 0, Week 4 and every 8 weeks thereafter (Month 0 to Week 20 for Arm 2).",
+                    "armGroupLabels": [
+                        "Placebo + Topicals (PBO)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Musculoskeletal, Power Doppler Ultrasound (MSK-PDUS) Composite Score",
+                    "description": "Score is defined by the ultrasound (General Electric Logiq E9 or E10) equipment, not calculated through a scale.",
+                    "timeFrame": "Baseline, Week 24"
+                },
+                {
+                    "measure": "Percentage of Patients Transitioning to Psoriatic Arthritis (PsA) by Modified CASPAR Criteria at Year 2",
+                    "description": "To meet CASPAR criteria for diagnosis of PsA, a participant must have inflammatory articular disease (joint, spine, entheseal or dactyitic) and at least 3 points from the following:\n\n1. Evidence of current psoriasis (2pts), personal history of psoriasis (2pts), family history (1pt)\n2. Typical psoriatic nail dystrophy including onycholysis, pitting, and hyperkeratosis observed on current physical examination (1pt)\n3. A negative test result for the presence of rheumatoid factor by any method except latex (1pt)\n4. Either current dactylitis, defined as swelling of an entire digit, or a history of dactylitis recorded by a rheumatologist (1pt)\n5. Radiographic evidence of juxta-articular new bone formation appearing as ill-defined ossification near joint margins (but excluding osteophyte formation) on plain radiographs of the hand or foot (1pt) The eCRF will autopopulate the total number of points. If the total score \u2265 3, the participant meets criteria for PsA diagnosis.",
+                    "timeFrame": "Year 2"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Percentage of Patients Transitioning to Psoriatic Arthritis (PsA) by Modified CASPAR Criteria at Year 1",
+                    "description": "To meet CASPAR criteria for diagnosis of PsA, a participant must have inflammatory articular disease (joint, spine, entheseal or dactyitic) and at least 3 points from the following:\n\n1. Evidence of current psoriasis (2pts), personal history of psoriasis (2pts), family history (1pt)\n2. Typical psoriatic nail dystrophy including onycholysis, pitting, and hyperkeratosis observed on current physical examination (1pt)\n3. A negative test result for the presence of rheumatoid factor by any method except latex (1pt)\n4. Either current dactylitis, defined as swelling of an entire digit, or a history of dactylitis recorded by a rheumatologist (1pt)\n5. Radiographic evidence of juxta-articular new bone formation appearing as ill-defined ossification near joint margins (but excluding osteophyte formation) on plain radiographs of the hand or foot (1pt) The eCRF will autopopulate the total number of points. If the total score \u2265 3, the participant meets criteria for PsA diagnosis.",
+                    "timeFrame": "Year 1"
+                },
+                {
+                    "measure": "Severity of PsA at the time of synovio-entheseal development",
+                    "description": "Severity will be categorized as mild, moderate, or severe.",
+                    "timeFrame": "Year 2"
+                },
+                {
+                    "measure": "Change in the ultrasound composite score of synovitis",
+                    "description": "Graded from 0-3 as absent, mild, moderate or severe according to images of a reference atlas (Hammer HB 2011). PD signal: 0=no PD-signal, 1=up to three single or two confluent signals, 2=less than half of the visible intracapsular area and 3=half or more of the visible intracapsular area covered by PD-signals.",
+                    "timeFrame": "Baseline, week 24"
+                },
+                {
+                    "measure": "Change in Madrid Sonographic Enthesis Index (MASEI) Score",
+                    "description": "MASEI: Structure is considered pathological (score=1) if there is a loss of fibrillar pattern, hypoechoic aspect, or fusiform thickening of the entheses. Erosions are defined as a cortical breakage with a step-down contour defect at the attachment of entheses at bone and graded with 0=absent or 3=present. Fascia and tendon thickness are measured at the point of maximal thickness on the bony insertion and graded with 0=normal or 1=thickened according to the reference values of the MASEI index. Enthesophytes are defined as calcifications at the entheses insertions into bone and graded with 0=absent, 1=small calcification, 2=clear presence of enthesophyte/calcification, 3= large calcifications or ossifications. PD-signals within entheses are scored with 0=absent or 3=present. Bursitis is investigated at the level of distal patellar tendon (infrapatellar bursitis) and the level of Achilles tendon insertion (retrocalcaneal bursitis) and graded with 0=absent and 1=present.",
+                    "timeFrame": "Baseline, week 24"
+                },
+                {
+                    "measure": "Psoriasis Body Surface Area (BSA)",
+                    "description": "The total BSA affected by plaque-type psoriasis will be estimated from the percentages of areas affected, including head, trunk, upper limbs and lower limbs. The following calculations will be done: each reported percentage will be multiplied by its respective body region corresponding factor (head = 0.1, trunk = 0.3, upper limbs = 0.2, lower limbs = 0.4). The resulting four percentages will be added up to estimate the total BSA affected by psoriasis.",
+                    "timeFrame": "Week 24"
+                },
+                {
+                    "measure": "Achieved IGA mod 2011 Score",
+                    "description": "Score 0 - Clear - No signs of psoriasis. Post-inflammatory hyperpigmentation may be present Score 1 - Almost clear - Normal to pink coloration of lesions; no thickening; no to minimal focal scaling Score 2 - Mild disease - Pink to light red coloration; just detectable to mild thickening; predominantly fine scaling Score 3 - Moderate disease - Dull bright red, clearly distinguishable erythema; clearly distinguishable to moderate thickening; moderate scaling Score 4 - Severe disease - Bright to deep dark red coloration; severe thickening with hard edges; severe / coarse scaling covering almost all or all lesions",
+                    "timeFrame": "Week 24"
+                },
+                {
+                    "measure": "Change in Functional Assessment of Chronic Illness Therapy (FACIT) Scale",
+                    "description": "FACIT consists of 13 statements regarding fatigue (e.g., \"I feel fatigued\", \"I feel weak all over\", \"I feel tired\", etc.). Items are scored as follows: 4=not at all, 3=a little bit, 2=somewhat, 1=quite a bit; 0=very much, EXCEPT items #7 and 8 which are reversed scored. Total score range is 0-52. A score of less than 30 indicates severe fatigue. The higher the score, the better the quality of life.",
+                    "timeFrame": "Week 24"
+                },
+                {
+                    "measure": "Change in EuroQol-5D (EQ-5D) Score",
+                    "description": "The scale measures how good or bad one's health is on the day of the questionnaire. Total score is 0-100; the higher the score, the better the health (0 = worst health one can imagine, 100 = best health one can imagine)",
+                    "timeFrame": "Baseline, Week 24"
+                },
+                {
+                    "measure": "Change in EuroQol-5D (EQ-5D) Score",
+                    "description": "The scale measures how good or bad one's health is on the day of the questionnaire. Total score is 0-100; the higher the score, the better the health (0 = worst health one can imagine, 100 = best health one can imagine)",
+                    "timeFrame": "Baseline, Year 2"
+                },
+                {
+                    "measure": "Change in International Dermatology Outcome Measures - Musculoskeletal -8 (IDEOM-MSK-8) Score",
+                    "description": "IDEOM-MSK-8 is a short questionnaire that allows people with MSK conditions to report their symptoms and quality of life in a standardized way. The total range of score is 0-56; the higher the score, the better the MSK health status. In order to calculate the total score, the numbers next to the boxes that the participant has ticked on the questionnaire form is added up.",
+                    "timeFrame": "Baseline, Week 24"
+                },
+                {
+                    "measure": "Change in Ultrasound Score",
+                    "description": "Score is defined by the ultrasound (General Electric Logiq E9 or E10) equipment, not calculated through a scale.",
+                    "timeFrame": "Baseline, Week 24"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. 18 years old or older;\n2. Both male \\& female;\n3. Psoriasis diagnosis (per dermatologist) for at least 2 years (in at least 30% of participants);\n4. Willing and able to provide informed consent;\n5. Fulfillment of HR-PsO criteria (Psoriasis (PsO) patients will meet the definition of HR if they fulfill the following criteria: a) PsO duration \\>2 years and Psoriasis Body Surface Area (BSA) \\>3% and positive imaging findings in MSKPDUS defined as a RM-PsASon score of \\>3.36\n\nExclusion Criteria:\n\n1. Evidence of inflammatory joint pain, enthesitis and/or dactylitis on exam;\n2. Current systemic immunosuppressive medication use (i.e., methotrexate, apremilast) at the time of enrollment or biologic therapy (ever);\n3. RA seropositivity (mid-high RF/ACPA titers);\n4. Current active malignancy;\n5. History of symptomatic polyarticular OA or other joint conditions (such as RA, gout, etc) that may impair the ability to assess for PsA development\n6. Conditions where initiation of guselkumab is prohibited in the prescribing information, including clinically important active infection and untreated latent tuberculosis;\n7. Known hypersensitivity to the study agent.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jose Scher, MD",
+                    "role": "CONTACT",
+                    "phone": "6465017400",
+                    "email": "Jose.Scher@nyulangone.org"
+                },
+                {
+                    "name": "Fizaa Ahmed",
+                    "role": "CONTACT",
+                    "email": "Fizaa.Ahmed@nyulangone.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jose Scher, MD",
+                    "affiliation": "NYU Langone Health",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Joseph Merola, MD, MMSc",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Joseph Merola, MD, MMSc",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "NYU Langone Health",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jose Scher, MD",
+                            "role": "CONTACT",
+                            "email": "Jose.Scher@nyulangone.org"
+                        },
+                        {
+                            "name": "Amina Abdelaziz, EdD",
+                            "role": "CONTACT",
+                            "email": "Amina.Abdelaziz@nyulangone.org"
+                        },
+                        {
+                            "name": "Jose Scher, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Andrea Neimann, MD, MSCE",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jonathan Samuels, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Rebecca Haberman, MD, MSCI",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Rebecca Blank, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Michael Toprover, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Andrea Troxel, ScD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jiyuan Hu, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "University of Rochester Medical Center (URMC)",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "New York",
+                    "zip": "14623",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Christopher Ritchlin, MD, MPH",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "role": "CONTACT",
+                            "email": "Christopher_Ritchlin@urmc.rochester.edu"
+                        },
+                        {
+                            "name": "Francisco Tausk, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ralf Thiele, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Christopher Ritchlin, MD, MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.15478,
+                        "lon": -77.61556
+                    }
+                },
+                {
+                    "facility": "Memorial University",
+                    "status": "RECRUITING",
+                    "city": "Saint John's",
+                    "state": "Newfoundland and Labrador",
+                    "zip": "A1C 5B8",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Wayne Gulliver, MD",
+                            "role": "CONTACT",
+                            "email": "drgulliver@newlabresearch.com"
+                        },
+                        {
+                            "name": "Proton Rahman, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Wayne Gulliver, MD, FRCPC",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.56494,
+                        "lon": -52.70931
+                    }
+                },
+                {
+                    "facility": "Women's College Research Institute, University of Toronto",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "state": "Ontario",
+                    "zip": "M5S 1B2",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Lihi Eder, MD PhD",
+                            "role": "CONTACT",
+                            "email": "lihi.eder@wchospital.ca"
+                        },
+                        {
+                            "name": "Lihi Eder, MD PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Vincent Piguet, MD PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jensen Yeung, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Individual participant data that underlie the results reported in this article, after deidentification (text, tables, figures, and appendices) will be shared upon reasonable request.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP"
+            ],
+            "timeFrame": "Beginning 9 months and ending 36 months following article publication or as required by a condition of awards and agreements supporting the research.",
+            "accessCriteria": "The investigator who proposed to use the data will have access to the data upon reasonable request. Requests should be directed to jose.scher@nyulangone.org. To gain access, data requestors will need to sign a data access agreement."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011565",
+                    "term": "Psoriasis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000017444",
+                    "term": "Skin Diseases, Papulosquamous"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4476",
+                    "name": "Arthritis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14422",
+                    "name": "Psoriasis",
+                    "asFound": "Psoriasis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19713",
+                    "name": "Skin Diseases, Papulosquamous",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

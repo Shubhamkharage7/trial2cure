@@ -1,0 +1,340 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05370300",
+            "orgStudyIdInfo": {
+                "id": "SNAPS Breast Cancer"
+            },
+            "organization": {
+                "fullName": "Immunis.AI",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "SNAPS Breast Cancer Patient Study Breast Cancer Patients",
+            "officialTitle": "Subtraction Normalized Aggregated Phagocytic Signal in Peripheral Blood of Breast Cancer Patients (SNAPS - Clinical Trial) A NextGen RNASeq Feasibility Study of a Blood-based Model for Early Cancer Detection and Surveillance",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "snaps-breast-cancer-patient-study-breast-cancer-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2025-09-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-05-06",
+            "studyFirstSubmitQcDate": "2022-05-06",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Immunis.AI",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Duke University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Differential immunogenomic signatures from peripheral blood CD14 (phagocytic) and CD2 (non-phagocytic) cells have been associated with multiple cancers and disease states. In particular several large clinical studies at Immunis.AI have demonstrated robust immunogenomic signatures in early-stage prostate cancer. Immunis.AI therefore hypothesizes that a peripheral blood immunogenomic signature will identify patients with various stages of breast cancer from healthy negative controls.",
+            "detailedDescription": "Efficient next generation RNA sequencing platforms have allowed for whole genome expression profiling of individual populations of immune cells as a novel means of searching for patterns of gene expression to aid in the identification of meaningful signals unique to various disease states. Single cell sequencing techniques have provided additional information useful in deconvolution strategies applied to model development on purified populations of immune cells. Recent interest in peripheral leukocyte subset gene expression profiles suggests that diagnostic information for many disorders may be contained therein. Mononuclear phagocytic cells including the various CD14+ subsets have been studied extensively in various disease states including some solid tumors. Previous large clinical studies at Immunis.AI have determined that transcriptomic profiles of CD14+ cell populations subtraction normalized from CD2+ cell populations were associated with aggressive disease phenotypes such as prostate cancer. Tumor heterogeneity, multifocality, and oligoclonality have been a significant barrier to development of meaningful tissue based multigene signatures for predicting cancer biologic behavior. The findings at Immunis.AI strongly suggest that analysis of RNA expression data from the body's immune surveillance cells has the potential to summarize the entire heterogeneous tumor. The investigators believe that the CD14/CD2 log ratio can be understood as a subtraction normalization of gene expression which yields superior signal of early-stage cancer."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Breast Cancer",
+                "Breast Cancer Female"
+            ],
+            "keywords": [
+                "Breast Cancer",
+                "Immunogenomics"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Controls: Patients with negative screening MMG",
+                    "description": "Patients presenting to Duke Radiology for routine screening mammogram will be screened for eligibility as negative controls. Study enrollment for negative controls presumes that patients do not receive their screening mammography results immediately. Patients will be approached on the day of their first new patient visit to the Duke Cancer Center. If they are willing, they will be consented in clinic, and directed down to the lab for their first blood draw.",
+                    "interventionNames": [
+                        "Diagnostic Test: Blood test"
+                    ]
+                },
+                {
+                    "label": "Cases: Patients with known cancer diagnosis",
+                    "description": "Patients presenting to the Duke Cancer Center for evaluation by Medical or Surgical Oncology of a newly diagnosed breast cancer will be screened for study eligibility and approached, enrolled, and consented accordingly. Patients will be approached on the day of their first new patient visit to the Duke Cancer Center. If they are willing, they will be consented in clinic, and directed down to the lab for their first blood draw.",
+                    "interventionNames": [
+                        "Diagnostic Test: Blood test"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Blood test",
+                    "description": "Proprietary immunogenomic signature from peripheral blood CD14 and CD2 cells.",
+                    "armGroupLabels": [
+                        "Cases: Patients with known cancer diagnosis",
+                        "Controls: Patients with negative screening MMG"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Primary Aim",
+                    "description": "To determine if differential gene expression between peripheral blood phagocytic and non-phagocytic immune cells can distinguish breast cancer patients from cancer-negative controls.",
+                    "timeFrame": "12 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Secondary Aim 1",
+                    "description": "To evaluate minimal residual disease with a potential signature for breast cancer detection following curative therapy to evaluate the degree to which the original signature has changed.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Secondary Aim 2",
+                    "description": "To determine the sample size required to develop and validate a computational immunogenomic model capable of predicting the various types, grades, and stages of breast cancer.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Secondary Aim 3",
+                    "description": "To determine the temporal relation between biopsy procedures and signal strength or dilution.",
+                    "timeFrame": "12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients \\> 18 yrs of age.\n* Patients diagnosed with stage I-IV breast cancer, who have not begun definitive therapy.\n* Patients undergoing screening mammograms for breast cancer.\n\nExclusion Criteria:\n\n* Patients with a history of a different cancer within the previous 3 years (except non melanoma skin cancer).\n* Any prior treatment (surgery, chemo, hormonal, radiation, biologics, etc.) for current cancer.\n* Any biopsy which resulted in the entire tumor tissue being removed.\n* History of previous breast cancer.\n* Patients unable to provide informed consent.\n* Patients with an abnormal screening mammogram.\n* Patients whose hormone receptor and/or HER2 status are not available.",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients presenting to the Duke Cancer Center for evaluation by Medical or Surgical Oncology of a newly diagnosed breast cancer Patients presenting to Duke Radiology for routine screening mammogram",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Amanda Nash",
+                    "role": "CONTACT",
+                    "phone": "855-855-6484",
+                    "email": "amanda.nash@duke.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kirk Wojno, MD",
+                    "affiliation": "Immunis.AI",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Duke University",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amanda Nash",
+                            "role": "CONTACT",
+                            "phone": "855-855-6484"
+                        },
+                        {
+                            "name": "Amanda Nash",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Shelley Hwang, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "34685549",
+                    "type": "RESULT",
+                    "citation": "Van Neste L, Wojno KJ, Henao R, Mane S, Korman H, Hafron J, Kernen K, Tinawi-Aljundi R, Putzi M, Kassis AI, Kantoff PW. Evaluation of an RNAseq-Based Immunogenomic Liquid Biopsy Approach in Early-Stage Prostate Cancer. Cells. 2021 Sep 28;10(10):2567. doi: 10.3390/cells10102567."
+                },
+                {
+                    "pmid": "16704732",
+                    "type": "RESULT",
+                    "citation": "Palmer C, Diehn M, Alizadeh AA, Brown PO. Cell-type specific gene expression profiles of leukocytes in human peripheral blood. BMC Genomics. 2006 May 16;7:115. doi: 10.1186/1471-2164-7-115."
+                },
+                {
+                    "pmid": "24671955",
+                    "type": "RESULT",
+                    "citation": "Schmidl C, Renner K, Peter K, Eder R, Lassmann T, Balwierz PJ, Itoh M, Nagao-Sato S, Kawaji H, Carninci P, Suzuki H, Hayashizaki Y, Andreesen R, Hume DA, Hoffmann P, Forrest AR, Kreutz MP, Edinger M, Rehli M; FANTOM consortium. Transcription and enhancer profiling in human monocyte subsets. Blood. 2014 Apr 24;123(17):e90-9. doi: 10.1182/blood-2013-02-484188. Epub 2014 Mar 26."
+                },
+                {
+                    "pmid": "12522010",
+                    "type": "RESULT",
+                    "citation": "Hashimoto S, Nagai S, Sese J, Suzuki T, Obata A, Sato T, Toyoda N, Dong HY, Kurachi M, Nagahata T, Shizuno K, Morishita S, Matsushima K. Gene expression profile in human leukocytes. Blood. 2003 May 1;101(9):3509-13. doi: 10.1182/blood-2002-06-1866. Epub 2003 Jan 9."
+                },
+                {
+                    "pmid": "18684880",
+                    "type": "RESULT",
+                    "citation": "Dale DC, Boxer L, Liles WC. The phagocytes: neutrophils and monocytes. Blood. 2008 Aug 15;112(4):935-45. doi: 10.1182/blood-2007-12-077917."
+                },
+                {
+                    "pmid": "25225678",
+                    "type": "RESULT",
+                    "citation": "Gutknecht MF, Bouton AH. Functional significance of mononuclear phagocyte populations generated through adult hematopoiesis. J Leukoc Biol. 2014 Dec;96(6):969-80. doi: 10.1189/jlb.1RI0414-195R. Epub 2014 Sep 15."
+                },
+                {
+                    "pmid": "22025056",
+                    "type": "RESULT",
+                    "citation": "Chow A, Brown BD, Merad M. Studying the mononuclear phagocyte system in the molecular age. Nat Rev Immunol. 2011 Oct 25;11(11):788-98. doi: 10.1038/nri3087."
+                },
+                {
+                    "pmid": "22054451",
+                    "type": "RESULT",
+                    "citation": "Epstein JI. Update on the Gleason grading system. Ann Pathol. 2011 Nov;31(5 Suppl):S20-6. doi: 10.1016/j.annpat.2011.08.023. Epub 2011 Sep 28. No abstract available."
+                },
+                {
+                    "pmid": "29297497",
+                    "type": "RESULT",
+                    "citation": "Grignon DJ. Prostate cancer reporting and staging: needle biopsy and radical prostatectomy specimens. Mod Pathol. 2018 Jan;31(S1):S96-109. doi: 10.1038/modpathol.2017.167."
+                },
+                {
+                    "pmid": "26005866",
+                    "type": "RESULT",
+                    "citation": "Boutros PC, Fraser M, Harding NJ, de Borja R, Trudel D, Lalonde E, Meng A, Hennings-Yeomans PH, McPherson A, Sabelnykova VY, Zia A, Fox NS, Livingstone J, Shiah YJ, Wang J, Beck TA, Have CL, Chong T, Sam M, Johns J, Timms L, Buchner N, Wong A, Watson JD, Simmons TT, P'ng C, Zafarana G, Nguyen F, Luo X, Chu KC, Prokopec SD, Sykes J, Dal Pra A, Berlin A, Brown A, Chan-Seng-Yue MA, Yousif F, Denroche RE, Chong LC, Chen GM, Jung E, Fung C, Starmans MH, Chen H, Govind SK, Hawley J, D'Costa A, Pintilie M, Waggott D, Hach F, Lambin P, Muthuswamy LB, Cooper C, Eeles R, Neal D, Tetu B, Sahinalp C, Stein LD, Fleshner N, Shah SP, Collins CC, Hudson TJ, McPherson JD, van der Kwast T, Bristow RG. Spatial genomic heterogeneity within localized, multifocal prostate cancer. Nat Genet. 2015 Jul;47(7):736-45. doi: 10.1038/ng.3315. Epub 2015 May 25."
+                },
+                {
+                    "pmid": "25159890",
+                    "type": "RESULT",
+                    "citation": "Womble PR, Montie JE, Ye Z, Linsell SM, Lane BR, Miller DC; Michigan Urological Surgery Improvement Collaborative. Contemporary use of initial active surveillance among men in Michigan with low-risk prostate cancer. Eur Urol. 2015 Jan;67(1):44-50. doi: 10.1016/j.eururo.2014.08.024. Epub 2014 Aug 24."
+                },
+                {
+                    "pmid": "27422298",
+                    "type": "RESULT",
+                    "citation": "Cher ML, Dhir A, Auffenberg GB, Linsell S, Gao Y, Rosenberg B, Jafri SM, Klotz L, Miller DC, Ghani KR, Bernstein SJ, Montie JE, Lane BR; Michigan Urological Surgery Improvement Collaborative. Appropriateness Criteria for Active Surveillance of Prostate Cancer. J Urol. 2017 Jan;197(1):67-74. doi: 10.1016/j.juro.2016.07.005. Epub 2016 Jul 14."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Research data will not be shared as it is proprietary information"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

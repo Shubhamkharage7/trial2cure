@@ -1,0 +1,363 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05033028",
+            "orgStudyIdInfo": {
+                "id": "21-00340"
+            },
+            "organization": {
+                "fullName": "NYU Langone Health",
+                "class": "OTHER"
+            },
+            "briefTitle": "Smartphones for Opiate Addiction Recovery",
+            "officialTitle": "Smartphones for Opiate Addiction Recovery",
+            "acronym": "SOAR",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "smartphones-for-opiate-addiction-recovery"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-11-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-01-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-01-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-08-27",
+            "studyFirstSubmitQcDate": "2021-08-27",
+            "studyFirstPostDateStruct": {
+                "date": "2021-09-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "NYU Langone Health",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Treatments for opioid addiction exist, but effectiveness is compromised when subjects use illicit opiates during treatment. Reuse rates during treatment can be high, and reducing illicit opiate use during treatment has thus recently become a major NIDA policy goal. The 5-minute battery indicates the numerical probability that a patient will reuse illicit opiates within the next 7-10 days.",
+            "detailedDescription": "The primary goal in this mid-scale clinical trial is to test the hypothesis that clinicians who use the output of the mobile system to adjust buprenorphine and methadone dosing achieve lower opiate reuse rates than physicians who provide care-as-usual. The secondary goal is to examine the usability and desirability of this solution for clinicians with an eye to usability and large-scale deployment. The third and final goal is to measure the cost-effectiveness of this solution from multiple perspectives. If successful it will be possible to employ an algorithmic and measurement-based approach to OUD treatment with methadone and buprenorphine which reduces reuse rates and relapse rates amongst OUD patients."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Opioid-use Disorder"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 510,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Treatment-as-Usual",
+                    "type": "NO_INTERVENTION",
+                    "description": "Participants will receive the same treatment as if they had not joined the study"
+                },
+                {
+                    "label": "Smartphone with dose changes after using",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will have an app installed on their phone and have to complete a brief questionnaire and some days play a 2-4 minute game.",
+                    "interventionNames": [
+                        "Other: Smartphone app"
+                    ]
+                },
+                {
+                    "label": "Smartphone with dose changes before using",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will have an app installed on their phone and have to complete a brief questionnaire and some days to play a 2-4 minute game.",
+                    "interventionNames": [
+                        "Other: Smartphone app"
+                    ]
+                },
+                {
+                    "label": "Focus group with Study Physicans",
+                    "type": "EXPERIMENTAL",
+                    "description": "Study physicians asked to participate in a focus group session or 1:1 interviews if unable to attend the focus group during year one of the study and once annually towards the end of years 2, 3, 4, and 5 of the study",
+                    "interventionNames": [
+                        "Other: Smartphone app"
+                    ]
+                },
+                {
+                    "label": "Focus group with Clinicians",
+                    "type": "EXPERIMENTAL",
+                    "description": "Clinicians asked to participate in a 1:1 interview and a separate focus group at roughly the same time. Prior to the first structured interview with our study team, you will participate in a 1-hour training and familiarization session with the SOAR system using synthetic or training data.",
+                    "interventionNames": [
+                        "Other: Smartphone app"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Smartphone app",
+                    "description": "SOAR (Smartphones for Opioid Addiction Recovery) system (battery + platform) as a tool for adjusting MOUD dosages to reduce treatment dropout.",
+                    "armGroupLabels": [
+                        "Focus group with Clinicians",
+                        "Focus group with Study Physicans",
+                        "Smartphone with dose changes after using",
+                        "Smartphone with dose changes before using"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Proportion of patients will reduce illicit substance reuse rates with PREDICTIVE-DOSING relative to treatment as usual (TAU).",
+                    "description": "This is measured by collecting one salivary drug test every two weeks in addition to any drug testing they may complete as part of their clinical treatment. Once saliva samples are obtained they will be aggregated and sent weekly for analysis by mass spectrometry. The primary outcome from these data will be the number of toxicology tests positive for illicit opioids. These data are count in nature and truncated at both 0 and 12.",
+                    "timeFrame": "1 month visit, 3 months visit, 6 months visit"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "To assess the impact of POSTUSE-DOSING on reuse rates relative to TAU",
+                    "description": "This will be measured through self reports through the smartphone and assessed by randomly scheduled, remote drug screens with saliva samples.",
+                    "timeFrame": "1 month visit, 3 months visit, 6 months visit"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPatients:\n\n* Meet DSM-5 criteria for opioid-use disorder (heroin and/or prescription opioids);\n* Have entered, or expressed a clear intention to enter, an OUD treatment program that prescribes either methadone or buprenorphine\n* Any gender;\n* 18 years of age and older;\n* Have used opioids other than as specifically prescribed within thirty days prior to consent;\n* In good-enough general health;\n* Capacity to provide written informed consent as assessed by our Subject Comprehension Assessment Tool(subjects lacking the ability to consent will not be enrolled) ;\n* Able to speak English sufficiently to understand the study procedures and provide written informed consent to participate in the study.\n\nStudy-Physician Participants.\n\n* Licensed MD employed by the respective site, or at a clinical partner of the respective site, where they will act as participants and be part of the treatment team\n* Currently practicing in the treatment of OUD with either Buprenorphine or Methadone;\n* Able to speak, read, and write English fluently and to provide informed consent in English\n\nClinician Participants.\n\n* Licensed MSW, NP, or MD; who are not part of any treatment team within the study and may be employees of their respective sites or other treatment facilities.\n* Currently practicing in the treatment of OUD with either Buprenorphine or Methadone;\n* Able to speak, read, and write English fluently and to provide informed consent in English\n\nExclusion Criteria:\n\nPatients:\n\n* Serious medical, psychiatric or non-opioid substance use disorder that, in the opinion of a study physician, would make study participation hazardous to the participant or compromise study findings or would prevent the participant from completing the study. Examples include: (a) Disabling or terminal medical illness (e.g., uncompensated heart failure, cirrhosis or end-stage liver disease) as assessed by medical history, review of systems, physical exam and/or laboratory assessments;\n* Severe, untreated or inadequately treated mental disorder (e.g., active psychosis, uncontrolled manic-depressive illness) as assessed by history and/or clinical interview;\n* Current severe alcohol, benzodiazepine, or other depressant or sedative hypnotic use likely to require a complicated medical detoxification (routine alcohol and sedative detoxifications may be included);\n* Suicidal or homicidal ideation that requires immediate attention;\n* Presence of pain of sufficient severity as to require ongoing pain management with opioids;\n* Pending legal action or other reasons that might prevent an individual from completing the study.\n* Pregnancy as assessed by urine pregnancy testing\n* Breastfeeding of infants, as assessed by self-report.\n* Prisoners, as defined by OHRP, are excluded from participation in the study.\n* Individuals receiving residential court-ordered substance abuse treatment.\n\nStudy-Physician Participants.\n\n* none\n\nClinician Participants.\n\n* none",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Paul Glimcher",
+                    "role": "CONTACT",
+                    "phone": "212-263-8167",
+                    "email": "Paul.glimcher@nyulangone.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "John Rotrosen, MD",
+                    "affiliation": "NYU Langone Health",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Rutgers University",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Piscataway",
+                    "state": "New Jersey",
+                    "zip": "08854",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Anna Konova, MD",
+                            "role": "CONTACT",
+                            "phone": "929-390-8905",
+                            "email": "anna.konova@rutgers.edu"
+                        },
+                        {
+                            "name": "Anna Konova, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.49927,
+                        "lon": -74.39904
+                    }
+                },
+                {
+                    "facility": "NYU Langone",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Paul Glimcher",
+                            "role": "CONTACT",
+                            "phone": "212-263-8167",
+                            "email": "paul.glimcher@nyulangone.org"
+                        },
+                        {
+                            "name": "John Rotrosen, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Individual participant data that underlie the results reported in this article, after deidentification (text, tables, figures, and appendices).",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF"
+            ],
+            "timeFrame": "Beginning 9 months and ending 36 months following article publication or as required by a condition of awards and agreements supporting the research.",
+            "accessCriteria": "Researchers who provide a methodologically sound proposal. Upon reasonable request. Requests should be directed to Paul.glimcher@nyulangone.org To gain access, data requestors will need to sign a data access agreement."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009293",
+                    "term": "Opioid-Related Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000079524",
+                    "term": "Narcotic-Related Disorders"
+                },
+                {
+                    "id": "D000019966",
+                    "term": "Substance-Related Disorders"
+                },
+                {
+                    "id": "D000064419",
+                    "term": "Chemically-Induced Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M19100",
+                    "name": "Behavior, Addictive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12244",
+                    "name": "Opioid-Related Disorders",
+                    "asFound": "Opioid Use Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2057",
+                    "name": "Narcotic-Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21837",
+                    "name": "Substance-Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30302",
+                    "name": "Chemically-Induced Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC25",
+                    "name": "Substance Related Disorders"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4033",
+                    "name": "Analgesics, Opioid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27371",
+                    "name": "Opiate Alkaloids",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

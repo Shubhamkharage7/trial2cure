@@ -1,0 +1,516 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05053100",
+            "orgStudyIdInfo": {
+                "id": "MC210804"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2021-09154",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                }
+            ],
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Understanding the Risk of Blood Clots and Bleeding in Patients With Hematological Malignancies, HAT Study",
+            "officialTitle": "Hemorrhage and Thrombosis in Hematology Malignancies: Understanding the Risks of Thrombosis and Anticoagulation in Patients With Hematologic Malignancies (HAT Trial)",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "understanding-the-risk-of-blood-clots-and-bleeding-in-patients-with-hematological-malignancies-hat-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-08-17",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-18",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-08-18",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-09-13",
+            "studyFirstSubmitQcDate": "2021-09-13",
+            "studyFirstPostDateStruct": {
+                "date": "2021-09-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study evaluates the risks and experience of blood clots and bleeding in patients with blood cancers. While it is standard of care to use medications to reduce the risk of blood clots in hospitalized individuals, some patients with blood cancers have low platelet counts that can increase the concern for bleeding complications associated with these medications. At this time, the optimal management strategies for blood clots are not well known for patients with blood cancers. This pilot study evaluates additional information that could help doctors know which patients are at highest risk for blood clots.",
+            "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Determine the incidence of hemorrhage in the 3 months following deep vein thrombosis diagnosis in hospitalized malignant hematology patients, based on anticoagulant use and presence of thrombocytopenia.\n\nII. Determine recurrent or progressive venous thromboembolism in the 3 months following deep vein thrombosis diagnosis in hospitalized malignant hematology patients, based on anticoagulant use and presence of thrombocytopenia.\n\nSECONDARY OBJECTIVES:\n\nI. Assess feasibility of database creation of patient and clinical characteristics regarding thrombosis and hemorrhage in hospitalized malignant hematology patients.\n\nII. Assess feasibility of patient enrollment and hemostatic laboratory collection pre, during and post treatment.\n\nIII. Describe the impact of thrombocytopenia on resource utilization following thrombosis diagnosis (blood product administration, imaging studies performed, number of days hospitalized).\n\nIV. Describe the impact of therapeutic anticoagulation vs prophylactic anticoagulation on resource utilization following thrombosis diagnosis (blood product administration, imaging studies performed, number of days hospitalized).\n\nV. Define baseline hemostatic characteristics in hospitalized malignant hematology patients prior to chemotherapy and the association with thrombosis or hemorrhage.\n\nVI. Describe changes in laboratory hemostatic characteristics pre-treatment, during treatment and post treatment.\n\nOUTLINE:\n\nPatients' electronic health record are reviewed for 12 months and/or undergo collection of blood at pretreatment and on days 7, 28, 90, and 180."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Acute Leukemia",
+                "Deep Vein Thrombosis",
+                "Hematopoietic and Lymphoid Cell Neoplasm",
+                "Hodgkin Lymphoma",
+                "Myeloproliferative Neoplasm",
+                "Non-Hodgkin Lymphoma",
+                "Plasma Cell Myeloma",
+                "Thrombocytopenia"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Observational (record review, blood collection)",
+                    "description": "Patients' electronic health record are reviewed for 12 months and/or undergo collection of blood at pretreatment and on days 7, 28, 90, and 180.",
+                    "interventionNames": [
+                        "Procedure: Biospecimen Collection",
+                        "Other: Electronic Health Record Review"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biospecimen Collection",
+                    "description": "Undergo collection of blood",
+                    "armGroupLabels": [
+                        "Observational (record review, blood collection)"
+                    ],
+                    "otherNames": [
+                        "Biological Sample Collection"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Electronic Health Record Review",
+                    "description": "Undergo electronic health record review",
+                    "armGroupLabels": [
+                        "Observational (record review, blood collection)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Thrombosis incidence",
+                    "timeFrame": "Time between admission to the hospital and venous thrombotic event, assessed up to 1 year"
+                },
+                {
+                    "measure": "Rate of venous thromboembolism recurrence",
+                    "description": "Kaplan-Meier curve is created and compared by anticoagulation strategy.",
+                    "timeFrame": "Up to 1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Hemorrhage incidence, without prior thrombosis",
+                    "timeFrame": "Time between admission to the hospital and hemorrhage event, assessed up to 1 year"
+                },
+                {
+                    "measure": "Hemorrhage incidence, with prior thrombosis < 12 months",
+                    "timeFrame": "Within 3 months following deep vein thrombosis diagnosis"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All unique patients, age \\> 18 years old, admitted to the Mayo Clinic Arizona Hematology A and B Service for initiation of 1.) new (or next line) chemotherapy, 2.) autologous stem cell transplant, or 3.) allogeneic stem cell transplant for a hematologic malignancy\n\nExclusion Criteria:\n\n* Solid tumor malignancy patients\n* Age \\< 18",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients admitted to Mayo Clinic Arizona Hematology.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Leslie J Padrnos",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Arizona",
+                    "status": "RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85259",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Leslie J. Padrnos, M.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008223",
+                    "term": "Lymphoma"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009101",
+                    "term": "Multiple Myeloma"
+                },
+                {
+                    "id": "D000013927",
+                    "term": "Thrombosis"
+                },
+                {
+                    "id": "D000020246",
+                    "term": "Venous Thrombosis"
+                },
+                {
+                    "id": "D000013921",
+                    "term": "Thrombocytopenia"
+                },
+                {
+                    "id": "D000009196",
+                    "term": "Myeloproliferative Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                },
+                {
+                    "id": "D000008206",
+                    "term": "Lymphatic Diseases"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                },
+                {
+                    "id": "D000016769",
+                    "term": "Embolism and Thrombosis"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000001791",
+                    "term": "Blood Platelet Disorders"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000095542",
+                    "term": "Cytopenia"
+                },
+                {
+                    "id": "D000001855",
+                    "term": "Bone Marrow Diseases"
+                },
+                {
+                    "id": "D000054219",
+                    "term": "Neoplasms, Plasma Cell"
+                },
+                {
+                    "id": "D000020141",
+                    "term": "Hemostatic Disorders"
+                },
+                {
+                    "id": "D000010265",
+                    "term": "Paraproteinemias"
+                },
+                {
+                    "id": "D000001796",
+                    "term": "Blood Protein Disorders"
+                },
+                {
+                    "id": "D000006474",
+                    "term": "Hemorrhagic Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11220",
+                    "name": "Lymphoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21314",
+                    "name": "Hematologic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9556",
+                    "name": "Hemorrhage",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16686",
+                    "name": "Thrombosis",
+                    "asFound": "Thrombosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10945",
+                    "name": "Leukemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12058",
+                    "name": "Multiple Myeloma",
+                    "asFound": "Plasma Cell Myeloma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27588",
+                    "name": "Neoplasms, Plasma Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12149",
+                    "name": "Myeloproliferative Disorders",
+                    "asFound": "Myeloproliferative Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16680",
+                    "name": "Thrombocytopenia",
+                    "asFound": "Thrombocytopenia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22071",
+                    "name": "Venous Thrombosis",
+                    "asFound": "Deep Vein Thrombosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9751",
+                    "name": "Hodgkin Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11203",
+                    "name": "Lymphatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7784",
+                    "name": "Embolism",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19128",
+                    "name": "Embolism and Thrombosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5072",
+                    "name": "Blood Platelet Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3170",
+                    "name": "Cytopenia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5134",
+                    "name": "Bone Marrow Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21977",
+                    "name": "Hemostatic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5059",
+                    "name": "Blood Coagulation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13178",
+                    "name": "Paraproteinemias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5077",
+                    "name": "Blood Protein Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9560",
+                    "name": "Hemorrhagic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3543",
+                    "name": "Lymphosarcoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3947",
+                    "name": "Multiple Myeloma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1311",
+                    "name": "Chronic Myeloproliferative Disorders",
+                    "asFound": "Myeloproliferative Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2817",
+                    "name": "Hodgkin Lymphoma",
+                    "asFound": "Hodgkin Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

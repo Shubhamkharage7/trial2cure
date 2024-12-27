@@ -1,0 +1,397 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05255354",
+            "orgStudyIdInfo": {
+                "id": "ADAP-014"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "CCT5065",
+                    "type": "OTHER",
+                    "domain": "Stanford Cancer Center"
+                }
+            ],
+            "organization": {
+                "fullName": "Adaptive Biotechnologies",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Optimizing ctDNA-based MRD Assessment in DLBCL, MCL, and FL Patients Undergoing CAR Therapy",
+            "officialTitle": "Optimizing ctDNA-based MRD Assessment in DLBCL, MCL, and FL Patients Undergoing CAR Therapy",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "optimizing-ctdna-based-mrd-assessment-in-dlbcl-mcl-and-fl-patients-undergoing-car-therapy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-06-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-09-11",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-03-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-09",
+            "studyFirstSubmitQcDate": "2022-02-23",
+            "studyFirstPostDateStruct": {
+                "date": "2022-02-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-01-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-01-31",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Adaptive Biotechnologies",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Stanford University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "In this study, invesigators propose to analyze 150 DLBCL patients, 50 MCL patients, and 100 FL patients to determine the clinical utility of ctDNA- as well as circulating tumor cell (CTC)-based MRD assessment in CAR therapy patients. The project detailed in this protocol will utilize the clonoSEQ platform as specific quantification of residual DLBCL/FL/MCL and correlate its results with radiologic assessment of disease and clinical outcomes. Invesitgators predict there will be a strong correlation between ctDNA and PET/CT and dynamic changes in ctDNA will precede radiologic evidence of disease recurrence in patients following CAR therapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Follicular Lymphoma",
+                "Diffuse Large B Cell Lymphoma",
+                "Mantle Cell Lymphoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Patients will prospectively have blood samples collected prior to lymphodepleting chemotherapy and during the first 6-12 months after CAR infusion for MRD analysis. Patients will have their original tissue biopsy or bone marrow (which shows evidence of disease) analyzed to determine their clonotype for future assessments on peripheral blood sample."
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Diffuse Large B Cell Lymphoma",
+                    "description": "For DLBCL patients, prospective blood samples will be collected, in provided collection kits, at: pre-lymphodepletion chemotherapy, Day+14, Day+28, Day+90, Day+180, and potentially at relapse following CAR infusion. For DLBCL, PET/CT scan images done prior to CAR19 therapy, Day 28 post-infusion, 3 months post-infusion, and 6 months post-infusion of CAR19 cells",
+                    "interventionNames": [
+                        "Device: ClonoSEQ"
+                    ]
+                },
+                {
+                    "label": "Follicular Lymphoma",
+                    "description": "For FL patients, prospective blood samples will be collected, in provided collection kits, at: pre-lymphodepletion chemotherapy, Day+14, Day+28, Day+90, Day+180, Day+365, and potentially D+547 and at relapse following CAR infusion. For FL patients, PET/CT scan images done prior to CAR19 therapy, Day 28 post-infusion, 3 months post-infusion, and 6 months post-infusion of CAR19 cells",
+                    "interventionNames": [
+                        "Device: ClonoSEQ"
+                    ]
+                },
+                {
+                    "label": "Mantle Cell Lymphoma",
+                    "description": "For MCL patients, prospective blood samples will be collected, in provided collection kits, at: pre-lymphodepletion chemotherapy, Day+14, Day+28, Day+90, Day+180, Day+365, and potentially D+547 and at relapse following CAR infusion. For MCL patients, PET/CT scan images done prior to CAR19 therapy, Day 28 post-infusion, 3 months post-infusion, and 6 months post-infusion of CAR19 cells",
+                    "interventionNames": [
+                        "Device: ClonoSEQ"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "ClonoSEQ",
+                    "description": "Cancer clonotype sequences are identified in diagnostic 'ID' samples and then sequence frequencies are measured in follow up samples.",
+                    "armGroupLabels": [
+                        "Diffuse Large B Cell Lymphoma",
+                        "Follicular Lymphoma",
+                        "Mantle Cell Lymphoma"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Primary Outcome: Predicting Progression Free Survival",
+                    "description": "Ability of ctDNA MRD assessment to predict progression-free survival (PFS) at 6 months following CAR infusion in DLBCL, FL and MCL patients.",
+                    "timeFrame": "0-18 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Secondary Objective: Correlation of minimal residual disease and tumor burden",
+                    "description": "-Determine the correlation between quantified MRD and metabolic tumor volume (MTV)",
+                    "timeFrame": "0-18 months"
+                },
+                {
+                    "measure": "Secondary Objective continued: Looking at clinical information of minimal residual disease",
+                    "description": "-Determine the clinical utility of MRD assessments in an exploratory analysis",
+                    "timeFrame": "0-18 months"
+                },
+                {
+                    "measure": "Secondary Objective continued: Additional correlations",
+                    "description": "-Determine the correlation between ctDNA-based and CTC-based MRD assessments in DLBCL/FL/MCL",
+                    "timeFrame": "0-18 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Immunophenotypically confirmed diagnosis of follicular lymphoma (FL), Immunophenotypically confirmed diagnosis of Large B Cell Lymphoma (LBCL) (including transformed FL and Primary Mediastinal B-cell Lymphoma) OR Immunophenotypically confirmed diagnosis of mantle cell lymphoma (MCL) undergoing commercially approved CAR-T therapy in accordance with FDA indication with enrollment in this trial prior to CAR infusion\n* CAR-T product must meet manufacturer specifications\n* PET measurable disease at the time a decision is made to prescribe CAR treatment\n* Has sample from diagnosis or relapse available for genomic DNA extraction to identify patient's clonotype via clonoSEQ (see lab manual for details)\n\nExclusion Criteria:\n\n* Lack of archival diagnostic or fresh/archival relapse tissue for purposes of determining patient's lymphoma clonotype. Given that 5-10% of patients cannot have a clonotype identified by clonoSEQ, those patients will be removed from the study and excluded from analysis, but their samples will continued to be stored for future analysis as improvements to the analysis platform are made.\n* No patients are to be excluded on the basis of gender, race, ethnic background, sexual orientation, or other demographic characteristics.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Subjects \u2265 18 years of age, with DLBCL, FL, or MCL who are undergoing standard-of-care CAR therapy.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Heidi Simmons, PhD",
+                    "role": "CONTACT",
+                    "phone": "206-279-2591",
+                    "email": "hsimmons@adaptivebiotech.com"
+                },
+                {
+                    "name": "Monica Gallucci",
+                    "role": "CONTACT",
+                    "email": "mgallucci@adaptivebiotech.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Heidi Simmons, PhD",
+                    "affiliation": "Adaptive Biotechnologies",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94306",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Paul Hanson",
+                            "role": "CONTACT",
+                            "email": "hansonpj@stanford.edu"
+                        },
+                        {
+                            "name": "David Miklos, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008223",
+                    "term": "Lymphoma"
+                },
+                {
+                    "id": "D000020522",
+                    "term": "Lymphoma, Mantle-Cell"
+                },
+                {
+                    "id": "D000016403",
+                    "term": "Lymphoma, Large B-Cell, Diffuse"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                },
+                {
+                    "id": "D000008206",
+                    "term": "Lymphatic Diseases"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                },
+                {
+                    "id": "D000008228",
+                    "term": "Lymphoma, Non-Hodgkin"
+                },
+                {
+                    "id": "D000016393",
+                    "term": "Lymphoma, B-Cell"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11220",
+                    "name": "Lymphoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18828",
+                    "name": "Lymphoma, B-Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18831",
+                    "name": "Lymphoma, Large B-Cell, Diffuse",
+                    "asFound": "Diffuse Large B-Cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11221",
+                    "name": "Lymphoma, Follicular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22307",
+                    "name": "Lymphoma, Mantle-Cell",
+                    "asFound": "Mantle Cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11203",
+                    "name": "Lymphatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11222",
+                    "name": "Lymphoma, Non-Hodgkin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3543",
+                    "name": "Lymphosarcoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T640",
+                    "name": "B-cell Lymphoma",
+                    "asFound": "B-cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1866",
+                    "name": "Diffuse Large B-Cell Lymphoma",
+                    "asFound": "Diffuse Large B-Cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2361",
+                    "name": "Follicular Lymphoma",
+                    "asFound": "Follicular lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3601",
+                    "name": "Mantle Cell Lymphoma",
+                    "asFound": "Mantle Cell Lymphoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

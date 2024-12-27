@@ -1,0 +1,900 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04994795",
+            "orgStudyIdInfo": {
+                "id": "SGDLIV"
+            },
+            "organization": {
+                "fullName": "Sophia Genetics SAS",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Predictive Multimodal Signatures Associated With Response to Treatment and Prognosis of Patients With Stage IV Non-small Cell Lung Cancer",
+            "officialTitle": "Deep Learning-Enabled Exploration of Predictive Signatures in a Multicenter Retrospective and Prospective Observational Study Allowing the Analysis of the Aggregation of Multimodal Clinical, Biological, Genomic and Radiomics Data Associated With the Response to Treatment and Prognosis of Patients With Stage IV Non-small Cell Lung Cancer",
+            "acronym": "DEEP-Lung-IV",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "predictive-multimodal-signatures-associated-with-response-to-treatment-and-prognosis-of-patients-with-stage-iv-non-small-cell-lung-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-08-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-02",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-07-15",
+            "studyFirstSubmitQcDate": "2021-08-05",
+            "studyFirstPostDateStruct": {
+                "date": "2021-08-06",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Sophia Genetics SAS",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Predicting response to therapy and disease progression in stage IV NSCLC patients treated with pembrolizumab monotherapy, chemotherapy-pembrolizumab combination therapy or chemotherapy alone in the first-line setting."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Non-small Cell Lung Cancer Metastatic"
+            ],
+            "keywords": [
+                "NSCLC",
+                "Immunotherapy",
+                "Chemotherapy",
+                "Predictive models",
+                "Radiomics",
+                "Multimodal",
+                "Genomics",
+                "Machine learning"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "OTHER"
+            },
+            "enrollmentInfo": {
+                "count": 4000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Pembrolizumab monotherapy",
+                    "interventionNames": [
+                        "Other: Predictive models (data collection)"
+                    ]
+                },
+                {
+                    "label": "Chemotherapy and pembrolizumab combination therapy",
+                    "interventionNames": [
+                        "Other: Predictive models (data collection)"
+                    ]
+                },
+                {
+                    "label": "Chemotherapy doublet",
+                    "interventionNames": [
+                        "Other: Predictive models (data collection)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Predictive models (data collection)",
+                    "description": "Machine learning predictive models",
+                    "armGroupLabels": [
+                        "Chemotherapy and pembrolizumab combination therapy",
+                        "Chemotherapy doublet",
+                        "Pembrolizumab monotherapy"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Treatment response at first evaluation",
+                    "description": "Predict treatment response at first evaluation using baseline data",
+                    "timeFrame": "6-12 weeks after treatment start"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Progression-Free Survival",
+                    "description": "Predict Progression-Free Survival (PFS) using data at baseline and first evaluation",
+                    "timeFrame": "Through study completion, expected 6-14 months contingent on cohort"
+                },
+                {
+                    "measure": "Overall Survival",
+                    "description": "Predict Overall Survival (OS) using data at baseline and first evaluation",
+                    "timeFrame": "Through study completion, expected 8-20 months contingent on cohort"
+                },
+                {
+                    "measure": "Duration of Response",
+                    "description": "Predict Duration of Response (DoR) using data at baseline and first evaluation",
+                    "timeFrame": "Through study completion, expected 6-14 months contingent on cohort"
+                },
+                {
+                    "measure": "Time-To-Progression",
+                    "description": "Predict Time-To-Progression (TTP) using data at baseline and first evaluation",
+                    "timeFrame": "Through study completion, expected 6-14 months contingent on cohort"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult \u226518 years old\n* Patient diagnosed with Stage IV NSCLC (de novo or earlier stage progression to stage IV)\n* Absence of oncogene activating mutations eligible patients to targeted therapy (EGFR, ALK)\n* Cohort A: Received first line treatment with pembrolizumab monotherapy\n* Cohort B: Received first line treatment with chemotherapy and pembrolizumab combination therapy\n* Cohort C: Received first line treatment with chemotherapy doublet\n\nExclusion Criteria:\n\n* Prior anti-cancer therapy for actual stage IV NSCLC\n* Critical data missing (e.g., PD-L1 status, baseline millimetric imaging, first evaluation millimetric imaging)\n* Patients participating in other clinical trials that modify the standard of care",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Adult patients diagnosed with stage IV NSCLC (de novo or earlier stage progression to stage IV), without oncogene-activating mutations eligible for targeted therapy, that are treated in the first-line setting with either pembrolizumab monotherapy, chemotherapy and pembrolizumab combination therapy, or chemotherapy.",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Philippe Menu, MD-PhD, MBA",
+                    "role": "CONTACT",
+                    "phone": "+41216941060",
+                    "email": "DeepLungIV@sophiagenetics.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Philippe Menu, MD-PhD, MBA",
+                    "affiliation": "SOPHiA GENETICS",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Holden Comprehensive Cancer Center at University of Iowa Health Care",
+                    "status": "RECRUITING",
+                    "city": "Iowa City",
+                    "state": "Iowa",
+                    "zip": "52242",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Muhammad Furqan, MD",
+                            "role": "CONTACT",
+                            "email": "muhammad-furqan@uiowa.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.66113,
+                        "lon": -91.53017
+                    }
+                },
+                {
+                    "facility": "UMASS Memorial Health",
+                    "status": "RECRUITING",
+                    "city": "Worcester",
+                    "state": "Massachusetts",
+                    "zip": "01655",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alexander Bankier, MD",
+                            "role": "CONTACT",
+                            "email": "alexander.bankier@umassmemorial.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.26259,
+                        "lon": -71.80229
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Aaron Mansfield, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Aaron Mansfield, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                },
+                {
+                    "facility": "Roswell Park Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Buffalo",
+                    "state": "New York",
+                    "zip": "14203",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Prantesh Jain, MD",
+                            "role": "CONTACT",
+                            "phone": "800-767-9355",
+                            "email": "askroswell@roswellpark.org"
+                        },
+                        {
+                            "name": "Prantesh Jain, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.88645,
+                        "lon": -78.87837
+                    }
+                },
+                {
+                    "facility": "Huntsman Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Salt Lake City",
+                    "state": "Utah",
+                    "zip": "84112",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Wallace Akerley, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.76078,
+                        "lon": -111.89105
+                    }
+                },
+                {
+                    "facility": "Carbone Comprehensive Cancer Center at University of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53705",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mark Schiebler, MD",
+                            "role": "CONTACT",
+                            "email": "mschiebler@uwhealth.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                },
+                {
+                    "facility": "DASA - Hospital Brasilia",
+                    "status": "RECRUITING",
+                    "city": "Bras\u00edlia",
+                    "zip": "71681-603",
+                    "country": "Brazil",
+                    "contacts": [
+                        {
+                            "name": "Fernando De Padua, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -15.77972,
+                        "lon": -47.92972
+                    }
+                },
+                {
+                    "facility": "DASA - Hospital de Niteroi",
+                    "status": "RECRUITING",
+                    "city": "Niter\u00f3i",
+                    "zip": "24020-096",
+                    "country": "Brazil",
+                    "contacts": [
+                        {
+                            "name": "Victor Araujo MACHADO, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -22.88333,
+                        "lon": -43.10361
+                    }
+                },
+                {
+                    "facility": "DASA - Hospital S\u00e3o Lucas",
+                    "status": "RECRUITING",
+                    "city": "Rio de Janeiro",
+                    "zip": "22061-080",
+                    "country": "Brazil",
+                    "contacts": [
+                        {
+                            "name": "Luiz Henrique DE LIMA ARA\u00daJO, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -22.90278,
+                        "lon": -43.2075
+                    }
+                },
+                {
+                    "facility": "DASA - Hospital Nove De Julho",
+                    "status": "RECRUITING",
+                    "city": "S\u00e3o Paulo",
+                    "zip": "01409-902",
+                    "country": "Brazil",
+                    "contacts": [
+                        {
+                            "name": "Mariana Scaranti, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -23.5475,
+                        "lon": -46.63611
+                    }
+                },
+                {
+                    "facility": "AC Camargo",
+                    "status": "RECRUITING",
+                    "city": "S\u00e3o Paulo",
+                    "country": "Brazil",
+                    "contacts": [
+                        {
+                            "name": "Almir BITENCOURT, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -23.5475,
+                        "lon": -46.63611
+                    }
+                },
+                {
+                    "facility": "Sunnybrook Health Sciences Centre Toronto",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Anastasia Oikonomou, MD",
+                            "role": "CONTACT",
+                            "email": "anastasia.oikonomou@sunnybrook.ca"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "Avicenne Hospital",
+                    "status": "RECRUITING",
+                    "city": "Bobigny",
+                    "zip": "93000",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Boris Duchemann, MD",
+                            "role": "CONTACT",
+                            "email": "boris.duchemann@aphp.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.9,
+                        "lon": 2.45
+                    }
+                },
+                {
+                    "facility": "CHU Bordeaux",
+                    "status": "RECRUITING",
+                    "city": "Bordeaux",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "R\u00e9mi Veillon, Dr",
+                            "role": "CONTACT",
+                            "email": "remi.veillon@chu-bordeaux.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.84044,
+                        "lon": -0.5805
+                    }
+                },
+                {
+                    "facility": "Ambroise Par\u00e9 Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boulogne-Billancourt",
+                    "zip": "92100",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Etienne Giroux-Leprieur, Pr",
+                            "role": "CONTACT",
+                            "email": "etienne.giroux-leprieur@aphp.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.83333,
+                        "lon": 2.25
+                    }
+                },
+                {
+                    "facility": "Hospices Civils de Lyon",
+                    "status": "RECRUITING",
+                    "city": "Lyon",
+                    "zip": "69002",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "S\u00e9bastien Couraud, Pr",
+                            "role": "CONTACT",
+                            "email": "sebastien.couraud@chu-lyon.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.74848,
+                        "lon": 4.84669
+                    }
+                },
+                {
+                    "facility": "CHU de Nantes",
+                    "status": "RECRUITING",
+                    "city": "Nantes",
+                    "zip": "44093",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Elvire Pons-Tostivint, MD",
+                            "role": "CONTACT",
+                            "email": "elvire.pons@chu-nantes.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.21725,
+                        "lon": -1.55336
+                    }
+                },
+                {
+                    "facility": "La Piti\u00e9 Salp\u00eatri\u00e8re",
+                    "status": "RECRUITING",
+                    "city": "Paris",
+                    "zip": "75013",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Aurore Vozy, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Aurore Vozy, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.85341,
+                        "lon": 2.3488
+                    }
+                },
+                {
+                    "facility": "Tenon Hospital",
+                    "status": "RECRUITING",
+                    "city": "Paris",
+                    "zip": "75020",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Jacques Cadranel, Pr",
+                            "role": "CONTACT",
+                            "email": "jacques.cadranel@aphp.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.85341,
+                        "lon": 2.3488
+                    }
+                },
+                {
+                    "facility": "Foch Hospital",
+                    "status": "RECRUITING",
+                    "city": "Suresnes",
+                    "zip": "92150",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Perrine Cr\u00e9quit, MD",
+                            "role": "CONTACT",
+                            "email": "p.crequit@hopital-foch.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 48.87143,
+                        "lon": 2.22929
+                    }
+                },
+                {
+                    "facility": "Centre Hospitalier de Toulon",
+                    "status": "RECRUITING",
+                    "city": "Toulon",
+                    "zip": "83100",
+                    "country": "France",
+                    "contacts": [
+                        {
+                            "name": "Clarisse Audigier-Valette, MD",
+                            "role": "CONTACT",
+                            "email": "clarisse.audigier-valette@ch-toulon.fr"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.12442,
+                        "lon": 5.92836
+                    }
+                },
+                {
+                    "facility": "University Hospital Leipzig",
+                    "status": "RECRUITING",
+                    "city": "Leipzig",
+                    "zip": "04103",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Armin Frille, MD",
+                            "role": "CONTACT",
+                            "email": "armin.frille@medizin.uni-leipzig.de"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 51.33962,
+                        "lon": 12.37129
+                    }
+                },
+                {
+                    "facility": "Shaare Zadek Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Jerusalem",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Nir Peled, Pr",
+                            "role": "CONTACT",
+                            "email": "nirp@szmc.org.il"
+                        },
+                        {
+                            "name": "Nir Peled, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Laila Roisman, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.76904,
+                        "lon": 35.21633
+                    }
+                },
+                {
+                    "facility": "Sourasky Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Tel Aviv",
+                    "country": "Israel",
+                    "contacts": [
+                        {
+                            "name": "Ofer Merimsky, Pr",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Ofer Merimsky, Pr",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.08088,
+                        "lon": 34.78057
+                    }
+                },
+                {
+                    "facility": "University Hospital Of Parma",
+                    "status": "RECRUITING",
+                    "city": "Parma",
+                    "zip": "43100",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Nicola Sverzellati, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Nicola Sverzellati, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.79935,
+                        "lon": 10.32618
+                    }
+                },
+                {
+                    "facility": "Policlinico Gemelli",
+                    "status": "RECRUITING",
+                    "city": "Roma",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Luca Boldrini, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.89193,
+                        "lon": 12.51133
+                    }
+                },
+                {
+                    "facility": "Azienda Sanitaria Universitaria Friuli Centrale (ASU FC)",
+                    "status": "RECRUITING",
+                    "city": "Udine",
+                    "zip": "33100",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Giacomo Pelizzari, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Giacomo Pelizzari, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 46.0693,
+                        "lon": 13.23715
+                    }
+                },
+                {
+                    "facility": "Fundacion jimenez diaz",
+                    "status": "RECRUITING",
+                    "city": "Madrid",
+                    "zip": "28040",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Manuel Domine Gomez, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Manuel Domine Gomez, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.4165,
+                        "lon": -3.70256
+                    }
+                },
+                {
+                    "facility": "Puerta De Hierro Hospital",
+                    "status": "RECRUITING",
+                    "city": "Madrid",
+                    "zip": "28222",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Mariano Provencio, Pr",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Mariano Provencio, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.4165,
+                        "lon": -3.70256
+                    }
+                },
+                {
+                    "facility": "Instituto Valenciano De Oncologia",
+                    "status": "RECRUITING",
+                    "city": "Valence",
+                    "zip": "46009",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Eugenio Sanchez Aparisi, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Eugenio Sanchez Aparisi, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.46975,
+                        "lon": -0.37739
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000002289",
+                    "term": "Carcinoma, Non-Small-Cell Lung"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "asFound": "Non-small Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M349416",
+                    "name": "Pembrolizumab",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2853",
+                    "name": "Immunomodulating Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,296 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05989256",
+            "orgStudyIdInfo": {
+                "id": "IRB00079298"
+            },
+            "organization": {
+                "fullName": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            },
+            "briefTitle": "Developing a Model to Predict Inpatient Hypoglycemic Episodes",
+            "officialTitle": "Developing a Model to Predict Inpatient Hypoglycemic Episodes",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "developing-a-model-to-predict-inpatient-hypoglycemic-episodes"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-10",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-02",
+            "studyFirstSubmitQcDate": "2023-08-02",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will create a new model to predict hypoglycemic events in diabetic inpatients on anti-hyperglycemic therapy using retrospective data with the goal of developing a model that will accurately predict hypoglycemic episodes in the patient population - piloting the risk score that was developed in the context of EndoTool being rolled out at the institution, to determine the feasibility and acceptability of viewing the risk score in the Electronic Health Record",
+            "detailedDescription": "Design a model to predict hypoglycemic episodes in real time, rather than retrospectively identifying high risk patients who experienced a hypoglycemic event at some point during their hospitalization, as has been done prior. Potential predictors of hypoglycemia identified in prior work and additional predictors identified by the clinical team to develop a discrete-time multinomial logistic regression model to predict hypoglycemic events in real time. The risk score then will be piloted in the context of our institution's EndoTool Subcutaneous implementation determine the feasibility and acceptability of viewing the risk score in the Electronic Health Record"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hypoglycemic Events",
+                "Hyperglycemic Therapy"
+            ],
+            "keywords": [
+                "diabetes",
+                "hypoglycemia"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 40,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "experimental hypoglycemia risk score is applied on a service which has already implemented EndoTool",
+                    "type": "EXPERIMENTAL",
+                    "description": "Service where the experimental hypoglycemia risk score is applied on a service which has already implemented EndoTool",
+                    "interventionNames": [
+                        "Diagnostic Test: EndoTool"
+                    ]
+                },
+                {
+                    "label": "Service where EndoTool is applied without the experimental hypoglycemia risk score",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Service where EndoTool is applied without our experimental hypoglycemia risk score",
+                    "interventionNames": [
+                        "Other: glucose management team"
+                    ]
+                },
+                {
+                    "label": "Standard of care glucose management",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Service which has not yet implemented EndoTool - providers adjusting insulin and consulting the Glucose Management Team at their discretion",
+                    "interventionNames": [
+                        "Other: standard of care glucose management"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "EndoTool",
+                    "description": "EndoTool is a vendor based glucose management software",
+                    "armGroupLabels": [
+                        "experimental hypoglycemia risk score is applied on a service which has already implemented EndoTool"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "glucose management team",
+                    "description": "comparison group will be services that have not yet implemented EndoTool",
+                    "armGroupLabels": [
+                        "Service where EndoTool is applied without the experimental hypoglycemia risk score"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "standard of care glucose management",
+                    "description": "providers adjusting insulin and consulting the Glucose Management Team at their discretion",
+                    "armGroupLabels": [
+                        "Standard of care glucose management"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "EndoTool Utilization Rates",
+                    "description": "rate of EndoTool utilization",
+                    "timeFrame": "day 90"
+                },
+                {
+                    "measure": "Glucose Monitoring Team (GMT) Consult Utilization Rates",
+                    "description": "rate of GMT utilization",
+                    "timeFrame": "day 90"
+                },
+                {
+                    "measure": "Provider satisfaction scores",
+                    "description": "provider satisfaction with the alert system via survey data - 10 question survey asking Providers about their thoughts about the hypoglycemia risk score - range will be reported as their a-e answers - The provider satisfaction score ranges from 0-10 with higher scores meaning higher satisfaction.",
+                    "timeFrame": "day 90"
+                },
+                {
+                    "measure": "Inpatient hypoglycemia event rates",
+                    "description": "Total number of hypoglycemic events (\\<70 mg/dL) that were preceded by administration of rapid/short-acting insulin within 12 hours or an anti-diabetic agent other than short-acting insulin within 24 hours, were not followed by another glucose value greater than 80 mg/dL within five minutes, and were at least 20 hours apart divided by the total number of hospital days with at least one anti-diabetic agent administered)",
+                    "timeFrame": "day 90"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of Inpatient hospitalizations with a hyperglycemic event",
+                    "description": "Number of Inpatient hospitalizations with a hyperglycemic event within the first 10 days of the encounter minus the first 24 hours, and minus the last period before discharge if less than 24 hours. CMS defines a hyperglycemic event as a blood glucose result of \\>300 mg/dL, and/or a day in which a blood glucose value was not documented, and it was preceded by two consecutive days where at least one glucose value is \\>=200 mg/dL divided by the number of qualifying hospitalizations where the patient is 18 years or older at the start of the admission, as well as either: a diagnosis of diabetes that starts before or during the encounter; or administration of at least one dose of insulin or any hypoglycemic medication during the encounter; or presence of at least one blood glucose value \\>=200 mg/dL at any time during the encounter.",
+                    "timeFrame": "day 90"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Providers taking care of adult patients (18 years and older) on the selected medical floors who are receiving anti-hyperglycemic medications on the chosen services (EndoTool and risk score implementation) and comparison groups (one group with EndoTool implementation and the other group without EndoTool implementation)\n\nExclusion Criteria:\n\n* Providers not on the chosen services",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sarah Stern",
+                    "role": "CONTACT",
+                    "phone": "407.913.7232",
+                    "email": "srstern@wakehealth.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Matthew Gorris, MD",
+                    "affiliation": "Wake Forest University Health Sciences",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Wake Forest University Health Sciences",
+                    "city": "Winston-Salem",
+                    "state": "North Carolina",
+                    "zip": "27157",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sarah Stern",
+                            "role": "CONTACT",
+                            "phone": "407-913-7232",
+                            "email": "srstern@wakehealth.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.09986,
+                        "lon": -80.24422
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10053",
+                    "name": "Hypoglycemia",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M10054",
+                    "name": "Hypoglycemic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

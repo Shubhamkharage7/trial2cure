@@ -1,0 +1,349 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04828577",
+            "orgStudyIdInfo": {
+                "id": "RP2B/21-305"
+            },
+            "organization": {
+                "fullName": "Virginia Polytechnic Institute and State University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Real-Time fMRI to Enhance Interventions That Change Delay Discounting",
+            "officialTitle": "Real-Time fMRI to Enhance Interventions That Change Delay Discounting",
+            "acronym": "RP2B",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "real-time-fmri-to-enhance-interventions-that-change-delay-discounting"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-01-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-03-26",
+            "studyFirstSubmitQcDate": "2021-03-30",
+            "studyFirstPostDateStruct": {
+                "date": "2021-04-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-12",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Virginia Polytechnic Institute and State University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Fralin Biomedical Research Institute",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The investigators will use real-time fMRI neurofeedback to enhance participants' ability to control their temporal window, and hence their ability to modulate delay discounting and alcohol valuation.",
+            "detailedDescription": "Based on 8 years of experience recruiting alcohol users into studies of comparable length and complexity, the investigators anticipate that 92% of consented participants will be eligible (i.e., randomized) and 97% of those individuals will complete Aim 2b. Thus, to achieve a final sample size of 100, the investigators anticipate consenting 111 participants. This study will include 50 real time fMRI (experimental group) participants and 50 \"idealized\" neurofeedback (control) participants. Participants will be randomly assigned to experimental or control groups, stratified by AUDIT scores, SES, age, and sex. All study procedures will take place during a single study visit. Before the imaging session, a research assistant will aid the participant to select salient images related to individualized future goals as well as alcohol images which elicit self-reported craving. All participants will complete two fMRI runs within a single session. In run 1 of the scan (offline classifier training), participants will perform an image viewing task displaying alternating blocks of these goal- and alcohol-related images. Between the image viewing blocks we will assess reinforcer pathology with brief in-scanner measures of delay discounting and alcohol valuation (BAAD). In total, there will be six blocks each of the goal-oriented images, alcohol-related images, delay discounting, and BAAD (24 blocks total). Since this is a proof-of-concept experiment, the interspersed delay discounting and BAAD blocks will enable monitoring and validating changes in the participant's temporal window and alcohol valuation after the image viewing blocks. Only the fMRI measures of goal- and alcohol-related image viewing will be used to build a support vector classifier (SVC) of decreased vs. increased delay discounting. If participants are allocated to the real time fMRI group, in run 2 the SVC model from run 1 will be used to provide participants with real-time neurofeedback while they attempt to modulate their temporal window. The participants will see a dial with a needle on the screen along with instructions to think of either future goals or alcohol cues. The dial will be directly controlled by ongoing output from the SVC, updating the needle position as participants imagine immediate (alcohol-related) or delayed (goal-related) cues. Control participants (\"idealized\" neurofeedback group) will undergo the same procedures, but in run 2 neurofeedback, will be presented with an \"idealized\" dial (perfect needle movements in both alcohol and goal directions) and will be specifically instructed that they are not controlling the interface. The investigators have used this type of sham needle movement as a control condition in previous experiments. Based on this, it is expected that experimental group will have increased whole brain signal to noise for alcohol vs. goal fMRI analyses and increased recruitment of frontal-parietal networks from enhanced visual attention to the task."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Alcohol Use Disorder (AUD)"
+            ],
+            "keywords": [
+                "Alcohol Use Disorder (AUD)",
+                "rt-fMRI",
+                "behavioral economics"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Real Time Neurofeedback",
+                    "type": "EXPERIMENTAL",
+                    "description": "Real time neurofeedback will be based on a classifier of increasing or decreasing delay discounting fMRI patterns. Participants will try to modulate their discounting rate based on neurofeedback via a visual dial, during an fMRI scan. Participants will be told they will be controlling the visual dial.",
+                    "interventionNames": [
+                        "Behavioral: Real Time Neurofeedback"
+                    ]
+                },
+                {
+                    "label": "\"Idealized\"/Sham Neurofeedback",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "Rather than using the output of a classifier, the visual dial will display perfect \"modulation\" of increasing and decreasing delay discounting and participants will told that they will not be controlling the visual dial.",
+                    "interventionNames": [
+                        "Behavioral: \"Idealized\"/Sham Neurofeedback"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Real Time Neurofeedback",
+                    "description": "Participants receive feedback from own brain activity.",
+                    "armGroupLabels": [
+                        "Real Time Neurofeedback"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "\"Idealized\"/Sham Neurofeedback",
+                    "description": "Participants receive idealized feedback not related to their own brain activity.",
+                    "armGroupLabels": [
+                        "\"Idealized\"/Sham Neurofeedback"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Delay Discounting",
+                    "description": "Delay discounting tasks provide a measure of the temporal window and examine the devaluation of awards as a function of the delay to the receipt. These computerized assessments provide participants with hypothetical choices between smaller amounts of a reward available immediately and a larger amount of a reward after a range of delays (1 day-25 years). Discounting rates will be measured using the adjusting amount delay discounting and minute delay discounting tasks both inside and outside the fMRI. Pre-post differences will be assessed between real and idealized neurofeedback groups.",
+                    "timeFrame": "During the real time fMRI scan, approximately 1 hour"
+                },
+                {
+                    "measure": "Delay Discounting",
+                    "description": "Delay discounting tasks provide a measure of the temporal window and examine the devaluation of awards as a function of the delay to the receipt. These computerized assessments provide participants with hypothetical choices between smaller amounts of a reward available immediately and a larger amount of a reward after a range of delays (1 day-25 years). Discounting rates will be measured using the adjusting amount delay discounting and minute delay discounting tasks both inside and outside the fMRI. Pre-post differences will be assessed between real and idealized neurofeedback groups.",
+                    "timeFrame": "Immediately following the real time fMRI scan"
+                },
+                {
+                    "measure": "Alcohol Demand",
+                    "description": "Alcohol valuation will be assessed using BAAD interspersed with the neurofeedback periods (inside the scanner). Differences in alcohol demand will be compared between neurofeedback groups.",
+                    "timeFrame": "During the real time fMRI scan, approximately 1 hour"
+                },
+                {
+                    "measure": "Alcohol Demand",
+                    "description": "Alcohol valuation will be assessed via the alcohol purchase task (outside the scanner). Differences in alcohol demand will be compared between neurofeedback groups.",
+                    "timeFrame": "Immediately following the real time fMRI scan"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* demonstrate high-risk or harmful drinking (AUDIT\\>15)\n* be 21 years of age or older\n* have a desire to quit or cut down on their drinking, but do not have proximate plans to enroll in treatment for AUD during the study period\n\nExclusion Criteria:\n\n* meeting moderate to severe DSM-5 criteria for substance-use disorders other than alcohol or nicotine\n* having a current diagnosis of any psychotic disorder\n* having a history of seizure disorders or traumatic brain injury\n* having any contraindication for participation in the MRI sessions\n* reporting current pregnancy or lactation",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jeremy E Myslowski",
+                    "role": "CONTACT",
+                    "phone": "5405262015",
+                    "email": "jem5782@vt.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Stephen M LaConte, PhD",
+                    "affiliation": "Fralin Biomedical Research Institute (FBRI) at VTC",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Warren K Bickel, PhD",
+                    "affiliation": "Fralin Biomedical Research Institute (FBRI) at VTC",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Fralin Biomedical Research Institute at VTC",
+                    "status": "RECRUITING",
+                    "city": "Roanoke",
+                    "state": "Virginia",
+                    "zip": "24016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sarah Glenn",
+                            "role": "CONTACT",
+                            "phone": "540-526-2014",
+                            "email": "sglenn@vtc.vt.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.27097,
+                        "lon": -79.94143
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Investigators will adhere to all NIH requirements regarding data sharing. Participant data collected in this project will be de-identified and made available on a shared secured data repository. We will also share the analysis results. As part of this process, all investigators will be required to agree to the following conditions: 1) will adhere to the reporting responsibilities; 2) will not redistribute the data beyond the requesting individual and named collaborators; 3) will give appropriate acknowledgement; 4) will not use the data for commercial purposes; and 5) will obtain appropriate ethical approvals. Results from research conducted will be shared and disseminated, including: regular project meetings, annual meetings, symposia, workshops, and/or conferences for related groups. Manuscripts will be written and submitted for publication in peer-reviewed journals/conferences, following the NIH Public Access Policy guidelines. All necessary ethical approvals will be obtained.",
+            "timeFrame": "Data will be made available upon request after dissemination of results.",
+            "accessCriteria": "Data requests will be reviewed by the principal investigator and data will be shared with the expectation of acknowledgment of funding source and primary study team."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000437",
+                    "term": "Alcoholism"
+                },
+                {
+                    "id": "D000000428",
+                    "term": "Alcohol Drinking"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004327",
+                    "term": "Drinking Behavior"
+                },
+                {
+                    "id": "D000019973",
+                    "term": "Alcohol-Related Disorders"
+                },
+                {
+                    "id": "D000019966",
+                    "term": "Substance-Related Disorders"
+                },
+                {
+                    "id": "D000064419",
+                    "term": "Chemically-Induced Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3774",
+                    "name": "Alcohol Drinking",
+                    "asFound": "Alcohol Use",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3783",
+                    "name": "Alcoholism",
+                    "asFound": "Alcohol Use Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7502",
+                    "name": "Drinking Behavior",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21842",
+                    "name": "Alcohol-Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21837",
+                    "name": "Substance-Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30302",
+                    "name": "Chemically-Induced Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC25",
+                    "name": "Substance Related Disorders"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M3777",
+                    "name": "Ethanol",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

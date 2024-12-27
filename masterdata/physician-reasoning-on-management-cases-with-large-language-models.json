@@ -1,0 +1,235 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06208423",
+            "orgStudyIdInfo": {
+                "id": "71319b"
+            },
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Physician Reasoning on Management Cases With Large Language Models",
+            "officialTitle": "Management Reasoning With AI Chat Bots",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "physician-reasoning-on-management-cases-with-large-language-models"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-28",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-03-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-03-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-12-20",
+            "studyFirstSubmitQcDate": "2024-01-05",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-17",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jonathan Chen",
+                "investigatorTitle": "Assistant Professor of Medicine",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Beth Israel Deaconess Medical Center",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "University of Minnesota",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will evaluate the effect of providing access to GPT-4, a large language model, compared to traditional management decision support tools on performance on case-based management reasoning tasks.",
+            "detailedDescription": "Artificial intelligence (AI) technologies, specifically advanced large language models like OpenAI's ChatGPT, have the potential to improve medical decision-making. Although ChatGPT-4 was not developed for its use in medical-specific applications, it has demonstrated promise in various healthcare contexts, including medical note-writing, addressing patient inquiries, and facilitating medical consultation. However, little is known about how ChatGPT augments the clinical reasoning abilities of clinicians.\n\nClinical reasoning is a complex process involving pattern recognition, knowledge application, and probabilistic reasoning. Integrating AI tools like ChatGPT-4 into physician workflows could potentially help reduce clinician workload and decrease the likelihood of mismanagement. However, ChatGPT-4 was not developed for clinical reasoning nor has it been validated for this purpose. Further, it may be subject to disinformation, including convincing confabulations that may mislead clinicians. If clinicians misuse this tool, it may not improve reasoning and could even cause harm. Therefore, it is important to study how clinicians use large language models to augment clinical reasoning prior to routine incorporation into patient care.\n\nIn this study, participants will be randomized to answer clinical management cases with or without access to ChatGPT-4. Each case has multiple components, and the participants will be asked to discuss their reasoning for each component. Answers will be graded by independent reviewers blinded to treatment assignment. A grading rubric was developed for each case by a panel of 4-7 expert discussants. Discussants independently developed a rubric for each case, and then any discrepancies were resolved through multiple rounds of discussions."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Clinical Decision-making"
+            ],
+            "keywords": [
+                "clinical decision support"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "The trial will be designed as a randomized, two-arm, single-blind parallel group study.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "maskingDescription": "The grading of responses will be performed by assessors blinded to participant identity and treatment assignment.",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 50,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "GPT-4",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Group will be given access to GPT-4",
+                    "interventionNames": [
+                        "Other: GPT-4"
+                    ]
+                },
+                {
+                    "label": "Usual Resources",
+                    "type": "NO_INTERVENTION",
+                    "description": "Group will not be given access to GPT-4 but will be encouraged to use any resources they wish besides large language models (UpToDate, Dynamed, google, etc)."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "GPT-4",
+                    "description": "OpenAI's GPT-4 large language model with chat interface.",
+                    "armGroupLabels": [
+                        "GPT-4"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Management Reasoning",
+                    "description": "Percent correct (range: 0 to 100) for each case.",
+                    "timeFrame": "Within one-hour study"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Time Spent on Management",
+                    "description": "Time (in minutes) participants spend per case between the two study arms.",
+                    "timeFrame": "Within one-hour study"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must be licensed physicians and have completed at least post-graduate year 2 (PGY2) of medical training.\n* Training in Internal medicine, family medicine, or emergency medicine.\n\nExclusion Criteria:\n\n* Not currently practicing clinically.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Robert J Gallo, MD",
+                    "role": "CONTACT",
+                    "phone": "6507234000",
+                    "email": "rjgallo@stanford.edu"
+                },
+                {
+                    "name": "Jonathan H Chen, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "6507234000",
+                    "email": "jonc101@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jonathan H Chen, MD, PhD",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Adam Rodman, MD",
+                    "affiliation": "Beth Israel Deaconess Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Andrew Olson, MD",
+                    "affiliation": "University of Minnesota",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University",
+                    "status": "RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94304",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Robert J Gallo, MD",
+                            "role": "CONTACT",
+                            "phone": "650-723-4000",
+                            "email": "rjgallo@stanford.edu"
+                        },
+                        {
+                            "name": "Jonathan Chen, MD, PhD",
+                            "role": "CONTACT",
+                            "phone": "6507234000",
+                            "email": "jonc101@stanford.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

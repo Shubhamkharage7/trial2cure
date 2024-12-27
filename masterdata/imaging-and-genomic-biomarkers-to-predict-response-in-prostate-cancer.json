@@ -1,0 +1,417 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05477823",
+            "orgStudyIdInfo": {
+                "id": "UW20099"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "2022-0493",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "Protocol version 9/15/2023",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "A533300",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "SMPH/HUMAN ONCOLOGY/HUMAN ONCO",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "briefTitle": "Imaging and Genomic Biomarkers to Predict Response in Prostate Cancer",
+            "officialTitle": "Pilot Study to Identify Radiogenomic Biomarkers to Predict Early Treatment Response to Androgen Deprivation Therapy and Radiation Therapy in High Risk Prostate Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "imaging-and-genomic-biomarkers-to-predict-response-in-prostate-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-07-21",
+            "studyFirstSubmitQcDate": "2022-07-25",
+            "studyFirstPostDateStruct": {
+                "date": "2022-07-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the imaging and gene expression biomarkers in prostate cancer. Participants have high-risk prostate cancer and have indicated they will undergo external beam radiation therapy, brachytherapy, and androgen deprivation therapy (EBRT+BTX+ADT). Participants can expect to be in this study for up to 5 years.",
+            "detailedDescription": "This is a pilot study to prospectively investigate potential predictive imaging and genomic biomarkers for patients with high-risk prostate cancer treated with standard of care EBRT + BTX + ADT. The primary imaging modalities that will be evaluated will be PSMA positron emission tomography (PET) and multi-parametric magnetic resonance imaging (MRI). Pre-treatment PET/MRI scans will also be obtained as part of standard of care prior to study enrollment. Response will be assessed on a mid-treatment PET/MRI scan obtained for research purposes after completion of EBRT but prior to brachytherapy boost. PET/CT (computerized tomography) may be used instead if PET/MRI is not technically possible. Imaging response will be compared to pathology from image-directed prostate biopsies taken at the time of the brachytherapy boost. The primary genomic marker that will be evaluated is a clinically available gene-expression array, Decipher, that will be obtained as part of standard of care prior to study enrollment."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "EARLY_PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "SCREENING",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "EBRT + BTX + ADT, PET and MRI",
+                    "type": "EXPERIMENTAL",
+                    "description": "Standard of care EBRT + BTX + ADT, with mid-treatment PET and MRI (or PET and CT) scans for research.",
+                    "interventionNames": [
+                        "Radiation: External beam radiation therapy",
+                        "Radiation: Prostate brachytherapy boost",
+                        "Drug: Androgen deprivation therapy",
+                        "Diagnostic Test: Positron emission tomography (PET)/magnetic resonance imaging (MRI)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "External beam radiation therapy",
+                    "description": "Standard of care EBRT",
+                    "armGroupLabels": [
+                        "EBRT + BTX + ADT, PET and MRI"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Prostate brachytherapy boost",
+                    "description": "Standard of care BTX",
+                    "armGroupLabels": [
+                        "EBRT + BTX + ADT, PET and MRI"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Androgen deprivation therapy",
+                    "description": "Standard of care ADT",
+                    "armGroupLabels": [
+                        "EBRT + BTX + ADT, PET and MRI"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Positron emission tomography (PET)/magnetic resonance imaging (MRI)",
+                    "description": "Pelvic PET scanning with tracer will take approximately 45 minutes. This will be followed by the injection of a contrast agent followed by whole body PET/MRI scanning which will take approximately 30 minutes.",
+                    "armGroupLabels": [
+                        "EBRT + BTX + ADT, PET and MRI"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Imaging markers for mid-treatment response",
+                    "description": "Evaluate prostate specific membrane antigen (PSMA) PET/MRI for imaging biomarkers that predict mid-treatment response to ADT and EBRT to identify participants at risk for poor response to radiation therapy and ADT.",
+                    "timeFrame": "Mid-treatment (approximately 3 months into treatment)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Genomic signatures correlated with imaging response",
+                    "description": "Determine if the Decipher and PORTOS genomic scores (high vs low) and basal/luminal genomic subtypes are correlated with change in PSMA standardized uptake value (SUV) pre-to-mid-treatment.",
+                    "timeFrame": "Baseline and mid-treatment (approximately 3 months into treatment)"
+                },
+                {
+                    "measure": "Establish a correlation between PET imaging response and pathologic response",
+                    "description": "PET images will be assessed for response using change in SUV in order to establish a correlation between imaging response and pathologic response to ADT and EBRT on a lesion-by-lesion basis. Pathologic response will be evaluated considering change in percent core involvement, prostate cancer epithelial/stromal (E/S) ratio, PSMA, CC3 and Ki67 expression. Concordance will be assessed using the Kappa statistic.",
+                    "timeFrame": "Baseline and mid-treatment (approximately 3 months into treatment)"
+                },
+                {
+                    "measure": "Establish a correlation between MRI imaging response and pathologic response",
+                    "description": "MR images will be assessed for response using change in apparent diffusion coefficient (ADC) in order to establish a correlation between imaging response and pathologic response to ADT and EBRT on a lesion-by-lesion basis. Pathologic response will be evaluated as described in Outcome 3. Concordance will be assessed using the Kappa statistic.",
+                    "timeFrame": "Baseline and mid-treatment (approximately 3 months into treatment)"
+                },
+                {
+                    "measure": "Imaging and genomic markers for prostate specific antigen (PSA) recurrence.",
+                    "description": "Determine if imaging and genomic markers that predict for mid-treatment pathologic response also predict PSA recurrence.",
+                    "timeFrame": "Baseline, 3 months post therapy, every 6 months for 5 years"
+                },
+                {
+                    "measure": "Evaluate blood-based biomarkers for treatment response.",
+                    "description": "Messenger RNA from circulating tumor cells (CTCs) will be extracted to determine if presence of androgen receptor variants and a neuroendocrine prostate cancer signature (a score based upon the expression of a set of genes) is correlated with pathologic response (determined as outlined in Outcome 3).",
+                    "timeFrame": "Baseline and mid-treatment (approximately 3 months into treatment)"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Changes in cancer gene expression during therapy",
+                    "description": "Evaluate changes in gene expression from pre- to mid-treatment, and their association with response to therapy.",
+                    "timeFrame": "Baseline and mid-treatment (approximately 3 months into treatment)"
+                },
+                {
+                    "measure": "Prognostic significance of higher order radioman metrics",
+                    "description": "Higher order radiomic metrics (e.g. measures of PET lesion heterogeneity obtained using open-source radiomic software) will be assessed as potential predictive markers for pathologic treatment response (measured as outlined in Outcome 3) to ADT and EBRT.",
+                    "timeFrame": "Baseline and mid-treatment (approximately 3 months into treatment)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18\n* Histologically confirmed adenocarcinoma of the prostate\n* Cancer classified as high-risk or very high-risk by National Comprehensive Cancer Network (NCCN) criteria: Grade group \u22654, PSA \\>20, or primary tumor stage \u2265T3a\n* ECOG performance status 0-1\n* Agreed to undergo EBRT, high dose rate (HDR) brachytherapy boost, and 6-36 months of ADT as part of standard of care therapy prior to study enrollment\n* Able to undergo a HDR brachytherapy implant: Pre-radiation IPSS score \u226420 with or without medical management; prostate \u226460 cc as measured by MRI or ultrasound; no prior trans-urethral resection of prostate (TURP); and, median lobe extending into the bladder \\<1 cm\n* No prior or concurrent malignancy unless disease-free for at least 5 years\n\nExclusion Criteria:\n\n* Evidence of regional or distant metastatic disease on pre-treatment bone scan, pelvic MRI, and/or CT of the abdomen/pelvis\n* Prior pelvic radiation therapy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Cancer Connect",
+                    "role": "CONTACT",
+                    "phone": "800-622-8922",
+                    "email": "clinicaltrials@cancer.wisc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "John Floberg, MD, PhD",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53705",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Cancer Connect",
+                            "role": "CONTACT",
+                            "phone": "800-622-8922",
+                            "email": "clinicaltrials@cancer.wisc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000728",
+                    "term": "Androgens"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006728",
+                    "term": "Hormones"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4059",
+                    "name": "Androgens",
+                    "asFound": "Percutaneous Coronary Intervention",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

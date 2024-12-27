@@ -1,0 +1,270 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05385718",
+            "orgStudyIdInfo": {
+                "id": "Ezra_002"
+            },
+            "organization": {
+                "fullName": "Ezra AI, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Ezra Faster Scan Study",
+            "officialTitle": "Ezra Faster Scan Study",
+            "acronym": "FasterScan",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "ezra-faster-scan-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-06-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-05-17",
+            "studyFirstSubmitQcDate": "2022-05-19",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-07-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Ezra AI, Inc.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The Ezra Faster Scan study uses non-invasive magnetic resonance imaging (MRI) technology that can \"visually\" detect early and late-stage cancer, and other pathologies. MRIs use a magnetic field and radio waves to create a 3-dimensional (3D) image of an individual's body without using ionizing radiation.\n\nThe purpose of this research is to decrease the amount of time required by an individual to complete an early cancer screening comprehensive magnetic resonance imaging (MRI) scan, such as the Ezra Full Body MRI imaging scan. If the time required to conduct a comprehensive scan is reduced, the cost of the scan may also decrease. By decreasing consumer costs and time, more individuals may be able to afford MRI-based early cancer screening technology.\n\nParticipants in this study will undergo a minimum 30-minute MRI session. These sessions will be used to evaluate new MRI \"instructions\" that allow for a faster MRI scan time. The images will also be used to develop mathematical models or machine learning tools that allow images to be enhanced. By enhancing images using machine learning, they may be restored to a quality typically observed in MRI sessions with longer scan (acquisition) times.\n\nTo read more about the study, potential participants may review the informed consent form located below in the References section. Potential participants may email research.fasterscan@ezra.com, or call 516.340.1221.\n\nSee study Eligibility Criteria below."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Medical Oncology",
+                "Cancer",
+                "Healthy"
+            ],
+            "keywords": [
+                "Magnetic Resonance Imaging",
+                "Early Cancer Detection",
+                "Machine Learning"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "OTHER"
+            },
+            "enrollmentInfo": {
+                "count": 814,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Observational",
+                    "description": "The observational group may include those 18 years and older, with retrospective MRI data, or those whom prospective MRI images are collected as a participant. This study is decentralized, non-therapeutic and non-interventional.",
+                    "interventionNames": [
+                        "Other: Magnetic Resonance Imaging"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Magnetic Resonance Imaging",
+                    "description": "Participants are required to undergo a non-invasive magnetic resonance imaging (MRI) scan approximately 30 minutes in length.",
+                    "armGroupLabels": [
+                        "Observational"
+                    ],
+                    "otherNames": [
+                        "MRI"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Accelerated MRI Sequence Protocol Time (s)",
+                    "description": "The MRI scan time (minutes, seconds) for MRI instructions or sequences to be completed and qualitative feedback from MRI technologists and radiologists on execution of instrument instructions.",
+                    "timeFrame": "Approximately 30 minutes for each participant scan . Additional computational analysis of images throughout the study duration."
+                },
+                {
+                    "measure": "Statistical Analysis of MRI Images (Accelerated)",
+                    "description": "Computed image signal-to-noise and contrast-to-noise ratios of machine learning-restored accelerated images relative to accelerated images.",
+                    "timeFrame": "Approximately 30 minutes for each participant scan. Additional computational analysis of images throughout the study duration."
+                },
+                {
+                    "measure": "Statistical Analysis of MRI Images (Reference)",
+                    "description": "Computed image signal-to-noise and contrast-to-noise ratios of machine learning-restored accelerated images relative to reference images.",
+                    "timeFrame": "Approximately 30 minutes for each participant scan. Additional computational analysis of images throughout the study duration."
+                },
+                {
+                    "measure": "Statistical Analysis of MRI Images (Likert)",
+                    "description": "Visual radiologist review of reference and machine learning restored images. Images are reviewed using a Likert scale, comparing a reference image to a machine learning restored image. The scale grades are a radiologist's objective opinion of whether a machine learning restored image is similar to a reference image. If the machine learning image is worse, the radiologist rates the image strongly disagree or -2, if the machine learning image is better than the reference image, the radiologist selects strongly agree or 2. The Likert scale extends from worse to improved in the following order; strongly disagree (worse) -2, disagree -1, neither agree or disagree (neutral) 0, agree 1, or strongly agree 2. The minimum value is -2 and the maximum value is 2. A higher score greater than 0 indicates a better image, a lower score less than 0 indicates a worse image or outcome.",
+                    "timeFrame": "Approximately 10 minutes of a radiologist's time. Additional analysis of images throughout the study duration."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Ability to provide legal informed consent and 18 years of age or older\n* Resident of the contiguous United States and located within proximity of a designated research MRI facility\n* Ability to travel to designated research MRI facilities\n\nExclusion Criteria:\n\n* Unable to receive an MRI due to existing implanted medical devices that may be disrupted by magnetic field or metal components/fragments that may migrate due to magnetic fields (pacemaker or defibrillator, stimulators, or stimulator wires (pacing leads), non-removeable metal dentures/braces/wires, surgical clips, (drug) pumps. Note metallic dental crowns or fillings are permitted.\n* Those with orbital (eye socket) trauma caused by a metallic object\n* Those with metallic fragments within the eye (foundry workers)\n* Those with implanted cardiac pacemakers, implantable cardioverter defibrillators (ICDs), or diaphragmatic pacemakers, cardiac resynchronization therapy devices, implantable cardiovascular monitors, implantable loop recorders, neurostimulators\n* Those with intra-cranial vascular clips (aneurysm), or prosthetic heart valve\n* Those with shrapnel form a prior accident\n* Those with a LINX Reflux Management System to control gastro esophageal reflux disease (GERD)\n* Those with non-removable insulin pumps or other drug pumps\n* Those with cochlear implants\n* Those with breast (inflatable breast tissue implants) or other tissue expanders (cosmetic or other implant)\n* Those with tubal ligation clips or non-removable intrauterine device (IUD)\n* Those with Sensimed Triggerfish ocular monitoring systems (glaucoma)\n* Those receiving ambulatory care\n* Employee of Ezra Health of California, P.C., Ezra AI Incorporated or Ezra AI Canada Incorporated\n* Mental health disability, cognitive disability, neurological or other existing condition that may impact ability to provide informed consent\n* Those that recently experienced a stroke that may impair judgement\n* Those that have some difficulty or higher, remembering, concentrating, communicating, or being understood (sponsor reviewed)\n* Individuals who otherwise may require a legally authorized individual (LAR) to provide consent on their behalf\n* Those who do not have access to the internet through a mobile device or computer\n* Those who are pregnant at the time of informed consent or prior to a scheduled MRI appointment\n* Those who are incarcerated or on probation\n* Those who may not have reading proficiency of study supported document languages (questionnaires, consent forms, or third-party oral translation services)\n* Those who cannot read due to visual impairment and cannot provide an impartial witness to support informed consent or study survey questionnaires\n* Those with a hearing impairment and cannot provide an impartial witness to support informed consent",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Participants may be from the general public and located or able to travel to MRI facilities located in New York, New York; Queens, New York; Brooklyn, New York; Great Neck, New York; Irvine, California; Sunnyvale, California; Walnut Creek, California; San Francisco, California; Miami, Florida; Aventura, Florida. Participants may also be those who have accessed Ezra commercial MRI services in the past, or have scheduled commercial MRI services pending.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Denise Yap",
+                    "role": "CONTACT",
+                    "phone": "646.402.5615",
+                    "email": "denise.yap@ezra.com"
+                },
+                {
+                    "name": "David Girard",
+                    "role": "CONTACT",
+                    "email": "david.girard@ezra.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "David Girard",
+                    "affiliation": "Ezra AI, Inc.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Various Locations",
+                    "status": "ENROLLING_BY_INVITATION",
+                    "city": "Beverly Hills",
+                    "state": "California",
+                    "zip": "90211",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.07362,
+                        "lon": -118.40036
+                    }
+                },
+                {
+                    "facility": "Various Locations",
+                    "status": "ENROLLING_BY_INVITATION",
+                    "city": "Chino Hills",
+                    "state": "California",
+                    "zip": "91709",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.9938,
+                        "lon": -117.75888
+                    }
+                },
+                {
+                    "facility": "Various Locations",
+                    "status": "ENROLLING_BY_INVITATION",
+                    "city": "Irvine",
+                    "state": "California",
+                    "zip": "92604",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.66946,
+                        "lon": -117.82311
+                    }
+                },
+                {
+                    "facility": "Various Locations",
+                    "status": "ENROLLING_BY_INVITATION",
+                    "city": "Los Gatos",
+                    "state": "California",
+                    "zip": "95032",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.22661,
+                        "lon": -121.97468
+                    }
+                },
+                {
+                    "facility": "Various Locations",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10075",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Girard",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "availIpds": [
+                {
+                    "type": "Informed Consent Form",
+                    "url": "https://ezrapublic.blob.core.windows.net/staticassets/EzraFasterScanStudy-InformedConsentForm(L).pdf",
+                    "comment": "This link will download the informed consent document for the Faster Scan Study. In this document potential participants will find additional information about the study."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Deidentified data may be shared for the purpose of research. Algorithms based on research may be commercialized or published."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,297 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04338815",
+            "orgStudyIdInfo": {
+                "id": "0376-19-FB"
+            },
+            "organization": {
+                "fullName": "University of Nebraska",
+                "class": "OTHER"
+            },
+            "briefTitle": "Exoskeleton Variability Optimization",
+            "officialTitle": "Exoskeleton Variability Optimization for Reducing Gait Variability for Patients With Peripheral Artery Disease",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "exoskeleton-variability-optimization"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-01-31",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-04-03",
+            "studyFirstSubmitQcDate": "2020-04-07",
+            "studyFirstPostDateStruct": {
+                "date": "2020-04-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-26",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-30",
+                "type": "ESTIMATED"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Nebraska",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The investigators will evaluate a potentially faster and more clinically feasible method to optimize exoskeletons in pilot tests in healthy in preparation for patients with peripheral artery disease.",
+            "detailedDescription": "This study will test different methods for optimizing exoskeletons. It will consist of an habituation session to the hip exoskeleton, an optimization session to find the optimal actuation settings using an algorithm that converges toward the optimum based on real-time measurements (human-inthe-loop algorithm) and a post-test at the end of optimization session to compare different conditions. The outcomes will be evaluated by surface electromyography (Delsys), exoskeleton sensors (Futek), ground reaction force (Bertec treadmill), walking speed (Bertec treadmill), indirect calorimetry (Cosmed), and motion capture (Vicon)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Peripheral Arterial Disease"
+            ],
+            "keywords": [
+                "Exoskeleton"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 22,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Optimal assistance pattern",
+                    "type": "EXPERIMENTAL",
+                    "description": "An optimization algorithm will change the assistance pattern on the hip exoskeleton during walking sessions and the optimal assistance pattern will be determined when gait variability is minimized.",
+                    "interventionNames": [
+                        "Other: Exoskeleton optimization"
+                    ]
+                },
+                {
+                    "label": "Effects on endurance",
+                    "type": "EXPERIMENTAL",
+                    "description": "Determine effects on endurance of participants using ground reaction force (Bertec treadmill), walking speed (Bertec treadmill), indirect calorimetry (Cosmed), and motion capture (Vicon).",
+                    "interventionNames": [
+                        "Other: Endurance evaluation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Exoskeleton optimization",
+                    "description": "Participants will walk 10 times of 1 minute duration while an optimization algorithm changes the assistance profile of an exoskeleton.",
+                    "armGroupLabels": [
+                        "Optimal assistance pattern"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Endurance evaluation",
+                    "description": "Participants will walk 2 times at a speed of 1 meter per second until the participant indicates claudication or a maximum duration of 6 minutes.",
+                    "armGroupLabels": [
+                        "Effects on endurance"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Time to convergence",
+                    "description": "We will determine when the estimated optimal exoskeleton settings vary less than 10%",
+                    "timeFrame": "10 minutes"
+                },
+                {
+                    "measure": "Peak extension timing",
+                    "description": "Timing of peak extension moment of exoskeleton (% stride cycle)",
+                    "timeFrame": "20 seconds"
+                },
+                {
+                    "measure": "Peak flexion timing",
+                    "description": "Timing of peak flexion moment of exoskeleton (% stride cycle)",
+                    "timeFrame": "20 seconds"
+                },
+                {
+                    "measure": "Largest lyapunov exponent",
+                    "description": "Largest lyapunov exponent of lower limb kinematics",
+                    "timeFrame": "20 seconds"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Ability to provide written consent\n* Chronic claudication history\n* Ankle-brachial index \\< 0.90 at rest\n* Stable blood pressure, lipides, and diabetes for \\> 6 weeks\n* Ability to walk on a treadmill for multiple five-minute spans.\n* Ability to fit in exoskeleton: waist circumference 78 to 92 centimeters, thigh circumference 48 to 60 centimeters, minimal thigh length 28 centimeters.\n\nExclusion Criteria:\n\n* Rest pain or tissue loss due to peripheral artery disease (Fontaine stage III and IV).\n* Foot ulceration.\n* Acute lower extremity event secondary to thromboembolic disease or acute trauma\n* Walking capacity limited by diseases which are unrelated to peripheral artery disease such as:\n\nNeurological disorders, musculoskeletal disorders (arthritis, scoliosis, stroke, spinal injury, etc.), a history of ankle instability, knee injury, diagnosed joint laxity, lower limb injury, surgery within the past 12 months, joint replacement, pulmonary disease or breathing disorders, cardiovascular disease, or vestibular disorder. This will be determined by verbal questioning from research personnel by verbally asking about conditions limiting their walking, whether subjects are taking medications for those conditions, and physicians' recommendations about limiting activity.\n\n* Acute injury or pain in their lower extremity or current illness.\n* Inability to follow visual cues due to blindness.\n* Inability to follow auditory cues due to deafness.\n* Women who are currently pregnant are excluded for safety reasons.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "19 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Philippe Malcolm, PhD",
+                    "role": "CONTACT",
+                    "phone": "617-487-1148",
+                    "email": "pmalcolm@unomaha.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Philippe Malcolm",
+                    "affiliation": "University of Nebraska",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Nebraska Omaha",
+                    "status": "RECRUITING",
+                    "city": "Omaha",
+                    "state": "Nebraska",
+                    "zip": "68182",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Philippe Malcolm, PhD",
+                            "role": "CONTACT",
+                            "phone": "402-554-4182",
+                            "email": "pmalcolm@unomaha.edu"
+                        },
+                        {
+                            "name": "Philippe Malcolm, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.25626,
+                        "lon": -95.94043
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000058729",
+                    "term": "Peripheral Arterial Disease"
+                },
+                {
+                    "id": "D000016491",
+                    "term": "Peripheral Vascular Diseases"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000050197",
+                    "term": "Atherosclerosis"
+                },
+                {
+                    "id": "D000001161",
+                    "term": "Arteriosclerosis"
+                },
+                {
+                    "id": "D000001157",
+                    "term": "Arterial Occlusive Diseases"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29213",
+                    "name": "Peripheral Arterial Disease",
+                    "asFound": "Peripheral Arterial Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18894",
+                    "name": "Peripheral Vascular Diseases",
+                    "asFound": "Peripheral Arterial Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26188",
+                    "name": "Atherosclerosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4469",
+                    "name": "Arteriosclerosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4465",
+                    "name": "Arterial Occlusive Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

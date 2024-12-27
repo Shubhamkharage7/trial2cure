@@ -1,0 +1,339 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05826223",
+            "orgStudyIdInfo": {
+                "id": "STUDY00004970"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "5K23GM144867-02",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/5K23GM144867-02"
+                }
+            ],
+            "organization": {
+                "fullName": "Emory University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Novel Sepsis Sub-phenotypes Based on Trajectories of Vital Signs",
+            "officialTitle": "Implementation and Prospective Validation of a Sepsis Sub-phenotyping Algorithm Based on Vital Sign Trajectories",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "novel-sepsis-sub-phenotypes-based-on-trajectories-of-vital-signs"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-12",
+            "studyFirstSubmitQcDate": "2023-04-12",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-17",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-20",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Siva Bhavani",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "Emory University"
+            },
+            "leadSponsor": {
+                "name": "Emory University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of General Medical Sciences (NIGMS)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Sepsis is a dysregulated host response to infection resulting in organ dysfunction. Over the past three decades, more than 30 pharmacological therapies have been tested in \\>100 clinical trials and have failed to show consistent benefit in the overall population of patients with sepsis. The one-size-fits-all approach has not worked. This has resulted in a shift in research towards identifying sepsis subphenotypes through unsupervised learning. The ultimate objective is to identify sepsis subphenotypes with different responses to therapies, which could provide a path towards the precision medicine approach to sepsis.\n\nThe investigators have previously discovered sepsis subphenotypes in retrospective data using trajectories of vital signs in the first 8 hours of hospitalization. The team aims to prospectively classify adult hospitalized patients into these subphenotypes in a prospective, observational study. This will be done through the implementation of an electronic health record integrated application that will use vital signs from hospitalized patients to classify the patients into one of four subphenotypes. This study will continue until 1,200 patients with infection are classified into the sepsis subphenotypes. The classification of the patients is only performed to validate the association of the subphenotypes with clinical outcomes as was shown in retrospective studies. Physicians and providers treating the patients will not see the classification, and the algorithm classifying the patients will in no way affect the care of the patients. Further, all the data needed for the algorithm (vital signs from the first 8 hours) are standard of care, and enrollment in the prospective study does not require any additional data.",
+            "detailedDescription": "The primary goal of this study is to investigate the feasibility of implementing a prospective sepsis subphenotyping tool in the electronic health record and evaluating the characteristics and outcomes of the sepsis subphenotypes. During this study, clinicians will not see the results of the algorithm or have access to its predictions. Instead, the algorithm will run silently in the background and continuously compute the subphenotypes of patients who are presenting to the emergency department (ED). For each patient, the probability of subphenotype membership over the first 8 hours of presentation to the ED will be calculated using an algorithm previously validated on retrospective data. Differences in clinical characteristics and outcomes between the subphenotypes will be compared. Investigators will seek to classify 1,200 patients with suspected infections. Since it will not be apparent on ED presentation who has suspected infection, all patients will be classified into subphenotypes using the algorithm, but the primary subgroup who will be analyzed will be patients with suspected infection."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sepsis"
+            ],
+            "keywords": [
+                "phenotypes",
+                "sub-phenotypes",
+                "infection",
+                "vital signs",
+                "subphenotypes"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Implementation and evaluation of a sepsis sub-phenotyping algorithm",
+                    "description": "The algorithm will run silently in the background and continuously compute the subphenotypes of patients who are presenting to the emergency department (ED) with suspected infection."
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "In-hospital mortality",
+                    "description": "Comparison of 30 day in-hospital mortality rate between the 4 subphenotypes.",
+                    "timeFrame": "Up to 30 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Renal replacement therapy (RRT)",
+                    "description": "Proportion of patients requiring (RRT) during hospital admission.",
+                    "timeFrame": "Through study completion, on average 30 days"
+                },
+                {
+                    "measure": "Mechanical ventilation",
+                    "description": "Proportion of patients requiring mechanical ventilation during hospital admission.",
+                    "timeFrame": "Through study completion, on average 30 days"
+                },
+                {
+                    "measure": "Vasopressor use",
+                    "description": "Proportion of patients requiring vasopressor use during hospital admission.",
+                    "timeFrame": "Through study completion, on average 30 days"
+                },
+                {
+                    "measure": "Inotrope use",
+                    "description": "Proportion of patients requiring inotrope use during hospital admission.",
+                    "timeFrame": "Through study completion, on average 30 days"
+                },
+                {
+                    "measure": "Admission to the intensive care unit (ICU)",
+                    "description": "Proportion of patients requiring admission to ICU during hospital admission.",
+                    "timeFrame": "Through study completion, on average 30 days"
+                },
+                {
+                    "measure": "Hospital Length of stay",
+                    "description": "Duration of hospital length (from arrival to ED until hospital discharge) of stay in days.",
+                    "timeFrame": "Through study completion, on average 30 days"
+                },
+                {
+                    "measure": "Response to Balanced Crystalloids vs Normal Saline",
+                    "description": "Within each subphenotype, the mortality rate will be compared between patients who received at least 2 liters in 24 hours of balanced crystalloids and patients who received normal saline. This is to evaluate the replicability of the finding of a significant mortality benefit from balanced crystalloids in Group D.",
+                    "timeFrame": "24 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All adults who present to the emergency department\n\nExclusion Criteria:\n\n* None",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "All adult patients who present to the emergency department at the participating facilities will automatically be enrolled in the study until the enrollment target for the study is met. All patients will be classified into subphenotypes using the algorithm, but the subgroup that will be analyzed will be patients with suspected infection.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sivasubramanium Bhavani, MD",
+                    "role": "CONTACT",
+                    "phone": "404-712-2970",
+                    "email": "sivasubramanium.bhavani@emory.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Sivasubramanium Bhavani, MD",
+                    "affiliation": "Emory University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Emory Hospital Midtown",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30308",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Saint Joseph's Hospital",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30308",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory University Hospital",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30322",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Johns Creek Hospital",
+                    "city": "Johns Creek",
+                    "state": "Georgia",
+                    "zip": "30097",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.02893,
+                        "lon": -84.19858
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "36152041",
+                    "type": "RESULT",
+                    "citation": "Bhavani SV, Semler M, Qian ET, Verhoef PA, Robichaux C, Churpek MM, Coopersmith CM. Development and validation of novel sepsis subphenotypes using trajectories of vital signs. Intensive Care Med. 2022 Nov;48(11):1582-1592. doi: 10.1007/s00134-022-06890-z. Epub 2022 Sep 24."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018805",
+                    "term": "Sepsis"
+                },
+                {
+                    "id": "D000014115",
+                    "term": "Toxemia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000018746",
+                    "term": "Systemic Inflammatory Response Syndrome"
+                },
+                {
+                    "id": "D000007249",
+                    "term": "Inflammation"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20818",
+                    "name": "Systemic Inflammatory Response Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

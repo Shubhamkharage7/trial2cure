@@ -1,0 +1,286 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06257628",
+            "orgStudyIdInfo": {
+                "id": "2.7.2.1"
+            },
+            "organization": {
+                "fullName": "Beckman Coulter, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "MACE CDS Software Master Enrollment Protocol",
+            "officialTitle": "MACE CDS Software Master Enrollment Protocol",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "mace-cds-software-master-enrollment-protocol"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-09-14",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-04",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-04-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-18",
+            "studyFirstSubmitQcDate": "2024-02-05",
+            "studyFirstPostDateStruct": {
+                "date": "2024-02-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Beckman Coulter, Inc.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This protocol will collect real world EHR data to support the product development life cycle activities associated with developing the Major Adverse Cardiac Events (MACE) Clinical Decision Support (CDS) software.\n\nThe data will also be utilized in subsequent clinical validation to support an FDA application and/or applications to other regulatory agencies as needed.",
+            "detailedDescription": "The primary objective is to develop a machine learning tool which predicts risk of 30-day MACE (major adverse cardiac event) risk stratification among patients visiting ED with suspicion of ACS (Acute Coronary Syndrome).\n\nThe data will also be utilized in subsequent clinical validation. In addition to retrospective Electronic Health Record (EHR) data, Health Information Exchange (HIE) data and patient reported outcomes will be collected to capture 30-day MACE outcomes, as applicable."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cardiac Events"
+            ],
+            "keywords": [
+                "Emergency Department",
+                "Major Adverse Cardiac Events"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "CROSS_SECTIONAL"
+            },
+            "enrollmentInfo": {
+                "count": 5515,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Index Event",
+                    "description": "Patients with at least one Beckman High Sensitivity Troponin test at the Emergency Department visit",
+                    "interventionNames": [
+                        "Device: Index Event"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Index Event",
+                    "description": "Patients with at least one Beckman High Sensitivity Troponin test at the Emergency Department visit",
+                    "armGroupLabels": [
+                        "Index Event"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Performance Characteristics NPV (Negative Predictive Value), Specificity and Sensitivity",
+                    "description": "Clinical performance of MACE (Major Adverse Cardiac Events) CDS (Clinical Decision Support) tool to identify a patient's risk of for having a MACE (Major Adverse Cardiac Events) within 30 days, with both a single High-Sensitive Troponin and a second High-Sensitive Troponin (if applicable).",
+                    "timeFrame": "Within 30-days from the Emergency Department Visit with suspicion of ACS (Acute Coronary Syndrome)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All genders, races, ethnicities\n\nExclusion Criteria:\n\n* \u2264 18 years old presenting to the ED and for clinical validation only, adults \\< 22 years old",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "genderBased": true,
+            "minimumAge": "23 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients visiting ED with suspicion of Acute Coronary Syndrome (ACS).",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Alicia Drain",
+                    "role": "CONTACT",
+                    "phone": "512-906-8763",
+                    "email": "adrain@beckman.com"
+                },
+                {
+                    "name": "Kalyan Deepthi Akula",
+                    "role": "CONTACT",
+                    "phone": "5127052621",
+                    "email": "kakula01@beckman.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Alicia Drain",
+                    "affiliation": "Beckman Coulter",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Johns Hopkins University",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21211",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kathren",
+                            "role": "CONTACT",
+                            "email": "kathren.garber@ketteringhealth.org"
+                        },
+                        {
+                            "name": "Daniel Swedien, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Eili Klein",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Henry Ford Health System",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Boopathy",
+                            "role": "CONTACT",
+                            "phone": "313-876-9218",
+                            "email": "dboopat1@hfhs.org"
+                        },
+                        {
+                            "name": "Joseph Miller, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Kettering Health",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Kettering",
+                    "state": "Ohio",
+                    "zip": "45429",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Dymacek",
+                            "role": "CONTACT",
+                            "email": "allison.dymacek@ketteringhealth.org"
+                        },
+                        {
+                            "name": "Jeffrey Nielson, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.6895,
+                        "lon": -84.16883
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7796",
+                    "name": "Emergencies",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "T217",
+                    "name": "Mace",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T240",
+                    "name": "Nutmeg",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "HB",
+                    "name": "Herbal and Botanical"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

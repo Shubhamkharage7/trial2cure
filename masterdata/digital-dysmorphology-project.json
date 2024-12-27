@@ -1,0 +1,367 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT02651493",
+            "orgStudyIdInfo": {
+                "id": "Pro00003506."
+            },
+            "organization": {
+                "fullName": "Children's National Research Institute",
+                "class": "OTHER"
+            },
+            "briefTitle": "Digital Dysmorphology Project",
+            "officialTitle": "Down Syndrome Detection From Facial Photographs Using Machine Learning Techniques",
+            "therapeuticArea": [
+                "Rare Diseases"
+            ],
+            "study": "digital-dysmorphology-project"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2013-02"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2023-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2015-10-22",
+            "studyFirstSubmitQcDate": "2016-01-07",
+            "studyFirstPostDateStruct": {
+                "date": "2016-01-11",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2023-01-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-02-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Kevin Cleary",
+                "investigatorTitle": "PhD",
+                "investigatorAffiliation": "Children's National Research Institute"
+            },
+            "leadSponsor": {
+                "name": "Kevin Cleary",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Children's National Research Institute",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "George Washington University",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Chiang Mai University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false
+        },
+        "descriptionModule": {
+            "briefSummary": "In this study, the investigators propose a novel method to detect Down syndrome using photography for facial dysmorphology, a tool called computer-aided diagnosis (CAD). After validating the method, this technology will be expanded to perform similar functions to assist in the detection of other dysmorphic syndromes.\n\nBy using photography and image analysis this automated assessment tool would have the potential to improve the diagnosis rate and allow for remote, non-invasive diagnostic evaluation for dysmorphologists in a timely manner.",
+            "detailedDescription": "In this study, investigators propose a novel method to detect Down syndrome using photography for facial dysmorphology, a tool called computer-aided diagnosis (CAD) . Local texture features based on Contourlet transform and local binary pattern are investigated to represent the facial characteristics. A support vector machine classifier is then used to discriminate between normal and abnormal cases. Accuracy, precision and recall are used to evaluate the method. After validating the method, this technology will then be expanded to perform similar functions to assist in the detection of other dysmorphic syndromes.\n\nBy using photography and image analysis this automated assessment tool would have the potential to improve the diagnosis rate and allow for remote, non-invasive diagnostic evaluation for dysmorphologists in a timely manner."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Down Syndrome"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 750,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Down syndrome",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "photographs of individuals less than 18 yo with Down syndrome",
+                    "interventionNames": [
+                        "Device: photographs"
+                    ]
+                },
+                {
+                    "label": "Control group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "photographs of individuals less than 18 yo with a genetic referral (not Down syndrome) or a healthy sibling to a child with Down syndrome",
+                    "interventionNames": [
+                        "Device: photographs"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "photographs",
+                    "description": "computer based program to analyze photographs (computer-aided diagnosis (CAD) software)",
+                    "armGroupLabels": [
+                        "Control group",
+                        "Down syndrome"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of participants with Down syndrome accurately assessed by computer-aided detection (CADe) tool",
+                    "description": "The study will enroll and analyze photographic data from syndromic and non-syndromic cases to investigate the parameters required to achieve an accuracy of the computer-aided detection (CADe) tool for children with genetic syndromes at a level of 90% accuracy.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Number of participants with Down syndrome accurately assessed by computer-aided detection (CADe) tool",
+                    "description": "The study will enroll and analyze photographic data from syndromic and non-syndromic cases to investigate the parameters required to achieve an accuracy of the computer-aided detection (CADe) tool for children with genetic syndromes at a level of 95% accuracy.",
+                    "timeFrame": "5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of participants with other dysmorphic syndromes accurately assessed by computer-aided detection (CADe) tool",
+                    "description": "The study will enroll and analyze photographic data from syndromic and non-syndromic cases to investigate the parameters required to achieve an accuracy of the computer-aided detection (CADe) tool for children with genetic syndromes at a level of 90% accuracy.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Number of participants with other dysmorphic syndromes accurately assessed by computer-aided detection (CADe) tool",
+                    "description": "The study will enroll and analyze photographic data from syndromic and non-syndromic cases to investigate the parameters required to achieve an accuracy of the computer-aided detection (CADe) tool for children with genetic syndromes at a level of 95% accuracy.",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Pediatric subject with Down syndrome.\n* Healthy pediatric siblings of a subject with Down syndrome and/or other individuals with another genetic referral to serve as a control group.\n* Subject must be less than 18 years old.\n\nExclusion Criteria:\n\n* Subjects 18 years or older.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "maximumAge": "18 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kevin Cleary, PhD",
+                    "role": "CONTACT",
+                    "phone": "202 476 3809",
+                    "email": "kcleary@childrensnational.org"
+                },
+                {
+                    "name": "Marius Linguraru, PhD",
+                    "role": "CONTACT",
+                    "phone": "202 476 3059",
+                    "email": "MLingura@childrensnational.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kevin Cleary, PhD",
+                    "affiliation": "Children's National",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Children's National",
+                    "status": "RECRUITING",
+                    "city": "Washington",
+                    "state": "District of Columbia",
+                    "zip": "20010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sara Alyamani, BS",
+                            "role": "CONTACT",
+                            "phone": "202-476-6099",
+                            "email": "salyaman@childrensnational.org"
+                        },
+                        {
+                            "name": "Kevin Cleary, PhD",
+                            "role": "CONTACT",
+                            "phone": "202 476 3809",
+                            "email": "kcleary@childrensnational.org"
+                        },
+                        {
+                            "name": "Kevin Cleary, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Marius Linguraru, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.89511,
+                        "lon": -77.03637
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000004314",
+                    "term": "Down Syndrome"
+                },
+                {
+                    "id": "D000013577",
+                    "term": "Syndrome"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004194",
+                    "term": "Disease"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000008607",
+                    "term": "Intellectual Disability"
+                },
+                {
+                    "id": "D000019954",
+                    "term": "Neurobehavioral Manifestations"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000000015",
+                    "term": "Abnormalities, Multiple"
+                },
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                },
+                {
+                    "id": "D000025063",
+                    "term": "Chromosome Disorders"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "asFound": "Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21089",
+                    "name": "Facies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7489",
+                    "name": "Down Syndrome",
+                    "asFound": "Down Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11589",
+                    "name": "Intellectual Disability",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21826",
+                    "name": "Neurobehavioral Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14",
+                    "name": "Abnormalities, Multiple",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23023",
+                    "name": "Chromosome Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

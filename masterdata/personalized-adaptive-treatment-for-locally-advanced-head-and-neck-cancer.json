@@ -1,0 +1,525 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06005324",
+            "orgStudyIdInfo": {
+                "id": "IRB23-0095"
+            },
+            "organization": {
+                "fullName": "University of Chicago",
+                "class": "OTHER"
+            },
+            "briefTitle": "Personalized, Adaptive Treatment for Locally Advanced Head and Neck Cancer",
+            "officialTitle": "Pilot Study of Induction Therapy Followed by Response-adaptive Treatment and Dynamic Changes in Circulating Tumor DNA in Locoregionally Advanced HPV Negative Head and Neck Squamous Cell Carcinoma",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "personalized-adaptive-treatment-for-locally-advanced-head-and-neck-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-08",
+            "studyFirstSubmitQcDate": "2023-08-16",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Chicago",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This clinical trial will assess whether or not blood based biomarker testing can be used to personalize cancer treatment for patients with locally advanced head and neck cancer."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "HPV-Negative Squamous Cell Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 36,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Induction Treatment Arm",
+                    "type": "OTHER",
+                    "description": "All participants will receive 3 cycles (9 weeks) of chemotherapy with paclitaxel, carboplatin, and cetuximab.",
+                    "interventionNames": [
+                        "Drug: Paclitaxel",
+                        "Drug: Carboplatin",
+                        "Drug: Cetuximab"
+                    ]
+                },
+                {
+                    "label": "De-Escalation CRT Cohort",
+                    "type": "EXPERIMENTAL",
+                    "description": "After completing induction chemotherapy, participants that have significant disease response by imaging will receive low dose radiation treatment with additional chemotherapy (CRT). Investigator will choose the appropriate chemotherapy backbone to be given during CRT.",
+                    "interventionNames": [
+                        "Radiation: Low Dose Radiation",
+                        "Drug: Cisplatin",
+                        "Drug: TFHX Regimen"
+                    ]
+                },
+                {
+                    "label": "Standard Treatment Cohort",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "After completing induction chemotherapy, participants that have limited disease response by imaging will receive standard dose radiation treatment with additional chemotherapy (CRT). Investigator will choose the appropriate chemotherapy backbone to be given during CRT.",
+                    "interventionNames": [
+                        "Radiation: Standard Dose Radiation",
+                        "Drug: Cisplatin",
+                        "Drug: TFHX Regimen"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Paclitaxel",
+                    "description": "Given as part of induction chemotherapy.",
+                    "armGroupLabels": [
+                        "Induction Treatment Arm"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Carboplatin",
+                    "description": "Given as part of induction chemotherapy.",
+                    "armGroupLabels": [
+                        "Induction Treatment Arm"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cetuximab",
+                    "description": "Given as part of induction chemotherapy.",
+                    "armGroupLabels": [
+                        "Induction Treatment Arm"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Standard Dose Radiation",
+                    "description": "Radiation given once daily for 5 days for 7 weeks as part of CRT regimen.",
+                    "armGroupLabels": [
+                        "Standard Treatment Cohort"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Low Dose Radiation",
+                    "description": "Radiation given once daily for 5 days for 6.5 weeks as part of CRT regimen.",
+                    "armGroupLabels": [
+                        "De-Escalation CRT Cohort"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cisplatin",
+                    "description": "Given as part of CRT regimen (7 weekly doses). Investigator will choose the appropriate chemotherapy backbone to be given during CRT.",
+                    "armGroupLabels": [
+                        "De-Escalation CRT Cohort",
+                        "Standard Treatment Cohort"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "TFHX Regimen",
+                    "description": "Chemotherapy with paclitaxel, fluorouracil (5FU), and hydroxyurea given in combination with radiation therapy. Investigator will choose the appropriate chemotherapy backbone to be given during CRT.",
+                    "armGroupLabels": [
+                        "De-Escalation CRT Cohort",
+                        "Standard Treatment Cohort"
+                    ],
+                    "otherNames": [
+                        "paclitaxel, fluorouracil (5-FU), hydroxyurea"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Percentage of participants that complete study treatment and provide all required research blood draws.",
+                    "timeFrame": "To be measured at end of treatment period (9 weeks)"
+                },
+                {
+                    "measure": "Determine if ctDNA levels is predicative of disease response",
+                    "description": "Researchers will look at amount of ctDNA in the blood to determine if it correlates to disease response based on imaging results per RECIST v1.1.",
+                    "timeFrame": "To be measured at end of treatment period (9 weeks)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of participants with side effects related to study treatment",
+                    "timeFrame": "To be measured at 3 months after end of treatment period"
+                },
+                {
+                    "measure": "Long Term Disease Response based on RECIST 1.1",
+                    "timeFrame": "To be assessed at 2 years after end of treatment period"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have pathologically confirmed locally advanced, non-metastatic, human papillomavirus (HPV) negative head and neck squamous cell carcinoma of the oral cavity, oropharynx, hypopharynx, nasopharynx, larynx, or sinuses.\n* Stage III or IV disease based on American Joint Committee on Cancer (AJCC) staging 8th edition.\n* If a primary oropharyngeal squamous cell carcinoma is diagnosed, HPV must be ruled out by immunohistochemistry.\n* Availability of \u226510 unstained 5 micron slides. Patients who cannot fulfill this requirement will need to undergo a new biopsy prior to enrollment on study.\n* Patients must be at least 18 years of age.\n* Measurable disease (either primary site and/or nodal disease) by RECIST 1.1 criteria.\n* No previous radiation or chemotherapy for a head and neck cancer.\n* No complete surgical resection for a head and neck cancer within 8 weeks of enrollment (although lymph node biopsy including excision of an individual node with presence of residual nodal disease, or surgical biopsy/excision of the tumor with residual measurable disease is acceptable.) No surgical procedures or core-needle or excisional biopsies will occur after baseline scans are performed and measurable lesions are identified. Fine-needle aspiration can be performed (i.e., to confirm extent of baseline lymph node involvement) following discussion with PI if not performed on a target lesion.\n* Performance status 0-1\n* Normal Organ Function\n\n  * Leukocytes \u2265 3000/mm3\n  * Platelets \u2265 100,000/mm3\n  * Absolute neutrophil count \u2265 1,500\n  * Hemoglobin \u2265 9.0 gm/dL\n  * Aspartate Aminotransferase (AST) \u2264 2.5x upper limit of normal\n  * Alanine aminotransferase (ALT) \u2264 2.5x upper limit of normal\n  * Alkaline phosphatase \u2264 2.5x upper limit of normal\n  * Albumin \\> 2.9 gm/dL\n  * Total bilirubin \u2264 1.5 mg/dL\n  * Creatinine clearance (CrCl) \\> 45 mL/min, normal within 2 weeks prior to start of treatment (Of note, the standard Cockcroft and Gault formula must be used to calculate CrCl for enrollment or dosing)\n* Patients must sign a study-specific informed consent form prior to study entry. Patients should have the ability to understand and the willingness to sign a written informed consent document.\n* Women of childbearing potential must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 24 hours prior to the start of study drug.\n* Women must not be breastfeeding\n* Women of childbearing potential must agree to follow instructions for method(s) of contraception for the duration of treatment with study drug(s) plus 5 months after completing chemoradiation or receiving the last dose of chemoradiation, whichever occurs latest.\n* Men who are sexually active with women of childbearing potential must agree to follow instructions for method(s) of contraception for the duration of treatment with study drug(s) plus 5 months after completing chemoradiation or receiving the last dose of chemoradiation, whichever occurs latest.\n\nExclusion Criteria:\n\n* Unequivocal demonstration of distant metastatic disease (M1 disease).\n* Unidentifiable primary site.\n* Intercurrent medical illnesses which would impair patient tolerance to therapy or limit survival. This includes but is not limited to ongoing or active infection, immunodeficiency, symptomatic congestive heart failure, pulmonary dysfunction, cardiomyopathy, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance. Patients with clinically stable and/or chronically managed medical illnesses that are not symptomatic and/or are not expected to impact treatment on protocol are still eligible (conditions to be reviewed by the PI to confirm eligibility).\n* Prior surgical therapy other than incisional/excisional biopsy or organ-sparing procedures such as debulking of airway-compromising tumors. Residual measurable tumor is required for enrollment as discussed above.\n* Patients receiving other investigational agents.\n* Diagnosis of immunodeficiency or is receiving systemic steroid therapy in excess of physiologic dose or any other form of immunosuppressive therapy within 7 days prior to the first dose of trial treatment.\n* Known history of active tuberculosis (Bacillus Tuberculosis infection).\n* Hypersensitivity to cetuximab or any other drug used in this protocol.\n* Prior systemic anti-cancer treatment within the last 8 weeks.\n* Has a known additional malignancy that is progressing or requires active treatment. Exceptions include basal cell carcinoma of the skin or squamous cell carcinoma of the skin that has undergone potentially curative therapy or in situ cervical cancer or any tumors that are not likely to influence life expectancy in the subsequent 3 years without active treatment.\n* Has a history of HIV.\n* Has known active Hepatitis B or Hepatitis C. If eradicated, patient is eligible.\n* Has received a live vaccine within 28 days of planned start of study therapy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Clinical Trials Intake",
+                    "role": "CONTACT",
+                    "phone": "1-855-702-8222",
+                    "email": "cancerclinicaltrials@bsd.uchicago.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ari Rosenberg, MD",
+                    "affiliation": "University of Chicago",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Chicago Medicine Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60637",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Intake",
+                            "role": "CONTACT",
+                            "phone": "855-702-8222",
+                            "email": "cancerclinicaltrials@bsd.uchicago.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000002294",
+                    "term": "Carcinoma, Squamous Cell"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000018307",
+                    "term": "Neoplasms, Squamous Cell"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5550",
+                    "name": "Carcinoma, Squamous Cell",
+                    "asFound": "Squamous Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20451",
+                    "name": "Neoplasms, Squamous Cell",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000017239",
+                    "term": "Paclitaxel"
+                },
+                {
+                    "id": "D000068196",
+                    "term": "Albumin-Bound Paclitaxel"
+                },
+                {
+                    "id": "D000016190",
+                    "term": "Carboplatin"
+                },
+                {
+                    "id": "D000005472",
+                    "term": "Fluorouracil"
+                },
+                {
+                    "id": "D000068818",
+                    "term": "Cetuximab"
+                },
+                {
+                    "id": "D000006918",
+                    "term": "Hydroxyurea"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000972",
+                    "term": "Antineoplastic Agents, Phytogenic"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000050257",
+                    "term": "Tubulin Modulators"
+                },
+                {
+                    "id": "D000050256",
+                    "term": "Antimitotic Agents"
+                },
+                {
+                    "id": "D000050258",
+                    "term": "Mitosis Modulators"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000963",
+                    "term": "Antimetabolites"
+                },
+                {
+                    "id": "D000000964",
+                    "term": "Antimetabolites, Antineoplastic"
+                },
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000074322",
+                    "term": "Antineoplastic Agents, Immunological"
+                },
+                {
+                    "id": "D000000986",
+                    "term": "Antisickling Agents"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000019384",
+                    "term": "Nucleic Acid Synthesis Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18650",
+                    "name": "Carboplatin",
+                    "asFound": "System",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19537",
+                    "name": "Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9969",
+                    "name": "Hydroxyurea",
+                    "asFound": "Vitamin C",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8600",
+                    "name": "Fluorouracil",
+                    "asFound": "According",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M231",
+                    "name": "Albumin-Bound Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6182",
+                    "name": "Cisplatin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M315",
+                    "name": "Cetuximab",
+                    "asFound": "Physician",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26197",
+                    "name": "Tubulin Modulators",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26196",
+                    "name": "Antimitotic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4281",
+                    "name": "Antimetabolites",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1346",
+                    "name": "Antineoplastic Agents, Immunological",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AnSickAg",
+                    "name": "Antisickling Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

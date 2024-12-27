@@ -1,0 +1,358 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06377215",
+            "orgStudyIdInfo": {
+                "id": "Pro00041729"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01DC020514",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01DC020514"
+                }
+            ],
+            "organization": {
+                "fullName": "University of South Florida",
+                "class": "OTHER"
+            },
+            "briefTitle": "Understanding Aided Speech Perception in Noise",
+            "officialTitle": "Understanding Aided Speech Perception in Noise: Behavioral and Electrophysiological Measures",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "understanding-aided-speech-perception-in-noise"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-04-15",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-03-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-03-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-09",
+            "studyFirstSubmitQcDate": "2024-04-16",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of South Florida",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute on Deafness and Other Communication Disorders (NIDCD)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The overarching hypothesis to be evaluated using this protocol is that age-related hearing loss (ARHL) leads to shifts in the functional spatial boundaries between segregated and integrated auditory streams, and that hearing aid intervention that relies on directional processing schemes is most effective for those that have the poorest spatial sensitivity. One key component of the research design is to measure both behavioral and neurophysiological indices of an individual's spatial segregation boundary. The second key component is to measure the cost or benefit associated with hearing aid intervention in older hearing-impaired listeners. The final component is to relate cost and benefit of hearing aid intervention to spatial sensitivity measures that might predict the efficacy of clinical intervention.",
+            "detailedDescription": "STUDY DESIGN:\n\nThis is a between-group and within-subject, repeated-measures design. A detailed protocol, visit schedule, intervention methodology, and battery of outcome measures will be used to assess audition, spatial sensitivity, and pre- and post-intervention of behavioral and neurophysiological indices of spatial segregation. The study includes two control groups (young normal-hearing \\[YNH\\] and older normal-hearing \\[ONH\\]) and the test group (older hearing-impaired \\[OHI\\]) with three aided interventions: omnidirectional processing, fixed directional processing, and variable directional processing. There are two study arms: Arm 1 tests spatial segregation in the presence of a fixed masker in front of the listener; Arm 2 tests spatial segregation in the presence of a diffuse masker presented from three (narrow) or seven (wide) loudspeakers surrounding the frontal spatial hemisphere.\n\nDESCRIPTION OF THE PROTOCOL:\n\nAll listeners receive an intake protocol consisting of standard clinical and laboratory measures of auditory function (roughly two-hour visit). The baseline measures include audiogram, loudness discomfort levels (LDLs), middle ear status (tympanometry), acoustic reflex thresholds, and words in noise. Pre-treatment measures of spatial sensitivity are measured in a single two-hour visit. Measures include the minimum audible angle (MAA), speech localization error, and spatial release from masking. The Pre-treatment measures of the spatial segregation boundary are conducted in a single two-hour visit. Post-treatment measures (OHI group only) are counter balanced across three additional two-hour visits. Pre- and post-treatment measures of the spatial segregation boundary include measures of a fixed spatial separation between target and masker speech, and a roving (moving) target condition at multiple spatial separations spanning 0\u00b0 to 90\u00b0 in 15\u00b0 steps.\n\nDELIVERY OF INTERVENTION:\n\nHearing aid fitting: The standard-of-care intervention for ARHL is amplification via hearing aids and this is the intervention to be used in this study. The fitting procedures and any necessary troubleshooting or adjustments will follow the Auditory Neurosciences \\& Technology Laboratory device Standard Operating Procedures (dSOP) manual for hearing aid fitting and counseling. This manual is based upon guidelines of the American Speech-Language-Hearing Association and the American Academy of Audiology. Devices are fit wirelessly using a clinical-style graphical user interface for device programming in conjunction with real-ear verification. The audiologist (Dr. Secor) will fit the OHI subjects with the hearing instruments prior to the experiments. To avoid the possibility that independent amplitude compression at the two ears can reduce ILD cues, aids will be fit with a linear prescription. Because the sound levels in the experiments are in a restricted range near 65 dB the investigators will use NAL2 prescription for 65 dB input levels as verified using probe-microphone measures (Verifit 2, Audioscan).\n\nHearing aids: In order to better generalize results and control for a wide array of potentially hidden digital processing effects by device manufacturers, the investigators will use open-source, research-grade devices made possible through the NIH-funded open Master Hearing Aid consortium (openMHA). The open-source hardware design includes behind-the-ear (BTE), receiver-in-the-canal (RIC) instruments (Sonion) wired to a multi-channel audio board (Cape4all; 16 kHz sampling) attached to a portable main board (Beaglebone Black Wireless). The lightweight hardware is worn around the user's neck. Beamforming (fixed or variable) is accomplished in openMHA using a binaural minimum variance distortionless response (MVDR) algorithm that attempts to minimize any diffuse or spatially separated noise contributions from a target speech source.\n\nHearing aid conditions: In a within-subject design, the OHI group will be tested (per study arm) in four device configurations: (1) unaided, (2) aided with omnidirectional microphones, (3) aided with fixed directional processing, and (4) aided with variable directional processing. The fixed binaural beamformer has a relatively narrow spatial filter at the front, whereas the variable binaural beamformer is steered to the speech direction in real time. For the variable condition, real time speech localization is based on a priori knowledge of where the speech is presented from instead of employing an adaptive speech locator as used in real devices. This condition, therefore, represents the best achievable spatial filtering given perfect source localization and zero lag time between source localization and beam steering.\n\nSAMPLE SIZE AND DATA ANALYSIS METHODS:\n\nPower analyses. Based on preliminary data and reports with similar analyses in the literature, significant effect sizes are expected to have a minimum of \u03b7p2 = 0.19 for repeated measures analysis of variance (rmANOVA) testing. In Arm 1, computing sample size for the smallest possible effects (\u03b7p2 = 0.19), alpha (0.05), power (0.95), with moderate-to-strong correlation among repeated measures (0.75) indicates that 38 listeners per group are needed for each experiment (\u22653 repeated measures; G\\*Power v3.1.9.2). In Arm 2, the investigators will also use multiple regression to measure the relationship between spatial acuity and hearing aid benefit. For a small-to-medium effect size (f2 = 0.3), 55 subjects are needed.\n\nAnalytic plan. Descriptive and graphical statistics will be used to summarize the data on all participants and appropriate transformations, or non-parametric methods will be applied, as necessary. The investigators will use rmANOVAs to analyze the results from the behavioral data and cortical synchronization results at the group level. Pearson's correlation coefficients will be Z-transformed (Fisher) before statistical analyses. To protect against Type I error, the principal analyses are designed to answer clearly stated major research hypotheses and are based on well-specified dependent variables. All tests will be two-tailed at alpha=0.05, with Holm-Bonferroni adjustment for multiple comparisons. Where appropriate, rmANOVA's will be used to measure group differences in our intake psychoacoustic measures, and if the investigators observe statistical group differences, they will be used as covariates."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hearing Impairment, Sensorineural",
+                "Spatial Perception",
+                "Aging",
+                "Hearing Aids"
+            ],
+            "keywords": [
+                "electrophysiology",
+                "binaural hearing",
+                "auditory scene analysis",
+                "auditory streaming",
+                "speech perception",
+                "localization",
+                "psychoacoustics"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 121,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Older listeners with hearing loss",
+                    "description": "Test group, tested with and without the intervention (openMHA device) fit to their audiometric profile.",
+                    "interventionNames": [
+                        "Device: Open-source master hearing aid"
+                    ]
+                },
+                {
+                    "label": "Older listeners with normal hearing",
+                    "description": "Control group, no intervention."
+                },
+                {
+                    "label": "Younger listeners with normal hearing",
+                    "description": "Control group, no intervention."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Open-source master hearing aid",
+                    "description": "The investigators will administer the intervention by fitting the device to the participant's audiometric profile. Testing will be counter-balanced across conditions with half the conditions requiring no intervention and the other half with the intervention.",
+                    "armGroupLabels": [
+                        "Older listeners with hearing loss"
+                    ],
+                    "otherNames": [
+                        "openMHA"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Digit Identification",
+                    "description": "The investigators will measure the behavioral accuracy of listeners identifying digits in a continuous stream of monosyllabic words. In a roughly two-minute run, about 30 digits are presented and listeners are tasked with immediately identifying each one as they are presented. The target stream can be stationary or moving in space, and the masker speech stream can be stationary at the front loudspeaker or diffused around the front speaker (i.e., played from multiple speakers). For static or fixed spatial separations between target and masker (between 0\u00b0 and 90\u00b0), the digit identification accuracy is in percent correct. For multiple spatial separations, the investigators can derive a psychometric curve from which the investigators can extract the spatial separation needed to get a desired percent correct, like 75%, and the investigators call this the Spatial Segregation Boundary (in degrees).",
+                    "timeFrame": "Acute: Outcome measures are collected with and without treatment over multiple sessions spanning roughly 2 weeks."
+                },
+                {
+                    "measure": "Neural Segregation",
+                    "description": "Using two neural entrainment models (forward and backward), the investigators will measure the probability that the brain is able to encode attended speech during a speech-on-speech task. Listeners are tasked with identifying digits during the task carried by either the male or female speaker. The neural entrainment models will be conducted for each spatial separation (between 0\u00b0 and 90\u00b0), from which the investigators will derive a single probability metric for fixed spatial separations or for multiple locations, revealing a neurometric curve. From the neurometric curve, the investigators can extract the spatial separation needed to get a desired percent correct, like 75%, and the investigators call this the Neural Spatial Segregation Boundary (in degrees).",
+                    "timeFrame": "Acute: Outcome measures are collected with and without treatment over multiple sessions spanning roughly 2 weeks."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Minimum Audible Angle (MAA)",
+                    "description": "psychophysical test of minimum audible angle at the front (0\u00b0) and at the right side (+90\u00b0) using a vector-based amplitude panning method for titrating on presentation angle. Listeners perform an adaptive tracking test in which they indicate whether broadband white noises (0.1-8 kHz) were to the left or right of the 0\u00b0 reference or front or behind the 90\u00b0 reference. The noise stimuli are a train of three 100-ms bursts of Gaussian noise, with a 500-ms silence between bursts. A 3-down/1-up adaptive procedure is used to determine the reproduction angle for the next trial, which could be smaller or larger than the previous separation, to find the 79.4% correct point on a psychometric function. The angular step sizes in the 0\u00b0 MAA measurement are determined by Parameter Estimation by Sequential Testing (PEST).",
+                    "timeFrame": "Acute: Outcome measures are collected with and without treatment over multiple sessions spanning roughly 2 weeks."
+                },
+                {
+                    "measure": "Speech Localization Error",
+                    "description": "Listeners are presented with 130 monosyllable words, each presented from 1 of 13 loudspeakers spanning (-90 to +90\u00b0 in 15\u00b0 steps). After each presentation, listeners indicate point in the direction from where they heard the stimulus come. Localization error is calculated as the average error (in degrees) that listeners achieve per source angle.",
+                    "timeFrame": "Acute: Outcome measures are collected with and without treatment over multiple sessions spanning roughly 2 weeks."
+                },
+                {
+                    "measure": "Fixed Spatial Release from Masking",
+                    "description": "To quantify a fixed spatial release-from-masking (SRM) point, listeners will perform an adaptive tracking task. The SNR between target and masker speech streams will be fixed to -3 dB re the co-located SRT50 (separately tested as a method for setting individual levels in the digit identification test), and the spatial separation between the target and masker will be adaptively changed to converge on a 3dB-SRM until threshold is reached. This will identify the amount of spatial separation between target and masker required to achieve a 3-dB improvement in SNR over a co-located condition.",
+                    "timeFrame": "Acute: Outcome measures are collected with and without treatment over multiple sessions spanning roughly 2 weeks."
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Pure-tone Air Threshold (PTac)",
+                    "description": "Audibility thresholds in dB HL for pure tone stimuli at octave frequencies from 250 to 8000 Hz measured by air conduction via audiometer and audiometric headphones.",
+                    "timeFrame": "Pre-treatment: Outcomes are collected on first day of study without treatment"
+                },
+                {
+                    "measure": "Bone Conduction Threshold (PTbc)",
+                    "description": "Audibility thresholds in dB HL for pure tone stimuli at octave frequencies from 250 to 8000 Hz measured by bone conduction via audiometer and audiometric headphones.",
+                    "timeFrame": "Pre-treatment: Outcomes are collected on first day of study without treatment"
+                },
+                {
+                    "measure": "Wideband Tympanometry (Equivalent Ear Canal Volume)",
+                    "description": "Wideband tympanometry measures will be obtained using the Interacoustics Titan clinical immittance system to ensure consistent middle ear function prior to each test session and to obtain Equivalent Ear Canal Volume (ECV).",
+                    "timeFrame": "Pre-treatment: Outcomes are collected on first day of study without treatment"
+                },
+                {
+                    "measure": "Wideband Tympanometry (Static Peak Pressure)",
+                    "description": "Wideband tympanometry measures will be obtained using the Interacoustics Titan clinical immittance system to ensure consistent middle ear function prior to each test session and to obtain static peak pressure.",
+                    "timeFrame": "Pre-treatment: Outcomes are collected on first day of study without treatment"
+                },
+                {
+                    "measure": "Wideband Tympanometry (Resonant Frequency)",
+                    "description": "Wideband tympanometry measures will be obtained using the Interacoustics Titan clinical immittance system to ensure consistent middle ear function prior to each test session and to obtain middle ear resonant frequency measures.",
+                    "timeFrame": "Pre-treatment: Outcomes are collected on first day of study without treatment"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nTarget candidates for this study will be 38 young normal-hearing (YNH), 38 older normal-hearing (ONH), and 55 older hearing-impaired (OHI) subjects. Eligible NH listeners will have \u226420 dB HL at octave frequencies from 0.25 to 4 kHz and \u226430 dB HL up to 8 kHz. Eligible HI listeners will have bilateral (symmetric), moderate sensorineural hearing loss characterized by pure-tone thresholds between 35 to 50 dB HL from 0.25 to 2 kHz and 50 to 70 dB HL between 3 and 8 kHz. Age is restricted from 60 to 80 years for the older listening groups and from 18 to 35 for younger listeners. A balance of male and female participants will be recruited to assess sex as a biological variable in the data analyses. This age range for older listeners was chosen to be maximally inclusive of potential presbycusic participants, to promote generality of the results, and to facilitate uniform sampling within this age range. The investigators want to avoid the scientific need to stratify by age, which would make the scope of the project unmanageable given the constraints of this five-year award. The investigators have no evidence that lower or higher ages would affect aided intervention. Thus, inclusion of a larger age range would weaken the rigor of the investigation and complicate interpretation of the findings. The target range of hearing loss was chosen for similar reasons, reflecting the largest segment of older adults with hearing loss while avoiding the need to stratify by hearing loss to evaluate the stated hypotheses.\n\nAdditional Inclusion Criteria for HI group:\n\n* Bilateral sensorineural hearing losses within the mild-to-moderately severe range as indicated by pure tone air- and bone-conduction audiometry and screening (Y-226 Hz, Type \"A\") tympanograms.\n* Candidates for hearing aids or experienced users.\n* Fluent speaker of English as speech testing will be in English.\n* MoCA (Montreal Cognitive Assessment; Nasreddine et al., 2005) score of \\> 22. This cut point has been used frequently in investigations of aging and will better ensure that cognitive related problems will not restrict the abilities of subjects to perform the study tasks.\n\nExclusion Criteria:\n\nExclusion criteria include conditions for which one could anticipate that hearing or cognitive status might change markedly during the course of study. To hedge against such changes, participants will be excluded if they have undergone clinical management for any of the following in the past 12 months:\n\n* Head trauma\n* Traumatic brain injury\n* Epilepsy\n* Seizures\n* Other neurological disorders\n* Otologic surgical procedures\n* Actively fluctuating hearing loss\n* Acute Meniere's disease\n* Labyrinthitis\n* Conductive hearing loss\n* Use of ototoxic medications",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "The demographics in the immediate area surrounding the University of South Florida reflect closely the distribution in demographics below. The study employs a cluster sampling method within the existing community that are naturally clustered by hearing status and age.\n\nTampa, Florida Demographics (census.gov)\n\nAge and Sex 5.9% Under 5 20.8% under 18 13.0% over 65\n\nEthnicity 26.7% Hispanic or Latino 73.3% Not Hispanic or Latino\n\nRace 0.3% American Indiana/Native Alaskan 4.6% Asian 0.1% Native Hawaiian or Pacific Islander 21.8% Black or African American 54.9% White 13.7% Two or more races",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "USF Research Park BPB, 3802 Spectrum Boulevard, Suite 210C",
+                    "city": "Tampa",
+                    "state": "Florida",
+                    "zip": "33612",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Erol Ozmeral, Ph.D.",
+                            "role": "CONTACT",
+                            "phone": "813-974-9778",
+                            "email": "eozmeral@usf.edu"
+                        },
+                        {
+                            "name": "Carrie Secor, Au.D.",
+                            "role": "CONTACT",
+                            "phone": "813-974-4148",
+                            "email": "csecor@usf.edu"
+                        },
+                        {
+                            "name": "Erol Ozmeral, Ph.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 27.94752,
+                        "lon": -82.45843
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000034381",
+                    "term": "Hearing Loss"
+                },
+                {
+                    "id": "D000003638",
+                    "term": "Deafness"
+                },
+                {
+                    "id": "D000006319",
+                    "term": "Hearing Loss, Sensorineural"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006311",
+                    "term": "Hearing Disorders"
+                },
+                {
+                    "id": "D000004427",
+                    "term": "Ear Diseases"
+                },
+                {
+                    "id": "D000010038",
+                    "term": "Otorhinolaryngologic Diseases"
+                },
+                {
+                    "id": "D000012678",
+                    "term": "Sensation Disorders"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M24420",
+                    "name": "Hearing Loss",
+                    "asFound": "Hearing Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6840",
+                    "name": "Deafness",
+                    "asFound": "Hearing Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9407",
+                    "name": "Hearing Loss, Sensorineural",
+                    "asFound": "Hearing Impairment, Sensorineural",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9400",
+                    "name": "Hearing Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7601",
+                    "name": "Ear Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12961",
+                    "name": "Otorhinolaryngologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15490",
+                    "name": "Sensation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,315 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03781583",
+            "orgStudyIdInfo": {
+                "id": "HUM00141598"
+            },
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "SmartHMD for Improved Mobility",
+            "officialTitle": "Smart Head Mounted Display (smartHMD) for Improved Mobility",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "smarthmd-for-improved-mobility"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-04-26",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-02-20",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-02-20",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-12-12",
+            "studyFirstSubmitQcDate": "2018-12-17",
+            "studyFirstPostDateStruct": {
+                "date": "2018-12-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-02-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-02-27",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "James Weiland",
+                "investigatorTitle": "Professor of Biomedical Engineering",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "James Weiland",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The National Eye Institute estimated about 3 million people over age 40 in the US had low vision in 2010 and projects an increase to nearly 5 million in 2030 and 9 million in 2050. Current assistive technologies are a patchwork of mostly low-technology aids with limited capabilities that are often difficult to use, and are not widely adopted. This shortfall in capabilities of assistive technology often stems from lack of a user-centered design approach and is a critical barrier to improve the everyday activities of life (EDAL) and the quality of life (QOL) for individuals with low vision.\n\nAn intuitive head mounted display (HMD) system on enhancing orientation and mobility (O\\&M) and crosswalk navigation, could improve independence, potentially decrease falls, and improve EDAL and QOL. The central hypothesis is that an electronic navigation system incorporating computer vision will enhance O\\&M for individuals with low vision. The goal is to develop and validate a smartHMD by incorporating advanced computer vision algorithms and flexible user interfaces that can be precisely tailored to an individual's O\\&M need. This project will address the specific question of mobility while the subject crosses a street at a signaled crosswalk. This is a dangerous and difficult task for visually impaired patients and a significant barrier to independent mobility."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Low Vision",
+                "Orientation",
+                "Mobility Limitation",
+                "Navigation, Spatial",
+                "Visual Impairment"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "Testing will be done in three conditions: baseline (no HMD), sham (smartHMD worn but not active), and smartHMD (smartHMD worn and active)",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HMD",
+                    "type": "EXPERIMENTAL",
+                    "description": "We have several versions (listed below) of a headworn smartHMD. Each can provide verbal and/or tactile feedback to the user. Feedback is controlled by either the experimenter or by computer vision algorithms.\n\n1. The ODG Smartglasses is commercially available. This system uses computer vision to guide a user to the destination using audio and/ or vibration feedback.\n\n2) Tactile stimulator array. This device uses an Arduino Micro, HC-05 Bluetooth Module, L293D Motor Driver and coin vibration motors attached to a head-worn headband or glasses frame. The motors can be controlled directly by an experimenter or by computer vision algorithms.\n\n3) Computer Vision Navigation prototyping system consists of two components: Intel RealSense camera and Alienware M15 laptop.\n\nAll participants will receive the same 3 interventions: no HMD used, HMD worn but not active, and HMD worn and active. Participants may be tested with any or all of the systems described above.",
+                    "interventionNames": [
+                        "Device: No HMD used",
+                        "Device: HMD worn but not active",
+                        "Device: HMD worn and active"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "No HMD used",
+                    "description": "Participants will use their existing mobility skills and strategies to navigate toward a goal. If the participant cannot perform this task, the participant will not be forced to.",
+                    "armGroupLabels": [
+                        "HMD"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "HMD worn but not active",
+                    "description": "Participants will wear the HMD, but the HMD will not be active. This will test whether or not the HMD physical components obscure the participants remaining vision and reduce the participants ability to navigate toward a goal.",
+                    "armGroupLabels": [
+                        "HMD"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "HMD worn and active",
+                    "description": "Participants will wear the HMD and the HMD will be active. This will test the HMD function for navigation toward a goal.",
+                    "armGroupLabels": [
+                        "HMD"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Mobility accuracy: Percentage Correct Alignment",
+                    "description": "Percentage Trials correctly aligned at the crosswalk (Yes/No Classification). Alignment of feet position relative to lines on sidewalk parallel to street and perpendicular to crosswalk. +/- 10 degrees will be considered correct.",
+                    "timeFrame": "2 hours"
+                },
+                {
+                    "measure": "Mobility accuracy: Veering",
+                    "description": "The amount of deviation, in degrees, from optimal path (Optimal path for baseline and sham conditions: straight down the middle of pathway; optimal path for smartHMD condition: cued path from smartHMD)",
+                    "timeFrame": "2 hours"
+                },
+                {
+                    "measure": "Mobility accuracy: Percentage Cue Usage",
+                    "description": "Percentage Times subject needed cues from smartHMD and how well they responded to the cues (smartHMD condition only)",
+                    "timeFrame": "2 hours"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Detection of Signal",
+                    "description": "Percentage Trials subject correctly identified the displayed signal on the Pedestrian Signal (Yes/No Classification)",
+                    "timeFrame": "2 hours"
+                },
+                {
+                    "measure": "Time-to-Complete",
+                    "description": "Duration from start of trial to subject locating the pedestrian signal (seconds)",
+                    "timeFrame": "2 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with low vision\n* Self reported difficulty with mobility and finding doors (either indoors or outdoors) and using signalized crosswalks.\n* Stratify vision with half best corrected vision better than or equal to 20/100, and other half best corrected vision worse than 20/100\n* Ability to use smart phone\n* Ability to cooperate for tests\n* Able to participate in all visits\n\nExclusion Criteria:\n\n* Unable to use head mounted display or smart phone technology\n* Unstable age-related macular degeneration within the past 3 months\n* Unstable diabetic retinopathy within the past 3 months\n* Unstable diabetes within the past 3 months\n* Ocular infection or ocular inflammation in the past 3 months\n* Ocular trauma within the past 6 months\n* Intraocular surgery within 6 months\n* Optical coherence tomography retinal findings of concern to investigator for unstable vision during the study\n* Women who are pregnant (due to risk of falls and change in gait).\n* Uncontrolled seizure disorder in the past 6 months\n* Cerebrovascular accident occurring in the past 6 months\n* Parkinson disease or neurological condition that limits mobility\n* Alzheimer disease or other forms of dementia\n* Conditions of concern to investigator that would confound orientation and mobility, such as severe arthritis, pain that limits ambulatory activities, or orthopedic surgery (e.g., hand, arm, shoulder, knee, or hip surgery within 12 months)",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "14 Years",
+            "maximumAge": "89 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "James Weiland, PhD",
+                    "role": "CONTACT",
+                    "phone": "(734) 764-9793",
+                    "email": "weiland@umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "James Weiland, PhD",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "North Campus Research Complex",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48105",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "James Weiland",
+                            "role": "CONTACT",
+                            "phone": "734-764-9793",
+                            "email": "weiland@umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000014786",
+                    "term": "Vision Disorders"
+                },
+                {
+                    "id": "D000015354",
+                    "term": "Vision, Low"
+                },
+                {
+                    "id": "D000051346",
+                    "term": "Mobility Limitation"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012678",
+                    "term": "Sensation Disorders"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000005128",
+                    "term": "Eye Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18042",
+                    "name": "Vision, Low",
+                    "asFound": "Low Vision",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26689",
+                    "name": "Mobility Limitation",
+                    "asFound": "Mobility Limitation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17530",
+                    "name": "Vision Disorders",
+                    "asFound": "Visual Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15490",
+                    "name": "Sensation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8271",
+                    "name": "Eye Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC11",
+                    "name": "Eye Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

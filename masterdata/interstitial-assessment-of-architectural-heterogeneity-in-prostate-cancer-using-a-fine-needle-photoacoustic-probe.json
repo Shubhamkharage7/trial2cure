@@ -1,0 +1,310 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05965180",
+            "orgStudyIdInfo": {
+                "id": "UMCC 2022.015"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "HUM00217834",
+                    "type": "OTHER",
+                    "domain": "University of Michigan"
+                },
+                {
+                    "id": "R37CA222829",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R37CA222829"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Interstitial Assessment of Architectural Heterogeneity in Prostate Cancer Using a Fine Needle Photoacoustic Probe",
+            "officialTitle": "Interstitial Assessment of Architectural Heterogeneity in Prostate Cancer Using a Fine Needle Photoacoustic Probe",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "interstitial-assessment-of-architectural-heterogeneity-in-prostate-cancer-using-a-fine-needle-photoacoustic-probe"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-10-16",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-27",
+            "studyFirstSubmitQcDate": "2023-07-19",
+            "studyFirstPostDateStruct": {
+                "date": "2023-07-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-30",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Cancer Institute (NCI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "In this project, we will integrate the Photoacoustic (PA) technology into a prostate biopsy procedure through a fine needle probe. The needle probe will be in the shape of a biopsy needle and compatible with the needle insertion mechanism in the transrectal ultrasound (TRUS) probe. When inserted into the prostate, the fine needle PA probe will assess the histological information in its surrounding tissue without any tissue extraction. The needle probe has been tested in prostate tissue samples and whole human prostates ex vivo."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer"
+            ],
+            "keywords": [
+                "Biopsy"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Biopsy",
+                    "description": "Patients will be identified once prostate biopsies have been scheduled. Once enrolled on trial, patients will undergo standard biopsy procedure as per clinical care. During this biopsy, research measurements will be completed using the fine needle photoacoustic probe.",
+                    "interventionNames": [
+                        "Device: Fine Needle Photoacoustic Probe"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Fine Needle Photoacoustic Probe",
+                    "description": "Fine Needle Photoacoustic Probe guided by the standard biopsy system without tissue core extraction",
+                    "armGroupLabels": [
+                        "Biopsy"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Demonstration of reliable measurements",
+                    "description": "The primary aim of this study is to demonstrate that our fine needle PA probe can acquire reliable measurements of prostate glands. This will be indicated by a signal-to-noise ratio of the measurements that is larger than one.\n\nWe will calculate the signal to noise ratio of the signals as the peak-to-peak signal magnitude over the amplitude of the system background signal. The technical failure is that we will not be able to achieve measurements with signal-to-noise ratios larger than 1 in 10% of the measurements. We will have a futility analysis after first 5 patients are completed (thus 10 measurements). If of those 10 measurements, 2 have a SNR less 1, then the study will be stopped as it is unlikely to meet its 90% target.",
+                    "timeFrame": "day 1"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Determining the ability to observe differences between benign and cancerous regions",
+                    "description": "The secondary aim of this study is documenting our ability to observe differences between the PASA linear slope values derived from benign and cancerous regions, i.e., to detect the difference of 0.05 of 0.19, 0.17, 0.14, 0.20 dB/MHz between the means of the linear slopes in benign and cancerous regions at the wavelengths of 1220 nm, 1370 nm, 800 nm and 266 nm, respectively.\n\nWe will aim at differentiating the measurements in benign and cancerous regions at specific wavelengths. We have a null hypothesis for each wavelength that at this specific wavelength, our measurement cannot differentiate the benign and cancerous regions. We will test the hypothesis with paired t-tests.",
+                    "timeFrame": "day 1"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 1) Planned prostate biopsy as part of routine clinical care\n* 2) \\> 40 and \\<80 years old\n\nExclusion Criteria:\n\n* 1) Known history of bleeding disorders or\n* 2) Patients taking anticoagulants, no matter doses or washout time\n* 3) Known allergy to silicone material\n* 4) Unable to provide informed consent\n* 5) Either the surgeon or the patient do not think the patient will not be able to complete all parts of the study, the patient will be excluded\n* 6) Involved in other investigational studies.",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "40 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients with planned prostate biopsy procedures will be recruited through U-M Urology Clinics",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Cancer AnswerLine",
+                    "role": "CONTACT",
+                    "phone": "1-800-865-1125",
+                    "email": "CancerAnswerLine@med.umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Guan Xu, Phd",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan Rogel Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Cancer AnswerLine",
+                            "role": "CONTACT",
+                            "phone": "800-865-1125",
+                            "email": "CancerAnswerLine@med.umich.edu"
+                        },
+                        {
+                            "name": "Guan Xu, Phd",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,570 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04683315",
+            "orgStudyIdInfo": {
+                "id": "PRO00039451"
+            },
+            "organization": {
+                "fullName": "Medical College of Wisconsin",
+                "class": "OTHER"
+            },
+            "briefTitle": "PurIST Classification-Guided Adaptive Neoadjuvant Chemotherapy by RNA Expression Profiling of EUS Aspiration Samples",
+            "officialTitle": "PurIST Classification-Guided Adaptive Neoadjuvant Chemotherapy by RNA Expression Profiling of EUS Aspiration Samples",
+            "acronym": "PANCREAS",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "purist-classification-guided-adaptive-neoadjuvant-chemotherapy-by-rna-expression-profiling-of-eus-aspiration-samples"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-04-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-12-19",
+            "studyFirstSubmitQcDate": "2020-12-19",
+            "studyFirstPostDateStruct": {
+                "date": "2020-12-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kathleen Christians",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Medical College of Wisconsin"
+            },
+            "leadSponsor": {
+                "name": "Medical College of Wisconsin",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is an open-label, phase II study in patients with resectable and borderline resectable pancreatic cancer.",
+            "detailedDescription": "The study intervention involves molecular profiling Purity Independent Subtyping of Tumors (PurIST) subtyping of pretreatment Endoscopic Ultrasound Fine Needle Aspiration (EUS/FNA) samples to determine pancreatic cancer subtype. Neoadjuvant therapy is directed based on the molecular subtype (classical vs. basal). Patients with classical subtype will receive a standard chemotherapy (mFOLFIRINOX) and patients with basal subtype will receive an alternative standard therapy (gemcitabine/nab-paclitaxel)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pancreatic Cancer"
+            ],
+            "keywords": [
+                "molecular profiling",
+                "neoadjuvant",
+                "pancreatic adenocarcinoma",
+                "pancreas cancer",
+                "CA19-9",
+                "surgery",
+                "MCW"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 87,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Subtype diagnosis and classification: Basal",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients will be classified by (molecular) subtype (using the PurIST classifier) into two groups: basal and classical pancreatic cancer. Upon diagnosis, patients categorized as basal will receive two months of the Gemcitabine/Nab-paclitaxel Treatment Regimen.",
+                    "interventionNames": [
+                        "Drug: Gemcitabine/Nab-paclitaxel Treatment Regimen"
+                    ]
+                },
+                {
+                    "label": "Subtype diagnosis and classification: Classical",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients will be classified by (molecular) subtype (using the PurIST classifier) into two groups: basal and classical pancreatic cancer. Patients in the classical group will receive two months of the mFOLFIRINOX Treatment Regimen.",
+                    "interventionNames": [
+                        "Drug: mFOLFIRINOX Treatment Regimen"
+                    ]
+                },
+                {
+                    "label": "Basal Group: Restaging: Response to Treatment",
+                    "type": "EXPERIMENTAL",
+                    "description": "After the first restaging evaluation, further treatment will be based on treatment response. Patients who demonstrate a response \\[decline in carbohydrate antigen 19-9 (CA19-9) values\\] and radiographic response, along with preserved performance status) will be maintained on the first line chemotherapy for an additional two months.",
+                    "interventionNames": [
+                        "Drug: Gemcitabine/Nab-paclitaxel Treatment Regimen"
+                    ]
+                },
+                {
+                    "label": "Classical Group: Restaging: Response to Treatment",
+                    "type": "EXPERIMENTAL",
+                    "description": "After the first restaging evaluation, further treatment will be based on treatment response. Patients who demonstrate a response \\[decline in carbohydrate antigen 19-9 (CA19-9) values\\] and radiographic response, along with preserved performance status) will be maintained on the first line chemotherapy for an additional two months.",
+                    "interventionNames": [
+                        "Drug: mFOLFIRINOX Treatment Regimen"
+                    ]
+                },
+                {
+                    "label": "Basal Group: Restaging: Patients with Stable Disease",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients who do not have a significant decline in CA19-9 values will be changed to a second-line therapy for an additional two months.",
+                    "interventionNames": [
+                        "Drug: mFOLFIRINOX Treatment Regimen"
+                    ]
+                },
+                {
+                    "label": "Classical Group: Restaging: Patients with Stable Disease",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients who do not have a significant decline in CA19-9 values will be changed to a second-line therapy for an additional two months.",
+                    "interventionNames": [
+                        "Drug: Gemcitabine/Nab-paclitaxel Treatment Regimen"
+                    ]
+                },
+                {
+                    "label": "Basal Group: Restaging: Local Disease Progression",
+                    "type": "EXPERIMENTAL",
+                    "description": "Further treatment will be based on treatment response. If the patient has local disease progression amenable to surgical resection, he or she will receive chemoradiation, rather than continued chemotherapy, so the window of opportunity for surgical resection is not lost.",
+                    "interventionNames": [
+                        "Radiation: Chemoradiation"
+                    ]
+                },
+                {
+                    "label": "Classical Group: Restaging: Local Disease Progression",
+                    "type": "EXPERIMENTAL",
+                    "description": "Further treatment will be based on treatment response. If the patient has local disease progression amenable to surgical resection, he or she will receive chemoradiation, rather than continued chemotherapy, so the window of opportunity for surgical resection is not lost.",
+                    "interventionNames": [
+                        "Radiation: Chemoradiation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "mFOLFIRINOX Treatment Regimen",
+                    "description": "This therapy will be 5-fluorouracil, leucovorin, irinotecan, and oxaliplatin (FOLFIRINOX).",
+                    "armGroupLabels": [
+                        "Basal Group: Restaging: Patients with Stable Disease",
+                        "Classical Group: Restaging: Response to Treatment",
+                        "Subtype diagnosis and classification: Classical"
+                    ],
+                    "otherNames": [
+                        "Fluorouracil",
+                        "Folinic acid",
+                        "Camptosar",
+                        "Eloxatin"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Gemcitabine/Nab-paclitaxel Treatment Regimen",
+                    "description": "This regimen will be nab-paclitaxel and gemcitabine.",
+                    "armGroupLabels": [
+                        "Basal Group: Restaging: Response to Treatment",
+                        "Classical Group: Restaging: Patients with Stable Disease",
+                        "Subtype diagnosis and classification: Basal"
+                    ],
+                    "otherNames": [
+                        "Gemzar",
+                        "Abraxane"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Chemoradiation",
+                    "description": "50.4 Gy in 28 fractions.",
+                    "armGroupLabels": [
+                        "Basal Group: Restaging: Local Disease Progression",
+                        "Classical Group: Restaging: Local Disease Progression"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Subjects who receive PurIST classification-directed therapy.",
+                    "description": "The number of subjects who receive PurIST classification-directed therapy and have a treatment response following 12 weeks of therapy.",
+                    "timeFrame": "12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Treatment response for subjects with basal subtype tumors.",
+                    "description": "The number of subjects with basal subtype tumors who have a treatment response.",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Treatment response for subjects with classical subtype tumors.",
+                    "description": "The number of subjects with classical subtype tumors who have a treatment response.",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Subjects with basal subtype tumors who complete all intended neoadjuvant therapy and surgical therapy.",
+                    "description": "The number of subjects completing all intended neoadjuvant therapy and surgical therapy.",
+                    "timeFrame": "One year"
+                },
+                {
+                    "measure": "Subjects with classical subtype tumors who complete all intended neoadjuvant therapy and surgical therapy.",
+                    "description": "The number of subjects completing all intended neoadjuvant therapy and surgical therapy.",
+                    "timeFrame": "One year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria (for Screening)\n\n1. Have suspicion of pancreas adenocarcinoma and plan for endoscopic biopsy. Agrees to additional EUS biopsy to be performed at the first-restaging timepoint and tissue collection from surgical specimen.\n2. Have a carbohydrate antigen 19-9 (CA19-9) level greater than 35 mg/dL regardless of total bilirubin level.\n\nInclusion Criteria (for Treatment)\n\n1. Be 18 years of age or older.\n2. Be able to understand and provide written informed consent or have a legally authorized representative (LAR).\n3. Have documentation of histologically confirmed adenocarcinoma. Biopsy must have been completed prior to start of treatment Have an Eastern Cooperative Group (ECOG) performance status \\< 2 (please see the appendix).\n4. Have documentation of histologically confirmed adenocarcinoma. Biopsy must have been completed prior to start of treatment.\n5. Have clinical stage consistent with resectable or borderline resectable adenocarcinoma of the pancreas, based on CT or MRI findings.\n6. Have adequate organ and bone marrow function, as defined by\n\n   * total leukocytes \\>3 x103/\u03bcL.\n   * absolute neutrophil count (ANC) \\>1.5x 103/\u03bcL.\n   * hemoglobin \\>9 g/dL.\n   * platelets \\>100 x 10e3/\u03bcL.\n   * creatinine clearance \\>60 mL/min or creatinine \\<1.5 mg/dL.\n   * bilirubin \\< 2 mg/dL.\n   * aspartate transaminases (AST/SGOT) and alanine transaminases (ALT/SGPT) \\<3 x upper limit of normal (ULN). At two weeks from biliary decompression, if the subject's serum AST/ALT remains greater 3x ULN, but has demonstrated a progressive decline, the subject may be enrolled into the trial and appropriate modification and dose adjustments will be made to the assigned regimen. Eligibility of subjects whose AST/ALT remain elevated 3x ULN, without demonstrating a downward trend, will be determined at the discretion of the trial PIs.\n7. Subjects must be CA19-9 producers as defined by a pretreatment CA 19-9 \\> 35 U/mL, when total bilirubin \\<2 mg/dL\n8. Female patients must be postmenopausal (absence of menses for \\> 1 year), surgically sterile or have a negative pregnancy test and use at least one form of contraception for four weeks prior to Day 1 of the study, during study treatment and during the first four months after study treatment is discontinued. Male patients must be surgically sterile or use barrier contraception during the study and for four months after the last dose of any study drug.\n\nExclusion Criteria:\n\n1. Has received chemotherapy and/or radiation within three years prior to study enrollment.\n2. Has any previous history of another malignancy (other than cured basal or squamous cell carcinoma of the skin or cured in situ carcinoma of the cervix or localized prostate cancer with normal prostate specific antigen) within three years of study enrollment.\n3. Uncontrolled comorbidities including, but not limited to, ongoing or active serious infection, symptomatic congestive heart failure, unstable angina, unstable cardiac arrhythmias, psychiatric illness, excessive obesity (BMI \\>55) or situations that would limit compliance with the study requirements or the ability to willingly give written informed consent.\n4. Known HIV, hepatitis B virus (HBV) or hepatitis C virus (HCV) infection.\n5. Pregnant or breastfeeding patients or any patient with childbearing potential not using contraception four weeks prior to treatment.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Medical College of Wisconsin Cancer Center Clinical Trials Office",
+                    "role": "CONTACT",
+                    "phone": "866-680-0505",
+                    "phoneExt": "8900",
+                    "email": "cccto@mcw.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kathleen K Christians, MD",
+                    "affiliation": "Medical College of Wisconsin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "HonorHealth Medical Group",
+                    "status": "RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85258-4566",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Erkut Borazanci, MD",
+                            "role": "CONTACT",
+                            "phone": "480-323-1350",
+                            "email": "eborazanci@honorhealth.com"
+                        },
+                        {
+                            "name": "Gayle Jameson, APNP",
+                            "role": "CONTACT",
+                            "phone": "480-323-1350"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                },
+                {
+                    "facility": "Froedtert & the Medical College of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Milwaukee",
+                    "state": "Wisconsin",
+                    "zip": "53226",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kathleen Christians, MD",
+                            "role": "CONTACT",
+                            "phone": "414-955-1400",
+                            "email": "kchristi@mcw.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.0389,
+                        "lon": -87.90647
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13110",
+                    "name": "Pancreatic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4387",
+                    "name": "Pancreatic Cancer",
+                    "asFound": "Pancreatic Cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000017239",
+                    "term": "Paclitaxel"
+                },
+                {
+                    "id": "D000093542",
+                    "term": "Gemcitabine"
+                },
+                {
+                    "id": "D000005472",
+                    "term": "Fluorouracil"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000972",
+                    "term": "Antineoplastic Agents, Phytogenic"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000050257",
+                    "term": "Tubulin Modulators"
+                },
+                {
+                    "id": "D000050256",
+                    "term": "Antimitotic Agents"
+                },
+                {
+                    "id": "D000050258",
+                    "term": "Mitosis Modulators"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000964",
+                    "term": "Antimetabolites, Antineoplastic"
+                },
+                {
+                    "id": "D000000963",
+                    "term": "Antimetabolites"
+                },
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M1671",
+                    "name": "Irinotecan",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19537",
+                    "name": "Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2985",
+                    "name": "Gemcitabine",
+                    "asFound": "Mg/kg",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1674",
+                    "name": "Oxaliplatin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8600",
+                    "name": "Fluorouracil",
+                    "asFound": "According",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M231",
+                    "name": "Albumin-Bound Paclitaxel",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M271136",
+                    "name": "Folfirinox",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8618",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6191",
+                    "name": "Leucovorin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29233",
+                    "name": "Levoleucovorin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22554",
+                    "name": "Pancrelipase",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13114",
+                    "name": "Pancreatin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26197",
+                    "name": "Tubulin Modulators",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26196",
+                    "name": "Antimitotic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4281",
+                    "name": "Antimetabolites",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T446",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T447",
+                    "name": "Folinic Acid",
+                    "asFound": "Web-",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T448",
+                    "name": "Folate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T475",
+                    "name": "Vitamin B9",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                },
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                },
+                {
+                    "abbrev": "Vi",
+                    "name": "Vitamins"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

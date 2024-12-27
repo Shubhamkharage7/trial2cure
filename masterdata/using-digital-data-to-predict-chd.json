@@ -1,0 +1,210 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04574882",
+            "orgStudyIdInfo": {
+                "id": "833699"
+            },
+            "organization": {
+                "fullName": "University of Pennsylvania",
+                "class": "OTHER"
+            },
+            "briefTitle": "Using Digital Data to Predict CHD",
+            "officialTitle": "Using Digital Data to Predict Cardiovascular Health and Health Care Utilization",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "using-digital-data-to-predict-chd"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-09-25",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-09-28",
+            "studyFirstSubmitQcDate": "2020-09-28",
+            "studyFirstPostDateStruct": {
+                "date": "2020-10-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Pennsylvania",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This project seeks to identify and characterize features derived from digital data (e.g. social media, online search, mobile media) which are associated with coronary heart disease (CHD) and related risk factors, and develop models that use digital data and conventional predictive models to predict CHD risk and health care utilization.",
+            "detailedDescription": "Cardiovascular disease is the leading cause of death in the US. While secondary prevention approaches have improved longevity of patients, risk factors and adverse health behaviors (e.g., physical inactivity, smoking) are highly prevalent, and in most contemporary series, less than 1% of adults meet all factors of ideal CV health. The logistics and practicalities of meeting the goal of ideal CV health have not been clearly elucidated. Practice guidelines recommend using the Framingham risk score (FRS) or other risk prediction tools to classify patients' risk of CV disease. These models however are imprecise and there is increasing focus on identifying markers that provide better measures of risk. As digital platforms are increasingly used to document lifestyle and health behaviors, data from digital sources may provide a window into manifestations of novel risk factors and potentially a better characterization of existing risk factors. While it seems like a cliche to mention the profound impact of digital data on everyday lives, there is indeed great substance in the opportunities these new media provide for understanding behavioral, social, and environmental determinants of health. This project seeks to identify and characterize features derived from digital data (e.g. social media, online search, mobile media) which are associated with coronary heart disease (CHD) and related risk factors, and develop models that use digital data and conventional predictive models to predict CHD risk and health care utilization."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cardiovascular Diseases"
+            ],
+            "keywords": [
+                "digital data",
+                "digital health"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "CROSS_SECTIONAL"
+            },
+            "enrollmentInfo": {
+                "count": 1000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Case",
+                    "description": "Patients ages 30-74 with and without CHD (IICD 10: I63, I20-I25 ) within the last 5 years.",
+                    "interventionNames": [
+                        "Other: Survey"
+                    ]
+                },
+                {
+                    "label": "Control",
+                    "description": "Patients aged 30-74 who have non-cardiovascular-related history",
+                    "interventionNames": [
+                        "Other: Survey"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Survey",
+                    "description": "Interested participants may complete the informed consent online. After informed consent, the participant will be asked to share the digital data types that they use (Facebook, Instagram, Twitter, Google search, step data) and then participants will complete a cross-sectional survey.",
+                    "armGroupLabels": [
+                        "Case",
+                        "Control"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Latent Dirichlet Allocation Topics - topics / themes discussed between patients with and without heart disease",
+                    "description": "The primary outcome is topics and features (derived using the Latent Dirichlet Allocation \\[LDA\\] method for clustering language data).",
+                    "timeFrame": "Through study completion, an average of 3 years"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "CHD event",
+                    "description": "Reliability in predicting CHD related event in patient as measured by Framingham Risk Score.\n\nThe Framingham Risk Score (FRS) is a validated means of predicting cardiovascular disease (CVD) risk. Input variables include age, cigarette smoking, total cholesterol, HDL cholesterol, systolic blood pressure measurement and treatment for hypertension. Point values are calculated based on each of these risks. A 10-year risk score can be derived as a percentage. Risk scores range from 0-20%.\n\nLow Risk: Less than 10% risk that you will develop a heart attack or die from coronary disease in the next 10 years.\n\nIntermediate risk: A 10 to 20% risk that you will develop a heart attack or die from coronary disease in the next 10 years.\n\nHigh Risk: A greater than 20% risk that you will develop a heart attack or die from coronary disease in the next 10 years.",
+                    "timeFrame": "Through study completion, an average of 3 years"
+                },
+                {
+                    "measure": "Health care utilization",
+                    "description": "Prediction of cost for health care utilization between heart disease and non- heart disease subjects measured by insurance claims data",
+                    "timeFrame": "Through study completion, an average of 3 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 30 - 74 years of age\n* Willing to sign informed consent\n* Primarily English speaking (for language analysis)\n* Has an account on any of the following digital data platforms (Facebook, Instagram, Twitter Reddit, Google (gmail), or smartphone or wearable device such as Apple Health, Fitbit, Samsung Health, MapMyFitness or Garmin) and willing to share data\n* If has social media account, Instagram or Facebook, willing to share historical and prospective data (60 days) If has Google (gmail) account, willing to download and share google takeout zip file\n* If has smartphone or wearable device, willing to share step data\n* Willing to share access to medical health records\n* Willing to share healthcare insurance information\n\nExclusion Criteria:\n\n* Patient does not meet age inclusion criteria above\n* Does not use and post on digital data sources we are studying or unwilling to donate data\n* Patient is in severe distress, e.g. respiratory, physical, or emotional distress\n* Patient is intoxicated, unconscious, or unable to appropriately respond to questions",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "30 Years",
+            "maximumAge": "74 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "We will identify patients ages 30-74 with and without CHD (ICD 9:414.0, ICD 10: I63, I20-I25)",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "University of Pennsylvania Health System",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19101",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Dena Torrente",
+                            "role": "CONTACT",
+                            "phone": "267-252-8741",
+                            "email": "Dena.Torrente@pennmedicine.upenn.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "Prot_ICF",
+                    "hasProtocol": true,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Study Protocol and Informed Consent Form",
+                    "date": "2021-12-07",
+                    "uploadDate": "2022-09-26T13:19",
+                    "filename": "Prot_ICF_000.pdf",
+                    "size": 1027477
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,440 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05853783",
+            "orgStudyIdInfo": {
+                "id": "PRO-STR-PPOEL-2"
+            },
+            "organization": {
+                "fullName": "Proteocyte Diagnostics Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Evaluation of Oral Potentially Malignant Disorders (OPMDs) With STRATICYTE\u2122",
+            "officialTitle": "Evaluation of Oral Potentially Malignant Disorders (OPMDs) With STRATICYTE\u2122",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "evaluation-of-oral-potentially-malignant-disorders-opmds-with-straticyte"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-01-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-02",
+            "studyFirstSubmitQcDate": "2023-05-02",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Proteocyte Diagnostics Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "The University of Texas Health Science Center, Houston",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Loma Linda University",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Minnesota Oral & Facial Surgery",
+                    "class": "UNKNOWN"
+                },
+                {
+                    "name": "University of Alabama at Birmingham",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to validate the ability of the STRATICYTE\u2122 predictive model to predict the transformation of oral potentially malignant disorders (OPMDs) to oral squamous cell carcinoma (OSCC) in a retrospective cohort of patients who received biopsies.",
+            "detailedDescription": "The study objectives are to:\n\n1. Evaluate STRATICYTE\u2122 sensitivity and specificity in a cohort of patients that meet the inclusion/exclusion criteria.\n2. Identify patient and clinical characteristics influencing the sensitivity and specificity of the STRATICYTE\u2122 model.\n3. Estimate the correlation between STRATICYTE\u2122 outcome and time to a positive diagnosis of oral cancer."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Mouth Diseases"
+            ],
+            "keywords": [
+                "Leukoplakia",
+                "Erythroplakia",
+                "Erythroleukoplakia",
+                "Lesion",
+                "Oral epithelial dysplasia",
+                "S100A7 biomarker",
+                "S100A7 Immunohistochemistry Signature-based",
+                "Early Diagnosis",
+                "STRATICYTE",
+                "Oral neoplasia",
+                "Oral epithelial atypia",
+                "Hyperplasia",
+                "Hyperkeratosis",
+                "Potentially premalignant oral epithelial lesion",
+                "Oral potentially malignant disorders",
+                "Mild dysplasia",
+                "Moderate dysplasia",
+                "Severe dysplasia",
+                "Low-grade dyspalsia",
+                "High-grade dysplasia",
+                "Personalized medicine",
+                "Predictive Assay",
+                "Whole slide imaging",
+                "Computational pathology",
+                "Digital pathology",
+                "Oral potentially malignant lesion"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "FFPE specimens immunohistochemically stained with S100A7"
+            },
+            "enrollmentInfo": {
+                "count": 180,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "OPMDs that progressed to OSCC",
+                    "description": "No dysplasia, mild, moderate, severe dysplasia, CIS",
+                    "interventionNames": [
+                        "Other: STRATICYTE\u2122 Test"
+                    ]
+                },
+                {
+                    "label": "OPMDs that did not progress to OSCC",
+                    "description": "No dysplasia, mild, moderate, severe dysplasia, CIS",
+                    "interventionNames": [
+                        "Other: STRATICYTE\u2122 Test"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "STRATICYTE\u2122 Test",
+                    "description": "Assessment for risk of progression to oral cancer",
+                    "armGroupLabels": [
+                        "OPMDs that did not progress to OSCC",
+                        "OPMDs that progressed to OSCC"
+                    ],
+                    "otherNames": [
+                        "S100A7 Immunohistochemistry Signature-based Test"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity and Specificity",
+                    "description": "Standard measures of accuracy calculated using cross-tabulation of predicted risk category and confirmed cancer progression over a 5-year period from biopsy",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Survival analysis",
+                    "description": "Kaplan-Meier analyses to compare time to a positive diagnosis of oral cancer between patients/biopsies with a STRATICYTE\u2122 classification of Low- and Elevated-Risk.",
+                    "timeFrame": "5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "AUC",
+                    "description": "Area under the receiver operator curve",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "C-index (Harrell's)",
+                    "description": "From all possible pairs of patients, compute the number of concordant and discordant pairs. Compute C-index as the proportion of all possible pairs that are concordant.",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* From the archive, any patient who presents with clinically evident oral lesions and biopsy-proven dysplasia (punch or scalpel biopsies; any grade or classification system)\n* Patients with initial oral lesions with epithelial atypia suspicious for neoplasia, with:\n* No histological evidence of cancer with clinical follow-up data for a period of at least five years; or\n* OSCC development (histologic or documented evidence of invasive cancer).\n* Patients who had archived biopsy tissue blocks of a previous oral lesion(s) meeting the above criteria and retained at the same clinical center.\n\nExclusion Criteria:\n\n* Patients with oral lesions or dysplasia with no indication of OSCC development or follow-up data of less than five years in non-OSCC patients.\n* Patients diagnosed with oral epithelial dysplasia concomitant with OSCC at the time of the biopsy's original pathology report or a subsequent clinical note of cancer progression within three months post-biopsy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "The target population are patients presenting with an OPMD who have received a biopsy of their lesion. The study sample will be composed of patients with previously biopsied OPMDs from contracted clinics.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jody Filkowski, BSc, MSc, PhD",
+                    "role": "CONTACT",
+                    "phone": "1-825-305-0749",
+                    "email": "Jody.Filkowski@medlior.com"
+                },
+                {
+                    "name": "Jason TK Hwang, HBSc, MSc, PhD",
+                    "role": "CONTACT",
+                    "phone": "1-647-255-1370",
+                    "email": "jhwang@proteocyte.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Simon W Young, DDS, MD, PhD",
+                    "affiliation": "UTHealthHouston",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "The University of Alabama at Birmingham",
+                    "status": "COMPLETED",
+                    "city": "Birmingham",
+                    "state": "Alabama",
+                    "zip": "35233",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.52066,
+                        "lon": -86.80249
+                    }
+                },
+                {
+                    "facility": "Loma Linda University",
+                    "status": "COMPLETED",
+                    "city": "Loma Linda",
+                    "state": "California",
+                    "zip": "92350",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.04835,
+                        "lon": -117.26115
+                    }
+                },
+                {
+                    "facility": "Minnesota Oral and Facial Surgery",
+                    "status": "WITHDRAWN",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55415",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                },
+                {
+                    "facility": "MD Anderson Cancer Cetner",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "44907",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrew G Sikora, MD, PhD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Andrew G Sikora, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "UTHealth Houston School of Dentistry",
+                    "status": "COMPLETED",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77054",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "18339795",
+                    "type": "BACKGROUND",
+                    "citation": "Ralhan R, Desouza LV, Matta A, Tripathi SC, Ghanny S, Datta Gupta S, Bahadur S, Siu KW. Discovery and verification of head-and-neck cancer biomarkers by differential protein expression analysis using iTRAQ labeling, multidimensional liquid chromatography, and tandem mass spectrometry. Mol Cell Proteomics. 2008 Jun;7(6):1162-73. doi: 10.1074/mcp.M700500-MCP200. Epub 2008 Mar 13."
+                },
+                {
+                    "pmid": "19072117",
+                    "type": "BACKGROUND",
+                    "citation": "Ralhan R, Desouza LV, Matta A, Tripathi SC, Ghanny S, Dattagupta S, Thakar A, Chauhan SS, Siu KW. iTRAQ-multidimensional liquid chromatography and tandem mass spectrometry-based identification of potential biomarkers of oral epithelial dysplasia and novel networks between inflammation and premalignancy. J Proteome Res. 2009 Jan;8(1):300-9. doi: 10.1021/pr800501j."
+                },
+                {
+                    "pmid": "20689826",
+                    "type": "BACKGROUND",
+                    "citation": "Tripathi SC, Matta A, Kaur J, Grigull J, Chauhan SS, Thakar A, Shukla NK, Duggal R, DattaGupta S, Ralhan R, Siu KW. Nuclear S100A7 is associated with poor prognosis in head and neck cancer. PLoS One. 2010 Aug 3;5(8):e11939. doi: 10.1371/journal.pone.0011939."
+                },
+                {
+                    "pmid": "24122701",
+                    "type": "BACKGROUND",
+                    "citation": "Kaur J, Matta A, Kak I, Srivastava G, Assi J, Leong I, Witterick I, Colgan TJ, Macmillan C, Siu KW, Walfish PG, Ralhan R. S100A7 overexpression is a predictive marker for high risk of malignant transformation in oral dysplasia. Int J Cancer. 2014 Mar 15;134(6):1379-88. doi: 10.1002/ijc.28473. Epub 2013 Oct 8."
+                },
+                {
+                    "pmid": "28110942",
+                    "type": "BACKGROUND",
+                    "citation": "Hwang JT, Gu YR, Shen M, Ralhan R, Walfish PG, Pritzker KP, Mock D. Individualized five-year risk assessment for oral premalignant lesion progression to cancer. Oral Surg Oral Med Oral Pathol Oral Radiol. 2017 Mar;123(3):374-381. doi: 10.1016/j.oooo.2016.11.004. Epub 2016 Nov 22."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "Medlior Health Outcomes Research",
+                    "url": "https://www.medlior.com/"
+                },
+                {
+                    "label": "Oral Cancer Foundation",
+                    "url": "https://oralcancerfoundation.org/"
+                },
+                {
+                    "label": "Proteocyte Diagnostics Inc.",
+                    "url": "https://proteocyte.com"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009059",
+                    "term": "Mouth Diseases"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009057",
+                    "term": "Stomatognathic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10016",
+                    "name": "Hyperplasia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14111",
+                    "name": "Precancerous Conditions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10668",
+                    "name": "Keratosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12019",
+                    "name": "Mouth Diseases",
+                    "asFound": "Mouth Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10974",
+                    "name": "Leukoplakia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8070",
+                    "name": "Erythroplasia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12017",
+                    "name": "Stomatognathic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3407",
+                    "name": "Leukoplakia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2137",
+                    "name": "Erythroplakia",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "BC07",
+                    "name": "Mouth and Tooth Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

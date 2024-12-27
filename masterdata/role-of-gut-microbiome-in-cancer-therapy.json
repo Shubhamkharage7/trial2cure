@@ -1,0 +1,241 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05112614",
+            "orgStudyIdInfo": {
+                "id": "19-003060"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2021-10793",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                }
+            ],
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Role of Gut Microbiome in Cancer Therapy",
+            "officialTitle": "Role of Gut Microbiome in Cancer Therapy",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "role-of-gut-microbiome-in-cancer-therapy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-09-11",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-10-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-10-22",
+            "studyFirstSubmitQcDate": "2021-11-03",
+            "studyFirstPostDateStruct": {
+                "date": "2021-11-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Purna C. Kashyap, MBBS",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study examines how gut microbiome can affect cancer therapy in cancer patients undergoing cancer therapy or stem cell transplant. The human microbiome affects the way some cancer drugs are metabolized in the human body. Information from this study may help doctors improve the way cancer treatment is delivered, and increase its effectiveness and success.",
+            "detailedDescription": "PRIMARY OBJECTIVE:\n\nI. To correlate gut microbiome with specific cancer diagnoses and the clinical response (efficacy), and adverse effects of cancer therapy (single or multiple) and stem cell transplant.\n\nOUTLINE:\n\nPatients undergo collection of blood and stool samples and have their medical records reviewed."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hematopoietic and Lymphoid Cell Neoplasm",
+                "Malignant Solid Neoplasm"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Blood, stool"
+            },
+            "enrollmentInfo": {
+                "count": 5000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Observational (biospecimen collection, medical record review)",
+                    "description": "Patients undergo collection of blood and stool samples and have their medical records reviewed.",
+                    "interventionNames": [
+                        "Procedure: Biospecimen Collection",
+                        "Other: Electronic Health Record Review"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biospecimen Collection",
+                    "description": "Undergo collection of blood and stool samples",
+                    "armGroupLabels": [
+                        "Observational (biospecimen collection, medical record review)"
+                    ],
+                    "otherNames": [
+                        "Biological Sample Collection",
+                        "Biospecimen Collected"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Electronic Health Record Review",
+                    "description": "Review of medical records",
+                    "armGroupLabels": [
+                        "Observational (biospecimen collection, medical record review)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Gut microbiome associations with cancer diagnoses",
+                    "description": "Will be done using Shogun pipeline for metagenomics data followed by analysis using QIIME 2.0.",
+                    "timeFrame": "Through study completion, average of 1 year"
+                },
+                {
+                    "measure": "Associations between microbial community abundances and clinical outcomes",
+                    "description": "Will use a linear multivariate regression model specifically developed for microbiome data (MaAsLin, Multivariate microbial Association by Linear models.",
+                    "timeFrame": "Through study completion, average of 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18-99\n* Diagnosis of cancer and undergoing cancer therapy or scheduled to start cancer therapy or undergoing stem cell transplant for any hematological condition\n\nExclusion Criteria:\n\n* Unable to provide informed consent\n* Vulnerable adults",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "99 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients undergoing cancer therapy for any underlying cancer diagnosis and patients undergoing stem cell transplant for any hematological condition",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Purna C. Kashyap, M.B.B.S.",
+                    "affiliation": "Mayo Clinic in Rochester",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Arizona",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85259",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic in Florida",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Jacksonville",
+                    "state": "Florida",
+                    "zip": "32224",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.33218,
+                        "lon": -81.65565
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic in Rochester",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Purna C. Kashyap, M.B.B.S.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

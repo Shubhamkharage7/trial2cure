@@ -1,0 +1,365 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05381103",
+            "orgStudyIdInfo": {
+                "id": "IU_CLN02_EPE"
+            },
+            "organization": {
+                "fullName": "Five Eleven Pharma, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "PSMA-PET to Guide Prostatectomy",
+            "officialTitle": "PSMA-PET to Guide Prostatectomy: A Randomized Trial",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "psma-pet-to-guide-prostatectomy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+                "date": "2021-10-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-12-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-03-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-04-29",
+            "studyFirstSubmitQcDate": "2022-05-15",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-19",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-15",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Five Eleven Pharma, Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Indiana University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "In this study, 288 patients will be randomized 1:1 to either having only the standard of care MRI prior to surgery versus having the standard of care MRI and the PSMA PET scan. PET (and MRI) findings will be validated against whole mount pathology. Pre-surgical imaging findings will also be evaluated in the context of affecting subsequent surgical plans and impacting actual patient outcomes."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2",
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 288,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "PSMA-PET and SOC MRI prior to surgery",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Diagnostic Test: PSMA-PET and SOC MRI"
+                    ]
+                },
+                {
+                    "label": "SOC MRI prior to surgery",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Diagnostic Test: SOC MRI"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "PSMA-PET and SOC MRI",
+                    "description": "60 min continuous acquisition of PET data after 3-6 mCI injection of \\[68Ga\\]P16-093 followed by contrast-CT",
+                    "armGroupLabels": [
+                        "PSMA-PET and SOC MRI prior to surgery"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "SOC MRI",
+                    "description": "Standard of care MRI",
+                    "armGroupLabels": [
+                        "SOC MRI prior to surgery"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "IIEF-EF sub scale score",
+                    "description": "International Index Erectile Function-Erectile Function sub scale score. Maximum score is 30 with higher score indicating better outcomes.",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "IIEF-EF sub scale score",
+                    "description": "International Index Erectile Function-Erectile Function sub scale score. Maximum score is 30 with higher score indicating better outcomes.",
+                    "timeFrame": "3 months"
+                },
+                {
+                    "measure": "IIEF-EF sub scale score",
+                    "description": "International Index Erectile Function-Erectile Function sub scale score. Maximum score is 30 with higher score indicating better outcomes.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "IIEF-EF sub scale score",
+                    "description": "International Index Erectile Function-Erectile Function sub scale score. Maximum score is 30 with higher score indicating better outcomes.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "IIEF-EF sub scale score",
+                    "description": "International Index Erectile Function-Erectile Function sub scale score. Maximum score is 30 with higher score indicating better outcomes.",
+                    "timeFrame": "18 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in treatment plan",
+                    "description": "Proportion of patients whose treatment plan would be changed by PSMA-PET. Treatment changes are defined as any change in surgical resection plan that affects one of 4 critical regions for quality of life",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "Ratio of positive surgical margins to nerve bundles spared",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "EPE detection",
+                    "description": "Sensitivity/Specificity for extra-prostatic extension of cancer at the nerve bundles",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "Incontinence bother",
+                    "description": "Expanded Prostate Cancer Index Composite (EPIC-26) questions 1-2",
+                    "timeFrame": "18 months"
+                },
+                {
+                    "measure": "Incontinence: using 0-1 pads per day",
+                    "description": "Expanded Prostate Cancer Index Composite (EPIC-26) question 3",
+                    "timeFrame": "18 months"
+                },
+                {
+                    "measure": "Urgency/frequency",
+                    "description": "Expanded Prostate Cancer Index Composite (EPIC-26) questions 4-5",
+                    "timeFrame": "18 months"
+                },
+                {
+                    "measure": "Erectile dysfunction: ability to achieve erection sufficient for penetration",
+                    "description": "IIEF question 3",
+                    "timeFrame": "18 months"
+                },
+                {
+                    "measure": "Overall mental and physical health",
+                    "description": "Short Form quality of life questionnaire (SF-36)",
+                    "timeFrame": "18 months"
+                },
+                {
+                    "measure": "Surgical margins",
+                    "description": "postive surgical margin rates",
+                    "timeFrame": "1 month"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Men diagnosed with prostate cancer who choose radical prostatectomy\n* Significant prostate cancer: Gleason 3+4 \u22651 core with pattern 4 \u226520% OR \u22653 cores of Gleason 3+4 OR Any Gleason 4+3, 4+4, 4+5, 5+4, or 5+5 AND\n* Baseline sexual function (IIEF-EF \u2265 17): No erectile dysfunction OR mild erectile dysfunction OR mild-to-moderate erectile dysfunction (International Index of Erectile Function-Erectile Function domain \u2265 17). AND\n* The patient desires to maintain erections following treatment.\n\nExclusion Criteria:\n\n* Participation in another investigational trial involving research exposure to ionizing radiation concurrently or within 30 days\n* Patient is unable to tolerate remaining still on the bed of the PET or MRI camera, due to physical limitations or claustrophobia.\n* c. Significant acute or chronic medical condition in the subject that could compromise the objectives of the study.",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "40 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jennifer Lehman",
+                    "role": "CONTACT",
+                    "phone": "317-274-1791",
+                    "email": "jgeck@iu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Clinton Bahler, MD",
+                    "affiliation": "Indiana University School of Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Goodman Hall, Indiana Institute for Biomedical Imaging Sciences, Indiana University School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mark Green, Ph.D",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

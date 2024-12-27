@@ -1,0 +1,276 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04877535",
+            "orgStudyIdInfo": {
+                "id": "202103210"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "KL2TR002346",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/KL2TR002346"
+                }
+            ],
+            "organization": {
+                "fullName": "Washington University School of Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "Pilot Study for Postoperative Machine Learning",
+            "officialTitle": "A Pilot Study for the Effect of Risk Prediction on Anticipatory Guidance and Team Coordination for Postoperative Care",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "pilot-study-for-postoperative-machine-learning"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-06-03",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-03-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-07-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-05-03",
+            "studyFirstSubmitQcDate": "2021-05-03",
+            "studyFirstPostDateStruct": {
+                "date": "2021-05-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Washington University School of Medicine",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Center for Advancing Translational Sciences (NCATS)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The objectives of the study are to determine the interpretability, workflow role, and effect on communications of showing report cards containing Machine Learning (ML)-based risk profiles based on pre- and intra-operative data to postoperative providers.",
+            "detailedDescription": "Although surgery and anesthesia have become much safer on average, many patients still experience complications after surgery. Some of these complications are likely to be avoided or less severe with early detection and treatment. Barnes-Jewish Hospital has recently started using an Anesthesia Control Tower (ACT), which is a remote group lead by an anesthesiologist who reviews live data from BJH operating rooms and calls the anesthesia provider with concerns to improve reaction times and improve use of best-practices treatments. The ACT also uses machine learning (ML) to calculate patient risks during surgery as a way of measuring when the patient is doing better or worse.\n\nThe study team suspects that two mechanisms may allow risk prediction to improve postoperative care. First, is that it may make some data more actionable to clinicians. Although intraoperative data is extremely rich with many monitors, drug-response events, and surgical stress reactions to reveal the physiolgical state of the patient, that data is also extremely specialized and difficult to access. The study team thinks that many times the right interpretation of intraoperative data or the right treatment to give isn't clear until the surgery is nearly finished. The medical team in the recovery room (post-anesthesia care unit, PACU) and surgical wards is responsible for deciding the treatment strategy, but they don't have access to the information from the intraoperative monitors and events. Those providers also lack the familiarity to directly interpret that information and time to review it in detail. Even preoperative information may be less than fully available because the patient may still be too sedated or confused from the anesthesia to explain much about their history. By summarizing these diverse sources of information into a risk profile, machine learning outputs may directly improve the understanding of postoperative providers or improve the identification of patients at elevated risk for postoperative adverse outcomes.\n\nA second mechanism derives from behavior changes which may occur in providers in reaction to machine-generated risk profiles. The study team has observed many handoffs from the operating room and PACU include lists of \"important\" data, but it is common for the handoff-giver to provide no interpretation (what problem is this information related to) or anticipatory guidance (having identified a potential or actual problem, what should the handoff receiver do). The study team has also observed than once a major risk has been clearly identified along the chain of handoff it tends to be propagated forward with connection to the underlying data, any changes noticed by the current provider, and the current plan. The study team suspects that in the subset of patients with substantially elevated predictions on their risk profile, handoff communication and team coordination for the identified problems may improve.\n\nThe larger goal is to deploy a \"report card\" for each patient that summarizes the preoperative assessment and intraoperative data in a way that is useful for postoperative providers. In this study these ML reports will be integrated into the clinical workflow and determine if it does affect handoff behavior. The study team will also evaluate the information-effect and test the report card for safety by determining if clinicians identify any major inaccuracies related to the implementation.\n\nThis study is a substudy of a randomized trial of ACT-intraoperative contact (TECTONICS IRB# 201903026), and only patients in the contact (treatment) group will be eligible. The screened patients will be all adults having surgery at BJH with the division of Acute and Critical Care Surgery. Exclusion criteria are a planned ICU admission. For each included patient, the ACT clinician will review the report card information, and the postoperative providers will either be directly contacted or receive an Epic Best Practices Advisory. Our study will be a before-after quasi-experiment, meaning that after a fixed date, all eligible patients will receive the intervention, and the outcome measures will be compared to patients before that date. The outcome measure we will study is handoff effectiveness from the recovery room to wards. Providers will be surveyed on information value, any inaccurate items, or major omissions.\n\nThe ML report card will not recommend specific treatments, and decisions will remain the hands of the physician in the PACU or wards. The postoperative provider will also be given information about the report card and its limitations."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Surgery--Complications"
+            ],
+            "keywords": [
+                "Telemedicine",
+                "Anesthesia Control Tower",
+                "Machine Learning",
+                "Forecasting Algorithms",
+                "Handoff effectiveness"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Participants will be allocated in a single cluster in two time periods.",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 360,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Intervention",
+                    "type": "EXPERIMENTAL",
+                    "description": "ML will be used to create a report card for each patient that summarizes the preoperative assessment and intraoperative data. Report card data will be made available to providers through multiple methods: integration into electronic health records workflows, electronic health records notifications, mobile device notifications, and print outs in the paper chart",
+                    "interventionNames": [
+                        "Device: ML-based report card"
+                    ]
+                },
+                {
+                    "label": "Pre-intervention",
+                    "type": "NO_INTERVENTION",
+                    "description": "The standard of care. The report card will be electronically generated (to determine eligibility) but it will not be visible to clinicians."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "ML-based report card",
+                    "description": "PACU and ward providers caring for participants will be notified by Anesthesia Control Tower clinicians before arrival if the patient's report card. The notification will contain a report card of the patient's forecast risk of major adverse events, explanatory machine-learning outputs, most influential pre- and intraoperative data, and predicted treatments.The ML risk profile generated for each patient will include risk of 30 day mortality, risk of respiratory failure, risk of acute kidney injury, and risk of postoperative delirium",
+                    "armGroupLabels": [
+                        "Intervention"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Provider self-reported handoff effectiveness.",
+                    "description": "Providers will answer survey questions regarding the handoff",
+                    "timeFrame": "8 hours postop"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Direct observation of handoff",
+                    "description": "A subset of 50 handoffs will be directly observed for handoff behavior using the survey instrument of (Weinger et al., 2015)",
+                    "timeFrame": "8 hours postop"
+                },
+                {
+                    "measure": "Provider information value of ML report card",
+                    "description": "Providers will answer survey questions regarding the value of the report card in assessing patients including any major errors or omissions",
+                    "timeFrame": "8 hours postop"
+                },
+                {
+                    "measure": "Workflow effectiveness of the interventions",
+                    "description": "20-30 debriefing interviews will be conducted with ward and PACU clinicians on their perception of handoff effectiveness and the usefulness of the report card in their workflow.",
+                    "timeFrame": "1 day postop"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nODIN-Pilot will intervene on a subset of TECTONICS participants meeting all the following criteria:\n\n1. Within the TECTONICS contact arm (adults undergoing OR procedures)\n2. Operating room at BJH South campus (including all of \"Pod 2\", \"Pod 3\", \"Pod 5\") (excluding all procedure suites such as Interventional Radiology, Parkview Tower \"Pod 1\", Center for Advanced Medicine \"Pod 4\", Labor and Delivery suites)\n3. Surgeon is a member of the Acute and Critical Care Surgery division or the postoperative bed is 16300 observation unit.\n4. Planned non-ICU disposition (\"floor\" and \"observation unit\" collectively \"ward\" patients).\n\nExclusion Criteria:\n\n1. Not enrolled in TECTONICS Study\n2. Randomized to the observation arm in TECTONICS study\n3. Planned ICU admission",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Christopher R King, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "314-362-6978",
+                    "email": "christopherking@wustl.edu"
+                },
+                {
+                    "name": "Sherry L McKinnon, MS",
+                    "role": "CONTACT",
+                    "phone": "314-286-1768",
+                    "email": "smckinnon@wustl.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Christopher R King, MD, PhD",
+                    "affiliation": "Washington Univeristy School of Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Barnes-Jewish Hospital",
+                    "status": "RECRUITING",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Christopher R King, MD, PhD",
+                            "role": "CONTACT",
+                            "phone": "314-362-6978",
+                            "email": "christopherking@wustl.edu"
+                        },
+                        {
+                            "name": "Sherry L McKinnon, MS",
+                            "role": "CONTACT",
+                            "phone": "3142861768",
+                            "email": "smckinnon@wustl.edu"
+                        },
+                        {
+                            "name": "Philip Payne, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Joanna Abraham, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yixin Chen, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Troy S Wildes, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Michael S Avidan, MBBCh",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Data are a subset of TECTONICS and will be have the same sharing plan / restrictions."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4107",
+                    "name": "Anesthetics",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

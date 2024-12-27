@@ -1,0 +1,279 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05806762",
+            "orgStudyIdInfo": {
+                "id": "Gabriel.Wardi"
+            },
+            "organization": {
+                "fullName": "University of California, San Diego",
+                "class": "OTHER"
+            },
+            "briefTitle": "Prediction of Rehospitalization Following a Sepsis Admission Using a Wearable Biopatch",
+            "officialTitle": "Prediction of Rehospitalization Following a Sepsis Admission Using a Wearable Biopatch and Deep Learning Model",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "prediction-of-rehospitalization-following-a-sepsis-admission-using-a-wearable-biopatch"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-05-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-05-02",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-28",
+            "studyFirstSubmitQcDate": "2023-03-28",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-10",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Gabriel Wardi",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "University of California, San Diego"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Diego",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this observational study is to learn about the utility of biopatches predicting 30-day readmissions in patients discharged from the hospital with sepsis.\n\nThe main question\\[s\\] it aims to answer are:\n\n\u2022 Does the application of a biopatch provide data that can improve prediction of an unplanned 30-day readmission following a hospitalization for sepsis.\n\nParticipants will be asked to wear a biopatch on their chest for 30-days following hospital discharge or until readmission to the hospital.",
+            "detailedDescription": "Study Design: Longitudinal cohort study with repeated measure of outcomes and predictors.\n\nThe BioIntelliSense patch is an FDA approved wearable device that is applied to the chest with a 30-day battery lifespan and allows for real-time monitoring of heart rate, respiratory rate, skin temperature, general activity, severe cough episodes, and sedentary body position, among others.\n\nOutcomes of Interest: Hospital readmission within 30 days of discharge following an index admission with a diagnosis of sepsis is the primary outcome of interest for this study. We will calculate the positive predictive value (PPV) of readmission prediction as the the primary outcome of interest from the following approaches: analytic score plus biopatch, analytic score alone, LACE+ score. Secondary outcomes include area under the curve of the receiver operator characteristic (AUCroc) of predictive scores (analytic score and biopatch, analytic score alone, LACE+ score) and number of patients readmitted to the hospital within 30 days of discharge.\n\nProtocol for Patient Selection and Application of Biopatch: Patients who meet \"Sepsis 3\" definition will be identified with institutional review board (IRB)-approved screening protocols. Our previously derived and validated machine-learning algorithm to predict unplanned 30-day readmissions will then generate daily predictions about 30-day readmission probability which will be recorded, as well as LACE+ scores. As a patient approaches discharge, the treatment team and patient (or legally authorized representative) will be approached about potential enrollment. If there is agreement to enroll in this prospective study, then we will apply the patch at the time of discharge. Patients will then be followed with the BioIntellisence patch with augmented and real-time risk predictions based on data obtained from this. For this proposal, we will use data from the BioIntelliSense patch and are not providing clinicians with data on risk of readmission."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sepsis"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "30 Days",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Sepsis Patients Discharged From the Hospital",
+                    "description": "We aim to apply a wearable biopatch to sepsis patients discharged from the hospital to determine if the additional data afforded by the biopatch can improve prediction of readmissions.",
+                    "interventionNames": [
+                        "Device: BioIntellisense"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "BioIntellisense",
+                    "description": "Enrolled patients will have a Fitbit placed on their wrist. There is no comparator group enrolled.",
+                    "armGroupLabels": [
+                        "Sepsis Patients Discharged From the Hospital"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Hospital readmission",
+                    "description": "Patients with an index hospitalization with sepsis will be followed to see if they have an unplanned readmission to the hospital.",
+                    "timeFrame": "30 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Area under the curve of the receiver operating characteristic",
+                    "description": "AUCroc of predictive scores (analytic score and biopatch, analytic score alone, LACE+ score)",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "Positive predictive value",
+                    "description": "PPV of of predictive scores (analytic score and biopatch, analytic score alone, LACE+ score)",
+                    "timeFrame": "30 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nAge \\>= 18 years Development of sepsis, defined by recent international guidelines (Suspected infection AND 2-point change in sequential organ failure assessment (SOFA) score), in emergency department or hospital Admission to hospital from emergency department\n\nExclusion Criteria:\n\nTransition to comfort measures within 6 hours of time of sepsis Discharge from the emergency department Admission to bone marrow transplant service Severe burn or other dermatologic condition that will prevent application to skin",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "All patients admitted to the hospital from the emergency department at UC San Diego who have sepsis are eligible if they meet appropriate inclusion criteria. After screening is completed, possible subjects will be approached by the study team for enrollment.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Gabriel Wardi",
+                    "role": "CONTACT",
+                    "phone": "6195436463",
+                    "email": "gwardi@health.ucsd.edu"
+                },
+                {
+                    "name": "Shamim Nemati",
+                    "role": "CONTACT"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UC San Diego Health",
+                    "status": "RECRUITING",
+                    "city": "San Diego",
+                    "state": "California",
+                    "zip": "92103",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Gabriel Wardi",
+                            "role": "CONTACT",
+                            "phone": "619-543-6463",
+                            "email": "gwardi@health.ucsd.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.71533,
+                        "lon": -117.15726
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Data abstracted from the BioIntellisense biopatch will be shared with my K23 mentorship team as well trainees that are working with me on this project. All study members will be listed on the IRB. De-identified data may be shared with other researchers.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "5 years",
+            "accessCriteria": "Available upon reasonable request."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018805",
+                    "term": "Sepsis"
+                },
+                {
+                    "id": "D000014115",
+                    "term": "Toxemia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000018746",
+                    "term": "Systemic Inflammatory Response Syndrome"
+                },
+                {
+                    "id": "D000007249",
+                    "term": "Inflammation"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20818",
+                    "name": "Systemic Inflammatory Response Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

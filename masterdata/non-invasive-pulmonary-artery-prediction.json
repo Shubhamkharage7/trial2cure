@@ -1,0 +1,284 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05622695",
+            "orgStudyIdInfo": {
+                "id": "ADOPTS_GOODSAM"
+            },
+            "organization": {
+                "fullName": "Silverleaf Medical Sciences INC",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Non-invasive Pulmonary Artery Prediction",
+            "officialTitle": "Study to Determine if Novel Wearable Monitoring System and Machine-Learning Algorithm Can Model Continuous Pulmonary Artery Pressure Recordings in Human Subjects",
+            "acronym": "ADOPTS",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "non-invasive-pulmonary-artery-prediction"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-10-30",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-04-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2023-08-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-11-03",
+            "studyFirstSubmitQcDate": "2022-11-09",
+            "studyFirstPostDateStruct": {
+                "date": "2022-11-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-11-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-11-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Silverleaf Medical Sciences INC",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "PIH Health Good Samaritan Hospital",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Cardiac remote monitoring devices have expanded our ability to track physiological changes used in the diagnosis and management of patients with cardiac disease. Implantable remote monitoring technologies have been shown to predict heart failure events, and guide therapy to reduce heart failure hospitalizations. The CardioMEMs System, the most studied and established remote monitoring system, relies on a pulmonary artery implant for continuous PAP measurement. However, there are no commercially available wearable systems that can reproduce continuous PAP tracings.\n\nThis study aims to determine if a machine-learning algorithm with data from a wearable cardiac remote-monitoring system incorporating EKG, heart sounds, and thoracic impedance can reproduce a continuous PAP tracing obtained during right heart catheterization."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure",
+                "Pulmonary Arterial Hypertension"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Catheterization Arm",
+                    "description": "Participants will be limited to adults older than 18 years of age, able to consent, planned for the cardiac catheterization lab for a right heart catheterization or in the cardiac care unit with an existing arterial line or Swan-Ganz catheter actively measuring the pulmonary artery pressure on a continuous basis.",
+                    "interventionNames": [
+                        "Device: catheterization"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "catheterization",
+                    "description": "Swan-Ganz catheterization (also called right heart catheterization or pulmonary artery catheterization) is the passing of a thin tube (catheter) into the right side of the heart and the arteries leading to the lungs. It is done to monitor the heart's function and blood flow and pressures in and around the heart.",
+                    "armGroupLabels": [
+                        "Catheterization Arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "The correlation of pulmonary artery pressure values measured by Sawn Gan catheter and that derived by a machine learning algorithm",
+                    "description": "The primary objective of this study is to determine if a machine-learning algorithm with data from a wearable device can reproduce simultaneous pulmonary artery pressure obtained during right heart catheterization or data obtained from a Sawn Ganz catheter already in place in the setting of cardiac care unit admission.",
+                    "timeFrame": "the Swan-Ganz catheter obtains the pulmonary artery pressures for a minimum of 5 minutes."
+                },
+                {
+                    "measure": "The correlation of pulmonary artery wedge pressure values measured by Sawn Gan catheter and that derived by a machine learning algorithm",
+                    "description": "The second objective of this study is to determine if a machine-learning algorithm with data from a wearable device can reproduce simultaneous pulmonary artery wedge pressure obtained during right heart catheterization or data obtained from a Sawn Ganz catheter already in place in the setting of cardiac care unit admission.",
+                    "timeFrame": "the Swan-Ganz catheter obtains wedge pressures first for a minimum of 20 seconds (20-30 seconds)."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subjects age 18+ years\n2. Undergoing a right heart cardiac catheterization or in the cardiac care unit with active monitoring using an arterial line or Swan-Ganz catheter.\n\nExclusion Criteria:\n\n1. Vulnerable population\n2. Unable to consent for any reason\n3. Unstable patient\n4. Known skin reaction to latex or adhesives",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "20 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Adults with heart failure conditions.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jianwei Zheng, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "9493298388",
+                    "email": "zheng@slmedsci.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jianwei Zheng, Ph.D.",
+                    "affiliation": "Silverleaf Medical Sciences",
+                    "role": "STUDY_CHAIR"
+                },
+                {
+                    "name": "Ihab Alomari, Dr.",
+                    "affiliation": "PIH Good Samaritan Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Islam Abudayyeh, Dr.",
+                    "affiliation": "Loma Linda University Health",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "PIH Good Samaritan Hospital",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90017",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ihab Alomari, Dr.",
+                            "role": "CONTACT",
+                            "phone": "505-573-1457"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "36093166",
+                    "type": "RESULT",
+                    "citation": "Zheng J, Abudayyeh I, Mladenov G, Struppa D, Fu G, Chu H, Rakovski C. An artificial intelligence-based noninvasive solution to estimate pulmonary artery pressure. Front Cardiovasc Med. 2022 Aug 24;9:855356. doi: 10.3389/fcvm.2022.855356. eCollection 2022."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000081029",
+                    "term": "Pulmonary Arterial Hypertension"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006976",
+                    "term": "Hypertension, Pulmonary"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2261",
+                    "name": "Pulmonary Arterial Hypertension",
+                    "asFound": "Pulmonary Arterial Hypertension",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10024",
+                    "name": "Hypertension",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10027",
+                    "name": "Hypertension, Pulmonary",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4807",
+                    "name": "Pulmonary Arterial Hypertension",
+                    "asFound": "Pulmonary Arterial Hypertension",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

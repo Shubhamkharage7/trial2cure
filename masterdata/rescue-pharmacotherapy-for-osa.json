@@ -1,0 +1,562 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05293600",
+            "orgStudyIdInfo": {
+                "id": "2022p000430"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Rescue Pharmacotherapy for OSA",
+            "officialTitle": "Treating Residual OSA With Endotype-directed Pharmacotherapy (Aim 3)",
+            "acronym": "RescOSA",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "rescue-pharmacotherapy-for-osa"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-07-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-10-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-10-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-23",
+            "studyFirstSubmitQcDate": "2022-03-19",
+            "studyFirstPostDateStruct": {
+                "date": "2022-03-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-04",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "David Andrew Wellman",
+                "investigatorTitle": "Associate Professor of Medicine",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Persistent obstructive sleep apnea (OSA) is common in people treated with mandibular advancement device (MAD) or hypoglossal nerve stimulation (HGNS). For most patients, these treatments are the last line of defense. If MAD or HGNS do not work, then patients are left to suffer the consequences of undertreated OSA. In this study, the investigators want to test the addition of a drug treatment to their regimen. Endotypes will be targeted pharmacologically with one of the following drugs: acetazolamide for a high loop gain, atomoxetine-plus-eszopiclone for poor pharyngeal muscle compensation, or trazodone for a low arousal threshold.\n\nThis aim is expected to provide treatment strategies for rescuing non-responders to MAD or HGNS therapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Obstructive Sleep Apnea"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "QUADRUPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 70,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Placebo",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "This is a two arm study. Patients will receive only one of the following drugs based on their altered sleep apnea trait. Patients with decreased arousal threshold will undergo treatment with placebo or Trazodone 100 mg in random order (one pill before 30 minutes before bedtime), patients with decreased pharyngeal muscle responsiveness will undergo treatment with placebo or Atomoxetine 80 mg + Eszopiclone 3 mg in random order (one pill before 30 minutes before bedtime), patients with increased loop gain will undergo treatment with placebo or Acetazolamide 500 mg in random order (one pill before 30 minutes before bedtime).",
+                    "interventionNames": [
+                        "Drug: Placebo"
+                    ]
+                },
+                {
+                    "label": "Interventional arm",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "This is a two arm study. Patients will receive only one of the following drugs based on their altered sleep apnea trait. Patients with decreased arousal threshold will undergo treatment with placebo or Trazodone 100 mg in random order (one pill before 30 minutes before bedtime), patients with decreased pharyngeal muscle responsiveness will undergo treatment with placebo or Atomoxetine 80 mg + Eszopiclone 3 mg in random order (one pill before 30 minutes before bedtime), patients with increased loop gain will undergo treatment with placebo or Acetazolamide 500 mg in random order (one pill before 30 minutes before bedtime).",
+                    "interventionNames": [
+                        "Drug: Acetazolamide",
+                        "Drug: Trazodone",
+                        "Drug: Atomoxetine and eszopiclone"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Placebo",
+                    "description": "Placebo capsule 30 min before bedtime",
+                    "armGroupLabels": [
+                        "Placebo"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Acetazolamide",
+                    "description": "The intervention drug will be determined based on altered endotype and administered 30 min before bedtime. Patients will only take one drug of this intervention, which will be subsequently compared to placebo. Patients with increased loop gain will be given Acetazolamide 500 mg.",
+                    "armGroupLabels": [
+                        "Interventional arm"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Trazodone",
+                    "description": "The intervention drug will be determined based on altered endotype and administered 30 min before bedtime. Patients will only take one drug of this intervention, which will be subsequently compared to placebo. Patients with decreased arousal threshold will be given Trazodone 100 mg.",
+                    "armGroupLabels": [
+                        "Interventional arm"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Atomoxetine and eszopiclone",
+                    "description": "The intervention drug will be determined based on altered endotype and administered 30 min before bedtime. Patients will only take one drug of this intervention, which will be subsequently compared to placebo. Patients with decreased muscle responsiveness will be given Atomoxetine and Eszopiclone 80 + 3 mg.",
+                    "armGroupLabels": [
+                        "Interventional arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Apnea Hypopnea Index (AHI, Events/Hour of Sleep)",
+                    "description": "Based on previous studies the investigators anticipate that the interventional arm will reduce AHI through a positive effect on the abnormal endotype.",
+                    "timeFrame": "1 night"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Nadir oxygen saturation during sleep (LSpO2, %)",
+                    "description": "Based on previous studies the investigators anticipate that the interventional arm will reduce LSpO2 through a positive effect on the abnormal endotype.",
+                    "timeFrame": "1 night"
+                },
+                {
+                    "measure": "Arousal Index (AI, Events/Hours of Sleep)",
+                    "description": "Based on previous studies the investigators anticipate that the interventional arm will reduce AI through inducing less fragmented sleep, which will be driven by a positive effect on the abnormal endotype.",
+                    "timeFrame": "1 night"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Individuals who have failed MAD or HGNS therapy, defined as a residual AHI \u2265 15 events/hr on MAD or HGNS therapy.\n\nExclusion Criteria:\n\n* Sleep disordered breathing or respiratory disorders other than obstructive sleep apnea:\n\ncentral sleep apnea (\\>50% of respiratory events scored as central), chronic hypoventilation/hypoxemia (awake SaO2 \\< 92% by oximetry) due to chronic obstructive pulmonary disease or other respiratory conditions.\n\n* Other sleep disorders: periodic limb movements (periodic limb movement index \\> 20/hr), narcolepsy, or parasomnias.\n* Any unstable major medical condition.\n* Medications expected to stimulate or depress respiration (including opioids, barbiturates, benzodiazepines, doxapram, almitrine, theophylline, 4-hydroxybutanoic acid).\n* Use of SSRIs/SNRIs.\n* Contraindications for atomoxetine, including:\n* pheochromocytoma\n* use of monoamine oxidase inhibitors\n* benign prostatic hypertrophy, urinary retention\n* untreated narrow angle glaucoma\n* bipolar disorder, mania, psychosis\n* clinically significant constipation, gastric retention\n* pre-existing seizure disorders\n* clinically-significant kidney disorders\n* clinically-significant liver disorders\n* clinically-significant cardiovascular conditions\n* severe hypertension (SBP\\>180 mmHg or DBP\\>110 mmHg measured at baseline)\n* cardiomyopathy (LVEF\\<50%) or heart failure\n* advanced atherosclerosi\n* history of cerebrovascular events\n* history of cardiac arrhythmias e.g., atrial fibrillation, QT prolongation\n* other serious cardiac conditions that would raise the consequences of an increase in blood pressure or heart rate\n* myasthenia gravis\n* pregnancy/breast-feeding\n* Contraindications for eszopiclone, including:\n* Hypersensitivity to eszopiclone\n* Chronic Obstructive Pulmonary Disease (COPD)\n* Pregnancy\n* Breast feeding\n* Liver disease\n* Contraindications for acetazolamide, including:\n* Hyperchloremic acidosis\n* Hypokalemia\n* Hyponatremia\n* Adrenal insufficiency\n* Impaired kidney function\n* Hypersensitivity to acetazolamide or other sulfonamides.\n* Marked liver disease or impairment of liver function, including cirrhosis.\n* Contraindications for trazodone, including:\n* suicidal ideation\n* bipolar disorder, mania\n* use of monoamine oxidase inhibitors\n* coronary artery disease\n* cardiac arrhythmias\n* QT prolongation\n* hepatic disease\n* renal failure or impairment\n* closed angle glaucoma\n* priapism\n* pregnancy/breast-feeding",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "David Andrew Wellman, MD",
+                    "role": "CONTACT",
+                    "phone": "5089827401",
+                    "email": "awellman@bwh.harvard.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Sleep Disorders Research Program Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ludovico Messineo",
+                            "role": "CONTACT",
+                            "phone": "857-272-6188",
+                            "email": "lmessineo@bwh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000020181",
+                    "term": "Sleep Apnea, Obstructive"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012891",
+                    "term": "Sleep Apnea Syndromes"
+                },
+                {
+                    "id": "D000001049",
+                    "term": "Apnea"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000020919",
+                    "term": "Sleep Disorders, Intrinsic"
+                },
+                {
+                    "id": "D000020920",
+                    "term": "Dyssomnias"
+                },
+                {
+                    "id": "D000012893",
+                    "term": "Sleep Wake Disorders"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M22010",
+                    "name": "Sleep Apnea, Obstructive",
+                    "asFound": "Obstructive Sleep Apnea",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4361",
+                    "name": "Apnea",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15694",
+                    "name": "Sleep Apnea Syndromes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22242",
+                    "name": "Parasomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22654",
+                    "name": "Sleep Disorders, Intrinsic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22655",
+                    "name": "Dyssomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15696",
+                    "name": "Sleep Wake Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000086",
+                    "term": "Acetazolamide"
+                },
+                {
+                    "id": "D000069582",
+                    "term": "Eszopiclone"
+                },
+                {
+                    "id": "D000014196",
+                    "term": "Trazodone"
+                },
+                {
+                    "id": "D000069445",
+                    "term": "Atomoxetine Hydrochloride"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018759",
+                    "term": "Adrenergic Uptake Inhibitors"
+                },
+                {
+                    "id": "D000014179",
+                    "term": "Neurotransmitter Uptake Inhibitors"
+                },
+                {
+                    "id": "D000049990",
+                    "term": "Membrane Transport Modulators"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000018663",
+                    "term": "Adrenergic Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000000927",
+                    "term": "Anticonvulsants"
+                },
+                {
+                    "id": "D000002257",
+                    "term": "Carbonic Anhydrase Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000004232",
+                    "term": "Diuretics"
+                },
+                {
+                    "id": "D000045283",
+                    "term": "Natriuretic Agents"
+                },
+                {
+                    "id": "D000006993",
+                    "term": "Hypnotics and Sedatives"
+                },
+                {
+                    "id": "D000002492",
+                    "term": "Central Nervous System Depressants"
+                },
+                {
+                    "id": "D000014151",
+                    "term": "Anti-Anxiety Agents"
+                },
+                {
+                    "id": "D000014149",
+                    "term": "Tranquilizing Agents"
+                },
+                {
+                    "id": "D000011619",
+                    "term": "Psychotropic Drugs"
+                },
+                {
+                    "id": "D000017367",
+                    "term": "Selective Serotonin Reuptake Inhibitors"
+                },
+                {
+                    "id": "D000018490",
+                    "term": "Serotonin Agents"
+                },
+                {
+                    "id": "D000018687",
+                    "term": "Antidepressive Agents, Second-Generation"
+                },
+                {
+                    "id": "D000000928",
+                    "term": "Antidepressive Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M2536",
+                    "name": "Acetazolamide",
+                    "asFound": "One day",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M475",
+                    "name": "Eszopiclone",
+                    "asFound": "Headphones",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16950",
+                    "name": "Trazodone",
+                    "asFound": "Primaquine",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M414",
+                    "name": "Atomoxetine Hydrochloride",
+                    "asFound": "Equipment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20746",
+                    "name": "Adrenergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4246",
+                    "name": "Anticonvulsants",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5515",
+                    "name": "Carbonic Anhydrase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7411",
+                    "name": "Diuretics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10043",
+                    "name": "Hypnotics and Sedatives",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16905",
+                    "name": "Anti-Anxiety Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14474",
+                    "name": "Psychotropic Drugs",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15512",
+                    "name": "Serotonin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19649",
+                    "name": "Selective Serotonin Reuptake Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4247",
+                    "name": "Antidepressive Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "NaAg",
+                    "name": "Natriuretic Agents"
+                },
+                {
+                    "abbrev": "AntiConv",
+                    "name": "Anticonvulsants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "PsychDr",
+                    "name": "Psychotropic Drugs"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

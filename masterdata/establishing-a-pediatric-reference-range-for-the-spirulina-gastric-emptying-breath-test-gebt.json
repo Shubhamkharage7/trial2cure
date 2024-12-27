@@ -1,0 +1,439 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06004596",
+            "orgStudyIdInfo": {
+                "id": "CDX-CD-PRO-442"
+            },
+            "organization": {
+                "fullName": "Cairn Diagnostics",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Establishing a Pediatric Reference Range for the 13C-Spirulina Gastric Emptying Breath Test (GEBT)",
+            "officialTitle": "Establishing a Pediatric Reference Range for the 13C-Spirulina Gastric Emptying Breath Test (GEBT)",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "establishing-a-pediatric-reference-range-for-the-spirulina-gastric-emptying-breath-test-gebt"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-17",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-01",
+            "studyFirstSubmitQcDate": "2023-08-21",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Cairn Diagnostics",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Medical College of Wisconsin",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Baylor College of Medicine",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to define the normal response to the 13C-Spirulina Gastric Emptying Breath Test (GEBT) in children, so that we can use this test to help diagnose children that are suspected of having a condition called gastroparesis, which means that food doesn't empty from their stomach normally.\n\nParticipants will blow into test tubes to collect breath samples before and after eating a scrambled egg GEBT meal that contains a small amount of specially grown Spirulina (a blue-green alga used as a dietary supplement) that contains mostly carbon-13 (a non-radioactive kind of carbon atom). Analysis of the amount of 13C in the carbon dioxide in breath before and after eating the GEBT meal can measure how fast food is emptying from the stomach.",
+            "detailedDescription": "Children will complete questionnaires to ensure that they are qualified to enter the study and are likely to have normal gastric emptying rates. Informed consent/assent will be obtained.\n\nBreath samples will be collected by children blowing into test tubes before and after eating a 13C-Spirulina GEBT meal. Breath samples will be collected and the test will be administered via telehealth or at one of the children's hospital clinics.\n\nResearchers will analyze results from different age groups to see if there are differences in normal gastric emptying in younger/older children and boys/girls."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Gastroparesis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Reference Range determination",
+                    "type": "OTHER",
+                    "description": "13C-Spirulina Gastric Emptying Breath Test (GEBT) administered to healthy participants",
+                    "interventionNames": [
+                        "Diagnostic Test: 13C-Spirulina Gastric Emptying Breath Test (GEBT)"
+                    ]
+                },
+                {
+                    "label": "Biological Variability",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "13C-Spirulina GEBT administered a second time to subset of participants to determine pediatric biological variability.",
+                    "interventionNames": [
+                        "Diagnostic Test: 13C-Spirulina Gastric Emptying Breath Test (GEBT) - repeat"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "13C-Spirulina Gastric Emptying Breath Test (GEBT)",
+                    "description": "Diagnostic test",
+                    "armGroupLabels": [
+                        "Reference Range determination"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "13C-Spirulina Gastric Emptying Breath Test (GEBT) - repeat",
+                    "description": "Diagnostic test - repeat for biological variability deterination",
+                    "armGroupLabels": [
+                        "Biological Variability"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "kPCD (kPCD = 1000 x percent dose of 13C excreted) at 15 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 15 minutes after meal completion",
+                    "timeFrame": "15 minutes"
+                },
+                {
+                    "measure": "kPCD at 30 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 30 minutes after meal completion",
+                    "timeFrame": "30 minutes"
+                },
+                {
+                    "measure": "kPCD at 45 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 45 minutes after meal completion",
+                    "timeFrame": "45 minutes"
+                },
+                {
+                    "measure": "kPCD at 60 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 60 minutes after meal completion",
+                    "timeFrame": "60 minutes"
+                },
+                {
+                    "measure": "kPCD at 90 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 90 minutes after meal completion",
+                    "timeFrame": "90 minutes"
+                },
+                {
+                    "measure": "kPCD at 120 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 120 minutes after meal completion",
+                    "timeFrame": "120 minutes"
+                },
+                {
+                    "measure": "kPCD at 150 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 150 minutes after meal completion",
+                    "timeFrame": "150 minutes"
+                },
+                {
+                    "measure": "kPCD at 180 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 180 minutes after meal completion",
+                    "timeFrame": "180 minutes"
+                },
+                {
+                    "measure": "kPCD at 210 minutes",
+                    "description": "13CO2 excretion rate calculated at 210 minutes after meal completion",
+                    "timeFrame": "210 minutes"
+                },
+                {
+                    "measure": "kPCD at 240 minutes (min-1)",
+                    "description": "13CO2 excretion rate calculated at 240 minutes after meal completion",
+                    "timeFrame": "240 minutes"
+                },
+                {
+                    "measure": "Test meal/test completion",
+                    "description": "Participant was able to successfully consume the meal/complete the test - Measured by determining whether box on test request form checked or not checked and whether or not all breath samples were collected/able to be analyzed",
+                    "timeFrame": "up to 20 minutes"
+                },
+                {
+                    "measure": "Tmax (mins)",
+                    "description": "Time of maximum excretion rate - time at which the largest kPCD is observed",
+                    "timeFrame": "90 to 240 minutes"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Children ages 7 to 18 years who provide written assent and whose parents provide written consent for participation\n* Healthy and without any significant prior medical history or developmental delays\n* Able to eat the test meal and provide breath samples.-\n\nExclusion Criteria:\n\nAny known physician-diagnosed medical (gastrointestinal, pancreatic, or liver disease that may cause malabsorption, neurological) or psychiatric disease\n\n* Chronic pulmonary disease including moderate/severe reactive airway disease requiring treatment with a daily inhaler\n* Type 1 or 2 Diabetes\n* Chronic gastrointestinal symptoms or functional gastrointestinal disorders\n* Mental retardation or pervasive developmental disorder\n* Currently receiving prescription drug therapy that may affect gastric motor function or sensation\n* Any over-the-counter or herbal supplements that may affect gastric motor function or sensation\n* Allergy to Spirulina, egg, milk, wheat or gluten (unless consuming gluten free crackers with the test meal) or known intolerance to any ingredient in the test meal",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "7 Years",
+            "maximumAge": "18 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Catherine E Williams, PhD",
+                    "role": "CONTACT",
+                    "phone": "6153765464",
+                    "phoneExt": "103",
+                    "email": "cwilliams@cairndx.com"
+                },
+                {
+                    "name": "Ethan McClain, PhD",
+                    "role": "CONTACT",
+                    "phone": "6153765464",
+                    "phoneExt": "105",
+                    "email": "emcclain@cairndx.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Catherine E Williams, PhD",
+                    "affiliation": "Cairn Diagnostics",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cairn Diagnostics",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Brentwood",
+                    "state": "Tennessee",
+                    "zip": "37027",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 36.03312,
+                        "lon": -86.78278
+                    }
+                },
+                {
+                    "facility": "Texas Children's Hospital/Baylor College of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Heather Charron",
+                            "role": "CONTACT",
+                            "phone": "713-798-0381",
+                            "email": "heather.charron@bcm.edu"
+                        },
+                        {
+                            "name": "Bruno Chumpitazi, MD",
+                            "role": "CONTACT",
+                            "phone": "8328223616",
+                            "email": "chumpita@bcm.edu"
+                        },
+                        {
+                            "name": "Bruno Chumpitazi, MD MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Robert J Shulman, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "Medical College of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Milwaukee",
+                    "state": "Wisconsin",
+                    "zip": "53226",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Monica Grimm",
+                            "role": "CONTACT",
+                            "phone": "414-266-6111",
+                            "email": "mgrimm@mcw.edu"
+                        },
+                        {
+                            "name": "katja kovacic, MD",
+                            "role": "CONTACT",
+                            "phone": "4162663690",
+                            "email": "kkovacic@mcw.edu"
+                        },
+                        {
+                            "name": "Katja Kovacic, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.0389,
+                        "lon": -87.90647
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018589",
+                    "term": "Gastroparesis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000013272",
+                    "term": "Stomach Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000010243",
+                    "term": "Paralysis"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20685",
+                    "name": "Gastroparesis",
+                    "asFound": "Gastroparesis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16062",
+                    "name": "Stomach Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13157",
+                    "name": "Paralysis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2445",
+                    "name": "Gastroparesis",
+                    "asFound": "Gastroparesis",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "T297",
+                    "name": "Spirulina",
+                    "asFound": "Subcutaneous tissue",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "HB",
+                    "name": "Herbal and Botanical"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

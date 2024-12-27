@@ -1,0 +1,499 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05379972",
+            "orgStudyIdInfo": {
+                "id": "21-4129.cc"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "MK3475-A53",
+                    "type": "OTHER",
+                    "domain": "Merck"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Colorado, Denver",
+                "class": "OTHER"
+            },
+            "briefTitle": "Study of SBRT/Olaparib Followed by Pembrolizumab/Olaparib in Gastric Cancers",
+            "officialTitle": "Study of Induction SBRT and Olaparib Followed by Combination Pembrolizumab/Olaparib in Gastric and Gastroesophageal Junction (GEJ) Cancers",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "study-of-sbrt-olaparib-followed-by-pembrolizumab-olaparib-in-gastric-cancers"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-01-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-05-13",
+            "studyFirstSubmitQcDate": "2022-05-13",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Colorado, Denver",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Merck Sharp & Dohme LLC",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is an open-label, phase II study with a safety lead-in to assess the response rate of induction olaparib and stereotactic beam radiotherapy (SBRT) followed by combination olaparib/pembrolizumab in patients with metastatic gastric and GEJ cancers after at least one of therapy.",
+            "detailedDescription": "This study is an open-label, phase II study with a safety lead-in to assess the response rate of induction olaparib and stereotactic beam radiotherapy (SBRT) followed by combination olaparib/pembrolizumab in patients with metastatic gastric and GEJ cancers after at least one of therapy. The secondary endpoint is combined therapy in tumors with evidence of both homologous recombination deficiency (by germline or somatic Next-generation DNA sequencing \\[NGS\\]), as well as homologous recombination proficiency. Exploratory endpoints will assess the impact of homologous recombination deficiency and proficiency on response to radiation, PARP inhibition and PD-1 blockade."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Gastric Cancer",
+                "GastroEsophageal Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 26,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HR deficient cohort",
+                    "type": "EXPERIMENTAL",
+                    "description": "Pre-identified presence of somatic or germline deleterious mutation, as determined by NGS only, in at least one gene critical to DNA repair through homologous recombination, including but not limited to: ARID1A, ATM, ATRX, MRE11A, NBN, PTEN, RAD50/51/51B, BARD1, BLM, BRCA1, BRCA2, BRIP1, FANCA/C/D2/E/F/G/L, PALB2, WRN, CHEK2, CHEK1, BAP1, FAM175A, SLX4, MLL2 or XRCC.",
+                    "interventionNames": [
+                        "Drug: Pembrolizumab",
+                        "Drug: Olaparib",
+                        "Radiation: Stereotactic Body Radiation Therapy"
+                    ]
+                },
+                {
+                    "label": "HR proficient cohort",
+                    "type": "EXPERIMENTAL",
+                    "description": "No identifiable somatic or germline deleterious mutation in DNA Response and Repair pathway",
+                    "interventionNames": [
+                        "Drug: Pembrolizumab",
+                        "Drug: Olaparib",
+                        "Radiation: Stereotactic Body Radiation Therapy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Pembrolizumab",
+                    "description": "Pembrolizumab 200mg IV every 3 weeks starting C2D1",
+                    "armGroupLabels": [
+                        "HR deficient cohort",
+                        "HR proficient cohort"
+                    ],
+                    "otherNames": [
+                        "Keytruda"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Olaparib",
+                    "description": "Olaparib 200mg orally twice daily starting C1D1 concurrently with radiation. Starting C2D1, Olaparib 300mg orally twice with Pembrolizumab",
+                    "armGroupLabels": [
+                        "HR deficient cohort",
+                        "HR proficient cohort"
+                    ],
+                    "otherNames": [
+                        "Lynparza"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Stereotactic Body Radiation Therapy",
+                    "description": "Stereotactic Body Radiation Therapy Dose 25Gy in 5 fractions daily (M-F) for 5 days starting C1D1 with Olaparib",
+                    "armGroupLabels": [
+                        "HR deficient cohort",
+                        "HR proficient cohort"
+                    ],
+                    "otherNames": [
+                        "SBRT"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Objective Response Rate (ORR) of unirradiated tumors",
+                    "description": "The proportion of patients with a complete response or partial response to treatment according to Response Evaluation Criteria in Solid Tumors (RECIST 1.1)",
+                    "timeFrame": "4 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Overall Survival (OS) of Total Cohort and HRD (Homologous Recombination Deficiency) versus HR (Homologous Recombination) proficient.",
+                    "description": "Time from initiation of therapy to the date of death or to the date of last follow-up",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Progression Free Survival (PFS) of Total Cohort and HRD (Homologous Recombination Deficiency) versus HR (Homologous Recombination) proficient.",
+                    "description": "Time from initiation of therapy to the date of progression or to the date of last follow-up",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Duration of Response (DOR) of Total Cohort and HRD (Homologous Recombination Deficiency) versus HR (Homologous Recombination) proficient.",
+                    "description": "Time from documentation of tumor response to disease progression",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Disease Control Rate (DCR) of Total Cohort and HRD (Homologous Recombination Deficiency) versus HR (Homologous Recombination) proficient.",
+                    "description": "Defined as the sum of partial response (PR), complete response (CR) and stable disease (SD)",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Number of Participants With Treatment-Related Adverse Events as Assessed by CTCAE v5.0 during concurrent SBRT/olaparib",
+                    "description": "CTCAE v5.0 defined Treatment-Related Adverse Events",
+                    "timeFrame": "4 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision to sign and date the consent form.\n2. Participant must be \u2265 18 years of age\n3. Histologically confirmed metastatic gastric or GEJ adenocarcinoma that is amenable to biopsy either at primary or metastatic site.\n4. Patient must consent at initiation of study to serial tumor biopsies during study. Irradiated lesions will not be considered for biopsy. For baseline biopsy, available archived tumor tissue of a metastatic tumor collected up to 28 days prior to registration is acceptable. If, after patient consent, the tumor is deemed inaccessible, the biopsy is not in the subject's best interest per investigator discretion, or the patient refuses biopsy during course of the study, patients will be allowed to remain on study.\n5. Participant must have a primary tumor or a single metastatic site amenable to radiation in: the stomach, esophagus, liver, lungs, pancreas, thoracic/abdominal LNs, or soft tissues. Of note - sites of disease planned to be biopsied should not be radiated.\n6. Participant must have at least one radiographically-confirmed index lesion that will not undergo RT and is measurable based on RECIST v1.1.\n7. Homologous recombination deficiency cohort: pre-identified presence of somatic or germline deleterious mutation, as determined by NGS only, in at least one gene critical to DNA repair through homologous recombination, including but not limited to: ARID1A, ATM, ATRX, MRE11A, NBN, PTEN, RAD50/51/51B, BARD1, BLM, BRCA1, BRCA2, BRIP1, FANCA/C/D2/E/F/G/L, PALB2, WRN, CHEK2, CHEK1, BAP1, FAM175A, SLX4, MLL2 or XRCC.\n\n   1. All patients must undergo NGS testing in a CLIA certified, CAP tested and bioinformatics-validated testing lab PRIOR to protocol treatment, to determine which cohort they are eligible for - HRD versus HR proficient. The testing may have been done at any time prior to enrollment.\n   2. For patients within whom a deleterious mutation in the homologous recombination pathway is found, the determination of a deleterious mutation must be supported in the documentation included in the testing, and should include clinical, or pre-clinical literature to support the finding that a specific mutation results in impaired function of the gene, and thus impaired DNA repair through homologous recombination. Variants of unknown significance will not be eligible.\n   3. Patients with germline deleterious mutations may have been identified at any time point prior to inclusion in the protocol and do NOT need to have this genetic testing repeated regardless of time frame and intervening therapy.\n8. Participants must have received at least one line of therapy including a fluoropyrimidine and platinum drug. For participants with HER2+ tumors, they must have received trastuzumab. Adjuvant therapy does not count toward first-line therapy unless patient recurs within 6 months of completion.\n9. Have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 1.\n10. Participants must have the ability to swallow whole pills and liquids at the Screening Visit and, in the investigator's judgement, for the duration of the study.\n11. Have adequate organ function as defined in Table 1:\n\n    Table 1: Adequate Organ Function Laboratory Values:\n\n    System: Laboratory Value:\n\n    Hematological\n\n    Absolute neutrophil count (ANC) \u22651500/\u03bcL Platelets \u2265100 000/\u03bcL Hemoglobin \u22659.0 g/dL or \u22655.6 mmol/La\n\n    Renal\n\n    Creatinine OR Measured or calculated creatinine \u22641.5 \u00d7 ULN OR \u226530 mL/min for participant with creatinine levels \\>1.5 \u00d7 institutional ULN clearance (GFR can also be used in place of creatinine or CrCl)\n\n    Hepatic\n\n    Total bilirubin \u22641.5 \u00d7ULN OR direct bilirubin \u2264ULN for participants with total bilirubin levels \\>1.5 \u00d7 ULN AST (SGOT) and ALT (SGPT) \u22642.5 \u00d7 ULN (\u22645 \u00d7 ULN for participants with liver metastases)\n\n    Coagulation\n\n    International normalized ratio (INR) OR \u22641.5 \u00d7 ULN unless participant is receiving anticoagulant therapy as long as PT or aPTT is within therapeutic range of prothrombin time (PT) intended use of anticoagulants Activated partial thromboplastin time (aPTT)\n\n    \u22641.5 \u00d7 ULN unless participant is receiving anticoagulant therapy as long as PT or aPTT is within therapeutic range of intended use of anticoagulants\n12. Participant receiving corticosteroids, for reasons other than radiation related toxicities, may continue as long as their dose is stable (meaning no increase or on tapering dose) for least 4 weeks prior to initiating protocol therapy.\n13. Female participants are eligible if they are: not pregnant (within 28 days prior to start of study treatment - see Appendix 3), not breastfeeding, and at least one of the following conditions applies: a.) Not a woman of childbearing potential (WOCBP) as defined in Appendix 3 OR b.) A WOCBP who agrees to follow contraceptive guidance during the treatment period and for at least 120 days after the last dose of study treatment.\n14. Male participants must agree to use a contraception as detailed in Appendix 3 of this protocol during the treatment period and for at least 120 days after the last dose of study treatment and refrain from donating sperm during this period.\n\nExclusion Criteria:\n\nAn individual who meets any of the following criteria will be excluded from participation in this study:\n\n1. Has received prior systemic anti-cancer therapy including investigational agents within 4 weeks prior to allocation.\n\n   1. Note: Participants must have recovered from all AEs due to previous therapies to \u2264Grade 1 or baseline. Participants with \u2264Grade 2 neuropathy may be eligible.\n   2. Note: If participant received major surgery within 4 weeks, they must have recovered adequately from the toxicity and/or complications from the intervention prior to starting study treatment.\n2. Has received prior radiotherapy within 2 weeks of start of study treatment. Participants must have recovered from all radiation-related toxicities, not require corticosteroids specifically for radiation toxicities, and not have had radiation pneumonitis. A 1-week washout is permitted for palliative radiation (\u22642 weeks of radiotherapy) to non-CNS disease.\n3. Has received a live vaccine within 30 days prior to the first dose of study drug. Examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, varicella/zoster (chicken pox), yellow fever, rabies, Bacillus Calmette-Gu\u00e9rin (BCG), and typhoid vaccine. Seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (eg, FluMist\u00ae) are live attenuated vaccines and are not allowed. Note: Vaccines for SARS CoV- 2 will be permitted before and during the course of study.\n4. Is currently participating in, or has participated in a study of an investigational agent or has used an investigational device within 4 weeks prior to the first dose of study treatment. Note: Participants who have entered the follow-up phase of an investigational study may participate as long as it has been 4 weeks after the last dose of the previous investigational agent.\n5. Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 7 days prior to the first dose of study drug.\n6. Has a known additional malignancy that is progressing or has required active treatment within the past 3 years. Note: Participants with basal cell carcinoma of the skin, squamous cell carcinoma of the skin, or carcinoma in situ (e.g. breast carcinoma, cervical cancer in situ) that have undergone potentially curative therapy are not excluded\n7. Has known active CNS metastases and/or carcinomatous meningitis that requires ongoing treatment or are found to be progressing. Participants with previously treated brain metastases may participate provided they are radiologically stable, i.e. without evidence of progression for at least 4 weeks by repeat imaging (note that the repeat imaging should be performed during study screening), clinically stable and without requirement of steroid treatment for at least 14 days prior to first dose of study treatment.\n8. Has severe hypersensitivity (\u2265Grade 3) to pembrolizumab or olaparib and/or any of its excipients.\n9. Participant must not have impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of the study drugs (e.g., ulcerative diseases, uncontrolled nausea, vomiting, diarrhea, malabsorption syndrome, or small bowel resection).\n10. Has active autoimmune disease that has required systemic treatment in the past 2 years (i.e. with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency, etc.) is not considered a form of systemic treatment.\n11. Has a history of (non-infectious) pneumonitis that required steroids or has current pneumonitis.\n12. Has an active infection requiring systemic therapy.\n13. Has a known history of Human Immunodeficiency Virus (HIV).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "100 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kebron Elias",
+                    "role": "CONTACT",
+                    "phone": "303-724-9839",
+                    "email": "kebron.elias@cuanschutz.edu"
+                },
+                {
+                    "name": "Matt Lee",
+                    "role": "CONTACT",
+                    "email": "matthew.r.lee@cuanschutz.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Sunnie S Kim, MD",
+                    "affiliation": "University of Colorado, Denver",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Colorado Health",
+                    "status": "RECRUITING",
+                    "city": "Aurora",
+                    "state": "Colorado",
+                    "zip": "80045",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nadine Salvador",
+                            "role": "CONTACT",
+                            "phone": "720-848-5097",
+                            "email": "nadine.salvador@cuanschutz.edu"
+                        },
+                        {
+                            "name": "Sunnie Kim, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.72943,
+                        "lon": -104.83192
+                    }
+                },
+                {
+                    "facility": "UCHealth Memorial Hospital Central",
+                    "status": "RECRUITING",
+                    "city": "Colorado Springs",
+                    "state": "Colorado",
+                    "zip": "80909",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nadine Salvador",
+                            "role": "CONTACT",
+                            "phone": "720-848-5097",
+                            "email": "nadine.salvador@cuanschutz.edu"
+                        },
+                        {
+                            "name": "Robert Hoyer, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.83388,
+                        "lon": -104.82136
+                    }
+                },
+                {
+                    "facility": "UCHealth Highlands Ranch Hospital",
+                    "status": "RECRUITING",
+                    "city": "Highlands Ranch",
+                    "state": "Colorado",
+                    "zip": "80129",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nadine Salvador",
+                            "role": "CONTACT",
+                            "phone": "720-848-5097",
+                            "email": "nadine.salvador@cuanschutz.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.55388,
+                        "lon": -104.96943
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified IPD will be available to other researchers for the purposes of investigating the research objectives of this clinical trial.\n\nDe-identified patient samples will be collected, processed and analyzed by our research laboratory collaborators to investigate our experimental objectives and endpoints outlined in the protocol. Research samples will be banked and additional testing/experiments may be undertaken pending the acquisition of additional funding to support this work.\n\nDe-identified IPD will be shared with Study Sponsor (Merck).",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP"
+            ],
+            "timeFrame": "Data requests can be submitted starting 9 months after article publication and the data will be made accessible for up to 24 months. Extensions will be considered on a case-by-case basis.",
+            "accessCriteria": "Access to trial IPD can be requested by qualified researchers engaging in independent scientific research, and will be provided following review and approval of a research proposal and Statistical Analysis Plan (SAP) and execution of a Data Sharing Agreement (DSA)."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013274",
+                    "term": "Stomach Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000013272",
+                    "term": "Stomach Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16064",
+                    "name": "Stomach Neoplasms",
+                    "asFound": "Gastric Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16062",
+                    "name": "Stomach Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5486",
+                    "name": "Stomach Cancer",
+                    "asFound": "Gastric Cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000582435",
+                    "term": "Pembrolizumab"
+                },
+                {
+                    "id": "C000531550",
+                    "term": "Olaparib"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000074322",
+                    "term": "Antineoplastic Agents, Immunological"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000082082",
+                    "term": "Immune Checkpoint Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000067856",
+                    "term": "Poly(ADP-ribose) Polymerase Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M349416",
+                    "name": "Pembrolizumab",
+                    "asFound": "Mg/m2",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M233003",
+                    "name": "Olaparib",
+                    "asFound": "Improvement",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1346",
+                    "name": "Antineoplastic Agents, Immunological",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2342",
+                    "name": "Immune Checkpoint Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M205",
+                    "name": "Poly(ADP-ribose) Polymerase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

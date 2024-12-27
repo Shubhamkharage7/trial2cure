@@ -1,0 +1,226 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06409000",
+            "orgStudyIdInfo": {
+                "id": "19-012790"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2022-09578",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                },
+                {
+                    "id": "ROA1971",
+                    "type": "OTHER",
+                    "domain": "Mayo Clinic"
+                },
+                {
+                    "id": "19-012790",
+                    "type": "OTHER",
+                    "domain": "Mayo Clinic Institutional Review Board"
+                }
+            ],
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Evaluation of 3D Surface Scanning for Virtual-CT Based Radiation Therapy Treatment Planning",
+            "officialTitle": "3D Surface Scanning for Virtual-CT Based Radiation Therapy Treatment Planning",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "evaluation-of-surface-scanning-for-virtual-ct-based-radiation-therapy-treatment-planning"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-01-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-07",
+            "studyFirstSubmitQcDate": "2024-05-07",
+            "studyFirstPostDateStruct": {
+                "date": "2024-05-10",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study evaluates if three dimensional (3D) surface images can be used instead of the standard computed tomography (CT) scans for treatment planning in electron radiation therapy. 3D scanning has previously been used by several groups to design patient-specific devices to be 3D printed, and as has shown excellent agreement with CT obtained surfaces. Using 3D surface imaging instead of x-ray based CT, benefits include: no ionizing radiation used to produce images, shorter time between patient consultation and treatment, and ability to produce and evaluate patient-specific devices for electron therapy earlier in the treatment planning process. This study may help researchers learn how 3D surface scanning may be used to produce a virtual CT image of patient surfaces, and accurately replace traditional planning CT for treatment planning of electron based radiation therapy.",
+            "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. Develop and benchmark the necessary software to convert a 3D scan to a virtual CT.\n\nII. Compare the spatial accuracy of virtual CTs from 3D scans to the planning CT.\n\nIII. Compare radiation treatment plans based on the virtual CTs from aim 2 to treatment plans based on the actual planning CTs.\n\nOUTLINE: This is an observational study.\n\nPatients undergo 3D surface scans on study. Patient's medical records are also reviewed on study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hematopoietic and Lymphatic System Neoplasm",
+                "Malignant Solid Neoplasm"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "CROSS_SECTIONAL"
+            },
+            "enrollmentInfo": {
+                "count": 26,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Observational (3D surface scans, medical records)",
+                    "description": "Patients undergo 3D surface scans on study. Patient's medical records are also reviewed on study.",
+                    "interventionNames": [
+                        "Other: Electronic Health Record Review",
+                        "Procedure: Three-Dimensional Imaging"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Electronic Health Record Review",
+                    "description": "Medical records reviewed",
+                    "armGroupLabels": [
+                        "Observational (3D surface scans, medical records)"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Three-Dimensional Imaging",
+                    "description": "Undergo 3D surface scans",
+                    "armGroupLabels": [
+                        "Observational (3D surface scans, medical records)"
+                    ],
+                    "otherNames": [
+                        "3-D Imaging",
+                        "3-Dimensional Imaging",
+                        "3D Imaging",
+                        "Medical Imaging, Three Dimensional"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Dose distribution agreement between virtual and planning computed tomography (CT) datasets",
+                    "description": "The various three dimensional (3D) scans and CTs of the phantoms will be qualitatively assessed for agreement and accuracy to determine best practice, but there will be no statistical significance tested for. Will be conducted entirely on inanimate, plastic, anthropomorphic models (phantoms).",
+                    "timeFrame": "Up to 2 months"
+                },
+                {
+                    "measure": "Geometric agreement between virtual and planning CT datasets",
+                    "description": "Will test for distance to agreement differences between 3D scans taken at different time points (consultation, simulation, and treatment).",
+                    "timeFrame": "Up to 2 months"
+                },
+                {
+                    "measure": "Geometric agreement between 3D scans taken at different time points",
+                    "description": "Various dose metrics will be extracted from each of the three types of dose distribution: the ground truth CT based dose distribution, the 3D scan based virtual CT dose distributions, and the flat water phantom based dose distributions. Paired statistical tests will be used for each metric to test for significant differences between the various methods used to calculate the dose distributions.",
+                    "timeFrame": "Up to 2 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults (18 years old or older)\n* Capable of consent\n* Receiving electron therapy and a planning CT scan\n* Consent to two 3D surface scans of treatment area\n\nExclusion Criteria:\n\n* Pediatric patients\n* Mentally incapable of study consent\n* Receiving electron radiation for a breast cancer boost\n* Receiving electrons for total skin electron therapy\n* Patients with epilepsy or other seizure disorders",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients being treated with electron radiation therapy at Mayo Clinic.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Daniel P. Harrington, M.S.",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Arizona",
+                    "status": "RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85259",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Daniel P. Harrington, M.S.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

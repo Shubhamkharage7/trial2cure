@@ -1,0 +1,303 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06142435",
+            "orgStudyIdInfo": {
+                "id": "BU-001"
+            },
+            "organization": {
+                "fullName": "Rebiscan, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "mTBI Identification and Monitoring Through Retinal Scanning",
+            "officialTitle": "Mild Traumatic Brain Injury Identification and Monitoring Through Retional Scanning",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "mtbi-identification-and-monitoring-through-retinal-scanning"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-16",
+            "studyFirstSubmitQcDate": "2023-11-16",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Rebiscan, Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Boston Medical Center",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Rebion has developed a device, the Rebion trauma tool (referred to as the head and intraocular trauma tool, or \"HITT\"), that detects ocular fixation and alignment using a binocular retinal scan. Preliminary data obtained from hospitalized patients with a clinically-confirmed traumatic brain injury (TBI) and uninjured controls indicates that the device can detect changes in ocular fixation, alignment, and saccades that are related to brain injury. This study seeks to evaluate the ability of the Rebion trauma tool to assess perturbations in eye movements resulting from TBI. The study will enroll 60 TBI patients and 20 controls."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Brain Injuries, Traumatic"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Blood samples will be drawn by venipuncture, collected in Serum Separator Tubes, clotted for 30-60 min, centrifuged at 1,500 rpm for 15 min, and stored at -80\u00b0C until batch analysis for serum levels of four well-established brain injury biomarkers (i.e., astrocyte-derived glial fibrillary acidic protein; GFAP; neuron-derived ubiquitin carboxy-terminal hydrolyzing enzyme L1, UCH-L1; neuron-derived total microtubule-associated protein tau, T-Tau; neuron-derived neurofilament-light chain, NF-L) using the Quanterix SIMOA Neurology 4-plex \"B\" kit."
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Controls",
+                    "description": "Participants should not be part of the Intended Use Population. Subjects that present to the hospital, clinic, or emergency department, either as a patient or non-patient, with no history of head trauma and, are 18-45 years of age.",
+                    "interventionNames": [
+                        "Device: Head and Intraocular Trauma Tool"
+                    ]
+                },
+                {
+                    "label": "TBI-Suspected Patients",
+                    "description": "TBI participants 18-45 years of age, recruited from patients at a clinical research facility who present with head trauma. Clinical evaluation for the patient can be positive (target condition present) or negative (target condition absent) for mTBI. Testing will occur on Day-0, Day-14, and Day-30.",
+                    "interventionNames": [
+                        "Device: Head and Intraocular Trauma Tool"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Head and Intraocular Trauma Tool",
+                    "description": "HITT device to scan the eyes of participants up to 3 times (\\~45 seconds each) at the time of admittance to study. The participant is to place the chin in the chin-rest and fixate on the illuminated light on the device.",
+                    "armGroupLabels": [
+                        "Controls",
+                        "TBI-Suspected Patients"
+                    ],
+                    "otherNames": [
+                        "HITT"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "TBI Detection",
+                    "description": "Patients who present with suspected TBI to the clinic will have their eyes scanned to identify whether the HITT device can accurately identify patients with TBI.",
+                    "timeFrame": "1 day"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "TBI Monitor",
+                    "description": "Patients who present with suspected TBI to the clinic and had initially been tested for TBI detection will receive a second set of scans at 2 weeks to identify whether the HITT device can accurately identify patients with TBI.",
+                    "timeFrame": "14 days"
+                },
+                {
+                    "measure": "TBI Monitor",
+                    "description": "Patients who present with suspected TBI to the clinic and had initially been tested for TBI detection will receive a second set fo scans at one month to identify whether the HITT device can accurately identify patients with TBI.",
+                    "timeFrame": "30 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-45 years\n2. Presents to the facility within 2 weeks of head trauma\n3. Able to provide informed consent\n\n   * If minor, then able to provide parental consent and minor consent\n4. Able to participate in the examination, including the ability to follow simple instructions\n5. Fluency in English or Spanish\n\nExclusion Criteria:\n\n1. Glasgow Coma Scale score equal to or less than 13 at the time of study enrollment\n2. Under the influence of alcohol or drugs\n3. Previous eye surgery\n4. Visual acuity known to be 20/200 or less in either eye\n5. Known strabismus, amblyopia (lazy eye), or double vision\n6. Known eye movement disorder, including nystagmus\n7. Known optic nerve disease, including papilledema or optic neuropathy\n8. Known retinal disease, including macular degeneration or retinal degeneration\n9. Known cataract\n10. History of neurosurgery\n11. History of stroke/brain hemorrhage, brain tumor, or epilepsy\n12. Any head trauma requiring medical attention from a physician within the last 6 months\n13. Diagnosed dementia or cognitive impairment requiring assistance for daily living\n14. Other condition(s) under the care of a neurologist\n15. Psychiatric hospitalization in the last 90 days\n16. Subject considered unsuitable for participation in this clinical trial by PI, treating clinician, or study research staff\n17. Any minor brain injury regardless of loss of consciousness",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+                "ADULT"
+            ],
+            "studyPopulation": "The population includes target participants that enroll within two weeks of blunt head trauma, with a Glasgow Coma Scale score equal to or greater than thirteen, A minimum of sixty Target Condition subjects will be enrolled. All studies will be complete within thirty days of enrollment.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "Boston Medical Center Concussion Clinic, Ryan Center for Sports Medicine & Rehabilitation at Boston University",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nathan Cardoos, MD",
+                            "role": "CONTACT",
+                            "phone": "617-414-6800",
+                            "email": "ncardoos@bu.edu"
+                        },
+                        {
+                            "name": "Justin Shaka, MBA",
+                            "role": "CONTACT",
+                            "phone": "857-600-0982",
+                            "email": "jgshaka@rebion.net"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Aggregate data and individual test reports will be made available to the HITT device manufacturer to better understand its performance at identifying TBI. Personally-identifiable data will not be shared with anyone outside of the Boston Medical Center.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "CSR"
+            ],
+            "timeFrame": "Data will be shared on an ongoing basis, and cumulatively at the end of the study. Study length is expected to be 2 months from the first enrolled participant.",
+            "accessCriteria": "Data will only be shared with researchers involved in the study at the Boston Medical Center, and only trained staff members at the device manufacturer."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001930",
+                    "term": "Brain Injuries"
+                },
+                {
+                    "id": "D000070642",
+                    "term": "Brain Injuries, Traumatic"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000006259",
+                    "term": "Craniocerebral Trauma"
+                },
+                {
+                    "id": "D000020196",
+                    "term": "Trauma, Nervous System"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5207",
+                    "name": "Brain Injuries",
+                    "asFound": "Brain Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M628",
+                    "name": "Brain Injuries, Traumatic",
+                    "asFound": "Brain Injuries, Traumatic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5201",
+                    "name": "Brain Concussion",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9349",
+                    "name": "Craniocerebral Trauma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22023",
+                    "name": "Trauma, Nervous System",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

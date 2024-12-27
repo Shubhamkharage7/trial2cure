@@ -1,0 +1,294 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05324189",
+            "orgStudyIdInfo": {
+                "id": "21-00371"
+            },
+            "organization": {
+                "fullName": "The New York Eye & Ear Infirmary",
+                "class": "OTHER"
+            },
+            "briefTitle": "Automated AI-based System for Early Diagnosis of Diabetic Retinopathy",
+            "officialTitle": "Pivotal Trial of Automated AI-based System for Early Diagnosis of Diabetic Retinopathy Using Retinal Color Imaging",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "automated-ai-based-system-for-early-diagnosis-of-diabetic-retinopathy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2021-11",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-04-18",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-12-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-11-08",
+            "studyFirstSubmitQcDate": "2022-04-05",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-04-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-04-12",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "The New York Eye & Ear Infirmary",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "iHealthScreen Inc",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "In this pivotal trial, we aim to perform a prospective study to find the efficacy of iPredict, an artificial intelligence (AI) based software tool on early diagnosis of Diabetic Retinopathy (DR)in the primary care, optometrist and other diabetes-screening clinics. DR is one of the leading causes of blindness in the United States and other developed countries. Every individual with diabetes is at risk of DR. It does not show any symptom until the disease is progressed to advanced stages. If the disease is caught at an early stage, it can be prevented, managed or treated effectively. Currently, screening for DR is done by the Ophthalmologists, which is limited to areas with limited availability. This is also time-consuming and expensive. All of these can be complemented by automated screening and set up the screening in the primary care clinics.",
+            "detailedDescription": "In this pivotal trial, we aim to invite diabetic patients to participate in the trial by having non-dilated photos of their eyes taken by an FDA-approved DRS plus camera at their own doctor's office which will test the feasibility of our proposed automated AI based DR diagnosis software solution,. The color fundus photos will be captured and then be transmitted securely and analyzed by iHealthScreen's HIPAA compliant server at Amazon cloud. The deep learning module will analyze the image for finding the disease severity. The automated report will be generated which will report as referable DR or more than mild (mtm) DR detected i.e., moderate DR, severe DR - proliferative or non-proliferative DR or Non-referable DR or mtm DR not detected, i.e., mild DR or no DR.\n\nThe same images will be evaluated by 3 ophthalmologists and will be adjudicated if any disagreement between the gradings. The automatic and expert evaluation will be compared to compute the sensitivity, specificity and AUC."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Diabetic Retinopathy"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "More than mild (mtm) Diabetic Retinopathy (DR) Not Detected or Non referable DR",
+                    "description": "More than mild Diabetic Retinopathy (mtm DR) not detected or non referable DR using the iPredict's AI-based DR screening software utilizing color fundus imaging.",
+                    "interventionNames": [
+                        "Diagnostic Test: Referable versus Non Referable Diabetic Retinopathy diagnostic test"
+                    ]
+                },
+                {
+                    "label": "More than mild (mtm) Diabetic Retinopathy (DR) Detected or Referable DR",
+                    "description": "More than mild Diabetic Retinopathy (mtm DR), moderate to severe DR detected, non proliferative DR detected, proliferative DR detected or referable DR using the iPredict's AI-based DR screening software utilizing color fundus imaging.",
+                    "interventionNames": [
+                        "Diagnostic Test: Referable versus Non Referable Diabetic Retinopathy diagnostic test"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Referable versus Non Referable Diabetic Retinopathy diagnostic test",
+                    "description": "Artificial intelligence read reports Referable versus Non Referable Diabetic Retinopathy",
+                    "armGroupLabels": [
+                        "More than mild (mtm) Diabetic Retinopathy (DR) Detected or Referable DR",
+                        "More than mild (mtm) Diabetic Retinopathy (DR) Not Detected or Non referable DR"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity of identification of referable and non-referable Diabetic Retinopathy (DR) for early diagnosis of DR",
+                    "description": "iPredict DR can detect non-referable DR (normal retina or mild DR) and referable DR (moderate or severe DR including non-proliferative, proliferative DR and diabetic macular edema) at a similar level of expert ophthalmologists. The output of AI model and ophthalmologists' grading will be compared for image level and subject level accuracy measurement.\n\nUsing the gold standard (i.e., the ophthalmologist's grading following ETDRS protocol), the sensitivity, specificity, precision, recall, accuracy, F-measure, positive predictive value and negative predictive value are calculated as: Sens=TP/(TP+FN) Spec=TN/(TN+FP) where TP is the number of true positives (referable DR subjects correctly classified), FN is the number of false negatives (referable DR subjects incorrectly classified as non-referable), TN is the number of true negatives (non-referable subjects correctly classified), and FP is the number of false positives (non-referable DR subjects incorrectly classified as referable DR).",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Specificity of identification of referable and non-referable Diabetic",
+                    "description": "iPredict DR can detect non-referable DR (normal retina or mild DR) and referable DR (moderate or severe DR including non-proliferative, proliferative DR and diabetic macular edema) at a similar level of expert ophthalmologists. The output of AI model and ophthalmologists' grading will be compared for image level and subject level accuracy measurement.",
+                    "timeFrame": "2 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "The accuracy of identification of referable and non-referable DR for early diagnosis of DR",
+                    "description": "The accuracy of the iPredict-DR software developed by iHealthScreen system in early diagnosis of DR using color retinal photos vs. that of human expert graders/ophthalmologist for DR.\n\nPerformance thresholds were defined at 85.0% for sensitivity and 82.5% for specificity.",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age of Subjects: Patients \u2265 18 years of age.\n* Gender of Subjects: Both males and females will be invited to participate.\n* Subjects with diabetes (A1C level 6.5 or higher) or Fasting Plasma Glucose (blood sugar level) 126 mg/dL (\u22657.0 mmol/L)\n* Subjects must be willing and are able to comply with clinic visit, understand the study-related procedures/provisions, and provide signed informed consent.\n* asymptomatic patients with DR.\n\nExclusion Criteria:\n\n* Subject has retinal degenerations and retinal vascular diseases such as age-related macular degeneration or having undergone prior retinal surgery.\n* History of ocular injections,\n* Subject has persistent visual impairment in any eye;\n* History of macular edema or retinal vascular (vein or artery) occlusion;\n* laser treatment of the retina, or intraocular surgery other than cataract surgery without complications;\n* Subject is currently enrolled in an interventional study of an investigational device or drug;\n* Subject has ungradable clinical reference standard photographs (i.e., not gradable quality image). If the patient image is not gradable automatically, we will suggest the patient to refer the ophthalmologist.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Participants who fit the eligibility inclusion criteria and not the exclusion criteria.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "R. Theodore Smith, MD, PHD",
+                    "role": "CONTACT",
+                    "phone": "646-943-7925",
+                    "email": "rolandtheodore.smith@mssm.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "New York Eye and Ear Infirmary of Mount Sinai",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10003",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "There is no IPD sharing plan at this time."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012164",
+                    "term": "Retinal Diseases"
+                },
+                {
+                    "id": "D000003930",
+                    "term": "Diabetic Retinopathy"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005128",
+                    "term": "Eye Diseases"
+                },
+                {
+                    "id": "D000003925",
+                    "term": "Diabetic Angiopathies"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000048909",
+                    "term": "Diabetes Complications"
+                },
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14999",
+                    "name": "Retinal Diseases",
+                    "asFound": "Retinopathy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7125",
+                    "name": "Diabetic Retinopathy",
+                    "asFound": "Diabetic Retinopathy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8271",
+                    "name": "Eye Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7120",
+                    "name": "Diabetic Angiopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26004",
+                    "name": "Diabetes Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC11",
+                    "name": "Eye Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,290 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06350266",
+            "orgStudyIdInfo": {
+                "id": "2024-0183"
+            },
+            "organization": {
+                "fullName": "Geisinger Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Informing Low-acuity Emergency Department Patients of Non-emergent Resources",
+            "officialTitle": "Informing Low-acuity Emergency Department Patients of Non-emergent Healthcare Resources Following Discharge to Decrease Emergency Department Utilization",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "informing-low-acuity-emergency-department-patients-of-non-emergent-resources"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-04-25",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-01",
+            "studyFirstSubmitQcDate": "2024-04-01",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Amir Goren",
+                "investigatorTitle": "Program Director, Behavioral Insights Team",
+                "investigatorAffiliation": "Geisinger Clinic"
+            },
+            "leadSponsor": {
+                "name": "Geisinger Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this campaign is to reduce unnecessary emergency department (ED) visits/encourage patients with low acuity visits to follow up with an appropriate provider and/or to seek care outside of the ED in the future. In this campaign, patients will be assigned to receive or not receive outreach following ED discharge that is aligned with the goal. Outreach will occur via a text message, as well as information added to the patient's after visit summary, and will include one or more calls to action that make patients aware of other Geisinger resources and avenues through which they can seek care outside of the ED. These may include, but are not limited to, walk-in urgent care, virtual urgent care, primary care provider (PCP) appointments, and/or other ways in which to contact Geisinger. The study will assess whether ED use differs across patients in different outreach conditions. It will also examine whether patients followed through on the message-specific calls to action in the messages differently across conditions."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Emergency Service, Hospital"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE",
+                    "maskingDescription": "Patients will be aware of their own messages but not of messages sent to other patients or in other arms."
+                }
+            },
+            "enrollmentInfo": {
+                "count": 5600,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Control",
+                    "type": "NO_INTERVENTION",
+                    "description": "This arm will receive no intervention outside of usual care."
+                },
+                {
+                    "label": "Other Healthcare Resources",
+                    "type": "EXPERIMENTAL",
+                    "description": "This arm will receive text messages suggesting alternatives to the emergency department such as calling one's primary care provider (for patients assigned a Geisinger provider) or using virtual (telehealth) urgent care (for patients not assigned a Geisinger provider), as well as advising them of urgent care options. Text suggesting these alternatives may also be included in a modified discharge paperwork packet.",
+                    "interventionNames": [
+                        "Behavioral: Information about healthcare resources"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Information about healthcare resources",
+                    "description": "Text messages will be sent following discharge from the emergency department; text may also be modified in the (online and/or printed) discharge summary packet.",
+                    "armGroupLabels": [
+                        "Other Healthcare Resources"
+                    ],
+                    "otherNames": [
+                        "Text messages",
+                        "Discharge summary text",
+                        "Information"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Return to ED",
+                    "description": "ED visit (yes/no)",
+                    "timeFrame": "within 120 days following day of discharge"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "PCP appointment scheduled",
+                    "description": "PCP appointment scheduled (yes/no)",
+                    "timeFrame": "within 60 days following day of discharge"
+                },
+                {
+                    "measure": "PCP visit",
+                    "description": "PCP appointment attended (yes/no)",
+                    "timeFrame": "within 60 days following day of discharge"
+                },
+                {
+                    "measure": "Telehealth appointment scheduled",
+                    "description": "Telehealth appointment scheduled (yes/no)",
+                    "timeFrame": "within 60 days following day of discharge"
+                },
+                {
+                    "measure": "Telehealth appointment attended",
+                    "description": "Telehealth appointment attended (yes/no)",
+                    "timeFrame": "within 60 days following day of discharge"
+                },
+                {
+                    "measure": "Urgent care visit",
+                    "description": "Urgent care appointment attended (yes/no)",
+                    "timeFrame": "within 60 days following day of discharge"
+                },
+                {
+                    "measure": "Call made to PCP",
+                    "description": "Record of patient call to PCP (yes/no)",
+                    "timeFrame": "within 60 days following day of discharge"
+                },
+                {
+                    "measure": "Any of the suggested actions taken",
+                    "description": "PCP called or visited, urgent care visited, telehealth appointment attended, or PCP or telehealth appointment scheduled (yes/no)",
+                    "timeFrame": "within 60 days following day of discharge"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \\>= 18 years of age\n* Geisinger ED visit rated as low acuity (L4 or L5)\n* Discharged from ED in past 24 hours\n\nExclusion Criteria:\n\n* Cannot be contacted via the communication modality being used in the study (i.e., SMS), due to insufficient/missing contact information in the EHR or because the patient opted out\n* Admitted to hospital",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Amir Goren, PhD",
+                    "role": "CONTACT",
+                    "phone": "570-214-4395",
+                    "email": "agoren@geisinger.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Amir Goren, PhD",
+                    "affiliation": "Geisinger Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Geisinger Health System",
+                    "status": "RECRUITING",
+                    "city": "Danville",
+                    "state": "Pennsylvania",
+                    "zip": "17822",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amir Goren, PhD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Gail Rosenbaum, PhD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.96342,
+                        "lon": -76.61273
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "Prot_SAP",
+                    "hasProtocol": true,
+                    "hasSap": true,
+                    "hasIcf": false,
+                    "label": "Study Protocol and Statistical Analysis Plan",
+                    "date": "2024-05-01",
+                    "uploadDate": "2024-05-01T14:43",
+                    "filename": "Prot_SAP_000.pdf",
+                    "size": 191363
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000004630",
+                    "term": "Emergencies"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7796",
+                    "name": "Emergencies",
+                    "asFound": "Emergency",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

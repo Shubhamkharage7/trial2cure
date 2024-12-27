@@ -1,0 +1,406 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05802940",
+            "orgStudyIdInfo": {
+                "id": "LDA BPA"
+            },
+            "organization": {
+                "fullName": "Geisinger Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Low Dose Aspirin Alerts in High-Risk Pregnancies",
+            "officialTitle": "Best Practice Alert (BPA) for Low Dose Aspirin Recommendation in High-risk Pregnancies: a Randomized Controlled Trial",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "low-dose-aspirin-alerts-in-high-risk-pregnancies"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-06-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06-19",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-19",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-13",
+            "studyFirstSubmitQcDate": "2023-04-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Awathif Dhanya Mackeen",
+                "investigatorTitle": "MD, MPH",
+                "investigatorAffiliation": "Geisinger Clinic"
+            },
+            "leadSponsor": {
+                "name": "Geisinger Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this study is to assess the effect of an electronic health record (EHR) clinical decision support tool, also known as a best practice alert (BPA), on healthcare provider recommendations for low dose aspirin use in a high-risk pregnant patient population. The investigators hypothesize that the implementation of the EHR BPA tool will increase the healthcare provider's recommendation for low dose aspirin compared to current standard care.",
+            "detailedDescription": "Low dose aspirin (LDA) has been found to reduce the incidence of preeclampsia in high-risk pregnant patients. At a health system serving central and northeastern Pennsylvania, electronic health record data reveal that clinicians recommend an LDA regimen to only 60% of eligible high-risk pregnant patients, suggesting the need and opportunity for increased LDA recommendation. This study will assess the efficacy of an electronic health record based clinician-facing interruptive clinical decision support tool/best practice alert (BPA) aimed at increasing LDA recommendation for pregnant patients who are at high risk of preeclampsia.\n\nUp to 704 patients will be randomized to account for possible 10% miscarriage and early termination rate as we require outcome data on a total of 640 patients for adequate power. Eligible patients will be randomized to a control group, where the clinician receives no BPA, and one experimental group, where the provider receives a BPA noting the patient is at high-risk and recommend the provider order LDA. If LDA is not recommended, there will be a required acknowledgment reason from the provider noting a rationale for not initiating a LDA regimen."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Preeclampsia",
+                "Aspirin",
+                "Clinical Decision Support Systems",
+                "Economics, Behavioral"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "maskingDescription": "We will randomize at level of the patient as to whether or not a BPA will fire when the patient is seen in clinic. Any obstetric care provider who sees a patient that has been randomized to BPA group will receive the alert if indicated. If the alert doesn't fire, the care provider will not be aware as to whether the patient is randomized to the BPA group or whether the alert was not indicated. Clinical investigators and outcomes assessors are blinded.",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 640,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Best practice alert (BPA) intervention group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "An electronic health record best practice alert (BPA) will alert healthcare providers to recommend low dose aspirin for pregnant patients at high-risk for preeclampsia. This alert also allows the healthcare provider to order an over-the-counter-prescription for low dose aspirin and automatically documents LDA in the patient's medication list.",
+                    "interventionNames": [
+                        "Behavioral: Electronic health record best practice alert"
+                    ]
+                },
+                {
+                    "label": "Standard care group",
+                    "type": "NO_INTERVENTION",
+                    "description": "Healthcare provider's recommendation for aspirin in patients at high-risk for preeclampsia will be based on current practice (no alerts) and the healthcare provider's knowledge."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Electronic health record best practice alert",
+                    "description": "The electronic health record will identify patients at high-risk for preeclampsia and candidate for low dose aspirin (LDA) prophylaxis. For those in the intervention group, a best practice alert will notify the healthcare provider within the patient's chart during a prenatal visit that LDA should be recommended.",
+                    "armGroupLabels": [
+                        "Best practice alert (BPA) intervention group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "A sensitivity analysis of the healthcare provider recommendation for low dose aspirin use in patients, specifically those who deliver after 28 weeks",
+                    "description": "yes/no",
+                    "timeFrame": "Assessed between initial prenatal visit and delivery after 28 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "The healthcare provider recommendation for low dose aspirin use in all randomized patients",
+                    "description": "yes/no",
+                    "timeFrame": "Assessed between initial prenatal visit and delivery"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Patient taking low dose aspirin",
+                    "description": "yes/no",
+                    "timeFrame": "Assessed at time of delivery (>/= 28 weeks)"
+                },
+                {
+                    "measure": "Rate of preeclampsia",
+                    "description": "yes/no",
+                    "timeFrame": "Assessed at time of delivery"
+                },
+                {
+                    "measure": "Timing of low dose aspirin recommendation",
+                    "description": "gestational age (weeks)",
+                    "timeFrame": "Assessed between initial prenatal visit to delivery (>/= 28 weeks)"
+                },
+                {
+                    "measure": "Timing of low dose aspirin initiation",
+                    "description": "gestational age (weeks)",
+                    "timeFrame": "Assessed between initial prenatal visit to delivery (>/= 28 weeks)"
+                },
+                {
+                    "measure": "Preterm delivery",
+                    "description": "yes/no",
+                    "timeFrame": "Assessed at delivery"
+                },
+                {
+                    "measure": "Provider response to best practice alert",
+                    "description": "recommended, declined, etc.",
+                    "timeFrame": "Assessed between initial prenatal visit to delivery (>/= 28 weeks)"
+                },
+                {
+                    "measure": "Number of times the best practice alert fired for a patient",
+                    "description": "1,2,3,4...",
+                    "timeFrame": "Assessed between initial prenatal visit to delivery (>/= 28 weeks)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Receiving prenatal care within Geisinger\n* Initial prenatal visit prior to 28 weeks gestation\n* Determined to be high risk for preeclampsia based on the modified United States Preventive Services Task Force and American College of Obstetrics and Gynecology criteria (at least 1 high risk factor)\n\nExclusion Criteria:\n\n* Not pregnant\n* No prenatal visit prior to 28 weeks gestation\n* Maternal-Fetal Medicine only visits\n* Not meeting the modified USPSTF high-risk criteria\n* Contraindication to aspirin, including allergy",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "A. Dhanya Mackeen, MD, MPH",
+                    "role": "CONTACT",
+                    "phone": "570-714-1099",
+                    "email": "admackeen@geisinger.edu"
+                },
+                {
+                    "name": "Amir Goren, PhD",
+                    "role": "CONTACT",
+                    "phone": "570-214-4395",
+                    "email": "agoren@geisinger.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "A. Dhanya Mackeen, MD, MPH",
+                    "affiliation": "Geisinger Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Geisinger Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Danville",
+                    "state": "Pennsylvania",
+                    "zip": "17822",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "A. Dhanya Mackeen, MD, MPH",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.96342,
+                        "lon": -76.61273
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "34581729",
+                    "type": "BACKGROUND",
+                    "citation": "US Preventive Services Task Force; Davidson KW, Barry MJ, Mangione CM, Cabana M, Caughey AB, Davis EM, Donahue KE, Doubeni CA, Kubik M, Li L, Ogedegbe G, Pbert L, Silverstein M, Simon MA, Stevermer J, Tseng CW, Wong JB. Aspirin Use to Prevent Preeclampsia and Related Morbidity and Mortality: US Preventive Services Task Force Recommendation Statement. JAMA. 2021 Sep 28;326(12):1186-1191. doi: 10.1001/jama.2021.14781."
+                },
+                {
+                    "pmid": "29939940",
+                    "type": "BACKGROUND",
+                    "citation": "ACOG Committee Opinion No. 743: Low-Dose Aspirin Use During Pregnancy. Obstet Gynecol. 2018 Jul;132(1):e44-e52. doi: 10.1097/AOG.0000000000002708."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "Prot_SAP",
+                    "hasProtocol": true,
+                    "hasSap": true,
+                    "hasIcf": false,
+                    "label": "Study Protocol and Statistical Analysis Plan",
+                    "date": "2023-06-05",
+                    "uploadDate": "2023-06-05T13:08",
+                    "filename": "Prot_SAP_000.pdf",
+                    "size": 139765
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011225",
+                    "term": "Pre-Eclampsia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000046110",
+                    "term": "Hypertension, Pregnancy-Induced"
+                },
+                {
+                    "id": "D000011248",
+                    "term": "Pregnancy Complications"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14106",
+                    "name": "Pre-Eclampsia",
+                    "asFound": "Preeclampsia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7633",
+                    "name": "Eclampsia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10024",
+                    "name": "Hypertension",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25635",
+                    "name": "Hypertension, Pregnancy-Induced",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2019",
+                    "name": "Eclampsia",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4548",
+                    "name": "Aspirin",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Antipy",
+                    "name": "Antipyretics"
+                },
+                {
+                    "abbrev": "Infl",
+                    "name": "Anti-Inflammatory Agents"
+                },
+                {
+                    "abbrev": "ARhu",
+                    "name": "Antirheumatic Agents"
+                },
+                {
+                    "abbrev": "FiAg",
+                    "name": "Fibrinolytic Agents"
+                },
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "PlAggInh",
+                    "name": "Platelet Aggregation Inhibitors"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

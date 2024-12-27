@@ -1,0 +1,296 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03008291",
+            "orgStudyIdInfo": {
+                "id": "16-005100"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "His Bundle Pacing in Bradycardia and Heart Failure",
+            "officialTitle": "His Bundle Pacing in Bradycardia and Heart Failure",
+            "therapeuticArea": [
+                "Cardiovascular",
+                "Other"
+            ],
+            "study": "his-bundle-pacing-in-bradycardia-and-heart-failure"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2016-10"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-11-02",
+            "studyFirstSubmitQcDate": "2016-12-30",
+            "studyFirstPostDateStruct": {
+                "date": "2017-01-02",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2024-01-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Yong-Mei Cha",
+                "investigatorTitle": "M.D., Professor of Medicine",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Yong-Mei Cha",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Participants in this study will either have heart failure (HF) and are scheduled to undergo pace maker (PM) implantation, cardiac resynchronization therapy pacemaker (CRT-P), cardiac resynchronization therapy defibrillator (CRT-D) implantation, His bundle pacing (HIBP) or left bundle area pacing (LBAP) (including HIBP/LBAP for patients with HF, for patients who have failed CRT implant or patients who are CRT non-responders), or have atrioventricular (AV) block or bradycardia and are scheduled to undergo dual chamber pacemaker implantation. In this study additional heart rhythm measurements will be collected during the implant procedure to better understand how His bundle and/or parahisian pacing (HISP) effects electrical conduction in the hearts of patients with HF or AV block.\n\nThe hypothesis is that His bundle or parahisian pacing (HISP) and left bundle area pacing (LBAP) may normalize atrioventricular (AV) conduction with a narrow combination of the Q wave, R wave and S wave (QRS complex) in functional bundle branch block or conduction delay in patients with heart failure (HF)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Bradycardia",
+                "Heart Failure"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Heart Failure Group",
+                    "description": "Patients who have any QRS duration and left ventricular ejection fraction (LVEF) \u2264 50% will be enrolled in this arm. The primary care physician will have recommended either PM, CRT-D Implantation, CRT-P Implantation, HIBP or LBAP (including HIBP/LBAP for patients with HF, for patients who have failed CRT implant or patients who are CRT non-responders) . (This is Standard of Care for this patient population; the procedures will occur even if the patient does not participate in the study.)",
+                    "interventionNames": [
+                        "Procedure: CRT-D Implantation",
+                        "Procedure: CRT-P Implantation"
+                    ]
+                },
+                {
+                    "label": "Atrioventricular Block/Bradycardia Group",
+                    "description": "Patients who have developed second or third degree atrioventricular block (AV block) or bradycardia will be enrolled in this arm. The primary care physician will have recommended dual chamber pacemaker implantation. (This is Standard of Care for this patient population; the procedures will occur even if the patient does not participate in the study.)",
+                    "interventionNames": [
+                        "Procedure: Dual Chamber Pacemaker Implantation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "CRT-D Implantation",
+                    "description": "Cardiac resynchronization therapy defibrillator",
+                    "armGroupLabels": [
+                        "Heart Failure Group"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "CRT-P Implantation",
+                    "description": "Cardiac resynchronization therapy pacemaker",
+                    "armGroupLabels": [
+                        "Heart Failure Group"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Dual Chamber Pacemaker Implantation",
+                    "armGroupLabels": [
+                        "Atrioventricular Block/Bradycardia Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "QRS duration as measured by 12-lead ECG",
+                    "description": "The normal duration (interval) of the QRS complex is 0.08 and 0.10 seconds (80 and 100 ms). When the duration is between 0.10 and 0.12 seconds it is intermediate or slightly prolonged. A QRS duration of greater than 0.12 seconds is considered abnormal.",
+                    "timeFrame": "Baseline to 6 months"
+                },
+                {
+                    "measure": "QRS morphology as measured by 12-lead ECG",
+                    "description": "Normal QRS width is 70-100 ms (a duration of 110 ms is sometimes observed in healthy subjects). The QRS width is useful in determining the origin of each QRS complex (e.g. sinus, atrial, junctional or ventricular).",
+                    "timeFrame": "Baseline to 6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nHF Group\n\n* Clinically recommended to undergo PM, CRT-P, or CRT-D implantation or HIBP/LBAP (including HIBP/LBAP for patients with HF, for patients who have failed CRT implant or patients who are CRT non-responders)\n* Any QRS duration\n* LVEF \u2264 50%\n\nAV Block/Bradycardia Group\n\n* Recommended to undergo dual chamber pacemaker implantation\n* Second or third degree AV block or Sinus Bradycardia\n\nExclusion Criteria:\n\n* Age \\< 18 years\n* Pregnant",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Subjects will be recruited from the heart clinic at Mayo Clinic in Rochester, Minnesota.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Yong-Mei Cha, M.D.",
+                    "role": "CONTACT",
+                    "phone": "(507) 255-2440",
+                    "email": "ycha@mayo.edu"
+                },
+                {
+                    "name": "Brian W Liddell, B.A.",
+                    "role": "CONTACT",
+                    "phone": "(507) 255-8717",
+                    "email": "Liddell.Brian@Mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Yong-Mei Cha, M.D.",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Yong-mei Cha",
+                            "role": "CONTACT",
+                            "phone": "507-255-2440",
+                            "email": "ycha@mayo.edu"
+                        },
+                        {
+                            "name": "Brian Liddel",
+                            "role": "CONTACT",
+                            "phone": "(507) 255-8717",
+                            "email": "Liddell.Brian@mayo.edu"
+                        },
+                        {
+                            "name": "Yong-Mei Cha",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                },
+                {
+                    "id": "D000001919",
+                    "term": "Bradycardia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5196",
+                    "name": "Bradycardia",
+                    "asFound": "Bradycardia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

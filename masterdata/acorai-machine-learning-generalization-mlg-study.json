@@ -1,0 +1,413 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05835024",
+            "orgStudyIdInfo": {
+                "id": "ASDC-1"
+            },
+            "organization": {
+                "fullName": "Acorai AB",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Acorai Machine Learning Generalization (MLG) Study",
+            "officialTitle": "A Multi-Site Observational Clinical Investigation to Collect Non-invasive Sensor Data During a Right Heart Catheterization and Train Machine Learning Models to Estimate Intracardiac Hemodynamic Parameters Evaluation of a Novel maChine leArning Model's Performance for Non-invasive inTracardiac pressURE Monitoring in Heart Failure - The CAPTURE-HF Trial",
+            "acronym": "CAPTURE-HF",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "acorai-machine-learning-generalization-mlg-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-18",
+            "studyFirstSubmitQcDate": "2023-04-18",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-30",
+                "type": "ESTIMATED"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Acorai AB",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Acorai is developing a non-invasive monitoring system for the estimation of intracardiac hemodynamic parameters in patients with suspected or confirmed heart failure, and/or pulmonary hypertension, who require hemodynamic assessment. The device will be intended as a companion test or clinical decision support tool to be used and interpreted by qualified healthcare professionals to aid standard-of-care clinical assessment in identifying hemodynamic congestion and supporting personalized treatment of heart failure and pulmonary congestion.\n\nThis study is part of the development of a non-invasive monitoring system for the estimation of intracardiac hemodynamic parameters. It will be conducted to collect the data needed to train the machine learning models retrospectively."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Participants phase 1",
+                    "description": "Phase 1: patients enrolled for a right heart catheterization procedure as part of their standard of care.",
+                    "interventionNames": [
+                        "Device: Acorai Sensor Data Collection (ASDC) system 1.0 - Phase 1"
+                    ]
+                },
+                {
+                    "label": "Participants phase 2",
+                    "description": "Phase 2: patients enrolled for a right heart catheterization procedure as part of their standard of care.",
+                    "interventionNames": [
+                        "Device: Acorai Sensor Data Collection (ASDC) system 1.0 - Phase 2"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Acorai Sensor Data Collection (ASDC) system 1.0 - Phase 1",
+                    "description": "A supervised session that includes 10 minutes of patient information entry, 5 minutes of sensor recording time and 10 minutes of margin for setting up the system and patient, thus a total evaluation duration of approximately 25 minutes prior to the Right Heart Catheterization.\n\nNo follow-up period for the subjects will be required for this clinical investigation. Patients will be followed as per standard of care, at the hospital.\n\nA single follow-up observational data collection will be conducted at 90 days, to collect the number of unplanned hospitalizations since the procedure visit. This does not involve active patient participation.",
+                    "armGroupLabels": [
+                        "Participants phase 1"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Acorai Sensor Data Collection (ASDC) system 1.0 - Phase 2",
+                    "description": "A supervised session that includes 10 minutes of patient information entry, 5 minutes of sensor recording time and 10 minutes of margin for setting up the system and patient, thus a total evaluation duration of approximately 25 minutes prior to the Right Heart Catheterization.\n\nNo follow-up period for the subjects will be required for this clinical investigation. Patients will be followed as per standard of care, at the hospital.",
+                    "armGroupLabels": [
+                        "Participants phase 2"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Performance of ML model to estimate pressure",
+                    "description": "Performance of the ML model trained on data collected from the ASDC System to estimate left-sided filling pressure compared to right heart catheterization.",
+                    "timeFrame": "Day 0 to Day 90"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Abnormal RHC measurements to estimate other hemodynamic parameters",
+                    "description": "The performance of the ML model trained on data collected from the ASDC System to estimate other hemodynamic parameters (such as right atrial pressure) compared to right heart catheterization.",
+                    "timeFrame": "Day 0 to Day 90"
+                },
+                {
+                    "measure": "Diagnostic accuracy of ML model",
+                    "description": "The diagnostic accuracy of the ML model trained on data collected from the ASDC System to detect clinically significant abnormal right heart catheterization measurements.",
+                    "timeFrame": "Day 0 to Day 90"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subject is, at least, 18 years of age at the time of screening visit.\n* Subject is willing and physically able to comply with the specified evaluations as per the clinical investigation plan, as assessed by the investigator.\n* Subject is referred for invasive hemodynamic assessment with right heart cardiac catheterization.\n* Patient has provided written informed consent using the Ethics Committee/ Institutional Review Board approved consent form.\n\nExclusion Criteria:\n\n* Discretionary exclusion when, in the opinion of the investigator, the inclusion of a potential subject is not in their best interest or not in the interest of compliant performance of the clinical investigation.\n* Subjects who are pregnant are excluded in the US",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients enrolled for a right heart catheterization procedure as part of their standard of care.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Rita Peixoto",
+                    "role": "CONTACT",
+                    "phone": "+46 0704097192",
+                    "email": "mlg@acorai.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Conway Regional Cardiovascular Clinic",
+                    "status": "RECRUITING",
+                    "city": "Conway",
+                    "state": "Arkansas",
+                    "zip": "72034",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.0887,
+                        "lon": -92.4421
+                    }
+                },
+                {
+                    "facility": "Baptist Health Medical Centre",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Little Rock",
+                    "state": "Arkansas",
+                    "zip": "72205",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.74648,
+                        "lon": -92.28959
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Jacksonville",
+                    "state": "Florida",
+                    "zip": "32224",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.33218,
+                        "lon": -81.65565
+                    }
+                },
+                {
+                    "facility": "Cleveland Clinic Martin Health",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Stuart",
+                    "state": "Florida",
+                    "zip": "34994",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 27.19755,
+                        "lon": -80.25283
+                    }
+                },
+                {
+                    "facility": "Saint Luke's Hospital of Kansas City",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Kansas City",
+                    "state": "Missouri",
+                    "zip": "641111",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.09973,
+                        "lon": -94.57857
+                    }
+                },
+                {
+                    "facility": "WakeMed",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Raleigh",
+                    "state": "North Carolina",
+                    "zip": "27610",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.7721,
+                        "lon": -78.63861
+                    }
+                },
+                {
+                    "facility": "University of Pennsylvania",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Medical University of South Carolina (MUSC)",
+                    "status": "RECRUITING",
+                    "city": "Charleston",
+                    "state": "South Carolina",
+                    "zip": "29425",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.77657,
+                        "lon": -79.93092
+                    }
+                },
+                {
+                    "facility": "Austin Heart Central and San Marcos",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Austin",
+                    "state": "Texas",
+                    "zip": "78756",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.26715,
+                        "lon": -97.74306
+                    }
+                },
+                {
+                    "facility": "Austin Heart Round Rock",
+                    "status": "RECRUITING",
+                    "city": "Austin",
+                    "state": "Texas",
+                    "zip": "78756",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.26715,
+                        "lon": -97.74306
+                    }
+                },
+                {
+                    "facility": "Onze-Lieve-Vrouwziekenhuis (OLV) Hospital Aalst",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Aalst",
+                    "country": "Belgium",
+                    "geoPoint": {
+                        "lat": 50.93604,
+                        "lon": 4.0355
+                    }
+                },
+                {
+                    "facility": "University of Ottawa Heart Institute",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Ottawa",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 45.41117,
+                        "lon": -75.69812
+                    }
+                },
+                {
+                    "facility": "Mount Sinai Hospital Toronto",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "Toronto General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                },
+                {
+                    "facility": "Rigshospitalet, University Hospital of Copenhagen",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Copenhagen",
+                    "country": "Denmark",
+                    "geoPoint": {
+                        "lat": 55.67594,
+                        "lon": 12.56553
+                    }
+                },
+                {
+                    "facility": "Sahlgrenska university hospital",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Gothenburg",
+                    "country": "Sweden",
+                    "geoPoint": {
+                        "lat": 57.70716,
+                        "lon": 11.96679
+                    }
+                },
+                {
+                    "facility": "Royal Brompton and Harefield Hospitals",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "London",
+                    "country": "United Kingdom",
+                    "geoPoint": {
+                        "lat": 51.50853,
+                        "lon": -0.12574
+                    }
+                },
+                {
+                    "facility": "Southampton University Hospital",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Southampton",
+                    "country": "United Kingdom",
+                    "geoPoint": {
+                        "lat": 50.90395,
+                        "lon": -1.40428
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

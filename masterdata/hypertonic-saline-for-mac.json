@@ -1,0 +1,570 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04921943",
+            "orgStudyIdInfo": {
+                "id": "MAC-HS"
+            },
+            "organization": {
+                "fullName": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Hypertonic Saline for MAC",
+            "officialTitle": "Hypertonic Saline for Treatment of Pulmonary Mycobacterium Avium Complex (MAC) Disease",
+            "therapeuticArea": [
+                "Respiratory",
+                "Infectious Diseases"
+            ],
+            "study": "hypertonic-saline-for-mac"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-05-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-06-04",
+            "studyFirstSubmitQcDate": "2021-06-04",
+            "studyFirstPostDateStruct": {
+                "date": "2021-06-10",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-19",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kevin Winthrop",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Oregon Health and Science University"
+            },
+            "leadSponsor": {
+                "name": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "NTM Info & Research, Inc.",
+                    "class": "UNKNOWN"
+                },
+                {
+                    "name": "University Health Network, Toronto",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "New York University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The MAC-HS study is a testing whether hypertonic saline helps improve symptoms and clearance of mycobacteria in patients with M. avium complex lung infections.",
+            "detailedDescription": "The MAC-HS study is an open label, randomized control trial of hypertonic saline in pulmonary M. avium complex patients. Eligible patients who consent to participate will be randomized 1:1 to hypertonic saline or standard of care for 12 weeks. All patients in the treatment group will take inhaled hypertonic saline twice daily for 12 weeks. Patients may continue with other airway clearance methods (i.e. flutter, acapella valve, aerobika, postural drainage, huff cough, percussion). Patients may also be treated with antibiotics targeted at other pathogens if an exacerbation occurs. Patients may also be actively treated with inhaled corticosteroid at the time of enrollment, with dosing adjustments during the trial discouraged. Patients with disease progression at any time can be discontinued from the study treatment and treated according to ATS/IDSA guidelines at the discretion of the primary investigator. However, such patients will still complete the 12 week final visit, sputum collection and AE assessment."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Nontuberculous Mycobacterial Lung Disease",
+                "Nontuberculous Mycobacterium Infection"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 50,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Hypertonic saline",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients who randomize to the hypertonic saline arm will be prescribed a nebulizer device to nebulize hypertonic saline (7%) twice daily for 12 weeks. Hypertonic saline (3%) can be prescribed in the case of poor tolerability of the 7% solution.",
+                    "interventionNames": [
+                        "Drug: Hypertonic saline"
+                    ]
+                },
+                {
+                    "label": "Standard of Care",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Patients who randomize to the standard of care arm will receive treatment for pulmonary MAC based on the approved ATS/IDSA guidelines. Changes to standard of care regimen may be made based on the investigator's discretion.",
+                    "interventionNames": [
+                        "Drug: Azithromycin",
+                        "Drug: Ethambutol",
+                        "Drug: Rifampin"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Hypertonic saline",
+                    "description": "Nebulizing with 7% hypertonic saline twice daily for 12 weeks.",
+                    "armGroupLabels": [
+                        "Hypertonic saline"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Azithromycin",
+                    "description": "Standard of care",
+                    "armGroupLabels": [
+                        "Standard of Care"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Ethambutol",
+                    "description": "Standard of care",
+                    "armGroupLabels": [
+                        "Standard of Care"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Rifampin",
+                    "description": "Standard of care",
+                    "armGroupLabels": [
+                        "Standard of Care"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Culture conversion",
+                    "description": "At least two negative AFB cultures on different days.",
+                    "timeFrame": "12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Semi-quantitative culture results",
+                    "description": "Evaluate acid fast bacilli (AFB) smear results to see if there is a decreased mycobacterial load (i.e. AFB smear 4+ decreasing to 3+).",
+                    "timeFrame": "12 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 2 positive MAC sputum cultures in the last 12 months with at least one AFB positive sputum obtained within 12 weeks prior to randomization\n* Meet American Thoracic Society (ATS)/ Infectious Disease Society of America (IDSA) 2007 pulmonary clinical disease criteria\\[1\\]\n* Age 18 and older\n* Diagnosis of Bronchiectasis and/or bronchiectatic findings evident on chest CT report\n* Ability to provide informed consent\n\nExclusion Criteria:\n\n* Any patient who is unwilling or unable to provide consent or to comply with this protocol\n* Cavitary NTM disease\n* Patients who are currently taking or within the prior 6 months received any of the following: bedaquiline, or any component of ATS/IDSA multi-drug recommended therapy (macrolide, ethambutol, rifampin) for MAC treatment\n* Diagnosis of HIV\n* Diagnosis of Cystic fibrosis\n* Active pulmonary tuberculosis, fungal, or nocardial disease requiring treatment at screening\n* Current use of chronic systemic corticosteroids at doses of 15 mg/day for more than 3 months\n* Prior lung or other solid organ transplant",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Daniel Bouchat",
+                    "role": "CONTACT",
+                    "phone": "503-494-1859",
+                    "email": "johdanie@ohsu.edu"
+                },
+                {
+                    "name": "Haley Miller",
+                    "role": "CONTACT",
+                    "phone": "503-346-1548",
+                    "email": "millehal@ohsu.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "NYU Langone Health",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Danielle Harris",
+                            "role": "CONTACT",
+                            "phone": "212-263-7951",
+                            "email": "Danielle.Harris@nyulangone.org"
+                        },
+                        {
+                            "name": "Doreen Addrizzo-Harris, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Oregon Health & Science University",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel Bouchat",
+                            "role": "CONTACT",
+                            "phone": "503-494-2568",
+                            "email": "johdanie@ohsu.edu"
+                        },
+                        {
+                            "name": "Gina Megson, MPH",
+                            "role": "CONTACT",
+                            "phone": "(503) 494-2565",
+                            "email": "megson@ohsu.edu"
+                        },
+                        {
+                            "name": "Kevin L Winthrop, MD, MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                },
+                {
+                    "facility": "University Health Network",
+                    "status": "RECRUITING",
+                    "city": "Toronto",
+                    "state": "Ontario",
+                    "zip": "ON M5G",
+                    "country": "Canada",
+                    "contacts": [
+                        {
+                            "name": "Matty Mehrabi",
+                            "role": "CONTACT",
+                            "phone": "416-603-5726",
+                            "email": "Matty.Mehrabi@uhn.ca"
+                        },
+                        {
+                            "name": "Theodore Marras, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.70011,
+                        "lon": -79.4163
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009164",
+                    "term": "Mycobacterium Infections"
+                },
+                {
+                    "id": "D000009165",
+                    "term": "Mycobacterium Infections, Nontuberculous"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000000193",
+                    "term": "Actinomycetales Infections"
+                },
+                {
+                    "id": "D000016908",
+                    "term": "Gram-Positive Bacterial Infections"
+                },
+                {
+                    "id": "D000001424",
+                    "term": "Bacterial Infections"
+                },
+                {
+                    "id": "D000001423",
+                    "term": "Bacterial Infections and Mycoses"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "asFound": "Lung Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12119",
+                    "name": "Mycobacterium Infections",
+                    "asFound": "Mycobacterium Infections",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12120",
+                    "name": "Mycobacterium Infections, Nontuberculous",
+                    "asFound": "Nontuberculous Mycobacterium Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17970",
+                    "name": "Mycobacterium avium-intracellulare Infection",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4722",
+                    "name": "Bacterial Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19252",
+                    "name": "Gram-Positive Bacterial Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12136",
+                    "name": "Mycoses",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4721",
+                    "name": "Bacterial Infections and Mycoses",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3977",
+                    "name": "Mycobacterium Avium Complex Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4163",
+                    "name": "Nontuberculous Mycobacterial Lung Disease",
+                    "asFound": "Nontuberculous Mycobacterial Lung Disease",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000017963",
+                    "term": "Azithromycin"
+                },
+                {
+                    "id": "D000012293",
+                    "term": "Rifampin"
+                },
+                {
+                    "id": "D000004977",
+                    "term": "Ethambutol"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000900",
+                    "term": "Anti-Bacterial Agents"
+                },
+                {
+                    "id": "D000000890",
+                    "term": "Anti-Infective Agents"
+                },
+                {
+                    "id": "D000000904",
+                    "term": "Antibiotics, Antitubercular"
+                },
+                {
+                    "id": "D000000995",
+                    "term": "Antitubercular Agents"
+                },
+                {
+                    "id": "D000007917",
+                    "term": "Leprostatic Agents"
+                },
+                {
+                    "id": "D000019384",
+                    "term": "Nucleic Acid Synthesis Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000065695",
+                    "term": "Cytochrome P-450 CYP2B6 Inducers"
+                },
+                {
+                    "id": "D000065693",
+                    "term": "Cytochrome P-450 Enzyme Inducers"
+                },
+                {
+                    "id": "D000065696",
+                    "term": "Cytochrome P-450 CYP2C8 Inducers"
+                },
+                {
+                    "id": "D000065697",
+                    "term": "Cytochrome P-450 CYP2C19 Inducers"
+                },
+                {
+                    "id": "D000065698",
+                    "term": "Cytochrome P-450 CYP2C9 Inducers"
+                },
+                {
+                    "id": "D000065701",
+                    "term": "Cytochrome P-450 CYP3A Inducers"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15118",
+                    "name": "Rifampin",
+                    "asFound": "Color",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20132",
+                    "name": "Azithromycin",
+                    "asFound": "Fasting",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8125",
+                    "name": "Ethambutol",
+                    "asFound": "Listen",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4222",
+                    "name": "Anti-Bacterial Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4214",
+                    "name": "Anti-Infective Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4224",
+                    "name": "Antibiotics, Antitubercular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4311",
+                    "name": "Antitubercular Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

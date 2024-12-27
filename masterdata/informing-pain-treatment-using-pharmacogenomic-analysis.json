@@ -1,0 +1,260 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06511401",
+            "orgStudyIdInfo": {
+                "id": "IRB24-0700"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "1R01HG012273-01A1",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/1R01HG012273-01A1"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Chicago",
+                "class": "OTHER"
+            },
+            "briefTitle": "Informing Pain Treatment Using Pharmacogenomic Analysis",
+            "officialTitle": "C-PAIN: Catalyzing Pharmacogenomic Analysis for Informing Pain Treatment",
+            "acronym": "C-PAIN",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "informing-pain-treatment-using-pharmacogenomic-analysis"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2025-02",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-07-05",
+            "studyFirstSubmitQcDate": "2024-07-15",
+            "studyFirstPostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Chicago",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Human Genome Research Institute (NHGRI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a randomized, prospective study to evaluate the effects of preemptive pharmacogenomic (PGx) testing on opioid dosing decisions/selections and pain score in cancer patients."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Analgesia",
+                "Cancer",
+                "CYP2D6"
+            ],
+            "keywords": [
+                "Pharmacogenomic",
+                "Opioids"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 800,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "PGx Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "PGX information is provided to clinicals to inform opioid dosing and selection.",
+                    "interventionNames": [
+                        "Other: Pharmacogenomic (PGx) results."
+                    ]
+                },
+                {
+                    "label": "Control Arm",
+                    "type": "NO_INTERVENTION",
+                    "description": "No PGX information provided opioid dosing and selection is according to standard of care."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Pharmacogenomic (PGx) results.",
+                    "description": "These results are designed to provide specific dosing information based on the participant's unique genetics/genomics.",
+                    "armGroupLabels": [
+                        "PGx Arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Pain control.",
+                    "description": "Measuring changes in composite pain intensity rating via the numeric rating scale:\n\n* Brief Pain Inventory-Short Form (BPI-SF)\n* Score range: 0 (no pain) to 10 (most pain)\n* Composite pain intensity score (mean of worst, least, average, and current pain)\n\nFrom baseline to day 45 in patients receiving an index opioid prescription for codeine, tramadol, or hydrocodone.",
+                    "timeFrame": "45 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Pain Medication Regimen Changes",
+                    "description": "Pain medication regimen changes will be assessed for patients who were taking an opioid metabolized primarily by CYP2D6. Pain medication regimen changes from baseline to day 45. The timing of subsequent changes in pain regimes after initial opioid selection will also be recorded.",
+                    "timeFrame": "45 days"
+                },
+                {
+                    "measure": "Hospitalization or Emergency Visit for Pain Control",
+                    "description": "The rates of hospitalization and emergency room visits for pain are examined with the rates of increased utilization of health care resources, such as emergency department visits, hospitalizations, and pain consultations. Rates of hospitalization or emergency room visits from baseline to day 45.",
+                    "timeFrame": "45 days"
+                },
+                {
+                    "measure": "Cumulative Morphine",
+                    "description": "Cumulative Morphine Equivalents will be defined as total amount of opioids taken by a patient that is converted into its morphine equivalent. Dose and frequency of each opioid given during 45 days after its index prescription will be considered during calculation to give final values, which will be compared to Cumulative Morphine Equivalents for Control arms treated per standard of care.",
+                    "timeFrame": "45 days"
+                },
+                {
+                    "measure": "Composite Pain Intensity",
+                    "description": "Composite Pain Intensity will represent a singular score that amalgamates the worst, least, average, and current pain scores, calculated by taking their mean. Each score will be assessed using numeric rating scale from Brief Pain Inventory-Short Form (BPI-SF). A composite pain intensity score (mean of worst, least, average, and current pain) will be used.",
+                    "timeFrame": "45 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Persons receiving ongoing oncology care at the University of Chicago Medical Center for whom near-future pain opioid pain medication therapy is anticipated\n* Subjects must be at least 18 years of age.\n\nExclusion Criteria:\n\n* Subjects taking an opioid at the time of enrollment, or within the past 30 days\n* Subjects who are currently undergoing palliative radiation\n* Subjects who have undergone, or are being actively considered for, bone marrow, liver or kidney transplantation.\n* Subjects with a history of or active blood cancer (e.g., leukemia).\n* Chronic kidney disease, as defined by Glomerular filtration rate (GFR) \\< 30/mL/min/1.73m2, due to the risk of decreased drug excretion.\n* Liver dysfunction, as defined by the following laboratory values, due to the risk of decreased drug metabolism: Total bilirubin greater than or equal to1.5 mg/dL, Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT) greater than or equal to 2.5 X upper limit of normal\\*. (\\*Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT) \\\\ greater than or equal to 5 X upper limit of normal if hepatic metastases are present).\n* Inability to understand and give informed consent to participate in the opinion of the investigator\n* Subjects who are known to be pregnant at the time of enrollment\n* Subjects who are enrolled in other Pharmacogenomic (PGx) studies",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Clinical Trials Intake",
+                    "role": "CONTACT",
+                    "phone": "1-855-702-8222",
+                    "email": "cancerclinicaltrials@bsd.uchicago.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Peter H O'Donnell",
+                    "affiliation": "University of Chicago",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Chicago Medicine Comprehensive Cancer Center",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60637",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4033",
+                    "name": "Analgesics, Opioid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,395 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06087198",
+            "orgStudyIdInfo": {
+                "id": "GE-0035"
+            },
+            "organization": {
+                "fullName": "Hikari Dx, Inc.",
+                "class": "OTHER"
+            },
+            "briefTitle": "Clinical Performance Evaluation of T-TAS\u00ae01 HD Chip",
+            "officialTitle": "Clinical Performance Evaluation of T-TAS\u00ae01 HD Chip",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "clinical-performance-evaluation-of-t-tas-hd-chip"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-09-25",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-02-28",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-03-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-11",
+            "studyFirstSubmitQcDate": "2023-10-11",
+            "studyFirstPostDateStruct": {
+                "date": "2023-10-17",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Hikari Dx, Inc.",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Fujimori Kogyo Co., Ltd.",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study is being conducted to validate the clinical performance of the T-TAS 01 HD assay for measurement of thrombogenicity in patients with thrombocytopenia receiving a platelet transfusion.",
+            "detailedDescription": "This study will measure the improvement in thrombogenicity following platelet transfusion in patients with thrombocytopenia, using the T-TAS 01 HD assay, with a comparison with clinical truth, defined as the confirmation of increased platelet count attributed to platelet transfusion. The study will be conducted at a minimum of 3 locations in the United States and will enroll up to 90 subjects with thrombocytopenia and 50 healthy control subjects. The following subject populations will be enrolled into the study (enrollment numbers indicated in parentheses):\n\n* Ostensibly healthy subjects with a normal platelet count and without a history of hemostasis abnormalities, for establishing expected values for quality control (N = up to 50)\n* Subjects with thrombocytopenia who are planned to receive a platelet transfusion who have pre-transfusion and post-transfusion blood samples collected for testing (N = 50; up to 90 will be enrolled in the event that some subjects do not receive platelet transfusions after enrollment) Subjects will be recruited prospectively, and informed consent will be obtained after confirmation that the enrollment criteria described in Section 5a are satisfied. Blood samples will be collected after enrollment, and subject participation will be complete after all blood samples are collected and all necessary information is collected to complete the case report form (CRF). Blood sample testing with the T-TAS 01 and thromboelastography (TEG) assays will occur locally at each investigational site. Other required laboratory measurements (i.e. CBC) will be performed either locally or remotely, depending on the local availability."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Thrombocytopenia"
+            ],
+            "keywords": [
+                "Thrombogenicity",
+                "Platelet transfusion",
+                "In vitro diagnostic",
+                "Bleeding risk"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 140,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Healthy Donors",
+                    "description": "Ostensibly healthy subjects with a normal platelet count and without a history of hemostasis abnormalities, for establishing expected values for quality control",
+                    "interventionNames": [
+                        "Diagnostic Test: T-TAS 01 HD Assay"
+                    ]
+                },
+                {
+                    "label": "Thrombocytopenia Patients",
+                    "description": "Subjects with thrombocytopenia who are planned to receive a platelet transfusion who have pre-transfusion and post-transfusion blood samples collected for testing",
+                    "interventionNames": [
+                        "Diagnostic Test: T-TAS 01 HD Assay"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "T-TAS 01 HD Assay",
+                    "description": "Disposable flow chamber microchip containing thrombogenic path to facilitate thrombus formation and occlusion",
+                    "armGroupLabels": [
+                        "Healthy Donors",
+                        "Thrombocytopenia Patients"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Baseline thrombogenicity",
+                    "description": "Proportion of T-TAS 01 HD area under the curve (AUC) \\< 700",
+                    "timeFrame": "Baseline"
+                },
+                {
+                    "measure": "Improvement in thrombogenicity",
+                    "description": "Difference in proportion of T-TAS 01 HD AUC \\< 700 between pre-transfusion and post-transfusion measurements",
+                    "timeFrame": "Day 1 after platelet transfusion"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Correlation with bleeding risk",
+                    "description": "Comparison of T-TAS 01 HD AUC results stratified by major and minor bleeding according to the modified WHO Bleeding Scale",
+                    "timeFrame": "Day 1 after transfusion"
+                },
+                {
+                    "measure": "Comparison of pre-and post-transfusion thrombogenicity",
+                    "description": "Quantitative comparison of T-TAS 01 HD AUC results before and after platelet transfusion",
+                    "timeFrame": "Day 1 after platelet transfusion"
+                },
+                {
+                    "measure": "Comparison of pre-and post-transfusion thrombogenicity",
+                    "description": "Quantitative comparison of TEG results before and after platelet transfusion",
+                    "timeFrame": "Day 1 after platelet transfusion"
+                },
+                {
+                    "measure": "Prediction of future platelet transfusions",
+                    "description": "Quantitative and qualitative comparison of post-transfusion T-TAS 01 HD results with the number of additional platelet transfusions within the following 14 days",
+                    "timeFrame": "Day 1 after platelet transfusion"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Healthy Donors:\n\nInclusion Criteria:\n\n* Males and females age 18 years or older.\n* Able and willing to provide written informed consent.\n\nExclusion Criteria:\n\n* Hospitalization or doctor's visits within prior 30 days, except for routine checkup/physical examination.\n* Use of antiplatelet therapy within the past 14 days, e.g. aspirin, clopidogrel, prasugrel, ticagrelor, cilostazol.\n* Use of anticoagulant drugs within the past 14 days, e.g. heparin, bivalirudin, warfarin, rivaroxaban, and apixaban.\n* Use of certain nonsteroidal anti-inflammatory drugs (NSAIDs) that inhibit COX-1 such as rofecoxib, etc. within the past 14 days, unless confirmed to not inhibit platelet activity (such as celecoxib).\n* History of anemia.\n* Known thrombocytopenia (platelet count \\< 100,000/\u03bcL).\n* Significant renal dysfunction (eGFR \\< 30 mL/min/1.73 m2) or dialysis.\n* History of platelet disorders e.g. von Willebrand factor deficiency, Glanzmann's thrombasthenia or Bernard-Soulier syndrome.\n* History of hemophilia or bleeding disorders.\n* History of clinically significant bleeding requiring physician consultation or visit to healthcare facility.\n* Females who are in the last trimester of pregnancy or are breastfeeding.\n* Known active gastrointestinal disease including peptic ulcers, gastro-esophageal reflux disease (GERD), and hyperacidity.\n* Currently participating in a study involving an investigational drug or compound known to affect coagulation or hemostasis.\n* Subjects with significant past medical history as determined by the Investigator that would pose safety concerns or interfere with the study goals.\n\nThrombocytopenia Patients\n\nInclusion Criteria:\n\n* Males and females age 18 years or older.\n* Known thrombocytopenia, which may be attributed to any of the following:\n* Immune thrombocytopenia (ITP)\n* Lupus\n* Rheumatoid arthritis\n* Aplastic anemia\n* Thrombotic thrombocytopenic purpura (TTP)\n* Disseminated intravascular coagulation (DIC)\n* Heparin induced thrombocytopenia (HIT)\n* Vaccine-induced thrombotic thrombocytopenia (VITT)\n* Infection\n* Surgery\n* Cancer\n* Other etiologies including trauma, portal hypertension, liver disease, etc.\n* Platelet count \\< 90,000/\u03bcL, confirmed by pre-transfusion CBC\n* Planned platelet transfusion.\n* Able and willing to provide written informed consent\n\nExclusion Criteria:\n\n* Use of antiplatelet therapy within the past 14 days, e.g. aspirin, clopidogrel, prasugrel, ticagrelor, cilostazol, abciximab, eptifibatide within the past 14 days.\n* Use of certain nonsteroidal anti-inflammatory drugs (NSAIDs) known to affect platelet function such as rofecoxib, etc. within the past 14 days, unless confirmed to not inhibit platelet activity (such as celecoxib).\n* Surgical procedure on the same day as the baseline blood sample collection and testing\n* Surgical procedure after baseline sample collection and testing, and prior to completion of all post-transfusion blood sample collection and testing\n* Significant renal dysfunction (eGFR \\< 30 mL/min/1.73 m2) or dialysis.\n* History of platelet disorders e.g. von Willebrand factor deficiency, Glanzmann thrombasthenia or Bernard-Soulier syndrome.\n* History of hemophilia or bleeding disorders.\n* Females who are in the last trimester of pregnancy or are breastfeeding.\n* Known active gastrointestinal disease including peptic ulcers, gastro-esophageal reflux disease (GERD), and hyperacidity.\n* Currently participating in a study involving an investigational drug or compound known to affect coagulation or hemostasis.\n* Subjects with significant past medical history as determined by the Investigator that would pose safety concerns or interfere with the study goals.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "* Ostensibly healthy subjects with a normal platelet count and without a history of hemostasis abnormalities, for establishing expected values for quality control (N = up to 50)\n* Subjects with thrombocytopenia who are planned to receive a platelet transfusion who have pre-transfusion and post-transfusion blood samples collected for testing (N = 50; up to 90 will be enrolled in the event that some subjects do not receive platelet transfusions after enrollment)",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jeffrey Dahlen, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "619-742-0203",
+                    "email": "jeff@hikaridx.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jeffrey Dahlen, Ph.D.",
+                    "affiliation": "Hikari Dx, Inc.",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "San Francisco General Hospital",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94112",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeffrey Dahlen, Ph.D.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                },
+                {
+                    "facility": "University of Colorado Anschutz Medical Campus",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Denver",
+                    "state": "Colorado",
+                    "zip": "80217",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeffrey Dahlen, Ph.D.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.73915,
+                        "lon": -104.9847
+                    }
+                },
+                {
+                    "facility": "Sinai Hospital of Baltimore",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeffrey Dahlen, Ph.D.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "University of Nebraska Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Omaha",
+                    "state": "Nebraska",
+                    "zip": "68198",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeffrey Dahlen, Ph.D.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.25626,
+                        "lon": -95.94043
+                    }
+                },
+                {
+                    "facility": "Duke University",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeffrey Dahlen, Ph.D.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "University of Oklahoma",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Oklahoma City",
+                    "state": "Oklahoma",
+                    "zip": "73104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeffrey Dahlen, Ph.D.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.46756,
+                        "lon": -97.51643
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013921",
+                    "term": "Thrombocytopenia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001791",
+                    "term": "Blood Platelet Disorders"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000095542",
+                    "term": "Cytopenia"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9556",
+                    "name": "Hemorrhage",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16680",
+                    "name": "Thrombocytopenia",
+                    "asFound": "Thrombocytopenia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5072",
+                    "name": "Blood Platelet Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3170",
+                    "name": "Cytopenia",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M9576",
+                    "name": "Hemostatics",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Coag",
+                    "name": "Coagulants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

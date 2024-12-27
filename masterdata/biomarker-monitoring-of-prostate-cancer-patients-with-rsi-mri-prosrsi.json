@@ -1,0 +1,352 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04349501",
+            "orgStudyIdInfo": {
+                "id": "200266"
+            },
+            "organization": {
+                "fullName": "University of California, San Diego",
+                "class": "OTHER"
+            },
+            "briefTitle": "Biomarker Monitoring of Prostate Cancer Patients With RSI MRI (ProsRSI)",
+            "officialTitle": "A Phase II Biomarker Study of Restriction Spectrum Imaging (RSI) MRI in Patients With High-Risk, Localized Prostate Cancer Who Will Receive Radiotherapy and Androgen Deprivation Therapy",
+            "acronym": "ProsRSI",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "biomarker-monitoring-of-prostate-cancer-patients-with-rsi-mri-prosrsi"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-12-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-04-14",
+            "studyFirstSubmitQcDate": "2020-04-14",
+            "studyFirstPostDateStruct": {
+                "date": "2020-04-16",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Tyler Seibert",
+                "investigatorTitle": "Assistant Professor, Radiation Medicine and Applied Sciences",
+                "investigatorAffiliation": "University of California, San Diego"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Diego",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Adult male patients with high-risk, localized prostate cancer and planning to undergo radiation therapy (RT) with androgen deprivation therapy (ADT) will undergo an advanced Magnetic Resonance Imaging (MRI) examination called Restriction Spectrum Imaging (RSI-MRI) to evaluate whether RSI-MRI can predict treatment response.",
+            "detailedDescription": "Participants will undergo RSI at three time points: before therapy (MRI #1), after neoadjuvant ADT (MRI #2), and after radiotherapy (MRI #3). Treatment response will be assessed primarily by absence of biochemical recurrence (PSA \u22652 ng/mL greater than nadir) within 3 years of completing radiotherapy. Change in RSI cellularity index from MRI #1 to MRI #2 will be evaluated for prediction of participants who will experience biochemical recurrence within 3 years, using area under the receiver operating characteristic curve. We hypothesize that RSI cellularity index will be an early biomarker for treatment effectiveness in prostate cancer treated with ADT and radiotherapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "A logistic regression model of biochemical recurrence within 3 years will be fit, using maximum likelihood, on the change in RSI cellularity index from MRI #1 to MRI #2 and relevant covariates such as demographics. Continuous variables will be splined; only main effects will be considered. The cross-validated AUC for this model will be reported with a 95% bootstrap confidence interval using Efron's bias-corrected and accelerated (bca) method. If the lower bound on the 95% confidence interval of the AUC excludes 0.55, RSI cellularity index will be declared \"viable\" for identifying participants who will recur within the three-year post treatment. If declared \"viable\", a Cox model for predicting recurrence time will be fit, and the hazard ratios for RSI will be used to describe the adjusted associations supported by the data between RSI cellularity index and recurrence time.",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "RSI-MRI",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will undergo RSI-MRI at three time points: before androgen deprivation therapy (ADT); after neoadjuvant ADT but before radiation therapy (RT); and after RT.",
+                    "interventionNames": [
+                        "Other: Restriction Spectrum Imaging Magnetic Resonance Imaging"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Restriction Spectrum Imaging Magnetic Resonance Imaging",
+                    "description": "RSI is a multicompartment model of diffusion MRI that uses data acquired at multiple b-values to distinguish varied diffusion speeds (restricted intracellular, hindered extracellular, and approximately free diffusion).",
+                    "armGroupLabels": [
+                        "RSI-MRI"
+                    ],
+                    "otherNames": [
+                        "RSI-MRI"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Biochemical recurrence (PSA 2 ng/mL greater than nadir) within 3 years of completing RT.",
+                    "description": "To evaluate the performance of the RSI cellularity index before and during therapy as a biomarker to identify participants who will experience biochemical recurrence within 3 years post-radiotherapy.",
+                    "timeFrame": "within 3 years of RT completion"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "PSA nadir within the 18 months after RT \u22650.5 ng/mL.",
+                    "description": "To evaluate the performance of the RSI cellularity index for identifying participants who will fail to reach a PSA nadir \\<0.5 ng/mL within 18 months of RT.",
+                    "timeFrame": "within 18 months of RT completion"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male, aged \u226518 years, with histologically confirmed adenocarcinoma of the prostate\n* High-risk prostate cancer (any of: PSA \u226520 ng/mL or cT3-T4 stage or Gleason score \u22658)\n* Intended treatment and follow-up according to standard of care for prostate cancer\n* Planning to undergo definitive radiotherapy with neoadjuvant and concurrent androgen deprivation therapy\n* In good general health as evidenced by medical history and ECOG performance status 0-2\n* Provision of signed and dated informed consent form\n* Stated willingness to comply with all study procedures and availability for the duration of the study\n\nExclusion Criteria:\n\n* Prior radiotherapy to the pelvis\n* Prior treatment for prostate cancer (cryotherapy, high frequency focused ultrasound, prostatectomy)\n* Hip prosthesis\n* Contraindication to MRI, per institutional requirements\n* Technetium-99 bone scan showing no clear evidence of distant metastasis\n* MRI or CT scan of the pelvis showing no clear evidence of bone or distant metastasis\n* Another malignancy, unless in remission or unlikely to impact the patient's survival or ability to receive standard care for prostate cancer (e.g., cutaneous basal cell carcinoma)\n* Patient has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the subject's participation for the full duration of the trial, or is not in the best interest of the subject to participate, in the opinion of the treating investigator.",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "genderBased": true,
+            "genderDescription": "Male subjects undergoing treatment for Prostate Cancer",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Gerald Henderson, BA",
+                    "role": "CONTACT",
+                    "phone": "858-534-4811",
+                    "email": "gehenderson@health.ucsd.edu"
+                },
+                {
+                    "name": "Michelle Padilla",
+                    "role": "CONTACT",
+                    "phone": "858-822-5223",
+                    "email": "mlp002@health.ucsd.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Tyler Seibert, MD, PhD",
+                    "affiliation": "University of California, San Diego",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UCSD Moores Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "La Jolla",
+                    "state": "California",
+                    "zip": "92093",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michelle Padilla",
+                            "role": "CONTACT",
+                            "phone": "858-822-5223",
+                            "email": "mlp002@health.ucsd.edu"
+                        },
+                        {
+                            "name": "Gerald Henderson, BA",
+                            "role": "CONTACT",
+                            "phone": "858-534-4911",
+                            "email": "gehenderson@ucsd.edu"
+                        },
+                        {
+                            "name": "Tyler Seibert, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Andrew Sharabi, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Brent Rose, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "James Urbanic, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Arno Mundt, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ajay Sandhu, MD, DMRT",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "John Einck, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.84727,
+                        "lon": -117.2742
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4059",
+                    "name": "Androgens",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

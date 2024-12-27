@@ -1,0 +1,383 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06234748",
+            "orgStudyIdInfo": {
+                "id": "UMCC 2023.006"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "HUM00231890",
+                    "type": "OTHER",
+                    "domain": "University of Michigan"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Trial of Individualized Adaptive RT in HPV-related High Risk Oropharynx Cancer",
+            "officialTitle": "Pilot Phase II Trial of Individualized Adaptive RT in HPV-related High Risk Oropharynx Cancer",
+            "acronym": "ARTHOUSE",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "trial-of-individualized-adaptive-rt-in-hpv-related-high-risk-oropharynx-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-20",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-12-12",
+            "studyFirstSubmitQcDate": "2024-01-22",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-31",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-31",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan Rogel Cancer Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This study seeks to study the population of HPV-related oropharynx cancer patients that appear to be at highest risk for treatment failure with loco-regional failure and distant metastases including cT4 or cN3. The study team aims to determine if it is feasible to use multi-modality imaging (both DCE MRI and FDG-PET) to optimize the radiation boost in high risk p16+ OPSCC with similar or decreased toxicity compared to historic standard therapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Oropharynx Cancer",
+                "HPV-Related Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Treatment Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients will initially receive a single prescription of 70 Gy to PTVhigh in 35 fractions with RT given once daily, 5 days a week along with weekly platinum (standard therapy). All fields must be treated daily. On days when chemotherapy is given, it will be administered prior to RT. Prescription to high risk PTV will be 70Gy in 35 fractions and to PTV2 will be 56Gy in 35 fractions.",
+                    "interventionNames": [
+                        "Radiation: Radiation",
+                        "Drug: Platinum based chemotherapy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "Radiation",
+                    "description": "Patients will undergo 2 phases of RT replanning:\n\n1. Based on 2-week DCE-MRI low BV tumor subvolume, patients will have a PTVboost1 that will start to receive 2.5Gy/day with fraction 16. PTVboost1=(persistent lowBVsubvolume_2 wks+ MTV3_2 weeks)+ 3mm margin.\n2. Based on 4-week FDG-PET MTV3, patients with have a PTVboost2 cone down that will receive 2.5Gy/day starting with fraction 23. PTVboost2=(LBV_2 wks + MTV3_4wks)+ 3mm margin\n3. Thus, the tumor subvolumes that are included in the boost from fx16-35 will receive 86 Gy EQD2 (80Gy physical dose) and the FDG-avid subvolumes which start boost at 2 weeks but are not persistently avid at 4 wks will receive 76Gy EQD2 (74Gy physical dose).",
+                    "armGroupLabels": [
+                        "Treatment Arm"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Platinum based chemotherapy",
+                    "description": "Standard of care therapy, weekly, with either Cisplatin or Carboplatin",
+                    "armGroupLabels": [
+                        "Treatment Arm"
+                    ],
+                    "otherNames": [
+                        "Cisplatin",
+                        "Carboplatin"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Toxicity of treatment based off of Adverse Events collected per CTCAE v5.0",
+                    "description": "The study team will calculate rates of in-field RT related toxicities including Grade 4+ and Grade 3+ with associated confidence intervals including dysphagia, mucositis, oral pain and oral bleeding events.",
+                    "timeFrame": "up to 3 years from start of treatment"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Tumor size of multi-imagine modality directed RT boost",
+                    "description": "The volume of tumor to be boosted will be calculated for each patient and summarized. Both physiologic MRI and FDG-PET will be used",
+                    "timeFrame": "4 weeks after starting treatment"
+                },
+                {
+                    "measure": "Local regional recurrence free survival",
+                    "description": "The study team will summarize the number of patients with recurrence free survival",
+                    "timeFrame": "up to 3 years from start of treatment"
+                },
+                {
+                    "measure": "Pattern of HPV ctDNA biomarkers in blood",
+                    "description": "The study team will summarize the distribution of candidate biomarkers descriptively at each timepoint and also summarize longitudinal change graphically.",
+                    "timeFrame": "baseline and surveillance, up to 24 months"
+                },
+                {
+                    "measure": "Pattern of HPV ctDNA biomarkers in urine",
+                    "description": "The study team will summarize the distribution of candidate biomarkers descriptively at each timepoint and also summarize longitudinal change graphically.",
+                    "timeFrame": "baseline, treatment, and surveillance, up to 24 months"
+                },
+                {
+                    "measure": "Oral microbiome analysis to compile biomarker information",
+                    "description": "The study team will summarize the distribution of candidate biomarkers descriptively at each timepoint and also summarize longitudinal change graphically.",
+                    "timeFrame": "pre and post treatment, up to 24 months"
+                },
+                {
+                    "measure": "Biomarker analysis from tumor tissue, to compile biomarker information",
+                    "description": "The study team will summarize the distribution of candidate biomarkers descriptively at each timepoint and also summarize longitudinal change graphically.",
+                    "timeFrame": "pretreatment and at 2 weeks"
+                },
+                {
+                    "measure": "MRIs and FDG PET scans- efficacy and toxicity",
+                    "description": "Pre- and mid treatment MRI and PET imaging metrics in the tumor will be correlated with 2 year PFS",
+                    "timeFrame": "up to 2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have pathologically confirmed, locally/regionally advanced p16+ squamous cell carcinoma of the oropharynx referred for definitive chemo-RT\n* AJCC 8 Stage III (cT4 or N3)\n* ECOG 0-1 performance status within two weeks of enrollment\n* Pre-treatment laboratory criteria within four weeks of enrolment: WBC \\> 3500/ul, granulocyte \\> 1500/ul. Platelet count \\> 100,000/ul. Total Bilirubin \\< 1.5 X ULN. AST and ALT \\< 2.5 X ULN. Estimated Creatinine clearance \\>30cc/min\n* Patients must be able to receive protocol chemotherapy in the judgment of the treating Medical Oncologist\n* Age \\>18\n* All patients must be informed of the investigational nature of this study and given written informed consent in accordance with institutional and federal guidelines.\n* Women of childbearing potential and male participants must agree to use a medically effective means of birth control throughout their participation in the treatment phase of the study.\n\nExclusion Criteria:\n\n* Pregnancy or women of childbearing potential and men who are sexually active and not willing/able to use medically acceptable forms of contraception; this exclusion is necessary because the treatment involved in this study may be significantly teratogenic.\n* Patients should have no contraindications to having a contrast enhanced MRI scan. These contraindications will be assessed at the time of enrollment using the guidelines set up and in clinical use by the Institutional Standard Practice.\n* Patients should have no contraindications to having a contrast enhanced PET scan. These contraindications will be assessed at the time of enrollment using the guidelines set up and in clinical use by the Institutional Standard Practice.\n* Prior invasive malignancy (except non-melanomatous skin cancer) unless disease free for a minimum of 3 years (For example, carcinoma in situ of the breast, oral cavity, or cervix are all permissible).\n* Any prior therapy for the study cancer; note that prior chemotherapy for a different cancer is allowable if \\> 3 years prior to study;",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Michelle Mierzwa",
+                    "role": "CONTACT",
+                    "phone": "7349369499",
+                    "email": "mmierzwa@med.umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Michelle Mierzwa",
+                    "affiliation": "University of Michigan Rogel Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan Rogel Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michelle Mierzwa, M.D.",
+                            "role": "CONTACT",
+                            "phone": "734-936-7810",
+                            "email": "mmierzwa@med.umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009959",
+                    "term": "Oropharyngeal Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010610",
+                    "term": "Pharyngeal Neoplasms"
+                },
+                {
+                    "id": "D000010039",
+                    "term": "Otorhinolaryngologic Neoplasms"
+                },
+                {
+                    "id": "D000006258",
+                    "term": "Head and Neck Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000010608",
+                    "term": "Pharyngeal Diseases"
+                },
+                {
+                    "id": "D000009057",
+                    "term": "Stomatognathic Diseases"
+                },
+                {
+                    "id": "D000010038",
+                    "term": "Otorhinolaryngologic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12885",
+                    "name": "Oropharyngeal Neoplasms",
+                    "asFound": "Oropharynx Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13517",
+                    "name": "Pharyngeal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12962",
+                    "name": "Otorhinolaryngologic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13515",
+                    "name": "Pharyngeal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12017",
+                    "name": "Stomatognathic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12961",
+                    "name": "Otorhinolaryngologic Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC07",
+                    "name": "Mouth and Tooth Diseases"
+                },
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002945",
+                    "term": "Cisplatin"
+                },
+                {
+                    "id": "D000016190",
+                    "term": "Carboplatin"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18650",
+                    "name": "Carboplatin",
+                    "asFound": "System",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6182",
+                    "name": "Cisplatin",
+                    "asFound": "Children",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

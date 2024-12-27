@@ -1,0 +1,282 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05687292",
+            "orgStudyIdInfo": {
+                "id": "P00044253"
+            },
+            "organization": {
+                "fullName": "Boston Children's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Application of a Clinical Decision Support System to Reduce Mechanical Ventilation Duration After Cardiac Surgery",
+            "officialTitle": "Application of a Clinical Decision Support System to Reduce Mechanical Ventilation Duration After Cardiac Surgery",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "application-of-a-clinical-decision-support-system-to-reduce-mechanical-ventilation-duration-after-cardiac-surgery"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-03",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-12-21",
+            "studyFirstSubmitQcDate": "2023-01-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-01-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Daniel Hames",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Boston Children's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Boston Children's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "The Brett Boyer Foundation",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this study is to evaluate the impact of a clinical decision support system (CDSS) in children receiving mechanical ventilation (MV) after surgery for congenital heart disease (CHD). The main question it aims to answer is:\n\n-What is the impact of a CDSS designed to facilitate weaning and discontinuation of MV on the duration of MV in post-operative congenital cardiac surgery patients?\n\nParticipants will be identified as eligible to initiate weaning from mechanical ventilation. Providers will decide whether or not to initiate weaning based on recommendations provided by the CDSS. Researchers will compare patients exposed to the CDSS with a historical cohort to see if the CDSS facilitated a decrease in MV duration.",
+            "detailedDescription": "Prolonged mechanical ventilation (MV) in children with congenital heart disease (CHD) is associated with morbidity and mortality. There is no standard approach to weaning MV in CHD patients. Similarly, extubation failure is associated with morbidity and mortality, and there is no existing method for predicting extubation success in CHD patients. The overarching aim of this study is to use a novel clinical decision support system (CDSS) informed by continuous data streams and risk analytics algorithms to facilitate shorter MV duration.\n\nThe CDSS will be built into the T3 Visualization Platform (T3). T3 continuously tracks all inputs from a patient's existing physiologic monitors, ventilator, and laboratory values from the electronic medical record. T3 then graphically displays the data on a single bedside computer/monitor that is updated every 5 seconds. The platform includes three FDA 510(k)-cleared predictive analytics algorithms for estimating the risk of low cardiac output (IDO2), inadequate ventilation (IVCO2), and acidosis (IPH). The investigators for this study have previously evaluated IDO2 and IVCO2 in a retrospective cohort of children receiving MV for greater than or equal to 48 hours following cardiac surgery. This study identified that patients with a low IDO2 and IVCO2 had a higher probability of remaining extubated without the need for reintubation or unplanned use of noninvasive ventilation in the 48 hours following extubation.\n\nThe CDSS will be designed to prompt discussion around timing of ventilator weaning, extubation readiness assessments, and extubation. Recommendations will be informed by the continuous monitoring of a patient and based on trends in vital signs and the risk analytics algorithms.\n\nThis study will be a single center, nonrandomized before and after study with additional quasi-experimental design component using interrupted time-series analysis (with retrospective evaluation of pre-intervention and prospective data collection post-intervention)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Congenital Heart Disease"
+            ],
+            "keywords": [
+                "cardiac surgery",
+                "congenital heart disease",
+                "critical care",
+                "pediatrics",
+                "mechanical ventilation"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 330,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "CDSS Ventilator Weaning Group",
+                    "description": "This group will be exposed to the CDSS to inform weaning and discontinuation of mechanical ventilation.",
+                    "interventionNames": [
+                        "Device: Clinical decision support system (CDSS) for ventilator weaning"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Clinical decision support system (CDSS) for ventilator weaning",
+                    "description": "A clinical decision support system (CDSS) will be integrated into a software program (the T3 platform) that is present on all patient bedside computers. The T3 platform is a tool that compiles data from a patient's existing physiologic monitors, ventilator, and laboratory results and graphically displays them on a bedside monitor. The CDSS will be active on all patients receiving mechanical ventilation, but primary use and evaluation will focus on patients meeting study criteria. Twice daily (on morning rounds and evening rounds), patients will be screened for eligibility. During each rounds, teams will review the CDSS and associated risk analytics data used to inform the associated recommendations for ventilator weaning, extubation readiness assessment, and extubation. The clinical team will consider the CDSS in decision making around ventilator weans. If the decision is made not to follow the CDSS recommendations, the clinician will complete a brief survey with rationale.",
+                    "armGroupLabels": [
+                        "CDSS Ventilator Weaning Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Duration of Mechanical Ventilation",
+                    "description": "Measured in days; Obtained from date/time of initial extubation minus date/time of admission from surgery, divided by 24 to give an exact determination of days",
+                    "timeFrame": "Up to 28 days after surgery"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Unplanned extubation",
+                    "description": "Unplanned extubation during CDSS activation; Occurring between return from surgery and initial planned extubation",
+                    "timeFrame": "From date of surgery until date of first documented extubation, assessed up to 28 days"
+                },
+                {
+                    "measure": "Unplanned use of noninvasive ventilation",
+                    "description": "Patient extubated to room air requiring escalation to positive pressure ventilation",
+                    "timeFrame": "Within 48 hours of extubation"
+                },
+                {
+                    "measure": "Unplanned reintubation",
+                    "description": "Patient requires unplanned replacement of breathing tube",
+                    "timeFrame": "Within 48 hours of extubation"
+                },
+                {
+                    "measure": "Adherence rate by clinical team to CDSS recommendations",
+                    "description": "Clinical team follows recommendations provided by the CDSS for ventilator weaning, extubation readiness test performance, and extubation",
+                    "timeFrame": "From date of CDSS initiation until date of first documented extubation, assessed up to 28 days"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Cardiac intensive care unit length of stay",
+                    "description": "Measured in days",
+                    "timeFrame": "From date of surgery until the date of initial discharge from the cardiac intensive care unit, assessed up to 52 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Children \\< 12 years old\n* Post-cardiac surgery\n* Receiving mechanical ventilation for \u2265 48 hours in the Cardiac Intensive Care Unit at Boston Children's Hospital following surgery\n\nExclusion Criteria:\n\n* Premature infants (\\<37 weeks' gestation)\n* Weight \\< 2kg\n* Baseline ventilator (via tracheostomy) or noninvasive positive pressure dependence",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "1 Day",
+            "maximumAge": "12 Years",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "Neonates, infants, and children with congenital heart disease receiving mechanical ventilation after cardiac surgery.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Daniel L Hames, MD",
+                    "role": "CONTACT",
+                    "phone": "6173554023",
+                    "email": "daniel.hames@cardio.chboston.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel Hames, MD",
+                    "affiliation": "Boston Children's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Boston Children's Hospital",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel Hames, MD",
+                            "role": "CONTACT",
+                            "phone": "617-355-4023",
+                            "email": "daniel.hames@cardio.chboston.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000006330",
+                    "term": "Heart Defects, Congenital"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000018376",
+                    "term": "Cardiovascular Abnormalities"
+                },
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "asFound": "Heart Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9418",
+                    "name": "Heart Defects, Congenital",
+                    "asFound": "Congenital Heart Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20503",
+                    "name": "Cardiovascular Abnormalities",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

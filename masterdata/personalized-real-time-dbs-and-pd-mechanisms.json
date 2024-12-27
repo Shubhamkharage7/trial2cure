@@ -1,0 +1,554 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06013956",
+            "orgStudyIdInfo": {
+                "id": "23-358"
+            },
+            "organization": {
+                "fullName": "The Cleveland Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Personalized Real-Time DBS and PD Mechanisms",
+            "officialTitle": "Identifying Circuit Dynamics Underlying Motor Dysfunction in Parkinson's Disease Using Real-Time Neural Control",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "personalized-real-time-dbs-and-pd-mechanisms"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-22",
+            "studyFirstSubmitQcDate": "2023-08-25",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "David Escobar",
+                "investigatorTitle": "Assistant Staff",
+                "investigatorAffiliation": "The Cleveland Clinic"
+            },
+            "leadSponsor": {
+                "name": "David Escobar",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "The Cleveland Clinic",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "A prospective cohort of patients scheduled to undergo deep brain stimulation (DBS) implantation surgery for the treatment of Parkinson's disease as per standard of care will be invited to participate in this study. This mechanistic study is aimed at better understanding the role of basal ganglia beta band (11-35 Hz) oscillations and resonance in the manifestation of Parkinson's disease (PD) motor signs using closed-loop electrical neurostimulation, levodopa medication, and computational modeling. The ultimate goal of this study is to inform the development of closed-loop neuromodulation technology that can be programmed and adjusted in real time based on patient-specific neural activity.",
+            "detailedDescription": "While much research has been dedicated to understanding the pathophysiology of Parkinson's disease (PD), the neural dynamics underlying the manifestation of motor signs remain unclear. Studies over the past two decades have shown a correlation of the amplitude and incidence of beta band oscillations in the subthalamic nucleus (STN) and internal segment of the globus pallidus (GPi) with changes in bradykinesia and rigidity mediated by levodopa or deep brain stimulation (DBS) therapies. Yet, no study has conclusively or deductively demonstrated a causal link. A limitation to establishing causality is the lack of available neuromodulation tools capable of predictably and precisely controlling neural oscillatory activity in the human brain in real time without introducing confounding factors. Establishing these tools and clarifying whether the relationship of beta band oscillations with PD motor signs is causal or epiphenomenon are critical steps to better understand PD pathophysiology and advance personalized DBS technology in PD and other brain conditions. This study aims to address these technology and knowledge gaps by leveraging feedback control engineering and patient-specific computational modeling tools.\n\nIn this study, the investigators will employ a neural control approach, referred to as evoked interference closed-loop DBS (eiDBS), to characterize the degree by which controlled suppression or amplification of beta oscillations in the STN and GPi influences bradykinesia and rigidity in PD (Specific Aim 1, SA1). The investigators will test the hypothesis that stimulation-induced suppression or amplification of beta oscillations in the STN or GPi will result in changes in bradykinesia and rigidity measures. In SA2, the investigators will employ levodopa medication to characterize how changes in bradykinesia and rigidity relate to variations in the amplitude of neural oscillations in the STN, GPi, and primary motor cortex (MC) evoked by STN and GPi stimulation. The investigators will test the hypothesis that levodopa administration will result in a decrease in the amplitude of stimulation-evoked beta oscillations that will correlate with changes in bradykinesia and rigidity. The results from SA2 will help to gain a greater understanding of intrinsic circuit dynamics associated with PD and identify strategies to optimize closed-loop DBS algorithms (e.g., eiDBS) in the face of concurrent levodopa therapy, a step to bring this technology to future clinical trials. Combining electrophysiological data with high-resolution (7T) magnetic resonance (MR) imaging and computational modeling, the investigators will examine which specific neuronal pathways connected with the STN and GPi need to be activated to evoke frequency-specific neural responses in the STN, GPi, and MC (SA3). The data from SA3 will shed light on which sub-circuits are involved in the generation of stimulation-evoked and spontaneous beta oscillations in PD, and inform how to use directional DBS leads to shape electric fields in the STN and GPi to selectively modulate the STN or GPi via eiDBS or other neurostimulation techniques. The investigators will address the three aims of this study with the participation of PD patients implanted with DBS leads in the STN or GPi, whose DBS lead extensions will be externalized and connected to our recording and closed-loop stimulation infrastructure."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Parkinson Disease"
+            ],
+            "keywords": [
+                "Deep Brain Stimulation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "Each participant is assigned to four different conditions. Kinematic, behavioral, and neurophysiological variables are compared across the conditions.",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "maskingDescription": "The sequence order for the conditions will be randomized for each study participant.",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "eiDBS suppression",
+                    "type": "EXPERIMENTAL",
+                    "description": "Closed-loop evoked interference DBS that suppresses beta oscillations.",
+                    "interventionNames": [
+                        "Device: Neurostimulation"
+                    ]
+                },
+                {
+                    "label": "Off DBS",
+                    "type": "NO_INTERVENTION",
+                    "description": "Off-stimulation and off-medication"
+                },
+                {
+                    "label": "eiDBS amplification",
+                    "type": "EXPERIMENTAL",
+                    "description": "Closed-loop evoked interference DBS that amplifies beta oscillations.",
+                    "interventionNames": [
+                        "Device: Neurostimulation"
+                    ]
+                },
+                {
+                    "label": "Levodopa medication",
+                    "type": "EXPERIMENTAL",
+                    "description": "On-medication, off-stimulation",
+                    "interventionNames": [
+                        "Drug: Carbidopa 25/Levodopa 100Mg Tab"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Neurostimulation",
+                    "description": "Electrical stimulation delivered via deep brain stimulation electrodes based on measurements of brain activity.",
+                    "armGroupLabels": [
+                        "eiDBS amplification",
+                        "eiDBS suppression"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Carbidopa 25/Levodopa 100Mg Tab",
+                    "description": "Anti-parkinsonian medication.",
+                    "armGroupLabels": [
+                        "Levodopa medication"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Effect of eiDBS suppression vs. off-stimulation on finger tapping speed",
+                    "description": "The finger tapping speed will be measured with an inertial measuring unit. The relationship (slope/effect) between this kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models. The LME models will include the stimulation conditions in this study (e.g., eiDBS-suppression) as fixed effects with the off-stimulation condition as a reference/control group, and random intercepts as random effects that account for the heterogeneity between subjects.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS amplification vs. off-stimulation on finger tapping speed",
+                    "description": "The relationship (slope/effect) between the kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS suppression vs. off-stimulation on forearm speed",
+                    "description": "The forearm speed will be measured with an inertial measuring unit. The relationship (slope/effect) between this kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS amplification vs. off-stimulation on forearm speed",
+                    "description": "The relationship (slope/effect) between the kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS suppression vs. off-stimulation on UPDRS-III rigidity subscore",
+                    "description": "The relationship (slope/effect) between this UPDRS-III rigidity subscore (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS amplification vs. off-stimulation on UPDRS-III rigidity subscore",
+                    "description": "The relationship (slope/effect) between this UPDRS-III rigidity subscore (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Correlation between levodopa-related changes in finger tapping speed and the amplitude of stimulation-evoked beta oscillations",
+                    "description": "The amplitude of beta oscillations evoked by stimulation will be characterized using the wavelet transform. The relationship (slope) between the kinematic measurements (response variable) and the beta oscillations amplitude (predictor variable) will be estimated via the linear mixed-effects models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Correlation between levodopa-related changes in forearm speed and the amplitude of stimulation-evoked beta oscillations",
+                    "description": "The relationship (slope) between the kinematic measurements (response variable) and the beta oscillations amplitude (predictor variable) will be estimated via the linear mixed-effects models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Correlation between levodopa-related changes in UPDRS-III rigidity subscore and the amplitude of stimulation-evoked beta oscillations.",
+                    "description": "The relationship (slope) between the UPDRS-III subscores (response variable) and the beta oscillations amplitude (predictor variable) will be estimated via the linear mixed-effects models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Effect of eiDBS suppression vs. off-stimulation on finger tapping displacement",
+                    "description": "The finger tapping displacement will be derived based on data from an inertial measuring unit via a Kalman filter. The relationship (slope/effect) between this kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS amplification vs. off-stimulation on finger tapping displacement",
+                    "description": "The relationship (slope/effect) between the kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS suppression vs. off-stimulation on forearm displacement",
+                    "description": "The relationship (slope/effect) between the kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS amplification vs. off-stimulation on forearm displacement",
+                    "description": "The relationship (slope/effect) between the kinematic variable (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS suppression vs. off-stimulation on UPDRS-III bradykinesia subscore",
+                    "description": "The relationship (slope/effect) between this UPDRS-III subscore (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Effect of eiDBS amplification vs. off-stimulation on UPDRS-III bradykinesia subscore",
+                    "description": "The relationship (slope/effect) between this UPDRS-III subscore (response variable) and the mean amplitude of beta (11-35 Hz) oscillations (predictor physiological variable) will be estimated via linear mixed-effects (LME) models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Correlation between levodopa-related changes in finger tapping displacement and the amplitude of stimulation-evoked beta oscillations",
+                    "description": "The relationship (slope) between the kinematic measurements (response variable) and the beta oscillations amplitude (predictor variable) will be estimated via the linear mixed-effects models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Correlation between levodopa-related changes in forearm displacement and the amplitude of stimulation-evoked beta oscillations",
+                    "description": "The relationship (slope) between the kinematic measurements (response variable) and the beta oscillations amplitude (predictor variable) will be estimated via the linear mixed-effects models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                },
+                {
+                    "measure": "Correlation between levodopa-related changes in UPDRS-III bradykinesia subscore and the amplitude of stimulation-evoked beta oscillations",
+                    "description": "The relationship (slope) between the UPDRS-III subscores (response variable) and the beta oscillations amplitude (predictor variable) will be estimated via the linear mixed-effects models.",
+                    "timeFrame": "Data will be collected in assessment blocks multiple times throughout enrollment. Assessments will be performed for up to nine days, starting the day after the DBS surgery. Assessments may also be performed in one visit 3-12 months after DBS surgery."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Ability to provide informed consent.\n* Clinical diagnosis of idiopathic Parkinson's disease.\n* Determined, as per standard of care, to be a candidate for deep brain stimulation (DBS) surgery targeting either the subthalamic nucleus or the internal segment of the globus pallidus.\n* Ability to tolerate delays in taking daily standard Parkinson's disease medications.\n\nKey Exclusion Criteria:\n\n- Secondary Parkinsonism, stroke, or progressive central nervous system disease other than Parkinson's disease.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "40 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "David Escobar, PhD",
+                    "role": "CONTACT",
+                    "phone": "216-390-1907",
+                    "email": "escobad2@ccf.org"
+                },
+                {
+                    "name": "Jeffrey Negrey, MA",
+                    "role": "CONTACT",
+                    "phone": "216-316-6896",
+                    "email": "negreyj2@ccf.org"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cleveland Clinic",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Escobar, PhD",
+                            "role": "CONTACT",
+                            "phone": "216-390-1907",
+                            "email": "escobad2@ccf.org"
+                        },
+                        {
+                            "name": "Jeffrey Negrey, MA",
+                            "role": "CONTACT",
+                            "phone": "216-316-6896",
+                            "email": "negreyj2@ccf.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Individual participant data that underlie the results reported in the published articles (text, tables, figures, and appendices), after deidentification, will be shared.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Data will be shared immediately following publication. There is no end date for this data sharing.",
+            "accessCriteria": "Data sharing requests should be directed to escobad2@ccf.org. To gain access, data requestors may need to sign a data access agreement."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010300",
+                    "term": "Parkinson Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020734",
+                    "term": "Parkinsonian Disorders"
+                },
+                {
+                    "id": "D000001480",
+                    "term": "Basal Ganglia Diseases"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000080874",
+                    "term": "Synucleinopathies"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13213",
+                    "name": "Parkinson Disease",
+                    "asFound": "Parkinson's Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22494",
+                    "name": "Parkinsonian Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25603",
+                    "name": "Ganglion Cysts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16358",
+                    "name": "Synovial Cyst",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4774",
+                    "name": "Basal Ganglia Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2217",
+                    "name": "Synucleinopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007980",
+                    "term": "Levodopa"
+                },
+                {
+                    "id": "D000002230",
+                    "term": "Carbidopa"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000978",
+                    "term": "Antiparkinson Agents"
+                },
+                {
+                    "id": "D000018726",
+                    "term": "Anti-Dyskinesia Agents"
+                },
+                {
+                    "id": "D000015259",
+                    "term": "Dopamine Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000065105",
+                    "term": "Aromatic Amino Acid Decarboxylase Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10982",
+                    "name": "Levodopa",
+                    "asFound": "Molar",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5489",
+                    "name": "Carbidopa",
+                    "asFound": "Melphalan",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4295",
+                    "name": "Antiparkinson Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7473",
+                    "name": "Dopamine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17962",
+                    "name": "Dopamine Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30461",
+                    "name": "Aromatic Amino Acid Decarboxylase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "AnDyAg",
+                    "name": "Anti-Dyskinesia Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "CaAg",
+                    "name": "Cardiotonic Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

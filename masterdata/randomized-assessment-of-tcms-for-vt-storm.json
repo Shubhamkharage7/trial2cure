@@ -1,0 +1,313 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05599022",
+            "orgStudyIdInfo": {
+                "id": "852176"
+            },
+            "organization": {
+                "fullName": "University of Pennsylvania",
+                "class": "OTHER"
+            },
+            "briefTitle": "Randomized Assessment of TcMS for VT Storm",
+            "officialTitle": "Randomized Assessment of the Efficacy of Transcutaneous Magnetic Stimulation in Patients With Ventricular Tachycardia Storm",
+            "therapeuticArea": [
+                "Critical Care"
+            ],
+            "study": "randomized-assessment-of-tcms-for-vt-storm"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-10-24",
+            "studyFirstSubmitQcDate": "2022-10-24",
+            "studyFirstPostDateStruct": {
+                "date": "2022-10-31",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Pennsylvania",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Three-arm randomized clinical trial comparing two strategies of TcMS to sham stimulation in patients with VT storm. The hypothesis of the study is that TcMS will reduce the burden of VT in the 24 hours after randomization compared to sham stimulation and that TcMS with theta burst stimulation (TBS) will be more effective at reducing VT burden than low frequency TcMS."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Ventricular Tachycardia"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Sham Stimulation",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "With the coil directed away from the patient, 600 pulses of TcMS will be delivered at minimal energy output.",
+                    "interventionNames": [
+                        "Device: Magnetic Stimulation"
+                    ]
+                },
+                {
+                    "label": "Low Frequency TcMS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "With the coil directed at the stellate ganglion, 60 minutes of 1Hz stimulation will be delivered targeting the stellate ganglion.",
+                    "interventionNames": [
+                        "Device: Magnetic Stimulation"
+                    ]
+                },
+                {
+                    "label": "Theta Burst Stimulation TcMS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "With the coil directed at the stellate ganglion, 600 pulses of continuous theta burst stimulation will be delivered targeting the stellate ganglion.",
+                    "interventionNames": [
+                        "Device: Magnetic Stimulation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Magnetic Stimulation",
+                    "description": "Transcutaneous Magnetic Stimulation",
+                    "armGroupLabels": [
+                        "Low Frequency TcMS",
+                        "Sham Stimulation",
+                        "Theta Burst Stimulation TcMS"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "VT Burden (24 hours)",
+                    "description": "Number of episodes of sustained ventricular tachycardia",
+                    "timeFrame": "24 hours after randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "VT burden (72 hours)",
+                    "description": "Number of episodes of sustained ventricular tachycardia",
+                    "timeFrame": "72 hours after randomization"
+                },
+                {
+                    "measure": "Freedom from VT",
+                    "description": "Freedom from sustained VT",
+                    "timeFrame": "24 hours after randomization"
+                },
+                {
+                    "measure": "Blood Pressure",
+                    "description": "Change in mean arterial blood pressure",
+                    "timeFrame": "Immediately before and after stimulation"
+                },
+                {
+                    "measure": "Heart Rate",
+                    "description": "Change in heart rate",
+                    "timeFrame": "Immediately before and after stimulation"
+                },
+                {
+                    "measure": "Pain",
+                    "description": "Pain at site of stimulation (0-10 scale)",
+                    "timeFrame": "Immediately after stimulation"
+                },
+                {
+                    "measure": "Lead sensing",
+                    "description": "Change in implantable device lead sensing",
+                    "timeFrame": "Immediately before and after stimulation"
+                },
+                {
+                    "measure": "Lead threshold",
+                    "description": "Change in implantable device lead pacing threshold",
+                    "timeFrame": "Immediately before and after stimulation"
+                },
+                {
+                    "measure": "Lead impedance",
+                    "description": "Change in implantable device lead pacing impedance",
+                    "timeFrame": "Immediately before and after stimulation"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u22653 episodes of sustained VT or appropriate ICD therapies within 24 hours despite the use of at least one antiarrhythmic drug\n\nExclusion Criteria:\n\n* Plan for catheter ablation of VT in the next 24 hours\n* Pregnancy\n* Contraindication to TcMS (i.e. implantable ventricular assist device, metal implanted in the head or neck \\[except the mouth\\], implanted medication pumps, cochlear implant, implanted brain stimulator, ocular implant, history of malignancy in the neck)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Timothy Markman",
+                    "role": "CONTACT",
+                    "phone": "215-615-4332",
+                    "email": "timothy.markman@pennmedicine.upenn.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Hospital of the University of Pennsylvania",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Timothy Markman, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013610",
+                    "term": "Tachycardia"
+                },
+                {
+                    "id": "D000017180",
+                    "term": "Tachycardia, Ventricular"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000075224",
+                    "term": "Cardiac Conduction System Disease"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16384",
+                    "name": "Tachycardia",
+                    "asFound": "Tachycardia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19488",
+                    "name": "Tachycardia, Ventricular",
+                    "asFound": "Ventricular Tachycardia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1472",
+                    "name": "Cardiac Conduction System Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

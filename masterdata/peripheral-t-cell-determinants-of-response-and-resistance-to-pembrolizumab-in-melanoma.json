@@ -1,0 +1,403 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05105100",
+            "orgStudyIdInfo": {
+                "id": "21853"
+            },
+            "organization": {
+                "fullName": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "briefTitle": "Peripheral T Cell Determinants of Response and Resistance to Pembrolizumab in Melanoma",
+            "officialTitle": "Peripheral T Cell Determinants of Response and Resistance to Pembrolizumab in Melanoma",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "peripheral-t-cell-determinants-of-response-and-resistance-to-pembrolizumab-in-melanoma"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-10-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-08-28",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-08-28",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-10-12",
+            "studyFirstSubmitQcDate": "2021-10-25",
+            "studyFirstPostDateStruct": {
+                "date": "2021-11-03",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Merck Sharp & Dohme LLC",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a non-therapeutic study assessing peripheral T cell determinants of response and resistance to immunotherapy in patients with advanced melanoma.The hypothesis is that systemic T cells traffic into the tumor microenvironment (TME) can predict response and resistance to immunotherapy. These systemic tumor directed T cells can be defined by tumor/blood small conditional RNA (scRNA) using T cell receptor (TCR) as a barcode and can help predict response to PD-1 therapy.",
+            "detailedDescription": "Primary Objective:\n\nTo understand how the systemic immune profile (T cell activation and expansion in TME) changes in response to pembrolizumab therapy in patients with advanced melanoma on pembrolizumab monotherapy.\n\nExploratory Objectives :\n\nI. To correlate the peripheral T cell profiles with the objective response rate (ORR) at 24 weeks in patients with advanced melanoma on pembrolizumab monotherapy.\n\nII. To correlate the peripheral T cell profiles with progression free survival (PFS) in patients with advanced melanoma on pembrolizumab monotherapy.\n\nIII. To correlate the peripheral T cell profiles with overall survival (OS) in patients with advanced melanoma on pembrolizumab monotherapy.\n\nIV. To correlate the peripheral T cell profiles with toxicity profile. V. Transcriptional and phenotypic features of tumor directed T cells in blood using a combination of phenotypic markers derived from COMET and cite-seq.\n\nPatients will be followed for 6 months from time of treatment initiation. After 6 months, patients do not need to be followed but standard of care scans and survival status can be assessed for up to 5 years."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Melanoma",
+                "Advanced Melanoma"
+            ],
+            "keywords": [
+                "Peripheral T Cell",
+                "Pembrolizumab"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Tumor tissue and blood samples"
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Participants with Melanoma",
+                    "description": "Participants will undergo a pre-treatment tumor core biopsy and Peripheral blood mononuclear cell (PBMC) collection. Then, patients will be started on pembrolizumab per standard of care and PBMCs will be collected every 3 weeks (1 cycle)",
+                    "interventionNames": [
+                        "Procedure: Biopsy",
+                        "Procedure: Biospecimen Collection"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biopsy",
+                    "description": "Tumor tissue collection",
+                    "armGroupLabels": [
+                        "Participants with Melanoma"
+                    ],
+                    "otherNames": [
+                        "Excisional Biopsy"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biospecimen Collection",
+                    "description": "Intravenously Blood draw",
+                    "armGroupLabels": [
+                        "Participants with Melanoma"
+                    ],
+                    "otherNames": [
+                        "Specimen Collection"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of genes predictive of response at Baseline",
+                    "description": "The investigators will identify the genes predictive of response to anti-PD-1 therapy by testing for significant associations across expression rates of each gene and response/resistance, within a hurdle-Gaussian mixed-effect framework that accounts for variance across patients and technical noise present in single-cell data.",
+                    "timeFrame": "Baseline"
+                },
+                {
+                    "measure": "Number of genes predictive of response at 24 weeks",
+                    "description": "The investigators will identify the genes predictive of response to anti-PD-1 therapy by testing for significant associations across expression rates of each gene and response/resistance, within a hurdle-Gaussian mixed-effect framework that accounts for variance across patients and technical noise present in single-cell data.",
+                    "timeFrame": "24 weeks"
+                },
+                {
+                    "measure": "Number of T-cell sub-populations",
+                    "description": "The investigators will identify T cell sub-populations in the tumor-directed component in blood whose relative frequency is indicative of response to anti-PD-1 therapy, using a negative binomial regression model. We will test for predictive differences in relative frequencies before and after treatment initiation separately, as well as when combining both time points with appropriate interaction terms",
+                    "timeFrame": "Baseline and 24 weeks"
+                },
+                {
+                    "measure": "Proportion of participants with a change in clonal expansion of T cells associated with response to anti-PD-1 therapy",
+                    "description": "The investigators will build a novel computational framework to identify T-cell clonal behavior associated with response to anti-PD-1 therapy using profiling of TCR sequences at single-cell resolution to compare clonal expansion in each of the sub-populations for their association with response to anti-PD-1 therapy.",
+                    "timeFrame": "24 weeks"
+                },
+                {
+                    "measure": "Proportion of participants with a change in distribution of T cells associated with response to anti-PD-1 therapy",
+                    "description": "The investigators will build a novel computational framework to identify T-cell clonal behavior associated with response to anti-PD-1 therapy using profiling of TCR sequences at single-cell resolution to compare distribution of T cells in each of the sub-populations for their association with response to anti-PD-1 therapy.",
+                    "timeFrame": "24 weeks"
+                },
+                {
+                    "measure": "Number of transcriptional migration events",
+                    "description": "The investigators will search for \"transcriptional migration\" events, in which T cell clones change their transcriptional profile following treatment and will assess the predictive power of such events to the success of anti-PD-1 therapy.",
+                    "timeFrame": "24 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients must have histologically confirmed locally advanced or metastatic melanoma and be starting on standard of care pembrolizumab monotherapy. Patients may have received any or no prior anti-cancer therapy without limitation.\n2. Must have one or more sites of disease amenable to biopsy (tumor, skin, lymph node, pleural fluid, peritoneal fluid, cerebral spinal fluid (CSF)).\n3. Have measurable disease based on Response Evaluation Criteria in Solid Tumors (RECIST) version 1.1. Lesions situated in a previously irradiated area are considered measurable if progression has been demonstrated in such lesions.\n4. Participants must be age 18 years or older on the day of signing informed consent.\n5. Have the ability to provide written informed consent for the trial.\n6. Be able and willing to comply with study procedures including provision of basic demographic information and medical history.\n7. Be willing to receive periodic follow up phone calls to monitor health status and survival status.\n\nExclusion Criteria:\n\n1. Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti PD L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (e.g., cytotoxic T-lymphocyte-associated protein 4 (CTLA-4), OX 40, Cluster of Differentiation 137 (CD137)).\n2. Has received prior systemic anti-cancer therapy including investigational agents within the prior 2 weeks.\n3. Has a diagnosis of immunodeficiency or is receiving chronic systemic steroid therapy (in dosing exceeding 10 mg daily of prednisone equivalent) or any other form of immunosuppressive therapy within 7 days prior to the first dose of study drug.\n4. Has a contraindication to tissue biopsy for minimally-invasive research-procedure\n5. Contraindication to phlebotomy (up to 20 milliliters (mL)) per phlebotomy every three weeks).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Participants will be recruited from the Melanoma and Cutaneous Oncology Program at the Helen Diller Family Comprehensive Cancer Center at University of California San Francisco.",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sonia Contreras Martinez",
+                    "role": "CONTACT",
+                    "phone": "(415) 514-6427",
+                    "email": "sonia.contrerasmartinez@ucsf.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Adil Daud, MD",
+                    "affiliation": "University of California, San Francisco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of California, San Francisco",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94143",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sonia Contreras Martinez",
+                            "role": "CONTACT",
+                            "phone": "415-514-6427",
+                            "email": "sonia.contrerasmartinez@ucsf.edu"
+                        },
+                        {
+                            "role": "CONTACT",
+                            "phone": "877-827-3222",
+                            "email": "cancertrials@ucsf.edu"
+                        },
+                        {
+                            "name": "Adil Daud, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Laura Huppert, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008545",
+                    "term": "Melanoma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018358",
+                    "term": "Neuroendocrine Tumors"
+                },
+                {
+                    "id": "D000017599",
+                    "term": "Neuroectodermal Tumors"
+                },
+                {
+                    "id": "D000009373",
+                    "term": "Neoplasms, Germ Cell and Embryonal"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009380",
+                    "term": "Neoplasms, Nerve Tissue"
+                },
+                {
+                    "id": "D000018326",
+                    "term": "Nevi and Melanomas"
+                },
+                {
+                    "id": "D000012878",
+                    "term": "Skin Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11528",
+                    "name": "Melanoma",
+                    "asFound": "Melanoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20495",
+                    "name": "Neuroendocrine Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19845",
+                    "name": "Neuroectodermal Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20388",
+                    "name": "Neuroectodermal Tumors, Primitive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12318",
+                    "name": "Neoplasms, Germ Cell and Embryonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12325",
+                    "name": "Neoplasms, Nerve Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12448",
+                    "name": "Nevus, Pigmented",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12446",
+                    "name": "Nevus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20470",
+                    "name": "Nevi and Melanomas",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15681",
+                    "name": "Skin Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4091",
+                    "name": "Neuroendocrine Tumor",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4092",
+                    "name": "Neuroepithelioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M349416",
+                    "name": "Pembrolizumab",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

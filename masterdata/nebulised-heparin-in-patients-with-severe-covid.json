@@ -1,0 +1,491 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04545541",
+            "orgStudyIdInfo": {
+                "id": "CHARTER meta-trial"
+            },
+            "organization": {
+                "fullName": "Australian National University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Nebulised Heparin in Patients With Severe COVID-19",
+            "officialTitle": "Can Nebulised HepArin Reduce morTality and Time to Extubation in Patients With COVID-19 Requiring Mechanical Ventilation Meta-Trial (CHARTER-MT): Protocol for an Investigator-initiated International Meta-trial of Randomised Studies",
+            "acronym": "CHARTER-MT",
+            "therapeuticArea": [
+                "Respiratory",
+                "Infectious Diseases"
+            ],
+            "study": "nebulised-heparin-in-patients-with-severe-covid"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-11-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-04",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-09-05",
+            "studyFirstSubmitQcDate": "2020-09-10",
+            "studyFirstPostDateStruct": {
+                "date": "2020-09-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-01-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-02-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Frank van Haren",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "Australian National University"
+            },
+            "leadSponsor": {
+                "name": "Australian National University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The Can nebulised HepArin Reduce morTality and time to Extubation in Patients with COVID-19 Requiring mechanical ventilation Meta-Trial (CHARTER-MT) is a prospective collaborative individual patient data analysis of randomised controlled trials and early phase studies. Individual studies are being conducted in multiple countries, including Australia, Ireland, the USA, and the UK.\n\nMechanically ventilated patients with confirmed or strongly suspected SARS-CoV-2 infection, hypoxaemia and an acute pulmonary opacity in at least one lung quadrant on chest X-ray, will be randomised to nebulised heparin 25,000 Units every 6 hours or standard care (open label studies) or placebo (blinded placebo controlled studies) for up to 10 days while mechanically ventilated. All trials will collect a minimum core dataset. The primary outcome for the meta-trial is ventilator-free days during the first 28 days, defined as being alive and free from mechanical ventilation. Individual studies may have additional outcomes."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Covid19",
+                "Respiratory Failure"
+            ],
+            "keywords": [
+                "COVID19; ARDS; mortality; clinical trial; metaanalysis; PRCT"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2",
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Nebulised heparin",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants assigned to \"nebulised UFH\" will receive nebulised UFH in addition to the standard care required as determined by the treating team. Nebulised UFH (25,000 Units in 5 mL) will be administered 6-hourly via an Aerogen Solo vibrating mesh nebuliser while patients receive invasive mechanical ventilation in ICU and for a maximum of 10 days.",
+                    "interventionNames": [
+                        "Drug: Nebulised unfractionated heparin (UFH)"
+                    ]
+                },
+                {
+                    "label": "Control group",
+                    "type": "NO_INTERVENTION",
+                    "description": "Participants assigned to 'standard care' will receive the standard care required as determined by the treating team and will not be treated with nebulised heparin (Australia, Ireland).\n\nParticipants assigned to \"placebo\" will receive Nebulised 0.9% Sodium Chloride (5 mL) administered 6-hourly via an Aerogen Solo vibrating mesh nebuliser while patients receive invasive mechanical ventilation in ICU and for a maximum of 10 days (USA)."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Nebulised unfractionated heparin (UFH)",
+                    "description": "Nebulised UFH (25,000 Units in 5 mL) will be administered 6-hourly via an Aerogen Solo vibrating mesh nebuliser while patients receive invasive mechanical ventilation in ICU and for a maximum of 10 days.",
+                    "armGroupLabels": [
+                        "Nebulised heparin"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Alive and Ventilator Free Score",
+                    "description": "Validated hierarchical composite endpoint, based on mortality and ventilator free days, which is less prone to favour a treatment with discordant effects on survival and days free of ventilation.",
+                    "timeFrame": "Day 28"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years or older\n* Currently in an intensive care unit (ICU) or scheduled for transfer to the ICU. During the pandemic, critically ill inpatients might be cared for outside of the walls of the usual physical environment of ICU. For this reason, ICU is defined as an area designated for inpatient care of the critically ill where therapies including invasive mechanical ventilation can be provided.\n* Endotracheal tube in place\n* Intubated yesterday or today\n* PaO2 to FIO2 ratio less than or equal to 300 while intubated\n* Acute opacities not fully explained by effusions, lobar/lung collapse and nodules, affecting at least one lung quadrant on chest X-ray or CT\n* The acute opacities on chest X-ray or CT are most likely due to COVID-19\n* There is a PCR positive sample for SARS-CoV-2 within the past 21 days or there are results pending or further testing is planned. The sample can be a nasal or pharyngeal swab, sputum, tracheal aspirate, bronchoalveolar lavage, or another sample from the patient.\n\nExclusion Criteria:\n\n* Enrolled in another clinical trial that is unapproved for co-enrolment\n* Heparin allergy or heparin-induced thrombocytopaenia (HIT)\n* APTT \\> 120 seconds and this is not due to anticoagulant therapy\n* Platelet count \\< 20 x 109 per L\n* Pulmonary bleeding, which is frank bleeding in the trachea, bronchi or lungs with repeated haemoptysis or requiring repeated suctioning\n* Uncontrolled bleeding\n* Pregnant or might be pregnant. Females aged 18-49 years are excluded unless there is documented menopause or hysterectomy or a pregnancy test was performed and is negative.\n* Receiving or about to commence extracorporeal membrane oxygenation (ECMO) or high frequency oscillatory ventilation (HFOV)\n* Myopathy, spinal cord injury, or nerve injury or disease with a likely prolonged incapacity to breathe independently e.g. Guillain-Barre syndrome\n* Acute brain injury that may result in long-term disability\n* Usually receives home oxygen\n* Dependent on others for personal care due to physical or cognitive decline\n* Death is imminent or inevitable within 24 hours\n* The clinical team would not be able to set up the study nebuliser and ventilator circuit as required including with active humidification\n* Clinician objection\n* Refusal of participant (person responsible) consent.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Frank MP van Haren, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "+61467051809",
+                    "email": "fvanharen@me.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Frank MP van Haren, MD, PhD",
+                    "affiliation": "Australian National University",
+                    "role": "STUDY_CHAIR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Frederick Health Hospital",
+                    "status": "RECRUITING",
+                    "city": "Frederick",
+                    "state": "Maryland",
+                    "zip": "21701",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Thomas Smoot, PharmD BCPS",
+                            "role": "CONTACT",
+                            "phone": "240-566-3250",
+                            "email": "tsmoot@fmh.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.41427,
+                        "lon": -77.41054
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "32698853",
+                    "type": "BACKGROUND",
+                    "citation": "van Haren FMP, Page C, Laffey JG, Artigas A, Camprubi-Rimblas M, Nunes Q, Smith R, Shute J, Carroll M, Tree J, Carroll M, Singh D, Wilkinson T, Dixon B. Nebulised heparin as a treatment for COVID-19: scientific rationale and a call for randomised evidence. Crit Care. 2020 Jul 22;24(1):454. doi: 10.1186/s13054-020-03148-2."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The CHARTER-MT Collaborative Research Group's executive committee, with representatives from each individual country/trial, is responsible for the meta-trial's study design; collection, management, analysis, and interpretation of data; writing of the report; and the decision to submit the report for publication. Investigators from individual trials have ownership of their trial data. A memorandum of understanding and data sharing agreement between investigators will facilitate and govern the pooling and meta-analysing of de-identified individual patient data from individual trials, as well as outline authorship.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "CSR",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Real-time"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000086382",
+                    "term": "COVID-19"
+                },
+                {
+                    "id": "D000012131",
+                    "term": "Respiratory Insufficiency"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000011024",
+                    "term": "Pneumonia, Viral"
+                },
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000018352",
+                    "term": "Coronavirus Infections"
+                },
+                {
+                    "id": "D000003333",
+                    "term": "Coronaviridae Infections"
+                },
+                {
+                    "id": "D000030341",
+                    "term": "Nidovirales Infections"
+                },
+                {
+                    "id": "D000012327",
+                    "term": "RNA Virus Infections"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14968",
+                    "name": "Respiratory Insufficiency",
+                    "asFound": "Respiratory Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2561",
+                    "name": "COVID-19",
+                    "asFound": "COVID-19",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13914",
+                    "name": "Pneumonia, Viral",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20490",
+                    "name": "Coronavirus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6555",
+                    "name": "Coronaviridae Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23685",
+                    "name": "Nidovirales Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15149",
+                    "name": "RNA Virus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006493",
+                    "term": "Heparin"
+                },
+                {
+                    "id": "C000006871",
+                    "term": "Calcium heparin"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000925",
+                    "term": "Anticoagulants"
+                },
+                {
+                    "id": "D000005343",
+                    "term": "Fibrinolytic Agents"
+                },
+                {
+                    "id": "D000050299",
+                    "term": "Fibrin Modulating Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9579",
+                    "name": "Heparin",
+                    "asFound": "DES",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M46053",
+                    "name": "Calcium heparin",
+                    "asFound": "DES",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7167",
+                    "name": "Diazepam",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5381",
+                    "name": "Calcium",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5398",
+                    "name": "Calcium, Dietary",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4244",
+                    "name": "Anticoagulants",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8473",
+                    "name": "Fibrinolytic Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "FiAg",
+                    "name": "Fibrinolytic Agents"
+                },
+                {
+                    "abbrev": "AnCoag",
+                    "name": "Anticoagulants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AdjAn",
+                    "name": "Adjuvants, Anesthesia"
+                },
+                {
+                    "abbrev": "AntiConv",
+                    "name": "Anticonvulsants"
+                },
+                {
+                    "abbrev": "AnEm",
+                    "name": "Antiemetics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "MuRelCen",
+                    "name": "Muscle Relaxants, Central"
+                },
+                {
+                    "abbrev": "PsychDr",
+                    "name": "Psychotropic Drugs"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                },
+                {
+                    "abbrev": "BDCA",
+                    "name": "Bone Density Conservation Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

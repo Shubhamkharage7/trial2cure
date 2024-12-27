@@ -1,0 +1,364 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06338592",
+            "orgStudyIdInfo": {
+                "id": "UUtah_00153806"
+            },
+            "organization": {
+                "fullName": "University of Utah",
+                "class": "OTHER"
+            },
+            "briefTitle": "The MyLungHealth Study Protocol: Engaging Patients to Enable Interoperable Lung Cancer Decision Support at Scale",
+            "officialTitle": "The MyLungHealth Study Protocol: A Pragmatic Patient-Randomized Controlled Trial to Evaluate a Patient-Centered, Electronic Health Record-Integrated Intervention to Enhance Lung Cancer Screening in Primary Care",
+            "acronym": "MyLungHealth",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "the-mylunghealth-study-protocol-engaging-patients-to-enable-interoperable-lung-cancer-decision-support-at-scale"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-03-28",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03-27",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-18",
+            "studyFirstSubmitQcDate": "2024-03-22",
+            "studyFirstPostDateStruct": {
+                "date": "2024-03-29",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kensaku Kawamoto, MD, PhD, MHS",
+                "investigatorTitle": "Associate Chief Medical Information Officer",
+                "investigatorAffiliation": "University of Utah"
+            },
+            "leadSponsor": {
+                "name": "University of Utah",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Early lung cancer screening (LCS) through low-dose computed tomography (LDCT) is crucial but underused due to various barriers, including incomplete or inaccurate patient smoking data in the electronic health record and limited time for shared decision-making. The objective of this trial is to investigate a patient-centered intervention, MyLungHealth, delivered through the patient portal. The intervention is designed to improve LCS rates through increased identification of eligible patients and informed decision making.",
+            "detailedDescription": "MyLungHealth is a multi-site pragmatic trial, involving University of Utah Health and New York University Langone Health primary care clinics. The MyLungHealth intervention was developed using a user-centered design process, informed by patient and provider focus groups and interviews. The intervention's effectiveness will be evaluated through a patient-randomized trial, comparing the combined use of MyLungHealth and DecisionPrecision+ (a provider-focused clinical decision support and shared decision-making intervention) against DecisionPrecision+ alone."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Lung Cancer",
+                "Lung Neoplasms/Diagnosis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "This is a patient randomized trial that includes two sub-studies, with 2 arms each.",
+                "primaryPurpose": "SCREENING",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 42415,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Study 1 (Study of Patients with Uncertain LCS Eligibility) Control Arm",
+                    "type": "NO_INTERVENTION",
+                    "description": "In Study 1 (Study of Patients with Uncertain LCS Eligibility), patients allocated to the control arm will not be exposed to the project intervention unless their EHR data change during the trial so that they have documented LCS eligibility. In these rare cases, these patients will be exposed to the intervention provided to patients in the control arm of Study 2 but will not be considered participants in Study 2."
+                },
+                {
+                    "label": "Study 1 (Study of Patients with Uncertain LCS Eligibility) Intervention Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients allocated to the intervention arm of Study 1 will be exposed to the MyLungHealth intervention in addition to usual care. The Study 1 MyLungHealth eligibility questionnaires will consist of pre-visit smoking history questions asked through the EHR patient portal to increase the identification of screening-eligible patients (Figure 2). Patients will be prompted to engage in the intervention through pre-visit questionnaires for primary care visits administered up to 7 days prior to the visits. These questions will ask about the patients' smoking history and determine whether patients meet LCS eligibility criteria. Study 1 patients who meet LCS eligibility criteria will be offered the intervention provided to patients in the intervention arm of Study 2 immediately after confirming eligibility but will not be considered participants in Study 2.",
+                    "interventionNames": [
+                        "Behavioral: MyLungHealth"
+                    ]
+                },
+                {
+                    "label": "Study 2 (Study of Patients with Documented LCS Eligibility) Control Arm",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "In Study 2 (Study of Patients with Documented LCS Eligibility), patients allocated to the control arm will be exposed to the DecisionPrecision+ intervention because DecisionPrecision+ intervention automatically identifies patients with documented LCS eligibility in the EHR. The DecisionPrecision+ intervention is designed to promote LCS and LCS SDM; the intervention consists of provider-facing EHR preventive care reminders, a provider-facing EHR SDM tool, and simple patient-facing preventive care reminders (only available at UUH). Simple patient-facing preventive care reminders will be available at UUH, but not NYU, because NYU does not use this type of reminders.",
+                    "interventionNames": [
+                        "Behavioral: DecisionPrecision+"
+                    ]
+                },
+                {
+                    "label": "Study 2 (Study of Patients with Documented LCS Eligibility) Intervention Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients allocated to the intervention arm will be offered the MyLungHealth education tool in addition to the DecisionPrecision+ intervention. The pre-visit questionnaire will directly invite patients to use the MyLungHealth education app, rather than first asking about smoking history to confirm eligibility. When patients affirm in the patient portal that they were able to successfully open the MyLungHealth education tool, their providers will be notified of their potential interest in LCS through a passive (non-interruptive) prompt in the EHR.",
+                    "interventionNames": [
+                        "Behavioral: MyLungHealth",
+                        "Behavioral: DecisionPrecision+"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "MyLungHealth",
+                    "description": "MyLungHealth is a patient-centered, EHR-integrated smoking data-quality improvement and education intervention. A key component of the MyLungHealth intervention is a pre-visit LCS eligibility questionnaire asked through the Epic EHR patient portal for individuals with unclear LCS eligibility due to missing or potentially inaccurate data in the EHR. Another key component of the MyLungHealth intervention is an interoperable, patient-centered educational app delivered through the EHR patient portal.",
+                    "armGroupLabels": [
+                        "Study 1 (Study of Patients with Uncertain LCS Eligibility) Intervention Arm",
+                        "Study 2 (Study of Patients with Documented LCS Eligibility) Intervention Arm"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "DecisionPrecision+",
+                    "description": "DecisionPrecision+ is a multi-faceted intervention which includes provider-facing EHR preventive care reminders, a provider-facing EHR SDM tool, and simple patient-facing preventive care reminders.",
+                    "armGroupLabels": [
+                        "Study 2 (Study of Patients with Documented LCS Eligibility) Control Arm",
+                        "Study 2 (Study of Patients with Documented LCS Eligibility) Intervention Arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Study 1 primary outcome: Percentage of participants identified as eligible for LCS.",
+                    "description": "The primary outcome for Study 1 will be the percentage of participants identified as LCS-eligible patients during the 1-year trial among patients with uncertain LCS eligibility at the start of the trial. Patients will be considered to fulfill this outcome if, at any point during the 1-year trial, the patient's EHR record indicates they meet smoking history eligibility criteria, or a patient affirms they meet eligibility criteria in the patient portal.",
+                    "timeFrame": "1 year trial period"
+                },
+                {
+                    "measure": "Study 2 primary outcome: Percentage of participants for whom LDCT was ordered.",
+                    "description": "The primary outcome for Study 2 will be the percentage of participants with an LDCT order placed during the 1-year trial among patients with documented LCS eligibility as per EHR data at the start of the trial.",
+                    "timeFrame": "1 year trial period"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Study 1 secondary outcome: Percentage of participants for whom LDCT was ordered.",
+                    "description": "Secondary outcomes for Study 1 will be the percentage of participants for whom LDCT was ordered during the 1-year trial.",
+                    "timeFrame": "1 year trial period"
+                },
+                {
+                    "measure": "Study 1 secondary outcome: Percentage of participants for whom LDCT was completed.",
+                    "description": "Secondary outcomes for Study 1 will be the percentage of participants for whom LDCT was completed during the 1-year trial.",
+                    "timeFrame": "1 year trial period"
+                },
+                {
+                    "measure": "Study 2 secondary outcome: Percentage of participants for whom LDCT was completed.",
+                    "description": "A secondary outcome for Study 2 will be the percentage of participants for whom LDCT was completed during the 1-year trial.",
+                    "timeFrame": "1 year trial period"
+                },
+                {
+                    "measure": "Study 2 secondary outcome: Percentage of participants for whom LCS care gap was closed.",
+                    "description": "Another secondary outcome for Study 2 will be the percentage of participants for whom the LCS care gap was closed, defined as the identification and completion of recommended care services among patients eligible for LCS according to the EHR. LCS care-gap closure could be achieved through LDCT completion, other chest CT completion, or documented SDM.",
+                    "timeFrame": "1 year trial period"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion criteria for both study 1 and study 2:\n\n* aged 50-79\n* a history of smoking (e.g., current or former tobacco use)\n* seen in a study primary care clinic in the 12 months preceding the start of the trial\n\nExclusion criteria for both study 1 and study 2:\n\n* \\>0 but \\< 10 pack-year smoking history or quit more than 15 years ago\n* No use of the patient portal at least once in the year preceding the start of the study\n* A lung cancer diagnosis at the start of the study\n* LDCT completed in the past 3 years\n* Another chest CT completed in the past year\n* Structured EHR data indicating LCS SDM was provided in the past 3 years\n* Exposed to the intervention during the pilot phase\n\nInclusion criteria for study 1:\n\n* a 10-19 pack-year smoking history, an unknown pack-year history, unknown quit date for patients who quit smoking, or a 0 pack-year smoking history\n\nInclusion criteria for study 2:\n\n* at least a 20 pack-year smoking history and are a current smoker or have quit within the last 15 years",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "50 Years",
+            "maximumAge": "79 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kensaku Kawamoto, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "8015878076",
+                    "email": "kensaku.kawamoto@utah.edu"
+                },
+                {
+                    "name": "Polina Kukhareva, PhD, MPH",
+                    "role": "CONTACT",
+                    "phone": "8015814080",
+                    "email": "polina.kukhareva@utah.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kensaku Kawamoto, MD, PhD, MHS",
+                    "affiliation": "University of Utah",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "NYU Langone Health",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Devin Mann, MD",
+                            "role": "CONTACT",
+                            "email": "devin.mann@nyulangone.org"
+                        },
+                        {
+                            "name": "Devin Mann, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "University of Utah Health",
+                    "status": "RECRUITING",
+                    "city": "Salt Lake City",
+                    "state": "Utah",
+                    "zip": "84112",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kensaku Kawamoto, MD, PhD, MHS",
+                            "role": "CONTACT",
+                            "email": "kensaku.kawamoto@utah.edu"
+                        },
+                        {
+                            "name": "Kensaku Kawamoto, MD, PhD, MHS",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.76078,
+                        "lon": -111.89105
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "37142092",
+                    "type": "BACKGROUND",
+                    "citation": "Kukhareva PV, Li H, Caverly TJ, Del Fiol G, Fagerlin A, Butler JM, Hess R, Zhang Y, Taft T, Flynn MC, Reddy C, Martin DK, Warner IA, Rodriguez-Loya S, Warner PB, Kawamoto K. Implementation of Lung Cancer Screening in Primary Care and Pulmonary Clinics: Pragmatic Clinical Trial of Electronic Health Record-Integrated Everyday Shared Decision-Making Tool and Clinician-Facing Prompts. Chest. 2023 Nov;164(5):1325-1338. doi: 10.1016/j.chest.2023.04.040. Epub 2023 May 3."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "On completion, study data will be made available in compliance with institutional and sponsor data sharing policies."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

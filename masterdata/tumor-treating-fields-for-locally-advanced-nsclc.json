@@ -1,0 +1,491 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06124118",
+            "orgStudyIdInfo": {
+                "id": "HCI166135"
+            },
+            "organization": {
+                "fullName": "University of Utah",
+                "class": "OTHER"
+            },
+            "briefTitle": "Tumor Treating Fields for Locally Advanced NSCLC",
+            "officialTitle": "A Feasibility Study to Evaluate the Addition of Tumor Treating Fields to Treatment of Locally Advanced Stage III NSCLC",
+            "acronym": "NOVOCURE",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "tumor-treating-fields-for-locally-advanced-nsclc"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+                "date": "2024-04-04",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-11-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-11-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-03",
+            "studyFirstSubmitQcDate": "2023-11-03",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-09",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Utah",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this open-label, Phase 1 clinical trial is to determine the safety of TTFields started concurrently with SOC chemoradiation and during consolidation durvalumab in locally advanced, unresectable stage III non-small cell lung cancer (NSCLC). The main question it aims to answer is, \"What is the rate of dose-limiting toxicities (DLTs) with TTFields in addition to concurrent chemoradiation and consolidation durvalumab?\"\n\nStep 1\n\n* All participants will be screened and enrolled in Step 1 prior to SOC concurrent chemoradiation.\n* The purpose of the Step 1 Registration is to ensure that eligible participants are candidate for concurrent chemoradiation and do not have contraindications to TTF therapy or immunotherapy.\n\n  * Starting Level: Participants in Device Duration Level 1 will receive standard of care concurrent chemoradiation following Step 1 Registration.\n  * Escalation Level : Participants in Device Duration Level 2 will begin standard of care chemoradiation and treatment with TTFields following Step 1 Registration.\n\nStep 2\n\n* All participants will complete Step 2 screening and enrollment prior to receiving treatment with durvalumab consolidation therapy and TTFields.\n* The purpose of the Step 2 registration is to ensure that eligible patients meet criteria for consolidation durvalumab after completion of CRT and do not have contraindications to TTF. therapy or immunotherapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Non Small Cell Lung Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "interventionModelDescription": "Bayes optimal interval design (BOIN)",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Device Duration Level 1",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants in Device Duration Level 1 will receive Tumor Treatment Fields (TTF) therapy during standard of care consolidation durvalumab.",
+                    "interventionNames": [
+                        "Device: NovoTTF-200T (TTFields) System",
+                        "Drug: Durvalumab"
+                    ]
+                },
+                {
+                    "label": "Device Duration Level 2",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants in in Device Duration Level 2 will begin TTF therapy during SOC durvalumab and SOC Concurrent chemoradiation following Device Duration Level 1.",
+                    "interventionNames": [
+                        "Radiation: carboplatin chemotherapy",
+                        "Device: NovoTTF-200T (TTFields) System",
+                        "Drug: Durvalumab"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "carboplatin chemotherapy",
+                    "description": "Concurrent chemoradiation will be given per standard of care within 24 hours of initiation of standard of care radiation therapy. Treatment will include a paclitaxel/carboplatin chemotherapy regimen administered during the radiotherapy course (over 6-7 weeks).\n\nPaclitaxel (50 mg/m2) will be administered intravenous over 1 hour followed by Carboplatin AUC = 2 mg/min/mL intravenous weekly (every 7 days \u00b1 3 days) during radiotherapy 11, NCCN Non-small cell lung cancer guidelines 2023).\n\nIf a patient has a hypersensitivity reaction to weekly paclitaxel, weekly nab-paclitaxel is allowed to replace paclitaxel at the discretion of the treating medical oncologist 37. The recommended starting dose of weekly nab-paclitaxel is 40 mg/m2 to 50 mg/m2 38 39. Standard premedications with steroids, diphenhydramine, H2 receptor antagonist, and 5-HT3 receptor antagonist antiemetics must be administered per individual institutional guidelines.",
+                    "armGroupLabels": [
+                        "Device Duration Level 2"
+                    ],
+                    "otherNames": [
+                        "paclitaxel",
+                        "nab-paclitaxel"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "NovoTTF-200T (TTFields) System",
+                    "description": "The NovoTTF-200T (TTFields) System is an investigational medical device delivering 150 kHz TTFields to the thorax for the treatment of patients at the age of 22 years or older. The device is a portable, battery operated system which delivers TTFields at 150 kHz to the thorax by means of insulated Transducer Arrays. The NovoTTF-200T produces electric forces intended to disrupt cancer cell division.\n\nTTFields at 150 kHz to the thorax will be continuous for at least 11 hours a day on average, with a recommended duration of at least 18 hours a day. Subjects may take breaks for personal needs (e.g. showering, array exchange). TTFields may be continued as long as there is no disease progression per RECIST 1.1 or any of the treatment discontinuation conditions for subject withdrawal or termination.",
+                    "armGroupLabels": [
+                        "Device Duration Level 1",
+                        "Device Duration Level 2"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Durvalumab",
+                    "description": "Consolidation Durvalumab will be given per standard of care and institutional guidelines every 4 weeks for up to 12 cycles. Refer to package insert for detailed pharmacologic, dosing, and safety information.",
+                    "armGroupLabels": [
+                        "Device Duration Level 1",
+                        "Device Duration Level 2"
+                    ],
+                    "otherNames": [
+                        "Imfinzi"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Rate of dose-limiting toxicities (DLTs) during the DLT evaluation period",
+                    "description": "To assess the safety of Tumor Treating Fields (TTFields) started concurrently with SOC chemoradiation and during consolidation durvalumab for treatment of unresectable stage III non-small cell lung cancer (NSCLC).",
+                    "timeFrame": "12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "The frequency of adverse events (AEs) and serious adverse events (SAEs) characterized by type, severity (as defined by the NIH CTCAE, version 5.0), seriousness, duration, and relationship to study treatment",
+                    "description": "To assess the safety and tolerability of TTFields started concurrently with SOC chemoradiation and during consolidation Durvalumab for treatment of unresectable stage III NSCLC.",
+                    "timeFrame": "1 year 6 months"
+                },
+                {
+                    "measure": "Progression-free survival as defined as the time from CRT to the time documented disease progression (as assessed by RECIST 1.1) or death from any cause.",
+                    "description": "To assess progression-free survival (PFS)",
+                    "timeFrame": "1 year 6 months"
+                },
+                {
+                    "measure": "Overall survival (OS) as defined as the time from CRT until death from any cause.",
+                    "description": "To assess overall survival (OS) in this study population",
+                    "timeFrame": "1 year 6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nStep 1: Pre-Chemoradiation Inclusion Criteria\n\n* Histologically or cytologically confirmed diagnosis of non-small cell lung cancer (NSCLC).\n* Clinical AJCC (AJCC, 8th ed.) stage IIIA or IIIB NSCLC with unresectable disease. Staging FDG-PET/CT and MRI brain (preferred) or CT head with contrast scan must have been completed within 60 days prior to initiation of concurrent CRT. Unresectable disease must be determined by a multi-disciplinary team unless, in the opinion of the the treating investigator, the subject's disease is clearly unresectable. Subjects who refuse surgery will be considered to have unresectable disease.\n* Able to operate the NovoTTF-200T System independently or with the help of a caregiver.\n* Eligible to receive standard of care chemoradiation per institutional standards.\n* Subject must have measurable disease by RECIST 1.1 criteria by CT.\n* ECOG Performance Status \u2264 1.\n* Adequate organ function as defined as:\n* Hematologic:\n\n  * Absolute neutrophil count (ANC) \u2265 1500/mm3\n  * Platelet count \u2265 100,000/mm3\n  * Hemoglobin \u2265 10 g/dL (transfusions are allowed for Device Duration Level 2 only if anemia is due to prior therapy.)\n* Hepatic:\n\n  * Total Bilirubin \u2264 1.5x institutional upper limit of normal (ULN) or direct bilirubin \u2264ULN for participants with total bilirubin levels \\>1.5 \u00d7 ULN.\n  * AST(SGOT)/ALT(SGPT) \u2264 3 \u00d7 institutional ULN\n  * Subjects with liver metastases will be allowed to enroll with AST and ALT levels \u2264 5 x ULN.\n* Renal:\n\n  * Estimated creatinine clearance \u2265 50 mL/min by Cockcroft-Gault formula:\n* Males:\n\n  * ((140-age)\u00d7weight\\[kg\\])/(serum creatinine \\[mg/dL\\]\u00d772)\n* Females:\n\n  * (((140-age)\u00d7weight\\[kg\\])/(serum creatinine \\[mg/dL\\]\u00d772))\u00d70.85\n* For subjects of childbearing potential:\n\n  * Negative pregnancy test or evidence of post-menopausal status. The post-menopausal status will be defined as having been amenorrheic for 12 months without an alternative medical cause. The following age-specific requirements apply:\n* Subjects \\< 50 years of age:\n\n  * Amenorrheic for \u2265 12 months following cessation of exogenous hormonal treatments; and\n  * Luteinizing hormone and follicle-stimulating hormone levels in the post-menopausal range for the institution; or\n  * Underwent surgical sterilization (bilateral oophorectomy or hysterectomy).\n* Subjects \u2265 50 years of age:\n\n  * Amenorrheic for 12 months or more following cessation of all exogenous hormonal treatments; or\n  * Had radiation-induced menopause with last menses \\>1 year ago; or\n  * Had chemotherapy-induced menopause with last menses \\>1 year ago; or\n  * Underwent surgical sterilization (bilateral oophorectomy, bilateral salpingectomy, or hysterectomy).\n* Subjects of childbearing potential and subjects with a sexual partner of childbearing potential must agree to use a highly effective method of contraception as described in Section 4.6.\n* Able to provide informed consent and willing to sign an approved consent form that conforms to federal and institutional guidelines.\n\nStep 2: Pre-Consolidative Immunotherapy Phase Inclusion Criteria\n\n* The subject must have previously completed and been eligible for Step 1 registration.\n* Completion of post-chemoradiation CT scan and RECIST 1.1 assessment.\n* Eligible to receive consolidation immunotherapy per institutional standards and Investigator judgement.\n* Able to operate the NovoTTF-200T System independently or with the help of a caregiver.\n* ECOG Performance Status \u2264 1.\n* Adequate organ function as defined as:\n* Hematologic:\n\n  * Absolute neutrophil count (ANC) \u2265 1500/mm3\n  * Platelet count \u2265 100,000/mm3\n  * Hemoglobin \u2265 10 g/dL (transfusions are allowed for Device Duration Level 2 only if anemia is due to prior therapy with concurrent chemoradiation.)\n* Hepatic:\n\n  * Total Bilirubin \u2264 1.5x institutional upper limit of normal (ULN) or direct bilirubin \u2264ULN for participants with total bilirubin levels \\>1.5 \u00d7 ULN.\n  * AST(SGOT)/ALT(SGPT) \u2264 3 \u00d7 institutional ULN\n  * Subjects with liver metastases will be allowed to enroll with AST and ALT levels \u2264 5 x ULN.\n* Renal:\n\n  * Estimated creatinine clearance \u2265 50 mL/min by Cockcroft-Gault formula:\n* Males:\n\n  * ((140-age)\u00d7weight\\[kg\\])/(serum creatinine \\[mg/dL\\]\u00d772)\n* Females:\n\n  * (((140-age)\u00d7weight\\[kg\\])/(serum creatinine \\[mg/dL\\]\u00d772))\u00d70.85\n* Recovery to baseline or \u2264 Grade 1 CTCAE v5.0 from toxicities related to any prior cancer therapy (except for alopecia or fatigue) unless considered clinically not significant and/or stable by the treating investigator.\n* Resolution of any pneumonitis from prior radiation therapy to \\< grade 1 per the treating investigator.\n\nExclusion Criteria:\n\nStep 1: Pre-Chemoradiation Phase Exclusion Criteria\n\n* Prior thoracic radiation, including breatbreast radiation.\n* Prior exposure to TTFields.\n* Prior systemic immunotherapy or radiotherapy for NSCLC.\n* nown underlying skin hypersensitivity or known allergy to skin adhesives or hydrogel.\n* Known hypersensitivity to radiation due to genetic susceptibility, connective tissue disease, or any other cause.\n* Receiving other investigational agents.\n* Major surgery (per treating investigator) within 4 weeks prior to starting study drug or who have not fully recovered from major surgery. Note: Biopsies without significant complications will not be considered major surgery.\n* The diagnosis of another malignancy within \u2264 2 years before study enrollment, except for those considered to be adequately treated with no evidence of disease or symptoms and/or will not require therapy during the study duration (i.e., basal cell or squamous cell skin cancer, carcinoma in situ of the breast, bladder or of the cervix, or low-grade prostate cancer with Gleason Score \u2264 6).\n* Current evidence of uncontrolled, significant intercurrent illness including, but not limited to, the following conditions:\n* Cardiovascular disorders:\n\n  * Congestive heart failure New York Heart Association Class III or IV, unstable angina pectoris, serious or clinically significant cardiac arrhythmias.\n  * Stroke (including transient ischemic attack \\[TIA\\]), myocardial infarction (MI), or other ischemic events, or thromboembolic event (eg, deep venous thrombosis, pulmonary embolism) within 3 months before the first dose.\n  * QTc prolongation defined as a QTcF \\> 500 ms.\n  * Known congenital long QT.\n  * Left ventricular ejection fraction \\< 50%.\n  * Uncontrolled hypertension defined as persistent blood pressure of \u2265 160/90 as assessed from the mean of three consecutive blood pressure measurements taken over 10 minutes.\n  * Implanted pacemaker, defibrillator or other electrical medical devices;\n  * Any other condition that would, in the Investigator's judgment, contraindicate the subject's participation in the clinical study due to safety concerns or compliance with clinical study procedures (e.g., infection/inflammation, intestinal obstruction, unable to swallow medication, \\[subjects may not receive the drug through a feeding tube\\], social/ psychological issues, etc.)\n* Known HIV infection with a detectable viral load within 6 months of the anticipated start of treatment. Note: Subjects on effective antiretroviral therapy with an undetectable viral load within 6 months of the anticipated start of treatment are eligible for this trial.\n* Active known infection including tuberculosis (clinical evaluation that includes clinical history, physical examination, radiographic findings, and TB testing in line with local practice), hepatitis B (known positive HBV surface antigen (HBsAg) result), or hepatitis C. Note: Subjects with a past or resolved HBV infection (defined as the presence of hepatitis B core antibody \\[anti-HBc\\] and absence of HBsAg) are eligible. Subjects positive for hepatitis C (HCV) antibody are eligible only if polymerase chain reaction is negative for HCV RNA.\n* Medical, psychiatric, cognitive, or other conditions that may compromise the subject's ability to understand the subject information, give informed consent, comply with the study protocol or complete the study.\n* History of allogenic stem cell or solid organ transplantation\n* Active or prior documented autoimmune or inflammatory disorders (including inflammatory bowel disease \\[e.g., colitis or Crohn's disease\\], systemic lupus erythematosus, Sarcoidosis syndrome, or Wegener syndrome \\[granulomatosis with polyangiitis, Graves' disease, rheumatoid arthritis, uveitis, etc.\\]). The following are exceptions to this criterion:\n\n  * Patients with vitiligo or alopecia\n  * Patients with endocrine disorders with controlled disease on hormone replacement therapy (e.g. adrenal, thyroid, or pituitary replacement therapy)\n  * Any chronic skin condition that does not require systemic therapy\n  * Patients without active disease in the last 5 years may be included but only after consultation with the principal investigator.\n  * Patients with celiac disease controlled by diet alone\n* Current or prior use of immunosuppressive medication within 14 days of cycle one day one, EXCEPT for the following permitted steroids:\n\n  * Intranasal, inhaled, topical steroids, eye drops, or local steroid injection (e.g., intra-articular injection);\n  * Systemic corticosteroids at physiologic doses \u2264 10mg/day of prednisone or equivalent;\n  * Steroids as premedication for hypersensitivity reactions (e.g., computed tomography (CT) scan premedication).\n* Subjects taking prohibited medications as described in Section 5.11. A washout period of prohibited medications for a period of at least five half-lives or as clinically indicated should occur before the start of treatment.\n* History of exudative pleural effusions, regardless of cytology.\n* Peripheral neuropathy \\> grade 1 for patients receiving concurrent carboplatin and paclitaxel with radiation.\n\nStep 2 Pre-Consolidative Immunotherapy Phase Exclusion Criteria\n\n* Subjects who in the investigators opinion had disease progression following concurrent chemoradiation.\n* Known underlying skin hypersensitivity or known allergy to skin adhesives or hydrogel.\n* Major surgery (per treating investigator) 4 weeks prior to starting study drug or who have not fully recovered from major surgery.\n* Current evidence of uncontrolled, significant intercurrent illness including, but not limited to, the following conditions:\n* Cardiovascular disorders:\n\n  * Congestive heart failure New York Heart Association Class III or IV, unstable angina pectoris, serious or clinically significant cardiac arrhythmias.\n  * Stroke (including transient ischemic attack \\[TIA\\]), myocardial infarction (MI), or other ischemic events, or thromboembolic event (eg, deep venous thrombosis, pulmonary embolism) within 3 months before the first dose.\n  * QTc prolongation defined as a QTcF \\> 500 ms.\n  * Known congenital long QT.\n  * Left ventricular ejection fraction \\< 50%.\n  * Uncontrolled hypertension defined as persistent blood pressure of \u2265 160/90 as assessed from the mean of three consecutive blood pressure measurements taken over 10 minutes.\n  * Implanted pacemaker, defibrillator or other electrical medical devices;\n  * Any other condition that would, in the Investigator's judgment, contraindicate the subject's participation in the clinical study due to safety concerns or compliance with clinical study procedures (e.g., infection/inflammation, intestinal obstruction, unable to swallow medication, \\[subjects may not receive the drug through a feeding tube\\], social/ psychological issues, etc.)\n* Medical, psychiatric, cognitive, or other conditions that may compromise the subject's ability to understand the subject information, give informed consent, comply with the study protocol or complete the study.\n* History of allogenic stem cell or solid organ transplantation\n* Active or prior documented autoimmune or inflammatory disorders (including inflammatory bowel disease \\[e.g., colitis or Crohn's disease\\], systemic lupus erythematosus, Sarcoidosis syndrome, or Wegener syndrome \\[granulomatosis with polyangiitis, Graves' disease, rheumatoid arthritis, uveitis, etc.\\]).\n* The following are exceptions to this criterion:\n\n  * Patients with vitiligo or alopecia\n  * Patients with endocrine disorders with controlled disease on hormone replacement therapy (e.g. adrenal, thyroid, or pituitary replacement therapy)\n  * Any chronic skin condition that does not require systemic therapy\n  * Patients without active disease in the last 5 years may be included but only after consultation with the principal investigator\n  * Patients with celiac disease controlled by diet alone.\n* Current or prior use of immunosuppressive medication within 14 days of cycle one day one, EXCEPT for the following permitted steroids:\n\n  * Intranasal, inhaled, topical steroids, eye drops, or local steroid injection (e.g., intra-articular injection)\n  * Systemic corticosteroids at physiologic doses \u2264 10mg/day of prednisone or equivalent\n* History of exudative pleural effusions, regardless of cytology.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "22 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "kaitlin Stephens",
+                    "role": "CONTACT",
+                    "phone": "801-213-8494",
+                    "email": "kaitlin.stephens@hci.utah.edu"
+                },
+                {
+                    "name": "Wallace Akerley, MD",
+                    "role": "CONTACT",
+                    "phone": "801-585-0255",
+                    "email": "wallace.akerley@hci.utah.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Wallace Akerley, MD",
+                    "affiliation": "Huntsman Cancer Institute/ University of Utah",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Huntsman Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Salt Lake City",
+                    "state": "Utah",
+                    "zip": "84112",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kaitlin Stephens",
+                            "role": "CONTACT",
+                            "phone": "801-213-8494",
+                            "email": "Kaitlin.Stephens@hci.utah.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.76078,
+                        "lon": -111.89105
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002289",
+                    "term": "Carcinoma, Non-Small-Cell Lung"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                },
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "asFound": "Non-small Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000017239",
+                    "term": "Paclitaxel"
+                },
+                {
+                    "id": "D000068196",
+                    "term": "Albumin-Bound Paclitaxel"
+                },
+                {
+                    "id": "D000016190",
+                    "term": "Carboplatin"
+                },
+                {
+                    "id": "C000613593",
+                    "term": "Durvalumab"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000972",
+                    "term": "Antineoplastic Agents, Phytogenic"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000050257",
+                    "term": "Tubulin Modulators"
+                },
+                {
+                    "id": "D000050256",
+                    "term": "Antimitotic Agents"
+                },
+                {
+                    "id": "D000050258",
+                    "term": "Mitosis Modulators"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000074322",
+                    "term": "Antineoplastic Agents, Immunological"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18650",
+                    "name": "Carboplatin",
+                    "asFound": "System",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19537",
+                    "name": "Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M272500",
+                    "name": "Durvalumab",
+                    "asFound": "Pancreatic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M231",
+                    "name": "Albumin-Bound Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15512",
+                    "name": "Serotonin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14268",
+                    "name": "Promethazine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7338",
+                    "name": "Diphenhydramine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4251",
+                    "name": "Antiemetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9711",
+                    "name": "Histamine H2 Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26197",
+                    "name": "Tubulin Modulators",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26196",
+                    "name": "Antimitotic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1346",
+                    "name": "Antineoplastic Agents, Immunological",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AAll",
+                    "name": "Anti-Allergic Agents"
+                },
+                {
+                    "abbrev": "Derm",
+                    "name": "Dermatologic Agents"
+                },
+                {
+                    "abbrev": "AnEm",
+                    "name": "Antiemetics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

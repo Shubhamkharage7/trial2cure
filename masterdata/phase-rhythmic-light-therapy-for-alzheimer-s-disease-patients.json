@@ -1,0 +1,595 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05016219",
+            "orgStudyIdInfo": {
+                "id": "GCO 21-0378-02"
+            },
+            "organization": {
+                "fullName": "Icahn School of Medicine at Mount Sinai",
+                "class": "OTHER"
+            },
+            "briefTitle": "Phase 2 - Rhythmic Light Therapy for Alzheimer's Disease Patients",
+            "officialTitle": "Phase 2 - The Use of Rhythmic Light Therapy to Entrain Gamma Oscillations and the Circadian System in Patients With Alzheimer's Disease",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "phase-rhythmic-light-therapy-for-alzheimer-s-disease-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-22",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-08-12",
+            "studyFirstSubmitQcDate": "2021-08-16",
+            "studyFirstPostDateStruct": {
+                "date": "2021-08-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-09-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Mariana Figueiro",
+                "investigatorTitle": "Professor, Population Health Science and Policy",
+                "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai"
+            },
+            "leadSponsor": {
+                "name": "Icahn School of Medicine at Mount Sinai",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Participants will randomly be placed into one of four groups and experience one of the four following conditions: (1) a placebo light that provides a 40 hertz (Hz) flicker (rhythmic light \\[RL\\]); (2) a placebo light with a random flicker (placebo condition for rhythmic light); (3) a light source that will stimulate the circadian system and provides a 40 Hz flicker (RL); or (4) a light source that will stimulate the circadian system and provides a random flicker (placebo condition for rhythmic light). Following a baseline week, participants will experience his/her assigned lighting condition for two hours in the morning for 8 weeks. After a 4-week washout period, a final round of assessments will be obtained. Study assessments (except for the Pittsburgh Sleep Quality Index and Montreal Cognitive Assessment) will be collected at the end of each week, for a total of 8 assessments.",
+            "detailedDescription": "The tailored lighting intervention used to promote circadian entrainment will provide high circadian stimulation during the day produced by narrowband blue light peaking at 470 nanometers (nm). A comparison lighting intervention (i.e., placebo lighting), a narrowband red light peaking at 630 nm, will be used as a control. Both the red and the blue light devices will also provide either the 40 hertz (Hz) flicker (RL) or the random flicker (placebo RL). For the random flicker (placebo RL), the duty cycle will be delivered with a random interval determined by a Poisson process with an average interval of 40 hertz (Hz)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Mild Cognitive Impairment"
+            ],
+            "keywords": [
+                "Light Treatment",
+                "Circadian Rhythms",
+                "Gamma Wave Entrainment",
+                "Rhythmic Light",
+                "Sleep",
+                "Cognition"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 120,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Active Intervention plus Active Rhythm",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "The device will set on a tabletop in a room where the participant spends at least 2 hours in the morning. Using a timer, it will automatically turn on at preferred wakeup times (but no later than 09:00 am) chosen by the participant. Lights will remain on for at least 2 hours and participants will be asked to remain the space that lights are being applied for that period of time.",
+                    "interventionNames": [
+                        "Device: Circadian-Effective Light",
+                        "Device: Rhythmic Light"
+                    ]
+                },
+                {
+                    "label": "Active Light plus Placebo Rhythm",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "The device will set on a tabletop in a room where the participant spends at least 2 hours in the morning. Using a timer, it will automatically turn on at preferred wakeup times (but no later than 09:00 am) chosen by the participant. Lights will remain on for at least 2 hours and participants will be asked to remain the space that lights are being applied for that period of time.",
+                    "interventionNames": [
+                        "Device: Circadian-Effective Light",
+                        "Device: Placebo Rhythmic Light"
+                    ]
+                },
+                {
+                    "label": "Placebo Light plus Active Rhythm",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "The device will set on a tabletop in a room where the participant spends at least 2 hours in the morning. Using a timer, it will automatically turn on at preferred wakeup times (but no later than 09:00 am) chosen by the participant. Lights will remain on for at least 2 hours and participants will be asked to remain the space that lights are being applied for that period of time.",
+                    "interventionNames": [
+                        "Device: Rhythmic Light",
+                        "Device: Placebo Light"
+                    ]
+                },
+                {
+                    "label": "Placebo Light plus Placebo Rhythm",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "The device will set on a tabletop in a room where the participant spends at least 2 hours in the morning. Using a timer, it will automatically turn on at preferred wakeup times (but no later than 09:00 am) chosen by the participant. Lights will remain on for at least 2 hours and participants will be asked to remain the space that lights are being applied for that period of time.",
+                    "interventionNames": [
+                        "Device: Placebo Light",
+                        "Device: Placebo Rhythmic Light"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Circadian-Effective Light",
+                    "description": "Narrowband blue light",
+                    "armGroupLabels": [
+                        "Active Intervention plus Active Rhythm",
+                        "Active Light plus Placebo Rhythm"
+                    ],
+                    "otherNames": [
+                        "Active Light"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Rhythmic Light",
+                    "description": "40 hertz (Hz) flicker",
+                    "armGroupLabels": [
+                        "Active Intervention plus Active Rhythm",
+                        "Placebo Light plus Active Rhythm"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Placebo Light",
+                    "description": "Narrowband red light",
+                    "armGroupLabels": [
+                        "Placebo Light plus Active Rhythm",
+                        "Placebo Light plus Placebo Rhythm"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Placebo Rhythmic Light",
+                    "description": "Random flicker for placebo rhythmic effect",
+                    "armGroupLabels": [
+                        "Active Light plus Placebo Rhythm",
+                        "Placebo Light plus Placebo Rhythm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Cognition using the Montreal Cognitive Assessment (MoCA)",
+                    "description": "The Montreal Cognitive Assessment is a one-page, 30-point test that can be administered in 10 minutes. It assesses short-term memory, visuospatial abilities, executive functions, attention, concentration and working memory, language, and orientation to time and place. total score ranging from 0 to 30 units on a scale, with higher score indicating better cognitive global function.",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Cognition using the Montreal Cognitive Assessment (MoCA)",
+                    "description": "The Montreal Cognitive Assessment is a one-page, 30-point test that can be administered in 10 minutes. It assesses short-term memory, visuospatial abilities, executive functions, attention, concentration and working memory, language, and orientation to time and place. total score ranging from 0 to 30 units on a scale, with higher score indicating better cognitive global function.",
+                    "timeFrame": "at the end of week 9"
+                },
+                {
+                    "measure": "Cognition using the Montreal Cognitive Assessment (MoCA)",
+                    "description": "The Montreal Cognitive Assessment is a one-page, 30-point test that can be administered in 10 minutes. It assesses short-term memory, visuospatial abilities, executive functions, attention, concentration and working memory, language, and orientation to time and place. total score ranging from 0 to 30 units on a scale, with higher score indicating better cognitive global function.",
+                    "timeFrame": "at the end of week 14"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Cognition using a working memory task",
+                    "description": "Participants view a serial visual display of letters and math problems. They are asked to hold the letters in memory while simultaneously determining if the simple math problems are correct (e.g., 7+5=13). Math performance is measured in percent correct and verbal performance is assessed by calculating Accuracy and Reaction Time (RT).",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Cognition using a working memory task",
+                    "description": "Participants view a serial visual display of letters and math problems. They are asked to hold the letters in memory while simultaneously determining if the simple math problems are correct (e.g., 7+5=13). Math performance is measured in percent correct and verbal performance is assessed by calculating Accuracy and Reaction Time (RT).",
+                    "timeFrame": "at the end of week 9"
+                },
+                {
+                    "measure": "Cognition using a working memory task",
+                    "description": "Participants view a serial visual display of letters and math problems. They are asked to hold the letters in memory while simultaneously determining if the simple math problems are correct (e.g., 7+5=13). Math performance is measured in percent correct and verbal performance is assessed by calculating Accuracy and Reaction Time (RT).",
+                    "timeFrame": "at the end of week 14"
+                },
+                {
+                    "measure": "Cognition using a word pair associates task",
+                    "description": "Participants are presented with 48 word-pairs in the evening. Recognition tests are assessed both immediately following the encoding session, and delayed during retrieval.",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Cognition using a word pair associates task",
+                    "description": "Participants are presented with 48 word-pairs in the evening. Recognition tests are assessed both immediately following the encoding session, and delayed during retrieval.",
+                    "timeFrame": "at the end of week 9"
+                },
+                {
+                    "measure": "Cognition using a word pair associates task",
+                    "description": "Participants are presented with 48 word-pairs in the evening. Recognition tests are assessed both immediately following the encoding session, and delayed during retrieval.",
+                    "timeFrame": "at the end of week 14."
+                },
+                {
+                    "measure": "Cognition using an implicit priming task",
+                    "description": "Participants will be presented with simple pictures of objects and animals. Following a break, the participant will then be asked to identify a larger set of pictures as soon as he/she is able to do so as the pictures clarify over time; some of these test pictures were shown previously and some are new.",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Cognition using an implicit priming task",
+                    "description": "Participants will be presented with simple pictures of objects and animals. Following a break, the participant will then be asked to identify a larger set of pictures as soon as he/she is able to do so as the pictures clarify over time; some of these test pictures were shown previously and some are new.",
+                    "timeFrame": "at the end of week 9"
+                },
+                {
+                    "measure": "Cognition using an implicit priming task",
+                    "description": "Participants will be presented with simple pictures of objects and animals. Following a break, the participant will then be asked to identify a larger set of pictures as soon as he/she is able to do so as the pictures clarify over time; some of these test pictures were shown previously and some are new.",
+                    "timeFrame": "at the end of week 14."
+                },
+                {
+                    "measure": "Cognition using the Alzheimer's Disease Assessment Scale - Cognitive Subscale",
+                    "description": "This interview-style test assesses multiple cognitive domains such as memory, language, praxis, and orientation. The ADAS-Cog subscale is scored from 0-100. The full ADAS is scored from 0 to 150 by summing the number of errors made on each task so that higher scores indicate worse performance.",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Cognition using the Alzheimer's Disease Assessment Scale - Cognitive Subscale",
+                    "description": "This interview-style test assesses multiple cognitive domains such as memory, language, praxis, and orientation. The Alzheimer's Disease Assessment Scale - Cognitive Subscale (ADAS-Cog) subscale is scored from 0-100. The full ADAS is scored from 0 to 150 by summing the number of errors made on each task so that higher scores indicate worse performance.",
+                    "timeFrame": "at the end of week 9"
+                },
+                {
+                    "measure": "Cognition using the Alzheimer's Disease Assessment Scale - Cognitive Subscale",
+                    "description": "This interview-style test assesses multiple cognitive domains such as memory, language, praxis, and orientation. The ADAS-Cog subscale is scored from 0-100. The full ADAS is scored from 0 to 150 by summing the number of errors made on each task so that higher scores indicate worse performance.",
+                    "timeFrame": "at the end of week 14."
+                },
+                {
+                    "measure": "Urine Melatonin Biomarker",
+                    "description": "Urine Melatonin Biomarker via urine collection",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Urine Melatonin Biomarker",
+                    "description": "Urine Melatonin Biomarker via urine collection",
+                    "timeFrame": "at the end of week 9."
+                },
+                {
+                    "measure": "Light Exposure using a Daysimeter",
+                    "description": "The Daysimeter will also be used to monitor the total amount of circadian light received by the participant during the study.",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Light Exposure using a Daysimeter",
+                    "description": "The Daysimeter will also be used to monitor the total amount of circadian light received by the participant during the study.",
+                    "timeFrame": "week 9"
+                },
+                {
+                    "measure": "Light Exposure using a Daysimeter",
+                    "description": "The Daysimeter will also be used to monitor the total amount of circadian light received by the participant during the study.",
+                    "timeFrame": "week 14."
+                },
+                {
+                    "measure": "Sleep Quantity using Actigraphy",
+                    "description": "Sleep Quantity measured using Actigraphy",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Sleep Quantity using Actigraphy",
+                    "description": "Sleep Quantity measured using Actigraphy",
+                    "timeFrame": "week 9"
+                },
+                {
+                    "measure": "Sleep Quantity using Actigraphy",
+                    "description": "Sleep Quantity measured using Actigraphy",
+                    "timeFrame": "week 14"
+                },
+                {
+                    "measure": "Sleep Quality using the Pittsburgh Sleep Quality Index (PSQI)",
+                    "description": "The Pittsburgh Sleep Quality Index is a tool that can be used to measure sleep quality in clinical populations, composed of 19 items that generate 7 component scores (subjective sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbances, use of sleep medication, and daytime dysfunction). Each item is weighted on a 0-3 interval scale. The global PSQI score is then calculated by totaling the seven component scores, providing an overall score ranging from 0 to 21, with higher score indicates worse sleep quality",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Sleep Quality using the Pittsburgh Sleep Quality Index (PSQI)",
+                    "description": "The Pittsburgh Sleep Quality Index is a tool that can be used to measure sleep quality in clinical populations, composed of 19 items that generate 7 component scores (subjective sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbances, use of sleep medication, and daytime dysfunction). Each item is weighted on a 0-3 interval scale. The global PSQI score is then calculated by totaling the seven component scores, providing an overall score ranging from 0 to 21, with higher score indicates worse sleep quality",
+                    "timeFrame": "at the end of week 9"
+                },
+                {
+                    "measure": "Sleep Quality using the Pittsburgh Sleep Quality Index (PSQI)",
+                    "description": "The Pittsburgh Sleep Quality Index is a tool that can be used to measure sleep quality in clinical populations, composed of 19 items that generate 7 component scores (subjective sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbances, use of sleep medication, and daytime dysfunction). Each item is weighted on a 0-3 interval scale. The global PSQI score is then calculated by totaling the seven component scores, providing an overall score ranging from 0 to 21, with higher score indicates worse sleep quality",
+                    "timeFrame": "at the end of week 14."
+                },
+                {
+                    "measure": "Quality of Life using the Dementia Quality of Life Instrument",
+                    "description": "The Dementia Quality of Life Instrument (DQoL) measures self-esteem, positive affect/humor, negative affect, feelings of belonging, and sense of aesthetics.The DQoL consists of 29 items, grouped into 5 subscales according to domain. Subjects are instructed to answer using a 5-point response scale (score from 1-5), either verbally or through use of a visual scale. Scores for each subscale are Self-esteem (4-20), Positive Affect/Humor (6-30), Absence of Negative Affect (11-55), Feelings of Belonging (3-15), Sense of Aesthetics (5-25); however, subscale scores are not summed for a total score. A higher number indicates greater quality of life.",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "Quality of Life using the Dementia Quality of Life Instrument",
+                    "description": "The Dementia Quality of Life Instrument (DQoL) measures self-esteem, positive affect/humor, negative affect, feelings of belonging, and sense of aesthetics.The DQoL consists of 29 items, grouped into 5 subscales according to domain. Subjects are instructed to answer using a 5-point response scale (score from 1-5), either verbally or through use of a visual scale. Scores for each subscale are Self-esteem (4-20), Positive Affect/Humor (6-30), Absence of Negative Affect (11-55), Feelings of Belonging (3-15), Sense of Aesthetics (5-25); however, subscale scores are not summed for a total score. A higher number indicates greater quality of life.",
+                    "timeFrame": "at the end of week 9"
+                },
+                {
+                    "measure": "Quality of Life using the Dementia Quality of Life Instrument",
+                    "description": "The Dementia Quality of Life Instrument (DQoL) measures self-esteem, positive affect/humor, negative affect, feelings of belonging, and sense of aesthetics.The DQoL consists of 29 items, grouped into 5 subscales according to domain. Subjects are instructed to answer using a 5-point response scale (score from 1-5), either verbally or through use of a visual scale. Scores for each subscale are Self-esteem (4-20), Positive Affect/Humor (6-30), Absence of Negative Affect (11-55), Feelings of Belonging (3-15), Sense of Aesthetics (5-25); however, subscale scores are not summed for a total score. A higher number indicates greater quality of life.",
+                    "timeFrame": "at the end of week 14."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Participants must be diagnosed with mild cognitive impairment or mild Alzheimer's disease, as defined by a Montreal Cognitive Assessment score between 17 and 25;\n* Have sleep disturbance indicated by a score \\>5 on the Pittsburgh Sleep Quality Index\n* Participants must reside in their homes, independent living, or assisted living facilities\n\nExclusion Criteria:\n\n* Participants taking sleep medication\n* Residence in a skilled nursing facility or long-term care\n* Obstructing cataracts, macular degeneration, and blindness\n* Severe sleep apnea or restless leg syndrome\n* History of severe epilepsy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "55 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Barbara Plitnick, BSN",
+                    "role": "CONTACT",
+                    "phone": "518-242-4603",
+                    "email": "barbara.plitnick@mountsinai.org"
+                },
+                {
+                    "name": "Mariana Figueiro, PhD",
+                    "role": "CONTACT",
+                    "phone": "518-366-9306",
+                    "email": "mariana.figueiro@mountsinai.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Mariana Figueiro, PhD",
+                    "affiliation": "Icahn School of Medicine at Mount Sinai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Light and Health Research Center",
+                    "status": "RECRUITING",
+                    "city": "Menands",
+                    "state": "New York",
+                    "zip": "12204",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Barbara Plitnick, BS",
+                            "role": "CONTACT",
+                            "phone": "518-242-4603",
+                            "email": "Barbara.Plitnick@mountsinai.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.69202,
+                        "lon": -73.72456
+                    }
+                },
+                {
+                    "facility": "Icahn School of Medicine at Mount Sinai",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10029",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mariana Figueiro, PhD",
+                            "role": "CONTACT",
+                            "phone": "518-366-9306",
+                            "email": "Mariana.Figueiro@mountsinai.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "16216333",
+                    "type": "BACKGROUND",
+                    "citation": "Rea MS, Figueiro MG, Bullough JD, Bierman A. A model of phototransduction by the human circadian system. Brain Res Brain Res Rev. 2005 Dec 15;50(2):213-28. doi: 10.1016/j.brainresrev.2005.07.002. Epub 2005 Oct 7. Erratum In: Brain Res Brain Res Rev. 2007 Nov;56(1):270."
+                },
+                {
+                    "pmid": "15817019",
+                    "type": "BACKGROUND",
+                    "citation": "Nasreddine ZS, Phillips NA, Bedirian V, Charbonneau S, Whitehead V, Collin I, Cummings JL, Chertkow H. The Montreal Cognitive Assessment, MoCA: a brief screening tool for mild cognitive impairment. J Am Geriatr Soc. 2005 Apr;53(4):695-9. doi: 10.1111/j.1532-5415.2005.53221.x. Erratum In: J Am Geriatr Soc. 2019 Sep;67(9):1991. doi: 10.1111/jgs.15925."
+                },
+                {
+                    "pmid": "6496779",
+                    "type": "BACKGROUND",
+                    "citation": "Rosen WG, Mohs RC, Davis KL. A new rating scale for Alzheimer's disease. Am J Psychiatry. 1984 Nov;141(11):1356-64. doi: 10.1176/ajp.141.11.1356."
+                },
+                {
+                    "pmid": "24443644",
+                    "type": "BACKGROUND",
+                    "citation": "Figueiro MG, Hamner R, Bierman A, Rea MS. Comparisons of three practical field devices used to measure personal light exposures and activity levels. Light Res Technol. 2013 Aug;45(4):421-434. doi: 10.1177/1477153512450453."
+                },
+                {
+                    "pmid": "1947597",
+                    "type": "BACKGROUND",
+                    "citation": "Buysse DJ, Reynolds CF 3rd, Monk TH, Hoch CC, Yeager AL, Kupfer DJ. Quantification of subjective sleep quality in healthy elderly men and women using the Pittsburgh Sleep Quality Index (PSQI). Sleep. 1991 Aug;14(4):331-8. Erratum In: Sleep 1992 Feb;15(1):83."
+                },
+                {
+                    "pmid": "7104545",
+                    "type": "BACKGROUND",
+                    "citation": "Hughes CP, Berg L, Danziger WL, Coben LA, Martin RL. A new clinical scale for the staging of dementia. Br J Psychiatry. 1982 Jun;140:566-72. doi: 10.1192/bjp.140.6.566."
+                },
+                {
+                    "pmid": "2748771",
+                    "type": "BACKGROUND",
+                    "citation": "Buysse DJ, Reynolds CF 3rd, Monk TH, Berman SR, Kupfer DJ. The Pittsburgh Sleep Quality Index: a new instrument for psychiatric practice and research. Psychiatry Res. 1989 May;28(2):193-213. doi: 10.1016/0165-1781(89)90047-4."
+                },
+                {
+                    "pmid": "6610841",
+                    "type": "BACKGROUND",
+                    "citation": "McKhann G, Drachman D, Folstein M, Katzman R, Price D, Stadlan EM. Clinical diagnosis of Alzheimer's disease: report of the NINCDS-ADRDA Work Group under the auspices of Department of Health and Human Services Task Force on Alzheimer's Disease. Neurology. 1984 Jul;34(7):939-44. doi: 10.1212/wnl.34.7.939."
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000544",
+                    "term": "Alzheimer Disease"
+                },
+                {
+                    "id": "D000060825",
+                    "term": "Cognitive Dysfunction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003704",
+                    "term": "Dementia"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000024801",
+                    "term": "Tauopathies"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000003072",
+                    "term": "Cognition Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3885",
+                    "name": "Alzheimer Disease",
+                    "asFound": "Alzheimer's Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M29705",
+                    "name": "Cognitive Dysfunction",
+                    "asFound": "Mild Cognitive Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6904",
+                    "name": "Dementia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23002",
+                    "name": "Tauopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6301",
+                    "name": "Cognition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2192",
+                    "name": "Familial Alzheimer Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

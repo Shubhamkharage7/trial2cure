@@ -1,0 +1,250 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05810064",
+            "orgStudyIdInfo": {
+                "id": "2021-0776"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "1K08HS024558",
+                    "type": "AHRQ",
+                    "link": "https://reporter.nih.gov/quickSearch/1K08HS024558"
+                },
+                {
+                    "id": "1R18HS027735",
+                    "type": "AHRQ",
+                    "link": "https://reporter.nih.gov/quickSearch/1R18HS027735"
+                },
+                {
+                    "id": "SMPH/EMERG MED",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "briefTitle": "Effectiveness of an Automated Falls-Risk Screening and Referral Tool in the Emergency Department (ED)",
+            "officialTitle": "Preventing Future Falls in Older Adult ED Patients: Evaluating the Implementation and Effectiveness of a Novel Automated Screening and Referral Intervention - Assessing Outcomes From Medical Records and Medicare Claims Data",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "effectiveness-of-an-automated-falls-risk-screening-and-referral-tool-in-the-emergency-department-ed"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-02-22",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-30",
+            "studyFirstSubmitQcDate": "2023-03-30",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-26",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-28",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Agency for Healthcare Research and Quality (AHRQ)",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this retrospective cohort study is to evaluate the effectiveness of an EHR-based clinical decision support system (CDS) for automatically screening older adult ED patients for risk of future falls and providing ED clinicians opportunity to place referrals orders to the UW Health Mobility and Falls Clinic for those at highest risk prior to discharge.\n\nThis CDS tool has already been implemented at the UW Hospital ED, and as a QI initiative will be implemented in a staged process at two other UW Health-affiliated emergency departments (The American Center and Swedish American Hospital).",
+            "detailedDescription": "The specific aim of this retrospective cohort study is to test the effectiveness of the automated screening and referral intervention on completed referrals to the UW Health fall prevention clinic and rates of injurious falls, using a limited dataset created from EHR and Medicare claims data. The investigators hypothesize that ED patients referred using the falls risk CDS tool will have decreased healthcare use due to fall-related injuries, and that the intervention will have similar levels of effectiveness across different types of patient characteristics. The investigators will also systematically examine barriers to patients completing their clinic referrals, as well as clinic scheduling and pre-visit planning protocols that may have excluded patients from receiving Falls Clinic services.\n\nEffectiveness will be assessed based on examination of a limited dataset consisting of EHR and Medicare claims data measuring rates of (1) patient referrals at each ED, (2) completed referrals to the Mobility and Falls Clinic (i.e., a completed clinic appointment), and (3) healthcare visits for fall-related causes occurring within the six months following the initial ED visit.\n\nThe primary analysis to evaluate effectiveness of the fall-risk CDS tool will include data from older adult patients (age \u226565) who visit study EDs during the intervention period at each site, have a UW Health System-affiliated primary care provider, and are discharged from the ED or ED observation unit (not admitted). Members of the UWH Applied Data Science team (not part of the study team) will extract data from patient EHR to create a limited dataset including: past falls and fall-related injuries (in the 12 months pre-visit, including the index ED visit), post-visit falls and fall-related injuries (in the 6 months following the index ED visit), patient demographics (age, gender, race/ethnicity, insurance), comorbidities, active medications, and utilization (e.g., primary and specialty care visits). Education and income levels will be approximated using census track data. Area Deprivation Index will also be employed based on patient address. These variables will be extracted retrospectively and stored on secure servers."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Falls-Risk"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 30000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Discharged ED Patients prior to Intervention",
+                    "description": "Patients aged 65 and older who are in the emergency department and subsequently discharged (not admitted)"
+                },
+                {
+                    "label": "Discharged ED Patients after Intervention",
+                    "description": "Patients aged 65 and older who are in the emergency department and subsequently discharged (not admitted)",
+                    "interventionNames": [
+                        "Other: Falls-Risk Clinical Decision Support (CDS) Tool"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Falls-Risk Clinical Decision Support (CDS) Tool",
+                    "description": "CDS in the Electronic Health Record (EHR) to screen patients at high-risk for future falls enabling referrals to the UW Health Mobility and Falls clinic.",
+                    "armGroupLabels": [
+                        "Discharged ED Patients after Intervention"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of Falls and Fall-Related Injuries",
+                    "description": "Comparison of data before and after implementation of CDS tool and before and after ED visit.",
+                    "timeFrame": "during the period 12 months prior to ED visit to 6 months post ED visit (18 month period)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Summary of Reasons Patients Did Not Schedule or Attend Appointments Based on Referral",
+                    "description": "Implementation outcome",
+                    "timeFrame": "during the period 12 months prior to ED visit to 6 months post ED visit (18 month period)"
+                },
+                {
+                    "measure": "Percentage of Referred Patients Reached by Clinic Scheduler",
+                    "timeFrame": "during the period 12 months prior to ED visit to 6 months post ED visit (18 month period)"
+                },
+                {
+                    "measure": "Percentage of Referred Patients Who Made Clinic Appointments",
+                    "timeFrame": "during the period 12 months prior to ED visit to 6 months post ED visit (18 month period)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Retrospective analysis will include data from:\n\n* ED patients 65 years or older\n* discharged from the ED (not admitted)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "65 Years",
+            "stdAges": [
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "ED patients age 65 or older who are not admitted.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Dann Hekman, MS",
+                    "role": "CONTACT",
+                    "phone": "(608) 265-3178",
+                    "email": "djhekman@medicine.wisc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Brian W Patterson, MD, MPH",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Swedish American Emergency Department",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Rockford",
+                    "state": "Illinois",
+                    "zip": "61008",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.27113,
+                        "lon": -89.094
+                    }
+                },
+                {
+                    "facility": "East Madison Hospital",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53718",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                },
+                {
+                    "facility": "UWHC Emergency Department",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53792",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M7796",
+                    "name": "Emergencies",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

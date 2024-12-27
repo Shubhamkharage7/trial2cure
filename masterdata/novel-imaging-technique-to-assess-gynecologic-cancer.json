@@ -1,0 +1,261 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04893434",
+            "orgStudyIdInfo": {
+                "id": "21-038"
+            },
+            "organization": {
+                "fullName": "Memorial Sloan Kettering Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Novel Imaging Technique to Assess Gynecologic Cancer",
+            "officialTitle": "Rapid Motion-Robust Quantitative DCE-MRI For The Assessment Of Gynecologic Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "novel-imaging-technique-to-assess-gynecologic-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-05-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-05-14",
+            "studyFirstSubmitQcDate": "2021-05-14",
+            "studyFirstPostDateStruct": {
+                "date": "2021-05-19",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Memorial Sloan Kettering Cancer Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will test a new type of DCE (dynamic contrast-enhanced) MRI (magnetic resonance imaging) to see whether, compared with traditional MRI, it produces better images that provide more information about tumors, which may help doctors make better decisions about treating women who have gynecologic cancer.\n\nMRI is commonly used to detect and evaluate many types of cancer, but its slow processing speed and the risk that images will be blurred if the patient moves inside the scanner can limit its use in clinical practice. DCE MRI is a new imaging technique that uses additional computer processing to collect information continuously during scanning, which produces more detailed images faster than traditional MRI, which reduces the risk of movement-related blurring and provides important information about tumor activity.\n\nThe DCE MRI scan in this study will be done in a standard MRI scanner, using a contrast agent (gadobutrol; Gadavist\u00ae) that has been approved by the FDA."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Gynecologic Cancer"
+            ],
+            "keywords": [
+                "DCE-MRI",
+                "Gadobutrol",
+                "21-038"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "This will be a prospective, single center non-randomized study. This study has two parts: Part 1 (volunteers) and Part 2 (women with gynecologic cancer).",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 70,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "DCE-MR images with Gadobutrol (GBCA)",
+                    "type": "EXPERIMENTAL",
+                    "description": "10 volunteers will undergo a single DCE-MRI of the normal cervix to fine-tune parameters and test the performance of reconstruction and quantification algorithms. Goldenangled radial LAVA data will be continuously acquired for 5 minutes and the contrast agent will be injected intravenously after 1 minute (same contrast agent and injection rate. 60 gynecologic cancer patients will be enrolled (inclusion criterion: newly diagnosed gynecologic cancer scheduled for standard of care pelvic MRI for staging). Data from 30 of the patients will be used to assess repeatability; DCE-MRI will be acquired at baseline and repeated 48 hours (+/- 24 h) later (no therapy between the 2 scans). Data from the other 30 patients will be used to document treatment induced changes in DCE-MRI; patients in this group will undergo DCE-MRI at baseline and repeated after 2 weeks (+/- 3 days) of completion of chemoradiation treatment.",
+                    "interventionNames": [
+                        "Drug: Gadobutrol",
+                        "Diagnostic Test: MRI"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Gadobutrol",
+                    "description": "Each patient will undergo 3 Gadavist injections. The intravenous injection of the GBCA Gadobutrol (Gadavist, Bayer Healthcare) at 0.1 mL/kg body weight (0.1 mmol/kg), administered as a bolus at a flow rate of approximately 2 mL/s. Each volunteer will undergo 1 and each patient 2 research Gadobutrol injections (the 3 injections mentioned in the protocol for patients is to account for the fact they will have had 1 injection as part of their standard of care, but the study only includes 2 research injections).",
+                    "armGroupLabels": [
+                        "DCE-MR images with Gadobutrol (GBCA)"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "MRI",
+                    "description": "All subjects will be imaged on the same 3T MRI scanner (GE Healthcare, USA) at MSK for all examinations. For SA1, subjects will undergo a single research DCE-MRI exam. Patients in SA2 will undergo a standard of care pelvic MRI at baseline (which includes DCE-standard) in accordance with standard clinical operating procedures at MSK.",
+                    "armGroupLabels": [
+                        "DCE-MR images with Gadobutrol (GBCA)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "assess changes in Ktrans value",
+                    "description": "Each MRI sequence will have a DCE-MRI quantitative metric Ktrans value for each of 2 independent readers. The Ktrans value will be generated from the ROIs placed independently by each radiologists using dedicated software",
+                    "timeFrame": "baseline"
+                },
+                {
+                    "measure": "assess changes in Ktrans value",
+                    "description": "Each MRI sequence will have a DCE-MRI quantitative metric Ktrans value for each of 2 independent readers. The Ktrans value will be generated from the ROIs placed independently by each radiologists using dedicated software",
+                    "timeFrame": "48 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nHealthy volunteers (for SA1) will be entered into the study if they meet the following criteria:\n\n* Women aged 18 years or older.\n* Willing and able to provide informed consent\n\nPatients (for SA2) will be entered into the study if they meet the following criteria:\n\n* Women aged 18 years or older.\n* Gynecologic cancer undergoing standard of care pelvic MRI prior to treatment\n* Planned treatment with chemoradiation (for SA2b only)\n* Willing and able to provide informed consent and adhere to the study visit schedule and plan as specified in this protocol.\n\nExclusion Criteria:\n\nHealthy volunteers (SA1) and patients (SA2) exclusion criteria:\n\n* History of allergic reactions to gadolinium-based contrast agents (GBCAs)\n* Women of childbearing potential (WOCBP) must not be pregnant.\n* Women must not be breastfeeding.\n* Contraindications/risk factors to 3T MRI as per assessed by our departmental \"Comprehensive MRI Screening Questionnaire\" and \"MRI Contrast Dye Questionnaire\" (e.g. risk factors associated with magnetic field such as cardiac pacemakers, defibrillators or other devices as per standard institutional policy; and risk factors associated with GBCM such as diabetes, dialysis, breastfeeding)",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "genderBased": true,
+            "genderDescription": "Gynecologic Cancer",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Oguz Akin, MD",
+                    "role": "CONTACT",
+                    "phone": "212-639-3458",
+                    "email": "akino@mskcc.org"
+                },
+                {
+                    "name": "Jose Ricardo Otazo Torres, PhD",
+                    "role": "CONTACT",
+                    "phone": "646-608-8282"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Oguz Akin, MD",
+                    "affiliation": "Memorial Sloan Kettering Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Memorial Sloan Kettering Bergen (All Protocol Activities)",
+                    "status": "RECRUITING",
+                    "city": "Montvale",
+                    "state": "New Jersey",
+                    "zip": "07645",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Oguz Akin, MD",
+                            "role": "CONTACT",
+                            "phone": "212-639-3458"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.04676,
+                        "lon": -74.02292
+                    }
+                },
+                {
+                    "facility": "Memorial Sloan Kettering Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10065",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Oguz Akin, MD",
+                            "role": "CONTACT",
+                            "phone": "212-639-3458"
+                        },
+                        {
+                            "name": "Jose Ricardo Otazo Torres, PhD",
+                            "role": "CONTACT",
+                            "phone": "646-608-8282"
+                        },
+                        {
+                            "name": "Oguz Akin, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Memorial Sloan Kettering Nassau (All Protocol Activities)",
+                    "status": "RECRUITING",
+                    "city": "Uniondale",
+                    "state": "New York",
+                    "zip": "11553",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Oguz Akin, MD",
+                            "role": "CONTACT",
+                            "phone": "212-639-3458"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.70038,
+                        "lon": -73.59291
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Memorial Sloan Kettering Cancer Center",
+                    "url": "http://www.mskcc.org/mskcc/html/44.cfm"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Memorial Sloan Kettering Cancer Center supports the international committee of medical journal editors (ICMJE) and the ethical obligation of responsible sharing of data from clinical trials. The protocol summary, a statistical summary, and informed consent form will be made available on clinicaltrials.gov when required as a condition of Federal awards, other agreements supporting the research and/or as otherwise required. Requests for deidentified individual participant data can be made beginning 12 months after publication and for up to 36 months post publication. Deidentified individual participant data reported in the manuscript will be shared under the terms of a Data Use Agreement and may only be used for approved proposals. Requests may be made to: crdatashare@mskcc.org."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

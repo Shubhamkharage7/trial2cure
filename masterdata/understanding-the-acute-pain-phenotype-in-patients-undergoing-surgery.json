@@ -1,0 +1,419 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06466941",
+            "orgStudyIdInfo": {
+                "id": "2023P003642"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "2R35GM128691-06",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/2R35GM128691-06"
+                }
+            ],
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Understanding the Acute Pain Phenotype in Patients Undergoing Surgery",
+            "officialTitle": "Impact of Patient Phenotypic Features on the Experience and Effectiveness of Regional Anesthesia and Postoperative Pain",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "understanding-the-acute-pain-phenotype-in-patients-undergoing-surgery"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-03",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-07-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-14",
+            "studyFirstSubmitQcDate": "2024-06-14",
+            "studyFirstPostDateStruct": {
+                "date": "2024-06-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-15",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kristin Schreiber",
+                "investigatorTitle": "Anesthesiologist",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of General Medical Sciences (NIGMS)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this observational study is to learn about how regional anesthesia (numbing medication) affects pain in patients with different psychosocial phenotypes such as different levels of concern about pain, sleep issues, and anxiety, who are having surgery.\n\nThe main questions are:\n\n1. Do psychosocial factors such as concerns about pain, sleep, anxiety affect the effectiveness of regional anesthesia?\n2. Do psychosocial factors and regional anesthesia affect the amount of opioids used after surgery?\n3. Do psychosocial factors and regional anesthesia affect development of chronic postsurgical pain?",
+            "detailedDescription": "A patient's psychological profile importantly modulates pain severity, and the overall experience and impact of pain. For instance, catastrophic thinking about pain, including magnification, rumination, and helplessness, is associated with both greater pain severity and impact.\n\nOver the years, regional anesthesia has become an integral part of multimodal pain management for many surgeries. Regional anesthesia (epidural and peripheral nerve blocks) to be associated with superior pain control, reduced time to return of bowel function, shorter intraoperative times, fewer side effects and complications, earlier ambulation and functional exercise capacity post-discharge, lower in-hospital mortality, reduced length-of-stay, improved patient satisfaction, and fewer readmissions.\n\nThe investigators aim to use of validated psychosocial surveys and semi-structured interviews to understand the phenotype of patients who will benefit the most from regional anesthesia. The investigators also aim to understand how different patient phenotypes and regional anesthesia affect perioperative opioid consumption, and development of chronic postsurgical pain."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Acute Pain",
+                "Chronic Post Operative Pain",
+                "Opioid Use"
+            ],
+            "keywords": [
+                "regional anesthesia",
+                "peripheral nerve blocks",
+                "psychosocial phenotype",
+                "pain catastrophizing"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Thoracic surgery and open abdominal surgery",
+                    "description": "Patients who underwent surgery thoracic surgery or open abdominal surgery",
+                    "interventionNames": [
+                        "Procedure: regional anesthesia",
+                        "Procedure: no regional anesthesia"
+                    ]
+                },
+                {
+                    "label": "Orthopedic surgery",
+                    "description": "Patients who underwent orthopedic surgery",
+                    "interventionNames": [
+                        "Procedure: regional anesthesia",
+                        "Procedure: no regional anesthesia"
+                    ]
+                },
+                {
+                    "label": "Spine surgery",
+                    "description": "Patients who underwent spine surgery",
+                    "interventionNames": [
+                        "Other: acute pain consultation",
+                        "Other: no acute pain consultation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "regional anesthesia",
+                    "description": "Patients who underwent surgery and received an epidural or peripheral nerve block",
+                    "armGroupLabels": [
+                        "Orthopedic surgery",
+                        "Thoracic surgery and open abdominal surgery"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "no regional anesthesia",
+                    "description": "Patients who underwent surgery and did not received an epidural or peripheral nerve block",
+                    "armGroupLabels": [
+                        "Orthopedic surgery",
+                        "Thoracic surgery and open abdominal surgery"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "acute pain consultation",
+                    "description": "Patients who underwent surgery and had a perioperative (preop, intraop, or postop) acute pain consultation",
+                    "armGroupLabels": [
+                        "Spine surgery"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "no acute pain consultation",
+                    "description": "Patients who underwent surgery and did not have a perioperative (preop, intraop, or postop) acute pain consultation",
+                    "armGroupLabels": [
+                        "Spine surgery"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Maximum pain score over the first 24 hours after surgery",
+                    "description": "Maximum pain score (numerical pain rating score 0-10) over the first 24 hours after surgery",
+                    "timeFrame": "0-24 hours"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Worst pain score over the first 24 hours after surgery",
+                    "description": "Worst pain score (numerical pain rating score 0-10) over the first 24 hours after surgery",
+                    "timeFrame": "0-24 hours"
+                },
+                {
+                    "measure": "Average pain score over the first 24 hours after surgery",
+                    "description": "Average pain score (numerical pain rating score 0-10) over the first 24 hours after surgery",
+                    "timeFrame": "0-24 hours"
+                },
+                {
+                    "measure": "Least pain score over the first 24 hours after surgery",
+                    "description": "Least pain score (0-10) over the first 24 hours after surgery",
+                    "timeFrame": "0-24 hours"
+                },
+                {
+                    "measure": "Daily pain scores",
+                    "description": "Comparison of pain scores (numerical pain rating score 0-10) over the first 7 days after surgery",
+                    "timeFrame": "0-7days"
+                },
+                {
+                    "measure": "Longitudinal pain scores",
+                    "description": "Comparison of pain scores (numerical pain rating score 0-10) at 1 month, 3 months, 6 months, and 12 months",
+                    "timeFrame": "1-12 months"
+                },
+                {
+                    "measure": "Postoperative opioid consumption",
+                    "description": "Comparison of amount of opioids used after surgery (morphine milliequivalents)",
+                    "timeFrame": "0-7 days"
+                },
+                {
+                    "measure": "Incidence of chronic postsurgical pain",
+                    "description": "Comparison of persistent pain in the surgical area \\> 3 months after surgery",
+                    "timeFrame": "3-12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u2265 18\n* English speaking\n* Surgical or procedural patient who will be admitted postoperatively\n* Willingness to answer psychosocial survey and/or audio recorded semi-structured interview\n\nExclusion Criteria:\n\n-Cognitive dysfunction that precludes communication",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "All surgical patients are eligible for the study if they meet the inclusion/exclusion criteria. We plan to enroll patients who may or may not receive a nerve block placement (ex: epidural or peripheral nerve block) during their clinical care or have a surgery that may result in an acute postoperative pain consult (ex: spine and orthopedic surgery).",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Yun-Yun K Chen, MD",
+                    "role": "CONTACT",
+                    "phone": "617-651-0932",
+                    "email": "ykchen@mgb.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kristin L Schreiber, MD, PhD",
+                    "affiliation": "Brigham and Women's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kristin L Schreiber, MD, PhD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "33426669",
+                    "type": "BACKGROUND",
+                    "citation": "Chen YK, Boden KA, Schreiber KL. The role of regional anaesthesia and multimodal analgesia in the prevention of chronic postoperative pain: a narrative review. Anaesthesia. 2021 Jan;76 Suppl 1(Suppl 1):8-17. doi: 10.1111/anae.15256."
+                },
+                {
+                    "pmid": "33452600",
+                    "type": "BACKGROUND",
+                    "citation": "Schreiber KL, Zinboonyahgoon N, Flowers KM, Hruschak V, Fields KG, Patton ME, Schwartz E, Azizoddin D, Soens M, King T, Partridge A, Pusic A, Golshan M, Edwards RR. Prediction of Persistent Pain Severity and Impact 12 Months After Breast Surgery Using Comprehensive Preoperative Assessment of Biopsychosocial Pain Modulators. Ann Surg Oncol. 2021 Sep;28(9):5015-5038. doi: 10.1245/s10434-020-09479-2. Epub 2021 Jan 15. Erratum In: Ann Surg Oncol. 2021 Dec;28(Suppl 3):896. doi: 10.1245/s10434-021-10658-y."
+                },
+                {
+                    "pmid": "16698416",
+                    "type": "BACKGROUND",
+                    "citation": "Kehlet H, Jensen TS, Woolf CJ. Persistent postsurgical pain: risk factors and prevention. Lancet. 2006 May 13;367(9522):1618-25. doi: 10.1016/S0140-6736(06)68700-X."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010149",
+                    "term": "Pain, Postoperative"
+                },
+                {
+                    "id": "D000059787",
+                    "term": "Acute Pain"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000011183",
+                    "term": "Postoperative Complications"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000010146",
+                    "term": "Pain"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13069",
+                    "name": "Pain, Postoperative",
+                    "asFound": "Chronic Post Operative Pain",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29525",
+                    "name": "Acute Pain",
+                    "asFound": "Acute Pain",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14065",
+                    "name": "Postoperative Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000777",
+                    "term": "Anesthetics"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002492",
+                    "term": "Central Nervous System Depressants"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4107",
+                    "name": "Anesthetics",
+                    "asFound": "Function",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

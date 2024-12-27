@@ -1,0 +1,338 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06235112",
+            "orgStudyIdInfo": {
+                "id": "2023P002954"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "AI Detection of Incidental Coronary Artery Calcium to Enhance Cardiovascular Disease Prevention",
+            "officialTitle": "AI Detection of Incidental Coronary Artery Calcium to Enhance Cardiovascular Disease Prevention: A Multicenter Randomized Trial",
+            "acronym": "AI INFORM",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "ai-detection-of-incidental-coronary-artery-calcium-to-enhance-cardiovascular-disease-prevention"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-08-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-01-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-07-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-10",
+            "studyFirstSubmitQcDate": "2024-01-23",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-31",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Daniel Michael Huck, MD, MPH",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Nano-X Imaging Limited",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "AI INFORM is a multicenter randomized trial that will test the hypothesis that providing clinicians information on the presence and amount of coronary artery calcifications (CAC), will result in initiation or intensification of preventive therapies. The study will use a cloud-based artificial intelligence (AI) platform (Nanox.AI) that can analyze non contrast chest CT and estimate the amount of CAC."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Coronary Artery Disease"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Randomized controlled trial of two arms, involving notification to providers (vs non-notification)",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 1500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Notification of Coronary Artery Calcification",
+                    "type": "EXPERIMENTAL",
+                    "description": "Notification to providers of the presence of coronary artery calcification automatically detected by AI based device (software) on chest CT.\n\nRecommendation of preventive therapy.",
+                    "interventionNames": [
+                        "Device: Electronic health record-based notification of Nanox.AI Coronary Artery Calcification Assessment"
+                    ]
+                },
+                {
+                    "label": "Non-notification of Coronary Artery Calcification",
+                    "type": "NO_INTERVENTION",
+                    "description": "No notification to providers of the presence of coronary artery calcification on chest CT automatically detected by AI based device (software) on chest CT.\n\nNo recommendation of preventive therapy."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Electronic health record-based notification of Nanox.AI Coronary Artery Calcification Assessment",
+                    "description": "The intervention involves electronic health record, email, or letter notification about the presence of coronary artery calcification on chest CT and recommendation of preventive therapy. This is based on results of the automatic detection of coronary artery calcification from AI device (software).",
+                    "armGroupLabels": [
+                        "Notification of Coronary Artery Calcification"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Proportion of participants with initiation or intensification of lipid-lowering therapy after intervention",
+                    "description": "Initiation or intensification of therapy (yes/no) by 6 months after the intervention. Initiation: starting lipid-lowering therapy; intensification: increasing the dose of lipid-lowering therapy",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Average change in LDL-C after intervention",
+                    "description": "Average quantitative change in LDL-C (low-density lipoprotein cholesterol) between baseline and 12 months after intervention",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Proportion of participants with downstream invasive or noninvasive testing after intervention",
+                    "description": "Composite outcome: Downstream testing (yes/no) including coronary artery calcium score, coronary CT angiography, invasive coronary angiography, or stress testing by 12 months after the intervention.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Proportion of participants with major adverse cardiovascular events after intervention",
+                    "description": "Composite outcome: Occurrence of an adverse cardiovascular event (yes/no) including cardiovascular death, myocardial infarction, or stroke by 12 months after the intervention",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Proportion of participants with initiation or intensification of other preventive therapies after intervention",
+                    "description": "Initiation or intensification of preventive therapy (yes/no) by 6 months after the intervention. Preventive therapy includes any of the following: aspirin, antihypertensive therapy, metabolic therapy. Initiation: starting preventive therapy; intensification: increasing the dose of preventive therapy",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients aged between 40-75 with prior chest CT within last 3 years\n\nExclusion Criteria:\n\n* Prior coronary artery disease\n* Prior cancer\n* Other life-limiting condition",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "40 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02445",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel Huck, MD",
+                            "role": "CONTACT",
+                            "email": "dhuck@bwh.harvard.edu"
+                        },
+                        {
+                            "name": "Camila Veronica Souza Freire, MD",
+                            "role": "CONTACT",
+                            "email": "csouzafreire@bwh.harvard.edu"
+                        },
+                        {
+                            "name": "Daniel Huck, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ron Blankstein, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "No IPD will be shared"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000003324",
+                    "term": "Coronary Artery Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003327",
+                    "term": "Coronary Disease"
+                },
+                {
+                    "id": "D000017202",
+                    "term": "Myocardial Ischemia"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000001161",
+                    "term": "Arteriosclerosis"
+                },
+                {
+                    "id": "D000001157",
+                    "term": "Arterial Occlusive Diseases"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6546",
+                    "name": "Coronary Artery Disease",
+                    "asFound": "Coronary Artery Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19506",
+                    "name": "Myocardial Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6549",
+                    "name": "Coronary Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10543",
+                    "name": "Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4469",
+                    "name": "Arteriosclerosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4465",
+                    "name": "Arterial Occlusive Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M5381",
+                    "name": "Calcium",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5398",
+                    "name": "Calcium, Dietary",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "BDCA",
+                    "name": "Bone Density Conservation Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

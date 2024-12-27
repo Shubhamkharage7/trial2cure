@@ -1,0 +1,227 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05280574",
+            "orgStudyIdInfo": {
+                "id": "21-970"
+            },
+            "organization": {
+                "fullName": "The Cleveland Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "The COSMOS Trial. A Pilot Study A Pilot Study",
+            "officialTitle": "Continuous Ward Monitoring With the GE Portrait Mobile Monitoring Solution: the COSMOS Trial A Pilot Study",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "the-cosmos-trial-a-pilot-study-a-pilot-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-08-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-22",
+            "studyFirstSubmitQcDate": "2022-03-14",
+            "studyFirstPostDateStruct": {
+                "date": "2022-03-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-23",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "The Cleveland Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The investigators plan a pilot study to evaluate patient tolerance of the GE Portrait Mobile Monitoring Solution, along with appropriate alert thresholds, and clinical utility. Data obtained in the proposed pilot cohort will guide design of a future robust randomized trial comparing clinical interventions and serious complications with blinded versus unblinded continuous ward monitoring.",
+            "detailedDescription": "The investigators plan a pilot study to evaluate patient tolerance of the GE Portrait Mobile Monitoring Solution, along with appropriate alert thresholds, and clinical utility. The system is a novel battery-powered untethered monitor for continuous monitoring of oxygen saturation, respiratory rate, and pulse rate that is designed for use by patients on surgical wards. The initial phase will evaluate patient tolerance, with clinicians and patients blinded to monitor data. Results will be used to evaluate the frequency of respiratory events and pulse rate abnormalities. These data will be used to design clinical alert settings, based on various durations at various thresholds (e.g., saturation \\<85% for \\>1 minute). Our main goal will be to identify clinically meaningful vital sign abnormalities with a minimum of false alerts. Secondarily, the investigators will evaluate the frequency and duration of abnormalities, and the fraction that are detected clinically.\n\nIn the second phase of the pilot, clinicians will be unblinded to the GE Portrait monitors, and alerts provided based on the durations and threshold identified in the initial part of the pilot. The primary outcomes will be clinician tolerance and the extent to which clinicians believe that vital sign trending and alerts provided useful information rather than distraction. Specifically, the investigators will assess the fraction of alerts that clinicians deemed meaningful, and the fraction that resulted in clinical interventions. In the third phase of the pilot, the durations and thresholds for saturation, respiratory rate, and pulse rate that trigger alerts will be adjusted based on results from the second phase."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Surgery"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "OTHER"
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Monitoring without any interventions",
+                    "description": "All patients will only be monitored with the GE Portrait Monitor with out any interventions.",
+                    "interventionNames": [
+                        "Device: GE Portrait Monitor",
+                        "Device: GE Portrait Monitoring randomized to blinded or unblinded"
+                    ]
+                },
+                {
+                    "label": "Patients will be randomized to blinded or unblinded GE Portrait monitoring.",
+                    "description": "All patients will be monitored with the GE Portrait Monitor. Patients who are randomized to the unblinded GE Portrait monitoring might be intervened if the clinicians believe that the alarm is clinically meaningful. Blinded GE Portrait Monitoring will not receive clinicians believe clinically",
+                    "interventionNames": [
+                        "Device: GE Portrait Monitor",
+                        "Device: GE Portrait Monitoring with intervened by clinician"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "GE Portrait Monitor",
+                    "description": "All patients will be monitored",
+                    "armGroupLabels": [
+                        "Monitoring without any interventions",
+                        "Patients will be randomized to blinded or unblinded GE Portrait monitoring."
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "GE Portrait Monitoring with intervened by clinician",
+                    "description": "Monitoring might be intervened if clinician believe that the alarm is clinically meaningful",
+                    "armGroupLabels": [
+                        "Patients will be randomized to blinded or unblinded GE Portrait monitoring."
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "GE Portrait Monitoring randomized to blinded or unblinded",
+                    "description": "Without intervention",
+                    "armGroupLabels": [
+                        "Monitoring without any interventions"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Total duration of time patients experienced vital sign abnormalities in unblinded vs blinded GE Portrait monitoring",
+                    "description": "The investigators will determine whether patients with unblinded continuous ward monitoring with the GE Portrait Mobile Monitoring Solution experience less time with vital sign abnormalities as defined in the initial phase of the study. Specifically, the investigators will test the primary hypothesis that the cumulative duration of vital sign abnormalities (using criteria determined in Phase 1) is shorter with unblinded than blinded GE Portrait monitoring in patients recovering from major noncardiac surgery.",
+                    "timeFrame": "Up to 96 hours after surgery"
+                },
+                {
+                    "measure": "Vital sign abnormality frequency in unblinded vs blinded GE Portrait monitoring",
+                    "description": "The investigators will determine whether unblinded continuous ward monitoring with the GE Portrait Mobile Monitoring Solution reduces vital sign abnormalities. Specifically, the investigators will test the primary hypothesis that the cumulative duration of vital sign abnormalities (using criteria refined in Phase 2) is shorter with unblinded than blinded GE Portrait monitoring in patients recovering from major noncardiac surgery",
+                    "timeFrame": "Up to 96 hours after surgery"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Are admitted to one of the wards equipped with the GE Portrait Mobile Solution.\n* Are designated American Society of Anesthesiologists physical status 1-4.\n* Had major noncardiac surgery lasting at least 1.5 hours.\n* Are expected to remain hospitalized at least two postoperative nights.\n* Had general anesthesia with or without neuraxial anesthesia.\n\nExclusion Criteria:\n\n* Have language, vision, or hearing impairments that may compromise continuous monitoring.\n* Are designated Do Not Resuscitate, hospice, or receiving end of life care\n* Have previously participated in the study.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients who are older than 18 years of age. Patients have a ASA status 1-4. The patients whom had a major noncardiac surgery lasting at least 1.5 hours and are expected to remain hospitalized at least two postoperative nights, and are being admitted to a ward equipped with the GE Portrait Mobile Monitor.",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Roberta Johnson",
+                    "role": "CONTACT",
+                    "phone": "216-444-9950",
+                    "email": "johnsor13@ccf.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel Sessler, MD",
+                    "affiliation": "The Cleveland Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cleveland Clinic",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Roberta Johnson",
+                            "role": "CONTACT",
+                            "phone": "216-444-9950",
+                            "email": "johnsor13@ccf.org"
+                        },
+                        {
+                            "name": "Daniel I Sessler, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

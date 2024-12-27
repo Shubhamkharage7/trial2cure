@@ -1,0 +1,326 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06171607",
+            "orgStudyIdInfo": {
+                "id": "1B-19-5"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2022-03665",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                },
+                {
+                    "id": "1B-19-5",
+                    "type": "OTHER",
+                    "domain": "USC / Norris Comprehensive Cancer Center"
+                },
+                {
+                    "id": "P30CA014089",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/P30CA014089"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Southern California",
+                "class": "OTHER"
+            },
+            "briefTitle": "Contrast Enhanced Ultrasound Medical Imaging for Identifying Breast Masses",
+            "officialTitle": "Characterizing Breast Masses Using an Integrative Framework of Machine Learning and Radiomics",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "contrast-enhanced-ultrasound-medical-imaging-for-identifying-breast-masses"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-11-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-11-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-07-14",
+            "studyFirstSubmitQcDate": "2023-12-05",
+            "studyFirstPostDateStruct": {
+                "date": "2023-12-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Southern California",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Cancer Institute (NCI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This clinical trial investigates the role of contrast enhanced ultrasound (CEUS) in identifying cystic breast masses as benign or malignant. Ultrasound is a diagnostic imaging test that uses sound waves to make pictures of the body without using radiation (x-rays). Ultrasounds are widely used to diagnose many diseases in the body. This trial may help researchers learn if using CEUS will help in determining whether or not an ultrasound guided biopsy is necessary.",
+            "detailedDescription": "PRIMARY OBJECTIVES:\n\nI. To examine and compare the distribution of CEUS parameters in breast masses that were evaluated as Breast Imaging Reporting and Data System (BI-RADS) 4a, 4b, 4c or 5 by conventional ultrasound (US) and were recommended for ultrasound guided biopsy, and to evaluate whether these parameters can be used to classify suspicious cystic-appearing breast masses as benign or malignant.\n\nIa. To develop a CEUS-based radiomics workflow to extract radiomic metrics (\\> 1600 features) in classifying breast mass malignancy (Radiomics).\n\nIb. To develop a systematic and rigorous machine learning (ML)-based framework comprised of classification, cross-validation and statistical analyses to identify the best performing classifier for breast malignancy stratification based on CEUS-derived radiomic metrics (time-intensity curve \\[TIC\\] analysis and Radiomics).\n\nIc. To assess the independent contribution of radiomics classifier and time-intensity curve classifier to the model accuracy in discriminating benign from malignant cases (TIC analysis versus \\[vs.\\] Radiomics).\n\nId. To assess the potential benefit of machine learning classifier in preventing unnecessary biopsy (TIC analysis and Radiomics).\n\nOUTLINE:\n\nPatients receive a contrast agent (Lumason or DEFINITY) intravenously (IV) and then undergo CEUS scan over 60-90 minutes."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Breast Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Diagnostic (contrast agent, CEUS)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients receive a contrast tracer (Lumason or DEFINITY) IV and then undergo CEUS scan over 60-90 minutes.",
+                    "interventionNames": [
+                        "Procedure: Contrast-Enhanced Ultrasound",
+                        "Drug: Perflutren Lipid Microspheres",
+                        "Drug: Sulfur Hexafluoride Lipid Microspheres"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Contrast-Enhanced Ultrasound",
+                    "description": "Undergo CEUS",
+                    "armGroupLabels": [
+                        "Diagnostic (contrast agent, CEUS)"
+                    ],
+                    "otherNames": [
+                        "CEUS"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Perflutren Lipid Microspheres",
+                    "description": "Given IV",
+                    "armGroupLabels": [
+                        "Diagnostic (contrast agent, CEUS)"
+                    ],
+                    "otherNames": [
+                        "Definity"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Sulfur Hexafluoride Lipid Microspheres",
+                    "description": "Given IV",
+                    "armGroupLabels": [
+                        "Diagnostic (contrast agent, CEUS)"
+                    ],
+                    "otherNames": [
+                        "Lumason",
+                        "SF6 Lipid Microspheres",
+                        "Sulfur Hexafluoride Lipid-type A Microspheres"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Radiomics-based ML-classifier framework",
+                    "description": "The performance of radiomics-based ML classifier framework will be compared to the performance of the TIC metrics. The joint performance of radiomics and TIC analysis will be compared to their individual performances. The classifier performance will be assessed using the area under curve (AUC). The Z-test will be used to compare the difference between the area under the curves 1) AUCboth versus (vs.) AUCradiomic 2) AUCboth vs. AUCTIC 3) AUCTIC vs. AUCradiomic.",
+                    "timeFrame": "Up to 12 months"
+                },
+                {
+                    "measure": "Performance of radiomics-based ML approach to prevent unnecessary biopsies",
+                    "description": "Will assess the percentage of benign cases that can be classified as benign by ML (Specificity) thus been prevented from biopsy. Will select the diagnostic cut-off point based on the ROC curve constructed from the predicted probability. Such a cut-off point will result in a maximal sensitivity (100%). Specificity with 95% Clopper Pearson confidence interval will be obtained.",
+                    "timeFrame": "Up to 12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Newly diagnosed breast masses assigned as BIRADS 4a, 4b, 4c or 5 by conventional US and recommended for ultrasound guided biopsy\n* Age \\>= 18 years\n* Female\n\nExclusion Criteria:\n\n* Contraindications to microbubble contrast: Patients who have a known pulmonary hypertension and any known hypersensitivity to US contrast agent\n* Women who are pregnant, possibly pregnant, or lactating\n* Women currently undergoing neoadjuvant chemotherapy\n* Women \\< 18 years of age\n* Masses in the same breast that had prior lumpectomy for cancer\n* Women with cancer in the same breast will be excluded however, women with cancer in the contralateral breast will be eligible to participate in the study\n* Women with an allergy to perflutren\n* Prior history of biopsy for that specific lesion",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Janet Jaime",
+                    "role": "CONTACT",
+                    "phone": "323-865-3205",
+                    "email": "Janet.jaime@med.usc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Bino A Varghese, PhD",
+                    "affiliation": "University of Southern California",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Los Angeles County-USC Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Janet Jaime",
+                            "role": "CONTACT",
+                            "phone": "323-865-3205",
+                            "email": "Janet.Jaime@med.usc.edu"
+                        },
+                        {
+                            "name": "Bino A. Varghese, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "USC / Norris Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Janet Jaime",
+                            "role": "CONTACT",
+                            "phone": "323-865-3205",
+                            "email": "Janet.Jaime@med.usc.edu"
+                        },
+                        {
+                            "name": "Bino A. Varghese, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

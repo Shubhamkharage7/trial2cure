@@ -1,0 +1,551 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06018194",
+            "orgStudyIdInfo": {
+                "id": "3-ST-03-03"
+            },
+            "organization": {
+                "fullName": "Elucid Bioimaging Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "ELUCIDATE FFRct Study",
+            "officialTitle": "The ELUCIDATE FFRct Study",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "elucidate-ffrct-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-09-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-07-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-07-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-23",
+            "studyFirstSubmitQcDate": "2023-08-28",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-30",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-20",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Elucid Bioimaging Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Lundquist Institute at Harbor-UCLA Medical Center",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this study is to evaluate the diagnostic accuracy of a novel plaque-based coronary CT angiography (CCTA) fractional flow reserve (FFRct) software device for the estimation of invasive fractional flow reserve (FFR).\n\nResearchers will compare the Elucid plaque-based FFRct analysis to invasively measured FFR in patients who have previously undergone CCTA and invasively assessed FFR.",
+            "detailedDescription": "Invasive fractional flow reserve is a clinically validated measure of lesion-specific ischemia and is preferred over visual estimation of diameter stenosis for clinical decision-making regarding coronary revascularization in patients with stable clinical presentations. Fractional flow reserve derived from coronary computed tomography angiography (FFRct) using computational fluid dynamic (CFD)-based software has been shown to be a reasonably accurate estimate of invasive FFR and is included in contemporary guidelines as a decision-tool for management of patients with intermediate stenosis on CCTA. However, CFD-based FFRct is calculated based predominately on detailed coronary lumen geometry. It is understood that the burden and type of coronary atherosclerosis, in addition to lumen geometry, significantly impacts the vasodilatory capacity of the coronary endothelium.\n\nPreliminary studies suggest that invasive FFR can be accurately estimated based on the quantification of coronary plaque burden and the assessment of plaque composition. Previously, the investigators have demonstrated that a novel plaque-based FFRct approach, using a histologically validated software (ElucidVivoTM) for the measurement of plaque morphology (volume, plaque risk characteristics, and stenosis) to train a deep-learning model, was shown to be accurate and superior to lumen stenosis for predicting invasive FFR in a single-site feasibility study.\n\nIn this study, the investigators seek to assess the diagnostic accuracy of the Elucid plaque-based FFRct software to estimate invasive FFR in patients at multiple centers."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Coronary Artery Disease"
+            ],
+            "keywords": [
+                "coronary computed tomographic angiography",
+                "coronary CTA",
+                "cardiac CT",
+                "fractional flow reserve",
+                "plaque"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 350,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Low FFR",
+                    "description": "Invasive FFR \\<= 0.80",
+                    "interventionNames": [
+                        "Device: ElucidVivo"
+                    ]
+                },
+                {
+                    "label": "High FFR",
+                    "description": "Invasive FFR \\> 0.80",
+                    "interventionNames": [
+                        "Device: ElucidVivo"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "ElucidVivo",
+                    "description": "Plaque morphology characterization on coronary CTA for predicting fractional flow reserve (FFRct)",
+                    "armGroupLabels": [
+                        "High FFR",
+                        "Low FFR"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity of FFRct versus invasive FFR for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-vessel",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Specificity of FFRct versus invasive FFR for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-vessel",
+                    "timeFrame": "1 day"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Sensitivity of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-patient",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Specificity of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-patient",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Area under the receiver-operating characteristic curve (AUC) of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-vessel",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Area under the receiver-operating characteristic curve (AUC) of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-patient",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Accuracy of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-vessel",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Accuracy of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-patient",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Negative predictive value of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-vessel",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Negative predictive value of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-patient",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Positive predictive value of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-vessel",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Positive predictive value of FFRct for detecting invasive FFR \u2264 0.80",
+                    "description": "Per-patient",
+                    "timeFrame": "1 day"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n- Adults \\>=18 years with at least one 30-90% stenosis on CCTA (\\>64- detector row) performed within 60 days of undergoing invasive FFR.\n\nExclusion Criteria:\n\n* History of coronary revascularization with coronary artery bypass graft (CABG) surgery and/or percutaneous coronary intervention (PCI) (stent or balloon angioplasty) prior to CCTA and invasive FFR.\n* History of myocardial infarction prior to CCTA and invasive FFR.\n* Known complex congenital heart disease.\n* Existing pacemaker or internal defibrillator lead implantation(s).\n* Existing prosthetic heart valve.\n* Absence of CCTA Digital Imaging and Communications in Medicine (DICOM) data for analysis.\n* Absence of invasive coronary angiography imaging or adequate description defining the position of the invasive FFR wire location.\n* Poor CCTA image quality that does not meet Elucid image processing requirements for plaque and FFRct.\n* Absence of study date for CCTA or invasive FFR.\n* Interval clinical myocardial infarction, diagnosis of decompensated heart failure, stroke, or coronary revascularization procedure between CCTA and invasive FFR.\n* Non-diagnostic CCTA or invasive FFR. Studies where the results of the study were deemed non-diagnostic for clinical decision-making will be excluded.\n* CCTA or invasive FFR studies performed prior to 1 January 2016.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Adults \\>=18 years with at least one 30-90% stenosis on CCTA (\\>64- detector row) performed within 60 days of undergoing invasive FFR.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Todd C Villines, MD",
+                    "role": "CONTACT",
+                    "phone": "978-468-0508",
+                    "email": "todd.villines@elucid.com"
+                },
+                {
+                    "name": "John Aluru, MBBS",
+                    "role": "CONTACT",
+                    "phone": "978-468-0508",
+                    "email": "john.aluru@elucid.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ziad Ali, MD",
+                    "affiliation": "Catholic Health - St. Francis Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Todd C Villines, MD",
+                    "affiliation": "Elucid Bioimaging Inc.",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cardiovascular Medical Group of Southern California",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Beverly Hills",
+                    "state": "California",
+                    "zip": "90210",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ronald P Karlsberg, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.07362,
+                        "lon": -118.40036
+                    }
+                },
+                {
+                    "facility": "Piedmont Healthcare",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30309",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Venkateshwar Polsani, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Parkview Health",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Fort Wayne",
+                    "state": "Indiana",
+                    "zip": "46845",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Dustin Thomas, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.1306,
+                        "lon": -85.12886
+                    }
+                },
+                {
+                    "facility": "Midwest Heart and Vascular Specialists",
+                    "status": "RECRUITING",
+                    "city": "Overland Park",
+                    "state": "Kansas",
+                    "zip": "66211",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Stephen A Bloom, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.98223,
+                        "lon": -94.67079
+                    }
+                },
+                {
+                    "facility": "Valley Health System",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Ridgewood",
+                    "state": "New Jersey",
+                    "zip": "07450",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Himanshu Gupta, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.97926,
+                        "lon": -74.11653
+                    }
+                },
+                {
+                    "facility": "Cleveland Clinic",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Milind Desai, MD, MBA",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                },
+                {
+                    "facility": "Centennial Heart",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37203",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Huneycutt, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "Ascension Medical Group",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37205",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrew O Zurich, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "University of Virginia",
+                    "status": "RECRUITING",
+                    "city": "Charlottesville",
+                    "state": "Virginia",
+                    "zip": "22908",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patricia Rodriguez-Lozano, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.02931,
+                        "lon": -78.47668
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "34882436",
+                    "type": "BACKGROUND",
+                    "citation": "Lawton JS, Tamis-Holland JE, Bangalore S, Bates ER, Beckie TM, Bischoff JM, Bittl JA, Cohen MG, DiMaio JM, Don CW, Fremes SE, Gaudino MF, Goldberger ZD, Grant MC, Jaswal JB, Kurlansky PA, Mehran R, Metkus TS Jr, Nnacheta LC, Rao SV, Sellke FW, Sharma G, Yong CM, Zwischenberger BA. 2021 ACC/AHA/SCAI Guideline for Coronary Artery Revascularization: Executive Summary: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2022 Jan 18;145(3):e4-e17. doi: 10.1161/CIR.0000000000001039. Epub 2021 Dec 9. Erratum In: Circulation. 2022 Mar 15;145(11):e771. doi: 10.1161/CIR.0000000000001061."
+                },
+                {
+                    "pmid": "34709879",
+                    "type": "BACKGROUND",
+                    "citation": "Gulati M, Levy PD, Mukherjee D, Amsterdam E, Bhatt DL, Birtcher KK, Blankstein R, Boyd J, Bullock-Palmer RP, Conejo T, Diercks DB, Gentile F, Greenwood JP, Hess EP, Hollenberg SM, Jaber WA, Jneid H, Joglar JA, Morrow DA, O'Connor RE, Ross MA, Shaw LJ. 2021 AHA/ACC/ASE/CHEST/SAEM/SCCT/SCMR Guideline for the Evaluation and Diagnosis of Chest Pain: A Report of the American College of Cardiology/American Heart Association Joint Committee on Clinical Practice Guidelines. Circulation. 2021 Nov 30;144(22):e368-e454. doi: 10.1161/CIR.0000000000001029. Epub 2021 Oct 28. Erratum In: Circulation. 2021 Nov 30;144(22):e455. doi: 10.1161/CIR.0000000000001047. Circulation. 2023 Dec 12;148(24):e281. doi: 10.1161/CIR.0000000000001198."
+                },
+                {
+                    "pmid": "26993434",
+                    "type": "BACKGROUND",
+                    "citation": "Tesche C, De Cecco CN, Caruso D, Baumann S, Renker M, Mangold S, Dyer KT, Varga-Szemes A, Baquet M, Jochheim D, Ebersberger U, Bayer RR 2nd, Hoffmann E, Steinberg DH, Schoepf UJ. Coronary CT angiography derived morphological and functional quantitative plaque markers correlated with invasive fractional flow reserve for detecting hemodynamically significant stenosis. J Cardiovasc Comput Tomogr. 2016 May-Jun;10(3):199-206. doi: 10.1016/j.jcct.2016.03.002. Epub 2016 Mar 10."
+                },
+                {
+                    "pmid": "27438119",
+                    "type": "BACKGROUND",
+                    "citation": "Ahmadi A, Stone GW, Leipsic J, Serruys PW, Shaw L, Hecht H, Wong G, Norgaard BL, O'Gara PT, Chandrashekhar Y, Narula J. Association of Coronary Stenosis and Plaque Morphology With Fractional Flow Reserve and Outcomes. JAMA Cardiol. 2016 Jun 1;1(3):350-7. doi: 10.1001/jamacardio.2016.0263."
+                },
+                {
+                    "pmid": "25897475",
+                    "type": "BACKGROUND",
+                    "citation": "Diaz-Zamudio M, Dey D, Schuhbaeck A, Nakazato R, Gransar H, Slomka PJ, Narula J, Berman DS, Achenbach S, Min JK, Doh JH, Koo BK. Automated Quantitative Plaque Burden from Coronary CT Angiography Noninvasively Predicts Hemodynamic Significance by using Fractional Flow Reserve in Intermediate Coronary Lesions. Radiology. 2015 Aug;276(2):408-15. doi: 10.1148/radiol.2015141648. Epub 2015 Apr 17."
+                },
+                {
+                    "pmid": "33529657",
+                    "type": "BACKGROUND",
+                    "citation": "Varga-Szemes A, Schoepf UJ, Maurovich-Horvat P, Wang R, Xu L, Dargis DM, Emrich T, Buckler AJ. Coronary plaque assessment of Vasodilative capacity by CT angiography effectively estimates fractional flow reserve. Int J Cardiol. 2021 May 15;331:307-315. doi: 10.1016/j.ijcard.2021.01.040. Epub 2021 Jan 30."
+                },
+                {
+                    "pmid": "32822476",
+                    "type": "BACKGROUND",
+                    "citation": "Stuijfzand WJ, van Rosendael AR, Lin FY, Chang HJ, van den Hoogen IJ, Gianni U, Choi JH, Doh JH, Her AY, Koo BK, Nam CW, Park HB, Shin SH, Cole J, Gimelli A, Khan MA, Lu B, Gao Y, Nabi F, Nakazato R, Schoepf UJ, Driessen RS, Bom MJ, Thompson R, Jang JJ, Ridner M, Rowan C, Avelar E, Genereux P, Knaapen P, de Waard GA, Pontone G, Andreini D, Al-Mallah MH, Lu Y, Berman DS, Narula J, Min JK, Bax JJ, Shaw LJ; CREDENCE Investigators. Stress Myocardial Perfusion Imaging vs Coronary Computed Tomographic Angiography for Diagnosis of Invasive Vessel-Specific Coronary Physiology: Predictive Modeling Results From the Computed Tomographic Evaluation of Atherosclerotic Determinants of Myocardial Ischemia (CREDENCE) Trial. JAMA Cardiol. 2020 Dec 1;5(12):1338-1348. doi: 10.1001/jamacardio.2020.3409."
+                },
+                {
+                    "pmid": "36252116",
+                    "type": "BACKGROUND",
+                    "citation": "Lin A, van Diemen PA, Motwani M, McElhinney P, Otaki Y, Han D, Kwan A, Tzolos E, Klein E, Kuronuma K, Grodecki K, Shou B, Rios R, Manral N, Cadet S, Danad I, Driessen RS, Berman DS, Norgaard BL, Slomka PJ, Knaapen P, Dey D. Machine Learning From Quantitative Coronary Computed Tomography Angiography Predicts Fractional Flow Reserve-Defined Ischemia and Impaired Myocardial Blood Flow. Circ Cardiovasc Imaging. 2022 Oct;15(10):e014369. doi: 10.1161/CIRCIMAGING.122.014369. Epub 2022 Oct 13."
+                },
+                {
+                    "pmid": "36603478",
+                    "type": "BACKGROUND",
+                    "citation": "Buckler AJ, Sakamoto A, Pierre SS, Virmani R, Budoff MJ. Virtual pathology: Reaching higher standards for noninvasive CTA tissue characterization capability by using histology as a truth standard. Eur J Radiol. 2023 Feb;159:110686. doi: 10.1016/j.ejrad.2022.110686. Epub 2022 Dec 31."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003324",
+                    "term": "Coronary Artery Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003327",
+                    "term": "Coronary Disease"
+                },
+                {
+                    "id": "D000017202",
+                    "term": "Myocardial Ischemia"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000001161",
+                    "term": "Arteriosclerosis"
+                },
+                {
+                    "id": "D000001157",
+                    "term": "Arterial Occlusive Diseases"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6546",
+                    "name": "Coronary Artery Disease",
+                    "asFound": "Coronary Artery Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19506",
+                    "name": "Myocardial Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6549",
+                    "name": "Coronary Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10543",
+                    "name": "Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4469",
+                    "name": "Arteriosclerosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4465",
+                    "name": "Arterial Occlusive Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

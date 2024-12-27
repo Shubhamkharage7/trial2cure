@@ -1,0 +1,447 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06395636",
+            "orgStudyIdInfo": {
+                "id": "IRB 2024-6701"
+            },
+            "organization": {
+                "fullName": "Ann & Robert H Lurie Children's Hospital of Chicago",
+                "class": "OTHER"
+            },
+            "briefTitle": "Early Detection of Infection Using the Fitbit in Pediatric Surgical Patients",
+            "officialTitle": "Using the Fitbit for Early Detection of Infection and Reduction of Healthcare Utilization After Discharge in Pediatric Surgical Patients",
+            "acronym": "i-DETECT",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "early-detection-of-infection-using-the-fitbit-in-pediatric-surgical-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-01-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-07-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-29",
+            "studyFirstSubmitQcDate": "2024-04-29",
+            "studyFirstPostDateStruct": {
+                "date": "2024-05-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Fizan Abdullah, MD",
+                "investigatorTitle": "Fizan Abdullah M.D., Ph.D",
+                "investigatorAffiliation": "Ann & Robert H Lurie Children's Hospital of Chicago"
+            },
+            "leadSponsor": {
+                "name": "Ann & Robert H Lurie Children's Hospital of Chicago",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Northwestern University",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Central DuPage Hospital",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "University of Chicago",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Loyola University Chicago",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to analyze Fitbit data to predict infection after surgery for complicated appendicitis and the effect this prediction has on clinician decision making."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Appendectomy",
+                "Appendicitis",
+                "Appendicitis Acute"
+            ],
+            "keywords": [
+                "consumer wearables",
+                "machine learning",
+                "ML",
+                "Fitbit",
+                "infection",
+                "detection",
+                "algorithm",
+                "prediction"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Aim 1 - Validation",
+                    "type": "NO_INTERVENTION",
+                    "description": "1a. Development and Internal validation\n\n* analyze Fitbit data (PA, HR, sleep) by applying ML methods to create an infection algorithm indicating onset of infection.\n\n  1b. External Validation\n* Once the ML classifier has been internally validated (using Lurie Children's data only) for its ability to detect the presence or absence of postoperative infection using LOSO cross-validation, where each subject is iteratively held out from the training data and used as a test set. External validation will involve applying this classifier to a newer cohort at LCH and cohorts at Loyola University Hospital and CDH and evaluating its performance."
+                },
+                {
+                    "label": "Aim 2 - Implementation of Algorithm",
+                    "type": "EXPERIMENTAL",
+                    "description": "2a. Exploratory \\& Inductive analysis\n\n* one transcript will be coded to generate initial themes, using qualitative analytic software 2b. Time to first contact with the healthcare system \\& Healthcare use\n* Cox regression model will be used to model the time to first contact, adjusted for covariates\n* All comparisons between the two groups will be tested using a chi-square test. Cost will be modeled as a continuous variable and is expected to be skewed, as is typical of cost data. We will use a general linear model (GLM) to model cost outcomes.",
+                    "interventionNames": [
+                        "Device: Infection-Prediction Algorithm"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Infection-Prediction Algorithm",
+                    "description": "This machine learning algorithm will be developed(Aim1a) and validated(Aim 1b) using the participant Fitbit data and survey results collected during Aim 1. In Aim 2 the algorithm will be used in real time to predict postoperative infection.",
+                    "armGroupLabels": [
+                        "Aim 2 - Implementation of Algorithm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Trends in Participant Fitbit Data (Physical Activity, Heart Rate, Sleep) during the Recovery Period post Complicated Appendectomy",
+                    "description": "Participant Fitbit data metrics (particularly PA, HR, Sleep) will be extracted from the app and analyzed using Machine Learning methods to eventually develop an algorithm to predict infection during the postoperative recovery period.",
+                    "timeFrame": "Fitbit data metrics will be collected for 30 days starting at date of enrollment."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of Reported Symptoms and Complications during Recovery",
+                    "description": "Participants \\& Parents/Guardians will report any symptoms or complications that occur during the recovery period via a daily diary/survey.",
+                    "timeFrame": "Daily Diary/Survey Submissions will be asked to be completed daily for 30 days starting day of enrollment."
+                },
+                {
+                    "measure": "Healthcare Utilizations during Recovery Period",
+                    "description": "The daily diary/survey will also ask Parents / Guardians of any trips to the ER, readmissions, or hospital visits relating to the participant's appendectomy.",
+                    "timeFrame": "The diary / survey will require a submission every day for 30 days starting at day of enrollment."
+                },
+                {
+                    "measure": "Change in Clinician Decision Making from Algorithm Results",
+                    "description": "Clinicians of participants (Aim 2) will be asked if the results from the infection prediction algorithm had any impact on their clinical care decisions.",
+                    "timeFrame": "For 30 days starting at day of participant enrollment"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* children aged 3-18 years\n* must be post-surgical laparoscopic appendectomy for complicated appendicitis (Appendicitis is categorized as complicated if perforation, phlegmon, or abscess was present at surgery.)\n\nExclusion Criteria:\n\n* children who are non-ambulatory or have any pre-existing mobility limitations\n* children who have a doctor-ordered physical activity limit \\&amp;amp;amp;gt;48 hours post-surgery\n* children who have a comorbidity which will impact a patient's recovery\n* children and/or parents who do not speak English or Spanish (Translation services beyond Spanish will not be available at this time)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Years",
+            "maximumAge": "18 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Fizan Abdullah, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "312-227-4210",
+                    "email": "fabdullah@luriechildrens.org"
+                },
+                {
+                    "name": "Arianna Edobor, CRC",
+                    "role": "CONTACT",
+                    "phone": "312-227-2118",
+                    "email": "idetect@luriechildrens.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Fizan Abdullah, MD, PhD",
+                    "affiliation": "Ann & Robert H Lurie Children's Hospital of Chicago",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Hassan M.K. Ghomrawi, PhD, MPH",
+                    "affiliation": "University of Alabama at Birmingham",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Arun Jayaraman, PT, PhD",
+                    "affiliation": "Shirley Ryan AbilityLab",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Ann & Robert H. Lurie Children's Hospital of Chicago",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60611",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Fizan Abdullah, MD, PhD",
+                            "role": "CONTACT",
+                            "phone": "312-227-4210",
+                            "email": "FAbdullah@luriechildrens.org"
+                        },
+                        {
+                            "name": "Arianna Edobor, BS",
+                            "role": "CONTACT",
+                            "phone": "312-227-2118",
+                            "email": "aedobor@luriechildrens.org"
+                        },
+                        {
+                            "name": "Fizan Abdullah, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Northwestern University (Feinberg School of Medicine, Shirley Ryan AbilityLab)",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60611",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Fizan Abdullah, MD, PhD",
+                            "role": "CONTACT",
+                            "phone": "312-227-4210",
+                            "email": "fabdullah@luriechildrens.org"
+                        },
+                        {
+                            "name": "Clinical Research Coordinator",
+                            "role": "CONTACT",
+                            "phone": "312-227-2118",
+                            "email": "aedobor@luriechildrens.org"
+                        },
+                        {
+                            "name": "Fizan Abdullah, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Loyola University Medical Center",
+                    "city": "Maywood",
+                    "state": "Illinois",
+                    "zip": "60153",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Research Coordinator",
+                            "role": "CONTACT",
+                            "phone": "312-227-2118",
+                            "email": "aedobor@luriechildrens.org"
+                        },
+                        {
+                            "name": "Steven A De Jong, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.8792,
+                        "lon": -87.84312
+                    }
+                },
+                {
+                    "facility": "Northwestern Medicine Central DuPage Hospital",
+                    "city": "Winfield",
+                    "state": "Illinois",
+                    "zip": "60190",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Research Coordinator",
+                            "role": "CONTACT",
+                            "phone": "312-227-2118",
+                            "email": "aedobor@luriechildrens.org"
+                        },
+                        {
+                            "name": "Guillermo Ares, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.8617,
+                        "lon": -88.1609
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000001064",
+                    "term": "Appendicitis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000059413",
+                    "term": "Intraabdominal Infections"
+                },
+                {
+                    "id": "D000005759",
+                    "term": "Gastroenteritis"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000002429",
+                    "term": "Cecal Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "asFound": "Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4376",
+                    "name": "Appendicitis",
+                    "asFound": "Appendicitis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M29465",
+                    "name": "Intraabdominal Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8875",
+                    "name": "Gastroenteritis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5679",
+                    "name": "Cecal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

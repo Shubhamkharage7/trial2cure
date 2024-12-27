@@ -1,0 +1,343 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04850274",
+            "orgStudyIdInfo": {
+                "id": "HUM00160149"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "5R01HD097107-03",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/5R01HD097107-03"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "Using Re-inforcement Learning to Automatically Adapt a Remote Therapy Intervention (RTI) for Reducing Adolescent Violence Involvement",
+            "officialTitle": "Using Re-inforcement Learning to Automatically Adapt a Remote Therapy Intervention (RTI) for Reducing Adolescent Violence Involvement",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "using-re-inforcement-learning-to-automatically-adapt-a-remote-therapy-intervention-rti-for-reducing-adolescent-violence-involvement"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-05-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-03-24",
+            "studyFirstSubmitQcDate": "2021-04-19",
+            "studyFirstPostDateStruct": {
+                "date": "2021-04-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Patrick Carter",
+                "investigatorTitle": "Associate Professor of Emergency Medicine",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will use a randomized control trial (RCT) design to administer two versions of a multisession remote behavioral intervention for youth seeking Emergency Department care for a violent injury with the goal to reduce their violence involvement and associated negative behaviors and consequences. The study examines two versions of the remote therapy intervention - a standard RTI (S-RTI) and an Artificial Intelligence RTI (AI-RTI). The application of a just-in-time adaptive strategy to address youth violence is an important and novel direction for this research, particularly given the need to understand best practices for delivering behavioral interventions among lower-income populations.",
+            "detailedDescription": "The Specific Aims for the proposed study are to refine the Remote Therapy Intervention (RTI) for delivery using a standardized remote therapy package (S-RTI; 1 ED + 5 remote sessions) based on a piloted RTI and an adaptive RTI that optimizes bi-weekly dose and intervention intensity between four levels of therapy (remote therapy+, remote therapy; automated electronic tailored therapy; none) based on a reinforcement learning (RL) algorithm \\[AI-RTI\\]. A total of 750 youth (age=14-24) seeking ED care for a violent injury will be enrolled and randomly assigned (stratified by age/gender) to the S-RTI (n=250), AI-RTI (n=300), and a control (EUC; n=200) condition. In addition to the randomized assignment, all youth will take a daily assessment over the course of the intervention timeline. Outcomes will be assessed at 6 and 12 months."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Violence",
+                "Substance Use",
+                "Criminal Behavior",
+                "Violence in Adolescence"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 750,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Remote Therapy Intervention",
+                    "type": "EXPERIMENTAL",
+                    "description": "Youth will receive the maximal dose of six S-RTI therapy sessions delivered by a remote therapist with no alteration in intensity",
+                    "interventionNames": [
+                        "Behavioral: Remote Therapy Intervention (RTI)"
+                    ]
+                },
+                {
+                    "label": "Artificial Intelligence Remote Therapy Intervention",
+                    "type": "EXPERIMENTAL",
+                    "description": "Youth will first receive a remote therapy session in the Emergency Department (ED). The RL system will then make decisions about the intensity of each subsequent therapy session (the initial decision is seven days post ED visit and bi-weekly \\[i.e., every other two weeks\\] thereafter) for the next 11 weeks. Potential treatment decisions include a 30-minute remote therapy session delivered via phone or video chat (mirroring the S-RTI), a less intensive tailored Motivational Interviewing (MI)-adherent electronic remote therapy (delivered by an electronic robot), or an assessment only without intervention.",
+                    "interventionNames": [
+                        "Behavioral: Artificial Intelligence Remote Therapy Intervention"
+                    ]
+                },
+                {
+                    "label": "Enhanced Usual Care",
+                    "type": "NO_INTERVENTION",
+                    "description": "The youth's retaliatory risk will be assessed and a pamphlet with referrals for violence, substance use, and mental health services will be provided."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Remote Therapy Intervention (RTI)",
+                    "description": "A single ED session followed by 5 remote therapy sessions",
+                    "armGroupLabels": [
+                        "Remote Therapy Intervention"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Artificial Intelligence Remote Therapy Intervention",
+                    "description": "Optimized by reinforcement learning to step up or down the intensity of treatment between three levels based on patient response to daily assessments.",
+                    "armGroupLabels": [
+                        "Artificial Intelligence Remote Therapy Intervention"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Aggression",
+                    "description": "Aggression will be measured at baseline, 6-month follow-up, 12-month follow-up. Conflict Tactic Scale measures have been used in prior work and is scored using a summary score (0=Never; 6=20+ Times).",
+                    "timeFrame": "Baseline, 6-months, 12-months"
+                },
+                {
+                    "measure": "Change in Victimization",
+                    "description": "Aggression will be measured at baseline, 6-month follow-up, 12-month follow-up. Conflict Tactic Scale measures have been used in prior work and is scored using a summary score (0=Never; 6=20+ Times).",
+                    "timeFrame": "Baseline, 6-months, 12-months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Youth will be eligible if they screen is positive for seeking treatment in the ED for a violent injury, age 14-24, and report ownership of a smartphone with texting capability and internet access.\n\nExclusion Criteria:\n\n* Youth will be excluded if they do not understand English, cannot provide informed consent due to mental incompetence, incarceration or medical instability (unstable patients will be recruited if they stabilize within 72 hours), are 14-17 years old and presenting without an accessible parent/guardian, are presenting for suicide attempt/intent, sexual assault, and/or child abuse (due to high intensity of social services needed for such patients during their ED visit).",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "14 Years",
+            "maximumAge": "24 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Patrick M Carter, M.D.",
+                    "role": "CONTACT",
+                    "phone": "734-615-8706",
+                    "email": "cartpatr@med.umich.edu"
+                },
+                {
+                    "name": "Lynn S Massey, MSW",
+                    "role": "CONTACT",
+                    "phone": "734-615-8706",
+                    "email": "lsmassey@med.umich.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Grady Health System",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30303",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patrick Carter",
+                            "role": "CONTACT",
+                            "phone": "734-647-6125",
+                            "email": "cartpatr@med.umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Ascension St. John Hospital",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48236",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patrick Carter",
+                            "role": "CONTACT",
+                            "phone": "734-647-6125",
+                            "email": "cartpatr@med.umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Hurley Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Flint",
+                    "state": "Michigan",
+                    "zip": "48503",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patrick Carter",
+                            "role": "CONTACT",
+                            "phone": "734-647-6125",
+                            "email": "cartpatr@med.umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.01253,
+                        "lon": -83.68746
+                    }
+                },
+                {
+                    "facility": "HUP and PPMC",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patrick Carter",
+                            "role": "CONTACT",
+                            "phone": "734-647-6125",
+                            "email": "cartpatr@med.umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000019966",
+                    "term": "Substance-Related Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000064419",
+                    "term": "Chemically-Induced Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M21837",
+                    "name": "Substance-Related Disorders",
+                    "asFound": "Substance Use",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M30302",
+                    "name": "Chemically-Induced Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC25",
+                    "name": "Substance Related Disorders"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

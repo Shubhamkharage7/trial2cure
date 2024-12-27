@@ -1,0 +1,311 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05601219",
+            "orgStudyIdInfo": {
+                "id": "ADA-011-001"
+            },
+            "organization": {
+                "fullName": "Adanate, Inc",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase 1 Study of ADA-011 for Subjects With Advanced Solid Tumors",
+            "officialTitle": "A Phase 1, Open-Label, Multicenter Study of ADA-011 as Monotherapy and in Combination With a Checkpoint Inhibitor for Subjects With Advanced Solid Tumors",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "a-phase-study-of-ada-for-subjects-with-advanced-solid-tumors"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-11-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-10-17",
+            "studyFirstSubmitQcDate": "2022-10-28",
+            "studyFirstPostDateStruct": {
+                "date": "2022-11-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-09",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Adanate, Inc",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study consists of dose escalation evaluation to determine the safety and tolerability of ADA-011 as a monotherapy and in combination with a checkpoint inhibitor. Following dose escalation, one or more dose expansion cohorts in selected indications will be explored to further evaluate the safety, tolerability, and preliminary efficacy of ADA-011."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Solid Tumor, Adult"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Non-randomized dose escalation followed by dose expansion.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 90,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "ADA-011 Monotherapy Dose Escalation",
+                    "type": "EXPERIMENTAL",
+                    "description": "ADA-011 monotherapy will be administered intravenously (IV), every 3 weeks (Q3W) at escalating doses starting with Cycle 1, Day 1, until participant withdrawal. Participants enroll with histologically or cytologically confirmed solid tumors.",
+                    "interventionNames": [
+                        "Drug: ADA-011"
+                    ]
+                },
+                {
+                    "label": "ADA-011 Monotherapy Dose Expansion",
+                    "type": "EXPERIMENTAL",
+                    "description": "ADA-011 monotherapy with the preliminary recommended phase 2 dose (RP2D) of ADA-011, in participants with histologically or cytologically confirmed solid tumors.",
+                    "interventionNames": [
+                        "Drug: ADA-011"
+                    ]
+                },
+                {
+                    "label": "Combination Therapy Dose Escalation",
+                    "type": "EXPERIMENTAL",
+                    "description": "Combination therapy with ADA-011 and PD(L)-1 inhibitor (at escalating ADA-011 doses) will be administered IV Q3W, starting with Cycle 1, Day 1 in participants with histologically or cytologically confirmed solid tumors.",
+                    "interventionNames": [
+                        "Drug: ADA-011",
+                        "Drug: PD(L)-1 inhibitor"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "ADA-011",
+                    "description": "ADA-011 will be administered intravenously (IV) Q3W on a 21-day cycle.",
+                    "armGroupLabels": [
+                        "ADA-011 Monotherapy Dose Escalation",
+                        "ADA-011 Monotherapy Dose Expansion",
+                        "Combination Therapy Dose Escalation"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "PD(L)-1 inhibitor",
+                    "description": "PD(L)-1 inhibitor will be administered intravenously (IV) Q3W.",
+                    "armGroupLabels": [
+                        "Combination Therapy Dose Escalation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of Participants Who Experienced an Adverse Event (AE)",
+                    "description": "An AE is any unfavorable and/or unintended sign (including an abnormal laboratory finding), symptom, or disease temporally associated with the use of a medicinal (investigational) product whether or not related to the medicinal (investigational) product. The number of participants who discontinued study treatment due to an AE will be presented.",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Number of Dose-Limiting Toxicities (DLTs)",
+                    "description": "DLTs will be evaluated according to NCI CTCAE v5.0 and are generally defined as grade 3 or higher toxicities which are deemed to be medically significant.",
+                    "timeFrame": "21 days (cycle 1)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Pharmacokinetic (PK) Profile of Participants Treated with ADA-011 (AUC)",
+                    "description": "Pharmacokinetic (PK) parameters of ADA-011 including area under the curve (AUC) will be evaluated for all participants in the dose escalation cohorts.",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Pharmacokinetic (PK) Profile of Participants Treated with ADA-011 (Cmax)",
+                    "description": "Pharmacokinetic (PK) parameters of ADA-011 including maximum concentration (Cmax) will be evaluated for all participants in the dose escalation cohorts.",
+                    "timeFrame": "36 months"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Number of Participants Positive for Anti-Drug Antibodies (ADA) After Treatment with ADA-011",
+                    "description": "Serum samples from participants treated with ADA-011 will be analyzed for ADA using a neutralizing antibody assay. The number of participants with neutralizing ADA will be reported.",
+                    "timeFrame": "36 months"
+                },
+                {
+                    "measure": "Objective Response Rate (ORR) per Response Evaluation Criteria in Solid Tumors (RECIST) 1.1",
+                    "description": "The percentage of participants who have a Complete Response (CR: Disappearance of all target lesions) or a Partial Response (PR: At least a 30% decrease in the sum of diameters of target lesions) per RECIST 1.1 criteria will be reported.",
+                    "timeFrame": "36 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically or cytologically documented, incurable or metastatic solid tumor that is advanced (nonresectable) or recurrent and progressing since the last antitumor therapy and for which no recognized standard therapy exists\n* Eastern Cooperative Oncology Group (ECOG) performance status \u22642\n* Measurable disease per RECIST v1.1 or per other criteria best suited for the specific tumor type being evaluated\n* Adequate organ function\n\nExclusion Criteria:\n\n* Treatment with any local or systemic antineoplastic therapy (including chemotherapy, hormonal therapy, or radiation) within 2 weeks prior to the first dose of ADA-011\n* Chronic use of corticosteroids in excess of 10 mg daily of prednisone or equivalent within 4 weeks prior to the first dose of ADA-011\n* Major trauma or major surgery within 4 weeks prior to the first dose of ADA-011\n* AEs from prior anticancer therapy that have not resolved to Grade \u22641 except for alopecia\n* Known, central nervous system (CNS) disease involvement, or prior history of NCI CTCAE Grade \u22653 drug-related CNS toxicity.\n* Evidence of active uncontrolled viral, bacterial, or systemic fungal infection\n* Active SARS-CoV-2 infection, irrespective of symptoms.\n* History or risk of severe, chronic, untreated, or currently active autoimmune disease\n* Prior solid organ transplant or has had an allogenic hematopoietic stem cell transplant within the past 20 years\n* Pregnant, lactating, or breastfeeding",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Study Director",
+                    "role": "CONTACT",
+                    "phone": "(650) 732-4010",
+                    "email": "info@adanate.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "HonorHealth",
+                    "status": "RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85258",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Study Coordinator",
+                            "role": "CONTACT",
+                            "phone": "623-580-5800"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                },
+                {
+                    "facility": "Florida Cancer Specialists",
+                    "status": "RECRUITING",
+                    "city": "Orlando",
+                    "state": "Florida",
+                    "zip": "32827",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "I Acker",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 28.53834,
+                        "lon": -81.37924
+                    }
+                },
+                {
+                    "facility": "Duke University",
+                    "status": "RECRUITING",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Study Coordinator",
+                            "role": "CONTACT",
+                            "phone": "919-613-1909"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "The Christ Hospital",
+                    "status": "RECRUITING",
+                    "city": "Cincinnati",
+                    "state": "Ohio",
+                    "zip": "45219",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "A Reed",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.12713,
+                        "lon": -84.51435
+                    }
+                },
+                {
+                    "facility": "Oregon Health & Science University",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "OHSU Knight Cancer Institute Clinical Trials Information",
+                            "role": "CONTACT",
+                            "phone": "503-494-8311",
+                            "email": "trials@ohsu.edu"
+                        },
+                        {
+                            "name": "Shivaani Kummar, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

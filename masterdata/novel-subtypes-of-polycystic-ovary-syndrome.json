@@ -1,0 +1,596 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06124391",
+            "orgStudyIdInfo": {
+                "id": "PCOS-Subtypes"
+            },
+            "organization": {
+                "fullName": "Shandong University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Novel Subtypes of Polycystic Ovary Syndrome",
+            "officialTitle": "An Evidence-Based Novel Subtypes of Polycystic Ovary Syndrome and Their Association With Outcomes: a Large Cohort Study",
+            "therapeuticArea": [
+                "Rare Diseases"
+            ],
+            "study": "novel-subtypes-of-polycystic-ovary-syndrome"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-01-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-26",
+            "studyFirstSubmitQcDate": "2023-11-04",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-28",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-30",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Chen Zi-Jiang",
+                "investigatorTitle": "Academician",
+                "investigatorAffiliation": "Shandong University"
+            },
+            "leadSponsor": {
+                "name": "Shandong University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "To classify subtypes of Polycystic Ovary Syndrome (PCOS) using machine-learning algorithms, and compare the reproductive and metabolic characteristics and IVF outcomes across these identified subtypes.",
+            "detailedDescription": "In this study, we've developed a machine-learning model to classify PCOS patients into four subtypes based on nine clinical characteristics.\n\nThe goal of this observational study is to:\n\n* Learn about different PCOS subtypes using our classification model.\n* Compare the reproductive and metabolic features of these subtypes.\n* Assess the outcomes of IVF among different PCOS subtypes.\n* Prospective 6.5-year follow-up data will be collected.\n\nParticipants will:\n\n* Undergo a telephone interview to gather details on:\n\n  1. Current physical stats like height and weight.\n  2. Reproductive history, including pregnancies and childbirths in recent years.\n  3. Details about any IVF treatments.\n  4. Current status of conditions such as PCOS, Type 2 Diabetes, hypertension, and dyslipidemia.\n* Be invited for a physical examination that includes:\n\n  1. Measurements such as height, weight, blood pressure, and body circumferences.\n  2. Laboratory tests for endocrine and metabolic conditions.\n  3. Ultrasound scans of the ovaries and liver."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Polycystic Ovary Syndrome"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Whole blood and plasma samples will be collected."
+            },
+            "enrollmentInfo": {
+                "count": 50000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HA-PCOS",
+                    "description": "Patients were classified into each PCOS subtype based on our machine-learning classification model. The feature of the HA-PCOS group is hyperandrogenism.",
+                    "interventionNames": [
+                        "Other: Long-term follow-up"
+                    ]
+                },
+                {
+                    "label": "OB-PCOS",
+                    "description": "Patients were classified into each PCOS subtype based on our machine-learning classification model. The feature of the OB-PCOS group is overweight/obesity.",
+                    "interventionNames": [
+                        "Other: Long-term follow-up"
+                    ]
+                },
+                {
+                    "label": "SHBG-PCOS",
+                    "description": "Patients were classified into each PCOS subtype based on our machine-learning classification model. The feature of the SHBG-PCOS group is the high level of serum SHBG.",
+                    "interventionNames": [
+                        "Other: Long-term follow-up"
+                    ]
+                },
+                {
+                    "label": "LH-PCOS",
+                    "description": "Patients were classified into each PCOS subtype based on our machine-learning classification model. The feature of the LH-PCOS group is the high level of LH and AMH.",
+                    "interventionNames": [
+                        "Other: Long-term follow-up"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Long-term follow-up",
+                    "description": "Participants diagnosed with PCOS were not subjected to any specific intervention post-diagnosis. Instead, they were followed up after 6.5 years to assess various outcomes related to PCOS and associated conditions.",
+                    "armGroupLabels": [
+                        "HA-PCOS",
+                        "LH-PCOS",
+                        "OB-PCOS",
+                        "SHBG-PCOS"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Persistence of PCOS Diagnosis",
+                    "description": "Determining if patients still meet the Rotterdam criteria for a PCOS diagnosis at the follow-up. The hyperandrogenic, ovulatory, and polycystic ovarian conditions at the follow-up time will be assessed.",
+                    "timeFrame": "At the 6.5-year follow-up visit."
+                },
+                {
+                    "measure": "Changes in PCOS Subtype",
+                    "description": "Tracking if patients have transitioned between different PCOS subtypes at the follow-up.",
+                    "timeFrame": "At the 6.5-year follow-up visit."
+                },
+                {
+                    "measure": "Body Mass Index",
+                    "description": "Patients' weight (in kilograms) and height (in meters) will be collected and combined to report BMI in kg/m\\^2",
+                    "timeFrame": "At the 6.5-year follow-up visit."
+                },
+                {
+                    "measure": "Non-Alcoholic Fatty Liver Disease (NAFLD)",
+                    "description": "NAFLD will be assessed using abdominal ultrasound.",
+                    "timeFrame": "At the 6.5-year follow-up visit."
+                },
+                {
+                    "measure": "Hypertension",
+                    "description": "Blood pressure will be assessed, and we will determine if a patient has hypertension, defined as systolic blood pressure (SBP) \u2265 140 mmHg and/or diastolic blood pressure (DBP) \u2265 90 mmHg.",
+                    "timeFrame": "At the 6.5-year follow-up visit."
+                },
+                {
+                    "measure": "Type 2 Diabetes Mellitus (T2DM)",
+                    "description": "Fasting glucose will be assessed, and we will determine if a patient has T2DM, defined as fasting glucose \u2265 7.0 mmol/l.",
+                    "timeFrame": "At the 6.5-year follow-up visit."
+                },
+                {
+                    "measure": "Dyslipidemia",
+                    "description": "Defined as the presence of any of the following abnormalities:\n\n* Total cholesterol \u2265 5.2 mmol/l\n* Triglycerides (TG) \u2265 1.7 mmol/l\n* High-density lipoprotein (HDL) \\< 1.0 mmol/l\n* Low-density lipoprotein (LDL) \u2265 3.35 mmol/l",
+                    "timeFrame": "At the 6.5-year follow-up visit."
+                },
+                {
+                    "measure": "Total live birth rate",
+                    "description": "Live birth is defined as the delivery of any neonate with signs of life at \u2265 28 weeks of gestation.",
+                    "timeFrame": "From the diagnosis of PCOS (at the time of enrollment) until a follow-up period of 6.5 years."
+                },
+                {
+                    "measure": "Clinical pregnancy rate",
+                    "description": "Clinical pregnancy is defined as the ultrasound confirmation of at least one intrauterine gestational sac.",
+                    "timeFrame": "From the diagnosis of PCOS (at the time of enrollment) until a follow-up period of 6.5 years."
+                },
+                {
+                    "measure": "Pregnancy loss rate",
+                    "description": "Pregnancy loss is defined as pregnancies that eventuate in a spontaneous abortion or therapeutic abortion that occurred throughout pregnancy.",
+                    "timeFrame": "From the diagnosis of PCOS (at the time of enrollment) until a follow-up period of 6.5 years."
+                },
+                {
+                    "measure": "Maternal and neonatal complications",
+                    "description": "Any maternal and neonatal complications, including gestational diabetes, preeclampsia, etc., will be collected.",
+                    "timeFrame": "From the diagnosis of PCOS (at the time of enrollment) until a follow-up period of 6.5 years."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* PCOS patients diagnosed using the Rotterdam criteria, which requires the presence of at least two of the following:\n\n  1. Menstrual Irregularities: A menstrual cycle length of fewer than 21 days or more than 35 days, and/or fewer than eight cycles per year.\n  2. Hyperandrogenism: Defined either by an elevated total testosterone level (as per local laboratory criteria) or by a modified Ferriman-Gallwey (mFG) score of 5 or higher.\n  3. Polycystic Ovaries on Ultrasound: Presence of 12 or more follicles measuring 2-9 mm in diameter in each ovary and/or an ovarian volume exceeding 10 mL.\n\nExclusion Criteria:\n\nPatients with congenital adrenal hyperplasias, androgen-secreting tumours, or Cushing's syndrome) will be excluded.",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+                "ADULT"
+            ],
+            "studyPopulation": "* Discovery cohort: Patients diagnosed with PCOS who sought care at the Center for Reproductive Medicine, Shandong University between December 2013 and June 2020.\n* The validation cohorts of this study consist of four populations.\n\n  1. China Validation Cohort: Consists of patients from various regions in China, excluding Shandong.\n  2. America Validation Cohort: Participants from the Pregnancy in Polycystic Ovary Syndrome II (PPCOS II) trial.\n  3. Singapore Validation Cohort.\n  4. Europe Validation Cohort: Comprising patients from Turkey.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Zi-jiang Chen",
+                    "role": "CONTACT",
+                    "phone": "86-531-85187856",
+                    "email": "chenzijiang@hotmail.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Zi-jiang Chen",
+                    "affiliation": "Center for Reproductive Medicine, Shandong University",
+                    "role": "STUDY_CHAIR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Penn State College of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Hershey",
+                    "state": "Pennsylvania",
+                    "zip": "17033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Richard Legro",
+                            "role": "CONTACT",
+                            "email": "rsl1@psu.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.28592,
+                        "lon": -76.65025
+                    }
+                },
+                {
+                    "facility": "Hospital de Clinicas de Porto Alegre",
+                    "status": "RECRUITING",
+                    "city": "Porto Alegre",
+                    "country": "Brazil",
+                    "contacts": [
+                        {
+                            "name": "Poli Spritzer",
+                            "role": "CONTACT",
+                            "email": "spritzer@ufrgs.br"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": -30.03306,
+                        "lon": -51.23
+                    }
+                },
+                {
+                    "facility": "Chengdu Jinjiang Maternity and Child Health Hospital",
+                    "status": "RECRUITING",
+                    "city": "Chengdu",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Lin Zhou",
+                            "role": "CONTACT",
+                            "email": "linzhoucdjj@gmail.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.66667,
+                        "lon": 104.06667
+                    }
+                },
+                {
+                    "facility": "Guangdong Second Provincial General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Guangzhou",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Xianghong Ou",
+                            "role": "CONTACT",
+                            "email": "ouxianghong@yahoo.com.cn"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 23.11667,
+                        "lon": 113.25
+                    }
+                },
+                {
+                    "facility": "Shandong University",
+                    "status": "RECRUITING",
+                    "city": "Jinan",
+                    "zip": "250012",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Zi-jiang Chen",
+                            "role": "CONTACT",
+                            "phone": "86-531-85187856",
+                            "email": "chenzijiang@hotmail.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.66833,
+                        "lon": 116.99722
+                    }
+                },
+                {
+                    "facility": "Ren Ji Hospital, School of Medicine, Shanghai Jiao Tong University",
+                    "status": "RECRUITING",
+                    "city": "Shanghai",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Yun Sun",
+                            "role": "CONTACT",
+                            "email": "syun163@163.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.22222,
+                        "lon": 121.45806
+                    }
+                },
+                {
+                    "facility": "Tianjin Medical University General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Tianjin",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Ye Tian",
+                            "role": "CONTACT",
+                            "email": "tianyesdu@126.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.14222,
+                        "lon": 117.17667
+                    }
+                },
+                {
+                    "facility": "General Hospital of Ningxia Medical University",
+                    "status": "RECRUITING",
+                    "city": "Yinchuan",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Junli Zhao",
+                            "role": "CONTACT",
+                            "email": "zhaojunli6812@163.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.46806,
+                        "lon": 106.27306
+                    }
+                },
+                {
+                    "facility": "National University Hospital, National University of Singapore",
+                    "status": "RECRUITING",
+                    "city": "Singapore",
+                    "country": "Singapore",
+                    "contacts": [
+                        {
+                            "name": "Eu-Leong Yong",
+                            "role": "CONTACT",
+                            "email": "obgyel@nus.edu.sg"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 1.28967,
+                        "lon": 103.85007
+                    }
+                },
+                {
+                    "facility": "Karolinska Institutet",
+                    "status": "RECRUITING",
+                    "city": "Solna",
+                    "zip": "17165",
+                    "country": "Sweden",
+                    "contacts": [
+                        {
+                            "name": "Elisabet Stener-Victorin",
+                            "role": "CONTACT",
+                            "email": "elisabet.stener-victorin@ki.se"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 59.36004,
+                        "lon": 18.00086
+                    }
+                },
+                {
+                    "facility": "Hacettepe University School of Medicine Hacettepe",
+                    "status": "RECRUITING",
+                    "city": "Ankara",
+                    "country": "Turkey",
+                    "contacts": [
+                        {
+                            "name": "Bulent Yildiz",
+                            "role": "CONTACT",
+                            "email": "yildizbo@yahoo.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.91987,
+                        "lon": 32.85427
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30",
+            "removedCountries": [
+                "Finland"
+            ]
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011085",
+                    "term": "Polycystic Ovary Syndrome"
+                },
+                {
+                    "id": "D000013577",
+                    "term": "Syndrome"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004194",
+                    "term": "Disease"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000010048",
+                    "term": "Ovarian Cysts"
+                },
+                {
+                    "id": "D000003560",
+                    "term": "Cysts"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000010049",
+                    "term": "Ovarian Diseases"
+                },
+                {
+                    "id": "D000000291",
+                    "term": "Adnexal Diseases"
+                },
+                {
+                    "id": "D000005831",
+                    "term": "Genital Diseases, Female"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000006058",
+                    "term": "Gonadal Disorders"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "asFound": "Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13970",
+                    "name": "Polycystic Ovary Syndrome",
+                    "asFound": "Polycystic Ovary Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6765",
+                    "name": "Cysts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12971",
+                    "name": "Ovarian Cysts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12972",
+                    "name": "Ovarian Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3643",
+                    "name": "Adnexal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8943",
+                    "name": "Genital Diseases, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9163",
+                    "name": "Gonadal Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

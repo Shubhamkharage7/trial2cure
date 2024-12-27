@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Peearz Portal</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <!-- <script src="https://zumo.blob.core.windows.net/sdk/azure-mobile-apps-client.2.0.1.js"></script> -->
+    <script src="./main.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  
+       <script id="sap-ui-bootstrap"
+       src="https://sapui5.hana.ondemand.com/1.96.27/resources/sap-ui-core.js"
+          data-sap-ui-theme="sap_bluecrystal"
+          data-sap-ui-libs="sap.m"
+    data-sap-ui-xx-bindingSyntax="complex"></script>
+  
+  
+      <link rel="icon" href="Images/favicon.ico">  
+  
+  <!-- <link rel="shortcut icon" href="./assets1/img/favicon.ico"> -->
+  <link rel="stylesheet" href="./assets1/css/plugins.css">
+  <link rel="stylesheet" href="./assets1/css/style.css">
+  <link rel="stylesheet" href="./assets1/css/colors/grape.css">
+  <link rel="preload" href="./assets1/css/fonts/urbanist.css" as="style" onload="this.rel='stylesheet'">
+  <script src="js/patient_login.js"></script>
+</head>
+
+<body>
+  <div class="content-wrapper">
+    <header class="wrapper">
+      <nav class="navbar navbar-expand-lg center-nav transparent navbar-light caret-none">
+        <div class="container flex-lg-row flex-nowrap align-items-center">
+          <div class="navbar-brand w-100">
+            <img style="width: 50px; height: 70px;"   src="./Images/logo.png"  data-cue="fadeIn" data-delay="300" alt="" />  
+              <img src="./Images/name2.png" data-cue="fadeIn" data-delay="300"  alt="" />
+          </div>
+          <div class="navbar-collapse offcanvas offcanvas-nav offcanvas-start">
+            <div class="offcanvas-header d-lg-none">
+              <h3 class="text-white fs-30 mb-0"></h3>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto d-flex flex-column h-100">
+              <ul class="navbar-nav">
+                <li class="nav-item dropdown dropdown-mega">
+                  <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown"></a>
+                 
+                  <!--/.dropdown-menu -->
+                </li>
+               
+              
+              </ul>
+              <!-- /.navbar-nav -->
+             
+            </div>
+            <!-- /.offcanvas-body -->
+          </div>
+             <!-- /.navbar-collapse -->
+          <div class="navbar-other w-100 d-flex ms-auto">
+            <ul class="navbar-nav flex-row align-items-center ms-auto">
+              <li class="nav-item d-none d-md-block">
+                <a href="https://peearz.com/portal/pharma.html" class="btn btn-sm btn-primary rounded" data-bs-toggle="modal" data-bs-target="https://rentalmanagers.app/portal/signup.html">Sign Up</a>
+              </li>
+              <li class="nav-item d-lg-none">
+                <!-- <button class="hamburger offcanvas-nav-btn"><span></span></button> -->
+              </li>
+            </ul>
+            <!-- /.navbar-nav -->
+          </div>
+          <!-- /.navbar-collapse -->
+         
+          <!-- /.navbar-other -->
+        </div>
+        <!-- /.container -->
+      </nav>
+      <!-- /.navbar -->
+    </header>
+    <!-- /header -->
+    <section class="wrapper bg-light">
+      <div class="container-card">
+        <div class="card image-wrapper bg-full bg-image bg-overlay bg-overlay-light-500 mt-2 mb-5" data-image-src="./assets1/img/photos/bg22.png">
+          
+          <div class="card-body py-15 px-0">
+            
+            <div class="container">
+              
+              <div class="row gx-md-8 gx-xl-13 gy-10 align-items-center text-center text-lg-start">
+                <!-- <div class="col-lg-1" data-cues="slideInDown" data-delay="900"></div>
+                  
+                </div> -->
+
+                <div class="col-lg-6" data-cues="slideInDown" data-group="page-title" data-delay="900">
+                  
+                  <p class="lead fs-23 lh-sm mb-7 pe-xxl-15"></p>
+                  <h1 class="display-2 mb-4 me-xl-5 me-xxl-0" style=" font-size: 60px;">JOIN   
+                    <span class="text-gradient gradient-1">OUR WAITLIST</span> </h1>
+                  <p class="lead fs-23 lh-sm mb-7 pe-xxl-15">"Empowering you to take control of your Health Data".</p>
+                  <!-- <div><a class="btn btn-green btn-icon btn-icon-start rounded">
+                    <i class=""></i> Google Play</a>
+                  </div> -->
+                  <form id="my-form">
+                    <input id="username" type="text" style="padding: 10px; border-radius: 20px; border: 2px solid #ccc; width: 50%; box-sizing: border-box;" placeholder="Name">
+                    <input id="userid" type="text" style="padding: 10px; border-radius: 20px; border: 2px solid #ccc; width: 50%; margin: 6px 0px 0px 0px; box-sizing: border-box;" placeholder="Email Address">
+                    <input id="contact_no" type="number" style="padding: 10px; border-radius: 20px; border: 2px solid #ccc; width: 50%; margin: 6px 0px 0px 0px; box-sizing: border-box;" placeholder="Phone Number">
+                    <!-- <button onclick="addWaitlist()"  style="background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 4px 2px; cursor: pointer; border-radius: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); transition: all 0.3s ease 0s;" onmouseover="this.style.background='#3e8e41';this.style.boxShadow='0px 15px 20px rgba(0, 0, 0, 0.3)';this.style.transform='translateY(-7px)';" onmouseout="this.style.background='#4CAF50';this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.1)';this.style.transform='translateY(0px)';">JOIN</button> -->
+                    <br><a style="background-color: #4CAF50; border: none; color: white; padding: 10px 20px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; margin: 15px 70px 0px 70px; cursor: pointer; border-radius: 20px; box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1); transition: all 0.3s ease 0s;" onmouseover="this.style.background='#3e8e41';this.style.boxShadow='0px 15px 20px rgba(0, 0, 0, 0.3)';this.style.transform='translateY(-7px)';" onmouseout="this.style.background='#4CAF50';this.style.boxShadow='0px 8px 15px rgba(0, 0, 0, 0.1)';this.style.transform='translateY(0px)';" onclick="addWaitlist()">JOIN<img style="width: 30px; height:30px;"   src="./Images/logo.png" alt="Image Description"></a>
+                  </form>
+                </div>
+                <!--/column -->
+                <div class="col-lg-6">
+                  <img class="img-fluid mb-n18" src="./Images/picture5.png" srcset="./assets1/img/illustrations/i5@2x.png 2x" data-cue="fadeIn" data-delay="300" alt="" />
+                </div>
+                <!--/column -->
+              </div>
+              <!-- /.row -->
+            </div>
+            <!-- /.container -->
+          </div>
+          <!--/.card-body -->
+        </div>
+        <!--/.card -->
+      </div>
+      <!-- /.container-card -->
+    </section>
+    
+  </div>
+  <!-- /.content-wrapper -->
+  <!-- /.content-wrapper -->
+  <footer class="bg-navy text-inverse">
+    
+
+    <!-- /.container -->
+   
+  <script src="./assets1/js/plugins.js"></script>
+  <script src="./assets1/js/theme.js"></script>
+</body>
+
+</html>

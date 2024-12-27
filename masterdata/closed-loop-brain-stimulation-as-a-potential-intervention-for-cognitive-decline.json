@@ -1,0 +1,355 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05907343",
+            "orgStudyIdInfo": {
+                "id": "STUDY00003055"
+            },
+            "organization": {
+                "fullName": "University of Texas at Austin",
+                "class": "OTHER"
+            },
+            "briefTitle": "Closed-Loop Brain Stimulation as a Potential Intervention for Cognitive Decline",
+            "officialTitle": "Closed-Loop Brain Stimulation as a Potential Intervention for Cognitive Decline",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "closed-loop-brain-stimulation-as-a-potential-intervention-for-cognitive-decline"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-31",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-07",
+            "studyFirstSubmitQcDate": "2023-06-07",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-06-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-07-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jose del R. Millan",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "University of Texas at Austin"
+            },
+            "leadSponsor": {
+                "name": "University of Texas at Austin",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical study is to investigate the effectiveness of non-invasive stimulation to enhance cognitive control abilities in cognitively healthy adults and older adults diagnosed with mild cognitive disorder (MCI). The main questions it aims to answer are:\n\n* whether it is possible to restore various cognitive functions in older adults diagnosed with MCI by delivering theta burst stimulation (TBS), a form of transcranial magnetic stimulation, and\n* whether closed-loop TBS is able to induce therapeutic benefits that outperform open-loop TBS.\n\nParticipants play a cognitive video game while a brain-computer interface (BCI) analyzes their electroencephalogram (EEG) signals and decodes the presence or absence of the contingent negative variation (CNV) potential, a marker of cognitive control. The BCI triggers TBS when its outputs indicate that the participant is not engaged properly in the video game.\n\nResearchers will compare the effects of sham, closed-loop, and open-loop TBS using the outcome metrics described below to see how much cognitive restorations is achievable with each stimulation modality."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Mild Cognitive Impairment"
+            ],
+            "keywords": [
+                "MCI",
+                "Older adults",
+                "Cognitive control",
+                "Memory impairment"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 180,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Sham TBS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Device: Sham TBS"
+                    ]
+                },
+                {
+                    "label": "Closed-Loop TBS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Device: Closed-loop TBS"
+                    ]
+                },
+                {
+                    "label": "Open-Loop TBS",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Device: Open-loop TBS"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Sham TBS",
+                    "description": "A BCI records and analyzes the participant's EEG as they perform cognitively demanding video game tasks. The BCI delivers TBS with a sham coil when its output indicates that the participant is not properly engaged in the video game.",
+                    "armGroupLabels": [
+                        "Sham TBS"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Closed-loop TBS",
+                    "description": "A BCI records and analyzes the participant's EEG as they perform cognitively demanding video game tasks. The BCI delivers TBS with a real coil when its output indicates that the participant is not properly engaged in the video game.",
+                    "armGroupLabels": [
+                        "Closed-Loop TBS"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Open-loop TBS",
+                    "description": "A BCI records and analyzes the participant's EEG as they perform cognitively demanding video game tasks. TBS with the real coil is delivered irrelevant of the BCI decoder output.",
+                    "armGroupLabels": [
+                        "Open-Loop TBS"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Behavioral performance of the video game task",
+                    "description": "The behavioral performance, pressing or not pressing a button, reflects the level of cognitive control performance of the subjects. It measures whether the participants made a correct decision, and their response time, in a given trial.",
+                    "timeFrame": "Up to 1 hour after intervention"
+                },
+                {
+                    "measure": "Accuracy of the BCI classifier output",
+                    "description": "The BCI classifier output reflects the presence or absence of the cognitive EEG patterns elicited during the cognitive videogame tasks. For each participant, the BCI outputs will be compared to their behavioral responses (pressing or not pressing a button).",
+                    "timeFrame": "Up to 1 hour after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment I: Montreal Cognitive Assessment",
+                    "description": "Telephone version, Score range: 0 - 22\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment II: Hopkins Adult Reading Test",
+                    "description": "Score range: 70 - 131\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment III: Multilingual Naming Test",
+                    "description": "Score range: 0 - 32\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment IV: Animal Naming",
+                    "description": "Score range: 0 - 40\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment V: Number Span",
+                    "description": "* Forward, Score range: 0 - 14\\* (Units on a Scale)\n* Backward, Score range: 0 - 14\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment VI: Trail Making Test",
+                    "description": "Parts A and B, Score range: 10 - 300\\*\\* (Units on a Scale)\n\n(\\*\\* high scores = worse)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment VII: Southwestern Assessment of Processing Speed",
+                    "description": "Score range: 0 - 75\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment VIII: Hopkins Verbal Learning Test-Revised",
+                    "description": "* Immediate Total, Score range: 0 - 36\\* (Units on a Scale)\n* Delayed Recall, Score range:0 - 12\\* (Units on a Scale)\n* Percent Retention, Score range:0 - 100\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment IX: Brief Visuospatial Memory Test-Revised",
+                    "description": "* Immediate Total, Score range: 0 - 36\\* (Units on a Scale)\n* Delayed Recall, Score range:0 - 12\\* (Units on a Scale)\n* Percent Retention, Score range:0 - 100\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment X: Controlled Oral Word Association Test",
+                    "description": "Score range: 0 - 80\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                },
+                {
+                    "measure": "Cognitive assessment XI: Stroop Color and Word Test",
+                    "description": "* Word, Score range: 0 - 140\\* (Units on a Scale)\n* Color, Score range:0 - 120\\* (Units on a Scale)\n* Color-Word, Score range:0 - 80\\* (Units on a Scale)\n\n(\\* high scores = better)",
+                    "timeFrame": "Up to 8 weeks after intervention"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Cognitively normal younger adults\n\n  1. Ages between 18 to 35 years\n  2. Good general health\n  3. Normal or corrected vision\n  4. Completed elementary school education or able to understand middle school level experiment instructions\n* Cognitively normal older adults\n\n  1. Ages between 60 to 90 years\n  2. Good general health\n  3. Normal or corrected vision\n  4. Completed elementary school education or able to understand middle school level experiment instructions\n  5. Score of 23 or higher on the Montreal Cognitive Assessment, a brief formal cognitive screening test, which is used to indicate absence of cognitive impairment\n* Older adults with mild cognitive impairment (MCI)\n\n  1. Ages between 60 to 90 years\n  2. Diagnosis of MCI according to the National Institute on Aging - Alzheimer's Association (NIA-AA) criteria\n  3. Good general health\n  4. Normal or corrected vision\n  5. Completed elementary school education or able to understand middle school level experiment instructions\n\nExclusion Criteria:\n\n1. Neurological or psychiatric diseases (e.g., personal history of epilepsy/seizure brain damage, multiple sclerosis, schizophrenia, substance use disorder, etc.).\n2. Current use of psychotropic medications with cognitive side effects (e.g., benzodiazepines, anticonvulsants, antipsychotics, etc.)\n3. Current use of cognitive enhancing medications (e.g., Adderall, Memantine, etc.)\n4. Factors hindering EEG acquisition and TMS delivery (e.g., skin infection, wounds, dermatitis, etc.)\n5. Factors hindering MRI acquisition (e.g., implants, metallic tattoos, etc.)",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "90 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jos\u00e9 del R. Mill\u00e1n, PhD",
+                    "role": "CONTACT",
+                    "phone": "512-232-8111",
+                    "email": "jose.millan@austin.utexas.edu"
+                },
+                {
+                    "name": "Minsu Zhang",
+                    "role": "CONTACT",
+                    "phone": "512-840-9310",
+                    "email": "minsuzhang@utexas.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jos\u00e9 del R. Mill\u00e1n, PhD",
+                    "affiliation": "University of Texas at Austin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Robin Hilsabeck, PhD, ABPP",
+                    "affiliation": "University of Texas at Austin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Health Discovery Building",
+                    "status": "RECRUITING",
+                    "city": "Austin",
+                    "state": "Texas",
+                    "zip": "78712",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patrick Escamilla",
+                            "role": "CONTACT",
+                            "phone": "512-495-5246",
+                            "email": "pescamilla@austin.utexas.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.26715,
+                        "lon": -97.74306
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "All anonymized data will be made available by the online publication date. These data will be placed in public servers for any interested researcher to access it.",
+            "timeFrame": "Data will become permanently available by the online publication date.",
+            "accessCriteria": "Any interested researcher will have access."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000060825",
+                    "term": "Cognitive Dysfunction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003072",
+                    "term": "Cognition Disorders"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29705",
+                    "name": "Cognitive Dysfunction",
+                    "asFound": "Cognitive Decline",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6301",
+                    "name": "Cognition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

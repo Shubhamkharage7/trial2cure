@@ -1,0 +1,423 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05943938",
+            "orgStudyIdInfo": {
+                "id": "STUDY00005958"
+            },
+            "organization": {
+                "fullName": "Emory University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Comparison of Sepsis Prediction Algorithms",
+            "officialTitle": "Prospective Evaluation of Sepsis Prediction Algorithms in a Multi-Hospital Healthcare System",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "comparison-of-sepsis-prediction-algorithms"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-05",
+            "studyFirstSubmitQcDate": "2023-07-05",
+            "studyFirstPostDateStruct": {
+                "date": "2023-07-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Siva Bhavani",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "Emory University"
+            },
+            "leadSponsor": {
+                "name": "Emory University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Sepsis is a severe response to infection resulting in organ dysfunction and often leading to death. More than 1.5 million people get sepsis every year in the U.S., and 270,000 Americans die from sepsis annually. Delays in the diagnosis of sepsis lead to increased mortality. Several clinical decision support algorithms exist for the early identification of sepsis. The research team will compare the performance of three sepsis prediction algorithms to identify the algorithm that is most accurate and clinically actionable. The algorithms will run in the background of the electronic health record (EHR) and the predictions will not be revealed to patients or clinical staff. In this current evaluation study, the algorithms will not affect any part of a patient's care. The algorithms will be deployed across the Emory healthcare system on data from all patients presenting to the emergency department.",
+            "detailedDescription": "The primary goal of this study is to prospectively evaluate three sepsis prediction algorithms that are embedded in the EHR. The models will be deployed in a \"shadow\" mode, and the results will not be displayed to the treatment team during this study. Two of the algorithms are proprietary algorithms of the EHR provider (Epic). The third algorithm is an internally developed, open-source algorithm.\n\nThe algorithms will compute the probability of sepsis at periodic intervals and will continue to run on a patient's data until the patient's discharge, death, or upon initiation of intravenous antibiotics (at which point there is an indirect record of clinical suspicion of an infection)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sepsis"
+            ],
+            "keywords": [
+                "Infection",
+                "Emergency Department",
+                "Algorithm",
+                "Prediction"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "ED Patients",
+                    "description": "All adult patients presenting to Emergency Departments (ED) in the Emory Healthcare system",
+                    "interventionNames": [
+                        "Other: Epic Sepsis Model Version - 1",
+                        "Other: Epic Sepsis Model Version - 2",
+                        "Other: Emory Sepsis Model"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Epic Sepsis Model Version - 1",
+                    "description": "The Epic Sepsis Model (ESM) version 1, a proprietary sepsis prediction model.",
+                    "armGroupLabels": [
+                        "ED Patients"
+                    ],
+                    "otherNames": [
+                        "Proprietary Epic sepsis algorithm -1"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Epic Sepsis Model Version - 2",
+                    "description": "The Epic Sepsis Model (ESM) version 2, a proprietary sepsis prediction model.",
+                    "armGroupLabels": [
+                        "ED Patients"
+                    ],
+                    "otherNames": [
+                        "Proprietary Epic sepsis algorithm -2"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Emory Sepsis Model",
+                    "description": "Emory internal algorithm",
+                    "armGroupLabels": [
+                        "ED Patients"
+                    ],
+                    "otherNames": [
+                        "Emory Sepsis Algorithm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Patient hospitalization-level area under curve (AUC) for identification of sepsis,",
+                    "description": "Definition of Sepsis using the Centers for Disease Control and Prevention (CDC) Adult Sepsis Surveillance.",
+                    "timeFrame": "Duration of hospital stay (until discharge or death), an expected average of 30 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Sensitivity, specificity, and Positive and Negative Predictive Value of algorithms",
+                    "description": "Sensitivity, specificity, positive predictive value (PPV), and negative predictive value (NPV).",
+                    "timeFrame": "Duration of hospital stay (until discharge or death), an expected average of 30 days"
+                },
+                {
+                    "measure": "Lead time to antibiotic administration",
+                    "description": "The time between the initial deployment of the alert in patients confirmed to have sepsis (ture positives) and the physician's ordering of intravenous antibiotic therapy.",
+                    "timeFrame": "Duration of hospital stay (until discharge or death), an expected average of 30 days"
+                },
+                {
+                    "measure": "Percent expected increase in unnecessary antibiotics",
+                    "description": "Percent of patients who were incorrectly identified as having sepsis (false positives), and received antibiotics.",
+                    "timeFrame": "Duration of hospital stay (until discharge or death), an expected average of 30 days"
+                },
+                {
+                    "measure": "Number needed to screen",
+                    "description": "The number of alerts that would need to be processed to find one true positive sepsis.",
+                    "timeFrame": "Duration of hospital stay (or death), an expected average of 30 days"
+                },
+                {
+                    "measure": "Number of Total and false alert burden",
+                    "description": "The number of Total and false alert burden cumulative across all study patients over the study period",
+                    "timeFrame": "Duration of hospital stay (until discharge or death), an expected average of 30 days"
+                },
+                {
+                    "measure": "Time-horizon based AUCs",
+                    "description": "AUCs will be calculated at 3 pre-specified time horizons.",
+                    "timeFrame": "4 hours, 8 hours, and 24 hours"
+                },
+                {
+                    "measure": "Accuracy and calibration by subgroup",
+                    "description": "The AUC and calibration curves will be compared by sex and race to ensure predictive accuracy is equal across subgroups.",
+                    "timeFrame": "Duration of hospital stay (until discharge or death), an expected average of 30 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All adult patients admitted through the ED\n\nExclusion Criteria:\n\n* None",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "All adult patients admitted through the ED from the time they arrive at the hospital until discharge, death, or initiation of intravenous antibiotics.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sivasubramanium Bhavani, MD",
+                    "role": "CONTACT",
+                    "phone": "404-712-2970",
+                    "email": "sivasubramanium.bhavani@emory.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Sivasubramanium Bhavani, MD",
+                    "affiliation": "Emory University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Emory Midtown Hospital",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30308",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sivasubramanium Bhavani, MD",
+                            "role": "CONTACT",
+                            "phone": "404-501-1000",
+                            "email": "sivasubramanium.bhavani@emory.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Saint Joseph's Hospital",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30308",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Healthcare System",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30322",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Hospital",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30322",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Decatur Hospital",
+                    "city": "Decatur",
+                    "state": "Georgia",
+                    "zip": "30033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sivasubramanium Bhavani, MD",
+                            "role": "CONTACT",
+                            "phone": "404-712-2970",
+                            "email": "sivasubramanium.bhavani@emory.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.77483,
+                        "lon": -84.29631
+                    }
+                },
+                {
+                    "facility": "Emory Johns Creek Hospital",
+                    "city": "Johns Creek",
+                    "state": "Georgia",
+                    "zip": "30097",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.02893,
+                        "lon": -84.19858
+                    }
+                },
+                {
+                    "facility": "Emory Hillandale Hospital",
+                    "city": "Lithonia",
+                    "state": "Georgia",
+                    "zip": "30058",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sivasubramanium Bhavani, MD",
+                            "role": "CONTACT",
+                            "phone": "404-501-8000",
+                            "email": "sivasubramanium.bhavani@emory.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.71233,
+                        "lon": -84.10519
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The investigators will share individual participant data that underlie the results reported in an article, after deidentification (text, tables, figures, and appendices).",
+            "infoTypes": [
+                "STUDY_PROTOCOL"
+            ],
+            "timeFrame": "Data will be shared beginning 6 months after publication, without a specified end date.",
+            "accessCriteria": "To gain access, data requestors will need to sign a data access agreement."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018805",
+                    "term": "Sepsis"
+                },
+                {
+                    "id": "D000014115",
+                    "term": "Toxemia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000018746",
+                    "term": "Systemic Inflammatory Response Syndrome"
+                },
+                {
+                    "id": "D000007249",
+                    "term": "Inflammation"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7796",
+                    "name": "Emergencies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20818",
+                    "name": "Systemic Inflammatory Response Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

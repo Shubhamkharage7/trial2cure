@@ -1,0 +1,271 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05782283",
+            "orgStudyIdInfo": {
+                "id": "22-009726"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "A Study to Detect Advanced Liver Disease Via AI-enabled Electrocardiogram",
+            "officialTitle": "Early Detection of Advanced Liver Disease Via Artificial Intelligence-Enabled Electrocardiogram (Advance): A Pragmatic, Cluster-Randomized Clinical Trial",
+            "acronym": "ADVANCE",
+            "therapeuticArea": [
+                "Hepatology"
+            ],
+            "study": "a-study-to-detect-advanced-liver-disease-via-ai-enabled-electrocardiogram"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-04-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-02-08",
+            "studyFirstSubmitQcDate": "2023-03-12",
+            "studyFirstPostDateStruct": {
+                "date": "2023-03-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Douglas (Doug) A. Simonetto",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The overall objectives of this study are to determine the effectiveness of ACE 2.0 model in early detection of advanced liver fibrosis, and to determine the acceptance and barriers for use of an AI-enabled algorithm for prediction of liver disease in primary care.",
+            "detailedDescription": "A pragmatic, cluster randomized trial in 45 Mayo Clinic primary care practices will be conducted over a period of 6 months with 6 months of follow up. Care teams will be randomized 1:1 to intervention or usual care, stratified by region and patient volume. In the intervention arm, the DULCE score will be used to alert consenting providers to the likelihood of advanced liver disease with a recommendation for a FibroTest-ActiTest. The primary endpoint will be detection of advanced liver disease. Secondary outcomes will include completion of noninvasive fibrosis assessment tests and hepatology referral within 180 days of ECG, new diagnosis of liver disease stratified by etiology (nonalcoholic fatty liver disease, alcohol-associated liver disease, hepatitis C, and others) and severity (compensated with and without clinically-significant portal hypertension, and decompensated disease), initiation of prophylactic nonselective beta-blockers and imaging for hepatocellular carcinoma surveillance, according to published society guidelines. Post-study surveys to participating clinicians will be applied."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cirrhosis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Usual Care Group",
+                    "type": "NO_INTERVENTION",
+                    "description": "Primary care providers will treat subject per standard of care"
+                },
+                {
+                    "label": "Electrocardiogram AI Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "The ACE (AI-Cirrhosis-ECG) 2.0 will be used to alert primary care providers to the likelihood of advanced liver disease with a recommendation for laboratory tests.",
+                    "interventionNames": [
+                        "Device: ACE (AI-Cirrhosis-ECG) 2.0"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "ACE (AI-Cirrhosis-ECG) 2.0",
+                    "description": "An electrocardiogram (ECG) based artificial intelligence (AI) powered tool for detection of undiagnosed cirrhosis in primary care practices. And email alert is sent to providers which will display whether the ACE 2.0 result is positive or negative for the likelihood of advanced liver disease.",
+                    "armGroupLabels": [
+                        "Electrocardiogram AI Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "The primary objective of this pragmatic trial is to validate a deep learning-based artificial intelligence (AI) model for early detection of cirrhosis-associated signals on digitized ECG.",
+                    "description": "Number of participants with new diagnosis of advanced liver disease as assessed by a novel electrocardiogram-enabled convoluted neural network (CNN) compared to standard of care at 6 months.",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "The secondary objective is to assess barriers for adoption of an AI-enabled algorithm for detection of liver disease in routine community clinical practice.",
+                    "description": "Number of participants to not complete the recommended testing according to the electrocardiogram-enabled CNN.",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Criteria:\n\nInclusion Criteria:\n\n* Primary care clinicians (physicians, nurse practitioners, and physician assistants).\n* Part of a team that cares for adult patients (\u226518 years).\n* Have the ability to order ECG.\n* Consent will be obtained from primary care clinicians.\n* Patients' data will be collected from electronic medical records (EMR).\n* Adult patients (\u2265 18 years) undergoing an ECG for any indication over a period of 6 months will be included.\n\nExclusion Criteria:\n\n* Patients with known cirrhosis based on noninvasive fibrosis assessment tests, liver biopsy or complications of decompensated disease, or with a documented history of cirrhosis identified by clinical notes.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Douglas Simonetto, MD",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic Minnesota",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Douglas Simonetto",
+                            "role": "CONTACT",
+                            "phone": "507-284-1649",
+                            "email": "dulcetrial@mayo.edu"
+                        },
+                        {
+                            "name": "Amy Olofson",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "asFound": "Liver Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11103",
+                    "name": "Liver Cirrhosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11110",
+                    "name": "Liver Extracts",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

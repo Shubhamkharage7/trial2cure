@@ -1,0 +1,455 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06083441",
+            "orgStudyIdInfo": {
+                "id": "IRB2019-00199"
+            },
+            "organization": {
+                "fullName": "Stony Brook University",
+                "class": "OTHER"
+            },
+            "briefTitle": "SeeMe: An Automated Tool to Detect Early Recovery After Brain Injury",
+            "officialTitle": "SeeMe: A Pilot Study Developing Predictive, Real-Time Consciousness Assessment Metrics Based on Facial Expression Changes",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "seeme-an-automated-tool-to-detect-early-recovery-after-brain-injury"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-06-16",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-04",
+            "studyFirstSubmitQcDate": "2023-10-10",
+            "studyFirstPostDateStruct": {
+                "date": "2023-10-16",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Sima Mofakham",
+                "investigatorTitle": "Assistant Professor and Director of Research",
+                "investigatorAffiliation": "Stony Brook University"
+            },
+            "leadSponsor": {
+                "name": "Stony Brook University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Early prediction of outcomes after acute brain injury (ABI) remains a major unsolved problem. Presently, physicians make predictions using clinical examination, traditional scoring systems, and statistical models. In this study, we will use a novel technique, \"SeeMe,\" to objectively assess the level of consciousness in patients suffering from comas following ABI. SeeMe is a program that quantifies total facial motion over time and compares the response after a spoken command (i.e. \"open your eyes\") to a pre-stimulus baseline.",
+            "detailedDescription": "Acute brain injury (ABI) recovers at a variable rate. While some progress has been made in predicting long-term outcomes in traumatic brain injury (TBI) and intracranial hemorrhage, there is a critical need for short-term prediction of outcomes, in the first days and weeks after injury. With advances in machine learning and artificial intelligence, there is a growing interest in facial analysis and its application in neurological and psychiatric disorders. Here we describe \"SeeMe,\" a novel automated objective measure of consciousness based on microexpression analyses in response to auditory commands. In measuring the smallest muscular movements undetectable by clinical observation, this technique has the high spatial resolution needed to detect hidden signs of recovery and the high temporal resolution needed to study neural circuits."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Disorder of Consciousness",
+                "Consciousness, Loss of",
+                "Trauma, Brain",
+                "Traumatic Brain Injury",
+                "Acute Brain Injury"
+            ],
+            "keywords": [
+                "Consciousness",
+                "Acute brain injury",
+                "Consciousness Recovery",
+                "Consciousness Measurement",
+                "Facial Motion Analysis",
+                "Microscopic movements",
+                "Traumatic Brain Injury"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Acute Brain Injury (ABI)",
+                    "description": "Patients that have suffered an ABI resulting in Coma (Glasgow Coma Scale (GCS) \\< 9) will undergo SeeMe and CRS-R assessment once a day until hospital discharge",
+                    "interventionNames": [
+                        "Diagnostic Test: SeeMe",
+                        "Diagnostic Test: Coma Recovery Scale-Revised (CRS-R)"
+                    ]
+                },
+                {
+                    "label": "Control",
+                    "description": "Healthy subjects will undergo SeeMe and CRS-R assessment once.",
+                    "interventionNames": [
+                        "Diagnostic Test: SeeMe",
+                        "Diagnostic Test: Coma Recovery Scale-Revised (CRS-R)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "SeeMe",
+                    "description": "A video-recorded SeeMe command following assessment by a trained professional once a day Each session involves three command sets that are played from an audio recording 10 times over the course of 8 minutes. These commands are \"Stick out your tongue\", \"Open your eyes\", and \"Show me a smile\" Each command set is recorded separately for a total of 3 videos per session. These videos are then analyzed by SeeMe to detect if subjects are responding to commands.",
+                    "armGroupLabels": [
+                        "Acute Brain Injury (ABI)",
+                        "Control"
+                    ],
+                    "otherNames": [
+                        "SeeMe session"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Coma Recovery Scale-Revised (CRS-R)",
+                    "description": "A video-recorded CRS-R score assessment by a trained professional once a day. A score of 10 or greater, an auditory score \\>2, or an arousal score \\> 0 means that a subject is responding to commands",
+                    "armGroupLabels": [
+                        "Acute Brain Injury (ABI)",
+                        "Control"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Detection of Command Following",
+                    "description": "Length of time until an intervention is able to detect that a subject is following commands",
+                    "timeFrame": "Measured Daily from enrollment until subject is following commands or date of death of any cause, whichever comes first, up to 60 days."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years old or older\n* Healthy Volunteers\n* Comatose patients (patients with a GCS \\< 9) due to an acute brain injury (traumatic brain injury, spontaneous subarachnoid hemorrhage, severe meningoencephalitis, etc.)\n\nExclusion Criteria:\n\n* A history of a neurologically debilitating disease (i.e., dementia, glioblastoma, Alzheimer's, multiple sclerosis, major vessel stroke, previous severe TBI, etc.)\n* Any other medical condition that, in the judgment of the investigator, makes participation in the study unsafe.\n* Pregnant subjects\n* Comatose patients without a legal authorized representative (LAR)\n* Prisoners or wards of the state\n* Persons who have not attained the legal age for consent to treatments or procedures",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Healthy volunteers: Adults 18-85 years old with no history of a neurologically debilitating disease (i.e., dementia, glioblastoma, Alzheimer's, multiple sclerosis, major vessel stroke, previous severe TBI, etc.) that are recruited via flyer and word of mouth\n\nPatients in a coma: Adults 18-85 years old with no history of a neurologically debilitating disease that are comatose (GCS \\< 9) due to an acute brain injury. Patients in a comatose state will be identified during neurosurgical consultation in the hospital by the study physicians",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sima Mofakham, PhD",
+                    "role": "CONTACT",
+                    "phone": "631-444-1278",
+                    "email": "sima.mofakham@stonybrookmedicine.edu"
+                },
+                {
+                    "name": "Charles Mikell, MD",
+                    "role": "CONTACT",
+                    "phone": "631-444-7328",
+                    "email": "charles.mikell@stonybrookmedicine.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Sima Mofakham, PhD",
+                    "affiliation": "Stony Brook Medicine",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stony Brook University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Stony Brook",
+                    "state": "New York",
+                    "zip": "11794",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sima Mofakham, PhD",
+                            "role": "CONTACT",
+                            "phone": "631-444-7328",
+                            "email": "sima.mofakham@stonybrookmedicine.edu"
+                        },
+                        {
+                            "name": "Charles Mikell, MD",
+                            "role": "CONTACT",
+                            "phone": "631-444-7328",
+                            "email": "charles.mikell@stonybrookmedicine.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.92565,
+                        "lon": -73.14094
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "20729164",
+                    "type": "BACKGROUND",
+                    "citation": "Cheng F, Yu J, Xiong H. Facial expression recognition in JAFFE dataset based on Gaussian process classification. IEEE Trans Neural Netw. 2010 Oct;21(10):1685-90. doi: 10.1109/TNN.2010.2064176. Epub 2010 Aug 19."
+                },
+                {
+                    "pmid": "31888182",
+                    "type": "BACKGROUND",
+                    "citation": "Zhao Y, Xu J. A Convolutional Neural Network for Compound Micro-Expression Recognition. Sensors (Basel). 2019 Dec 16;19(24):5553. doi: 10.3390/s19245553."
+                },
+                {
+                    "pmid": "21926026",
+                    "type": "BACKGROUND",
+                    "citation": "Valstar MF, Pantic M. Fully automatic recognition of the temporal phases of facial actions. IEEE Trans Syst Man Cybern B Cybern. 2012 Feb;42(1):28-43. doi: 10.1109/TSMCB.2011.2163710. Epub 2011 Sep 15."
+                },
+                {
+                    "pmid": "30508782",
+                    "type": "BACKGROUND",
+                    "citation": "Chouinard B, Scott K, Cusack R. Using automatic face analysis to score infant behaviour from video collected online. Infant Behav Dev. 2019 Feb;54:1-12. doi: 10.1016/j.infbeh.2018.11.004. Epub 2018 Nov 30."
+                },
+                {
+                    "pmid": "36897921",
+                    "type": "BACKGROUND",
+                    "citation": "Saadon JR, Yang F, Burgert R, Mohammad S, Gammel T, Sepe M, Rafailovich M, Mikell CB, Polak P, Mofakham S. Real-time emotion detection by quantitative facial motion analysis. PLoS One. 2023 Mar 10;18(3):e0282730. doi: 10.1371/journal.pone.0282730. eCollection 2023."
+                },
+                {
+                    "pmid": "16350986",
+                    "type": "BACKGROUND",
+                    "citation": "Kalmar K, Giacino JT. The JFK Coma Recovery Scale--Revised. Neuropsychol Rehabil. 2005 Jul-Sep;15(3-4):454-60. doi: 10.1080/09602010443000425."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001930",
+                    "term": "Brain Injuries"
+                },
+                {
+                    "id": "D000070642",
+                    "term": "Brain Injuries, Traumatic"
+                },
+                {
+                    "id": "D000003244",
+                    "term": "Consciousness Disorders"
+                },
+                {
+                    "id": "D000014474",
+                    "term": "Unconsciousness"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000006259",
+                    "term": "Craniocerebral Trauma"
+                },
+                {
+                    "id": "D000020196",
+                    "term": "Trauma, Nervous System"
+                },
+                {
+                    "id": "D000019954",
+                    "term": "Neurobehavioral Manifestations"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "asFound": "Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6468",
+                    "name": "Consciousness Disorders",
+                    "asFound": "Disorders of Consciousness",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5207",
+                    "name": "Brain Injuries",
+                    "asFound": "Brain Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M628",
+                    "name": "Brain Injuries, Traumatic",
+                    "asFound": "Traumatic Brain Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21089",
+                    "name": "Facies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17224",
+                    "name": "Unconsciousness",
+                    "asFound": "Consciousness, Loss of",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9349",
+                    "name": "Craniocerebral Trauma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22023",
+                    "name": "Trauma, Nervous System",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21826",
+                    "name": "Neurobehavioral Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11767",
+                    "name": "Metronidazole",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

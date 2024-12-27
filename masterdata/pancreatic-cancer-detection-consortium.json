@@ -1,0 +1,809 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06388967",
+            "orgStudyIdInfo": {
+                "id": "19288/PCDC"
+            },
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Pancreatic Cancer Detection Consortium",
+            "officialTitle": "Early Detection of Pancreatic Cancer: Prospective Study",
+            "acronym": "PCDC",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "pancreatic-cancer-detection-consortium"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-11-21",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-11-21",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-19",
+            "studyFirstSubmitQcDate": "2024-04-24",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-29",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study aims to prospective validate an exosome-based miRNA signature for noninvasive and early detection of pancreatic ductal adenocarcinoma.",
+            "detailedDescription": "Pancreatic ductal adenocarcinoma (PDAC) is one of the deadliest forms of cancer. It often goes undetected until it is at an advanced stage, making it challenging to treat. Currently, only a small percentage of patients are diagnosed early enough for effective treatment. While a blood marker exists, called serum carbohydrate antigen 19-9 (CA19-9), it is used primarily to track the disease and it is unreliable for early detection.\n\nTo address this problem, the researchers have developed a new method to analyze circulating vesicles (called exosomes), which contain specific genetic material called microRNAs (miRNAs). In a previous study, by analyzing both the miRNAs that circulate freely in serum and the miRNAs that are inside the exosomes, the researchers have already identified a combination of 13 miRNAs that could accurately detect early-stage PDAC.\n\nIn this study, the researchers will test this method in a larger international cohort study. This study aims to confirm the effectiveness of this approach in accurately identifying PDAC at its earliest stages."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pancreatic Cancer",
+                "Pancreatic Carcinoma",
+                "Pancreatic Adenocarcinoma",
+                "Pancreatic Ductal Adenocarcinoma",
+                "Pancreatic Neoplasms",
+                "Pancreatic Cancer Stage I",
+                "Pancreatic Cancer Stage",
+                "Pancreatic Cancer Resectable",
+                "Pancreatic Cancer Stage 0",
+                "Pancreatic Cancer Stage II",
+                "Pancreatic Cancer Stage III",
+                "Pancreatic Cancer, Adult",
+                "Pancreatic Cancer Non-resectable"
+            ],
+            "keywords": [
+                "Micro RNA",
+                "Exosome",
+                "Cell free",
+                "Early detection",
+                "Screening"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "Serum"
+            },
+            "enrollmentInfo": {
+                "count": 2000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Patients with Pancreatic Cancer Ductal Adenocarcinoma (Training)",
+                    "description": "Individuals diagnosed with pancreatic ductal adenocarcinoma",
+                    "interventionNames": [
+                        "Diagnostic Test: PANcreatic cancer Exosome Early detectiON (PANXEON)"
+                    ]
+                },
+                {
+                    "label": "Individuals without Pancreatic Cancer Ductal Adenocarcinoma (Training)",
+                    "description": "Individuals without pancreatic ductal adenocarcinoma",
+                    "interventionNames": [
+                        "Diagnostic Test: PANcreatic cancer Exosome Early detectiON (PANXEON)"
+                    ]
+                },
+                {
+                    "label": "Patients with Pancreatic Cancer Ductal Adenocarcinoma (Validation)",
+                    "description": "Individuals diagnosed with pancreatic ductal adenocarcinoma",
+                    "interventionNames": [
+                        "Diagnostic Test: PANcreatic cancer Exosome Early detectiON (PANXEON)"
+                    ]
+                },
+                {
+                    "label": "Individuals without Pancreatic Cancer Ductal Adenocarcinoma (Validation)",
+                    "description": "Individuals without pancreatic ductal adenocarcinoma",
+                    "interventionNames": [
+                        "Diagnostic Test: PANcreatic cancer Exosome Early detectiON (PANXEON)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "PANcreatic cancer Exosome Early detectiON (PANXEON)",
+                    "description": "This test will utilize quantitative reverse transcriptase polymerase chain reaction (qRT-PCR) to quantify the expression levels of 5 cell-free and 8 exosome-miRNAs in plasma samples obtained from patients with pancreatic ductal adenocarcinoma and from individuals without it",
+                    "armGroupLabels": [
+                        "Individuals without Pancreatic Cancer Ductal Adenocarcinoma (Training)",
+                        "Individuals without Pancreatic Cancer Ductal Adenocarcinoma (Validation)",
+                        "Patients with Pancreatic Cancer Ductal Adenocarcinoma (Training)",
+                        "Patients with Pancreatic Cancer Ductal Adenocarcinoma (Validation)"
+                    ],
+                    "otherNames": [
+                        "PANXEON (PANcreatic cancer Exosome Early detectiON)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity",
+                    "description": "True positive rate: the probability of a positive test result, conditioned on the individual truly being positive",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Specificity",
+                    "description": "True negative rate: the probability of a negative test result, conditioned on the individual truly being negative",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                },
+                {
+                    "measure": "Accuracy",
+                    "description": "A measure of trueness: proportion of correct predictions (both true positives and true negatives) among the total number of cases examined",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Histological diagnosis of pancreatic ductal adenocarcinoma, stages I-IV (TNM classification, 8th edition)\n* Received standard diagnostic and staging procedures as per local guidelines, and at least one sample was drawn before receiving any curative-intent treatment.\n* Imaging- or endoscopy-based proof of lack of pancreatic ductal adenocarcinoma at the time of sampling (Non-disease controls)\n\nExclusion Criteria:\n\n* Lack of written informed consent.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Independent cohorts of individuals with and without pancreatic cancer (cases and controls, respectively)",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "role": "CONTACT",
+                    "phone": "6262183452",
+                    "email": "AJGOEL@COH.ORG"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Translational Genomics Research Institute",
+                    "status": "RECRUITING",
+                    "city": "Phoenix",
+                    "state": "Arizona",
+                    "zip": "85004",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel Von Hoff",
+                            "role": "CONTACT",
+                            "email": "dvh@tgen.org"
+                        },
+                        {
+                            "name": "Daniel Von Hoff",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Haiyong Han",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Derek Cridebring",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.44838,
+                        "lon": -112.07404
+                    }
+                },
+                {
+                    "facility": "Honorhealth",
+                    "status": "RECRUITING",
+                    "city": "Scottsdale",
+                    "state": "Arizona",
+                    "zip": "85258",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Erkut Borazanci",
+                            "role": "CONTACT",
+                            "email": "erkut.borazanci@honorhealth.com"
+                        },
+                        {
+                            "name": "Erkut Borazanci",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.50921,
+                        "lon": -111.89903
+                    }
+                },
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Monrovia",
+                    "state": "California",
+                    "zip": "91016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-218-3452",
+                            "email": "AJGOEL@COH.ORG"
+                        },
+                        {
+                            "name": "Ajay Goel",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Stanley Hamilton",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Vincent Chung",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Caiming Xu",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Alessandro Mannucci",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.14806,
+                        "lon": -117.99895
+                    }
+                },
+                {
+                    "facility": "Hoag Center",
+                    "status": "RECRUITING",
+                    "city": "Newport Beach",
+                    "state": "California",
+                    "zip": "92663",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Demeure",
+                            "role": "CONTACT",
+                            "email": "michael.demeure@hoag.org"
+                        },
+                        {
+                            "name": "Michael Demeure",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.61891,
+                        "lon": -117.92895
+                    }
+                },
+                {
+                    "facility": "OSF HealthCare",
+                    "status": "RECRUITING",
+                    "city": "Peoria",
+                    "state": "Illinois",
+                    "zip": "61637",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Chandler Wilfong",
+                            "role": "CONTACT",
+                            "email": "chandler.d.wilfong@osfhealthcare.org"
+                        },
+                        {
+                            "name": "Chandler Wilfong",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.69365,
+                        "lon": -89.58899
+                    }
+                },
+                {
+                    "facility": "Ochsner Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Jefferson",
+                    "state": "Louisiana",
+                    "zip": "70121",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "John Bolton",
+                            "role": "CONTACT",
+                            "email": "jbolton@ochsner.org"
+                        },
+                        {
+                            "name": "John Bolton",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.96604,
+                        "lon": -90.15313
+                    }
+                },
+                {
+                    "facility": "Atlantic Health System",
+                    "status": "RECRUITING",
+                    "city": "Morristown",
+                    "state": "New Jersey",
+                    "zip": "07960",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Angela Alistar",
+                            "role": "CONTACT",
+                            "email": "angela.alistar@atlantichealth.org"
+                        },
+                        {
+                            "name": "Angela Alistar",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Eric Whitman",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.79677,
+                        "lon": -74.48154
+                    }
+                },
+                {
+                    "facility": "Piedmont Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Rock Hill",
+                    "state": "South Carolina",
+                    "zip": "29732",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrew Page",
+                            "role": "CONTACT",
+                            "email": "Andrew.Page@piedmont.org"
+                        },
+                        {
+                            "name": "Andrew Page",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Eyal Meiri",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.92487,
+                        "lon": -81.02508
+                    }
+                },
+                {
+                    "facility": "Medical College of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Milwaukee",
+                    "state": "Wisconsin",
+                    "zip": "53226",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Douglas Evans",
+                            "role": "CONTACT",
+                            "email": "devans@mcw.edu"
+                        },
+                        {
+                            "name": "Douglas Evans",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.0389,
+                        "lon": -87.90647
+                    }
+                },
+                {
+                    "facility": "Nagoya University",
+                    "status": "RECRUITING",
+                    "city": "Nagoya",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Yasuhiro Kodera",
+                            "role": "CONTACT",
+                            "email": "ykodera@med.nagoya-u.ac.jp"
+                        },
+                        {
+                            "name": "Yasuhiro Kodera",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Masamichi Hayashi",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.18147,
+                        "lon": 136.90641
+                    }
+                },
+                {
+                    "facility": "Asan Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Seoul",
+                    "country": "Korea, Republic of",
+                    "contacts": [
+                        {
+                            "name": "Song Cheol Kim",
+                            "role": "CONTACT",
+                            "email": "drksc@amc.seoul.kr"
+                        },
+                        {
+                            "name": "Song Cheol Kim",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.566,
+                        "lon": 126.9784
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "25207767",
+                    "type": "BACKGROUND",
+                    "citation": "Ryan DP, Hong TS, Bardeesy N. Pancreatic adenocarcinoma. N Engl J Med. 2014 Sep 11;371(11):1039-49. doi: 10.1056/NEJMra1404198. No abstract available."
+                },
+                {
+                    "pmid": "27158978",
+                    "type": "BACKGROUND",
+                    "citation": "Kleeff J, Korc M, Apte M, La Vecchia C, Johnson CD, Biankin AV, Neale RE, Tempero M, Tuveson DA, Hruban RH, Neoptolemos JP. Pancreatic cancer. Nat Rev Dis Primers. 2016 Apr 21;2:16022. doi: 10.1038/nrdp.2016.22."
+                },
+                {
+                    "pmid": "32593337",
+                    "type": "BACKGROUND",
+                    "citation": "Mizrahi JD, Surana R, Valle JW, Shroff RT. Pancreatic cancer. Lancet. 2020 Jun 27;395(10242):2008-2020. doi: 10.1016/S0140-6736(20)30974-0."
+                },
+                {
+                    "pmid": "33538338",
+                    "type": "BACKGROUND",
+                    "citation": "Sung H, Ferlay J, Siegel RL, Laversanne M, Soerjomataram I, Jemal A, Bray F. Global Cancer Statistics 2020: GLOBOCAN Estimates of Incidence and Mortality Worldwide for 36 Cancers in 185 Countries. CA Cancer J Clin. 2021 May;71(3):209-249. doi: 10.3322/caac.21660. Epub 2021 Feb 4."
+                },
+                {
+                    "pmid": "24840647",
+                    "type": "BACKGROUND",
+                    "citation": "Rahib L, Smith BD, Aizenberg R, Rosenzweig AB, Fleshman JM, Matrisian LM. Projecting cancer incidence and deaths to 2030: the unexpected burden of thyroid, liver, and pancreas cancers in the United States. Cancer Res. 2014 Jun 1;74(11):2913-21. doi: 10.1158/0008-5472.CAN-14-0155. Erratum In: Cancer Res. 2014 Jul 15;74(14):4006."
+                },
+                {
+                    "pmid": "21620466",
+                    "type": "BACKGROUND",
+                    "citation": "Vincent A, Herman J, Schulick R, Hruban RH, Goggins M. Pancreatic cancer. Lancet. 2011 Aug 13;378(9791):607-20. doi: 10.1016/S0140-6736(10)62307-0. Epub 2011 May 26."
+                },
+                {
+                    "pmid": "27265347",
+                    "type": "BACKGROUND",
+                    "citation": "Uesaka K, Boku N, Fukutomi A, Okamura Y, Konishi M, Matsumoto I, Kaneoka Y, Shimizu Y, Nakamori S, Sakamoto H, Morinaga S, Kainuma O, Imai K, Sata N, Hishinuma S, Ojima H, Yamaguchi R, Hirano S, Sudo T, Ohashi Y; JASPAC 01 Study Group. Adjuvant chemotherapy of S-1 versus gemcitabine for resected pancreatic cancer: a phase 3, open-label, randomised, non-inferiority trial (JASPAC 01). Lancet. 2016 Jul 16;388(10041):248-57. doi: 10.1016/S0140-6736(16)30583-9. Epub 2016 Jun 2."
+                },
+                {
+                    "pmid": "30575490",
+                    "type": "BACKGROUND",
+                    "citation": "Conroy T, Hammel P, Hebbar M, Ben Abdelghani M, Wei AC, Raoul JL, Chone L, Francois E, Artru P, Biagi JJ, Lecomte T, Assenat E, Faroux R, Ychou M, Volet J, Sauvanet A, Breysacher G, Di Fiore F, Cripps C, Kavan P, Texereau P, Bouhier-Leporrier K, Khemissa-Akouz F, Legoux JL, Juzyna B, Gourgou S, O'Callaghan CJ, Jouffroy-Zeller C, Rat P, Malka D, Castan F, Bachet JB; Canadian Cancer Trials Group and the Unicancer-GI-PRODIGE Group. FOLFIRINOX or Gemcitabine as Adjuvant Therapy for Pancreatic Cancer. N Engl J Med. 2018 Dec 20;379(25):2395-2406. doi: 10.1056/NEJMoa1809775."
+                },
+                {
+                    "pmid": "21561347",
+                    "type": "BACKGROUND",
+                    "citation": "Conroy T, Desseigne F, Ychou M, Bouche O, Guimbaud R, Becouarn Y, Adenis A, Raoul JL, Gourgou-Bourgade S, de la Fouchardiere C, Bennouna J, Bachet JB, Khemissa-Akouz F, Pere-Verge D, Delbaldo C, Assenat E, Chauffert B, Michel P, Montoto-Grillot C, Ducreux M; Groupe Tumeurs Digestives of Unicancer; PRODIGE Intergroup. FOLFIRINOX versus gemcitabine for metastatic pancreatic cancer. N Engl J Med. 2011 May 12;364(19):1817-25. doi: 10.1056/NEJMoa1011923."
+                },
+                {
+                    "pmid": "24131140",
+                    "type": "BACKGROUND",
+                    "citation": "Von Hoff DD, Ervin T, Arena FP, Chiorean EG, Infante J, Moore M, Seay T, Tjulandin SA, Ma WW, Saleh MN, Harris M, Reni M, Dowden S, Laheru D, Bahary N, Ramanathan RK, Tabernero J, Hidalgo M, Goldstein D, Van Cutsem E, Wei X, Iglesias J, Renschler MF. Increased survival in pancreatic cancer with nab-paclitaxel plus gemcitabine. N Engl J Med. 2013 Oct 31;369(18):1691-703. doi: 10.1056/NEJMoa1304369. Epub 2013 Oct 16."
+                },
+                {
+                    "pmid": "31157963",
+                    "type": "BACKGROUND",
+                    "citation": "Golan T, Hammel P, Reni M, Van Cutsem E, Macarulla T, Hall MJ, Park JO, Hochhauser D, Arnold D, Oh DY, Reinacher-Schick A, Tortora G, Algul H, O'Reilly EM, McGuinness D, Cui KY, Schlienger K, Locker GY, Kindler HL. Maintenance Olaparib for Germline BRCA-Mutated Metastatic Pancreatic Cancer. N Engl J Med. 2019 Jul 25;381(4):317-327. doi: 10.1056/NEJMoa1903387. Epub 2019 Jun 2."
+                },
+                {
+                    "pmid": "33333055",
+                    "type": "BACKGROUND",
+                    "citation": "Fahrmann JF, Schmidt CM, Mao X, Irajizad E, Loftus M, Zhang J, Patel N, Vykoukal J, Dennison JB, Long JP, Do KA, Zhang J, Chabot JA, Kluger MD, Kastrinos F, Brais L, Babic A, Jajoo K, Lee LS, Clancy TE, Ng K, Bullock A, Genkinger J, Yip-Schneider MT, Maitra A, Wolpin BM, Hanash S. Lead-Time Trajectory of CA19-9 as an Anchor Marker for Pancreatic Cancer Early Detection. Gastroenterology. 2021 Mar;160(4):1373-1383.e6. doi: 10.1053/j.gastro.2020.11.052. Epub 2020 Dec 14."
+                },
+                {
+                    "pmid": "33593879",
+                    "type": "BACKGROUND",
+                    "citation": "Majumder S, Taylor WR, Foote PH, Berger CK, Wu CW, Mahoney DW, Bamlet WR, Burger KN, Postier N, de la Fuente J, Doering KA, Lidgard GP, Allawi HT, Petersen GM, Chari ST, Ahlquist DA, Kisiel JB. High Detection Rates of Pancreatic Cancer Across Stages by Plasma Assay of Novel Methylated DNA Markers and CA19-9. Clin Cancer Res. 2021 May 1;27(9):2523-2532. doi: 10.1158/1078-0432.CCR-20-0235. Epub 2021 Feb 16."
+                },
+                {
+                    "pmid": "23456571",
+                    "type": "BACKGROUND",
+                    "citation": "Gui JC, Yan WL, Liu XD. CA19-9 and CA242 as tumor markers for the diagnosis of pancreatic cancer: a meta-analysis. Clin Exp Med. 2014 May;14(2):225-33. doi: 10.1007/s10238-013-0234-9. Epub 2013 Mar 3."
+                },
+                {
+                    "pmid": "3308077",
+                    "type": "BACKGROUND",
+                    "citation": "Tempero MA, Uchida E, Takasaki H, Burnett DA, Steplewski Z, Pour PM. Relationship of carbohydrate antigen 19-9 and Lewis antigens in pancreatic cancer. Cancer Res. 1987 Oct 15;47(20):5501-3."
+                },
+                {
+                    "pmid": "22729400",
+                    "type": "BACKGROUND",
+                    "citation": "Martin LK, Wei L, Trolli E, Bekaii-Saab T. Elevated baseline CA19-9 levels correlate with adverse prognosis in patients with early- or advanced-stage pancreas cancer. Med Oncol. 2012 Dec;29(5):3101-7. doi: 10.1007/s12032-012-0278-9. Epub 2012 Jun 24."
+                },
+                {
+                    "pmid": "28267695",
+                    "type": "BACKGROUND",
+                    "citation": "Luo G, Liu C, Guo M, Cheng H, Lu Y, Jin K, Liu L, Long J, Xu J, Lu R, Ni Q, Yu X. Potential Biomarkers in Lewis Negative Patients With Pancreatic Cancer. Ann Surg. 2017 Apr;265(4):800-805. doi: 10.1097/SLA.0000000000001741."
+                },
+                {
+                    "pmid": "35122035",
+                    "type": "BACKGROUND",
+                    "citation": "Cescon DW, Bratman SV, Chan SM, Siu LL. Circulating tumor DNA and liquid biopsy in oncology. Nat Cancer. 2020 Mar;1(3):276-290. doi: 10.1038/s43018-020-0043-5. Epub 2020 Mar 20."
+                },
+                {
+                    "pmid": "30796368",
+                    "type": "BACKGROUND",
+                    "citation": "Pantel K, Alix-Panabieres C. Liquid biopsy and minimal residual disease - latest advances and implications for cure. Nat Rev Clin Oncol. 2019 Jul;16(7):409-424. doi: 10.1038/s41571-019-0187-3."
+                },
+                {
+                    "pmid": "23836314",
+                    "type": "BACKGROUND",
+                    "citation": "Crowley E, Di Nicolantonio F, Loupakis F, Bardelli A. Liquid biopsy: monitoring cancer-genetics in the blood. Nat Rev Clin Oncol. 2013 Aug;10(8):472-84. doi: 10.1038/nrclinonc.2013.110. Epub 2013 Jul 9."
+                },
+                {
+                    "pmid": "32289272",
+                    "type": "BACKGROUND",
+                    "citation": "Kilgour E, Rothwell DG, Brady G, Dive C. Liquid Biopsy-Based Biomarkers of Treatment Response and Resistance. Cancer Cell. 2020 Apr 13;37(4):485-495. doi: 10.1016/j.ccell.2020.03.012."
+                },
+                {
+                    "pmid": "17473300",
+                    "type": "BACKGROUND",
+                    "citation": "Bloomston M, Frankel WL, Petrocca F, Volinia S, Alder H, Hagan JP, Liu CG, Bhatt D, Taccioli C, Croce CM. MicroRNA expression patterns to differentiate pancreatic adenocarcinoma from normal pancreas and chronic pancreatitis. JAMA. 2007 May 2;297(17):1901-8. doi: 10.1001/jama.297.17.1901."
+                },
+                {
+                    "pmid": "28606918",
+                    "type": "BACKGROUND",
+                    "citation": "Jin X, Chen Y, Chen H, Fei S, Chen D, Cai X, Liu L, Lin B, Su H, Zhao L, Su M, Pan H, Shen L, Xie D, Xie C. Evaluation of Tumor-Derived Exosomal miRNA as Potential Diagnostic Biomarkers for Early-Stage Non-Small Cell Lung Cancer Using Next-Generation Sequencing. Clin Cancer Res. 2017 Sep 1;23(17):5311-5319. doi: 10.1158/1078-0432.CCR-17-0577. Epub 2017 Jun 12."
+                },
+                {
+                    "pmid": "33548389",
+                    "type": "BACKGROUND",
+                    "citation": "Yu W, Hurley J, Roberts D, Chakrabortty SK, Enderle D, Noerholm M, Breakefield XO, Skog JK. Exosome-based liquid biopsies in cancer: opportunities and challenges. Ann Oncol. 2021 Apr;32(4):466-477. doi: 10.1016/j.annonc.2021.01.074. Epub 2021 Feb 4."
+                },
+                {
+                    "pmid": "29216356",
+                    "type": "BACKGROUND",
+                    "citation": "Krug AK, Enderle D, Karlovich C, Priewasser T, Bentink S, Spiel A, Brinkmann K, Emenegger J, Grimm DG, Castellanos-Rizaldos E, Goldman JW, Sequist LV, Soria JC, Camidge DR, Gadgeel SM, Wakelee HA, Raponi M, Noerholm M, Skog J. Improved EGFR mutation detection using combined exosomal RNA and circulating tumor DNA in NSCLC patient plasma. Ann Oncol. 2018 Mar 1;29(3):700-706. doi: 10.1093/annonc/mdx765."
+                },
+                {
+                    "pmid": "26681674",
+                    "type": "BACKGROUND",
+                    "citation": "San Lucas FA, Allenson K, Bernard V, Castillo J, Kim DU, Ellis K, Ehli EA, Davies GE, Petersen JL, Li D, Wolff R, Katz M, Varadhachary G, Wistuba I, Maitra A, Alvarez H. Minimally invasive genomic and transcriptomic profiling of visceral cancers by next-generation sequencing of circulating exosomes. Ann Oncol. 2016 Apr;27(4):635-41. doi: 10.1093/annonc/mdv604. Epub 2015 Dec 17."
+                },
+                {
+                    "pmid": "31546654",
+                    "type": "BACKGROUND",
+                    "citation": "Ingenito F, Roscigno G, Affinito A, Nuzzo S, Scognamiglio I, Quintavalle C, Condorelli G. The Role of Exo-miRNAs in Cancer: A Focus on Therapeutic and Diagnostic Applications. Int J Mol Sci. 2019 Sep 21;20(19):4687. doi: 10.3390/ijms20194687."
+                },
+                {
+                    "pmid": "29852194",
+                    "type": "RESULT",
+                    "citation": "Toiyama Y, Okugawa Y, Fleshman J, Richard Boland C, Goel A. MicroRNAs as potential liquid biopsy biomarkers in colorectal cancer: A systematic review. Biochim Biophys Acta Rev Cancer. 2018 Dec;1870(2):274-282. doi: 10.1016/j.bbcan.2018.05.006. Epub 2018 May 29."
+                },
+                {
+                    "pmid": "28143873",
+                    "type": "RESULT",
+                    "citation": "Shigeyasu K, Toden S, Zumwalt TJ, Okugawa Y, Goel A. Emerging Role of MicroRNAs as Liquid Biopsy Biomarkers in Gastrointestinal Cancers. Clin Cancer Res. 2017 May 15;23(10):2391-2399. doi: 10.1158/1078-0432.CCR-16-1676. Epub 2017 Jan 31."
+                },
+                {
+                    "pmid": "34132691",
+                    "type": "RESULT",
+                    "citation": "Nishiwada S, Cui Y, Sho M, Jun E, Akahori T, Nakamura K, Sonohara F, Yamada S, Fujii T, Han IW, Tsai S, Kodera Y, Park JO, Von Hoff D, Kim SC, Li W, Goel A. Transcriptomic Profiling Identifies an Exosomal microRNA Signature for Predicting Recurrence Following Surgery in Patients With Pancreatic Ductal Adenocarcinoma. Ann Surg. 2022 Dec 1;276(6):e876-e885. doi: 10.1097/SLA.0000000000004993. Epub 2021 Jun 16."
+                },
+                {
+                    "pmid": "35850192",
+                    "type": "RESULT",
+                    "citation": "Nakamura K, Zhu Z, Roy S, Jun E, Han H, Munoz RM, Nishiwada S, Sharma G, Cridebring D, Zenhausern F, Kim S, Roe DJ, Darabi S, Han IW, Evans DB, Yamada S, Demeure MJ, Becerra C, Celinski SA, Borazanci E, Tsai S, Kodera Y, Park JO, Bolton JS, Wang X, Kim SC, Von Hoff D, Goel A. An Exosome-based Transcriptomic Signature for Noninvasive, Early Detection of Patients With Pancreatic Ductal Adenocarcinoma: A Multicenter Cohort Study. Gastroenterology. 2022 Nov;163(5):1252-1266.e2. doi: 10.1053/j.gastro.2022.06.090. Epub 2022 Jul 16."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data collected for the study will be made available to others, including de-identified participant data, at publication, via a signed data access agreement and at the discretion of the investigators' approval of the proposed use of such data"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000010190",
+                    "term": "Pancreatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004701",
+                    "term": "Endocrine Gland Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000010182",
+                    "term": "Pancreatic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "asFound": "Adenocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13110",
+                    "name": "Pancreatic Neoplasms",
+                    "asFound": "Pancreatic Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7863",
+                    "name": "Endocrine Gland Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13102",
+                    "name": "Pancreatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4387",
+                    "name": "Pancreatic Cancer",
+                    "asFound": "Pancreatic Cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

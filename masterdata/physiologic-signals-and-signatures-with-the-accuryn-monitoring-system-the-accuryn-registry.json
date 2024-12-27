@@ -1,0 +1,596 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04669548",
+            "orgStudyIdInfo": {
+                "id": "CRD-06-101904"
+            },
+            "organization": {
+                "fullName": "Potrero Medical",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Physiologic Signals and Signatures With the Accuryn Monitoring System - The Accuryn Registry",
+            "officialTitle": "Physiologic Signals and Signatures With the Accuryn Monitoring System - A Retrospective and Prospective Analysis (The Accuryn Registry)",
+            "therapeuticArea": [
+                "Rare Diseases",
+                "Cardiovascular",
+                "Other",
+                "Nephrology and Renal Diseases"
+            ],
+            "study": "physiologic-signals-and-signatures-with-the-accuryn-monitoring-system-the-accuryn-registry"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-12-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-12-09",
+            "studyFirstSubmitQcDate": "2020-12-09",
+            "studyFirstPostDateStruct": {
+                "date": "2020-12-17",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-09-26",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-09-28",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Potrero Medical",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The Accuryn Registry Study is an open-ended, global, multi-center, retrospective and prospective, single-arm data collection study with an FDA cleared device. The target population are cardiovascular surgery patients. Physiologic data measurements will be collected from enrolled subjects using electronic medical records and data streams via the Accuryn Monitoring System.",
+            "detailedDescription": "The primary objective of the Accuryn Registry Study is to is to track and analyze changes in physiologic data streams using the Accuryn Monitoring System and correlate these changes to the occurrence of acute kidney injury (AKI) following cardiac surgical intervention(s).\n\nThe secondary objective is to determine the incidence of intraoperative and postoperative intra-abdominal hypertension in the cardiovascular surgery population, analyze what factors may contribute to the development of intra-abdominal hypertension (IAH) in this patient population, and analyze associations of IAH with organ dysfunctions such as acute kidney injury and other clinical outcomes (e.g. ICU length of stay, required hemodialysis, readmission)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Intraabdominal Hypertension",
+                "Abdominal Compartment Syndrome",
+                "Acute Kidney Injury",
+                "Cardiovascular Surgery"
+            ],
+            "keywords": [
+                "Acute Kidney Injury (AKI)",
+                "CABG",
+                "Cardiovascular Surgery",
+                "Intraabdominal Pressure (IAP)",
+                "Urine Output (UO)",
+                "Accuryn"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 2500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Accuryn Monitoring System",
+                    "description": "Observational only (no intervention). Patients undergoing cardiovascular surgical intervention(s) monitored with the Accuryn Monitoring System (per standard of care) during their hospital stay",
+                    "interventionNames": [
+                        "Device: Accuryn Monitoring System"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Accuryn Monitoring System",
+                    "description": "The Accuryn Monitoring System is a novel Foley catheter and monitoring device capable of detecting physiologic changes in vital signs via sensors within the catheter system. These data are captured non-invasively, continuously, and at a high frequency.",
+                    "armGroupLabels": [
+                        "Accuryn Monitoring System"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Urine Output (UO)",
+                    "description": "High accuracy Urine Output (mL/hour) while on a urinary catheter, and estimated UO while not on a urinary catheter",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "Intra-Abdominal Pressure (IAP)",
+                    "description": "Intra-Abdominal Pressure (mmHg) trending while on a urinary catheter, as well as active measurements taken by clinician clinician",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "Temperature (T)",
+                    "description": "Temperature (degrees Celsius) trending during hospital stay",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "Intraabdominal Hypertension (IAH)",
+                    "description": "Intra-abdominal pressure (IAP) above 12 mm Hg (timepoint and duration)",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "Abdominal Compartment Syndrome (ACS)",
+                    "description": "Intra-abdominal pressure (IAP) above 20 mm Hg with new organ dysfunction or failure (timepoint and duration)",
+                    "timeFrame": "30 days"
+                },
+                {
+                    "measure": "Acute Kidney Injury (AKI)",
+                    "description": "% of patients diagnosed with AKI, and hospitalization day of diagnosis. AKI diagnosed per KDIGO criteria (Stage 1 to 3)",
+                    "timeFrame": "30 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Signed or Verbal Informed Consent as required by IRB (if applicable).\n2. Adult (age \u2265 18).\n3. Monitored on the Accuryn\u00ae Monitoring System during their procedure and ICU stay (for retrospective enrollment).\n4. Patient is undergoing cardiac surgical intervention(s).\n\nExclusion Criteria:\n\n1. Known history of advanced chronic kidney disease defined by an estimated glomerular filtration rate (eGFR) \\<20 mL/min/1.73m2 within 30 days prior to procedure.\n2. The patient is unsuitable for the study, in the opinion of the investigator. This may include vulnerable patient populations such as pregnant women, prisoners ,or those detained in a penal institution.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients undergoing cardiovascular surgical intervention(s) who meet eligibility criteria and are monitored with the Accuryn Monitoring System throughout their procedure and intensive care unit (ICU) stay.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Bev Ann Blackwell",
+                    "role": "CONTACT",
+                    "phone": "256-679-5422",
+                    "email": "bblackwell@potreromed.com"
+                },
+                {
+                    "name": "Ariane Marcus",
+                    "role": "CONTACT",
+                    "phone": "888-635-7280",
+                    "email": "amarcus@potreromed.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Vanessa Moll, MD, PhD",
+                    "affiliation": "Potrero Medical",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cedars-Sinai Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90048",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "San Francisco VA Medical Center",
+                    "status": "TERMINATED",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94121",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                },
+                {
+                    "facility": "George Washington University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Washington",
+                    "state": "District of Columbia",
+                    "zip": "20037",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Gage Parr, MD",
+                            "role": "CONTACT",
+                            "phone": "202-715-4000",
+                            "email": "KPARR@mfa.gwu.edu"
+                        },
+                        {
+                            "name": "Gage Parr, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.89511,
+                        "lon": -77.03637
+                    }
+                },
+                {
+                    "facility": "Cleveland Clinic Florida",
+                    "status": "RECRUITING",
+                    "city": "Weston",
+                    "state": "Florida",
+                    "zip": "33331",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Steven Minear, MD",
+                            "role": "CONTACT",
+                            "phone": "954-290-1569",
+                            "email": "minears@ccf.org"
+                        },
+                        {
+                            "name": "Camila Teixeira, MD",
+                            "role": "CONTACT",
+                            "phone": "954-909-1025",
+                            "email": "decarvc@ccf.org"
+                        },
+                        {
+                            "name": "Steven Minear, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 26.10037,
+                        "lon": -80.39977
+                    }
+                },
+                {
+                    "facility": "Jewish Hospital / University of Louisville",
+                    "status": "RECRUITING",
+                    "city": "Louisville",
+                    "state": "Kentucky",
+                    "zip": "40202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Terry Blanton, BSN, RN",
+                            "role": "CONTACT",
+                            "phone": "502-587-4381",
+                            "email": "mary.blanton@louisville.edu"
+                        },
+                        {
+                            "name": "Shavonne Silvers, LPN",
+                            "role": "CONTACT",
+                            "phone": "5026815171",
+                            "email": "shavonne.silvers@louisville.edu"
+                        },
+                        {
+                            "name": "Jiapeng Huang, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.25424,
+                        "lon": -85.75941
+                    }
+                },
+                {
+                    "facility": "Mission Health Hospital",
+                    "status": "RECRUITING",
+                    "city": "Asheville",
+                    "state": "North Carolina",
+                    "zip": "28803",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Leslie McPeters, MSN, FNP",
+                            "role": "CONTACT",
+                            "phone": "828-213-5679",
+                            "email": "leslie.mcpeters@hcahealthcare.com"
+                        },
+                        {
+                            "name": "Lynne Hampton, MBA, RN",
+                            "role": "CONTACT",
+                            "phone": "828.213.5631",
+                            "email": "Lynne.Hampton@hcahealthcare.com"
+                        },
+                        {
+                            "name": "Mark Groh, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.60095,
+                        "lon": -82.55402
+                    }
+                },
+                {
+                    "facility": "Duke University Hospital",
+                    "status": "RECRUITING",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Madhav Swaminathan, MD",
+                            "role": "CONTACT",
+                            "phone": "919-681-6532",
+                            "email": "madhav.swaminathan@duke.edu"
+                        },
+                        {
+                            "name": "Madhav Swaminathan, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "Wake Forest Baptist Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Winston-Salem",
+                    "state": "North Carolina",
+                    "zip": "27157",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 36.09986,
+                        "lon": -80.24422
+                    }
+                },
+                {
+                    "facility": "Cleveland Clinic",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Kot, MD",
+                            "role": "CONTACT",
+                            "phone": "216-442-6616",
+                            "email": "kotm@ccf.org"
+                        },
+                        {
+                            "name": "Michael Kot, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "35695943",
+                    "type": "DERIVED",
+                    "citation": "Khanna AK, Minear S, Kurz A, Moll V, Stanton K, Essakalli L, Prabhakar A; Predict AKI Group. Intra-abdominal hypertension in cardiac surgery patients: a multicenter observational sub-study of the Accuryn registry. J Clin Monit Comput. 2023 Feb;37(1):189-199. doi: 10.1007/s10877-022-00878-2. Epub 2022 Jun 13."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003161",
+                    "term": "Compartment Syndromes"
+                },
+                {
+                    "id": "D000059325",
+                    "term": "Intra-Abdominal Hypertension"
+                },
+                {
+                    "id": "D000058186",
+                    "term": "Acute Kidney Injury"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000051437",
+                    "term": "Renal Insufficiency"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                },
+                {
+                    "id": "D000009135",
+                    "term": "Muscular Diseases"
+                },
+                {
+                    "id": "D000009140",
+                    "term": "Musculoskeletal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M28998",
+                    "name": "Acute Kidney Injury",
+                    "asFound": "Acute Kidney Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10024",
+                    "name": "Hypertension",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6388",
+                    "name": "Compartment Syndromes",
+                    "asFound": "Compartment Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M29429",
+                    "name": "Intra-Abdominal Hypertension",
+                    "asFound": "Intraabdominal Hypertension",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26718",
+                    "name": "Renal Insufficiency",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12092",
+                    "name": "Muscular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12097",
+                    "name": "Musculoskeletal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1430",
+                    "name": "Compartment Syndrome",
+                    "asFound": "Compartment Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

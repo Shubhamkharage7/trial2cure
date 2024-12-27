@@ -1,0 +1,660 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05863494",
+            "orgStudyIdInfo": {
+                "id": "STUDY00001896"
+            },
+            "organization": {
+                "fullName": "University of Arizona",
+                "class": "OTHER"
+            },
+            "briefTitle": "Transcranial Direct Current Stimulation and Chronic Pain",
+            "officialTitle": "Toward Personalized Treatment of Chronic Pain Using Transcranial Direct Current Stimulation Paired With Deep Learning",
+            "acronym": "tDCS",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "transcranial-direct-current-stimulation-and-chronic-pain"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-06-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2023-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-10",
+            "studyFirstSubmitQcDate": "2023-05-15",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-05-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-05-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Allison J Huff Macpherson",
+                "investigatorTitle": "Assistant Professor, Family and Community Medicine",
+                "investigatorAffiliation": "University of Arizona"
+            },
+            "leadSponsor": {
+                "name": "University of Arizona",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "ni20",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This clinical trial uses transcranial direct current stimulation (tDCS) using the patented tKIWI system to safely reduce self-reported chronic pain with little to no side effects to improve our understanding and ability to accurately diagnose pain disorders which would facilitate the development of pharmacologic and non-pharmacologic treatment modalities using deep learning architecture built into the tKIWI.",
+            "detailedDescription": "Pain is a severe and growing problem in the United States with more than 116 million Americans suffering from chronic pain and more than $635 billion is spent annually on pain and its related healthcare costs. Additionally, opioid addiction has become a national crisis with nearly 50,000 deaths every year as a result of opioid-involved overdoses and nearly $78.5 billion spent annually on opioid misuse and addiction. Currently available treatments for pain, namely opioid analgesics, have limited effectiveness and can lead to a significant number of side effects and complications including dependence, pharmacodynamic tolerance, sedation, gastrointestinal issues, respiratory depression, immunosuppression, and hormonal changes. Effectively treating pain requires an accurate assessment of pain, however current methods of diagnosing and evaluating pain depend on subjective self-reporting including the use of visual and numerical pain scales. The subjective nature of describing pain makes it virtually impossible to quantify and therefore difficult to treat and monitor. To overcome this subjectivity, through a non-invasive neuromodulation technique called transcranial direct current stimulation (tDCS) and deep learning, pain can be measured objectively using electroencephalograph (EEG) to assess and personalize treatment. The overarching goal of this project is to apply transcranial direct current stimulation (tDCS) as an alternative to opioids for the reduction in chronic pain. The investigator's long-term goal is to use these data to analyze EEG signals and generate personalized tDCS treatment in real time."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Chronic Pain"
+            ],
+            "keywords": [
+                "chronic pain",
+                "transcranial direct current stimulation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "The proposed study employs a randomized, double-blind, sham-controlled design to evaluate the effects of the tDCS using the tKIWI device on chronic pain. The participant will be randomly assigned to the treatment (tx) or sham/placebo group.\n\nUp to 40 participants will be recruited and randomly placed in either the treatment or the sham group. The randomization ratio is 1:1. Each participant has an equal chance of being assigned to each condition and each participant will be assigned to a condition independently of the other participants. The sample is small (20 each group), so in order to ensure random assignment, we will assign a unique number to every participant of the study's sample. Then, we will use a lottery method to randomly assign each number to the control or experimental group.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "maskingDescription": "Participants will be assigned a random unique number which will be randomly correlated with either treatment group or sham group. The participant will not have access to see in the redcap system which arm they are in. The sham group will receive 1 minute from 0.0mA to no more than 0.5mA at the initiation of the treatment after which the current will be turned off. This is to maintain a blind trial. 0.5mA is negligible current but mimics treatment with an initial small tingle. The investigator who is not involved in assigning groups will receive data with de-identification.",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 40,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Treatment",
+                    "type": "EXPERIMENTAL",
+                    "description": "For visits 1-5 (tDCS treatment visits), the investigators will start with 0.5mA ramping up to 0.75mA for 5 minutes. Followed by a brief (8 sec) EEG recording. Then, the investigators will apply .75mA to 1mA for 5 minutes. This will also be followed by 8 second EEG recording. The final application of current will be 1mA to 1.75mA for 10 minutes followed again by 8 second EEG recording.",
+                    "interventionNames": [
+                        "Device: Transcranial Direct Current Stimulation (tDCS)"
+                    ]
+                },
+                {
+                    "label": "Sham",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "For visits 1-5 (tDCS treatment visits),The sham group will receive 1 minute from 0.0mA to no more than 0.5mA at the initiation of the treatment after which the current will be turned off. They will still proceed with the full 20 minutes as does the treatment group but no current will be further applied as indicated in the treatment group. They will still receive EEG readings at the indicated 8 seconds after \"current\" is applied but will not receive the current. This is to maintain a blind trial. 0.5mA is negligible current but mimics treatment with an initial small tingle.",
+                    "interventionNames": [
+                        "Device: Transcranial Direct Current Stimulation (tDCS) sham"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Transcranial Direct Current Stimulation (tDCS)",
+                    "description": "TDCS is a non-invasive brain stimulation that uses electrical currents to stimulate specific areas of the brain. A constant, low-intensity current passes through two to four electrodes, which can be placed on various locations on the head, to modulate neuronal activity. tDCS can administer anodal and cathodal stimulation to excite (depolarization) or inhibit (hyperpolarization) neuronal activity, respectively. Using low-amplitude direct currents applied via scalp electrodes to alter cortical excitability is not a novel concept. This non-pharmacological approach has held promise for decades as a way to treat a plethora of neurological and psychiatric disorders. Although tDCS is not currently FDA-approved it is considered a non-significant-risk therapy with no record of serious adverse effects.",
+                    "armGroupLabels": [
+                        "Treatment"
+                    ],
+                    "otherNames": [
+                        "tKIWI",
+                        "ni2o"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Transcranial Direct Current Stimulation (tDCS) sham",
+                    "description": "TDCS is a non-invasive brain stimulation that uses electrical currents to stimulate specific areas of the brain. A constant, low-intensity current passes through two to four electrodes, which can be placed on various locations on the head, to modulate neuronal activity. tDCS can administer anodal and cathodal stimulation to excite (depolarization) or inhibit (hyperpolarization) neuronal activity, respectively. Using low-amplitude direct currents applied via scalp electrodes to alter cortical excitability is not a novel concept. This non-pharmacological approach has held promise for decades as a way to treat a plethora of neurological and psychiatric disorders.\n\nThe sham group will receive 1 minute from 0.0mA to no more than 0.5mA at the initiation of the treatment after which the current will be turned off. This is to maintain a blind trial. 0.5mA is negligible current, but mimics treatment with an initial small tingle.",
+                    "armGroupLabels": [
+                        "Sham"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Determine the impact of tDCS on pain in chronic pain participants using pain perception scale",
+                    "description": "The investigators will compare the baseline pain perception scale results of subjects in treatment and placebo arms to pain perception scales results on the final day of the treatment and again one week later, enabling investigators to determine any short-term change or durable change to pain. The scale is the Wong-Baker FACES\u00ae Pain Rating Scale \"Based on the visual representations and descriptions below, please rate your chronic pain on a scale from 1 (no pain) to 10 (worst possible pain).\" The measurement is done using the ranking of 1 to 10 in pain, adding up to the total of the response and the larger numbers indicate higher pain levels with no units.",
+                    "timeFrame": "14 months"
+                },
+                {
+                    "measure": "Determine the impact of tDCS on the self-reported reduction in opioid use, or the desire for opioid use.",
+                    "description": "The investigators will compare baseline opioid use and desire to use opioids to final visit in both treatment and sham arms. The measurement will be a comparison in the self-reported survey \"Medication for Pain Management Survey\". This survey has questions such as, \"My need for using opioid pain medication is less than before I participated in this study\", and \"My desire to use opioid pain medication is less than before I participated in this study\". These are answered using \"yes, no, or unknown\".",
+                    "timeFrame": "14 months"
+                },
+                {
+                    "measure": "Compare the safety of the tDCS system (tKIWI) versus placebo (sham) utilizing blood pressure",
+                    "description": "The investigators will achieve this aim by monitoring subjects' vitals during the entire session of each visit. The measurement is blood pressure (mmHg).",
+                    "timeFrame": "14 months"
+                },
+                {
+                    "measure": "Compare the safety of the tDCS system (tKIWI) versus placebo (sham) utilizing heart rate",
+                    "description": "The investigators will achieve this aim by monitoring subjects' vitals during the entire session of each visit. The measurement is heart rate (bpm).",
+                    "timeFrame": "14 months"
+                },
+                {
+                    "measure": "Compare the safety of the tDCS system (tKIWI) versus placebo (sham) utilizing heart rate",
+                    "description": "The investigators will achieve this aim by monitoring subjects' vitals during the entire session of each visit. The measurement is temperature (degrees C).",
+                    "timeFrame": "14 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Compare changes in brain waves during tDCS treatment sessions in the treatment (tDCS) and placebo (sham) arms.",
+                    "description": "This aim will be achieved by capturing EEG readings of the entire brain for subjects in each treatment arm at baseline, during the treatment phase, and at final study visit 1 week post treatment. The EEG showcases brain wave activity in microvolts (mV).",
+                    "timeFrame": "14 months"
+                },
+                {
+                    "measure": "Compare the tolerability of the tDCS system (tKIWI) versus placebo (sham)",
+                    "description": "We will achieve this aim by evaluating the results of a questionnaire after each treatment session and after the final study visit, enabling us to capture reported discomfort. The questions state \"Please report any side-effects as well as the intensity and persistence of reported side-effects you may have experienced during the application of transcranial direct current stimulation (tDCS).\", and evaluate if there is itching, tingling, burning, redness, and headaches. If there is a symptom then the participant will note the intensity as \"very, a little, or barely\"",
+                    "timeFrame": "14 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age: 18-79 years old\n* Gender: Any\n* Ethnicity: Any\n* Chronic pain (\\> 3-months); No current use of nonprescription opioids (\\< 1 month); Able and willing to comply with scheduled visits and other study-related procedures to complete the study; Willing and able to give informed consent.\n\nExclusion Criteria:\n\n* Diagnosis (as defined by DSM-IV) of: any psychotic disorder (lifetime); eating disorder (current or within the past year); obsessive compulsive disorder (lifetime)); mental retardation.\n* History of drug or alcohol abuse or dependence (as per DSM-IV criteria) within the last 3 months (except nicotine and caffeine).\n* Subject is on regular benzodiazepine medication which it is not clinically appropriate to discontinue.\n* Subject requires a rapid clinical response due to inanition, psychosis or high suicide risk.\n* Neurological disorder or insult, e.g., recent stroke (CVA), which places subject at risk of seizure or neuronal damage with tDCS.\n* Subject has metal in the cranium, skull defects, or skin lesions on scalp (cuts, abrasions, rash) at proposed electrode sites.\n* Female subject who is pregnant.\n* Participants who are not fluent in English will not be included in the trial for safety reasons: a) It is usually not possible to have an interpreter reliably available every weekday for up to 4 weeks and it is not safe to give tDCS to a subject who cannot tell us immediately of any side effects; Note that translation of the proposed ACT activity into English has not been validated and that we cannot be confident that they would be accurately translated and validated.\n* Minors\n* Older than 79 years old\n* last use \\>24 months\n* history of EEG or any electrical implant (i.e. pacemaker)\n* history of Parkinson's, diagnosis of bipolar, schizophrenia/schizo-affective d/o, OCD, epilepsy, alzheimers\n* taking antipsychotic drugs",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "79 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Allison J Huff, DHEd",
+                    "role": "CONTACT",
+                    "phone": "(520) 626-4839",
+                    "email": "allison7@arizona.edu"
+                },
+                {
+                    "name": "Leena Idris, BS",
+                    "role": "CONTACT",
+                    "phone": "(520) 2474415",
+                    "email": "idris1@arizona.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Allison J Huff, DHEd",
+                    "affiliation": "University of Arizona",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Arizona",
+                    "status": "RECRUITING",
+                    "city": "Tucson",
+                    "state": "Arizona",
+                    "zip": "85719",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Allison J Huff, DHEd",
+                            "role": "CONTACT",
+                            "phone": "520-626-4839",
+                            "email": "allison7@arizona.edu"
+                        },
+                        {
+                            "name": "Leena Idris, BS",
+                            "role": "CONTACT",
+                            "phone": "(520)247-4415",
+                            "email": "idris1@email.arizona.edu"
+                        },
+                        {
+                            "name": "Allison J Huff, DHed",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Todd Vanderah, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.22174,
+                        "lon": -110.92648
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "22553896",
+                    "type": "RESULT",
+                    "citation": "Institute of Medicine (US) Committee on Advancing Pain Research, Care, and Education. Relieving Pain in America: A Blueprint for Transforming Prevention, Care, Education, and Research. Washington (DC): National Academies Press (US); 2011. Available from http://www.ncbi.nlm.nih.gov/books/NBK91497/"
+                },
+                {
+                    "type": "RESULT",
+                    "citation": "National Institute on Drug Abuse. Overdose Death Rates. 29 Jan 2021 [cited 12 May 2021]. Available: https://www.drugabuse.gov/drug-topics/trends-statistics/overdose-death-rates"
+                },
+                {
+                    "pmid": "27623005",
+                    "type": "RESULT",
+                    "citation": "Florence CS, Zhou C, Luo F, Xu L. The Economic Burden of Prescription Opioid Overdose, Abuse, and Dependence in the United States, 2013. Med Care. 2016 Oct;54(10):901-6. doi: 10.1097/MLR.0000000000000625."
+                },
+                {
+                    "pmid": "31442197",
+                    "type": "RESULT",
+                    "citation": "Hedegaard H, Minino AM, Warner M. Urban-rural Differences in Drug Overdose Death Rates, by Sex, Age, and Type of Drugs Involved, 2017. NCHS Data Brief. 2019 Aug;(345):1-8."
+                },
+                {
+                    "pmid": "19302436",
+                    "type": "RESULT",
+                    "citation": "Porreca F, Ossipov MH. Nausea and vomiting side effects with opioid analgesics during treatment of chronic pain: mechanisms, implications, and management options. Pain Med. 2009 May-Jun;10(4):654-62. doi: 10.1111/j.1526-4637.2009.00583.x. Epub 2009 Mar 19."
+                },
+                {
+                    "pmid": "18443635",
+                    "type": "RESULT",
+                    "citation": "Benyamin R, Trescot AM, Datta S, Buenaventura R, Adlaka R, Sehgal N, Glaser SE, Vallejo R. Opioid complications and side effects. Pain Physician. 2008 Mar;11(2 Suppl):S105-20."
+                },
+                {
+                    "pmid": "26330672",
+                    "type": "RESULT",
+                    "citation": "Crofford LJ. Chronic Pain: Where the Body Meets the Brain. Trans Am Clin Climatol Assoc. 2015;126:167-83."
+                },
+                {
+                    "pmid": "31248061",
+                    "type": "RESULT",
+                    "citation": "Yang S, Chang MC. Chronic Pain: Structural and Functional Changes in Brain Structures and Associated Negative Affective States. Int J Mol Sci. 2019 Jun 26;20(13):3130. doi: 10.3390/ijms20133130."
+                },
+                {
+                    "pmid": "34290582",
+                    "type": "RESULT",
+                    "citation": "Kim D, Chae Y, Park HJ, Lee IS. Effects of Chronic Pain Treatment on Altered Functional and Metabolic Activities in the Brain: A Systematic Review and Meta-Analysis of Functional Neuroimaging Studies. Front Neurosci. 2021 Jul 5;15:684926. doi: 10.3389/fnins.2021.684926. eCollection 2021."
+                },
+                {
+                    "pmid": "18256259",
+                    "type": "RESULT",
+                    "citation": "Baliki MN, Geha PY, Apkarian AV, Chialvo DR. Beyond feeling: chronic pain hurts the brain, disrupting the default-mode network dynamics. J Neurosci. 2008 Feb 6;28(6):1398-403. doi: 10.1523/JNEUROSCI.4123-07.2008."
+                },
+                {
+                    "pmid": "10781919",
+                    "type": "RESULT",
+                    "citation": "de Williams AC, Davies HTO, Chadury Y. Simple pain rating scales hide complex idiosyncratic meanings. Pain. 2000 Apr;85(3):457-463. doi: 10.1016/S0304-3959(99)00299-7."
+                },
+                {
+                    "pmid": "14711132",
+                    "type": "RESULT",
+                    "citation": "McGovern MP, Carroll KM. Evidence-based practices for substance use disorders. Psychiatr Clin North Am. 2003 Dec;26(4):991-1010. doi: 10.1016/s0193-953x(03)00073-x."
+                },
+                {
+                    "type": "RESULT",
+                    "citation": "Reese ED, Kane LF, Paquette CE, Frohlich F, Daughters SB. Lost in Translation: the Gap Between Neurobiological Mechanisms and Psychosocial Treatment Research for Substance Use Disorders. Curr Addict Rep 2021;8(3):440-51 doi: 10.1007/s40429-021-00382-8[published Online First: Epub Date]|."
+                },
+                {
+                    "pmid": "26604867",
+                    "type": "RESULT",
+                    "citation": "van der Stel J. Precision in Addiction Care: Does It Make a Difference? Yale J Biol Med. 2015 Nov 24;88(4):415-22. eCollection 2015 Dec."
+                },
+                {
+                    "pmid": "11150345",
+                    "type": "RESULT",
+                    "citation": "Vanderah TW, Suenaga NM, Ossipov MH, Malan TP Jr, Lai J, Porreca F. Tonic descending facilitation from the rostral ventromedial medulla mediates opioid-induced abnormal pain and antinociceptive tolerance. J Neurosci. 2001 Jan 1;21(1):279-86. doi: 10.1523/JNEUROSCI.21-01-00279.2001."
+                },
+                {
+                    "pmid": "12151554",
+                    "type": "RESULT",
+                    "citation": "Gardell LR, Wang R, Burgess SE, Ossipov MH, Vanderah TW, Malan TP Jr, Lai J, Porreca F. Sustained morphine exposure induces a spinal dynorphin-dependent enhancement of excitatory transmitter release from primary afferent fibers. J Neurosci. 2002 Aug 1;22(15):6747-55. doi: 10.1523/JNEUROSCI.22-15-06747.2002."
+                },
+                {
+                    "pmid": "28390539",
+                    "type": "RESULT",
+                    "citation": "O'Connor P, Bisson J, Asplin P, Gahir D. Retrospective analysis of self-reporting pain scores and pain management during head and neck IMRT radiotherapy: A single institution experience. Radiography (Lond). 2017 May;23(2):103-106. doi: 10.1016/j.radi.2017.02.003. Epub 2017 Feb 21."
+                },
+                {
+                    "pmid": "10348007",
+                    "type": "RESULT",
+                    "citation": "Turk DC, Okifuji A. Assessment of patients' reporting of pain: an integrated perspective. Lancet. 1999 May 22;353(9166):1784-8. doi: 10.1016/S0140-6736(99)01309-4."
+                },
+                {
+                    "pmid": "17920770",
+                    "type": "RESULT",
+                    "citation": "Dworkin RH, O'Connor AB, Backonja M, Farrar JT, Finnerup NB, Jensen TS, Kalso EA, Loeser JD, Miaskowski C, Nurmikko TJ, Portenoy RK, Rice ASC, Stacey BR, Treede RD, Turk DC, Wallace MS. Pharmacologic management of neuropathic pain: evidence-based recommendations. Pain. 2007 Dec 5;132(3):237-251. doi: 10.1016/j.pain.2007.08.033. Epub 2007 Oct 24."
+                },
+                {
+                    "pmid": "22811639",
+                    "type": "RESULT",
+                    "citation": "Whitten CE, Donovan M, Cristobal K. Treating chronic pain: new knowledge, more choices. Perm J. 2005 Fall;9(4):9-18. doi: 10.7812/TPP/05-067. No abstract available."
+                },
+                {
+                    "pmid": "29952860",
+                    "type": "RESULT",
+                    "citation": "Pinto CB, Teixeira Costa B, Duarte D, Fregni F. Transcranial Direct Current Stimulation as a Therapeutic Tool for Chronic Pain. J ECT. 2018 Sep;34(3):e36-e50. doi: 10.1097/YCT.0000000000000518."
+                },
+                {
+                    "pmid": "19712899",
+                    "type": "RESULT",
+                    "citation": "Latremoliere A, Woolf CJ. Central sensitization: a generator of pain hypersensitivity by central neural plasticity. J Pain. 2009 Sep;10(9):895-926. doi: 10.1016/j.jpain.2009.06.012."
+                },
+                {
+                    "pmid": "20961685",
+                    "type": "RESULT",
+                    "citation": "Woolf CJ. Central sensitization: implications for the diagnosis and treatment of pain. Pain. 2011 Mar;152(3 Suppl):S2-S15. doi: 10.1016/j.pain.2010.09.030. Epub 2010 Oct 18."
+                },
+                {
+                    "pmid": "34425248",
+                    "type": "RESULT",
+                    "citation": "Mari T, Henderson J, Maden M, Nevitt S, Duarte R, Fallon N. Systematic Review of the Effectiveness of Machine Learning Algorithms for Classifying Pain Intensity, Phenotype or Treatment Outcomes Using Electroencephalogram Data. J Pain. 2022 Mar;23(3):349-369. doi: 10.1016/j.jpain.2021.07.011. Epub 2021 Aug 21."
+                },
+                {
+                    "pmid": "19348793",
+                    "type": "RESULT",
+                    "citation": "Nitsche MA, Boggio PS, Fregni F, Pascual-Leone A. Treatment of depression with transcranial direct current stimulation (tDCS): a review. Exp Neurol. 2009 Sep;219(1):14-9. doi: 10.1016/j.expneurol.2009.03.038. Epub 2009 Apr 5."
+                },
+                {
+                    "pmid": "32279145",
+                    "type": "RESULT",
+                    "citation": "Suen PJC, Doll S, Batistuzzo MC, Busatto G, Razza LB, Padberg F, Mezger E, Bulubas L, Keeser D, Deng ZD, Brunoni AR. Association between tDCS computational modeling and clinical outcomes in depression: data from the ELECT-TDCS trial. Eur Arch Psychiatry Clin Neurosci. 2021 Feb;271(1):101-110. doi: 10.1007/s00406-020-01127-w. Epub 2020 Apr 11."
+                },
+                {
+                    "type": "RESULT",
+                    "citation": "d'Urso G, dell'Osso B, Ferrucci R, Bortolomasi M, Bruzzese D, Giacopuzzi M, et al. P 255. Transcranial direct current stimulation (tDCS) for the treatment of major depression: A pooled analysis from the Italian tDCS collaborative group. Clinical Neurophysiology. 2013. p. e185. doi:10.1016/j.clinph.2013.04.330"
+                },
+                {
+                    "pmid": "16542193",
+                    "type": "RESULT",
+                    "citation": "Fregni F, Boggio PS, Nitsche MA, Marcolin MA, Rigonatti SP, Pascual-Leone A. Treatment of major depression with transcranial direct current stimulation. Bipolar Disord. 2006 Apr;8(2):203-4. doi: 10.1111/j.1399-5618.2006.00291.x. No abstract available."
+                },
+                {
+                    "pmid": "22236735",
+                    "type": "RESULT",
+                    "citation": "Kalu UG, Sexton CE, Loo CK, Ebmeier KP. Transcranial direct current stimulation in the treatment of major depression: a meta-analysis. Psychol Med. 2012 Sep;42(9):1791-800. doi: 10.1017/S0033291711003059. Epub 2012 Jan 12."
+                },
+                {
+                    "pmid": "28552295",
+                    "type": "RESULT",
+                    "citation": "Donde C, Amad A, Nieto I, Brunoni AR, Neufeld NH, Bellivier F, Poulet E, Geoffroy PA. Transcranial direct-current stimulation (tDCS) for bipolar depression: A systematic review and meta-analysis. Prog Neuropsychopharmacol Biol Psychiatry. 2017 Aug 1;78:123-131. doi: 10.1016/j.pnpbp.2017.05.021. Epub 2017 May 25."
+                },
+                {
+                    "pmid": "31944487",
+                    "type": "RESULT",
+                    "citation": "McClintock SM, Martin DM, Lisanby SH, Alonzo A, McDonald WM, Aaronson ST, Husain MM, O'Reardon JP, Weickert CS, Mohan A, Loo CK. Neurocognitive effects of transcranial direct current stimulation (tDCS) in unipolar and bipolar depression: Findings from an international randomized controlled trial. Depress Anxiety. 2020 Mar;37(3):261-272. doi: 10.1002/da.22988. Epub 2020 Jan 16."
+                },
+                {
+                    "pmid": "33129848",
+                    "type": "RESULT",
+                    "citation": "Garcia S, Nalven M, Ault A, Eskenazi MA. tDCS as a treatment for anxiety and related cognitive deficits. Int J Psychophysiol. 2020 Dec;158:172-177. doi: 10.1016/j.ijpsycho.2020.10.006. Epub 2020 Oct 28."
+                },
+                {
+                    "pmid": "23958182",
+                    "type": "RESULT",
+                    "citation": "Shiozawa P, Leiva AP, Castro CD, da Silva ME, Cordeiro Q, Fregni F, Brunoni AR. Transcranial direct current stimulation for generalized anxiety disorder: a case study. Biol Psychiatry. 2014 Jun 1;75(11):e17-8. doi: 10.1016/j.biopsych.2013.07.014. Epub 2013 Aug 16. No abstract available."
+                },
+                {
+                    "pmid": "26319357",
+                    "type": "RESULT",
+                    "citation": "Biundo R, Weis L, Fiorenzato E, Gentile G, Giglio M, Schifano R, Campo MC, Marcon V, Martinez-Martin P, Bisiacchi P, Antonini A. Double-blind Randomized Trial of tDCS Versus Sham in Parkinson Patients With Mild Cognitive Impairment Receiving Cognitive Training. Brain Stimul. 2015 Nov-Dec;8(6):1223-5. doi: 10.1016/j.brs.2015.07.043. Epub 2015 Aug 6. No abstract available. Erratum In: Brain Stimul. 2016 May - Jun;9(3):474. doi: 10.1016/j.brs.2016.01.004."
+                },
+                {
+                    "pmid": "16817194",
+                    "type": "RESULT",
+                    "citation": "Fregni F, Boggio PS, Santos MC, Lima M, Vieira AL, Rigonatti SP, Silva MT, Barbosa ER, Nitsche MA, Pascual-Leone A. Noninvasive cortical stimulation with transcranial direct current stimulation in Parkinson's disease. Mov Disord. 2006 Oct;21(10):1693-702. doi: 10.1002/mds.21012."
+                },
+                {
+                    "pmid": "31285791",
+                    "type": "RESULT",
+                    "citation": "Zaninotto AL, El-Hagrassy MM, Green JR, Babo M, Paglioni VM, Benute GG, Paiva WS. Transcranial direct current stimulation (tDCS) effects on traumatic brain injury (TBI) recovery: A systematic review. Dement Neuropsychol. 2019 Apr-Jun;13(2):172-179. doi: 10.1590/1980-57642018dn13-020005."
+                },
+                {
+                    "pmid": "21691215",
+                    "type": "RESULT",
+                    "citation": "Demirtas-Tatlidede A, Vahabzadeh-Hagh AM, Bernabeu M, Tormos JM, Pascual-Leone A. Noninvasive brain stimulation in traumatic brain injury. J Head Trauma Rehabil. 2012 Jul-Aug;27(4):274-92. doi: 10.1097/HTR.0b013e318217df55."
+                },
+                {
+                    "pmid": "32730946",
+                    "type": "RESULT",
+                    "citation": "Salehinejad MA, Ghayerin E, Nejati V, Yavari F, Nitsche MA. Domain-specific Involvement of the Right Posterior Parietal Cortex in Attention Network and Attentional Control of ADHD: A Randomized, Cross-over, Sham-controlled tDCS Study. Neuroscience. 2020 Sep 15;444:149-159. doi: 10.1016/j.neuroscience.2020.07.037. Epub 2020 Jul 28."
+                },
+                {
+                    "type": "RESULT",
+                    "citation": "Siniatchkin M. Anodal tDCS over the left DLPFC improved working memory and reduces symptoms in children with ADHD. Brain Stimulation. 2017. p. 517. doi:10.1016/j.brs.2017.01.509"
+                },
+                {
+                    "pmid": "20395612",
+                    "type": "RESULT",
+                    "citation": "Baker JM, Rorden C, Fridriksson J. Using transcranial direct-current stimulation to treat stroke patients with aphasia. Stroke. 2010 Jun;41(6):1229-36. doi: 10.1161/STROKEAHA.109.576785. Epub 2010 Apr 15."
+                },
+                {
+                    "pmid": "21119316",
+                    "type": "RESULT",
+                    "citation": "Kim DY, Ohn SH, Yang EJ, Park CI, Jung KJ. Enhancing motor performance by anodal transcranial direct current stimulation in subacute stroke patients. Am J Phys Med Rehabil. 2009 Oct;88(10):829-36. doi: 10.1097/PHM.0b013e3181b811e3."
+                },
+                {
+                    "pmid": "26469395",
+                    "type": "RESULT",
+                    "citation": "Volz MS, Farmer A, Siegmund B. Reduction of chronic abdominal pain in patients with inflammatory bowel disease through transcranial direct current stimulation: a randomized controlled trial. Pain. 2016 Feb;157(2):429-437. doi: 10.1097/j.pain.0000000000000386."
+                },
+                {
+                    "pmid": "23130002",
+                    "type": "RESULT",
+                    "citation": "DosSantos MF, Love TM, Martikainen IK, Nascimento TD, Fregni F, Cummiford C, Deboer MD, Zubieta JK, Dasilva AF. Immediate effects of tDCS on the mu-opioid system of a chronic pain patient. Front Psychiatry. 2012 Nov 2;3:93. doi: 10.3389/fpsyt.2012.00093. eCollection 2012."
+                },
+                {
+                    "type": "RESULT",
+                    "citation": "Garcia-Larrea L. tDCS as a procedure for chronic pain relief. Neurophysiologie Clinique/Clinical Neurophysiology. 2016. p. 224. doi:10.1016/j.neucli.2016.06.018"
+                },
+                {
+                    "pmid": "27092048",
+                    "type": "RESULT",
+                    "citation": "Ayache SS, Palm U, Chalah MA, Al-Ani T, Brignol A, Abdellaoui M, Dimitri D, Sorel M, Creange A, Lefaucheur JP. Prefrontal tDCS Decreases Pain in Patients with Multiple Sclerosis. Front Neurosci. 2016 Apr 8;10:147. doi: 10.3389/fnins.2016.00147. eCollection 2016."
+                },
+                {
+                    "type": "RESULT",
+                    "citation": "Research CM, Case Medical Research. Management of Chronic Pain and PTSD in Gulf War Veterans With tDCS Prolonged Exposure. Case Medical Research. 2020. doi:10.31525/ct1-nct04236284"
+                },
+                {
+                    "pmid": "33045706",
+                    "type": "RESULT",
+                    "citation": "Fricova J, Rokyta R. Transcranial Neurostimulation (rTMS, tDCS) in the Treatment of Chronic Orofacial Pain. Prog Neurol Surg. 2020;35:125-132. doi: 10.1159/000511134. Epub 2020 Oct 12."
+                },
+                {
+                    "pmid": "31302440",
+                    "type": "RESULT",
+                    "citation": "Mitra S, Mehta UM, Binukumar B, Venkatasubramanian G, Thirthalli J. Statistical power estimation in non-invasive brain stimulation studies and its clinical implications: An exploratory study of the meta-analyses. Asian J Psychiatr. 2019 Aug;44:29-34. doi: 10.1016/j.ajp.2019.07.006. Epub 2019 Jul 5."
+                },
+                {
+                    "pmid": "16564618",
+                    "type": "RESULT",
+                    "citation": "Fregni F, Boggio PS, Lima MC, Ferreira MJ, Wagner T, Rigonatti SP, Castro AW, Souza DR, Riberto M, Freedman SD, Nitsche MA, Pascual-Leone A. A sham-controlled, phase II trial of transcranial direct current stimulation for the treatment of central pain in traumatic spinal cord injury. Pain. 2006 May;122(1-2):197-209. doi: 10.1016/j.pain.2006.02.023. Epub 2006 Mar 27."
+                },
+                {
+                    "pmid": "20633392",
+                    "type": "RESULT",
+                    "citation": "Lefaucheur JP, Antal A, Ahdab R, Ciampi de Andrade D, Fregni F, Khedr EM, Nitsche M, Paulus W. The use of repetitive transcranial magnetic stimulation (rTMS) and transcranial direct current stimulation (tDCS) to relieve pain. Brain Stimul. 2008 Oct;1(4):337-44. doi: 10.1016/j.brs.2008.07.003. Epub 2008 Oct 7."
+                },
+                {
+                    "pmid": "28440034",
+                    "type": "RESULT",
+                    "citation": "Khedr EM, Sharkawy ESA, Attia AMA, Ibrahim Osman NM, Sayed ZM. Role of transcranial direct current stimulation on reduction of postsurgical opioid consumption and pain in total knee arthroplasty: Double randomized clinical trial. Eur J Pain. 2017 Sep;21(8):1355-1365. doi: 10.1002/ejp.1034. Epub 2017 Apr 25."
+                },
+                {
+                    "pmid": "23370085",
+                    "type": "RESULT",
+                    "citation": "Borckardt JJ, Reeves ST, Robinson SM, May JT, Epperson TI, Gunselman RJ, Schutte HD, Demos HA, Madan A, Fredrich S, George MS. Transcranial direct current stimulation (tDCS) reduces postsurgical opioid consumption in total knee arthroplasty (TKA). Clin J Pain. 2013 Nov;29(11):925-8. doi: 10.1097/AJP.0b013e31827e32be."
+                },
+                {
+                    "pmid": "25983531",
+                    "type": "RESULT",
+                    "citation": "Fregni F, Nitsche MA, Loo CK, Brunoni AR, Marangolo P, Leite J, Carvalho S, Bolognini N, Caumo W, Paik NJ, Simis M, Ueda K, Ekhitari H, Luu P, Tucker DM, Tyler WJ, Brunelin J, Datta A, Juan CH, Venkatasubramanian G, Boggio PS, Bikson M. Regulatory Considerations for the Clinical and Research Use of Transcranial Direct Current Stimulation (tDCS): review and recommendations from an expert panel. Clin Res Regul Aff. 2015 Mar 1;32(1):22-35. doi: 10.3109/10601333.2015.980944."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Study results will not be shared with participants. They will be shared via publication in peer-reviewed journals. The data-sharing agreement with our industry partner will use deidentified data from tKIWi to strengthen the algorithm and patented machine learning. The data will be stored on an encrypted SD card and shared with our industry partner via upload to HIPAA Compliant Google Workspace.\n\n* Publish findings in an academic journal\n* Present findings internally and at conference\n* Publish biomarkers data in academic journal",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "CSR"
+            ],
+            "timeFrame": "The data will be available during month 16 of the clinical study. This will occur after the analysis of the data is performed, and the study is completed. There is no expiration on how long this information will be available."
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "Prot_SAP",
+                    "hasProtocol": true,
+                    "hasSap": true,
+                    "hasIcf": false,
+                    "label": "Study Protocol and Statistical Analysis Plan",
+                    "date": "2021-11-04",
+                    "uploadDate": "2023-03-08T19:25",
+                    "filename": "Prot_SAP_000.pdf",
+                    "size": 465149
+                },
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2023-03-03",
+                    "uploadDate": "2023-03-08T19:27",
+                    "filename": "ICF_001.pdf",
+                    "size": 179162
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000059350",
+                    "term": "Chronic Pain"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010146",
+                    "term": "Pain"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29442",
+                    "name": "Chronic Pain",
+                    "asFound": "Chronic Pain",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "asFound": "Chronic",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4854",
+                    "name": "Benzocaine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T433",
+                    "name": "Tannic Acid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Ot",
+                    "name": "Other Dietary Supplements"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

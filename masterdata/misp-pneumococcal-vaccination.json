@@ -1,0 +1,243 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04845945",
+            "orgStudyIdInfo": {
+                "id": "2021-12637"
+            },
+            "organization": {
+                "fullName": "Montefiore Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "MISP 60528 Pneumococcal Vaccination",
+            "officialTitle": "Response to Guideline-concordant Pneumococcal Vaccination Strategy in Cardiac Transplant Candidates and Recipients",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "misp-pneumococcal-vaccination"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-06-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-03-19",
+            "studyFirstSubmitQcDate": "2021-04-14",
+            "studyFirstPostDateStruct": {
+                "date": "2021-04-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-17",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Montefiore Medical Center",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Merck Sharp & Dohme LLC",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study aims to use two different blood tests (ELISA and OPA) to study response to pneumococcal vaccination administered as per standard guidelines in patients who are undergoing workup for heart transplant (whether or not they have undergone LVAD implantation or have undergone heart transplant.",
+            "detailedDescription": "The patients will be receiving vaccination consistent with standard of care guidelines, regardless of study participation. The additional risk of study participation would be the risks associated with venipuncture (injury to vessel or nerve, syncope).\n\nPatients will not accrue benefits personally. However, participation will help others by identifying whether current vaccination strategies in this population are adequate."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Transplant Infection Prevention"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 45,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "PCV15 only",
+                    "description": "Draw blood for ELISA and OPA, then administer PCV15",
+                    "interventionNames": [
+                        "Biological: PCV15"
+                    ]
+                },
+                {
+                    "label": "PPS23 only",
+                    "description": "Draw blood for ELISA and OPA, then administer PPS23"
+                },
+                {
+                    "label": "PCV15 and PPS23",
+                    "description": "Draw blood for Administer PPS23 then draw blood again ELISA and OPA, then administer PCV15",
+                    "interventionNames": [
+                        "Biological: PCV15"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "PCV15",
+                    "description": "Blood draw after the vaccination",
+                    "armGroupLabels": [
+                        "PCV15 and PPS23",
+                        "PCV15 only"
+                    ],
+                    "otherNames": [
+                        "PPS23",
+                        "PCV15 and PPS23"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Vaccine response",
+                    "description": "Antibody levels",
+                    "timeFrame": "12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Serotype ELISA response",
+                    "description": "Antibody production to specific serotype",
+                    "timeFrame": "12 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 or over\n* Either undergoing evaluation for heart transplant (with or without LVAD receipt), or having received a heart transplant\n* Receiving a dose of PCV15 or PPSV23 (or both sequentially) concordant with AST guidelines\n\nExclusion Criteria:\n\n* Infants and children under age 18\n* Subjects without the capacity to consent\n* Pregnancy\n* Already up to date on pneumococcal vaccination or declining vaccination",
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "We are excluding infants and children as they are immunologically different from adults, respond to vaccinations differently, and guidelines for childhood vaccination are different from those for adult vaccination.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Vagish Hemmige, MD",
+                    "role": "CONTACT",
+                    "phone": "718-920-2705",
+                    "email": "vahemmig@montefiore.org"
+                },
+                {
+                    "name": "Margaret Mccort",
+                    "role": "CONTACT",
+                    "phone": "866-633-8255",
+                    "email": "mnewmanmcc@montefiore.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Vagish Hemmige, MD",
+                    "affiliation": "Montefiore Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Montefiore Medical Center, Infectious Diseases",
+                    "status": "RECRUITING",
+                    "city": "Bronx",
+                    "state": "New York",
+                    "zip": "10467",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Vagish Hemmige, MD",
+                            "role": "CONTACT",
+                            "phone": "718-920-2705",
+                            "email": "vahemmig@montefiore.org"
+                        },
+                        {
+                            "name": "Margaret McCort, MD",
+                            "role": "CONTACT",
+                            "phone": "718-920-7361",
+                            "email": "mnewmanmcc@montefiore.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.84985,
+                        "lon": -73.86641
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

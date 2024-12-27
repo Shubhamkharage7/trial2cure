@@ -1,0 +1,363 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04415515",
+            "orgStudyIdInfo": {
+                "id": "UHC100023A"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "DP006128",
+                    "type": "OTHER_GRANT",
+                    "domain": "CDC"
+                }
+            ],
+            "organization": {
+                "fullName": "UnitedHealthcare",
+                "class": "OTHER"
+            },
+            "briefTitle": "Standard Care Coordination Expansion Pilot",
+            "officialTitle": "Standard Care Coordination Expansion Pilot - A Quality Improvement Study",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "standard-care-coordination-expansion-pilot"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2015-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-01-28",
+            "studyFirstSubmitQcDate": "2020-06-01",
+            "studyFirstPostDateStruct": {
+                "date": "2020-06-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-13",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Anthony Pirrello",
+                "investigatorTitle": "Director UHC E&I Healthcare Econ",
+                "investigatorAffiliation": "UnitedHealthcare"
+            },
+            "leadSponsor": {
+                "name": "UnitedHealthcare",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "University of California, Los Angeles",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The Standard Care Coordination (SCC) solution integrates aspects of case management \\& care coordination \\& was designed by UnitedHealth Group for high-cost, complex, at-risk consumers to facilitate health care access and decisions that can have a dramatic impact on the quality and affordability of the consumer's health care. Currently members only receive the SCC if they are: 1) identified as high risk for readmission upon discharge from the hospital, 2) are self-referred, or 3) are directly referred to the program by their physician. The current quality improvement study was designed as a randomized controlled trial to determine if the expansion of the SCC program to commercially insured members identified via a proprietary administrative algorithms as being at high risk would significantly impact rates of acute inpatient admissions."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Superutilizers, Health Care Utilization"
+            ],
+            "keywords": [
+                "Care coordination, case management, superutilizers, health care utilization"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 592023,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Treatment 1",
+                    "type": "EXPERIMENTAL",
+                    "description": "RN Standard care coordination and disease management + RN Case Management",
+                    "interventionNames": [
+                        "Behavioral: RN case management",
+                        "Behavioral: RN Standard care coordination and disease management"
+                    ]
+                },
+                {
+                    "label": "Control",
+                    "type": "EXPERIMENTAL",
+                    "description": "RN Standard care coordination and disease management",
+                    "interventionNames": [
+                        "Behavioral: RN Standard care coordination and disease management"
+                    ]
+                },
+                {
+                    "label": "Treatment 2",
+                    "type": "EXPERIMENTAL",
+                    "description": "RN Standard care coordination and disease management + Community Health Worker Case Management",
+                    "interventionNames": [
+                        "Behavioral: Community Health Worker Case Management",
+                        "Behavioral: RN Standard care coordination and disease management"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "RN case management",
+                    "description": "A Registered Nurse (RN) case manager makes phone contact with the member to review medications, health risks, care gaps/barriers, \\& to develop a case management plan that focuses on improving medication adherence \\& reconciliation, condition-based measures \\& outcomes, addressing psycho-social needs, \\& intensive post-admission care transition. RNs may refer the member to social workers,specialist providers, \\& support programs (including to more intense case management where the primary care physician is notified that RNs may contact them to support treatment \\& coordinate services).",
+                    "armGroupLabels": [
+                        "Treatment 1"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Community Health Worker Case Management",
+                    "description": "In selected UHC markets for defined time periods, members randomized to the treatment arm also received an enhanced version of the SCC that included in-home case management support from non-clinical Community Health Workers (CHW).",
+                    "armGroupLabels": [
+                        "Treatment 2"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "RN Standard care coordination and disease management",
+                    "description": "RN Standard care coordination and disease management",
+                    "armGroupLabels": [
+                        "Control",
+                        "Treatment 1",
+                        "Treatment 2"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Total Cost",
+                    "description": "Defined as total plan cost (medical and pharmacy) per member",
+                    "timeFrame": "24 months"
+                },
+                {
+                    "measure": "Acute Inpatient Admission Rate",
+                    "description": "Defined as acute inpatient admissions per 1,000 qualified members",
+                    "timeFrame": "24 months"
+                },
+                {
+                    "measure": "Emergency Room Visit Rate",
+                    "description": "Defined as the number of emergency room visits per 1,000 qualified members",
+                    "timeFrame": "24 months"
+                },
+                {
+                    "measure": "Diabetes-Related Complications",
+                    "description": "Defined as the Diabetes Complications Severity Index (DCSI) composite score. The composite DCSI score ranges between 0 to 13 (sum of scores from 7 diabetes complication categories \\[cardiovascular disease, cerebrovascular disease/stroke, peripheral vascular disease, nephropathy, retinopathy, neuropathy, and metabolic complications such as ketoacidosis, hyperosmolar, or other coma\\] which are each scored from 0 to 2 \\[0=no complication, 1=non-severe complication, 2=severe complication\\], except for neuropathy which is scored from 0 to 1)",
+                    "timeFrame": "24 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Risk of Acute Inpatient Admission",
+                    "description": "Defined as time to first acute inpatient admission",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "All-Cause 30-Day Readmission Risk",
+                    "description": "Defined as first acute inpatient readmission for all-causes within 30 days of index acute inpatient discharge",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Outpatient Emergency Room Visit Rate",
+                    "description": "Defined as emergency room visits per 1,000 qualified members per year",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Risk of Emergency Room Visit",
+                    "description": "Defined as time to first emergency room visit",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Primary Care Physician Visit Rate",
+                    "description": "Defined as primary care physician visits per qualified member",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Specialist Physician Visit Rate",
+                    "description": "Defined as specialist physician visits per qualified member",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Cardiovascular Disease",
+                    "description": "Defined as percentage of members with cardiovascular disease",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Diabetes-related complications (DCSI)",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Amputations",
+                    "description": "Defined as lower extremity amputations per 1,000 qualified members",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Chronic Kidney Disease",
+                    "description": "Defined as attenuated decline of eGFR, for members with baseline eGFR below 60mL/min",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Glycemic Control",
+                    "description": "Defined as number of members with A1c below 7%, below 8%, and/or above 9%, per 100 qualified members with diabetes",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Adherence to Diabetes-Related Medications",
+                    "description": "Defined as number of members with medication possession ratio (MPR) values of 80% or higher, per 100 qualified members with diabetes",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Adherence to Diabetes-Related Processes of Care",
+                    "description": "Defined as rates of microalbuminuria screening, retinal/eye exams, A1c test frequency, LDL test frequency, Statin use, ACE/ARB use",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Total Plan and Member Cost",
+                    "description": "Defined as total (plan+member) cost per member",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Diabetes Complications Count",
+                    "description": "Defined as the Diabetes Complications Severity Index (DCSI) count. The DCSI count ranges from 0 to 7 (count of the 7 diabetes complication categories \\[cardiovascular disease, cerebrovascular disease/stroke, peripheral vascular disease, nephropathy, retinopathy, neuropathy, and metabolic complications such as ketoacidosis, hyperosmolar, or other coma\\]).",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Any Acute Inpatient Admission",
+                    "description": "Defined as the number of members with any Acute Inpatient Admission per 1,000 qualified members",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Any Emergency Room Visit",
+                    "description": "Defined as the number of members with any emergency room visit per 1,000 qualified members",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Cerebrovascular disease/stroke",
+                    "description": "Defined as percentage of members with Cerebrovascular disease/stroke",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Peripheral vascular disease",
+                    "description": "Defined as percentage of members with Peripheral vascular disease",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Nephropathy",
+                    "description": "Defined as percentage of members with Nephropathy",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Retinopathy",
+                    "description": "Defined as percentage of members with Retinopathy",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Neuropathy",
+                    "description": "Defined as percentage of members with Neuropathy",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                },
+                {
+                    "measure": "Metabolic complications such as ketoacidosis, hyperosmolar, or other coma",
+                    "description": "Defined as percentage of members with metabolic complications",
+                    "timeFrame": "12, 18, 24, 36, 48 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* UnitedHealthcare commercial Fully Insured members; all states; 18+ years old; actively enrolled in the health plan as of randomization identified via proprietary administrative algorithm as being at high risk for persistent super utilizer status.\n\nExclusion Criteria:\n\n* : pregnant women, individuals prescribed medications for infertility, members with evidence of dementing disorders, members indicated as \"do not contact \" for program outreach, and Members in the following products and plans:\n\n  * legacy UHC ASO groups (populations for which UHC provides administrative services only),\n  * legacy Oxford health plan members (all members receive the SCC program),\n  * legacy PacifiCare members,\n  * legacy River Valley/NHP members, and\n  * Public Sector clients\n  * the PHS 2.0 intervention (a small population within Fully Insured)\n  * assignment to a clinically activated Accountable Care Organization (ACO)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Eileen Birmingham",
+                    "role": "CONTACT",
+                    "phone": "800-842-3225"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Anthony V Pirrello, MS",
+                    "affiliation": "UnitedHealthcare",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UnitedHealthcare",
+                    "status": "RECRUITING",
+                    "city": "Minnetonka",
+                    "state": "Minnesota",
+                    "zip": "55343",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Eileen Birmingham",
+                            "role": "CONTACT",
+                            "phone": "800-842-3225"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.9133,
+                        "lon": -93.50329
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

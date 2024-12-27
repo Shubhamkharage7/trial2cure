@@ -1,0 +1,371 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04934683",
+            "orgStudyIdInfo": {
+                "id": "GUARDIAN INDUCTION AGENT"
+            },
+            "organization": {
+                "fullName": "The Cleveland Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "GUARDIAN (NCT04884802) Sub-study, Etomidate vs Propofol",
+            "officialTitle": "GUARDIAN (NCT04884802) Sub-study Comparing Etomidate and Propofol",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "guardian-sub-study-etomidate-vs-propofol"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-07-27",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-06-15",
+            "studyFirstSubmitQcDate": "2021-06-15",
+            "studyFirstPostDateStruct": {
+                "date": "2021-06-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "The Cleveland Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Some patients participating in the underlying GUARDIAN trial (NCT04884802) will be additionally randomized to etomidate vs propofol for anesthetic induction.",
+            "detailedDescription": "Patients participating in the underlying GUARDIAN trial (NCT04884802) will be randomized to: 1) routine intraoperative blood pressure management (routine pressure management); or 2) norepinephrine or phenylephrine infusion to maintain intraoperative MAP \u226585 mmHg (tight pressure management). Patients participating in this sub-study will be additionally randomized to etomidate or propofol for induction of anesthesia."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Major Surgery"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 6254,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Routine Pressure Management with etomidate induction",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Etomidate will be used as an induction agent.",
+                    "interventionNames": [
+                        "Procedure: Routine blood pressure control",
+                        "Drug: Etomidate"
+                    ]
+                },
+                {
+                    "label": "Routine Pressure Management with propofol induction",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Propofol will be used as an induction agent.",
+                    "interventionNames": [
+                        "Procedure: Routine blood pressure control",
+                        "Drug: Propofol"
+                    ]
+                },
+                {
+                    "label": "Tight Pressure Management with etomidate induction",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Etomidate will be used as an induction agent.",
+                    "interventionNames": [
+                        "Procedure: Tight blood pressure control",
+                        "Drug: Etomidate"
+                    ]
+                },
+                {
+                    "label": "Tight Pressure Management with propofol induction",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Propofol will be used as an induction agent.",
+                    "interventionNames": [
+                        "Procedure: Tight blood pressure control",
+                        "Drug: Propofol"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Routine blood pressure control",
+                    "description": "Routine blood pressure control.",
+                    "armGroupLabels": [
+                        "Routine Pressure Management with etomidate induction",
+                        "Routine Pressure Management with propofol induction"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Tight blood pressure control",
+                    "description": "Tight blood pressure control.",
+                    "armGroupLabels": [
+                        "Tight Pressure Management with etomidate induction",
+                        "Tight Pressure Management with propofol induction"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Etomidate",
+                    "description": "Anesthetic induction with etomidate.",
+                    "armGroupLabels": [
+                        "Routine Pressure Management with etomidate induction",
+                        "Tight Pressure Management with etomidate induction"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Propofol",
+                    "description": "Anesthetic induction with propofol.",
+                    "armGroupLabels": [
+                        "Routine Pressure Management with propofol induction",
+                        "Tight Pressure Management with propofol induction"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Composite of serious perfusion-related complications",
+                    "description": "Composite of serious perfusion-related complications. Specifically, we will consider a collapsed (one or more) composite of myocardial injury after non-cardiac surgery (MINS), non-fatal cardiac arrest, stroke, Stage 2-3 acute kidney injury, sepsis, and all-cause mortality within 30 days of surgery.",
+                    "timeFrame": "30 days after surgery"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Postoperative Delirium",
+                    "description": "Delirium, defined by abnormal 3D CAM or CAM ICU (in ventilated patients) assessed twice daily during the initial four postoperative days.",
+                    "timeFrame": "Initial four postoperative days"
+                },
+                {
+                    "measure": "Major Adverse cardiac events",
+                    "description": "Myocardial infarction, non-fatal cardiac arrest, stroke, and all-cause mortality.",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Cognition",
+                    "description": "T-MOCA",
+                    "timeFrame": "1 Year"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "ICU admission",
+                    "description": "Admission.",
+                    "timeFrame": "30 days."
+                },
+                {
+                    "measure": "Hospital Readmission",
+                    "description": "Readmission.",
+                    "timeFrame": "30 days."
+                },
+                {
+                    "measure": "Atrial Fibrillation",
+                    "description": "Atrial Fibrillation.",
+                    "timeFrame": "30 days."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 45 years old;\n* Scheduled for major noncardiac surgery expected to last at least 2 hours;\n* Having general anesthesia, neuraxial anesthesia, or the combination;\n* Expected to require at least overnight hospitalization (planned ICU admission is acceptable);\n* Are designated ASA physical status 2-4 (ranging from mild systemic disease through severe systemic disease that is a constant threat to life);\n* Chronically taking at least one anti-hypertensive medication;\n* Expected to have direct intraoperative blood pressure monitoring with an arterial catheter;\n* Cared for by clinicians willing to follow the GUARDIAN protocol;\n* Subject to at least one of the following risk factors:\n* Age \\>65 years;\n* History of peripheral arterial surgery;\n* History of coronary artery disease;\n* History of stroke or transient ischemic attack;\n* Serum creatinine \\>175 \u00b5mol/L (\\>2.0 mg/dl);\n* Diabetes requiring medication;\n* Current smoking or 15 pack-year history of smoking tobacco;\n* Scheduled for major vascular surgery;\n* Body mass index \u226535 kg/m2;\n* Preoperative high-sensitivity troponin T \\>14 ng/L or troponin I equivalent, defined as \u226515 ng/L (Abbott assay),77 19 ng/L (Siemens assay, \\[Borges, unpublished\\]), or 25% of the 99% percentile for other assays;\n* B-type natriuretic protein (BNP) \\>80 ng/L or N-terminal B-type natriuretic protein (NT-ProBNP) \\>200 ng/L.78,79\n\nExclusion Criteria:\n\n* Are scheduled for carotid artery surgery;\n* Are scheduled for intracranial surgery;\n* Are scheduled for partial or complete nephrectomy;\n* Are scheduled for pheochromocytoma surgery;\n* Are scheduled for liver transplantation;\n* Require preoperative intravenous vasoactive medications;\n* Have a condition that precludes routine or tight blood pressure management such as surgeon request for relative hypotension;\n* Require beach-chair positioning;\n* Have end-stage renal disease requiring dialysis or estimated glomerular filtration rate (eGFR) \\<30 ml/min;\n* Have a documented history of dementia;\n* Have language, vision, or hearing impairments that may compromise cognitive assessments;\n* Have contraindications to norepinephrine or phenylephrine per clinician judgement;\n* Have previously participated in this trial.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "45 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Fabio Rodriquez Patarroyo, MD",
+                    "role": "CONTACT",
+                    "phone": "216) 444-9674\u202c",
+                    "email": "Rodrigf3@ccf.org"
+                },
+                {
+                    "name": "Daniel I Sessler, MD",
+                    "role": "CONTACT",
+                    "phone": "216-870-2620",
+                    "email": "sessled@ccf.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel I Sessler, MD",
+                    "affiliation": "The Cleveland Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cleveland Clinic",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Fabio Rodriquez Patarroyo, MD",
+                            "role": "CONTACT",
+                            "phone": "216-444-9674",
+                            "email": "Rodrigf3@ccf.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Data will be shared collaboratively.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "CSR",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "2 years after publication.",
+            "accessCriteria": "Contact PI."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000015742",
+                    "term": "Propofol"
+                },
+                {
+                    "id": "D000005045",
+                    "term": "Etomidate"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006993",
+                    "term": "Hypnotics and Sedatives"
+                },
+                {
+                    "id": "D000002492",
+                    "term": "Central Nervous System Depressants"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000018686",
+                    "term": "Anesthetics, Intravenous"
+                },
+                {
+                    "id": "D000018681",
+                    "term": "Anesthetics, General"
+                },
+                {
+                    "id": "D000000777",
+                    "term": "Anesthetics"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4107",
+                    "name": "Anesthetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18307",
+                    "name": "Propofol",
+                    "asFound": "Inhibitor",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8190",
+                    "name": "Etomidate",
+                    "asFound": "Nicotine Replacement Therapy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10043",
+                    "name": "Hypnotics and Sedatives",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20766",
+                    "name": "Anesthetics, Intravenous",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20761",
+                    "name": "Anesthetics, General",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

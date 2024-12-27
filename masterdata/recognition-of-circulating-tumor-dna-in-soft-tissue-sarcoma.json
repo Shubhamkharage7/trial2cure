@@ -1,0 +1,292 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03896620",
+            "orgStudyIdInfo": {
+                "id": "PRO00034441"
+            },
+            "organization": {
+                "fullName": "Medical College of Wisconsin",
+                "class": "OTHER"
+            },
+            "briefTitle": "Recognition of Circulating Tumor DNA in Soft Tissue Sarcoma",
+            "officialTitle": "Recognition of Circulating Tumor DNA in Soft Tissue Sarcoma",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "recognition-of-circulating-tumor-dna-in-soft-tissue-sarcoma"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-06-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-06-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-03-28",
+            "studyFirstSubmitQcDate": "2019-03-28",
+            "studyFirstPostDateStruct": {
+                "date": "2019-04-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Meena Bedi",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "Medical College of Wisconsin"
+            },
+            "leadSponsor": {
+                "name": "Medical College of Wisconsin",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "A tissue biopsy is currently the only clinical test or procedure that is able to confirm the initial diagnosis of soft tissue or metastatic sarcoma and evaluate its progress during treatment. However, tissue biopsy collection can be challenging (depending on the location of the tumor), and this procedure poses physical risks to the patient. A tissue biopsy also needs to be recollected at various time points in order to assess if the patient is responding to treatment.\n\nIn this project, the investigator would like to collect blood samples in addition to the sample of the tumor that will be collected before treatment is started. The investigator would like to analyze both blood and tumor, in hopes of identifying new biomarkers of sarcoma that can help the study doctors better diagnose sarcoma for patients in the future without needing to collect a piece of their tumor.\n\nA biomarker is something found in the blood, other body fluids, or tissues that can be used to measure the progress of disease, how a treatment is working, or its likelihood of being successful. In this project, the investigator would like to compare ctDNA from blood to the DNA in the tumor. ctDNA, or circulating tumor DNA, is DNA originating from the tumor that is present in the blood. It can be assessed by taking an additional sample of blood when it will be collected for normal laboratory tests. These biomarkers may also help the study doctors detect how a patient is responding to their treatment or help predict their response to future treatment.",
+            "detailedDescription": "In the proposed study, the investigators wish to prospectively collect blood samples from 25 patients with localized soft tissue sarcomas and 25 patients with metastatic sarcoma (schema III) at various time points outlined. The presence/absence, as well as the change of ctDNA in circulation, will then be measured after the therapies administered and correlated with overall survival, progression-free survival and local control.\n\nThe risks to the subjects enrolled on this study include the general risks of undergoing the standard procedures, such as blood draws, imaging, radiation therapy, chemotherapy and surgery, which will be discussed prior to the therapies and images each patient undergoes. The risks of the procedures are not risks of the study with exception to blood draws. There is also a risk of loss of confidentiality, but the data will be deidentified once acquired. Thus, this risk is minimal."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sarcoma"
+            ],
+            "keywords": [
+                "Sarcoma",
+                "ctDNA"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "OTHER"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "In this project, the investigator will do genetic testing on blood and tumor samples. Whole genome sequencing will be included as part of the genetic testing for this research. Genetic testing will be done because the study doctor would like to identify new biomarkers of sarcoma."
+            },
+            "enrollmentInfo": {
+                "count": 50,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Stage II-III Sarcomas undergoing preoperative radiation therapy (RT)",
+                    "description": "This group will have preoperative chemotherapy (if administered), preoperative radiation and surgery.",
+                    "interventionNames": [
+                        "Device: Preoperative RT",
+                        "Drug: Chemotherapy",
+                        "Other: Surgery"
+                    ]
+                },
+                {
+                    "label": "Stage II-III Sarcomas undergoing postoperative RT",
+                    "description": "This group will have surgery, postoperative radiation, post operative chemotherapy (if administered).",
+                    "interventionNames": [
+                        "Device: Postoperative RT",
+                        "Drug: Chemotherapy",
+                        "Other: Surgery"
+                    ]
+                },
+                {
+                    "label": "Stage IV Sarcomas",
+                    "description": "This group will only have chemotherapy.",
+                    "interventionNames": [
+                        "Drug: Chemotherapy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Preoperative RT",
+                    "description": "Radiation delivered before surgery.",
+                    "armGroupLabels": [
+                        "Stage II-III Sarcomas undergoing preoperative radiation therapy (RT)"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Postoperative RT",
+                    "description": "Radiation delivered after surgery.",
+                    "armGroupLabels": [
+                        "Stage II-III Sarcomas undergoing postoperative RT"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Chemotherapy",
+                    "description": "Physician's choice of chemotherapy.",
+                    "armGroupLabels": [
+                        "Stage II-III Sarcomas undergoing postoperative RT",
+                        "Stage II-III Sarcomas undergoing preoperative radiation therapy (RT)",
+                        "Stage IV Sarcomas"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Surgery",
+                    "description": "Surgical excision of tumor.",
+                    "armGroupLabels": [
+                        "Stage II-III Sarcomas undergoing postoperative RT",
+                        "Stage II-III Sarcomas undergoing preoperative radiation therapy (RT)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "ctDNA measure",
+                    "description": "Blood samples will be collected. ctDNA is measured in percentage: variant allele fraction percentage.",
+                    "timeFrame": "Reported at baseline, at 4 weeks after first intervention, 4 weeks following radiation treatment, 4 weeks post third intervention, 1 year."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Have signed an Institutional Review Board (IRB)/Independent Ethics Committee (IEC)-approved informed consent form (ICF) prior to any study-specific evaluation.\n* Diagnosis of soft tissue sarcoma.\n* \u2265 18 years of age.\n* Planned biopsy obtained within four weeks after registration.\n* History and physical within eight weeks prior to registration.\n* For stage II-III patients, no prior therapy to primary site of sarcoma.\n* Computerized tomography (CT), positron emission tomography (PET) /CT or MR imaging of the affected primary site obtained in stage II-III or metastatic site in stage IV patients within eight weeks prior to registration.\n* CT chest or PET /CT acquired to assess distant disease within eight weeks prior to registration for stage II-III patients.\n* Karnofsky Performance Scale (KPS) 60 or above within four weeks prior to registration.\n* Documentation of stage within eight weeks prior to registration.\n* Biopsy of primary or metastatic disease site must be safe, feasible and in concordance with standard of care per the treating physician and/or radiologist.\n* Life expectancy \u2265 12 weeks.\n\nExclusion Criteria:\n\n* Pregnant women.\n* Patients with a history of metastatic disease from a primary other than sarcoma.\n* Patients who cannot undergo imaging as part of treatment planning or surveillance.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients with localized, stage II-III or stage IV histologically confirmed soft tissue sarcomas of the extremity, chest wall or retroperitoneal primaries will be eligible for this study. Stage IV patients may have had prior therapy but must obtain a biopsy within registration requirements for study enrollment.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Medical College of Wisconsin Cancer Center Clinical Trials Office",
+                    "role": "CONTACT",
+                    "phone": "414-805-8900",
+                    "email": "cccto@mcw.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Meena Bedi",
+                    "affiliation": "Medical College of Wisconsin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Froedtert Hospital & the Medical College of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Milwaukee",
+                    "state": "Wisconsin",
+                    "zip": "53226",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Meena Bedi, MD",
+                            "role": "CONTACT",
+                            "phone": "414-805-4400",
+                            "email": "mbedi@mcw.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.0389,
+                        "lon": -87.90647
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012509",
+                    "term": "Sarcoma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018204",
+                    "term": "Neoplasms, Connective and Soft Tissue"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M15327",
+                    "name": "Sarcoma",
+                    "asFound": "Sarcoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20350",
+                    "name": "Neoplasms, Connective and Soft Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5284",
+                    "name": "Soft Tissue Sarcoma",
+                    "asFound": "Soft Tissue Sarcoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

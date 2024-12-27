@@ -1,0 +1,301 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03729180",
+            "orgStudyIdInfo": {
+                "id": "IRB17-1422"
+            },
+            "organization": {
+                "fullName": "University of Chicago",
+                "class": "OTHER"
+            },
+            "briefTitle": "The ImPreSS Trial: Pharmacogenomic Decision Making at Time of Surgery",
+            "officialTitle": "The ImPreSS Trial: Implementation of Point-of-Care Pharmacogenomic Decision Support in Perioperative Care",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "the-impress-trial-pharmacogenomic-decision-making-at-time-of-surgery"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-01-22",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-08-22",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-08-22",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-10-12",
+            "studyFirstSubmitQcDate": "2018-10-31",
+            "studyFirstPostDateStruct": {
+                "date": "2018-11-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Chicago",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study is enrolling adults who are scheduled for either inpatient or outpatient elective surgical procedures at The University of Chicago.\n\nAt pre-operative visits, patients will be consented and a blood sample will be obtained for preemptive genotyping across a panel of actionable germline variants predicting drug response or toxicity risk.\n\nGenotyping results will be delivered to participating providers as patient-specific drug-gene clinical decision support summaries using a secured Web portal, the Genomic Prescribing System (GPS).\n\nParticipating anesthesiologists and critical care and pain management physicians and associated providers from the Department of Anesthesia and Critical Care at the University of Chicago will be invited to receive results for their participating patients.\n\nThere will be an initial 6- month \"run-in\" period of the study comprised of approximately 100 enrolled adults in which all patients will have pharmacogenomic results made available to providers. The run-in period will allow for process refinement and GPS delivery to be examined and optimized prior to the randomized phase\n\nAfter the initial run-in period, patients will be randomized to one of two arms - in the pharmacogenomic arm, providers will have access to GPS and pharmacogenomic information, whereas in the control arm, providers will not have access to GPS and patient-specific pharmacogenomic information (current standard of care)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Surgery"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 1900,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Pain Cohort",
+                    "type": "OTHER",
+                    "description": "Patients with a post-operative pain consult will be included in a pain sub-analysis to assess pain scores, pain therapy administration, and rate of opioid-induced adverse events.",
+                    "interventionNames": [
+                        "Procedure: Routine Elective Surgery- In patient or out patient elective surgery",
+                        "Diagnostic Test: Blood test for genetic testing",
+                        "Other: Drug-genetic Profile"
+                    ]
+                },
+                {
+                    "label": "Pharmacogenomic (PGx) Arm [Randomization Arm 1]",
+                    "type": "EXPERIMENTAL",
+                    "description": "All patients will undergo preemptive genotyping prior to their surgical procedure, and all patients will have pharmacogenomic results made available to providers.",
+                    "interventionNames": [
+                        "Procedure: Routine Elective Surgery- In patient or out patient elective surgery",
+                        "Diagnostic Test: Blood test for genetic testing",
+                        "Other: Drug-genetic Profile"
+                    ]
+                },
+                {
+                    "label": "Control Arm [Randomization Arm 2]",
+                    "type": "OTHER",
+                    "description": "All patients will undergo preemptive genotyping prior to their surgical procedure. Pharmacogenomic test results will not be made available to providers (standard of care). Genotyping results will be released to study providers (and patients) at the 6-month unblinding timepoint for patients in the control group.",
+                    "interventionNames": [
+                        "Procedure: Routine Elective Surgery- In patient or out patient elective surgery",
+                        "Diagnostic Test: Blood test for genetic testing"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Routine Elective Surgery- In patient or out patient elective surgery",
+                    "description": "Participants will be undergoing routine planned surgeries.",
+                    "armGroupLabels": [
+                        "Control Arm [Randomization Arm 2]",
+                        "Pain Cohort",
+                        "Pharmacogenomic (PGx) Arm [Randomization Arm 1]"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Blood test for genetic testing",
+                    "description": "Blood test to determine differences in genes which may affect how certain medications affect the participant. All patients will consent to collection of a blood sample for preemptive genotyping across a panel of actionable germline variants predicting drug response or toxicity risk.",
+                    "armGroupLabels": [
+                        "Control Arm [Randomization Arm 2]",
+                        "Pain Cohort",
+                        "Pharmacogenomic (PGx) Arm [Randomization Arm 1]"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Drug-genetic Profile",
+                    "description": "Profile describing drugs that may be high-risk, those that should be used with caution, or drugs that are favorable to use based on the participants genes.",
+                    "armGroupLabels": [
+                        "Pain Cohort",
+                        "Pharmacogenomic (PGx) Arm [Randomization Arm 1]"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "The frequency of Genomic Prescribing System (GPS) use by anesthesiologists and pain medicine physicians and associated providers during the perioperative period.",
+                    "description": "To explore the feasibility and utility of implementing broad preemptive pharmacogenomic testing in the perioperative setting by determining the frequency of Genomic Prescribing System (GPS) use by anesthesiologists and pain medicine physicians and associated providers during the perioperative period.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Rate of use of high-risk drugs in perioperative setting",
+                    "description": "To determine the rate of use high-risk drugs (red or yellow pharmacogenomic risk) in the group of patients for whom pharmacogenomic results are available compared to their rate of use (without provider knowledge of pharmacogenomic risk designation) in the control arm.",
+                    "timeFrame": "5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Rate of use of favorable drugs in perioperative setting",
+                    "description": "To determine the occurrence of specific pharmacogenomically-informed adverse drug events in both arms.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Occurrence of specific pharmacogenomically-informed adverse drug events",
+                    "description": "To determine the occurrence of specific pharmacogenomically-informed adverse drug events in both arms.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Pharmacogenomic result availability on pain management services in both arms using a research database for each patient",
+                    "description": "To explore the effects of pharmacogenomic result availability on pain management services in both arms.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Comparison of pain scores on a 10 point scale",
+                    "description": "To compare pain scores between both arms.",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Anesthesia and critical care providers knowledge and perceptions of prescribing decisions using a information provided in research database",
+                    "description": "To determine anesthesia and critical care providers' knowledge and perceptions of prescribing decisions in order to develop better genomic delivery systems in the future",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Differences in patient reported satisfaction using research database",
+                    "description": "To determine whether differences in patient-reported satisfaction and adherence likelihood are observable for patients whose providers access and use pharmacogenomic information.",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients who have planned elective surgical procedures at the University of Chicago\n* Must be aged 18 years or older\n\nExclusion Criteria:\n\n* Patients who have undergone, or are being actively considered for, liver or kidney transplantation\n* Patients with known active or prior leukemia.\n* Inability to understand and give informed consent to participate.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Cancer Clinical Trials Office",
+                    "role": "CONTACT",
+                    "phone": "1-855-702-8222",
+                    "email": "cancerclinicaltrials@bsd.uchicago.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Peter O'Donnell",
+                    "affiliation": "University of Chicago",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University Of Chicago Medicine Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60637",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Emily Schierer",
+                            "role": "CONTACT",
+                            "phone": "773-753-1200",
+                            "email": "theimpresstrial@uchicago.edu"
+                        },
+                        {
+                            "name": "Peter O'Donnell, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "35213469",
+                    "type": "DERIVED",
+                    "citation": "Truong TM, Apfelbaum JL, Danahey K, Schierer E, Ludwig J, George D, House L, Karrison T, Shahul S, Anitescu M, Choksi A, Hartman S, Knoebel RW, van Wijk XMR, Yeo KJ, Meltzer DO, Ratain MJ, O'Donnell PH. Pilot Findings of Pharmacogenomics in Perioperative Care: Initial Results From the First Phase of the ImPreSS Trial. Anesth Analg. 2022 Nov 1;135(5):929-940. doi: 10.1213/ANE.0000000000005951. Epub 2022 Feb 25."
+                },
+                {
+                    "pmid": "34570085",
+                    "type": "DERIVED",
+                    "citation": "Truong TM, Apfelbaum JL, Schierer E, Danahey K, Borden BA, Karrison T, Shahul S, Anitescu M, Gerlach R, Knoebel RW, Meltzer DO, Ratain MJ, O'Donnell PH. Anesthesia providers as stakeholders to adoption of pharmacogenomic information in perioperative care. Pharmacogenet Genomics. 2022 Apr 1;32(3):79-86. doi: 10.1097/FPC.0000000000000455."
+                },
+                {
+                    "pmid": "31433489",
+                    "type": "DERIVED",
+                    "citation": "Truong TM, Apfelbaum J, Shahul S, Anitescu M, Danahey K, Knoebel RW, Liebovitz D, Karrison T, van Wijk XMR, Yeo KJ, Meltzer D, Ratain MJ, O'Donnell PH. The ImPreSS Trial: Implementation of Point-of-Care Pharmacogenomic Decision Support in Perioperative Care. Clin Pharmacol Ther. 2019 Dec;106(6):1179-1183. doi: 10.1002/cpt.1567. Epub 2019 Aug 21. No abstract available."
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4033",
+                    "name": "Analgesics, Opioid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

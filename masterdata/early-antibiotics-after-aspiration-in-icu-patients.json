@@ -1,0 +1,702 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05079620",
+            "orgStudyIdInfo": {
+                "id": "22-004-02"
+            },
+            "organization": {
+                "fullName": "UConn Health",
+                "class": "OTHER"
+            },
+            "briefTitle": "Early Antibiotics After Aspiration in ICU Patients",
+            "officialTitle": "Antibiotic Prophylaxis in Critically Ill Patients After Suspected Aspiration",
+            "therapeuticArea": [
+                "Respiratory",
+                "Other"
+            ],
+            "study": "early-antibiotics-after-aspiration-in-icu-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-11-30",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-10-02",
+            "studyFirstSubmitQcDate": "2021-10-02",
+            "studyFirstPostDateStruct": {
+                "date": "2021-10-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Mark Metersky",
+                "investigatorTitle": "Chief, Division of Pulmonary, Critical Care and Sleep Medicine",
+                "investigatorAffiliation": "UConn Health"
+            },
+            "leadSponsor": {
+                "name": "UConn Health",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the use of early antibiotics in ICU patients who appear to have aspirated, to help determine whether this improves outcomes by reducing the later incidence of pneumonia and other negative consequences.",
+            "detailedDescription": "ICU patients with signs of aspiration on imaging and a clinical history supportive of aspiration, but with no clear signs of infectious pneumonia, will be randomized to receive either 5 days of empiric antibiotics or supportive care only. They will be followed for 30 days with a primary outcome of ICU length-of-stay and various secondary outcomes including mortality, ventilator days, and antibiotic days."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Aspiration",
+                "Aspiration Pneumonia"
+            ],
+            "keywords": [
+                "ventilator associated pneumonia"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Antibiotics",
+                    "type": "EXPERIMENTAL",
+                    "description": "5 days of empiric antibiotics selected from a guideline-appropriate regimen. Alternate agents may be selected by the treating team if allergies or other patient factors mandate, but are still recommended for a 5 day course. Supportive care including oxygen and ventilation can be offered ad libitum.\n\nOptions include ceftriaxone, Augmentin, cefepime, vancomycin, levofloxacin.",
+                    "interventionNames": [
+                        "Drug: Ceftriaxone",
+                        "Drug: Amoxicillin clavulanic acid",
+                        "Drug: Cefepime",
+                        "Drug: Vancomycin",
+                        "Drug: Levofloxacin"
+                    ]
+                },
+                {
+                    "label": "Control",
+                    "type": "NO_INTERVENTION",
+                    "description": "No initial antibiotic therapy unless clinical picture changes or worsens. Supportive care including oxygen and ventilation can be offered ad libitum."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Ceftriaxone",
+                    "description": "If there is low risk for P. aeruginosa and/or methicillin-resistant staphylococcus aureus (MRSA), as deemed by the treating team: Ceftriaxone 2 g IV, every 24 hours for 5 days",
+                    "armGroupLabels": [
+                        "Antibiotics"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Amoxicillin clavulanic acid",
+                    "description": "At any point after 24 hours, clinicians may (but are not required to) transition stable patients on ceftriaxone to the oral agent Amoxicillin + clavulanate (Augmentin) 875 mg PO or per feeding tube, twice daily for the remainder of 5 days",
+                    "armGroupLabels": [
+                        "Antibiotics"
+                    ],
+                    "otherNames": [
+                        "Augmentin"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cefepime",
+                    "description": "If there is significant risk of P. aeruginosa and/or MRSA as deemed by the treating team: Cefepime 2 g IV, every 8 hours for 5 days, plus vancomycin",
+                    "armGroupLabels": [
+                        "Antibiotics"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Vancomycin",
+                    "description": "If there is significant risk of P. aeruginosa and/or MRSA as deemed by the treating team: Vancomycin IV, dosed by trough or AUC/MIC (area under the curve/minimum inhibitory concentration) monitoring for 5 days, plus cefepime. Order nasal MRSA swab and consider discontinuing vancomycin if MRSA swab is negative.",
+                    "armGroupLabels": [
+                        "Antibiotics"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Levofloxacin",
+                    "description": "At any point after 24 hours, clinicians may (but are not required to) transition stable patients on cefepime to levofloxacin PO or per feeding tube, 750 mg every 24 hours for the remainder of 5 days",
+                    "armGroupLabels": [
+                        "Antibiotics"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "ICU-free days",
+                    "timeFrame": "From admission to 30 days, death, or hospital discharge, whichever occurs first"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Ventilator-free days",
+                    "timeFrame": "From admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Hospital-free days",
+                    "timeFrame": "From admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Antibiotic-free days",
+                    "timeFrame": "Days with no antibiotics from admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Intubated after enrollment",
+                    "description": "Yes/no",
+                    "timeFrame": "Between admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Tracheostomy after enrollment",
+                    "description": "Yes/no",
+                    "timeFrame": "Between admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Developed pneumonia after enrollment",
+                    "description": "Yes/no, by criteria: 2 or more present simultaneously of temperature \\>38c, WBC \\>11k, S/F ratio \\<215, and purulent secretions",
+                    "timeFrame": "Between admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Days before developing pneumonia criteria",
+                    "description": "By criteria: 2 or more present simultaneously of temperature \\>38c, WBC \\>11k, S/F ratio \\<215, and purulent secretions",
+                    "timeFrame": "Between admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Additional antibiotics prescribed",
+                    "description": "Yes/no. Excluding prophylactic antibiotics and excluding perioperative prophylactic antibiotics.",
+                    "timeFrame": "Between admission to 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Positive sputum culture with presumed pathogen",
+                    "description": "Yes/no",
+                    "timeFrame": "Between enrollment and 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Any positive culture with organism resistant to prophylactic antibiotics",
+                    "description": "Yes/no",
+                    "timeFrame": "Between admission and 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Positive C. Difficile stool toxin assay after enrollment",
+                    "description": "Yes/no",
+                    "timeFrame": "Between enrollment and 30 days, death, or hospital discharge, whichever occurs first"
+                },
+                {
+                    "measure": "Temperature >38 centigrade on day 3",
+                    "description": "Yes/no",
+                    "timeFrame": "Day 3 after enrollment"
+                },
+                {
+                    "measure": "White blood cell count >11k on day 3",
+                    "description": "Yes/no",
+                    "timeFrame": "Day 3 after enrollment"
+                },
+                {
+                    "measure": "Arterial oxygen saturation / Fraction of inspired oxygen (S/F) <215 on day 3",
+                    "description": "Yes/no",
+                    "timeFrame": "Day 3 after enrollment"
+                },
+                {
+                    "measure": "Purulent secretions",
+                    "description": "Yes/no",
+                    "timeFrame": "Day 3 after enrollment"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Admitted to the ICU within the last 24 hours, or with a witnessed aspiration event in the last 24 hours while in the ICU\n* Radiographic findings on chest x-ray or CT deemed by the treating ICU team to be consistent with aspiration (e.g. dependent infiltrates or intraluminal airway debris)\n* Clinical history consistent with possible aspiration (e.g. cardiac arrest, found unconscious, or with a witnessed aspiration event).\n\nExclusion Criteria:\n\n* Already received 3 or more doses of any antibiotic since hospital presentation, unless the last dose was greater than 1 week before enrollment\n* Requires antibiotic therapy for the treatment of other infections\n* Patient \"comfort measures only\" at time of screening\n* Currently participating in other trials using investigational drugs or interventions\n* Currently pregnant\n* Currently a prisoner\n* The consenting party (patient or their legally authorized representative) is unable to understand or read English at a fifth-grade level.\n* 2 or more of the following are present at the time of screening:\n* White blood cell count: \u2265 11.0\n* Temperature \u2265 38.0C (100.4F)\n* Purulent secretions\n* S/F (pulse oximetry saturation to FiO2) ratio \u2264 215",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Brandon Oto, PA-C",
+                    "role": "CONTACT",
+                    "phone": "860-679-3107",
+                    "email": "oto@uchc.edu"
+                },
+                {
+                    "name": "Mark Metersky, MD",
+                    "role": "CONTACT",
+                    "phone": "860-679-3582",
+                    "email": "metersky@uchc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Brandon Oto",
+                    "affiliation": "UConn Health, Adult Critical Care",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UConn Health, John Dempsey Hospital",
+                    "status": "RECRUITING",
+                    "city": "Farmington",
+                    "state": "Connecticut",
+                    "zip": "06030",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Brandon Oto, PA-C",
+                            "role": "CONTACT",
+                            "phone": "860-679-3107",
+                            "email": "oto@uchc.edu"
+                        },
+                        {
+                            "name": "Mark Metersky, MD",
+                            "role": "CONTACT",
+                            "email": "metersky@uchc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.71982,
+                        "lon": -72.83204
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "29438467",
+                    "type": "BACKGROUND",
+                    "citation": "Dragan V, Wei Y, Elligsen M, Kiss A, Walker SAN, Leis JA. Prophylactic Antimicrobial Therapy for Acute Aspiration Pneumonitis. Clin Infect Dis. 2018 Aug 1;67(4):513-518. doi: 10.1093/cid/ciy120."
+                },
+                {
+                    "pmid": "15754197",
+                    "type": "BACKGROUND",
+                    "citation": "Acquarolo A, Urli T, Perone G, Giannotti C, Candiani A, Latronico N. Antibiotic prophylaxis of early onset pneumonia in critically ill comatose patients. A randomized study. Intensive Care Med. 2005 Apr;31(4):510-6. doi: 10.1007/s00134-005-2585-5. Epub 2005 Mar 8."
+                },
+                {
+                    "pmid": "25129577",
+                    "type": "BACKGROUND",
+                    "citation": "DiBardino DM, Wunderink RG. Aspiration pneumonia: a review of modern trends. J Crit Care. 2015 Feb;30(1):40-8. doi: 10.1016/j.jcrc.2014.07.011. Epub 2014 Jul 22."
+                },
+                {
+                    "pmid": "12689848",
+                    "type": "BACKGROUND",
+                    "citation": "El-Solh AA, Pietrantoni C, Bhat A, Aquilina AT, Okada M, Grover V, Gifford N. Microbiology of severe aspiration pneumonia in institutionalized elderly. Am J Respir Crit Care Med. 2003 Jun 15;167(12):1650-4. doi: 10.1164/rccm.200212-1543OC. Epub 2003 Apr 10."
+                },
+                {
+                    "pmid": "31693806",
+                    "type": "BACKGROUND",
+                    "citation": "Francois B, Cariou A, Clere-Jehl R, Dequin PF, Renon-Carron F, Daix T, Guitton C, Deye N, Legriel S, Plantefeve G, Quenot JP, Desachy A, Kamel T, Bedon-Carte S, Diehl JL, Chudeau N, Karam E, Durand-Zaleski I, Giraudeau B, Vignon P, Le Gouge A; CRICS-TRIGGERSEP Network and the ANTHARTIC Study Group. Prevention of Early Ventilator-Associated Pneumonia after Cardiac Arrest. N Engl J Med. 2019 Nov 7;381(19):1831-1842. doi: 10.1056/NEJMoa1812379."
+                },
+                {
+                    "pmid": "28594680",
+                    "type": "BACKGROUND",
+                    "citation": "Lascarrou JB, Lissonde F, Le Thuaut A, Bachoumas K, Colin G, Henry Lagarrigue M, Vinatier I, Fiancette M, Lacherade JC, Yehia A, Joret A, Lebert C, Bourdon S, Martin Lefevre L, Reignier J. Antibiotic Therapy in Comatose Mechanically Ventilated Patients Following Aspiration: Differentiating Pneumonia From Pneumonitis. Crit Care Med. 2017 Aug;45(8):1268-1275. doi: 10.1097/CCM.0000000000002525."
+                },
+                {
+                    "pmid": "31573350",
+                    "type": "BACKGROUND",
+                    "citation": "Metlay JP, Waterer GW, Long AC, Anzueto A, Brozek J, Crothers K, Cooley LA, Dean NC, Fine MJ, Flanders SA, Griffin MR, Metersky ML, Musher DM, Restrepo MI, Whitney CG. Diagnosis and Treatment of Adults with Community-acquired Pneumonia. An Official Clinical Practice Guideline of the American Thoracic Society and Infectious Diseases Society of America. Am J Respir Crit Care Med. 2019 Oct 1;200(7):e45-e67. doi: 10.1164/rccm.201908-1581ST."
+                },
+                {
+                    "pmid": "20469622",
+                    "type": "BACKGROUND",
+                    "citation": "Marik PE. Aspiration syndromes: aspiration pneumonia and pneumonitis. Hosp Pract (1995). 2010 Feb;38(1):35-42. doi: 10.3810/hp.2010.02.276."
+                },
+                {
+                    "pmid": "9925081",
+                    "type": "BACKGROUND",
+                    "citation": "Marik PE, Careau P. The role of anaerobes in patients with ventilator-associated pneumonia and aspiration pneumonia: a prospective study. Chest. 1999 Jan;115(1):178-83. doi: 10.1378/chest.115.1.178."
+                },
+                {
+                    "pmid": "11801813",
+                    "type": "BACKGROUND",
+                    "citation": "Rebuck JA, Rasmussen JR, Olsen KM. Clinical aspiration-related practice patterns in the intensive care unit: a physician survey. Crit Care Med. 2001 Dec;29(12):2239-44. doi: 10.1097/00003246-200112000-00001."
+                },
+                {
+                    "pmid": "9154884",
+                    "type": "BACKGROUND",
+                    "citation": "Sirvent JM, Torres A, El-Ebiary M, Castro P, de Batlle J, Bonet A. Protective effect of intravenously administered cefuroxime against nosocomial pneumonia in patients with structural coma. Am J Respir Crit Care Med. 1997 May;155(5):1729-34. doi: 10.1164/ajrccm.155.5.9154884."
+                },
+                {
+                    "pmid": "23715136",
+                    "type": "BACKGROUND",
+                    "citation": "Valles J, Peredo R, Burgueno MJ, Rodrigues de Freitas AP, Millan S, Espasa M, Martin-Loeches I, Ferrer R, Suarez D, Artigas A. Efficacy of single-dose antibiotic against early-onset pneumonia in comatose patients who are ventilated. Chest. 2013 May;143(5):1219-1225. doi: 10.1378/chest.12-1361."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000011015",
+                    "term": "Pneumonia, Aspiration"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M19010",
+                    "name": "Critical Illness",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "asFound": "Pneumonia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27445",
+                    "name": "Pneumonia, Ventilator-Associated",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13905",
+                    "name": "Pneumonia, Aspiration",
+                    "asFound": "Aspiration Pneumonia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000658",
+                    "term": "Amoxicillin"
+                },
+                {
+                    "id": "D000014640",
+                    "term": "Vancomycin"
+                },
+                {
+                    "id": "D000064704",
+                    "term": "Levofloxacin"
+                },
+                {
+                    "id": "D000002443",
+                    "term": "Ceftriaxone"
+                },
+                {
+                    "id": "D000019980",
+                    "term": "Amoxicillin-Potassium Clavulanate Combination"
+                },
+                {
+                    "id": "D000002969",
+                    "term": "Clavulanic Acids"
+                },
+                {
+                    "id": "D000019818",
+                    "term": "Clavulanic Acid"
+                },
+                {
+                    "id": "D000077723",
+                    "term": "Cefepime"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000900",
+                    "term": "Anti-Bacterial Agents"
+                },
+                {
+                    "id": "D000000890",
+                    "term": "Anti-Infective Agents"
+                },
+                {
+                    "id": "D000000892",
+                    "term": "Anti-Infective Agents, Urinary"
+                },
+                {
+                    "id": "D000059005",
+                    "term": "Topoisomerase II Inhibitors"
+                },
+                {
+                    "id": "D000059003",
+                    "term": "Topoisomerase Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000065609",
+                    "term": "Cytochrome P-450 CYP1A2 Inhibitors"
+                },
+                {
+                    "id": "D000065607",
+                    "term": "Cytochrome P-450 Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000097911",
+                    "term": "Third Generation Cephalosporins"
+                },
+                {
+                    "id": "D000097902",
+                    "term": "Beta Lactam Antibiotics"
+                },
+                {
+                    "id": "D000065093",
+                    "term": "beta-Lactamase Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5693",
+                    "name": "Ceftriaxone",
+                    "asFound": "DHA",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17388",
+                    "name": "Vancomycin",
+                    "asFound": "Evidence",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3995",
+                    "name": "Amoxicillin",
+                    "asFound": "Movement",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4222",
+                    "name": "Anti-Bacterial Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4224",
+                    "name": "Antibiotics, Antitubercular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6204",
+                    "name": "Clavulanic Acids",
+                    "asFound": "Substance abuse",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21710",
+                    "name": "Clavulanic Acid",
+                    "asFound": "Substance abuse",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M30370",
+                    "name": "Levofloxacin",
+                    "asFound": "Endothelial",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21845",
+                    "name": "Amoxicillin-Potassium Clavulanate Combination",
+                    "asFound": "Cilastatin",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17946",
+                    "name": "Ofloxacin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1884",
+                    "name": "Cefepime",
+                    "asFound": "Left side",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11688",
+                    "name": "Methicillin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4214",
+                    "name": "Anti-Infective Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29348",
+                    "name": "Topoisomerase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30537",
+                    "name": "Cytochrome P-450 Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5760",
+                    "name": "Cephalosporins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3453",
+                    "name": "Third Generation Cephalosporins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10789",
+                    "name": "Lactams",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25772",
+                    "name": "beta-Lactams",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3444",
+                    "name": "Beta Lactam Antibiotics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30450",
+                    "name": "beta-Lactamase Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,299 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04470024",
+            "orgStudyIdInfo": {
+                "id": "2020000480"
+            },
+            "organization": {
+                "fullName": "Providence Health & Services",
+                "class": "OTHER"
+            },
+            "briefTitle": "Phase Ib Trial of Multivalent Autophagosome Vaccine With or Without GITR Agonist, With Anti-PD-1 Immunotherapy in HNSCC",
+            "officialTitle": "A Phase Ib Study of Multivalent Autophagosome Vaccine, With or Without GITR Agonist, With Sequenced Checkpoint Inhibition (Anti-PD-1) - Immunotherapy Trio in Recurrent or Metastatic Head and Neck Squamous Cell Carcinoma (HNSCC)",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "phase-ib-trial-of-multivalent-autophagosome-vaccine-with-or-without-gitr-agonist-with-anti-pd-immunotherapy-in-hnscc"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-08-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-07-09",
+            "studyFirstSubmitQcDate": "2020-07-09",
+            "studyFirstPostDateStruct": {
+                "date": "2020-07-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Providence Health & Services",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a phase Ib study with a safety lead-in (n = 6 per arm) evaluating combinatorial DPV-001 + sequenced PD-1 blockade, with or without GITR agonist, in recurrent or metastatic HNSCC.",
+            "detailedDescription": "This is a phase Ib trial of an autophagosome vaccine (DPV-001) with or without anti-GITR (INCAGN01876), combined with subsequent anti-PD1 (INCMGA00012), in patients with recurrent or metastatic HNSCC. Eligible patients will be registered and assigned to one of two treatment arms. Subjects in Arm 1 will receive combination therapy with DPV-001 with delayed anti-PD-1, and subjects in Arm 2 will receive DPV-001 and anti-GITR with delayed anti-PD-1 (triplet therapy). Mandatory biopsy will occur at week 2. Initial restaging CT and mandatory biopsy will occur at 8 weeks, followed by confirmatory CT at 12 weeks. Subsequent restaging CT will be performed at week 24 and every 12 weeks thereafter. Starting at week 22, dosing of DPV-101 will switch to a q4wk schedule, while the schedule of anti-GITR and anti-PD1 will remain unchanged."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cancer of the Head and Neck"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "The trial will have a run-in safety phase for each of the 2 arms, starting with arm 1 using a standard 3+3 design. If arm 1 is deemed safe, the safety run-in for arm 2 will begin enrollment, using the same 3+3 design. If arm 2 is deemed safe, enrollment will continue to 15 in each arm (total n = 30). Patients enrolling after the safety run-in will be randomly assigned to either arm 1 or arm 2.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 56,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm 1",
+                    "type": "EXPERIMENTAL",
+                    "description": "Vax + delayed anti-PD-1",
+                    "interventionNames": [
+                        "Drug: INCMGA00012",
+                        "Biological: DPV-001"
+                    ]
+                },
+                {
+                    "label": "Arm 2 (CLOSED TO ENROLLMENT)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Vax + anti-GITR + delayed anti-PD-1",
+                    "interventionNames": [
+                        "Drug: INCAGN01876",
+                        "Drug: INCMGA00012",
+                        "Biological: DPV-001"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "INCAGN01876",
+                    "description": "agonistic antihuman GITR mAb",
+                    "armGroupLabels": [
+                        "Arm 2 (CLOSED TO ENROLLMENT)"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "INCMGA00012",
+                    "description": "humanized, hinge-stabilized, IgG4\u03ba mAb that recognized human PD-1",
+                    "armGroupLabels": [
+                        "Arm 1",
+                        "Arm 2 (CLOSED TO ENROLLMENT)"
+                    ]
+                },
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "DPV-001",
+                    "description": "autophagosome cancer vaccine",
+                    "armGroupLabels": [
+                        "Arm 1",
+                        "Arm 2 (CLOSED TO ENROLLMENT)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Adverse Events Assessment",
+                    "description": "frequency, duration, and severity of adverse events",
+                    "timeFrame": "from time of informed consent through 90 days after the last study treatment"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "ORR, DOR, DCR",
+                    "description": "Determined by investigator assessment per RECIST v1.1",
+                    "timeFrame": "week 12, 24, and every 12 weeks thereafter"
+                },
+                {
+                    "measure": "Overall survival (OS)",
+                    "description": "Determined from the start of combination until death due to any cause",
+                    "timeFrame": "1 year, 2 years, and study completion"
+                },
+                {
+                    "measure": "Duration of disease control",
+                    "description": "Measured from first report of SD or better (per RECIST v1.1) until PD or death",
+                    "timeFrame": "week 12, 24, and every 12 weeks thereafter"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with recurrent or metastatic head and neck squamous cell carcinoma (HNSCC)\n* Eastern Cooperative Oncology Group (ECOG) performance status 0, 1, or 2 (Appendix C)\n* Age 18 years or above.\n* Laboratory values:\n* WBC \u22652000/uL\n* Hgb \\>8.0 g/dl (patients may be transfused to reach this level)\n* Platelets \\>75,000 cells/mm3\n* Serum creatinine clearance \u2265 50 mL/min measured or calculated by Cockcroft-Gault (C-G) equation\n* Negative bHCG (urine/serum) Women of childbearing potential only\n* AST (SGOT) and ALT (SGPT) \u22642.5 \u00d7 upper limit of laboratory normal (ULN) OR \u2264 5 \u00d7 ULN for participants with liver metastases\n* Alkaline phosphatase \u22642.5 \u00d7 ULN OR \u2264 5 \u00d7 ULN for participants with liver metastases\n* Total bilirubin \u22641.5 \u00d7 ULN. If total bilirubin is \\>1.5, conjugated bilirubin must be \u2264 ULN (conjugated bilirubin only needs to be tested if total bilirubin exceeds ULN). If there is no institutional ULN, then conjugated bilirubin must be \\< 40% of total bilirubin.\n* Patients positive for hepatitis B core antibody (anti-HBc, total), are eligible only if HBV DNA is non-detectable by qPCR.\n* Patients positive for hepatitis C virus (HCV) antibody are eligible only if HCV RNA is non-detectable by qPCR.\n* Patients positive for HIV 1/2 antibodies, are eligible if ARV treatment compliant with documented stable CD4 \\> 300 for at least 6 months and undetectable viral load\n* Ability to give informed consent and comply with the protocol.\n* Anticipated lifespan greater than 12 weeks.\n* Women of childbearing potential must have negative serum/urine pregnancy test \\<5 days prior to start of study.\n* Males and women of childbearing potential, must agree to take appropriate precautions to avoid pregnancy during treatment and through 180 days after last dose of study treatment (see Appendix A).\n\nExclusion Criteria:\n\n* Concurrent enrollment in another clinical study, unless it is an observational (non-interventional) clinical study or during the follow-up period of an interventional study.\n* Receipt of any investigational anticancer therapy during the last 28 days or 5 half-lives, whichever is shorter, prior to the first dose of study treatment.\n* Any concurrent chemotherapy, investigational agent, biologic, or hormonal therapy for cancer treatment. Concurrent use of hormonal therapy for non-cancer-related conditions (e.g., hormone replacement therapy) is acceptable.\n* Local treatment of isolated lesions for palliative intent is acceptable (e.g., local surgery or radiotherapy), excluding target lesions, Palliative radiation therapy cannot be administered less than 1 week prior to the first dose of study treatment.\n* Radiotherapy treatment to more than 30% of the bone marrow or with a wide field of radiation within 4 weeks of the first dose of study drug.\n* Radiation therapy in the thoracic region that is \\> 30 Gy within 6 months of the first dose of study treatment. Note: Participants must have recovered from all radiation-related toxicities, not require corticosteroids for this purpose, and not have had radiation pneumonitis.\n* Major surgical procedure (as defined by the Investigator) within 28 days prior to the first dose of study treatment. Note: Local surgery of isolated lesions for palliative intent is acceptable.\n* History of organ transplant, including allogeneic stem cell transplantation.\n* Uncontrolled intercurrent illness as deemed by the investigator, including but not limited to, ongoing or active infection, symptomatic congestive heart failure, uncontrolled hypertension, unstable angina pectoris, unstable cardiac arrhythmia, interstitial lung disease or history of, serious chronic gastrointestinal conditions associated with diarrhea, active noninfectious pneumonitis, or psychiatric illness/social situations that would limit compliance with study requirement, substantially increase risk of incurring AEs or compromise the ability of the patient to give written informed consent.\n* History of another primary malignancy except for:\n\n  * Malignancy treated with curative intent and with no known active disease \u22651.5 years before the first dose of investigational product and of low potential risk for recurrence\n  * Adequately treated non-melanoma skin cancer or lentigo maligna without evidence of disease\n  * Adequately treated carcinoma in situ without evidence of disease\n* History of leptomeningeal carcinomatosis\n* Has untreated central nervous system (CNS) metastases and/or carcinomatous meningitis. Patients whose brain metastases have been treated may participate provided they show radiographic stability (imaging at least four weeks apart showing no evidence of intracranial progression). In addition, any neurologic symptoms that developed either as a result of the brain metastases or their treatment must have resolved or be stable either, without the use of steroids, or are stable on a steroid dose of \u226410mg/day of prednisone or its equivalent and anti-seizure medications for at least 14 days prior to the start of treatment. Patients on a stable dose of seizure medicines for epilepsy unrelated to cancer are eligible for the trial.\n* History of active primary immunodeficiency.\n* Active tuberculosis infection (clinical evaluation that includes clinical history, physical examination and radiographic findings, and TB testing in line with local practice).\n* Active autoimmune disease requiring systemic immunosuppression in excess of physiologic maintenance doses of corticosteroids (\\> 10 mg/day of prednisone or equivalent).:\n\n  * Physiologic corticosteroid replacement therapy at doses \\> 10 mg/day of prednisone or equivalent for adrenal or pituitary insufficiency and in the absence of active autoimmune disease is permitted.\n  * Participants with asthma that requires intermittent use of bronchodilators, inhaled steroids, or local steroid injections may participate.\n  * Participants using topical, ocular, intra-articular, or intranasal steroids (with minimal systemic absorption) may participate.\n  * Brief courses of corticosteroids for prophylaxis (eg, contrast dye allergy) or study treatment-related standard premedication are permitted.\n* Receipt of live attenuated vaccine within 28 days prior to the first dose of study treatment. Note: patients should not receive live vaccine during study treatment and up to 30 days after the last dose of study treatment.\n* Known allergy or hypersensitivity to study drug(s) or compounds of similar biologic composition to the study drug(s), or any of the study drug excipients.\n* Any unresolved NCI CTCAE Grade \u22652 toxicities from prior anti-cancer therapy with the exception of vitiligo, alopecia, and the laboratory values defined in the inclusion criteria.\n* Patients with Grade \u22652 neuropathy will be evaluated on a case-by-case basis after consultation with the Principal Investigator or one of the Co-Principal Investigators.\n* Patients with irreversible toxicity not reasonably expected to be exacerbated by study treatment may be included only after consultation with the Principal Investigator or one of the Co-Principal Investigators.\n* Immune-related toxicity during prior checkpoint inhibitor therapy for which permanent discontinuation of therapy is recommended (per product label or consensus guidelines) OR\n* any immune-related toxicity requiring intensive or prolonged immunosuppression to manage (with the exception of endocrinopathy that is well controlled on replacement hormones).\n* Receipt of systemic antibiotics \u2264 7 days prior to the first dose of study drug.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "George Morris",
+                    "role": "CONTACT",
+                    "phone": "503-215-7503",
+                    "email": "george.morris@providence.org"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Portland Providence Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97213",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "George Morris",
+                            "role": "CONTACT",
+                            "phone": "503-215-7503",
+                            "email": "george.morris@providence.org"
+                        },
+                        {
+                            "name": "Rom Leidner, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006258",
+                    "term": "Head and Neck Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14850",
+                    "name": "Recurrence",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5550",
+                    "name": "Carcinoma, Squamous Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "asFound": "Cancer of the Head and Neck",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M2853",
+                    "name": "Immunomodulating Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17360",
+                    "name": "Vaccines",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

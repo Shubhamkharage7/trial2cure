@@ -1,0 +1,525 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04218370",
+            "orgStudyIdInfo": {
+                "id": "LIBERATED"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01DK122797",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01DK122797"
+                }
+            ],
+            "organization": {
+                "fullName": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "briefTitle": "Liberation From Acute Dialysis",
+            "officialTitle": "LIBERation From AcuTE Dialysis",
+            "acronym": "LIBERATE-D",
+            "therapeuticArea": [
+                "Nephrology and Renal Diseases",
+                "Other"
+            ],
+            "study": "liberation-from-acute-dialysis"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-01-23",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-12-19",
+            "studyFirstSubmitQcDate": "2020-01-03",
+            "studyFirstPostDateStruct": {
+                "date": "2020-01-06",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-11",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Vanderbilt University Medical Center",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "National Institutes of Health (NIH)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of the LIBERATE-D clinical trial is to improve outcomes for patients recovering from dialysis-requiring acute kidney injury (AKI-D). The impact of a conservative dialysis strategy compared to standard clinical practice of thrice-weekly dialysis will be examined to help generate knowledge for how to guide delivery of dialysis to facilitate renal recovery.",
+            "detailedDescription": "Dialysis-requiring acute kidney injury (AKI-D) is a devastating complication among hospitalized patients for which there are no treatments other than supportive care. Recovery of sufficient renal function to stop dialysis is an unequivocally important clinical and patient-oriented outcome. Shortening dialysis duration and increasing the number of AKI-D patients who recover would have a major clinical, public health and cost-saving impact. However, there is currently no evidence to guide the delivery of dialysis to facilitate recovery. The investigators hypothesize that in patients who have AKI-D and who are hemodynamically stable, a conservative dialysis strategy--in which hemodialysis is not continued unless specific metabolic or clinical indications for renal replacement therapy (RRT) are present--will improve the likelihood of renal recovery compared with the current standard clinical practice of thrice-weekly intermittent dialysis. The investigators have conducted a pilot clinical trial to demonstrate the feasibility of this approach. The investigators propose here a 2-center randomized controlled trial to test a conservative dialysis strategy in a larger AKI-D population (N = 220)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Acute Kidney Injury",
+                "Kidney; Disease, Acute",
+                "Dialysis Related Complication"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 220,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Conventional",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Thrice-weekly intermittent dialysis until pre-specified criteria for recovery are met",
+                    "interventionNames": [
+                        "Procedure: Dialysis"
+                    ]
+                },
+                {
+                    "label": "Conservative",
+                    "type": "EXPERIMENTAL",
+                    "description": "Conservative dialysis strategy--dialysis prescribed only when specific metabolic or clinical indications are met. These indications are: blood urea nitrogen \\>112 mg/dL (40 mmol/L; blood potassium concentration \\>6 mmol/L; blood potassium concentration \\>5.5 mmol/L despite medical treatment; arterial blood gas pH \\<7.15, or in the absence of an available blood gas, serum bicarbonate \\<12 mmol/L, acute pulmonary edema due to fluid overload, responsible for hypoxemia requiring oxygen flow rate \\>5 L/min or equivalent via face mask/tracheostomy mask to maintain SpO2 \\>95% or requiring FiO2 \\>50% in patients with tracheostomy already on invasive or non-invasive mechanical ventilation and despite diuretic therapy; clinician judgement",
+                    "interventionNames": [
+                        "Procedure: Dialysis"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Dialysis",
+                    "description": "Dialysis treatment, either in the form of hemodialysis or continuous renal replacement therapy (if patient develops hemodynamic instability)",
+                    "armGroupLabels": [
+                        "Conservative",
+                        "Conventional"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Proportion of patients with renal recovery at hospital discharge",
+                    "description": "Alive and off dialysis at the time of discharge, with sustained independence from dialysis for 14 days. This outcome does not require that all 14 days of sustained independence occur in-hospital.",
+                    "timeFrame": "Up to 14 days after hospital discharge (to allow for ascertainment of outcome at hospital discharge, which requires a period of sustained dialysis independence)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of dialysis sessions/week",
+                    "description": "Number of dialysis sessions prescribed in each treatment arm, expressed per week.",
+                    "timeFrame": "Up to 28 days"
+                },
+                {
+                    "measure": "Dialysis-free days to study day 28",
+                    "description": "The number of days that a patient did not need dialysis to study day 28. A patient can only accrue dialysis-free days after the final dialysis session that commences the monitoring period for renal recovery. Subjects who die before study day 28 will be considered to have zero dialysis-free days.",
+                    "timeFrame": "Up to 28 days"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Renal recovery at day 28",
+                    "description": "Alive and off dialysis at day 28, with sustained independence from dialysis for 14 days.",
+                    "timeFrame": "Up to 42 days (to allow for ascertainment of outcome at day 28, which requires a period of sustained dialysis independence)"
+                },
+                {
+                    "measure": "Renal recovery",
+                    "description": "Alive and off dialysis at day 90, with sustained independence from dialysis for 14 days.",
+                    "timeFrame": "Up to 104 days (to allow for ascertainment of outcome at day 28, which requires a period of sustained dialysis independence)"
+                },
+                {
+                    "measure": "All-cause in-hospital mortality",
+                    "description": "Vital status at the time of hospital discharge",
+                    "timeFrame": "Up to date of death from any cause, assessed up to 12 months"
+                },
+                {
+                    "measure": "All-cause day 28 mortality",
+                    "description": "Vital status at day 28 after study enrollment",
+                    "timeFrame": "Up to 28 days"
+                },
+                {
+                    "measure": "All-cause day 90 mortality",
+                    "description": "Vital status at day 90 after study enrollment",
+                    "timeFrame": "Up to 90 days"
+                },
+                {
+                    "measure": "Length of hospital stay",
+                    "description": "Duration of hospital stay after study enrollment",
+                    "timeFrame": "Up to date of hospital discharge or death from any cause, whichever comes first, assessed up to 12 months"
+                },
+                {
+                    "measure": "Time to renal recovery",
+                    "description": "Days after study enrollment before renal recovery occurs",
+                    "timeFrame": "Up to day 90"
+                },
+                {
+                    "measure": "Pre-specified adverse events",
+                    "description": "Adverse events that might be related to the dialysis intervention, including emergent dialysis sessions, intradialytic hypotension and post-dialysis hypotension",
+                    "timeFrame": "Up to 28 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* \u2265 18 years of age\n* Inpatient with AKI-D (intermittent hemodialysis or continuous renal replacement therapy received on at least one calendar day) at least partially due t acute tubular necrosis per the clinical nephrology team\n* Hemodynamic stability: not requiring vasopressor support and with planned intermittent dialysis\n* Baseline estimated glomerular filtration rate (eGFR) \u2265 15 mL/min/1.73 m2\n\nExclusion Criteria:\n\n* Nontraditional indication for dialysis (end-stage liver disease awaiting transplantation, fulminant hepatic failure, intoxication)\n* Complete nephrectomy as cause of AKI-D\n* Kidney transplant during index hospitalization\n* Dialysis \\> 3 months\n* Decompensated heart failure requiring left ventricular assist device or continuous inotropic support\n* Mechanical ventilation via endotracheal tube\n* Hypoxemia requiring significant oxygen support: \\>5 liters/min via nasal cannula or equivalent via face mask/tracheostomy mask to maintain oxygen saturation \\> 95%, or requiring fraction of inspired oxygen \\>50% in patients with tracheostomy requiring invasive or non-invasive ventilation\n* Unable to consent and no surrogate decisionmaker available\n* Pregnant\n* Prisoner\n* Clinical team declines to allow study participation\n* Anticipated discharge or transfer from study hospital within 48 hours",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kathleen Liu, MD, PhD, MAS",
+                    "role": "CONTACT",
+                    "phone": "4155027998",
+                    "email": "kathleen.liu@ucsf.edu"
+                },
+                {
+                    "name": "Chi-yuan Hsu, MD, MSc",
+                    "role": "CONTACT",
+                    "phone": "4153532379",
+                    "email": "chi-yuan.hsu@ucsf.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kathleen Liu, MD, PhD, MAS",
+                    "affiliation": "University of California, San Francisco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Chi-yuan Hsu, MD, MSc",
+                    "affiliation": "University of California, San Francisco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Califonia, San Francisco",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94143",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kathleen Liu, MD, PhD, MAS",
+                            "role": "CONTACT",
+                            "phone": "415-502-7998",
+                            "email": "kathleen.liu@ucsf.edu"
+                        },
+                        {
+                            "name": "Chi-yuan Hsu, MD, MSc",
+                            "role": "CONTACT",
+                            "phone": "415-353-2379",
+                            "email": "chi-yuan.hsu@ucsf.edu"
+                        },
+                        {
+                            "name": "Kathleen Liu, MD, PhD, MAS",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Chi-yuan Hsu, MD, MSc",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                },
+                {
+                    "facility": "Washington University in St Louis/Barnes-Jewish Hospital",
+                    "status": "RECRUITING",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Gonzalo Matzumura Umemoto, MD",
+                            "role": "CONTACT",
+                            "phone": "314-362-7211"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                },
+                {
+                    "facility": "Vanderbilt University Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37212",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Edward Siew, MD",
+                            "role": "CONTACT",
+                            "phone": "615-343-1279",
+                            "email": "edward.siew@vumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "Intermountain Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Murray",
+                    "state": "Utah",
+                    "zip": "84107",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Anitha Vijayan, MD",
+                            "role": "CONTACT",
+                            "phone": "385-630-5660"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.66689,
+                        "lon": -111.88799
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000058186",
+                    "term": "Acute Kidney Injury"
+                },
+                {
+                    "id": "D000000208",
+                    "term": "Acute Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000051437",
+                    "term": "Renal Insufficiency"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M28998",
+                    "name": "Acute Kidney Injury",
+                    "asFound": "Acute Kidney Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3564",
+                    "name": "Acute Disease",
+                    "asFound": "Disease, Acute",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26718",
+                    "name": "Renal Insufficiency",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M7411",
+                    "name": "Diuretics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1804",
+                    "name": "Carbamide Peroxide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4854",
+                    "name": "Benzocaine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T433",
+                    "name": "Tannic Acid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "Ot",
+                    "name": "Other Dietary Supplements"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

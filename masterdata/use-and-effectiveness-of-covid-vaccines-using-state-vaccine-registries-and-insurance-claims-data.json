@@ -1,0 +1,454 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05876377",
+            "orgStudyIdInfo": {
+                "id": "C4591059"
+            },
+            "organization": {
+                "fullName": "Pfizer",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Use and Effectiveness of COVID-19 Vaccines Using State Vaccine Registries and Insurance Claims Data",
+            "officialTitle": "Use and Effectiveness of COVID-19 Vaccines Using State Vaccine Registries and Insurance Claims Data",
+            "therapeuticArea": [
+                "Rare Diseases",
+                "Infectious Diseases",
+                "Other"
+            ],
+            "study": "use-and-effectiveness-of-covid-vaccines-using-state-vaccine-registries-and-insurance-claims-data"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-10-23",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-23",
+            "studyFirstSubmitQcDate": "2023-05-23",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-25",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Pfizer",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study aims to use vaccination information from state vaccine registries linked with HealthVerity insurance claims for the following:\n\n* to measure how effective the Pfizer-BioNTech vaccine is at preventing post-COVID conditions.\n* to understand characteristics of patients who are receiving COVID-19 vaccines.\n\nAll patients whose information is kept unidentified in the HealthVerity database are eligible to be included for both aims of this study.",
+            "detailedDescription": "We will assess the effectiveness of the COVID-19 vaccine in preventing post-vaccine health conditions. To do this, we will employ a target trial emulation design, examining the vaccine's effectiveness from the time it was authorized or approved, specifically for different age groups, up until the most recent available data. We will gather patient data from HealthVerity, including those enrolled in the claims database, and supplement it with information from the state's deidentified vaccine registry. Only patients eligible to receive the vaccine during the study period will be included in the analysis of post-vaccine health conditions. We will compare vaccinated individuals with those eligible for vaccination but not vaccinated, using various statistical methods such as descriptive statistics, incidence rates, hazard ratios, and survival curves.\n\nThe second part of our study will use a retrospective cohort design to examine the uptake of the vaccine in specific groups over time. We will identify subjects through two different methods: 1) by analyzing all available dosing records in the Immunization Registry, 2) by using HealthVerity claims data based on specific time periods when the vaccine was available. We will follow these individuals until they receive the vaccine under investigation, leave the study, reach the end of the available data, or pass away. We will assess overall vaccination rates and also analyze the data based on the specific type of prior vaccine dose received."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "SARS-CoV-2",
+                "COVID-19",
+                "Post-Acute COVID-19 Syndrome"
+            ],
+            "keywords": [
+                "COVID-19 Vaccines",
+                "COVID-19 Drug Treatment"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 999,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Patient had Pfizer-BioNTech COVID-19 mRNA vaccine of interest",
+                    "description": "Patient identified in the vaccine registry having one or more dose of Pfizer-BioNTech COVID-19 mRNA vaccine of interest",
+                    "interventionNames": [
+                        "Biological: Pfizer-BioNTech COVID-19 mRNA vaccine"
+                    ]
+                },
+                {
+                    "label": "Patient did not have a Pfizer-BioNTech COVID-19 mRNA vaccine of interest",
+                    "description": "Patient not located in the vaccine registry having one or more dose of Pfizer-BioNTech COVID-19 mRNA vaccine of interest"
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "Pfizer-BioNTech COVID-19 mRNA vaccine",
+                    "description": "Pfizer-BioNTech COVID-19 Vaccine, is FDA licensed or authorized under Emergency Use Authorization (EUA) for active immunization to prevent coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in individuals 6 months of age and older.",
+                    "armGroupLabels": [
+                        "Patient had Pfizer-BioNTech COVID-19 mRNA vaccine of interest"
+                    ],
+                    "otherNames": [
+                        "Pfizer-BioNTech COVID-19 Vaccine"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of patients with Post-COVID condition (PCC) up to 120 days after infection",
+                    "description": "The primary endpoint is a cardiopulmonary composite PCC diagnosis as defined by Xie et al. (doi:10.1001/jamainternmed.2023.0743). All patients are required to have a diagnosis of COVID-19 (ICD-10-CM code = U07.1) as an index event for the subsequent evaluation of a PCC episode. The first 30 days after the diagnosis of COVID-19 will be excluded from the evaluation of a PCC episode as the acute infection period. The evaluation of the PCC episode will begin on Day 31 after the date of COVID-19 diagnosis through day 120.",
+                    "timeFrame": "30-120 days after COVID-19 diagnosis"
+                },
+                {
+                    "measure": "Number of patients with a COVID-19 vaccination",
+                    "description": "Any record of COVID-19 vaccination as recorded in the state immunization registry.",
+                    "timeFrame": "Date of vaccine authorization through the end of the corresponding respiratory season"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of patients with cardiovascular-specific Post-COVID condition (PCC) up to 120 days after infection",
+                    "description": "Secondary endpoints will evaluate PCC by specific organ classes as defined by Xie et al. (doi:10.1001/jamainternmed.2023.0743). All patients are required to have a diagnosis of COVID-19 (ICD-10-CM code = U07.1) as an index event for the subsequent evaluation of a cardiovascular-specific (i.e., dysrhythmia and/or ischemic heart disease) PCC episode. The first 30 days after the diagnosis of COVID-19 will be excluded from the evaluation of a PCC episode as the acute infection period. The evaluation of the cardiovascular-specific PCC episode will begin on Day 31 after the date of COVID-19 diagnosis through day 120.",
+                    "timeFrame": "30-120 days after COVID-19 diagnosis"
+                },
+                {
+                    "measure": "Number of patients with pulmonary-specific Post-COVID condition (PCC) up to 120 days after infection",
+                    "description": "Secondary endpoints will evaluate PCC by specific organ classes as defined by Xie et al. (doi:10.1001/jamainternmed.2023.0743). All patients are required to have a diagnosis of COVID-19 (ICD-10-CM code = U07.1) as an index event for the subsequent evaluation of a pulmonary-specific (i.e., shortness of breath and/or cough) PCC episode. The first 30 days after the diagnosis of COVID-19 will be excluded from the evaluation of a PCC episode as the acute infection period. The evaluation of the pulmonary-specific PCC episode will begin on Day 31 after the date of COVID-19 diagnosis through day 120.",
+                    "timeFrame": "30-120 days after COVID-19 diagnosis"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Number of patients with Post-COVID condition (PCC) up to 180 days after infection",
+                    "description": "A sensitivity analysis will be conducted to extend follow-up to day 180 post diagnosis date for cardiopulmonary composite PCC diagnosis as defined by Xie et al. (doi:10.1001/jamainternmed.2023.0743). All patients are required to have a diagnosis of COVID-19 (ICD-10-CM code = U07.1) as an index event for the subsequent evaluation of a PCC episode. The first 30 days after the diagnosis of COVID-19 will be excluded from the evaluation of a PCC episode as the acute infection period. The evaluation of the PCC episode will begin on Day 31 after the date of COVID-19 diagnosis through day 180.",
+                    "timeFrame": "30-180 days after COVID-19 diagnosis"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPatients must meet all of the following inclusion criteria to be eligible for inclusion in the study:\n\n1. Include patients whose claims records and vaccine registry data are both available in the HealthVerity databases\n2. Include patients who are eligible to receive the licensed/authorized vaccine during the study period\n\nExclusion Criteria:\n\nPatients meeting any of the following criteria will not be included in the study:\n\n1. Exclude patients with a condition of interest prior to being eligible for the mRNA COVID-19 vaccine booster\n2. Receipt of the mRNA COVID-19 vaccine booster prior to date of licensure/authorization (i.e., September 11, 2023 for XBB formulation)\n3. Receipt of the licensed/authorized mRNA COVID-19 vaccine prior to being eligible\n\n   a. Exclude patients who received the licensed/authorized vaccine \\<2 months since receipt of the most recent prior dose\n4. Exclude patients who have had \\>1 mRNA COVID-19 vaccine dose of the current formulation prior to COVID-19 diagnosis\n5. Exclude patients who had a non-Pfizer/BioNTech COVID-19 Vaccine of the current formulation prior to COVID-19 diagnosis\n6. Exclude patients who are immunocompromised or pregnant at COVID-19 diagnosis\n7. Exclude patients who die or disenroll within 28 days after COVID-19 diagnosis\n8. Exclude patients who received a booster less than 14 days before COVID diagnosis\n9. Exclude patients who receive a COVID-19 vaccine in the period between index (COVID diagnosis) and start of follow-up (31 days after COVID-19 diagnosis)\n10. Exclude persons who had a COVID episode documented within 90 days prior to index, as the index infection is considered a recent reinfection.\n11. Exclude persons who have discrepancies in sex and/or year of birth between HealthVerity claims and state Immunization registry datasets.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Months",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients will be sourced from HealthVerity and includes patients who are enrolled in the claims database as well as recorded in contributing states' deidentified vaccine registries. Patients who will be followed for the PCC endpoint must be eligible to receive the licensed/authorized vaccine during the study period.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Pfizer CT.gov Call Center",
+                    "role": "CONTACT",
+                    "phone": "1-800-718-1021",
+                    "email": "ClinicalTrials.gov_Inquiries@pfizer.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Pfizer CT.gov Call Center",
+                    "affiliation": "Pfizer",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Pfizer",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10001",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "To obtain contact information for a study center near you, click here.",
+                    "url": "https://pmiform.com/clinical-trial-info-request?StudyID=C4591059"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Pfizer will provide access to individual de-identified participant data and related study documents (e.g. protocol, Statistical Analysis Plan (SAP), Clinical Study Report (CSR)) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions. Further details on Pfizer's data sharing criteria and process for requesting access can be found at: https://www.pfizer.com/science/clinical_trials/trial_data_and_results/data_requests."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000086382",
+                    "term": "COVID-19"
+                },
+                {
+                    "id": "D000094024",
+                    "term": "Post-Acute COVID-19 Syndrome"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000011024",
+                    "term": "Pneumonia, Viral"
+                },
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000018352",
+                    "term": "Coronavirus Infections"
+                },
+                {
+                    "id": "D000003333",
+                    "term": "Coronaviridae Infections"
+                },
+                {
+                    "id": "D000030341",
+                    "term": "Nidovirales Infections"
+                },
+                {
+                    "id": "D000012327",
+                    "term": "RNA Virus Infections"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000094025",
+                    "term": "Post-Infectious Disorders"
+                },
+                {
+                    "id": "D000002908",
+                    "term": "Chronic Disease"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3013",
+                    "name": "Post-Acute COVID-19 Syndrome",
+                    "asFound": "Post-Acute COVID-19 Syndrome",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2561",
+                    "name": "COVID-19",
+                    "asFound": "COVID-19",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13914",
+                    "name": "Pneumonia, Viral",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20490",
+                    "name": "Coronavirus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6555",
+                    "name": "Coronaviridae Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23685",
+                    "name": "Nidovirales Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15149",
+                    "name": "RNA Virus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3014",
+                    "name": "Post-Infectious Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6147",
+                    "name": "Chronic Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000014612",
+                    "term": "Vaccines"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M17360",
+                    "name": "Vaccines",
+                    "asFound": "Other",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

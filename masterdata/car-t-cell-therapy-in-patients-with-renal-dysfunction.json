@@ -1,0 +1,680 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05909059",
+            "orgStudyIdInfo": {
+                "id": "NSH 1375"
+            },
+            "organization": {
+                "fullName": "Northside Hospital, Inc.",
+                "class": "OTHER"
+            },
+            "briefTitle": "CAR T-cell Therapy in Patients With Renal Dysfunction",
+            "officialTitle": "Lymphodepleting Chemotherapy With Fludarabine and Cyclophosphamide Prior to Infusion of CAR T Cell Therapy in Patients With Moderate-Severe Renal Dysfunction",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "car-t-cell-therapy-in-patients-with-renal-dysfunction"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-06-30",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-08-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-08-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-09",
+            "studyFirstSubmitQcDate": "2023-06-09",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Northside Hospital, Inc.",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Blood and Marrow Transplant Group of Georgia",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a prospective, descriptive study designed to assess the feasibility of administering CAR T therapy among patients with moderate to severe renal impairment using dose adjusted lymphodepleting chemotherapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Non-hodgkin Lymphoma,B Cell",
+                "Multiple Myeloma",
+                "Acute Lymphoblastic Leukemia, Adult"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Moderate Renal Dysfunction",
+                    "type": "EXPERIMENTAL",
+                    "description": "Moderate renal dysfunction will receive a 20% dose reduction of fludarabine and no dose reduction for cyclophosphamide.",
+                    "interventionNames": [
+                        "Drug: Fludarabine",
+                        "Drug: Cyclophosphamide"
+                    ]
+                },
+                {
+                    "label": "Severe Renal Dysfunction",
+                    "type": "EXPERIMENTAL",
+                    "description": "Several renal dysfunction will receive a 40% dose reduction of fludarabine and no dose reduction for cyclophosphamide.",
+                    "interventionNames": [
+                        "Drug: Fludarabine",
+                        "Drug: Cyclophosphamide"
+                    ]
+                },
+                {
+                    "label": "Dialysis Participants",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants on dialysis will receive a 50% dose reduction of fludarabine and a 25% dose reduction of cyclophosphamide.",
+                    "interventionNames": [
+                        "Drug: Fludarabine",
+                        "Drug: Cyclophosphamide"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Fludarabine",
+                    "description": "Received IV on Days -5 to -3 before CAR T cell therapy",
+                    "armGroupLabels": [
+                        "Dialysis Participants",
+                        "Moderate Renal Dysfunction",
+                        "Severe Renal Dysfunction"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cyclophosphamide",
+                    "description": "Received IV on Days -5 to -3 before CAR T cell therapy",
+                    "armGroupLabels": [
+                        "Dialysis Participants",
+                        "Moderate Renal Dysfunction",
+                        "Severe Renal Dysfunction"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Occurrence of CRS",
+                    "description": "Collection of maximum grade of CRS (based on CTCAE v5) and when this event occurs post CAR T cell therapy infusion",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Occurrence of ICANS",
+                    "description": "Collection of maximum grade of ICANs (based on CTCAE v5) and when this event occurs after CAR T cell therapy infusion",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Occurrence of Cytopenias",
+                    "description": "Collection of grade 3 or higher (based on CTCAE v5) cytopenias not resolved by Day 30 post CAR T cell infusion",
+                    "timeFrame": "90 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Receiving lymphodepleting chemotherapy prior to commercial CAR-T administration for multiple myeloma, leukemia, or lymphoma\n* Adequate bone marrow function to receive lymphodepleting chemotherapy\n* Renal function \\</= 60mL/min/1.73m2\n* ECOG 0-2\n\nExclusion Criteria:\n\n* Relative CNS disorders\n* Active uncontrolled infection or any other concurrent disease or medical condition that was deemed to interfere with the conduct of the study as judged by the investigator\n* Use of therapeutic dose systemic corticosteroids (defined as \\>20mg/day prednisone or equivalent) within 72 hours of CAR-T administration",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Melhem Solh, MD",
+                    "role": "CONTACT",
+                    "phone": "404-255-1930",
+                    "email": "msolh@bmtga.com"
+                },
+                {
+                    "name": "Caitlin Guzowski, MBA, MHA",
+                    "role": "CONTACT",
+                    "phone": "404-851-8523",
+                    "email": "caitlin.guzowski@northside.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Caitlin Guzowski",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30342",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009101",
+                    "term": "Multiple Myeloma"
+                },
+                {
+                    "id": "D000054198",
+                    "term": "Precursor Cell Lymphoblastic Leukemia-Lymphoma"
+                },
+                {
+                    "id": "D000016393",
+                    "term": "Lymphoma, B-Cell"
+                },
+                {
+                    "id": "D000051437",
+                    "term": "Renal Insufficiency"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000054219",
+                    "term": "Neoplasms, Plasma Cell"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000020141",
+                    "term": "Hemostatic Disorders"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010265",
+                    "term": "Paraproteinemias"
+                },
+                {
+                    "id": "D000001796",
+                    "term": "Blood Protein Disorders"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000006474",
+                    "term": "Hemorrhagic Disorders"
+                },
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                },
+                {
+                    "id": "D000008228",
+                    "term": "Lymphoma, Non-Hodgkin"
+                },
+                {
+                    "id": "D000008223",
+                    "term": "Lymphoma"
+                },
+                {
+                    "id": "D000008206",
+                    "term": "Lymphatic Diseases"
+                },
+                {
+                    "id": "D000007945",
+                    "term": "Leukemia, Lymphoid"
+                },
+                {
+                    "id": "D000007938",
+                    "term": "Leukemia"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11220",
+                    "name": "Lymphoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18828",
+                    "name": "Lymphoma, B-Cell",
+                    "asFound": "Lymphoma, B-Cell",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27585",
+                    "name": "Precursor Cell Lymphoblastic Leukemia-Lymphoma",
+                    "asFound": "Acute Lymphoblastic Leukemia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26718",
+                    "name": "Renal Insufficiency",
+                    "asFound": "Renal Dysfunction",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10945",
+                    "name": "Leukemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10951",
+                    "name": "Leukemia, Lymphoid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12058",
+                    "name": "Multiple Myeloma",
+                    "asFound": "Multiple Myeloma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27588",
+                    "name": "Neoplasms, Plasma Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21977",
+                    "name": "Hemostatic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5059",
+                    "name": "Blood Coagulation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13178",
+                    "name": "Paraproteinemias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5077",
+                    "name": "Blood Protein Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9560",
+                    "name": "Hemorrhagic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11222",
+                    "name": "Lymphoma, Non-Hodgkin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11203",
+                    "name": "Lymphatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3543",
+                    "name": "Lymphosarcoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T640",
+                    "name": "B-cell Lymphoma",
+                    "asFound": "Lymphoma, B-Cell",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T175",
+                    "name": "Acute Lymphoblastic Leukemia",
+                    "asFound": "Acute Lymphoblastic Leukemia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3533",
+                    "name": "Lymphoblastic Lymphoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3947",
+                    "name": "Multiple Myeloma",
+                    "asFound": "Multiple Myeloma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003520",
+                    "term": "Cyclophosphamide"
+                },
+                {
+                    "id": "C000024352",
+                    "term": "Fludarabine"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000018501",
+                    "term": "Antirheumatic Agents"
+                },
+                {
+                    "id": "D000018906",
+                    "term": "Antineoplastic Agents, Alkylating"
+                },
+                {
+                    "id": "D000000477",
+                    "term": "Alkylating Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000019653",
+                    "term": "Myeloablative Agonists"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M17544",
+                    "name": "Vitamin A",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6727",
+                    "name": "Cyclophosphamide",
+                    "asFound": "Effect of",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M283230",
+                    "name": "Fludarabine",
+                    "asFound": "Rate",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M225513",
+                    "name": "Fludarabine phosphate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M302395",
+                    "name": "Retinol palmitate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20604",
+                    "name": "Antirheumatic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20942",
+                    "name": "Antineoplastic Agents, Alkylating",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3820",
+                    "name": "Alkylating Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T468",
+                    "name": "Vitamin A",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T462",
+                    "name": "Retinol",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "ARhu",
+                    "name": "Antirheumatic Agents"
+                },
+                {
+                    "abbrev": "Vi",
+                    "name": "Vitamins"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

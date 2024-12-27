@@ -1,0 +1,612 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05412082",
+            "orgStudyIdInfo": {
+                "id": "20210172"
+            },
+            "organization": {
+                "fullName": "University of Miami",
+                "class": "OTHER"
+            },
+            "briefTitle": "SMART TNT for the Conservative Management of Locally Advanced Rectal Cancer",
+            "officialTitle": "Selective Treatment With Magnetic Resonance Image Guided Pelvic Adaptive Radiation Therapy Combined With Total Neoadjuvant ChemoTherapy for the Conservative Management of Locally Advanced Rectal Cancer",
+            "acronym": "SMART TNT",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "smart-tnt-for-the-conservative-management-of-locally-advanced-rectal-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-10-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-06-06",
+            "studyFirstSubmitQcDate": "2022-06-06",
+            "studyFirstPostDateStruct": {
+                "date": "2022-06-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-28",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Lorraine Portelance, MD",
+                "investigatorTitle": "Professor of Clinical",
+                "investigatorAffiliation": "University of Miami"
+            },
+            "leadSponsor": {
+                "name": "University of Miami",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this research study is to find out how safe and effective is treating patients with locally advanced rectal cancer (LARC) with chemotherapy first and then follow with radiation therapy to a higher dose than what is usually delivered and see if patients could have complete response and be spared from surgery."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Locally Advanced Rectal Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "SMART TNT Plan I",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will initiate therapy with neoadjuvant chemotherapy of either six (6) 14-day cycles of 5-fluorouracil + leucovorin + oxaliplatin (FOLFOX) or four (4) 21-day cycles of capecitabine+oxaliplatin (CAPOX). Participants will then receive chemo-radiation therapy according to Plan I as follows:\n\nPlan I (5 weeks):\n\n* MRI-guided pelvic IMRT to the Planning Tumor Volume (PTV) at a dose of 50 Grays (gy) delivered in 25 fractions (fx) over 5 weeks.\n* Concurrent chemotherapy beginning on Day 1 of RT either:\n\n  * 5-FU delivered 5 or 7 days per week.\n  * Capecitabine (Xeloda) delivered 5 days per week.\n\nAfter completing Plan I, participants achieving complete Clinical Response (cCR) after completing Plan I chemo-radiation will forgo the Plan II boost and continue to follow-up. Participants not achieving cCR will begin Plan II, one week after completing Plan I.",
+                    "interventionNames": [
+                        "Radiation: Intensity-modulated radiation therapy",
+                        "Drug: 5-fluorouracil",
+                        "Drug: Leucovorin",
+                        "Drug: Oxaliplatin",
+                        "Drug: Capecitabine"
+                    ]
+                },
+                {
+                    "label": "SMART TNT Plan II",
+                    "type": "EXPERIMENTAL",
+                    "description": "Plan II boost RT (1 week): For participants not achieving cCR after chemo-radiation. Participants will receive MRI-guided accelerated radiation therapy (ART) boost to the primary tumor.\n\nParticipants achieving a cCR will continue to follow-up. Participants still showing residual tumor will undergo standard of care treatment including surgery and adjuvant chemotherapy per institutional guidelines during follow-up.",
+                    "interventionNames": [
+                        "Radiation: Accelerated Radiation Therapy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "Intensity-modulated radiation therapy",
+                    "description": "MRI-guided pelvic IMRT to the Planning Tumor Volume (PTV) at a dose of 50 Grays (gy) delivered in 25 fractions (fx) over 5 weeks.",
+                    "armGroupLabels": [
+                        "SMART TNT Plan I"
+                    ],
+                    "otherNames": [
+                        "IMRT"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "5-fluorouracil",
+                    "description": "5-FU dose of 400 mg/m2 will be administered intravenously (IV) over 5-15 minutes beginning on Day 1; then a dose of 2400 mg/m2 via continual infusion (CI) over 4446-478 hours total dose during Days 1 and 2 of every 14-day cycle, for 4 to 6 cycles.\n\nDuring SMART TNT Plan I, 5-FU dose of 225 mg/m2 per day will be administered via CI on Day 1 radiation therapy, delivered either 5 or 7 days per week.",
+                    "armGroupLabels": [
+                        "SMART TNT Plan I"
+                    ],
+                    "otherNames": [
+                        "5-FU"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Leucovorin",
+                    "description": "Leucovorin dose of 400 mg/m2 bolus will be administered intravenously (IV) on Day 1 of each 14-day cycle for 4 to 6 cycles, prior to SMART TNT Plan I radiation therapy.",
+                    "armGroupLabels": [
+                        "SMART TNT Plan I"
+                    ],
+                    "otherNames": [
+                        "Folinic acid"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Oxaliplatin",
+                    "description": "Oxaliplatin dose of 85 mg/m2 will be administered intravenously (IV) on Day 1 of each 14-day cycle for 4 - 6 cycles.",
+                    "armGroupLabels": [
+                        "SMART TNT Plan I"
+                    ],
+                    "otherNames": [
+                        "Eloxatin"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Capecitabine",
+                    "description": "Capecitabine will be administered orally at a dose of 825 mg/m2 via tablet twice per day (BID) on Day 1, 5 days per week.",
+                    "armGroupLabels": [
+                        "SMART TNT Plan I"
+                    ],
+                    "otherNames": [
+                        "Xeloda"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Accelerated Radiation Therapy",
+                    "description": "MRI-guided Pelvic accelerated radiation therapy (ART) given over one week at one of the following dose levels :\n\n* Dose level -1: 10 Gy delivered in 4 fractions\n* Dose level 0: 12 Gy delivered in 4 fractions\n* Dose level 1: 14 Gy delivered in 4 fractions\n* Dose level 2: 16 Gy in delivered 4 fractions",
+                    "armGroupLabels": [
+                        "SMART TNT Plan II"
+                    ],
+                    "otherNames": [
+                        "ART"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Incidence of Toxicity Among Participants After Start Receiving MRI-g Pelvic ART",
+                    "description": "Reported as the incidence of toxicity (adverse events and serious adverse events) in study participants after start of MRI-g Pelvic ART. Toxicity in study participants will be assessed using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 5.0, per physician discretion.",
+                    "timeFrame": "Up to 30 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Incidence of Acute and Long-Term Toxicity After Start of Study Therapy",
+                    "description": "Reported as the incidence of grade 3 or higher acute and long-term toxicity by organ in study participants after start of study therapy. These toxicities will be assessed using the National Cancer Institute (NCI) Common Terminology Criteria for Adverse Events (CTCAE) version 5.0, per physician discretion.",
+                    "timeFrame": "Up to 30 months"
+                },
+                {
+                    "measure": "Percentage of Participants with Documented Local Control",
+                    "description": "Local control is defined as the stopping of cancer growth at the original primary site. The percentage of participants with documented local control after study therapy will be reported.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Percentage of Participants with Documented Distant Metastasis",
+                    "description": "Distant metastasis is defined as cancer that has spread form the original (primary) tumor to distant organs and distant lymph nodes. The percentage of participants with documented distant metastasis after study therapy will be reported.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Disease-free Survival (DFS) rate",
+                    "description": "Disease-free survival is defined as the elapsed time after treatment that a person with disease lives without known disease recurrence. DFS rate will be reported as the percentage of participants without disease recurrence after start of treatment.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Overall Survival (OS)",
+                    "description": "OS will be reported as the number of participants still alive after start of treatment.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Percentage of Real Negatives",
+                    "description": "The sensitivity and specificity of multiparametric magnetic resonance imaging (mpMRI) to measure tumor response will be reported as the percentage of real negatives during the course of treatment of study participants.",
+                    "timeFrame": "Up to 6 months"
+                },
+                {
+                    "measure": "Health-related Quality of Life (HRQOL) Scores: Patient-Reported Outcomes Measurement Information System (PROMIS)",
+                    "description": "Patient-Reported Outcomes (PRO) will be measured using the 29-item NIH PROMIS questionnaire, a validated HRQOL measure that provides global levels of health-related quality of life. PROMIS has subscales of emotional distress, fatigue, pain, physical function, sleep disturbance, and satisfaction with social participation.",
+                    "timeFrame": "Up to 30 months"
+                },
+                {
+                    "measure": "Health-related Quality of Life (HRQOL) Scores: Pittsburgh Sleep Quality Index (PSQI)",
+                    "description": "Health-related quality of life will be reported using Pittsburgh Sleep Quality Index (PSQI) which assesses patient-reported sleep quality over a 1-month time interval. The PSQI consists of 19 items including 7 sleep components (subjective sleep quality, sleep latency, sleep duration, habitual sleep efficiency, sleep disturbances, use of sleeping medication, and daytime dysfunction) that produce one global score. Each item is weighted on a 0-3 interval scale. The global PSQI score is then calculated by totaling the seven component scores, providing an overall score ranging from 0 to 21, where lower scores denote a healthier sleep quality.",
+                    "timeFrame": "Up to 30 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with newly diagnosed, biopsy proven, rectal adenocarcinoma.\n2. Primary tumor located \u226418 cm from margin verge.\n3. Primary tumor either a T3N0 or T1-4 N positive (as defined per pelvic MRI; nodes \u2264 15 mm).\n4. \u2265 18 years of age.\n5. Eastern Cooperative Oncology Group (ECOG) performance status 0-2.\n6. Serum liver function tests values within the range of 1.5 x Upper Limit of Normal (within 6 weeks of enrollment).\n7. Negative pregnancy test for women of child-bearing potential (within 4 weeks of enrollment).\n8. Ability to understand and the willingness to sign a written informed consent document.\n9. Patient is assessed by a surgeon, medical oncologist and a radiation oncologist and deemed fit for Total Neoadjuvant ChemoTherapy (TNT) and surgery.\n\nExclusion Criteria:\n\n1. Metastatic disease on initial work up (Chest and abdomen contrast enhanced CT scan).\n2. Synchronous lesion found on colonoscopy.\n3. Previous history of pelvic radiotherapy.\n4. History of concurrent, active malignancy, other than non metastatic skin cancer within the last 5 years.\n5. Symptomatic congestive heart failure of New York Heart Association Class III or IV, unstable angina pectoris or serious uncontrolled cardiac arrhythmia, myocardial infarction within the last 6 months.\n6. Psychiatric illness/social situations that would limit compliance with study requirements.\n7. Active (acute or chronic) or uncontrolled severe infections requiring intravenous antibiotics or active tuberculosis (TB).\n8. Acquired immune deficiency syndrome (AIDS) based upon current Centers for Disease Control (CDC) definition or known HIV seropositivity; note, however, HIV testing is not required for entry into this protocol. The need to exclude patients with HIV/AIDS from this protocol is based on the fact that the treatments involved in this protocol may be significantly immunosuppressive.\n9. Active connective tissue disorders, such as lupus or scleroderma, that in the opinion of the treating physician may put the patient at high risk for radiation toxicity\n10. Sensory or motor neuropathy \u2265 grade 2.\n11. Women who are breast feeding.\n12. Exclusions due to MRI use in study: ferromagnetic metal in body/eye, pacemaker, defibrillator, other mechanical device, or extreme claustrophobia (medication with anti-anxiety agents, such as Ativan, may be attempted).",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Zuzel Rodriguez",
+                    "role": "CONTACT",
+                    "phone": "305-243-0124",
+                    "email": "z.rodriguez1@med.miami.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Lorraine Portelance, MD",
+                    "affiliation": "University of Miami",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Miami",
+                    "status": "RECRUITING",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33136",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Zuzel Rodriguez",
+                            "role": "CONTACT",
+                            "phone": "305-243-0124",
+                            "email": "z.rodriguez1@med.miami.edu"
+                        },
+                        {
+                            "name": "Lorraine Portelance, MD",
+                            "role": "CONTACT",
+                            "phone": "305-243-4200",
+                            "email": "lportelance@med.miami.edu"
+                        },
+                        {
+                            "name": "Lorraine Portelance, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012004",
+                    "term": "Rectal Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14846",
+                    "name": "Rectal Neoplasms",
+                    "asFound": "Rectal Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002955",
+                    "term": "Leucovorin"
+                },
+                {
+                    "id": "D000069287",
+                    "term": "Capecitabine"
+                },
+                {
+                    "id": "D000005472",
+                    "term": "Fluorouracil"
+                },
+                {
+                    "id": "D000077150",
+                    "term": "Oxaliplatin"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000964",
+                    "term": "Antimetabolites, Antineoplastic"
+                },
+                {
+                    "id": "D000000963",
+                    "term": "Antimetabolites"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000000931",
+                    "term": "Antidotes"
+                },
+                {
+                    "id": "D000020011",
+                    "term": "Protective Agents"
+                },
+                {
+                    "id": "D000014803",
+                    "term": "Vitamin B Complex"
+                },
+                {
+                    "id": "D000014815",
+                    "term": "Vitamins"
+                },
+                {
+                    "id": "D000018977",
+                    "term": "Micronutrients"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M377",
+                    "name": "Capecitabine",
+                    "asFound": "200",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1674",
+                    "name": "Oxaliplatin",
+                    "asFound": "Min",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8600",
+                    "name": "Fluorouracil",
+                    "asFound": "According",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8618",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6191",
+                    "name": "Leucovorin",
+                    "asFound": "Sodium",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M29233",
+                    "name": "Levoleucovorin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4281",
+                    "name": "Antimetabolites",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4250",
+                    "name": "Antidotes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21869",
+                    "name": "Protective Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17558",
+                    "name": "Vitamins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17546",
+                    "name": "Vitamin B Complex",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21009",
+                    "name": "Micronutrients",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16885",
+                    "name": "Trace Elements",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T446",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T447",
+                    "name": "Folinic Acid",
+                    "asFound": "Web-",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T448",
+                    "name": "Folate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T475",
+                    "name": "Vitamin B9",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                },
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "Vi",
+                    "name": "Vitamins"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

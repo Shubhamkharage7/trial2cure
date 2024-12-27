@@ -1,0 +1,455 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06487533",
+            "orgStudyIdInfo": {
+                "id": "SBM-OWP-09"
+            },
+            "organization": {
+                "fullName": "Spark Biomedical, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Sensing Physiological Symptoms of Opioid Withdrawal and Cravings in Patients With Opioid Use Disorder",
+            "officialTitle": "Sensing Physiological Symptoms of Opioid Withdrawal and Cravings in Patients With Opioid Use Disorder",
+            "acronym": "Closed-Loop",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "sensing-physiological-symptoms-of-opioid-withdrawal-and-cravings-in-patients-with-opioid-use-disorder"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-10",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-27",
+            "studyFirstSubmitQcDate": "2024-06-27",
+            "studyFirstPostDateStruct": {
+                "date": "2024-07-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Spark Biomedical, Inc.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The primary objective of this trial is to measure changes in physiologic signals to quantify the status of the autonomic nervous system during opioid withdrawal and cravings.",
+            "detailedDescription": "This is a prospective observational clinical trial in which 20 participants with a history of dependence on prescription or non-prescription opioids will be recruited for collection of physiologic data via wearable sensors during a 14-day inpatient detoxification treatment. The EmbracePlus Smartwatch and Corti Sensor will be worn continuously throughout the 14-day treatment course to detect heart rate, heart rate variability, skin conductance, skin temperature, motion, and cortisol levels."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Opioid Withdrawal",
+                "Opioid Use Disorder"
+            ],
+            "keywords": [
+                "Physiological Signals",
+                "Opioid",
+                "Detoxification",
+                "Cravings",
+                "Autonomic Nervous System"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "Urine samples will also be collected for drug screens. Biomarkers collected will include cortisol, melatonin, interleukin-6 (IL-6), and Tumor Necrosis Factor alpha (TNF-\u03b1 levels)."
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Opioid Use Disorder",
+                    "description": "Participants with a history of dependence on prescription or non-prescription opioids",
+                    "interventionNames": [
+                        "Device: EmbracePlus Smartwatch",
+                        "Device: Corti Sensor"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "EmbracePlus Smartwatch",
+                    "description": "The EmbracePlus is worn on the user's wrist and continuously collects raw data via specific sensors. These data can be wirelessly transmitted to a paired mobile device. The data received are analyzed by EmpaDSP, which computes the user physiological parameters. The Care App is responsible for transmitting raw data, device information, Care App-specific information, and computed physiological parameters to the Empatica Cloud. The device supports continuous data collection for monitoring of the following physiological parameters:\n\n* Peripheral skin temperature\n* Electrodermal activity\n* Blood Oxygen Saturation under no motion conditions\n* Activity associated with movement during sleep.\n\nThe EmbracePlus Watch has been used in previous human subject research studies for bio-physiological data collection in other medical conditions and have confirmed that there is minimal risk to participants. This device is therefore exempt from any IDE requirements.",
+                    "armGroupLabels": [
+                        "Opioid Use Disorder"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Corti Sensor",
+                    "description": "The Corti Wearable is a sweat sensor that is worn continuously measure cortisol, melatonin, tumor necrosis alpha interleukin-6 (IL-6) in the protein analytes in the sweat of participants via electrochemical impedance spectroscopy. The Corti Wearable comprises a plastic reader and a replaceable polymer sweat-sensing strip with zinc oxide (ZnO) coated electrodes that is worn on the participant's forearm. It is manufactured through a screen-printing technique that allows for an affinity-based interaction between a capture probe antibody and the target molecule generating electrochemical activity.\n\nThe Cort Wearable has been used in previous human subject research studies for bio-physiological data collection in other medical conditions and have confirmed that there is minimal risk to participants. This device is therefore exempt from any IDE requirements.",
+                    "armGroupLabels": [
+                        "Opioid Use Disorder"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Short Opioid Withdrawal Scale Gossop (SOWS-Gossop)",
+                    "description": "Correlation of opioid withdrawal symptoms, as measured by the SOWS-Gossop, over time with biomarkers using the EmbracePlus Smartwatch and Corti Wearable.",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                },
+                {
+                    "measure": "Clinical Opioid Withdrawal Scale (COWS)",
+                    "description": "Correlation of opioid withdrawal symptoms, as measured by the COWS, over time with biomarkers using the EmbracePlus Smartwatch and Corti Wearable.",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                },
+                {
+                    "measure": "Opioid Craving Visual Analog Scale (OC-VAS)",
+                    "description": "Correlation of the intensity of opioid cravings, as measured by the OC-VAS, over time with biomarkers using the EmbracePlus Smartwatch and Corti Wearable.",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                },
+                {
+                    "measure": "Adverse Events",
+                    "description": "The primary safety endpoint will be the proportion of participants who experience one or more adverse events.",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Sleep Duration",
+                    "description": "Correlation of sleep duration and quality with opioid withdrawal symptoms as well as cravings",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                },
+                {
+                    "measure": "Stress Monitoring and Assessment Tool (SMART)",
+                    "description": "Correlation of stress score, as measured by the SMART, with biomarkers using the EmbracePlus Smartwatch and Corti Wearable.",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                },
+                {
+                    "measure": "Therapy Compliance",
+                    "description": "Correlation of compliance to recovery-related therapies (e.g. group therapy, individual counseling) with biomarkers using the EmbracePlus Smartwatch and Corti Wearable.",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                },
+                {
+                    "measure": "Drug Screening",
+                    "description": "Proportion of participants testing positive for Amphetamines, Buprenorphine, Benzodiazepines, Cocaine, Ethyl Glucuronide, Fentanyl, Synthetic Marijuana, Ecstasy, Methamphetamines, Methadone, Opiates / Morphine, Oxycodone, Cannabinoid (Marijuana), Xylazine, and Tramadol or any combination",
+                    "timeFrame": "Once daily on screening/baseline day, study day 7, and study day 14 (14-day time frame)"
+                },
+                {
+                    "measure": "Medication Use",
+                    "description": "Medication use and timing (medication name, dosage, and indication)",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                },
+                {
+                    "measure": "Wearable Sensors Compliance",
+                    "description": "Compliance to wearing wearable sensors (EmbracePlus Smartwatch and Corti Sensor)",
+                    "timeFrame": "Daily throughout the 14-day inpatient detoxification treatment"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\n1. Participant shows signs of current opioid dependence; prescription or non-prescription\n2. Participant is seeking an induction to medications for opioid use disorder (MOUD)\n3. Participant is between 18 and 50 years of age\n4. Participant is English proficient\n5. Participant is able to provide informed consent and function at an intellectual level sufficient for study requirements\n6. Participant is willing to wear wearable sensors for 14 days\n\nExclusion Criteria\n\n1. Participant presents current evidence of an uncontrolled and/or clinically significant medical condition or psychiatric condition\n2. Participant has a history of epileptic seizures\n3. Participant has a history of neurological diseases or traumatic brain injury\n4. Participant has recent suicide attempt leading to current hospital admission or continued expressed suicidal ideation\n5. Subject has significant current suicidal ideation within 30 days prior to Screening as evidenced by answering \"yes\" to questions 4 or 5 on the suicidal ideation portion of the Columbia-Suicide Severity Rating Scale (C-SSRS) completed at Screening, that, in the opinion of the investigator, warrants exclusion from the trial\n6. Females who are pregnant or lactating\n7. Participant has any other significant disease or disorder which, in the opinion of the Investigator, may either put the participants at risk because of participation in the trial, or may influence the result of the trial, or the participant's ability to participate in the trial",
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "50 Years",
+            "stdAges": [
+                "ADULT"
+            ],
+            "studyPopulation": "Participants between 18 and 50 years of age with a history of dependence on prescription or non-prescription opioids",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Caroline Benner",
+                    "role": "CONTACT",
+                    "phone": "(210) 624-8046",
+                    "email": "caroline.benner@sparkbiomedical.com"
+                },
+                {
+                    "name": "Brooke Le",
+                    "role": "CONTACT"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Navid Khodaparast, PhD",
+                    "affiliation": "Chief Science Officer",
+                    "role": "STUDY_CHAIR"
+                },
+                {
+                    "name": "Melanie McWade, PhD",
+                    "affiliation": "Senior Director of Clinical Operations",
+                    "role": "STUDY_DIRECTOR"
+                },
+                {
+                    "name": "Carlos Tirado, MD",
+                    "affiliation": "Medical Monitor",
+                    "role": "STUDY_CHAIR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Hazelden Betty Ford Foundation",
+                    "city": "Center City",
+                    "state": "Minnesota",
+                    "zip": "55012",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jacqueline Braughton, PhD, LAMFT",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Quyen Ngo, PhD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.39385,
+                        "lon": -92.8166
+                    }
+                },
+                {
+                    "facility": "Battelle Memorial Institute",
+                    "city": "Columbus",
+                    "state": "Ohio",
+                    "zip": "43201",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Darrow, PhD",
+                            "role": "CONTACT",
+                            "email": "darrow@battelle.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.96118,
+                        "lon": -82.99879
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009293",
+                    "term": "Opioid-Related Disorders"
+                },
+                {
+                    "id": "D000019966",
+                    "term": "Substance-Related Disorders"
+                },
+                {
+                    "id": "D000013375",
+                    "term": "Substance Withdrawal Syndrome"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000079524",
+                    "term": "Narcotic-Related Disorders"
+                },
+                {
+                    "id": "D000064419",
+                    "term": "Chemically-Induced Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12244",
+                    "name": "Opioid-Related Disorders",
+                    "asFound": "Opioid Use Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21837",
+                    "name": "Substance-Related Disorders",
+                    "asFound": "Opioid Use Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16162",
+                    "name": "Substance Withdrawal Syndrome",
+                    "asFound": "Opioid Withdrawal",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2057",
+                    "name": "Narcotic-Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30302",
+                    "name": "Chemically-Induced Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC25",
+                    "name": "Substance Related Disorders"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4225",
+                    "name": "Antibodies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4033",
+                    "name": "Analgesics, Opioid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17768",
+                    "name": "Zinc",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9912",
+                    "name": "Hydrocortisone",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10184",
+                    "name": "Immunoglobulins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11533",
+                    "name": "Melatonin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17770",
+                    "name": "Zinc Oxide",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M155245",
+                    "name": "Hydrocortisone 17-butyrate 21-propionate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M228609",
+                    "name": "Hydrocortisone acetate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M263259",
+                    "name": "Hydrocortisone hemisuccinate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T410",
+                    "name": "Melatonin",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                },
+                {
+                    "abbrev": "Infl",
+                    "name": "Anti-Inflammatory Agents"
+                },
+                {
+                    "abbrev": "Derm",
+                    "name": "Dermatologic Agents"
+                },
+                {
+                    "abbrev": "Ot",
+                    "name": "Other Dietary Supplements"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

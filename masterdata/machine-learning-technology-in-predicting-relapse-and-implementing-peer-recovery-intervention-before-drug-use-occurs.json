@@ -1,0 +1,360 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05976672",
+            "orgStudyIdInfo": {
+                "id": "2303735843"
+            },
+            "organization": {
+                "fullName": "West Virginia University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Machine Learning Technology in Predicting Relapse and Implementing Peer Recovery Intervention Before Drug Use Occurs",
+            "officialTitle": "The Utilization of Machine Learning Technologies in Predicting Relapse: Identifying Risk Factors and Implementing Intervention Before Drug Use Occurs",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "machine-learning-technology-in-predicting-relapse-and-implementing-peer-recovery-intervention-before-drug-use-occurs"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-04-27",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-04-26",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-04-26",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-17",
+            "studyFirstSubmitQcDate": "2023-07-27",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-04",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "James Mahoney",
+                "investigatorTitle": "Clinical Neuropsychologist",
+                "investigatorAffiliation": "West Virginia University"
+            },
+            "leadSponsor": {
+                "name": "West Virginia University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to study the relationship between substance cravings, cognitive performance, behaviors, and physiological markers in individuals with substance use disorder, as well as the effects of peer recovery intervention in response to abnormal biomarker data detected by wearable technology (e.g., Oura ring, smart watch) and participant responses to questionnaires and cognitive tasks completed on the RNI Health application.",
+            "detailedDescription": "The purpose of this study is to examine the relationship between cravings, cognitive performance, behaviors, and physiological markers in individuals with substance use disorder as well as the effects of peer-recovery intervention in response to biomarker data anomalies via wearable technology (e.g., Oura ring), and participant responses to questionnaires and cognitive tasks via the RNI Health application. All participants will initially be monitored for 3 months before being randomized to one of the following arms: 1) Treatment as usual; 2) PRSS (Peer Recovery Support) intervention. Participants will be randomized in a 1:1 ratio to receive either standard-of-care treatment (treatment as usual), or PRSS intervention. Participants will be asked to continuously wear a wearable device that measures heart rate, sleep, and physical activity for up to 5 years. Participants will also be asked to complete questionnaires about health, thinking and emotions, past experiences, and social background, as well as completing cognitive and physiological tasks when indicated. Questionnaires will be completed via the WVU RNI Health app on a smart device. Participant data will be analyzed through machine learning algorithms and standard statistical analyses. The researchers plan to identify abnormalities in participant data such as physiological biomarkers, cognitive performance, behaviors, and level of cravings associated with the increased risk for relapse and related mood conditions, in which participants may be contacted by a Peer Recovery Support Specialist (PRSS) to assess any participant needs, such as linkage or referral to resources (treatment options, housing resources, etc.) based on their standard of care. The objectives to the research are to develop machine-learning algorithms to predict risk for drug use recurrence, to develop a predictive model that may help determine prognosis and improve treatment planning based on physiological, cognitive, and behavioral response patterns, evaluate the efficacy of Peer Recovery Support Specialist interventions in preventing drug use recurrence, and use the data to better understand how wearable technology can help improve treatment plans."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Substance Abuse Disorder"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "All participants will be initially monitored for three months before being randomized in a 1:1 ratio to receive either their standard of care treatment as usual, or the PRSS intervention (Peer Recovery Support Specialist)",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Treatment as usual",
+                    "type": "NO_INTERVENTION",
+                    "description": "Participants will receive standard of care treatment as usual and will receive no contact from a peer recover support specialist (PRSS intervention) when data anomalies are detected by machine learning algorithms."
+                },
+                {
+                    "label": "PRSS intervention",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants receiving PRSS intervention will be contacted by the PRSS who will be blinded (not knowing whether an alert was caused by data anomaly or a random generation), and will contact the participant by phone and assess the need for assistance. PRSS will follow-up with the participant to assist participant if needed (once after the initial alert and then a second follow-up).",
+                    "interventionNames": [
+                        "Other: PRSS (Peer Recovery Support Specialist)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "PRSS (Peer Recovery Support Specialist)",
+                    "description": "Upon receiving an alert through a study dashboard, the PRSS (who is blinded in not knowing whether the alert was caused by data anomaly or a random generation), the PRSS will be able to access identifiable contact details and contact the participant by phone and provide the necessary support assistance (e.g., locations of AA/NA meetings, sleep and/or relaxation techniques, etc).",
+                    "armGroupLabels": [
+                        "PRSS intervention"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Changes in heart rate",
+                    "description": "Beats per minute collected from participant connected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Changes in heart rate variability",
+                    "description": "Interbeat interval collected from participant connected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Changes in respiratory rate",
+                    "description": "Number of breaths per minute collected from participant connected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Changes in sleep onset",
+                    "description": "Time went to bed collected from participant connected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Changes in sleep efficiency",
+                    "description": "Percent of time in bed compared to total sleep time collected from participant connected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Changes in total sleep",
+                    "description": "Number of minutes slept at night collected from participant connected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Changes in sleep stages",
+                    "description": "Minutes of sleep spend in rapid eye movement, light, or deep sleep collected from participant collected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Changes in physical activity",
+                    "description": "Changes in activity levels as collected from participant connected wearable device",
+                    "timeFrame": "Daily up to 5 years"
+                },
+                {
+                    "measure": "Erikson Flanker Task (response inhibition)",
+                    "description": "A response inhibition test to assess the participant's ability to suppress a response that is inappropriate based on the task rules. Participants are to respond, left or right, to the direction of the middle arrow (target arrow) of five aligned items. The task consists of congruent stimulus (the direction of the target arrow and flanker arrows are the same), incongruent stimulus (the direction of the target arrow is opposite of the flanker arrows), and neutral stimulus (flanker items are different then the target arrow). The standard findings are that the incongruent stimulus has greater reaction times as compared to congruent and neutral stimulus. This task will measure changes in participant task responses from baseline as collected from the RNI Health app.",
+                    "timeFrame": "Once at the beginning of study (intake), and as needed for up to 5 years"
+                },
+                {
+                    "measure": "N-Back Task",
+                    "description": "A measure of working memory where participants monitor a series of stimuli and respond whenever a stimulus is presented that is the same as the one presented in a predefined previous trial. Test are defined as items that are 1, 2, or 3 items back from the current stimulus, whereas 1-back is less difficult than the 3-back since less information is needed in working memory to correctly respond. This task will measure changes in participant memory task responses from baseline as collected from the RNI Health app.",
+                    "timeFrame": "Once at the beginning of the study (intake), and as needed for up to 5 years"
+                },
+                {
+                    "measure": "Delayed Discounting Task",
+                    "description": "This measure assesses cognitive functions which are often impaired in substance users including: decision making, impulsivity, and inhibitory control. The task presents participants with hypothetical choices between a smaller amount of money available immediately, or a larger amount at a delayed time point (e.g., \"Would you rather have $1000 in 30 days or $200 now?\"; Richards et al., 1999). An adjusting procedure is used to derive indifference values, between the delayed and immediate amounts. An indifference value reflects the smallest amount of money an individual chooses to receive immediately instead of the delayed amount at each time-point. This task will measure changes in participant delayed discounting responses from baseline as collected from the RNI Health app.",
+                    "timeFrame": "Once at the beginning of the study (intake), and as needed for up to 5 years"
+                },
+                {
+                    "measure": "Balloon Analogue Risk Task",
+                    "description": "Computerized measure of risk-taking behavior modeling real world risk behavior through the concept of reward versus loss. Participant is presented with a balloon and offered the chance to earn hypothetical money by pumping the balloon button clicks. Each click causes the balloon to incrementally inflate and money to be added to a counter up to some threshold, then the balloon over inflates and explodes. Each pump confers greater risk, but also greater potential reward. If the participant chooses to cash-out prior to the balloon exploding then they collect the money earned, but if the balloon explodes, trial earnings are lost. This task will measure changes in participant responses from baseline as collected from the RNI Health app.",
+                    "timeFrame": "Once at the beginning of the study (intake), and as needed for up to 5 years"
+                },
+                {
+                    "measure": "Ecological Momentary Assessment",
+                    "description": "The EMA questionnaire will assess substance use and cravings, emotional symptoms, presence of pain, and quality of sleep. Changes in participant responses will be assessed daily as collected from the RNI Health app.",
+                    "timeFrame": "Daily for up to 5 years"
+                },
+                {
+                    "measure": "The Emotion Regulation Questionnaire",
+                    "description": "The Emotion Regulation Questionnaire (ERQ) is a 10-item self-report scale designed to assess habitual use of two commonly used strategies to alter emotion: cognitive reappraisal and expressive suppression. Participants respond to each item using a 7-point Likert scale ranging from 1 (strongly disagree) to 7 (strongly agree). Changes in participant responses will be assessed monthly as collected from the RNI Health app.",
+                    "timeFrame": "Monthly for up to 5 years"
+                },
+                {
+                    "measure": "Patient Health Questionnaire",
+                    "description": "The PHQ-9 is the nine-item depression scale of the patient health questionnaire. It is one of the most validated tools in mental health and can be a powerful tool to assist clinicians with diagnosing depression and monitoring treatment response. The nine items of the PHQ-9 are based directly on the nine diagnostic criteria for major depressive disorder in the DSM-IV. The primary outcome will be the total score of all responses. Changes in participant responses will be assessed monthly as collected from the RNI Health app.",
+                    "timeFrame": "Monthly for up to 5 years"
+                },
+                {
+                    "measure": "General Anxiety Disorder",
+                    "description": "The GAD-7 is a seven-item instrument that is used to measure or assess the severity of generalized anxiety disorder (GAD). Each item asks the individual to rate the severity of their symptoms over the past two weeks. Changes in participant responses will be assessed monthly as collected from the RNI Health app.",
+                    "timeFrame": "Monthly for up to 5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or Female 18 years of age or older\n* Current or previous enrollment as a patient in a WVU Medicine Clinic for treatment of substance use disorder (e.g., residential, detoxification, inpatient, or outpatient), or a resident of a sober living facility.\n\nExclusion Criteria:\n\n* Inability to give informed consent\n* Inability to download the RNI Health app and wearable device apps onto their smart device",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "James J Mahoney, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "304-293-1822",
+                    "email": "james.mahoney@hsc.wvu.edu"
+                },
+                {
+                    "name": "Jennifer L Marton, BS",
+                    "role": "CONTACT",
+                    "phone": "304-293-9638",
+                    "email": "jennifer.marton@hsc.wvu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "James J Mahoney, Ph.D.",
+                    "affiliation": "West Virginia University Rockefeller Neuroscience Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "West Virginia University Rockefeller Neuroscience Institute",
+                    "status": "RECRUITING",
+                    "city": "Morgantown",
+                    "state": "West Virginia",
+                    "zip": "26505",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "James J Mahoney, Ph.D.",
+                            "role": "CONTACT",
+                            "phone": "304-293-5886",
+                            "email": "james.mahoney@hsc.wvu.edu"
+                        },
+                        {
+                            "name": "Jennifer L Marton, BS",
+                            "role": "CONTACT",
+                            "phone": "304-293-5886",
+                            "email": "jennfier.marton@hsc.wvu.edu"
+                        },
+                        {
+                            "name": "James J Mahoney, Ph.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ali Rezai, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Victor S Finomore, Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Daisy Thompson-Lake, Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Daniel Farmer, DO",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "James Berry, DO",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Wanhong Zheng, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.62953,
+                        "lon": -79.9559
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000019966",
+                    "term": "Substance-Related Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000064419",
+                    "term": "Chemically-Induced Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M21837",
+                    "name": "Substance-Related Disorders",
+                    "asFound": "Substance Abuse",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M30302",
+                    "name": "Chemically-Induced Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC25",
+                    "name": "Substance Related Disorders"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

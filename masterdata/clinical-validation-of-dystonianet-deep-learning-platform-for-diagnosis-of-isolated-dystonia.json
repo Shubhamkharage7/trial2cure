@@ -1,0 +1,743 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05317390",
+            "orgStudyIdInfo": {
+                "id": "2020P004129"
+            },
+            "organization": {
+                "fullName": "Massachusetts Eye and Ear Infirmary",
+                "class": "OTHER"
+            },
+            "briefTitle": "Clinical Validation of DystoniaNet Deep Learning Platform for Diagnosis of Isolated Dystonia",
+            "officialTitle": "Clinical Validation of DystoniaNet Deep Learning Platform for Diagnosis of Isolated Dystonia",
+            "therapeuticArea": [
+                "Dermatology",
+                "Neurology",
+                "Other",
+                "Orthopedics"
+            ],
+            "study": "clinical-validation-of-dystonianet-deep-learning-platform-for-diagnosis-of-isolated-dystonia"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-06-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-04-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-04-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-11-28",
+            "studyFirstSubmitQcDate": "2022-03-30",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kristina Simonyan",
+                "investigatorTitle": "Associate Professor of Otolaryngology - Head and Neck Surgery",
+                "investigatorAffiliation": "Massachusetts Eye and Ear Infirmary"
+            },
+            "leadSponsor": {
+                "name": "Massachusetts Eye and Ear Infirmary",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This research involves retrospective and prospective studies for clinical validation of a DystoniaNet deep learning platform for the diagnosis of isolated dystonia.",
+            "detailedDescription": "Isolated dystonia is a movement disorder of unknown pathophysiology, which causes involuntary muscle contractions leading to abnormal, typically patterned, twisting movements and postures. A significant challenge in the clinical management of dystonia is due to the absence of a biomarker and associated 'gold' standard diagnostic test. Currently, the diagnosis of dystonia is guided by clinical evaluations of its symptoms, which lead to a low agreement between clinicians and a high rate of diagnostic inaccuracies. It is estimated that only 5% of patients receive an accurate diagnosis at symptom onset, and the average diagnostic delay extends up to 10.1 years. This study will conduct retrospective and prospective studies to clinically validate the performance of DystoniaNet, a biomarker-based deep learning platform for the diagnosis of isolated dystonia.\n\nThe retrospective studies will clinically validate the diagnostic performance of the DystoniaNet algorithm (1) in patients compared to healthy subjects (normative test), and (2) between patients with dystonia and other neurological and non-neurological conditions (differential test).\n\nThe prospective randomized study will validate the performance of DystoniaNet algorithm for accurate, objective, and fast diagnosis of dystonia in the actual clinical setting.\n\nThis research is expected to advance the DystoniaNet algorithm for dystonia diagnosis into its clinical use for increased accuracy of dystonia diagnosis. Early detection and diagnosis of dystonia will enable its early therapy and improved prognosis, having an overall positive impact on healthcare and patients' quality of life."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Dystonia",
+                "Drug Induced Dystonia",
+                "Parkinson Disease",
+                "Essential Tremor",
+                "Dyskinesias",
+                "Myoclonus",
+                "Tic Disorders",
+                "Torticollis",
+                "Ulnar Nerve Entrapment",
+                "Temporomandibular Joint Disorders",
+                "Dysphonia"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 1000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Retrospective clinical validation of DystoniaNet",
+                    "type": "NO_INTERVENTION",
+                    "description": "Retrospective studies will (1) clinically validate the diagnostic performance of DystoniaNet compared to a normal neurological state (normative test), and (2) develop and test DystoniaNet extensions in comparison with other neurological and non-neurological conditions (differential test)."
+                },
+                {
+                    "label": "Prospective clinical validation of DystoniaNet",
+                    "type": "EXPERIMENTAL",
+                    "description": "Prospective randomized studies will validate DystoniaNet performance for accurate, objective, and fast diagnosis of dystonia in the actual clinical setting.",
+                    "interventionNames": [
+                        "Diagnostic Test: DystoniaNet-based diagnosis of isolated dystonia"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "DystoniaNet-based diagnosis of isolated dystonia",
+                    "description": "DystoniaNet will be used for the diagnosis of dystonia and its differential diagnosis from other neurological and non-neurological disorders mimicking symptoms of dystonia",
+                    "armGroupLabels": [
+                        "Prospective clinical validation of DystoniaNet"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Correctness of clinical diagnosis of dystonia using the DystoniaNet algorithm",
+                    "description": "Correctness of dystonia diagnosis (yes dystonia/no dystonia) will be established using the DystoniaNet machine-learning algorithm",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Time of clinical diagnosis of dystonia using the DystoniaNet algorithm",
+                    "description": "The length of time (in months) from symptom onset to clinical diagnosis will be established using the DystoniaNet machine-learning algorithm",
+                    "timeFrame": "4 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion criteria:\n\n1. Males and females of diverse racial and ethnic backgrounds, with age across the lifespan;\n2. Patients will have at least one of the forms of dystonia, including focal dystonia (e.g., laryngeal, cervical, oromandibular, blepharospasm, focal hand, musicians), segmental dystonia, or generalized dystonia;\n3. Patients will have other movement disorders (Parkinson's disease, essential tremor, dyskinesia, myoclonus) and other non-neurological conditions (tic disorders, torticollis, ulnar nerve entrapments, temporomandibular disorders, dysphonia) that mimic dystonic symptoms.\n\nExclusion criteria:\n\n1. Patients who are incapable of giving informed consent;\n2. Patients who are unable to undergo brain MRI due to the presence of certain tattoos and ferromagnetic objects in their bodies (e.g., implanted stimulators, surgical clips, prosthesis, artificial heart valve) that cannot be removed or due to pregnancy or breastfeeding at the time of the study.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kristina Simonyan, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "617-573-6016",
+                    "email": "simonyan_lab@meei.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kristina Simonyan, MD, PhD",
+                    "affiliation": "Massachusetts Eye and Ear",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts Eye and Ear Infirmary",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02114",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kristina Simonyan, MD, PhD",
+                            "role": "CONTACT",
+                            "phone": "617-573-6016",
+                            "email": "simonyan_lab@meei.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013705",
+                    "term": "Temporomandibular Joint Disorders"
+                },
+                {
+                    "id": "D000013706",
+                    "term": "Temporomandibular Joint Dysfunction Syndrome"
+                },
+                {
+                    "id": "D000055154",
+                    "term": "Dysphonia"
+                },
+                {
+                    "id": "D000010300",
+                    "term": "Parkinson Disease"
+                },
+                {
+                    "id": "D000004421",
+                    "term": "Dystonia"
+                },
+                {
+                    "id": "D000020821",
+                    "term": "Dystonic Disorders"
+                },
+                {
+                    "id": "D000020820",
+                    "term": "Dyskinesias"
+                },
+                {
+                    "id": "D000020329",
+                    "term": "Essential Tremor"
+                },
+                {
+                    "id": "D000013981",
+                    "term": "Tic Disorders"
+                },
+                {
+                    "id": "D000009408",
+                    "term": "Nerve Compression Syndromes"
+                },
+                {
+                    "id": "D000009207",
+                    "term": "Myoclonus"
+                },
+                {
+                    "id": "D000017769",
+                    "term": "Ulnar Nerve Compression Syndromes"
+                },
+                {
+                    "id": "D000014103",
+                    "term": "Torticollis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020734",
+                    "term": "Parkinsonian Disorders"
+                },
+                {
+                    "id": "D000001480",
+                    "term": "Basal Ganglia Diseases"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000080874",
+                    "term": "Synucleinopathies"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000007592",
+                    "term": "Joint Diseases"
+                },
+                {
+                    "id": "D000009140",
+                    "term": "Musculoskeletal Diseases"
+                },
+                {
+                    "id": "D000017271",
+                    "term": "Craniomandibular Disorders"
+                },
+                {
+                    "id": "D000008336",
+                    "term": "Mandibular Diseases"
+                },
+                {
+                    "id": "D000007571",
+                    "term": "Jaw Diseases"
+                },
+                {
+                    "id": "D000009135",
+                    "term": "Muscular Diseases"
+                },
+                {
+                    "id": "D000009057",
+                    "term": "Stomatognathic Diseases"
+                },
+                {
+                    "id": "D000009209",
+                    "term": "Myofascial Pain Syndromes"
+                },
+                {
+                    "id": "D000014832",
+                    "term": "Voice Disorders"
+                },
+                {
+                    "id": "D000007818",
+                    "term": "Laryngeal Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000010038",
+                    "term": "Otorhinolaryngologic Diseases"
+                },
+                {
+                    "id": "D000065886",
+                    "term": "Neurodevelopmental Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000010523",
+                    "term": "Peripheral Nervous System Diseases"
+                },
+                {
+                    "id": "D000009468",
+                    "term": "Neuromuscular Diseases"
+                },
+                {
+                    "id": "D000020424",
+                    "term": "Ulnar Neuropathies"
+                },
+                {
+                    "id": "D000020422",
+                    "term": "Mononeuropathies"
+                },
+                {
+                    "id": "D000012090",
+                    "term": "Cumulative Trauma Disorders"
+                },
+                {
+                    "id": "D000013180",
+                    "term": "Sprains and Strains"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13213",
+                    "name": "Parkinson Disease",
+                    "asFound": "Parkinson's Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10621",
+                    "name": "Joint Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16477",
+                    "name": "Temporomandibular Joint Disorders",
+                    "asFound": "Temporomandibular Joint Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16478",
+                    "name": "Temporomandibular Joint Dysfunction Syndrome",
+                    "asFound": "Temporomandibular Joint Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M28058",
+                    "name": "Dysphonia",
+                    "asFound": "Dysphonia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9748",
+                    "name": "Hoarseness",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16956",
+                    "name": "Tremor",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22574",
+                    "name": "Dyskinesias",
+                    "asFound": "Dyskinesia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7595",
+                    "name": "Dystonia",
+                    "asFound": "Dystonia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22575",
+                    "name": "Dystonic Disorders",
+                    "asFound": "Dystonia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16858",
+                    "name": "Torticollis",
+                    "asFound": "Torticollis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22137",
+                    "name": "Essential Tremor",
+                    "asFound": "Essential Tremor",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22132",
+                    "name": "Tics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16739",
+                    "name": "Tic Disorders",
+                    "asFound": "Tic Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12159",
+                    "name": "Myoclonus",
+                    "asFound": "Myoclonus",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5853",
+                    "name": "Charcot-Marie-Tooth Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12352",
+                    "name": "Nerve Compression Syndromes",
+                    "asFound": "Nerve Entrapment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18092",
+                    "name": "Hereditary Sensory and Motor Neuropathy",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19979",
+                    "name": "Ulnar Nerve Compression Syndromes",
+                    "asFound": "Ulnar Nerve Entrapment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22494",
+                    "name": "Parkinsonian Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25603",
+                    "name": "Ganglion Cysts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16358",
+                    "name": "Synovial Cyst",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4774",
+                    "name": "Basal Ganglia Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2217",
+                    "name": "Synucleinopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12097",
+                    "name": "Musculoskeletal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19566",
+                    "name": "Craniomandibular Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11327",
+                    "name": "Mandibular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10601",
+                    "name": "Jaw Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12092",
+                    "name": "Muscular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12017",
+                    "name": "Stomatognathic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8486",
+                    "name": "Fibromyalgia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12161",
+                    "name": "Myofascial Pain Syndromes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17575",
+                    "name": "Voice Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10835",
+                    "name": "Laryngeal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12961",
+                    "name": "Otorhinolaryngologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30644",
+                    "name": "Neurodevelopmental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13432",
+                    "name": "Peripheral Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12411",
+                    "name": "Neuromuscular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22220",
+                    "name": "Ulnar Neuropathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22218",
+                    "name": "Mononeuropathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14930",
+                    "name": "Cumulative Trauma Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15974",
+                    "name": "Sprains and Strains",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1081",
+                    "name": "Charcot-Marie-Tooth Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2761",
+                    "name": "Hereditary Motor and Sensory Neuropathy",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2766",
+                    "name": "Hereditary Neuropathy With Liability to Pressure Palsies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5067",
+                    "name": "Roussy Levy Syndrome",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "BC07",
+                    "name": "Mouth and Tooth Diseases"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

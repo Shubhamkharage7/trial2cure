@@ -1,0 +1,318 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04839198",
+            "orgStudyIdInfo": {
+                "id": "HSC-SPH-20-1159"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R00DA046564",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R00DA046564"
+                }
+            ],
+            "organization": {
+                "fullName": "The University of Texas Health Science Center, Houston",
+                "class": "OTHER"
+            },
+            "briefTitle": "Using Machine Learning to Develop Just-in-Time Adaptive Interventions for Smoking Cessation",
+            "officialTitle": "Using Machine Learning to Develop Just-in-Time Adaptive Interventions for Smoking Cessation",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "using-machine-learning-to-develop-just-in-time-adaptive-interventions-for-smoking-cessation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-31",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-11-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-04-07",
+            "studyFirstSubmitQcDate": "2021-04-08",
+            "studyFirstPostDateStruct": {
+                "date": "2021-04-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-13",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-15",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Emily Hebert",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "The University of Texas Health Science Center, Houston"
+            },
+            "leadSponsor": {
+                "name": "The University of Texas Health Science Center, Houston",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute on Drug Abuse (NIDA)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to evaluate the feasibility and preliminary effectiveness of delivering a personalized, just-in-time adaptive intervention driven by machine learning prediction of smoking lapse risk in real time."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Smoking Cessation"
+            ],
+            "keywords": [
+                "Nicotine patch"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Adaptive Treatment plus usual care",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Behavioral: Android Wear smartwatch",
+                        "Behavioral: Adaptive Treatment",
+                        "Drug: Nicotine Patch",
+                        "Behavioral: interviewing-based counseling"
+                    ]
+                },
+                {
+                    "label": "Usual care",
+                    "type": "ACTIVE_COMPARATOR",
+                    "interventionNames": [
+                        "Behavioral: Android Wear smartwatch",
+                        "Drug: Nicotine Patch",
+                        "Behavioral: interviewing-based counseling"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Android Wear smartwatch",
+                    "description": "All participants will wear an Android Wear smartwatch, and will complete ecological momentary assessments (EMA).",
+                    "armGroupLabels": [
+                        "Adaptive Treatment plus usual care",
+                        "Usual care"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Adaptive Treatment",
+                    "description": "Participants will have access to a \"Dashboard\" button in the InsightTM app that displays personalized statistics based on their progress and patterns in the study.The dashboard will update as more data is collected about the participant's smoking habits, starting in the pre-quit period and continuing through the post-quit period. Second, in the post-quit period, participants will receive treatment messages when the machine learning algorithm determines that they are at high risk for lapse.At the follow-up visit, participants will complete a survey to evaluate what they liked and disliked about the intervention, how accurate they thought the app was in predicting their risk, and how useful they found the dashboard.",
+                    "armGroupLabels": [
+                        "Adaptive Treatment plus usual care"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Nicotine Patch",
+                    "description": "At Visit 2, participants will be asked to begin their attempt to quit smoking and will receive a 12-week supply of nicotine replacement therapy (i.e., nicotine patches and gum)",
+                    "armGroupLabels": [
+                        "Adaptive Treatment plus usual care",
+                        "Usual care"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "interviewing-based counseling",
+                    "description": "At Visit 2, participants will be asked to begin their attempt to quit smoking and meet with a Tobacco Treatment Specialist, who will provide motivational interviewing-based counseling, help the participants develop a quit plan, and discuss relapse prevention. During the 6-weeks of the study, participants will have the option of attending up to 6 counseling sessions with the Tobacco Treatment Specialist, either in-person or via phone or web.",
+                    "armGroupLabels": [
+                        "Adaptive Treatment plus usual care",
+                        "Usual care"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of patients who quit smoking as confirmed by absence of salivary cotinine",
+                    "timeFrame": "4-weeks after quit day"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* a score greater than or equal to 4 on the Rapid Estimate of Adult Literacy in Medicine Short Form (REALM-SF),12\n* willingness to quit smoking 14 days after the baseline visit\n* no contraindications to using Nicotine replacement therapy (NRT).\n* If participants would like to use their own phone to complete the EMAs, they must additionally have an Android smartphone (Android 5.2 or higher), and be willing to install the InsightTM mHealth app on their phone.\n\nExclusion Criteria:\n\n* currently smoking less than 5 cigarettes per day",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Emily Hebert, DrPH",
+                    "role": "CONTACT",
+                    "phone": "\u202a(512) 391-1351",
+                    "email": "Emily.T.Hebert@uth.tmc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Emily Hebert, DrPH",
+                    "affiliation": "The University of Texas Health Science Center, Houston",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "The University of Texas Health Science Center at Houston",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Emily Hebert, DrPH",
+                            "role": "CONTACT",
+                            "phone": "512-391-1351",
+                            "email": "Emily.T.Hebert@uth.tmc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009538",
+                    "term": "Nicotine"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005731",
+                    "term": "Ganglionic Stimulants"
+                },
+                {
+                    "id": "D000001337",
+                    "term": "Autonomic Agents"
+                },
+                {
+                    "id": "D000018373",
+                    "term": "Peripheral Nervous System Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000018722",
+                    "term": "Nicotinic Agonists"
+                },
+                {
+                    "id": "D000018679",
+                    "term": "Cholinergic Agonists"
+                },
+                {
+                    "id": "D000018678",
+                    "term": "Cholinergic Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12478",
+                    "name": "Nicotine",
+                    "asFound": "Assess",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4029",
+                    "name": "Central Nervous System Stimulants",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20796",
+                    "name": "Nicotinic Agonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20758",
+                    "name": "Cholinergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "CNSSti",
+                    "name": "Central Nervous System Stimulants"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

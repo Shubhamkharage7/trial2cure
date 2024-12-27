@@ -1,0 +1,369 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05777187",
+            "orgStudyIdInfo": {
+                "id": "GCO 22-0012"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "22-00920",
+                    "type": "OTHER",
+                    "domain": "Advarra/CIRBI"
+                },
+                {
+                    "id": "5U54AG063546",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/5U54AG063546"
+                }
+            ],
+            "organization": {
+                "fullName": "Icahn School of Medicine at Mount Sinai",
+                "class": "OTHER"
+            },
+            "briefTitle": "Mitigation of Postoperative Delirium in High-Risk Patients",
+            "officialTitle": "Integration of Machine Learning and Clinical Decision Support to Prevent Postoperative Delirium in Patients With Cognitive Impairment",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "mitigation-of-postoperative-delirium-in-high-risk-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-06-20",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-08",
+            "studyFirstSubmitQcDate": "2023-03-08",
+            "studyFirstPostDateStruct": {
+                "date": "2023-03-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Ira Hofer",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai"
+            },
+            "leadSponsor": {
+                "name": "Icahn School of Medicine at Mount Sinai",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "University of California, Los Angeles",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "National Institute on Aging (NIA)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Among patients with cognitive impairment (CI) that undergo surgery, the risk for developing postoperative delirium (POD) is high (50%) and associated with further morbidity and mortality. Yet, 30-40% of POD cases are preventable with perioperative management. This randomized pragmatic clinical trial aims to assess incidence of POD in adult surgical patients with CI, as well as provider adherence to a set of 12 perioperative best practice recommendations for perioperative management. Electronic health record (EHR) data will be used to identify patients as high risk for developing POD and clinical decision support (CDS) prompts within the EHR will display best practices. Cases will be randomized to either the control group, usual care or the intervention which includes the high-risk alert and best practice prompts."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Post-operative Delirium",
+                "Decision Support Systems, Clinical",
+                "Cognitive Impairment"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 24426,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Clinical Decision Support",
+                    "type": "EXPERIMENTAL",
+                    "description": "Clinical decision support alerts in the electronic health record directed towards anesthesiologists caring for patients with preexisting cognitive impairment.",
+                    "interventionNames": [
+                        "Other: Clinical Decision Support"
+                    ]
+                },
+                {
+                    "label": "Standard of Care",
+                    "type": "NO_INTERVENTION",
+                    "description": "No clinical decision support will appear, and standard of care procedures will take place."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Clinical Decision Support",
+                    "description": "The intervention will consist of clinical decision support alerts in the electronic health record directed towards anesthesiologists caring for patients with preexisting cognitive impairment. This intervention will alert towards delirium risk informed by history of cognitive impairment and promote 12 evidence based best practices during care for perioperative patients.",
+                    "armGroupLabels": [
+                        "Clinical Decision Support"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "4AT Delirium Score",
+                    "description": "Incidence of Postoperative Delirium measured using the 4AT delirium assessment documentation\n\nScoring:\n\n4 or above: possible delirium +/- cognitive impairment 1-3: possible cognitive impairment 0: delirium or severe cognitive impairment unlikely (but delirium still possible if \\[4\\] information incomplete)",
+                    "timeFrame": "Postoperative days 0-7"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Perioperative Best Practices proportion",
+                    "description": "For each of the 12 practices, adherence will be measured as a binary variable; overall protocol adherence will be defined as the proportion of the 12 practices performed by the anesthesia team.\n\nThe 12 perioperative best practices are grouped in 5 intervention domains including, avoid potential inappropriate medication, perioperative glycemic control, avoid hypotension, maintain normothermia, and titrate anesthetic depth. Within avoid potential inappropriate medication is avoid diphenhydramine, scopolamine, and midazolam. Within perioperative glycemic control is check pre-op glucose, check glucose every 2 hours, maintain glucose \\<200 mg/dL, and check post-anesthesia care unit glucose. Within avoid hypotension is Mean Arterial Pressure \\>65 mmHg. Within maintain normothermia is use temperature probe and maintain temperature \\>36 degrees Celsius. Within titrate anesthetic depth is age adjusted MAC\\<1 and monitor anesthesia depth.",
+                    "timeFrame": "Day 1"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients with a history of cognitive impairment (CI) undergoing surgery at the Mount Sinai Health System.\n* Attending physicians, resident physicians, and nurse anesthetists at the Mount Sinai Health System receiving CDS alerts during EHR system implementation.\n\nExclusion Criteria:\n\n* Patients will be excluded if this not their first surgery since study start, if they do not have cognitive impairment based on EHR data, or if the surgery is for organ donation.\n* There will be no exclusion criteria for providers or historical controls.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "120 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Kerry R Meyers, MPH",
+                    "role": "CONTACT",
+                    "phone": "646-901-9237",
+                    "email": "kerry.meyers@mssm.edu"
+                },
+                {
+                    "name": "Rachelle Weisman, MPH",
+                    "role": "CONTACT",
+                    "phone": "(332) 237-8978",
+                    "email": "rachelle.weisman@mssm.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ira Hofer, MD",
+                    "affiliation": "Icahn School of Medicine at Mount Sinai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mount Sinai Health System",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10029",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kerry R Meyers, MPH",
+                            "role": "CONTACT",
+                            "phone": "646-901-9237",
+                            "email": "kerry.meyers@mssm.edu"
+                        },
+                        {
+                            "name": "Rachelle Weisman, MPH",
+                            "role": "CONTACT",
+                            "phone": "(332) 237-8978",
+                            "email": "rachelle.weisman@mssm.edu"
+                        },
+                        {
+                            "name": "Ira Hofer",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "The research team will be collecting the data in a data warehouse, but it will be extracted by an honest broker de-identified. No participant level data will be shared outside Sinai or the study team."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003693",
+                    "term": "Delirium"
+                },
+                {
+                    "id": "D000071257",
+                    "term": "Emergence Delirium"
+                },
+                {
+                    "id": "D000060825",
+                    "term": "Cognitive Dysfunction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003072",
+                    "term": "Cognition Disorders"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000003221",
+                    "term": "Confusion"
+                },
+                {
+                    "id": "D000019954",
+                    "term": "Neurobehavioral Manifestations"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000011183",
+                    "term": "Postoperative Complications"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29705",
+                    "name": "Cognitive Dysfunction",
+                    "asFound": "Cognitive Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6894",
+                    "name": "Delirium",
+                    "asFound": "Delirium",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M772",
+                    "name": "Emergence Delirium",
+                    "asFound": "Post-operative Delirium",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6301",
+                    "name": "Cognition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6446",
+                    "name": "Confusion",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21826",
+                    "name": "Neurobehavioral Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14065",
+                    "name": "Postoperative Complications",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,318 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06204705",
+            "orgStudyIdInfo": {
+                "id": "D4800-R"
+            },
+            "organization": {
+                "fullName": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "briefTitle": "mHealth Estimate-based Algorithms Signaling Upcoming Recurrence of Episodes in Bipolar Disorders",
+            "officialTitle": "mHealth Estimate-based Algorithms Signaling Upcoming Recurrence of Episodes in Bipolar Disorders (MEASURE-BD)",
+            "acronym": "MEASURE-BD",
+            "therapeuticArea": [
+                "Mental Health"
+            ],
+            "study": "mhealth-estimate-based-algorithms-signaling-upcoming-recurrence-of-episodes-in-bipolar-disorders"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-09-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-12-18",
+            "studyFirstSubmitQcDate": "2024-01-03",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-12",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "collaborators": [
+                {
+                    "name": "National Center for PTSD",
+                    "class": "FED"
+                },
+                {
+                    "name": "University of Wisconsin, Madison",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Veterans with bipolar disorders (BD) experience recurrent and seemingly unpredictable periods of severe impairments in psychosocial functioning, such as participation in social roles and activities. Many effective treatments for BD emphasize early detection of bipolar episodes, in order to make necessary treatment adjustments and prevent psychosocial impairments associated with acute mood episodes. Unfortunately, acute mood episodes in BD are also associated with a decrease in a patient's insight into their own symptoms, which can prevent one's ability to self-report first signs of symptoms and functional declines. Moreover, routine care visits for BD are typically too infrequent to capture and effectively monitor day-to-day changes in a patient's mood and functioning.\n\nObjective, low-effort, and continuous methods of tracking symptoms and social participation of Veterans with BD in real-time and in-situ are needed to provide early (i.e., days in advance) warning signs of acute bipolar episodes and functional declines, which in turn would enable well-timed interventions to prevent poor psychosocial outcomes. mHealth refers to the use of mobile and wireless devices as part of patient care and offers many potential opportunities for early detection of and intervention for acute mood states in this population. However, these mHealth approaches have not been investigated in Veterans with BD. In a Small Projects in Rehabilitation Research (SPiRE)-funded pilot study, the investigator team established high feasibility and acceptability of one such innovative passive mHealth approach using a smartphone program, or an app, in a small sample of Veterans with BD to track their smartphone's GPS/location. The pilot study used a priori location context ratings of visited places (e.g., a priori ratings on types of activities usually engaged in at a frequently visited location) to derive unobtrusive measures of social participation (e.g., time spent at work-related locations). The goal of this Merit Review proposal is to establish reliable and valid machine-learning algorithms using the same types of mHealth data to prospectively (days in advance) detect declines in social participation and prospective onset of mania and depression in Veterans with BD. This proposal has three aims:\n\nAim 1. To establish a machine learning algorithm using GPS/location data for predicting prospective declines in social participation in Veterans with BD.\n\nAim 2. To establish machine learning algorithms using GPS/location data for predicting prospective acute BD clinical states. The investigators will explore whether adding more burdensome daily self-report and voice diaries' speech analysis features improves the models' precision using statistical indices of prediction precision or accuracy.\n\nAim 3. To explore clinical implementation of the mHealth-based algorithms in treatment of BD. Focus groups of VA providers and administrators will assess feasibility of algorithms' implementation in clinical care.",
+            "detailedDescription": "Veterans with bipolar disorders (BD) experience recurrent and seemingly unpredictable periods of severe impairments in psychosocial functioning, which lead to poor outcomes over their lifetime, such as incarceration, homelessness, and death by suicide. Studies support a link between greater severity and frequency of BD symptoms and worse psychosocial functioning. Veterans with BD often drop out of care at times when treatment would be most beneficial for preventing deterioration in psychosocial functioning-when new manic and depressive episodes onset. Thus, despite the availability of evidence-based treatments, BD is among the leading causes of disability worldwide.\n\nEffective tools for prospectively detecting manic and depressive episode onset could provide clinicians with the opportunity to intervene more efficiently and prevent poor psychosocial outcomes and loss of life. Unsurprisingly, psychotherapeutic interventions often focus on teaching patients mood-monitoring techniques for episode relapse prevention. However, these self-report techniques require insight and high patient effort, which may be lacking during acute BD episodes. Real-world measures of both BD symptoms and social functioning in Veterans with BD that are objective and do not require high insight or high effort are missing. Thus, passive mHealth methods that are feasible and acceptable to Veterans with BD and effective in prospectively detecting onsets of both mania and depression could prevent psychosocial functioning declines by ensuring evidence-based care is provided at the times of greatest need.\n\nThe overarching goal of this Merit Award project is to establish reliable and valid machine-learning algorithms using mHealth data to prospectively detect declines in social participation and prospective onset of mania and depression in Veterans with BD. The study's specific aims are:\n\nAim #1. To establish a machine learning algorithm using GPS/location data for predicting prospective declines in social participation in Veterans with BD. The investigators will provide novel, real-world GPS-based machine learning models that predict days in advance changes in social participation in Veterans. Based on pilot data, the investigators expect GPS data predictors/features to include time spent at residence, work, and daily routine locations.\n\nAim #2. To establish machine learning algorithms using GPS/location data for predicting prospective acute BD clinical states. The investigators will explore whether adding more burdensome daily self-report and voice dairy features improves the models' accuracy using positive prediction and other statistical indices. The investigators predict passive GPS/location data alone will provide accurate prediction of prospective changes in BD symptoms.\n\nAim #3. To explore clinical implementation of the mHealth-based algorithms in treatment of BD. Focus groups of VA providers and administrators will assess feasibility of algorithms' implementation in clinical care.\n\nTo accomplish the aims, the study will recruit 200 Veterans with a BD diagnosis who receive care in the Minneapolis VA Health Care System through direct mailings to patients, flyers in the medical center, and referrals by clinicians. The study will use stratified sampling recruitment strategies for enrolling at least 20 Veterans in the age ranges 18-35, 36-45, 46-55, 56-65, and 66 and older. Participants will be followed for 14 weeks using three smartphone apps (i.e., VA mPRO, FollowMee, and Recorder Plus or ASR Voice Recorder). Daily, participants will complete an 8-question assessment of their current symptoms and provide voice data for speech analysis to a fixed prompt about their planned activities for the day. Another app will continuously and passively monitor location using the smartphone GPS features to detect deviations in daily routine. Biweekly, participants will complete a brief phone screen assessing social and community participation, symptoms of mania and depression, and suicidality. mHealth data from days prior to the biweekly interviews will be used as features in a small number of candidate machine learning models with outcome measures being biweekly interview assessments of bipolar symptoms and social participation. Project staff will also hold two focus groups-one of 8 VA mental health providers and one of 8 VA administrators-representing diverse disciplines and use guided discussion questions to elicit feedback about implementation of mHealth-based algorithms in future clinical care of Veterans with BD.\n\nImpact: The study goal is to provide clinical tools for real-time, unobtrusive, and prospective signals about imminent depressive and manic episode relapses in Veterans with BD to their clinicians for more rapid, less costly, and more effective use of existing evidence-based treatments to prevent poor psychosocial functional outcomes. Moreover, the current study will yield objective, low effort, and unobtrusive measures for tracking social participation in-situ and in real-time in both Veterans with BD and other Veteran populations."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Bipolar Disorder"
+            ],
+            "keywords": [
+                "Bipolar Disorder",
+                "Veterans",
+                "Telemedicine",
+                "Digital Phenotyping",
+                "Machine Learning"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 216,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Veterans with Bipolar Disorders",
+                    "description": "Veterans with a diagnosis of a bipolar disorder."
+                },
+                {
+                    "label": "VA clinicians and administrators",
+                    "description": "VA clinicians and administrators who provide or oversee clinical care of Veterans with bipolar disorders"
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Impaired Social Participation",
+                    "description": "To determine presence of impaired social participation, an average of T scores will be calculated from two scales: PROMIS Satisfaction with Participation in Social Roles and PROMIS Ability to Participate in Social Roles and Activities scales. Averaged T scores less than 40 (1 standard deviation below population mean of 50) will be considered as indicators of impaired social participation. The PROMIS scales will be administered biweekly for the duration of 14 weeks of the follow-up.",
+                    "timeFrame": "Biweekly for 14 weeks"
+                },
+                {
+                    "measure": "Modified Hamilton Rating Scale for Depression",
+                    "description": "Modified Hamilton Rating Scale for Depression interviews administered biweekly will assess depression symptoms for each week of the 14-week follow-up to assess presence of clinically significant depression (score of 14 or higher) and/or changes in depression severity.",
+                    "timeFrame": "Weekly for 14 weeks"
+                },
+                {
+                    "measure": "Young Mania Rating Scale",
+                    "description": "Young Mania Rating Scale interviews administered biweekly will assess manic/hypomanic symptoms for each week of the 14-week follow-up period to determine presence of clinically significant hypomania/mania (scores above 12) and changes in hypomania/mania symptom severity.",
+                    "timeFrame": "Weekly for 14 weeks"
+                },
+                {
+                    "measure": "PROMIS Ability to Participate in Social Roles and Activities",
+                    "description": "PROMIS Ability to Participate in Social Roles and Activities is a self-report measure of difficulties with social participation. The raw scores range from 8 to 40 with higher scores indicating greater difficulties with social participation. The raw scores will be transformed into T scores and then average with T score for PROMIS Satisfaction with Participation in Social Roles for each week of the follow-up. These average scores of T score less than 40 will be considered as indicators of impaired social participation during this week.",
+                    "timeFrame": "Biweekly for 14 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "DSI Suicidality Subscale",
+                    "description": "Depressive Symptom Inventory Suicidality Subscale will assess presence of suicidal ideation and impulses in the prior two weeks during biweekly interviews for the duration of 14-week follow-up period. Exploratory analyses will assess ability to predict changes in suicidality symptoms using machine learning algorithms.",
+                    "timeFrame": "Biweekly for 14 weeks"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "VA Clinicians Focus Group Themes",
+                    "description": "Focus groups of 8 VA clinicians who provide care to Veterans with bipolar disorders will be analyzed using a rapid qualitative analysis method to derive themes related to facilitators and inhibitors to clinical implementation of the mHealth methods and the study's machine learning algorithms in future clinical care of Veterans with bipolar disorders.",
+                    "timeFrame": "Once at a half-point of study's data collection (end of Year 2)"
+                },
+                {
+                    "measure": "VA Administrators Focus Group Themes",
+                    "description": "Focus group of 8 VA administrators who oversee care for Veterans with bipolar disorders will be analyzed using a rapid qualitative analysis method to derive themes related to facilitators and inhibitors to clinical implementation of the mHealth methods and the study's machine learning algorithms in future clinical care of Veterans with bipolar disorders.",
+                    "timeFrame": "Once at the end of study's data collection (Year 4)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Veteran participants will have a confirmed primary diagnosis of a Bipolar I Disorder, Bipolar II Disorder or Other Specified Bipolar Disorder (i.e., those with major depressive episodes and hypomania that meets all episode criteria but for duration) based on the clinical Interview for DSM-5-Research Version (SCID-5-RV), medical chart review and consensus procedure directed by the PI\n* All Veteran participants will endorse presence of at least one bipolar episode in the last 12 months based on the interview and/or medical chart information\n* All Veteran participants will own a smartphone capable of running all study apps\n* All participants will be age 18 years or older\n* All participants will be fluent in English\n* All Veteran participants will be able to demonstrate capacity for consent (see below) and have no active court-appointed legal guardianship precluding ability to provide consent\n* Focus group participants will be active Minneapolis VAHCS providers and administrators who are either actively engaged in care for Veterans with BD or involved in administrative roles overseeing mental health care of Veterans within Minneapolis VAHCS\n\nExclusion Criteria:\n\n* Presence of a major neurocognitive disorder or neurological disorder, such as Alzheimer's dementia, vascular dementia, Parkinson's disease, etc.\n* Impaired global cognition (MoCA score \\< 20 for in-person assessment, or equivalent score on \"blind\" MoCA for virtual assessments)\n* Presence of physical conditions preventing use of smartphone apps Lack of capacity to provide informed consent\n* Age \\< 18 years\n* No exclusion for focus group participants as their VA status employment will be taken to indicate age of majority, intact global cognition, etc.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Veterans with bipolar disorders who receive care at the Minneapolis VA Health Care System. VA providers and administrators who provide care to Veterans with bipolar disorders at the Minneapolis VA Health Care System.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Snezana Urosevic, PhD",
+                    "role": "CONTACT",
+                    "phone": "(612) 467-3897",
+                    "email": "Snezana.Urosevic@va.gov"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Snezana Urosevic, PhD",
+                    "affiliation": "Minneapolis VA Health Care System, Minneapolis, MN",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Minneapolis VA Health Care System, Minneapolis, MN",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55417-2309",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Joshua P Nixon, PhD",
+                            "role": "CONTACT",
+                            "phone": "612-467-2804",
+                            "email": "Joshua.Nixon@va.gov"
+                        },
+                        {
+                            "name": "Snezana Urosevic, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "PI will store all study research records and data for a minimum of 6 fiscal years post study closure as required by VA data retention policies. De-identified data will be stored for at least 7 years after publication of the project's findings and will be made available for data sharing when requests for sharing are made for scientific purposes (e.g., results validation purposes). When possible, written agreements will be used specifying conditions of data sharing.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Some supporting information, such as statistical analysis plan, may be shared prior to publication of results in online pre-registration open science websites. IPD and supporting information will be shared from the time of study results publication until 7 years after the publication for valid scientific reasons.",
+            "accessCriteria": "PI will share the IPD and supporting information in consultation with local Research office administrators for valid scientific purposes (e.g., validation of results, inclusion in mega-analysis or meta-analysis). PI will utilize VA approved methods at the time for online sharing of this type of information."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012008",
+                    "term": "Recurrence"
+                },
+                {
+                    "id": "D000001714",
+                    "term": "Bipolar Disorder"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000068105",
+                    "term": "Bipolar and Related Disorders"
+                },
+                {
+                    "id": "D000019964",
+                    "term": "Mood Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14850",
+                    "name": "Recurrence",
+                    "asFound": "Recurrence",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4996",
+                    "name": "Bipolar Disorder",
+                    "asFound": "Bipolar Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M226",
+                    "name": "Bipolar and Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21835",
+                    "name": "Mood Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

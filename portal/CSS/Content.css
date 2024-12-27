@@ -1,0 +1,453 @@
+* {
+    font: 8pt verdana;
+}
+BODY {
+  /* Scrollbar setting */
+	scrollbar-base-color:#3B5E94;
+	scrollbar-arrow-color:#2F3B47;
+	scrollbar-darkshadow-color:#45637F;
+	scrollbar-face-color:#DDE9F5;
+	scrollbar-highlight-color:#EBFCFF;
+	scrollbar-shadow-color:#A1BDCB;
+	scrollbar-track-color:#BBD1E8;
+  /* Border Setting */
+	padding: 0px; 
+	margin:0px;
+  /*Background filter makes problems when scrolling applets and selects*/
+	background-color:	#F6F7FB
+}
+TABLE{
+	margin: 0;
+	padding: 0;
+}
+
+/* === Content Containers  =========================================================== */
+
+.ContentTitleBar {
+	height: 22px;
+	border:1px solid #A4ADB6;
+	background-color: #C0D2E5;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#D1E1F1,endColorStr=#AEC3D8);
+	padding-left: 10px;
+}
+.ContentTitleExt {
+	color: #204C7D;
+	font-size: 180%;
+	font-weight: 1100;
+	text-align: center;
+}
+.ContentTitle {
+	color: #204C7D;
+	font-size: 140%;
+	font-weight: 900;
+}
+.ContentSubTitle {
+	color: #000000;
+	font-weight: bold;
+}
+.ContentSubTitleBar { 
+	height: 20px;
+	border:1px solid #98B1CB;
+	border-top:1px solid #DFE9F1;
+	background-color: #BAD2E8;
+	/* OLD: startColorStr=#A8C7E2,endColorStr=#BAD2E8 */
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EAF1F6,endColorStr=#BAD2E8);
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 0px;
+}
+.ContentHeader {
+	border:1px solid #98B1CB;
+	background-color: #BAD2E8;
+	padding: 5px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+.ContentHeaderSection {
+	border:1px solid #98B1CB;
+	border-top:1px solid #DFE9F1;
+	background-color: #BAD2E8;
+	padding: 5px;
+}
+.Content {
+	border:1px solid #D7DDE7;
+	background-color: #EAF1F6;
+	padding: 0px;
+}
+/* For scrolling DIV container*/
+.ScrollDiv {
+	width:100%;
+	height:100%;
+	overflow:auto;
+}
+.HeaderSeparator{
+	border-left: 1px solid #B5C9DA;
+	width: 6px; /* must be twice the margin-right of class 'boldbuttons'*/
+}
+/*--- For buttons right of value entry fields ---*/
+.ValueButton{
+	height:	16px;
+	cursor:	hand;
+	margin-left:	5px;
+}
+
+/* === Value Help Popup Buttons =========================================================== */
+.ValuePopupButtons{
+	padding-left: 5px; 
+	padding-right: 5px
+}
+.ValuePopupButtons A{
+	text-align: center;
+	width: 100%;
+}
+
+/* === Tab Strip Styles ==================================================================== */
+.TabBottomLine{
+	font-size: 0px; 
+	height: 5px; 
+	width: 100%; 
+	border-bottom: 1px solid #547CA3; 
+	background-color: #91ABC6;
+}
+.TabLeftSpacer{
+	font-size: 0; 
+	width: 10px; 
+	height: 10px; 
+	border-right: 1px solid #8EADCE
+}
+.TabActive SPAN {
+	font-weight: 900;
+}
+.Tab{
+	height: 22px;
+	border:1px solid #8EADCE;
+	border-bottom: none;
+	border-left: none;
+	padding: 0px;	
+	position: relative;
+}
+.Tab A {
+	line-height: 22px; 
+	height: 100%;
+	padding-left: 15px; 
+	padding-right: 10px;
+	padding-top: 4px;
+	text-decoration: none;
+	color: #000000; 
+	cursor: default;
+}
+.TabNormal{
+	background-color: #EAF1F6;
+	FILTER:  progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EAF1F6,endColorStr=#CFDDE8);
+}
+A:hover.TabNormal {
+	background-color: #91ABC6;
+	FILTER:  progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EAF1F6,endColorStr=#91ABC6);
+}
+.TabActive{
+	background-color: #91ABC6;
+	FILTER:  progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#B7C9D9,endColorStr=#91ABC6);
+}
+.TabCornerIcon{
+	position: absolute; 
+	top: -1; 
+	background-image:url(/XMII/CM/ESLB/Common/Images/TabCornerDarker.gif); 
+	height: 12px; 
+	width: 12px;
+}
+
+/* === Log Line ================================================================================= */
+.LogBar {
+	border:1px solid #98B1CB;
+	border-top: none;
+	border-bottom: none;
+	background-color: #FFFFFF;
+	padding: 3px;
+	padding-left: 5px;
+}
+.LogMessage{
+	padding-left: 5px;
+	color: #000000;
+}
+
+
+
+/* === iFrame Popups ================================================================================= */
+#PopupShell {
+	position: absolute;
+	visibility: hidden; 
+	top: 0;
+	left: 0;
+	width: 1px;
+	height: 1px;
+	border: none;
+	padding: 0px;
+}
+.PopupFrameOut {
+	border: 1px solid #555; 
+	border-top-color: #F9F9F9; 
+	border-left-color: #F9F9F9;
+}
+.PopupFrameIn{
+	border: 1px solid #72A4D0;
+}
+.PopupTitleBar {
+	height: 20px;
+	border-bottom:1px solid #98B1CB;
+	background-color: #72A4D0;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#72A4D0,endColorStr=#BAD2E8);
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 0px;
+}
+.PopupTitle {
+	color: #FFFFFF;
+	font-weight: bold;
+}
+
+
+
+
+
+/* === Styles from MII Best Practices =============================================================== */
+
+/* set the formatting of the rollover buttons   */	
+a.boldbuttons, a.boldbuttonsDis{
+	float: left;
+	line-height: 12px; /* This value + 4px + 4px (top and bottom padding of SPAN) must equal height of button background (default is 30px) */
+	display: block;
+	padding-left: 5px; /* Width of left menu image */
+	text-decoration: none;
+	BORDER: 1px solid #87857E;
+	margin-right: 3px;
+   /* For active button only */
+	background-color:rgb(249,238,181);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FEF7DB,endColorStr=#E8D16C);
+	CURSOR: pointer;
+	color: #000000; 
+}
+
+a.boldbuttonsDis{
+	background-color: #FAE8A4;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFFFFF,endColorStr=#FAE8A4);
+	CURSOR: default;
+	color: #777777;
+}
+
+/* set the formatting of the rollover buttons   */	
+a.boldbuttons span, a.boldbuttonsDis span{
+	display: block;
+	padding: 2px 7px 2px 2px; /*Set 10px to be equal or greater than'padding-left' value above*/
+}
+
+/* set the formatting of the rollover buttons   */	
+a:hover.boldbuttons{     
+	background-color:rgb(248,189,71);
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#FFF2D5,endColorStr=#F6B828);
+}
+
+/* formatting for individual text boxes where user types  */		
+.txtFieldNumber, .txtField{
+	border:1px solid rgb(131,131,143);
+	color: #000000;
+	background-color: #ffffff;
+	type:text;
+	padding-left: 3px;
+	margin-left: 0px;
+	}
+.txtFieldNumber{
+	text-align: right;
+}
+
+.txtFieldNumberDis{
+	text-align: right;
+}
+
+/* formatting for individual text boxes that are disabled  */	
+.txtFieldNumberDis, .txtFieldDis{
+	background-color:rgb(235,239,242);
+	color: #777777;
+	border:1px solid rgb(131,131,143);
+	padding-left: 3px;
+	margin-left: 0px;
+}
+
+/* formatting for individual selection boxes where user selects drop down items  */
+	.selField{
+		border: 1px solid #FF9900;
+		background-color: #ffffff;
+		color: #003366;
+	}
+/* formatting for individual text area where user types  */
+	.txtArea{
+		border: 1px solid #CC6600;
+		background-color: #ffffff;
+		color: #003366;
+		width: 200px;
+		height: 40px;
+	}
+/* formatting for buttons  */		
+	.buttons{
+		text-align:center;
+		text-decoration:none;
+		color:rgb(0,0,0);
+		border:1px solid black;
+		background-color:rgb(249,238,181);
+		}
+/*formatting for iframe pages */
+	.iframeBody{
+		margin-top:0; 
+		margin-left:0;
+	}	
+
+.td_topborder{
+		border-top:1px solid #cfcfcf
+}
+
+/* formatting for the minimize and maximize images */
+.minmaxImg{
+	 float:right;
+	border: none;
+}
+
+/* ========================================*/
+/* === OBSOLETE !!! For temporary compatibility  === */
+/* ========================================*/
+
+.BM_ContentTitleBar {
+	height: 22px;
+	border:1px solid #A4ADB6;
+	background-color: #C0D2E5;
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#D1E1F1,endColorStr=#AEC3D8);
+	padding-left: 10px;
+}
+.BM_ContentTitle {
+	color: #204C7D;
+	font-size: 10pt;
+	font-weight: 900;
+}
+.BM_ContentSubTitle {
+	color: #000000;
+	font-weight: bold;
+}
+.BM_ContentSubTitleBar { 
+	height: 20px;
+	border:1px solid #98B1CB;
+	border-top:1px solid #DFE9F1;
+	background-color: #BAD2E8;
+	/* OLD: startColorStr=#A8C7E2,endColorStr=#BAD2E8 */
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EAF1F6,endColorStr=#BAD2E8);
+	padding: 5px;
+	padding-top: 1px;
+	padding-bottom: 0px;
+}
+.BM_ContentHeader {
+	border:1px solid #98B1CB;
+	background-color: #BAD2E8;
+	padding: 5px;
+	padding-top: 3px;
+	padding-bottom: 2px;
+}
+.BM_ContentHeaderSection {
+	border:1px solid #98B1CB;
+	border-top:1px solid #DFE9F1;
+	background-color: #BAD2E8;
+	padding: 5px;
+}
+.BM_Content {
+	border:1px solid #D7DDE7;
+	background-color: #EAF1F6;
+	padding: 0px;
+}
+.BM_HeaderSeparator{
+	border-left: 1px solid #B5C9DA;
+	width: 6px; /* must be twice the margin-right of class 'boldbuttons'*/
+}
+/*--- For buttons right of value entry fields ---*/
+.BM_ValueButton{
+	height:	16px;
+	cursor:	hand;
+	margin-left:	5px;
+}
+
+/* === Value Help Popup Buttons === */
+.BM_ValuePopupButtons{
+	padding-left: 10px; 
+	padding-right: 10px
+}
+.BM_ValuePopupButtons A{
+	text-align: center;
+	width: 100%;
+}
+
+/* === Tab Strip Styles === */
+.BM_TabBottomLine{
+	font-size: 0px; 
+	height: 5px; 
+	width: 100%; 
+	border-bottom: 1px solid #547CA3; 
+	background-color: #91ABC6;
+}
+.BM_TabLeftSpacer{
+	font-size: 0; 
+	width: 10px; 
+	height: 10px; 
+	border-right: 1px solid #8EADCE
+}
+.BM_TabActive SPAN {
+	font-weight: 900;
+}
+.BM_Tab{
+	height: 22px;
+	border:1px solid #8EADCE;
+	border-bottom: none;
+	border-left: none;
+	padding: 0px;	
+	position: relative;
+}
+.BM_Tab A {
+	line-height: 22px; 
+	height: 100%;
+	padding-left: 15px; 
+	padding-right: 10px;
+	padding-top: 4px;
+	text-decoration: none;
+	color: #000000; 
+	cursor: default;
+}
+.BM_TabNormal{
+	background-color: #EAF1F6;
+	FILTER:  progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EAF1F6,endColorStr=#CFDDE8);
+}
+A:hover.BM_TabNormal {
+	background-color: #91ABC6;
+	FILTER:  progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#EAF1F6,endColorStr=#91ABC6);
+}
+.BM_TabActive{
+	background-color: #91ABC6;
+	FILTER:  progid:DXImageTransform.Microsoft.Gradient(gradientType=0,startColorStr=#B7C9D9,endColorStr=#91ABC6);
+}
+.BM_TabCornerIcon{
+	position: absolute; 
+	top: -1; 
+	background-image:url(/XMII/CM/ESLB/Common/Images/TabCornerDarker.gif); 
+	height: 12px; 
+	width: 12px;
+}
+
+/* === Log Line === */
+.BM_LogBar {
+	border:1px solid #98B1CB;
+	border-top: none;
+	border-bottom: none;
+	background-color: #FFFFFF;
+	padding: 3px;
+	padding-left: 5px;
+}
+.BM_LogMessage{
+	padding-left: 5px;
+	color: #000000;
+}
+
+
+

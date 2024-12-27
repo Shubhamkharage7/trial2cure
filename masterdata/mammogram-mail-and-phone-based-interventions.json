@@ -1,0 +1,314 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05853848",
+            "orgStudyIdInfo": {
+                "id": "2022-0369"
+            },
+            "organization": {
+                "fullName": "Geisinger Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Mammogram Mail- and Phone-based Interventions",
+            "officialTitle": "Randomized Comparison of Mail- and Phone-based Interventions Promoting Mammogram Screening",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "mammogram-mail-and-phone-based-interventions"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-28",
+            "studyFirstSubmitQcDate": "2023-05-10",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Amir Goren",
+                "investigatorTitle": "Program Director, Behavioral Insights Team",
+                "investigatorAffiliation": "Geisinger Clinic"
+            },
+            "leadSponsor": {
+                "name": "Geisinger Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The project aims to evaluate four different versions and modalities of interventions encouraging mammogram screening among all eligible women due or overdue for screening. The evaluation will compare among the following forms of outreach to help determine whether (a) live calls are more effective at increasing mammogram screening than other forms of outreach and (b) each form of outreach is more effective than no outreach: (1) a postcard, (2) a letter, (3) an auto-dialer phone message, and (4) a live call from a care gaps team. The interventions will be rolled out over many months, allowing for comparisons of effectiveness against those who have not yet been contacted."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Breast Cancer"
+            ],
+            "keywords": [
+                "Economics, Behavioral",
+                "Mammography",
+                "Risk Reduction Behavior",
+                "Communication"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Each intervention will be rolled out to only a subset of the total population each month, such that all patients will receive one of the interventions over the course of 7 months. Active arms will be compared contemporaneously against a passive control group consisting of active arm participants for whom the intervention has not yet begun, as well as a random subset of participants who are excluded before the future intervention begins.",
+                "primaryPurpose": "SCREENING",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 17650,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Standard postcard",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Patients in this arm will receive a postcard with words and an image, typical of outreach in prior years, encouraging them to schedule their annual mammograms.",
+                    "interventionNames": [
+                        "Behavioral: Postcard"
+                    ]
+                },
+                {
+                    "label": "Formal letter",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients in this arm will receive a letter from the Geisinger Health Plan (on Geisinger letterhead) noting that they're overdue for a mammogram and encouraging them to schedule.",
+                    "interventionNames": [
+                        "Behavioral: Letter"
+                    ]
+                },
+                {
+                    "label": "Auto-dialer",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients in this arm will receive a call from an auto-dialer with a message noting that they're overdue for a mammogram and encouraging them to schedule.",
+                    "interventionNames": [
+                        "Behavioral: Auto-dialer"
+                    ]
+                },
+                {
+                    "label": "Live call",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients in this arm will receive a call from a Geisinger Health Plan representative noting that they're overdue for a mammogram and encouraging them to schedule (and helping them schedule if they are interested).",
+                    "interventionNames": [
+                        "Behavioral: Live call"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Postcard",
+                    "description": "Postcard with phone number to call for help scheduling a mammogram.",
+                    "armGroupLabels": [
+                        "Standard postcard"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Letter",
+                    "description": "Letter with phone number to call for help scheduling a mammogram.",
+                    "armGroupLabels": [
+                        "Formal letter"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Auto-dialer",
+                    "description": "Auto-dialer with option to press button for help scheduling a mammogram.",
+                    "armGroupLabels": [
+                        "Auto-dialer"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Live call",
+                    "description": "Live call offering help scheduling a mammogram.",
+                    "armGroupLabels": [
+                        "Live call"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Mammogram completed",
+                    "description": "Record of completed mammogram (yes/no), for comparing postcards, letters, and auto-dialer messages with live calls",
+                    "timeFrame": "In the 180 days following the patient's intervention send date"
+                },
+                {
+                    "measure": "Mammogram completed",
+                    "description": "Record of completed mammogram (yes/no), for comparing postcards, letters, auto-dialer messages, and live calls with controls",
+                    "timeFrame": "In the 120 days following the patient's intervention send date"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Mammogram completed",
+                    "description": "Record of completed mammogram (yes/no), for comparing across postcards, letters, and auto-dialer messages",
+                    "timeFrame": "In the 180 days following the patient's intervention send date"
+                },
+                {
+                    "measure": "Breast malignancy risk detected",
+                    "description": "Record of high malignancy risk (yes/no), for comparing across different modalities of outreach",
+                    "timeFrame": "In the 210 days following the patient's intervention send date"
+                },
+                {
+                    "measure": "Mammogram appointment scheduled",
+                    "description": "Appointment scheduled for mammogram, among patients visiting Geisinger clinics (yes/no)",
+                    "timeFrame": "In the 30 days following the patient's intervention send date"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Female Geisinger Health Plan members between ages 52 and 74 as of December 31, 2023\n* Overdue for annual mammogram\n* Continuously enrolled with the Geisinger Health Plan as of October 1, 2021\n* Can be contacted via both phone and mail\n\nExclusion Criteria:\n\n* Geisinger Health Plan members on a do-not-contact list\n* Had a mammogram as of October 1, 2021\n* In hospice, using hospice services, or receiving palliative care as of January 1, 2023\n* Medicare members 66 years of age or above at time of outreach, who are institutionalized or have both frailty and advanced illness\n* Had a bilateral mastectomy at any time",
+            "healthyVolunteers": true,
+            "sex": "FEMALE",
+            "minimumAge": "51 Years",
+            "maximumAge": "74 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Amir Goren, PhD",
+                    "role": "CONTACT",
+                    "phone": "5702144395",
+                    "email": "agoren@geisinger.edu"
+                },
+                {
+                    "name": "Gail Rosenbaum, PhD",
+                    "role": "CONTACT",
+                    "email": "grosenbaum@geisinger.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Amir Goren, PhD",
+                    "affiliation": "Geisinger Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Geisinger",
+                    "status": "RECRUITING",
+                    "city": "Danville",
+                    "state": "Pennsylvania",
+                    "zip": "17822",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amir Goren, PhD",
+                            "role": "CONTACT",
+                            "phone": "570-214-4395",
+                            "email": "agoren@geisinger.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.96342,
+                        "lon": -76.61273
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Data with no personally identifiable information will be made available to other researchers on the Open Science Framework for transparency. This will include the essential data and code needed to replicate the analysis that yielded reported findings.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "By the paper's online publication date. Data will remain available for as long as the Open Science Framework hosts it.",
+            "accessCriteria": "The data on the Open Science Framework will be open to anyone requesting that information.",
+            "url": "http://osf.io"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "Prot_SAP",
+                    "hasProtocol": true,
+                    "hasSap": true,
+                    "hasIcf": false,
+                    "label": "Study Protocol and Statistical Analysis Plan",
+                    "date": "2023-05-12",
+                    "uploadDate": "2023-05-12T15:47",
+                    "filename": "Prot_SAP_000.pdf",
+                    "size": 158449
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

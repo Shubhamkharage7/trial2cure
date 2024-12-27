@@ -1,0 +1,255 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT01612949",
+            "orgStudyIdInfo": {
+                "id": "IRB00036442"
+            },
+            "organization": {
+                "fullName": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            },
+            "briefTitle": "Facial Analysis to Classify Difficult Intubation",
+            "officialTitle": "Comparison of a Computerized Image Analysis to Conventional Airway Examination Techniques to Predict Difficult Endotracheal Intubation",
+            "therapeuticArea": [
+                "Critical Care"
+            ],
+            "study": "facial-analysis-to-classify-difficult-intubation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2012-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2012-06-04",
+            "studyFirstSubmitQcDate": "2012-06-05",
+            "studyFirstPostDateStruct": {
+                "date": "2012-06-06",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2023-12-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The aim of this project is to develop a computer algorithm that can accurately predict how easy or difficult it is to intubate a patient based upon digital photographs from three different perspectives. Such an application can provide a consistent, quantitative measure of intubation difficulty by analyzing facial features in captured photographs - features which have previously been shown to correlate with how easy or how hard it would be to perform the intubation procedure. This is in contrast to established subjective protocols that also serve to predict intubation difficulty, albeit with lower accuracy. A digital application has the potential to decrease potential complications related to intubation difficulty and increase patient safety.",
+            "detailedDescription": "Both control and experimental cohorts will be recruited in this study. In order to drive clinical acceptance of this technique, the investigators will need to study and then demonstrate applicability to all patients regardless of race or gender. This will require the recruitment of a control population of patients who have been demonstrated at surgery to be easy to intubate. Such patients are in relative abundance. The experimental group will consist of patients who are found at surgery to be difficult to intubate. In addition, a prospective cohort will be recruited without prior knowledge of ease or difficulty of intubation, and subsequent ground truth determined at surgery. Patients are defined as easy to intubate if their anesthetic record described a single attempt with a Macintosh 3 blade resulting in a grade 1 laryngoscopic view (full exposure of the vocal cords). Difficult intubation was defined by at least one of: more than one attempt by an operator with at least one year of anesthesia experience, grade 3 or 4 laryngoscopic view on a 4 point scale, 5 need for a second operator, or non-elective use of an alternative airway device such as a bougie, fiberoptic bronchoscope or intubating laryngeal mask airway.\n\nThe primary purpose of the study is to develop algorithms capable of discriminating patients who are likely to be difficult to intubate from those who are likely to be easy to intubate based on facial appearance. The primary analysis is the demonstration of statistical significance in the ability of the derived algorithms to determine successfully whether a subject was easy or difficult to intubate. A secondary analysis is the demonstration of a statistical difference in performance between the derived algorithms versus conventional airway assessment tests.\n\nAn ongoing modification of the protocol will allow anesthesia personnel to attempt intubation with a Miller (straight) laryngoscope blade, instead of a Macintosh blade. This secondary outcome was chosen because of the strong preference, and in some cases, better skill, with such a blade. It is possible that different facial features will predict difficulty with this blade than has been predicted to date with a Macintosh blade."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Difficult Intubation"
+            ],
+            "keywords": [
+                "endotracheal intubation",
+                "facial structure",
+                "Mallampati score",
+                "computerized facial analysis"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 3500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "easy to intubate, model derivation",
+                    "description": "easy to intubate, model derivation. photographing head and neck",
+                    "interventionNames": [
+                        "Other: photographing head and neck"
+                    ]
+                },
+                {
+                    "label": "difficult to intubate, model derivation",
+                    "description": "difficult to intubate, model derivation.photographing head and neck",
+                    "interventionNames": [
+                        "Other: photographing head and neck"
+                    ]
+                },
+                {
+                    "label": "easy to intubate, model validation",
+                    "description": "easy to intubate, model validation. photographing head and neck",
+                    "interventionNames": [
+                        "Other: photographing head and neck"
+                    ]
+                },
+                {
+                    "label": "difficult to intubate, model validation",
+                    "description": "difficult to intubate, model validation. photographing head and neck",
+                    "interventionNames": [
+                        "Other: photographing head and neck"
+                    ]
+                },
+                {
+                    "label": "Test",
+                    "description": "A group of unlabeled subjects (mix of easy and difficult intubations) to test the reproducibility of the derived and validated model(s)",
+                    "interventionNames": [
+                        "Other: photographing head and neck"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "photographing head and neck",
+                    "description": "Taking three photographs of head and neck-one photograph from front, one from left and one fron right. The photographs are analyzed by facial structure software to create face model.",
+                    "armGroupLabels": [
+                        "Test",
+                        "difficult to intubate, model derivation",
+                        "difficult to intubate, model validation",
+                        "easy to intubate, model derivation",
+                        "easy to intubate, model validation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Computer algorithm to predict difficulty of endotracheal intubation",
+                    "description": "The outcome will be a computer algorithm that can accurately predict how easy or difficult it is to intubate a patient based upon digital photographs from three different perspectives. Such an application can provide a consistent, quantitative measure of intubation difficulty by analyzing facial features in captured photographs-features which have previously been shown to correlate with how easy or how hard it would be to perform the intubation procedure. A digital application has the potential to decrease complications related to intubation difficulty and increase patient safety.",
+                    "timeFrame": "Approximately 2 years, based on current enrollment pattern"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients requiring endotracheal intubation\n* Patients consenting to acquisition of photographic images of the head and neck\n\nExclusion Criteria:\n\n* Patients who had undergone head or neck surgery\n* Patients in whom central venous catheters or other interventions that prevent full view of the features of the face in frontal and profile views\n* Patients who were neither easy nor difficult to intubate by our criteria",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "99 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients undergoing surgical procedures requiring general anesthesia with endotracheal intubation; patients from all ethnic groups",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Scott Segal, MD, MHCM",
+                    "role": "CONTACT",
+                    "phone": "(336) 716-7084",
+                    "email": "bsegal@wakehealth.edu"
+                },
+                {
+                    "name": "Angela Goodson",
+                    "role": "CONTACT",
+                    "phone": "336-716-4497",
+                    "email": "agoodson@wakehealth.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Scott Segal, MD, MHCM",
+                    "affiliation": "Wake Forest University Health Sciences",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Wake Forest Baptist Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Winston-Salem",
+                    "state": "North Carolina",
+                    "zip": "27157",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Scott Segal, MD",
+                            "role": "CONTACT",
+                            "phone": "336-716-4497"
+                        },
+                        {
+                            "name": "Scott Segal, MD, MHCM",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.09986,
+                        "lon": -80.24422
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "34391000",
+                    "type": "BACKGROUND",
+                    "citation": "Tavolara TE, Gurcan MN, Segal S, Niazi MKK. Identification of difficult to intubate patients from frontal face images using an ensemble of deep learning models. Comput Biol Med. 2021 Sep;136:104737. doi: 10.1016/j.compbiomed.2021.104737. Epub 2021 Aug 4."
+                },
+                {
+                    "pmid": "21081769",
+                    "type": "RESULT",
+                    "citation": "Connor CW, Segal S. Accurate classification of difficult intubation by computerized facial analysis. Anesth Analg. 2011 Jan;112(1):84-93. doi: 10.1213/ANE.0b013e31820098d6. Epub 2010 Nov 16."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M21089",
+                    "name": "Facies",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

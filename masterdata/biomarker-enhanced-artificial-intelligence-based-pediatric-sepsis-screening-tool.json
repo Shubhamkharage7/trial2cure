@@ -1,0 +1,590 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05311046",
+            "orgStudyIdInfo": {
+                "id": "NIAID 1R41AI167224-01"
+            },
+            "organization": {
+                "fullName": "Computer Technology Associates, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Biomarker-enhanced Artificial Intelligence Based Pediatric Sepsis Screening Tool",
+            "officialTitle": "Biomarker-enhanced Artificial Intelligence Based Pediatric Sepsis Screening Tool Towards Early Recognition and Personalized Therapeutics",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "biomarker-enhanced-artificial-intelligence-based-pediatric-sepsis-screening-tool"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-01-09",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-02",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-20",
+            "studyFirstSubmitQcDate": "2022-03-31",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-02-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-02-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Ioannis Koutroulis",
+                "investigatorTitle": "Assistant Professor of Pediatrics, Emergency Medicine, Genomics and Precision Medicine",
+                "investigatorAffiliation": "Children's National Research Institute"
+            },
+            "leadSponsor": {
+                "name": "Computer Technology Associates, Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Children's Hospital Medical Center, Cincinnati",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Rainbow Babies and Children's Hospital",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Johns Hopkins University",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Johns Hopkins All Children's Hospital",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Emory University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The overall objective of this proposed research is the derivation of a biomarker-enhanced artificial intelligence (AI)-based pediatric sepsis screening tool (PSCT) (software) that can be used in combination with the hospital's electronic health record (EHR) system to monitor and assess real-time emergency department (ED) electronic health record (EHR) data towards the enhancement of early pediatric sepsis recognition and the initiation of timely, aggressive personalized sepsis therapy known to improve patient outcomes.\n\nIt is hypothesized that the screening performance (e.g., positive predictive value) of the envisioned screening tool will be significantly enhanced by the inclusion of a biomarker panel test results (PERSEVERE) that have been shown to be effective in prediction of clinical deterioration in non-critically ill immunocompromised pediatric patients evaluated for infection. It is also hypothesized that enhanced phenotypes can be derived by clustering PERSEVERE biomarkers combined with routinely collected EHR data towards improved personalized medicine.",
+            "detailedDescription": "Background and Rationale Existing automated pediatric sepsis screening tools (PSCT) based on consensus criteria currently used in emergency departments do not improve early recognition and/or inform personalized therapeutic decisions leading to improved outcomes. The Improving Pediatric Sepsis Outcomes (IPSO) initiative found that by including patients that receive treatment, the extended criteria captured not only patients who developed sepsis with organ dysfunction (OD), but also those in whom early sepsis was treated with OD potentially averted.\n\nThe objective of the proposed effort is to derive and retrospectively validate a biomarker-enhanced AI-based pediatric sepsis screening tool that can be used to screen ED EHR data to improve early recognition, severity stratification, and the timely initiation of personalized sepsis therapy. CTA and its 6 institutional partners jointly propose to establish two de-identified patient registries: 1) the \"EHR-data only cohort\" (N = 2000) and 2) the \"EHR + biomarker data cohort\" (N = 400) in support of this objective.\n\nEncounter data elements to be abstracted from EHRs for inclusion in these registries include both structured (e.g., time-stamped physiological measurements, treatments, procedures, outcomes) as well as free text notes.\n\nData Analysis and biases All study data, including physiological data extracted from patient EHR and results of biomarker assays will be analyzed using a variety of machine learning algorithms and techniques towards producing a high precision sepsis screening predictive model. Analytic methods involve standard descriptive statistical analysis of predictive classification performance (e.g., AUC, sensitivity/specificity, PPV, etc.)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sepsis"
+            ],
+            "keywords": [
+                "pediatric sepsis"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "OTHER"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "For each consenting patient a plasma will be collected within the first 6 hours of triage."
+            },
+            "enrollmentInfo": {
+                "count": 2400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Retrospective EHR-data only group",
+                    "description": "Members of this group are pediatric patients between the ages of 3 months to 17 years inclusive, that presented to one of the six participating institution's emergency department between the years 2016-2021 and screened positive for suspicion of sepsis using the institution's existing pediatric sepsis screening protocol and receive a blood culture order. Current pediatric screening/alerting tools are known to be highly sensitive but poorly specific. \"Cases\" in this cohort will be comprised of those that are ultimately diagnosed with sepsis and/or receive protocolized sepsis treatment. \"Controls\" in this cohort will be those with a false positive alert, i.e., are not diagnosed with sepsis and do not receive protocolized sepsis treatment.",
+                    "interventionNames": [
+                        "Diagnostic Test: Pediatric sepsis screening tool (either algorithmic or manual)"
+                    ]
+                },
+                {
+                    "label": "Prospective EHR and Biomarker data group",
+                    "description": "Members of this group are pediatric patients between the ages of 3 months to 17 years inclusive, that presented to one of the six participating institution's emergency department during the study enrollment period, screen positive for suspicion of sepsis using the institution's existing pediatric sepsis screening protocol, receive a blood culture order and provide informed consent/assent for the collection of a 1-5 mL blood sample to be used to measure PERSEVERE biomarkers. Members of this cohort will have also consented to the reuse of their medical record data for the research. Current pediatric screening/alerting tools are known to be highly sensitive but poorly specific. \"Cases\" in this cohort will be comprised of those that are ultimately diagnosed with sepsis and/or receive protocolized sepsis treatment. \"Controls\" in this cohort will be those with a false positive alert, i.e., are not diagnosed with sepsis and do not receive protocolized sepsis treatment.",
+                    "interventionNames": [
+                        "Diagnostic Test: Pediatric sepsis screening tool (either algorithmic or manual)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Pediatric sepsis screening tool (either algorithmic or manual)",
+                    "description": "All participating institutions employ either an algorithmic, manual, or combined algorithmic/manual pediatric sepsis screening protocol for patients that present with fever and/or a concern for infection. While the specific parameters tested in screening tools differ, they generally consist of tests for a systemic inflammatory response (e.g. SIRS) and/or organ dysfunction (e.g. SOFA) and/or high susceptibility (e.g. immunocompromised) factors.",
+                    "armGroupLabels": [
+                        "Prospective EHR and Biomarker data group",
+                        "Retrospective EHR-data only group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Effective Expert System-based Pediatric Sepsis Screening Tool (PSCT)",
+                    "description": "Over a usability test period, by emulation of the logic of experts in a screening tool that cam be continuously improved with experience, achieve a high level of ED workflow usability towards improved early recognition of IPSO sepsis, as perceived by practicing ED clinicians engaged in usability testing.",
+                    "timeFrame": "Final 3 months of study period."
+                },
+                {
+                    "measure": "High performance Expert System-based Pediatric Sepsis Screening Tool (PSCT)",
+                    "description": "To derive a high performing (e.g., sensitivity/specificity \\> 90%, PPV \\> 40%) PSCT to identify patients in the ED meeting IPSO sepsis criteria using early encounter data (e.g. upon receipt of biomarker data within 1st 1-3 hours of presentation).",
+                    "timeFrame": "Using \"early data\" following presentation to ED, e.g., upon receipt of biomarker data within 1st 3 hours of presentation)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Effective sepsis phenotyping for personalized treatment",
+                    "description": "To show that combined PERSEVERE biomarker and EHR data as clustering features (e.g. using latent class analysis) enhances the detection of clinically useful prognostic phenotypes.",
+                    "timeFrame": "Features based on 1st 6 hours following presentation in patients diagnosed with sepsis and treatment protocol initiated."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nPatients 3 months -17 years of age, inclusive\n\n* Diagnosed with sepsis by a clinician or trigger a sepsis alert and a blood culture is ordered. Controls will be false positive patients.\n* For those patients that will be prospectively enrolled for blood sample collection: will require a venipuncture or intravenous line placement.\n\nExclusion Criteria:\n\n* Patients participating in an investigational program with interventions outside of routine clinical practice\n* Patients with parents or LARs that don't speak English or Spanish\n* Pregnancy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "3 Months",
+            "maximumAge": "17 Years",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "Those pediatric patients presenting to the emergency department with a fever and/or concern for infection and screen positive for pediatric sepsis based on existing institutional screening protocol.",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ioannis Koutroulis, MD",
+                    "role": "CONTACT",
+                    "phone": "202-476-4177",
+                    "email": "IKOUTROULI@childrensnational.org"
+                },
+                {
+                    "name": "Carmelo \"Tom\" E Velez, PhD",
+                    "role": "CONTACT",
+                    "phone": "19495005883",
+                    "email": "tom.velez@cta.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Carmelo \"Tom\" E Velez, PhD",
+                    "affiliation": "CTA",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Children's National Hospital",
+                    "status": "RECRUITING",
+                    "city": "Washington",
+                    "state": "District of Columbia",
+                    "zip": "20010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ioannis Koutroulis",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.89511,
+                        "lon": -77.03637
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "15636651",
+                    "type": "BACKGROUND",
+                    "citation": "Goldstein B, Giroir B, Randolph A; International Consensus Conference on Pediatric Sepsis. International pediatric sepsis consensus conference: definitions for sepsis and organ dysfunction in pediatrics. Pediatr Crit Care Med. 2005 Jan;6(1):2-8. doi: 10.1097/01.PCC.0000149131.72248.E6."
+                },
+                {
+                    "pmid": "31567896",
+                    "type": "BACKGROUND",
+                    "citation": "Eisenberg M, Madden K, Christianson JR, Melendez E, Harper MB. Performance of an Automated Screening Algorithm for Early Detection of Pediatric Severe Sepsis. Pediatr Crit Care Med. 2019 Dec;20(12):e516-e523. doi: 10.1097/PCC.0000000000002101."
+                },
+                {
+                    "pmid": "33798508",
+                    "type": "BACKGROUND",
+                    "citation": "Eisenberg MA, Freiman E, Capraro A, Madden K, Monuteaux MC, Hudgins J, Harper M. Outcomes of Patients with Sepsis in a Pediatric Emergency Department after Automated Sepsis Screening. J Pediatr. 2021 Aug;235:239-245.e4. doi: 10.1016/j.jpeds.2021.03.053. Epub 2021 Mar 30."
+                },
+                {
+                    "pmid": "23001437",
+                    "type": "BACKGROUND",
+                    "citation": "Iwashyna TJ, Odden A, Rohde J, Bonham C, Kuhn L, Malani P, Chen L, Flanders S. Identifying patients with severe sepsis using administrative claims: patient-level validation of the angus implementation of the international consensus conference definition of severe sepsis. Med Care. 2014 Jun;52(6):e39-43. doi: 10.1097/MLR.0b013e318268ac86."
+                },
+                {
+                    "pmid": "26983000",
+                    "type": "BACKGROUND",
+                    "citation": "Mathias B, Mira JC, Larson SD. Pediatric sepsis. Curr Opin Pediatr. 2016 Jun;28(3):380-7. doi: 10.1097/MOP.0000000000000337."
+                },
+                {
+                    "pmid": "22460773",
+                    "type": "BACKGROUND",
+                    "citation": "Weiss SL, Parker B, Bullock ME, Swartz S, Price C, Wainwright MS, Goodman DM. Defining pediatric sepsis by different criteria: discrepancies in populations and implications for clinical practice. Pediatr Crit Care Med. 2012 Jul;13(4):e219-26. doi: 10.1097/PCC.0b013e31823c98da."
+                },
+                {
+                    "pmid": "32931197",
+                    "type": "BACKGROUND",
+                    "citation": "Scott HF, Brilli RJ, Paul R, Macias CG, Niedner M, Depinet H, Richardson T, Riggs R, Gruhler H, Larsen GY, Huskins WC, Balamuth F; Improving Pediatric Sepsis Outcomes (IPSO) Collaborative Investigators.. Evaluating Pediatric Sepsis Definitions Designed for Electronic Health Record Extraction and Multicenter Quality Improvement. Crit Care Med. 2020 Oct;48(10):e916-e926. doi: 10.1097/CCM.0000000000004505."
+                },
+                {
+                    "pmid": "30710482",
+                    "type": "BACKGROUND",
+                    "citation": "Lippi G. Sepsis biomarkers: past, present and future. Clin Chem Lab Med. 2019 Aug 27;57(9):1281-1283. doi: 10.1515/cclm-2018-1347. No abstract available."
+                },
+                {
+                    "pmid": "19487943",
+                    "type": "BACKGROUND",
+                    "citation": "Marshall JC, Reinhart K; International Sepsis Forum. Biomarkers of sepsis. Crit Care Med. 2009 Jul;37(7):2290-8. doi: 10.1097/CCM.0b013e3181a02afc."
+                },
+                {
+                    "pmid": "28883645",
+                    "type": "BACKGROUND",
+                    "citation": "Taneja I, Reddy B, Damhorst G, Dave Zhao S, Hassan U, Price Z, Jensen T, Ghonge T, Patel M, Wachspress S, Winter J, Rappleye M, Smith G, Healey R, Ajmal M, Khan M, Patel J, Rawal H, Sarwar R, Soni S, Anwaruddin S, Davis B, Kumar J, White K, Bashir R, Zhu R. Combining Biomarkers with EMR Data to Identify Patients in Different Phases of Sepsis. Sci Rep. 2017 Sep 7;7(1):10800. doi: 10.1038/s41598-017-09766-1. Erratum In: Sci Rep. 2019 Nov 19;9(1):17419. doi: 10.1038/s41598-019-53691-4."
+                },
+                {
+                    "pmid": "31639728",
+                    "type": "BACKGROUND",
+                    "citation": "Patel K, McElvania E. Diagnostic Challenges and Laboratory Considerations for Pediatric Sepsis. J Appl Lab Med. 2019 Jan;3(4):587-600. doi: 10.1373/jalm.2017.025908. Epub 2018 Nov 21."
+                },
+                {
+                    "pmid": "28099644",
+                    "type": "BACKGROUND",
+                    "citation": "Lanziotti VS, Povoa P, Soares M, Silva JR, Barbosa AP, Salluh JI. Use of biomarkers in pediatric sepsis: literature review. Rev Bras Ter Intensiva. 2016 Oct-Dec;28(4):472-482. doi: 10.5935/0103-507X.20160080."
+                },
+                {
+                    "pmid": "23025259",
+                    "type": "BACKGROUND",
+                    "citation": "Wong HR, Salisbury S, Xiao Q, Cvijanovich NZ, Hall M, Allen GL, Thomas NJ, Freishtat RJ, Anas N, Meyer K, Checchia PA, Lin R, Shanley TP, Bigham MT, Sen A, Nowak J, Quasney M, Henricksen JW, Chopra A, Banschbach S, Beckman E, Harmon K, Lahni P, Lindsell CJ. The pediatric sepsis biomarker risk model. Crit Care. 2012 Oct 1;16(5):R174. doi: 10.1186/cc11652."
+                },
+                {
+                    "pmid": "30675002",
+                    "type": "BACKGROUND",
+                    "citation": "Jacobs L, Berrens Z, Stenson EK, Zackoff MW, Danziger LA, Lahni P, Wong HR. The Pediatric Sepsis Biomarker Risk Model (PERSEVERE) Biomarkers Predict Clinical Deterioration and Mortality in Immunocompromised Children Evaluated for Infection. Sci Rep. 2019 Jan 23;9(1):424. doi: 10.1038/s41598-018-36743-z."
+                },
+                {
+                    "pmid": "29933169",
+                    "type": "BACKGROUND",
+                    "citation": "Gardlund B, Dmitrieva NO, Pieper CF, Finfer S, Marshall JC, Taylor Thompson B. Six subphenotypes in septic shock: Latent class analysis of the PROWESS Shock study. J Crit Care. 2018 Oct;47:70-79. doi: 10.1016/j.jcrc.2018.06.012. Epub 2018 Jun 8."
+                },
+                {
+                    "pmid": "29727354",
+                    "type": "BACKGROUND",
+                    "citation": "Williams JB, Ghosh D, Wetzel RC. Applying Machine Learning to Pediatric Critical Care Data. Pediatr Crit Care Med. 2018 Jul;19(7):599-608. doi: 10.1097/PCC.0000000000001567."
+                },
+                {
+                    "pmid": "31104070",
+                    "type": "BACKGROUND",
+                    "citation": "Seymour CW, Kennedy JN, Wang S, Chang CH, Elliott CF, Xu Z, Berry S, Clermont G, Cooper G, Gomez H, Huang DT, Kellum JA, Mi Q, Opal SM, Talisa V, van der Poll T, Visweswaran S, Vodovotz Y, Weiss JC, Yealy DM, Yende S, Angus DC. Derivation, Validation, and Potential Treatment Implications of Novel Clinical Phenotypes for Sepsis. JAMA. 2019 May 28;321(20):2003-2017. doi: 10.1001/jama.2019.5791."
+                },
+                {
+                    "pmid": "24982852",
+                    "type": "BACKGROUND",
+                    "citation": "Sepanski RJ, Godambe SA, Mangum CD, Bovat CS, Zaritsky AL, Shah SH. Designing a pediatric severe sepsis screening tool. Front Pediatr. 2014 Jun 16;2:56. doi: 10.3389/fped.2014.00056. eCollection 2014."
+                },
+                {
+                    "pmid": "24582925",
+                    "type": "BACKGROUND",
+                    "citation": "Hajian-Tilaki K. Sample size estimation in diagnostic test studies of biomedical informatics. J Biomed Inform. 2014 Apr;48:193-204. doi: 10.1016/j.jbi.2014.02.013. Epub 2014 Feb 26."
+                },
+                {
+                    "pmid": "33165028",
+                    "type": "BACKGROUND",
+                    "citation": "Sinha P, Calfee CS, Delucchi KL. Practitioner's Guide to Latent Class Analysis: Methodological Considerations and Common Pitfalls. Crit Care Med. 2021 Jan 1;49(1):e63-e79. doi: 10.1097/CCM.0000000000004710."
+                },
+                {
+                    "pmid": "25148597",
+                    "type": "BACKGROUND",
+                    "citation": "Weiss SL, Fitzgerald JC, Balamuth F, Alpern ER, Lavelle J, Chilutti M, Grundmeier R, Nadkarni VM, Thomas NJ. Delayed antimicrobial therapy increases mortality and organ dysfunction duration in pediatric sepsis. Crit Care Med. 2014 Nov;42(11):2409-17. doi: 10.1097/CCM.0000000000000509."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "C. D. Sutton, \"Classification and Regression Trees, Bagging, and Boosting,\" Handb. Stat., vol. 24, pp. 303-329, 2005, doi: 10.1016/S0169-7161(04)24011-1."
+                },
+                {
+                    "pmid": "30291376",
+                    "type": "BACKGROUND",
+                    "citation": "Sinha P, Delucchi KL, Thompson BT, McAuley DF, Matthay MA, Calfee CS; NHLBI ARDS Network. Latent class analysis of ARDS subphenotypes: a secondary analysis of the statins for acutely injured lungs from sepsis (SAILS) study. Intensive Care Med. 2018 Nov;44(11):1859-1869. doi: 10.1007/s00134-018-5378-3. Epub 2018 Oct 5."
+                },
+                {
+                    "pmid": "32295614",
+                    "type": "BACKGROUND",
+                    "citation": "Wiersema R, Jukarainen S, Vaara ST, Poukkanen M, Lakkisto P, Wong H, Linder A, van der Horst ICC, Pettila V. Two subphenotypes of septic acute kidney injury are associated with different 90-day mortality and renal recovery. Crit Care. 2020 Apr 15;24(1):150. doi: 10.1186/s13054-020-02866-x."
+                },
+                {
+                    "pmid": "29477989",
+                    "type": "BACKGROUND",
+                    "citation": "Delucchi K, Famous KR, Ware LB, Parsons PE, Thompson BT, Calfee CS; ARDS Network. Stability of ARDS subphenotypes over time in two randomised controlled trials. Thorax. 2018 May;73(5):439-445. doi: 10.1136/thoraxjnl-2017-211090. Epub 2018 Feb 24."
+                },
+                {
+                    "pmid": "24905478",
+                    "type": "BACKGROUND",
+                    "citation": "Feuillet F, Bellanger L, Hardouin JB, Victorri-Vigneau C, Sebille V. On Comparison of Clustering Methods for Pharmacoepidemiological Data. J Biopharm Stat. 2015;25(4):843-56. doi: 10.1080/10543406.2014.920855."
+                },
+                {
+                    "pmid": "25272975",
+                    "type": "BACKGROUND",
+                    "citation": "Kent P, Jensen RK, Kongsted A. A comparison of three clustering methods for finding subgroups in MRI, SMS or clinical data: SPSS TwoStep Cluster analysis, Latent Gold and SNOB. BMC Med Res Methodol. 2014 Oct 2;14:113. doi: 10.1186/1471-2288-14-113."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "R. Lachman, \"Expert systems: A cognitive science perspective,\" Behav. Res. Methods, Instruments, Comput., 1989, doi: 10.3758/BF03205582."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "L. Medsker, M. Tan, and E. Turban, \"Knowledge acquisition from multiple experts: Problems and issues,\" Expert Syst. Appl., vol. 9, no. 1, pp. 35-40, Jan. 1995, doi: 10.1016/0957-4174(94)00046-X."
+                },
+                {
+                    "pmid": "24278828",
+                    "type": "BACKGROUND",
+                    "citation": "Brewer A, Helfgott MA, Novak J, Schanhals R. An application of cmaps in the description of clinical information structure and logic in electronic health records. Glob Adv Health Med. 2012 Sep;1(4):16-31. doi: 10.7453/gahmj.2012.1.4.003."
+                },
+                {
+                    "pmid": "25700307",
+                    "type": "BACKGROUND",
+                    "citation": "Beglinger B, Rohacek M, Ackermann S, Hertwig R, Karakoumis-Ilsemann J, Boutellier S, Geigy N, Nickel C, Bingisser R. Physician's first clinical impression of emergency department patients with nonspecific complaints is associated with morbidity and mortality. Medicine (Baltimore). 2015 Feb;94(7):e374. doi: 10.1097/MD.0000000000000374."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "R. R. Starr and J. M. Parente De Oliveira, \"Concept maps as the first step in an ontology construction method,\" Inf. Syst., 2013, doi: 10.1016/j.is.2012.05.010."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "R. Matkar and A. Parab, \"Ontology based expert systems - replication of human learning,\" Thinkquest~2010, pp. 43-47, 2011, doi: 10.1007/978-81-8489-989-4_7."
+                },
+                {
+                    "pmid": "24944781",
+                    "type": "BACKGROUND",
+                    "citation": "Yamagata Y, Kozaki K, Imai T, Ohe K, Mizoguchi R. An ontological modeling approach for abnormal states and its application in the medical domain. J Biomed Semantics. 2014 May 21;5:23. doi: 10.1186/2041-1480-5-23. eCollection 2014."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "R. M. RJ Rovetto, \"Causality and the ontology of disease,\" Appl Ontol, vol. 10, no. 2, pp. 79-105, Sep. 2015, doi: 10.3233/ao-150147."
+                },
+                {
+                    "pmid": "14681409",
+                    "type": "BACKGROUND",
+                    "citation": "Bodenreider O. The Unified Medical Language System (UMLS): integrating biomedical terminology. Nucleic Acids Res. 2004 Jan 1;32(Database issue):D267-70. doi: 10.1093/nar/gkh061."
+                },
+                {
+                    "pmid": "32477638",
+                    "type": "BACKGROUND",
+                    "citation": "Ghassemi M, Naumann T, Schulam P, Beam AL, Chen IY, Ranganath R. A Review of Challenges and Opportunities in Machine Learning for Health. AMIA Jt Summits Transl Sci Proc. 2020 May 30;2020:191-200. eCollection 2020."
+                },
+                {
+                    "pmid": "35603010",
+                    "type": "BACKGROUND",
+                    "citation": "Rudin C. Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead. Nat Mach Intell. 2019 May;1(5):206-215. doi: 10.1038/s42256-019-0048-x. Epub 2019 May 13."
+                },
+                {
+                    "pmid": "34152373",
+                    "type": "BACKGROUND",
+                    "citation": "Wong A, Otles E, Donnelly JP, Krumm A, McCullough J, DeTroyer-Cooley O, Pestrue J, Phillips M, Konye J, Penoza C, Ghous M, Singh K. External Validation of a Widely Implemented Proprietary Sepsis Prediction Model in Hospitalized Patients. JAMA Intern Med. 2021 Aug 1;181(8):1065-1070. doi: 10.1001/jamainternmed.2021.2626. Erratum In: JAMA Intern Med. 2021 Aug 1;181(8):1144. doi: 10.1001/jamainternmed.2021.3907."
+                },
+                {
+                    "pmid": "31723040",
+                    "type": "BACKGROUND",
+                    "citation": "Wong HR, Caldwell JT, Cvijanovich NZ, Weiss SL, Fitzgerald JC, Bigham MT, Jain PN, Schwarz A, Lutfi R, Nowak J, Allen GL, Thomas NJ, Grunwell JR, Baines T, Quasney M, Haileselassie B, Lindsell CJ. Prospective clinical testing and experimental validation of the Pediatric Sepsis Biomarker Risk Model. Sci Transl Med. 2019 Nov 13;11(518):eaax9000. doi: 10.1126/scitranslmed.aax9000."
+                },
+                {
+                    "pmid": "27891446",
+                    "type": "BACKGROUND",
+                    "citation": "Bujang MA, Adnan TH. Requirements for Minimum Sample Size for Sensitivity and Specificity Analysis. J Clin Diagn Res. 2016 Oct;10(10):YE01-YE06. doi: 10.7860/JCDR/2016/18129.8744. Epub 2016 Oct 1."
+                },
+                {
+                    "pmid": "24551396",
+                    "type": "BACKGROUND",
+                    "citation": "Paxton C, Niculescu-Mizil A, Saria S. Developing predictive models using electronic medical records: challenges and pitfalls. AMIA Annu Symp Proc. 2013 Nov 16;2013:1109-15. eCollection 2013."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "\"Introduction to Classification \\& Regression Trees (CART) - Data Science Central.\"",
+                    "url": "https://www.datasciencecentral.com/classification-and-regression-trees/"
+                },
+                {
+                    "label": "\"Plan-Do-Study-Act (PDSA) Worksheet \\| IHI - Institute for Healthcare Improvement.\"",
+                    "url": "http://www.ihi.org/resources/Pages/Tools/PlanDoStudyActWorksheet.aspx"
+                },
+                {
+                    "label": "\"OMOP Common Data Model - OHDSI.\"",
+                    "url": "https://www.ohdsi.org/data-standardization/the-common-data-%20model/"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2022-03-04",
+                    "uploadDate": "2022-03-20T13:29",
+                    "filename": "ICF_000.pdf",
+                    "size": 506865
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018805",
+                    "term": "Sepsis"
+                },
+                {
+                    "id": "D000014115",
+                    "term": "Toxemia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000018746",
+                    "term": "Systemic Inflammatory Response Syndrome"
+                },
+                {
+                    "id": "D000007249",
+                    "term": "Inflammation"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20818",
+                    "name": "Systemic Inflammatory Response Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M5373",
+                    "name": "Caffeine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6263",
+                    "name": "Coal Tar",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T370",
+                    "name": "Caffeine",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "CNSSti",
+                    "name": "Central Nervous System Stimulants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Derm",
+                    "name": "Dermatologic Agents"
+                },
+                {
+                    "abbrev": "Ot",
+                    "name": "Other Dietary Supplements"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

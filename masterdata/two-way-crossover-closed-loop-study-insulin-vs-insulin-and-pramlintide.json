@@ -1,0 +1,615 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06422325",
+            "orgStudyIdInfo": {
+                "id": "25279"
+            },
+            "organization": {
+                "fullName": "Oregon Health and Science University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Two Way Crossover Closed Loop Study Insulin vs Insulin and Pramlintide",
+            "officialTitle": "A Crossover Study to Evaluate Insulin/Pramlintide Versus Insulin Alone Delivery Strategy",
+            "therapeuticArea": [
+                "Endocrinology"
+            ],
+            "study": "two-way-crossover-closed-loop-study-insulin-vs-insulin-and-pramlintide"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-15",
+            "studyFirstSubmitQcDate": "2024-05-15",
+            "studyFirstPostDateStruct": {
+                "date": "2024-05-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Leah Wilson",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Oregon Health and Science University"
+            },
+            "leadSponsor": {
+                "name": "Oregon Health and Science University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to test how well a new investigational closed loop system manages your blood sugar with the ability to deliver insulin and pramlintide. Pramlintide is a drug that is used with mealtime insulin to control blood sugar in people who have diabetes. It works by slowing down the movement of food through the stomach which prevents blood sugar from rising too high after a meal. The closed loop system will receive glucose values from the Dexcom G6 continuous glucose monitoring (CGM) and automatically send commands to one Omnipod for insulin and one Omnipod for pramlintide delivery.",
+            "detailedDescription": "Participants will undergo two 12.5 hour clinic visits. Participants will complete a training on how to start the Dexcom G6 sensor at home. Participants will start the G6 sensor the day before each study visit. For one visit, the system will use insulin only for managing blood sugar. For the other study, the system will use both insulin and pramlintide. The order of the visits will be randomly chosen. For 3 days before the insulin and pramlintide visit, participants will dose with pramlintide before each meal. During the visits, participants will wear one or two Omnipods to delivery insulin and insulin/pramlintide and a Dexcom G6 CGM. The CGM system will provide sensor glucose data every 5 minutes. Sensor glucose data will be wirelessly transmitted via Bluetooth Low Energy (BTLE) from the Dexcom G6 to the smartphone master controller every 5 minutes. The smartphone will communicate via BTLE to an Omnipod for insulin delivery. The closed loop system will receive activity data through a Polar M600 watch worn by the participant. Participants will eat breakfast and lunch in clinic."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Type 1 Diabetes"
+            ],
+            "keywords": [
+                "automated insulin delivery systems",
+                "glucose sensor",
+                "pramlintide"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 35,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Insulin Only Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will use the closed loop system with insulin only for managing blood sugar during the 12.5 hour study. Insulin will be administered by an Omnipod. Sensor glucose will be measured by a Dexcom G6 CGM. Participants will eat two meals while in clinic.",
+                    "interventionNames": [
+                        "Device: MPC closed-loop system in insulin only mode"
+                    ]
+                },
+                {
+                    "label": "Insulin and Pramlintide Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will use the closed loop system with insulin and pramlintide for managing blood sugar during the 12.5 hour study. Insulin and pramlintide will be administered by two Omnipods. Sensor glucose will be measured by a Dexcom G6 CGM. Participants will eat two meals while in clinic.",
+                    "interventionNames": [
+                        "Device: MPC closed-loop system in insulin/pramlintide mode"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "MPC closed-loop system in insulin only mode",
+                    "description": "The Model Predictive Control (MPC) insulin infusion algorithm contains a model within the controller that takes as an input the aerobic metabolic expenditure in addition to the CGM and meal in puts. The algorithm uses heart rate and accelerometer data collected on the patient's body to calculate metabolic expenditure (METs). The METs then acts on the model for the insulin dynamics, whereby more energy expenditure and longer duration exercise can lead to a more substantial effect of insulin on the CGM. The MPC also has missed meal insulin bolus detection where the system will calculate the amount of insulin that was missed for a meal. The missed meal boluses can be delivered automatically without any input from the user. This feature can also be disabled. The device in this mode will administer insulin continuously for managing blood sugar.",
+                    "armGroupLabels": [
+                        "Insulin Only Arm"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "MPC closed-loop system in insulin/pramlintide mode",
+                    "description": "The Model Predictive Control (MPC) insulin infusion algorithm contains a model within the controller that takes as an input the aerobic metabolic expenditure in addition to the CGM and meal in puts. The algorithm uses heart rate and accelerometer data collected on the patient's body to calculate metabolic expenditure (METs). The METs then acts on the model for the insulin dynamics, whereby more energy expenditure and longer duration exercise can lead to a more substantial effect of insulin on the CGM. The MPC also has missed meal insulin bolus detection where the system will calculate the amount of insulin that was missed for a meal. The missed meal boluses can be delivered automatically without any input from the user. This feature can also be disabled. The device in this mode will administer both insulin and pramlintide continuously for managing blood sugar. The system will deliver pramlintide in a fixed ratio to insulin at 6 mcg of pramlintide delivered for every 1 unit of insulin.",
+                    "armGroupLabels": [
+                        "Insulin and Pramlintide Arm"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Incremental area under the curve of postprandial glucose following the first meal",
+                    "description": "Incremental area under the curve (iAUC) of postprandial glucose as measured by the Dexcom G6 CGM in the 6 hours following the start of first meal. iAUC (mg/dL\\*min) will be calculated using a trapezoidal method, which sums all CGM values in the 6 hour period following the meal above the starting glucose.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose between 70 - 180 mg/dl following first meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-180 mg/dl using Dexcom sensor in the 6 hours following the start of the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Incremental area under the curve of postprandial glucose following the second meal",
+                    "description": "Incremental area under the curve (iAUC) of postprandial glucose as measured by the Dexcom G6 CGM in the 6 hours following the start of second meal. iAUC (mg/dL\\*min) will be calculated using a trapezoidal method, which sums all CGM values in the 6 hour period following the meal above the starting glucose.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose between 70 - 180 mg/dl following second meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-180 mg/dl using Dexcom sensor in the 6 hours following the start of the second meal.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Net area under the curve of postprandial glucose following the first meal",
+                    "description": "Net area under the curve (netAUC) of postprandial glucose as measured by CGM in the 6 hours following the start of first meal. netAUC (mg/dL\\*min) will be calculated using a trapezoidal method, which sums all CGM values in the 6 hour period following the meal above the starting glucose and subtracts CGM values below the starting glucose.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Net area under the curve of postprandial glucose following the second meal",
+                    "description": "Net area under the curve (netAUC) of postprandial glucose as measured by CGM in the 6 hours following the start of second meal. netAUC (mg/dL\\*min) will be calculated using a trapezoidal method, which sums all CGM values in the 6 hour period following the meal above the starting glucose and subtracts CGM values below the starting glucose.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Net area under the curve of postprandial glucose",
+                    "description": "Net area under the curve (netAUC) of postprandial glucose as measured by CGM over the 12 hour study visit. netAUC (mg/dL\\*min) will be calculated using a trapezoidal method, which sums all CGM values above the starting glucose and subtracts CGM values below the starting glucose.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose <70 mg/dL following first meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 70 mg/dl using Dexcom sensor in the 6 hours following the start of the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose <70 mg/dL following second meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 70 mg/dl using Dexcom sensor in the 6 hours following the start of the second meal.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose <70 mg/dL",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 70 mg/dl using Dexcom sensor.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose between 70-140 mg/dL following first meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-140 mg/dl using Dexcom sensor in the 6 hours following the start of the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose between 70-140 mg/dL following second meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-140 mg/dl using Dexcom sensor in the 6 hours following the start of the second meal.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose between 70-140 mg/dL",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values between 70-140 mg/dl using Dexcom sensor.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Mean sensed glucose following first meal",
+                    "description": "Assess mean sensed glucose from the Dexcom G6 sensor in the 6 hours following the start of the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Mean sensed glucose following second meal",
+                    "description": "Assess mean sensed glucose from the Dexcom G6 sensor in the 6 hours following the start of the second meal.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Mean sensed glucose",
+                    "description": "Assess mean sensed glucose from the Dexcom G6 sensor.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose <54 mg/dL following first meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 54 mg/dl using Dexcom sensor in the 6 hours following the start of the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose <54 mg/dL following second meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 54 mg/dl using Dexcom sensor in the 6 hours following the start of the second meal.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose <54 mg/dL",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values less than 54 mg/dl using Dexcom sensor.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose >180 mg/dL following first meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 180 mg/dl using Dexcom sensor in the 6 hours following the start of the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose >180 mg/dL following second meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 180 mg/dl using Dexcom sensor in the 6 hours following the start of the second meal.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose >180 mg/dL",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 180 mg/dl using Dexcom sensor.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose >250 mg/dL following first meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 250 mg/dl using Dexcom sensor in the 6 hours following the start of the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose >250 mg/dL following second meal",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 250 mg/dl using Dexcom sensor in the 6 hours following the start of the second meal.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Percent of time with sensed glucose >250 mg/dL",
+                    "description": "Assess the percent of time that the Dexcom G6 reported sensor glucose values greater than 250 mg/dl using Dexcom sensor.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Mean amount of insulin delivered following first meal",
+                    "description": "Assess the mean amount of insulin delivered (in units and units/kg) in the 6 hours following the first meal.",
+                    "timeFrame": "6 hours following the first meal"
+                },
+                {
+                    "measure": "Mean amount of insulin delivered following second meal",
+                    "description": "Assess the mean amount of insulin delivered (in units and units/kg) in the 6 hours following the second meal.",
+                    "timeFrame": "6 hours following the second meal"
+                },
+                {
+                    "measure": "Mean amount of insulin delivered",
+                    "description": "Assess the mean amount of insulin delivered (in units and units/kg).",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Mean amount of pramlintide delivered following first meal",
+                    "description": "Assess the mean amount of pramlintide delivered (in mcg and mcg/kg) in the 6 hours following the first meal.",
+                    "timeFrame": "6 hours following the first meal"
+                },
+                {
+                    "measure": "Mean amount of pramlintide delivered following second meal",
+                    "description": "Assess the mean amount of pramlintide delivered (in mcg and mcg/kg) in the 6 hours following the second meal.",
+                    "timeFrame": "6 hours following the second meal"
+                },
+                {
+                    "measure": "Mean amount of pramlintide delivered",
+                    "description": "Assess the mean amount of pramlintide delivered (in mcg and mcg/kg).",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Coefficient of variation following first meal",
+                    "description": "Assess the coefficient of variation based on the Dexcom sensor values across both study arms in the 6 hours following the first meal.",
+                    "timeFrame": "6 hours following the first meal"
+                },
+                {
+                    "measure": "Coefficient of variation following second meal",
+                    "description": "Assess the coefficient of variation based on the Dexcom sensor values across both study arms in the 6 hours following the second meal.",
+                    "timeFrame": "6 hours following the second meal"
+                },
+                {
+                    "measure": "Coefficient of variation",
+                    "description": "Assess the coefficient of variation based on the Dexcom sensor values across both study arms.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Low Blood Glucose Index (LBGI) following the first meal",
+                    "description": "Assess low blood glucose index based on the Dexcom sensor values for the 6 hours following the first meal.",
+                    "timeFrame": "6 hours following the first meal"
+                },
+                {
+                    "measure": "Low Blood Glucose Index (LBGI) following the second meal",
+                    "description": "Assess low blood glucose index based on the Dexcom sensor values for the 6 hours following the second meal.",
+                    "timeFrame": "6 hours following the second meal"
+                },
+                {
+                    "measure": "Low Blood Glucose Index (LBGI)",
+                    "description": "Assess low blood glucose index based on the Dexcom sensor values.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "High Blood Glucose Index (HBGI) following the first meal",
+                    "description": "Assess high blood glucose index based on the Dexcom sensor values for the 6 hours following the first meal.",
+                    "timeFrame": "6 hours following the first meal"
+                },
+                {
+                    "measure": "High Blood Glucose Index (HBGI) following the second meal",
+                    "description": "Assess high blood glucose index based on the Dexcom sensor values for the 6 hours following the second meal.",
+                    "timeFrame": "6 hours following the second meal"
+                },
+                {
+                    "measure": "High Blood Glucose Index (HBGI)",
+                    "description": "Assess high blood glucose index based on the Dexcom sensor values.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Adverse events related to pramlintide",
+                    "description": "Assess the number of adverse events probably or possibly associated with pramlintide administration.",
+                    "timeFrame": "4 days of pramlintide use"
+                },
+                {
+                    "measure": "Baxter Retching Faces (BARF)/VAS scale for gastrointestinal issues after the first meal",
+                    "description": "Assess discomfort level due to gastrointestinal issues by participant rating from 0-10 with 1 being no discomfort and 10 being worst possible discomfort 6 hours after the first meal.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Baxter Retching Faces (BARF)/VAS scale for gastrointestinal issues after the second meal",
+                    "description": "Assess gastrointestinal issues by participant rating from 0-10 with 1 being no discomfort and 10 being worst possible discomfort 6 hours after the second meal as reported using the BARF/VAS scale.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Mean duration of gastrointestinal issues after the first meal",
+                    "description": "Assess the average duration of gastrointestinal issues reported by the participant at 6 hours after the first meal as reported by participant.",
+                    "timeFrame": "6 hours following first meal"
+                },
+                {
+                    "measure": "Mean duration of gastrointestinal issues after the second meal",
+                    "description": "Assess the average duration of gastrointestinal issues reported by the participant at 6 hours after the second meal as reported by participant.",
+                    "timeFrame": "6 hours following second meal"
+                },
+                {
+                    "measure": "Episodes of carbohydrate intake to treat hypoglycemia",
+                    "description": "Assess the number of rescue carbohydrate treatments (defined as 15 grams of carbohydrate intake) needed to treat hypoglycemia.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Episodes of hypoglycemia",
+                    "description": "Assess the number of episodes of hypoglycemia defines as CGM \\< 70 mg/dl for 10 minutes or more.",
+                    "timeFrame": "12 hour clinic visit"
+                },
+                {
+                    "measure": "Number of provider-administered insulin injections",
+                    "description": "Assess the number of provider-administered insulin injections due to hyperglycemia.",
+                    "timeFrame": "12 hour clinic visit"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of type 1 diabetes mellitus for at least 1 year.\n* Participants 18 to 70 years of age.\n* Current use of an insulin pump for at least 3 months with stable insulin pump settings for \\>2 weeks OR current use of multiple day injection insulin therapy with stable doses for \\>2 weeks.\n* Uses a carbohydrate ratio, at lease occasionally, to dose meal time insulin.\n* HbA1c \u2264 10.5% at screening.\n* Total daily insulin requirement is less than 139 units/day.\n* Willingness to follow all study procedures, including attending all clinic visits.\n* Willingness to sign informed consent and HIPAA documents.\n\nExclusion Criteria:\n\n* Individual of childbearing potential who is pregnant or intending to become pregnant or breast-feeding, or is not using adequate contraceptive methods. Acceptable contraception includes birth control pill / patch / vaginal ring, Depo-Provera, Norplant, an IUD, the double barrier method (the woman uses a diaphragm and spermicide and the man uses a condom), or abstinence.\n* Any cardiovascular disease, defined as a clinically significant EKG abnormality at the time of screening or any history of: stroke, heart failure, myocardial infarction, angina pectoris, or coronary arterial bypass graft or angioplasty. Diagnosis of 2nd or 3rd degree heart block or any non-physiological arrhythmia judged by the investigator to be exclusionary.\n* Renal insufficiency (GFR \\< 60 ml/min, using the MDRD equation as reported by the OHSU laboratory).\n* Liver failure, cirrhosis, or any other liver disease that compromises liver function as determined by the investigator.\n* History of severe hypoglycemia during the past 3 months prior to screening visit or hypoglycemia unawareness as judged by the investigator. Participants will complete a hypoglycemia awareness questionnaire. Participants will be excluded for four or more R responses.\n* History of diabetes ketoacidosis during the prior 3 months prior to screening visit, as diagnosed on hospital admission or as judged by the investigator.\n* Adrenal insufficiency.\n* Any active infection requiring treatment (example soft tissue infection requiring antibiotics).\n* Known or suspected abuse of alcohol, narcotics, or illicit drugs.\n* Seizure disorder.\n* Active foot ulceration.\n* Major surgical operation within 30 days prior to screening.\n* Use of an investigational drug within 30 days prior to screening.\n* Chronic usage of any immunosuppressive medication (such as cyclosporine, azathioprine, sirolimus, or tacrolimus).\n* Bleeding disorder, treatment with warfarin, or platelet count below 50,000.\n* Allergy to aspart insulin.\n* Allergy to pramlintide.\n* Current administration of oral or parenteral corticosteroids.\n* Any life-threatening disease, including malignant neoplasms and medical history of malignant neoplasms within the past 5 years prior to screening (except basal and squamous cell skin cancer).\n* Current use of any medication intended to lower glucose other than insulin or pramlintide (ex. use of liraglutide, metformin).\n* Gastroparesis\n* Diets consisting of less than 50 grams of carbohydrates per day.\n* Dietary restrictions or allergies to the study meals\n* Any clinically significant disease or disorder which in the opinion of the Investigator may jeopardize the participant's safety or compliance with the protocol.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Leah Wilson, MD",
+                    "role": "CONTACT",
+                    "phone": "503-494-3273",
+                    "email": "wilsolea@ohsu.edu"
+                },
+                {
+                    "name": "Deborah Branigan",
+                    "role": "CONTACT",
+                    "phone": "503-418-9070",
+                    "email": "branigad@ohsu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Leah Wilson, MD",
+                    "affiliation": "Oregon Health and Science University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Oregon Health and Science University",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Leah Wilson, MD",
+                            "role": "CONTACT",
+                            "phone": "503-494-3273",
+                            "email": "wilsolea@ohsu.edu"
+                        },
+                        {
+                            "name": "Deborah Branigan",
+                            "role": "CONTACT",
+                            "phone": "503-418-9070",
+                            "email": "branigad@ohsu.edu"
+                        },
+                        {
+                            "name": "Peter Jacobs, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003922",
+                    "term": "Diabetes Mellitus, Type 1"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                },
+                {
+                    "id": "D000001327",
+                    "term": "Autoimmune Diseases"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7117",
+                    "name": "Diabetes Mellitus, Type 1",
+                    "asFound": "Type 1 Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4629",
+                    "name": "Autoimmune Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007328",
+                    "term": "Insulin"
+                },
+                {
+                    "id": "C000557859",
+                    "term": "Insulin, Globin Zinc"
+                },
+                {
+                    "id": "C000105254",
+                    "term": "Pramlintide"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007004",
+                    "term": "Hypoglycemic Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "asFound": "Day 1",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "asFound": "Day 1",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M250016",
+                    "name": "Pramlintide",
+                    "asFound": "Suspicion",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17768",
+                    "name": "Zinc",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10054",
+                    "name": "Hypoglycemic Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

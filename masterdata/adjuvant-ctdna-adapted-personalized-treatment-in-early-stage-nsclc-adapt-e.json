@@ -1,0 +1,408 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04585477",
+            "orgStudyIdInfo": {
+                "id": "IRB-54622"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "LUN0115",
+                    "type": "OTHER",
+                    "domain": "OnCore"
+                },
+                {
+                    "id": "NCI-2021-03445",
+                    "type": "OTHER",
+                    "domain": "NCI Trial Identifier"
+                }
+            ],
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Adjuvant ctDNA-Adapted Personalized Treatment in Early Stage NSCLC (ADAPT-E)",
+            "officialTitle": "Adjuvant ctDNA-Adapted Personalized Treatment in Early Stage NSCLC (ADAPT-E)",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "adjuvant-ctdna-adapted-personalized-treatment-in-early-stage-nsclc-adapt-e"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-04-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-10-06",
+            "studyFirstSubmitQcDate": "2020-10-06",
+            "studyFirstPostDateStruct": {
+                "date": "2020-10-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "AstraZeneca",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "In this study circulating tumor DNA (ctDNA) blood testing is used to detect the residual blood cancer. If residual cancer using this blood test is detected there may be at higher risk of having the cancer return. The study is going to test whether or not the number of circulating cancer cells detected in the blood can be reduced by administration durvalumab after the standard treatment if you are tested positive for the residual cancer.",
+            "detailedDescription": "Primary Objective:\n\nThe primary objective of this study is to measure the change in ctDNA from trial enrollment to after 2 cycles of adjuvant durvalumab in subjects with stage I to III NSCLC who had positive ctDNA following definitive treatment with surgery or radiation and completion of adjuvant standard of care chemotherapy. Secondary Objectives\n\n1. To compare disease free survival (DFS)\n2. To compare overall survival (OS)\n3. To evaluate the frequency and severity of toxicity\n4. To evaluate the severity of toxicity"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Non-small Cell Lung Cancer",
+                "Non-small Cell Lung Cancer Stage I",
+                "Non-small Cell Lung Cancer Stage II",
+                "Non-small Cell Lung Cancer Stage III"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cohort 1 minimal residue disease positive(MRD+)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Subjects with detectable ctDNA (MRD+) will receive up to 12 cycles of durvalumab (1500mg dose by intravenous (by vein) injection every 28 days). ctDNA will be re checked following 2 cycles (8 weeks) of durvalumab and compared to baseline levels. In the absence of progression or toxicity after 2 cycles, subject will continue with durvalumab to complete 1 year of treatment about 10 additional cycles).\n\nSubjects will be monitored for secondary endpoints of progression free survival (PFS) and overall survival (OS).",
+                    "interventionNames": [
+                        "Device: AVENIO ctDNA Surveillance Kit",
+                        "Drug: Durvalumab"
+                    ]
+                },
+                {
+                    "label": "Cohort 2 minimal residue disease negative (MRD-)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects with undetectable ctDNA (MRD) will receive Standard of care and no treatment",
+                    "interventionNames": [
+                        "Device: AVENIO ctDNA Surveillance Kit"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "AVENIO ctDNA Surveillance Kit",
+                    "description": "Roche Sequencing and Life Science kit to detect minimal residue disease (MRD)",
+                    "armGroupLabels": [
+                        "Cohort 1 minimal residue disease positive(MRD+)",
+                        "Cohort 2 minimal residue disease negative (MRD-)"
+                    ],
+                    "otherNames": [
+                        "The AVENIO ctDNA Surveillance Kit"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Durvalumab",
+                    "description": "1500mg intravenous dose or 20mg/kg if weight is 30kg or less, manufactured by AstraZeneca",
+                    "armGroupLabels": [
+                        "Cohort 1 minimal residue disease positive(MRD+)"
+                    ],
+                    "otherNames": [
+                        "IMFINZI",
+                        "MEDI4736"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Decrease in ctDNA Level",
+                    "description": "Change in minimal residual disease (MRD) will be assessed on the basis of reduction of circulating tumor DNA (ctDNA) in the blood of participants in Cohort 1 MRD+ only. ctDNA is an indicator of MRD. The outcome will be reported as the number of participants who have a \u2265 3-fold drop in ctDNA levels after 2 cycles of durvalumab treatment, a number without dispersion.",
+                    "timeFrame": "8 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Presence or absence of detectable ctDNA",
+                    "description": "Circulating tumor DNA (ctDNA) in the blood is an indicator of minimal residual disease (MRD), a risk factor for future relapse or progression. The outcome will be reported as the number of Cohort 1 MRD+ participants for whom, following 2 cycles of durvalumab, ctDNA was detected, not detected, or unable to be determined, each a number without dispersion. Available data for Cohort 2 MRD- participants will also be reported for the 8-week timepoint.",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Overall survival (OS)",
+                    "description": "Overall survival (OS) defined as the duration from study registration until death due to any cause. The outcome will be reported as the number of participants in each cohort known to be alive at 12 months after study registration, a number without dispersion.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Disease-free survival (DFS)",
+                    "description": "Disease-free survival (DFS) is defined as the number of participants remaining alive without disease progression (DP), symptomatic deterioration, or death due to any cause. DP is assessed according to Response Evaluation Criteria in Solid Tumors (RECIST) v1.1 criteria, as follows.\n\n* Complete Response (CR) = Disappearance of all target lesions\n* Partial Response (PR) = \u2265 30% decrease in the sum of the longest diameter of target lesions\n* Progressive disease (PD) = 20% increase in the sum of the diameters of target lesions (must be \\> 5 mm), unequivocal progression of non-target lesions, and/or the appearance of one or more new lesion(s)\n* Stable disease (SD) = Small changes that do not meet any of the above criteria The outcome will be reported as the number of participants who meet the criteria for DFS, a number without dispersion.",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Related Adverse Events",
+                    "description": "Related adverse events (AEs) are deleterious events determined to be possibly, probably, or definitely-related to durvalumab treatment. The outcome will be reported as the number of related AEs experienced by the participants in Cohort 1 MRD+ only (ie, durvalumab treatment cohort), a number without dispersion.",
+                    "timeFrame": "12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\n1. Pathologically (histologically or cytologically proven) NSCLC. Tumors with any component of small cell lung cancer are not allowed.\n\n   Adenocarcinoma patients must NOT be positive for EGFR Exon 19 deletion or L858R mutation, or ALK or ROS1 rearrangement.\n2. AJCC 8th edition clinical or pathological stage IA2 to IIIC or locoregionally recurrent disease. Stage IA1 tumors are excluded unless recurrent with radiographic solid component -or- pathologic invasive component of \\> 10 mm.\n3. Received curative intent therapy with surgery and/or radiation. Note: May have received chemotherapy.\n4. Completed all intended therapy (surgery, radiation, and/or chemotherapy) - AND- no more than 32 weeks has elapsed after the last day of this therapy.\n5. No known current radiographic or pathologic residual/recurrent disease (in the investigator's opinion) after completion of all intended therapy (for example, positive margins after surgery without adjuvant radiotherapy, or unequivocal radiographic evidence of residual or recurrent disease)\n6. Pre-treatment tumor tissue or tumor DNA sample is believed to be available for analysis\n7. Not received immunotherapy (PD-1, PD-L1, or CTLA-4 antibodies) or be intended to receive immunotherapy, apart from this study.\n8. Not received another systemic anti-cancer investigational product during the 4 weeks prior to enrollment.\n9. Aged 18 years or older\n10. ECOG Performance Status of 0 or 1 (Appendix B)\n11. Life expectancy \u2265 12 weeks\n12. Acceptable laboratory parameters:\n13. Absolute neutrophil count \\> 1.0 x 109/L\n14. Platelets \\> 75 x 109/L\n15. Hemoglobin \u2265 9.0 g/dL\n16. Creatinine \u2264 1.5 x ULN; or Measured creatinine clearance (CL) \\>40 mL/min; or Calculated creatinine CL\\>40 mL/min by the Cockcroft-Gault formula (Cockcroft and Gault 1976)\n17. Serum bilirubin \u2264 1.5 x upper limit of normal (ULN). This will not apply to subjects with confirmed Gilbert's syndrome (persistent or recurrent hyperbilirubinemia that is predominantly unconjugated in the absence of evidence of hemolysis or hepatic pathology) who will be allowed in consultation with their physician.\n18. AST (SGOT)/ALT (SGPT) \u2264 2.5 x institutional upper limit of normal (ULN)\n19. Ability to understand and the willingness to sign the written IRB approved informed consent document.\n20. Women of childbearing potential or their male partner must agree to use a highly effective method of contraception from enrollment until 8 months after final study therapy. (see section 4.6.1)\n21. Body weight \\>30kg\n\nExclusion Criteria\n\n1. Involvement in the planning and/or conduct of the study\n2. History of Grade 3 or higher pneumonitis from prior radiation; patients with grade 2 radiation pneumonitis may be considered for enrollment with permission from the Protocol Director or Co-Director.\n3. History of another primary malignancy and currently undergoing active treatment Exception: May participate if receiving adjuvant endocrine therapy for breast or prostate cancer.\n4. Expected to require ongoing chronic treatment with systemic immunosuppressive medication after enrollment.\n\n   Exceptions: intranasal, inhaled, or topical corticosteroids or systemic corticosteroids at physiological doses, not to exceed 10 mg/day of prednisone equivalent\n5. Any unresolved toxicity CTCAE \\> Grade 2 from prior therapy with the exception of alopecia, vitiligo, and the laboratory values defined in the inclusion criteria.\n\n   * Subjects with Grade \\> 2 neuropathy will be evaluated on a case by case basis after consultation with the Protocol Director / Principal Investigator\n   * Subjects with irreversible toxicity that is not reasonably expected to be exacerbated by treatment with durvalumab may be included (ie, hearing loss) with permission from the Protocol Director / Co-Director.\n6. Active or prior documented autoimmune or inflammatory disorders which could limit the subjects ability to receive durvalumab on the study (including inflammatory bowel disease \\[eg, colitis or Crohn's disease\\], diverticulitis \\[with the exception of diverticulosis\\], systemic lupus erythematosus, Sarcoidosis syndrome, or Wegener syndrome \\[granulomatosis with polyangiitis; Graves' disease; rheumatoid arthritis; hypophysitis; uveitis; etc\\]). The following may be taken in to considerations as exceptions to this criterion:\n\n   1. Vitiligo or alopecia\n   2. Hypothyroidism (eg, following Hashimoto syndrome) stable on hormone replacement\n   3. Chronic skin condition not requiring systemic therapy\n   4. Those without active disease in the last 5 years may be included with permission from the Protocol Director / Co-Director.\n   5. Celiac disease controlled by diet alone\n7. History of primary immunodeficiency\n8. History of organ transplant requiring therapeutic immunosuppression\n9. Active infection including:\n\n   * Grade 3 or higher clinically significant infection\n   * Active known Hepatitis B \\[known positive results for HBV surface antigen (HBsAg) within 2 months prior to enrollment\\]. EXCEPTION: Subjects with a past or resolved HBV infection, defined as the presence of hepatitis B core antibody (anti HBc) and absence of HBsAg are eligible.\n   * Active known Hepatitis C (HCV) EXCEPTION: Subjects positive for HCV antibody are eligible only if polymerase chain reaction is negative for HCV RNA\n   * Active known tuberculosis infection (clinical evaluation that may include clinical history, physical examination and radiographic findings, or tuberculosis testing in line with local practice).\n   * Active known HIV: tested positive for human immunodeficiency virus (HIV) (positive HIV 1/2 antibodies)\n10. Receipt of live (growth/replication competent) attenuated vaccine within 30 days prior to enrollment.\n\n    Note: Subjects, if enrolled, should not receive live vaccine while receiving the investigational product (IP), and through 30 days after the last dose of IP.\n11. Uncontrolled intercurrent illness, including but not limited to clinically significant:\n\n    * Symptomatic congestive heart failure\n    * Uncontrolled hypertension\n    * Unstable angina pectoris\n    * Cardiac arrhythmia\n    * Interstitial lung disease (presence of radiation pneumonitis on CT scan is allowed)\n    * Serious chronic gastrointestinal conditions associated with diarrhea\n    * Psychiatric illness/social situations that would limit compliance with study requirement, substantially increase risk of incurring AEs or compromise the ability of the subject to give written informed consent.\n12. Female subjects who are pregnant or breast feeding.\n13. Any other medical condition that, in the investigator's opinion, makes the subject unsuitable for enrollment and study procedures.\n14. Female subjects who are pregnant or breast-feeding; or subjects of reproductive potential of any gender who are not employing or who do not agree to employ an effective method of birth control (see Section 4.7) prior to trial enrollment.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Laura Lundi, BS",
+                    "role": "CONTACT",
+                    "phone": "650 723-1002",
+                    "email": "llundi@stanford.edu"
+                },
+                {
+                    "name": "Grace Hwang, BS",
+                    "role": "CONTACT",
+                    "phone": "650 723 0437",
+                    "email": "gracehw@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Joel W Neal, MD,PhD",
+                    "affiliation": "Stanford Universiy",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University",
+                    "status": "RECRUITING",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94305",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Grace Hwang",
+                            "role": "CONTACT",
+                            "phone": "650-723-0437",
+                            "email": "gracehw@stanford.edu"
+                        },
+                        {
+                            "name": "Joel W Neal, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000002289",
+                    "term": "Carcinoma, Non-Small-Cell Lung"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "asFound": "Non-small Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000613593",
+                    "term": "Durvalumab"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000074322",
+                    "term": "Antineoplastic Agents, Immunological"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M272500",
+                    "name": "Durvalumab",
+                    "asFound": "Pancreatic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1346",
+                    "name": "Antineoplastic Agents, Immunological",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

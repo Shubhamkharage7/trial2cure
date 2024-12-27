@@ -1,0 +1,291 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06343883",
+            "orgStudyIdInfo": {
+                "id": "24-353"
+            },
+            "organization": {
+                "fullName": "Virginia Polytechnic Institute and State University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Investigation of Low-intensity Focused Ultrasound Pressure",
+            "officialTitle": "Investigation of Low-intensity Focused Ultrasound Pressure",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "investigation-of-low-intensity-focused-ultrasound-pressure"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-07",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-07",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-20",
+            "studyFirstSubmitQcDate": "2024-03-26",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-03",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Wynn Legon",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "Virginia Polytechnic Institute and State University"
+            },
+            "leadSponsor": {
+                "name": "Virginia Polytechnic Institute and State University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Investigating the relationship between input pressure of low-intensity focused ultrasound and an evoked potential in both eeg and fMRI.",
+            "detailedDescription": "Study aims to determine safety and efficacy of variable pressures of low-intensity focused ultrasound using an electrical stimulation to create a somatosensory evoked potential and record eeg and fMRI outcome measures. A primary safety study will be conducted prior to 'full scale' data collection."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Somatic Pain"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "interventionModelDescription": "Primary cohort (safety) will be collected prior to full study collection. Primary collection will involve highest pressure application and follow-up safety scans (MRI) to be reviewed by a Neuroradiologist. Once cleared - parallel design will be utilized for eeg and fMRI cohorts. Both cohorts will receive 3 LIFU pressures randomized over 3 study visits. Electrical stimulations will be applied pre and post LIFU administration to induce somatosensory evoked potentials (SEPs).",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE",
+                    "maskingDescription": "No masking, no sham. All subjects will receive all conditions, all of which are active."
+                }
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Safety Check - high pressure application",
+                    "type": "EXPERIMENTAL",
+                    "description": "Small cohort to be collected prior to other study cohorts. Highest of 3 pressures of interest will be applied to the S1 (somatosensory cortex) with a follow-up MRI conducted 24-72 hours post.",
+                    "interventionNames": [
+                        "Device: low-intensity focused ultrasound - high pressure"
+                    ]
+                },
+                {
+                    "label": "EEG",
+                    "type": "EXPERIMENTAL",
+                    "description": "Electrical stimulation utilized to generate SEPs, performed pre and post LIFU application. One of three LIFU pressures will be applied. One per study visit (3), randomized order. EEG collected throughout visit (outcome measure).",
+                    "interventionNames": [
+                        "Device: low-intensity focused ultrasound - low pressure",
+                        "Device: low-intensity focused ultrasound - medium pressure",
+                        "Device: low-intensity focused ultrasound - high pressure"
+                    ]
+                },
+                {
+                    "label": "fMRI",
+                    "type": "EXPERIMENTAL",
+                    "description": "Electrical stimulation utilized to generate SEPs, performed pre and post LIFU application. One of three LIFU pressures will be applied. One per study visit (3), randomized order. fMRI collected throughout visit (outcome measure).",
+                    "interventionNames": [
+                        "Device: low-intensity focused ultrasound - low pressure",
+                        "Device: low-intensity focused ultrasound - medium pressure",
+                        "Device: low-intensity focused ultrasound - high pressure"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "low-intensity focused ultrasound - low pressure",
+                    "description": "low-intensity focused ultrasound applied to the S1.",
+                    "armGroupLabels": [
+                        "EEG",
+                        "fMRI"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "low-intensity focused ultrasound - medium pressure",
+                    "description": "low-intensity focused ultrasound applied to the S1.",
+                    "armGroupLabels": [
+                        "EEG",
+                        "fMRI"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "low-intensity focused ultrasound - high pressure",
+                    "description": "low-intensity focused ultrasound applied to the S1.",
+                    "armGroupLabels": [
+                        "EEG",
+                        "Safety Check - high pressure application",
+                        "fMRI"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Report of Symptoms Questionnaire",
+                    "description": "questionnaire of symptomology administered pre and post intervention.",
+                    "timeFrame": "pre/post intervention and 1 week post intervention."
+                },
+                {
+                    "measure": "MRI",
+                    "description": "pre and post structural MRI collection for cohort one - evaluated by Neuroradiologist for safety considerations. Primarily looking to rule out any evidence of bleeds.",
+                    "timeFrame": "pre and post intervention in cohort 1"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "EEG",
+                    "description": "Cohort 2 outcome measure is the EEG evoked potential response to the SEP stimulus pre and post LIFU application.",
+                    "timeFrame": "throughout study visits in cohort 2 - approximately 2 hours per visit across 3 study visits (~2 weeks)."
+                },
+                {
+                    "measure": "fMRI",
+                    "description": "Cohort 3 outcome measure is the functional MRI response to the SEP stimulus pre and post LIFU application. The somatosensory pathway will be of most interest in analysis of the BOLD response.",
+                    "timeFrame": "throughout study visits in cohort 3 - approximately 2 hours per visit across 3 study visits (~2 weeks)."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nUnderstand and speak English\n\nExclusion Criteria:\n\n1. Claustrophobia (scanning environment may be uncomfortable).\n2. Contraindications to MRI: including pacemaker, aneurysm clips, neurostimulators, cochlear implants, metal in eyes, steel worker, or other implants.\n3. Contraindications to CT: pregnancy\n4. Active medical disorder or treatment with potential CNS effects (e.g. Alzheimer's)\n5. History of neurologic disorder. (e.g. Parkinson's, Epilepsy, or Essential Tremor)\n6. History of head injury resulting in loss of consciousness for \\>10 minutes.\n7. History of alcohol or drug dependence (through self-report).",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jessica Florig, MPH",
+                    "role": "CONTACT",
+                    "phone": "540-526-2261",
+                    "email": "jnw@vtc.vt.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Fralin Biomedical Research Institute at VTC",
+                    "city": "Roanoke",
+                    "state": "Virginia",
+                    "zip": "24016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jessica Florig, MPH",
+                            "role": "CONTACT",
+                            "phone": "540-526-2261",
+                            "email": "jnw@vtc.vt.edu"
+                        },
+                        {
+                            "name": "Wynn Legon, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.27097,
+                        "lon": -79.94143
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000059226",
+                    "term": "Nociceptive Pain"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010146",
+                    "term": "Pain"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29404",
+                    "name": "Nociceptive Pain",
+                    "asFound": "Somatic Pain",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

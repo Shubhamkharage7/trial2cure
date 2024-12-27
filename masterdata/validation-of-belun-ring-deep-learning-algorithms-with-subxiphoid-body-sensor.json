@@ -1,0 +1,430 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06255613",
+            "orgStudyIdInfo": {
+                "id": "STUDY20231436"
+            },
+            "organization": {
+                "fullName": "Belun Technology Company Limited",
+                "class": "OTHER"
+            },
+            "briefTitle": "Validation of Belun Ring Gen3 Deep Learning Algorithms With Subxiphoid Body Sensor",
+            "officialTitle": "Belun Ring Gen3 Deep Learning Algorithms With Subxiphoid Body Sensor: Exploring Its Diagnostic Capabilities for Sleep Disordered Breathing With Analysis of Biomarker Dynamics",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "validation-of-belun-ring-deep-learning-algorithms-with-subxiphoid-body-sensor"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-03-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-09-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-15",
+            "studyFirstSubmitQcDate": "2024-02-02",
+            "studyFirstPostDateStruct": {
+                "date": "2024-02-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-19",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Belun Technology Company Limited",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "University Hospitals Cleveland Medical Center",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Hypothesis: BR's Gen3 DL algorithms, combined with its subxiphoid body sensor, can accurately diagnose OSA, categorize its severity, identify REM OSA and supine OSA, and detect central sleep apnea (CSA).\n\nPrimary Objective:\n\nTo rigorously evaluate the overall performance of the BR with Gen3 DL Algorithms and Subxiphoid Body Sensor in assessing SDB in individuals referred to the sleep labs with clinical suspicion of sleep apnea and a STOP-Bang score \\> 3, by comparing to the attended in-lab PSG, the gold standard.\n\nSecondary Objectives:\n\nTo determine the accuracy of BR sleep stage parameters using the Gen3 DL algorithms by comparing to the in-lab PSG;\n\nTo assess the accuracy of the BR arrhythmia detection algorithm;\n\nTo assess the impact of CPAP on HRV (both time- and frequency-domain), delta HR, hypoxic burden, and PWADI during split night studies;\n\nTo assess if any of the baseline HRV parameters (both time- and frequency-domain), delta heart rate (referred to as Delta HR), hypoxic burden, and pulse wave amplitude drop index (PWADI) or the change of these parameters may predict CPAP compliance;\n\nTo evaluate the minimum duration of quality data necessary for BR to achieve OSA diagnosis;\n\nTo examine the performance of OSA screening tools using OSA predictive AI models formulated by National Taiwan University Hospital (NTUH) and Northeast Ohio Medical University (NEOMED)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sleep-Disordered Breathing",
+                "Sleep Architecture",
+                "Arrhythmia"
+            ],
+            "keywords": [
+                "Obstructive Sleep Apnea",
+                "Wearable",
+                "Home Sleep Test",
+                "Photoplethysmography",
+                "Deep Learning",
+                "Predictive AI models"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 79,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "UH-Participant",
+                    "type": "EXPERIMENTAL",
+                    "description": "Potential participants will be identified from patients scheduled for in-lab PSG at the two medical centers of University Hospitals",
+                    "interventionNames": [
+                        "Device: Belun Ring",
+                        "Device: Belun Cor"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Belun Ring",
+                    "description": "The Belun Ring sensor should be placed on the palmar side of the proximal phalanx of the index finger and the sensor should be placed along the radial artery such that the accuracy of the device will be minimally affected by skin color. The Ring has 7 adjustable arms for different finger sizes. Each device is reusable after thorough cleaning with an alcohol swab.",
+                    "armGroupLabels": [
+                        "UH-Participant"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Belun Cor",
+                    "description": "The \"Belun Cor\" body sensor accessory is composed of an accelerometer, a temperature sensor, and a lithium battery. It will be placed immediately below the xiphoid process in the upper abdomen with a medical adhesive to detect the body temperature, body posture, respiratory rate, and respiratory efforts.",
+                    "armGroupLabels": [
+                        "UH-Participant"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Performance of diagnosing sleep disordered breathing by BR's Gen3 DL algorithms",
+                    "description": "To establish mean, standard deviation, and target clinical agreement limit values for the differences in sleep-disordered breathing parameters (including AHI3%, AHI4%, REM AHI 3%, REM AHI4%, Supine AHI3%, Supine AHI4%, and CAI) from the BR against PSG. To calculate the sensitivity and specificity values, along with 95% confidence intervals (CIs), for sleep-disordered breathing parameters from the BR against PSG at PSG cutoffs of 5, 15, and 30 events/h. Pearson correlation and regression analysis will be employed to assess the association between sleep-disordered breathing parameters obtained from the BR and PSG.",
+                    "timeFrame": "2 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Performance of sleep stage classification by BR's Gen3 DL algorithms",
+                    "description": "Sensitivity and specificity of the Epoch-by-Epoch (EBE) 4-stage classification (wake, deep sleep, light sleep, REM) of the BR will be compared to EBE PSG data for each stage against the combination of the other three classifications. For instance, sensitivity for detecting wake will measure the proportion of correctly classified wake epochs against the combined classifications of deep sleep, light sleep, and REM sleep. Sensitivity and specificity values, accompanied by 95% CIs, of EBE body position (supine vs. non-supine) against PSG will also be computed.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "To evaluate the minimum duration of quality data necessary for OSA diagnosis",
+                    "description": "To explore the minimum number of hours needed by the BR for an accurate OSA diagnosis, sensitivity, specificity, and Matthews Correlation Coefficient (MCC) values, along with 95% CIs, will be computed for sleep-disordered breathing parameters of Belun total record time (bTRT) and belun total sleep time (bTST) with different numbers of hours (e.g., 2, 3, 4, 5, 6, 7, and 8 hours) against PSG data. In cases where varying numbers of subjects meet different bTRT and bTST criteria at different durations, resampling methods like oversampling, undersampling, bootstrapping, etc., will be employed to address data imbalances.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Accuracy of the BR arrhythmia-detecting algorithm",
+                    "description": "To calculate the performance metrics, including sensitivity and specificity, along with 95% CIs, for the detection of arrhythmias by BR device in comparison to assessments made by a board-certified sleep physician. The physician will review the PSG ECG signals of the subjects suspected of having significant arrhythmias during the sleep study.",
+                    "timeFrame": "3 years"
+                },
+                {
+                    "measure": "Biomarker relationship analysis",
+                    "description": "Pearson correlation and regression analysis will be employed: (1) to explore the relationships between autonomic nervous system (ANS) metrics and delta HR, hypoxic burden, and pulse wave amplitude drop index (PWADI); (2) to evaluate the association between HRV, Delta HR, hypoxic burden, PWADI, CPAP adherence, sleep-disordered breathing parameters, and demographic data (including age, gender, and BMI). If data distribution assumptions are violated, the Spearman correlation will be used instead of the Pearson correlation.",
+                    "timeFrame": "3 years"
+                },
+                {
+                    "measure": "Accuracy of the NTUH and NEOMED models",
+                    "description": "The investigators will compute sensitivity and specificity values, accompanied by their respective 95% CIs, for AHI3% and AHI4% from the NTUH/NEOMED models in comparison to PSG. Furthermore, the investigators will determine the ROC curve at PSG-defined cutoffs of 5, 15, and 30 events/h for both AHI3% and AHI4%.",
+                    "timeFrame": "3 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Provision of signed informed consent form.\n* Clinically assessed and suspicious for OSA with a STOP-Bang score \u2265 3.\n\nExclusion Criteria:\n\n* Full night PAP titration study.\n* On home O2, noninvasive ventilator, diaphragmatic pacing, or any form of a nerve stimulator.\n* Having atrial fibrillation-flutter, pacemaker/defibrillator, left ventricular assist device (LVAD), or status post cardiac transplantation.\n* Recent hospitalization or recent surgery in the past 30 days.\n* Unstable cardiopulmonary status on the night of the study judged to be unsafe for sleep study by the sleep tech and/or the on-call sleep physician.\n\nIf a participant did not sleep for at least 4 hours of technically valid sleep based on the Belun Ring method for diagnostic assessments, or a minimum of 3 hours of technically valid sleep during the diagnostic phase of a split-night study, the patient will be excluded from statistical analysis.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Tiffany Tsai",
+                    "role": "CONTACT",
+                    "phone": "216-844-3201",
+                    "email": "tiffany.tsai2@va.gov"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ambrose A. Chiang, MD",
+                    "affiliation": "University Hospitals Cleveland Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Susheel P. Patil, MD",
+                    "affiliation": "University Hospitals Cleveland Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Kingman P. Strohl, MD",
+                    "affiliation": "University Hospitals Cleveland Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "UH Geauga Health Center Services",
+                    "status": "RECRUITING",
+                    "city": "Chardon",
+                    "state": "Ohio",
+                    "zip": "44024",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ambrose A Chiang, MD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.61422,
+                        "lon": -81.14899
+                    }
+                },
+                {
+                    "facility": "University Hospitals Cleveland Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44106",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ambrose A Chiang, MD",
+                            "role": "CONTACT",
+                            "phone": "216-791-3800",
+                            "phoneExt": "62976",
+                            "email": "Ambrose.Chiang@UHhospitals.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000053120",
+                    "term": "Respiratory Aspiration"
+                },
+                {
+                    "id": "D000012891",
+                    "term": "Sleep Apnea Syndromes"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000001049",
+                    "term": "Apnea"
+                },
+                {
+                    "id": "D000020919",
+                    "term": "Sleep Disorders, Intrinsic"
+                },
+                {
+                    "id": "D000020920",
+                    "term": "Dyssomnias"
+                },
+                {
+                    "id": "D000012893",
+                    "term": "Sleep Wake Disorders"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M27137",
+                    "name": "Respiratory Aspiration",
+                    "asFound": "Breathing",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22010",
+                    "name": "Sleep Apnea, Obstructive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4361",
+                    "name": "Apnea",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15694",
+                    "name": "Sleep Apnea Syndromes",
+                    "asFound": "Sleep Disordered Breathing",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22242",
+                    "name": "Parasomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22654",
+                    "name": "Sleep Disorders, Intrinsic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22655",
+                    "name": "Dyssomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15696",
+                    "name": "Sleep Wake Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M3777",
+                    "name": "Ethanol",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19022",
+                    "name": "Lithium Carbonate",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "PsychDr",
+                    "name": "Psychotropic Drugs"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

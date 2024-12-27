@@ -1,0 +1,390 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05308368",
+            "orgStudyIdInfo": {
+                "id": "19247"
+            },
+            "organization": {
+                "fullName": "North Carolina State University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Analysis and Suppression of Tremor During Grasp Using Ultrasound Imaging and Electrical Stimulation",
+            "officialTitle": "Analysis and Suppression of Tremor During Grasp Using Ultrasound Imaging and Electrical Stimulation",
+            "acronym": "Tremor",
+            "therapeuticArea": [
+                "Other",
+                "Neurology"
+            ],
+            "study": "analysis-and-suppression-of-tremor-during-grasp-using-ultrasound-imaging-and-electrical-stimulation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-02-11",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2100-01-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2100-01-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-16",
+            "studyFirstSubmitQcDate": "2022-03-25",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-03-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-04-04",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Nitin Sharma",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "North Carolina State University"
+            },
+            "leadSponsor": {
+                "name": "North Carolina State University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "University of North Carolina, Chapel Hill",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Individuals experiencing tremors face difficulty performing activities of daily living caused by involuntary oscillation of the muscles in the hands and arms. Current solutions to help suppress tremors include medication, surgery, assistive devices and lifestyle change. However, each of these has a drawback of its own including cost and unwanted side effects. Aside from the solutions listed, it has been shown that functional electrical stimulation(FES) is a possible solution to help suppress tremor. Additionally, FES can be combined with different technologies including accelerometers, gyroscopes and motion capture to develop a closed loop system for tremor suppression. However, this has drawbacks including signal interference and the need for multiple sensor to fully classify the tremor. Ultrasound imaging solves some of these issues because it can provide a direct visualization of hand muscles that contribute to tremor. This study will focus on detecting characterizing and differentiating tremors from voluntary hand motion using ultrasound imaging. The results obtained from this study will help design FES-based tremor-suppression techniques in the future. This study will target both subjects with different tremor disorders and able bodied subjects."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Parkinson Disease",
+                "Essential Tremor"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "The central objective of this study is to collect experimental data to develop tremor models and suppression methods and validate these methods on participants with tremor.\n\nThis study is performed with two sets of subjects: people with Parkinson's Disease and Essential Tremor and people without any neurological disorders",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 16,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Tremor Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "Individuals with either parkinson's disease or essential tremor will be recruited in this group",
+                    "interventionNames": [
+                        "Device: Ultrasound Imaging",
+                        "Device: Electromyography",
+                        "Device: Inertial Measurement Units (IMU)",
+                        "Device: Functional Electrical Stimulation (FES)"
+                    ]
+                },
+                {
+                    "label": "Able Body Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "Individuals with no disorders will be recruited in this group",
+                    "interventionNames": [
+                        "Device: Ultrasound Imaging",
+                        "Device: Electromyography",
+                        "Device: Inertial Measurement Units (IMU)",
+                        "Device: Functional Electrical Stimulation (FES)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Ultrasound Imaging",
+                    "description": "We will collect ultrasound images during the grasping motion for both groups",
+                    "armGroupLabels": [
+                        "Able Body Group",
+                        "Tremor Group"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Electromyography",
+                    "description": "We will collect electromyography (EMG) signals of both the flexor and extensor muscles of the wrist during the grasping motion for both groups",
+                    "armGroupLabels": [
+                        "Able Body Group",
+                        "Tremor Group"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Inertial Measurement Units (IMU)",
+                    "description": "We will use data from the ultrasound images and EMG to develop a tremor model. The model will be validated in comparison to joint angle measurements from an Inertial Measurement Unit (IMU) collected during the grasping motion",
+                    "armGroupLabels": [
+                        "Able Body Group",
+                        "Tremor Group"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Functional Electrical Stimulation (FES)",
+                    "description": "We will use the develop closed-loop control methods for tremor suppression using information from the ultrasound-image based tremor models. FES will be used to provide stimulation that will help with tremor suppression",
+                    "armGroupLabels": [
+                        "Able Body Group",
+                        "Tremor Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Tremor Model",
+                    "description": "The investigators will use ultrasound features collected on participants to develop novel models for tremor that can accurately predict the joint position. The joint position measured by the IMU will used as a benchmark and the root mean squared error (RMSE \\[Deg.\\]) between the model predicted angle and the true angle will be used as a metric.",
+                    "timeFrame": "Through Completion of Study, an average of 3 years"
+                },
+                {
+                    "measure": "Ultrasound Imaging Based Frequency Detection",
+                    "description": "The investigators will benchmark the performance of the ultrasound features (fascicle length \\[mm\\], muscle thickness \\[mm\\]) in detecting the actual tremor frequency (Hz) measured by both EMG and IMU sensors.",
+                    "timeFrame": "Through Completion of Study, an average of 3 years"
+                },
+                {
+                    "measure": "Tremor Suppression",
+                    "description": "The investigators will use the developed tremor models to develop closed loop control methods using FES which enable tremor suppression. The goal of the controller will be to maintain a desired wrist angle position while performing a grasping motion. The RMSE between the actual and desired wrist position will be used as an evaluation metric. The investigators will also analyze the FES dosage that is administered at both the flexors and extensors during the grasping motion.",
+                    "timeFrame": "Through Completion of Study, an average of 3 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria (Tremor Group):\n\n1. At least 40 years of age, and no more than 90 years of age.\n2. Meet UK Parkinson's disease brain bank diagnostic criteria\n3. Have clinical evidence of rest tremor of one or both upper extremities defined as involuntary, rhythmic oscillations about any joint within the upper extremities\n4. Tremor amplitude must be at minimum 1 cm as determined by expert opinion by a movement disorders specialist.\n5. Due to the nature of measurements occurring during a grasp maneuver, the tremor must be deemed to become re-emergent with a fixed posture. This shall be defined by development of postural tremor that does not begin immediately upon grasping the vertical object, but instead with a delay in development of oscillatory movement of at least half a second as timed by a stopwatch, and that may grow in amplitude over seconds to maximum amplitude without changing the force of the grasp at first. Note that within-individual intermittency and variability of tremor can be influenced by anxiety, stress, cold temperature, and fatigue. In an effort to reduce this variability, we will have subjects perform tasks in a comfortable area, providing up to 20 minutes to allow them to relax in a temperature-neutral location, and reduce anxiety\n\nExclusion Criteria (Tremor Group):\n\n1. Muscle weakness as determined by Medical Research Council grade less than 5/5 on direct testing in the upper limb afflicted with rest tremor\n2. Infection at the upper limb at time of assessment\n3. Pre-existing, concomitant neuromuscular or cerebellar disorders\n4. Use of medications that can alter the function of the neuromuscular junction.\n5. Those with concomitant essential tremor as determined by history or confirmed by movement disorders specialist prior to assessments.\n\nInclusion Criteria (Able Body):\n\nSubjects will fall under the able body category if they exhibit no movement disorders and can perform grasping motion with no inhibition.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "90 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Nitin Sharma",
+                    "role": "CONTACT",
+                    "phone": "919-513-0787",
+                    "email": "nsharm23@ncsu.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Engineering Building III",
+                    "status": "RECRUITING",
+                    "city": "Raleigh",
+                    "state": "North Carolina",
+                    "zip": "27606",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.7721,
+                        "lon": -78.63861
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "IPD will not be shared outside of this research group. However, selected data may be published in academic journals, conference papers, or other publications. This data will be de-identified, and will not include the full set of data"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010300",
+                    "term": "Parkinson Disease"
+                },
+                {
+                    "id": "D000014202",
+                    "term": "Tremor"
+                },
+                {
+                    "id": "D000020329",
+                    "term": "Essential Tremor"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020734",
+                    "term": "Parkinsonian Disorders"
+                },
+                {
+                    "id": "D000001480",
+                    "term": "Basal Ganglia Diseases"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000080874",
+                    "term": "Synucleinopathies"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                },
+                {
+                    "id": "D000020820",
+                    "term": "Dyskinesias"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13213",
+                    "name": "Parkinson Disease",
+                    "asFound": "Parkinson's Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16956",
+                    "name": "Tremor",
+                    "asFound": "Tremor",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22137",
+                    "name": "Essential Tremor",
+                    "asFound": "Essential Tremor",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22494",
+                    "name": "Parkinsonian Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25603",
+                    "name": "Ganglion Cysts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16358",
+                    "name": "Synovial Cyst",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4774",
+                    "name": "Basal Ganglia Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2217",
+                    "name": "Synucleinopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22574",
+                    "name": "Dyskinesias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,329 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05814146",
+            "orgStudyIdInfo": {
+                "id": "2022P002944"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Trial of Variable Dialysate Bicarbonate",
+            "officialTitle": "Randomized, Controlled, Double-blind Trial of Lower Versus Higher Dialysate Bicarbonate in Hospitalized Maintenance Hemodialysis Patients",
+            "therapeuticArea": [
+                "Cardiovascular",
+                "Other"
+            ],
+            "study": "trial-of-variable-dialysate-bicarbonate"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-24",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-09-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-10-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-20",
+            "studyFirstSubmitQcDate": "2023-04-03",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Katherine Scovner Ravi, MD, MPH",
+                "investigatorTitle": "Instructor Harvard Medical School / Associate Physician Renal Division",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "QTc prolongation and premature ventricular contractions (PVCs) are common in hemodialysis (HD) patients and are associated with sudden cardiac death.\n\nIt is known that higher dialysate bicarbonate is associated with more QTc prolongation during HD sessions.\n\nThis study aims to assess the effects of lower (30 mEq/L) versus higher (35 mEq/L) dialysate bicarbonate in adult maintenance HD patients admitted to the hospital.\n\nThe investigators will randomly assign subjects to lower versus higher dialysate bicarbonate concentrations during their hospital stay for up to a maximum of six HD sessions or until their hospital discharge."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Peri-dialytic Cardiac Rhythms",
+                "Intradialytic Hypotension",
+                "Electrolyte Changes",
+                "pH Changes",
+                "Adverse Symptoms"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "QUADRUPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 141,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Lower dialysate bicarbonate",
+                    "type": "EXPERIMENTAL",
+                    "description": "A lower dialysate bicarbonate will be used in the experimental arm (30 mEq/L).",
+                    "interventionNames": [
+                        "Drug: Dialysate bicarbonate concentration",
+                        "Device: Dialysate bicarbonate concentration - telemetry monitoring"
+                    ]
+                },
+                {
+                    "label": "Higher dialysate bicarbonate",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "A higher dialysate bicarbonate will be used in the active comparator arm (35 mEq/L).",
+                    "interventionNames": [
+                        "Drug: Dialysate bicarbonate concentration",
+                        "Device: Dialysate bicarbonate concentration - telemetry monitoring"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Dialysate bicarbonate concentration",
+                    "description": "Assess how a lower dialysate bicarbonate affects:\n\n* QTc duration during and between hemodialysis sessions\n* PVC burden during and between hemodialysis sessions\n* Clinically significant arrhythmia during and between hemodialysis sessions\n* Intradialytic hypotension\n* Adverse symptoms during hemodialysis sessions",
+                    "armGroupLabels": [
+                        "Higher dialysate bicarbonate",
+                        "Lower dialysate bicarbonate"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Dialysate bicarbonate concentration - telemetry monitoring",
+                    "description": "Patients will be monitored with telemetry on both arms of the trial.",
+                    "armGroupLabels": [
+                        "Higher dialysate bicarbonate",
+                        "Lower dialysate bicarbonate"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "QTc prolongation",
+                    "description": "QTc prolongation, calculated as post-HD (just as HD finishing, generally 4 hours from start of HD session) minus pre-HD QTc duration, will be obtained via Holter monitoring.",
+                    "timeFrame": "During hemodialysis procedure (during dialysate administration)"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "PVC frequency",
+                    "description": "Holter monitors will be used to assess PVC frequency during HD sessions and in the subsequent inter-HD period. The investigators will also assess PVC coupling interval variability in these time intervals.",
+                    "timeFrame": "PVCs/hour will be recorded during HD sessions and for ~44-68 hours from the end of the hemodialysis session until the subsequent hemodialysis session."
+                },
+                {
+                    "measure": "Clinically significant arrhythmia",
+                    "description": "As described in the Monitoring in Dialysis (MiD) study, clinically significant arrhythmia is defined as: sustained ventricular tachycardia, bradycardia, asystole and symptomatic arrhythmias.",
+                    "timeFrame": "Clinically significant arrhythmia will be assessed during hemodialysis sessions and in the subsequent inter-hemodialysis period (until the subsequent hemodialysis session, up to 68 hours)."
+                },
+                {
+                    "measure": "Intradialytic hypotension",
+                    "description": "Intradialytic hypotension will be defined as systolic blood pressure \\<90 during hemodialysis. The investigators will also conduct sensitivity analyses using alternative definitions of intradialytic hypotension (e.g. nadir intra-hemodialysis systolic blood pressure \\<90mmHg if pre-hemodialysis systolic blood pressure is \\<160mmHg or nadir intra-hemodialysis systolic blood pressure \\<100mmHg if pre-hemodialysis systolic blood pressure is \u2265160mmHg). Additionally, the investigators will examine the overall mean decline in systolic blood pressure during hemodialysis as a continuous outcome (intra-hemodialysis systolic blood pressure decline=pre-hemodialysis systolic blood pressure minus nadir systolic blood pressure during hemodialysis).",
+                    "timeFrame": "Blood pressures will be measured every 15 minutes during HD sessions."
+                },
+                {
+                    "measure": "Electrolytes",
+                    "description": "Samples are collected from the hemodialysis circuit (no extra blood sticks) for freezing for comprehensive metabolic panels.",
+                    "timeFrame": "Obtained pre- and post-hemodialysis study sessions (just as hemodialysis finishing, generally 4 hours from start of hemodialysis session)."
+                },
+                {
+                    "measure": "pH",
+                    "description": "Samples are collected from the hemodialysis circuit (no extra blood sticks) for immediate blood gas analysis.",
+                    "timeFrame": "Obtained pre- and post-hemodialysis study sessions (just as hemodialysis finishing, generally 4 hours from start of hemodialysis session)."
+                },
+                {
+                    "measure": "Ionized calcium level",
+                    "description": "Samples are collected from the hemodialysis circuit (no extra blood sticks) for immediate evaluation of ionized calcium level.",
+                    "timeFrame": "Obtained pre- and post-hemodialysis study sessions (just as hemodialysis finishing, generally 4 hours from start of hemodialysis session)."
+                },
+                {
+                    "measure": "Adverse symptoms",
+                    "description": "The investigators will administer the modified Edmonton Symptom Assessment System (mESAS). The mESAS measures patient-reported severity of pain, activity, nausea, depression, anxiety, drowsiness, appetite, well-being, shortness of breath and pruritus using a 0-10 score (anchored by \"No\" at 0 and \"Severe\" at 10). A validated Spanish version is available and a translator will help to administer the questionnaire as well as with all communication with patients in any language other than English.",
+                    "timeFrame": "Questionnaires will be administered during the last 10 minutes of hemodialysis sessions."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* prevalent end-stage renal disease, on maintenance HD \\> 90 days\n* age \u2265 18 years old\n* thrice weekly HD\n\nExclusion Criteria:\n\n* hemoglobin \\< 8.0 g/dL\n* pregnancy\n* any physical, mental or medical condition which limited the ability to provide written informed consent",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "120 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Katherine S Ravi, MD, MPH",
+                    "role": "CONTACT",
+                    "phone": "(617) 732-6383",
+                    "email": "ksravi@bwh.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Katherine S Ravi, MD, MPH",
+                    "affiliation": "Brigham and Women's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Katherine S Ravi, MD, MPH",
+                            "role": "CONTACT",
+                            "phone": "617-732-6383"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007022",
+                    "term": "Hypotension"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10072",
+                    "name": "Hypotension",
+                    "asFound": "Hypotension",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000015314",
+                    "term": "Dialysis Solutions"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000019999",
+                    "term": "Pharmaceutical Solutions"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18008",
+                    "name": "Dialysis Solutions",
+                    "asFound": "Cranial",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

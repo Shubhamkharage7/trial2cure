@@ -1,0 +1,512 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06287151",
+            "orgStudyIdInfo": {
+                "id": "STUDY00002844"
+            },
+            "organization": {
+                "fullName": "Nationwide Children's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Regional Anesthesia EMG Study",
+            "officialTitle": "Assessment of Regional Anesthetic Blockade Using Non-Invasive Surface Electromyogram (EMG)",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "regional-anesthesia-emg-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-09",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-09-20",
+            "studyFirstSubmitQcDate": "2024-02-27",
+            "studyFirstPostDateStruct": {
+                "date": "2024-02-29",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Grant Heydinger",
+                "investigatorTitle": "Principal Investigator - MD",
+                "investigatorAffiliation": "Nationwide Children's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Nationwide Children's Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This study aims to investigate how non-invasive, non-significant risk EMG monitoring can be used intraoperatively to objectively characterize neuraxial anesthesia (i.e. spinal and caudal blockade) in pediatric patients undergoing surgery. The investigators will also attempt to measure the effect of adjunctive intrathecal clonidine on spinal and caudal blockade using EMG. This study also aims to quantify the impact of sevoflurane on basal muscle tone based on EMG changes. This study aims to generate pilot data on this subject to help design future studies.",
+            "detailedDescription": "This study aims to investigate how non-invasive, non-significant risk EMG monitoring can be used intraoperatively to objectively characterize neuraxial anesthesia (i.e. spinal and caudal blockade) in pediatric patients undergoing surgery. The investigators will also attempt to measure the effect of adjunctive intrathecal clonidine on spinal and caudal blockade using EMG. This study also aims to quantify the impact of sevoflurane on basal muscle tone based on EMG changes. This study aims to generate pilot data on this subject to help design future studies. The hypothesis is that EMG monitoring can be utilized to objectively measure neuraxial blockade, including onset, resolution, density, and dermatomal level."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Surgery"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Choice of group will be made by attending anesthesiologist based on clinical judgement.",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "maskingDescription": "Only the individuals performing data analysis will be blinded to type of anesthetic technique performed.",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 124,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "General Anesthesia with Penile Block",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Penile block: prior to the start of surgery 0.5mg/kg of 0.25% bupivacaine w/o epinephrine will be administered GA : Inhalation induction with sevoflurane followed by peripheral IV access, and placement of an endotracheal tube or laryngeal mask airway. No intravenous neuromuscular blockade will be given. Sevoflurane is FDA approved for the induction and maintenance of general anesthesia in adults and pediatric patients.",
+                    "interventionNames": [
+                        "Device: BlockSynop surface electromyography device"
+                    ]
+                },
+                {
+                    "label": "Spinal Anesthesia with Clonidine",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Spinal block: 0.5% isobaric bupivacaine with 1:200,000 epinephrine (0.2mL/kg up to 1mL), with or without 1mcg/kg clonidine Clonidine is an FDA approved medication that is commonly administered as an adjunct to SA and CA in this population.",
+                    "interventionNames": [
+                        "Device: BlockSynop surface electromyography device",
+                        "Drug: Clonidine"
+                    ]
+                },
+                {
+                    "label": "Spinal Anesthesia without Clonidine",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Spinal block: 0.5% isobaric bupivacaine with 1:200,000 epinephrine (0.2mL/kg up to 1mL), with or without 1mcg/kg clonidine",
+                    "interventionNames": [
+                        "Device: BlockSynop surface electromyography device"
+                    ]
+                },
+                {
+                    "label": "General Anesthesia with Caudal Anesthesia with Clonidine",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Caudal block: single-shot caudal injection following induction of GA with 1mL/kg of 0.25% bupivacaine with 1:200,000 epinephrine, with or without clonidine 1mcg/kg Clonidine is an FDA approved medication that is commonly administered as an adjunct to SA and CA in this population.",
+                    "interventionNames": [
+                        "Device: BlockSynop surface electromyography device",
+                        "Drug: Clonidine",
+                        "Drug: Sevoflurane"
+                    ]
+                },
+                {
+                    "label": "General Anesthesia with Caudal Anesthesia without Clonidine",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Caudal block: single-shot caudal injection following induction of GA with 1mL/kg of 0.25% bupivacaine with 1:200,000 epinephrine, with or without clonidine 1mcg/kg",
+                    "interventionNames": [
+                        "Device: BlockSynop surface electromyography device",
+                        "Drug: Sevoflurane"
+                    ]
+                },
+                {
+                    "label": "General Anesthesia only",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "GA alone: Inhalation induction with sevoflurane followed by peripheral IV access, and placement of an endotracheal tube or laryngeal mask airway. No intravenous neuromuscular blockade will be given. Sevoflurane is FDA approved for the induction and maintenance of general anesthesia in adults and pediatric patients.",
+                    "interventionNames": [
+                        "Device: BlockSynop surface electromyography device",
+                        "Drug: Sevoflurane"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "BlockSynop surface electromyography device",
+                    "description": "The EMG monitor uses non-invasive surface electrodes that measures electrical activity in response to muscle stimulation. After all electrodes have been placed on the patient, the electrodes will be connected to a prototype non-significant risk device (NSR) BlockSynop surface electromyography device and monitoring of sEMG signal will begin. The device is a non-invasive and non-significant risk device.",
+                    "armGroupLabels": [
+                        "General Anesthesia only",
+                        "General Anesthesia with Caudal Anesthesia with Clonidine",
+                        "General Anesthesia with Caudal Anesthesia without Clonidine",
+                        "General Anesthesia with Penile Block",
+                        "Spinal Anesthesia with Clonidine",
+                        "Spinal Anesthesia without Clonidine"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Clonidine",
+                    "description": "Clonidine is an alpha-2-agonist which is commonly used as an adjunct in spinal anesthesia and caudal anesthesia to improve both the quality and duration of blockade.",
+                    "armGroupLabels": [
+                        "General Anesthesia with Caudal Anesthesia with Clonidine",
+                        "Spinal Anesthesia with Clonidine"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Sevoflurane",
+                    "description": "5.3. Sevoflurane is FDA approved for the induction and maintenance of general anesthesia in adults and pediatric patients.",
+                    "armGroupLabels": [
+                        "General Anesthesia only",
+                        "General Anesthesia with Caudal Anesthesia with Clonidine",
+                        "General Anesthesia with Caudal Anesthesia without Clonidine"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Determine onset of spinal anesthesia and caudal + general anesthesia using surface EMG as measured by power of signal amplitude.",
+                    "description": "Performance of non-invasive surface EMG following administration of regional and/or general anesthesia. This will be assessed by EMG signal amplitude.",
+                    "timeFrame": "Preoperative placement through resolution of motor blockade in the PACU. Timeframe being day of surgery - up to one day."
+                },
+                {
+                    "measure": "Determine duration of spinal anesthesia and caudal + general anesthesia using surface EMG as measured by power of signal amplitude. .",
+                    "description": "Performance of non-invasive surface EMG following administration of regional and/or general anesthesia. This will be assessed by EMG signal amplitude.",
+                    "timeFrame": "Preoperative placement through resolution of motor blockade in the PACU. Timeframe being day of surgery - up to one day."
+                },
+                {
+                    "measure": "Determine density of spinal anesthesia and caudal + general anesthesia using surface EMG as measured by power of signal amplitude.",
+                    "description": "Performance of non-invasive surface EMG following administration of regional and/or general anesthesia. This will be assessed by EMG signal amplitude.",
+                    "timeFrame": "Preoperative placement through resolution of motor blockade in the PACU. Timeframe being day of surgery - up to one day."
+                },
+                {
+                    "measure": "Determine dermatomal level of spinal anesthesia and caudal + general anesthesia using surface EMG as measured by power of signal amplitude.",
+                    "description": "Performance of non-invasive surface EMG following administration of regional and/or general anesthesia. This will be assessed by EMG signal amplitude.",
+                    "timeFrame": "Preoperative placement through resolution of motor blockade in the PACU. Timeframe being day of surgery - up to one day."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used as defined as the onset of SA or CA and measured by the power of signal amplitude.",
+                    "description": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used.",
+                    "timeFrame": "Intraoperative time frame through motor blockade in the PACU. Timeframe being day of surgery."
+                },
+                {
+                    "measure": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used as defined as the duration of SA or CA and measured by the power of signal amplitude.",
+                    "description": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used.",
+                    "timeFrame": "Intraoperative time frame through motor blockade in the PACU. Timeframe being day of surgery."
+                },
+                {
+                    "measure": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used as defined as the density of SA or CA and measured by the power of signal amplitude.",
+                    "description": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used.",
+                    "timeFrame": "Intraoperative time frame through motor blockade in the PACU. Timeframe being day of surgery."
+                },
+                {
+                    "measure": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used as defined as the dermatomal level of SA or CA and measured by the power of signal amplitude.",
+                    "description": "Determine objective effect of clonidine, a common additive to neuraxial blockade in children on the measures described above when SA and CA are used.",
+                    "timeFrame": "Intraoperative time frame through motor blockade in the PACU. Timeframe being day of surgery."
+                },
+                {
+                    "measure": "Quantify the impact of sevoflurane (%) on basal muscle tone based on EMG signal amplitudes.",
+                    "description": "Quantify the impact of sevoflurane (%) on basal muscle tone based on EMG signal amplitudes.",
+                    "timeFrame": "Intraoperative time frame. Timeframe being day of surgery."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Group 1 (GA + penile block): age 5 years or below getting: circumcision or circumcision revision\n* Group 2-5 (SA or GA + CA): age 5 years or below getting: penile or scrotal surgery, inguinal hernia repair, Achilles tendon lengthening, other applicable urological procedures\n* Group 6 (GA only): age 5 years or below getting: operative dentistry, urological or ENT procedures\n\nExclusion Criteria:\n\n* parent refusal\n* systemic infection\n* spine or CNS abnormalities\n* medication allergy\n* adhesive allergy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "0 Years",
+            "maximumAge": "5 Years",
+            "stdAges": [
+                "CHILD"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Catherine Roth",
+                    "role": "CONTACT",
+                    "phone": "614-722-2997",
+                    "email": "catherine.roth@nationwidechildrens.org"
+                },
+                {
+                    "name": "Julie Rice-Weimer",
+                    "role": "CONTACT",
+                    "phone": "614-355-3142",
+                    "email": "julie.rice-weimer@nationwidechildrens.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Grant Heydinger, MD",
+                    "affiliation": "Nationwide Children's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Nationwide Children's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Columbus",
+                    "state": "Ohio",
+                    "zip": "43205",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Catherine Roth",
+                            "role": "CONTACT",
+                            "phone": "614-722-2997",
+                            "email": "catherine.roth@nationwidechildrens.org"
+                        },
+                        {
+                            "name": "Grant Heydinger, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.96118,
+                        "lon": -82.99879
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003000",
+                    "term": "Clonidine"
+                },
+                {
+                    "id": "D000077149",
+                    "term": "Sevoflurane"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010975",
+                    "term": "Platelet Aggregation Inhibitors"
+                },
+                {
+                    "id": "D000018685",
+                    "term": "Anesthetics, Inhalation"
+                },
+                {
+                    "id": "D000018681",
+                    "term": "Anesthetics, General"
+                },
+                {
+                    "id": "D000000777",
+                    "term": "Anesthetics"
+                },
+                {
+                    "id": "D000002492",
+                    "term": "Central Nervous System Depressants"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000000700",
+                    "term": "Analgesics"
+                },
+                {
+                    "id": "D000018689",
+                    "term": "Sensory System Agents"
+                },
+                {
+                    "id": "D000018373",
+                    "term": "Peripheral Nervous System Agents"
+                },
+                {
+                    "id": "D000000959",
+                    "term": "Antihypertensive Agents"
+                },
+                {
+                    "id": "D000013565",
+                    "term": "Sympatholytics"
+                },
+                {
+                    "id": "D000001337",
+                    "term": "Autonomic Agents"
+                },
+                {
+                    "id": "D000058647",
+                    "term": "Adrenergic alpha-2 Receptor Agonists"
+                },
+                {
+                    "id": "D000000316",
+                    "term": "Adrenergic alpha-Agonists"
+                },
+                {
+                    "id": "D000000322",
+                    "term": "Adrenergic Agonists"
+                },
+                {
+                    "id": "D000018663",
+                    "term": "Adrenergic Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4107",
+                    "name": "Anesthetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7992",
+                    "name": "Epinephrine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5315",
+                    "name": "Bupivacaine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1673",
+                    "name": "Sevoflurane",
+                    "asFound": "Growth",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M30371",
+                    "name": "Racepinephrine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M211043",
+                    "name": "Epinephryl borate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6232",
+                    "name": "Clonidine",
+                    "asFound": "Metastatic Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13865",
+                    "name": "Platelet Aggregation Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20765",
+                    "name": "Anesthetics, Inhalation",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20761",
+                    "name": "Anesthetics, General",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4032",
+                    "name": "Analgesics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4277",
+                    "name": "Antihypertensive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16344",
+                    "name": "Sympatholytics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20746",
+                    "name": "Adrenergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3668",
+                    "name": "Adrenergic alpha-Agonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3673",
+                    "name": "Adrenergic Agonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "VaCoAg",
+                    "name": "Vasoconstrictor Agents"
+                },
+                {
+                    "abbrev": "Resp",
+                    "name": "Respiratory System Agents"
+                },
+                {
+                    "abbrev": "PlAggInh",
+                    "name": "Platelet Aggregation Inhibitors"
+                },
+                {
+                    "abbrev": "AnAg",
+                    "name": "Antihypertensive Agents"
+                },
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

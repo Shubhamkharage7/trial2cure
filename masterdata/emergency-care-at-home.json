@@ -1,0 +1,255 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06299774",
+            "orgStudyIdInfo": {
+                "id": "2023P003383"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Emergency Care at Home",
+            "officialTitle": "Emergency Care at Home: A Randomized Controlled Trial",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "emergency-care-at-home"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-02-02",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-02-02",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03-02",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-26",
+            "studyFirstSubmitQcDate": "2024-03-07",
+            "studyFirstPostDateStruct": {
+                "date": "2024-03-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "David Levine",
+                "investigatorTitle": "Associate Physician",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will assess the efficacy of receiving emergency care at home versus in the brick-and-mortar emergency department.",
+            "detailedDescription": "Care in an emergency department has many benefits. It delivers high-intensity critical care on demand to large populations and serves as an efficient gateway to hospitalization. However, some populations may not be well-served by the traditional emergency department, particularly older adults, adults with serious illness, and those who are homebound. Many harms may come to older adults in the emergency department, including delirium, pressure injuries, infections, anxiety, and others. Emergency department crowding secondary to hospital capacity constraints may also lead to suboptimal care, as patients wait many hours for their inpatient bed even after a disposition decision is made.\n\nAs a result, the investigators will evaluate in a randomized controlled trial the efficacy of emergency care delivered at home instead of in the emergency department"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Emergency Medical Services",
+                "Emergency Department Visits"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 1500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Usual care",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Emergency care in a brick-and-mortar emergency department.",
+                    "interventionNames": [
+                        "Other: Emergency care at a brick-and-mortar emergency department"
+                    ]
+                },
+                {
+                    "label": "Emergency care at home",
+                    "type": "EXPERIMENTAL",
+                    "description": "Emergency care in the patient's home.",
+                    "interventionNames": [
+                        "Other: Emergency care at home"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Emergency care at home",
+                    "description": "A mobile integrated health paramedic under the direction of a remote emergency care physician will arrive at the patient's home and deliver emergency care.",
+                    "armGroupLabels": [
+                        "Emergency care at home"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Emergency care at a brick-and-mortar emergency department",
+                    "description": "Standard emergency care delivered in a brick-and-mortar emergency department.",
+                    "armGroupLabels": [
+                        "Usual care"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Participant with an emergency department presentation, observation, or hospitalization within 9 days",
+                    "description": "Whether a patient presented to the emergency department, was observed in the emergency department, or was hospitalized in the 9 days following their index emergency care visit. Excludes patients who were admitted on their index visit.",
+                    "timeFrame": "From the day after emergency care visit until 9 days later, up to 9 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Time to care initiation",
+                    "description": "Number of minutes from when the consultation for emergency care at home was placed to emergency care (either in the home or in the emergency department) occurs.",
+                    "timeFrame": "From the time a consultation is placed in the electronic health record to the time a patient is seen by a clinician, up to 2880 minutes."
+                },
+                {
+                    "measure": "Time spent receiving care",
+                    "description": "Number of minutes from when a patient was seen by a clinician to they are dismissed from the emergency room (usual care) or the paramedic leaves their home (experimental).",
+                    "timeFrame": "From the time a patient is seen by a clinician to the time a patient completes their emergency care, up to 1440 minutes."
+                },
+                {
+                    "measure": "Number of days at home within 9 days",
+                    "description": "The number of days the patient spends at home in the 9 days following the index emergency care visit.",
+                    "timeFrame": "From the day after emergency care visit until 9 days later"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \\>= 18 years\n* Resides within Home Hospital geographic area\n* Lives in permanent housing (i.e., not in temporary housing such as a shelter)\n* Patient of a Mass General Brigham primary care provider\n* Primary care provider attests that their triage recommendation is the emergency department\n* Emergency care at home nurse triages the participant to the emergency department or urgent care\n* Patient attests that they intend to go to the emergency department\n\nExclusion Criteria:\n\n* Insurance: workers compensation and motor vehicle accident\n* Lives in a healthcare facility (Skilled Nursing, Rehab, long term acute care)\n* Patient/caregiver cannot answer phone or door\n* Active substance use\n* Acute psychiatric concerns (e.g., suicidal ideation, even if passive)\n* Home safety concerns (e.g., intimate partner violence)\n* High-risk features:\n\noHigh Risk Signs, if available: Heart rate \\> 120 Systolic blood pressure \\< 90 Shock Index (heart rate divided by systolic blood pressure) \\> 1 Oxygen \\< 93% on ambient air Increase in oxygen requirement new or \\> 2 liters Respiratory rate \\> 28 Diaphoresis oHigh Risk Symptoms: Active chest pain Severe work of breathing Syncope Hemoptysis Seizure Other concerning symptom per nurse triage\n\n* Requires inpatient-level care\n* Requires specialty consultation\n* Requires physical, occupational, or speech therapy\n* Requires blood transfusion\n* Requires internal physical exam maneuver (e.g. rectal exam, genitourinary exam)\n* Requires imaging that is not available at home\n* Requires monitoring that is not available at home\n* Troubleshooting wound vacs",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "David Levine, MD, MPH, MA",
+                    "role": "CONTACT",
+                    "phone": "6177327063",
+                    "email": "dmlevine@bwh.harvard.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02114",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Levine, MD, MPH, MA",
+                            "role": "CONTACT",
+                            "phone": "617-732-7063",
+                            "email": "dmlevine@bwh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000004630",
+                    "term": "Emergencies"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7796",
+                    "name": "Emergencies",
+                    "asFound": "Emergency",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

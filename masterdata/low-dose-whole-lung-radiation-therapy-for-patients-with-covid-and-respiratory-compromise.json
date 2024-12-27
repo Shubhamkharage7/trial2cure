@@ -1,0 +1,444 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04427566",
+            "orgStudyIdInfo": {
+                "id": "VENTED"
+            },
+            "organization": {
+                "fullName": "Ohio State University Comprehensive Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Low Dose Whole Lung Radiation Therapy for Patients With COVID-19 and Respiratory Compromise",
+            "officialTitle": "Vented COVID: A Phase II Study Of The Use Of Ultra Low-Dose Bilateral Whole Lung Radiation Therapy in the Treatment Of Critically Ill Patients With COVID-19 Respiratory Compromise",
+            "acronym": "VENTED",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "low-dose-whole-lung-radiation-therapy-for-patients-with-covid-and-respiratory-compromise"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2021-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-07-23",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2021-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2021-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-06-05",
+            "studyFirstSubmitQcDate": "2020-06-09",
+            "studyFirstPostDateStruct": {
+                "date": "2020-06-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2021-03-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2021-03-15",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Arnab Chakravarti",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Ohio State University Comprehensive Cancer Center"
+            },
+            "leadSponsor": {
+                "name": "Ohio State University Comprehensive Cancer Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "Low doses of radiation in the form of chest X-rays have been used to treat people with pneumonia. This treatment was found to be effective by reducing inflammation and with minimal side effects. However, it was an expensive treatment and was eventually replaced with less costly treatments such as antibiotics. Radiation has also been shown in some animal experiments to reduce some types of inflammation.\n\nSome patients diagnosed with COVID-19 pneumonia will experience worsening disease, which can become very serious, requiring the use of a ventilator. This is caused by inflammation in the lung from the virus and the immune system. For this study, the x-ray given is called radiation therapy. Radiation therapy uses high-energy X-ray beams from a large machine to target the lungs and reduce inflammation. Usually, it is given at much higher doses to treat cancers.\n\nThe purpose of this study is to find out if adding a single treatment of low-dose x-rays to the lungs might reduce the amount of inflammation in the lungs from a COVID-19 infection, which could help a patient to breathe without use of a ventilator.",
+            "detailedDescription": "The primary outcome is the mortality rate 30 days after the ICU-based mechanical ventilation initiation.Based on current data available, the mortality rate for ventilated patients is assumed to be 80% in the current design. An interim futility analysis will be conducted after 16 evaluable patients have received the ultralow dose-whole lung radiation therapy (ULD-WLRT). If at least 3 patients survive for at least 30 days, we will enroll additional 8 patients (total of 24 patients). Otherwise, the trial will stop for further evaluation. Due to the limited data currently available in local institutions about a 30 day mortality rate , we will retrospectively evaluate the mortality rate of the ventilated patients without the ULD-WLRT in our institution when data is available.\n\nTime to event secondary objectives (e.g. overall survival, time to discharge) analyses will be performed using Kaplan-Meier survival analysis, with a competing risk model (leaving the study because of death), including effects for demographic/clinical characteristics in the model. Proportional endpoints (such as % patients off ventilator) will be calculated along with the 95% Clopper-Pearson exact confidence interval. Pre/post measurements will be evaluated using linear mixed models for repeated measures (with proper data transformation as needed). Association between demographic/clinical characteristics and other secondary objectives (size of ground glass opacities (GGO)/opacification, for example) will be accomplished with generalized linear models."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "COVID-19"
+            ],
+            "keywords": [
+                "ventilator",
+                "radiation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 24,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Radiation Arm",
+                    "type": "EXPERIMENTAL",
+                    "description": "Each subject will receive a dose of whole lung radiation. A second optional dose of 80 cGy may be delivered if no improvement after 3-10 days.",
+                    "interventionNames": [
+                        "Radiation: Radiation therapy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "Radiation therapy",
+                    "description": "Patients will be treated with a single dose of 80 cGy to the bilateral lungs in a manner that is simplified such that it can be designed and delivered quickly in one session. No specific normal tissue constraints are employed in this protocol.",
+                    "armGroupLabels": [
+                        "Radiation Arm"
+                    ],
+                    "otherNames": [
+                        "Linear accelerator",
+                        "x-rays",
+                        "LINAC"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Mortality rate of subjects treated with whole lung low-dose radiation",
+                    "description": "Death date of subjects will be collected from the date of radiation up to 1 month post radiation dose",
+                    "timeFrame": "up to 28 days post radiation delivery"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Survival rate of subjects treated with whole lung low-dose radiation",
+                    "description": "Subject survival will be collected in number of days through 18 months post treatment",
+                    "timeFrame": "up to 18 months post radiation delivery"
+                },
+                {
+                    "measure": "Change in number of Intensive care unit days",
+                    "description": "Number of intensive care days",
+                    "timeFrame": "up to 28 days post radiation delivery"
+                },
+                {
+                    "measure": "Change in number of days using supplemental oxygen",
+                    "description": "Number of days using supplemental oxygen",
+                    "timeFrame": "up to 28 days post radiation delivery"
+                },
+                {
+                    "measure": "Change in oxygenation index/oxygen saturation index for 14 days post treatment or until extubated",
+                    "description": "Oxygenation index/oxygen saturation until extubation",
+                    "timeFrame": "up to 28 days post radiation"
+                },
+                {
+                    "measure": "Quantitation of Lung Involvement using Chest CT",
+                    "description": "Measure as a percent, the amount of pneumonia involvement of each lung segment (right upper lobe, right middle lobe, right lower lobe, left upper lobe and left lower lobe) from chest CT images at day 7, 14 and 28. Each lung segment can have involvement from 0 % (no involvement) up to 100% (complete pneumonia involvement of segment)",
+                    "timeFrame": "up to 28 days post radiation"
+                },
+                {
+                    "measure": "Quantitation of Lung Opacities using Chest CT",
+                    "description": "Semi-quantitation of ground glass opacities or lung opacification with a score of 0-5 from Chest CT images at day 7, 14 and 28 for each of the 5 lobes of the lungs. The scoring system is as follows: 0, no involvement; 1, \\<5% involvement; 2, 25% involvement, 3, 26-49% involvement; 4, 50-75% involvement; and 5, \\>75% involvement.",
+                    "timeFrame": "up to 28 days post radiation"
+                },
+                {
+                    "measure": "SARS-CoV2 viral titers",
+                    "description": "Determine viral titers at baseline, days 7, 14 and 28.",
+                    "timeFrame": "up to 28 days"
+                },
+                {
+                    "measure": "Incidence of adverse events, including severity and duration, for administration of low dose radiation to lungs",
+                    "description": "Review adverse events, including severity and duration, for all subjects to determine safety of the radiation treatment for pneumonia due to COVID-19.",
+                    "timeFrame": "up to 28 days"
+                },
+                {
+                    "measure": "Change in performance status after low dose radiation to lungs",
+                    "description": "Performance status will be evaluated using the Karnofsky Performance Scale Index at baseline, 7, 14 and 28 days post radiation dose. Scores range from 100 (normal, no complaints) to 0 (dead). A higher number indicates the ability to carry out normal daily activities.",
+                    "timeFrame": "up to 28 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Laboratory Diagnosis of COVID-19 based within 14 days of enrollment.\n* CT or radiographic findings typical of COVID-19 pneumonia within 5 days of enrollment\n* Receiving ICU-based mechanical ventilation\n* Life expectancy \u2265 24 hours, as judged by investigator\n* Hypoxemia defined as a Pa/FIO2 ratio \\< 300 or SpO2/FiO2 \\< 315\n* Signed informed consent by patient or his or her legal/authorized representative\n\nExclusion Criteria:\n\n* Moribund with survival expected \\< 24 hours, as judged by investigator and treating team\n* Expected survival \\< 30 days, as judged by investigator and treating team, due to chronic illness present prior to COVID infection\n* Patient or legal representative not committed to full disease specific therapy, i.e. comfort care (DNRCCA is allowed)\n* Treatment with immune suppressing medications in the last 30 days (steroids for acute respiratory distress syndrome or septic shock allowed)\n* Presumed COVID-associated illness greater than 14-days\n* Inpatient admission greater than 14-days\n* Patient deemed unsafe for travel for radiation therapy\n* Chronic hypoxemia requiring supplemental oxygen at baseline\n* Documented active connective tissue disease (scleroderma) or idiopathic pulmonary fibrosis\n* History of prior radiation therapy resulting in \u2265grade 2 radiation pneumonitis within 365 days of enrollment\n* Active or history of prior radiation to the thorax completed within 180 days of enrollment (skin or surface only skin treatments are acceptable)\n* Known active uncontrolled bacterial or fungal infections of the lung.\n* Active cytotoxic chemotherapy\n* Females who are pregnant or have a positive pregnancy test\n* Breast feeding\n* Note: concurrent administration of convalescent immune plasma therapy either on clinical trial or as a standard therapy not an exclusion criterion, but will be noted",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Arnab Chakravarti",
+                    "role": "CONTACT",
+                    "phone": "614-293-0672",
+                    "email": "Arnab.Chakravarti@osumc.edu"
+                },
+                {
+                    "name": "Kimberly Mahler",
+                    "role": "CONTACT",
+                    "phone": "614-685-4247",
+                    "email": "kimberly.mahler@osumc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Arnab Chakravarti",
+                    "affiliation": "James Cancer Hospital, Department of Radiation Oncology",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Arthur G. James Cancer Hospital and Solove Research Institute at Ohio State University Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Columbus",
+                    "state": "Ohio",
+                    "zip": "43210",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Arnab Chakravarti, MD",
+                            "role": "CONTACT",
+                            "phone": "614-293-8415",
+                            "email": "Arnab.Chakravarti@osumc.edu"
+                        },
+                        {
+                            "name": "Arnab Chakravarti, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.96118,
+                        "lon": -82.99879
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "32171076",
+                    "type": "BACKGROUND",
+                    "citation": "Zhou F, Yu T, Du R, Fan G, Liu Y, Liu Z, Xiang J, Wang Y, Song B, Gu X, Guan L, Wei Y, Li H, Wu X, Xu J, Tu S, Zhang Y, Chen H, Cao B. Clinical course and risk factors for mortality of adult inpatients with COVID-19 in Wuhan, China: a retrospective cohort study. Lancet. 2020 Mar 28;395(10229):1054-1062. doi: 10.1016/S0140-6736(20)30566-3. Epub 2020 Mar 11. Erratum In: Lancet. 2020 Mar 28;395(10229):1038. doi: 10.1016/S0140-6736(20)30606-1. Lancet. 2020 Mar 28;395(10229):1038. doi: 10.1016/S0140-6736(20)30638-3."
+                },
+                {
+                    "pmid": "32007143",
+                    "type": "BACKGROUND",
+                    "citation": "Chen N, Zhou M, Dong X, Qu J, Gong F, Han Y, Qiu Y, Wang J, Liu Y, Wei Y, Xia J, Yu T, Zhang X, Zhang L. Epidemiological and clinical characteristics of 99 cases of 2019 novel coronavirus pneumonia in Wuhan, China: a descriptive study. Lancet. 2020 Feb 15;395(10223):507-513. doi: 10.1016/S0140-6736(20)30211-7. Epub 2020 Jan 30."
+                },
+                {
+                    "pmid": "24348219",
+                    "type": "BACKGROUND",
+                    "citation": "Calabrese EJ, Dhawan G. How radiotherapy was historically used to treat pneumonia: could it be useful today? Yale J Biol Med. 2013 Dec 13;86(4):555-70."
+                },
+                {
+                    "pmid": "17487675",
+                    "type": "BACKGROUND",
+                    "citation": "Rodel F, Keilholz L, Herrmann M, Sauer R, Hildebrandt G. Radiobiological mechanisms in inflammatory diseases of low-dose radiation therapy. Int J Radiat Biol. 2007 Jun;83(6):357-66. doi: 10.1080/09553000701317358."
+                },
+                {
+                    "pmid": "16368644",
+                    "type": "BACKGROUND",
+                    "citation": "Schaue D, Jahns J, Hildebrandt G, Trott KR. Radiation treatment of acute inflammation in mice. Int J Radiat Biol. 2005 Sep;81(9):657-67. doi: 10.1080/09553000500385556."
+                },
+                {
+                    "pmid": "32105637",
+                    "type": "BACKGROUND",
+                    "citation": "Shi H, Han X, Jiang N, Cao Y, Alwalid O, Gu J, Fan Y, Zheng C. Radiological findings from 81 patients with COVID-19 pneumonia in Wuhan, China: a descriptive study. Lancet Infect Dis. 2020 Apr;20(4):425-434. doi: 10.1016/S1473-3099(20)30086-4. Epub 2020 Feb 24."
+                },
+                {
+                    "pmid": "31060383",
+                    "type": "BACKGROUND",
+                    "citation": "Calabrese EJ, Dhawan G, Kapoor R, Kozumbo WJ. Radiotherapy treatment of human inflammatory diseases and conditions: Optimal dose. Hum Exp Toxicol. 2019 Aug;38(8):888-898. doi: 10.1177/0960327119846925. Epub 2019 May 6."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30",
+            "submissionTracking": {
+                "estimatedResultsFirstSubmitDate": "2023-11-30",
+                "submissionInfos": [
+                    {
+                        "releaseDate": "2023-11-30",
+                        "resetDate": "2023-12-20",
+                        "mcpReleaseN": 7
+                    }
+                ]
+            }
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000086382",
+                    "term": "COVID-19"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000011024",
+                    "term": "Pneumonia, Viral"
+                },
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000018352",
+                    "term": "Coronavirus Infections"
+                },
+                {
+                    "id": "D000003333",
+                    "term": "Coronaviridae Infections"
+                },
+                {
+                    "id": "D000030341",
+                    "term": "Nidovirales Infections"
+                },
+                {
+                    "id": "D000012327",
+                    "term": "RNA Virus Infections"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M2561",
+                    "name": "COVID-19",
+                    "asFound": "COVID-19",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19010",
+                    "name": "Critical Illness",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13914",
+                    "name": "Pneumonia, Viral",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20490",
+                    "name": "Coronavirus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6555",
+                    "name": "Coronaviridae Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23685",
+                    "name": "Nidovirales Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15149",
+                    "name": "RNA Virus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

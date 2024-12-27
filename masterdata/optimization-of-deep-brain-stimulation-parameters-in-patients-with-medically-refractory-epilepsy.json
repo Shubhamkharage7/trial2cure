@@ -1,0 +1,301 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05493722",
+            "orgStudyIdInfo": {
+                "id": "NEUROSURG-2021-29636"
+            },
+            "organization": {
+                "fullName": "University of Minnesota",
+                "class": "OTHER"
+            },
+            "briefTitle": "Optimization of Deep Brain Stimulation Parameters in Patients With Medically Refractory Epilepsy",
+            "officialTitle": "Optimization of Deep Brain Stimulation Parameters in Patients With Medically Refractory Epilepsy",
+            "therapeuticArea": [
+                "Other",
+                "Neurology"
+            ],
+            "study": "optimization-of-deep-brain-stimulation-parameters-in-patients-with-medically-refractory-epilepsy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-09-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-01-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2030-01-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-08-05",
+            "studyFirstSubmitQcDate": "2022-08-05",
+            "studyFirstPostDateStruct": {
+                "date": "2022-08-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Minnesota",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Deep brain stimulation (DBS) is used to treat epilepsy in cases where patients are medically refractory and are not candidates for surgical resection. This therapy has been shown to be effective in seizure reduction, yet very few patients achieve the ultimate goal of seizure freedom. Implantable neural stimulators (INSs) have many parameters that may be adjusted, and could be tuned to achieve very patient specific therapies. This study will develop a platform for stimulation setting optimization based on power spectral density (PSD) measures."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Refractory Epilepsy",
+                "Deep Brain Stimulation"
+            ],
+            "keywords": [
+                "Refractory Epilepsy",
+                "deep brain stimulation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "EARLY_PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "Participants will be randomly assigned to a stimulation order at the baseline visit with optimized settings (OS) stimulation occurring for a total of 8 months and physician-selected settings (PS) stimulation chosen for a total of 4 months. For example, a patient may undergo PS setting stimulation from 4-8 months, then undergo OS setting stimulation from 8-12 and 12-16 months. Thus, there are three possible stimulation groups (1. PS, OS, OS; 2.OS, PS, OS; 3. OS, OS, PS).",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "maskingDescription": "A study coordinator who is blinded to the chosen stimulation setting will check the data daily to ensure the patient is wearing the device properly and recording seizure events. At each optimization visit, the MoCA and QOLIE-10P surveys will also be administered to the participants by a member of the research team who is blinded to the group the participant is assigned to.",
+                    "whoMasked": [
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Stimulation Group A",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants with already implanted DBS will receive stimulation order 1. PS, OS, OS.",
+                    "interventionNames": [
+                        "Other: PS and OS stimulation order 1"
+                    ]
+                },
+                {
+                    "label": "Stimulation Group B",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants with already implanted DBS will receive stimulation order 1. OS, PS, OS.",
+                    "interventionNames": [
+                        "Other: PS and OS stimulation order 2"
+                    ]
+                },
+                {
+                    "label": "Stimulation Group C",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants with already implanted DBS will receive stimulation order 1. OS, OS, PS.",
+                    "interventionNames": [
+                        "Other: PS and OS stimulation order 3"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "PS and OS stimulation order 1",
+                    "description": "PS, OS, OS",
+                    "armGroupLabels": [
+                        "Stimulation Group A"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "PS and OS stimulation order 2",
+                    "description": "OS, PS, OS",
+                    "armGroupLabels": [
+                        "Stimulation Group B"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "PS and OS stimulation order 3",
+                    "description": "OS, OS, PS",
+                    "armGroupLabels": [
+                        "Stimulation Group C"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Difference in broadband power with different settings",
+                    "description": "Different settings include different combinations of stimulation amplitude, frequency and pulse width. The full spectrum PSD data from all of the in-clinic recordings at all of the unique settings will be combined to look at the resulting difference in broadband power.",
+                    "timeFrame": "One year from baseline"
+                },
+                {
+                    "measure": "Difference in frequency band-specific low-frequency power (LFP) with different settings",
+                    "description": "Different settings include different combinations of stimulation amplitude, frequency and pulse width. The full spectrum PSD data from all of the in-clinic recordings at all of the unique settings will be combined to look at the resulting difference in frequency band-specific LFP.",
+                    "timeFrame": "One year from baseline"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Identify all seizures",
+                    "description": "Detecting generalized tonic-clonic seizures using a wearable sensor wristband and patients-reported seizure activity.",
+                    "timeFrame": "one year from baseline"
+                },
+                {
+                    "measure": "Scores on Montreal Cognitive Assessment, MoCA",
+                    "description": "This is a brief cognitive assessment used to look at side effects of stimulation settings",
+                    "timeFrame": "one year from baseline"
+                },
+                {
+                    "measure": "Scores on epilepsy-specific quality of life questionnaire (QOLIE-10P)",
+                    "description": "This is a brief cognitive assessment used to look at side effects of stimulation settings",
+                    "timeFrame": "One year from baseline"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* medically refractory epilepsy\n* already have a deep brain stimulator in place\n\nExclusion Criteria:\n\n* severe dementia at investigator discretion",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Alec Jonason",
+                    "role": "CONTACT",
+                    "phone": "612-624-3127",
+                    "email": "jonas074@umn.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Robert McGovern, MD",
+                    "affiliation": "University of Minnesota",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Minnesota",
+                    "status": "RECRUITING",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55455",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alec Jonason",
+                            "role": "CONTACT",
+                            "phone": "612-624-3127",
+                            "email": "jonas074@umn.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000004827",
+                    "term": "Epilepsy"
+                },
+                {
+                    "id": "D000069279",
+                    "term": "Drug Resistant Epilepsy"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7983",
+                    "name": "Epilepsy",
+                    "asFound": "Epilepsy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M369",
+                    "name": "Drug Resistant Epilepsy",
+                    "asFound": "Refractory Epilepsy",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

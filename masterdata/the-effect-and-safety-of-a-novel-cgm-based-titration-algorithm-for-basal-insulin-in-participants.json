@@ -1,0 +1,449 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06111508",
+            "orgStudyIdInfo": {
+                "id": "230357"
+            },
+            "organization": {
+                "fullName": "University of Virginia",
+                "class": "OTHER"
+            },
+            "briefTitle": "The Effect and Safety of a Novel CGM-Based Titration Algorithm for Basal Insulin in T2DM Participants.",
+            "officialTitle": "An Exploratory 16-Week Pilot Study of the Effect and Safety of a Novel CGM-Based Titration Algorithm for Basal Insulin, With or Without Non-Insulin Antidiabetic Drugs, in Type 2 Diabetes Mellitus Participants Treated With Basal Insulin.",
+            "acronym": "CGM-DTx",
+            "therapeuticArea": [
+                "Endocrinology"
+            ],
+            "study": "the-effect-and-safety-of-a-novel-cgm-based-titration-algorithm-for-basal-insulin-in-participants"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-11-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-26",
+            "studyFirstSubmitQcDate": "2023-10-26",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-28",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Marc Breton",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "University of Virginia"
+            },
+            "leadSponsor": {
+                "name": "University of Virginia",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Novo Nordisk A/S",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical trial is to compare the effect of a continuous glucose monitor (CGM) based titration algorithm to standard titration by self-monitoring blood glucose (SMBG) in participants with Type 2 Diabetes already using long acting insulin. The comparison aims to study the difference in glycemic control between the two therapies. Participants will be followed for 18 weeks and will be provided with Degludec insulin, insulin pen, and a CGM (Dexcom G6).",
+            "detailedDescription": "This is an 18-week study designed to investigate the effect of a continuous glucose monitor (CGM) based titration algorithm versus a standard titration by self-monitoring blood glucose (SMBG) on glycemic control in Type 2 Diabetes (T2DM) participants using insulin Degludec. After 2 weeks of blinded CGM baseline observation, participants are randomized 2:1 to CGM-based titration or standard titration by SMBG for 16 weeks. In the SMBG group, all titrated doses will be reviewed by a study physician prior to use and participants will wear a blinded CGM during the whole study. After completion of the 16-week titration, participants are followed up for 2 days. Participants will be divided related to use of sulfonylureas or glinides with a maximum cap of nine participants being treated with sulfonylureas and glinides to complete the study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Type 2 Diabetes"
+            ],
+            "keywords": [
+                "Type 2 Diabetes",
+                "Continuous Glucose Monitoring (CGM)",
+                "Degludec Insulin",
+                "Self-monitoring blood glucose (SMBG)"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Multi-center, randomized, parallel group, active-comparator clinical trial of CGM based titration of insulin Degludec vs. standard titration by SMBG.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Continuous Glucose Monitoring (CGM) based Titration",
+                    "type": "EXPERIMENTAL",
+                    "description": "The CGM-based titration algorithm will run on the Diabetes Assistant and Amazon Web Services (AWS) platform (DiAs-Cloud). DiAs-Cloud enables the seamless integration of a smart phone application and AWS server architecture to enable data capture, dose computation, review by the clinical team, and communication to study participants. For dose computation the algorithm is comprised of three components; titration glucose level, personalized target, and safety hypoglycemia feature.",
+                    "interventionNames": [
+                        "Device: Continuous Glucose Monitoring (CGM)-based titration algorithm implemented in DiAs"
+                    ]
+                },
+                {
+                    "label": "Standard Self-Monitoring Blood Glucose (SMBG) Titration",
+                    "type": "NO_INTERVENTION",
+                    "description": "The SMBG-based titration algorithm will run on the Diabetes Assistant and Amazon Web Services (AWS) platform (DiAs-Cloud). DiAs-Cloud enables the seamless integration of a smart phone application and AWS server architecture to enable data capture, dose computation, review by the clinical team, and communication to study participants. Participants in the standard SMBG based titration group will wear a blinded CGM during the whole study. The total daily basal insulin dose will be converted 1:1 to Degludec. Algorithm informed dose changes will be made once weekly and checked by study physician."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Continuous Glucose Monitoring (CGM)-based titration algorithm implemented in DiAs",
+                    "description": "A Continuous Glucose Monitoring (CGM)-based once weekly titration algorithm of basal insulin as implemented in DiAs Cloud platform",
+                    "armGroupLabels": [
+                        "Continuous Glucose Monitoring (CGM) based Titration"
+                    ],
+                    "otherNames": [
+                        "Degludec"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Time in Range",
+                    "description": "Change in CGM-measured time in range 3.9-10.0 mmol/L (70-180 mg/dL) from baseline to weeks 14-16, compared between control and experimental arm.",
+                    "timeFrame": "From baseline (-2 to 0 weeks) to weeks 14-16 (2 weeks)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in HbA1c",
+                    "description": "Percent change in HbA1c",
+                    "timeFrame": "From week 0 to week 16"
+                },
+                {
+                    "measure": "Change in Time in Tight Range",
+                    "description": "Percent change in time in tight range 3.9-7.8 mmol/L (70-140 mg/dL)",
+                    "timeFrame": "From baseline (week -2-0) to week 14-16"
+                },
+                {
+                    "measure": "Change in Time above 10.0 mmol/L (180 mg/dL)",
+                    "description": "Percent of time spent above 10.0 mmol/L (180 mg/dL).",
+                    "timeFrame": "From baseline (week -2-0) to week 14-16"
+                },
+                {
+                    "measure": "Change in Time above 13.9 mmol/L (250 mg/dL)",
+                    "description": "Percent of time spent above 13.9 mmol/L (250 mg/dL)",
+                    "timeFrame": "From baseline (week -2-0) to week 14-16"
+                },
+                {
+                    "measure": "Change in Continuous Glucose Monitoring Coefficient of variation (%)",
+                    "description": "The statistical measure (%) of the relative dispersion of data points in a data series around the average CGM-measured blood glucose level.",
+                    "timeFrame": "From baseline (week -2-0) to week 14-16"
+                },
+                {
+                    "measure": "Change in Mean Glucose Level",
+                    "description": "The average CGM-measured blood glucose level (mmol/L).",
+                    "timeFrame": "From baseline (week -2-0) to week 14-16"
+                },
+                {
+                    "measure": "Change in Time below 3.9 mmol/L (70 mg/dL)",
+                    "description": "Percent of time spent below 3.9 mmol/L (70 mg/dL).",
+                    "timeFrame": "From baseline (week -2-0) to week 14-16"
+                },
+                {
+                    "measure": "Change in Time below 3.0 mmol/L (54 mg/dL)",
+                    "description": "Percent of time spent below 3.0 mmol/L (54 mg/dL).",
+                    "timeFrame": "From baseline (week -2-0) to week 14-16"
+                },
+                {
+                    "measure": "Frequency of Hypoglycemic Events",
+                    "description": "The number of clinically significant hypoglycemic episodes (level 2) (\\<3.0 mmol/L (54 mg/dL), confirmed by BG meter) or severe hypoglycemic episodes (level 3).",
+                    "timeFrame": "From week 0 to week 16"
+                },
+                {
+                    "measure": "Frequency of Serious Adverse Events",
+                    "description": "The number of serious adverse events (SAEs).",
+                    "timeFrame": "From week 0 to week 16"
+                },
+                {
+                    "measure": "Frequency of Treatment Emergent Adverse Events",
+                    "description": "The number of treatment emergent adverse events (TAEs).",
+                    "timeFrame": "From week 0 to week 16"
+                },
+                {
+                    "measure": "Frequency of Device Deficiencies",
+                    "description": "The number of device deficiencies (DDs). A device malfunction is any failure of a device to meet its performance specifications or otherwise work as intended. Performance specifications include all claims made in the labelling for the device. The intended performance of a device refers to the intended use for which the device is labelled or marketed.",
+                    "timeFrame": "From week 0 to week 16"
+                },
+                {
+                    "measure": "Percent Acceptance Rate",
+                    "description": "Investigator acceptance rate of weekly dose guidance - from CGM-based titration (Experimental arm only).",
+                    "timeFrame": "From week 0 to week 16"
+                },
+                {
+                    "measure": "Frequency of Dose Changes",
+                    "description": "The investigator changes the dose from the recommended or the current dose (Experimental arm only).",
+                    "timeFrame": "From week 0 to week 16"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18 years or older at signing of informed consent\n2. Diagnosis of Type 2 Diabetes minimum 180 days before the day of screening\n3. Hemoglobin A1c between 7-9% and measured by local lab at screening\n4. On daily basal insulin for at least 90 days before inclusion into the study\n5. Stable dose of oral and injectable (other than insulin) antidiabetic medications for 90 days prior inclusion. Acceptable medications include:\n\n   1. Metformin\n   2. Sulfonylureas\n   3. Meglitinides (glinides)\n   4. Dipeptidyl peptidase 4 (DPP-4) inhibitors\n   5. Sodium glucose co-transporter 2 (SGLT2) inhibitors\n   6. Thiazolidinediones\n   7. Alpha-glucosidase inhibitors\n   8. Oral combination products (for the allowed individual oral anti-diabetic drugs)\n   9. Oral or injectable Glucagon-like peptide-1 (GLP-1) Receptor Agonists (RAs)\n   10. If on sulfonylureas or glinides, willingness to reduce dose by 50%\n\nExclusion Criteria\n\n1. Hypersensitivity to Degludec\n2. Use of an insulin pump\n3. Use of a short-acting insulin\n4. Participation or has participated in another trial within 90 days of the screening visit\n5. Female who is pregnant or intends to become pregnant or is of child-bearing potential and not using an adequate contraceptive method\n6. Any disorder, except for conditions associated with T2D, which in the investigator's opinion might jeopardize participant's safety or compliance with the protocol.\n7. Treatment with any medication for the indication of diabetes or obesity other than stated in the inclusion criteria within 90 days of the screening visit\n8. Known skin reactions to CGM adhesives\n9. Current/prior use of CGM within 30 days of the screening visit\n10. Any planned surgery or procedures where basal insulin would be decreased or held in anticipation",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Marc D Breton, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "4349826484",
+                    "email": "mb6nt@virginia.edu"
+                },
+                {
+                    "name": "Emma G Emory, RN",
+                    "role": "CONTACT",
+                    "phone": "4342433992",
+                    "email": "ee9m@uvahealth.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ralf M Nass, MD",
+                    "affiliation": "University of Virginia",
+                    "role": "STUDY_CHAIR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Icahn School of Medicine at Mount Sinai",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10029",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Carol Levy, MD, CDE",
+                            "role": "CONTACT",
+                            "phone": "212-241-0068",
+                            "email": "carol.levy@mssm.edu"
+                        },
+                        {
+                            "name": "Camilla Levister, NP, CDE",
+                            "role": "CONTACT",
+                            "phone": "212-241-5177",
+                            "email": "camilla.levister@mssm.edu"
+                        },
+                        {
+                            "name": "Selassie Ogyaadu, MD, MPH",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Grenye O'Malley, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Nirali Shah, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "University of Virginia",
+                    "status": "RECRUITING",
+                    "city": "Charlottesville",
+                    "state": "Virginia",
+                    "zip": "22903",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Raph Nass, MD",
+                            "role": "CONTACT",
+                            "phone": "434-982-0868",
+                            "email": "rmn9a@uvahealth.org"
+                        },
+                        {
+                            "name": "Emma G Emory, RN",
+                            "role": "CONTACT",
+                            "phone": "4342433992",
+                            "email": "ee9m@uvahealth.org"
+                        },
+                        {
+                            "name": "Marc D Breton, Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ralf M Nass, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Anas El Fathi, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Leela Krishna Chaitanya Koravi, MS",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.02931,
+                        "lon": -78.47668
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Will follow the NIH Data Sharing Policy and Implementation Guidance on sharing research resources for research purposes to qualified individuals in the scientific community.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF"
+            ],
+            "timeFrame": "Data will be made available after the primary publications of each study.",
+            "accessCriteria": "The Data Sharing Agreements will be formulated by the study team."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003924",
+                    "term": "Diabetes Mellitus, Type 2"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7119",
+                    "name": "Diabetes Mellitus, Type 2",
+                    "asFound": "Type 2 Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M10054",
+                    "name": "Hypoglycemic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

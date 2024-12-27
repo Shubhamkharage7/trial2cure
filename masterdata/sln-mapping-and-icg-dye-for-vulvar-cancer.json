@@ -1,0 +1,357 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06035068",
+            "orgStudyIdInfo": {
+                "id": "STUDY00004163"
+            },
+            "organization": {
+                "fullName": "Tufts Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "SLN Mapping and ICG Dye for Vulvar Cancer",
+            "officialTitle": "Sentinel Lymph Node Mapping and Detection With Indocyanine Green and Spy-Phi Handheld Camera Technology in Early-Stage Vulvar Cancer (PILOT)",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "sln-mapping-and-icg-dye-for-vulvar-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-09-06",
+            "studyFirstSubmitQcDate": "2023-09-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-09-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Tufts Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Doctors typically use blue dye to assist in locating and extracting lymph nodes for biopsy. However, this process can prove somewhat challenging for both patients and medical teams due to its need for extensive coordination and the assistance of a nuclear medicine team. Some studies have talked about using a different method to find these lymph nodes using a special dye called Indocyanine Green (ICG). This method involves shining a special camera on the skin. So far, no studies have directly compared the ICG method to the standard blue dye. The ICG camera could make things easier for patients and doctors, and more patients might choose to have their lymph nodes checked with this new method. The goal of our study is to see if using the ICG dye is just as good as the standard method of blue dye."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Vulva Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 10,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Combined ICG dye and blue tracer dye",
+                    "description": "This study is being done to see if a different way of finding and removing lymph nodes during surgery, using a special camera and a dye called Indocyanine Green (ICG), works as well as the usual method with blue dye plus a radioactive tracer called radiocolloid. By comparing the two ways directly, we hope to make it simpler for people with vulvar cancer to get their lymph nodes checked during surgery.",
+                    "interventionNames": [
+                        "Drug: Indocyanine green"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Indocyanine green",
+                    "description": "Indocyanine green (ICG) is a fluorescent dye that has been used for the imaging of cancers in the body for more than 30 years.",
+                    "armGroupLabels": [
+                        "Combined ICG dye and blue tracer dye"
+                    ],
+                    "otherNames": [
+                        "ICG dye"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Detection Rate of SLNs using ICG Dye vs Blue Dye at Patient Level",
+                    "description": "* Report the detection rate of SLNs using ICG dye for sentinel lymph node mapping.\n* Report the detection rate of SLNs using blue dye for sentinel lymph node mapping.\n* Compare the two detection rates using a chi-squared test or Fisher's exact test, depending on the sample size.",
+                    "timeFrame": "Data collection at time of surgery"
+                },
+                {
+                    "measure": "Clustered Analysis at the Hemi-Pelvis Level",
+                    "description": "* Use generalized estimating equations (GEE) or mixed-effects logistic regression models to account for the clustering effect.\n* Include a random effect for each patient to address the correlation between SLNs within the same patient's hemi-pelvis.\n* Assess the significance of dye type using the Wald test or likelihood ratio test.\n* Report odds ratios, confidence intervals, and p-values for the effect of dye type on SLN detection.",
+                    "timeFrame": "Data collection at time of surgery"
+                },
+                {
+                    "measure": "3. Difference in SLNs Detected in Blue vs Green Dye when Data is Clustered at Hemi-Pelvis Level",
+                    "description": "* Report the proportion of SLNs detected using blue dye in each hemi-pelvis.\n* Report the proportion of SLNs detected using ICG dye in each hemi-pelvis.\n* Use a paired t-test or Mcnemar's test to compare the proportions within each hemi-pelvis.\n* Account for the clustering effect by using mixed-effects models",
+                    "timeFrame": "Data collection at time of surgery"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Sensitivity, Specificity, and Negative Predictive Value of ICG Dye vs Standard Blue Dye",
+                    "description": "* Create a 2x2 contingency table for sensitivity, specificity, and negative predictive value.\n* Sensitivity = (True Positives) / (True Positives + False Negatives).\n* Specificity = (True Negatives) / (True Negatives + False Positives).\n* Negative Predictive Value = (True Negatives) / (True Negatives + False Negatives).",
+                    "timeFrame": "Data collection at time of surgery"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Patients with early-stage SCC (diameter \\<4 cm) of the vulva without suspicious lymph nodes at palpation or imaging who are planned for surgery at Tufts Medical Center.\n* Patients with squamous cell carcinoma, depth of invasion \\> 1mm\n* Patients with T1 or T2 tumors (FIGO staging) \\< 4 cm, not encroaching in urethra or anus with clinically negative inguinofemoral lymph nodes\n* Localization and size of the tumor are such that perilesional injection of the tracers at three or four sites is possible\n* Preoperative imaging do not show enlarged (\\<1.5 cm)/ suspicious nodes\n* Willing and able to give informed consent\n\nExclusion Criteria:\n\n* Inoperable tumors and tumors with diameter \\> 4 cm\n* Patients with inguinofemoral lymph nodes that are palpable on clinical exam suspicious for metastases or with cytologically proven inguinofemoral lymph node metastases\n* Radiologically enlarged (\\>1.5 cm) inguinofemoral lymph nodes\n* Patients with multifocal tumors\n* Pregnancy",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "10 participants fitting the above criteria at Tufts Medical Center",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Rafael Gonzalez, MD",
+                    "role": "CONTACT",
+                    "phone": "617-636-6058",
+                    "email": "rafael.gonzalez@tuftsmedicine.org"
+                },
+                {
+                    "name": "Katina Robison, MD",
+                    "role": "CONTACT",
+                    "email": "katina.robison@tuftsmedicine.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Rafael Gonzalez, MD",
+                    "affiliation": "Tufts Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Tufts Medical Center",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02111",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alysa St. Charles, MA",
+                            "role": "CONTACT",
+                            "phone": "617-636-9897",
+                            "email": "alysa.st.charles@tuftsmedicine.org"
+                        },
+                        {
+                            "name": "Rafael Gonzalez, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Katina Robison, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "26428940",
+                    "type": "BACKGROUND",
+                    "citation": "Te Grootenhuis NC, van der Zee AG, van Doorn HC, van der Velden J, Vergote I, Zanagnolo V, Baldwin PJ, Gaarenstroom KN, van Dorst EB, Trum JW, Slangen BF, Runnebaum IB, Tamussino K, Hermans RH, Provencher DM, de Bock GH, de Hullu JA, Oonk MH. Sentinel nodes in vulvar cancer: Long-term follow-up of the GROningen INternational Study on Sentinel nodes in Vulvar cancer (GROINSS-V) I. Gynecol Oncol. 2016 Jan;140(1):8-14. doi: 10.1016/j.ygyno.2015.09.077. Epub 2015 Sep 30."
+                },
+                {
+                    "pmid": "25703673",
+                    "type": "BACKGROUND",
+                    "citation": "Covens A, Vella ET, Kennedy EB, Reade CJ, Jimenez W, Le T. Sentinel lymph node biopsy in vulvar cancer: Systematic review, meta-analysis and guideline recommendations. Gynecol Oncol. 2015 May;137(2):351-61. doi: 10.1016/j.ygyno.2015.02.014. Epub 2015 Feb 20."
+                },
+                {
+                    "pmid": "21963099",
+                    "type": "BACKGROUND",
+                    "citation": "Hutteman M, van der Vorst JR, Gaarenstroom KN, Peters AA, Mieog JS, Schaafsma BE, Lowik CW, Frangioni JV, van de Velde CJ, Vahrmeijer AL. Optimization of near-infrared fluorescent sentinel lymph node mapping for vulvar cancer. Am J Obstet Gynecol. 2012 Jan;206(1):89.e1-5. doi: 10.1016/j.ajog.2011.07.039. Epub 2011 Jul 30."
+                },
+                {
+                    "pmid": "21056907",
+                    "type": "BACKGROUND",
+                    "citation": "Crane LM, Themelis G, Arts HJ, Buddingh KT, Brouwers AH, Ntziachristos V, van Dam GM, van der Zee AG. Intraoperative near-infrared fluorescence imaging for sentinel lymph node detection in vulvar cancer: first clinical results. Gynecol Oncol. 2011 Feb;120(2):291-5. doi: 10.1016/j.ygyno.2010.10.009. Epub 2010 Nov 6."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000014846",
+                    "term": "Vulvar Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005833",
+                    "term": "Genital Neoplasms, Female"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000014845",
+                    "term": "Vulvar Diseases"
+                },
+                {
+                    "id": "D000005831",
+                    "term": "Genital Diseases, Female"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M17589",
+                    "name": "Vulvar Neoplasms",
+                    "asFound": "Vulvar Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8945",
+                    "name": "Genital Neoplasms, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17588",
+                    "name": "Vulvar Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8943",
+                    "name": "Genital Diseases, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5877",
+                    "name": "Vulvar Cancer",
+                    "asFound": "Vulvar Cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,223 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05272189",
+            "orgStudyIdInfo": {
+                "id": "2007P000646-B"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Project 3 Example: Human-AI Collaboration Tester (HAICT) Exp. 7",
+            "officialTitle": "Project 3 Example: Human-AI Collaboration Tester (HAICT) Exp. 7",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "project-example-human-ai-collaboration-tester-haict-exp"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-01-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-01-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-18",
+            "studyFirstSubmitQcDate": "2022-02-28",
+            "studyFirstPostDateStruct": {
+                "date": "2022-03-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-07-27",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jeremy M Wolfe, PhD",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study is one part of a \"bundle\" of experiments that constitute Project Three of a National Eye Institute grant. Project Three includes a series of experiments that investigate how changing the input from a simulated AI can affect the decisions made by human observers in a two-alternative forced choice task (like the decision to recall a woman for further examination in mammography). HAICT 7, the experiment described here, investigates how changing prevalence affects human performance when AI is used as a Second Reader.",
+            "detailedDescription": "This text is the text of the pre-registration for the HAICT 7 experiment as described on the Open Science Framework. https://osf.io/hngu4/\n\nNOTE: This study is representative of studies conducted in Project 3 of this grant. There are multiple experiments in the bundle of experiments represented by Project 3 but it is not possible to register a bundle of studies on CT.gov.\n\nNOTE: Since the pronoun comment is advisory, we will leave it for now.\n\nHuman-AI Collaboration Tester (HAICT) Exp. 7 (lightly edited from OSF)\n\n1. Data collection. Have any data been collected for this study already? (Yes/No)\n\n   yes\n2. Hypothesis. What's the main question being asked or hypothesis being tested in this study?\n\nBackground: In a variety of search experiments, both basic and clinical, the data have been consistent with a situation where the variability of the signal (or target) is greater than the variability of the noise (distractors). The classic sign of this is a zROC function with a slope \\< 1 - typically around 0.6. A slope of 1.0 is indicative of an equal variance 2AFC task. For the HAICT task that we have been testing, we would expect equal variance, but we think it would be worth checking so we will systematically vary prevalence which will shift criterion. That will sweep out an ROC curve that we can examine.\n\nWe will also test the Second Reader faux-AI in order to determine if low prevalence makes Second Reader worse.\n\n* (H1): We expect to replicate the finding that human criteria become more conservative as prevalence declines.\n* (H2): We predict that the slope of the resulting zROC will be 1.0.\n* (H3): We hypothesize that low prevalence will make Second Reader AI less effective because the positive predictive value of its comments will be low.\n\n  1. Dependent variable. Describe the key dependent variable(s) specifying how they will be measured.\n\n     The main dependent variables of interest are accuracy (and the signal detection derivatives of accuracy, d' and c), reaction time, and subjective ratings on the survey following each block.\n  2. Conditions. How many and which conditions will participants be assigned to?\n\nThis series of experiments investigates how changing the input from a simulated AI can affect the decisions made by human observers in a two-alternative forced choice task (like the decision to recall a woman for further examination in mammography). We have developed a paradigm called the Human-AI Collaboration Tester (HAICT) that allows for efficient testing of interactions between a human and a simulated AI.\n\nThe observers' task in all conditions is to give a 2AFC decision about whether a stimulus is \"bad\" or \"not bad.\" To use language roughly mimicking a medical diagnosis, each stimulus is referred to as a \"case.\" Observers are asked to make a 2AFC decision about arrays of colored shapes. The decision is made based on the predominant color of the case. The number of elements of each color are drawn from one of two normal distributions, one for positive (bad) stimuli and the other for negative (not bad) stimuli.\n\nThe results from previous HAICT experiments (3 and 4) showed that human performance in the Second Reader condition drops off significantly at low prevalence. Performance in the Second Reader condition was better than Baseline when the prevalence of bad cases was 50% but was significantly worse than Baseline when prevalence was only 10%. In this experiment, we manipulate the prevalence of \"bad\" cases in the Second Reader and Baseline conditions. Four different prevalence rates will be tested - 10%, 33%, 67%, and 90%. Observers will complete 8 blocks (2 AI rules x 4 prevalence rates), and block order is random.\n\nAI rules to be tested:\n\n1. Baseline - No AI input. Observer classifies each case as \"bad\" or \"not\" bad on their own.\n2. Second Reader - The observer makes an initial decision about every case. The AI silently classifies stimuli using a conservative criterion (c = 0.5). The logic for the conservative criterion is that the second reader is being used to cut down on false positive responses and so it is intended to question positive human responses that might be marginal. If the observer and AI disagree, then the AI informs the human observer. The observer is then given a chance to either change their response or go with their first opinion.\n\n   As in Experiments 1-5, the AI d-prime is fixed at 2.2. Feedback is known to increase the prevalence effect, so feedback will be given in both the practice and the test trials. Observers will complete 20 practice trials and 200 test trials in each block. Immediately after each block is completed, observers will be shown a summary of their performance. After the Second Reader blocks, they will also be asked to answer three subjective questions about the usefulness of the AI (see \"Files\" for more details).\n3. Analyses. Specify exactly which analyses you will conduct to examine the main question/hypothesis.\n\n   First, we summarize the number of hits, true negatives, misses, and false alarms in each block. From this, we can calculate the accuracy, the positive predictive value, sensitivity (d-prime), and the criterion for each observer under each of the different conditions. Given measures of performance at 4 levels of prevalence, we can estimate the ROC curve (pHit x pFA) and the zROC function (zHit x zFA). We will test the hypothesis that the slope of the zROC is equal to 1 (the consequence of an equal variance 2AFC task).\n4. More analyses. Any secondary analyses?\n\n   We will look to see if the observers' subjective opinions about the AI are correlated with variables such as the empirical d-prime, or the positive predictive value.\n5. Sample size. How many observations will be collected or what will determine sample size? No need to justify decision, but be precise about exactly how the number will be determined.\n\n   We will test 12 observers. This is consistent with the sample sizes of previous experiments.\n6. Other. Is there anything else that you would like to pre-register? (e.g., data exclusions, variables collected for exploratory purposes, unusual analyses planned?)\n\nN/A"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Decision Making",
+                "Computer Aided Diagnosis"
+            ],
+            "keywords": [
+                "Signal detection",
+                "VIsual Perception",
+                "BESH"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE",
+                    "maskingDescription": "Participants are naive to the purposes of the study but they are not blinded to the conditions."
+                }
+            },
+            "enrollmentInfo": {
+                "count": 15,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Experiment",
+                    "type": "EXPERIMENTAL",
+                    "description": "All participants are tested in all conditions of this experiment.",
+                    "interventionNames": [
+                        "Behavioral: Simulated Second Reader AI",
+                        "Behavioral: Target Prevalence"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Simulated Second Reader AI",
+                    "description": "In this experiment, in some conditions, the participant makes their decision in the presence of information about a simulated artificial intelligence decision.",
+                    "armGroupLabels": [
+                        "Experiment"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Target Prevalence",
+                    "description": "The frequency with which targets are presented varies from 10% to 90%",
+                    "armGroupLabels": [
+                        "Experiment"
+                    ],
+                    "otherNames": [
+                        "Base Rate"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "D'",
+                    "description": "D' (d-prime) is the signal detection theory measure of the level of performance on a task.",
+                    "timeFrame": "Up to one week"
+                },
+                {
+                    "measure": "Criterion",
+                    "description": "Criterion is the signal detection theory measure of the bias (\"liberal\" or \"conservative\") of observers' decisions",
+                    "timeFrame": "Up to one week"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Reaction Time",
+                    "description": "This is the measure of how long it takes to make a response.",
+                    "timeFrame": "Up to one week"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* - All welcome to enroll on line\n\nExclusion Criteria:\n\n* Must pass the Ishihara color vision screening test\n* 20/25 vision (with correction)",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jeremy M Wolfe, PhD",
+                    "role": "CONTACT",
+                    "phone": "6178511166",
+                    "email": "jwolfe@bwh.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jeremy M Wolfe, PhD",
+                    "affiliation": "Brigham and Women's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Visual Attention Lab / Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeremy M Wolfe",
+                            "role": "CONTACT",
+                            "phone": "617-851-1166",
+                            "email": "jwolfe@bwh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified raw data will be posted on the experiment's OSF page and will also be available on request to the PI.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF"
+            ],
+            "timeFrame": "Materials will be available when requested",
+            "accessCriteria": "essentially unrestricted",
+            "url": "https://osf.io/hngu4/"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

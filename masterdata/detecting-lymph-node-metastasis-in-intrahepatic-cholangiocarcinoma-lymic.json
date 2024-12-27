@@ -1,0 +1,563 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06381648",
+            "orgStudyIdInfo": {
+                "id": "23228/LyMIC"
+            },
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Detecting Lymph Node Metastasis in Intrahepatic Cholangiocarcinoma (LyMIC)",
+            "officialTitle": "An Exosome-based Liquid Biopsy Signature for Pre-operative Identification of Lymph Node Metastasis in Patients With Intrahepatic Cholangiocarcinoma",
+            "acronym": "LyMIC",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "detecting-lymph-node-metastasis-in-intrahepatic-cholangiocarcinoma-lymic"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-04-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06-18",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06-18",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-19",
+            "studyFirstSubmitQcDate": "2024-04-19",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Lymph node metastasis (LNM) is a major prognostic factor in intrahepatic cholangiocarcinoma (ICC), and accurate preoperative prediction of the presence or absence of LNM has significant clinical implications in determining treatment strategy. Despite this, there are currently no reliable biomarkers established to detect LNM in ICC.\n\nThis study seeks to develop a liquid biopsy assay that can accurately detect LNM before treatment in ICC patients.",
+            "detailedDescription": "Intrahepatic cholangiocarcinoma (ICC) is a malignant tumor of the liver arising from epithelial cells of the biliary tract, accounting for 10-15% of primary liver cancers, and the incidence of ICC has increased rapidly worldwide over the past decade. The long-term prognosis is dismal, with a 5-year overall survival (OS) as low as 25-30%. Many studies have highlighted lymph node metastasis as a strong predictor of poor prognosis in ICC patients, prompting efforts such as appropriate lymphadenectomy to accurately predict disease stage and reduce outcomes associated with LNM. Adequate lymphadenectomy in patients with suspected LNM is essential for achieving R0 resection and is a necessary component of complete cure and long-term survival. The routine use of highly invasive lymphadenectomy in all patients remains controversial, and lymphadenectomy rates for ICC range from 26.9% to 100% depending on the literature and are not universally adopted currently.\n\nCurrently, LNM is detected preoperatively by imaging, but imaging alone is not sufficient to diagnose LNM, as negative findings by imaging findings may have low sensitivity and may not rule out LNM. Other attempts have been made to develop predictive scoring systems based on Carbohydrate antigen 19-9 (CA 19-9) levels, location of the primary tumor, lymph node patterns on CT and MRI, and other clinical factors to predict LNM in ICC, but all these predictive systems rely heavily on judgment regarding lymph node size and tumor growth patterns are largely left to diagnostic imaging.\n\nThis study seeks to validate a panel of more accurate and non-invasive biomarkers (exo-miRNAs) in preoperative blood samples. Accurate preoperative detection of the presence of LNM would help provide clear criteria for ICC treatment decisions, such as the implementation of elective lymphadenectomy or the addition of chemotherapy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cholangiocarcinoma",
+                "Cholangiocarcinoma, Intrahepatic",
+                "Cholangiocarcinoma Resectable",
+                "Cholangiocarcinoma; Liver"
+            ],
+            "keywords": [
+                "Intrahepatic cholangiocarcinoma",
+                "Exosome",
+                "micro-RNA",
+                "Liquid biopsy",
+                "Blood test",
+                "Lymph node metastasis",
+                "Lymph node dissection",
+                "Lymphadenectomy"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Intrahepatic Cholangiocarcinoma, With Lymph node metastasis (Training)",
+                    "description": "Patients with ICC who had lymph node metastases at the time of primary tumor treatment with D2 dissection, in the first cohort.",
+                    "interventionNames": [
+                        "Diagnostic Test: LyMIC (Lymph Node Metastasis in Intrahepatic Cholangiocarcinoma)"
+                    ]
+                },
+                {
+                    "label": "Intrahepatic Cholangiocarcinoma, Without Lymph node metastasis (Training)",
+                    "description": "Patients with ICC who did not have lymph node metastases at the time of primary tumor treatment with D2 dissection, in the first cohort.",
+                    "interventionNames": [
+                        "Diagnostic Test: LyMIC (Lymph Node Metastasis in Intrahepatic Cholangiocarcinoma)"
+                    ]
+                },
+                {
+                    "label": "Intrahepatic Cholangiocarcinoma, With Lymph node metastasis (Validation)",
+                    "description": "Patients with ICC who had lymph node metastases at the time of primary tumor treatment with D2 dissection, in the second cohort.",
+                    "interventionNames": [
+                        "Diagnostic Test: LyMIC (Lymph Node Metastasis in Intrahepatic Cholangiocarcinoma)"
+                    ]
+                },
+                {
+                    "label": "Intrahepatic Cholangiocarcinoma, Without Lymph node metastasis (Validation)",
+                    "description": "Patients with ICC who did not have lymph node metastases at the time of primary tumor treatment with D2 dissection, in the second cohort.",
+                    "interventionNames": [
+                        "Diagnostic Test: LyMIC (Lymph Node Metastasis in Intrahepatic Cholangiocarcinoma)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "LyMIC (Lymph Node Metastasis in Intrahepatic Cholangiocarcinoma)",
+                    "description": "A panel of exosomal miRNAs, whose expression levels are tested in serum or plasma samples collected prior to primary tumor resection, with reverse transcriptase-quantitative polymerase chain reaction (RT-qPCR)",
+                    "armGroupLabels": [
+                        "Intrahepatic Cholangiocarcinoma, With Lymph node metastasis (Training)",
+                        "Intrahepatic Cholangiocarcinoma, With Lymph node metastasis (Validation)",
+                        "Intrahepatic Cholangiocarcinoma, Without Lymph node metastasis (Training)",
+                        "Intrahepatic Cholangiocarcinoma, Without Lymph node metastasis (Validation)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity",
+                    "description": "True Positive Rate: the probability of a positive test result, conditioned on the individual truly being positive",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Specificity",
+                    "description": "True Negative Rate: the probability of a negative test result, conditioned on the individual truly being negative",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                },
+                {
+                    "measure": "Proportion of correct predictions (true positives and true negatives) among the total number of cases (i.e., accuracy)",
+                    "description": "A measure of trueness: proportion of correct predictions (both true positives and true negatives) among the total number of cases examined",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* A histologically confirmed diagnosis of intrahepatic cholangiocarcinoma.\n* Received standard diagnostic and staging procedures as per local guidelines\n* Availability of at least one blood-derived sample, drawn before receiving any curative-intent treatment\n\nExclusion Criteria:\n\n* Lack of or inability to provide informed consent\n* Synchronous Intrahepatic cholangiocarcinoma and non- Intrahepatic cholangiocarcinoma diagnosed at or before surgery\n* Secondary liver cancer",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Individuals who were diagnosed with Intrahepatic cholangiocarcinoma",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "role": "CONTACT",
+                    "phone": "6262183452",
+                    "email": "AJGOEL@COH.ORG"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-218-3452",
+                            "email": "AJGOEL@COH.ORG"
+                        },
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Takayuki Noma, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                },
+                {
+                    "facility": "Department of Gastroenterological Surgery I, Graduate School of Medicine, Hokkaido University",
+                    "status": "RECRUITING",
+                    "city": "Hokkaido",
+                    "state": "Sapporo",
+                    "zip": "060-8648",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Akinobu Taketomi, PhD",
+                            "role": "CONTACT",
+                            "email": "akinobutaketomi@yahoo.co.jp"
+                        },
+                        {
+                            "name": "Kazuki Wakizaka, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Akinobu Taketomi, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.41104,
+                        "lon": 142.88878
+                    }
+                },
+                {
+                    "facility": "Department of Surgery and Science, Graduate School of Medical Sciences, Kyushu University",
+                    "status": "RECRUITING",
+                    "city": "Fukuoka",
+                    "zip": "812-8582",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Masaki Mori, PhD",
+                            "role": "CONTACT",
+                            "email": "m_mori@surg2.med.kyushu-u.ac.jp"
+                        },
+                        {
+                            "name": "Masaki Mori, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Takeo Toshima, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.6,
+                        "lon": 130.41667
+                    }
+                },
+                {
+                    "facility": "Department of Surgery, Tokushima University",
+                    "status": "RECRUITING",
+                    "city": "Tokushima",
+                    "zip": "770-8503",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Mitsuo Shimada, PhD",
+                            "role": "CONTACT",
+                            "email": "mitsuo.shimada@tokushima-u.ac.jp"
+                        },
+                        {
+                            "name": "Yuma Wada, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Takayuki Noma, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yuji Morine, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Tetsuya Ikemoto, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yu Saito, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Mitsuo Shimada, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.06667,
+                        "lon": 134.56667
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "30207593",
+                    "type": "BACKGROUND",
+                    "citation": "Bray F, Ferlay J, Soerjomataram I, Siegel RL, Torre LA, Jemal A. Global cancer statistics 2018: GLOBOCAN estimates of incidence and mortality worldwide for 36 cancers in 185 countries. CA Cancer J Clin. 2018 Nov;68(6):394-424. doi: 10.3322/caac.21492. Epub 2018 Sep 12. Erratum In: CA Cancer J Clin. 2020 Jul;70(4):313. doi: 10.3322/caac.21609."
+                },
+                {
+                    "pmid": "19228515",
+                    "type": "BACKGROUND",
+                    "citation": "Aljiffry M, Abdulelah A, Walsh M, Peltekian K, Alwayn I, Molinari M. Evidence-based approach to cholangiocarcinoma: a systematic review of the current literature. J Am Coll Surg. 2009 Jan;208(1):134-47. doi: 10.1016/j.jamcollsurg.2008.09.007. Epub 2008 Oct 31. No abstract available."
+                },
+                {
+                    "pmid": "31536748",
+                    "type": "BACKGROUND",
+                    "citation": "Clements O, Eliahoo J, Kim JU, Taylor-Robinson SD, Khan SA. Risk factors for intrahepatic and extrahepatic cholangiocarcinoma: A systematic review and meta-analysis. J Hepatol. 2020 Jan;72(1):95-103. doi: 10.1016/j.jhep.2019.09.007. Epub 2019 Sep 16."
+                },
+                {
+                    "pmid": "30645774",
+                    "type": "BACKGROUND",
+                    "citation": "Van Dyke AL, Shiels MS, Jones GS, Pfeiffer RM, Petrick JL, Beebe-Dimmer JL, Koshiol J. Biliary tract cancer incidence and trends in the United States by demographic group, 1999-2013. Cancer. 2019 May 1;125(9):1489-1498. doi: 10.1002/cncr.31942. Epub 2019 Jan 15."
+                },
+                {
+                    "pmid": "19294467",
+                    "type": "BACKGROUND",
+                    "citation": "Guglielmi A, Ruzzenente A, Campagnaro T, Pachera S, Valdegamberi A, Nicoli P, Cappellani A, Malfermoni G, Iacono C. Intrahepatic cholangiocarcinoma: prognostic factors after surgical resection. World J Surg. 2009 Jun;33(6):1247-54. doi: 10.1007/s00268-009-9970-0."
+                },
+                {
+                    "pmid": "28077782",
+                    "type": "BACKGROUND",
+                    "citation": "Berretta M, Cavaliere C, Alessandrini L, Stanzione B, Facchini G, Balestreri L, Perin T, Canzonieri V. Serum and tissue markers in hepatocellular carcinoma and cholangiocarcinoma: clinical and prognostic implications. Oncotarget. 2017 Feb 21;8(8):14192-14220. doi: 10.18632/oncotarget.13929."
+                },
+                {
+                    "pmid": "30505597",
+                    "type": "BACKGROUND",
+                    "citation": "Altman AM, Kizy S, Marmor S, Huang JL, Denbo JW, Jensen EH. Current survival and treatment trends for surgically resected intrahepatic cholangiocarcinoma in the United States. J Gastrointest Oncol. 2018 Oct;9(5):942-952. doi: 10.21037/jgo.2017.11.06."
+                },
+                {
+                    "pmid": "32295646",
+                    "type": "BACKGROUND",
+                    "citation": "Bartsch F, Hahn F, Muller L, Baumgart J, Hoppe-Lotichius M, Kloeckner R, Lang H. Relevance of suspicious lymph nodes in preoperative imaging for resectability, recurrence and survival of intrahepatic cholangiocarcinoma. BMC Surg. 2020 Apr 15;20(1):75. doi: 10.1186/s12893-020-00730-x."
+                },
+                {
+                    "pmid": "23890842",
+                    "type": "BACKGROUND",
+                    "citation": "Dodson RM, Weiss MJ, Cosgrove D, Herman JM, Kamel I, Anders R, Geschwind JF, Pawlik TM. Intrahepatic cholangiocarcinoma: management options and emerging therapies. J Am Coll Surg. 2013 Oct;217(4):736-750.e4. doi: 10.1016/j.jamcollsurg.2013.05.021. Epub 2013 Jul 24. No abstract available."
+                },
+                {
+                    "pmid": "21730269",
+                    "type": "BACKGROUND",
+                    "citation": "de Jong MC, Nathan H, Sotiropoulos GC, Paul A, Alexandrescu S, Marques H, Pulitano C, Barroso E, Clary BM, Aldrighetti L, Ferrone CR, Zhu AX, Bauer TW, Walters DM, Gamblin TC, Nguyen KT, Turley R, Popescu I, Hubert C, Meyer S, Schulick RD, Choti MA, Gigot JF, Mentha G, Pawlik TM. Intrahepatic cholangiocarcinoma: an international multi-institutional analysis of prognostic factors and lymph node assessment. J Clin Oncol. 2011 Aug 10;29(23):3140-5. doi: 10.1200/JCO.2011.35.6519. Epub 2011 Jul 5."
+                },
+                {
+                    "pmid": "32097164",
+                    "type": "BACKGROUND",
+                    "citation": "Cambridge WA, Fairfield C, Powell JJ, Harrison EM, Soreide K, Wigmore SJ, Guest RV. Meta-analysis and Meta-regression of Survival After Liver Transplantation for Unresectable Perihilar Cholangiocarcinoma. Ann Surg. 2021 Feb 1;273(2):240-250. doi: 10.1097/SLA.0000000000003801."
+                },
+                {
+                    "pmid": "34504109",
+                    "type": "BACKGROUND",
+                    "citation": "Brindley PJ, Bachini M, Ilyas SI, Khan SA, Loukas A, Sirica AE, Teh BT, Wongkham S, Gores GJ. Cholangiocarcinoma. Nat Rev Dis Primers. 2021 Sep 9;7(1):65. doi: 10.1038/s41572-021-00300-2."
+                },
+                {
+                    "pmid": "36328332",
+                    "type": "BACKGROUND",
+                    "citation": "Sposito C, Ratti F, Cucchetti A, Ardito F, Ruzzenente A, Di Sandro S, Maspero M, Ercolani G, Di Benedetto F, Guglielmi A, Giuliante F, Aldrighetti L, Mazzaferro V. Survival benefit of adequate lymphadenectomy in patients undergoing liver resection for clinically node-negative intrahepatic cholangiocarcinoma. J Hepatol. 2023 Feb;78(2):356-363. doi: 10.1016/j.jhep.2022.10.021. Epub 2022 Oct 31."
+                },
+                {
+                    "pmid": "24681130",
+                    "type": "BACKGROUND",
+                    "citation": "Bridgewater J, Galle PR, Khan SA, Llovet JM, Park JW, Patel T, Pawlik TM, Gores GJ. Guidelines for the diagnosis and management of intrahepatic cholangiocarcinoma. J Hepatol. 2014 Jun;60(6):1268-89. doi: 10.1016/j.jhep.2014.01.021. Epub 2014 Mar 27. No abstract available."
+                },
+                {
+                    "pmid": "3152272",
+                    "type": "BACKGROUND",
+                    "citation": "Deane MP, Jansen AM. From a mono to a digenetic life-cycle: how was the jump for flagellates of the family Trypanosomatidae? Mem Inst Oswaldo Cruz. 1988 Jul-Sep;83(3):273-5. doi: 10.1590/s0074-02761988000300002."
+                },
+                {
+                    "pmid": "36404249",
+                    "type": "BACKGROUND",
+                    "citation": "Chen C, Su J, Wu H, Qiu Y, Song T, Mao X, He Y, Cheng Z, Zhai W, Li J, Geng Z, Tang Z. Prognostic value of lymphadenectomy in node-negative intrahepatic cholangiocarcinoma: A multicenter, retrospectively study. Eur J Surg Oncol. 2023 Apr;49(4):780-787. doi: 10.1016/j.ejso.2022.11.008. Epub 2022 Nov 8."
+                },
+                {
+                    "pmid": "25833009",
+                    "type": "BACKGROUND",
+                    "citation": "Morine Y, Shimada M. The value of systematic lymph node dissection for intrahepatic cholangiocarcinoma from the viewpoint of liver lymphatics. J Gastroenterol. 2015 Sep;50(9):913-27. doi: 10.1007/s00535-015-1071-2. Epub 2015 Apr 2."
+                },
+                {
+                    "pmid": "18580211",
+                    "type": "BACKGROUND",
+                    "citation": "Endo I, Gonen M, Yopp AC, Dalal KM, Zhou Q, Klimstra D, D'Angelica M, DeMatteo RP, Fong Y, Schwartz L, Kemeny N, O'Reilly E, Abou-Alfa GK, Shimada H, Blumgart LH, Jarnagin WR. Intrahepatic cholangiocarcinoma: rising frequency, improved survival, and determinants of outcome after resection. Ann Surg. 2008 Jul;248(1):84-96. doi: 10.1097/SLA.0b013e318176c4d3."
+                },
+                {
+                    "pmid": "28094848",
+                    "type": "BACKGROUND",
+                    "citation": "Amin MB, Greene FL, Edge SB, Compton CC, Gershenwald JE, Brookland RK, Meyer L, Gress DM, Byrd DR, Winchester DP. The Eighth Edition AJCC Cancer Staging Manual: Continuing to build a bridge from a population-based to a more \"personalized\" approach to cancer staging. CA Cancer J Clin. 2017 Mar;67(2):93-99. doi: 10.3322/caac.21388. Epub 2017 Jan 17."
+                },
+                {
+                    "pmid": "31421869",
+                    "type": "BACKGROUND",
+                    "citation": "Yoh T, Cauchy F, Le Roy B, Seo S, Taura K, Hobeika C, Dokmak S, Farges O, Gelli M, Sa Cunha A, Adam R, Uemoto S, Soubrane O. Prognostic value of lymphadenectomy for long-term outcomes in node-negative intrahepatic cholangiocarcinoma: A multicenter study. Surgery. 2019 Dec;166(6):975-982. doi: 10.1016/j.surg.2019.06.025. Epub 2019 Aug 14."
+                },
+                {
+                    "pmid": "29869969",
+                    "type": "BACKGROUND",
+                    "citation": "Joo I, Lee JM, Yoon JH. Imaging Diagnosis of Intrahepatic and Perihilar Cholangiocarcinoma: Recent Advances and Challenges. Radiology. 2018 Jul;288(1):7-13. doi: 10.1148/radiol.2018171187. Epub 2018 Jun 5."
+                },
+                {
+                    "pmid": "36428949",
+                    "type": "BACKGROUND",
+                    "citation": "Nishioka E, Tsurusaki M, Kozuki R, Im SW, Kono A, Kitajima K, Murakami T, Ishii K. Comparison of Conventional Imaging and 18F-Fluorodeoxyglucose Positron Emission Tomography/Computed Tomography in the Diagnostic Accuracy of Staging in Patients with Intrahepatic Cholangiocarcinoma. Diagnostics (Basel). 2022 Nov 21;12(11):2889. doi: 10.3390/diagnostics12112889."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data collected for the study will be made available to others, including de-identified participant data, at publication, via a signed data access agreement and at the discretion of the investigators' approval of the proposed use of such data"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009362",
+                    "term": "Neoplasm Metastasis"
+                },
+                {
+                    "id": "D000018281",
+                    "term": "Cholangiocarcinoma"
+                },
+                {
+                    "id": "D000008207",
+                    "term": "Lymphatic Metastasis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009385",
+                    "term": "Neoplastic Processes"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12307",
+                    "name": "Neoplasm Metastasis",
+                    "asFound": "Metastases",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20426",
+                    "name": "Cholangiocarcinoma",
+                    "asFound": "Cholangiocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11204",
+                    "name": "Lymphatic Metastasis",
+                    "asFound": "Lymph Node Metastasis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12330",
+                    "name": "Neoplastic Processes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T755",
+                    "name": "Bile Duct Cancer",
+                    "asFound": "Cholangiocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3096",
+                    "name": "Intrahepatic Cholangiocarcinoma",
+                    "asFound": "Intrahepatic Cholangiocarcinoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

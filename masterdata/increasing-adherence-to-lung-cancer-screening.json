@@ -1,0 +1,363 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05832008",
+            "orgStudyIdInfo": {
+                "id": "UPCC 09522"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "851056",
+                    "type": "OTHER",
+                    "domain": "UPenn IRB"
+                }
+            ],
+            "organization": {
+                "fullName": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "Increasing Adherence to Lung Cancer Screening",
+            "officialTitle": "Increasing Equitable Adherence to Annual Lung Cancer Screening and Diagnostic Follow-up",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "increasing-adherence-to-lung-cancer-screening"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-10-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-11-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-23",
+            "studyFirstSubmitQcDate": "2023-04-14",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-27",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Katharine Rendle",
+                "investigatorTitle": "PI",
+                "investigatorAffiliation": "Abramson Cancer Center at Penn Medicine"
+            },
+            "leadSponsor": {
+                "name": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Comprehensive Cancer Network",
+                    "class": "NETWORK"
+                },
+                {
+                    "name": "AstraZeneca",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Investigators are conducting a pragmatic randomized trial testing the effectiveness of patient and clinician nudge strategies on adherence to lung cancer screening (LCS) \\& diagnostic follow-up across eligible primary care clinicians \\& patients. Following the trial, a subsample of patients \\& clinicians will be invited to one-time semi-structured interview \\& survey to identify individual \\& system-level factors that may restrict or enhance the impact of strategies.",
+            "detailedDescription": "Investigators will conduct a pragmatic clinical trial with a 2 x 2 factorial design with clinicians that provide care to screening-eligible patients who are overdue for annual screening or diagnostic evaluation. The specific nudge strategies to be tested are: 1) gain-framed messaging delivered via text messaging to prompt patient adherence to LCS guidelines (patient nudges); and 2) electronic health record (EHR) prompts alerting clinicians when their patients are due for annual screening or diagnostic follow-up (clinician nudges). The rationale for this study is that changing external stimuli to encourage adherence to evidence-based LCS guidelines will increase early detection of lung cancer by removing individual and system-level barriers to identifying and prompting patients who are due for care. The central hypothesis is that the combination of patient and clinician strategies will have the greatest effect on increasing adherence because it will target multilevel determinants of lung cancer screening identified in our prior research including limited screening knowledge and suboptimal EHR design. The proposed strategies are designed to support equitable implementation across diverse settings and populations."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Lung Cancer",
+                "Adherence, Patient"
+            ],
+            "keywords": [
+                "Screening",
+                "Nudge",
+                "Adherence",
+                "Implementation science",
+                "Behavioral science",
+                "Digital health"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "interventionModelDescription": "At the start of the trial, clinicians who do not opt-out will be randomized to the intervention (clinician nudge) or control arm (no clinician nudge). Eligible patients will be randomized, stratified by clinician, to either the intervention (patient nudge) or control group (no patient nudge).",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 1400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Clinician Nudge + Patient Nudge",
+                    "type": "EXPERIMENTAL",
+                    "description": "An EHR-prompt (pended order) will prompt clinicians in this arm when a patient is due for lung cancer screening or diagnostic follow-up.\n\nPatients in this arm will receive messaging designed to increase awareness about the importance of annual screening and recommended follow-up",
+                    "interventionNames": [
+                        "Behavioral: Patient Nudge",
+                        "Behavioral: Clinician Nudge"
+                    ]
+                },
+                {
+                    "label": "Clinician Nudge Only",
+                    "type": "EXPERIMENTAL",
+                    "description": "Clinicians in this arm will not be prompted by a pended order when a patient is due for lung cancer screening or diagnostic follow-up.\n\nPatients will receive usual care.",
+                    "interventionNames": [
+                        "Behavioral: Clinician Nudge"
+                    ]
+                },
+                {
+                    "label": "Patient Nudge Only",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients in this arm will receive messaging designed to increase awareness about the importance of annual screening and recommended follow-up.\n\nClinicians will receive usual care.",
+                    "interventionNames": [
+                        "Behavioral: Patient Nudge"
+                    ]
+                },
+                {
+                    "label": "Usual care (no nudges)",
+                    "type": "NO_INTERVENTION",
+                    "description": "Patients and clinicians in this arm will receive usual care."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Patient Nudge",
+                    "description": "Brief persuasive messaging to increase awareness about the importance of annual lung cancer screening and completion of recommended follow-up sent to patients via text message.",
+                    "armGroupLabels": [
+                        "Clinician Nudge + Patient Nudge",
+                        "Patient Nudge Only"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Clinician Nudge",
+                    "description": "EHR-based Prompts - an pended order and message that alerts a clinician if a patient is due for screening or diagnostic follow-up.",
+                    "armGroupLabels": [
+                        "Clinician Nudge + Patient Nudge",
+                        "Clinician Nudge Only"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of completed annual LCS in patients with a negative baseline screen (Lung Imaging Reporting and Data System (Lung-RADS) 1 or 2).",
+                    "description": "Number of completed low-dose computed tomography (LDCT) scans among adults who are due for annual screening based on evidence-based guidelines.",
+                    "timeFrame": "Initial measurement will occur 3 months after randomization"
+                },
+                {
+                    "measure": "Number of completed recommended diagnostic follow-up scans or procedures in patients with a positive baseline screen (Lung-RADS 3 or 4a).",
+                    "description": "Completion of recommended diagnostic follow-up scans or procedures among adults with positive baseline LDCT scan.",
+                    "timeFrame": "Initial measurement will occur 3 months after randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Reach",
+                    "description": "Reach defined by proportion of patients who receive patient nudges and by the proportion of patients whose clinician acts upon clinician nudge (i.e., signs pended orders)",
+                    "timeFrame": "Initial measurement will occur 3 months after randomization"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Rate of false-positive screens",
+                    "description": "Defined as having a positive LDCT and no subsequent lung cancer diagnosis within 6 months of the LDCT date",
+                    "timeFrame": "6 months after LDCT date"
+                },
+                {
+                    "measure": "Number of downstream imaging and diagnostic procedures",
+                    "description": "Measured using EHR data",
+                    "timeFrame": "6 months after LDCT date"
+                },
+                {
+                    "measure": "Number of lung cancer diagnoses",
+                    "description": "Biopsy confirmed lung cancer diagnosis measured using EHR data",
+                    "timeFrame": "6 months after LDCT date"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nClinicians will be eligible if they:\n\n1. are practicing primary care or specialty care physicians at a recruiting site within the University of Pennsylvania Health System;\n2. care for patients who completed LCS via LDCT in 2019-2023; and\n3. do not opt-out of study participation.\n\nPatients will be eligible if they:\n\n1. are eligible for LCS based on 2021 US Preventive Services Task Force (USPSTF) population guidelines (aged 50-80; smoking history of 20-pack years; smoked within the last 15 years)\n2. completed LCS via LDCT in 2019-2023;\n3. have not been diagnosed with lung cancer;\n4. meet criteria for non-adherence;\n5. remain eligible for LCS during the trial enrollment period; and\n6. receive LCS care from a clinician that has not opted-out of study participation\n\nExclusion Criteria:\n\nPatients will be excluded if they:\n\na) have a highly suspicious baseline LDCT (Lung-RADS 4B/X) given the presence of existing clinical pathways to ensure adherence in this group",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "50 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Katharine Rendle, PhD,MSW,MPH",
+                    "role": "CONTACT",
+                    "phone": "215-349-5442",
+                    "email": "katharine.rendle@pennmedicine.upenn.edu"
+                },
+                {
+                    "name": "Jocelyn Wainwright, MS",
+                    "role": "CONTACT",
+                    "phone": "215-615-4226",
+                    "email": "Jocelyn.Wainwright@pennmedicine.upenn.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Katharine Rendle, PhD,MSW,MPH",
+                    "affiliation": "University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Anil Vachani, MD",
+                    "affiliation": "University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Pennsylvania",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Hannah Toneff, MSW, MA",
+                            "role": "CONTACT",
+                            "phone": "267-882-3186",
+                            "email": "hannah.toneff@pennmedicine.upenn.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "asFound": "Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

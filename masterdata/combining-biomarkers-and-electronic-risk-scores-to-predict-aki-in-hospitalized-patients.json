@@ -1,0 +1,380 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05988658",
+            "orgStudyIdInfo": {
+                "id": "IRB23-0343"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01DK126933",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01DK126933"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Chicago",
+                "class": "OTHER"
+            },
+            "briefTitle": "Combining Biomarkers and Electronic Risk Scores to Predict AKI in Hospitalized Patients",
+            "officialTitle": "Combining Biomarkers and Electronic Risk Scores to Predict AKI in Hospitalized Patients",
+            "therapeuticArea": [
+                "Nephrology and Renal Diseases",
+                "Other"
+            ],
+            "study": "combining-biomarkers-and-electronic-risk-scores-to-predict-aki-in-hospitalized-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-05",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-03-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-03-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-04",
+            "studyFirstSubmitQcDate": "2023-08-04",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-14",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Chicago",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "University of Wisconsin, Madison",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study's objective is to evaluate the additive value of renal biomarkers (from blood and urine) for identifying individuals at high risk for severe acute kidney injury (AKI) above that of a novel natural language processing (NLP)-based AKI risk algorithm. The risk algorithm is based on electronic health records (EHR) data (labs, vitals, clinical notes, and test reports). Patients will enroll at the University of Chicago Medical Center and the University of Wisconsin Hospital, where the risk score will run in real time. The risk score will identify those patients with the highest risk for the future development of Stage 2 AKI and collect blood and urine for biomarker measurement over the subsequent 3 days.",
+            "detailedDescription": "The investigators hypothesize that combining the biomarkers with electronic health risk score will impact improvement in AKI risk stratification. Using a real time, externally validated electronic health record based AKI risk score, the investigators will enroll patients who are at high risk for the impending development of KDIGO Stage 2 AKI (top 10% of risk). Once identified and enrolled, patients will have blood and urine samples collected over the next 3 days. The investigators will recruit two cohorts of 400 patients across the two institutions. In the development cohort, the investigators will see if adding urinary or serum biomarkers of AKI can improve the ability of EHR-risk score to predict the development of Stage 2 AKI and other outcomes. The investigators will compare the area under the receiver operator characteristic curve (AUC) for the risk score alone versus the risk score plus biomarkers. The investigators will then seek to validate our findings in a separate cohort of 400 patients."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Acute Kidney Injury",
+                "Biomarkers"
+            ],
+            "keywords": [
+                "Acute Kidney Injury",
+                "Biomarkers",
+                "Renal Replacement Therapy",
+                "Artificial Intelligence",
+                "Risk Assessment",
+                "Clinical Nephrology"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "1. Blood\n2. Urine"
+            },
+            "enrollmentInfo": {
+                "count": 800,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Study cohort",
+                    "description": "Patients will be identified as high risk based on their AKI risk score (ESTOP- AKI 2.0) being in the top 10% of all hospitalized patients",
+                    "interventionNames": [
+                        "Device: ESTOP - AKI 2.0"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "ESTOP - AKI 2.0",
+                    "description": "Medical software as a Noninvasive medical device, which at the time of the project will not implement directly into subject/clinical care.",
+                    "armGroupLabels": [
+                        "Study cohort"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Developing KDIGO stage 2 AKI",
+                    "description": "Number of patients developing KDIGO Stage 2 AKI.\n\nKDIGO Stage 2 AKI defined as:\n\nA double of baseline serum creatinine from baseline\n\nOR\n\n12 hours of urine output of less than 0.5ml/kg/hr in those with bladder catheters.\n\nIf no catheter in place than urine output based AKI cannot be diagnosed",
+                    "timeFrame": "Within 7 days of enrollment"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Development of KDIGO stage 3 AKI",
+                    "description": "Number of patients developing KDIGO Stage 3 AKI\n\nKDIGO Stage 3 AKI defined as:\n\nIncrease in Serum creatinine by 3.0 times baseline\n\nOR\n\nIncrease serum creatinine to \\> 4.0 mg/dL\n\nOR\n\nNeed for Renal Replacement Therapy (RRT)",
+                    "timeFrame": "within 12 hour of each observation, within 7 days of enrollment and 90 day MAKE outcome"
+                },
+                {
+                    "measure": "Recipient of renal replacement therapy(RRT)",
+                    "description": "The number of patients who receive RRT",
+                    "timeFrame": "within 7 days of enrollment and 90 day make outcome"
+                },
+                {
+                    "measure": "Clinical indication for the receipt of renal replacement therapy(RRT)",
+                    "description": "The number of patients who have a clinical indication to receive RRT (even if they do not receive it) due to following indications (in the setting of Stage 2/3 AKI):\n\n1. Hyperkalemia (\u2265 6 mmol/L)\n2. Diuretic-resistant hypervolemia (difficult to define)\n3. BUN urea serum levels greater than or equal to 150mg/ dL\n4. Severe metabolic acidosis (pH \u2264 7.15)\n5. Oliguria (urinary output \\< 200mL/12hr), or anuria.",
+                    "timeFrame": "within 12 hour of each observation, within 7 days of enrollment and 90 day make outcome"
+                },
+                {
+                    "measure": "Change in Mortality Status during hospitalization",
+                    "description": "Patients' mortality status during current hospitalization",
+                    "timeFrame": "within 12 hour of each observation, within 7 days of enrollment and during current hospitalization"
+                },
+                {
+                    "measure": "Major Adverse Kidney Events (MAKE) Outcomes",
+                    "description": "Number of Participants developing Major Adverse Kidney Events (MAKE):\n\n1. Recurrent Hospitalization\n2. Kidney Function Status:\n\n   * Recurrent AKI\n   * New chronic kidney disease (CKD)\n   * Need or continued need for RRT\n3. Mortality",
+                    "timeFrame": "3 months (90 days)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u2265 18 years\n2. E-STOP AKI 2.0 score in the top 10% of risk (historically from all hospitalized patients) within the last 12 hours. (First time across this 10% risk threshold during this hospital stay).\n3. Admitted to an inpatient ward, intermediate, or ICU care at the University of Chicago Medical Center (UCMC) or University of Wisconsin Health (UWHealth). (No Emergency Department patients)\n4. Patient or their legally authorized representative must be able to read, speak, and understand English, for the purposes of consenting. Otherwise, inclusion in this protocol will be done without regard to race, ethnic origin or gender\n\nExclusion Criteria:\n\n1. Voluntary refusal or missing written consent of the patient / legal representative.\n2. Patients with a known history of end-stage renal disease on dialysis (including renal transplantation).\n3. Patients without a measured serum creatinine value during their inpatient stay.\n4. Patients with a creatinine \\>4.0 mg/dl at the time of admission or available in the EHR from the last 6 months\n5. Patients with prior episode of KDIGO defined AKI during this same hospitalization- regardless of E-STOP AKI 2.0 score\n6. Patients with prior renal consultation during their admission.\n7. Patient with an E-STOP AKI 2.0 above the top 10% risk threshold more than 12 hours ago during this same hospital stay.\n8. Incarcerated patients\n9. Pregnant patients",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Adult patients admitted in inpatient ward, intermediate or ICU care at UCMC or UWHealth with E-STOP AKI 2.0 score in the top 10% of risk (historically from all hospitalized patients) within the last 12 hours. (First time across this 10% risk threshold during this hospital stay)",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jay Koyner, MD",
+                    "role": "CONTACT",
+                    "phone": "773-702-4842",
+                    "email": "jkoyner@uchicago.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jay Koyner, MD",
+                    "affiliation": "University of Chicago",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Matthew Churpek, MD,MPH,PhD",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Chicago Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60637",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Aiman Fatima, MBBS",
+                            "role": "CONTACT",
+                            "phone": "773-702-6201",
+                            "email": "aimanfatima@uchicagomedicine.org"
+                        },
+                        {
+                            "name": "Ola Anjorin, MBBS,DA,MPH",
+                            "role": "CONTACT",
+                            "phone": "773-704-3168",
+                            "email": "oanjorin@bsd.uchicago.edu"
+                        },
+                        {
+                            "name": "Jay Koyner, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "University of Wisconsin Hospital",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53792",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Madeline Ogus, MS",
+                            "role": "CONTACT",
+                            "phone": "608-265-2878",
+                            "email": "mkoguss@medicine.wisc.edu"
+                        },
+                        {
+                            "name": "Michael Weber",
+                            "role": "CONTACT",
+                            "phone": "608-263-3369",
+                            "email": "mjweber@medicine.wisc.edu"
+                        },
+                        {
+                            "name": "Matthew Churpek, MD,MPH,PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000058186",
+                    "term": "Acute Kidney Injury"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000051437",
+                    "term": "Renal Insufficiency"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M28998",
+                    "name": "Acute Kidney Injury",
+                    "asFound": "Acute Kidney Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26718",
+                    "name": "Renal Insufficiency",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

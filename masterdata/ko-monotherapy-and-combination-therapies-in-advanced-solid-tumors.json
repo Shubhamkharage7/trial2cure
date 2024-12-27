@@ -1,0 +1,755 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06026410",
+            "orgStudyIdInfo": {
+                "id": "KO-2806-001"
+            },
+            "organization": {
+                "fullName": "Kura Oncology, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "KO-2806 Monotherapy and Combination Therapies in Advanced Solid Tumors",
+            "officialTitle": "Phase 1, First-in-Human, Multicenter, Open-Label Study to Evaluate the Safety, Tolerability, Pharmacokinetics, Pharmacodynamics, and Preliminary Antitumor Activity of KO-2806 When Administered as Monotherapy and in Combination Therapy in Adult Patients With Advanced Solid Tumors",
+            "acronym": "FIT-001",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "ko-monotherapy-and-combination-therapies-in-advanced-solid-tumors"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-10-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-04",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-17",
+            "studyFirstSubmitQcDate": "2023-08-30",
+            "studyFirstPostDateStruct": {
+                "date": "2023-09-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Kura Oncology, Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Mirati Therapeutics Inc.",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This first-in-human (FIH) dose-escalation and dose-validation/expansion study will assess KO-2806, a farnesyl transferase inhibitor (FTI), as a monotherapy and in combination, in adult patients with advanced solid tumors."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Solid Tumors With HRAS Alterations",
+                "Non Small Cell Lung Cancer (NSCLC)",
+                "Colorectal Cancer (CRC)",
+                "Pancreatic Ductal Adenocarcinoma (PDAC)",
+                "Clear Cell Renal Cell Carcinoma (ccRCC)"
+            ],
+            "keywords": [
+                "HRAS",
+                "KRAS",
+                "NRAS",
+                "Farnesyl transferase inhibitor (FTI)",
+                "Tyrosine Kinase inhibitor (TKI)",
+                "Phase 1",
+                "KRAS G12C inhibitor",
+                "NSCLC",
+                "ccRCC"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 270,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm #1: RAS-altered advanced solid tumors",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients with advanced solid tumors and the following:\n\n* HRAS-mutant and/or amplified tumors (any solid tumor type)\n* HRAS overexpression (only for HNSCC tumors)\n* KRAS and/or NRAS and/or HRAS-mutant and/or amplified for NSCLC or CRC\n* KRAS-mutant and/or amplified PDAC",
+                    "interventionNames": [
+                        "Drug: KO-2806"
+                    ]
+                },
+                {
+                    "label": "Arm #2: Advanced or metastatic ccRCC",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients who have received at least 1 prior systemic therapy with IO-based treatment for locally advanced or metastatic RCC with predominantly clear cell subtype",
+                    "interventionNames": [
+                        "Drug: KO-2806",
+                        "Drug: Cabozantinib"
+                    ]
+                },
+                {
+                    "label": "Arm #3: Advanced or metastatic NSCLC",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients with KRAS G12C-mutant locally advanced or metastatic NSCLC who have received at least 1 prior systemic therapy for advanced or metastatic NSCLC",
+                    "interventionNames": [
+                        "Drug: KO-2806",
+                        "Drug: Adagrasib"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "KO-2806",
+                    "description": "Oral administration",
+                    "armGroupLabels": [
+                        "Arm #1: RAS-altered advanced solid tumors",
+                        "Arm #2: Advanced or metastatic ccRCC",
+                        "Arm #3: Advanced or metastatic NSCLC"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cabozantinib",
+                    "description": "Oral administration",
+                    "armGroupLabels": [
+                        "Arm #2: Advanced or metastatic ccRCC"
+                    ],
+                    "otherNames": [
+                        "Cabometyx"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Adagrasib",
+                    "description": "Oral administration",
+                    "armGroupLabels": [
+                        "Arm #3: Advanced or metastatic NSCLC"
+                    ],
+                    "otherNames": [
+                        "Krazati"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Rate of dose-limiting toxicities (DLTs)",
+                    "timeFrame": "DLTs will be evaluated during the first 28 days of KO-2806 treatment (dose escalation)"
+                },
+                {
+                    "measure": "Descriptive statistics of adverse events",
+                    "description": "NCI-CTCAE v5.0",
+                    "timeFrame": "First dose of KO-2806 up to and including 28 days after last dose of KO-2806, or if the patient is lost to follow-up, whichever comes first (dose escalation)"
+                },
+                {
+                    "measure": "Overall Response Rate (ORR)",
+                    "description": "Assessed per RECIST v1.1",
+                    "timeFrame": "Up to an estimated period of 24 months (dose expansion)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Rate of dose-limiting toxicities (DLTs)",
+                    "timeFrame": "DLTs will be evaluated during the first 28 days of KO-2806 treatment (dose expansion)"
+                },
+                {
+                    "measure": "Descriptive statistics of adverse events",
+                    "description": "NCI-CTCAE v5.0",
+                    "timeFrame": "First dose of KO-2806 up to and including 28 days after last dose of KO-2806, or if the patient is lost to follow-up, whichever comes first (dose expansion)"
+                },
+                {
+                    "measure": "Objective Response Rate (ORR)",
+                    "description": "Assessed per RECIST v1.1",
+                    "timeFrame": "Up to an estimated period of 24 months (dose escalation)"
+                },
+                {
+                    "measure": "Disease control rate (DCR)",
+                    "description": "Assessed per RECIST v1.1",
+                    "timeFrame": "Up to an estimated period of 24 months (dose escalation and expansion)"
+                },
+                {
+                    "measure": "Duration of response (DoR)",
+                    "description": "Assessed per RECIST v1.1",
+                    "timeFrame": "Up to an estimated period of 24 months (dose escalation and expansion)"
+                },
+                {
+                    "measure": "Progression-Free Survival (PFS)",
+                    "description": "Assessed per RECIST v1.1",
+                    "timeFrame": "Up to an estimated period of 24 months (dose escalation and expansion)"
+                },
+                {
+                    "measure": "Overall Survival (OS)",
+                    "description": "Assessed per RECIST v1.1",
+                    "timeFrame": "Up to an estimated period of 24 months (dose escalation and expansion)"
+                },
+                {
+                    "measure": "AUClast",
+                    "description": "Area under the curve from time zero to last measurable concentration for KO-2806 (in the absence and presence of food) and combination agent.",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "AUC0-inf",
+                    "description": "Area under the curve from time zero to infinity post administration for KO-2806 (in the absence and presence of food) and combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "Cmax",
+                    "description": "Maximum plasma concentration (Cmax) of KO-2806 (in the absence and presence of food) and the combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "Cmin",
+                    "description": "Minimum plasma concentration (Cmin) of KO-2806 (in the absence and presence of food) and the combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "Tmax",
+                    "description": "Time to maximal concentration (Tmax) of KO-2806 (in the absence and presence of food) and the combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "Estimated terminal elimination rate constant (\u03bbz)",
+                    "description": "Estimated terminal elimination rate constant of KO-2806 and the combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "t1/2",
+                    "description": "Half-life (t1/2) of KO-2806 (in the absence and presence of food) and the combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "CL/F",
+                    "description": "Total apparent clearance (CL/F) of KO-2806 and the combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "Vd/F",
+                    "description": "Total apparent volume of distribution (Vd/F) of KO-2806 and the combination agent",
+                    "timeFrame": "Cycle 1. Each cycle is 28 days. (Dose escalation and dose expansion)."
+                },
+                {
+                    "measure": "QTcF",
+                    "description": "QT interval corrected for heart rate (HR) using Fridericia's formula (QTcF) for KO-2806 monotherapy and in combination",
+                    "timeFrame": "Up to day 7 following first dose of KO-2806 and adagrasib. Dose escalation."
+                },
+                {
+                    "measure": "KO-2806 plasma concentration measurements",
+                    "timeFrame": "Up to day 28 following first dose of KO-2806 and adagrasib. Dose escalation."
+                },
+                {
+                    "measure": "Amount of KO-2806 excretion in urine",
+                    "timeFrame": "Up to 24 hours following first dose of KO-2806. Dose escalation."
+                },
+                {
+                    "measure": "CLr of KO-2806 excretion in urine",
+                    "description": "Renal clearance of KO-2806 excretion in urine",
+                    "timeFrame": "Up to 24 hours following first dose of KO-2806. Dose escalation."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* At least 18 years of age.\n* Histologically or cytologically confirmed advanced solid tumors\n\n  * Arm #1 (Monotherapy): HRAS-mutant and/or amplified tumors (any solid tumor type); HRAS overexpression (only for HNSCC tumors); KRAS and/or NRAS, and/or HRAS-mutant and/or amplified NSCLC or CRC; KRAS-mutant and/or amplified PDAC\n  * Arm #2 (Combination): Must have received at least 1 prior systemic therapy with IO-based treatment for locally advanced or metastatic RCC with predominantly clear cell subtype\n  * Arm #3 (Combination): Must have KRAS G12C-mutant locally advanced or metastatic NSCLC and have received at least 1 prior systemic therapy for advanced or metastatic NSCLC\n* Measurable disease by Response Evaluation Criteria in Solid Tumors (RECIST) v1.1.\n* Karnofsky Performance Status of 70 or higher with no clinically significant deterioration over the previous 2 weeks.\n* Acceptable liver, renal, endocrine, and hematologic function.\n* Other protocol-defined inclusion criteria may apply.\n\nExclusion Criteria:\n\n* Ongoing treatment with certain anticancer agents.\n* Prior treatment with an FTI or HRAS inhibitor.\n* Major surgery, other than local procedures, within 28 days prior to Cycle 1 Day 1, without complete recovery.\n* Spinal cord compression, leptomeningeal disease, or clinically active CNS metastases.\n* Toxicity (excluding alopecia) from prior therapy that has not been completely resolved to baseline at the time of consent.\n* Active or prior documented autoimmune or inflammatory disorders within the past 5 years prior to Cycle 1 Day 1 (with exceptions).\n* Active, uncontrolled bacterial, viral, or fungal infections requiring systemic therapy.\n* Inability to swallow, impairment of gastrointestinal (GI) function or GI disease that may significantly alter the absorption of the trial drugs.\n* Inadequate cardiac and/or vascular function, including receipt of treatment for unstable angina, myocardial infarction, and/or cerebro-vascular attack within the prior 6 months, mean QTcF \u2265470 ms, or Class II or greater congestive heart failure.\n* Other invasive malignancy within 2 years.\n* Other protocol-defined exclusion criteria may apply.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Clinical Operations",
+                    "role": "CONTACT",
+                    "phone": "617-588-3755",
+                    "email": "KO-2806-001@kuraoncology.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Southern California",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Xiomara Menendez, RN",
+                            "role": "CONTACT",
+                            "phone": "323-865-3000",
+                            "email": "Xiomara.Menendez@med.usc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "UCLA Department of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90095",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Christopher Lim",
+                            "role": "CONTACT",
+                            "phone": "310-633-8400",
+                            "phoneExt": "16043",
+                            "email": "christopherlim@mednet.ucla.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "Sarah Cannon Research Institute at HealthONE",
+                    "status": "RECRUITING",
+                    "city": "Denver",
+                    "state": "Colorado",
+                    "zip": "80218",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "role": "CONTACT",
+                            "phone": "720-754-2610",
+                            "email": "CANN.DDUDenverGeneral@sarahcannon.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.73915,
+                        "lon": -104.9847
+                    }
+                },
+                {
+                    "facility": "AdventHealth Celebration",
+                    "status": "RECRUITING",
+                    "city": "Celebration",
+                    "state": "Florida",
+                    "zip": "34747",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amy Whitaker",
+                            "role": "CONTACT",
+                            "email": "amy.whitaker@adventhealth.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 28.32529,
+                        "lon": -81.53313
+                    }
+                },
+                {
+                    "facility": "Florida Cancer Specialists",
+                    "status": "RECRUITING",
+                    "city": "Sarasota",
+                    "state": "Florida",
+                    "zip": "34232",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nancy Olsen",
+                            "role": "CONTACT",
+                            "email": "nolsen@flcancer.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 27.33643,
+                        "lon": -82.53065
+                    }
+                },
+                {
+                    "facility": "Dana-Farber Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Emily McClure, RN",
+                            "role": "CONTACT",
+                            "phone": "857-215-0180",
+                            "email": "Emily_mcclure@dfci.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Washington University School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jessica Ley",
+                            "role": "CONTACT",
+                            "phone": "314-747-8092",
+                            "email": "jcley@wustl.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                },
+                {
+                    "facility": "OU Stephenson Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Oklahoma City",
+                    "state": "Oklahoma",
+                    "zip": "73104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Christina Caldwell",
+                            "role": "CONTACT",
+                            "phone": "405-271-8001",
+                            "phoneExt": "48171",
+                            "email": "Christina-Caldwell@ouhsc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.46756,
+                        "lon": -97.51643
+                    }
+                },
+                {
+                    "facility": "SCRI - Oncology Partners",
+                    "status": "RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37203",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "role": "CONTACT",
+                            "phone": "844-482-4812"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "University of Wisconsin (Carbone Cancer Center)",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53792",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "UW Carbone Cancer Center - Cancer Connect",
+                            "role": "CONTACT",
+                            "phone": "800-622-8922",
+                            "email": "cancerconnect@uwcarbone.wisc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002292",
+                    "term": "Carcinoma, Renal Cell"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000007680",
+                    "term": "Kidney Neoplasms"
+                },
+                {
+                    "id": "D000014571",
+                    "term": "Urologic Neoplasms"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5548",
+                    "name": "Carcinoma, Renal Cell",
+                    "asFound": "Clear Cell Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10703",
+                    "name": "Kidney Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17320",
+                    "name": "Urologic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4906",
+                    "name": "Renal Cell Carcinoma",
+                    "asFound": "Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1341",
+                    "name": "Clear Cell Renal Cell Carcinoma",
+                    "asFound": "Clear Cell Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000718190",
+                    "term": "Adagrasib"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M288000",
+                    "name": "Adagrasib",
+                    "asFound": "Topical steroid",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2889",
+                    "name": "Tyrosine Kinase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T22",
+                    "name": "Tyrosine",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AA",
+                    "name": "Amino Acids"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

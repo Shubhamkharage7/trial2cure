@@ -1,0 +1,351 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05820724",
+            "orgStudyIdInfo": {
+                "id": "1685514-1"
+            },
+            "organization": {
+                "fullName": "VA Greater Los Angeles Healthcare System",
+                "class": "FED"
+            },
+            "briefTitle": "PSMA PET Scan and mpMRI for Prostate Cancer Detection",
+            "officialTitle": "Prostate Specific Membrane Antigen (PSMA) Scan and Multiparametric MRI for Prostate Biopsy Detection of Clinically Significant Prostate Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "psma-pet-scan-and-mpmri-for-prostate-cancer-detection"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-04",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-05-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-05-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-05-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-06",
+            "studyFirstSubmitQcDate": "2023-04-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-04-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-04-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-04-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "VA Greater Los Angeles Healthcare System",
+                "class": "FED"
+            },
+            "collaborators": [
+                {
+                    "name": "Lantheus Medical Imaging",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "Prospective, randomized, phase 2 clinical trial to determine if PSMA PET imaging plus mpMRI improves detection of clinically significant prostate cancer as compared to mpMRI alone.",
+            "detailedDescription": "This a prospective, randomized, phase 2 clinical trial. We will enroll patients who underwent mpMRI of the prostate as part of their standard clinical care, have PI-RADS 4, or 5 lesion(s) on mpMRI, and are scheduled to undergo fusion guided prostate biopsy. Subjects that sign the consent form will be randomized to undergo DCFPyL PET/CT imaging or no PSMA PET imaging prior to the prostate biopsy. In the PSMA scan cohort, decision for biopsy targets will be made based on the combination of the findings of mpMRI and PSMA scans. In the no PSMA scan (control) group, the biopsy will be performed based on mpMRI findings. Each patient will undergo 12 core systematic biopsy as the standard of care. Two additional biopsies for each mpMRI and PSMA PET and overlap lesion will also performed."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Cancer Diagnosis"
+            ],
+            "keywords": [
+                "psma PETCT",
+                "prostate mpMRI",
+                "prostate needle biopsy",
+                "DCFPyL PET/CT"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "PSMA PET+mpMRI",
+                    "type": "EXPERIMENTAL",
+                    "description": "PSMA PET+mpMRI guided prostate biopsy",
+                    "interventionNames": [
+                        "Diagnostic Test: PSMA PET scan",
+                        "Drug: 18F- DCFPyl Injection"
+                    ]
+                },
+                {
+                    "label": "mpMRI only",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "mpMRI only guided prostate biopsy",
+                    "interventionNames": [
+                        "Other: No PSMA PET"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "PSMA PET scan",
+                    "description": "Subjects will undergo DCFPyL PET/CT imaging and mpMRI imaging prior to the prostate biopsy. The decision for biopsy targets will be made based on the combination of the findings of mpMRI and PSMA scans. The intervention includes a mpMRI, a PSMA PET scan, and a prostate biopsy.",
+                    "armGroupLabels": [
+                        "PSMA PET+mpMRI"
+                    ],
+                    "otherNames": [
+                        "DCFPyL PET/CT imaging"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "No PSMA PET",
+                    "description": "Subjects will undergo mpMRI imaging prior to the prostate biopsy. These subjects do not undergo a PSMA PET scan prior to the prostate biopsy. The decision for biopsy targets will be made based on the findings of mpMRI. The intervention includes a mpMRI and a prostate biopsy.",
+                    "armGroupLabels": [
+                        "mpMRI only"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "18F- DCFPyl Injection",
+                    "description": "DCFPyL is a PSMA imaging ligand that was developed to enhance the detection of small lesions in the prostate or other pelvic areas. 18F- DCFPyl Injection will be administered prior to the PSMA PET/CT via an in-dwelling catheter placed in an antecubital vein or an equivalent venous access under the direct supervision of study personnel.",
+                    "armGroupLabels": [
+                        "PSMA PET+mpMRI"
+                    ],
+                    "otherNames": [
+                        "DCFPyl"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Detection of Clinically Significant Prostate Cancer",
+                    "description": "Percentage of mpMRI and PSMA PET lesions positive for clinically significant prostate cancer",
+                    "timeFrame": "12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Detection of Clinically Insignificant Prostate Cancer",
+                    "description": "Percentage of mpMRI and PSMA PET lesions positive for clinically insignificant prostate cancer.",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Difference in PSMA PET and mpMRI Clinically Significant Cancer Detection",
+                    "description": "Percentage of PSMA PET only (mpMRI negative) and PSMA PET overlapping with mpMRI lesions positive for clinically significant prostate cancer.",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Correlation of PSMA PET intensity with Clinically Significant Prostate Cancer",
+                    "description": "Correlate intensity of PSMA PET lesions with clinically significant prostate cancer.",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Correlation of AI Measures with Aggressiveness of Prostate Cancer",
+                    "description": "Correlate artificial intelligence measurement(s) (miPSMA index) of PSMA lesion(s) with aggressiveness of prostate cancer",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Adverse Events Associated with 18F- DCFPyl",
+                    "description": "Safety - Patients will be monitored for adverse events during injection and for two hours after radiotracer administration.",
+                    "timeFrame": "12 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with PI-RADS 4-5 lesion(s) on mpMRI and have elected to undergo a prostate biopsy\n* Prostate mpMRI completed within 9 months prior to enrollment\n* Patient capable of providing written informed consent\n* Patient willing to be randomized to prostate mpMRI only vs prostate mpMRI + DCFPyL PET/CT\n\nExclusion Criteria:\n\n* Less than 18 years-old at the time of radiotracer administration\n* Medical condition, serious concurrent illness, or other extenuating circumstance that, in the opinion of the Investigator, may significantly interfere with study procedures or compliance.\n* Creatinine clearance exceeding institutional requirements for prostate mpMRI",
+            "healthyVolunteers": false,
+            "sex": "MALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "William Aronson, MD",
+                    "role": "CONTACT",
+                    "phone": "310-268-3446",
+                    "email": "william.aronson@va.gov"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "William Aronson, MD",
+                    "affiliation": "VA Greater Los Angeles Healthcare System",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "VA Greater Los Angeles Healthcare System",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90045",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "William Aronson, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,435 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04321200",
+            "orgStudyIdInfo": {
+                "id": "833180"
+            },
+            "organization": {
+                "fullName": "University of Pennsylvania",
+                "class": "OTHER"
+            },
+            "briefTitle": "PANDA Gym: Automated Assessment of Neurodevelopment in Infants at Risk for Motor Disability",
+            "officialTitle": "Automated Assessment of Neurodevelopment in Infants at Risk for Motor Disability",
+            "therapeuticArea": [
+                "Pediatrics",
+                "Other"
+            ],
+            "study": "panda-gym-automated-assessment-of-neurodevelopment-in-infants-at-risk-for-motor-disability"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-11-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-07-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-07-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-12-17",
+            "studyFirstSubmitQcDate": "2020-03-23",
+            "studyFirstPostDateStruct": {
+                "date": "2020-03-25",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Pennsylvania",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Children's Hospital of Philadelphia",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Early childhood detection of motor delays or impairments provides the opportunity for early treatment which improves health outcomes. This study will use state of the art sensors combined with machine learning algorithms to develop objective, accurate, easy-to-use tools for the early scoring of deficits and lays the foundation for the early prediction of physical disability.",
+            "detailedDescription": "For children with neurodevelopmental disabilities, early treatment in the first year of life improves long-term outcomes. However, the investigators are currently held back by inadequacies of available clinical tests to measure and predict impairment. Existing tests are hard to administer, require specialized training, and have limited long-term predictive value. There is a critical need to develop an objective, accurate, easy-to-use tool for the early prediction of long-term physical disability. The field of pediatrics and infant development would greatly benefit from a quantitative score that would correlate with existing clinical measures used today to detect movement impairments in very young infants. To realize a new generation of tests that will be easy to administer, the investigators will obtain large datasets of infants playing in an instrumented gym or simply being recorded while moving in a supine posture. Video and sensor data analyses will convert movement into feature vectors based on our knowledge of the problem domain. Our approach will use machine learning to relate these feature vectors to currently recommended clinical tests or other ground truth information. The power of this design is that algorithms can utilize many aspects of movement to produce the relevant scores."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pediatric ALL",
+                "Infant Development",
+                "Neurodevelopmental Disorders"
+            ],
+            "keywords": [
+                "Infants",
+                "Neurodevelopment",
+                "Developmental Delays",
+                "Electronics",
+                "Early Intervention",
+                "Sensory and Motor",
+                "NICU",
+                "Natural Play"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1700,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cross-sectional-150 infants (atypical vs typical)",
+                    "description": "Arm (Study)1: To assess the concurrent validity of a multimodal instrumented gym with existing clinical tools. Here, using 150 infants, we will focus on converting data from an instrumented gym into estimates of the standard clinical tests.",
+                    "interventionNames": [
+                        "Diagnostic Test: PANDA Gym"
+                    ]
+                },
+                {
+                    "label": "Longitudinal cohort - 50 infants (atypical vs typical)",
+                    "description": "Arm (Study) 2: To discover the features related to long-term motor development. Here we will convert data collected longitudinally from 50 infants, using both instrumented gym and video recordings, into estimates standard clinical tests change over time and track features over developmental timescales.",
+                    "interventionNames": [
+                        "Diagnostic Test: PANDA Gym"
+                    ]
+                },
+                {
+                    "label": "Cross-sectional-1500 infants (atypical vs typical)",
+                    "description": "Arm (Study) 3: To develop a computer vision-based algorithm to quantify infant motor performance from a single-camera video. Here using video data from 1200 infants, plus those gathered from Arm 1 and Arm 2, we will extract pose data from single-camera video recordings and convert these into kinematic features and relevant scores needed to classify infant movement.",
+                    "interventionNames": [
+                        "Other: Mobile App"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "PANDA Gym",
+                    "description": "Infants will lie supine on a flat surface and will be placed in the PANDA gym where they either move by themselves or will interact with an instrumented toy. We will collect video, mat, and toy data from PANDA gym under two conditions: 1) infants playing supine without a toy and 2) infants reach, grasp and kick of the new PANDA toy. A test session will proceed as follows: The infant will be placed on his or her back at a predetermined position on the gym mat for the 2-minute no toy condition. Next, the toy will be given to the baby and adjusted for the infant to reach or kick. A caregiver will be seated at the head of the baby (out of a baby's sight) to provide comfort if needed. Testing will be done in NICU or at daycare or the rehabilitation robotics lab at University of Pennsylvania.",
+                    "armGroupLabels": [
+                        "Cross-sectional-150 infants (atypical vs typical)",
+                        "Longitudinal cohort - 50 infants (atypical vs typical)"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Mobile App",
+                    "description": "The parent or legal guardian will be consented first via the virtual rounding mobile app. They will also be asked to fill out general surveys including, a demographic survey, and a case report form, and a user feedback survey that provides relevant information, on both the family's and infant's medical history and experience. (see the flow-chart for the app). Within the caregiver survey, we will request the pediatrician (or primary care physician) name. We believe that with the baby name, caregiver name, zip code, and physician name, we will be able to locate the physician if needed.\n\nParents or legal guardians or the research will be asked to collect video via the MOBILE app. They will be instructed to ensure that the infant lies supine in no more than one-layer of tight-fitting clothing (i.e. infant onesie) while calm and awake. In all cases, we will have video recordings of the baby. They will be asked to upload the video to the app.",
+                    "armGroupLabels": [
+                        "Cross-sectional-1500 infants (atypical vs typical)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Prechtl's General Movements Assessment (GMA) score",
+                    "description": "The spontaneous movements of infants aged 1 to 5 months will be classified with the GMA. The GMA is a qualitative observational scale of infant movement. Normal infant movement is described as a writhing movement at earlier ages, characterized by small, circular and elegant movements, and fidgety movements at older ages.",
+                    "timeFrame": "1 months"
+                },
+                {
+                    "measure": "Prechtl's General Movements Assessment (GMA) score",
+                    "description": "The spontaneous movements of infants aged 1 to 5 months will be classified with the GMA. The GMA is a qualitative observational scale of infant movement. Normal infant movement is described as a writhing movement at earlier ages, characterized by small, circular and elegant movements, and fidgety movements at older ages.",
+                    "timeFrame": "2 months"
+                },
+                {
+                    "measure": "Prechtl's General Movements Assessment (GMA) score",
+                    "description": "The spontaneous movements of infants aged 1 to 5 months will be classified with the GMA. The GMA is a qualitative observational scale of infant movement. Normal infant movement is described as a writhing movement at earlier ages, characterized by small, circular and elegant movements, and fidgety movements at older ages.",
+                    "timeFrame": "3 months"
+                },
+                {
+                    "measure": "Prechtl's General Movements Assessment (GMA) score",
+                    "description": "The spontaneous movements of infants aged 1 to 5 months will be classified with the GMA. The GMA is a qualitative observational scale of infant movement. Normal infant movement is described as a writhing movement at earlier ages, characterized by small, circular and elegant movements, and fidgety movements at older ages.",
+                    "timeFrame": "4 months"
+                },
+                {
+                    "measure": "Prechtl's General Movements Assessment (GMA) score",
+                    "description": "The spontaneous movements of infants aged 1 to 5 months will be classified with the GMA. The GMA is a qualitative observational scale of infant movement. Normal infant movement is described as a writhing movement at earlier ages, characterized by small, circular and elegant movements, and fidgety movements at older ages.",
+                    "timeFrame": "5 months"
+                },
+                {
+                    "measure": "The Test of Infant Motor Performance (TIMP) score",
+                    "description": "The TIMP, a test of infant movement designed to be used at term age and up to 16 weeks after, will be used to assess infants between 0 and 4 months.",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "The Test of Infant Motor Performance (TIMP) score",
+                    "description": "The TIMP, a test of infant movement designed to be used at term age and up to 16 weeks after, will be used to assess infants between 0 and 4 months.",
+                    "timeFrame": "2 months"
+                },
+                {
+                    "measure": "The Test of Infant Motor Performance (TIMP) score",
+                    "description": "The TIMP, a test of infant movement designed to be used at term age and up to 16 weeks after, will be used to assess infants between 0 and 4 months.",
+                    "timeFrame": "3 months"
+                },
+                {
+                    "measure": "The Test of Infant Motor Performance (TIMP) score",
+                    "description": "The TIMP, a test of infant movement designed to be used at term age and up to 16 weeks after, will be used to assess infants between 0 and 4 months.",
+                    "timeFrame": "4 months"
+                },
+                {
+                    "measure": "Alberta Infant Motor Scale (AIMS) score",
+                    "description": "The AIMS is a quick motor screen that will be administered with infants 3,6 months of age.",
+                    "timeFrame": "3 months"
+                },
+                {
+                    "measure": "Alberta Infant Motor Scale (AIMS) score",
+                    "description": "The AIMS is a quick motor screen that will be administered with infants 3,6 months of age.",
+                    "timeFrame": "4 months"
+                },
+                {
+                    "measure": "Alberta Infant Motor Scale (AIMS) score",
+                    "description": "The AIMS is a quick motor screen that will be administered with infants 3,6 months of age.",
+                    "timeFrame": "5 months"
+                },
+                {
+                    "measure": "Alberta Infant Motor Scale (AIMS) score",
+                    "description": "The AIMS is a quick motor screen that will be administered with infants 3,6 months of age.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Hammersmith Infant Neurological Examination (HINE) score",
+                    "description": "The HINE, an examination of general infant neurological function and movement, will be administered with infants at all ages.",
+                    "timeFrame": "1 months"
+                },
+                {
+                    "measure": "Hammersmith Infant Neurological Examination (HINE) score",
+                    "description": "The HINE, an examination of general infant neurological function and movement, will be administered with infants at all ages.",
+                    "timeFrame": "2 months"
+                },
+                {
+                    "measure": "Hammersmith Infant Neurological Examination (HINE) score",
+                    "description": "The HINE, an examination of general infant neurological function and movement, will be administered with infants at all ages.",
+                    "timeFrame": "3 months"
+                },
+                {
+                    "measure": "Hammersmith Infant Neurological Examination (HINE) score",
+                    "description": "The HINE, an examination of general infant neurological function and movement, will be administered with infants at all ages.",
+                    "timeFrame": "4 months"
+                },
+                {
+                    "measure": "Hammersmith Infant Neurological Examination (HINE) score",
+                    "description": "The HINE, an examination of general infant neurological function and movement, will be administered with infants at all ages.",
+                    "timeFrame": "5 months"
+                },
+                {
+                    "measure": "Ability to predict The Hammersmith Infant Neurological Examination (HINE) score",
+                    "description": "The regression R-squared resulting from regression algorithm to predict the Test of Infant Motor Performance (TIMP)",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Ability to predict The Test of Infant Motor Performance (TIMP) score",
+                    "description": "The regression R-squared resulting from regression algorithm to predict the Test of Infant Motor Performance (TIMP)",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Ability to predict the Alberta Infant Motor Scale (AIMS) score",
+                    "description": "The regression R-squared resulting from a regression algorithm to predict the Alberta Infant Motor Scale (AIMS) score",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Average Path Length",
+                    "description": "The average path length of the center of pressure during a 2 minute session on the mat",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "Average Path Length",
+                    "description": "The average path length of the center of pressure during a 2 minute session on the mat",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Toy contact time",
+                    "description": "Average voluntary contact time with the Toy - including sum of contact time with each arm and each leg",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "Toy contact time",
+                    "description": "Average voluntary contact time with the Toy - including sum of contact time with each arm and each leg",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Toy contact frequency",
+                    "description": "Average # of voluntary contacts with the Toy - mean of with each arm and each leg",
+                    "timeFrame": "1 month"
+                },
+                {
+                    "measure": "Toy contact frequency",
+                    "description": "Average # of voluntary contacts with the Toy - mean of with each arm and each leg",
+                    "timeFrame": "6 month"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Infants, male and female, between 0-6 months (Infants older than 6 months before initial enrollment will be excluded).\n\n* Infants with early brain injury (EBI):\n\n  * Hydrocephalus\n  * Hypoxic-ischemic encephalopathy (HIE)\n  * Periventricular leukomalacia (PVL)\n  * Intraventricular hemorrhage (IVH)\n  * Stroke\n* Healthy infants (controls):\n\n  o No history of early brain injury (EBI)\n* Infants without EBI/risk for future disability:\n\n  * Infants without known brain injuries, but with a history of preterm birth less than 32-week gestation with significant medical problems, difficulty eating, or who lack head control at 4 months of age or later will be classified as moderate risk.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "0 Months",
+            "maximumAge": "6 Months",
+            "stdAges": [
+                "CHILD"
+            ],
+            "studyPopulation": "Study 1: 150 infants (75 with early brain injury, 75 Control). Age 1-6 months. Study 2: 50 infants (25 with early brain injury, 25 Control). Age 1 month. Study 3: 1200 infants (400 with EBI, 400 preterm without EBI/risk for future disability, 400 controls) from video data. Age 1-6 months.\n\nInfants without EBI/risk for future disability: Infants without known brain injuries, but with a history of preterm birth less than 32 week gestation, significant medical problems, difficulty eating, or who lack head control at 4 months of age or later will be classified as moderate risk.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Michelle J Johnson, PhD",
+                    "role": "CONTACT",
+                    "phone": "215-893-2665",
+                    "email": "johnmic@pennmedicine.upenn.edu"
+                },
+                {
+                    "name": "Laura Prosser, PhD",
+                    "role": "CONTACT",
+                    "phone": "215-590-2495",
+                    "email": "ProsserL@email.chop.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Michelle J Johnson, PhD",
+                    "affiliation": "The University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Childrens Hospital of Philadelphia",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Noor Ruwaih",
+                            "role": "CONTACT",
+                            "phone": "267-426-7032",
+                            "email": "ruwaihn@email.chop.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "23962350",
+                    "type": "BACKGROUND",
+                    "citation": "Novak I, McIntyre S, Morgan C, Campbell L, Dark L, Morton N, Stumbles E, Wilson SA, Goldsmith S. A systematic review of interventions for children with cerebral palsy: state of the evidence. Dev Med Child Neurol. 2013 Oct;55(10):885-910. doi: 10.1111/dmcn.12246. Epub 2013 Aug 21."
+                },
+                {
+                    "pmid": "22142216",
+                    "type": "BACKGROUND",
+                    "citation": "Noble Y, Boyd R. Neonatal assessments for the preterm infant up to 4 months corrected age: a systematic review. Dev Med Child Neurol. 2012 Feb;54(2):129-39. doi: 10.1111/j.1469-8749.2010.03903.x. Epub 2011 Dec 5."
+                },
+                {
+                    "pmid": "27047429",
+                    "type": "BACKGROUND",
+                    "citation": "Einspieler C, Bos AF, Libertus ME, Marschik PB. The General Movement Assessment Helps Us to Identify Preterm Infants at Risk for Cognitive Dysfunction. Front Psychol. 2016 Mar 22;7:406. doi: 10.3389/fpsyg.2016.00406. eCollection 2016."
+                },
+                {
+                    "pmid": "15791916",
+                    "type": "BACKGROUND",
+                    "citation": "Rydz D, Shevell MI, Majnemer A, Oskoui M. Developmental screening. J Child Neurol. 2005 Jan;20(1):4-21. doi: 10.1177/08830738050200010201."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000065886",
+                    "term": "Neurodevelopmental Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M30644",
+                    "name": "Neurodevelopmental Disorders",
+                    "asFound": "Neurodevelopmental Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1134",
+                    "name": "Childhood Acute Lymphoblastic Leukemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4392",
+                    "name": "PANDAS",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

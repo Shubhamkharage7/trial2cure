@@ -1,0 +1,368 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05634005",
+            "orgStudyIdInfo": {
+                "id": "IRB_00156498"
+            },
+            "organization": {
+                "fullName": "University of Utah",
+                "class": "OTHER"
+            },
+            "briefTitle": "Clinical Decision Support for Blood Transfusions to Improve Guideline Adherence",
+            "officialTitle": "Clinical Decision Support for Blood Transfusions to Improve Guideline Adherence",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "clinical-decision-support-for-blood-transfusions-to-improve-guideline-adherence"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-02-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-10-17",
+            "studyFirstSubmitQcDate": "2022-11-21",
+            "studyFirstPostDateStruct": {
+                "date": "2022-12-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Ryan Metcalf",
+                "investigatorTitle": "Associate Professor of Pathology",
+                "investigatorAffiliation": "University of Utah"
+            },
+            "leadSponsor": {
+                "name": "University of Utah",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Determine whether clinical decision support (best practice advisory) improves provider adherence to transfusion guidelines for all four major blood components (red blood cells, plasma, platelets, and cryoprecipitate) using a randomized study design to reduce risk of bias. Alerts will be visible to the experimental ordering provider group, while they will not be visible to the control. Both groups still have access to information about best practices: local clinical transfusion guidelines are available and education on blood transfusion best practices will continue regardless of randomization assignment."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Anemia",
+                "Thrombocytopenia",
+                "Coagulopathy, Mild",
+                "Hypofibrinogenemia"
+            ],
+            "keywords": [
+                "Transfusion",
+                "Clinical Decision Support"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 10000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Ordering Providers Assigned to Visible Clinical Decision Support Alerts",
+                    "type": "EXPERIMENTAL",
+                    "description": "Clinical decision support alert will fire and become visible to the ordering provider in the electronic health record if blood product(s) are ordered out of accordance with guidelines. Information about transfusion guidelines and best practices will be sent to providers prior to starting the study and will be available on an internal website.",
+                    "interventionNames": [
+                        "Behavioral: Clinical Decision Support"
+                    ]
+                },
+                {
+                    "label": "Ordering Providers Assigned to No Visible Clinical Decision Support Alerts",
+                    "type": "NO_INTERVENTION",
+                    "description": "Clinical decision support alert will not be visible to the ordering provider in the electronic health record if blood product(s) are ordered out of accordance with guidelines. Information about transfusion guidelines and best practices will be sent to providers prior to starting the study and will be available on an internal website."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Clinical Decision Support",
+                    "description": "In blood product order entry within the electronic health record, the ordering provider is required to select an indication for the blood product order. If the patient's laboratory values are not in line with the guideline indication selected, a clinical decision support alert will fire and be shown to the ordering provider. This alert will inform the provider that the order is outside institutional guidelines and the provider has the option to cancel the order (or bypass the order and select a reason for proceeding with the order).",
+                    "armGroupLabels": [
+                        "Ordering Providers Assigned to Visible Clinical Decision Support Alerts"
+                    ],
+                    "otherNames": [
+                        "Best Practice Advisory"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of blood components transfused that met clinical decision support alert criteria",
+                    "description": "Number of blood components transfused (includes red blood cell, platelet, plasma, and cryoprecipitate pools) that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of red blood cell components transfused that met clinical decision support alert criteria",
+                    "description": "Number of red blood cell components transfused that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of platelet components transfused that met clinical decision support alert criteria",
+                    "description": "Number of platelet components transfused that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of plasma components transfused that met clinical decision support alert criteria",
+                    "description": "Number of plasma components transfused that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of cryoprecipitate component pools transfused that met clinical decision support alert criteria",
+                    "description": "Number of cryoprecipitate component pools transfused that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Number of blood components ordered that met clinical decision support alert criteria",
+                    "description": "Number of blood components ordered (includes red blood cell, platelet, plasma, and cryoprecipitate pools) that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of red blood cell components ordered that met clinical decision support alert criteria",
+                    "description": "Number of red blood cell components ordered that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of platelet components ordered that met clinical decision support alert criteria",
+                    "description": "Number of platelet components ordered that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of plasma components ordered that met clinical decision support alert criteria",
+                    "description": "Number of plasma components ordered that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of cryoprecipitate component pools ordered that met clinical decision support alert criteria",
+                    "description": "Number of cryoprecipitate component pools ordered that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of blood components transfused",
+                    "description": "Number of blood components transfused (includes red blood cell, platelet, plasma, and cryoprecipitate pools) that met criteria for clinical decision support alerts to fire",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of red blood cell components transfused",
+                    "description": "Number of red blood cell components transfused",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of platelet components transfused",
+                    "description": "Number of platelet components transfused",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of plasma components transfused",
+                    "description": "Number of plasma components transfused",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Number of cryoprecipitate component pools transfused",
+                    "description": "Number of cryoprecipitate component pools transfused",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                },
+                {
+                    "measure": "Blood component cost difference between clinical decision support eligible transfusions by study arm",
+                    "description": "Blood component acquisition cost difference of completed alert eligible transfusions between study arms",
+                    "timeFrame": "Through study completion, an average of 12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n- Ordering providers that order at least one blood product in the electronic health record\n\nExclusion Criteria:\n\n* Any individual without privileges to place an initial order for blood product(s)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ryan Metcalf, MD",
+                    "role": "CONTACT",
+                    "phone": "8015852010",
+                    "email": "ryan.metcalf@path.utah.edu"
+                },
+                {
+                    "name": "Kensaku Kawamoto, MD",
+                    "role": "CONTACT",
+                    "email": "kensaku.kawamoto@utah.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ryan Metcalf, MD",
+                    "affiliation": "University of Utah",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Utah",
+                    "status": "RECRUITING",
+                    "city": "Salt Lake City",
+                    "state": "Utah",
+                    "zip": "84132",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ryan Metcalf, MD",
+                            "role": "CONTACT",
+                            "phone": "801-585-2010",
+                            "email": "ryan.metcalf@path.utah.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.76078,
+                        "lon": -111.89105
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "30860564",
+                    "type": "BACKGROUND",
+                    "citation": "Mueller MM, Van Remoortel H, Meybohm P, Aranko K, Aubron C, Burger R, Carson JL, Cichutek K, De Buck E, Devine D, Fergusson D, Follea G, French C, Frey KP, Gammon R, Levy JH, Murphy MF, Ozier Y, Pavenski K, So-Osman C, Tiberghien P, Volmink J, Waters JH, Wood EM, Seifried E; ICC PBM Frankfurt 2018 Group. Patient Blood Management: Recommendations From the 2018 Frankfurt Consensus Conference. JAMA. 2019 Mar 12;321(10):983-997. doi: 10.1001/jama.2019.0554."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "We are not planning to make individual participant data (IPD) available to other researchers."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013921",
+                    "term": "Thrombocytopenia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001791",
+                    "term": "Blood Platelet Disorders"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000095542",
+                    "term": "Cytopenia"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4070",
+                    "name": "Anemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16680",
+                    "name": "Thrombocytopenia",
+                    "asFound": "Thrombocytopenia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21977",
+                    "name": "Hemostatic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5059",
+                    "name": "Blood Coagulation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5072",
+                    "name": "Blood Platelet Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3170",
+                    "name": "Cytopenia",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,418 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05316688",
+            "orgStudyIdInfo": {
+                "id": "RG1122110"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2022-01734",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                },
+                {
+                    "id": "FHIRB0020096",
+                    "type": "OTHER",
+                    "domain": "Fred Hutch/University of Washington Cancer Consortium"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Washington",
+                "class": "OTHER"
+            },
+            "briefTitle": "A Fluorescent Tumor Marking Agent, Tozuleristide, for Imaging Oral Cavity Squamous Cell Cancer and High-Grade Oral Cavity Dysplasia During Surgery",
+            "officialTitle": "Intraoperative Visualization of Oral Cavity Squamous Cell Carcinoma and High-Grade Dysplasia With Tozuleristide, a Fluorescent Tumor Marking Agent",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "a-fluorescent-tumor-marking-agent-tozuleristide-for-imaging-oral-cavity-squamous-cell-cancer-and-high-grade-oral-cavity-dysplasia-during-surgery"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "startDateStruct": {
+                "date": "2024-04-17",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-01-20",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-01-20",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-17",
+            "studyFirstSubmitQcDate": "2022-03-30",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Washington",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Blaze Bioscience Inc.",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This phase I/II trial studies the side effects of tozuleristide in imaging oral cavity squamous cell cancer and high-grade oral cavity dysplasia during surgery. Tozuleristide is an imaging agent that specifically binds to tumor cells. When exposed to near-infrared light, tozuleristide causes tumor cells to fluoresce (light up), so that surgeons may better distinguish tumor cells from healthy cells during surgery.",
+            "detailedDescription": "OUTLINE:\n\nBeginning 1 hour before surgery, patients receive tozuleristide intravenously (IV) over 1-5 minutes. Patients then surgical resection per standard of care and undergo near infrared (NIR) imaging with standard of care device."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Oral Cavity Squamous Cell Carcinoma",
+                "Stage I Lip and Oral Cavity Cancer AJCC v8",
+                "Stage II Lip and Oral Cavity Cancer AJCC v8",
+                "Stage III Lip and Oral Cavity Cancer AJCC v8",
+                "Stage IVA Lip and Oral Cavity Cancer AJCC v8"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 15,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Diagnostic (tozuleristide, surgery, NIR imaging)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Beginning 1 hour before surgery, patients receive tozuleristide intravenously (IV) over 1-5 minutes. Patients then surgical resection per standard of care and undergo near infrared (NIR) imaging with standard of care device.",
+                    "interventionNames": [
+                        "Procedure: Near Infrared Imaging",
+                        "Procedure: Therapeutic Conventional Surgery",
+                        "Drug: Tozuleristide"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Near Infrared Imaging",
+                    "description": "Undergo NIR imaging",
+                    "armGroupLabels": [
+                        "Diagnostic (tozuleristide, surgery, NIR imaging)"
+                    ],
+                    "otherNames": [
+                        "Near-Infrared Imaging",
+                        "NIR Imaging"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Therapeutic Conventional Surgery",
+                    "description": "Undergo surgery",
+                    "armGroupLabels": [
+                        "Diagnostic (tozuleristide, surgery, NIR imaging)"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Tozuleristide",
+                    "description": "Given IV",
+                    "armGroupLabels": [
+                        "Diagnostic (tozuleristide, surgery, NIR imaging)"
+                    ],
+                    "otherNames": [
+                        "BLZ-100"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Incidence of adverse events (AEs)",
+                    "description": "Adverse events will be summarized as the number and percentage of patients with each type of adverse event, per Criteria for Adverse Events version 5.0.",
+                    "timeFrame": "7-21 days after drug administration"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of subjects without tumor fluorescence after receiving tozuleristide",
+                    "timeFrame": "Up to 12 months"
+                },
+                {
+                    "measure": "Sensitivity of tozuleristide fluorescence to detect tumor in tissue biopsies",
+                    "description": "Will be estimated by a repeated measure logistic regression modeling the probability of positive tumor. The model includes an exchangeable working correlation structure to account for potential correlations of biopsies within subject for the tumor-positive tissue biopsies. A general estimating equation (GEE) method will be used to estimate the regression parameters.",
+                    "timeFrame": "Up to 12 months"
+                },
+                {
+                    "measure": "Specificity of tozuleristide fluorescence to detect tumor in tissue biopsies",
+                    "description": "Will be estimated by a repeated measure logistic regression modeling the probability of negative tumor. The model includes an exchangeable working correlation structure to account for potential correlations of biopsies within subject for the tumor-positive tissue biopsies. A GEE method will be used to estimate the regression parameters. The repeated measures logistic regression will model the probability of tumor-negative biopsies.",
+                    "timeFrame": "Up to 12 months"
+                },
+                {
+                    "measure": "Positive predictive value of tozuleristide fluorescence to detect tumor in tissue biopsies",
+                    "timeFrame": "Up to 12 months"
+                },
+                {
+                    "measure": "Negative predictive value of tozuleristide fluorescence to detect tumor in tissue biopsies",
+                    "timeFrame": "Up to 12 months"
+                },
+                {
+                    "measure": "Achievement of negative margins in tozuleristide-guided oral cavity tumor excision",
+                    "description": "To investigate the accuracy of tozuleristide fluorescent imaging in identifying tumor and achieving negative margins during excision of oral cavity squamous cell carcinoma and high-grade dysplasia.",
+                    "timeFrame": "Up to 12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult subjects age \\>= 18 years (yr)\n* Subjects must have suspected or confirmed oral cavity dysplasia or cT1-4 squamous cell carcinoma for which surgical excision is deemed clinically indicated by the treating physician. Histology confirmation not required prior to surgery\n* Able to provide written informed consent\n* If of child-bearing potential, agree to the continued use of 2 reliable forms of contraception from study enrollment through 30 days after receiving the study product. Male subjects must agree to use 2 reliable methods of contraception simultaneously for 30 days after receiving the study product if their partner is of child-bearing potential\n* Available for all study visits and able to comply with all study requirements\n\nExclusion Criteria:\n\n* Known or suspected sensitivity to indocyanine green\n* In the opinion of the treating physician, subject has received photosensitizing medication that could interfere or confound study results\n* Any current medications with the potential to generate fluorescence or photochemical reaction\n* Enrolled in any other ongoing study\n* Currently lactating or breastfeeding\n* Positive pregnancy test or planning to become pregnant within 30 days (d) of receiving tozuleristide\n* Any current condition, including psychological and social situations which, in the opinion of the investigator, would impact adversely on the subject or the interpretation of the study data\n* Creatinine clearance \\< 60 mL/min\n* Aspartate aminotransferase (AST) \\> 1.5 x upper limit of normal (ULN)\n* Alanine aminotransferase (ALT) \\> 1.5 x ULN\n* Bilirubin \\> 1.5 x ULN",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Emily Marchiano",
+                    "role": "CONTACT",
+                    "phone": "206-598-5000",
+                    "email": "ejm1014@uw.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Emily Marchiano",
+                    "affiliation": "Fred Hutch/University of Washington Cancer Consortium",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Fred Hutch/University of Washington Cancer Consortium",
+                    "status": "RECRUITING",
+                    "city": "Seattle",
+                    "state": "Washington",
+                    "zip": "98109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Emily Marchiano",
+                            "role": "CONTACT",
+                            "phone": "206-598-5000",
+                            "email": "ejm1014@uw.edu"
+                        },
+                        {
+                            "name": "Emily Marchiano",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.60621,
+                        "lon": -122.33207
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000002294",
+                    "term": "Carcinoma, Squamous Cell"
+                },
+                {
+                    "id": "D000009062",
+                    "term": "Mouth Neoplasms"
+                },
+                {
+                    "id": "D000077195",
+                    "term": "Squamous Cell Carcinoma of Head and Neck"
+                },
+                {
+                    "id": "D000008048",
+                    "term": "Lip Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000018307",
+                    "term": "Neoplasms, Squamous Cell"
+                },
+                {
+                    "id": "D000006258",
+                    "term": "Head and Neck Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009059",
+                    "term": "Mouth Diseases"
+                },
+                {
+                    "id": "D000009057",
+                    "term": "Stomatognathic Diseases"
+                },
+                {
+                    "id": "D000008047",
+                    "term": "Lip Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5550",
+                    "name": "Carcinoma, Squamous Cell",
+                    "asFound": "Squamous Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12022",
+                    "name": "Mouth Neoplasms",
+                    "asFound": "Oral Cavity Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1689",
+                    "name": "Squamous Cell Carcinoma of Head and Neck",
+                    "asFound": "Oral Cavity Squamous Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11050",
+                    "name": "Lip Neoplasms",
+                    "asFound": "Lip and oral cavity cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20451",
+                    "name": "Neoplasms, Squamous Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12019",
+                    "name": "Mouth Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12017",
+                    "name": "Stomatognathic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4265",
+                    "name": "Oral Cancer",
+                    "asFound": "Lip and oral cavity cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3466",
+                    "name": "Lip and Oral Cavity Cancer",
+                    "asFound": "Lip and oral cavity cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T4267",
+                    "name": "Oral Squamous Cell Carcinoma",
+                    "asFound": "Oral Cavity Squamous Cell Carcinoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC07",
+                    "name": "Mouth and Tooth Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

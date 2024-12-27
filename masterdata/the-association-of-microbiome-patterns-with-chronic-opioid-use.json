@@ -1,0 +1,264 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05304403",
+            "orgStudyIdInfo": {
+                "id": "801745"
+            },
+            "organization": {
+                "fullName": "University of California, San Diego",
+                "class": "OTHER"
+            },
+            "briefTitle": "The Association of Microbiome Patterns With Chronic Opioid Use",
+            "officialTitle": "Identifying Associations in Gut Microbiome Patterns in Patients With Chronic Opioid Use Compared to Healthy Controls",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "the-association-of-microbiome-patterns-with-chronic-opioid-use"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-04-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-22",
+            "studyFirstSubmitQcDate": "2022-03-22",
+            "studyFirstPostDateStruct": {
+                "date": "2022-03-31",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-07-27",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Rodney Gabriel",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "University of California, San Diego"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Diego",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The United States is in the midst of an opioid epidemic, with the number of opioid-related deaths having risen six-fold since 1999. Chronic pain imposes a tremendous economic burden of up to US$635 billion per year in terms of direct costs (such as the costs of treatment) and indirect costs (such as lost productivity and time away from work). We need to better understand individual characteristics that may put patients at risk for chronic opioid use. Recently, the relationship between gut microbiome and diseases of the central and peripheral nervous systems has received increasing attention. New evidence suggests that gut microbiota may also play a critical role in many types of chronic pain, including inflammatory pain, neuropathic pain, and opioid tolerance. Many signaling molecules derived from gut microbiota, such as pathogen-associated molecular patterns, metabolites, and neurotransmitters, act on receptors that regulate the peripheral and central sensitization, which in turn mediate the development of chronic pain. Gut microbiota-derived mediators serve as critical modulators for the induction of peripheral sensitization, directly or indirectly regulating the excitability of primary nociceptive neurons. Given the strong evidence supporting gut microbiome's involvement in pain pathways, there is a need to develop studies that characterize the differences in gut microbiome between chronic pain patients requiring opioids versus healthy controls. The objective of this proposal is to perform a pilot study measuring the predictive ability of the gut microbiome with chronic opioid use - this will then lay the groundwork to adequately power a larger funded prospective study.",
+            "detailedDescription": "The investigators hypothesize that there will be distinct characteristics in the composition of the microbiome in chronic opioid users versus healthy controls (controls identified from national database). Consenting patients (n\\~ 100) - who will be identified in the institution's chronic pain clinic - will provide fecal samples for microbiome composition analysis. In addition, additional data will be collected including patient age, sex, body mass index, comorbidities, opioid dosing/frequency, pain scores, and pain characteristics. This additional information will be ascertained by a basic intake form and the Brief Pain Inventory. The investigators have access to the Human Microbiome Project Database and will obtain matched samples to represent healthy controls (retrospective publicly available database).\n\nConsent: After pre-screening eligible patients from the chronic pain clinic, patients will either be consented in person (at their clinic visit), which in that case they will fill out the intake surveys in-person and be provided to take home a microbiome kit. The kit will require patients to swab their stool. This will then be mailed back to the invsestigators. All shipping will be pre-paid by the research team. Patients may also be consented via the phone, in which case, the consent form will be signed via HIPAA-secure DocuSign. Surveys will then be sent to patient via email through Redcap services. The microbiome kit will be mailed to the patient's residence.\n\nStatistical Analysis: The microbiome data is highly dimensional and will therefore be analyzed using several approaches. Compositional data will be assessed using the QIIME2 pipeline where alpha and beta diversity measures, and taxonomic relative abundances will be compared using standard non-parametric and linear models (Wilcoxon Rank-Sum and Kruskal-Wallis tests are most common based on standard microbiome data). Secondary analyses will include comparing microbiome compositions among subsets of chronic opioid users based on their overall daily dosing.\n\nSample Size Calculation: As this is a pilot study, the investigators did not perform a power analysis. Rather, they will recruit 100 subjects. The results from this study will be used to help design and power a larger funded prospective study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Chronic Pain",
+                "Opioid Use"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "fecal sample"
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Chronic Opioid User",
+                    "description": "Patients identified to have chronic opioid use (identified in chronic pain clinic)"
+                },
+                {
+                    "label": "Healthy Control",
+                    "description": "These patients will not be actively recruited in this study. The investigators will use national microbiome dataset as a comparison."
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Microbiome patterns",
+                    "description": "Identify patterns in microbiome between chronic opioid users and healthy controls",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Microbiome patterns",
+                    "description": "Identify patterns in microbiome patterns between high opioid users (defined as greater than or equal to the median daily morphine equivalents) versus low opioid users (less than the median morphine equivalents in the group)",
+                    "timeFrame": "0 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients (age greater than or equal to 18 years old) on chronic opioids (use of any amount of opioids for at least 3 months for a chronic pain condition)\n\nExclusion Criteria:\n\n* No recent surgery within the last 3 months\n* No antibiotic use within the last 3 months",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Chronic pain patients will be identified at scheduled appointments with their chronic pain physician at UCSD. The investigators will recruit any patient eligible based on the above inclusion and exclusion criteria.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Rodney A Gabriel, MD",
+                    "role": "CONTACT",
+                    "phone": "8582493660",
+                    "email": "ragabriel@health.ucsd.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Rodney Gabriel, MD",
+                    "affiliation": "University of California, San Diego",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of California San Diego",
+                    "status": "RECRUITING",
+                    "city": "La Jolla",
+                    "state": "California",
+                    "zip": "92037",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Rodney A Gabriel, MD",
+                            "role": "CONTACT",
+                            "phone": "858-663-7747",
+                            "email": "ragabriel@health.ucsd.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.84727,
+                        "lon": -117.2742
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "available upon reasonable request"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000059350",
+                    "term": "Chronic Pain"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010146",
+                    "term": "Pain"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29442",
+                    "name": "Chronic Pain",
+                    "asFound": "Chronic Pain",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4033",
+                    "name": "Analgesics, Opioid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

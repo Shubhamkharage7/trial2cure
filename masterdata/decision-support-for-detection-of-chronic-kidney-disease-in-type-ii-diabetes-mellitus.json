@@ -1,0 +1,413 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05342545",
+            "orgStudyIdInfo": {
+                "id": "2022P000778"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Decision Support for Detection of Chronic Kidney Disease in Type II Diabetes Mellitus",
+            "officialTitle": "Electronic Alert-Based Computerized Decision Support to Increase Detection of Chronic Kidney Disease in Patients With Type II Diabetes Mellitus (CKD-DETECT)",
+            "acronym": "CKD-DETECT",
+            "therapeuticArea": [
+                "Endocrinology",
+                "Nephrology and Renal Diseases"
+            ],
+            "study": "decision-support-for-detection-of-chronic-kidney-disease-in-type-ii-diabetes-mellitus"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-12-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-05-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-04-18",
+            "studyFirstSubmitQcDate": "2022-04-18",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Gregory Piazza",
+                "investigatorTitle": "Associate Director, Thrombosis Research Group",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Bayer",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "While data from the National Health and Nutrition Examination Survey (NHANES) estimate that 36.9% of patients with diabetes have CKD, only approximately 10% of patients are aware of their kidney disease. In its 2020 Standards of Medical Care in Diabetes, the ADA recommends that all patients with type II diabetes (T2DM) undergo annual measurement of urine albumin-to-creatinine ratio (UACR). The National Kidney Foundation (NKF) has also proposed an update to the requirements for assessment of adults with diabetes including both an estimated glomerular filtration rate (eGFR) and uACR. The goal of accurately identifying patients with T2DM and CKD is to help providers intervene at an earlier stage of kidney impairment, improve renal outcomes, and reduce associated healthcare costs.\n\nFailure to adopt these guideline recommendations has widespread implications, including underestimation of the burden of CKD in the T2DM population, delays in diagnosis of renal impairment, and ultimately, underutilization of therapies that could improve clinical outcomes. This single-center, 400-patient, randomized controlled trial will assess the impact of an EPIC Best Practice Advisory (BPA; alert-based CDS tool) on guideline-directed assessment for CKD using UACR in patients with T2DM who have not had a UACR in the past year.",
+            "detailedDescription": "The study is a 400-patient single-center Quality Improvement Initiative in the form of a randomized controlled trial of an EPIC EHR BPA. The allocation ratio will be 1:1 for an EPIC BPA versus no notification with randomization by Attending Physician of Record, using odd or even provider ID number, to minimize cluster-effect. While the study will randomize patients by Attending Physician of Record, the observational unit will be the patient.\n\nThe study will use a BPA within EPIC that will integrate with the EHR medical history, visit diagnoses, and problem list to identify outpatients with a diagnosis of T2DM and without an established diagnosis of CKD. The BPA will then search the laboratory results section of the EHR for a UACR result within the last year. If the patient with T2DM has not had a UACR result within the past year, he or she will be randomly assigned to the BPA intervention group (alert group) or the control (no alert) group according the Attending Physician of Record's provider ID number. For patients randomly assigned to the BPA intervention group (alert group), an on-screen electronic alert will be issued during the outpatient clinical encounter that notifies the responsible provider that his or her T2DM patient should be evaluated for CKD with UACR. The provider then will be given on-screen options to either order a UACR or follow a link to learn more about CKD assessment in T2DM."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Chronic Kidney Diseases",
+                "Type2Diabetes"
+            ],
+            "keywords": [
+                "chronic kidney disease",
+                "diabetes",
+                "urine albumin to creatinine ratio"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "1:1 allocation ratio, randomized controlled trial",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "QUADRUPLE",
+                    "maskingDescription": "double-blind",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Alert",
+                    "type": "EXPERIMENTAL",
+                    "description": "For patients randomly assigned to the BPA intervention group (alert group), an on-screen electronic alert will be issued during the outpatient clinical encounter that notifies the responsible provider that his or her T2DM patient should be evaluated for CKD with UACR assessment. The provider then will be given on-screen options to either order a UACR assessment or follow a link to learn more about CKD assessment in T2DM. Should the alert-recipient elect to omit an order for UACR assessment and decline to follow a link to learn more about CKD assessment in T2DM, the provider will be able to continue on with clinic visit-related EHR documentation but will need to select an acknowledge reason (rationale) for not following the evidence-based clinical practice recommendation highlighted in the alert.",
+                    "interventionNames": [
+                        "Other: Alert-based computerized decision support"
+                    ]
+                },
+                {
+                    "label": "No Alert",
+                    "type": "NO_INTERVENTION",
+                    "description": "Providers in the \"No Alert\" group will not receive any on-screen notification"
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Alert-based computerized decision support",
+                    "description": "For patients randomly assigned to the BPA intervention group (alert group), an on-screen electronic alert will be issued during the outpatient clinical encounter that notifies the responsible provider that his or her T2DM patient should be evaluated for CKD with UACR assessment. The provider then will be given on-screen options to either order a UACR assessment or follow a link to learn more about CKD assessment in T2DM. Should the alert-recipient elect to omit an order for UACR assessment and decline to follow a link to learn more about CKD assessment in T2DM, the provider will be able to continue on with clinic visit-related EHR documentation but will need to select an acknowledge reason (rationale) for not following the evidence-based clinical practice recommendation highlighted in the alert.",
+                    "armGroupLabels": [
+                        "Alert"
+                    ],
+                    "otherNames": [
+                        "EPIC Best Practice Advisory"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Frequency of UACR testing order for CKD in patients with T2DM who have not had such testing within the past year",
+                    "description": "Review the order entry section of the Electronic Health Record (EPIC) to make this determination",
+                    "timeFrame": "90 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Frequency of new clinical diagnosis of CKD in patients with T2DM who have not had UACR assessment within the past year",
+                    "description": "Review the medical history and problem list sections of the Electronic Health Record (EPIC) to make this determination",
+                    "timeFrame": "90 days"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Frequency of prescription of medical therapy for CKD in patients with T2DM, including GLP-1 receptor agonists, renin-angiotensin system antagonists (ACEi or ARB), SGLT2 inhibitors, statins, and emerging anti-inflammatory/anti-fibrotic agents",
+                    "description": "Review the order entry system for new prescriptions",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Frequency of referral to a nephrologist",
+                    "description": "Review the order entry system for new referrals",
+                    "timeFrame": "90 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* BWH outpatients at least 18 years of age who are evaluated in Primary Care or Brigham Medical Specialties Clinics (Cardiovascular Medicine, Endocrinology, and Diabetology) AND\n* have a diagnosis of T2DM AND\n* have not had a UACR measured in the past year\n\nExclusion Criteria:\n\n* have an established diagnosis of CKD (medical history, problem list, or visit diagnosis entry in the EHR) OR\n* who are undergoing renal replacement therapy (either hemodialysis or peritoneal dialysis) as UACR will be unlikely to result in diagnosis change or therapeutic intervention OR\n* who have undergone renal transplantation",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Gregory Piazza, MD, MS",
+                    "role": "CONTACT",
+                    "phone": "6177326984",
+                    "email": "gpiazza@bwh.harvard.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Gregory Piazza, MD, MS",
+                            "role": "CONTACT",
+                            "phone": "617-732-6984",
+                            "email": "gpiazza@bwh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000051436",
+                    "term": "Renal Insufficiency, Chronic"
+                },
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000003924",
+                    "term": "Diabetes Mellitus, Type 2"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                },
+                {
+                    "id": "D000051437",
+                    "term": "Renal Insufficiency"
+                },
+                {
+                    "id": "D000002908",
+                    "term": "Chronic Disease"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "asFound": "Kidney Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7119",
+                    "name": "Diabetes Mellitus, Type 2",
+                    "asFound": "Type II Diabetes Mellitus",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "asFound": "Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26717",
+                    "name": "Renal Insufficiency, Chronic",
+                    "asFound": "Chronic Kidney Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26718",
+                    "name": "Renal Insufficiency",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6147",
+                    "name": "Chronic Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "asFound": "Chronic",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

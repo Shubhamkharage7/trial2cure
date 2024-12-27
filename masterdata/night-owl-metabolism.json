@@ -1,0 +1,399 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06507722",
+            "orgStudyIdInfo": {
+                "id": "IRB00428863"
+            },
+            "organization": {
+                "fullName": "Johns Hopkins University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Night Owl Metabolism",
+            "officialTitle": "Night Owl Metabolism: Investigating the Impact of Chronotype on Glucose Metabolism in Youth",
+            "therapeuticArea": [
+                "Endocrinology",
+                "Other"
+            ],
+            "study": "night-owl-metabolism"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-09-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2029-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2030-01-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-07-12",
+            "studyFirstSubmitQcDate": "2024-07-12",
+            "studyFirstPostDateStruct": {
+                "date": "2024-07-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-17",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-19",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Johns Hopkins University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Lawson Wilkins Pediatric Endocrine Society",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The proposed study uses a novel and rigorous randomized cross-over study design in youth (17-23y) with late and non-late chronotype (n=35 per group) to assess the glycemic effect of \"aligning\" an oral glucose tolerance test (OGTT) or first-meal of day to a subject's chronotype. Both groups will undergo 2 OGTTs (aligned and mis-aligned with chronotype) to compare glucose tolerance and insulin sensitivity within-subject (primary outcome) and between groups (Aim 1). Then, youth will also undergo two standardized meals (aligned and mis-aligned with chronotype) while wearing continuous glucose monitoring to compare post-prandial glucose excursions within-subject and between groups (Aim 2). A pilot Exploratory Aim 3 (n=12 per group) will investigate delayed melatonin patterns under dim-light as a potential pathophysiologic mechanism behind abnormal glucose tolerance in youth with late chronotype on morning OGTTs."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "PreDiabetes",
+                "Overweight",
+                "Impaired Glucose Tolerance"
+            ],
+            "keywords": [
+                "chronotype",
+                "sleep"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "For randomization in Aim 1, participants will be assigned to Early or Late OGTT for the first visit with crossover to the alternate for the second visit. In Aim 2, participants will be assigned to Early or Late standardized first meal for Day 1 with crossover to the alternate for Day 8.",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "maskingDescription": "Randomization will be done via a computer-generated random number list prepared by the statistician who will have no clinical involvement in the study. The list will then be provided to the study coordinator. The investigator will not be masked to assignment for Aim 1 as the investigator will be available during OGTT testing as needed. In Aim 2, the investigator will be blinded to randomization.",
+                    "whoMasked": [
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 70,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cohort A - Late Chronotype first, then alternate",
+                    "type": "OTHER",
+                    "description": "Sleep onset after 2am",
+                    "interventionNames": [
+                        "Diagnostic Test: Timing of OGTT",
+                        "Behavioral: Timing of Standardized Meal"
+                    ]
+                },
+                {
+                    "label": "Cohort B - Non-late Chronotype first, then alternate",
+                    "type": "OTHER",
+                    "description": "Sleep onset before 11pm",
+                    "interventionNames": [
+                        "Diagnostic Test: Timing of OGTT",
+                        "Behavioral: Timing of Standardized Meal"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Timing of OGTT",
+                    "description": "In Aim 1, timing of oral glucose tolerance test will be altered.",
+                    "armGroupLabels": [
+                        "Cohort A - Late Chronotype first, then alternate",
+                        "Cohort B - Non-late Chronotype first, then alternate"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Timing of Standardized Meal",
+                    "description": "In Aim 2, timing of a standardized meal will be altered.",
+                    "armGroupLabels": [
+                        "Cohort A - Late Chronotype first, then alternate",
+                        "Cohort B - Non-late Chronotype first, then alternate"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "2-Hour Difference in Glucose",
+                    "description": "Within-subject difference in 2-hour glucose after glucose ingestion on OGTT between early and late OGTT (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late OGTT.",
+                    "timeFrame": "Day 4 and Day 11 of Aim 1 derived from OGTT"
+                },
+                {
+                    "measure": "Insulin Sensitivity (by Oral Minimal Model)",
+                    "description": "Within-subject difference in insulin sensitivity (derived from oral Minimal Model) between early and late OGTT (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late OGTT.",
+                    "timeFrame": "Day 4 and Day 11 of Aim 1 derived from OGTT"
+                },
+                {
+                    "measure": "2-hour Incremental Area Under the Curve (iAUC) for glucose",
+                    "description": "Within-subject difference in iAUC for glucose from continuous glucose monitor between early and late Meal (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late Meal.",
+                    "timeFrame": "Day 1 and Day 8 of Aim 2 during post-prandial period following each standardized meal"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Difference in Fasting Glucose",
+                    "description": "Within-subject difference in fasting glucose at start of OGTT between early and late OGTT (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late OGTT.",
+                    "timeFrame": "Day 4 and Day 11 of Aim 1 obtained before OGTT"
+                },
+                {
+                    "measure": "Insulin secretion indices",
+                    "description": "Within-subject difference in insulin secretion (dynamic phase, static phase, total and insulin secretory rate) from c-peptide minimal model between early and late OGTT (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late OGTT.",
+                    "timeFrame": "Day 4 and Day 11 of Aim 1 derived from OGTT"
+                },
+                {
+                    "measure": "Incremental Area Under the Curve (iAUC) for Insulin",
+                    "description": "Within-subject difference in iAUC for insulin after glucose ingestion between early and late OGTT (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late OGTT.",
+                    "timeFrame": "Day 4 and Day 11 of Aim 1 derived from OGTT"
+                },
+                {
+                    "measure": "Hemoglobin A1c levels",
+                    "description": "Analysis of between group differences in hemoglobin A1c levels",
+                    "timeFrame": "Day 4 of Aim 1 during first OGTT Visit"
+                },
+                {
+                    "measure": "Difference in Disposition Index",
+                    "description": "Within-subject difference in disposition index (derived from insulin sensitivity and insulin secretion metrics) between early and late OGTT (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late OGTT.",
+                    "timeFrame": "Day 4 and Day 11 of Aim 1 derived from OGTT"
+                },
+                {
+                    "measure": "Difference in Insulin Clearance",
+                    "description": "Within-subject difference in insulin clearance (derived from Watanabe et al. model) between early and late OGTT (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late OGTT.",
+                    "timeFrame": "Day 4 and Day 11 of Aim 1 derived from OGTT"
+                },
+                {
+                    "measure": "Mean Glucose",
+                    "description": "Analysis of between group differences in mean glucose derived from continuous glucose monitor",
+                    "timeFrame": "Up to 8 days"
+                },
+                {
+                    "measure": "Percent Time Spent Above 120 mg/dL",
+                    "description": "Analysis of between group differences in time spent above 120 mg/dL derived from continuous glucose monitor. Over course of wearing continuous glucose monitor for Aim 2 (8 days)\\]",
+                    "timeFrame": "Up to 8 days"
+                },
+                {
+                    "measure": "Percent Time Spent Above 140 mg/dL",
+                    "description": "Analysis of between group differences in time spent above 140 mg/dL derived from continuous glucose monitor. Over course of wearing continuous glucose monitor for Aim 2 (8 days).",
+                    "timeFrame": "Up to 8 days"
+                },
+                {
+                    "measure": "Number of Excursions greater than 140mg/dL",
+                    "description": "Analysis of between group differences in the number of excursions above 140 mg/dL derived from continuous glucose monitor. Over course of wearing continuous glucose monitor for Aim 2 (8 days).",
+                    "timeFrame": "Up to 8 days"
+                },
+                {
+                    "measure": "Difference in Post-prandial peak",
+                    "description": "Within-subject difference in post-prandial peak from continuous glucose monitor between early and late Meal (primary analysis) in the late chronotype group and secondary analysis will be between group differences between early and late Meal",
+                    "timeFrame": "Day 1 and Day 8 of Aim 2 during post-prandial period following each standardized meal"
+                },
+                {
+                    "measure": "Standard Deviation of Glucose",
+                    "description": "Analysis of between group differences in standard deviation of glucose derived from continuous glucose monitor. Over course of wearing continuous glucose monitor for Aim 2 (8 days).",
+                    "timeFrame": "Up to 8 days"
+                },
+                {
+                    "measure": "Coefficient of Variation of Glucose",
+                    "description": "Analysis of between group differences in coefficient of variation of glucose derived from continuous glucose monitor. Over course of wearing continuous glucose monitor for Aim 2 (8 days).",
+                    "timeFrame": "Up to 8 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Overweight similar to (BMI \u2265 85th percentile but \\<95th percentile for age and sex per Centers for Disease Control and Prevention growth curves (as Centers for Disease Control and Prevention growth curves contain ages \u2264 20y; if ages 21-23 years, the BMI \u2265 85th and \\<95th percentile equivalents for a 20-year-old will be used))\n* Post-pubertal\n* Normal sleep duration (avg. \\>7 hours of sleep per night)\n* Social jetlag (difference between weekend and weekday sleep) of \\< 2 hours.\n\nExclusion Criteria:\n\n* Known diabetes, sleep disorders, major organ system illness, pregnancy, or genetic syndrome\n* Medication use known to affect insulin sensitivity, glucose tolerance, or circadian rhythm\n* Screening high risk for obstructive sleep apnea\n* Night shift work.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "23 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Talia Hitt, MD/MPH/MSHP",
+                    "role": "CONTACT",
+                    "phone": "860-324-0072",
+                    "email": "thitt2@jhmi.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Talia Hitt, MD/MPH/MSHP",
+                    "affiliation": "Johns Hopkins University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Johns Hopkins School of Medicine",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21287",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Talia Hitt, MD/MPH/MSHP",
+                            "role": "CONTACT",
+                            "phone": "860-324-0072",
+                            "email": "thitt2@jhmi.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000050177",
+                    "term": "Overweight"
+                },
+                {
+                    "id": "D000018149",
+                    "term": "Glucose Intolerance"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000044343",
+                    "term": "Overnutrition"
+                },
+                {
+                    "id": "D000009748",
+                    "term": "Nutrition Disorders"
+                },
+                {
+                    "id": "D000001835",
+                    "term": "Body Weight"
+                },
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000006943",
+                    "term": "Hyperglycemia"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M26186",
+                    "name": "Overweight",
+                    "asFound": "Overweight",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14117",
+                    "name": "Prediabetic State",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20295",
+                    "name": "Glucose Intolerance",
+                    "asFound": "Impaired Glucose Tolerance",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M25307",
+                    "name": "Overnutrition",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12684",
+                    "name": "Nutrition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5114",
+                    "name": "Body Weight",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9994",
+                    "name": "Hyperglycemia",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

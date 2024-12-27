@@ -1,0 +1,370 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05925569",
+            "orgStudyIdInfo": {
+                "id": "2023P001435"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "5R01HL153004-03",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/5R01HL153004-03"
+                }
+            ],
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Electronic Alert to Improve Testing For Primary Aldosteronism in Patients With Hypertension",
+            "officialTitle": "Electronic Alert-Based Computerized Decision Support to Improve Testing For Primary Aldosteronism in Patients With Hypertension: ALERT-PA",
+            "acronym": "ALERT-PA",
+            "therapeuticArea": [
+                "Cardiovascular",
+                "Other"
+            ],
+            "study": "electronic-alert-to-improve-testing-for-primary-aldosteronism-in-patients-with-hypertension"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-22",
+            "studyFirstSubmitQcDate": "2023-06-22",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-29",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jenifer M. Brown, M.D.",
+                "investigatorTitle": "Associate Physician",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Heart, Lung, and Blood Institute (NHLBI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Primary aldosteronism (PA) is common but rarely recognized cause of hypertension that carries excess cardiovascular and renal risk and has approved targeted treatments. Despite current clinical guidelines that recommend screening in a defined set of high-risk populations, less than 5% of eligible patients are ever screened for PA. This study aims to evaluate the impact of a computer decision support Best Practice Advisory (BPA) alert on rates of screening for PA in guideline-eligible patients, referral to specialist PA care, and treatment with mineralocorticoid receptor antagonists.",
+            "detailedDescription": "The study protocol is a single-center Quality Improvement initiative performed as a cluster-randomized controlled trial designed to evaluate the impact of an EPIC electronic health record Best Practice Advisory (BPA) alert on rates of screening for PA in guideline-eligible patients. 1600 patients meeting inclusion/exclusion criteria for Primary Aldosteronism (PA) screening will comprise the study population, with randomization of alert/no alert occurring at the level of their treating clinician (Attending Physician, Nurse Practitioner, or Physician Assistant) to minimize spillover/contamination effects of the BPA onto other patients treated by the same clinician. Treating clinicians within primary care and relevant specialties including endocrinology, nephrology, and cardiology will be randomized 1:1 to receive or not receive a BPA prompting screening for PA with laboratory testing of plasma aldosterone, plasma renin activity, and a basic metabolic panel, as well as an order for an e-consult to provide guidance on interpretation of results, for eligible patients. Outcomes will be ascertained by electronic health record review at 6 months."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Primary Aldosteronism",
+                "Resistant Hypertension",
+                "Secondary Hypertension",
+                "Hyperaldosteronism",
+                "Mineralocorticoid Excess",
+                "Hypertension"
+            ],
+            "keywords": [
+                "Computer Decision Support",
+                "Primary Aldosteronism"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "SCREENING",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 1600,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "BPA Alert Intervention",
+                    "type": "EXPERIMENTAL",
+                    "description": "An on-screen electronic alert will be issued during the outpatient clinical encounter that notifies the clinician that their patient should be screened for Primary Aldosteronism and provides an order set for the corresponding laboratory evaluation. Details of the electronic alert are provided in the Intervention description.",
+                    "interventionNames": [
+                        "Other: Best Practice Advisory Computerized Alert"
+                    ]
+                },
+                {
+                    "label": "No Alert Intervention",
+                    "type": "NO_INTERVENTION",
+                    "description": "No electronic alert will be issued in the No Intervention group. Providers will continue standard of care with their patients."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Best Practice Advisory Computerized Alert",
+                    "description": "For patients randomly assigned to the BPA Alert Group, an on-screen electronic alert will be issued during the outpatient clinical encounter than notifies the clinician that their patient should be screened for PA. The clinician will be provided with on-screen details of which patient-specific risk factors qualified them for PA screening and with an option to order a plasma renin activity, aldosterone, and basic metabolic panel. If screening labs are ordered, the clinician will also receive an option to order an eConsult for expert guidance on interpretation of the test results. If the clinician does not order the PA screening labs, they will be able to continue with clinical EHR documentation but will need to select a reason they opted not to follow the alert's evidence-based clinical practice recommendation.",
+                    "armGroupLabels": [
+                        "BPA Alert Intervention"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Frequency of PA testing orders by provider",
+                    "description": "The primary outcome is the frequency of aldosterone/renin laboratory testing orders by providers.",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Frequency of PA-related Specialty Referral",
+                    "description": "Frequency of referral to PA specialists, particularly in endocrinology and cardiology",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Frequency of Empiric Mineralocorticoid Receptor Antagonist (MRA) Prescription",
+                    "description": "Frequency of prescription of empiric MRA such as spironolactone, eplerenone, or finerenone",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Frequency of new PA-related diagnoses",
+                    "description": "Frequency of new ICD Diagnostic Code for PA, Secondary Hypertension, or Endocrine Hypertension",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Frequency of E-Consult order by provider",
+                    "description": "Frequency of provider ordering an E-Consult with a PA-specialist",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Frequency of \"Positive\" PA results",
+                    "description": "Frequency of a \"Positive\" screening test result suggestive of PA among patients who are screened.",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Change in Systolic Blood Pressure",
+                    "description": "Difference between average of last 3 outpatient systolic blood pressure readings prior to study initiation vs. average of first 3 outpatient readings after study completion (Exploratory)",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults 18+\n* Seen by clinician at one of the intervention practices at least once in the prior 2 years\n* History of Hypertension (ICD Code) PLUS \u22651 of the below:\n\n  * Outpatient BP \\>150/100 on 2 or more occasions\n  * Three or more current antihypertensive medication prescriptions\n  * Potassium level \\<3.5mEq/L or potassium supplement prescription in the last 5 years\n  * History of Atrial Fibrillation or Atrial Flutter (ICD Code)\n\nExclusion Criteria:\n\n* History of Primary Aldosteronism (ICD Code)\n* Prescription for a Mineralocorticoid Receptor Antagonist (MRA) within the last 3 months",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Jenifer M Brown, MD",
+                    "affiliation": "Brigham and Women's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02115",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "35767459",
+                    "type": "BACKGROUND",
+                    "citation": "Vaidya A, Hundemer GL, Nanba K, Parksook WW, Brown JM. Primary Aldosteronism: State-of-the-Art Review. Am J Hypertens. 2022 Dec 8;35(12):967-988. doi: 10.1093/ajh/hpac079."
+                },
+                {
+                    "pmid": "29129575",
+                    "type": "BACKGROUND",
+                    "citation": "Monticone S, D'Ascenzo F, Moretti C, Williams TA, Veglio F, Gaita F, Mulatero P. Cardiovascular events and target organ damage in primary aldosteronism compared with essential hypertension: a systematic review and meta-analysis. Lancet Diabetes Endocrinol. 2018 Jan;6(1):41-50. doi: 10.1016/S2213-8587(17)30319-4. Epub 2017 Nov 9."
+                },
+                {
+                    "pmid": "32449886",
+                    "type": "BACKGROUND",
+                    "citation": "Brown JM, Siddiqui M, Calhoun DA, Carey RM, Hopkins PN, Williams GH, Vaidya A. The Unrecognized Prevalence of Primary Aldosteronism: A Cross-sectional Study. Ann Intern Med. 2020 Jul 7;173(1):10-20. doi: 10.7326/M20-0065. Epub 2020 May 26."
+                },
+                {
+                    "pmid": "26934393",
+                    "type": "BACKGROUND",
+                    "citation": "Funder JW, Carey RM, Mantero F, Murad MH, Reincke M, Shibata H, Stowasser M, Young WF Jr. The Management of Primary Aldosteronism: Case Detection, Diagnosis, and Treatment: An Endocrine Society Clinical Practice Guideline. J Clin Endocrinol Metab. 2016 May;101(5):1889-916. doi: 10.1210/jc.2015-4061. Epub 2016 Mar 2."
+                },
+                {
+                    "pmid": "33370170",
+                    "type": "BACKGROUND",
+                    "citation": "Cohen JB, Cohen DL, Herman DS, Leppert JT, Byrd JB, Bhalla V. Testing for Primary Aldosteronism and Mineralocorticoid Receptor Antagonist Use Among U.S. Veterans : A Retrospective Cohort Study. Ann Intern Med. 2021 Mar;174(3):289-297. doi: 10.7326/M20-4873. Epub 2020 Dec 29."
+                },
+                {
+                    "pmid": "31228189",
+                    "type": "BACKGROUND",
+                    "citation": "Piazza G, Hurwitz S, Galvin CE, Harrigan L, Baklla S, Hohlfelder B, Carroll B, Landman AB, Emani S, Goldhaber SZ. Alert-based computerized decision support for high-risk hospitalized patients with atrial fibrillation not prescribed anticoagulation: a randomized, controlled trial (AF-ALERT). Eur Heart J. 2020 Mar 7;41(10):1086-1096. doi: 10.1093/eurheartj/ehz385."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006973",
+                    "term": "Hypertension"
+                },
+                {
+                    "id": "D000006929",
+                    "term": "Hyperaldosteronism"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000000308",
+                    "term": "Adrenocortical Hyperfunction"
+                },
+                {
+                    "id": "D000000307",
+                    "term": "Adrenal Gland Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10024",
+                    "name": "Hypertension",
+                    "asFound": "Hypertension",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12307",
+                    "name": "Neoplasm Metastasis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9980",
+                    "name": "Hyperaldosteronism",
+                    "asFound": "Aldosteronism",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3660",
+                    "name": "Adrenocortical Hyperfunction",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3659",
+                    "name": "Adrenal Gland Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2879",
+                    "name": "Hyperadrenalism",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

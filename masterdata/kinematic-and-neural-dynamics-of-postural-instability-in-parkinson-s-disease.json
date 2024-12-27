@@ -1,0 +1,331 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06405334",
+            "orgStudyIdInfo": {
+                "id": "E4810-R"
+            },
+            "organization": {
+                "fullName": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "briefTitle": "Kinematic and Neural Dynamics of Postural Instability in Parkinson's Disease",
+            "officialTitle": "Kinematic and Neural Dynamics of Postural Instability in Parkinson's Disease",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "kinematic-and-neural-dynamics-of-postural-instability-in-parkinson-s-disease"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-11-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-10-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-10-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-03",
+            "studyFirstSubmitQcDate": "2024-05-03",
+            "studyFirstPostDateStruct": {
+                "date": "2024-05-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "VA Office of Research and Development",
+                "class": "FED"
+            },
+            "collaborators": [
+                {
+                    "name": "University of Minnesota",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Balance problems and falls are among the most common complaints in Veterans with Parkinson's Disease (PD), but there are no effective treatments and the ability to measure balance and falls remains quite poor. This study uses wearable sensors to measure balance and uses deep brain stimulation electrodes to measure electric signals from the brain in Veterans with PD. The investigators hope to use this data to better understand the brain pathways underlying balance problems in PD so that new treatments to improve balance and reduce falls in Veterans with PD can be designed.",
+            "detailedDescription": "Parkinson's disease (PD) is a progressive neurodegenerative disorder that manifests with the cardinal motor signs of bradykinesia, rigidity, tremor and postural instability (PI). Postural instability is a major cause of falls and as the disease process progresses, the most common patient complaints center on gait and balance difficulties leading to falls. Falls are the most common reason for hospitalization in PD patients, impose a significant economic burden to the US healthcare system and are a major cause of diminished quality of life, reduced mobility, disability and death. Both clinical and laboratory-based assessments of balance provide only a brief window of time into patients' function. Prior studies have demonstrated poor correlation between capacity based measurements in the clinic or lab (i.e., what can a patient do when asked) and performance-based measurements in the real world. The investigators have developed methods to use wearable sensors in the ambulatory setting that can accurately detect a variety of activities and have created a number of quantitative metrics that are specific to PI. In this manner, the investigators can monitor and analyze PI in the real world ambulatory setting in Veterans with PD. At present, there are no effective long term treatments for PI. Major impediments to progress in this field are an understanding of how patients actually experience PI at home and categorizing PI into meaningful phenotypic subtypes in order to understand its underlying pathophysiology and evaluate new treatments.\n\nThe goal of this project is to better understand the underlying kinematic and electrophysiological components of postural instability in Veterans with PD. Aim 1 sends PD patients home for one week with five wearable sensors and a neck-worn video camera to create a massive video-validated quantitative dataset of a variety of events that are relevant to analyzing PI at home (walking, turning, sit to stand transitions, near falls/stumbles). For each video-validated event, the investigators use deep learning algorithms to predict which activity occurred and create ROC curves to examine the algorithms' predictive accuracy. Aim 2 will use kinematic data obtained from the wearable sensors to develop \"deep clinical phenotypes\" of postural instability using principal component analysis (PCA) and unsupervised clustering machine learning methods. Using these deep clinical phenotypes, the investigators will then test specific hypotheses related to patients' future fall risk, their experience of PI at home and the relationship of these phenotypes to clinical data such as the presence of co-morbidities like peripheral neuropathy. In Aim 3, a subset of Veterans with PD from the first two aims will undergo subthalamic nucleus (STN) DBS. The investigators will use local field potential recordings from their leads to understand the physiological signature(s) that occur just prior to, during and after a perturbation evoking a reactive postural response. By recording from contacts in motor and associative regions while undergoing simultaneous kinematic recordings and associative STN stimulation, the investigators can investigate the physiological basis of postural instability in these patients."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Parkinson's Disease"
+            ],
+            "keywords": [
+                "Parkinson Disease",
+                "subthalamic nucleus",
+                "gait",
+                "postural instability",
+                "deep learning"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "PD-Postural Instability",
+                    "description": "Veterans with postural instability"
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Event Identification Receiver Operating Characteristic Curve",
+                    "description": "All events are validated using the video camera recording. Using the CNN-LSTM algorithm, the investigators create a series of predicted events for the entire dataset of wearable sensor usage. For each event type, the investigators will then compare the predicted events based on this CNN-LSTM algorithm to the actual validated events. This will also allow us to assess the sensitivity, specificity, positive predictive value and negative predictive value for each event type.\n\nFinally, the investigators will create separate receiver operating characteristic (ROC) curves and calculate the AUC for each event type.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Silhouette Scores",
+                    "description": "All kinematic variables are first standardized using z-score conversion and then transformed into a new set of uncorrelated principal components that retain the original data's variation. Following dimensionality reduction with PCA, the investigators utilize k-means clustering to identify potential subgroups. K-means clustering partitions the data into distinct, non-overlapping subgroups based on minimizing within-cluster variance, with the optimal number of clusters determined through the elbow method. While k-means is the most common method and has been effective thus far, small sample size datasets typically fare better using hierarchical clustering. This method, conversely, constructs a hierarchy of clusters by iteratively combining the most similar clusters. Silhouette scores are calculated to assess how well separated the clusters are from each other.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Associative STN alpha band power",
+                    "description": "Associative and motor STN will be parcellated and the DBS lead reconstructed based on our prior work. The investigators will then use bipolar LFP recordings from the appropriate contact pairs to construct time frequency histograms and examine the event-related modulation of power in the response preparation, movement execution and post-movement execution phases of the postural response.",
+                    "timeFrame": "4 years"
+                },
+                {
+                    "measure": "Postural step length response during associative STN vs. motor STN stimulation vs. no stimulation",
+                    "description": "The investigators will assess changes in reactive postural response kinematics to associative vs. motor vs. no STN stimulation to test whether any stimulation or stimulation location can improve PI. Linear mixed-effects models are used to test for within-patient changes in pull test kinematic parameters between groups. These models are adjusted for pull intensity, and baseline step length values. Models use a Bonferroni p-value correction to account for multiple testing. The investigators have previously been able to determine within-patient kinematic differences using our variable pull test method in a sample size of 13 movement disorder patients. With \\~15 pull test trials for each condition, the investigators can demonstrate within-patient kinematic differences of about 5 cm in initial step length and 100 ms in reaction time.",
+                    "timeFrame": "4 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nAims 1 and 2 Inclusion criteria:\n\n* All Veterans with a clinical diagnosis of Parkinson's disease as made by their treating neurologist in Hoehn and Yahr stage 2-3 with the ability to give informed consent will be considered for possible participation in this study.\n* Veterans cannot be past stage 3 as our measures depend on physical independence and fall risk prediction is less useful after stage 3.\n* Capacity to consent will be assessed with the University of California, San Diego Brief Assessment of Capacity to Consent (UBACC).\n\n  * A score of less than 14.5 will be used as the cut-off to decide whether a Veteran is capable of consenting as the false positive rate is zero below this score with marginal increases in sensitivity above this score (89% sensitivity, 100% specificity).\n\nAim 3\n\nInclusion criteria:\n\n* In addition to the inclusion criteria for Aims 1 and 2, Veterans with an implanted STN DBS lead with a Percept device in place.\n\nExclusion Criteria:\n\nAims 1 and 2 Exclusion criteria:\n\n* Veterans with dementia of sufficient severity to impair their ability to make healthcare related decisions for themselves will be excluded.\n* Veterans with other forms of parkinsonism (PSP, CBGD, etc.) will be excluded.\n* Veterans past H\\&Y Stage 3 will be excluded.\n* Veterans with symptomatic orthostatic hypotension (defined as sustained drop in systolic blood pressure by 20 mmHg or diastolic blood pressure by 10 mmHg within 3 minutes of standing after being supine for five minutes) will also be excluded as this is an entity the investigators are not characterizing and could confound/bias the dataset.\n\nAim 3:\n\nExclusion criteria:\n\n* In addition to the exclusion criteria for Aims 1 and 2, Veterans with DBS leads implanted in other locations will be excluded.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Veterans with Parkinson's disease who experience postural instability and are treated at the Minneapolis VA Health Care System",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Robert A McGovern",
+                    "role": "CONTACT",
+                    "phone": "(612) 629-7904",
+                    "email": "Robert.McgovernIII@va.gov"
+                },
+                {
+                    "name": "Nicole Walker, MS",
+                    "role": "CONTACT",
+                    "phone": "(612) 467-3229",
+                    "email": "nicole.walker6@va.gov"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Robert A McGovern",
+                    "affiliation": "Minneapolis VA Health Care System, Minneapolis, MN",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Minneapolis VA Health Care System, Minneapolis, MN",
+                    "city": "Minneapolis",
+                    "state": "Minnesota",
+                    "zip": "55417-2309",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Robert A McGovern",
+                            "role": "CONTACT",
+                            "phone": "612-629-7904",
+                            "email": "Robert.McgovernIII@va.gov"
+                        },
+                        {
+                            "name": "Nicole Walker, MS",
+                            "role": "CONTACT",
+                            "phone": "(612) 467-3229",
+                            "email": "nicole.walker6@va.gov"
+                        },
+                        {
+                            "name": "Robert A McGovern",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.97997,
+                        "lon": -93.26384
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Synchronized IMU, event and LFP data (when available) will be made publicly available by submitting the anonymized, synchronized, annotated dataset to the National Institute of Aging's AgingResearchBioBank for public use. The investigators will NOT make the video recorded data available except upon request for a specific purpose, such as validating event algorithms by another research group. See access criteria below.",
+            "infoTypes": [
+                "SAP",
+                "CSR",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "At the time of manuscript publication or the end of the study, whichever comes first.",
+            "accessCriteria": "The dataset will be publicly available as above and the analysis code will be made available upon request. If an outside group wants to validate the event annotations, the video recordings will be made available via data use agreement between the two entities that specifically outlines the method of data sharing, which data will be shared, what it will be used for and the security methods by which the integrity of the data will be maintained."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010300",
+                    "term": "Parkinson Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020734",
+                    "term": "Parkinsonian Disorders"
+                },
+                {
+                    "id": "D000001480",
+                    "term": "Basal Ganglia Diseases"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000080874",
+                    "term": "Synucleinopathies"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13213",
+                    "name": "Parkinson Disease",
+                    "asFound": "Parkinson's Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22494",
+                    "name": "Parkinsonian Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25603",
+                    "name": "Ganglion Cysts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16358",
+                    "name": "Synovial Cyst",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4774",
+                    "name": "Basal Ganglia Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2217",
+                    "name": "Synucleinopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

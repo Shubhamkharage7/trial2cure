@@ -1,0 +1,405 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05370287",
+            "orgStudyIdInfo": {
+                "id": "17-062R"
+            },
+            "organization": {
+                "fullName": "Food and Drug Administration (FDA)",
+                "class": "FED"
+            },
+            "briefTitle": "Adaptive Optics Retinal Imaging",
+            "officialTitle": "Adaptive Optics Retinal Imaging",
+            "therapeuticArea": [
+                "Ophthalmology"
+            ],
+            "study": "adaptive-optics-retinal-imaging"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2018-01-22",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-09-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-04-19",
+            "studyFirstSubmitQcDate": "2022-05-06",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Daniel Hammer",
+                "investigatorTitle": "Deputy Director, Division of Biomedical Physics",
+                "investigatorAffiliation": "Food and Drug Administration (FDA)"
+            },
+            "leadSponsor": {
+                "name": "Food and Drug Administration (FDA)",
+                "class": "FED"
+            },
+            "collaborators": [
+                {
+                    "name": "University of Maryland, Baltimore",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The objective of the study is to collect and assess adaptive optics (AO) retinal images from human subjects in support of projects to demonstrate, advance, and enhance clinical use of AO technology.",
+            "detailedDescription": "Objective: The objective of the study is to collect and assess adaptive optics (AO) retinal images from human subjects in support of projects to demonstrate, advance, and enhance clinical use of AO technology.\n\nStudy Population: Fifty (50) healthy volunteers without eye disease and thirty (30) subjects with primary open angle glaucoma (POAG) will be enrolled.\n\nDesign: This is an interventional study protocol where participants will be imaged with investigational multimodal AO retinal imaging systems that include optical coherence tomography (OCT) and scanning laser ophthalmoscopy (SLO) channels. High resolution OCT and SLO videos will be collected while the instruments automatically detect and correct for image distortion caused by ocular aberrations. In general, videos of different retinal structures will be acquired from several retinal locations using various imaging modes.\n\nOutcome Measures: The primary outcomes for this protocol are qualitative and quantitative assessment of the AO images and investigation of the cellular morphological and physiological changes due to glaucoma."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Glaucoma, Primary Open Angle"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "One cohort of subjects with clinically diagnosed glaucoma and one cohort of age-matched healthy controls with no evidence of ocular disease",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Glaucoma with oxygen",
+                    "type": "EXPERIMENTAL",
+                    "description": "Primary open angle glaucoma subjects as well as pre-perimetric glaucoma suspects will be classified by clinical exam by an experienced glaucoma specialist according to the American Academy of Ophthalmology Practice Patterns. Glaucoma subjects and suspects will undergo adaptive optics (AO) imaging of several macular locations. A subset of subjects will undergo oxygen challenge intervention, which involves breathing 100% oxygen through a mask during AO imaging at pre-determined retinal vessel locations.",
+                    "interventionNames": [
+                        "Other: oxygen inhalation",
+                        "Device: Adaptive optics imaging"
+                    ]
+                },
+                {
+                    "label": "Healthy control with oxygen",
+                    "type": "EXPERIMENTAL",
+                    "description": "Age-matched healthy control cohort will undergo the same AO imaging procedures as glaucoma cohort. A subset of subjects will undergo the same oxygen challenge intervention as the glaucoma cohort.",
+                    "interventionNames": [
+                        "Other: oxygen inhalation",
+                        "Device: Adaptive optics imaging"
+                    ]
+                },
+                {
+                    "label": "Healthy control with stimulation",
+                    "type": "EXPERIMENTAL",
+                    "description": "Healthy control subjects will undergo AO imaging at several macular locations while flashes of visible light stimulus are delivered.",
+                    "interventionNames": [
+                        "Device: Adaptive optics imaging"
+                    ]
+                },
+                {
+                    "label": "Glaucoma",
+                    "type": "EXPERIMENTAL",
+                    "description": "Glaucoma subjects and suspects will undergo AO imaging at several macular locations without intervention.",
+                    "interventionNames": [
+                        "Device: Adaptive optics imaging"
+                    ]
+                },
+                {
+                    "label": "Healthy control",
+                    "type": "EXPERIMENTAL",
+                    "description": "Healthy control subjects will undergo AO imaging at several macular locations without intervention",
+                    "interventionNames": [
+                        "Device: Adaptive optics imaging"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "oxygen inhalation",
+                    "description": "Subjects will breath 100% oxygen through a mask.",
+                    "armGroupLabels": [
+                        "Glaucoma with oxygen",
+                        "Healthy control with oxygen"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Adaptive optics imaging",
+                    "description": "Adaptive optics scanning laser ophthalmoscopy (AOSLO) and adaptive optics - optical coherence tomography (AO-OCT) retinal imaging",
+                    "armGroupLabels": [
+                        "Glaucoma",
+                        "Glaucoma with oxygen",
+                        "Healthy control",
+                        "Healthy control with oxygen",
+                        "Healthy control with stimulation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Retinal blood flow (RBF) with oxygen inhalation",
+                    "description": "RBF \\[uL/min\\] will be measured from ensemble RBC velocity \\[mm/s\\] measurements from line-scan AOSLO videos and vessel diameter \\[mm\\] measurements from average AO-OCT volumes.",
+                    "timeFrame": "RBF will be measured in all subjects twice during a single AO imaging session - once before and once during pure oxygen inhalation. Subjects will be imaged only once; there is no longitudinal component to this outcome measure."
+                },
+                {
+                    "measure": "Retinal ganglion cell (RGC) density",
+                    "description": "RGC density will be calculated at specific retinal eccentricities from cells counted in average AO-OCT volumes.",
+                    "timeFrame": "RGC density will be calculated once at the AO imaging session in which RGCs are the target. For the reproducibility/longitudinal study portion, RGC density will be quantified three times over 1.5 years (visits separated by 6 months)."
+                },
+                {
+                    "measure": "RGC soma diameter",
+                    "description": "RGC soma diameter will be calculated at specific retinal eccentricities from cells segmented in average AO-OCT volumes.",
+                    "timeFrame": "RGC diameter will be calculated once at the AO imaging session in which RGCs are the target. For the reproducibility/longitudinal portion of the study, RGC soma diameter will be quantified three times over 1.5 years (visits separated by 6 months)."
+                },
+                {
+                    "measure": "Retinal pigment epithelium (RPE) cell organelle motility",
+                    "description": "RPE cell organelle motility will be calculated from the decorrelation time constant for cells segmented from a sequence of AO-OCT volumes.",
+                    "timeFrame": "RPE organelle motility will be calculated once at the AO imaging session in which RPE cells are the target. For the reproducibility portion of the study, RPE organelle motility will be quantified three times over six weeks (visits separated by 2 weeks)."
+                },
+                {
+                    "measure": "Photoreceptor (PR) cell function",
+                    "description": "Photoreceptor cell (cone) function will be measured from phase changes between inner segment - outer segment junction and cone outer segment tip signals in a sequence of AO-OCT volumes collected during visible light stimulation.",
+                    "timeFrame": "PR function will be calculated once at the AO imaging session in which photoreceptors are stimulated. For the reproducibility portion of the study, PR function will be quantified three times over six weeks (visits separated by 2 weeks)."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Are 21 years of age or older.\n2. Have the ability to cooperate with instructions during adaptive optics imaging (similar to instructions given during a clinical eye exam).\n3. Have the ability to understand and sign an informed consent.\n4. Have been diagnosed with POAG (cohort 2).\n\nExclusion Criteria:\n\n1. Are under 21 years of age.\n2. Have a condition which prevents adequate images from being obtained (e.g. unstable fixation or media opacity).\n3. Have visual correction outside of the range +4 diopters (D) to -8 D.\n4. Have a history of adverse reaction to mydriatic drops.\n5. Have a predisposition to (i.e., narrow iridocorneal angle) or any history of acute angle closure glaucoma (AACG).\n6. Have any health conditions that would contraindicate oxygen supplementation, including chronic obstructive pulmonary disease (COPD), emphysema, asthma, or any other obstructive or restrictive lung disease (oxygen challenge participants only).\n7. Have a dependency on oxygen support or a baseline oxygen saturation \\<95% (oxygen challenge participants only).\n8. Have tested positive for COVID-19 at initial enrollment or have acute or chronic photophobia as a result of contraction.\n9. Are working under the direct supervision of Dr. Hammer.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Daniel X Hammer, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "301-796-9320",
+                    "email": "daniel.hammer@fda.hhs.gov"
+                },
+                {
+                    "name": "Zhuolin Liu, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "301-796-7914",
+                    "email": "zhuolin.liu@fda.hhs.gov"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel X Hammer, Ph.D.",
+                    "affiliation": "Food and Drug Administration (FDA)",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Food and Drug Administration",
+                    "status": "RECRUITING",
+                    "city": "Silver Spring",
+                    "state": "Maryland",
+                    "zip": "20993",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel X Hammer, Ph.D.",
+                            "role": "CONTACT",
+                            "phone": "301-796-9320",
+                            "email": "daniel.hammer@fda.hhs.gov"
+                        },
+                        {
+                            "name": "Zhuolin Liu, Ph.D.",
+                            "role": "CONTACT",
+                            "phone": "301-796-7914",
+                            "email": "zhuolin.liu@fda.hhs.gov"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.99067,
+                        "lon": -77.02609
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "30615699",
+                    "type": "RESULT",
+                    "citation": "Liu Z, Tam J, Saeedi O, Hammer DX. Trans-retinal cellular imaging with multimodal adaptive optics. Biomed Opt Express. 2018 Aug 14;9(9):4246-4262. doi: 10.1364/BOE.9.004246. eCollection 2018 Sep 1."
+                },
+                {
+                    "pmid": "32551400",
+                    "type": "RESULT",
+                    "citation": "Hammer DX, Liu Z, Cava JA, Carroll J, Saeedi O. On the axial location of Gunn's dots. Am J Ophthalmol Case Rep. 2020 Jun 1;19:100757. doi: 10.1016/j.ajoc.2020.100757. eCollection 2020 Sep."
+                },
+                {
+                    "pmid": "33760041",
+                    "type": "RESULT",
+                    "citation": "Liu Z, Saeedi O, Zhang F, Villanueva R, Asanad S, Agrawal A, Hammer DX. Quantification of Retinal Ganglion Cell Morphology in Human Glaucomatous Eyes. Invest Ophthalmol Vis Sci. 2021 Mar 1;62(3):34. doi: 10.1167/iovs.62.3.34."
+                },
+                {
+                    "pmid": "35174258",
+                    "type": "RESULT",
+                    "citation": "Soltanian-Zadeh S, Kurokawa K, Liu Z, Zhang F, Saeedi O, Hammer DX, Miller DT, Farsiu S. Weakly supervised individual ganglion cell segmentation from adaptive optics OCT images for glaucomatous damage assessment. Optica. 2021 May 20;8(5):642-651. doi: 10.1364/optica.418274. Epub 2021 May 4."
+                },
+                {
+                    "pmid": "34605879",
+                    "type": "RESULT",
+                    "citation": "Villanueva R, Le C, Liu Z, Zhang F, Magder L, Hammer DX, Saeedi O. Cell - Vessel Mismatch in Glaucoma: Correlation of Ganglion Cell Layer Soma and Capillary Densities. Invest Ophthalmol Vis Sci. 2021 Oct 4;62(13):2. doi: 10.1167/iovs.62.13.2."
+                },
+                {
+                    "pmid": "33168747",
+                    "type": "RESULT",
+                    "citation": "Hammer DX, Agrawal A, Villanueva R, Saeedi O, Liu Z. Label-free adaptive optics imaging of human retinal macrophage distribution and dynamics. Proc Natl Acad Sci U S A. 2020 Dec 1;117(48):30661-30669. doi: 10.1073/pnas.2010943117. Epub 2020 Nov 9."
+                },
+                {
+                    "pmid": "31453000",
+                    "type": "RESULT",
+                    "citation": "Liu Z, Kurokawa K, Hammer DX, Miller DT. In vivo measurement of organelle motility in human retinal pigment epithelial cells. Biomed Opt Express. 2019 Jul 19;10(8):4142-4158. doi: 10.1364/BOE.10.004142. eCollection 2019 Aug 1."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified AO images will be shared with external academic collaborators.",
+            "timeFrame": "For the duration of the study.",
+            "accessCriteria": "Available upon request."
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "Prot",
+                    "hasProtocol": true,
+                    "hasSap": false,
+                    "hasIcf": false,
+                    "label": "Study Protocol",
+                    "date": "2023-11-07",
+                    "uploadDate": "2023-12-22T07:15",
+                    "filename": "Prot_002.pdf",
+                    "size": 293212
+                },
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2023-10-19",
+                    "uploadDate": "2023-12-22T07:14",
+                    "filename": "ICF_003.pdf",
+                    "size": 131828
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000005902",
+                    "term": "Glaucoma, Open-Angle"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005901",
+                    "term": "Glaucoma"
+                },
+                {
+                    "id": "D000009798",
+                    "term": "Ocular Hypertension"
+                },
+                {
+                    "id": "D000005128",
+                    "term": "Eye Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9013",
+                    "name": "Glaucoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9014",
+                    "name": "Glaucoma, Open-Angle",
+                    "asFound": "Glaucoma, Primary Open Angle",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10024",
+                    "name": "Hypertension",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12731",
+                    "name": "Ocular Hypertension",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8271",
+                    "name": "Eye Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC11",
+                    "name": "Eye Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

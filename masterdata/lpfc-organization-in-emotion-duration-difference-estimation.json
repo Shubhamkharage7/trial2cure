@@ -1,0 +1,329 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06276400",
+            "orgStudyIdInfo": {
+                "id": "4-24-0023:1"
+            },
+            "organization": {
+                "fullName": "University of California, Santa Barbara",
+                "class": "OTHER"
+            },
+            "briefTitle": "LPFC Organization in Emotion-Duration Difference Estimation",
+            "officialTitle": "Lateral Prefrontal Organization in Emotion: Representational and Causal Mechanism - Duration Difference Estimation",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "lpfc-organization-in-emotion-duration-difference-estimation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-03-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-03-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-16",
+            "studyFirstSubmitQcDate": "2024-02-16",
+            "studyFirstPostDateStruct": {
+                "date": "2024-02-26",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Regina Lapate",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "University of California, Santa Barbara"
+            },
+            "leadSponsor": {
+                "name": "University of California, Santa Barbara",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "To support optimal behavior in daily life, goals and responses following emotional events should ideally incorporate not only the valence and intensity of prior emotional episodes but also their temporal features, such as the relative duration of positive vs. negative attributes. However, how specific brain regions contribute to the integration of temporal and emotional information and promote goal-directed response remains unknown.\n\nThe goal of this study is to examine how specific brain regions track both emotional and temporal information of dynamic emotional events to inform other related brain regions to guide goal-oriented and context-appropriate actions. The investigators will scan healthy human participants using functional MRI (fMRI) while they view emotional image sequences and track the associated emotional and temporal (duration) information, and act accordingly. The investigators will employ multivariate patterns analysis and pattern similarity analysis to identify brain regions that represent (can decode) emotion, time, and their combined signals, as well as brain regions that represent the associated action goal. In addition, to infer the causal contributions of these brain regions in forming task-relevant representations (emotion, time, and action goal), the same participants will be recruited to receive transcranial magnetic stimulation (TMS) in these regions.",
+            "detailedDescription": "Overview. n=50 participants from the UC Santa Barbara and the larger Santa Barbara community will be recruited and invited to participate in a multi-session fMRI/TMS+fMRI study. Eligibility criteria have been described and include fMRI and TMS safety criteria.\n\nBehavioral Task. To test the hypothesis that the lateral frontal pole (FPl) represents emotion and temporal signals and integrates them to inform contextual action goal representations in the mid-lateral prefrontal cortex (mid-LPFC), the investigators will use a well-validated task that manipulates time and emotional valence factors to inform context-dependent action goals, the Emotional Sequences Task. In each trial, participants view 12-s sequences of 4 novel negative and positive images (events). Half the trials feature longer-lasting negative (vs. positive) picture presentations, and vice versa, yielding greater temporal evidence for either positive or negative emotional valence. The amount of temporal evidence in favor of one valence in a 12-s sequence (\u2206 Temporal evidence: 1200ms vs 1800ms) is varied orthogonally with respect to the predominant emotional valence by varying individual picture presentation times (2000ms-4000ms; jittered). At the end of each sequence, participants indicate whether the total duration of positive or negative events was longer with a button press (Left vs. Right), following an action-mapping rule (Contextual Goal Cue).\n\nProcedure. fMRI acquisition. Using a 64-channel coil in the 3T Prisma Siemens MRI scanner located at UCSB's Brain Imaging Center (BIC), the investigators will collect whole-brain EPIs (multiband factor=3; 2.5 mm3 isotropic voxels; TR=1.5 s; TE=30 ms; FA=65\u00b0) and T1-weighted images for spatial normalization and TMS neuronavigation (0.94 mm3; TR=2.5 s; TE=2.19 ms; FA=7\u00b0). fMRI data processing and modeling. Following our prior work (see(2)), fMRI data processing, in FSL and Python, will include motion and slice time correction, 3mm FWHM smoothing, and alignment to T1-space maintaining native functional resolution. Trial-wise BOLD activation parameters for emotional sequence and action preparation epochs will be obtained using a canonical HRF in a Least-Squares All (LS-A)(3) GLM, and regularized using multivariate noise normalization(4) to remove nuisance inter-voxel correlations due to physiological and/or instrument noise. Regions of Interest (ROIs). PFC-LPFC: FPl and mid-LPFC (BA46 \\& 9-46); mPFC: BA25 and BA32-Oxford PFC consensus atlas(5-7) and surface-based segmentation in Freesurfer(8) aligned to individual T1 space. Amygdala ROIs-CITI atlas(9) and ANTs registration to T1 space. fMRI analysis: Overview. Aims 1-1b: the investigators will model the following factors: predominant emotional valence (positive vs. negative; hereafter, emotion), # temporal evidence (1200ms vs. 1800ms; hereafter, time), and action goals (rule-based left vs. right; hereafter, action). MVPA. To replicate our prior work(2), which showed linear decoding of emotional valence in FPl, and action goals in FPl and mid-LPFC, the investigators will use a multivariate logistic classifier run on z-scored data for each subject, ROI, and task epoch (emotional sequences and action preparation) in Nilearn. Classifier performance will be evaluated using the area under the curve (AUC; chance performance = 0.5) and leave-one-run-out cross validation (yielding run-wise classifier AUCs). Mixed Models: Overview. Here and throughout, the investigators use mixed models (lme4(10)) entering subject and run as random factors. Classifier Mixed Models. Classifier AUC is tested against chance using mixed models combining run-wise classifier AUCs across subjects. Representational Similarity Analysis (RSA). Full-factorial RSA tests whether the inter-trial similarity structure of multivoxel neural activity patterns (i.e., the neural similarity matrix) is explained by experimental factors-here, emotional valence, time, action goals, and, critically, their interaction(2). The investigators will obtain neural similarity matrices for each participant, ROI, and task epoch by computing Pearson correlations between pairs of trial-wise multivoxel patterns in a between-runs correlation approach, which minimizes inflated correlations due to data dependencies and autocorrelation. RSA Mixed Models. Next, the investigators will fit a multiple regression mixed model for each ROI using condition-specific template matrices (each template matrix is included in the subject error term). The investigators will fit emotion, time, and emotion\\*time regressors (emotional-sequences epoch). This model tests whether time and emotion significantly explain the similarity structure of FPl and mid-LPFC neural activity patterns, and, critically, whether they interact (i.e., in conjunctive representations(11,12)). To test whether mid-LPFC and FPl represent action goals, the investigators will fit an action goal regressor (action preparation epoch); a secondary model will include emotion and time as interactive regressors (emotion\\*action, time\\*action, emotion\\*time\\*action) to examine whether action goal representations are unaltered by valence in mid-LPFC (vs. FPl) (as the investigators previously found(2)) or whether these factors are integrated in mid-LPFC in this task. The behavioral relevance of time, emotion, and goal signals in LPFC. The investigators will test the predicted behavioral import of integrated time-emotion signals in FPl by regressing the fit of emotion\\*time regressors in FPl (RSA betas) on accuracy in the Emotional Sequences Task. FPl-mid-LPFC interactions: Functional connectivity and cross-regional representational evidence. The investigators will test whether FPl's integrated time-emotion signals may inform mid-LPFC function by regressing (a) FPl's emotion\\*time fits (RSA betas) and (b) FPl-mid-LPFC's functional connectivity (PPI betas) on mid-LPFC's action-goal signals (AUC). Statistical Rigor. Here and throughout, all p values are FDR-adjusted to correct for multiple comparisons. Regional and representational specificity in LPFC is formally tested by entering region (FPl vs. mid-LPFC) as an interactive regressor in above-described mixed models.\n\nThe investigators will bring participants from Experiment 1.1 (Aim 1) for 3 TMS+fMRI sessions targeting FPl, mid-LPFC, and a non-PFC Control (S1) (order counterbalanced across subjects). Each TMS administration will be followed by fMRI scanning of the Emotional Sequences Task. Experiment 1.2 tests a causal role of FPl function in (a) informing action-goal representations in mid-LPFC and (b) task performance (requiring accurate tracking of temporally-extended emotional information); compared to Experiment 1.3, which targets action-goal signals in mid-LPFC, and Experiment 1.4, which targets a non-PFC control (S1).\n\nProcedure. Information-guided TMS. Following others'(13) and our(1) recent work, individualized LPFC TMS sites will target the peak location of task-relevant classifier evidence- emotional valence in FPl, and action goals in mid-LPFC-as revealed by a spherical searchlight (7.5mm radius) run on fMRI data obtained at baseline (Experiment 1.1; Aim 1) constrained by relevant anatomical ROIs (see ROIs, Aim 1). S1 targets are defined based on anatomy(14-17). TMS sites will be a-priori restricted to the Left hemisphere given more consistent engagement of Left vs. Right LPFC during cognitive control(18-20) and emotion regulation(15,21). TMS protocol. TMS will be delivered using a Magstim Horizon Lite magnetic stimulator and a figure-of-eight coil. Precise TMS targeting is achieved using T1-weighted scans and computerized stereotaxic system (Brainsight). As in our prior work, the investigators will use an offline cTBS protocol (50Hz trains of 3 pulses every 200ms; 40 s; Huang et al. 2005), which reduces cortical activity for up to 60 min after stimulation. Questionnaires. The investigators will assess mood pre and post TMS using the PANAS(22) and STAI(23). fMRI analysis. The investigators will conduct MVPA and RSA (detailed in Aim 1). Statistical Rigor. See Aim 1; here, TMS site specificity is tested by entering TMS site (FPl vs. mid-LPFC vs. Control/S1) as an interactive factor in above-described mixed models (classifier AUC and RSA); all p-values FDR corrected for multiple comparisons."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Healthy"
+            ],
+            "keywords": [
+                "Emotion-time information integration in healthy participants",
+                "Neural representation of emotional events and goal action"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "This is a basic science study in which all participants will participate in all task conditions within each experiment (repeated-measures design).",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE",
+                    "maskingDescription": "Participants will typically be unaware of the conditions presented, though because these involve manipulations of stimuli or task demands, they may be aware of the manipulation. This is not expected to impact the primary outcome measures (e.g., BOLD signal activation patterns)."
+                }
+            },
+            "enrollmentInfo": {
+                "count": 50,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Duration difference estimation",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will view emotional sequences composed of four emotional images. They will be asked to indicate whether the total duration of positive or negative emotional events was longer, by responding with a button press to a contextual cue defining the relevant action (Left vs Right button). The amount of temporal evidence in favor of one valence in a 12-s sequence is varied orthogonally with respect to the (predominant) emotional valence by varying individual picture presentation times. Participants will undergo one fMRI session and 3 TMS+fMRI sessions (2 of the TMS sessions target prefrontal (PFC) sites, and 1 targets a non-PFC control site).",
+                    "interventionNames": [
+                        "Other: Emotion valence",
+                        "Other: Time",
+                        "Device: TMS Stimulation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Emotion valence",
+                    "description": "Positive vs. Negative (temporally extended sequence)",
+                    "armGroupLabels": [
+                        "Duration difference estimation"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Time",
+                    "description": "\u2206 Temporal evidence (i.e. relative time difference of stimulus-type exposure across a sequence: 1200 vs. 1800)",
+                    "armGroupLabels": [
+                        "Duration difference estimation"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "TMS Stimulation",
+                    "description": "FPl vs. mid-LPFC vs. non-PFC Control (S1); Specific LPFC region (vs. non-PFC active Control) function is manipulated with an inhibitory TMS protocol (cTBS).",
+                    "armGroupLabels": [
+                        "Duration difference estimation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Multivariate BOLD metrics",
+                    "description": "The investigators will use BOLD activation patterns measured from each ROI to fit quantitative models of emotional valence, time, and action goal encoding. These models will be used to classify stimulus representations on experimental trials to quantify how stimulus representations are encoded in each brain region studies, and how these representations change across experimental manipulations. These measurements will be used to test the impact of stimulus manipulations on stimulus representations in different brain regions.",
+                    "timeFrame": "Through study completion, an average of 12-14 months"
+                },
+                {
+                    "measure": "Behavioral response",
+                    "description": "On all trials participants will be instructed to attend carefully to report which valence of emotional images shown for a longer duration by pressing one of two buttons held in their hand inside the scanner. The correct button to be pressed is determined by the valence, the presentation duration, and the color of a triangle (the contextual cue). Investigators will ensure participants are performing the task as instructed by providing practices and assessing the accuracy of their behavioral responses.",
+                    "timeFrame": "Through study completion, an average of 12-14 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* right-handed\n* between the ages of 18 and 45\n* be a fluent English speaker\n* have normal to corrected-to-normal vision.\n\nExclusion Criteria:\n\n* if they report a current or prior diagnosis of a psychiatric disorder requiring hospitalization and/or are currently using psychiatric medication; o If they report a history of or current neurological disease (i.e., stroke, concussion, epilepsy, major head trauma, complicated migraine);\n* If they ever had a seizure;\n* If they have a family history of epilepsy or seizure disorders;\n* If they have a history of fainting;\n* If they are sleep deprived (TMS only);\n* If they have a history of prior surgery with metal clips, implants, devices, prosthetics, cardiac or neural implants (e.g., pacemaker; neurostimulator), or cochlear implants;\n* If they are unable to safely and comfortably complete an MRI: have metal in the body, recent surgery, presence of surgically implanted devices not cleared for MRI, extreme claustrophobia, if they report tattoos of the head or neck region, non-removable metal piercing anywhere on the body\n* Women will be asked to self-report their pregnancy status and have the option to take a pregnancy test if they wish. If there is a chance a participant is pregnant, they will not be scanned.\n* As part of the newly adopted UCSB BIC prescreening procedure, participants will be asked about their history of hearing issues (including loss, hyperacuity, sensitivity to loud noises, history of tinnitus (ringing in ears), job with high noise exposure, and chronic migraines. Participants will be excluded if one or more hearing issues are reported.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "45 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Mengsi Li, M.S.",
+                    "role": "CONTACT",
+                    "phone": "805-837-5206",
+                    "email": "mengsi.li@ucsb.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Regina Lapate, Ph.D.",
+                    "affiliation": "University of California, Santa Barbara",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of California, Santa Barbara",
+                    "status": "RECRUITING",
+                    "city": "Santa Barbara",
+                    "state": "California",
+                    "zip": "93106",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.42083,
+                        "lon": -119.69819
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Lapate RC, Heckner MK, Phan A, Tambini A, D'Esposito M. Representation-based TMS to prefrontal cortex changes action goals and avoidance behavior during negative emotional processing. under review"
+                },
+                {
+                    "pmid": "34969868",
+                    "type": "BACKGROUND",
+                    "citation": "Lapate RC, Ballard IC, Heckner MK, D'Esposito M. Emotional Context Sculpts Action Goal Representations in the Lateral Frontal Pole. J Neurosci. 2022 Feb 23;42(8):1529-1541. doi: 10.1523/JNEUROSCI.1522-21.2021. Epub 2021 Dec 30."
+                },
+                {
+                    "pmid": "21924359",
+                    "type": "BACKGROUND",
+                    "citation": "Mumford JA, Turner BO, Ashby FG, Poldrack RA. Deconvolving BOLD activation in event-related designs for multivoxel pattern classification analyses. Neuroimage. 2012 Feb 1;59(3):2636-43. doi: 10.1016/j.neuroimage.2011.08.076. Epub 2011 Sep 5."
+                },
+                {
+                    "pmid": "26707889",
+                    "type": "BACKGROUND",
+                    "citation": "Walther A, Nili H, Ejaz N, Alink A, Kriegeskorte N, Diedrichsen J. Reliability of dissimilarity measures for multi-voxel pattern analysis. Neuroimage. 2016 Aug 15;137:188-200. doi: 10.1016/j.neuroimage.2015.12.012. Epub 2015 Dec 18."
+                },
+                {
+                    "pmid": "24485097",
+                    "type": "BACKGROUND",
+                    "citation": "Neubert FX, Mars RB, Thomas AG, Sallet J, Rushworth MF. Comparison of human ventral frontal cortex areas for cognitive control and language with areas in monkey frontal cortex. Neuron. 2014 Feb 5;81(3):700-13. doi: 10.1016/j.neuron.2013.11.012. Epub 2014 Jan 28."
+                },
+                {
+                    "pmid": "23884933",
+                    "type": "BACKGROUND",
+                    "citation": "Sallet J, Mars RB, Noonan MP, Neubert FX, Jbabdi S, O'Reilly JX, Filippini N, Thomas AG, Rushworth MF. The organization of dorsal frontal cortex in humans and macaques. J Neurosci. 2013 Jul 24;33(30):12255-74. doi: 10.1523/JNEUROSCI.5108-12.2013."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Verhagen L. Prefrontal Consensus Atlas (Oxford) [Internet]. 2018. Available from: http://lennartverhagen.com/; lennart.verhagen@donders.ru.nl"
+                },
+                {
+                    "pmid": "22430496",
+                    "type": "BACKGROUND",
+                    "citation": "Reuter M, Schmansky NJ, Rosas HD, Fischl B. Within-subject template estimation for unbiased longitudinal image analysis. Neuroimage. 2012 Jul 16;61(4):1402-18. doi: 10.1016/j.neuroimage.2012.02.084. Epub 2012 Mar 10."
+                },
+                {
+                    "pmid": "27354150",
+                    "type": "BACKGROUND",
+                    "citation": "Tyszka JM, Pauli WM. In vivo delineation of subdivisions of the human amygdaloid complex in a high-resolution group template. Hum Brain Mapp. 2016 Nov;37(11):3979-3998. doi: 10.1002/hbm.23289."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Bates D, Ma\u0308chler M, Bolker B, Walker S. Fitting Linear Mixed-Effects Models Using lme4. Journal of Statistical Software, Articles. 2015;67(1):1-48."
+                },
+                {
+                    "pmid": "32864401",
+                    "type": "BACKGROUND",
+                    "citation": "Badre D, Bhandari A, Keglovits H, Kikumoto A. The dimensionality of neural representations for control. Curr Opin Behav Sci. 2021 Apr;38:20-28. doi: 10.1016/j.cobeha.2020.07.002. Epub 2020 Aug 19."
+                },
+                {
+                    "pmid": "33895065",
+                    "type": "BACKGROUND",
+                    "citation": "Freund MC, Etzel JA, Braver TS. Neural Coding of Cognitive Control: The Representational Similarity Analysis Approach. Trends Cogn Sci. 2021 Jul;25(7):622-638. doi: 10.1016/j.tics.2021.03.011. Epub 2021 Apr 21."
+                },
+                {
+                    "pmid": "27934762",
+                    "type": "BACKGROUND",
+                    "citation": "Rose NS, LaRocque JJ, Riggall AC, Gosseries O, Starrett MJ, Meyering EE, Postle BR. Reactivation of latent working memories with transcranial magnetic stimulation. Science. 2016 Dec 2;354(6316):1136-1139. doi: 10.1126/science.aah7011."
+                },
+                {
+                    "pmid": "32647260",
+                    "type": "BACKGROUND",
+                    "citation": "Lapate RC, Samaha J, Rokers B, Postle BR, Davidson RJ. Perceptual metacognition of human faces is causally supported by function of the lateral prefrontal cortex. Commun Biol. 2020 Jul 9;3(1):360. doi: 10.1038/s42003-020-1049-3."
+                },
+                {
+                    "pmid": "28613974",
+                    "type": "BACKGROUND",
+                    "citation": "Lapate RC, Samaha J, Rokers B, Hamzah H, Postle BR, Davidson RJ. Inhibition of Lateral Prefrontal Cortex Produces Emotionally Biased First Impressions: A Transcranial Magnetic Stimulation and Electroencephalography Study. Psychol Sci. 2017 Jul;28(7):942-953. doi: 10.1177/0956797617699837. Epub 2017 Jun 14."
+                },
+                {
+                    "pmid": "32735812",
+                    "type": "BACKGROUND",
+                    "citation": "Tambini A, D'Esposito M. Causal Contribution of Awake Post-encoding Processes to Episodic Memory Consolidation. Curr Biol. 2020 Sep 21;30(18):3533-3543.e7. doi: 10.1016/j.cub.2020.06.063. Epub 2020 Jul 30."
+                },
+                {
+                    "pmid": "29916791",
+                    "type": "BACKGROUND",
+                    "citation": "Tambini A, Nee DE, D'Esposito M. Hippocampal-targeted Theta-burst Stimulation Enhances Associative Memory Formation. J Cogn Neurosci. 2018 Oct;30(10):1452-1472. doi: 10.1162/jocn_a_01300. Epub 2018 Jun 19."
+                },
+                {
+                    "pmid": "26999822",
+                    "type": "BACKGROUND",
+                    "citation": "Nee DE, D'Esposito M. The hierarchical organization of the lateral prefrontal cortex. Elife. 2016 Mar 21;5:e12112. doi: 10.7554/eLife.12112."
+                },
+                {
+                    "pmid": "33650966",
+                    "type": "BACKGROUND",
+                    "citation": "Nee DE. Integrative frontal-parietal dynamics supporting cognitive control. Elife. 2021 Mar 2;10:e57244. doi: 10.7554/eLife.57244."
+                },
+                {
+                    "pmid": "29438672",
+                    "type": "BACKGROUND",
+                    "citation": "Lowe CJ, Manocchio F, Safati AB, Hall PA. The effects of theta burst stimulation (TBS) targeting the prefrontal cortex on executive functioning: A systematic review and meta-analysis. Neuropsychologia. 2018 Mar;111:344-359. doi: 10.1016/j.neuropsychologia.2018.02.004. Epub 2018 Feb 10."
+                },
+                {
+                    "pmid": "27181344",
+                    "type": "BACKGROUND",
+                    "citation": "Lapate RC, Rokers B, Tromp DP, Orfali NS, Oler JA, Doran ST, Adluru N, Alexander AL, Davidson RJ. Awareness of Emotional Stimuli Determines the Behavioral Consequences of Amygdala Activation and Amygdala-Prefrontal Connectivity. Sci Rep. 2016 May 16;6:25826. doi: 10.1038/srep25826."
+                },
+                {
+                    "pmid": "3397865",
+                    "type": "BACKGROUND",
+                    "citation": "Watson D, Clark LA, Tellegen A. Development and validation of brief measures of positive and negative affect: the PANAS scales. J Pers Soc Psychol. 1988 Jun;54(6):1063-70. doi: 10.1037//0022-3514.54.6.1063."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Spielberger CD, Sydeman SJ, Owen AE, Marsh BJ. Measuring anxiety and anger with the State-Trait Anxiety Inventory (STAI) and the State-Trait Anger Expression Inventory (STAXI). The use of psychological testing for treatment planning and outcomes assessment, 2nd ed. 1507;2(1999):993-1021."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Deanonymized raw fMRI and raw behavioral data will be shared with researchers immediately upon publication.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Data will be available indefinitely beginning with the publication of results",
+            "accessCriteria": "Raw fMRI data and raw behavioral data will be available on the NIMH Data Archive (NDA) by submitting Data Access Requests. Experimental scripts and analysis code will be available on GitHub (an online tool for storing and managing code).",
+            "url": "http://github.com/LEAPNeuroLab"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,231 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06215560",
+            "orgStudyIdInfo": {
+                "id": "23-0885"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "15PBJA-22-GK-03114-PDMP",
+                    "type": "OTHER_GRANT",
+                    "domain": "BJA"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Colorado, Denver",
+                "class": "OTHER"
+            },
+            "briefTitle": "A Prospective Evaluation of Colorado's New Statutory PDMP Mandates: Compliance and Patient Outcomes",
+            "officialTitle": "A Prospective Evaluation of Colorado's New Statutory PDMP Mandates: Compliance and Patient Outcomes",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "a-prospective-evaluation-of-colorado-s-new-statutory-pdmp-mandates-compliance-and-patient-outcomes"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-10",
+            "studyFirstSubmitQcDate": "2024-01-10",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Colorado, Denver",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "U.S. Department of Justice",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this study is to test the impact of a clinical decision support (CDS) tool to improve health care provider practices in line with state law requiring review of the Colorado prescription drug monitoring program (PDMP) before prescribing an opioid analgesic (pain medications often called narcotics) or benzodiazepine (sedatives or muscle relaxants). The PDMP is a statewide database of filled controlled medication, allowing health care providers to review medications ordered by other health care providers in the state and identify high-risk factors for overdose.\n\nThe CDS tool only appears when a relevant prescription is being written by a health care provider and is purely informational, not dictating care or changes in treatment.\n\nThe study will track how the tool is used by health care providers, if an opioid or benzodiazepine prescription is signed, and future opioid use by patients.",
+            "detailedDescription": "Improving prescription drug monitoring (PDMP) use and the safety of controlled medication prescribing is a pillar of the national response to the worsening opioid crisis. The evidence base for PDMPs would benefit greatly from research producing high quality, actionable data linking and measuring PDMP use and important patient outcomes. Data silos commonly limit the measurement of PDMP utilization and the linkage of PDMP use to provider prescribing actions. Best practice data linkage strategies can facilitate a robust evaluation of PDMP effectiveness and, specifically, the impact of Colorado's new PDMP regulations which mandate PDMP checks prior to opioid and benzodiazepine prescriptions with certain exceptions.\n\nThe objective of this project is to improve data architecture across Colorado's largest hospital system to effectively measure clinician PDMP use to address gaps in data, compliance with statutes, and important outcomes associated with new PDMP regulations. By facilitating robust evaluations of process (e.g., PDMP use, opioid prescribing) and patient outcomes (e.g., future opioid use, co-prescribing, death), this data system will expedite the measurement of PDMP effectiveness on changing opioid prescribing. Further, evaluation of clinical decision support (CDS) to promote compliance with regulation can determine if mandates result in increased PDMP use, decreased opioid exposures, high-risk prescriptions, morbidity, and mortality. This project will enhance the PDMP in three key ways:\n\n* Address inefficiencies of collecting PDMP use data. Improved collection of PDMP data at the patient visit level will allow for rapid analysis of PDMP use and interventions.\n* Implement effective PDMP interventions. PDMP CDS tools can accelerate the uptake of mandated PDMP actions while routine data collection can be used to assess outcomes.\n* Address sustainability. Health system wide implementation will strengthen capacity to rapidly evaluate the effectiveness of multiple new PDMP policy interventions.\n\nThe proposed project will achieve this using a single system, pragmatic, cluster randomized trial of CDS to deliver new state mandated PDMP regulations compared to usual care to evaluate: PDMP use, regulatory compliance, and associated patient outcomes. This will be performed across the UCHealth system in collaboration with Colorado Department of Regulatory Agencies (DORA) to maximize the quality and impact of the work and generate novel, generalizable knowledge to support the progress of PDMPs."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Medication Abuse"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 70000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Usual Care",
+                    "description": "Control group to enable tracking of temporal changes in prescribing. Providers will not see any alert."
+                },
+                {
+                    "label": "CDS Alert",
+                    "description": "Providers will see a pop-up alert within the electronic health record (EHR) when they initiate an opioid or benzodiazepine prescription without recording use of the prescription drug monitoring program (PDMP) database.\n\nAlerts do not appear with patients with oncology or sickle cell diagnoses, or hospice discharge orders.",
+                    "interventionNames": [
+                        "Other: PDMP Check CDS"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "PDMP Check CDS",
+                    "description": "Clinical decision support in the form of a EHR-integrated, provider facing alert suggesting providers consult the patient PDMP in line with State legislation.",
+                    "armGroupLabels": [
+                        "CDS Alert"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of PDMP check encounters",
+                    "description": "The number of encounters where the state prescription drug monitoring program (PDMP) database is reviewed by a provider before signing an opioid or benzodiazepine prescription.",
+                    "timeFrame": "18 months"
+                },
+                {
+                    "measure": "Initiated controlled medication prescription",
+                    "description": "The number of encounters in the observation window where an opioid or benzodiazepine prescription is signed",
+                    "timeFrame": "18 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of high-risk opioid prescriptions",
+                    "description": "Count of opioid prescriptions with one or more active existing opioid prescriptions, an existing benzodiazepine prescription, use of long-acting opioids in an opioid na\u00efve patient, a history of accidental opioid overdose, diagnosis of Opioid Use Disorder, multiple recent acute care incidents with opioid use, or high risk psychiatric diagnoses.",
+                    "timeFrame": "18 months"
+                },
+                {
+                    "measure": "Number of patients with long term opioid use",
+                    "description": "Count of patients filling \\>90 day supply of opioids",
+                    "timeFrame": "6 months after index visit"
+                },
+                {
+                    "measure": "Number of patients with aberrant opioid use",
+                    "description": "Count of patients with opioid prescriptions filled from five or more prescribers OR five or more pharmacies.",
+                    "timeFrame": "6 months after index visit"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion:\n\nHealth care providers:\n\nHealth care providers licensed to prescribe opioids, employed at UCHealth Emergency department, ambulatory care practices or inpatient settings within the UCHealth system.\n\nPatient encounters:\n\n1. Patients seen in the UCHealth Emergency Department, outpatient clinic/office or inpatient setting during the intervention period\n2. Provider initiates a prescription for an opioid or benzodiazepine\n3. patient is between 12-89 years of age, inclusive\n\nExclusion:\n\nHealth care providers:\n\n1. Providers primarily practicing in dentistry, veterinary medicine, oncology, pediatrics, palliative, or hospice practices.\n2. Providers in ambulatory practices (primary care and specialty clinics) which write a total of less than 52 opioids and benzodiazepine prescriptions in the year prior to study initiation.\n\nPatient encounters:\n\n1. Encounters in dentistry, veterinary medicine, oncology practices, pediatrics practices, palliative care or hospice practices\n2. Prisoners or wards of the state\n3. Age \\<12 or \\>89 YOA\n4. Active diagnosis of sickle cell, cancer, or in hospice care.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "12 Years",
+            "maximumAge": "89 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Residents and visitors to the state of Colorado who seek healthcare within the University of Colorado Health (UCHealth) system.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Heather Tolle, PhD",
+                    "role": "CONTACT",
+                    "phone": "303-724-9924",
+                    "email": "heather.tolle@cuanschutz.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jason A Hoppe, DO",
+                    "affiliation": "University of Colorado, Denver",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Colorado Hospital",
+                    "city": "Aurora",
+                    "state": "Colorado",
+                    "zip": "80045",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.72943,
+                        "lon": -104.83192
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "IPD is not expected to shared publicly but can be requested of the PI"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4033",
+                    "name": "Analgesics, Opioid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

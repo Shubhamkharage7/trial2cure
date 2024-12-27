@@ -1,0 +1,370 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06122610",
+            "orgStudyIdInfo": {
+                "id": "2023-0121"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "Protocol Version 10/3/22",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "SMPH/RADIOLOGY/RADIOLOGY",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "briefTitle": "Using Novel Imaging to More Safely Treat Neuroendocrine Tumors",
+            "officialTitle": "Dosimetry-Guided 177Lu-DOTATATE Treatment Planning Using 64Cu-DOTATATE as a Surrogate",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "using-novel-imaging-to-more-safely-treat-neuroendocrine-tumors"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-02",
+            "studyFirstSubmitQcDate": "2023-11-02",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this research is to determine if DetectnetTM PET/CT can be used to make Lutathera therapy safer for patients with neuroendocrine cancer.\n\nParticipants will:\n\n* Complete two phases involving 6 visits\n* Undergo additional research PET/CT, and possibly SPECT/CT scans",
+            "detailedDescription": "The goal of this research study is to determine if DetectnetTM PET/CT scanning over several days can be used to deliver Lutathera in a safer manner.\n\nIn this research, participants will be asked to complete a screening phase and possibly a dosimetry phase. The screening phase will require 2 visits. The dosimetry phase will also require 3 research visits."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Neuroendocrine Tumors",
+                "Somatostatin Receptor-positive Neuroendocrine Tumor"
+            ],
+            "keywords": [
+                "neuroendocrine tumors"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 10,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Participants treated with Lutathera",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Device: Single Photon Emission Computed Tomography/ Computed Tomography (SPECT/CT)",
+                        "Device: Photon Emission Tomography / CT (PET/CT)",
+                        "Drug: 64Cu-Dotatate",
+                        "Drug: 177Lu-Dotatate"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Single Photon Emission Computed Tomography/ Computed Tomography (SPECT/CT)",
+                    "description": "SPECT/CT will be performed after first cycle of Lutathera\u00ae treatment",
+                    "armGroupLabels": [
+                        "Participants treated with Lutathera"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Photon Emission Tomography / CT (PET/CT)",
+                    "description": "PET/CT will be performed after 64Cu-DOTATATE and Lutathera\u00ae treatment",
+                    "armGroupLabels": [
+                        "Participants treated with Lutathera"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "64Cu-Dotatate",
+                    "description": "Standard of care administration of radioactive drug for PET/CT",
+                    "armGroupLabels": [
+                        "Participants treated with Lutathera"
+                    ],
+                    "otherNames": [
+                        "Detectnet"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "177Lu-Dotatate",
+                    "description": "Standard of care administration of radioactive drug for PET/CT and SPECT/CT",
+                    "armGroupLabels": [
+                        "Participants treated with Lutathera"
+                    ],
+                    "otherNames": [
+                        "Lutathera\u00ae"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Compare pre-therapy and post-therapy voxel-based dosimetry estimates",
+                    "description": "Absorbed doses to organs will be estimated using radiation dosimetry methods based on both multi-timepoint PET and multi-timepoint SPECT imaging. Mean dose estimates in units of Gy to the index tumor(s) and dose limiting organs (kidneys and bone marrow) will be compared between PET-based dosimetry and SPECT-based dosimetry. Using SPECT-based dosimetry as the gold standard truth, Bland-Altman analysis will be performed for each organ/tumor to compare PET-based dose estimates to SPECT-based estimates. Mean bias and 95% confidence intervals will be calculated.",
+                    "timeFrame": "Baseline and 96 hours post-dose"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Absorbed radiation doses",
+                    "description": "Absorbed radiation doses from 177Lu-DOTATATE in organs will be summarized with descriptive statistics.",
+                    "timeFrame": "1 hour post-dose, 4 hours post-dose, 48 hours post-dose, 96 hours post-dose"
+                },
+                {
+                    "measure": "Absorbed radiation doses of 64Cu-DOTATATE",
+                    "description": "Absorbed radiation doses of 177Lu-DOTATATE in organs using 64Cu-DOTATATE as an imagining surrogate will be summarized with descriptive statistics.",
+                    "timeFrame": "1 hour post-dose, 4 hours post-dose, 48 hours post-dose, 96 hours post-dose"
+                },
+                {
+                    "measure": "Compare 3D voxel-based versus model based dosimetry in participants receiving 177Lu_DOTATATE",
+                    "description": "Absorbed doses to organs will be estimated using radiation dosimetry methods based on multi-timepoint SPECT imaging. Mean dose estimates in units of Gy to the index tumor(s) and dose limiting organs (kidneys and bone marrow) will be compared between 3D voxel-based and model-based dosimetry methods. Using 3D voxel-based dosimetry as the gold standard truth, Bland-Altman analysis will be performed for each organ/tumor to compare 3D voxel-based to model-based methods. Mean bias and 95% confidence intervals will be calculated.",
+                    "timeFrame": "Baseline and 96 hours post-dose"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Candidates for 177Lu-DOTATATE (Lutathera) treatment for somatostatin receptor-positive neuroendocrine tumor\n\nExclusion Criteria:\n\n* Unable to lie flat during or tolerate PET/CT or SPECT/CT\n* Known incompatibility to CT. SPECT, or PET scans\n* Unlikely to comply with study procedures, restrictions and requirements and judged by the investigator that the participant is not suitable for participation in the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Gemma Gliori",
+                    "role": "CONTACT",
+                    "phone": "608-262-7269",
+                    "email": "gmgliori@wisc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Steve Cho, MD",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Wisconsin - Madison",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53705",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Gemma Gliori",
+                            "role": "CONTACT",
+                            "phone": "608-262-7269",
+                            "email": "gmgliori@wisc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000018358",
+                    "term": "Neuroendocrine Tumors"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000017599",
+                    "term": "Neuroectodermal Tumors"
+                },
+                {
+                    "id": "D000009373",
+                    "term": "Neoplasms, Germ Cell and Embryonal"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009380",
+                    "term": "Neoplasms, Nerve Tissue"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20495",
+                    "name": "Neuroendocrine Tumors",
+                    "asFound": "Neuroendocrine Tumors",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19845",
+                    "name": "Neuroectodermal Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20388",
+                    "name": "Neuroectodermal Tumors, Primitive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12318",
+                    "name": "Neoplasms, Germ Cell and Embryonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12325",
+                    "name": "Neoplasms, Nerve Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4091",
+                    "name": "Neuroendocrine Tumor",
+                    "asFound": "Neuroendocrine Tumors",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T4092",
+                    "name": "Neuroepithelioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000447941",
+                    "term": "Lutetium Lu 177 dotatate"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000019275",
+                    "term": "Radiopharmaceuticals"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M21258",
+                    "name": "Radiopharmaceuticals",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M108723",
+                    "name": "Lutetium Lu 177 dotatate",
+                    "asFound": "Clothing",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

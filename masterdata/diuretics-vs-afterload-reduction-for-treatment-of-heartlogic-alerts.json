@@ -1,0 +1,582 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06218199",
+            "orgStudyIdInfo": {
+                "id": "Dart-HA"
+            },
+            "organization": {
+                "fullName": "Heart Center Research, LLC",
+                "class": "NETWORK"
+            },
+            "briefTitle": "Diuretics vs. Afterload Reduction for Treatment of HeartLogic Alerts",
+            "officialTitle": "Diuretics vs. Afterload Reduction for Treatment of HeartLogic Alerts (DART-HA)",
+            "acronym": "DART-HA",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "diuretics-vs-afterload-reduction-for-treatment-of-heartlogic-alerts"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-07-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-11",
+            "studyFirstSubmitQcDate": "2024-01-11",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Heart Center Research, LLC",
+                "class": "NETWORK"
+            },
+            "collaborators": [
+                {
+                    "name": "Boston Scientific Corporation",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The DART-HA study is a single-center, open label, trial intended to evaluate the clinical efficacy of standard treatment options for congestive heart failure (observation, diuretic or afterload reduction therapy) in patients without new symptoms who have developed abnormalities of the HeartLogic heart failure diagnostic feature.",
+            "detailedDescription": "Subjects with congestive heart failure (CHF) who have undergone implantation of a Boston Scientific pacemaker/defibrillator with a HeartLogic sensor will be remotely monitored for for elevation of their HeartLogic score which is indicative of worsening heart failure. Subjects whose devices demonstrate HeartLogic score elevations and also do not demonstrate symptoms from heart failure will be randomized to observation or one of two standard treatments for worsening heart failure, afterload reduction or diuretic therapy. Subjects will be followed to assess the change in HeartLogic score, incidence of the the HeartLogic score returning to normal levels, the development of symptoms of heart failure and/or the need for treatment for heart failure."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Heart Failure, Congestive"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Diuretic protocol",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "If asymptomatic at time of HeartLogic(HL) alert, will add or increase diuretic based on current medications.\n\nIf currently taking \u2264 20 mg. furosemide, begin furosemide 40mg orally daily until recovery from alert or re-alert. If currently taking \u2265 40mg furosemide begin torsemide 20 mg orally daily or bumetanide 1 mg orally daily. If patient unable to obtain torsemide or bumetanide double furosemide daily dose (maximum 480mg daily).\n\nIf currently taking \u2265 20mg torsemide or \u2265 1mg bumetanide, double daily dose. Recheck HeartLogic index 7 days following initiation of diuretic protocol. If patient recovers from alert consider reducing dose or stopping diuretic. If HeartLogic index is lower but still in alert continue current diuretic dose. If HeartLogic index is the same or higher double diuretic dose and/or add metolazone 2.5mg for 1-2 days.",
+                    "interventionNames": [
+                        "Drug: Furosemide",
+                        "Drug: Torsemide",
+                        "Drug: Bumetanide"
+                    ]
+                },
+                {
+                    "label": "Afterload reduction protocol",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "If asymptomatic at time of HL alert, increase afterload reduction drugs based on current medications.\n\nIf on Sacubitril/valsartan, double the dose. If on maximum Sacubitril/valsartan, add Hydralazine 10mg and Isordil10 mg both three times a day. If on Angiotensin Receptor Blocker (ARB) at low dose (less than or equal to Valsartan 160mg daily or equivalent) then stop ARB and start sacubitril/valsartan 24-26mg twice a day. If on ARB at high dose (greater than Valsartan 160mg daily or equivalent) then immediately stop ARB and start Sacubitril/valsartan 49-51mg twice a day. If on Angiotensin-converting enzyme (ACE) inhibitor at low dose (less than or equal to 10mg daily or equivalent) then immediately stop ACE inhibitor and start Sacubitril/valsartan 24-26mg twice a day after 48hours. If on ACE inhibitor at high dose (greater than Enalapril 10mg daily or equivalent) stop ACE inhibitor and start Sacubitril/valsartan 49-51mg twice a day after 48hours. Cut diuretic in half for all.",
+                    "interventionNames": [
+                        "Drug: sacubitril/valsartan",
+                        "Drug: Hydralazine",
+                        "Drug: Isosorbide Dinitrate"
+                    ]
+                },
+                {
+                    "label": "Observation protocol",
+                    "type": "NO_INTERVENTION",
+                    "description": "Standard therapy offered until development of symptoms of heart failure decompensation occurs. Patients will be monitored until out of alert and at 30, 60, and 90 days."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Furosemide",
+                    "description": "oral administration",
+                    "armGroupLabels": [
+                        "Diuretic protocol"
+                    ],
+                    "otherNames": [
+                        "Lasix"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Torsemide",
+                    "description": "oral administration",
+                    "armGroupLabels": [
+                        "Diuretic protocol"
+                    ],
+                    "otherNames": [
+                        "Demadex"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Bumetanide",
+                    "description": "oral administration",
+                    "armGroupLabels": [
+                        "Diuretic protocol"
+                    ],
+                    "otherNames": [
+                        "Bumex"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "sacubitril/valsartan",
+                    "description": "oral administration",
+                    "armGroupLabels": [
+                        "Afterload reduction protocol"
+                    ],
+                    "otherNames": [
+                        "Entresto"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Hydralazine",
+                    "description": "oral administration",
+                    "armGroupLabels": [
+                        "Afterload reduction protocol"
+                    ],
+                    "otherNames": [
+                        "Apresoline"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Isosorbide Dinitrate",
+                    "description": "oral administration",
+                    "armGroupLabels": [
+                        "Afterload reduction protocol"
+                    ],
+                    "otherNames": [
+                        "Dilatrate, Isordil"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of participants with recovery from HeartLogic Alert",
+                    "description": "change in HeartLogic score to \u2264 6",
+                    "timeFrame": "by 30, 60, 90 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of participants with development of symptoms of heart failure decompensation",
+                    "description": "change from baseline or new development of, dyspnea, orthopnea, paroxysmal nocturnal dyspnea or edema",
+                    "timeFrame": "30, 60, 90 days"
+                },
+                {
+                    "measure": "Number of participants with unintended office visit, emergency department visit, CHF admission",
+                    "description": "office visit, emergency department visit and/or CHF admission",
+                    "timeFrame": "30, 60, 90 days"
+                },
+                {
+                    "measure": "Number of participants with Heart Failure Events (HFE)",
+                    "description": "1) the patient was admitted or 2) the patient received 1 or more IV medications (including diuretic agents, inotropes, and vasodilators), or other parenteral therapy.",
+                    "timeFrame": "30, 60, 90 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Boston Scientific device with HeartLogic enabled\n* Lack of standard contraindications to Sacubitril/valsartan:\n\n  * history of ACE-inhibitor induced angioedema and in those with angiotensin II receptor blocker (ARB) therapy induced angioedema.\n  * hypotension, hypovolemia\n  * renal artery stenosis, renal failure\n  * hyperkalemia\n  * hepatic disease Child-Pugh class C\n  * Pregnancy/Breast-feeding\n* Lack of standard contraindications to diuretic therapy\n* Systolic Blood Pressure \\> 105\n\nExclusion Criteria:\n\n* Glomerular filtration rate \\<25 mL/min who are non-responsive to diuretic therapy or are on chronic renal dialysis\n* ongoing symptoms of heart failure decompensation (increased dyspnea and/or fatigue, for purposes of this study increased weight is not considered, see question 2 KCCQ).\n* recent significant change in arrhythmia burden (within the past 2 weeks)\n* in cardiac resynchronization therapy (CRT) patients, recent change (60 days) in effective delivery of CRT (eg. decreased biventricular paving %)\n* the subject is unable to sign or refuses to sign the patient informed consent\n* Symptomatic heart failure at rest or New York Heart Association Class IV at the time of enrollment\n* the subject is implanted with unipolar right atrial or right ventricular leads\n* subject has received or is scheduled to receive a heart transplant or ventricular assist device within the next 6 months\n* subject is pregnant or planning to become pregnant during the study\n* regularly scheduled IV heart failure therapy (e.g. inotropes or diuretics)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "19 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "COO",
+                    "role": "CONTACT",
+                    "phone": "256-519-8472",
+                    "email": "leskridge@theheartcenter.md"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jay Dinerman, MD",
+                    "affiliation": "Heart Center Research, LLC",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Heart Center Research, LLC",
+                    "status": "RECRUITING",
+                    "city": "Huntsville",
+                    "state": "Alabama",
+                    "zip": "35801",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "COO",
+                            "role": "CONTACT",
+                            "phone": "256-519-8472",
+                            "email": "leskridge@theheartcenter.md"
+                        },
+                        {
+                            "name": "Jay Dinerman, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.7304,
+                        "lon": -86.58594
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "35460884",
+                    "type": "RESULT",
+                    "citation": "Hernandez AF, Albert NM, Allen LA, Ahmed R, Averina V, Boehmer JP, Cowie MR, Chien CV, Galvao M, Klein L, Kwan B, Lam CSP, Ruble SB, Stolen CM, Stein K; MANAGE-HF Study. Multiple cArdiac seNsors for mAnaGEment of Heart Failure (MANAGE-HF) - Phase I Evaluation of the Integration and Safety of the HeartLogic Multisensor Algorithm in Patients With Heart Failure. J Card Fail. 2022 Aug;28(8):1245-1254. doi: 10.1016/j.cardfail.2022.03.349. Epub 2022 Apr 21."
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Heart Failure, Congestive",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000068756",
+                    "term": "Valsartan"
+                },
+                {
+                    "id": "D000006830",
+                    "term": "Hydralazine"
+                },
+                {
+                    "id": "D000077786",
+                    "term": "Torsemide"
+                },
+                {
+                    "id": "D000005665",
+                    "term": "Furosemide"
+                },
+                {
+                    "id": "D000007547",
+                    "term": "Isosorbide"
+                },
+                {
+                    "id": "D000002034",
+                    "term": "Bumetanide"
+                },
+                {
+                    "id": "D000007548",
+                    "term": "Isosorbide Dinitrate"
+                },
+                {
+                    "id": "C000030397",
+                    "term": "Isosorbide-5-mononitrate"
+                },
+                {
+                    "id": "C000549068",
+                    "term": "Sacubitril and valsartan sodium hydrate drug combination"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000959",
+                    "term": "Antihypertensive Agents"
+                },
+                {
+                    "id": "D000047228",
+                    "term": "Angiotensin II Type 1 Receptor Blockers"
+                },
+                {
+                    "id": "D000057911",
+                    "term": "Angiotensin Receptor Antagonists"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000004232",
+                    "term": "Diuretics"
+                },
+                {
+                    "id": "D000045283",
+                    "term": "Natriuretic Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000049994",
+                    "term": "Sodium Potassium Chloride Symporter Inhibitors"
+                },
+                {
+                    "id": "D000049990",
+                    "term": "Membrane Transport Modulators"
+                },
+                {
+                    "id": "D000004234",
+                    "term": "Diuretics, Osmotic"
+                },
+                {
+                    "id": "D000014665",
+                    "term": "Vasodilator Agents"
+                },
+                {
+                    "id": "D000020030",
+                    "term": "Nitric Oxide Donors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4134",
+                    "name": "Angiotensin-Converting Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M28916",
+                    "name": "Angiotensin Receptor Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8784",
+                    "name": "Furosemide",
+                    "asFound": "Gastric Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M301",
+                    "name": "Valsartan",
+                    "asFound": "Urinary",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M350410",
+                    "name": "Sacubitril and valsartan sodium hydrate drug combination",
+                    "asFound": "Pressure support",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7411",
+                    "name": "Diuretics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5306",
+                    "name": "Bumetanide",
+                    "asFound": "Hemolytic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16759",
+                    "name": "Tin Fluorides",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11761",
+                    "name": "Metolazone",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1912",
+                    "name": "Torsemide",
+                    "asFound": "Isometric contraction",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10578",
+                    "name": "Isosorbide",
+                    "asFound": "Acalabrutinib",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10579",
+                    "name": "Isosorbide Dinitrate",
+                    "asFound": "Biofeedback training",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M244430",
+                    "name": "Isosorbide-5-mononitrate",
+                    "asFound": "Biofeedback training",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9888",
+                    "name": "Hydralazine",
+                    "asFound": "Primed",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7822",
+                    "name": "Enalapril",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18330",
+                    "name": "Enalaprilat",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4277",
+                    "name": "Antihypertensive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4132",
+                    "name": "Angiotensin II",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M289354",
+                    "name": "Giapreza",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4135",
+                    "name": "Angiotensinogen",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25789",
+                    "name": "Angiotensin II Type 1 Receptor Blockers",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26153",
+                    "name": "Sodium Potassium Chloride Symporter Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17412",
+                    "name": "Vasodilator Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12507",
+                    "name": "Nitric Oxide",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "NaAg",
+                    "name": "Natriuretic Agents"
+                },
+                {
+                    "abbrev": "AnAg",
+                    "name": "Antihypertensive Agents"
+                },
+                {
+                    "abbrev": "NiOxD",
+                    "name": "Nitric Oxide Donors"
+                },
+                {
+                    "abbrev": "VaDiAg",
+                    "name": "Vasodilator Agents"
+                },
+                {
+                    "abbrev": "VaCoAg",
+                    "name": "Vasoconstrictor Agents"
+                },
+                {
+                    "abbrev": "Resp",
+                    "name": "Respiratory System Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

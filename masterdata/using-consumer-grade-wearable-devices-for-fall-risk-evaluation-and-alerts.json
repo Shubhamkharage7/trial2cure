@@ -1,0 +1,266 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06508892",
+            "orgStudyIdInfo": {
+                "id": "U081219"
+            },
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "Using Consumer-grade Wearable Devices for Fall Risk Evaluation and Alerts",
+            "officialTitle": "Using Consumer-grade Wearable Devices for Fall Risk Evaluation and Alerts",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "using-consumer-grade-wearable-devices-for-fall-risk-evaluation-and-alerts"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07-17",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-07-12",
+            "studyFirstSubmitQcDate": "2024-07-12",
+            "studyFirstPostDateStruct": {
+                "date": "2024-07-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-12",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jennifer Liao",
+                "investigatorTitle": "Assistant Professor of Physical Therapy, College of Health Sciences, The University of Michigan-Flint and Adjunct Assistant Professor of Radiology, Medical School",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "University of Michigan-Flint",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Creation and use of a smartphone application for older adults to use to assess their risk of fall. Phase 1: Compare the accuracy and validity of accelerometer and gyroscopic data from a smartphone and gold-standard, wearable sensors gathered during balance and gait activities. Phase 2: Develop a model that integrates wearable sensor data and individual characteristics, such as age, medical conditions, exercises, previous falls, fear of falls, along with gait and balance outcome measurements, to evaluate fall risk in older adults. Phase 3: Integrate the computational model in the design of a mobile app for wearable devices for older adults to self-administer fall risk assessments and provide individualized risk of fall information.",
+            "detailedDescription": "Falls are prevalent among older adults and can cause serious problems. Falls in older adults can cause serious injuries that negatively impact their quality of life and can be life-threatening. Evaluating an individual's risk of fall is, typically, an important first step in preventing falls. Fall risk is commonly evaluated through clinical measurement scales, such as the Tinetti Performance Oriented Mobility Assessment (POMA) and Berg Balance Scale (BBS). Physical measurements using instruments, such as inertial measurement units (IMUs; accelerometers and gyroscopes) and force plates, can also be employed to evaluate an individual's fall risk. However, both clinical and instrumented measures are often only collected in clinical or research settings, thus making it less accessible to older adults and their care providers. Additionally, fall risk can only be evaluated infrequently, which can be a problem as health and environmental changes in the life of an older adult can necessitate more frequent measurement of fall risk. The research team proposes consumer-grade wearable devices (e.g. smartphones and watches) to fill the gap in current fall risk assessment. This approach has great potential as quick, simple, timely, and frequent measures of fall risk can help to reduce fall risk in older adults. The proposed research investigates older adults' gait and balance to identify potential links between wearable sensor measurements and fall risk. The types and granularity of data on physical activities that can be collected by consumer-grade wearable devices are more limited than using research-grade measurement. We plan to use research-grade sensors to validate measures of gait and balance via consumer-grade wearable devices. Signal processing algorithms will be employed to extract the critical patterns from wearable device measurements that could be used for regular fall risk monitoring. A machine-learning computational model will also be developed to correlate the wearable data to clinical scales. We will then use this data to help us design and build a mobile app for older adults to self-administer the fall risk test at home. Our app design will be informed by factors such as one's physical environment, health condition, fear of falls, etc. and the goal is to develop an integrated system that offers fall risk assessment and provides alerts for older adults."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Mass Screening"
+            ],
+            "keywords": [
+                "fall risk"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Comparison of acceleration and 3D rotation during balance and movement",
+                    "description": "Can consumer-grade sensors used in mobile phones provide an accurate and valid measure of balance and gait when compared to gold standard research-grade sensors? A computational model for risk of fall will be developed.",
+                    "interventionNames": [
+                        "Behavioral: risk of fall"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "risk of fall",
+                    "description": "Gather information that will assist in determining risk of fall. The researchers will ask the subjects to perform several motor tests and study-related questionnaires.",
+                    "armGroupLabels": [
+                        "Comparison of acceleration and 3D rotation during balance and movement"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "3D acceleration",
+                    "description": "Vertical, medial-lateral, and anterior-posterior acceleration",
+                    "timeFrame": "60 seconds to 6 minutes"
+                },
+                {
+                    "measure": "3D rotation",
+                    "description": "Vertical, medial-lateral, and anterior-posterior rotation",
+                    "timeFrame": "60 seconds to 6 minutes"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "MoCA (Montreal cognitive assessment) screening",
+                    "description": "Detect cognitive involvement",
+                    "timeFrame": "15 minutes"
+                },
+                {
+                    "measure": "Berg balance test",
+                    "description": "Assess static and dynamic balance and risk of fall",
+                    "timeFrame": "15 minutes"
+                },
+                {
+                    "measure": "Timed up and go (TUG)",
+                    "description": "Assesses mobility, bolance, walking abiity and risk of fall",
+                    "timeFrame": "5 minutes"
+                },
+                {
+                    "measure": "Five times sit to stand",
+                    "description": "Assesses functional lower extremity strength",
+                    "timeFrame": "5 minutes"
+                },
+                {
+                    "measure": "Activities-Specific Balance Confidence Scale",
+                    "description": "Self-report measure of balance confidence",
+                    "timeFrame": "10 minutes"
+                },
+                {
+                    "measure": "6 minute walk test",
+                    "description": "Assesses distance walked over a duration of 6 minutes, submaximal test for endurance",
+                    "timeFrame": "6 minutes"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 65 years or older\n\nExclusion Criteria:\n\n* have had a fall in the six months\n* have been diagnosed with neurological conditions such as multiple sclerosis, Parkinson's disease, traumatic brain injury, Alzheimer's disease, or have had a stroke in the last year\n* have orthopedic or cardiopulmonary conditions and/or surgeries in the past year\n* have physical limitations that would make it difficult or uncomfortable for them to perform the experimental tasks.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "65 Years",
+            "stdAges": [
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "older adults ages 65 years and older",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Nathan Miller, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "810-762-3234",
+                    "email": "natmille@umich.edu"
+                },
+                {
+                    "name": "Cathy A Larson, PT, Ph.D.",
+                    "role": "CONTACT",
+                    "phone": "8107623373",
+                    "email": "clarson@umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jennifer Liao, PT, Ph.D.",
+                    "affiliation": "University of Michigan-Flint",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan-Flint",
+                    "city": "Flint",
+                    "state": "Michigan",
+                    "zip": "48502",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nathan Miller, Ph.D.",
+                            "role": "CONTACT",
+                            "phone": "810-762-3234",
+                            "email": "natmille@umich.edu"
+                        },
+                        {
+                            "name": "Cathy A Larson, Ph.D.",
+                            "role": "CONTACT",
+                            "phone": "8107623373",
+                            "email": "clarson@umich.edu"
+                        },
+                        {
+                            "name": "Linda Zhu, Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Jennifer Liao, Ph.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Charlotte Tang, Ph.D.",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.01253,
+                        "lon": -83.68746
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "36146103",
+                    "type": "BACKGROUND",
+                    "citation": "Chen M, Wang H, Yu L, Yeung EHK, Luo J, Tsui KL, Zhao Y. A Systematic Review of Wearable Sensor-Based Technologies for Fall Risk Assessment in Older Adults. Sensors (Basel). 2022 Sep 7;22(18):6752. doi: 10.3390/s22186752."
+                },
+                {
+                    "pmid": "30340129",
+                    "type": "BACKGROUND",
+                    "citation": "Hsieh KL, Roach KL, Wajda DA, Sosnoff JJ. Smartphone technology can measure postural stability and discriminate fall risk in older adults. Gait Posture. 2019 Jan;67:160-165. doi: 10.1016/j.gaitpost.2018.10.005. Epub 2018 Oct 9."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "New Approach for Fall Detection System Using Embedded Technology",
+                    "url": "https://ieeexplore.ieee.org/document/9147170"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

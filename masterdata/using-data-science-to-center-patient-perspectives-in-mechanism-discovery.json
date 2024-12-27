@@ -1,0 +1,307 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06233968",
+            "orgStudyIdInfo": {
+                "id": "13664"
+            },
+            "organization": {
+                "fullName": "Cambridge Health Alliance",
+                "class": "OTHER"
+            },
+            "briefTitle": "Using Data Science To Center Patient Perspectives in Mechanism Discovery",
+            "officialTitle": "Using Data Science To Center Patient Perspectives In Psychological Mechanism Discovery and Intervention Development",
+            "acronym": "CPP",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "using-data-science-to-center-patient-perspectives-in-mechanism-discovery"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-03-19",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-09-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-23",
+            "studyFirstSubmitQcDate": "2024-01-23",
+            "studyFirstPostDateStruct": {
+                "date": "2024-01-31",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Cambridge Health Alliance",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Foundation for Self Leadership",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Including patient perspectives when developing new therapy interventions is crucial because it can help to understand response heterogeneity and promote engagement. Yet, analyzing patient interview data is difficult and time-consuming. This study aims to explore the potential for natural language processing and deep learning to analyze patient interviews and identify potential ways in which therapy leads to psychological change. This study will recruit participants from an existing clinical service that offers a 16-week online group therapy model (and adjunct individual therapy sessions) called Program for Alleviating and Resolving Trauma and Stress (PARTS) based on a therapy called Internal Family Systems (IFS). The investigators will use a mixed methods approach, applying natural language processing and deep learning to develop models that identify potential mechanisms of change. These models will be based on patient perspectives of psychological change, as expressed in interviews, and be compared to models based on clinical measures.",
+            "detailedDescription": "Demand for cost-effective, novel, scalable trauma-focused interventions is high. Prevalence rates of posttraumatic stress disorder (PTSD) and Complex PTSD in US community mental health clinics are estimated to be as high as 50%. Yet response heterogeneity to PTSD interventions remains high, with non-response rates reaching 50-60% and dropout rates for traditional interventions (i.e., cognitive behavioral, exposure therapies) at 30-40%. Moreover, research populations in typical stepwise, efficacy-driven clinical research trials are often characterized by strict exclusion criteria and low representation from underrepresented communities. The homogeneous nature of efficacy-based research populations creates an incomplete picture, especially in public sector and community-based mental health facilities. Studies have suggested not only does this homogeneity limit effectiveness across diverse populations, but may contribute to exacerbating health disparities.\n\nEngaging patient perspectives is crucial to research because it can provide insight into response heterogeneity and engagement, ultimately leading to an understanding of mechanisms and creating more patient-centered interventions. One way to center the patient's voice and increase the potential of identifying unique mechanisms of change for a novel therapy, is to use qualitative interviews because it directly accesses the lived experience and its context. Despite the potential benefits of utilizing qualitative data in stepwise randomized control trials, several obstacles persist, including resource constraints, the inability to quantify interactive elements, and concerns regarding the practical value of the gathered information. Innovative methods that reliably and rapidly extract value-laden, relevant themes, and discern non-verbal conversational elements may facilitate the integration of patient experience and inclusion of their perspectives in clinical intervention trials.\n\nThis single-arm study aims to evaluate the feasibility of using natural language processing (NLP) and deep learning to identify potential mechanisms of PTSD symptom change from patient interviews. The study will utilize ongoing cohorts from a clinical service that offers a 16-week, live-online group therapy model (and adjunct individual therapy sessions) called Program For Alleviating And Resolving Trauma and Stress (PARTS) that uses the IFS model. The investigators will use a convergent mixed methods approach applying machine learning and natural language processing to develop models that identify potential mechanisms of change.\n\nAnalysis: The investigators will use several different methods to develop our models including Latent Dirichlet Allocation, pre-trained language models, transfer learning (recurrent neural networks, generative adversarial network), and penalized regression-based models. These models will use data derived from patient perspectives of psychological change, as expressed in interviews, and will be compared to models derived from clinical measures. The study will use standard performance metrics and cross-validation scores to evaluate comparative performance of the models. As an exploratory aim, the study will evaluate the feasibility of using features derived from language processing models and clinical measures to predict individual therapy visits post-intervention. The exploratory data will also include structured clinical data, social determinants of health, and therapy-based utilization (dates, provider type, length).\n\nAnticipated results: The development of two validated models: one derived from patient interview data and the other based on clinical measures to comprehensively identify mechanisms of change from group-based therapy models of IFS for PTSD."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Posttraumatic Stress Disorder",
+                "Complex Post-Traumatic Stress Disorder"
+            ],
+            "keywords": [
+                "natural language processing",
+                "machine learning",
+                "Internal Family Systems"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Similarity of topics and mechanism identification",
+                    "description": "Similarity of topics obtained from interview data using language processing tools to those classified by human coders and identification of mechanisms from predictive models with language processing derived features.",
+                    "timeFrame": "24 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Comparable mechanism identification and performance",
+                    "description": "Models using features derived from interview data will find comparable mechanisms to ones using clinical survey data and exhibit moderate predictive power.",
+                    "timeFrame": "24 weeks"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "PTSD Symptom Severity Changes",
+                    "description": "The PTSD Checklist for DSM-5 (PCL-5) is a 20-item self-report measure designed to assess PTSD symptom severity (scores above 30-31 indicate more severe symptoms).",
+                    "timeFrame": "20 weeks"
+                },
+                {
+                    "measure": "PTSD and Complex PTSD Symptom Severity Changes",
+                    "description": "The 18-item International Trauma Questionnaire (ITQ) captures PTSD symptom severity, disturbances in self-organization (DSO) (characteristic of Complex PTSD), and impact on functioning. For the ITQ, PTSD and DSO scores range from 0 to 24, while Complex PTSD scores range from 0 to 48.",
+                    "timeFrame": "20 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nMust be enrolled in the clinical service offering online PARTS group and approved and confirmed to start by the clinical team.\n\nHave sufficient English fluency and literacy skills to understand the consent process, procedures and questionnaires and have the ability to provide written informed consent.\n\nHave access to the internet and an electronic device with adequate data capacity; to complete questionnaires online and participate in two online video interviews.\n\nMust be willing to complete online computerized assessments both at baseline and post-intervention; and participate in two, one-hour videotaped interviews one at baseline and one 2-4 weeks post-intervention.\n\nExclusion Criteria:\n\nInability to complete an informed consent assessment AND/OR inability to complete baseline study assessment procedures (due to cognitive deficit, non-proficiency in English literacy, or any other reason).\n\nExpected medical hospitalization in 24 weeks from the date of enrollment.\n\nExpected incarceration in 24 weeks from the date of enrollment.\n\nIndividuals who are pregnant with a due date within 24 weeks after study consent.\n\nInsufficient internet connection to conduct online interviews or computerized assessments.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Participants will be recruited from a community-based clinical service called Program For Alleviating and Resolving Trauma and Stress (PARTS) service within Cambridge Health Alliance (CHA) that offers a 16-week, live-online group therapy model based on Internal Family Systems.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Dilara Ally, PhD",
+                    "role": "CONTACT",
+                    "phone": "617-591-6464",
+                    "email": "dally@challiance.org"
+                },
+                {
+                    "name": "Alexandra Comeau, MA",
+                    "role": "CONTACT",
+                    "phone": "617-806-8735",
+                    "email": "acomeau@challiance.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Zev Schuman-Olivier, MD",
+                    "affiliation": "Center for Mindfulness and Compassion, Cambridge Health Alliance",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Dilara Ally, PhD",
+                    "affiliation": "Center for Mindfulness and Compassion, Cambridge Health Alliance",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cambridge Health Alliance",
+                    "status": "RECRUITING",
+                    "city": "Malden",
+                    "state": "Massachusetts",
+                    "zip": "02148",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Dilara Ally, PhD",
+                            "role": "CONTACT",
+                            "phone": "617-591-0979",
+                            "email": "dally@challiance.org"
+                        },
+                        {
+                            "name": "Alexandra Comeau, MA",
+                            "role": "CONTACT",
+                            "phone": "617-806-8735",
+                            "email": "acomeau@challiance.org"
+                        },
+                        {
+                            "name": "Dilara Ally, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Zev Schuman-Olivier, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.4251,
+                        "lon": -71.06616
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "20044419",
+                    "type": "BACKGROUND",
+                    "citation": "Spoont MR, Murdoch M, Hodges J, Nugent S. Treatment receipt by veterans after a PTSD diagnosis in PTSD, mental health, or general medical clinics. Psychiatr Serv. 2010 Jan;61(1):58-63. doi: 10.1176/ps.2010.61.1.58."
+                },
+                {
+                    "pmid": "18573035",
+                    "type": "BACKGROUND",
+                    "citation": "Schottenbauer MA, Glass CR, Arnkoff DB, Tendick V, Gray SH. Nonresponse and dropout rates in outcome studies on PTSD: review and methodological considerations. Psychiatry. 2008 Summer;71(2):134-68. doi: 10.1521/psyc.2008.71.2.134."
+                },
+                {
+                    "pmid": "14966098",
+                    "type": "BACKGROUND",
+                    "citation": "Adams-Campbell LL, Ahaghotu C, Gaskins M, Dawkins FW, Smoot D, Polk OD, Gooding R, DeWitty RL. Enrollment of African Americans onto clinical treatment trials: study design barriers. J Clin Oncol. 2004 Feb 15;22(4):730-4. doi: 10.1200/JCO.2004.03.160."
+                },
+                {
+                    "pmid": "27812847",
+                    "type": "BACKGROUND",
+                    "citation": "Erves JC, Mayo-Gamble TL, Malin-Fair A, Boyer A, Joosten Y, Vaughn YC, Sherden L, Luther P, Miller S, Wilkins CH. Needs, Priorities, and Recommendations for Engaging Underrepresented Populations in Clinical Research: A Community Perspective. J Community Health. 2017 Jun;42(3):472-480. doi: 10.1007/s10900-016-0279-2."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Not planning to share IPD with other researchers"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000040921",
+                    "term": "Stress Disorders, Traumatic"
+                },
+                {
+                    "id": "D000013313",
+                    "term": "Stress Disorders, Post-Traumatic"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000068099",
+                    "term": "Trauma and Stressor Related Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M24916",
+                    "name": "Stress Disorders, Traumatic",
+                    "asFound": "Stress Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16103",
+                    "name": "Stress Disorders, Post-Traumatic",
+                    "asFound": "Posttraumatic Stress Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M222",
+                    "name": "Trauma and Stressor Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

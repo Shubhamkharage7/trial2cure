@@ -1,0 +1,596 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05168930",
+            "orgStudyIdInfo": {
+                "id": "21-279"
+            },
+            "organization": {
+                "fullName": "Dana-Farber Cancer Institute",
+                "class": "OTHER"
+            },
+            "briefTitle": "Zanubrutinib and Venetoclax in CLL (ZANU-VEN)",
+            "officialTitle": "A Phase 2 Trial of Zanubrutinib and Venetoclax in Previously Treated CLL/SLL Patients",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "zanubrutinib-and-venetoclax-in-cll-zanu-ven"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-02-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-10-28",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-10-28",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-09",
+            "studyFirstSubmitQcDate": "2021-12-09",
+            "studyFirstPostDateStruct": {
+                "date": "2021-12-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Inhye Ahn",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Dana-Farber Cancer Institute"
+            },
+            "leadSponsor": {
+                "name": "Dana-Farber Cancer Institute",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "BeiGene",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is being done to test the effectiveness of zanubrutinib in combination with venetoclax in participants with previously treated chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL).",
+            "detailedDescription": "This is an open-label, non-randomized phase 2 trial assessing the combination of zanubrutinib and venetoclax in adult participants with CLL or SLL who have relapsed after at least one prior therapy.\n\nParticipants will receive study treatment for 15 months initially. There is an option for an additional 12 months of re-treatment with study therapy at the time of disease recurrence. Participants will be followed for 36 months after they discontinue the study drugs.\n\nThe study will enroll up to 45 participants. BeiGene Ltd. is providing funding for the trial and the study drug zanubrutinib."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Chronic Lymphocytic Leukemia (CLL)",
+                "Small Lymphocytic Lymphoma (SLL)"
+            ],
+            "keywords": [
+                "Zanubrutinib",
+                "Venetoclax"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 45,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cohort A: BTKi and BCL2i naive",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants who have never received a BTK inhibitor or a BCL-2 inhibitor",
+                    "interventionNames": [
+                        "Drug: Venetoclax",
+                        "Drug: Zanubrutinib"
+                    ]
+                },
+                {
+                    "label": "Cohort B: BTKi or BCL2i exposed without disease progression",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants who have received prior treatment with a BTK or BCL-2 inhibitor and discontinued treatment for any reason other than disease progression",
+                    "interventionNames": [
+                        "Drug: Venetoclax",
+                        "Drug: Zanubrutinib"
+                    ]
+                },
+                {
+                    "label": "Cohort C: BTKi exposed and with disease progression",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants who experienced disease progression on a prior BTK inhibitor. Participants with BTK C481X mutation at enrollment will be excluded.",
+                    "interventionNames": [
+                        "Drug: Venetoclax",
+                        "Drug: Zanubrutinib"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Venetoclax",
+                    "description": "C4-15",
+                    "armGroupLabels": [
+                        "Cohort A: BTKi and BCL2i naive",
+                        "Cohort B: BTKi or BCL2i exposed without disease progression",
+                        "Cohort C: BTKi exposed and with disease progression"
+                    ],
+                    "otherNames": [
+                        "Venclexta"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Zanubrutinib",
+                    "description": "C1-15",
+                    "armGroupLabels": [
+                        "Cohort A: BTKi and BCL2i naive",
+                        "Cohort B: BTKi or BCL2i exposed without disease progression",
+                        "Cohort C: BTKi exposed and with disease progression"
+                    ],
+                    "otherNames": [
+                        "Brukinsa"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Rate of undetectable minimal residual disease (uMRD)",
+                    "description": "Assessed by flow cytometry (FC)",
+                    "timeFrame": "At the end of cycle 15 (each cycle is 28 days)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Overall response Rate (ORR)",
+                    "description": "Assessed by 2018 IWCLL criteria",
+                    "timeFrame": "At the end of cycle 15 (each cycle is 28 days)"
+                },
+                {
+                    "measure": "Complete Response (CR) Rate",
+                    "description": "Assessed by 2018 IWCLL criteria",
+                    "timeFrame": "At the end of cycle 15 (each cycle is 28 days)"
+                },
+                {
+                    "measure": "Percentage of undetectable minimal residual disease (uMRD) in bone marrow with CR",
+                    "description": "Assessed by flow cytometry (FC)",
+                    "timeFrame": "At the end of cycle 15 (each cycle is 28 days)"
+                },
+                {
+                    "measure": "Percentage of uMRD in peripheral blood",
+                    "description": "Assessed by flow cytometry (FC)",
+                    "timeFrame": "After cycle 15At the end of cycle 15 (each cycle is 28 days)"
+                },
+                {
+                    "measure": "Progression-free survival (PFS)",
+                    "description": "Time since treatment initiation and alive without disease progression",
+                    "timeFrame": "1 and 3 years after treatment initiation"
+                },
+                {
+                    "measure": "Overall survival (OS)",
+                    "description": "Time since treatment initiation and alive",
+                    "timeFrame": "1 and 3 years after treatment initiation"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\n* Confirmed diagnosis of CLL or SLL as per 2018 International Workshop on CLL (IWCLL) criteria.\n* Participants must have relapsed after at least one prior line of therapy and must currently require therapy by 2019 IWCLL criteria.\n* For enrollment to Cohort A: Participants must be covalent BTK and BCL-2 inhibitor na\u00efve. Participants who have received prior therapy with a covalent BTK or BCL-2 inhibitor are not eligible, including but not limited to prior treatment with ibrutinib or acalabrutinib.\n* For enrollment to Cohort B: Participants must have had prior treatment with a BTK inhibitor or a BCL-2 inhibitor, but not both, and must not have experienced disease progression as defined by iwCLL criteria while receiving therapy.\n* For enrollment to Cohort C: participants must have a disease that progressed during therapy with a covalent BTK inhibitor, not including zanubrutinib.\n* Age \u2265 18 years. Because no dosing or adverse event data are currently available on the use of zanubrutinib and venetoclax in participants \\< 18 years of age and CLL/SLL is extremely rare in this population, children are excluded from this study.\n* ECOG performance status \u2264 2 (Karnofsky \u2265 60%, see Appendix A).\n* Participants must have adequate organ function as defined below:\n\n  * Platelet count \u2265 20,000/mcL\n  * Total bilirubin \u2264 2 \u00d7 institutional upper limit of normal (ULN) (unless due to controlled hemolysis, Gilbert's disease, or is of non-hepatic origin)\n  * AST (SGOT) and ALT (SGPT) \u2264 4 \u00d7 institutional ULN\n  * Serum Creatinine \u2264 1.5 \u00d7 institutional ULN, OR\n  * Calculated creatinine clearance \u2265 50 mL/min (as calculated by the Cockcroft-Gault formula)\n* The effects of zanubrutinib or venetoclax on the developing human fetus are unknown. For this reason and because anti-cancer agents are known to be teratogenic, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately. Men treated or enrolled on this protocol must also agree to use adequate contraception prior to the study, for the duration of study participation, and 4 months after completion of study agent administration.\n* Ability to understand and the willingness to sign a written informed consent document.\n* Ability to swallow and retain oral medication.\n\nExclusion Criteria:\n\n* Known BTK C481X mutation.\n* For enrollment to Cohort B: participants who have received prior treatment with both a BTK inhibitor and BCL-2 inhibitor.\n* Participants who have had previous anti-cancer therapy (e.g., chemotherapy, radiotherapy, immunotherapy, biologic therapy, hormonal therapy, surgery, investigational agents, and/or tumor embolization) within 2 weeks of Cycle 1 Day 1 with the following exceptions:\n* Hormonal therapy given in the adjuvant setting\n* Corticosteroid therapy (prednisone or equivalent \u2264 20 mg daily) is allowed as clinically warranted as long as the dose is stabilized at least for 7 days prior to initial dosing. Topical, inhaled, intra-articular, or ophthalmologic corticosteroids are permitted\n* Participants enrolling to Cohort C may remain on prior BTK inhibitor therapy up until 2 days prior to Cycle 1 Day 1\n* History of a prior allogeneic hematologic stem cell transplant.\n* Participants with known central nervous system (CNS) involvement, because of their poor prognosis and because they often develop progressive neurologic dysfunction that would confound the evaluation of neurologic and other adverse events. Participants with no known history of CNS involvement are not required to undergo CT scan or lumbar puncture (LP) for trial eligibility unless the participant is symptomatic as judged by the treating investigator.\n* Participants who are receiving any other investigational agents at the time of study entry.\n* History of other malignancies, with the following exceptions:\n\n  * Malignancy treated with curative intent and with no known active disease present for \u2265 2 years before the first dose of study drug and felt to be at low risk for recurrence by treating physician\n  * Adequately treated non-melanoma skin cancer or lentigo maligna without evidence of disease\n  * Adequately treated carcinoma in situ without evidence of disease\n  * Low-risk prostate cancer on active surveillance\n* Participants who have been vaccinated with live, attenuated vaccines \\< 4 weeks prior to Cycle 1 Day 1.\n* Recent infection requiring intravenous antibiotics completed \u2264 7 days before the first dose of study drug, or any uncontrolled active systemic infection.\n* Known bleeding disorders (e.g. von Willebrand's disease) or hemophilia.\n* History of stroke, intracranial hemorrhage, or recent major bleed within 6 months prior to study entry.\n* Participants who require warfarin or other vitamin K antagonists for anticoagulation (other anticoagulants are allowed with approval from the overall principal investigator).\n* Participants who are known at the time of study entry to require concomitant treatment with any medications or substances that are moderate or strong CYP3A inhibitors or inducers. Because the lists of these agents are constantly changing, it is important to regularly consult a frequently-updated medical reference. As part of the enrollment/informed consent procedures, the participant will be counseled on the risk of interactions with other agents, and what to do if new medications need to be prescribed or if the participant is considering a new over-the-counter medicine or herbal product.\n* Known history of human immunodeficiency virus (HIV), active hepatitis C virus (HCV), or hepatitis B virus (HBV).\n* History of allergic reactions attributed to compounds of similar chemical or biologic composition to zanubrutinib or venetoclax.\n* Participants with psychiatric illness/social situations that would limit compliance with study requirements.\n* Pregnant women are excluded from this study because zanubrutinib and venetoclax are anti-cancer agents with the potential for teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with zanubrutinib or venetoclax, breastfeeding should be discontinued if the mother is treated with zanubrutinib or venetoclax.\n* Participants with malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel, symptomatic inflammatory bowel disease or ulcerative colitis, or partial or complete bowel obstruction.\n* Currently active, clinically significant cardiovascular disease, such as uncontrolled arrhythmia or Class 3 or 4 congestive heart failure as defined by the New York Heart Association Functional Classification; or a history of myocardial infarction, unstable angina, or acute coronary syndrome within 6 months prior to study entry.\n* Any life-threatening illness, medical condition, or organ system dysfunction that, in the treating investigator's opinion, could compromise the participant's safety or the integrity of the trial.\n* Active and/or ongoing autoimmune anemia and/or autoimmune thrombocytopenia.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Heather A Walker, MPH",
+                    "role": "CONTACT",
+                    "phone": "857-215-1833",
+                    "email": "heathera_walker@dfci.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Inhye E Ahn, MD",
+                    "affiliation": "Dana-Farber Cancer Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "New England Cancer Specialists",
+                    "status": "RECRUITING",
+                    "city": "Scarborough",
+                    "state": "Maine",
+                    "zip": "04074",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patricia Collins",
+                            "role": "CONTACT",
+                            "phone": "207-303-3429",
+                            "email": "collip@newecs.org"
+                        },
+                        {
+                            "name": "John P Winters, III, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.57814,
+                        "lon": -70.32172
+                    }
+                },
+                {
+                    "facility": "Beth Israel Deaconess Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jon Arnason, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Jon Arnason, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Dana-Farber Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Inhye E Ahn, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Inhye E Ahn, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "South Shore Hospital",
+                    "status": "RECRUITING",
+                    "city": "South Weymouth",
+                    "state": "Massachusetts",
+                    "zip": "02190",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nicole Hixon, RN",
+                            "role": "CONTACT",
+                            "email": "Nicole_Hixon@DFCI.HARVARD.EDU"
+                        },
+                        {
+                            "name": "Nancy Kaddis, MD, MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.1751,
+                        "lon": -70.94949
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The Dana-Farber / Harvard Cancer Center encourages and supports the responsible and ethical sharing of data from clinical trials. De-identified participant data from the final research dataset used in the published manuscript may only be shared under the terms of a Data Use Agreement. Requests may be directed to: \\[contact information for Sponsor Investigator or designee\\]. The protocol and statistical analysis plan will be made available on Clinicaltrials.gov only as required by federal regulation or as a condition of awards and agreements supporting the research.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF"
+            ],
+            "timeFrame": "Data can be shared no earlier than 1 year following the date of publication",
+            "accessCriteria": "Contact the Belfer Office for Dana-Farber Innovations (BODFI) at innovation@dfci.harvard.edu"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000015451",
+                    "term": "Leukemia, Lymphocytic, Chronic, B-Cell"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007945",
+                    "term": "Leukemia, Lymphoid"
+                },
+                {
+                    "id": "D000007938",
+                    "term": "Leukemia"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                },
+                {
+                    "id": "D000008206",
+                    "term": "Lymphatic Diseases"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                },
+                {
+                    "id": "D000015448",
+                    "term": "Leukemia, B-Cell"
+                },
+                {
+                    "id": "D000002908",
+                    "term": "Chronic Disease"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11220",
+                    "name": "Lymphoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18116",
+                    "name": "Leukemia, Lymphocytic, Chronic, B-Cell",
+                    "asFound": "Chronic Lymphocytic Leukemia (CLL)",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10945",
+                    "name": "Leukemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10951",
+                    "name": "Leukemia, Lymphoid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11203",
+                    "name": "Lymphatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M18115",
+                    "name": "Leukemia, B-Cell",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6147",
+                    "name": "Chronic Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3543",
+                    "name": "Lymphosarcoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1308",
+                    "name": "Chronic Lymphocytic Leukemia",
+                    "asFound": "Chronic Lymphocytic Leukemia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000579720",
+                    "term": "Venetoclax"
+                },
+                {
+                    "id": "C000629551",
+                    "term": "Zanubrutinib"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000092004",
+                    "term": "Tyrosine Kinase Inhibitors"
+                },
+                {
+                    "id": "D000047428",
+                    "term": "Protein Kinase Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M249656",
+                    "name": "Venetoclax",
+                    "asFound": "0.1",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M42199",
+                    "name": "Zanubrutinib",
+                    "asFound": "Flavor",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2889",
+                    "name": "Tyrosine Kinase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25820",
+                    "name": "Protein Kinase Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T22",
+                    "name": "Tyrosine",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AA",
+                    "name": "Amino Acids"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

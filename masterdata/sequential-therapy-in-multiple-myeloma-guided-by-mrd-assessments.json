@@ -1,0 +1,743 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05231629",
+            "orgStudyIdInfo": {
+                "id": "UAB-21107"
+            },
+            "organization": {
+                "fullName": "University of Alabama at Birmingham",
+                "class": "OTHER"
+            },
+            "briefTitle": "Sequential Therapy in Multiple Myeloma Guided by MRD Assessments",
+            "officialTitle": "MRD-Guided Sequential Therapy For Deep Response in Newly Diagnosed Multiple Myeloma - MASTER-2 Trial",
+            "acronym": "MASTER-2",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "sequential-therapy-in-multiple-myeloma-guided-by-mrd-assessments"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-01-29",
+            "studyFirstSubmitQcDate": "2022-01-29",
+            "studyFirstPostDateStruct": {
+                "date": "2022-02-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-12-13",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-12-19",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Luciano Jose Costa, MD",
+                "investigatorTitle": "Professor of Medicine",
+                "investigatorAffiliation": "University of Alabama at Birmingham"
+            },
+            "leadSponsor": {
+                "name": "University of Alabama at Birmingham",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Janssen Scientific Affairs, LLC",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This research study will determine the proportion of patients with lowest minimal residual disease (MRD) response obtainable after receiving 6 cycles of study treatment. Minimal residual disease is multiple myeloma cells below the level of 1 cancer cell out of 100,000 in the bone marrow.\n\nFor patients who become MRD \"negative\" (i.e. less than 1 cancer cell out of 100,000) at the end of 6 cycles of therapy, this study will study if that good response can be maintained with 3 additional cycles of treatment instead of use of autologous hematopoietic cell transplantation (AHCT).\n\nFor patients who are MRD \"positive\" at the end of 6 cycles of therapy, this study will answer whether more patients can become and remain MRD \"negative\" with AHCT plus teclistamab in combination with daratumumab when compared with patients who undergo AHCT followed by lenalidomide (an established anti-myeloma drug) plus daratumumab."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Multiple Myeloma"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "interventionModelDescription": "Eligible patients are enrolled in arm M for induction therapy, corresponding to 6 cycles of Dara-VRd.\n\nUpon completion of induction, patients undergo MRD assessment by next-generation sequencing utilizing ClonoSEQ\u00ae (MRD1) and undergo mobilization and collection of autologous hematopoietic progenitor cells for future AHCT.\n\nUpon confirmation of adequate hematopoietic cell collection (\u22652 x 10\\^6 CD34+ cells/kg) and result of MRD1 patients will undergo randomization according to the MRD-assigned cohort\n\n* MRD negative cohort - Patients will be randomized between arm A and arm B for intensification and maintenance.\n* MRD positive cohort - Patients will be randomized between arm C and arm D for intensification, consolidation and maintenance.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm A",
+                    "type": "EXPERIMENTAL",
+                    "description": "3 cycles of Dara-VRd intensification followed by 13 cycles of Dara-R maintenance in MRD negative patients",
+                    "interventionNames": [
+                        "Drug: Dara-VRd intensification, Dara-R maintenance"
+                    ]
+                },
+                {
+                    "label": "Arm B",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "AHCT intensification followed by 13 cycles of Dara-R maintenance in MRD negative patients",
+                    "interventionNames": [
+                        "Drug: AHCT intensification, Dara-R maintenance"
+                    ]
+                },
+                {
+                    "label": "Arm C",
+                    "type": "EXPERIMENTAL",
+                    "description": "AHCT intensification, 3 cycles of Dara-Tec consolidation and 13 cycles of Dara-Tec maintenance in MRD positive patients",
+                    "interventionNames": [
+                        "Drug: AHCT intensification, Tec-Dara consolidation, Tec-Dara maintenance"
+                    ]
+                },
+                {
+                    "label": "Arm D",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "AHCT intensification, 3 cycles of Dara-R consolidation and 13 cycles of Dara-R maintenance in MRD positive patients",
+                    "interventionNames": [
+                        "Drug: AHCT intensification, Dara-R consolidation, Dara-R maintenance"
+                    ]
+                },
+                {
+                    "label": "Arm M",
+                    "type": "OTHER",
+                    "description": "Induction - 6 cycles of Dara-VRd in all participants",
+                    "interventionNames": [
+                        "Drug: Dara-VRd induction"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Dara-VRd intensification, Dara-R maintenance",
+                    "description": "Eligible patients are enrolled in arm M for induction therapy, corresponding to 6 cycles of Dara-VRd. Upon confirmation of adequate hematopoietic cell collection and result of MRD1 patients will undergo 1:1 randomization according to the MRD-assigned cohort\n\n\u2022 MRD negative cohort - Patients will be randomized between arm A (3 cycles of Dara-VRd intensification followed by 13 cycles of Dara-R maintenance) and arm B (AHCT intensification followed by 13 cycles of Dara-R maintenance) for intensification and maintenance",
+                    "armGroupLabels": [
+                        "Arm A"
+                    ],
+                    "otherNames": [
+                        "darzalex, velcade, revlimid, dexamethasone"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "AHCT intensification, Dara-R maintenance",
+                    "description": "Eligible patients are enrolled in arm M for induction therapy, corresponding to 6 cycles of Dara-VRd. Upon confirmation of adequate hematopoietic cell collection and result of MRD1 patients will undergo 1:1 randomization according to the MRD-assigned cohort\n\n\u2022 MRD negative cohort - Patients will be randomized between arm A (3 cycles of Dara-VRd intensification followed by 13 cycles of Dara-R maintenance) and arm B (AHCT intensification followed by 13 cycles of Dara-R maintenance) for intensification and maintenance",
+                    "armGroupLabels": [
+                        "Arm B"
+                    ],
+                    "otherNames": [
+                        "melphalan, darzalex, revlimid"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "AHCT intensification, Tec-Dara consolidation, Tec-Dara maintenance",
+                    "description": "Eligible patients are enrolled in arm M for induction therapy, corresponding to 6 cycles of Dara-VRd. Upon confirmation of adequate hematopoietic cell collection and result of MRD1 patients will undergo 1:1 randomization according to the MRD-assigned cohort. MRD positive cohort - Patients will be randomized between arm C (AHCT intensification, 3 cycles of Dara-Tec consolidation and 13 cycles of Dara-Tec maintenance) and arm D (AHCT intensification, 3 cycles of Dara-R consolidation and 13 cycles of Dara-R maintenance) for intensification, consolidation and maintenance.",
+                    "armGroupLabels": [
+                        "Arm C"
+                    ],
+                    "otherNames": [
+                        "melphalan, teclistamab, darzalex"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "AHCT intensification, Dara-R consolidation, Dara-R maintenance",
+                    "description": "Eligible patients are enrolled in arm M for induction therapy, corresponding to 6 cycles of Dara-VRd. Upon confirmation of adequate hematopoietic cell collection and result of MRD1 patients will undergo 1:1 randomization according to the MRD-assigned cohort. MRD positive cohort - Patients will be randomized between arm C (AHCT intensification, 3 cycles of Dara-Tec consolidation and 13 cycles of Dara-Tec maintenance) and arm D (AHCT intensification, 3 cycles of Dara-R consolidation and 13 cycles of Dara-R maintenance) for intensification, consolidation and maintenance.",
+                    "armGroupLabels": [
+                        "Arm D"
+                    ],
+                    "otherNames": [
+                        "melphalan, darzalex, revlimid"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Dara-VRd induction",
+                    "description": "Patients undergo induction therapy with 6 cycles of daratumumab, bortezomib, lenalidomide and dexamethasone",
+                    "armGroupLabels": [
+                        "Arm M"
+                    ],
+                    "otherNames": [
+                        "darzalex, velcade, revlimid, dexamethasone"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Depth of response obtained with 6 cycles of Dara-VRd",
+                    "description": "For the primary objective \"for all patients\" to describe the depth of response obtained with 6 cycles of Dara-VRd and the corresponding endpoint of MRD negativity at end of induction all patients with MRD evaluable",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Sustained MRD negativity",
+                    "description": "MRD \\<10-5 assessed before and after 13 cycles of maintenance",
+                    "timeFrame": "18 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Progression-free survival",
+                    "description": "Occurrence of disease progression or death",
+                    "timeFrame": "60 months"
+                },
+                {
+                    "measure": "Overall Survival",
+                    "description": "Occurrence of death regardless of cause",
+                    "timeFrame": "60 months"
+                },
+                {
+                    "measure": "Cumulative incidence of MRD resurgence or progression",
+                    "description": "Occurrence of MRD \\>= 10-5 or progression for patients starting observation with MRD surveillance (MRD-SURE) after achieving sustained MRD negativity.",
+                    "timeFrame": "60 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age\\>18 years with no upper age limit\n2. Newly diagnosed multiple myeloma with indication for initiation of therapy.\n3. ECOG performance status 0-2\n4. No prior MM-directed therapy except for dexamethasone (up to 160 mg) and/or bortezomib (up to 5.2 mg/m2) and/or cyclophosphamide up to 1000 mg/m2 and/or lenalidomide (up to 21 days of therapy) administered for no longer than 4 weeks prior to enrollment (pre induction). If subject received any prior therapy, pretreatment parameters necessary for disease characterization and response assessment must be available.\n5. Measurable disease meeting at least one of the following criteria (at screening or prior to pre induction):\n\n   1. Serum monoclonal (M) protein \u22651.0 g/dl (\u22650.5 g/dl if IgA, IgD, IgE or IgM multiple myeloma)\n   2. \u2265 200 mg of M protein/24h in the urine\n   3. Difference between affected and unaffected free light chain \u226510 mg/dL with abnormal kappa to lambda ratio.\n6. Have clinical laboratory values meeting the following criteria during the Screening Phase and also at start of administration of study treatment\n\n   1. Hemoglobin \u22657 g/dL (\u22654.65 mmol/L; without prior RBC transfusion within 7 days before the laboratory test; recombinant human erythropoietin use is permitted)\n   2. Platelets \u226575\u00d710\\^9/L in participants in whom \\<50% of bone marrow nucleated cells are plasma cells and \u226550\u00d710\\^9/L in participants in whom\n\n      * 50% of bone marrow nucleated cells are plasma cells (without transfusion support or thrombopoietin receptor agonist within 7 days before the laboratory test)\n   3. Absolute neutrophil count \u22651.0\u00d7109/L (prior growth factor support is permitted but must be without support for 7 days for G-CSF or GM-CSF and for 14 days for pegylated G CSF)\n   4. AST and ALT \u22642.5\u00d7ULN\n   5. eGFR \u226530 mL/min based on Modified Diet in Renal Disease Formula calculation or creatine clearance measured by a 24-hour urine collection\n   6. Total bilirubin \u22642.0\u00d7ULN; except in participants with congenital bilirubinemia, such as Gilbert syndrome (in which case direct bilirubin \u22641.5\u00d7ULN is required)\n   7. Serum calcium corrected for albumin \u226414 mg/dL (\u22643.5 mmol/L) or free ionized calcium \u22646.5 mg/dL (\u22641.6 mmol/L)\n7. A woman of childbearing potential must have a negative highly-sensitive serum pregnancy test at screening and again within 24 hours of the start of study treatment and must agree to further serum or urine pregnancy tests during the study\n8. A woman must be\n\n   1. Not of childbearing potential, or\n   2. Of childbearing potential and\n\n      1. Practicing true abstinence; or\n      2. Have a sole partner who is vasectomized; or\n      3. Practicing \u22651 highly-effective, user-independent method of contraception\n9. A woman must agree not to donate eggs (ova, oocytes) or freeze for future use, for the purposes of assisted reproduction during the study and for 90 days after receiving the last dose of study treatment\n10. A man must wear a condom (with or without spermicidal foam/gel/film/cream/suppository) when engaging in any activity that allows for passage of ejaculate to another person during the study and for a minimum of 90 days after receiving the last dose of study treatment. If a female partner is of childbearing potential, she must also be practicing a highly effective method of contraception\n11. A male participant must agree not to donate sperm for the purpose of reproduction during the study and for a minimum of 90 days after receiving the last dose of study treatment.\n12. Must be willing and able to adhere to the lifestyle restrictions specified in this protocol\n13. Must sign an ICF (or their legally acceptable representative must sign) indicating that the participant understands the purpose of, and procedures required for, the study and is willing to participate in the study.\n14. All participants must agree to comply with and be enrolled in Revlimid REMSTM program.\n15. All participants must meet institution-specific criteria for AHCT eligibility as assessed by the investigator.\n16. In line with the higher incidence of MM in Blacks, and to address the historical underrepresentation of ethnical minorities in MM trials, at least 25% of the enrolled patients will be of ethnical minorities.\n\nExclusion Criteria:\n\n1. Diagnosis of Plasma cell leukemia, primary light chain amyloidosis, POEMS, or Waldenstrom's macroglobulinemia.\n2. Contraindications or life-threatening allergies, hypersensitivity, or intolerance to any study drug or its excipients (refer to the teclistamab Investigator's Brochure and appropriate package inserts)\n3. Prior or concurrent exposure to any of the following:\n\n   1. Teclistamab or any anti-BCMA therapy\n   2. Daratumumab or any anti-CD38 therapy\n   3. Targeted therapy, epigenetic therapy, or treatment with an investigational drug or an invasive investigational medical device within 21 days or \u22655 half-lives, whichever is less\n   4. Investigational vaccine within 4 weeks\n   5. Live, attenuated vaccine within 4 weeks before randomization.\n   6. Radiotherapy within 14 days or focal radiation within 7 days\n   7. Gene-modified adoptive cell therapy (eg, chimeric antigen receptor modified T cells, NK cells) within 3 months\n   8. Cytotoxic therapy within 14 days\n   9. PI therapy within 14 days\n   10. IMiD agent therapy within 14 days\n4. Known active CNS involvement or exhibits clinical signs of meningeal involvement of multiple myeloma. If either is suspected, negative whole brain MRI and lumbar cytology are required.\n5. Myelodysplastic syndrome or active malignancies (ie, progressing or requiring treatment change in the last 24 months) other than multiple myeloma. The only allowed exceptions are:\n\n   1. Non-muscle invasive bladder cancer treated within the last 24 months that is considered completely cured\n   2. Skin cancer (non-melanoma or melanoma) treated within the last 24 months that is considered completely cured.\n   3. Noninvasive cervical cancer treated within the last 24 months that is considered completely cured\n   4. Localized prostate cancer (N0M0):\n\n      1. With a Gleason score of \u22646, treated within the last 24 months, or untreated and under surveillance\n      2. With a Gleason score of 3+4 that has been treated \\>6 months prior to full study screening and considered to have a very low risk of recurrence, or\n   5. History of localized prostate cancer and receiving androgen deprivation therapy and considered to have a very low risk of recurrence.\n   6. Breast cancer: adequately treated lobular carcinoma in situ or ductal carcinoma in situ, or history of localized breast cancer and receiving antihormonal agents and considered to have a very low risk of recurrence\n   7. Other malignancy that is considered cured with minimal risk of recurrence\n6. Stroke or seizure within 6 months prior to signing ICF.\n7. Chronic obstructive pulmonary disease (COPD) with a forced expiratory volume in 1 second (FEV1) \\<50% of predicted normal. Note that FEV1 testing is required for participants suspected of having COPD and participants must be excluded if FEV1 is \\<50% of predicted normal.\n8. Moderate or severe persistent asthma within the past 2 years or uncontrolled asthma of any classification. Note that participants who currently have controlled intermittent asthma or controlled mild persistent asthma are allowed to participate in the study.\n9. Prior allogeneic bone marrow, hematopoietic stem cell or solid organ transplant.\n10. Participant is pregnant, breast-feeding, or planning to become pregnant while enrolled in this study or within 90 days after the last dose of study treatment.\n11. Participant plans to father a child while enrolled in this study or within 90 days after the last dose of study treatment.\n12. Presence of the following cardiac conditions:\n\n    1. New York Heart Association stage III or IV congestive heart failure\n    2. Myocardial infarction or coronary artery bypass graft \u22646 months prior to randomization\n    3. History of clinically significant ventricular arrhythmia or unexplained syncope, not believed to be vasovagal in nature or due to dehydration\n    4. History of severe non-ischemic cardiomyopathy\n13. Any of the following:\n\n    1. Known to be seropositive for human immunodeficiency virus\n    2. Hepatitis B infection (ie, HBsAg or HBV-DNA positive). In the event the infection status is unclear, quantitative viral levels are necessary to determine the infection status.\n    3. Active hepatitis C infection as measured by positive HCV-RNA testing.\n14. Major surgery within 2 weeks prior to the start of administration of study treatment, or will not have fully recovered from surgery, or has major surgery planned during the time the participant is expected to be treated in the study or within 2 weeks after administration of the last dose of study treatment.\n15. Significant neuropathy (Grades 3-4, or Grade 2 with pain) within 21 days prior to registration.\n16. Contra indication or intolerance to required supportive care medications.\n17. Concurrent medical or psychiatric condition or disease that is likely to interfere with study procedures or results, or that in the opinion of the investigator would constitute a hazard for participating in this study, such as:\n\n    1. Uncontrolled diabetes\n    2. Acute diffuse infiltrative pulmonary disease\n    3. Evidence of active systemic viral, fungal, or bacterial infection, requiring systemic antimicrobial therapy\n    4. History of autoimmune disease with the exception of vitiligo, type I diabetes, and prior autoimmune thyroiditis that is currently euthyroid based on clinical symptoms and laboratory testing\n    5. Disabling psychiatric conditions (eg, alcohol or drug abuse), severe dementia, or altered mental status\n    6. Any other issue that would impair the ability of the participant to receive or tolerate the planned treatment at the investigational site, to understand informed consent or any condition for which, in the opinion of the investigator, participation would not be in the best interest of the participant (eg, compromise the well-being) or that could prevent, limit, or confound the protocol-specified assessments\n    7. History of non-compliance with recommended medical treatments",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Pamela Hardwick, RN",
+                    "role": "CONTACT",
+                    "phone": "205-975-5387",
+                    "email": "pamdixon@uab.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Alabama at Birmingham",
+                    "status": "RECRUITING",
+                    "city": "Birmingham",
+                    "state": "Alabama",
+                    "zip": "35233",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Luciano Costa, MD",
+                            "role": "CONTACT",
+                            "phone": "205-934-9695",
+                            "email": "ljcosta@uabmc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.52066,
+                        "lon": -86.80249
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009101",
+                    "term": "Multiple Myeloma"
+                },
+                {
+                    "id": "D000054219",
+                    "term": "Neoplasms, Plasma Cell"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000020141",
+                    "term": "Hemostatic Disorders"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010265",
+                    "term": "Paraproteinemias"
+                },
+                {
+                    "id": "D000001796",
+                    "term": "Blood Protein Disorders"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                },
+                {
+                    "id": "D000006474",
+                    "term": "Hemorrhagic Disorders"
+                },
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12058",
+                    "name": "Multiple Myeloma",
+                    "asFound": "Multiple Myeloma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27588",
+                    "name": "Neoplasms, Plasma Cell",
+                    "asFound": "Multiple Myeloma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21977",
+                    "name": "Hemostatic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5059",
+                    "name": "Blood Coagulation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13178",
+                    "name": "Paraproteinemias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5077",
+                    "name": "Blood Protein Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9560",
+                    "name": "Hemorrhagic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3947",
+                    "name": "Multiple Myeloma",
+                    "asFound": "Multiple Myeloma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003907",
+                    "term": "Dexamethasone"
+                },
+                {
+                    "id": "C000018038",
+                    "term": "Dexamethasone acetate"
+                },
+                {
+                    "id": "D000008558",
+                    "term": "Melphalan"
+                },
+                {
+                    "id": "D000077269",
+                    "term": "Lenalidomide"
+                },
+                {
+                    "id": "D000069286",
+                    "term": "Bortezomib"
+                },
+                {
+                    "id": "C000556306",
+                    "term": "Daratumumab"
+                },
+                {
+                    "id": "C000101468",
+                    "term": "BB 1101"
+                },
+                {
+                    "id": "D000000911",
+                    "term": "Antibodies, Monoclonal"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000893",
+                    "term": "Anti-Inflammatory Agents"
+                },
+                {
+                    "id": "D000000932",
+                    "term": "Antiemetics"
+                },
+                {
+                    "id": "D000001337",
+                    "term": "Autonomic Agents"
+                },
+                {
+                    "id": "D000018373",
+                    "term": "Peripheral Nervous System Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000005765",
+                    "term": "Gastrointestinal Agents"
+                },
+                {
+                    "id": "D000005938",
+                    "term": "Glucocorticoids"
+                },
+                {
+                    "id": "D000006728",
+                    "term": "Hormones"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                },
+                {
+                    "id": "D000018931",
+                    "term": "Antineoplastic Agents, Hormonal"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000011480",
+                    "term": "Protease Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000018906",
+                    "term": "Antineoplastic Agents, Alkylating"
+                },
+                {
+                    "id": "D000000477",
+                    "term": "Alkylating Agents"
+                },
+                {
+                    "id": "D000019653",
+                    "term": "Myeloablative Agonists"
+                },
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000020533",
+                    "term": "Angiogenesis Inhibitors"
+                },
+                {
+                    "id": "D000043924",
+                    "term": "Angiogenesis Modulating Agents"
+                },
+                {
+                    "id": "D000006133",
+                    "term": "Growth Substances"
+                },
+                {
+                    "id": "D000006131",
+                    "term": "Growth Inhibitors"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7102",
+                    "name": "Dexamethasone",
+                    "asFound": "High",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M235549",
+                    "name": "Dexamethasone acetate",
+                    "asFound": "High",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11541",
+                    "name": "Melphalan",
+                    "asFound": "Controlled Study",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1725",
+                    "name": "Lenalidomide",
+                    "asFound": "2 hours",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M376",
+                    "name": "Bortezomib",
+                    "asFound": "Colorectal Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M272211",
+                    "name": "Daratumumab",
+                    "asFound": "Diffusion",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M199152",
+                    "name": "BB 1101",
+                    "asFound": "High",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4225",
+                    "name": "Antibodies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10184",
+                    "name": "Immunoglobulins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4230",
+                    "name": "Antibodies, Monoclonal",
+                    "asFound": "Diffusion",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4217",
+                    "name": "Anti-Inflammatory Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4251",
+                    "name": "Antiemetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8881",
+                    "name": "Gastrointestinal Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9047",
+                    "name": "Glucocorticoids",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20966",
+                    "name": "Antineoplastic Agents, Hormonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19609",
+                    "name": "HIV Protease Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14343",
+                    "name": "Protease Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20942",
+                    "name": "Antineoplastic Agents, Alkylating",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3820",
+                    "name": "Alkylating Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22318",
+                    "name": "Angiogenesis Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9231",
+                    "name": "Growth Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infl",
+                    "name": "Anti-Inflammatory Agents"
+                },
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "AnEm",
+                    "name": "Antiemetics"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

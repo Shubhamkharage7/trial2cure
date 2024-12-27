@@ -1,0 +1,231 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05324579",
+            "orgStudyIdInfo": {
+                "id": "2009P000218"
+            },
+            "organization": {
+                "fullName": "Massachusetts General Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Studying the Neuronal Basis of Human Social Cognition",
+            "officialTitle": "An Integrated Single-neuronal, Population-, Local Network- and Stimulation-based Prefrontal Investigation of Human Social Cognition",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "studying-the-neuronal-basis-of-human-social-cognition"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-05-20",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-04-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-22",
+            "studyFirstSubmitQcDate": "2022-04-05",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Ziv Williams, MD",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "Massachusetts General Hospital"
+            },
+            "leadSponsor": {
+                "name": "Massachusetts General Hospital",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Brown University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This proposal aims to study the role that the dorsal prefrontal cortex plays in human social cognition.",
+            "detailedDescription": "Despite ongoing progress in the understanding of social behavior, little is known about the single-neuronal mechanisms that underlie human social cognition. The investigators will obtain single-neuronal recordings from the prefrontal cortex in participants undergoing clinically planned deep brain stimulation (DBS) electrode placement.\n\nThe study population will consist of subjects undergoing planned DBS placement. Prospective participants will be selected for surgery irrespective of their participation in the study. After consenting to the study, the participants will be allowed to withdraw from participation at any time. No control subjects will be used. Instead, each subject will act as their own control based on task performance.\n\nFor the study, neuronal recordings will be integrated within planned neurosurgical care and will be obtained from the prefrontal cortex as participants perform a brief behavioral task. During recordings and prior DBS placement, the participants are normally asked to make movements or answer questions based on verbal cues to aid in targeting the correct areas. The participants will be additionally asked to perform a brief linguistic-based task in which scenarios containing social agents are presented to the participants and in which they have to verbally describe/answer questions about them. Following cortical recordings and stimulation, the standard clinical procedure and DBS electrode placement proceeds as planned. The neuronal and behavioral data will then be analyzed off-line."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Neurosciences"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "Human subjects undergoing clinically planned neurosurgical procedures",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Neurosurgical subjects",
+                    "type": "EXPERIMENTAL",
+                    "description": "Subjects undergoing intracranial neurosurgical procedures",
+                    "interventionNames": [
+                        "Behavioral: Behavioral testing during neuronal recordings"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Behavioral testing during neuronal recordings",
+                    "description": "Participants undergoing clinically planned neurosurgical procedures will undergo single-neuronal recordings as they perform brief behavioral tasks.",
+                    "armGroupLabels": [
+                        "Neurosurgical subjects"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of neurons displaying changes in activity related to task events",
+                    "description": "Neuronal signals will be recorded during performance of a language-based social task over a 15 minute period. A multinomial logistic regression analyses will be used to evaluate for changes in neuronal activity that are associated with social versus non-social task events. Neuronal activity will be measured as the number of spikes recorded during each event, with each event lasting for approximately one second. Significance threshold will be set to p \\< 0.01. The primary outcome measure will be the proportion of neurons that reach significance threshold and therefore display task-related modulation.",
+                    "timeFrame": "15 minutes"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Percentage of task events that can be correctly predicted from neuronal activity",
+                    "description": "Neuronal signals will be recorded during performance of a language-based social task over a 15 minute period. Support vector machines will be used to determine whether changes neuronal activity can accurately predict the participants task performance. Neuronal activity will be measured as the number of spikes recorded during each question-answer event, with each event lasting for approximately one second. Significance threshold will be set to p \\< 0.01. The primary outcome measure will be the percentage of events that are predicted correctly.",
+                    "timeFrame": "15 minutes"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. 18 years old or older\n2. patients able to give informed consent\n\nExclusion Criteria:\n\n1. Children under 18\n2. Significant co-morbidities\n3. Claustrophobia or general anxiety that may impact intraoperative testing\n4. Use of CNS-active medications including stimulants and antipsychotics which may alter\n5. Pregnancy\n6. Operative events that will require expedition of the surgery.\n7. Poor tolerance of testing by the patient\n8. Increased abnormal cortical excitability\n9. Necessity to administer drugs that will interfere with mapping",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ziv Williams, MD",
+                    "role": "CONTACT",
+                    "phone": "6173126534",
+                    "email": "zwilliams@mgh.harvard.edu"
+                },
+                {
+                    "name": "Yoav Kfir, PhD",
+                    "role": "CONTACT",
+                    "email": "ykfir@mgh.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ziv Williams, MD",
+                    "affiliation": "Massachusetts General Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Massachusetts General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02114",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ziv Williams, MD",
+                            "role": "CONTACT",
+                            "phone": "617-312-6534",
+                            "email": "zwilliams@mgh.harvard.edu"
+                        },
+                        {
+                            "name": "Yoav Kfir, PhD",
+                            "role": "CONTACT",
+                            "email": "ykfir@mgh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Rhode Island Hospital",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Providence",
+                    "state": "Rhode Island",
+                    "zip": "02903",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Wael Asaad, MD",
+                            "role": "CONTACT",
+                            "email": "wael_asaad@brown.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.82399,
+                        "lon": -71.41283
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Processed neural data and relevant code will be made publicly available at the end of the study",
+            "infoTypes": [
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Processed neural data and relevant code will be made publicly available at the end of the study",
+            "url": "https://datadryad.org/"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,635 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05183152",
+            "orgStudyIdInfo": {
+                "id": "2020030073"
+            },
+            "organization": {
+                "fullName": "University of Texas at Austin",
+                "class": "OTHER"
+            },
+            "briefTitle": "Non-invasive BCI-controlled Assistive Devices",
+            "officialTitle": "Non-invasive Brain-computer Interfaces for Control of Assistive Devices",
+            "therapeuticArea": [
+                "Neurology",
+                "Other"
+            ],
+            "study": "non-invasive-bci-controlled-assistive-devices"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-06-16",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-20",
+            "studyFirstSubmitQcDate": "2021-12-20",
+            "studyFirstPostDateStruct": {
+                "date": "2022-01-10",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Texas at Austin",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "Injuries affecting the central nervous system may disrupt the cortical pathways to muscles causing loss of motor control. Nevertheless, the brain still exhibits sensorimotor rhythms (SMRs) during movement intents or motor imagery (MI), which is the mental rehearsal of the kinesthetics of a movement without actually performing it. Brain-computer interfaces (BCIs) can decode SMRs to control assistive devices and promote functional recovery. Despite rapid advancements in non-invasive BCI systems based on EEG, two persistent challenges remain: First, the instability of SMR patterns due to the non-stationarity of neural signals, which may significantly degrade BCI performance over days and hamper the effectiveness of BCI-based rehabilitation. Second, differentiating MI patterns corresponding to fine hand movements of the same limb is still difficult due to the low spatial resolution of EEG. To address the first challenge, subjects usually learn to elicit reliable SMR and improve BCI control through longitudinal training, so a fundamental question is how to accelerate subject training building upon the SMR neurophysiology. In this study, the investigators hypothesize that conditioning the brain with transcutaneous electrical spinal stimulation, which reportedly induces cortical inhibition, would constrain the neural dynamics and promote focal and strong SMR modulations in subsequent MI-based BCI training sessions - leading to accelerated BCI training. To address the second challenge, the investigators hypothesize that neuromuscular electrical stimulation (NMES) applied contingent to the voluntary activation of the primary motor cortex through MI can help differentiate patterns of activity associated with different hand movements of the same limb by consistently recruiting the separate neural pathways associated with each of the movements within a closed-loop BCI setup. The investigators study the neuroplastic changes associated with training with the two stimulation modalities."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Motor Disorders",
+                "Healthy",
+                "Spinal Cord Injuries",
+                "Muscular Diseases",
+                "Motor Neuron Disease",
+                "Stroke",
+                "Traumatic Brain Injury",
+                "Movement Disorders",
+                "Multiple Sclerosis"
+            ],
+            "keywords": [
+                "motor deficits",
+                "able-bodied, healthy",
+                "unilateral and bilateral stroke",
+                "spinal cord injury",
+                "motor neuron diseases",
+                "muscular diseases (i.e. myopathy)",
+                "traumatic or neurological pain",
+                "movement disorders"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "interventionModelDescription": "BCI Task x Stimulation Modality",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "TESS BCI - Standard MI Task",
+                    "type": "EXPERIMENTAL",
+                    "description": "Transcutaneous Electrical Spinal Stimulation (TESS) is applied for 20 minutes prior to BCI training sessions. Following TESS, BCI training is performed with visual feedback contingent to motor imagery as detected by a closed-loop BCI.",
+                    "interventionNames": [
+                        "Device: Visual Feedback",
+                        "Device: TESS"
+                    ]
+                },
+                {
+                    "label": "Visual BCI - Standard MI Task",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Conventional BCI training is performed with visual feedback contingent to the imagination of right versus left hand movements as detected by a closed-loop BCI.",
+                    "interventionNames": [
+                        "Device: Visual Feedback"
+                    ]
+                },
+                {
+                    "label": "NMES BCI - Difficult MI Task",
+                    "type": "EXPERIMENTAL",
+                    "description": "BCI training is performed with NMES instead of Visual feedback. NMES is delivered over the flexors/extensors of the forearm contingent to the imagination of same-hand wrist and fingers flexion versus extension as detected by a closed-loop BCI.",
+                    "interventionNames": [
+                        "Device: NMES Feedback"
+                    ]
+                },
+                {
+                    "label": "Visual BCI - Difficult MI Task",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Conventional BCI training is performed with visual feedback contingent to the imagination of same-hand wrist and fingers flexion versus extension as detected by a closed-loop BCI.",
+                    "interventionNames": [
+                        "Device: Visual Feedback"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "NMES Feedback",
+                    "description": "Electroencephalography (EEG) signals will be recorded from subjects as they perform cued tasks for flexing/extending their non-dominant hand. The signals will be processed and classified in real-time using machine learning algorithms to trigger electrical stimulation on the flexors/extensors of the targeted arm contingent to the detection of a subject-specific flexion/extension EEG patterns.",
+                    "armGroupLabels": [
+                        "NMES BCI - Difficult MI Task"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Visual Feedback",
+                    "description": "Electroencephalography (EEG) - recorded from subjects as they perform cued motor imagery (MI) tasks - are classified in real-time using a subject-specific BCI decoder,. The output classification probability of the decoder is accumulated using exponential smoothing and translated into continuous visual feedback by means of a bar - on a computer screen - that moves to the right or left in response to classification of one or the other MI task.",
+                    "armGroupLabels": [
+                        "TESS BCI - Standard MI Task",
+                        "Visual BCI - Difficult MI Task",
+                        "Visual BCI - Standard MI Task"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "TESS",
+                    "description": "Transcutaneous Electrical Spinal Stimulation (TESS) is applied over the C5-C6 spinal segment for 20 minutes at 30Hz with 5kHz carrier frequency.",
+                    "armGroupLabels": [
+                        "TESS BCI - Standard MI Task"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in the BCI command delivery performance",
+                    "description": "The command delivery accuracy reflects the level of control of the subject when using the BCI. It measures the percentage of trials in which the subject-specific classifier that is used to differentiate the different imagined movements could accumulate enough evidence to support the presence of EEG patterns specifically associated with the imagined movement in those trials.\n\nThe score is 0-100, and the higher the value, the better the outcome.",
+                    "timeFrame": "immediately after each intervention session and up to one week after all sessions"
+                },
+                {
+                    "measure": "Change in the focality and Strength of SMR Modulation",
+                    "description": "The focality of sensorimotor rhythm modulation is assessed from EEG using event-related desynchorinzation (ERD) and synchronization (ERS) over the motor area.\n\nContinuous measure, the higher the better",
+                    "timeFrame": "immediately after each intervention session and up to one week after all sessions"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Stability of Motor Imagery features",
+                    "description": "The features corresponding to different motor imagery tasks become more stable at the end of the intervention.",
+                    "timeFrame": "immediately after each intervention session and one-day after all sessions"
+                },
+                {
+                    "measure": "Separability of Motor Imagery features",
+                    "description": "The features corresponding to different motor imagery tasks become more separable after the intervention.",
+                    "timeFrame": "immediately after each intervention session and one-day after all sessions"
+                },
+                {
+                    "measure": "Changes in motor-evoked potential amplitude",
+                    "description": "Continuous measure, the higher the better",
+                    "timeFrame": "immediately after each intervention session and one-day after all sessions"
+                },
+                {
+                    "measure": "Changes in electroencephalography functional connectivity",
+                    "description": "Continuous measure, the more significant changes the better",
+                    "timeFrame": "immediately after each intervention session and one-day after all sessions"
+                },
+                {
+                    "measure": "Change in focality of fMRI activation for different imagined movements",
+                    "description": "The clusters of significant activation during MI of different movements would be more focal in the associated region of the motor area Continuous measure, the more the better.",
+                    "timeFrame": "immediately after each intervention session and one-day after all sessions"
+                },
+                {
+                    "measure": "More discriminable fMRI activations for different imagined movements",
+                    "description": "The activation associated with different MI tasks would be more discriminable from BOLD signals.\n\nContinuous measure, the more the better.",
+                    "timeFrame": "immediately after each intervention session and one-day after all sessions"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Able-bodied participants:\n\n   * good general health\n   * normal or corrected vision\n   * no history of neurological/psychiatric disease\n   * ability to read and understand English (Research Personnel do not speak Spanish)\n2. Subjects with motor disabilities\n\n   * motor deficits due to: unilateral and bilateral stroke / spinal cord injury / motor neuron diseases (i.e. amyotrophic lateral sclerosis, spino-cerebellar ataxia, multiple sclerosis) / muscular diseases (i.e. myopathy) / traumatic or neurological pain / movement disorders (i.e. cerebral palsy) / orthopedic / traumatic brain injury / brain tumors\n   * normal or corrected vision\n   * ability to read and understand English\n   * ability to provide informed consent\n\nExclusion Criteria:\n\n1. Subjects with motor disabilities\n\n   * short attentional spans or cognitive deficits that prevent the subject from concentrating during the whole experimental session\n   * heavy medication affecting the central nervous system (including vigilance)\n   * concomitant serious illness (e.g., metabolic disorders)\n2. All participants\n\n   * factors hindering EEG/EMG acquisition and the delivery of non-invasive electrical stimulation (e.g., skin infection, wounds, dermatitis, metal implants under electrodes)\n   * criteria identified in safety guidelines for MRI and TMS, in particular metallic implants",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jose del R. Millan, PhD",
+                    "role": "CONTACT",
+                    "phone": "512-232-8111",
+                    "email": "jose.millan@austin.utexas.edu"
+                },
+                {
+                    "name": "Hussein Alawieh",
+                    "role": "CONTACT",
+                    "phone": "512-373-0535",
+                    "email": "hussein@utexas.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jose del R. Millan, PhD",
+                    "affiliation": "The University of Texas at Austin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "The University of Texas at Austin",
+                    "status": "RECRUITING",
+                    "city": "Austin",
+                    "state": "Texas",
+                    "zip": "78712",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jose del R. Millan, PhD",
+                            "role": "CONTACT",
+                            "phone": "512-232-8111",
+                            "email": "jose.millan@austin.utexas.edu"
+                        },
+                        {
+                            "name": "Hussein Alawieh",
+                            "role": "CONTACT",
+                            "phone": "5123730535",
+                            "email": "hussein@utexas.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.26715,
+                        "lon": -97.74306
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "infoTypes": [
+                "STUDY_PROTOCOL"
+            ],
+            "timeFrame": "All data will be made available by the online publication date",
+            "accessCriteria": "Data will be placed in public servers for any interested researcher to access it"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009135",
+                    "term": "Muscular Diseases"
+                },
+                {
+                    "id": "D000009103",
+                    "term": "Multiple Sclerosis"
+                },
+                {
+                    "id": "D000001930",
+                    "term": "Brain Injuries"
+                },
+                {
+                    "id": "D000013119",
+                    "term": "Spinal Cord Injuries"
+                },
+                {
+                    "id": "D000070642",
+                    "term": "Brain Injuries, Traumatic"
+                },
+                {
+                    "id": "D000009069",
+                    "term": "Movement Disorders"
+                },
+                {
+                    "id": "D000016472",
+                    "term": "Motor Neuron Disease"
+                },
+                {
+                    "id": "D000000690",
+                    "term": "Amyotrophic Lateral Sclerosis"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                },
+                {
+                    "id": "D000068079",
+                    "term": "Motor Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020278",
+                    "term": "Demyelinating Autoimmune Diseases, CNS"
+                },
+                {
+                    "id": "D000020274",
+                    "term": "Autoimmune Diseases of the Nervous System"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000003711",
+                    "term": "Demyelinating Diseases"
+                },
+                {
+                    "id": "D000001327",
+                    "term": "Autoimmune Diseases"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000006259",
+                    "term": "Craniocerebral Trauma"
+                },
+                {
+                    "id": "D000020196",
+                    "term": "Trauma, Nervous System"
+                },
+                {
+                    "id": "D000013118",
+                    "term": "Spinal Cord Diseases"
+                },
+                {
+                    "id": "D000019636",
+                    "term": "Neurodegenerative Diseases"
+                },
+                {
+                    "id": "D000009468",
+                    "term": "Neuromuscular Diseases"
+                },
+                {
+                    "id": "D000057177",
+                    "term": "TDP-43 Proteinopathies"
+                },
+                {
+                    "id": "D000057165",
+                    "term": "Proteostasis Deficiencies"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000009140",
+                    "term": "Musculoskeletal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18879",
+                    "name": "Motor Neuron Disease",
+                    "asFound": "Motor Neuron Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4024",
+                    "name": "Amyotrophic Lateral Sclerosis",
+                    "asFound": "Motor Neuron Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12060",
+                    "name": "Multiple Sclerosis",
+                    "asFound": "Multiple Sclerosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22306",
+                    "name": "Stroke",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15916",
+                    "name": "Spinal Cord Injuries",
+                    "asFound": "Spinal Cord Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12029",
+                    "name": "Movement Disorders",
+                    "asFound": "Movement Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15415",
+                    "name": "Sclerosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5207",
+                    "name": "Brain Injuries",
+                    "asFound": "Brain Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12092",
+                    "name": "Muscular Diseases",
+                    "asFound": "Muscular Diseases",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M219",
+                    "name": "Motor Disorders",
+                    "asFound": "Motor Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M628",
+                    "name": "Brain Injuries, Traumatic",
+                    "asFound": "Traumatic Brain Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "asFound": "Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4629",
+                    "name": "Autoimmune Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22098",
+                    "name": "Demyelinating Autoimmune Diseases, CNS",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22094",
+                    "name": "Autoimmune Diseases of the Nervous System",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6909",
+                    "name": "Demyelinating Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9349",
+                    "name": "Craniocerebral Trauma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22023",
+                    "name": "Trauma, Nervous System",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15915",
+                    "name": "Spinal Cord Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21558",
+                    "name": "Neurodegenerative Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12411",
+                    "name": "Neuromuscular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M28759",
+                    "name": "TDP-43 Proteinopathies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M28747",
+                    "name": "Proteostasis Deficiencies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12097",
+                    "name": "Musculoskeletal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T349",
+                    "name": "Amyotrophic Lateral Sclerosis",
+                    "asFound": "Motor Neuron Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T4699",
+                    "name": "Primary Lateral Sclerosis",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

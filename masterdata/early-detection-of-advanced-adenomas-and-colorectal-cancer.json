@@ -1,0 +1,806 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06342440",
+            "orgStudyIdInfo": {
+                "id": "23228/AACRC"
+            },
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Early Detection of Advanced Adenomas and Colorectal Cancer",
+            "officialTitle": "A Liquid Biopsy Assay For The Non-Invasive Early Detection of Advanced Adenomas and Colorectal Cancer",
+            "acronym": "AACRC",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "early-detection-of-advanced-adenomas-and-colorectal-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-03-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-26",
+            "studyFirstSubmitQcDate": "2024-04-01",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study aims to develop a highly sensitive, specific, and cost-effective blood assay for early detection of colorectal adenomas and cancer, using advanced machine learning and state-of-the-art biological analyses.",
+            "detailedDescription": "Colorectal cancer (CRC) is a significant global health concern, ranking third in diagnosis and second in mortality. Despite being potentially preventable, it remains a leading cause of cancer-related deaths. Traditional screening methods like fecal immunochemical testing (FIT) have shown benefits in reducing late-stage diagnoses but have not effectively prevented CRC incidence. This is because tests like FIT can effectively detect the cancers, but not the precursor lesions, called adenomas. On the other hand, endoscopy-first approaches offer higher sensitivity for such adenomas and, therefore, lower the risk of developing CRC but face challenges such as invasiveness, cost, and patient compliance.\n\nNon-invasive tests are more appealing to patients than invasive tests and can increase participation rates. Biomarker studies have shown promise, but existing tests lack sensitivity for early-stage CRC and advanced adenomas (AAs). This is likely because they assume the same analyte can detect both CRC and AAs, which may not be accurate due to differences in analyte release and the biological changes that occur during the adenoma-carcinoma sequence.\n\nThis study proposes developing an innovative liquid biopsy test tailored for AAs and CRC to address this. An ideal screening test should be minimally invasive, highly sensitive, and cost-effective. This test would optimize patient compliance and resource allocation by detecting both conditions from a single blood draw. More specifically, circulating microRNA (miRNA) analysis shows promise: tests based on cell-free microRNA (cf-miRNA) have demonstrated high sensitivity, while those based on exosome-derived microRNA (exo-miRNA) offer high specificity. Therefore, combining both analytes in a single test could maximize sensitivity and specificity.\n\nThis study will develop a non-invasive blood test for AA and CRC in four phases:\n\n1. Genome-wide profiling of cf-miRNA and exo-miRNA and selecting the best candidates for biomarker panels.\n2. Utilizing machine learning to identify promising candidates and train algorithms for detecting AAs and CRC separately, based on results from quantitative polymerase chain reaction (qPCR) analysis.\n3. Combining these algorithms to create detection signatures for both conditions.\n4. Independently validating these signatures using diverse cohorts to ensure broad applicability and compare the effectiveness of the blood assay to standard care through retrospective and prospective studies.\n\nThis study aims to develop a highly sensitive, specific, and cost-effective liquid biopsy for early detection of AAs and CRC. Success could transform clinical practice by preventing CRC through early detection of pre-malignant lesions. Innovations include incorporating pre-malignant lesions into screening and combining cf-miRNA and exo-miRNA biomarkers for accuracy. This approach could reduce CRC mortality and incidence and pave the way for new clinical trials."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Colorectal Cancer",
+                "Colorectal Neoplasms",
+                "Colorectal Polyp",
+                "Colorectal Adenocarcinoma",
+                "Colorectal Disorders",
+                "Colorectal Dysplasia",
+                "Colorectal Cancer Stage I",
+                "Colorectal Cancer Stage II",
+                "Colorectal Cancer Stage III",
+                "Colorectal Cancer Stage IV",
+                "Colorectal Neoplasms Malignant",
+                "Colorectal Serrated Adenocarcinoma",
+                "Colorectal Adenoma With Severe Dysplasia",
+                "Colorectal Adenoma With Mild Dysplasia",
+                "Colorectal Adenoma With Moderate Dysplasia",
+                "Colorectal Adenoma and Carcinoma 1",
+                "Colorectal Adenomatous Polyp",
+                "Colorectal Adenocarcinoma Metastatic in the Liver"
+            ],
+            "keywords": [
+                "Early detection",
+                "Micro RNA",
+                "miRNA",
+                "Liquid biopsy",
+                "Machine learning",
+                "Artificial Intelligence",
+                "Incidence",
+                "Polypectomy",
+                "Screening",
+                "Surveillance",
+                "Exosome",
+                "Vascicles"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "Serum"
+            },
+            "enrollmentInfo": {
+                "count": 2000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Non-disease controls (Discovery cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found not to have any adenomas or cancer."
+                },
+                {
+                    "label": "Low-risk Adenoma (Discovery cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to only have low-risk adenomas, defined as all of the following:\n\n* 1 to 4 adenomas at most.\n* All adenomas have low-grade dysplasia at most.\n* All adenomas are \\<10 mm in diameter"
+                },
+                {
+                    "label": "Advanced Adenoma (Discovery cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to have high-risk adenomas, defined as one or more of the following:\n\n* 5 or more adenomas.\n* One or more adenomas have high-grade dysplasia.\n* One or more adenomas are \\>10 mm in diameter"
+                },
+                {
+                    "label": "Colorectal Cancer (Discovery cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to have colorectal cancer."
+                },
+                {
+                    "label": "Non-disease controls (Training cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found not to have any adenomas or cancer.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                },
+                {
+                    "label": "Low-risk Adenoma (Training cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to only have low-risk adenomas, defined as:\n\n* 1 to 4 adenomas at most.\n* All adenomas have low-grade dysplasia at most.\n* All adenomas are \\<10 mm in diameter.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                },
+                {
+                    "label": "Advanced Adenoma (Training cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to have high-risk adenomas, defined as one or more of the following:\n\n* 5 or more adenomas.\n* One or more adenomas have high-grade dysplasia.\n* One or more adenomas are \\>10 mm in diameter.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                },
+                {
+                    "label": "Colorectal Cancer (Training cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to have colorectal cancer.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                },
+                {
+                    "label": "Non-disease controls (Validation cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found not to have any adenomas or cancer.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                },
+                {
+                    "label": "Low-risk Adenoma (Validation cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to only have low-risk adenomas, defined as:\n\n* 1 to 4 adenomas at most.\n* All adenomas have low-grade dysplasia at most.\n* All adenomas are \\<10 mm in diameter.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                },
+                {
+                    "label": "Advanced Adenoma (Validation cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to have high-risk adenomas, defined as one or more of the following:\n\n* 5 or more adenomas.\n* One or more adenomas have high-grade dysplasia.\n* One or more adenomas are \\>10 mm in diameter.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                },
+                {
+                    "label": "Colorectal Cancer (Validation cohort)",
+                    "description": "Individuals who underwent colonoscopy and were found to have colorectal cancer.",
+                    "interventionNames": [
+                        "Diagnostic Test: DENEB"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "DENEB",
+                    "description": "A panel of circulating microRNA, whose expression level is tested in cell-free and exosome-derived samples.",
+                    "armGroupLabels": [
+                        "Advanced Adenoma (Training cohort)",
+                        "Advanced Adenoma (Validation cohort)",
+                        "Colorectal Cancer (Training cohort)",
+                        "Colorectal Cancer (Validation cohort)",
+                        "Low-risk Adenoma (Training cohort)",
+                        "Low-risk Adenoma (Validation cohort)",
+                        "Non-disease controls (Training cohort)",
+                        "Non-disease controls (Validation cohort)"
+                    ],
+                    "otherNames": [
+                        "DENEB (DEtection of colorectal NEoplasias in Blood)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity",
+                    "description": "True positive rate: the probability of a positive test result, conditioned on the individual truly being positive",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Specificity",
+                    "description": "True negative rate: the probability of a negative test result, conditioned on the individual truly being negative",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                },
+                {
+                    "measure": "Proportion of correct predictions (true positives and true negatives) among the total number of cases (i.e., accuracy)",
+                    "description": "A measure of trueness: proportion of correct predictions (both true positives and true negatives) among the total number of cases examined",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All individuals included in the study need to have had a colonoscopy at the time of blood sampling.\n* Received standard diagnostic and staging (as necessary) procedures as per local guidelines, and at least one sample was drawn before receiving any curative-intent treatment.\n* Received standard pathological and endoscopic diagnosis and assessment for cohort assignment.\n\nExclusion Criteria:\n\n* Hereditary colorectal cancer syndromes (identified through genetic testing).\n* Inflammatory bowel diseases.\n* Lack of written informed consent.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Three independent cohorts of individuals who belong to one of the following four\n\n* Negative colonoscopy findings\n* Low-risk adenomas (at most)\n* Advanced adenomas (at most)\n* Colorectal cancer",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "role": "CONTACT",
+                    "phone": "6262183452",
+                    "email": "AJGOEL@COH.ORG"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Monrovia",
+                    "state": "California",
+                    "zip": "91016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-218-3452",
+                            "email": "AJGOEL@COH.ORG"
+                        },
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Caiming Xu",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Alessandro Mannucci",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "James Lin",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Gregory Idos",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Trilokesh Kadambi",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.14806,
+                        "lon": -117.99895
+                    }
+                },
+                {
+                    "facility": "University of California San Diego",
+                    "status": "RECRUITING",
+                    "city": "San Diego",
+                    "state": "California",
+                    "zip": "92093",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "C Richard Boland, MD, PhD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "C Richard Boland, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.71533,
+                        "lon": -117.15726
+                    }
+                },
+                {
+                    "facility": "The First Affiliated Hospital of Dalian Medical University",
+                    "status": "RECRUITING",
+                    "city": "Dalian",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Jing Zhang",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Jing Zhang",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Caiming Xu",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.91222,
+                        "lon": 121.60222
+                    }
+                },
+                {
+                    "facility": "IRCCS San Raffaele",
+                    "status": "RECRUITING",
+                    "city": "Milan",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Giulia Martina Cavestro, MD, PhD",
+                            "role": "CONTACT",
+                            "email": "cavestro.giuliamartina@hsr.it"
+                        },
+                        {
+                            "name": "Giulia Martina Cavestro",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Alessandro Mannucci",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.46427,
+                        "lon": 9.18951
+                    }
+                },
+                {
+                    "facility": "Mie University",
+                    "status": "RECRUITING",
+                    "city": "Mie",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Yuji Toiyama",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Yuji Toiyama",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yoshinaga Okugawa",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Tadanobu Shimura",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ]
+                },
+                {
+                    "facility": "Barcelona University",
+                    "status": "RECRUITING",
+                    "city": "Barcelona",
+                    "country": "Spain",
+                    "contacts": [
+                        {
+                            "name": "Francesc Balaguer, MD, PhD",
+                            "role": "CONTACT",
+                            "email": "fprunes@clinic.cat"
+                        },
+                        {
+                            "name": "Francesc Balaguer",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Miguel Pera",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Lorena Moreno",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Luis Bujanda",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.38879,
+                        "lon": 2.15899
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "18838724",
+                    "type": "BACKGROUND",
+                    "citation": "Ahlquist DA, Sargent DJ, Loprinzi CL, Levin TR, Rex DK, Ahnen DJ, Knigge K, Lance MP, Burgart LJ, Hamilton SR, Allison JE, Lawson MJ, Devens ME, Harrington JJ, Hillman SL. Stool DNA and occult blood testing for screen detection of colorectal neoplasia. Ann Intern Med. 2008 Oct 7;149(7):441-50, W81. doi: 10.7326/0003-4819-149-7-200810070-00004."
+                },
+                {
+                    "pmid": "37971743",
+                    "type": "BACKGROUND",
+                    "citation": "Aziz Z, Wagner S, Agyekum A, Pumpalova YS, Prest M, Lim F, Rustgi S, Kastrinos F, Grady WM, Hur C. Cost-Effectiveness of Liquid Biopsy for Colorectal Cancer Screening in Patients Who Are Unscreened. JAMA Netw Open. 2023 Nov 1;6(11):e2343392. doi: 10.1001/jamanetworkopen.2023.43392."
+                },
+                {
+                    "pmid": "31154021",
+                    "type": "BACKGROUND",
+                    "citation": "Barnell EK, Kang Y, Wurtzler EM, Griffith M, Chaudhuri AA, Griffith OL; Geneoscopy Scientists. Noninvasive Detection of High-Risk Adenomas Using Stool-Derived Eukaryotic RNA Sequences as Biomarkers. Gastroenterology. 2019 Sep;157(3):884-887.e3. doi: 10.1053/j.gastro.2019.05.058. Epub 2019 May 30. No abstract available."
+                },
+                {
+                    "pmid": "37870871",
+                    "type": "BACKGROUND",
+                    "citation": "Barnell EK, Wurtzler EM, La Rocca J, Fitzgerald T, Petrone J, Hao Y, Kang Y, Holmes FL, Lieberman DA. Multitarget Stool RNA Test for Colorectal Cancer Screening. JAMA. 2023 Nov 14;330(18):1760-1768. doi: 10.1001/jama.2023.22231. Erratum In: JAMA. 2024 Mar 12;331(10):888. doi: 10.1001/jama.2024.1637."
+                },
+                {
+                    "pmid": "24553385",
+                    "type": "BACKGROUND",
+                    "citation": "Bettegowda C, Sausen M, Leary RJ, Kinde I, Wang Y, Agrawal N, Bartlett BR, Wang H, Luber B, Alani RM, Antonarakis ES, Azad NS, Bardelli A, Brem H, Cameron JL, Lee CC, Fecher LA, Gallia GL, Gibbs P, Le D, Giuntoli RL, Goggins M, Hogarty MD, Holdhoff M, Hong SM, Jiao Y, Juhl HH, Kim JJ, Siravegna G, Laheru DA, Lauricella C, Lim M, Lipson EJ, Marie SK, Netto GJ, Oliner KS, Olivi A, Olsson L, Riggins GJ, Sartore-Bianchi A, Schmidt K, Shih lM, Oba-Shinjo SM, Siena S, Theodorescu D, Tie J, Harkins TT, Veronese S, Wang TL, Weingart JD, Wolfgang CL, Wood LD, Xing D, Hruban RH, Wu J, Allen PJ, Schmidt CM, Choti MA, Velculescu VE, Kinzler KW, Vogelstein B, Papadopoulos N, Diaz LA Jr. Detection of circulating tumor DNA in early- and late-stage human malignancies. Sci Transl Med. 2014 Feb 19;6(224):224ra24. doi: 10.1126/scitranslmed.3007094."
+                },
+                {
+                    "pmid": "29159365",
+                    "type": "BACKGROUND",
+                    "citation": "Bosch LJW, de Wit M, Pham TV, Coupe VMH, Hiemstra AC, Piersma SR, Oudgenoeg G, Scheffer GL, Mongera S, Sive Droste JT, Oort FA, van Turenhout ST, Larbi IB, Louwagie J, van Criekinge W, van der Hulst RWM, Mulder CJJ, Carvalho B, Fijneman RJA, Jimenez CR, Meijer GA. Novel Stool-Based Protein Biomarkers for Improved Colorectal Cancer Screening: A Case-Control Study. Ann Intern Med. 2017 Dec 19;167(12):855-866. doi: 10.7326/M17-1068. Epub 2017 Nov 21."
+                },
+                {
+                    "pmid": "37794234",
+                    "type": "BACKGROUND",
+                    "citation": "Brenner H, Heisser T, Cardoso R, Hoffmeister M. Reduction in colorectal cancer incidence by screening endoscopy. Nat Rev Gastroenterol Hepatol. 2024 Feb;21(2):125-133. doi: 10.1038/s41575-023-00847-3. Epub 2023 Oct 4."
+                },
+                {
+                    "pmid": "36800187",
+                    "type": "BACKGROUND",
+                    "citation": "Carethers JM. Stool-Based Screening Tests for Colorectal Cancer. JAMA. 2023 Mar 14;329(10):839-840. doi: 10.1001/jama.2023.0547."
+                },
+                {
+                    "pmid": "38477992",
+                    "type": "BACKGROUND",
+                    "citation": "Carethers JM. Improving Noninvasive Colorectal Cancer Screening. N Engl J Med. 2024 Mar 14;390(11):1045-1046. doi: 10.1056/NEJMe2400366. No abstract available."
+                },
+                {
+                    "pmid": "38477985",
+                    "type": "BACKGROUND",
+                    "citation": "Chung DC, Gray DM 2nd, Singh H, Issaka RB, Raymond VM, Eagle C, Hu S, Chudova DI, Talasaz A, Greenson JK, Sinicrope FA, Gupta S, Grady WM. A Cell-free DNA Blood-Based Test for Colorectal Cancer Screening. N Engl J Med. 2024 Mar 14;390(11):973-983. doi: 10.1056/NEJMoa2304714."
+                },
+                {
+                    "pmid": "23408352",
+                    "type": "BACKGROUND",
+                    "citation": "Church TR, Wandell M, Lofton-Day C, Mongin SJ, Burger M, Payne SR, Castanos-Velez E, Blumenstein BA, Rosch T, Osborn N, Snover D, Day RW, Ransohoff DF; PRESEPT Clinical Study Steering Committee, Investigators and Study Team. Prospective evaluation of methylated SEPT9 in plasma for detection of asymptomatic colorectal cancer. Gut. 2014 Feb;63(2):317-25. doi: 10.1136/gutjnl-2012-304149. Epub 2013 Feb 13."
+                },
+                {
+                    "pmid": "34280333",
+                    "type": "BACKGROUND",
+                    "citation": "de Klaver W, Wisse PHA, van Wifferen F, Bosch LJW, Jimenez CR, van der Hulst RWM, Fijneman RJA, Kuipers EJ, Greuter MJE, Carvalho B, Spaander MCW, Dekker E, Coupe VMH, de Wit M, Meijer GA. Clinical Validation of a Multitarget Fecal Immunochemical Test for Colorectal Cancer Screening : A Diagnostic Test Accuracy Study. Ann Intern Med. 2021 Sep;174(9):1224-1231. doi: 10.7326/M20-8270. Epub 2021 Jul 20."
+                },
+                {
+                    "pmid": "30497962",
+                    "type": "BACKGROUND",
+                    "citation": "de Klerk CM, Wieten E, Lansdorp-Vogelaar I, Bossuyt PM, Spaander MC, Dekker E. Performance of two faecal immunochemical tests for the detection of advanced neoplasia at different positivity thresholds: a cross-sectional study of the Dutch national colorectal cancer screening programme. Lancet Gastroenterol Hepatol. 2019 Feb;4(2):111-118. doi: 10.1016/S2468-1253(18)30319-4. Epub 2018 Nov 27."
+                },
+                {
+                    "pmid": "29849824",
+                    "type": "BACKGROUND",
+                    "citation": "Fu B, Yan P, Zhang S, Lu Y, Pan L, Tang W, Chen S, Chen S, Zhang A, Liu W. Cell-Free Circulating Methylated SEPT9 for Noninvasive Diagnosis and Monitoring of Colorectal Cancer. Dis Markers. 2018 Apr 23;2018:6437104. doi: 10.1155/2018/6437104. eCollection 2018."
+                },
+                {
+                    "pmid": "38224564",
+                    "type": "BACKGROUND",
+                    "citation": "Gagrat ZD, Krockenberger M, Bhattacharya A, Gagrat BZ, Leduc CM, Matter MB, Fourrier KD, Mahoney DW, Edwards V DK, Lidgard GP, Limburg PJ, Johnson SC, Domanico MJ, Kisiel JB. Next-generation Multi-target Stool DNA Panel Accurately Detects Colorectal Cancer and Advanced Precancerous Lesions. Cancer Prev Res (Phila). 2024 Mar 4;17(3):119-126. doi: 10.1158/1940-6207.CAPR-23-0285."
+                },
+                {
+                    "pmid": "35665911",
+                    "type": "BACKGROUND",
+                    "citation": "Grobbee EJ, Wisse PHA, Schreuders EH, van Roon A, van Dam L, Zauber AG, Lansdorp-Vogelaar I, Bramer W, Berhane S, Deeks JJ, Steyerberg EW, van Leerdam ME, Spaander MC, Kuipers EJ. Guaiac-based faecal occult blood tests versus faecal immunochemical tests for colorectal cancer screening in average-risk individuals. Cochrane Database Syst Rev. 2022 Jun 6;6(6):CD009276. doi: 10.1002/14651858.CD009276.pub2."
+                },
+                {
+                    "pmid": "32044106",
+                    "type": "BACKGROUND",
+                    "citation": "Gupta S, Lieberman D, Anderson JC, Burke CA, Dominitz JA, Kaltenbach T, Robertson DJ, Shaukat A, Syngal S, Rex DK. Recommendations for Follow-Up After Colonoscopy and Polypectomy: A Consensus Update by the US Multi-Society Task Force on Colorectal Cancer. Gastrointest Endosc. 2020 Mar;91(3):463-485.e5. doi: 10.1016/j.gie.2020.01.014. Epub 2020 Feb 7. No abstract available."
+                },
+                {
+                    "pmid": "30802902",
+                    "type": "BACKGROUND",
+                    "citation": "Imperiale TF, Gruber RN, Stump TE, Emmett TW, Monahan PO. Performance Characteristics of Fecal Immunochemical Tests for Colorectal Cancer and Advanced Adenomatous Polyps: A Systematic Review and Meta-analysis. Ann Intern Med. 2019 Mar 5;170(5):319-329. doi: 10.7326/M18-2390. Epub 2019 Feb 26."
+                },
+                {
+                    "pmid": "33436397",
+                    "type": "BACKGROUND",
+                    "citation": "Imperiale TF, Kisiel JB, Itzkowitz SH, Scheu B, Duimstra EK, Statz S, Berger BM, Limburg PJ. Specificity of the Multi-Target Stool DNA Test for Colorectal Cancer Screening in Average-Risk 45-49 Year-Olds: A Cross-Sectional Study. Cancer Prev Res (Phila). 2021 Apr;14(4):489-496. doi: 10.1158/1940-6207.CAPR-20-0294. Epub 2021 Jan 12."
+                },
+                {
+                    "pmid": "38477986",
+                    "type": "BACKGROUND",
+                    "citation": "Imperiale TF, Porter K, Zella J, Gagrat ZD, Olson MC, Statz S, Garces J, Lavin PT, Aguilar H, Brinberg D, Berkelhammer C, Kisiel JB, Limburg PJ; BLUE-C Study Investigators. Next-Generation Multitarget Stool DNA Test for Colorectal Cancer Screening. N Engl J Med. 2024 Mar 14;390(11):984-993. doi: 10.1056/NEJMoa2310336."
+                },
+                {
+                    "pmid": "30886205",
+                    "type": "BACKGROUND",
+                    "citation": "Kim ER, Kwon HN, Nam H, Kim JJ, Park S, Kim YH. Urine-NMR metabolomics for screening of advanced colorectal adenoma and early stage colorectal cancer. Sci Rep. 2019 Mar 18;9(1):4786. doi: 10.1038/s41598-019-41216-y."
+                },
+                {
+                    "pmid": "38477993",
+                    "type": "BACKGROUND",
+                    "citation": "Lo YMD. Cell-free DNA for Colorectal Cancer Screening. N Engl J Med. 2024 Mar 14;390(11):1047-1050. doi: 10.1056/NEJMe2311101. No abstract available."
+                },
+                {
+                    "pmid": "37387788",
+                    "type": "BACKGROUND",
+                    "citation": "Luan Y, Zhong G, Li S, Wu W, Liu X, Zhu D, Feng Y, Zhang Y, Duan C, Mao M. A panel of seven protein tumour markers for effective and affordable multi-cancer early detection by artificial intelligence: a large-scale and multicentre case-control study. EClinicalMedicine. 2023 Jun 15;61:102041. doi: 10.1016/j.eclinm.2023.102041. eCollection 2023 Jul."
+                },
+                {
+                    "pmid": "37263306",
+                    "type": "BACKGROUND",
+                    "citation": "Pardini B, Ferrero G, Tarallo S, Gallo G, Francavilla A, Licheri N, Trompetto M, Clerico G, Senore C, Peyre S, Vymetalkova V, Vodickova L, Liska V, Vycital O, Levy M, Macinga P, Hucl T, Budinska E, Vodicka P, Cordero F, Naccarati A. A Fecal MicroRNA Signature by Small RNA Sequencing Accurately Distinguishes Colorectal Cancers: Results From a Multicenter Study. Gastroenterology. 2023 Sep;165(3):582-599.e8. doi: 10.1053/j.gastro.2023.05.037. Epub 2023 May 30."
+                },
+                {
+                    "pmid": "24646506",
+                    "type": "BACKGROUND",
+                    "citation": "Wang H, Tso V, Wong C, Sadowski D, Fedorak RN. Development and validation of a highly sensitive urine-based test to identify patients with colonic adenomatous polyps. Clin Transl Gastroenterol. 2014 Mar 20;5(3):e54. doi: 10.1038/ctg.2014.2."
+                },
+                {
+                    "pmid": "38346438",
+                    "type": "BACKGROUND",
+                    "citation": "Wisse PHA, de Klaver W, van Wifferen F, van Maaren-Meijer FG, van Ingen HE, Meiqari L, Huitink I, Bierkens M, Lemmens M, Greuter MJE, van Leerdam ME, Spaander MCW, Dekker E, Coupe VMH, Carvalho B, de Wit M, Meijer GA. The multitarget faecal immunochemical test for improving stool-based colorectal cancer screening programmes: a Dutch population-based, paired-design, intervention study. Lancet Oncol. 2024 Mar;25(3):326-337. doi: 10.1016/S1470-2045(23)00651-4. Epub 2024 Feb 9."
+                },
+                {
+                    "pmid": "37770864",
+                    "type": "BACKGROUND",
+                    "citation": "Zhao F, Bai P, Xu J, Li Z, Muhammad S, Li D, Zhang Z, Gao Y, Liu Q. Efficacy of cell-free DNA methylation-based blood test for colorectal cancer screening in high-risk population: a prospective cohort study. Mol Cancer. 2023 Sep 28;22(1):157. doi: 10.1186/s12943-023-01866-z."
+                },
+                {
+                    "pmid": "36604402",
+                    "type": "BACKGROUND",
+                    "citation": "Zhang Z, Liu X, Yang X, Jiang Y, Li A, Cong J, Li Y, Xie Q, Xu C, Liu D. Identification of faecal extracellular vesicles as novel biomarkers for the non-invasive diagnosis and prognosis of colorectal cancer. J Extracell Vesicles. 2023 Jan;12(1):e12300. doi: 10.1002/jev2.12300."
+                },
+                {
+                    "pmid": "32439084",
+                    "type": "BACKGROUND",
+                    "citation": "Wender R, Brooks D, Sharpe K, Doroshenk M. The National Colorectal Cancer Roundtable: Past Performance, Current and Future Goals. Gastrointest Endosc Clin N Am. 2020 Jul;30(3):499-509. doi: 10.1016/j.giec.2020.02.013. Epub 2020 Apr 16."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data collected for the study will be made available to others, including de-identified participant data, at publication, via a signed data access agreement and at the discretion of the investigators' approval of the proposed use of such data."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000000236",
+                    "term": "Adenoma"
+                },
+                {
+                    "id": "D000018256",
+                    "term": "Adenomatous Polyps"
+                },
+                {
+                    "id": "D000011127",
+                    "term": "Polyps"
+                },
+                {
+                    "id": "D000006965",
+                    "term": "Hyperplasia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000003108",
+                    "term": "Colonic Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                },
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000020763",
+                    "term": "Pathological Conditions, Anatomical"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "asFound": "Adenocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14011",
+                    "name": "Polyps",
+                    "asFound": "Polyps",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3591",
+                    "name": "Adenoma",
+                    "asFound": "Adenoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "asFound": "Colorectal Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20402",
+                    "name": "Adenomatous Polyps",
+                    "asFound": "Adenomatous Polyps",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10016",
+                    "name": "Hyperplasia",
+                    "asFound": "Dysplasia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6336",
+                    "name": "Colonic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22519",
+                    "name": "Pathological Conditions, Anatomical",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

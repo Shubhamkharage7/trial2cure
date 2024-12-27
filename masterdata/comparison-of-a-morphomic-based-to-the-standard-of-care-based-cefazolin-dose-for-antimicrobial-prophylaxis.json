@@ -1,0 +1,293 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06005168",
+            "orgStudyIdInfo": {
+                "id": "HUM00222771"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01HS027183",
+                    "type": "AHRQ",
+                    "link": "https://reporter.nih.gov/quickSearch/R01HS027183"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "Comparison of a Morphomic-Based to the Standard-of-Care-Based Cefazolin Dose for Antimicrobial Prophylaxis",
+            "officialTitle": "Comparison of a Morphomic-Based to the Standard-of-Care-Based Cefazolin Dose for Antimicrobial Prophylaxis",
+            "acronym": "MorphAbxPKSurg",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "comparison-of-a-morphomic-based-to-the-standard-of-care-based-cefazolin-dose-for-antimicrobial-prophylaxis"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-16",
+            "studyFirstSubmitQcDate": "2023-08-16",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Stewart Wang",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Agency for Healthcare Research and Quality (AHRQ)",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this clinical study is to compare the dosing of an antibiotic in overweight patients having surgery. The main question\\[s\\] it aims to answer are:\n\n* Are the antibiotic concentrations in blood and fat tissue in patients that are overweight sufficient to prevent the chance of infection?\n* Can dosing using body composition rather than body weight improve the chance of achieving good antibiotic concentrations in overweight patients? Participants will allow us to collect small amounts of blood and fat tissue during their regularly scheduled surgery.\n\nResearchers will compare differences in antibiotic concentrations based on dosing by standard of care (body weight based) versus body composition.",
+            "detailedDescription": "The risk of surgical site infections are higher in patients with obesity compared to non-obese adults. Our group has previously demonstrated that radiologic measures of abdominal subcutaneous fat are associated with surgical site infection risk in patients undergoing colorectal surgeries, which could reflect suboptimal antibiotic exposure in these patients. Therefore, we hypothesized that measures of abdominal size and composition in patients undergoing colorectal surgery would be more predictive of antimicrobial pharmacokinetics in this tissue compartment than the current standards of body weight and BMI. We confirmed this hypothesis and identified kidney function and body depth (by morphomics) to be predictive of cefazolin exposure in target tissue. Morphomics is a technology that transforms existing computed tomography data into body measures and composition. This study is a head-to-head comparison of this new proposed morphomic test regimen to the standard of care."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Surgical Prophylaxis"
+            ],
+            "keywords": [
+                "Surgical Prophylaxis",
+                "Pharmacokinetics",
+                "Cefazolin",
+                "Obesity",
+                "Morphomics",
+                "Colorectal"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "The current model for dosing the drug cefazolin includes the selection of 2 grams if the individual weighs less than 120 kg and 3 grams if they weigh 120 kg or more. The morphomic-based model defined the choice of 2 grams versus 3 grams of cefazolin based on kidney function and body depth.",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE",
+                    "maskingDescription": "This is open label"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 104,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Standard of Care",
+                    "type": "NO_INTERVENTION",
+                    "description": "The patients assigned to this group have cefazolin dose assignments based on body weight, which is the standard of care."
+                },
+                {
+                    "label": "Morphomic-based",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "The patients assigned to this group have cefazolin dose assignments based on body depth and kidney function.",
+                    "interventionNames": [
+                        "Drug: Cefazolin for Injection"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Cefazolin for Injection",
+                    "description": "2 grams or 3 grams based on standard of care or morphomic-based decision",
+                    "armGroupLabels": [
+                        "Morphomic-based"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Proportion of Concentration Target Attainment",
+                    "description": "Proportion of patients achieving at least 3.2 hours of time above 2 mcg/mL (MIC90) in subcutaneous fat tissue with the standard of care compared to morphomic-based dosing",
+                    "timeFrame": "4 hours"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Cefazolin exposure based on body depth",
+                    "description": "Compare the area under the curve from time 0 to 4 hours (AUC0-4) in plasma and subcutaneous fat in patients with a body depth above and below 350 mm",
+                    "timeFrame": "4 hours"
+                },
+                {
+                    "measure": "Cefazolin exposure based on kidney function",
+                    "description": "Compare the area under the curve from time 0 to 4 hours (AUC0-4) in plasma and subcutaneous fat in patients with an estimated creatinine clearance above and below 120 mL/min",
+                    "timeFrame": "4 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Accessible abdominal computed tomography scan prior to surgery\n2. Adult patients \\> 18 years of age\n3. Body Mass Index \u2265 25 kg/m\\^2\n4. Expected to receive cefazolin prior to surgical incision\n5. Estimated creatinine clearance \u226590 mL/min\n\nExclusion Criteria:\n\n1. History of a hypersensitivity reaction to penicillin or cephalosporin\n2. Pregnancy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Amit P Pai, PharmD",
+                    "role": "CONTACT",
+                    "phone": "7346470006",
+                    "email": "amitpai@umich.edu"
+                },
+                {
+                    "name": "June Sullivan, MBA",
+                    "role": "CONTACT",
+                    "phone": "734-615-3488",
+                    "email": "jusulli@med.umich.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan Hospital",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48108",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amit P Pai, PharmD",
+                            "role": "CONTACT",
+                            "phone": "734-647-0006",
+                            "email": "amitpai@umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M12701",
+                    "name": "Obesity",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002437",
+                    "term": "Cefazolin"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000900",
+                    "term": "Anti-Bacterial Agents"
+                },
+                {
+                    "id": "D000000890",
+                    "term": "Anti-Infective Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4222",
+                    "name": "Anti-Bacterial Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5687",
+                    "name": "Cefazolin",
+                    "asFound": "Greater than",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4214",
+                    "name": "Anti-Infective Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

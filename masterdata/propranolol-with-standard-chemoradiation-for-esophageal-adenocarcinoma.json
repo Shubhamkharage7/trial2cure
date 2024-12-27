@@ -1,0 +1,583 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04682158",
+            "orgStudyIdInfo": {
+                "id": "I 630420"
+            },
+            "organization": {
+                "fullName": "Roswell Park Cancer Institute",
+                "class": "OTHER"
+            },
+            "briefTitle": "Propranolol With Standard Chemoradiation for Esophageal Adenocarcinoma",
+            "officialTitle": "Propranolol With Standard Chemoradiation for Esophageal Adenocarcinoma A Phase II Study",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "propranolol-with-standard-chemoradiation-for-esophageal-adenocarcinoma"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-04-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-04-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-04-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-12-21",
+            "studyFirstSubmitQcDate": "2020-12-21",
+            "studyFirstPostDateStruct": {
+                "date": "2020-12-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Roswell Park Cancer Institute",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This phase II trial studies the side effects and best dose of propranolol when administered concurrently with SOC neoadjuvant CRT in patients with esophageal carcinoma, with a safety lead-in and dose expansion cohort. Patients who are already on \u03b2-blockers will receive standard of care CRT and will be considered separately as a single arm prospective cohort",
+            "detailedDescription": "PRIMARY OBJECTIVE:\n\nI. To determine the safety and efficacy of propranolol hydrochloride (propranolol) in combination with standard neoadjuvant/definitive chemoradiation therapy (CRT) for esophageal cancer.\n\nSECONDARY OBJECTIVE:\n\nI. To estimate overall survival (OS) and pathologic response rate in patients that undergo surgery."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Esophageal Adenocarcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 106,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Chemoradiation Therapy - Group I",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Patients receiving beta-blockers undergo radiation therapy in the form of IMRT or 3D CRT over 23-28 fractions for 5 days per week (Monday-Friday) for 5 weeks, and receive paclitaxel IV QW and carboplatin IV QW for 5 weeks in the absence of disease progression or unacceptable toxicity.",
+                    "interventionNames": [
+                        "Drug: Carboplatin",
+                        "Radiation: 3 Dimensional Conformal Radiation Therapy",
+                        "Radiation: Intensity Modulated Radiation Therapy",
+                        "Drug: Paclitaxel"
+                    ]
+                },
+                {
+                    "label": "Chemoradiation Therapy - Group II",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Patients undergo CRT as in Group I in the absence of disease progression or unacceptable toxicity.",
+                    "interventionNames": [
+                        "Radiation: 3 Dimensional Conformal Radiation Therapy"
+                    ]
+                },
+                {
+                    "label": "Chemoradiation Therapy plus Propanolol",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients undergo radiation therapy as in Group I. Patients receive propranolol PO BID for 4-6 weeks while receiving CRT in the absence of disease progression or unacceptable toxicity.",
+                    "interventionNames": [
+                        "Radiation: 3 Dimensional Conformal Radiation Therapy",
+                        "Drug: Propranolol",
+                        "Radiation: Intensity Modulated Radiation Therapy"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Carboplatin",
+                    "description": "Given IV",
+                    "armGroupLabels": [
+                        "Chemoradiation Therapy - Group I"
+                    ],
+                    "otherNames": [
+                        "(SP-4-2)-diammine[1,1-cyclobutanedicarboxylato(2--)-O,O'']platinum",
+                        "Blastocarb",
+                        "CBDCA",
+                        "Displata",
+                        "Ercar",
+                        "JM-8",
+                        "Nealorin",
+                        "Novoplatinum",
+                        "Paraplatin",
+                        "Ribocarbo"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "3 Dimensional Conformal Radiation Therapy",
+                    "description": "Undergo 3D CRT",
+                    "armGroupLabels": [
+                        "Chemoradiation Therapy - Group I",
+                        "Chemoradiation Therapy - Group II",
+                        "Chemoradiation Therapy plus Propanolol"
+                    ],
+                    "otherNames": [
+                        "3D-CRT",
+                        "Radiation"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Propranolol",
+                    "description": "Subject will be treated with 30 mg po BID Propranolol for up to 6 weeks",
+                    "armGroupLabels": [
+                        "Chemoradiation Therapy plus Propanolol"
+                    ],
+                    "otherNames": [
+                        "2-Propanol-1-[(1-methylethyl)amino]-3-(1-naphthalenyloxy) Hydrochloride",
+                        "318-98-9",
+                        "Inderal",
+                        "Innopran XL"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Intensity Modulated Radiation Therapy",
+                    "description": "Undergo IMRT",
+                    "armGroupLabels": [
+                        "Chemoradiation Therapy - Group I",
+                        "Chemoradiation Therapy plus Propanolol"
+                    ],
+                    "otherNames": [
+                        "IMRT"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Paclitaxel",
+                    "description": "Given IV",
+                    "armGroupLabels": [
+                        "Chemoradiation Therapy - Group I"
+                    ],
+                    "otherNames": [
+                        "33069-62-4",
+                        "5Beta,20-epoxy-1,2alpha",
+                        "Anzatax",
+                        "Bristaxol",
+                        "Praxel",
+                        "Taxol"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Occurrence of Adverse Events",
+                    "description": "To determine the safety and efficacy of the combination of propranolol plus chemoradiation",
+                    "timeFrame": "Up to 5 years"
+                },
+                {
+                    "measure": "Progression Free Survival",
+                    "description": "Imaging findings from first radiation treatment to progression of disease",
+                    "timeFrame": "UP to 5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Overall Survival",
+                    "description": "will be assessed by chart review of date of last follow-up or date of death",
+                    "timeFrame": "Up to 5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Undergoing definitive or neoadjuvant CRT for histologically confirmed esophageal adenocarcinoma\n* Have an ECOG performance status of 0-1\n* Have the ability to swallow and retain oral medication. If a patient is not able to swallow, they are still eligible for study provided they have an enteric feeding placed which will permit administration of crushed tablets or liquid formula propranolol prior to first radiation treatment\n* Participants of child-bearing potential must have a negative pregnancy test at study entry And then agree to use adequate contraceptive methods (e.g., hormonal or barrier method of birth control; abstinence) prior to study entry. - Should a woman become pregnant or suspect she is pregnant while she or her partner is participating in this study, she should inform her treating physician immediately.\n* Participant must understand the investigational nature of this study and sign an Independent Ethics Committee/Institutional Review Board approved written informed consent form prior to receiving any study related procedure.\n\nExclusion Criteria:\n\n* Contraindications to the use of beta-blockers, e.g.; uncontrolled depression, unstable angina pectoris, uncontrolled heart failure (New York Heart Association (NYHA) Grade III or IV), hypotension ( systolic blood pressure \\<100 mmHg), severe asthma or COPD, uncontrolled type I or type II diabetes mellitus (HbA1C \\>8.5 or fasting plasma glucose \\> 160 mg/dL at screening), symptomatic peripheral arterial disease or Raynaud's syndrome, untreated pheochromocytoma, current calcium channel blocker use (Non-dihydropyridines such as verapamil) or rhythm control agents such as digoxin and amiodarone. Patients with pacemakers will be excluded\n* Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection,symptomatic congestive heart failure, unstable angina pectoris, psychiatric illness/social situations that would limit compliance with study requirements, cardiac arrhythmia (atrial fibrillation/flutter), severe bradycardia (heart rate of \\<50 beats per minute or 1st/ 2nd /3rd degree heart block)\n* Pregnant or nursing female participants,\n* Unwilling or unable to follow protocol requirements\n* Any condition which in the Investigator's opinion deems the participant an unsuitable candidate to receive study drug",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "ASK RPCI",
+                    "role": "CONTACT",
+                    "phone": "1-800-767-9355",
+                    "email": "askroswell@roswellpark.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Anurag Singh, MD",
+                    "affiliation": "Roswell Park Cancer Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Roswell Park Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Buffalo",
+                    "state": "New York",
+                    "zip": "14263",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 42.88645,
+                        "lon": -78.87837
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000004938",
+                    "term": "Esophageal Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000006258",
+                    "term": "Head and Neck Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000004935",
+                    "term": "Esophageal Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "asFound": "Adenocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8088",
+                    "name": "Esophageal Neoplasms",
+                    "asFound": "Esophageal Adenocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8085",
+                    "name": "Esophageal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2141",
+                    "name": "Esophageal Cancer",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000017239",
+                    "term": "Paclitaxel"
+                },
+                {
+                    "id": "D000016190",
+                    "term": "Carboplatin"
+                },
+                {
+                    "id": "D000011433",
+                    "term": "Propranolol"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000972",
+                    "term": "Antineoplastic Agents, Phytogenic"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000050257",
+                    "term": "Tubulin Modulators"
+                },
+                {
+                    "id": "D000050256",
+                    "term": "Antimitotic Agents"
+                },
+                {
+                    "id": "D000050258",
+                    "term": "Mitosis Modulators"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000319",
+                    "term": "Adrenergic beta-Antagonists"
+                },
+                {
+                    "id": "D000018674",
+                    "term": "Adrenergic Antagonists"
+                },
+                {
+                    "id": "D000018663",
+                    "term": "Adrenergic Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000000889",
+                    "term": "Anti-Arrhythmia Agents"
+                },
+                {
+                    "id": "D000000959",
+                    "term": "Antihypertensive Agents"
+                },
+                {
+                    "id": "D000014665",
+                    "term": "Vasodilator Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M18650",
+                    "name": "Carboplatin",
+                    "asFound": "System",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19537",
+                    "name": "Paclitaxel",
+                    "asFound": "Sessions",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M231",
+                    "name": "Albumin-Bound Paclitaxel",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3671",
+                    "name": "Adrenergic beta-Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14298",
+                    "name": "Propranolol",
+                    "asFound": "Equivalent",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26197",
+                    "name": "Tubulin Modulators",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26196",
+                    "name": "Antimitotic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20746",
+                    "name": "Adrenergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20755",
+                    "name": "Adrenergic Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4213",
+                    "name": "Anti-Arrhythmia Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4277",
+                    "name": "Antihypertensive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17412",
+                    "name": "Vasodilator Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "AnArAg",
+                    "name": "Anti-Arrhythmia Agents"
+                },
+                {
+                    "abbrev": "AnAg",
+                    "name": "Antihypertensive Agents"
+                },
+                {
+                    "abbrev": "VaDiAg",
+                    "name": "Vasodilator Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

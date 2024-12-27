@@ -1,0 +1,321 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05975736",
+            "orgStudyIdInfo": {
+                "id": "2007P000646-E"
+            },
+            "organization": {
+                "fullName": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            },
+            "briefTitle": "Searching for Masses and Calcifications at the Same Time in Breast Cancer Screening",
+            "officialTitle": "Improving Perception in Digital Breast Tomography: Searching for Masses and Calcifications at the Same Time. NOTE: Note, This is One Study Under Study ID 386409 Projects 1,2,3: Experiments With Non Experts",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "searching-for-masses-and-calcifications-at-the-same-time-in-breast-cancer-screening"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-09-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-09-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-09-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-27",
+            "studyFirstSubmitQcDate": "2023-08-02",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-04",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jeremy M Wolfe, PhD",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Brigham and Women's Hospital"
+            },
+            "leadSponsor": {
+                "name": "Brigham and Women's Hospital",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Brief Summary\n\nA task like breast cancer screening (mammography) can be described as a \"hybrid search\" task. In basic visual search tasks, observers search for a target among distractors that are not the target. In hybrid search, observers search for two or more target types. In mammography, observers are searching for masses, calcifications (\"calcs\"), and some other signs of cancer like architectural distortion. In this experiment, the investigators have created a simulated version of mammography where non-expert (non-radiologist) observers can look for simulated masses and calcs. There are two types of stimuli, a 2D version (like an x-ray) and a 3D version (like the output of Digital Breast Tomosynthesis - DBT). The question that is being asked is whether it is better to ask about masses and calcs separately (first one, then the other) or to just let observers look for both at the same time.",
+            "detailedDescription": "Brief Summary\n\nA task like breast cancer screening (mammography) can be described as a \"hybrid search\" task. In basic visual search tasks, observers search for a target among distractors that are not the target. In hybrid search, observers search for two or more target types. In mammography, observers are searching for masses, calcifications (\"calcs\"), and some other signs of cancer like architectural distortion. In this experiment, the investigators have created a simulated version of mammography where non-expert (non-radiologist) observers can look for simulated masses and calcs. There are two types of stimuli, a 2D version (like an x-ray) and a 3D version (like the output of Digital Breast Tomosynthesis - DBT). The question that is being asked is whether it is better to ask about masses and calcs separately (first one, then the other) or to just let observers look for both at the same time.\n\nExtended protocol\n\nNOTE: This registration is linked to a Human Subjects registration in ASSIST. That, in turn, is part of an NCI Grant, CA207490. The grant describes many proposed experiments and notes that many others might be done as follow-up studies. At the suggestion of the NIH, the investigators grouped these studies into three \"studies\", each covering multiple experiments. The experiment described here is part of \"Study ID 386409 Projects 1,2,3: Experiments with Non experts\". It is not possible to register a set of experiments through the PRS system in CT.gov and it is not possible to file an annual report for the grant (RPPR) without an NCT number for projects that have started collecting participants. Accordingly, the investigators are describing one experiment here that would be part of the \"Project 2\" bundle of studies.\n\nThese experiments take what is known about \"hybrid search\" tasks from the lab and applies it to clinical mammography. Hybrid search tasks are tasks that involve looking for more than one type of target at the same time (e.g. search for this pillow and any animal in the scene in front of you).\n\nStandard 2D mammography and 3D DBT can be thought of as hybrid search tasks. That is, mammography can be thought of as a hybrid search for masses and calcifications. What is the optimal way to do this task? Should readers look for both types of targets at the same time or should they be asked to look for one target type and then the other. It is likely that the sequential approach improves accuracy but at some cost in time. The investigators will test that hypothesis of a \"speed/accuracy tradeoff\".\n\nThe investigators have developed a version of the 2D mammography task that can be run on non-experts. Breast parenchyma is simulated with 1/fk noise (k=1.8 - 2.8). Artificial masses and calcifications (calcs) can be added to this background. Masses are relatively low contrast blobs that are deemed to be \"bad\" if they have many irregular bumps and benign if they are smoother. Calcs are brighter, higher contrast, small spots. These are deemed to be benign unless they form a cluster of nearby spots in the image. The task is designed to be hard. The goal is performance producing a d' value in the range of 2.0 to 2.5. Bad and benign stimuli are selected from uniformly distributed stimuli sets. For masses, when the target is 'bad', bad mass is randomly selected from 5 levels of bumpiness. The same rule is applied for selecting benign stimuli from five less-bumpy levels. For calcifications, the number of pixels in a cluster is randomly selected between 4\\~12.\n\nThere are four conditions to be tested in the first experiment:\n\n1. Search for masses alone\n2. Search for calcs alone\n3. Search for both together\n4. Search for one after the other (mass -\\> calc) or (calc -\\> mass)\n\nIn addition, there are two different ways of presenting the four conditions. These could be considered to be two arms of the study. Either participants could see each condition in a block of 100 trials or the four conditions could be mixed into one set of 400 trials (with breaks every 100 trials to keep the pacing of the experiment consistent.\n\nIn the initial experiment, target prevalence will be 60%. In future experiments, lower prevalence will be tested. The measures of interest are accuracy and RT and the most interesting question is whether the sequential condition produces any benefits that might be worth the presumed cost in time.\n\nThe 3D version is like the 2D version except that a volume of 1/fk noise is created and masses and calcs are added so that they fade in and out of view as the observer scrolls through \"slices\" through the 3D volume. This simulates DBT."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Mammography",
+                "Breast Cancer",
+                "Radiology"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "One group of observers will get separate blocks of each of four conditions. The other group will see all conditions, intermixed.",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE",
+                    "maskingDescription": "Participants will not know the goals of the study but they will be fully informed about the conditions and asked to respond \"as quickly and accurately as possible\"."
+                }
+            },
+            "enrollmentInfo": {
+                "count": 70,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Blocked Trials",
+                    "type": "EXPERIMENTAL",
+                    "description": "There are four conditions in the experiment. Each condition will be presented in a separate block of 100 trials.",
+                    "interventionNames": [
+                        "Behavioral: Search only for masses",
+                        "Behavioral: Search only for calcifications",
+                        "Behavioral: Search for both together",
+                        "Behavioral: Search for one after the other"
+                    ]
+                },
+                {
+                    "label": "Mixed Trials",
+                    "type": "EXPERIMENTAL",
+                    "description": "There are four conditions in the experiment. All condition will be presented, randomly mixed in a single block of 400 trials (with breaks every 100 trials).",
+                    "interventionNames": [
+                        "Behavioral: Search only for masses",
+                        "Behavioral: Search only for calcifications",
+                        "Behavioral: Search for both together",
+                        "Behavioral: Search for one after the other"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Search only for masses",
+                    "description": "Participants search the simulated mammogram for simulated masses.",
+                    "armGroupLabels": [
+                        "Blocked Trials",
+                        "Mixed Trials"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Search only for calcifications",
+                    "description": "Participants search the simulated mammogram for simulated calcifications.",
+                    "armGroupLabels": [
+                        "Blocked Trials",
+                        "Mixed Trials"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Search for both together",
+                    "description": "Search the simulated mammogram for both simulated masses and simulated calcifications at the same time.",
+                    "armGroupLabels": [
+                        "Blocked Trials",
+                        "Mixed Trials"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Search for one after the other",
+                    "description": "Search the simulated mammogram for first for simulated masses and then for simulated calcifications sequentially (or vice versa).",
+                    "armGroupLabels": [
+                        "Blocked Trials",
+                        "Mixed Trials"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Time required to respond to a case",
+                    "description": "The measure of response time is an index of the difficulty of each case.",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                },
+                {
+                    "measure": "Rates of false positive and false negative errors",
+                    "description": "Cases are either positive or negative for simulated cancer. Responses are either correct or incorrect in identifying if the case is positive or negative. Hence each response is either a true or false positive and or a true or false negative response. The relative percentages of these errors provides a measure of accuracy.",
+                    "timeFrame": "through study completion, an average of 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age over 18 yrs\n* Pass Ishihara color vision test\n\nExclusion Criteria:\n\n* vision less than 20/25 with correction\n* history of neuromuscular or visual disorders",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jeremy M Wolfe, PhD",
+                    "role": "CONTACT",
+                    "phone": "617-851-1166",
+                    "email": "jwolfe@bwh.harvard.edu"
+                },
+                {
+                    "name": "Ava A Mitra, BA",
+                    "role": "CONTACT",
+                    "phone": "617-525-3681",
+                    "email": "amitra@bwh.harvard.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jeremy M Wolfe, PhD",
+                    "affiliation": "Brigham and Women's Hospital",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Brigham and Women's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ava A Mitra, BA",
+                            "role": "CONTACT",
+                            "phone": "617-525-3681",
+                            "email": "amitra@bwh.harvard.edu"
+                        },
+                        {
+                            "name": "Jeremy M Wolfe, PhD",
+                            "role": "CONTACT",
+                            "phone": "617-851-1166",
+                            "email": "jwolfe@bwh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified data are posted on the Open Science Framework",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "ICF"
+            ],
+            "timeFrame": "As soon as data collection and analysis is complete. Data will be available \"forever\"",
+            "accessCriteria": "Open"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5377",
+                    "name": "Calcinosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

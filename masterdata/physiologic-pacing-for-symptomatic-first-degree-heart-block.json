@@ -1,0 +1,309 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06245304",
+            "orgStudyIdInfo": {
+                "id": "RTN20230009"
+            },
+            "organization": {
+                "fullName": "Ascension Health",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Physiologic Pacing for Symptomatic First-Degree Heart Block",
+            "officialTitle": "Physiologic Pacing for Symptomatic First-Degree Heart Block",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "physiologic-pacing-for-symptomatic-first-degree-heart-block"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-10-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-01-14",
+            "studyFirstSubmitQcDate": "2024-01-29",
+            "studyFirstPostDateStruct": {
+                "date": "2024-02-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Daniel Kaiser",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Ascension Health"
+            },
+            "leadSponsor": {
+                "name": "Ascension Health",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Medtronic",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to determine if physiologic pacing will improve symptoms and outcomes in patients with symptomatic first-degree heart block (pr interval \u2265250ms).",
+            "detailedDescription": "The purpose of this study is to determine if physiologic pacing will improve symptoms and outcomes in patients with symptomatic first-degree heart block (pr interval \u2265250ms). Patient will undergo a comparative effectiveness study where patients with symptomatic first-degree heart block (pr interval \u2265250ms) undergo left bundle pacing (3830 lead) and are randomized to DDD-50 vs Managed Ventricular pacing-50 (MVP-50; AAI-DDD 50) and undergo a crossover at 3 months. This study will compare two standard of care options utilizing Food and Drug Administration (FDA) approved devices. Patients are evaluated at baseline, 3 months, and 6 months in terms of patient symptoms, exercise capacity, arrhythmia burden, and patient activity."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Symptomatic First-degree Heart Block"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 40,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "DDD-50 followed by AAI-DDD 50",
+                    "type": "OTHER",
+                    "description": "Patients will be programmed to DDD-50 first. After 3 months, patients will be programmed to AAI-DDD 50.",
+                    "interventionNames": [
+                        "Device: Dual chamber Medtronic pacemaker implantation.",
+                        "Other: DDD-50 pacing program",
+                        "Other: AAI-DDD 50 pacing program"
+                    ]
+                },
+                {
+                    "label": "AAI-DDD 50 followed by DDD-50",
+                    "type": "OTHER",
+                    "description": "Patients will be programmed to AAI-DDD-50 first. After 3 months, patients will be programmed to DDD 50.",
+                    "interventionNames": [
+                        "Device: Dual chamber Medtronic pacemaker implantation.",
+                        "Other: DDD-50 pacing program",
+                        "Other: AAI-DDD 50 pacing program"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Dual chamber Medtronic pacemaker implantation.",
+                    "description": "All patients will undergo a dual chamber Medtronic pacemaker implantation meeting approved indications for pacemaker implantation per Centers for Medicare \\& Medicaid Services (CMS) guidelines.\n\nPacemaker Model: Azure XT W1DR01. Right ventricular lead model: Medtronic 3830.",
+                    "armGroupLabels": [
+                        "AAI-DDD 50 followed by DDD-50",
+                        "DDD-50 followed by AAI-DDD 50"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "DDD-50 pacing program",
+                    "description": "This device programming attempts to increase the amount of ventricular pacing via the Medtronic 3830 lead. Since the enrolled patients have a prolonged PR interval, this programming attempts to synchronic atrial and ventricular contractions.",
+                    "armGroupLabels": [
+                        "AAI-DDD 50 followed by DDD-50",
+                        "DDD-50 followed by AAI-DDD 50"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "AAI-DDD 50 pacing program",
+                    "description": "This device programming attempts to encourage native conduction and minimize ventricular pacing via the Medtronic 3830 lead. This programming attempts to minimize ventricular pacing, which has been associated with worse outcomes by causing ventricular dyssynchrony between the left and right ventricles.",
+                    "armGroupLabels": [
+                        "AAI-DDD 50 followed by DDD-50",
+                        "DDD-50 followed by AAI-DDD 50"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Quality of Life per the Minnesota Living with Heart Failure Questionnaire (MLHFQ)",
+                    "description": "Determine if pacemaker programming influences quality of life based on Minnesota Living with Heart Failure Questionnaire (MLHFQ)",
+                    "timeFrame": "6 months after pacemaker implantation."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Exercise capacity",
+                    "description": "Determine if pacemaker programming influences exercise capacity (6 minute hall walk, Bruce protocol, or modified Bruce protocol).",
+                    "timeFrame": "6 months after pacemaker implantation."
+                },
+                {
+                    "measure": "Atrial fibrillation burden",
+                    "description": "Determine if pacemaker programming influences overall burden of atrial fibrillation.",
+                    "timeFrame": "6 months after pacemaker implantation."
+                },
+                {
+                    "measure": "Patient activity",
+                    "description": "Determine if pacemaker programming influences patient activity (as measured by device accelerometer).",
+                    "timeFrame": "6 months after pacemaker implantation."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Aged 18 or above\n* Ventricular Ejection Fraction (EF) \\> 50%\n* New York Heart Association (NYHA) class II-IV\n* PR interval \u2265250ms\n* Narrow QRS duration (\u2264140ms) or prolonged QRS duration with typical Right Bundle Branch Block (RBBB) morphology on 12 lead ECG and sinus rhythm\n\nExclusion Criteria:\n\n* Permanent atrial fibrillation (AF)\n* Patients who are unable to perform a 6 minute hall walk\n* Other serious medical condition with life expectancy of less than 1 year\n* Lack of capacity to consent\n* Pregnancy\n* Contraindication to use of the relevant study device or leads (as per current manuals from manufacturer)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Daniel Kaiser, MD",
+                    "role": "CONTACT",
+                    "phone": "6153295144",
+                    "email": "daniel.kaiser@ascension.org"
+                },
+                {
+                    "name": "Tonya Fambrough, RN",
+                    "role": "CONTACT",
+                    "phone": "6152223085",
+                    "email": "tonya.fambrough@ascension.org"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Ascension Saint Thomas Midtown",
+                    "status": "RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37203",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel Kaiser, MD",
+                            "role": "CONTACT",
+                            "phone": "615-329-5144",
+                            "email": "daniel.kaiser@ascension.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006327",
+                    "term": "Heart Block"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000075224",
+                    "term": "Cardiac Conduction System Disease"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9415",
+                    "name": "Heart Block",
+                    "asFound": "Heart Block",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1472",
+                    "name": "Cardiac Conduction System Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

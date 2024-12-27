@@ -1,0 +1,398 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04172766",
+            "orgStudyIdInfo": {
+                "id": "Pro00037864"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "HUM00167885",
+                    "type": "OTHER",
+                    "domain": "University of Michigan IRB"
+                }
+            ],
+            "organization": {
+                "fullName": "Apple Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Apple Hearing Study",
+            "officialTitle": "Apple Hearing Study Characterization of Headphone Audio Levels, and Optional Wristwatch-Based Environmental Sound Levels, With Variable User Interface",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "apple-hearing-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-11-14",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-11-13",
+            "studyFirstSubmitQcDate": "2019-11-19",
+            "studyFirstPostDateStruct": {
+                "date": "2019-11-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-02-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-02-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Richard Neitzel",
+                "investigatorTitle": "Associate Professor of Environmental Health Sciences and Associate Professor of Global Public Health",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "Apple Inc.",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "World Health Organization",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The Apple Hearing Study is a partnership between the University of Michigan and Apple to study sound exposure and its impact on hearing health. This groundbreaking study will advance the understanding of how hearing could be impacted over time by exposure to sound at certain levels. The investigators will measure headphone and environmental sound exposures over time among participants, and determine how these exposures impact hearing and stress levels. US residents who own an iPhone, download the Apple Research app and consent to participate will be randomly assigned to two groups, one with a \"Basic\" user interface in the Research app, and one with an \"Advanced\" user interface. Users in the \"Advanced\" group will receive additional information about their exposures and be given additional surveys and hearing tests based on their music and environmental sound exposures. The study will provide investigators with a better understanding of listening behavior and its overall impact on hearing health. This information will in turn help guide public health policy and prevention programs designed to protect and promote hearing health in the US and globally."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hearing Loss, Noise-Induced",
+                "Hearing Loss"
+            ],
+            "keywords": [
+                "Hearing Loss",
+                "Noise Exposure",
+                "Noise Induced Hearing Loss",
+                "Listening Volume",
+                "Environmental Noise",
+                "Music",
+                "Audiometry",
+                "Speech-in-Noise",
+                "Hearing Ability"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Following enrollment in the Apple Hearing Study, participants will be randomly assigned into one of two user groups (\"Basic\" or \"Advanced\").",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 150000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Basic",
+                    "type": "NO_INTERVENTION",
+                    "description": "Participants in the first (\"Basic\") group will have the iOS version 13.2 or later shipping user interface (UI) that provides ability to review exposure level data for headphone audio levels and environmental sound levels in the Health app."
+                },
+                {
+                    "label": "Advanced",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Participants in the second (\"Advanced\") group will have a UI that includes notifications prompting personal data pattern review in the Health app and then prompting to do an abbreviated Pure Tone Audiometry module completed 0-24 hours after loud headphone audio level exposure (equivalent continuous average noise level, or LEQ, to \\>97 A-weighted decibels, or dBA for \\>30 minutes) to evaluate for a temporary threshold shift from baseline.",
+                    "interventionNames": [
+                        "Behavioral: Advanced"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Advanced",
+                    "description": "\"Advanced\" group users will receive prompts when an acutely high headphone audio level exposure (LEQ equivalent to \\>97 dBA for \\>30 minutes) occurs. Those in the WatchOS arm will be prompted when their weekly environmental sound level (7-day LEQ equivalent to \\>80 dBA for \\>40 hrs) is high. Either prompt will occur via notification, and will request that the participant review exposure data in the Research app and answer questions related to their exposure. The survey will ask for confirmation that they reviewed the exposure data and perceive it as accuracy, whether or not they used any hearing protection (e.g., ear plugs worn at a rock concert), and any intended listening behavior change resulting from their data review. To minimize notification burden for participants, exposure notification events will occur no more than twice per month. At this same frequency, they will be asked to take an abbreviated audiogram to test for temporary threshold shifts in their hearing level.",
+                    "armGroupLabels": [
+                        "Advanced"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in headphone audio levels patterns over time",
+                    "description": "Difference in headphone audio level exposure (expressed as LEQ in dBA) patterns for participants with \"Basic\" and \"Advanced\" user interface on their primary mobile device",
+                    "timeFrame": "Daily, up to 730 days, each compared to baseline"
+                },
+                {
+                    "measure": "Association between quarterly hearing test results and headphone audio level patterns.",
+                    "description": "Association between serial mobile-app based hearing tests (Pure Tone Audiometry, with results expressed in decibels of hearing level, or dBHL, and Speech In Noise test, with results expressed as a speech recognition threshold) results and headphone audio level exposure patterns using multi-variate methods. Audiograms will be performed quarterly to assess change over time and related to the daily headphone audio level (expressed as LEQ, in dBA)",
+                    "timeFrame": "Through study completion, up to 730 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Acute change in hearing status after headphone audio exposure",
+                    "description": "Evaluation of potential temporary threshold shift (TTS) by prompted abbreviated Pure Tone Audiometry test in the \"Advanced\" user interface group completed 0-24 hours after loud headphone audio level exposure (LEQ equivalent to \\>97dBA for \\>30 minutes); TTS determined by comparing abbreviated Pure Tone Audiometry results to baseline Pure Tone Audiometry results.",
+                    "timeFrame": "0-24 hours after acute headphone exposure, up to twice monthly for up to 2 years"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Wristwatch-based environmental sound levels patterns",
+                    "description": "Difference in wristwatch-based environmental sound level patterns for participants with \"Basic\" and \"Advanced\" user interface on their primary mobile device. Environmental sound level exposures (LEQ, in dBA) will be collected daily. Compared between groups using bivariate and multi-variate methods.",
+                    "timeFrame": "daily up to 730 days"
+                },
+                {
+                    "measure": "Headphone audio level patterns compared to environmental sound level patterns",
+                    "description": "Association between headphone audio level patterns and wristwatch-based environmental sound level patterns. Environmental sound level and headphone audio level collected (expressed as LEQ in dBA) among those who opt into the wristwatch portion. Bivariate and multivariate associations will be tested.",
+                    "timeFrame": "daily, for up to 730 days"
+                },
+                {
+                    "measure": "Association between participants changes in hearing level thresholds related to baseline defined from mobile-app based hearing test results and their environmental sound level patterns",
+                    "description": "Association between changes relative to baseline in serial mobile-app based hearing tests (Pure Tone Audiometric test and Speech In Noise test) results and wristwatch-based environmental sound level patterns among those who opt into the wristwatch portion of the study",
+                    "timeFrame": "through study completion, up to 2 years"
+                },
+                {
+                    "measure": "Acute change in hearing status after environmental sound exposure",
+                    "description": "Evaluation of potential temporary threshold shift (TTS) by prompted abbreviated Pure Tone Audiometry test in the \"Advanced\" user interface group completed after loud headphone audio level exposure (LEQ equivalent to \\>97dBA for \\>30 minutes)",
+                    "timeFrame": "0-24 hours after acute headphone exposure, up to twice monthly for up to 2 years"
+                },
+                {
+                    "measure": "Association between heart rate patterns and headphone audio level",
+                    "description": "Heart rate patterns collected during exercise from those that opt into the wristwatch (using the Health app to record heart rate in beats per minute) portion of the study will be correlated with headphone audio levels. This will only be monitored during participants' self-identified exercise sessions. Heart rates (beats per minute) will be related to headphone audio level exposure during the same period.",
+                    "timeFrame": "daily when exercising, for up to 2 years"
+                },
+                {
+                    "measure": "Association between heart rate patterns and environmental sound level",
+                    "description": "Heart rate patterns collected during exercise from those that opt into the wristwatch (using the Health app to record heart rate in beats per minute) portion of the study will be correlated with environmental sound level. This will only be monitored during participants' self-identified exercise sessions. Heart rates (beats per minute) will be related to environmental sound level exposure during the same period.",
+                    "timeFrame": "daily when exercising, for up to 2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Possession of the following, ascertained from automatic hardware/software/device pairing check:\n\n  * iPhone with iOS version 13.2 or later used to complete screening eligibility.\n  * Optional: Apple Watch (any model) paired with iPhone; an Apple Watch Series 4 or later is required to share environmental sound levels.\n* Age \u2265 18 years at time of eligibility screening, ascertained from self-reported date of birth. Potential subjects in the states of Alabama and Nebraska must be 19 or older (legal age of consent in these states), and 21 and older for any subjects in Puerto Rico.\n* Live in the United States of America at time of eligibility screening, ascertained from self-report.\n* Proficient in written and spoken English, defined by self-report.\n\nExclusion Criteria:\n\n\u2022 No additional exclusion criteria",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Research Studies Support Center",
+                    "role": "CONTACT",
+                    "phone": "833-237-3881",
+                    "email": "applehearingstudy@umich.edu"
+                },
+                {
+                    "name": "UM Study Staff",
+                    "role": "CONTACT",
+                    "phone": "734-647-1904",
+                    "email": "applehearingstudy@umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Richard Neitzel, PhD, MS, CIH",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Michigan School of Public Health",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "UM Study Staff",
+                            "role": "CONTACT",
+                            "phone": "734-647-1904",
+                            "email": "applehearingstudy@umich.edu"
+                        },
+                        {
+                            "name": "Richard Neitzel, PhD, MS, CIH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Lauren M Smith, MS, MPH",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Glenn E Green, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "UM Study Website",
+                    "url": "https://sph.umich.edu/applehearingstudy/"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "N/A - no plan to share"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000034381",
+                    "term": "Hearing Loss"
+                },
+                {
+                    "id": "D000003638",
+                    "term": "Deafness"
+                },
+                {
+                    "id": "D000006317",
+                    "term": "Hearing Loss, Noise-Induced"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006311",
+                    "term": "Hearing Disorders"
+                },
+                {
+                    "id": "D000004427",
+                    "term": "Ear Diseases"
+                },
+                {
+                    "id": "D000010038",
+                    "term": "Otorhinolaryngologic Diseases"
+                },
+                {
+                    "id": "D000012678",
+                    "term": "Sensation Disorders"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000006319",
+                    "term": "Hearing Loss, Sensorineural"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M24420",
+                    "name": "Hearing Loss",
+                    "asFound": "Hearing Loss",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6840",
+                    "name": "Deafness",
+                    "asFound": "Hearing Loss",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9406",
+                    "name": "Hearing Loss, Noise-Induced",
+                    "asFound": "Hearing Loss, Noise-Induced",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9400",
+                    "name": "Hearing Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7601",
+                    "name": "Ear Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12961",
+                    "name": "Otorhinolaryngologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15490",
+                    "name": "Sensation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9407",
+                    "name": "Hearing Loss, Sensorineural",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

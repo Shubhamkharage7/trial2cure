@@ -1,0 +1,425 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04150783",
+            "orgStudyIdInfo": {
+                "id": "Pro00102005"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01DE028554",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01DE028554"
+                }
+            ],
+            "organization": {
+                "fullName": "Duke University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Computational Modeling of Cleft Lip Nasal Deformity and Assessment of Nasal Function and Treatment Outcomes",
+            "officialTitle": "Computational Modeling of the Mature Unilateral Cleft Lip Nasal Deformity for Objective Assessment of Patient Nasal Function and Treatment Outcomes",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "computational-modeling-of-cleft-lip-nasal-deformity-and-assessment-of-nasal-function-and-treatment-outcomes"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2019-11-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2019-10-24",
+            "studyFirstSubmitQcDate": "2019-10-31",
+            "studyFirstPostDateStruct": {
+                "date": "2019-11-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Duke University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Dental and Craniofacial Research (NIDCR)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to use computers to simulate airflow in 3D construction of your nasal cavity generated from cone beam CT images. The results from computer simulations will help researchers identify the severity of cleft-induced nasal dysfunction and assess the impact of current treatment in restoring breathing function. The ultimate goal is to improve post-surgery outcomes to restore nasal breathing function to normal levels."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cleft Lip and Nose",
+                "Nasal Obstruction"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 40,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Unilateral Cleft Lip Nasal Deformity (uCLND)",
+                    "description": "uCLND patients who are scheduled to undergo surgical treatment for nasal obstruction as standard of care.",
+                    "interventionNames": [
+                        "Procedure: Surgical repair for nasal obstruction"
+                    ]
+                },
+                {
+                    "label": "Healthy Subjects",
+                    "description": "Existing data from healthy subjects with no prior symptoms of nasal obstruction used to create normative ranges for comparison to uCLND cohort."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Surgical repair for nasal obstruction",
+                    "description": "Patient reported quality of life questionnaires",
+                    "armGroupLabels": [
+                        "Unilateral Cleft Lip Nasal Deformity (uCLND)"
+                    ],
+                    "otherNames": [
+                        "observational, patient reported outcome measures"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Validation of computational fluid dynamics simulation with breathing measurement",
+                    "description": "Percent agreement between computational fluid dynamics simulated nasal resistance and nasal resistance from rhinomanometry breathing measurement",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Validation of computational fluid dynamics simulation with in vitro experiment",
+                    "description": "Percent agreement between computational fluid dynamics simulated nasal resistance and nasal resistance measurement from in vitro experiment of 3D printed plastic nasal replica",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Effectiveness of current surgery in restoring nasal function based on volumetric airflow",
+                    "description": "Analysis of significant difference in volumetric airflow rate between pre-surgery and post-surgery data from computational fluid dynamics simulations of patient-specific 3D nasal models generated from cone-beam computed tomography images.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Effectiveness of current surgery in restoring nasal function based on nasal resistance",
+                    "description": "Analysis of significant difference in nasal resistance between pre-surgery and post-surgery data from computational fluid dynamics simulations of patient-specific 3D nasal models generated from cone-beam computed tomography images",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Effectiveness of current surgery in restoring nasal function based on nasal heat flux",
+                    "description": "Analysis of significant difference in nasal heat flux between pre-surgery and post-surgery data from computational fluid dynamics simulations of patient-specific 3D nasal models generated from cone-beam computed tomography images.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Effectiveness of current surgery in restoring nasal function based on nasal moisture flux",
+                    "description": "Analysis of significant difference in nasal moisture flux between pre-surgery and post-surgery data from computational fluid dynamics simulations of patient-specific 3D nasal models generated from cone-beam computed tomography images.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Anatomical sites of greatest nasal obstruction",
+                    "description": "Analysis on agreement of computational fluid dynamics identified anatomical sites of greatest nasal obstruction from pre-surgery 3D nasal models and actual surgical anatomical sites. CFD identified sites of greatest nasal obstruction are regions in the airway with highest nasal resistance.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Computational fluid dynamics based optimized treatment options for unilateral cleft lip nasal deformity patients based on volumetric airflow",
+                    "description": "Creation of virtual surgery nasal airway models based on computational fluid dynamics identified anatomical sites of greatest nasal obstruction. Computational fluid dynamics generated unilateral left and right side percent asymmetric will be computed used to identify the top three virtual surgery nasal airway models with best treatment potentials for unilateral cleft lip nasal deformity patients",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Computational fluid dynamics based optimized treatment options for unilateral cleft lip nasal deformity patients based on nasal resistance",
+                    "description": "Creation of virtual surgery nasal airway models based on computational fluid dynamics identified anatomical sites of greatest nasal obstruction. Computed nasal resistance will be used to identify the top three virtual surgery nasal airway models with best treatment potentials for unilateral cleft lip nasal deformity patients",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Computational fluid dynamics based optimized treatment options for unilateral cleft lip nasal deformity patients based on nasal heat flux",
+                    "description": "Creation of virtual surgery nasal airway models based on computational fluid dynamics identified anatomical sites of greatest nasal obstruction. Computed nasal moisture flux will be used to identify the top three virtual surgery nasal airway models with best treatment potentials for unilateral cleft lip nasal deformity patients",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in patient-reported outcome (PRO) measures",
+                    "description": "Change PRO measures as measured by NOSE questionnaire",
+                    "timeFrame": "baseline, 2 weeks, 8 weeks, 6 months, 12 months"
+                },
+                {
+                    "measure": "Change in patient-reported outcome (PRO) measures",
+                    "description": "Change PRO measures as measured by SCHNOS questionnaire",
+                    "timeFrame": "baseline, 2 weeks, 8 weeks, 6 months, 12 months"
+                },
+                {
+                    "measure": "Change in patient-reported outcome (PRO) measures",
+                    "description": "Change PRO measures as measured by CLEFT-Q questionnaire",
+                    "timeFrame": "baseline, 2 weeks, 8 weeks, 6 months, 12 months"
+                },
+                {
+                    "measure": "in vitro analysis for top three virtual surgery nasal models with best treatment based on nasal pressure",
+                    "description": "in vitro analysis from 3D printed plastic nasal replica of top three virtual surgery nasal models with best treatment potential will be done using unilateral airflow pressure.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "in vitro analysis for top three virtual surgery nasal models with best treatment based on unilateral volumetric airflow",
+                    "description": "in vitro analysis from 3D printed plastic nasal replica of top three virtual surgery nasal models with best treatment potential will be done using unilateral volumetric airflow rate.",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Provide signed and dated informed consent form.\n* Willing to comply with all study procedures and be available for the duration of the study.\n* Male or female, aged \u226518 years of age.\n* Clinical diagnosis of unilateral cleft lip nasal deformity (uCLND)\n* Scheduled to undergo elective surgery for nasal obstruction\n* Scheduled to have a Cone Beam Computed Tomography (CBCT) as part of the pre- operative work-up for elective surgery.\n\nExclusion Criteria:\n\n* Prior cleft rhinoplasty or septoplasty for correction of nasal obstruction\n* Pregnant women: A pregnancy test will be performed within 48 hours of baseline\n* Patients unable or unwilling to comply with study procedures outlined in protocol",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients with unilateral cleft lip nasal deformity scheduled to undergo elective surgery for nasal obstruction at the Duke Cleft and Craniofacial Center.\n\nExisting CBCT imaging data and QOL measures previously collected on healthy subjects will be used for comparison. Healthy subjects will not be prospectively enrolled in the study.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Amy Walker",
+                    "role": "CONTACT",
+                    "phone": "919-684-17325",
+                    "email": "amy.walker1@duke.edu"
+                },
+                {
+                    "name": "Victoria Johnson",
+                    "role": "CONTACT",
+                    "email": "victoria.a.johnson@duke.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Dennis Frank-Ito, PhD",
+                    "affiliation": "Duke University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Duke University Medical Center and affiliated practices",
+                    "status": "RECRUITING",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amy Walker",
+                            "role": "CONTACT",
+                            "phone": "919-684-1732",
+                            "email": "AMY.WALKER1@DUKE.EDU"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002971",
+                    "term": "Cleft Lip"
+                },
+                {
+                    "id": "D000015508",
+                    "term": "Nasal Obstruction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                },
+                {
+                    "id": "D000008047",
+                    "term": "Lip Diseases"
+                },
+                {
+                    "id": "D000009059",
+                    "term": "Mouth Diseases"
+                },
+                {
+                    "id": "D000009057",
+                    "term": "Stomatognathic Diseases"
+                },
+                {
+                    "id": "D000009056",
+                    "term": "Mouth Abnormalities"
+                },
+                {
+                    "id": "D000018640",
+                    "term": "Stomatognathic System Abnormalities"
+                },
+                {
+                    "id": "D000009668",
+                    "term": "Nose Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000000402",
+                    "term": "Airway Obstruction"
+                },
+                {
+                    "id": "D000012131",
+                    "term": "Respiratory Insufficiency"
+                },
+                {
+                    "id": "D000012120",
+                    "term": "Respiration Disorders"
+                },
+                {
+                    "id": "D000010038",
+                    "term": "Otorhinolaryngologic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6206",
+                    "name": "Cleft Lip",
+                    "asFound": "Cleft Lip",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18157",
+                    "name": "Nasal Obstruction",
+                    "asFound": "Nasal Obstruction",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12019",
+                    "name": "Mouth Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12017",
+                    "name": "Stomatognathic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12016",
+                    "name": "Mouth Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20727",
+                    "name": "Stomatognathic System Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12604",
+                    "name": "Nose Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3750",
+                    "name": "Airway Obstruction",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14968",
+                    "name": "Respiratory Insufficiency",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14957",
+                    "name": "Respiration Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12961",
+                    "name": "Otorhinolaryngologic Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC07",
+                    "name": "Mouth and Tooth Diseases"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

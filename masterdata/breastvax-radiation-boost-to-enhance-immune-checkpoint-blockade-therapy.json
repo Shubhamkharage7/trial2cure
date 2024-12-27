@@ -1,0 +1,373 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04454528",
+            "orgStudyIdInfo": {
+                "id": "UPCC 04119"
+            },
+            "organization": {
+                "fullName": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "BreastVAX: Radiation Boost to Enhance Immune Checkpoint Blockade Therapy",
+            "officialTitle": "Preoperative Use of Radiation Boost to Enhance Effectiveness of Immune Checkpoint Blockade Therapy in Operable Breast Cancer",
+            "acronym": "BreastVAX",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "breastvax-radiation-boost-to-enhance-immune-checkpoint-blockade-therapy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-12-07",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-06-22",
+            "studyFirstSubmitQcDate": "2020-06-29",
+            "studyFirstPostDateStruct": {
+                "date": "2020-07-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-19",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Julia Tchou",
+                "investigatorTitle": "Professor of Clinical Surgery",
+                "investigatorAffiliation": "Abramson Cancer Center at Penn Medicine"
+            },
+            "leadSponsor": {
+                "name": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The primary objective is to determine the feasibility of combining pembrolizumab with a single fraction radiation boost in patients with early/ operable breast cancer. The secondary objectives are to assess clinical response on pre- and post-treatment clinical, imaging, and histology exams, and to assess immune response on pre and post treatment blood and tissue samples by tracking change in Ki67 + CD8 T cells in peripheral blood and in extent of tumor infiltrating lymphocytes. A clinically significant partial response is defined as \\>30% tumor shrinkage post-clinical trial intervention.",
+            "detailedDescription": "The study has four arms. Arms 1 and 2 differ by the order of radiation boost and pembrolizumab administration. A minimum of 6 patients will be enrolled in the safety run-in portion of the study. The Phase 2 portion of the study will include Arm 3 (pembrolizumab only arm). An estimated 27 participants will be enrolled or until futility of Arm 3 is reached. Continuation of enrollment in Arms 1 or 2 will be contingent to funding availability. Arm 4 represents our control arm in which patients will follow usual care but will be consented for blood/tissue collection using a separate protocol (Penn IRB 801539)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Breast Cancer"
+            ],
+            "keywords": [
+                "Immune checkpoint blockade"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 27,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Arm 1",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Arm 1 will receive radiotherapy on day -14 and pembrolizumab on day -7. Subjects in all arms will undergo surgery on day 0 and follow the same postoperative blood sampling and safety schedule.",
+                    "interventionNames": [
+                        "Radiation: Hypofractionated radiotherapy",
+                        "Drug: Pembrolizumab infusion",
+                        "Procedure: Blood and tissue sampling"
+                    ]
+                },
+                {
+                    "label": "Arm 2",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Arm 2 will receive pembrolizumab on day -14 and radiotherapy on day -7. Subjects in all arms will undergo surgery on day 0 and follow the same postoperative blood sampling and safety schedule.",
+                    "interventionNames": [
+                        "Radiation: Hypofractionated radiotherapy",
+                        "Drug: Pembrolizumab infusion",
+                        "Procedure: Blood and tissue sampling"
+                    ]
+                },
+                {
+                    "label": "Arm 4 (Historical Controls)",
+                    "type": "OTHER",
+                    "description": "Arm 4 will not receive any study treatment. Subjects will undergo surgery on day 0 and follow a preoperative (Day 0) and postoperative blood (Day 30) and tissue (Day 0) sampling schedule.",
+                    "interventionNames": [
+                        "Procedure: Blood and tissue sampling"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "RADIATION",
+                    "name": "Hypofractionated radiotherapy",
+                    "description": "Radiation boost (RT) 7 Gy x 1 fraction on Day -14/Day -7 (arm 1) or Day -7/Day -14",
+                    "armGroupLabels": [
+                        "Arm 1",
+                        "Arm 2"
+                    ],
+                    "otherNames": [
+                        "Radiation therapy"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Pembrolizumab infusion",
+                    "description": "Pembrolizumab infusion flat dosing 200 mg delivered over 30 minutes.",
+                    "armGroupLabels": [
+                        "Arm 1",
+                        "Arm 2"
+                    ],
+                    "otherNames": [
+                        "Checkpoint blockade administration"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Blood and tissue sampling",
+                    "description": "Blood will be collected for laboratory studies and complete correlative studies to examine how the subject's immune system is responding to treatment. On day 0, samples of tumor and any lymph nodes removed from armpit will be analyzed by the UPenn Department of Pathology according to standard practice.",
+                    "armGroupLabels": [
+                        "Arm 1",
+                        "Arm 2",
+                        "Arm 4 (Historical Controls)"
+                    ],
+                    "otherNames": [
+                        "Correlative studies"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Feasibility of preoperative pembrolizumab administration combined with radiation boost in patients with operable breast cancer",
+                    "description": "Feasibility is defined as patient tolerability of the investigational treatment and no excessive delay in surgery in our participants. The interval to breast-conserving surgery and mastectomy was based on review of our records in patients undergoing breast cancer surgery in 2016. The average time to breast conservation surgery is 24.3 days (80% between 9 and 51 days) and for mastectomy with reconstruction 41.6 days (80% between 10 and 67 days).",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Assess clinical response of treatment",
+                    "description": "Evaluate clinical response using the following assessments:\n\n1. Clinical breast exam\n2. Breast ultrasonography (US) imaging (optional) for tumor dimension changes.\n3. Histology (pathology) exams. Pathologic response is assess histologically on post-treatment tumor tissues. A major pathologic response will be defined as \\<10% viable invasive tumor in treated. A clinically significant partial response is defined as \\>30% tumor shrinkage post-clinical trial intervention.",
+                    "timeFrame": "2 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Assess immune response on pre- and post-treatment blood and tissue samples",
+                    "description": "Assess immune response on pre- and post-treatment blood and tissue samples This study will track change in Ki67 + CD8 T cells in peripheral blood and in extent of tumor infiltrating lymphocytes (TIL).",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nMen and women age \u2265 18 years old (unless otherwise specified) Willing and able to provide written informed consent/assent ECOG Performance Status 0 - 1\n\nPatients with:\n\nNewly diagnosed breast cancer with tumor size \\< 5 cm who are not eligible for I-SPY2 (to prevent recruitment competition), or not recommended to undergo standard of care neoadjuvant chemotherapy with at least one of the following features:\n\n* Triple negative breast cancer (TNBC) defined using the ASCO CAP guidelines with the following modification supported by a recent publication as ER \u2264 10%, PR \u2264 10%, HER2- determined by immunohistochemistry and/or fluorescence in situ hybridization analyses and with tumor size \u2264 2.5 cm;\n* HR+ HER2- breast cancer regardless of nodal status and age of diagnosis \u2265 50\n* HR+ HER2- breast cancer and age of diagnosis \\<50 with tumor size \u2264 2.5 cm and clinically node (+)\n* HR+ or HR- and HER2+ breast cancer with tumor size \u2264 2.5 cm\n* Ductal carcinoma in situ (DCIS) with microinvasion\n\nOR\n\n* Locally recurrent breast cancer of any receptor subtype with no prior radiation, not recommended to receive neoadjuvant chemotherapy and expecting surgical excision as part of treatment.\n\nA female participant is eligible to participate if she is not pregnant, not breastfeeding, and at least one of the following conditions applies:\n\n1. Not a woman of childbearing potential (WOCBP) as defined in Appendix 2 of the study protocol OR\n2. A WOCBP who agrees to follow the contraceptive guidance in Appendix 2 during the treatment period and for at least 120 days for study treatments with risk of genotoxicity after the last dose of study treatment.\n\n   * Female participants of childbearing potential should be willing to use 2 methods of birth control or be surgically sterile, or abstain from heterosexual activity for the course of the study through 120 days after the last dose of study medication. Medically accepted methods of birth control include a diaphragm, cervical cap, latex condoms, surgical sterility, intrauterine devices (IUDs), hormonal implants, injectable contraceptives, or birth control pills. Participants of childbearing potential are those who have not been surgically sterilized or have not been free from menses for \\> 1 year.\n   * Ability to tolerate radiation therapy (e.g., lie flat and hold position)\n   * Demonstrate adequate hematologic, renal, hepatic, thyroid, and bone marrow function\n\nInclusion Criteria:\n\n* Men and women age \u2265 18 years old (unless otherwise specified)\n* Willing and able to provide written informed consent/assent\n* ECOG Performance Status 0 - 1\n* Patients with:\n\n  * Newly diagnosed breast cancer with tumor size \\< 5 cm who are not eligible for I-SPY2 (to prevent recruitment competition), or not recommended to undergo standard of care neoadjuvant chemotherapy with at least one of the following features:\n\n    * Triple negative breast cancer (TNBC) defined using the ASCO CAP guidelines with the following modification supported by a recent publication as ER \u2264 10%, PR \u2264 10%, HER2- determined by immunohistochemistry and/or fluorescence in situ hybridization analyses and with tumor size \u2264 2.5 cm;\n    * HR+ HER2- breast cancer regardless of nodal status and age of diagnosis \u2265 50\n    * HR+ HER2- breast cancer and age of diagnosis \\<50 with tumor size \u2264 2.5 cm and clinically node (+)\n    * HR+ or HR- and HER2+ breast cancer with tumor size \u2264 2.5 cm\n    * Ductal carcinoma in situ (DCIS) with microinvasion\n\nOR\n\n* Locally recurrent breast cancer of any receptor subtype with no prior radiation, not recommended to receive neoadjuvant chemotherapy and expecting surgical excision as part of treatment.\n\n  \u2022 A female participant is eligible to participate if she is not pregnant (see Appendix 2), not breastfeeding, and at least one of the following conditions applies:\n  1. Not a woman of childbearing potential (WOCBP) as defined in Appendix 2. OR\n  2. A WOCBP who agrees to follow the contraceptive guidance in Appendix 2 during the treatment period and for at least 120 days for study treatments with risk of genotoxicity after the last dose of study treatment.\n\n     \u2022 Female participants of childbearing potential should be willing to use 2 methods of birth control or be surgically sterile, or abstain from heterosexual activity for the course of the study through 120 days after the last dose of study medication. Medically accepted methods of birth control include a diaphragm, cervical cap, latex condoms, surgical sterility, intrauterine devices (IUDs), hormonal implants, injectable contraceptives, or birth control pills. Participants of childbearing potential are those who have not been surgically sterilized or have not been free from menses for \\> 1 year.\n     * Ability to tolerate radiation therapy (e.g., lie flat and hold position)\n     * Demonstrate adequate hematologic, renal, hepatic, thyroid, and bone marrow function\n\n     Exclusion criteria:\n\n     \u2022 A WOCBP who has a positive urine pregnancy test within 72 hours prior to allocation. If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.\n\n     \u2022 A history of prior radiotherapy to the ipsilateral breast/chest wall that precludes delivery of hypofractionated radiotherapy.\n\n     \u2022 Has received prior therapy with an anti-PD-1, anti-PD-L1, or anti PD L2 agent or with an agent directed to another stimulatory or co-inhibitory T-cell receptor (eg, CTLA-4, OX 40, CD137).\n\n     \u2022 Has received prior systemic anti-cancer therapy including investigational agents within 4 weeks\n\n     \u2022 Has not adequately recovered from major surgery or has ongoing surgical complications\n\n     \u2022 Has a known additional malignancy that is progressing or requires active treatment. Exceptions include basal cell carcinoma of the skin, squamous cell carcinoma of the skin, or in situ cervical cancer that has undergone potentially curative therapy.\n\n     \u2022 Has active autoimmune disease that has required systemic treatment in the past 2 years except replacement therapy (eg., thyroxine, insulin, or physiologic corticosteroid)\n\n     \u2022 Participants with vitiligo or resolved childhood asthma/atopy would be an exception to this rule. Participants that require intermittent use of bronchodilators or local steroid injections would not be excluded from the study. Participants with hypothyroidism stable on hormone replacement or Sjogren's syndrome will not be excluded from the study. Steroid prep due to dye allergies prior to staging scans or use in anti-emetic prophylaxis is allowed.\n\n     \u2022 Has a history of (non-infectious) pneumonitis/interstitial lung disease that required steroids or has current pneumonitis/interstitial lung disease.\n\n     \u2022 Has an active infection requiring systemic therapy.\n\n     \u2022 Has a history or current evidence of any condition, therapy, or laboratory abnormality that might confound the results of the trial, interfere with the participant's participation for the full duration of the trial, or is not in the best interest of the participant to participate, in the opinion of the treating investigator.\n\n     \u2022 Has known psychiatric or substance abuse disorders that would interfere with cooperation with the requirements of the trial.\n     * Is pregnant or breastfeeding or expecting to conceive or father children within the projected duration of the trial, starting with the pre-screening or screening visit through 120 days after the last dose of trial treatment.\n     * Has a known history of human immunodeficiency virus (HIV) (HIV 1/2 antibodies).\n     * Has a known history of Hepatitis B (defined as Hepatitis B surface antigen \\[HBsAg\\] reactive) or known active Hepatitis C virus (defined as HCV RNA \\[qualitative\\] is detected) infection.\n\n     Note: no testing for Hepatitis B and Hepatitis C is required unless mandated by local health authority.\n\n     \u2022 Has received a live vaccine or live-attenuated vaccine within 30 days before the first dose of study intervention. Administration of killed vaccines is allowed.\n\n     Note: please refer to Section 5.7 for information on COVID-19 vaccines \u2022 Has severe hypersensitivity (\u2265Grade 3) to pembrolizumab and/or any of its excipients.\n\n     \u2022 Has had an allogenic tissue/solid organ transplant.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Julia C Tchou, MD",
+                    "role": "CONTACT",
+                    "phone": "215-615-7575",
+                    "email": "Julia.tchou@pennmedicine.upenn.edu"
+                },
+                {
+                    "name": "Michelle Gelman",
+                    "role": "CONTACT",
+                    "phone": "215-882-2702",
+                    "email": "michelle_gelman@pennmedicine.upenn.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Julia C Tchou, MD",
+                    "affiliation": "University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Perelman Center for Advanced Medicine",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Julia Tchou, MD, PhD",
+                            "role": "CONTACT",
+                            "phone": "800-789-7366"
+                        },
+                        {
+                            "name": "Carolina Reyes, BS",
+                            "role": "CONTACT",
+                            "phone": "6093153901",
+                            "email": "Carolina.Reyes1@Pennmedicine.upenn.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000582435",
+                    "term": "Pembrolizumab"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000074322",
+                    "term": "Antineoplastic Agents, Immunological"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000082082",
+                    "term": "Immune Checkpoint Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M349416",
+                    "name": "Pembrolizumab",
+                    "asFound": "Mg/m2",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M1346",
+                    "name": "Antineoplastic Agents, Immunological",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2342",
+                    "name": "Immune Checkpoint Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

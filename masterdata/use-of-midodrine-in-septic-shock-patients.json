@@ -1,0 +1,403 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06319248",
+            "orgStudyIdInfo": {
+                "id": "24-000121"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Use of Midodrine in Septic Shock Patients",
+            "officialTitle": "Use of Midodrine in Septic Shock Patients: Phase II Randomized Clinical Meta-trial",
+            "therapeuticArea": [
+                "Infectious Diseases",
+                "Other"
+            ],
+            "study": "use-of-midodrine-in-septic-shock-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-05-14",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2029-05-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2029-07-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-13",
+            "studyFirstSubmitQcDate": "2024-03-13",
+            "studyFirstPostDateStruct": {
+                "date": "2024-03-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-30",
+                "type": "ESTIMATED"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Amos Lal",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is being done to determine if early administration of Midodrine can improve outcomes by maintaining a higher mean blood pressure off of intravenous medications. Researchers want to see if Midodrine can help people with sepsis need fewer vasopressors, which could mean shorter hospital stays, less time with uncomfortable tubes, and a smoother recovery overall."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sepsis",
+                "Low Blood Pressure"
+            ],
+            "keywords": [
+                "Vasopressors"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2",
+                "PHASE3"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 270,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Standard of Care Group with Placebo",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "Subjects will receive standard of care for sepsis and three doses of placebo every 8 hours .",
+                    "interventionNames": [
+                        "Drug: Placebo"
+                    ]
+                },
+                {
+                    "label": "Standard of Care with Midodrine Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "Subjects will receive standard of care for sepsis and three doses of midodrine every 8 hours.",
+                    "interventionNames": [
+                        "Drug: Midodrine"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Midodrine",
+                    "description": "10 mg every 8 hours administered orally or enterally (via nasogastric tube)",
+                    "armGroupLabels": [
+                        "Standard of Care with Midodrine Group"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Placebo",
+                    "description": "Looks and administered exactly like the study drug, but it contains no active ingredient",
+                    "armGroupLabels": [
+                        "Standard of Care Group with Placebo"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Time alive and without vasopressor support",
+                    "description": "Measured in hours",
+                    "timeFrame": "28 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Total vasopressor requirements",
+                    "description": "Measured as norepinephrine equivalents (\u00b5g)",
+                    "timeFrame": "28 days"
+                },
+                {
+                    "measure": "Central venous access duration",
+                    "description": "Measured in hours",
+                    "timeFrame": "28 days"
+                },
+                {
+                    "measure": "Cumulative fluid balance over the first 48 hours",
+                    "timeFrame": "48 hours"
+                },
+                {
+                    "measure": "Cumulative fluid balance up to 7 days of ICU stay",
+                    "timeFrame": "7 days"
+                },
+                {
+                    "measure": "ICU Length of Stay",
+                    "description": "Total number of days admitted to the Intensive Care Unit (ICU)",
+                    "timeFrame": "28 days"
+                },
+                {
+                    "measure": "Hospital Length of Stay",
+                    "description": "Total number of days admitted to the hospital",
+                    "timeFrame": "28 days"
+                },
+                {
+                    "measure": "ICU, hospital, and organ support-free days",
+                    "description": "Number of ICU, hospital, and organ support-free days",
+                    "timeFrame": "28 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion criteria:\n\nPatients diagnosed with sepsis within 24 hours of meeting all of the following criteria will be eligible to participate in the study:\n\n* Sepsis-3 criteria: acute hospital admission for suspected infection with new or worsening organ dysfunction measured by the increase in Sequential Organ failure Assessment (SOFA) score of 2 points or more.\n* IV vasopressor use or persistent hypotension (MAP \\< 65 mm Hg) after initial fluid resuscitation in the ED or ICU (30 mL/kg unless deemed excessive by the treating clinician).\n\nExclusion criteria:\n\n* High-dose vasopressors (norepinephrine equivalent \\> 0.3 \u00b5g/kg/min).\n* Inadequately controlled source of infection.\n* Cardiogenic or obstructive (massive pulmonary embolism) shock.\n* Clinical suspicion or confirmed diagnosis of bowel obstruction, bowel ischemia, or ileus.\n* Contraindication to enteral intake (ileus, vomiting, gastrointestinal bleeding, endoscopic procedures etc.).\n* Recent myocardial infarction (within the past 3 months).\n* Recent treatment for peripheral vascular disease (within the past 3 months).\n* Current use of monoamine oxidase inhibitors.\n* Recent stroke (within the past 3 months).\n* Prior use of midodrine as a home medication.\n* Known allergy to midodrine.\n* Comfort care measures.\n* Pregnancy.\n* Fludrocortisone acetate as a current home medication.\n* Bradycardia (heart rate \\< 50 beats/min).\n* Untreated pheochromocytoma.\n* Untreated thyrotoxicosis.\n* Open-angle glaucoma.\n* Treating emergency or critical care physician unwilling to enroll patient in trial.\n* Inability to give consent for participation and no representative or surrogate available to consent.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Amos Lal, MBBS",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic Minnesota",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Vikas Bansal, MBBS",
+                            "role": "CONTACT",
+                            "phone": "507-255-4280",
+                            "email": "Bansal.Vikas@mayo.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007022",
+                    "term": "Hypotension"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M15577",
+                    "name": "Shock",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15580",
+                    "name": "Shock, Septic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10072",
+                    "name": "Hypotension",
+                    "asFound": "Low Blood Pressure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008879",
+                    "term": "Midodrine"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000013566",
+                    "term": "Sympathomimetics"
+                },
+                {
+                    "id": "D000001337",
+                    "term": "Autonomic Agents"
+                },
+                {
+                    "id": "D000018373",
+                    "term": "Peripheral Nervous System Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000014662",
+                    "term": "Vasoconstrictor Agents"
+                },
+                {
+                    "id": "D000058646",
+                    "term": "Adrenergic alpha-1 Receptor Agonists"
+                },
+                {
+                    "id": "D000000316",
+                    "term": "Adrenergic alpha-Agonists"
+                },
+                {
+                    "id": "D000000322",
+                    "term": "Adrenergic Agonists"
+                },
+                {
+                    "id": "D000018663",
+                    "term": "Adrenergic Agents"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M17409",
+                    "name": "Vasoconstrictor Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11850",
+                    "name": "Midodrine",
+                    "asFound": "Deltoid muscle",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16345",
+                    "name": "Sympathomimetics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20746",
+                    "name": "Adrenergic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3668",
+                    "name": "Adrenergic alpha-Agonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3673",
+                    "name": "Adrenergic Agonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "VaCoAg",
+                    "name": "Vasoconstrictor Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

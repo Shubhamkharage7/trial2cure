@@ -1,0 +1,421 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06129760",
+            "orgStudyIdInfo": {
+                "id": "CASE4323"
+            },
+            "organization": {
+                "fullName": "Case Comprehensive Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Glioblastoma Remote Monitoring and Care - Research Protocol",
+            "officialTitle": "Glioblastoma Remote Monitoring and Care - Research Protocol",
+            "therapeuticArea": [
+                "Neurology",
+                "Other"
+            ],
+            "study": "glioblastoma-remote-monitoring-and-care-research-protocol"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-04-30",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-01-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-08",
+            "studyFirstSubmitQcDate": "2023-11-08",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Case Comprehensive Cancer Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this research is to learn more about how what the Apple watch measures, in terms of walking data, heart rate, breathing rate, and sleep habits, relates to how participants feel. During the course of the treatment, the symptoms participants experience change, and whether the Apple watch can detect these changes. Ultimately, this knowledge is being used to design proactive tools and signatures that can predict complications or symptom changes before they happen.",
+            "detailedDescription": "Glioblastoma is the most common primary malignant brain tumor in adults, with a near-universal rate of recurrence, and reports low median survivals of between 14 and 18 months, even with maximal therapy. Although participants have frequent clinical and imaging follow-ups to monitor their condition, complications are difficult to anticipate and may arise suddenly. For instance, participants with glioblastoma commonly demonstrate hypercoagulability, predisposing them to venous thromboembolism (VTE) with significant morbidity and mortality. VTE is a leading cause of death among cancer participants receiving outpatient chemotherapy, and timely detection and treatment can increase survival. Wearable sensors, in the form of direct-to-consumer devices, may allow for insights to allow for timely, proactive interventions. Nearly 20 percent of US residents own a smart wearable device such as the FitBit or Apple watch. Integration of wearable devices into clinical care has accelerated due to the COVID-19 pandemic's boost in the development of telehealth services. The increasing accessibility and affordability of wearable technology have also allowed for new possibilities to deliver remote and timely care to participants.\n\nThe sensors in consumer devices capture a wide range of information. Trans-dermal optical photoplethysmography provides cardiac and respiratory measurements using non-invasive blood flow data. Meanwhile, motion and spatial data are supplied by accelerometers and gyroscopes. This raw data can then be assembled to provide insight into biometric parameters ranging from step counts to higher level information (e.g. VO2 max and sleep duration). Prior work has already used this data at a higher level to link movement activity and vital signs to a patient's thrombosis risk but has not been done in the brain tumor population. This study will ask participants to wear an Apple watch and document any health events or symptoms. Patterns will be analyzed within the captured data that may be associated with symptoms. By annotating symptomatic episodes, study is aimed to generate contextualized wearable sensor datasets that do not currently exist for glioblastoma participants and develop digital biomarkers for certain symptoms. For instance, abnormal variations in heart rate or breathing rate will be observed preceding a seizure or other transient neurological symptoms. Wearable data uses the patient's baseline at the beginning of the study as a matched control. Traditional follow-up care and Karnofsky performance status (KPS) evaluation rely on snapshot measurements, patient interviews, and clinician impressions during a relatively brief clinic visit. Wearable sensors may provide higher resolution information to help determine KPS between visit assessment and interventions. Some studies have demonstrated the feasibility of using wearables for remote monitoring of KPS in advanced gastrointestinal and lung cancers, but have yet to include participants with glioblastoma. One feasibility study has explored wearables in determining sleep quality in glioblastoma participants. To understand the relationship between actigraphy data and clinical scores of well-being in participants with glioblastoma, investigators will examine the association between collected movement data and KPS. This is a feasibility study using the Apple Watch and an iOS application on the participant's iPhone to collect continuous actigraphy data and annotate symptom occurrence. Apple's open-source framework is being utilized to specifically design for medical research, ResearchKit, to build the app and securely collect data."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Glioblastoma",
+                "Venous Thromboembolism",
+                "Seizures"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "This is a single-arm, prospective, unblinded cohort study to establish feasibility that will provide the basis for larger prospective studies using wearables. The results from this study will be used to refine the actigraphy signatures and analysis pipelines to be used in future prospective studies that will proactively identify health changes in participants with glioblastoma.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Wearing the Apple watch and the associated logging of health data",
+                    "type": "EXPERIMENTAL",
+                    "description": "As part of the monitoring needed for this study, participants will be enrolled for at least 6 months, as this will give enough data to understand how the participant's health changes associate with what is measured by the Apple watch. After this 6 month period, participants may choose to end their participation on the study, or continue if they wish.",
+                    "interventionNames": [
+                        "Device: Apple Watch"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Apple Watch",
+                    "description": "The wearable sensor device is the Apple Watch Series 6 or newer",
+                    "armGroupLabels": [
+                        "Wearing the Apple watch and the associated logging of health data"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Success rate of 16-hour wear-time",
+                    "description": "The wear time will be defined by the \"wear detection\" onboard the Apple Watch. Median value per day will be used to avoid biasing this estimate toward outlier days. A 16-hr wear-time requirement will be considered feasible for studies of the GBM patient population if results show that there is a greater than 90% likelihood (within the 90% confidence interval) that a member of the population.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Symptom collection success rate",
+                    "description": "Symptom collection success in a specific patient will be defined as the patient reporting at least one symptom in \u2265 90% of their weeks (22 or more in 6 months) enrolled.",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* newly-diagnosed or recurrent glioblastoma undergoing treatment or active surveillance\n* at least 18 years of age at the time of study enrolment\n* Karnofsky Performance Status (KPS) \u2265 70% at time of study enrolment\n* able to comprehend informed consent form and provide informed consent\n* access to patient or caregiver's own Apple iPhone to interface with watch application for documentation of symptoms\n\nExclusion Criteria:\n\n* under 18 years of age at the time of study enrolment\n* inability to give informed consent due to aphasia or other language barrier\n* tattoos located on the skin of the wrist or forearm where the Apple Watch will be placed or other skin conditions preventing adequate sensor function\n* inability to tolerate Apple Watch for at least 12 hours per day on at least 50% of days in a four-week period\n* no access to patient or caregiver Apple iPhone to document symptoms",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Andrew Dhawan, MD, DPhil",
+                    "role": "CONTACT",
+                    "phone": "216-444-4272",
+                    "email": "dhawana@ccf.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Andrew Dhawan, MD, DPhil",
+                    "affiliation": "Brain Tumor Institute, Cleveland Clinic Foundation, Case Comprehensive Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Rowan Barker-Clarke, PhD",
+                    "affiliation": "Lerner Research Institute, Cleveland Clinic Foundation, Case Comprehensive Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Siamrut Patanavanich",
+                    "affiliation": "Cleveland Clinic Foundation, Case Comprehensive Cancer Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cleveland Clinic Taussig Cancer institute, Case Comprehensive Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrew Dhawan, MD, DPhil",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Study protocol, Statistical Analysis Plan, and Analysis Code will be shared",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Time frame will be at time of publication of primary endpoints or 2 years post-trial completion, whichever is sooner",
+            "accessCriteria": "Any qualified investigator by way of formal request to the corresponding PI of the study"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000005909",
+                    "term": "Glioblastoma"
+                },
+                {
+                    "id": "D000012640",
+                    "term": "Seizures"
+                },
+                {
+                    "id": "D000013923",
+                    "term": "Thromboembolism"
+                },
+                {
+                    "id": "D000054556",
+                    "term": "Venous Thromboembolism"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001254",
+                    "term": "Astrocytoma"
+                },
+                {
+                    "id": "D000005910",
+                    "term": "Glioma"
+                },
+                {
+                    "id": "D000018302",
+                    "term": "Neoplasms, Neuroepithelial"
+                },
+                {
+                    "id": "D000017599",
+                    "term": "Neuroectodermal Tumors"
+                },
+                {
+                    "id": "D000009373",
+                    "term": "Neoplasms, Germ Cell and Embryonal"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009380",
+                    "term": "Neoplasms, Nerve Tissue"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000016769",
+                    "term": "Embolism and Thrombosis"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9019",
+                    "name": "Glioblastoma",
+                    "asFound": "Glioblastoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16682",
+                    "name": "Thromboembolism",
+                    "asFound": "Thromboembolism",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27780",
+                    "name": "Venous Thromboembolism",
+                    "asFound": "Venous Thromboembolism",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15452",
+                    "name": "Seizures",
+                    "asFound": "Seizures",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4561",
+                    "name": "Astrocytoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9020",
+                    "name": "Glioma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20446",
+                    "name": "Neoplasms, Neuroepithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19845",
+                    "name": "Neuroectodermal Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20388",
+                    "name": "Neuroectodermal Tumors, Primitive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12318",
+                    "name": "Neoplasms, Germ Cell and Embryonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12325",
+                    "name": "Neoplasms, Nerve Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7784",
+                    "name": "Embolism",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16686",
+                    "name": "Thrombosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19128",
+                    "name": "Embolism and Thrombosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2518",
+                    "name": "Glioblastoma",
+                    "asFound": "Glioblastoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2519",
+                    "name": "Glioma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4092",
+                    "name": "Neuroepithelioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

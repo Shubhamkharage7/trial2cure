@@ -1,0 +1,359 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT01542879",
+            "orgStudyIdInfo": {
+                "id": "IRB-20221"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "IRB-20221",
+                    "type": "OTHER",
+                    "domain": "Stanford IRB"
+                },
+                {
+                    "id": "PEDSVAR0017",
+                    "type": "OTHER",
+                    "domain": "OnCore"
+                }
+            ],
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Development of Radiation Free Whole Body Magnetic Resonance (MR) Imaging Technique for Staging Children With Cancer",
+            "officialTitle": "Development of Radiation Free Whole Body MR Imaging Technique for Staging of Children With Cancer.",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "development-of-radiation-free-whole-body-magnetic-resonance-mr-imaging-technique-for-staging-children-with-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2012-02"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2012-02-24",
+            "studyFirstSubmitQcDate": "2012-03-01",
+            "studyFirstPostDateStruct": {
+                "date": "2012-03-02",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2023-04-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-04-04",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Heike E Daldrup-Link",
+                "investigatorTitle": "Associate Professor of Radiology",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Heike E Daldrup-Link",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "A research study on the diagnosis of spread of disease for children who have been diagnosed with solid tumors using a new whole body imaging technique and a new MR contrast agent (ferumoxytol). Standard tests that are used to determine the extent and possible spread of a child's disease include magnetic resonance (MR) imaging, computed tomography (CT), Positron Emission Tomography (PET) as well as bone scanning, and metaiodobenzylguanidine (MIBG) scanning. The purpose of this study is to determine if newer imaging tests referred to as whole body diffusion-weighted MR and whole body PET/MR can detect the extent and spread of the disease as accurately or even better as the standard tests (CT, MR and/or PET/CT). The advantage of the new imaging test is that it is associated with no or significantly reduced radiation exposure compared to standard CT and PET/CT imaging tests. The results of whole body MR and PET/MR will be compared with that of the conventional, standard imaging studies for tumor detecting.",
+            "detailedDescription": "Primary Objective: To compare the sensitivity, specificity and accuracy of WB-DW-MR scans (new technique) with 18F- FDG PET or 18F- FDG PET/CT or 18F- FDG PET/MR scans."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 75,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "WB-DW-MR scan",
+                    "type": "EXPERIMENTAL",
+                    "description": "simultaneous WB-DW-MR scan and 18-F FDG PET scan",
+                    "interventionNames": [
+                        "Procedure: WB-DW-MR scan",
+                        "Procedure: 18-F-FDG PET scan",
+                        "Drug: Ferumoxytol",
+                        "Procedure: 18-F-FDG PET/MR scan"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "WB-DW-MR scan",
+                    "description": "WB-DW-MR scans will be obtained on a 3T PET-MR system",
+                    "armGroupLabels": [
+                        "WB-DW-MR scan"
+                    ],
+                    "otherNames": [
+                        "Whole Body Diffusion Weighted MR scan"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "18-F-FDG PET scan",
+                    "armGroupLabels": [
+                        "WB-DW-MR scan"
+                    ],
+                    "otherNames": [
+                        "Fludeoxyglucose PET scan"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Ferumoxytol",
+                    "armGroupLabels": [
+                        "WB-DW-MR scan"
+                    ],
+                    "otherNames": [
+                        "feraheme"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "18-F-FDG PET/MR scan",
+                    "armGroupLabels": [
+                        "WB-DW-MR scan"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Comparison of sensitivity, specificity and accuracy of WB-DW-MR scans to 18-F FDG PET scans.",
+                    "timeFrame": "The outcome will be measured after image acquisition"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Comparison of sensitivity, specificity and accuracy of Ferumoxytol-enhanced whole-body 18-F FDG PET/MR-scans versus standard clinical Gadolinium-enhanced whole-body 18-F FDG PET/MR-scans.",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of a solid extra-cranial tumor like malignant lymphoma or malignant sarcoma and\n* Scheduled for or completed a 18F-FDG-PET or 18F-FDG-PET/CT tumor staging procedure.\n* There will be no restrictions on prior treatment.\n* Very young children who need sedation or anesthesia will be excluded from the study.\n* In this pediatric \\& adult study, the participant or parent/guardian is consented, and the patient when a minor is given an assent form and involved in the discussion as appropriate.\n\nExclusion Criteria:\n\n* MR-incompatible metal implants,\n* need of sedation or claustrophobia.\n* Hemosiderosis/hemochromatosis (patients can still be included in 2nd branch without ferumoxytol)\n* There will be restrictions regarding use of other Investigational Agents: Pt with iron-overload will not receive Ferumoxytol\n* History of allergic reactions to similar compounds will be obtained and patients with a positive history of allergic reaction to iron compounds or other severe allergic reactions.will be excluded from the study.\n* Pregnant women and fetuses.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "6 Years",
+            "maximumAge": "40 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Lucia Barrato",
+                    "role": "CONTACT",
+                    "phone": "415 307 1990",
+                    "email": "lbaratto@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Heike Daldrup-Link",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94305",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Lucia Barrato",
+                            "role": "CONTACT",
+                            "phone": "415-307-1990",
+                            "email": "lbaratto@stanford.edu"
+                        },
+                        {
+                            "name": "Heike Daldrup-Link, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Andrew Quon",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Neyssa Marina",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Florette Kimberley Hazard",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Dita Gratzinger",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Anne Muehe",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "34870211",
+                    "type": "DERIVED",
+                    "citation": "Theruvath AJ, Siedek F, Yerneni K, Muehe AM, Spunt SL, Pribnow A, Moseley M, Lu Y, Zhao Q, Gulaka P, Chaudhari A, Daldrup-Link HE. Validation of Deep Learning-based Augmentation for Reduced 18F-FDG Dose for PET/MRI in Children and Young Adults with Lymphoma. Radiol Artif Intell. 2021 Oct 6;3(6):e200232. doi: 10.1148/ryai.2021200232. eCollection 2021 Nov."
+                },
+                {
+                    "pmid": "32368961",
+                    "type": "DERIVED",
+                    "citation": "Theruvath AJ, Siedek F, Muehe AM, Garcia-Diaz J, Kirchner J, Martin O, Link MP, Spunt S, Pribnow A, Rosenberg J, Herrmann K, Gatidis S, Schafer JF, Moseley M, Umutlu L, Daldrup-Link HE. Therapy Response Assessment of Pediatric Tumors with Whole-Body Diffusion-weighted MRI and FDG PET/MRI. Radiology. 2020 Jul;296(1):143-151. doi: 10.1148/radiol.2020192508. Epub 2020 May 5."
+                },
+                {
+                    "pmid": "24559803",
+                    "type": "DERIVED",
+                    "citation": "Klenk C, Gawande R, Uslu L, Khurana A, Qiu D, Quon A, Donig J, Rosenberg J, Luna-Fineman S, Moseley M, Daldrup-Link HE. Ionising radiation-free whole-body MRI versus (18)F-fluorodeoxyglucose PET/CT scans for children and young adults with cancer: a prospective, non-randomised, single-centre study. Lancet Oncol. 2014 Mar;15(3):275-85. doi: 10.1016/S1470-2045(14)70021-X. Epub 2014 Feb 19."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000052203",
+                    "term": "Ferrosoferric Oxide"
+                },
+                {
+                    "id": "D000019788",
+                    "term": "Fluorodeoxyglucose F18"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000019275",
+                    "term": "Radiopharmaceuticals"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000006397",
+                    "term": "Hematinics"
+                },
+                {
+                    "id": "D000057947",
+                    "term": "Parenteral Nutrition Solutions"
+                },
+                {
+                    "id": "D000019999",
+                    "term": "Pharmaceutical Solutions"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M21686",
+                    "name": "Fluorodeoxyglucose F18",
+                    "asFound": "Implemented",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26996",
+                    "name": "Ferrosoferric Oxide",
+                    "asFound": "Hemodynamics",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21258",
+                    "name": "Radiopharmaceuticals",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9485",
+                    "name": "Hematinics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M28934",
+                    "name": "Parenteral Nutrition Solutions",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

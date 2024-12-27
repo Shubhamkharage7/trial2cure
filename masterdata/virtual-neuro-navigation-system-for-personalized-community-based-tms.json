@@ -1,0 +1,287 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04956081",
+            "orgStudyIdInfo": {
+                "id": "SMICU061621"
+            },
+            "organization": {
+                "fullName": "Soterix Medical",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Virtual Neuro-Navigation System for Personalized Community Based TMS",
+            "officialTitle": "Virtual Neuro-Navigation System for Personalized Community Based TMS",
+            "therapeuticArea": [
+                "Mental Health"
+            ],
+            "study": "virtual-neuro-navigation-system-for-personalized-community-based-tms"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-07-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-01-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-01-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-06-16",
+            "studyFirstSubmitQcDate": "2021-06-29",
+            "studyFirstPostDateStruct": {
+                "date": "2021-07-09",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-28",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-01",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Soterix Medical",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Columbia University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Phase I study of a virtual neuro-navigation package with built-in support for identifying specific \"surface-based\" targets to optimze TMS treatment.",
+            "detailedDescription": "Background: Personalized MR neuro-navigation-based targeting approaches have been developed that have the potential to greatly increase TMS efficacy. Nevertheless, these have yet to be incorporated into routine clinical practice because of issues related to 1) the feasibility of neuro-navigation when applied to routine clinical practice, and 2) lack of biomarker-based validation of the critical target across individuals. Recent research at CU has begun to address both feasibility and targeting issues. In the MR-guided neuro-navigation approach, either structural or functional brain scans are used to identify a specific region of interest and the neuro-navigation system is then used to position the TMS coil to target that specific region across individuals. While this approach can be applied within specialized treatment settings, use of these devices requires expertise in 3D brain reconstruction that the majority of TMS providers do not possess. At CU, an initiative is underway to develop a \"virtual neuro-navigation\" system in which MRI images of the head and brain are uploaded into a server and neuro-navigation is performed \"in silico\" rather than in person. Scalp coordinates are then relayed to the clinician.\n\nStudy: Under this phase I study, Soterix Medical would develop an initial version of the software (\"TMSMap\") and CU would perform feasibility testing on patients with treatment resistant depression"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Treatment Resistant Depression"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "interventionModelDescription": "Phase I open-label, 12 subjects",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 12,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "virtual neuro-navigation",
+                    "type": "EXPERIMENTAL",
+                    "description": "The specific area within the L-DLPFC will be identified by a software using MR images. TMS will be administered to the identified area.",
+                    "interventionNames": [
+                        "Device: Neuro-navigated Transcranial Magnetic Stimulation (TMS)"
+                    ]
+                },
+                {
+                    "label": "on-line neuro-navigation",
+                    "type": "EXPERIMENTAL",
+                    "description": "The specific area within the L-DLPFC will be identified by a person using MR images. TMS will be administered to the identified area.",
+                    "interventionNames": [
+                        "Device: Neuro-navigated Transcranial Magnetic Stimulation (TMS)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Neuro-navigated Transcranial Magnetic Stimulation (TMS)",
+                    "description": "TMS delivered to a target within the left- dorsolateral prefrontal cortex (L-DLPFC)",
+                    "armGroupLabels": [
+                        "on-line neuro-navigation",
+                        "virtual neuro-navigation"
+                    ],
+                    "otherNames": [
+                        "Transcranial Magnetic Stimulation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Montgomery-Asberg Depression Rating Scale (MADRS)",
+                    "description": "Depression severity scale where higher score indicates greater severity of symptoms",
+                    "timeFrame": "2 times per week from Baseline until Week 6"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Hamilton Depression Rating Scale Anxiety Somatization Subscale (HAMD-AS)33",
+                    "description": "six-item subscale of psychiatric disorder severity where higher score indicates greater severity of symptoms",
+                    "timeFrame": "Baseline and at Week 6"
+                },
+                {
+                    "measure": "Side-effect form (SEF)",
+                    "description": "clinician-rated simple form to document the onset, course, severity, and causality of adverse events",
+                    "timeFrame": "2 times per week from Baseline until Week 6"
+                },
+                {
+                    "measure": "Columbia suicide severity rating scale (C-SSRS)",
+                    "description": "FDA approved scale for assessment of suicidality",
+                    "timeFrame": "2 times per week from Baseline until Week 6"
+                },
+                {
+                    "measure": "Concomitant Medication List (CML)",
+                    "description": "This instrument will collect information on all concomitant medications",
+                    "timeFrame": "2 times per week from Baseline until Week 6"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* DSM-5 diagnosis of major depressive disorder confirmed using the Mini International Neuropsychiatric Interview (MINI30) Axis 1 and mood modules\n* Met criteria for treatment-resistant MDD during the current major depressive episode documented in the MGH Antidepressant Treatment History Questionnaire (ATRQ31), which will be defined as being non-responders (less than 50% of symptom improvement) to two or more depression treatment trials of adequate dose and duration as defined by the MGH ATRQ, as well as an adequate course of TMS treatment using standard targeting approaches (e.g. 5-cm, 5.5-cm, F3)\n* at least moderate depression severity, operationalized as Montgomery-Asberg Depression Rating Scale (MADRS) score \u2265 20\n\nExclusion Criteria:\n\n* Ever met criteria for a psychotic disorder (Sz, SzAff, Bipolar disorder), anorexia nervosa or bulimia nervosa within the last year\n* Unstable medical condition by history, physical exam or laboratory results\n* Currently pregnant or breastfeeding women; fecund women not using adequate contraceptive methods or with plan to become pregnant\n* Contraindications to MRI (based on metal screening form)\n* Meets criteria for claustrophobia\n* Recent drug or alcohol use disorder with DSM-5 specifier of moderate or severe within 6 months, or mild within 2 months; lifetime history of IV drug use\n* Actively suicidal, as defined by expressive ideation with a plan or with suicidal ideation that requires immediate medical or treatment intervention.\n* A neurological or neuromuscular disorder\n* Requires medications for a general medical condition that contraindicate the TMS treatment\n* Prior non-response to ECT, vagal nerve stimulation (VNS) or deep brain stimulation (DBS)\n* History of ketamine treatment within 6 mo\n* History of monoamine oxidase inhibitor (MAOI) within the past month\n* Lacks capacity to consent\n* Taking medications that increase the risk of seizures.\n* For patients on permitted concomitant psychotropic agents (antidepressants, anticonvulsants, benzodiazepines, hypnotics, opiates, triiodothyronine (T3), modafinil, psychostimulants, buspirone, melatonin, omega-3 fatty acids, folate, l-methylfolate, s-adenosyl methionine, lithium) dosing must be stable for at least four weeks prior to study entry and patients must agree to continue at the same dose during the study",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "60 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Rashel Mejia, BS",
+                    "role": "CONTACT",
+                    "phone": "18889908327",
+                    "email": "rmejia@soterixmedical.com"
+                },
+                {
+                    "name": "Dennis Truong, PhD",
+                    "role": "CONTACT",
+                    "phone": "18889908327",
+                    "email": "contact@soterixmedical.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Columbia Docs",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10019",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Rashel Mejia, BS",
+                            "role": "CONTACT",
+                            "phone": "888-990-8327",
+                            "email": "rmejia@soterixmedical.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000061218",
+                    "term": "Depressive Disorder, Treatment-Resistant"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003866",
+                    "term": "Depressive Disorder"
+                },
+                {
+                    "id": "D000019964",
+                    "term": "Mood Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7058",
+                    "name": "Depression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7061",
+                    "name": "Depressive Disorder",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29783",
+                    "name": "Depressive Disorder, Treatment-Resistant",
+                    "asFound": "Treatment Resistant Depression",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21835",
+                    "name": "Mood Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

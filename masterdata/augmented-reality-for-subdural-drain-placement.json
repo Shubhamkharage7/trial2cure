@@ -1,0 +1,352 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06052124",
+            "orgStudyIdInfo": {
+                "id": "70606"
+            },
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Augmented Reality for Subdural Drain Placement",
+            "officialTitle": "Merging Augmented Reality and Neuroimaging to Improve Patient Safety and Outcomes for Neurosurgical Procedures",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "augmented-reality-for-subdural-drain-placement"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-11",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-09-18",
+            "studyFirstSubmitQcDate": "2023-09-18",
+            "studyFirstPostDateStruct": {
+                "date": "2023-09-25",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-09-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Vivek P. Buch",
+                "investigatorTitle": "Assistant Clinical Professor of Neurosurgery",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study involves using a augmented reality (AR) system to assist in the placement of a subdural evacuating portal system (SEPS). In the first part of the study, all participants will have skin marking of an AR-guided and non-AR-guided site to determine feasibility and method accuracy. In the second part, subjects will be randomized to AR-guided and non-AR-guided SEPS placement to determine efficacy.",
+            "detailedDescription": "Chronic/subacute subdural hematoma (SDH) is one of the most common diseases encountered in neurosurgical practice. However, there is little consensus on first-line treatment. The SEPS was developed to implement a minimally invasive approach to drainage. New imaging technologies, such as augmented reality (AR) interfaces, can provide anatomical models and can help visualize hidden structures. The hope is that this study can give insight on whether AR-guidance can be used to improve SEPS placement, which can lead to higher volume drainage, greater symptomatic improvement, and decreased hospital stay."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Subdural Hematoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Pilot Usability (Part 1)",
+                    "type": "EXPERIMENTAL",
+                    "description": "Five patients will be enrolled to test whether the AR device functions appropriately, but no clinical decisions or changes to care will be determine by the AR device at this point.",
+                    "interventionNames": [
+                        "Device: Augmented Reality Device"
+                    ]
+                },
+                {
+                    "label": "AR Guided SEPS Placement (Part 2)",
+                    "type": "EXPERIMENTAL",
+                    "description": "AR guidance is used to place SEPS drain",
+                    "interventionNames": [
+                        "Device: Augmented Reality Device"
+                    ]
+                },
+                {
+                    "label": "Anatomical Guided SEPS Placement (Part 2)",
+                    "type": "NO_INTERVENTION",
+                    "description": "Standard of care, non AR guided SEPS drain placement"
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Augmented Reality Device",
+                    "description": "AR device will be used to determine where to place SEPS drain",
+                    "armGroupLabels": [
+                        "AR Guided SEPS Placement (Part 2)",
+                        "Pilot Usability (Part 1)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Mean accuracy (in mm) of SEPS placement",
+                    "description": "Comparison of measurements obtained by standard of care surface measurements and placement using AR guidance, and post placement CT scans.",
+                    "timeFrame": "Intra-procedural and up to 24 hours post procedure"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in size (mm) of subdural hematoma",
+                    "description": "Radiographic measure of thickest hematoma volume in sagittal and coronal planes after subdural evacuation compared to pre-procedure imaging, assessed in the randomized AR-guided and non-AR-guided arms only.",
+                    "timeFrame": "Pre-procedure and 24 hours after SEPS placement"
+                },
+                {
+                    "measure": "Change in symptom score",
+                    "description": "Composite measure, scaled from 0 (no symptoms) to 10 (severe symptoms), scored by clinician based overall impression of objective and subjective signs and symptoms including neurological strength exam, cognitive status, and patient self-reported symptomatic change, assessed in the randomized AR-guided and non-AR-guided arms only.",
+                    "timeFrame": "Assess at 24 hours status post SEPS placement and again at 1 month"
+                },
+                {
+                    "measure": "Length of hospital stay",
+                    "description": "Number of days since procedure between SEPS placement and discharge from inpatient stay, assessed in the randomized AR-guided and non-AR-guided arms only.",
+                    "timeFrame": "Approximately 2 to 5 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Unilateral or Bilateral subdural hematoma that is planned to be treated by SEPS\n\nExclusion Criteria\n\n* Unable to have CT scan\n* Pregnancy",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "90 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Vivek P Buch, MD",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University Hospital",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94305",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006408",
+                    "term": "Hematoma, Subdural"
+                },
+                {
+                    "id": "D000006406",
+                    "term": "Hematoma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006470",
+                    "term": "Hemorrhage"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000020198",
+                    "term": "Intracranial Hemorrhage, Traumatic"
+                },
+                {
+                    "id": "D000020300",
+                    "term": "Intracranial Hemorrhages"
+                },
+                {
+                    "id": "D000002561",
+                    "term": "Cerebrovascular Disorders"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000006259",
+                    "term": "Craniocerebral Trauma"
+                },
+                {
+                    "id": "D000020196",
+                    "term": "Trauma, Nervous System"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9495",
+                    "name": "Hematoma, Subdural",
+                    "asFound": "Subdural Hematoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9493",
+                    "name": "Hematoma",
+                    "asFound": "Hematoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9556",
+                    "name": "Hemorrhage",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22113",
+                    "name": "Intracranial Hemorrhages",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22025",
+                    "name": "Intracranial Hemorrhage, Traumatic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5810",
+                    "name": "Cerebrovascular Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9349",
+                    "name": "Craniocerebral Trauma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22023",
+                    "name": "Trauma, Nervous System",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

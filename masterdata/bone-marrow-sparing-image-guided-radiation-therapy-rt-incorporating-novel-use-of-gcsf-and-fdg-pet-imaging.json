@@ -1,0 +1,412 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04514692",
+            "orgStudyIdInfo": {
+                "id": "IRB-56842"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "GYN0007",
+                    "type": "OTHER",
+                    "domain": "OnCore"
+                }
+            ],
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Bone Marrow Sparing Image-Guided Radiation Therapy (RT) Incorporating Novel Use of GCSF and FDG-PET Imaging",
+            "officialTitle": "Phase 1 2 Study of Individualized Bone Marrow Sparing Image Guided Radiotherapy Incorporating Novel Use of Granulocyte Colony Stimulating Factor and FDG PET Imaging",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "bone-marrow-sparing-image-guided-radiation-therapy-rt-incorporating-novel-use-of-gcsf-and-fdg-pet-imaging"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-02-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-05-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-08-12",
+            "studyFirstSubmitQcDate": "2020-08-12",
+            "studyFirstPostDateStruct": {
+                "date": "2020-08-17",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-03-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-03-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a research study using Granulocyte Colony Stimulating Factor (GCSF) as a bone marrow stimulating agent for imaging to guide radiation treatment planning. G-CSF is a type of growth factor. Growth factors are proteins made in the body. G-CSF is a type of growth factor that makes the bone marrow produce white blood cells to reduce the risk of infection after some types of cancer treatment.",
+            "detailedDescription": "This is a phase 1 and 2 study. The phase I is a dose finding portion of the study and phase 2 will enroll additional patients at the dose found in phase I. Patients in phase I and phase 2 will have the same treatment and followup.\n\nParticipants will undergo standard of care diagnostic imaging, complete blood count (CBC) with differential and chemistry labs initially. While receiving the GCSF, participants will have a CBC with differential checked a day after each dose and one day prior to first day of radiation. The treatment planning FDG PET/CT will be performed shortly after the GCSF. During chemoradiation, participants will have weekly CBC with differential checked and other labs as standard of care."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cervix Cancer",
+                "Endometrial Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 29,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Phase I -Dose finding, Cohort 1",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dosing will occur in cohorts of 4 patients with the start at dose of GCSF will be 780 mcg x 3 days",
+                    "interventionNames": [
+                        "Diagnostic Test: FDG PET/CT",
+                        "Drug: GCSF"
+                    ]
+                },
+                {
+                    "label": "Phase I -Dose finding, Cohort 2",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dosing will occur in cohorts of 4 patients, If 4 out of 4 patients achieve the target SUVmean, the GCSF dose will be 780 mcg x 2 days",
+                    "interventionNames": [
+                        "Diagnostic Test: FDG PET/CT",
+                        "Drug: GCSF"
+                    ]
+                },
+                {
+                    "label": "Phase I -Dose finding, Cohort 3",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dosing will occur in cohorts of 4 patients, If 4 out of 4 patients achieve the target SUVmean, the GCSF dose will be 780 mcg x 1 day",
+                    "interventionNames": [
+                        "Diagnostic Test: FDG PET/CT",
+                        "Drug: GCSF"
+                    ]
+                },
+                {
+                    "label": "Phase II-G-CSF",
+                    "type": "EXPERIMENTAL",
+                    "description": "Phase 2 participants will be treated with the optimal dose of GCSF found in the phase 1 portion of the study.",
+                    "interventionNames": [
+                        "Diagnostic Test: FDG PET/CT",
+                        "Drug: GCSF"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "FDG PET/CT",
+                    "description": "Fluorodeoxyglucose (FDG)-positron emission tomography (PET) and computed tomography (CT)",
+                    "armGroupLabels": [
+                        "Phase I -Dose finding, Cohort 1",
+                        "Phase I -Dose finding, Cohort 2",
+                        "Phase I -Dose finding, Cohort 3",
+                        "Phase II-G-CSF"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "GCSF",
+                    "description": "Granulocyte Colony Stimulating Factor (GCSF)",
+                    "armGroupLabels": [
+                        "Phase I -Dose finding, Cohort 1",
+                        "Phase I -Dose finding, Cohort 2",
+                        "Phase I -Dose finding, Cohort 3",
+                        "Phase II-G-CSF"
+                    ],
+                    "otherNames": [
+                        "Filgrastim",
+                        "Neupogen",
+                        "Zarxio",
+                        "G-CSF"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Determine the Recommended phase 2 dose (RP2D)",
+                    "description": "Recommended phase 2 dose (RP2D) will be defined as the dose at which the standard uptake value (SUV) on D5 FDG PET reaches target SUVmean of 2.5 or higher with normalization of white blood cells (WBC) and ANC prior to start of radiation.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Determine the rate of grade 3 or greater neutropenia (ANC < 1000/mm3 at any point of therapy)",
+                    "description": "Rate of grade 3 or greater neutropenia (ANC \\< 1000/mm3 at any point of therapy) will be monitored by the regular CBC with differential on the study schema and calendar, as per standard of care for patients receiving chemoradiation and/or chemotherapy.",
+                    "timeFrame": "33 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 2018 international Federation of Gynecology and Obstetrics (FIGO) stage I IIIC1 cervix cancer with no prior treatment or stage IIIA IIIC1 endometrial cancer status post hysterectomy and lymph node assessment\n* No required para aortic or extended field radiation\n* Eastern Cooperative Oncology Group (ECOG) performance status 0 2\n* Adequate kidney function (serum Cr \\<1.5 or creatinine clearance \\>50 mg/dl)\n* Adequate bone marrow function (white blood cells \\> 3.0 X 109/L, platelets \\>100 x 109/L)\n* Ability to understand and the willingness to sign a written informed consent document.\n\nExclusion Criteria:\n\n* Treatment for other cancer in the past 2 years\n* Previous pelvic radiation\n* Medical condition that prevents receiving chemotherapy",
+            "healthyVolunteers": false,
+            "sex": "FEMALE",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Camellia Djebroun",
+                    "role": "CONTACT",
+                    "phone": "650-721-4076",
+                    "email": "cdjebrou@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Elizabeth A Kidd",
+                    "affiliation": "Stanford Universiy",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford Cancer Institute Palo Alto",
+                    "status": "RECRUITING",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94034",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Camellia Djebroun",
+                            "role": "CONTACT",
+                            "phone": "650-721-4076",
+                            "email": "cdjebrou@stanford.edu"
+                        },
+                        {
+                            "name": "Elizabeth A Kidd",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000016889",
+                    "term": "Endometrial Neoplasms"
+                },
+                {
+                    "id": "D000002583",
+                    "term": "Uterine Cervical Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014594",
+                    "term": "Uterine Neoplasms"
+                },
+                {
+                    "id": "D000005833",
+                    "term": "Genital Neoplasms, Female"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000014591",
+                    "term": "Uterine Diseases"
+                },
+                {
+                    "id": "D000005831",
+                    "term": "Genital Diseases, Female"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000002577",
+                    "term": "Uterine Cervical Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M19235",
+                    "name": "Endometrial Neoplasms",
+                    "asFound": "Endometrial Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5830",
+                    "name": "Uterine Cervical Neoplasms",
+                    "asFound": "Cervix Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17342",
+                    "name": "Uterine Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8945",
+                    "name": "Genital Neoplasms, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17339",
+                    "name": "Uterine Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8943",
+                    "name": "Genital Diseases, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5825",
+                    "name": "Uterine Cervical Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M1945",
+                    "name": "Lenograstim",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21686",
+                    "name": "Fluorodeoxyglucose F18",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

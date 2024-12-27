@@ -1,0 +1,407 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04825067",
+            "orgStudyIdInfo": {
+                "id": "2021P000895"
+            },
+            "organization": {
+                "fullName": "Institute of Bioengineering and Bioimaging (IBB)",
+                "class": "OTHER_GOV"
+            },
+            "briefTitle": "Remote Monitoring of High-Risk Patients With Chronic Cardiopulmonary Diseases",
+            "officialTitle": "Remote Monitoring of High-Risk Patients With Chronic Cardiopulmonary Diseases",
+            "therapeuticArea": [
+                "Respiratory",
+                "Cardiovascular",
+                "Other"
+            ],
+            "study": "remote-monitoring-of-high-risk-patients-with-chronic-cardiopulmonary-diseases"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-04-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2022-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2022-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-03-25",
+            "studyFirstSubmitQcDate": "2021-03-29",
+            "studyFirstPostDateStruct": {
+                "date": "2021-04-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-09-27",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-09-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Institute of Bioengineering and Bioimaging (IBB)",
+                "class": "OTHER_GOV"
+            },
+            "collaborators": [
+                {
+                    "name": "Massachusetts General Hospital",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "In this project, Institute of Bioengineering \\& Bioimaging (IBB), A\\*STAR would like to collaborate with Massachusetts General Hospital to aggregate patient data and to further develop its software algorithm using machine learning and statistical models for predicting exacerbations and deterioration on 60 patients with cardiopulmonary diseases.",
+            "detailedDescription": "Exacerbations of chronic cardiopulmonary diseases are a major cause of morbidity and mortality worldwide. There are an estimated 23 million patients with heart failure worldwide, and the prevalence of heart failure in the United Sates is projected to rise over the next four decades with an estimated 772,000 new heart failure cases projected in the year 2040. Exacerbations of chronic respiratory disease can accelerate lung function decline and reduce survival. They may also lead to significant rise to the cost of healthcare. Chronic Obstructive Pulmonary Disease (COPD) exacerbations are an important cause of readmissions with a 30-day readmission rate of approximately 20% and subsequent expenditure of US $15 Billion in annual health care spending. Cystic fibrosis (CF), a genetic disorder that affects airways clearance and secretions, has a 30-day readmission rate of approximately 11%.\n\nDue to the high cost of hospital stays and emergency department visits, and especially in the setting of the COVID-19 pandemic, more cost-effective \"out-of-hospital\" management models have become increasingly appealing. Such models not only provide cost benefits to patients, payers, and hospitals, but also increase the ability to provide care to people at home.\n\nRespiratory variables have shown to be one of the most sensitive indicators for COPD exacerbation, and a significant correlation between respiratory rate and COPD symptoms has been observed. When combined with pulse rate and oxygen saturation, these variables provide a useful method of identifying exacerbations. Current analytical models are designed to trigger alarms, which are generally based on traditional threshold-type driven analytics. Such methods are not able to identify and recognize trends due to limited access to advanced analytics (e.g., machine learning methods). The device proposed for use in this study will measure respiratory rate, Inspiratory: Expiratory (I:E) ratio, respiratory depth, heart rate, SpO2, SpO2 variability, patient movement, and the investigators will use machine learning and data modeling to analyze their trends over time.\n\nThe wearable biometric platform (termed 'Respiratory Sensor') developed by Institute of Bioengineering \\& Bioimaging (IBB), A\\*STAR is to be worn on the chest area via a medical grade adhesive patch. The Respiratory Sensor includes a non-invasive sensor combining an accelerometer and light-based methods to sense chest wall expansion or breathing.\n\nThe Respiratory Sensor allows the possibility of collecting additional respiratory information (respiratory rate, relative tidal depth and duty cycle) as predictors for exacerbation of chronic cardiopulmonary diseases and perhaps improving advanced analytical models that can provide better sensitivity and specificity compared to traditional models (e.g. clinical diaries). Ultimately, this may allow early prediction of outpatient exacerbations to allow early intervention and reduced re-admissions (via remote interventions).\n\nIn this project, Institute of Bioengineering \\& Bioimaging (IBB), A\\*STAR would like to collaborate with Massachusetts General Hospital to aggregate patient data and to further develop its software algorithm using machine learning (e.g. random forest models and long-short term memory models etc.) and statistical models (e.g. regression models and survival analysis with univariate and multivariate analysis) based on respiratory features and hemodynamics for predicting exacerbations and deterioration on 60 patients with cardiopulmonary diseases. The end-points of this collaboration includes the following:\n\n1. To validate hypothesis of using respiratory-based biomarkers in models (disease agnostic and disease specific) to predict exacerbations - benchmarking to be done versus follow-up questionnaires and phone calls\n2. To validate level of compliance, drop-out rate and if additional measures are required to get patients to follow-on"
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Congestive Heart Failure",
+                "Asthma",
+                "Chronic Obstructive Pulmonary Disease",
+                "Cystic Fibrosis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Respiratory Sensor measurements",
+                    "type": "EXPERIMENTAL",
+                    "description": "The participant will receive 2 Respiratory Sensors and 1 gateway with wireless compatibility and a welcome packet with instructions for use, a reminder description of the study purpose and procedures, and research staff contact information. Research staff will contact participants to ensure appropriate setup of the Respiratory Sensor and training on proper use. Research staff will ask the subject to place the Respiratory Sensor on the top left-side of the chest. The Respiratory Sensor continuously collects and monitors respiratory data. The participant will be instructed to change each Respiratory Sensor after 24-48 hours. Subjects will be asked to charge each Respiratory Sensor once it is removed. Subjects will exit the study upon completion of the 90-day follow-up.",
+                    "interventionNames": [
+                        "Device: Respiratory Sensor measurements"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Respiratory Sensor measurements",
+                    "description": "The participant will receive 2 Respiratory Sensors and 1 gateway with wireless compatibility and a welcome packet with instructions for use, a reminder description of the study purpose and procedures, and research staff contact information. Research staff will contact participants to ensure appropriate setup of the Respiratory Sensor and training on proper use. Research staff will ask the subject to place the Respiratory Sensor on the top left-side of the chest. The Respiratory Sensor continuously collects and monitors respiratory data. The participant will be instructed to change each Respiratory Sensor after 24-48 hours. Subjects will be asked to charge each Respiratory Sensor once it is removed. Subjects will exit the study upon completion of the 90-day follow-up.",
+                    "armGroupLabels": [
+                        "Respiratory Sensor measurements"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Respiratory rate (no. of breaths per minute)",
+                    "description": "Respiratory rate will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Depth of breathing",
+                    "description": "Depth of breathing will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Inhalation/exhalation times",
+                    "description": "Inhalation/exhalation times will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Heart rate",
+                    "description": "Heart rate will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Tissue oxygen saturation",
+                    "description": "Tissue oxygen saturation will be one of the variables used in multivariable logistic regression and other models for prediction of acute exacerbations of chronic cardiopulmonary disorders.",
+                    "timeFrame": "90 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Subject age 18 or older\n2. Receives all primary and specialty care within the MassGeneral Brigham system\n3. A history of one of the following diagnoses:\n\n   1. Asthma\n   2. Cystic Fibrosis\n   3. Chronic obstructive pulmonary disease\n   4. Congestive heart failure\n4. At least four documented exacerbations of the above disease in the past 12 months as defined by the following corresponding criteria:\n\n   a. Asthma exacerbation: i. a minimum 3-day course of oral steroids ii. for patients on chronic steroids, an increased dose of steroids.\n\n   b. Cystic fibrosis exacerbation: a minimum 7-day course of systemic antibiotics (not including any chronic suppressive antibiotics).\n\n   c. Chronic obstructive pulmonary disease exacerbation: all three of (1) increase in frequency and severity or severity of cough, (2) increase in volume and/or change of character of sputum production, and (3) increase in dyspnea, and requiring treatment with short-acting bronchodilators, antibiotics, and oral or intravenous glucocorticoids.\n\n   d. Congestive heart failure exacerbation: volume overload (as evidenced by weight gain or elevated BNP \\[\\>100 pg/mL\\]/NT-proBNP \\[\\>300 pg/mL)) plus dyspnea plus diuretic treatment (new or increase from baseline).\n5. Subject able to provide informed consent.\n\nExclusion Criteria:\n\n1. Subjects with a history of adhesive or tape allergy or skin reaction.\n2. Subjects with pacemaker, Automatic Implantable Cardioverter Defibrillator (AICD) and other implantable electronic devices.\n3. Subjects with neuromuscular disease, seizures and/or Parkinson's disease.\n4. Subjects with expected out of state travel within a 90-day period or travel to a location with no internet access.\n5. Subjects enrolled in hospice care or life expectancy less than three months.\n6. Subjects living more than 60 miles away from Massachusetts General Hospital. -",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Gurpreet Singh",
+                    "role": "CONTACT",
+                    "phone": "+65 68247027",
+                    "email": "Gurpreet_Singh@ibb.a-star.edu.sg"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Integrated Care Management Program",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02114",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Peter Moschovis",
+                            "role": "CONTACT",
+                            "phone": "617-726-2000",
+                            "email": "pmoschovis@mgh.harvard.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003550",
+                    "term": "Cystic Fibrosis"
+                },
+                {
+                    "id": "D000008173",
+                    "term": "Lung Diseases, Obstructive"
+                },
+                {
+                    "id": "D000029424",
+                    "term": "Pulmonary Disease, Chronic Obstructive"
+                },
+                {
+                    "id": "D000006333",
+                    "term": "Heart Failure"
+                },
+                {
+                    "id": "D000011660",
+                    "term": "Pulmonary Heart Disease"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000002908",
+                    "term": "Chronic Disease"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010182",
+                    "term": "Pancreatic Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                },
+                {
+                    "id": "D000007232",
+                    "term": "Infant, Newborn, Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "asFound": "Congestive Heart Failure",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6755",
+                    "name": "Cystic Fibrosis",
+                    "asFound": "Cystic Fibrosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4556",
+                    "name": "Asthma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8485",
+                    "name": "Fibrosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11170",
+                    "name": "Lung Diseases, Obstructive",
+                    "asFound": "Obstructive Pulmonary Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M23449",
+                    "name": "Pulmonary Disease, Chronic Obstructive",
+                    "asFound": "Chronic Obstructive Pulmonary Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14514",
+                    "name": "Pulmonary Heart Disease",
+                    "asFound": "Cardiopulmonary Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6147",
+                    "name": "Chronic Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13102",
+                    "name": "Pancreatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10276",
+                    "name": "Infant, Newborn, Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1710",
+                    "name": "Cystic Fibrosis",
+                    "asFound": "Cystic Fibrosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

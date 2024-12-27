@@ -1,0 +1,372 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03919877",
+            "orgStudyIdInfo": {
+                "id": "43883"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "5RM1HG007735-09",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/5RM1HG007735-09"
+                }
+            ],
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Precision Diets for Diabetes Prevention",
+            "officialTitle": "Precision Diets for Diabetes Prevention",
+            "therapeuticArea": [
+                "Endocrinology",
+                "Other"
+            ],
+            "study": "precision-diets-for-diabetes-prevention"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2018-05-24",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2018-12-20",
+            "studyFirstSubmitQcDate": "2019-04-17",
+            "studyFirstPostDateStruct": {
+                "date": "2019-04-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-06",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Michael Snyder",
+                "investigatorTitle": "Chair, Genetics Department",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Human Genome Research Institute (NHGRI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "With this study the investigators want to understand the physiological differences for people developing pre-diabetes and diabetes. The investigators hypothesize that different individuals go through different paths in the development of the disease. By understanding the personal mechanism for developing disease, the investigators will find a personalized approach to prevent that development. The investigators are also hoping to be able to find a biomarker that will pinpoint to the particular defect and thus, diagnose the problem at an earlier stage and have the information to give personalized diet recommendations to prevent the development of diabetes more effectively.",
+            "detailedDescription": "At present, individuals with prediabetes or diabetes are grouped together as a single entity, but almost certainly they represent a mix of different gene-environment interactions that lead to one of four dominant physiologic mechanisms underlying their dysglycemia. 1- liver insulin resistance, 2- muscle insulin resistance, 3- impaired insulin secretion, 4- impaired incretin hormone secretion. Gaps that we are addressing here are extremely important - first, we will define a composite biomarker to identify different subphenotypes of prediabetes based on the four known physiologic mechanisms that contribute differentially in each individual to glucose elevations, which we hypothesize will also be reflected in their \"glucotype\". Importantly, because both continuous glucose monitor and administration of standardized meal testing and metabolic tests are not practical in the clinic, the development of a composite biomarker comprised of select multi-omics measures and clinical variables will enable clinicians and possibly patients (without clinician) to easily identify the specific diet that will yield optimal health results."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pre Diabetes",
+                "Insulin Resistance",
+                "Diabetes Mellitus, Type 2"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Optimizing Diet for Glycemic Control",
+                    "type": "OTHER",
+                    "description": "Phase 1: Metabolic testing will include 3 metabolic tests:\n\n1. The Oral Glucose Tolerance Test. The participant will wear the CGM while undergoing the OGTT + will be asked to repeat the test at home twice.\n2. The Insulin Sensitivity Test (Steady State Plasma Glucose). This test is designed to measure how well cells remove glucose from the blood in response to insulin.\n3. The Isoglycemic Intravenous Glucose Infusion (IIGI). This test is designed to measure the incretin hormone effect.\n\nPhase 2: Participants follow their own diet while using the CGM. Participants are provided with 5-10 standardized foods to test during this phase.\n\nPhase 3: Participants are provided with additional standardized foods and counseled to continue their own diet during this phase.\n\nPhase 4: Participants are counseled on reducing or limiting the foods that caused glucose spikes and they are also counseled on macronutrient composition of their diet based on lipid profile.",
+                    "interventionNames": [
+                        "Other: Dietary"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Dietary",
+                    "description": "Dietary counseling based on results of CGM analyses.",
+                    "armGroupLabels": [
+                        "Optimizing Diet for Glycemic Control"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in glycemic control as measured by change blood sugar values",
+                    "description": "Change in glycemic control measured from baseline through all phases of study. Glycemic control is derived from continuous glucose monitor (CGM) data and expressed in milligrams/deciliter.",
+                    "timeFrame": "Three years"
+                },
+                {
+                    "measure": "Classification of metabolic subphenotype",
+                    "description": "Classify metabolic subphenotype in individuals without diabetes using a machine learning algorithm applied to the glucose time-series response generated by a 16-point (blood draws) OGTT done in the clinical research center and at home (using CGM)",
+                    "timeFrame": "Four years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in area under the curve (AUC) of blood glucose level",
+                    "description": "Measured from baseline through all phases of the study.",
+                    "timeFrame": "Three years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Be 18 years of age or older;\n* Not be pregnant, if female;\n\nExclusion Criteria:\n\n* Have major organ disease, hypertension defined as \\>160/100, pregnant/lactating, diabetogenic medications, malabsorptive disorders like celiac sprue, others, heavy alcohol use, use of weight loss medications or specific diets, weight change \\> 2 kg in the last three weeks, history of bariatric surgery.\n* Any medical condition that physicians believe would interfere with study participation or evaluation of results.\n* Mental incapacity a nd/or cognitive impairment on the part of the patient that would preclude adequate understanding of, or cooperation with, the study protocol.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Alessandra Celli, PhD",
+                    "role": "CONTACT",
+                    "phone": "(650) 725-8491",
+                    "email": "alessandra.celli@stanford.edu"
+                },
+                {
+                    "name": "Dalia Perelman, MS, RD, CDE",
+                    "role": "CONTACT",
+                    "email": "daliap@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Michael P Snyder, PhD",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Tracey McLaughlin, MD",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University",
+                    "status": "RECRUITING",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94304",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Snyder, PhD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Dalia Perelman, MS, RD, CDE",
+                            "role": "CONTACT",
+                            "email": "daliap@stanford.edu"
+                        },
+                        {
+                            "name": "Dalia Perelman, MS, RD, CDE",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000003924",
+                    "term": "Diabetes Mellitus, Type 2"
+                },
+                {
+                    "id": "D000007333",
+                    "term": "Insulin Resistance"
+                },
+                {
+                    "id": "D000011236",
+                    "term": "Prediabetic State"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                },
+                {
+                    "id": "D000006946",
+                    "term": "Hyperinsulinism"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7119",
+                    "name": "Diabetes Mellitus, Type 2",
+                    "asFound": "Diabetes Mellitus, Type 2",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14117",
+                    "name": "Prediabetic State",
+                    "asFound": "Pre-diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20295",
+                    "name": "Glucose Intolerance",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "asFound": "Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10370",
+                    "name": "Insulin Resistance",
+                    "asFound": "Insulin Resistance",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9997",
+                    "name": "Hyperinsulinism",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27905",
+                    "name": "Incretins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8866",
+                    "name": "Gastric Inhibitory Polypeptide",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

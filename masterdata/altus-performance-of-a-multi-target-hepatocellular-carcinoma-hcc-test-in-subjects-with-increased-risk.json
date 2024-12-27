@@ -1,0 +1,1641 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05064553",
+            "orgStudyIdInfo": {
+                "id": "2021-01"
+            },
+            "organization": {
+                "fullName": "Exact Sciences Corporation",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "ALTUS: Performance of a Multi- Target Hepatocellular Carcinoma (HCC) Test in Subjects With Increased Risk",
+            "officialTitle": "ALTUS: Performance of a Multi- Target Hepatocellular Carcinoma (HCC) Test in Subjects With Increased Risk",
+            "therapeuticArea": [
+                "Hepatology",
+                "Oncology and Hematology",
+                "Gastroenterology"
+            ],
+            "study": "altus-performance-of-a-multi-target-hepatocellular-carcinoma-hcc-test-in-subjects-with-increased-risk"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-12",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-07-26",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-04",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-09-21",
+            "studyFirstSubmitQcDate": "2021-09-30",
+            "studyFirstPostDateStruct": {
+                "date": "2021-10-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-26",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Exact Sciences Corporation",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The primary objective is to assess overall sensitivity and specificity of Oncoguard\u2122 Liver for hepatocellular cancer (HCC) detection in a surveillance population.",
+            "detailedDescription": "The study will include participants aged 18 years and older who are at increased risk for HCC, including individuals with liver cirrhosis or non-cirrhotic individuals with chronic hepatitis B infection."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hepatocellular Carcinoma",
+                "Hepatocellular Cancer",
+                "Hepatitis B",
+                "Cirrhosis",
+                "Liver Cancer"
+            ],
+            "keywords": [
+                "Blood Sample Collection",
+                "CT/MRI",
+                "Ultrasound",
+                "Combined Hepatocellular and Cholangiocarcinoma",
+                "HCC Surveillance"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Samples derived from the blood collection may not be used in their entirety. Residual samples may be archived for up to 7 years for further analysis and future research. Blood samples will be labeled with unique codes containing letters and numbers."
+            },
+            "enrollmentInfo": {
+                "count": 2500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Ultrasound Surveillance Group",
+                    "description": "Subjects will undergo standard of care ultrasound surveillance imaging. Subjects with positive ultrasound are anticipated to have standard of care imaging follow-up with CT or MRI as well as other procedures as needed. Subjects with negative ultrasound will be sent for a study CT/MRI.",
+                    "interventionNames": [
+                        "Device: Study CT/MRI Imaging",
+                        "Device: Standard of Care CT/MRI Imaging",
+                        "Diagnostic Test: Oncoguard\u2122 Liver Test"
+                    ]
+                },
+                {
+                    "label": "CT/MRI Surveillance Group",
+                    "description": "Subjects will undergo standard of care CT/MRI surveillance imaging.",
+                    "interventionNames": [
+                        "Device: Standard of Care CT/MRI Imaging",
+                        "Diagnostic Test: Oncoguard\u2122 Liver Test"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Study CT/MRI Imaging",
+                    "description": "Subjects with negative ultrasound will be sent for a study CT/MRI.",
+                    "armGroupLabels": [
+                        "Ultrasound Surveillance Group"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Standard of Care CT/MRI Imaging",
+                    "description": "Subjects with positive ultrasound are anticipated to have standard of care imaging follow-up as well as other procedures as needed.",
+                    "armGroupLabels": [
+                        "CT/MRI Surveillance Group",
+                        "Ultrasound Surveillance Group"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Oncoguard\u2122 Liver Test",
+                    "description": "Subjects will have a blood sample collected for the Oncoguard\u2122 Liver Test.",
+                    "armGroupLabels": [
+                        "CT/MRI Surveillance Group",
+                        "Ultrasound Surveillance Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "To demonstrate that Oncoguard\u2122 Liver early-stage HCC sensitivity is non-inferior to that of ultrasound within a 5% margin",
+                    "timeFrame": "A maximum of 30 days from study or standard-of-care CT or MRI exam."
+                },
+                {
+                    "measure": "To demonstrate that Oncoguard\u2122 Liver HCC specificity exceeds 82%",
+                    "timeFrame": "A maximum of 30 days from study or standard-of-care CT or MRI exam."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "To determine a point estimate and 95% confidence interval for Oncoguard\u2122 Liver overall HCC sensitivity",
+                    "timeFrame": "A maximum of 30 days from study or standard-of-care CT or MRI exam."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Be 18 years of age or older.\n2. Understand the study procedures, be able to provide written informed consent to participate in the study, and have authorization for release of data, including personal health data and images, to the study Investigator, Sponsor, and regulatory authorities.\n3. Present for surveillance imaging due to increased risk for HCC, including either:\n\n   1. Diagnosis of cirrhosis based on at least one of the following:\n\n      * Histology from a liver biopsy.\n      * Ultrasound, CT, or MRI showing a cirrhotic liver combined with portal hypertension (as evidenced by the presence of intra-abdominal varices, or recanalized umbilical vein, or ascites or splenomegaly or thrombocytopenia \\[defined as Platelet count \\< 150,000\\]). The imaging results must have been obtained within 5 years of study enrollment.\n      * Liver stiffness \u22654.71 kilopascal (kPa) by Magnetic Resonance (MR) elastography or \u226512.1 kPa by vibration controlled transient elastography.\n      * Presence of varices on endoscopy or imaging and presence of a chronic liver disease. OR\n   2. Non-cirrhotic subjects with chronic Hepatitis B Virus (HBV) infection (Hepatitis B surface antigen present for \\>6 months)\n\nExclusion Criteria:\n\n1. Known cancer diagnosis (including active malignancy) within the past 5 years except for nonmelanoma skin cancer.\n2. Chemotherapy and/or radiation therapy within 5 years prior to study enrollment.\n3. Known Child-Pugh class C liver function at the time of enrollment, except for those on the waiting list for transplant.\n4. Solid liver nodule \\>1 cm by ultrasound or elevated Alpha-fetoprotein (AFP) (\\>100 ng/mL) in 12 months preceding the qualifying surveillance imaging visit without subsequent documentation of HCC negative or LIRADS 1 (Liver Imaging Reporting and Data System) by diagnostic CT/MRI.\n5. Females known to be pregnant at the time of enrollment.\n6. Illness that the Investigator believes poses a significant risk of mortality during the study period, including but not limited to\n\n   1. Congestive heart failure with ejection fraction \\<50%\n   2. Chronic lung disease requiring supplemental oxygen.\n   3. History of recent stroke.\n7. Sustained virologic response (SVR) for Hepatitis C Virus (HCV) (undetectable HCV RNA 12 to 24 weeks after completion of antiviral therapy) for \\>10 years prior to enrollment.\n8. Not able to have IV contrast for CT or MRI due to\n\n   1. Allergy to IV contrast and unwilling or unable to receive IV contrast after pre-medication.\n   2. Estimated glomerular filtration rate \\<35 mL/min and not on hemodialysis.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Subjects 18 years of age and older who are at an increased risk for HCC and for whom HCC surveillance is appropriate, including subjects with cirrhosis and non-cirrhotic subjects with Hepatitis B.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Brian Blend",
+                    "role": "CONTACT",
+                    "phone": "412-400-6662",
+                    "email": "bblend@exactsciences.com"
+                },
+                {
+                    "name": "Brandon Weinstein",
+                    "role": "CONTACT",
+                    "phone": "608-292-0547",
+                    "email": "bweinstein@exactsciences.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Binu John",
+                    "affiliation": "Miami VA Healthcare System",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Arizona Health Research",
+                    "status": "COMPLETED",
+                    "city": "Chandler",
+                    "state": "Arizona",
+                    "zip": "85225",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.30616,
+                        "lon": -111.84125
+                    }
+                },
+                {
+                    "facility": "Franco Felizarta, MD",
+                    "status": "RECRUITING",
+                    "city": "Bakersfield",
+                    "state": "California",
+                    "zip": "93301",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Cecy Felizarta",
+                            "role": "CONTACT",
+                            "phone": "661-324-3128",
+                            "email": "cfelizarta@felizartamd.com"
+                        },
+                        {
+                            "name": "Franco Felizarta, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.37329,
+                        "lon": -119.01871
+                    }
+                },
+                {
+                    "facility": "Gastroenterology & Liver Institute",
+                    "status": "RECRUITING",
+                    "city": "Escondido",
+                    "state": "California",
+                    "zip": "92025",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jeanette Morales",
+                            "role": "CONTACT",
+                            "email": "jmorales@giandliver.org"
+                        },
+                        {
+                            "name": "Naveen Gara, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.11921,
+                        "lon": -117.08642
+                    }
+                },
+                {
+                    "facility": "Cedars Sinai Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90048",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Manaf Alsudaney, MD",
+                            "role": "CONTACT",
+                            "phone": "310-967-7454",
+                            "email": "Manaf.Alsudaney@cshs.org"
+                        },
+                        {
+                            "name": "Ju Dong Yang",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "Providence Facey Medical Foundation",
+                    "status": "RECRUITING",
+                    "city": "Mission Hills",
+                    "state": "California",
+                    "zip": "91345",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Okafor",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Magued Beshay, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.68952,
+                        "lon": -120.4356
+                    }
+                },
+                {
+                    "facility": "United Medical Doctors",
+                    "status": "COMPLETED",
+                    "city": "Murrieta",
+                    "state": "California",
+                    "zip": "92563",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.55391,
+                        "lon": -117.21392
+                    }
+                },
+                {
+                    "facility": "VA Palo Alto Healthcare System",
+                    "status": "RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94303",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Meimei Liao",
+                            "role": "CONTACT",
+                            "email": "MLiao@pavir.org"
+                        },
+                        {
+                            "name": "Robert Wong, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                },
+                {
+                    "facility": "Stanford University Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94304",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                },
+                {
+                    "facility": "California Liver Research Institute",
+                    "status": "COMPLETED",
+                    "city": "Pasadena",
+                    "state": "California",
+                    "zip": "91107",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.14778,
+                        "lon": -118.14452
+                    }
+                },
+                {
+                    "facility": "Cadena Care Institute",
+                    "status": "COMPLETED",
+                    "city": "Poway",
+                    "state": "California",
+                    "zip": "92064",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.96282,
+                        "lon": -117.03586
+                    }
+                },
+                {
+                    "facility": "Inland Empire Clinical Trials",
+                    "status": "COMPLETED",
+                    "city": "Rialto",
+                    "state": "California",
+                    "zip": "92377",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.1064,
+                        "lon": -117.37032
+                    }
+                },
+                {
+                    "facility": "Research & Education, Inc",
+                    "status": "COMPLETED",
+                    "city": "San Diego",
+                    "state": "California",
+                    "zip": "92105",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.71533,
+                        "lon": -117.15726
+                    }
+                },
+                {
+                    "facility": "San Jose Gastroenterology",
+                    "status": "RECRUITING",
+                    "city": "San Jose",
+                    "state": "California",
+                    "zip": "95128",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel Vuong",
+                            "role": "CONTACT",
+                            "phone": "408-462-6955",
+                            "phoneExt": "107",
+                            "email": "dvuong@jointopo.com"
+                        },
+                        {
+                            "name": "Nguyen Huynh",
+                            "role": "CONTACT",
+                            "phone": "408-462-6955",
+                            "phoneExt": "121",
+                            "email": "nguyen.huynh@jointopo.com"
+                        },
+                        {
+                            "name": "Huy Trinh, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.33939,
+                        "lon": -121.89496
+                    }
+                },
+                {
+                    "facility": "Rocky Mountain Gastroenterology",
+                    "status": "RECRUITING",
+                    "city": "Littleton",
+                    "state": "Colorado",
+                    "zip": "80120",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "James McMullen",
+                            "role": "CONTACT",
+                            "phone": "267-274-3149",
+                            "email": "jmcmullen@jointopo.com"
+                        },
+                        {
+                            "name": "Roxanne Navo",
+                            "role": "CONTACT",
+                            "phone": "(720) 579-8393",
+                            "email": "rnavo@jointopo.com"
+                        },
+                        {
+                            "name": "Tyler McVay, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.61332,
+                        "lon": -105.01665
+                    }
+                },
+                {
+                    "facility": "Washington DC VA Medical Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Washington",
+                    "state": "District of Columbia",
+                    "zip": "20422",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Atoosa Rabiee, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.89511,
+                        "lon": -77.03637
+                    }
+                },
+                {
+                    "facility": "University of Florida Hepatology Research at CTRB",
+                    "status": "RECRUITING",
+                    "city": "Gainesville",
+                    "state": "Florida",
+                    "zip": "32610",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Lasheaka McClellan",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Roniel Cabrera, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.65163,
+                        "lon": -82.32483
+                    }
+                },
+                {
+                    "facility": "San Marcus Research Clinic",
+                    "status": "COMPLETED",
+                    "city": "Miami Lakes",
+                    "state": "Florida",
+                    "zip": "33014",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 25.90871,
+                        "lon": -80.30866
+                    }
+                },
+                {
+                    "facility": "Miami VA Healthcare System",
+                    "status": "RECRUITING",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33125",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Flavia Carneiro",
+                            "role": "CONTACT",
+                            "email": "Flavia.Carneiro@va.gov"
+                        },
+                        {
+                            "name": "Binu John, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "University of Miami",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Miami",
+                    "state": "Florida",
+                    "zip": "33136",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patricia Jones, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 25.77427,
+                        "lon": -80.19366
+                    }
+                },
+                {
+                    "facility": "Digestive Health Services",
+                    "status": "RECRUITING",
+                    "city": "Downers Grove",
+                    "state": "Illinois",
+                    "zip": "60515",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Rashida Boxwalla",
+                            "role": "CONTACT",
+                            "phone": "708-212-1947",
+                            "email": "munira@avicennaclinical.com"
+                        },
+                        {
+                            "name": "Rockford Yapp, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.80892,
+                        "lon": -88.01117
+                    }
+                },
+                {
+                    "facility": "Avicenna Clinical Research",
+                    "status": "RECRUITING",
+                    "city": "Oak Lawn",
+                    "state": "Illinois",
+                    "zip": "60463",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Hussain Boxwalla",
+                            "role": "CONTACT",
+                            "phone": "708-860-7866",
+                            "email": "hboxwalla@avicennaclinical.com"
+                        },
+                        {
+                            "name": "Charles Berkelhammer, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.71087,
+                        "lon": -87.75811
+                    }
+                },
+                {
+                    "facility": "NAVREF - Indiana Institute for Medical Research (IIMC)",
+                    "status": "RECRUITING",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46201",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sharon Henson",
+                            "role": "CONTACT",
+                            "phone": "317-988-3477",
+                            "email": "sharon.henson@va.gov"
+                        },
+                        {
+                            "name": "Margaret Sozio, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                },
+                {
+                    "facility": "Indiana University",
+                    "status": "RECRUITING",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jake McCarty",
+                            "role": "CONTACT",
+                            "email": "jacmccar@iu.edu"
+                        },
+                        {
+                            "name": "Naga Chalasani, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                },
+                {
+                    "facility": "Indianapolis Gastroenterology Research Foundation",
+                    "status": "COMPLETED",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46237",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                },
+                {
+                    "facility": "University of Iowa Hospitals and Clinics",
+                    "status": "RECRUITING",
+                    "city": "Iowa City",
+                    "state": "Iowa",
+                    "zip": "52242",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jenna Neuhaus",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "role": "CONTACT",
+                            "phone": "319-335-0123",
+                            "email": "jena-neuhaus@uiowa.edu"
+                        },
+                        {
+                            "name": "Tomohiro Tanaka, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.66113,
+                        "lon": -91.53017
+                    }
+                },
+                {
+                    "facility": "Delta Research Partners",
+                    "status": "RECRUITING",
+                    "city": "Monroe",
+                    "state": "Louisiana",
+                    "zip": "71201",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sarah Poche",
+                            "role": "CONTACT",
+                            "phone": "318-281-6040",
+                            "email": "dpoche@gastromds.com"
+                        },
+                        {
+                            "name": "Bal Raj Bhandari, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.50931,
+                        "lon": -92.1193
+                    }
+                },
+                {
+                    "facility": "Louisiana Research Center, LLC",
+                    "status": "RECRUITING",
+                    "city": "Shreveport",
+                    "state": "Louisiana",
+                    "zip": "71105",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amanda Falkenstein",
+                            "role": "CONTACT",
+                            "phone": "318-525-3233",
+                            "email": "afalkenstein@gis.md"
+                        },
+                        {
+                            "name": "Humberto Aguilar, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.52515,
+                        "lon": -93.75018
+                    }
+                },
+                {
+                    "facility": "VA Ann Arbor Healthcare System",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48105",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Grace Su, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                },
+                {
+                    "facility": "University of Michigan",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Austin Fobar",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Neehar Parikh, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                },
+                {
+                    "facility": "Henry Ford Health System",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jessica Peruski",
+                            "role": "CONTACT",
+                            "phone": "313-771-7211",
+                            "email": "jperusk1@hfhs.org"
+                        },
+                        {
+                            "name": "Reena Salgia, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic Rochester",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55902",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mohamad Elgozair",
+                            "role": "CONTACT",
+                            "email": "Elgozair.Mohamad@mayo.edu"
+                        },
+                        {
+                            "name": "Lewis Roberts, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                },
+                {
+                    "facility": "Southern Therapy and Advanced Research LLC (STAR)",
+                    "status": "COMPLETED",
+                    "city": "Jackson",
+                    "state": "Mississippi",
+                    "zip": "39216",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.29876,
+                        "lon": -90.18481
+                    }
+                },
+                {
+                    "facility": "St. Louis University",
+                    "status": "COMPLETED",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63104",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                },
+                {
+                    "facility": "Icahn School of Medicine at Mount Sinai",
+                    "status": "COMPLETED",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10029",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Manhattan Clinical Research, LLC",
+                    "status": "COMPLETED",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10279",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Digestive Health Partners",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Asheville",
+                    "state": "North Carolina",
+                    "zip": "28801",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 35.60095,
+                        "lon": -82.55402
+                    }
+                },
+                {
+                    "facility": "Duke University Health Systems",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Durham",
+                    "state": "North Carolina",
+                    "zip": "27710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Christy Walters",
+                            "role": "CONTACT",
+                            "email": "christy.walters@duke.edu"
+                        },
+                        {
+                            "name": "Cynthia Moylan, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.99403,
+                        "lon": -78.89862
+                    }
+                },
+                {
+                    "facility": "VA North East Ohio Health Care System",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44106",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jovan Ginovski",
+                            "role": "CONTACT",
+                            "email": "jginovski@gmail.com"
+                        },
+                        {
+                            "name": "Perica Davitkov, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                },
+                {
+                    "facility": "Great Lakes Medical Research - Susquehanna Research Group",
+                    "status": "RECRUITING",
+                    "city": "Camp Hill",
+                    "state": "Pennsylvania",
+                    "zip": "17011",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jessica Balay",
+                            "role": "CONTACT",
+                            "phone": "717-914-7770",
+                            "email": "JBalay@gicare.com"
+                        },
+                        {
+                            "name": "Heather McKay",
+                            "role": "CONTACT",
+                            "phone": "717-914-7770",
+                            "email": "hmckay@gicare.com"
+                        },
+                        {
+                            "name": "Adnan Ahmad, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.23981,
+                        "lon": -76.91997
+                    }
+                },
+                {
+                    "facility": "Corporal Michael J. Crescenz VA Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Xavier Arthur",
+                            "role": "CONTACT",
+                            "phone": "215-823-5800",
+                            "email": "Xavier.Arthur@va.gov"
+                        },
+                        {
+                            "name": "David Kaplan, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "University of Pennsylvania",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jason Lee",
+                            "role": "CONTACT",
+                            "email": "Jason.Lee1@Pennmedicine.upenn.edu"
+                        },
+                        {
+                            "name": "K. Rajender Reddy, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Xiaoli MA MD",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19107",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Eva Law",
+                            "role": "CONTACT",
+                            "email": "elaw03@gmail.com"
+                        },
+                        {
+                            "name": "Xiaoli Ma, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Einstein Medical Center",
+                    "status": "COMPLETED",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19141",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "University of Pittsburgh Medical Center",
+                    "status": "COMPLETED",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15213",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                },
+                {
+                    "facility": "Wilkes-Barre VA Medical Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Wilkes-Barre",
+                    "state": "Pennsylvania",
+                    "zip": "18711",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jennifer D'Angelo",
+                            "role": "CONTACT",
+                            "phone": "570-824-3521"
+                        },
+                        {
+                            "name": "Si-Yeun Moy, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.24591,
+                        "lon": -75.88131
+                    }
+                },
+                {
+                    "facility": "Ralph H Johnson VAMC",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Charleston",
+                    "state": "South Carolina",
+                    "zip": "29401",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Susan Caulder",
+                            "role": "CONTACT",
+                            "phone": "843-789-7816",
+                            "email": "Susan.Caulder@va.gov"
+                        },
+                        {
+                            "name": "Ira Willner, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.77657,
+                        "lon": -79.93092
+                    }
+                },
+                {
+                    "facility": "Avera Cancer Institute",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Sioux Falls",
+                    "state": "South Dakota",
+                    "zip": "57105",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mohamed Elfeki, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.54997,
+                        "lon": -96.70033
+                    }
+                },
+                {
+                    "facility": "Gastro One",
+                    "status": "RECRUITING",
+                    "city": "Germantown",
+                    "state": "Tennessee",
+                    "zip": "38138",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Shannon Gibbs",
+                            "role": "CONTACT",
+                            "phone": "901-763-0906",
+                            "email": "sgibbs@gastro1.com"
+                        },
+                        {
+                            "name": "Ziad Younes, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.08676,
+                        "lon": -89.81009
+                    }
+                },
+                {
+                    "facility": "UT Southwestern Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Dallas",
+                    "state": "Texas",
+                    "zip": "75390",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Lisa Quirk",
+                            "role": "CONTACT",
+                            "email": "Lisa.Quirk@UTSouthwestern.edu"
+                        },
+                        {
+                            "name": "Amit Singal, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.78306,
+                        "lon": -96.80667
+                    }
+                },
+                {
+                    "facility": "Texas Gastro Clinic",
+                    "status": "RECRUITING",
+                    "city": "El Paso",
+                    "state": "Texas",
+                    "zip": "79936",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Arlette Villalobos",
+                            "role": "CONTACT",
+                            "email": "avillalobos@txgastroresearch.com"
+                        },
+                        {
+                            "name": "Emmanuel Gorospe, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.75872,
+                        "lon": -106.48693
+                    }
+                },
+                {
+                    "facility": "Tranquil Clinical Research",
+                    "status": "RECRUITING",
+                    "city": "Webster",
+                    "state": "Texas",
+                    "zip": "77598",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Amber Christian Rivera",
+                            "role": "CONTACT",
+                            "phone": "713-907-6054",
+                            "email": "amberc@tranquilityresearch.com"
+                        },
+                        {
+                            "name": "Nedal Adi, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.53773,
+                        "lon": -95.11826
+                    }
+                },
+                {
+                    "facility": "University of Vermont Medical Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Burlington",
+                    "state": "Vermont",
+                    "zip": "05401",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Lisa Smith",
+                            "role": "CONTACT",
+                            "email": "lisa.smith@med.uvm.edu"
+                        },
+                        {
+                            "name": "Steven Lidofsky, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.47588,
+                        "lon": -73.21207
+                    }
+                },
+                {
+                    "facility": "UVA Gastroenterology",
+                    "status": "RECRUITING",
+                    "city": "Charlottesville",
+                    "state": "Virginia",
+                    "zip": "22903",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Stephanie Mills",
+                            "role": "CONTACT",
+                            "phone": "434-924-1789",
+                            "email": "JDH5FW@uvahealth.org"
+                        },
+                        {
+                            "name": "Zachary Henry, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.02931,
+                        "lon": -78.47668
+                    }
+                },
+                {
+                    "facility": "Gastroenterology Associates, PC",
+                    "status": "RECRUITING",
+                    "city": "Manassas",
+                    "state": "Virginia",
+                    "zip": "20110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Antoine Jakiche, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.75095,
+                        "lon": -77.47527
+                    }
+                },
+                {
+                    "facility": "Digestive & Liver Disease Specialists",
+                    "status": "COMPLETED",
+                    "city": "Norfolk",
+                    "state": "Virginia",
+                    "zip": "23502",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 36.84681,
+                        "lon": -76.28522
+                    }
+                },
+                {
+                    "facility": "Richmond VA Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Richmond",
+                    "state": "Virginia",
+                    "zip": "23249",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Leslie Yost-Schomer",
+                            "role": "CONTACT",
+                            "email": "Leslie.Yost-Schomer@va.gov"
+                        },
+                        {
+                            "name": "Michael Fuchs, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.55376,
+                        "lon": -77.46026
+                    }
+                },
+                {
+                    "facility": "Virginia Mason Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Seattle",
+                    "state": "Washington",
+                    "zip": "98101",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Asma Siddique, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.60621,
+                        "lon": -122.33207
+                    }
+                },
+                {
+                    "facility": "Velocity Clinical Research",
+                    "status": "COMPLETED",
+                    "city": "Spokane",
+                    "state": "Washington",
+                    "zip": "99202",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 47.65966,
+                        "lon": -117.42908
+                    }
+                },
+                {
+                    "facility": "UW Digestive Health Center",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53705",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Adnan Said, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Individual participant data that underlie the results reported in publications of the study will be shared after deidentification. This may include test, tables, figures, and appendices. The study protocol, statistical analysis plan (when applicable), informed consent form (when applicable), and the clinical study report (when applicable) will also be shared",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF"
+            ],
+            "timeFrame": "Data will be available from 2 years and ending 4 years after publication.",
+            "accessCriteria": "Proposals for access to data should be directed to clinicaltrials@exactsciences.com. To gain access, data requestors will need to provide a methodologically sound proposal and sign a data access agreement. Researchers are required to obtain necessary IRB/IEC approvals or waivers as applicable to conduct research."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006509",
+                    "term": "Hepatitis B"
+                },
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000006528",
+                    "term": "Carcinoma, Hepatocellular"
+                },
+                {
+                    "id": "D000008113",
+                    "term": "Liver Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000006505",
+                    "term": "Hepatitis"
+                },
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000086982",
+                    "term": "Blood-Borne Infections"
+                },
+                {
+                    "id": "D000003141",
+                    "term": "Communicable Diseases"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000018347",
+                    "term": "Hepadnaviridae Infections"
+                },
+                {
+                    "id": "D000004266",
+                    "term": "DNA Virus Infections"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000006525",
+                    "term": "Hepatitis, Viral, Human"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9613",
+                    "name": "Carcinoma, Hepatocellular",
+                    "asFound": "Hepatocellular Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11113",
+                    "name": "Liver Neoplasms",
+                    "asFound": "Hepatocellular Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11103",
+                    "name": "Liver Cirrhosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9592",
+                    "name": "Hepatitis A",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9595",
+                    "name": "Hepatitis B",
+                    "asFound": "Hepatitis B",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9591",
+                    "name": "Hepatitis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20426",
+                    "name": "Cholangiocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2593",
+                    "name": "Blood-Borne Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20487",
+                    "name": "Hepadnaviridae Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7442",
+                    "name": "DNA Virus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9610",
+                    "name": "Hepatitis, Viral, Human",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T755",
+                    "name": "Bile Duct Cancer",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11110",
+                    "name": "Liver Extracts",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

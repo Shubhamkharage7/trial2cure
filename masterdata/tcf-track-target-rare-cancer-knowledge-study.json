@@ -1,0 +1,376 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04504604",
+            "orgStudyIdInfo": {
+                "id": "TCF-001"
+            },
+            "organization": {
+                "fullName": "TargetCancer Foundation",
+                "class": "OTHER"
+            },
+            "briefTitle": "TCF-001 TRACK (Target Rare Cancer Knowledge) Study",
+            "officialTitle": "TCF-001 TRACK (Target Rare Cancer Knowledge) Study",
+            "acronym": "TRACK",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "tcf-track-target-rare-cancer-knowledge-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-10-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-08-05",
+            "studyFirstSubmitQcDate": "2020-08-05",
+            "studyFirstPostDateStruct": {
+                "date": "2020-08-07",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "TargetCancer Foundation",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Foundation Medicine",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This open label, non-randomized, multi-center, pragmatic study aims to establish whether patients with rare tumors can benefit from matched molecular therapy as dictated by their next-generation sequencing (NGS) results.",
+            "detailedDescription": "This open label, non-randomized, multi-center, pragmatic study aims to establish whether patients with rare tumors can benefit from matched molecular therapy as dictated by their next-generation sequencing (NGS) results. The study leverages a remote consent and participation approach to open enrollment to all patients with rare tumors within the United States. Traditional, site-based patient consenting and participation is also available for enrollment to the study.\n\nEach participant will undergo comprehensive genomic profiling (CGP) by Foundation Medicine Inc. (FMI) of their tumor as well as plasma circulating cell-free DNA. Plasma circulating cell-free DNA may be additionally collected for repeat CGP at various timepoints during the study.\n\nThe CGP findings will be provided by FMI directly to the treating physician and study sponsor TargetCancer Foundation (TCF), with TCF presenting cases with genomic findings to the Virtual Molecular Tumor Board (VMTB). The VMTB will analyze the findings and provide a written report to the treating physician on recommended treatments and/or relevant clinical trials; the treating physician makes all treatment decisions. The resultant treatments and treatment responses will be tracked longitudinally during the term of this study, thus linking molecularly informed treatments to specific patient outcomes."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Rare Cancers",
+                "Cholangiocarcinoma",
+                "Cancer of Unknown Primary Site"
+            ],
+            "keywords": [
+                "genomics",
+                "precision medicine",
+                "molecular tumor board",
+                "remote participation",
+                "targeted therapy",
+                "patient reported outcomes",
+                "understudied diseases",
+                "comprehensive genomic profiling",
+                "virtual",
+                "next generation sequencing",
+                "liquid biopsies",
+                "tumor biopsies",
+                "cell-free DNA",
+                "biomarker testing",
+                "solid tumors"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cholangiocarcinoma",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Eligible patients that present with Cholangiocarcinoma.",
+                    "interventionNames": [
+                        "Diagnostic Test: FoundationOne CDx and FoundationOne Liquid CDx"
+                    ]
+                },
+                {
+                    "label": "Cancer of Unknown Primary (CUP)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Eligible patients with cancer of unknown primary site (CUP).",
+                    "interventionNames": [
+                        "Diagnostic Test: FoundationOne CDx and FoundationOne Liquid CDx"
+                    ]
+                },
+                {
+                    "label": "Other remaining rare cancers (solid tumors & lymphomas)",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Eligible patients that meet the definition of rare cancers (incidence of less than 6 per 100,000 in the United States).",
+                    "interventionNames": [
+                        "Diagnostic Test: FoundationOne CDx and FoundationOne Liquid CDx"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "FoundationOne CDx and FoundationOne Liquid CDx",
+                    "description": "Eligible patients will have Foundation Medicine blood and tissue testing and have their results reviewed by the study's Virtual Molecular Tumor Board which, in turn, will make recommendations for treatment to treating physicians.",
+                    "armGroupLabels": [
+                        "Cancer of Unknown Primary (CUP)",
+                        "Cholangiocarcinoma",
+                        "Other remaining rare cancers (solid tumors & lymphomas)"
+                    ],
+                    "otherNames": [
+                        "FoundationOne CDx",
+                        "FoundationOne Liquid CDx"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Percent of participants who receive a molecularly targeted matched treatment after recommendation from the VMTB.",
+                    "description": "The primary feasibility endpoint is the percent of participants who receive a molecularly targeted matched treatment after recommendation from the VMTB. Point estimates and confidence interval estimations will be calculated for percent of participants on matched treatments.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Progression-free survival (PFS) among participants who received the molecularly targeted matched treatment.",
+                    "description": "The primary efficacy endpoint is the progression-free survival (PFS) among participants who received the molecularly targeted matched treatment. Kaplan-Meier estimates will be constructed for time-to-event endpoints, including progression-free survival (PFS). Cox regression analysis will be applied to model PFS by putative covariates such as performance status, type of tumor, prior lines of treatment, and whether matched treatments are received.",
+                    "timeFrame": "2 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Comparison of Tumor Biomarker Profiling to Treatment Outcome.",
+                    "description": "Tumor molecular profiles will be correlated to treatment outcome, assessed by measures including the response rate, the rate of stable disease (SD)\\>6 months/partial response (PR)/complete response (CR), progression-free survival (PFS), PFS ratio (comparison of the PFS used after molecular profiling to PFS on prior treatment), time to treatment failure, and overall survival. Kaplan-Meier estimates will be constructed for time-to-event endpoints, including overall survival (OS).",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "INCLUSION CRITERIA\n\n* Provision of signed and dated informed consent form.\n* Stated willingness to comply with all study related blood draws and assessments for the duration of the study.\n* Individuals who are 18 years old or older at the time of consent.\n* Patients with a rare (fewer than 6 cases per 100,000 per year) solid tumor or lymphoma with evaluable disease at baseline. The complete list of included cancers are included in the study protocol; diseases not listed in the study protocol may be enrolled with the approval of the Principal Investigator.\n* May or may not have had qualifying (by Foundation Medicine) comprehensive genomic profiling before the present study. For those who have had qualifying comprehensive genomic profiling performed prior to the present study, the archival specimen tested must have been harvested within 18 months of the baseline visit (i.e. date of consent) of the present study.\n* Willingness to provide existing archived and/or newly collected tissue resulting from standard of care procedures and blood samples for genomic profiling. If the submitted sample is determined to be insufficient for testing, the patient will be considered to be a screen failure.\n* For archival tissue to be used for comprehensive genomic profiling for the present study, that specimen must have been harvested within 18 months of the baseline visit (i.e. date of consent) of the present study.\n* Willingness to provide clinical and medical information to the study team as required.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0-2.\n* Ability to read, write and communicate in English.\n* Ability to review and sign a web-based informed consent form, or review and sign an informed consent form in treating physician office.\n* Resides within the United States.\n\nEXCLUSION CRITERIA\n\n* Participants who are unable to provide informed consent.\n* Participants who are 17 years of age or younger.\n* Participants who are unable to comply with the study procedures.\n* Known existence of an uncontrolled intercurrent illness including, but not limited to, psychiatric illness or social situations that would impair compliance with study requirements.\n* Concurrent active malignancy requiring treatment within 1 year of enrollment, at the discretion of treating physician.\n* Pregnancy or breastfeeding.\n* Any unlisted criteria at the discretion of the treating physician.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Mary Oster",
+                    "role": "CONTACT",
+                    "phone": "617-299-0389",
+                    "email": "mary@targetcancerfoundation.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Razelle Kurzrock, M.D.",
+                    "affiliation": "Medical College of Wisconsin",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Vivek Subbiah, M.D.",
+                    "affiliation": "SCRI Development Innovations, LLC",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Shumei Kato, M.D.",
+                    "affiliation": "University of California, San Diego",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "TargetCancer Foundation",
+                    "status": "RECRUITING",
+                    "city": "Cambridge",
+                    "state": "Massachusetts",
+                    "zip": "02139",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mary Oster",
+                            "role": "CONTACT",
+                            "phone": "617-299-0389",
+                            "email": "Mary@targetcancerfoundation.org"
+                        },
+                        {
+                            "name": "Shumei Kato, M.D",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.3751,
+                        "lon": -71.10561
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Study information",
+                    "url": "https://www.targetcancerfoundation.org/track"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018281",
+                    "term": "Cholangiocarcinoma"
+                },
+                {
+                    "id": "D000009382",
+                    "term": "Neoplasms, Unknown Primary"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009362",
+                    "term": "Neoplasm Metastasis"
+                },
+                {
+                    "id": "D000009385",
+                    "term": "Neoplastic Processes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20426",
+                    "name": "Cholangiocarcinoma",
+                    "asFound": "Cholangiocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12327",
+                    "name": "Neoplasms, Unknown Primary",
+                    "asFound": "Cancer of Unknown Primary Site",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12307",
+                    "name": "Neoplasm Metastasis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12330",
+                    "name": "Neoplastic Processes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T755",
+                    "name": "Bile Duct Cancer",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

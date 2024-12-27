@@ -1,0 +1,432 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05976581",
+            "orgStudyIdInfo": {
+                "id": "HP-00103497"
+            },
+            "organization": {
+                "fullName": "University of Maryland, Baltimore",
+                "class": "OTHER"
+            },
+            "briefTitle": "Using Probability of Community-Acquired Pneumonia to Tailor Antimicrobials Among Inpatients",
+            "officialTitle": "Using Probability of Community-Acquired Pneumonia to Tailor Antimicrobials Among Inpatients",
+            "acronym": "UP-CAPTAIn",
+            "therapeuticArea": [
+                "Respiratory",
+                "Infectious Diseases"
+            ],
+            "study": "using-probability-of-community-acquired-pneumonia-to-tailor-antimicrobials-among-inpatients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-11-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-11",
+            "studyFirstSubmitQcDate": "2023-08-03",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-20",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Jonathan Baghdadi",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "University of Maryland, Baltimore"
+            },
+            "leadSponsor": {
+                "name": "Jonathan Baghdadi",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Centers for Disease Control and Prevention",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The goal of this prospective randomized study is to improve antibiotic use among hospitalized patients with suspected pneumonia. An alert was built into the electronic health record to guide use of diagnostic testing based on probability of bacterial pneumonia. Patients with test results suggesting viral infection will be randomized to either: (1) receive a structured communication from the antimicrobial stewardship team to de-escalate antibiotics or (2) usual care.",
+            "detailedDescription": "Low-risk patients with viral pneumonia do not benefit from and may be harmed by antibiotic therapy. In this study, an alert will appear in the electronic health record of patients undergoing molecular diagnostic testing for respiratory symptoms that provides options for diagnostic testing based on pre-test probability of bacterial infection. Patients with test results suggesting possible viral infection will be randomized to either usual care or to receive test results along with structured guidance from antimicrobial stewardship to consider discontinuing or de-escalating antibiotics. This guidance, which will include an explicit calculation of the post-test probability of bacterial infection based on considering risk factors, vital signs, symptoms, and available imaging, will be communicated to the primary care team via direct electronic message and a summary note in the patient's chart. The final decision on whether to continue antibiotic therapy will be up to the primary team. The primary outcome of interest will be in-hospital antibiotic use. Safety outcomes will include length of stay, readmissions, hospital-free days, and mortality."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pneumonia",
+                "Pneumonia, Viral",
+                "Pneumonia, Bacterial"
+            ],
+            "keywords": [
+                "diagnostic stewardship",
+                "antimicrobial stewardship"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "This study involves a randomized trial embedded within a quasi-experiment. During the 1-year study period, we anticipate that 1,500 patients will be exposed to the electronic health record modification performed as part of the quasi-experiment. Regarding the randomized trial, if 100 patients are enrolled during the 1-year study period, including 50 in intervention patients and 50 controls, we anticipate that we will have sufficient precision to estimate the difference in binary outcomes (e.g., antibiotic discontinuation within 5 days) between the two groups with a margin of error of approximately 15% based on a 95% confidence interval.",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Electronic alert plus structured communication of test results",
+                    "type": "EXPERIMENTAL",
+                    "description": "An electronic health record alert will guide diagnostic testing for pneumonia. For patients with low or moderate probability of bacterial pneumonia, test results will be communicated to the primary team with guidance to consider discontinuing or de-escalating antibiotics.",
+                    "interventionNames": [
+                        "Behavioral: Electronic alert",
+                        "Behavioral: Structured communication of test results"
+                    ]
+                },
+                {
+                    "label": "Electronic alert without structured communication of test results",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "An electronic health record alert will guide diagnostic testing for pneumonia. The primary care team will access and interpret test results and decide upon composition and duration of antimicrobial without external guidance.",
+                    "interventionNames": [
+                        "Behavioral: Electronic alert"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Electronic alert",
+                    "description": "An alert will appear in the electronic health record that provides options for diagnostic testing based on low, medium, or high probability of bacterial pneumonia.",
+                    "armGroupLabels": [
+                        "Electronic alert plus structured communication of test results",
+                        "Electronic alert without structured communication of test results"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Structured communication of test results",
+                    "description": "A clinical research team member will send an electronic message to the primary care team on behalf of the antimicrobial stewardship program with structured guidance to stop or de-escalate antibiotics and document these recommendations in the patient's chart.",
+                    "armGroupLabels": [
+                        "Electronic alert plus structured communication of test results"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Hospital antibiotic days of therapy",
+                    "description": "The aggregate sum of days for which any amount of a specific antimicrobial agent was administered during the hospital encounter, from arrival in the emergency department or on the hospital ward until discharge.",
+                    "timeFrame": "Up to 90 days after randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Hospital length of stay",
+                    "description": "Duration of hospitalization from admission to discharge",
+                    "timeFrame": "Up to 90 days after randomization"
+                },
+                {
+                    "measure": "In-hospital mortality",
+                    "description": "Death or discharge to hospice during initial hospitalization for any cause",
+                    "timeFrame": "Up to 90 days after randomization"
+                },
+                {
+                    "measure": "Readmissions within 30-days of randomization",
+                    "description": "Readmissions for any cause within 30-days of randomization",
+                    "timeFrame": "Within 30 days after randomization"
+                },
+                {
+                    "measure": "C. difficile infections in the 30-days post-randomization",
+                    "description": "Positive test for C. difficile associated with initiation of antibiotics targeting C. difficile.",
+                    "timeFrame": "Within 30 days after randomization"
+                },
+                {
+                    "measure": "Acute kidney injury",
+                    "description": "Defined by an elevation in creatinine of \\> 0.5mg/dl or 2x baseline in a patient without previous end-stage renal disease.",
+                    "timeFrame": "Within 14 days of randomization"
+                },
+                {
+                    "measure": "Ventilator-free days in the 30-days post-randomization",
+                    "description": "Days without a requirement for mechanical ventilation in the 30 days after randomization.",
+                    "timeFrame": "30 days after randomization."
+                },
+                {
+                    "measure": "Hospital-free days in the 30-days post-randomization",
+                    "description": "Days without hospitalization in the 30 days after randomization.",
+                    "timeFrame": "30 days after randomization."
+                },
+                {
+                    "measure": "Antibiotic de-escalations within 72 hours after initiation",
+                    "description": "Including narrowing, discontinuing, or converting the route of administration from intravenous to oral.",
+                    "timeFrame": "3 days after randomization."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adult patients admitted to the University of Maryland Medical Center or University of Maryland Medical Center-Midtown Campus who are prescribed antibiotics for suspected community-acquired respiratory infection.\n* Protocol-based diagnostic testing supports possible viral infection, either by positive molecular test or low procalcitonin value.\n\nExclusion Criteria:\n\n* Hospitalization for \\>72 hours prior to protocol-based diagnostic testing.\n* Previous molecular testing for viral infection during the same hospital encounter.\n* Severely immunosuppressed, defined as having hematologic malignancy, solid organ tumor on chemotherapy, or solid organ transplant on immunosuppression",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jonathan D Baghdadi, MD, PhD",
+                    "role": "CONTACT",
+                    "phone": "410-706-0134",
+                    "email": "jbaghdadi@som.umaryland.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Daniel J. Morgan, MD, MS",
+                    "affiliation": "University of Maryland, Baltimore",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Maryland Medical Center - Midtown Campus",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21201",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jonathan Baghdadi",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "University of Maryland Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21201",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jonathan Baghdadi",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000011024",
+                    "term": "Pneumonia, Viral"
+                },
+                {
+                    "id": "D000018410",
+                    "term": "Pneumonia, Bacterial"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000001424",
+                    "term": "Bacterial Infections"
+                },
+                {
+                    "id": "D000001423",
+                    "term": "Bacterial Infections and Mycoses"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "asFound": "Pneumonia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13914",
+                    "name": "Pneumonia, Viral",
+                    "asFound": "Pneumonia, Viral",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20529",
+                    "name": "Pneumonia, Bacterial",
+                    "asFound": "Pneumonia, Bacterial",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4722",
+                    "name": "Bacterial Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12136",
+                    "name": "Mycoses",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4721",
+                    "name": "Bacterial Infections and Mycoses",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4222",
+                    "name": "Anti-Bacterial Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4224",
+                    "name": "Antibiotics, Antitubercular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4214",
+                    "name": "Anti-Infective Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,750 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05073692",
+            "orgStudyIdInfo": {
+                "id": "739857"
+            },
+            "organization": {
+                "fullName": "Kaiser Permanente",
+                "class": "OTHER"
+            },
+            "briefTitle": "Comparison of Type 2 Diabetes Pharmacotherapy Regimens",
+            "officialTitle": "Comparison of Type 2 Diabetes Pharmacotherapy Regimens Using Targeted Learning",
+            "acronym": "ON TARGET DM",
+            "therapeuticArea": [
+                "Endocrinology",
+                "Other"
+            ],
+            "study": "comparison-of-type-diabetes-pharmacotherapy-regimens"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-07-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-08-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-09-14",
+            "studyFirstSubmitQcDate": "2021-10-01",
+            "studyFirstPostDateStruct": {
+                "date": "2021-10-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Kaiser Permanente",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Geisinger Clinic",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Henry Ford Health System",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "HealthPartners Institute",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Patient-Centered Outcomes Research Institute",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is designed to help patients with type 2 diabetes and their clinicians: (a) identify which glucose lowering medications have the most favorable effects on heart health and other patient-important outcomes, (b) inform the timing of medication initiation, and (c) identify whether medication benefits apply equally to all adults with type 2 diabetes, or may be different based on age, sex, race/ethnicity, baseline heart health status, baseline renal function, or other factors.",
+            "detailedDescription": "The study will conduct head-to-head comparisons of type 2 diabetes mellitus (T2DM) treatment strategies using observational data from real-world clinical settings to assess cardiovascular disease (CVD) outcomes and other patient-centered outcomes in T2DM patients with moderate baseline CVD risk who are treated with each of these four classes of glucose-lowering medications known as SGLT2, GLP-1RA, DPP4, and SU. To mitigate bias concerns related to confounding and informative loss to follow-up, analyses will be based on modern causal inference methods combined with machine learning that emulate intention-to-treat (ITT) and per-protocol (PP) analyses of pragmatic randomized trials with active comparators to provide the most robust and precise estimates of relative and absolute effects we would expect in usual care settings.\n\nSpecific Aims and Hypotheses:\n\nAim 1. Compare the effect off SGLT21, GLP-1RA, DPP4, and SU on each study outcome in adults with T2DM when each type of medication is (a) initiated as second-line therapy after metformin, and (b) initiated as first-, second-, or third-line therapy, or after any history of glucose-lowering therapy independent of prior metformin use.\n\nAim 2. Compare the effect on each study outcome of earlier versus later initiation of SGLT2i, GLP-1RA, DPP4, SU as first-, or second-, or third-line therapy, or after any history of glucose-lowering therapy triggered by various changes in A1C, or CVD risk, or other patient characteristics.\n\nAim 3. Assess in each of the prior analyses whether the treatment effects on study outcomes vary across categories of baseline CVD risk and CVD event history, renal function, congestive heart failure status, age, sex and race/ethnicity, or other patient characteristics.\n\nAim 4. Evaluate trends in new pharmacy dispensing of SGLT2i and GLP1-RA between 2014 and 2021, in aggregate and by age, sex, race and ethnicity and concurrent T2DM drug use\n\nAim 5. Evaluate trends in new pharmacy dispensing of SGLT2i and GLP1-RA between 2014 and 2021, by baseline ASCVD, heart failure and diabetic kidney disease.\n\nAim 6. Describe primary adherence, secondary adherence, and persistence for diabetes medication\n\nAim 7. Compare rates of primary non-adherence, secondary adherence, and medication persistence for brand name and generic medications for type 2 diabetes in specific subgroups of patients\n\nAim 8. Examine trends in medication possession for brand name medications over the course of the calendar year\n\nGlucose-lowering medications will be compared at both the class and agent level. The key outcomes that will be considered are MACE 3-point, Myocardial Infarction, Stroke, Heart Failure, Hospitalization, Coronary or Carotid Artery Stent or Bypass Procedure, CVD Mortality, Overall Mortality. Additional patient-centered outcomes will be specified based on insights from stakeholder members of the research team."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Type 2 Diabetes Mellitus",
+                "Cardiovascular Diseases"
+            ],
+            "keywords": [
+                "Type 2 Diabetes Mellitus",
+                "Cardiovascular Diseases",
+                "Medication",
+                "Treatment"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 270000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "SU",
+                    "description": "Exposure to the class of drugs known as Sulfonylureas (SU)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "DPP4",
+                    "description": "Exposure to the class of drugs known as Dipeptidyl peptidase-4 inhibitors (DPP4)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "SGLT2i",
+                    "description": "Exposure to the class of drugs known as Sodium-glucose cotransporter-2 inhibitors (SGLT2i)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "GLP-1RA",
+                    "description": "Exposure to the class of drugs known as Glucagon-like peptide-1 receptor agonists (GLP-1RA)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "SGLT2i or GLP-1RA",
+                    "description": "Exposure to either SGLT2i or GLP-1RA"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Linagliptin (DPP4)",
+                    "description": "Exposure to agent Linagliptin (DPP4)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Exenatide (GLP-1RA)",
+                    "description": "Exposure to agent Exenatide (GLP1-RA)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Liraglutide (GLP-1RA)",
+                    "description": "Exposure to agent Liraglutide (GLP-1RA)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Empagliflozin (SGLT2i)",
+                    "description": "Exposure to agent Empagliflozin (SGLT2i)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Glimepiride (SU)",
+                    "description": "Exposure to agent Glimepiride (SU)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Glipizide (SU)",
+                    "description": "Exposure to Glimepiride (SU)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Glimepiride (SU) or Glipizide (SU)",
+                    "description": "Exposure to agent Glimepiride (SU) or Glipizide (SU)"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "SU or DPP4 (excluding saxagliptin and alogliptin)",
+                    "description": "Exposure to either SU or DPP4 excluding Saxagliptin and Alogliptin"
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Exenatide (GLP-1RA) or Liraglutide (GLP-1RA)",
+                    "description": "Exposure to either Exenatide (GLP-1RA) or Liraglutide (GLP-1RA)"
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Incidence of 3-point Major Adverse Cardiovascular Events (MACE)",
+                    "description": "3-point MACE is defined as a single outcome measure, which is a composite measure of nonfatal myocardial infarction, nonfatal stroke, or cardiovascular disease death.",
+                    "timeFrame": "1/1/2014 to 6/30/2021"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "* Dispensing of either of the set of drugs being compared\n* No prior dispensing of any of the drugs compared\n* Evidence of Type 2 Diabetes Mellitus diagnosis\n* Age 18-85\n* Not currently pregnant\n* No evidence of dementia or short-term life expectancy from prior cancer diagnoses\n* History of \u22652 years of continuous health plan membership\n* \u22651 A1c test in the past 18 months",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "85 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients from six large care delivery systems with integrated administrative and EHR clinical data sources (Geisinger in Pennsylvania, Henry Ford Health System in Michigan, HealthPartners Institute in Minnesota and Wisconsin, and Kaiser Permanente of Northern California, Southern California, and Hawaii) who were new users of glucose-lowering medications between 01/01/2014 and 06/30/2023.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Romain S. Neugebauer, PhD",
+                    "role": "CONTACT",
+                    "phone": "510-891-3234",
+                    "email": "Romain.S.Neugebauer@kp.org"
+                },
+                {
+                    "name": "Rosa M. Hippler, MA",
+                    "role": "CONTACT",
+                    "phone": "510-891-3721",
+                    "email": "Rosa.M.Hippler@kp.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Romain S. Neugebauer, PhD",
+                    "affiliation": "Kaiser Permanente",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                },
+                {
+                    "name": "Patrick J O'Connor, MD, MA, MPH",
+                    "affiliation": "HealthPartners Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Romain S. Neugebauer",
+                    "status": "RECRUITING",
+                    "city": "Oakland",
+                    "state": "California",
+                    "zip": "94612",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Romain S Neugebauer, PhD",
+                            "role": "CONTACT",
+                            "phone": "510-891-3234",
+                            "email": "Romain.S.Neugebauer@kp.org"
+                        },
+                        {
+                            "name": "Rosa M Hippler",
+                            "role": "CONTACT",
+                            "phone": "510-891-3721",
+                            "email": "Rosa.M.Hippler@kp.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.80437,
+                        "lon": -122.2708
+                    }
+                },
+                {
+                    "facility": "Kaiser Permanente Southern California",
+                    "status": "RECRUITING",
+                    "city": "Pasadena",
+                    "state": "California",
+                    "zip": "91101",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jaejin An, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-807-4298",
+                            "email": "Jaejin.X.An@kp.org"
+                        },
+                        {
+                            "name": "Cecilia Portugal",
+                            "role": "CONTACT",
+                            "phone": "626-710-6777",
+                            "email": "Cecilia.X.Portugal@kp.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.14778,
+                        "lon": -118.14452
+                    }
+                },
+                {
+                    "facility": "Kaiser Permanente Hawaii",
+                    "status": "RECRUITING",
+                    "city": "Honolulu",
+                    "state": "Hawaii",
+                    "zip": "96817",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Caryn Oshiro, PhD",
+                            "role": "CONTACT",
+                            "phone": "808-432-5555",
+                            "phoneExt": "1486",
+                            "email": "Caryn.ES.Oshiro@kp.org"
+                        },
+                        {
+                            "name": "Yannica Martinez",
+                            "role": "CONTACT",
+                            "phone": "808-432-5555",
+                            "phoneExt": "1571",
+                            "email": "Yannica-theda.s.martinez@kp.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 21.30694,
+                        "lon": -157.85833
+                    }
+                },
+                {
+                    "facility": "Henry Ford Health System",
+                    "status": "RECRUITING",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrea Cassidy-Bushrow, PhD",
+                            "role": "CONTACT",
+                            "phone": "313-874-6097",
+                            "email": "acassid1@hfhs.org"
+                        },
+                        {
+                            "name": "Lisa King",
+                            "role": "CONTACT",
+                            "phone": "313-874-6223",
+                            "email": "Lking2@hfhs.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                },
+                {
+                    "facility": "HealthPartners Institute",
+                    "status": "RECRUITING",
+                    "city": "Bloomington",
+                    "state": "Minnesota",
+                    "zip": "55425",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Patrick O'Connor, MD, MA, MPH",
+                            "role": "CONTACT",
+                            "phone": "952-967-5080",
+                            "email": "patrick.j.oconnor@healthpartners.com"
+                        },
+                        {
+                            "name": "Kris Ohnsorg, RN, MPH, PMP",
+                            "role": "CONTACT",
+                            "email": "Kris.A.Ohnsorg@HealthPartners.Com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.8408,
+                        "lon": -93.29828
+                    }
+                },
+                {
+                    "facility": "Geisinger",
+                    "status": "RECRUITING",
+                    "city": "Danville",
+                    "state": "Pennsylvania",
+                    "zip": "17821",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sarah Krahe-Dombrowski, PharmD, BCACP",
+                            "role": "CONTACT",
+                            "phone": "866-248-1980",
+                            "email": "skrahedombrowski@geisinger.edu"
+                        },
+                        {
+                            "name": "Vanessa Duboski",
+                            "role": "CONTACT",
+                            "phone": "570-714-6682",
+                            "email": "vduboski1@geisinger.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.96342,
+                        "lon": -76.61273
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000003924",
+                    "term": "Diabetes Mellitus, Type 2"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7119",
+                    "name": "Diabetes Mellitus, Type 2",
+                    "asFound": "Type 2 Diabetes",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "asFound": "Diabetes Mellitus",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000069450",
+                    "term": "Liraglutide"
+                },
+                {
+                    "id": "D000077270",
+                    "term": "Exenatide"
+                },
+                {
+                    "id": "C000570240",
+                    "term": "Empagliflozin"
+                },
+                {
+                    "id": "C000057619",
+                    "term": "Glimepiride"
+                },
+                {
+                    "id": "D000069476",
+                    "term": "Linagliptin"
+                },
+                {
+                    "id": "C000502994",
+                    "term": "Saxagliptin"
+                },
+                {
+                    "id": "C000520853",
+                    "term": "Alogliptin"
+                },
+                {
+                    "id": "D000005913",
+                    "term": "Glipizide"
+                },
+                {
+                    "id": "D000005934",
+                    "term": "Glucagon"
+                },
+                {
+                    "id": "D000052216",
+                    "term": "Glucagon-Like Peptide 1"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000097789",
+                    "term": "Glucagon-Like Peptide-1 Receptor Agonists"
+                },
+                {
+                    "id": "D000007004",
+                    "term": "Hypoglycemic Agents"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000054795",
+                    "term": "Incretins"
+                },
+                {
+                    "id": "D000006728",
+                    "term": "Hormones"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                },
+                {
+                    "id": "D000077203",
+                    "term": "Sodium-Glucose Transporter 2 Inhibitors"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000019440",
+                    "term": "Anti-Obesity Agents"
+                },
+                {
+                    "id": "D000000889",
+                    "term": "Anti-Arrhythmia Agents"
+                },
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000054873",
+                    "term": "Dipeptidyl-Peptidase IV Inhibitors"
+                },
+                {
+                    "id": "D000011480",
+                    "term": "Protease Inhibitors"
+                },
+                {
+                    "id": "D000004791",
+                    "term": "Enzyme Inhibitors"
+                },
+                {
+                    "id": "D000005765",
+                    "term": "Gastrointestinal Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M1691",
+                    "name": "Sodium-Glucose Transporter 2 Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M258082",
+                    "name": "Empagliflozin",
+                    "asFound": "Continued",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9043",
+                    "name": "Glucagon",
+                    "asFound": "Extra",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26997",
+                    "name": "Glucagon-Like Peptide 1",
+                    "asFound": "Extra",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M419",
+                    "name": "Liraglutide",
+                    "asFound": "Place",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3401",
+                    "name": "Glucagon-Like Peptide-1 Receptor Agonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M445",
+                    "name": "Linagliptin",
+                    "asFound": "Hrs",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M27957",
+                    "name": "Dipeptidyl-Peptidase IV Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1726",
+                    "name": "Exenatide",
+                    "asFound": "Mcg/kg",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9023",
+                    "name": "Glipizide",
+                    "asFound": "Aesthetic",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M228152",
+                    "name": "Saxagliptin",
+                    "asFound": "Aflibercept",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M252104",
+                    "name": "Glimepiride",
+                    "asFound": "Run-",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M247106",
+                    "name": "Alogliptin",
+                    "asFound": "Breast milk",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10054",
+                    "name": "Hypoglycemic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27905",
+                    "name": "Incretins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21396",
+                    "name": "Anti-Obesity Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4213",
+                    "name": "Anti-Arrhythmia Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19609",
+                    "name": "HIV Protease Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14343",
+                    "name": "Protease Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7951",
+                    "name": "Enzyme Inhibitors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8881",
+                    "name": "Gastrointestinal Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                },
+                {
+                    "abbrev": "AnObAg",
+                    "name": "Anti-Obesity Agents"
+                },
+                {
+                    "abbrev": "AnArAg",
+                    "name": "Anti-Arrhythmia Agents"
+                },
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,652 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05578092",
+            "orgStudyIdInfo": {
+                "id": "CA247-0004"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "CA247-0004",
+                    "type": "OTHER",
+                    "domain": "Bristol-Myers Squibb Protocol ID"
+                },
+                {
+                    "id": "0902-001",
+                    "type": "OTHER",
+                    "domain": "Mirati Therapeutics Protocol ID"
+                }
+            ],
+            "organization": {
+                "fullName": "Mirati Therapeutics Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "A Phase 1/2 Study of MRTX0902 in Solid Tumors With Mutations in the KRAS MAPK Pathway",
+            "officialTitle": "A Phase 1/2 Multiple Expansion Cohort Trial of the SOS1 Inhibitor MRTX0902 in Patients With Advanced Solid Tumors Harboring Mutations in the KRAS MAPK Pathway",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "a-phase-study-of-in-solid-tumors-with-mutations-in-the-kras-mapk-pathway"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-11-04",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-07-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-10-10",
+            "studyFirstSubmitQcDate": "2022-10-10",
+            "studyFirstPostDateStruct": {
+                "date": "2022-10-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Mirati Therapeutics Inc.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a Phase 1/2, open-label, multicenter, study evaluating the safety, tolerability, PK, PD, and anti-tumor activity of MRTX0902 alone and in combination with MRTX849 (adagrasib) in patients with advanced solid tumor malignancy harboring mutations in the KRAS-MAPK pathways.",
+            "detailedDescription": "This first-in-human clinical trial will begin with an exploration of MRTX0902 dose and regimen. Once safety experience and PK data are available for the monotherapy regimen, dose escalation of the combination of MRTX0902 and adagrasib will be initiated, and will include a separate preliminary food effect assessments on MRTX0902 PK in combination with adagrasib. As potentially viable regimens are identified, Phase 1b expansion cohorts may be implemented to ensure collection of sufficient safety and PK information, and early evidence of clinical activity are available to recommend Phase 2 regimens. In Phase 2, separate cohorts of patients by histological diagnosis and/or baseline characteristics will be evaluated for the clinical activity and efficacy of MRTX0902 in combination with adagrasib."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Solid Tumor",
+                "Advanced Solid Tumor",
+                "Non Small Cell Lung Cancer",
+                "Colo-rectal Cancer"
+            ],
+            "keywords": [
+                "Non Small Cell Lung Cancer",
+                "NSCLC",
+                "Colorectal Cancer",
+                "CRC",
+                "EGFR",
+                "KRAS",
+                "SOS1",
+                "Solid Tumor",
+                "Advanced Solid Tumor",
+                "Malignant"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 228,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Phase 1/1B Monotherapy",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose Escalation/Evaluation",
+                    "interventionNames": [
+                        "Drug: MRTX0902"
+                    ]
+                },
+                {
+                    "label": "Phase 1/1B Combination Therapy",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose Escalation/Evaluation and Food Effect Assessment",
+                    "interventionNames": [
+                        "Drug: MRTX0902",
+                        "Drug: MRTX849"
+                    ]
+                },
+                {
+                    "label": "Phase 2",
+                    "type": "EXPERIMENTAL",
+                    "description": "MRTX0902 and adagrasib combination RP2D administered to separate cohorts of patients with selected solid tumor malignancies with KRAS G12C mutation to include the following: NSCLC, CRC, Other Solid Tumors",
+                    "interventionNames": [
+                        "Drug: MRTX0902",
+                        "Drug: MRTX849"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "MRTX0902",
+                    "description": "SOS1 inhibitor",
+                    "armGroupLabels": [
+                        "Phase 1/1B Combination Therapy",
+                        "Phase 1/1B Monotherapy",
+                        "Phase 2"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "MRTX849",
+                    "description": "KRAS G12C inhibitor",
+                    "armGroupLabels": [
+                        "Phase 1/1B Combination Therapy",
+                        "Phase 2"
+                    ],
+                    "otherNames": [
+                        "adagrasib (KRAZATI)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Phase 1: Number of Patients who Experience Dose-Limiting Toxicity",
+                    "timeFrame": "21 Days"
+                },
+                {
+                    "measure": "Phase1/1B: Number of patients who experience a treatment-related adverse event",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Phase 2: Objective response rate (ORR)",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Phase 2: Duration of response (DOR)",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Phase 2: Progression free survival (PFS)",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Phase 2: Overall survival (OS)",
+                    "timeFrame": "2 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Area under the plasma concentration versus time curve",
+                    "description": "AUC - MRTX0902 and adagrasib",
+                    "timeFrame": "Up to 4 days"
+                },
+                {
+                    "measure": "Time to achieve maximal plasma concentration",
+                    "description": "Tmax - MRTX0902 and adagrasib",
+                    "timeFrame": "Up to 4 days"
+                },
+                {
+                    "measure": "Maximum observed plasma concentration",
+                    "description": "Cmax - MRTX0902 and adagrasib",
+                    "timeFrame": "Up to 4 days"
+                },
+                {
+                    "measure": "Terminal elimination half-life",
+                    "description": "t1/2 - MRTX0902",
+                    "timeFrame": "Up to 4 days"
+                },
+                {
+                    "measure": "Apparent total plasma clearance when dosed orally",
+                    "description": "CL/F - MRTX0902",
+                    "timeFrame": "Up to 4 days"
+                },
+                {
+                    "measure": "Apparent volume of distribution when dosed orally",
+                    "description": "Vz/F - MRTX0902",
+                    "timeFrame": "Up to 4 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Histologically confirmed diagnosis of a solid tumor malignancy with any of the following oncogenic mutations detected in tumor tissue or ctDNA by a sponsor-approved test:\n\n  1. MRTX0902 monotherapy: known KRAS mutations, known annotated recurrent activating SOS1, PTPN11, class III BRAF, or EGFR mutation, or known annotated recurrent inactivating NF1 mutation;\n  2. MRTX0902 and adagrasib combination therapy: KRAS G12C mutation.\n* Unresectable or metastatic disease\n* No available treatment with curative intent; standard treatment is not available or patient declines\n* Presence of tumor lesions to be evaluated per RECIST 1.1:\n\n  1. Phase 1 dose escalation, RECIST 1.1 measurable or evaluable disease\n  2. Phase 1b and Phase 2 cohorts, RECIST 1.1 measurable disease\n* Presence of a tumor lesion amenable to mandatory biopsy for pharmacodynamic evaluation at baseline and on-study unless Sponsor-confirmed as medically unsafe or infeasible.\n* Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n* Adequate organ function\n\nExclusion Criteria:\n\n* Active brain metastases or carcinomatous meningitis\n* Prior treatment with a KRAS G12C inhibitor (for Phase 1b expansion for MRTX0902 and adagrasib combination, and Phase 2 cohorts only)\n* History of significant hemoptysis or hemorrhage within 4 weeks of the first dose of study treatment.\n* Major surgery within 4 weeks of first dose of study treatment\n* History of pneumonitis or interstitial lung disease\n* Ongoing need for medication with following characteristics: substrate of CYP3A; strong inducer or inhibitor or CYP3A and/or P-gp; strong inhibitors of BRCP and proton pump inhibitors\n* Cardiac abnormalities\n* History of intestinal disease, inflammatory bowel disease, major gastric surgery, or other gastrointestinal conditions (eg, uncontrolled nausea, vomiting, malabsorption syndrome) likely to alter absorption of study treatment or result in inability to swallow oral medications",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "BMS Clinical Trials Contact Center www.BMSClinicalTrials.com",
+                    "role": "CONTACT",
+                    "phone": "855-907-3286",
+                    "email": "Clinical.Trials@bms.com"
+                },
+                {
+                    "name": "First line of the email MUST contain the NCT# and Site #.",
+                    "role": "CONTACT"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Bristol-Myers Squibb",
+                    "affiliation": "Bristol-Myers Squibb",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Yale Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06520",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "So Yeon Kim, Site 001-108",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                },
+                {
+                    "facility": "Local Institution - 001-113",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Washington",
+                    "state": "District of Columbia",
+                    "zip": "20016-2633",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Site 001-113",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.89511,
+                        "lon": -77.03637
+                    }
+                },
+                {
+                    "facility": "Johns Hopkins University",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21287",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nilofer Azad, Site 001-103",
+                            "role": "CONTACT",
+                            "phone": "410-502-2995"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Local Institution - 001-110",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905-0001",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Site 001-110",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                },
+                {
+                    "facility": "University of Cincinnati Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Cincinnati",
+                    "state": "Ohio",
+                    "zip": "45219-2364",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Davendra Sohal, Site 001-106",
+                            "role": "CONTACT",
+                            "phone": "513-558-2361"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.12713,
+                        "lon": -84.51435
+                    }
+                },
+                {
+                    "facility": "Oregon Health and Science University",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239-3011",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Shivaani Kummar, Site 001-109",
+                            "role": "CONTACT",
+                            "phone": "503-314-7168"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                },
+                {
+                    "facility": "Sarah Cannon Research Institute Central Office",
+                    "status": "RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37203",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jason Henry, Site 001-101",
+                            "role": "CONTACT",
+                            "phone": "720-754-4653"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "Tennessee Oncology NASH",
+                    "status": "RECRUITING",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37203",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Melissa Johnson, Site 001-102",
+                            "role": "CONTACT",
+                            "phone": "615-329-7274"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                },
+                {
+                    "facility": "MD Anderson Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "David Hong, Site 001-107",
+                            "role": "CONTACT",
+                            "phone": "713-563-1930"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "NEXT Virginia - NEXT Oncology - PPDS",
+                    "status": "RECRUITING",
+                    "city": "Fairfax",
+                    "state": "Virginia",
+                    "zip": "22031",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alexander Spira, Site 001-104",
+                            "role": "CONTACT",
+                            "phone": "703-280-5390"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.84622,
+                        "lon": -77.30637
+                    }
+                },
+                {
+                    "facility": "Seattle Cancer Care Alliance",
+                    "status": "RECRUITING",
+                    "city": "Seattle",
+                    "state": "Washington",
+                    "zip": "98109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Elena Chiorean, Site 001-105",
+                            "role": "CONTACT",
+                            "phone": "206-606-6248"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.60621,
+                        "lon": -122.33207
+                    }
+                },
+                {
+                    "facility": "Pan American Center for Oncology Trials, LLC",
+                    "status": "RECRUITING",
+                    "city": "Rio Piedras",
+                    "zip": "00935",
+                    "country": "Puerto Rico",
+                    "contacts": [
+                        {
+                            "name": "Marcia Cruz-Correa, Site 001-114",
+                            "role": "CONTACT",
+                            "phone": "787-362-9625"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 18.39745,
+                        "lon": -66.04989
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "BMS Clinical Trial Information",
+                    "url": "https://www.bms.com/researchers-and-partners/clinical-trials-and-research.html"
+                },
+                {
+                    "label": "FDA Safety Alerts and Recalls",
+                    "url": "http://www.fda.gov/MEDWATCH/safety.htm"
+                },
+                {
+                    "label": "BMS Clinical Trial Patient Recruiting",
+                    "url": "https://www.BMSStudyConnect.com"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000002289",
+                    "term": "Carcinoma, Non-Small-Cell Lung"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "asFound": "Non-small Cell Lung Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "C000718190",
+                    "term": "Adagrasib"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M288000",
+                    "name": "Adagrasib",
+                    "asFound": "Topical steroid",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

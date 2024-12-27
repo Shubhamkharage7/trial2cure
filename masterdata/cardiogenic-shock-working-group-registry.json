@@ -1,0 +1,908 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04682483",
+            "orgStudyIdInfo": {
+                "id": "12670"
+            },
+            "organization": {
+                "fullName": "Tufts Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Cardiogenic Shock Working Group Registry",
+            "officialTitle": "Cardiogenic Shock Working Group Registry",
+            "acronym": "CSWG",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "cardiogenic-shock-working-group-registry"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2017-12-04",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-12-07",
+            "studyFirstSubmitQcDate": "2020-12-22",
+            "studyFirstPostDateStruct": {
+                "date": "2020-12-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Tufts Medical Center",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Abbott",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "Boston Scientific Corporation",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "Abiomed Inc.",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "Getinge Group",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The Cardiogenic Shock Working Group is a multicenter registry where we collect de-identified clinical variables from the medical records and follow-up phone calls of shock patients from multiple institutions and centralize this data to a single registry for analysis of clinical outcomes.",
+            "detailedDescription": "The Cardiogenic Shock Working Group is an Academic Research Consortium involving multiple medical centers within the United States and includes a multicenter registry for patients with cardiogenic shock. De-identified clinical variables are collected from medical records and follow-up phone calls. There is currently no central database for cardiogenic shock, therefore analysis of cardiogenic shock on a larger scale is limited. A goal of the Cardiogenic Shock Working Group is to create a centralized registry, compiled of data from multiple institutions, to analyze clinical outcomes. The Cardiogenic Shock Working Group Registry will include a retrospective arm, where data is collected during the course of the hospital stay, and a prospective arm, where long-term outcomes will be assessed."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cardiogenic Shock"
+            ],
+            "keywords": [
+                "Cardiogenic Shock",
+                "mechanical circulatory support",
+                "hemodynamics",
+                "heart failure",
+                "acute myocardial infarction",
+                "registry",
+                "critical care",
+                "clinical outcomes research"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "1 Year",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "OTHER"
+            },
+            "enrollmentInfo": {
+                "count": 5000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Cardiogenic Shock Patients",
+                    "description": "Cardiogenic Shock patients eligible for this study are defined by at least one of the two categories below.\n\n1. Patients have at least 2 of the following concurrently at any point during the index hospitalization: MAP \\< 60mmHg or a \\>30mmHg drop in MAP from baseline, SBP \\< 90mmHg or a \\>30mmHg drop in SBP from baseline, Pulse \\> 100, Cardiac Index \\< 2.2, Cardiac Power Output \u2264 0.6 or PAPI \\< 1.0.\n2. Patients require the use of at least 1 vasopressor, inotrope or acute mechanical circulatory support device to maintain values above the above targets.",
+                    "interventionNames": [
+                        "Drug: Vasopressor",
+                        "Drug: Inotrope",
+                        "Device: Acute Mechanical Circulatory Support Devices"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Vasopressor",
+                    "description": "The vasopressors include phenylephrine, norepinephrine, epinephrine, dopamine and vasopressin.",
+                    "armGroupLabels": [
+                        "Cardiogenic Shock Patients"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Inotrope",
+                    "description": "Inotropes include dobutamine and milrinone.",
+                    "armGroupLabels": [
+                        "Cardiogenic Shock Patients"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Acute Mechanical Circulatory Support Devices",
+                    "description": "Acute Mechanical Circulatory Support devices include ECMO (VV), ECMO (VA), Impella CP, Impella 2.5, Impella 5.0, Impella 5.5, Impella RP, IABP, Centrimag, Tandem Heart and ProTek Duo.",
+                    "armGroupLabels": [
+                        "Cardiogenic Shock Patients"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Rate of Mortality",
+                    "description": "Death in subjects during the time frame.",
+                    "timeFrame": "30 days after discharge"
+                },
+                {
+                    "measure": "Rate of Mortality",
+                    "description": "Death in subjects during the time frame.",
+                    "timeFrame": "1 year after discharge"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Rate of Re-hospitalization",
+                    "description": "We will be observing if patient was hospitalized again during the 1 year-time frame. We will collect information on surgeries and interventions during the course of rehospitalization.",
+                    "timeFrame": "30 day after discharge"
+                },
+                {
+                    "measure": "Rate of Re-hospitalization",
+                    "description": "We will be observing if patient was hospitalized again during the 1 year-time frame. We will collect information on surgeries and interventions during the course of rehospitalization.",
+                    "timeFrame": "1 year after discharge"
+                },
+                {
+                    "measure": "New York Heart Association (NYHA) Class",
+                    "description": "NYHA Classification provides a way to classify the stages of heart failure. Class I- No symptoms and no limitation in ordinary physical activity Class II- Mild symptoms (mild shortness of breath and/or angina) and slight limitation during ordinary activity Class III - Marked limitation in activity due to symptoms, even during less-than-ordinary activity Class IV - Severe limitations",
+                    "timeFrame": "30 day after discharge"
+                },
+                {
+                    "measure": "New York Heart Association (NYHA) Class",
+                    "description": "NYHA Classification provides a way to classify the stages of heart failure. Class I- No symptoms and no limitation in ordinary physical activity Class II- Mild symptoms (mild shortness of breath and/or angina) and slight limitation during ordinary activity Class III - Marked limitation in activity due to symptoms, even during less-than-ordinary activity Class IV - Severe limitations",
+                    "timeFrame": "1 year after discharge"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients must have cardiogenic shock.\n\nCardiogenic shock is defined by at least one of the two categories below:\n\n1. At least 2 of the following concurrently at any point during the index hospitalization:\n\n   * Cardiac Index \\< 2.2\n   * PAPI \\< 1.0\n   * Cardiac Power Output \u2264 0.6\n   * MAP \\< 60mmHg or a \\>30mmHg drop in MAP from baseline\n   * SBP \\< 90mmHg or a \\>30mmHg drop in SBP from baseline\n   * Pulse \\> 100\n2. Require at least one acute mechanical circulatory support device, vasopressor or inotrope to maintain values above the above target.\n\nPost-cardiotomy patients must meet the inclusion criteria 72 hours after their surgery to be included in this registry.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "People who are 18 or older who have an official diagnosis of cardiogenic shock.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Navin K Kapur, MD",
+                    "role": "CONTACT",
+                    "phone": "6176368252",
+                    "email": "nkapur@tuftsmedicalcenter.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Reshad Garan, MD",
+                    "affiliation": "Beth Israel Deaconess Medical Center",
+                    "role": "STUDY_DIRECTOR"
+                },
+                {
+                    "name": "Claudius Mahr, DO",
+                    "affiliation": "University of Washington",
+                    "role": "STUDY_DIRECTOR"
+                },
+                {
+                    "name": "Jaime Hernandez-Montfort, MD",
+                    "affiliation": "Cleveland Clinic Foundation-Florida",
+                    "role": "STUDY_DIRECTOR"
+                },
+                {
+                    "name": "Daniel Burkhoff, MD PhD",
+                    "affiliation": "CardioVascular Research Foundation",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Cleveland Clinic Florida",
+                    "status": "RECRUITING",
+                    "city": "Weston",
+                    "state": "Florida",
+                    "zip": "33331",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jaime Hernandez-Montfort, MD MPH",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Jaime Hernandez-Montfort, MD MPH",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 26.10037,
+                        "lon": -80.39977
+                    }
+                },
+                {
+                    "facility": "Northwestern Medicine",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60611",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Esther Vorovich, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Esther Vorovich",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "University of Chicago",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60612",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sandeep Nathan, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Sandeep Nathan, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Maine Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Maine",
+                    "zip": "04102",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrew Schwartzman, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Andrew Schwartzman, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.66147,
+                        "lon": -70.25533
+                    }
+                },
+                {
+                    "facility": "Tufts Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02111",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Navin K Kapur, MD",
+                            "role": "CONTACT",
+                            "phone": "617-636-6140",
+                            "email": "nkapur@tuftsmedicalcenter.org"
+                        },
+                        {
+                            "name": "Navin Kapur, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Beth Israel Deaconess Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Boston",
+                    "state": "Massachusetts",
+                    "zip": "02215",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Arthur R Garan",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Arthur R Garan, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.35843,
+                        "lon": -71.05977
+                    }
+                },
+                {
+                    "facility": "Hackensack Meridian Health",
+                    "status": "RECRUITING",
+                    "city": "Hackensack",
+                    "state": "New Jersey",
+                    "zip": "07601",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Haroon Faraz, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Haroon Faraz, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.88593,
+                        "lon": -74.04347
+                    }
+                },
+                {
+                    "facility": "Columbia University Irving Medical Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Justin Fried, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Justin Fried, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Providence St. Vincent Heart Clinic",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97225",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Jacob Abraham, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Jacob Abraham, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                },
+                {
+                    "facility": "Allegheny General Hospital",
+                    "status": "RECRUITING",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15212",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Manreet Kanwar, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Manreet Kanwar, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                },
+                {
+                    "facility": "University Of Pittsburgh Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15261",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Gavin Hickey, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Gavin Hickey, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                },
+                {
+                    "facility": "Baylor Scott & White Advanced Heart Failure Clinic",
+                    "status": "RECRUITING",
+                    "city": "Dallas",
+                    "state": "Texas",
+                    "zip": "75201",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Detlef Wencker, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Detlef Wencker, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.78306,
+                        "lon": -96.80667
+                    }
+                },
+                {
+                    "facility": "University of Texas Medical Branch",
+                    "status": "RECRUITING",
+                    "city": "Galveston",
+                    "state": "Texas",
+                    "zip": "77555",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Wissam Khalife, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Wissam Khalife",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.30135,
+                        "lon": -94.7977
+                    }
+                },
+                {
+                    "facility": "Houston Methodist Hospital",
+                    "status": "RECRUITING",
+                    "city": "Houston",
+                    "state": "Texas",
+                    "zip": "77030",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": ": Ju H Kim, MD",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Ju H Kim, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.76328,
+                        "lon": -95.36327
+                    }
+                },
+                {
+                    "facility": "Inova Health System",
+                    "status": "RECRUITING",
+                    "city": "Falls Church",
+                    "state": "Virginia",
+                    "zip": "22042",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Shashank Sinha, MD, MSc",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Shashank Sinha, MD, MSc",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.88233,
+                        "lon": -77.17109
+                    }
+                },
+                {
+                    "facility": "University of Washington Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Seattle",
+                    "state": "Washington",
+                    "zip": "98195-9472",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Claudius Mahr, DO",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Claudius Mahr, DO",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.60621,
+                        "lon": -122.33207
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "32280413",
+                    "type": "RESULT",
+                    "citation": "Kapur NK, Thayer KL, Zweck E. Cardiogenic Shock in the Setting of Acute Myocardial Infarction. Methodist Debakey Cardiovasc J. 2020 Jan-Mar;16(1):16-21. doi: 10.14797/mdcj-16-1-16."
+                },
+                {
+                    "pmid": "32352638",
+                    "type": "RESULT",
+                    "citation": "Pahuja M, Chehab O, Ranka S, Mishra T, Ando T, Yassin AS, Thayer KL, Shah P, Kimmelstiel CD, Salehi P, Kapur NK. Incidence and clinical outcomes of stroke in ST-elevation myocardial infarction and cardiogenic shock. Catheter Cardiovasc Interv. 2021 Feb 1;97(2):217-225. doi: 10.1002/ccd.28919. Epub 2020 Apr 30."
+                },
+                {
+                    "pmid": "32900234",
+                    "type": "RESULT",
+                    "citation": "Thayer KL, Zweck E, Ayouty M, Garan AR, Hernandez-Montfort J, Mahr C, Morine KJ, Newman S, Jorde L, Haywood JL, Harwani NM, Esposito ML, Davila CD, Wencker D, Sinha SS, Vorovich E, Abraham J, O'Neill W, Udelson J, Burkhoff D, Kapur NK. Invasive Hemodynamic Assessment and Classification of In-Hospital Mortality Risk Among Patients With Cardiogenic Shock. Circ Heart Fail. 2020 Sep;13(9):e007099. doi: 10.1161/CIRCHEARTFAILURE.120.007099. Epub 2020 Sep 9."
+                },
+                {
+                    "pmid": "32487943",
+                    "type": "RESULT",
+                    "citation": "Whitehead E, Thayer K, Kapur NK. Clinical trials of acute mechanical circulatory support in cardiogenic shock and high-risk percutaneous coronary intervention. Curr Opin Cardiol. 2020 Jul;35(4):332-340. doi: 10.1097/HCO.0000000000000751."
+                },
+                {
+                    "pmid": "32765837",
+                    "type": "RESULT",
+                    "citation": "Kapur NK, Whitehead EH, Thayer KL, Pahuja M. The science of safety: complications associated with the use of mechanical circulatory support in cardiogenic shock and best practices to maximize safety. F1000Res. 2020 Jul 29;9:F1000 Faculty Rev-794. doi: 10.12688/f1000research.25518.1. eCollection 2020."
+                },
+                {
+                    "pmid": "33121702",
+                    "type": "RESULT",
+                    "citation": "Garan AR, Kanwar M, Thayer KL, Whitehead E, Zweck E, Hernandez-Montfort J, Mahr C, Haywood JL, Harwani NM, Wencker D, Sinha SS, Vorovich E, Abraham J, O'Neill W, Burkhoff D, Kapur NK. Complete Hemodynamic Profiling With Pulmonary Artery Catheters in Cardiogenic Shock Is Associated With Lower In-Hospital Mortality. JACC Heart Fail. 2020 Nov;8(11):903-913. doi: 10.1016/j.jchf.2020.08.012."
+                },
+                {
+                    "pmid": "33005634",
+                    "type": "RESULT",
+                    "citation": "Whitehead EH, Thayer KL, Burkhoff D, Uriel N, Ohman EM, O'Neill W, Kapur NK. Central Venous Pressure and Clinical Outcomes During Left-Sided Mechanical Support for Acute Myocardial Infarction and Cardiogenic Shock. Front Cardiovasc Med. 2020 Aug 28;7:155. doi: 10.3389/fcvm.2020.00155. eCollection 2020."
+                },
+                {
+                    "pmid": "32473083",
+                    "type": "RESULT",
+                    "citation": "Pahuja M, Ranka S, Chehab O, Mishra T, Akintoye E, Adegbala O, Yassin AS, Ando T, Thayer KL, Shah P, Kimmelstiel CD, Salehi P, Kapur NK. Incidence and clinical outcomes of bleeding complications and acute limb ischemia in STEMI and cardiogenic shock. Catheter Cardiovasc Interv. 2021 May 1;97(6):1129-1138. doi: 10.1002/ccd.29003. Epub 2020 May 30."
+                },
+                {
+                    "pmid": "36342421",
+                    "type": "DERIVED",
+                    "citation": "Hernandez-Montfort J, Kanwar M, Sinha SS, Garan AR, Blumer V, Kataria R, Whitehead EH, Yin M, Li B, Zhang Y, Thayer KL, Baca P, Dieng F, Harwani NM, Guglin M, Abraham J, Hickey G, Nathan S, Wencker D, Hall S, Schwartzman A, Khalife W, Li S, Mahr C, Kim J, Vorovich E, Pahuja M, Burkhoff D, Kapur NK. Clinical Presentation and In-Hospital Trajectory of Heart Failure and Cardiogenic Shock. JACC Heart Fail. 2023 Feb;11(2):176-187. doi: 10.1016/j.jchf.2022.10.002. Epub 2022 Oct 31."
+                },
+                {
+                    "pmid": "35835491",
+                    "type": "DERIVED",
+                    "citation": "Kapur NK, Kanwar M, Sinha SS, Thayer KL, Garan AR, Hernandez-Montfort J, Zhang Y, Li B, Baca P, Dieng F, Harwani NM, Abraham J, Hickey G, Nathan S, Wencker D, Hall S, Schwartzman A, Khalife W, Li S, Mahr C, Kim JH, Vorovich E, Whitehead EH, Blumer V, Burkhoff D. Criteria for Defining Stages of Cardiogenic Shock Severity. J Am Coll Cardiol. 2022 Jul 19;80(3):185-198. doi: 10.1016/j.jacc.2022.04.049."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000012770",
+                    "term": "Shock, Cardiogenic"
+                },
+                {
+                    "id": "D000012769",
+                    "term": "Shock"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000009203",
+                    "term": "Myocardial Infarction"
+                },
+                {
+                    "id": "D000017202",
+                    "term": "Myocardial Ischemia"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000007238",
+                    "term": "Infarction"
+                },
+                {
+                    "id": "D000007511",
+                    "term": "Ischemia"
+                },
+                {
+                    "id": "D000009336",
+                    "term": "Necrosis"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M15577",
+                    "name": "Shock",
+                    "asFound": "Shock",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9421",
+                    "name": "Heart Failure",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15578",
+                    "name": "Shock, Cardiogenic",
+                    "asFound": "Cardiogenic Shock",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12155",
+                    "name": "Myocardial Infarction",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10282",
+                    "name": "Infarction",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6546",
+                    "name": "Coronary Artery Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19506",
+                    "name": "Myocardial Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10543",
+                    "name": "Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12284",
+                    "name": "Necrosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000014662",
+                    "term": "Vasoconstrictor Agents"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7992",
+                    "name": "Epinephrine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12575",
+                    "name": "Norepinephrine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13561",
+                    "name": "Phenylephrine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13031",
+                    "name": "Oxymetazoline",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30371",
+                    "name": "Racepinephrine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M211043",
+                    "name": "Epinephryl borate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17409",
+                    "name": "Vasoconstrictor Agents",
+                    "asFound": "USP",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7473",
+                    "name": "Dopamine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7456",
+                    "name": "Dobutamine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17414",
+                    "name": "Vasopressins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4437",
+                    "name": "Arginine Vasopressin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21943",
+                    "name": "Milrinone",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4854",
+                    "name": "Benzocaine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T433",
+                    "name": "Tannic Acid",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "VaCoAg",
+                    "name": "Vasoconstrictor Agents"
+                },
+                {
+                    "abbrev": "Resp",
+                    "name": "Respiratory System Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "CaAg",
+                    "name": "Cardiotonic Agents"
+                },
+                {
+                    "abbrev": "NaAg",
+                    "name": "Natriuretic Agents"
+                },
+                {
+                    "abbrev": "Coag",
+                    "name": "Coagulants"
+                },
+                {
+                    "abbrev": "VaDiAg",
+                    "name": "Vasodilator Agents"
+                },
+                {
+                    "abbrev": "PlAggInh",
+                    "name": "Platelet Aggregation Inhibitors"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "Ot",
+                    "name": "Other Dietary Supplements"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

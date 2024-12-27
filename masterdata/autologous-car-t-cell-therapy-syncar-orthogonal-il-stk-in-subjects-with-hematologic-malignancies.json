@@ -1,0 +1,618 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05665062",
+            "orgStudyIdInfo": {
+                "id": "STK-009-101"
+            },
+            "organization": {
+                "fullName": "Synthekine",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Autologous CD19 CAR-T Cell Therapy (SYNCAR-001) + Orthogonal IL-2 (STK-009) in Subjects With CD19+ Hematologic Malignancies",
+            "officialTitle": "A Phase 1 Study to Evaluate the Safety and Tolerability of a Combination Autologous CD19 CAR T Cell Therapy (SYNCAR-001 + STK-009) in Subjects With Relapsed or Refractory CD19+ Hematologic Malignancies",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other"
+            ],
+            "study": "autologous-car-t-cell-therapy-syncar-orthogonal-il-stk-in-subjects-with-hematologic-malignancies"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-06-24",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06-24",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-11",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-12-08",
+            "studyFirstSubmitQcDate": "2022-12-16",
+            "studyFirstPostDateStruct": {
+                "date": "2022-12-27",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-19",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Synthekine",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a first-in-human phase 1 study of SYNCAR-001 + STK-009 in patients with CD19+ hematologic malignancies.",
+            "detailedDescription": "SYNCAR-001 + STK-009 is a 2-component human orthogonal (ho) IL-2 receptor-ligand cell therapy consisting of (1) SYNCAR-001, a CD19-directed chimeric antigen receptor T cell (CAR-T) co-expressing an engineered IL-2 beta receptor (hoRb); and (2) STK-009, an engineered pegylated IL-2 cytokine (hoIL-2) selective for hoRb. The study will follow a 3+3 design during dose escalation. Cohort A will enroll subjects to SYNCAR-001 + STK-009 with lymphodepletion. At Dose Level 3, a separate dose escalation cohort will be introduced to enroll subjects to SYNCAR-001 + STK-009 without lymphodepletion (Cohort B). Subsequent dose expansions will enroll subjects at the RP2D for each cohort."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "CLL/SLL",
+                "NHL",
+                "Mantle Cell Lymphoma",
+                "Follicular Lymphoma",
+                "Large B-cell Lymphoma",
+                "Indolent B-Cell Non-Hodgkin Lymphoma",
+                "Diffuse Large B Cell Lymphoma"
+            ],
+            "keywords": [
+                "CART",
+                "CD19-CART",
+                "Chimeric antigen receptor",
+                "IL-2"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 36,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "SYNCAR-001 + STK-009 Cohort A",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose escalation: A single fixed dose of autologous SYNCAR-001 CAR-T intravenously (IV) will be administered in combination with repeated sequential ascending doses of STK-009 subcutaneously (SC)\n\nDose expansion: A single fixed dose of autologous SYNCAR-001 CAR-T IV will be administered in combination with repeated doses of STK-009 SC at the RP2D",
+                    "interventionNames": [
+                        "Drug: SYNCAR-001",
+                        "Drug: STK-009",
+                        "Drug: Cyclophosphamide",
+                        "Drug: Fludarabine"
+                    ]
+                },
+                {
+                    "label": "SYNCAR-001 + STK-009 Cohort B",
+                    "type": "EXPERIMENTAL",
+                    "description": "Dose escalation: A single fixed dose of autologous SYNCAR-001 CAR-T intravenously (IV) will be administered in combination with repeated sequential ascending doses of STK-009 subcutaneously (SC)\n\nDose expansion: A single fixed dose of autologous SYNCAR-001 CAR-T IV will be administered in combination with repeated doses of STK-009 SC at the RP2D",
+                    "interventionNames": [
+                        "Drug: SYNCAR-001",
+                        "Drug: STK-009"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "SYNCAR-001",
+                    "description": "SYNCAR-001 is an autologous CD19-targeted CAR-T with co-expression of hoRb",
+                    "armGroupLabels": [
+                        "SYNCAR-001 + STK-009 Cohort A",
+                        "SYNCAR-001 + STK-009 Cohort B"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "STK-009",
+                    "description": "STK-009 is a human orthogonal IL-2 cytokine selective for SYNCAR-001 CAR-T cells expressing hoRb",
+                    "armGroupLabels": [
+                        "SYNCAR-001 + STK-009 Cohort A",
+                        "SYNCAR-001 + STK-009 Cohort B"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cyclophosphamide",
+                    "description": "lymphodepletion",
+                    "armGroupLabels": [
+                        "SYNCAR-001 + STK-009 Cohort A"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Fludarabine",
+                    "description": "lymphodepletion",
+                    "armGroupLabels": [
+                        "SYNCAR-001 + STK-009 Cohort A"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Dose Limiting Toxicities (DLTs)",
+                    "description": "Incidence of adverse events (AEs) meeting protocol defined DLT criteria and determination of the maximum tolerated dose (MTD) and/or the recommended Phase 2 dose (RP2D) of STK-009 in combination with a fixed dose of SYNCAR-001",
+                    "timeFrame": "Up to 28 days post infusion (SYNCAR-001+STK-009)"
+                },
+                {
+                    "measure": "Adverse events",
+                    "description": "Assess the safety and tolerability of STK-009 in combination with SYNCAR-001 by review of AEs",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Objective response rate (ORR)",
+                    "description": "The ORR to treatment with SYNCAR-001 + STK-009",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                },
+                {
+                    "measure": "Duration of Response (DOR)",
+                    "description": "To evaluate the duration of anti-cancer response after SYNCAR-001 + STK-009 administration.",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                },
+                {
+                    "measure": "Progression Free Survival (PFS)",
+                    "description": "The time from the SYNCAR-001 administration date to the date of disease progression per Lugano Classification or iwCLL or death from any cause, whichever occurs earlier.",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                },
+                {
+                    "measure": "Area under the curve (AUC)",
+                    "description": "The quantification of the cumulative amount of drug over time.",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                },
+                {
+                    "measure": "Maximum Concentration (Cmax)",
+                    "description": "To identify the maximum (peak) drug concentration dosing.",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                },
+                {
+                    "measure": "Time of maximum concentration",
+                    "description": "The time to reach maximum (peak) drug concentration after dosing.",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                },
+                {
+                    "measure": "Immunogenicity",
+                    "description": "Immunogenicity will be assessed by summarizing the number of patients who develop detectable anti-STK-009 and/or anti-SYNCAR-001 anti-drug antibodies (ADAs)",
+                    "timeFrame": "Up to 24 months post infusion (SYNCAR-001+STK-009)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Selected Inclusion Criteria:\n\n1. Histologically confirmed relapsed/refractory hematologic malignancies, including Chronic Lymphocytic Lymphoma (CLL/SLL) and selected Non-Hodgkin's Lymphoma (NHL)\n2. Prior or current documentation of CD19 expression or high likelihood of CD19 expression based on disease histology\n3. No signs of symptoms of central nervous system (CNS) disease or detectable evidence of CNS or meningeal disease on magnetic resonance imaging (MRI) at the time of screening\n\nSelected Exclusion Criteria:\n\n1. Prior CD19 directed therapy including CD19 CARTs\n2. Prior allogeneic hematopoietic stem cell transplant within 6 months of enrollment\n3. Prior autologous hematopoietic stem cell transplant within 6 weeks of enrollment.\n4. Presence of GVHD",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Clinical Operations",
+                    "role": "CONTACT",
+                    "phone": "650.271.9888",
+                    "email": "clinicaltrialinfo@synthekine.com"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope",
+                    "status": "RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Mei, MD",
+                            "role": "CONTACT",
+                            "phone": "626-218-1133"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                },
+                {
+                    "facility": "Roswell Park",
+                    "status": "RECRUITING",
+                    "city": "Buffalo",
+                    "state": "New York",
+                    "zip": "14263",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Megan Hughes",
+                            "role": "CONTACT",
+                            "phone": "716-845-1300",
+                            "phoneExt": "7298",
+                            "email": "megan.hughes@roswellpark.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.88645,
+                        "lon": -78.87837
+                    }
+                },
+                {
+                    "facility": "Memorial Sloan Kettering Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10065",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "General CART Inquiry Email",
+                            "role": "CONTACT",
+                            "email": "CART@mskcc.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Cleveland Clinic",
+                    "status": "RECRUITING",
+                    "city": "Cleveland",
+                    "state": "Ohio",
+                    "zip": "44195",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Cancer Awareness Line",
+                            "role": "CONTACT",
+                            "phone": "216-444-2200"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.4995,
+                        "lon": -81.69541
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008223",
+                    "term": "Lymphoma"
+                },
+                {
+                    "id": "D000016393",
+                    "term": "Lymphoma, B-Cell"
+                },
+                {
+                    "id": "D000020522",
+                    "term": "Lymphoma, Mantle-Cell"
+                },
+                {
+                    "id": "D000016403",
+                    "term": "Lymphoma, Large B-Cell, Diffuse"
+                },
+                {
+                    "id": "D000019337",
+                    "term": "Hematologic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                },
+                {
+                    "id": "D000008206",
+                    "term": "Lymphatic Diseases"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                },
+                {
+                    "id": "D000008228",
+                    "term": "Lymphoma, Non-Hodgkin"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11220",
+                    "name": "Lymphoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18828",
+                    "name": "Lymphoma, B-Cell",
+                    "asFound": "B-cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18831",
+                    "name": "Lymphoma, Large B-Cell, Diffuse",
+                    "asFound": "Diffuse Large B-Cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21314",
+                    "name": "Hematologic Neoplasms",
+                    "asFound": "Hematologic Malignancies",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11221",
+                    "name": "Lymphoma, Follicular",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22307",
+                    "name": "Lymphoma, Mantle-Cell",
+                    "asFound": "Mantle Cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11203",
+                    "name": "Lymphatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11222",
+                    "name": "Lymphoma, Non-Hodgkin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T3543",
+                    "name": "Lymphosarcoma",
+                    "asFound": "Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T640",
+                    "name": "B-cell Lymphoma",
+                    "asFound": "B-cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1866",
+                    "name": "Diffuse Large B-Cell Lymphoma",
+                    "asFound": "Diffuse Large B-Cell Lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2361",
+                    "name": "Follicular Lymphoma",
+                    "asFound": "Follicular lymphoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3601",
+                    "name": "Mantle Cell Lymphoma",
+                    "asFound": "Mantle Cell Lymphoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003520",
+                    "term": "Cyclophosphamide"
+                },
+                {
+                    "id": "C000024352",
+                    "term": "Fludarabine"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000018501",
+                    "term": "Antirheumatic Agents"
+                },
+                {
+                    "id": "D000018906",
+                    "term": "Antineoplastic Agents, Alkylating"
+                },
+                {
+                    "id": "D000000477",
+                    "term": "Alkylating Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000019653",
+                    "term": "Myeloablative Agonists"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M6727",
+                    "name": "Cyclophosphamide",
+                    "asFound": "Effect of",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M283230",
+                    "name": "Fludarabine",
+                    "asFound": "Rate",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M225513",
+                    "name": "Fludarabine phosphate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20604",
+                    "name": "Antirheumatic Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20942",
+                    "name": "Antineoplastic Agents, Alkylating",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3820",
+                    "name": "Alkylating Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "ARhu",
+                    "name": "Antirheumatic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

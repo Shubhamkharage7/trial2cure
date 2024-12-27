@@ -1,0 +1,396 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05968898",
+            "orgStudyIdInfo": {
+                "id": "10523"
+            },
+            "organization": {
+                "fullName": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "Assessment of a Radiomics-based Computer-Aided Diagnosis Tool for Pulmonary nodulES",
+            "officialTitle": "Assessment of a Radiomics-based Computer-Aided Diagnosis Tool for Cancer Risk Stratification of Pulmonary Nodules",
+            "acronym": "ARCADES",
+            "therapeuticArea": [
+                "Respiratory",
+                "Oncology and Hematology"
+            ],
+            "study": "assessment-of-a-radiomics-based-computer-aided-diagnosis-tool-for-pulmonary-nodules"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-09",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-21",
+            "studyFirstSubmitQcDate": "2023-07-28",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-13",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Roger Y. Kim",
+                "investigatorTitle": "Assistant Professor of Medicine",
+                "investigatorAffiliation": "Abramson Cancer Center at Penn Medicine"
+            },
+            "leadSponsor": {
+                "name": "Abramson Cancer Center at Penn Medicine",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a pragmatic clinical trial that will study the effect of a radiomics-based computer-aided diagnosis (CAD) tool on clinicians' management of pulmonary nodules (PNs) compared to usual care. Adults aged 35-89 years with 8-30mm PNs evaluated at Penn Medicine PN clinics will undergo 1:1 randomization to one of two groups, defined by the PN malignancy risk stratification strategy used by evaluating clinicians: 1) usual care or 2) usual care + use of a radiomics-based CAD tool.",
+            "detailedDescription": "Accurate malignancy risk stratification of pulmonary nodules (PNs) is critical to ensuring that cancer is diagnosed in a timely manner and patients do not undergo unnecessary diagnostic procedures. Preliminary data suggests that a radiomics-based lung cancer prediction (LCP) computer-aided diagnosis (CAD) tool is effective in risk stratifying PNs and may improve clinicians' PN management decisions. This is a pragmatic clinical trial evaluating the effect of this CAD tool on clinicians' management of PNs compared to usual care. Individuals eligible for this study will include adults aged 35-89 years who are scheduled to be evaluated at a Penn Medicine PN clinic for a newly discovered PN 8-30mm in maximal diameter on CT imaging. Exclusion criteria include lack of CT imaging data at the time of index clinic visit, thoracic lymphadenopathy by CT size criteria, presence of pulmonary masses (\\>3cm in maximal diameter), PNs with popcorn calcification (consistent with benign etiology), pure ground-glass subsolid PNs, a history of lung cancer, and history of any active cancer within 5 years. Enrolled participants will undergo 1:1 stratified randomization to one of two groups, defined by the PN malignancy risk stratification strategy used by evaluating clinicians: 1) usual care (clinician assessment) or 2) clinician assessment + CAD-based risk stratification using the LCP-CAD tool. The control arm will be usual care, defined as routine clinician assessment of PN malignancy risk. In the experimental arm, clinicians will be provided a report with the CAD tool estimate of malignancy risk for the PN being evaluated."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Lung Cancer",
+                "Pulmonary Nodule, Solitary"
+            ],
+            "keywords": [
+                "clinical effectiveness",
+                "clinical utility",
+                "artificial intelligence",
+                "medical decision-making",
+                "risk stratification"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 300,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Usual care (clinician assessment)",
+                    "type": "NO_INTERVENTION",
+                    "description": "In the usual care arm, clinicians will evaluate individuals with indeterminate pulmonary nodules as part of routine clinical care. No specific guidance regarding pulmonary nodule risk stratification will provided to evaluating clinicians."
+                },
+                {
+                    "label": "Clinician assessment + CAD-based risk stratification",
+                    "type": "EXPERIMENTAL",
+                    "description": "In the experimental arm, evaluating clinicians will receive a Lung Cancer Prediction report from an artificial intelligence radiomics-based computer-aided diagnosis tool for risk stratification of pulmonary nodules.",
+                    "interventionNames": [
+                        "Device: Optellum Virtual Nodule Clinic"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Optellum Virtual Nodule Clinic",
+                    "description": "The Optellum Virtual Nodule Clinic is an FDA-approved (Class II) device for risk stratification of pulmonary nodules. It uses a convolutional neural network to evaluate CT imaging data to provide an estimate of malignancy risk for indeterminate pulmonary nodules.",
+                    "armGroupLabels": [
+                        "Clinician assessment + CAD-based risk stratification"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Appropriate management of pulmonary nodule",
+                    "description": "The composite proportion of benign pulmonary nodules managed with imaging surveillance and malignant pulmonary nodules managed with biopsy or empiric treatment. Final pulmonary nodule diagnosis will be categorized as malignant or benign based on pathologic evaluation. If pathology is unavailable or inconclusive (i.e., the biopsy was non-diagnostic), pulmonary nodule resolution, shrinkage, or diameter stability at 12 months will be defined as a benign diagnosis.",
+                    "timeFrame": "12 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Timeliness of care",
+                    "description": "For patients with malignant pulmonary nodules, defined as the number of days between the index clinic visit and diagnosis of malignancy and receipt of treatment for malignancy (i.e., surgical resection, radiation therapy).",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Adverse events",
+                    "description": "For patients undergoing biopsy, defined as procedural complications related to pulmonary nodule biopsy.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Diagnostic yield",
+                    "description": "Using information found in pathology reports, defined as the proportion of biopsies with a definitive histopathologic diagnosis, for each type of diagnostic biopsy procedure.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Healthcare costs",
+                    "description": "The costs of all imaging studies and diagnostic testing associated with the pulmonary nodule diagnostic process, based on Medicare allowed amounts (amount paid by Medicare and the amount paid by the beneficiary and/or third parties).",
+                    "timeFrame": "12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Male or female, aged 35-89 years\n2. Scheduled to be evaluated at a UPHS PN clinic\n3. Newly discovered solid or part-solid indeterminate PN 8-30mm in maximal diameter on CT imaging within 60 days of index clinic visit\n4. Chest CT imaging meeting the technical requirements for compatibility with Optellum Virtual Nodule Clinic software\n\nExclusion Criteria:\n\n1. Chest CT imaging with discrete mediastinal or hilar lymphadenopathy by CT size criteria (\\>10mm in maximal short-axis diameter on axial CT images)\n2. PNs with popcorn calcification (consistent with benign etiology)\n3. Pure ground-glass subsolid PNs (may be associated with lower risk of clinically significant malignancy)\n4. PN previously seen on CT imaging \\>60 days prior to most recent CT\n5. More than one indeterminate PN 8-30mm in maximal diameter\n6. History of lung cancer\n7. History of active cancer within the previous 5 years\n8. Presence of a thoracic implant that impedes PN visualization",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "35 Years",
+            "maximumAge": "89 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Roger Y. Kim, MD, MSCE",
+                    "role": "CONTACT",
+                    "phone": "215-662-3677",
+                    "email": "roger.kim@pennmedicine.upenn.edu"
+                },
+                {
+                    "name": "Anil Vachani, MD, MSCE",
+                    "role": "CONTACT",
+                    "phone": "215-573-7931",
+                    "email": "avachani@pennmedicine.upenn.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Roger Y. Kim, MD, MSCE",
+                    "affiliation": "University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Penn Medicine University City",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Roger Kim, MD, MSCE",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Perelman Center for Advanced Medicine",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Roger Kim, MD, MSCE",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "Penn Medicine Washington Square",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19107",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Roger Kim, MD, MSCE",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "35608444",
+                    "type": "BACKGROUND",
+                    "citation": "Kim RY, Oke JL, Pickup LC, Munden RF, Dotson TL, Bellinger CR, Cohen A, Simoff MJ, Massion PP, Filippini C, Gleeson FV, Vachani A. Artificial Intelligence Tool for Assessment of Indeterminate Pulmonary Nodules Detected with CT. Radiology. 2022 Sep;304(3):683-691. doi: 10.1148/radiol.212182. Epub 2022 May 24."
+                },
+                {
+                    "pmid": "37017091",
+                    "type": "BACKGROUND",
+                    "citation": "Kim RY, Oke JL, Dotson TL, Bellinger CR, Vachani A. Effect of an artificial intelligence tool on management decisions for indeterminate pulmonary nodules. Respirology. 2023 Jun;28(6):582-584. doi: 10.1111/resp.14502. Epub 2023 Apr 5. No abstract available."
+                },
+                {
+                    "pmid": "32326730",
+                    "type": "BACKGROUND",
+                    "citation": "Massion PP, Antic S, Ather S, Arteta C, Brabec J, Chen H, Declerck J, Dufek D, Hickes W, Kadir T, Kunst J, Landman BA, Munden RF, Novotny P, Peschl H, Pickup LC, Santos C, Smith GT, Talwar A, Gleeson F. Assessing the Accuracy of a Deep Learning Method to Risk Stratify Indeterminate Pulmonary Nodules. Am J Respir Crit Care Med. 2020 Jul 15;202(2):241-249. doi: 10.1164/rccm.201903-0505OC."
+                },
+                {
+                    "pmid": "32139611",
+                    "type": "BACKGROUND",
+                    "citation": "Baldwin DR, Gustafson J, Pickup L, Arteta C, Novotny P, Declerck J, Kadir T, Figueiras C, Sterba A, Exell A, Potesil V, Holland P, Spence H, Clubley A, O'Dowd E, Clark M, Ashford-Turner V, Callister ME, Gleeson FV. External validation of a convolutional neural network artificial intelligence tool to predict malignancy in pulmonary nodules. Thorax. 2020 Apr;75(4):306-312. doi: 10.1136/thoraxjnl-2019-214104. Epub 2020 Mar 5."
+                },
+                {
+                    "pmid": "37061539",
+                    "type": "BACKGROUND",
+                    "citation": "Paez R, Kammer MN, Balar A, Lakhani DA, Knight M, Rowe D, Xiao D, Heideman BE, Antic SL, Chen H, Chen SC, Peikert T, Sandler KL, Landman BA, Deppen SA, Grogan EL, Maldonado F. Longitudinal lung cancer prediction convolutional neural network model improves the classification of indeterminate pulmonary nodules. Sci Rep. 2023 Apr 15;13(1):6157. doi: 10.1038/s41598-023-33098-y."
+                },
+                {
+                    "pmid": "37244587",
+                    "type": "BACKGROUND",
+                    "citation": "Paez R, Kammer MN, Tanner NT, Shojaee S, Heideman BE, Peikert T, Balbach ML, Iams WT, Ning B, Lenburg ME, Mallow C, Yarmus L, Fong KM, Deppen S, Grogan EL, Maldonado F. Update on Biomarkers for the Stratification of Indeterminate Pulmonary Nodules. Chest. 2023 Oct;164(4):1028-1041. doi: 10.1016/j.chest.2023.05.025. Epub 2023 May 25."
+                },
+                {
+                    "pmid": "38427470",
+                    "type": "BACKGROUND",
+                    "citation": "Kim RY. Radiomics and artificial intelligence for risk stratification of pulmonary nodules: Ready for primetime? Cancer Biomark. 2024 Feb 6. doi: 10.3233/CBM-230360. Online ahead of print."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000055613",
+                    "term": "Multiple Pulmonary Nodules"
+                },
+                {
+                    "id": "D000003074",
+                    "term": "Solitary Pulmonary Nodule"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M28260",
+                    "name": "Multiple Pulmonary Nodules",
+                    "asFound": "Pulmonary Nodules",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6303",
+                    "name": "Solitary Pulmonary Nodule",
+                    "asFound": "Pulmonary Nodule, Solitary",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

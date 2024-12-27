@@ -1,0 +1,442 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06002425",
+            "orgStudyIdInfo": {
+                "id": "CASMI006"
+            },
+            "organization": {
+                "fullName": "Chinese Academy of Sciences",
+                "class": "OTHER_GOV"
+            },
+            "briefTitle": "Treatment Recommendations for Gastrointestinal Cancers Via Large Language Models",
+            "officialTitle": "Application of Large Language Models in the Recommendation of Treatment Plans for Gastrointestinal Cancers",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "treatment-recommendations-for-gastrointestinal-cancers-via-large-language-models"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-08-29",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-13",
+            "studyFirstSubmitQcDate": "2023-08-13",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-09-08",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Di Dong",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Chinese Academy of Sciences"
+            },
+            "leadSponsor": {
+                "name": "Chinese Academy of Sciences",
+                "class": "OTHER_GOV"
+            },
+            "collaborators": [
+                {
+                    "name": "ZhuHai Hospital",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Fifth Affiliated Hospital, Sun Yat-Sen University",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Jiangmen Central Hospital",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "Peking University Cancer Hospital (Inner Mongolia Campus)",
+                    "class": "UNKNOWN"
+                },
+                {
+                    "name": "San Raffaele University Hospital, Italy",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "University Hospital Magdeburg, Germany",
+                    "class": "UNKNOWN"
+                },
+                {
+                    "name": "City of Hope Medical Center",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will evaluate the utility of ChatGPT in recommending treatment plans for patients with gastrointestinal cancers, using both retrospective and prospective data.",
+            "detailedDescription": "The medical records of over 1,200 patients with gastrointestinal cancers will be collected retrospectively from participating hospitals. This data will be split into an exploratory dataset (n=200) and a validation dataset (n\\>=1,000). Within the exploratory dataset, various prompt methods will be used to determine the treatment plans suggested by ChatGPT. Additionally, several clinicians of varied seniority levels will provide their treatment recommendations. For the validation dataset, ChatGPT's suggestions for treatment plans will undergo both qualitative and quantitative assessments by a multidisciplinary consultation (MDT) team. The recommendations from ChatGPT will then be compared with those from the clinicians.\n\nFurthermore, this study will incorporate a prospective dataset comprising 400 participants with gastrointestinal cancers. The participants will be randomly allocated to either a control group (n=200) or a ChatGPT-Assisted group (n=200). In the control group, treatment plan recommendations will solely be provided by the clinicians and will guide subsequent treatments. In the ChatGPT-Assisted group, initial treatment plan recommendations will be independently proposed by both ChatGPT and the clinicians. Based on ChatGPT's suggestions, clinicians might selectively adjust their initial plans. Participants will then receive treatments as per these refined plans. Within the ChatGPT-Assisted group, the treatment plans of the initial 100 participants will be evaluated to determine the percentage of patients whose treatment plans are influenced by ChatGPT. Subsequently, the proportion of participants in the entire ChatGPT-Assisted group with treatment plans modified by ChatGPT will be calculated. The study will further monitor the 3-year progression-free survival (PFS) and the 5-year overall survival (OS) rates, contrasting the outcomes between the control and ChatGPT-assisted groups."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Gastrointestinal Neoplasm Malignant"
+            ],
+            "keywords": [
+                "Artificial Intelligence",
+                "Large Language Model",
+                "Gastrointestinal Cancers",
+                "Treatment Recommendation"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "PARTICIPANT"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Control group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "In this arm, participants receive treatment plans directly from clinicians without the assistance of ChatGPT.",
+                    "interventionNames": [
+                        "Other: Clinician-Directed Treatment Plan"
+                    ]
+                },
+                {
+                    "label": "GPT-Assisted Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "In this arm, participants receive treatment plans from clinicians with the assistance of ChatGPT.",
+                    "interventionNames": [
+                        "Other: ChatGPT-Assisted Treatment Plan"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Clinician-Directed Treatment Plan",
+                    "description": "In this approach, clinicians do not employ any technological assistance and rely solely on their professional expertise and experience to formulate treatment plans for participants.",
+                    "armGroupLabels": [
+                        "Control group"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "ChatGPT-Assisted Treatment Plan",
+                    "description": "In this approach, clinicians utilize the ChatGPT technological tool, formulating treatment plans for participants based on its suggestions and their own professional expertise.",
+                    "armGroupLabels": [
+                        "GPT-Assisted Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Influence Rate of ChatGPT on Treatment Plans",
+                    "description": "The percentage of the initial 100 participants and the overall participants in the ChatGPT-Assisted group whose treatment plans are adjusted by clinicians after consulting with ChatGPT.",
+                    "timeFrame": "Within 24 hours after the treatment plan is determined from the onset of study participation."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "3-year Progression-Free Survival (PFS) Rate",
+                    "description": "Percentage of participants without disease progression over a period of 3 years from the start of treatment.",
+                    "timeFrame": "3 years"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "5-year Overall Survival (OS) Rate",
+                    "description": "Percentage of participants who are still alive over a period of 5 years from the start of treatment.",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age \u226518 years, both male and female.\n* Pathologically confirmed diagnosis of gastrointestinal cancer (gastric cancer or colorectal Cancer).\n* Detailed medical records available prior to treatment (including chief complaint, history of present illness, radiological examinations, pathological examinations, laboratory tests, etc.).\n* Participants will receive complete treatment in the participating hospitals.\n\nExclusion Criteria:\n\n* Participants with cancers other than gastrointestinal cancers.\n* Participants who receive treatment in multiple hospitals.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Di Dong, PhD",
+                    "role": "CONTACT",
+                    "phone": "+86 13811833760",
+                    "email": "di.dong@ia.ac.cn"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Di Dong, PhD",
+                    "affiliation": "Institute of Automation, Chinese Academy of Sciences",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Syed Rahmanuddin",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                },
+                {
+                    "facility": "Jiangmen Central Hospital",
+                    "status": "RECRUITING",
+                    "city": "Jiangmen",
+                    "state": "Guangdong",
+                    "zip": "529000",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Xiaobei Duan",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 22.58333,
+                        "lon": 113.08333
+                    }
+                },
+                {
+                    "facility": "The Fifth Affiliated Hospital of Sun Yat-sen University",
+                    "status": "RECRUITING",
+                    "city": "Zhuhai",
+                    "state": "Guangdong",
+                    "zip": "519000",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Jing Pang",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Guojie Wang",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 22.27694,
+                        "lon": 113.56778
+                    }
+                },
+                {
+                    "facility": "Zhuhai People's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Zhuhai",
+                    "state": "Guangdong",
+                    "zip": "519000",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Jie Zhang, Ph.D.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 22.27694,
+                        "lon": 113.56778
+                    }
+                },
+                {
+                    "facility": "Peking University Cancer Hospital (Inner Mongolia Campus)",
+                    "status": "RECRUITING",
+                    "city": "Hohhot",
+                    "state": "Inner Mongolia",
+                    "zip": "010010",
+                    "country": "China",
+                    "contacts": [
+                        {
+                            "name": "Xiaotian Zhang",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Zhenghang Wang",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.81056,
+                        "lon": 111.65222
+                    }
+                },
+                {
+                    "facility": "University Hospital Magdeburg",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Magdeburg",
+                    "state": "Saxony-Anhalt",
+                    "zip": "39120",
+                    "country": "Germany",
+                    "contacts": [
+                        {
+                            "name": "Michael Kreissl",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 52.12773,
+                        "lon": 11.62916
+                    }
+                },
+                {
+                    "facility": "San Raffaele University Hospital, Italy",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Milan",
+                    "zip": "20132",
+                    "country": "Italy",
+                    "contacts": [
+                        {
+                            "name": "Diego Palumbo",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.46427,
+                        "lon": 9.18951
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Individual participant data (IPD) may be made available to other researchers upon request. Interested researchers should present a reasonable research proposal and a data usage application. All participating units of this study will review and assess the proposal and application to determine whether to share the data.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Data will become available 6 months after study completion and will remain available for a period of 5 years.",
+            "accessCriteria": "Interested researchers should submit a detailed research proposal and a data usage application for review. All participating units of this study will assess the application to determine eligibility for data access.",
+            "url": "http://www.radiomics.net.cn/"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "asFound": "Gastrointestinal Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "asFound": "Gastrointestinal Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

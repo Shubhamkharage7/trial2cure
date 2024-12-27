@@ -1,0 +1,283 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06112301",
+            "orgStudyIdInfo": {
+                "id": "IVS-108-001"
+            },
+            "organization": {
+                "fullName": "Invivoscribe, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Pivotal, Clinical Study for the Accuracy Evaluation of the IdentiClone Dx IGH Assay",
+            "officialTitle": "Pivotal, Clinical Study for the Accuracy Evaluation of the IdentiClone Dx IGH Assay",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "pivotal-clinical-study-for-the-accuracy-evaluation-of-the-identiclone-dx-igh-assay"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-02",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-08-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-20",
+            "studyFirstSubmitQcDate": "2023-10-30",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-28",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Invivoscribe, Inc.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This protocol describes the pivotal accuracy study for the IdentiClone Dx IGH (IC IGH Dx) Assay. The intent of the accuracy study is to demonstrate agreement between the results of the IC IGH Dx Assay and a predicate devise or assay on retrospective and residual de-identified DNA extracted from peripheral blood (PB) samples from individuals with suspected B-Cell Lymphoproliferations. The predicate device will be the LymphoTrack Dx IGH (FR1/FR2/FR3) Assays - MiSeq (LT Dx IGH-CE-IVD), which is a CE-IVD assay with a similar intended use as the IC IGH Assay on the same sample type."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "B-Cell Lymphoproliferative Disorder"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Deidentified residual DNA samples"
+            },
+            "enrollmentInfo": {
+                "count": 250,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "B-Cell Positive Lymphoproliferative Disorders",
+                    "description": "DNA Samples for subjects with B-Cell Positive Lymphoproliferative Disorders",
+                    "interventionNames": [
+                        "Diagnostic Test: IdentiClone Dx IGH (IC IGH Dx) Assay"
+                    ]
+                },
+                {
+                    "label": "B-Cell Negative Lymphoproliferative Disorders",
+                    "description": "DNA Samples for subjects suspected of B-Cell Positive Lymphoproliferative Disorders with negative B-Cell Clonality testing",
+                    "interventionNames": [
+                        "Diagnostic Test: IdentiClone Dx IGH (IC IGH Dx) Assay"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "IdentiClone Dx IGH (IC IGH Dx) Assay",
+                    "description": "The IdentiClone Dx IGH Assay is an in vitro diagnostic product intended for qualitative, capillary electrophoresis based-detection of clonality in immunoglobulin heavy chain gene rearrangements (IGH) in peripheral blood specimens as an adjunctive method for the diagnosis of B-cell lymphoproliferative disease",
+                    "armGroupLabels": [
+                        "B-Cell Negative Lymphoproliferative Disorders",
+                        "B-Cell Positive Lymphoproliferative Disorders"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "% Agreement",
+                    "description": "Agreement between the results of the Invivoscribe IdentiClone Dx IGH Assay and the LymphoTrack Dx IGH (FR1/FR2/FR3) Assays - MiSeq by assessing the positive and negative percent agreement between the two assays.",
+                    "timeFrame": "Through Study Completion at one year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. DNA extracted from Peripheral Blood (PB) with EDTA as anticoagulant with minimum total DNA \u2265 2 \u00b5g with concentration at \u2265 50ng/\u00b5l\n2. DNA extracted from PB specimens no more than 7 days\n3. DNA stored at -15\u00b0C to -30\u00b0C up to 5 years\n4. Donor Age: \u2265 18\n5. For positive sample, DNA from PB of subjects diagnosed (at the time the specimen was drawn) with Lymphoproliferative disease, with:\n\n   1. ICD 10 Codes: C8300, C8330, C8510 or other B-cell leukemia/lymphoma diagnosis\n   2. B-cell Lymphoproliferative disease diagnosis per collection site procedure (i.e. SNOMED)\n6. For negative sample, DNA from PB of subjects suspected of Lymphoproliferative disease\n\nExclusion Criteria:\n\n1. PB specimens that have been frozen prior to extraction",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Samples from subjects with diagnosed B-Cell Lymphoproliferative disorders or suspected of B-Cell Lymphoproliferative disorders with negative B-Cell Clonality Testing results",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "Invivoscribe, Inc.",
+                    "status": "COMPLETED",
+                    "city": "San Diego",
+                    "state": "California",
+                    "zip": "92103",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.71533,
+                        "lon": -117.15726
+                    }
+                },
+                {
+                    "facility": "LabPMM GmbH",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Hallbergmoos",
+                    "zip": "85399",
+                    "country": "Germany",
+                    "geoPoint": {
+                        "lat": 48.32747,
+                        "lon": 11.75142
+                    }
+                },
+                {
+                    "facility": "LabPMM GK",
+                    "status": "RECRUITING",
+                    "city": "Kawasaki-shi",
+                    "state": "Kanagawa",
+                    "zip": "210-0821",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Masato Sasaki",
+                            "role": "CONTACT",
+                            "phone": "+81 80 9076 7063",
+                            "email": "msasaki@labpmm.co.jp"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.52056,
+                        "lon": 139.71722
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008232",
+                    "term": "Lymphoproliferative Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000008206",
+                    "term": "Lymphatic Diseases"
+                },
+                {
+                    "id": "D000007160",
+                    "term": "Immunoproliferative Disorders"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11225",
+                    "name": "Lymphoproliferative Disorders",
+                    "asFound": "Lymphoproliferative Disorders",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11203",
+                    "name": "Lymphatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10206",
+                    "name": "Immunoproliferative Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M4225",
+                    "name": "Antibodies",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10184",
+                    "name": "Immunoglobulins",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19117",
+                    "name": "Immunoglobulins, Intravenous",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10191",
+                    "name": "Immunoglobulin Heavy Chains",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

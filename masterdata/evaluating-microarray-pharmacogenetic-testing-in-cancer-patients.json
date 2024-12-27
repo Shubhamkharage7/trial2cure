@@ -1,0 +1,287 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06489041",
+            "orgStudyIdInfo": {
+                "id": "IRB00114240"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "LCI-GI-NOS-PGX-003",
+                    "type": "OTHER",
+                    "domain": "Atrium Health"
+                }
+            ],
+            "organization": {
+                "fullName": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            },
+            "briefTitle": "Evaluating Microarray Pharmacogenetic Testing in Cancer Patients",
+            "officialTitle": "Evaluating the Use of Microarray Pharmacogenetic Testing in Patients With Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "evaluating-microarray-pharmacogenetic-testing-in-cancer-patients"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-08",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-17",
+            "studyFirstSubmitQcDate": "2024-07-03",
+            "studyFirstPostDateStruct": {
+                "date": "2024-07-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-03",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Wake Forest University Health Sciences",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Atrium Health Levine Cancer Institute",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this research is to evaluate the impact of a microarray PGx test on prescribing/dosing of drugs and cancer treatments in patients with cancer who are currently eligible for single-gene DPYD testing.",
+            "detailedDescription": "This is a prospective, non-randomized, Phase 2 study. The target population is adults \u226518 years of age who have received or will be receiving standard of care single-gene DPYD (dihydropyrimidine dehydrogenase) PGx testing to help guide dosing for their cancer treatment. Pharmacogenes that will be reported back to participants and providers from the microarray test are expected to take approximately one week and will be evaluated by the PGx team and uploaded to the participant's electronic medical record (EMR). Only clinically actionable results per CPIC and FDA guidelines will be included in the participant report. Participants will be followed on study for approximately 6 months to collect data on the number of drug prescriptions with known drug-gene interactions and potentially actionable results, BPAs fired, and actions taken due to BPAs."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cancer",
+                "Gastrointestinal Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "Single Group Assignment",
+                "primaryPurpose": "SUPPORTIVE_CARE",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 120,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Pharmacogenomic Testing",
+                    "type": "EXPERIMENTAL",
+                    "description": "A pharmacogenomic (PGx) microarray (multi-gene) panel will be performed to test for genetic variations in genes related to drug response.",
+                    "interventionNames": [
+                        "Genetic: Pharmacogenomic Testing with the \"Global Diversity Array with Enhanced PGx\""
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "GENETIC",
+                    "name": "Pharmacogenomic Testing with the \"Global Diversity Array with Enhanced PGx\"",
+                    "description": "Pharmacogenomic (PGx) microarray testing will test for certain pharmcogenes that can guide prescribing of certain cancer treatments and/or supportive care medications.",
+                    "armGroupLabels": [
+                        "Pharmacogenomic Testing"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of potentially actionable results based on pharmacogenomic (PGx) test",
+                    "description": "A potentially actionable result refers to any genotype or phenotype that is associated with specific drug-gene interactions from the Clinical Pharmacogenetics Implementation Consortium (CPIC) guidelines or the FDA's Table of Pharmacogenetic Associations. The number of potentially actionable results is a count variable that represents the total occurrences of such genotypes or phenotypes identified in a participant.",
+                    "timeFrame": "Baseline"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "The presence of at least one drug-gene interaction",
+                    "description": "Drug-gene interactions is defined as an interaction between the medication(s) taken by the subject and the genetic variant(s) the subject possesses based on the PGx test. The presence or absence of such interactions is assessed using the guidelines provided by the Clinical Pharmacogenetics Implementation Consortium (CPIC) or the FDA's Table of Pharmacogenetic Associations. The presence of at least one drug-gene interaction is a binary variable (yes/no).",
+                    "timeFrame": "Baseline, at 3 months and at 6 months after receiving the microarray profiling results"
+                },
+                {
+                    "measure": "The presence of at least one PGx best practice advisory (BPA) alert",
+                    "description": "BPA alert is fired within the Epic electronic health record (EHR) system for the participant when there is presence of a drug-gene interaction at the time of medication order entry. The presence of at least one PGx best practice advisory (BPA) alert for each participant is a binary variable (yes, no).",
+                    "timeFrame": "within 6 months of receiving the microarray profiling results"
+                },
+                {
+                    "measure": "Percentage of prescriptions that trigger PGx best practice advisory (BPA) alerts",
+                    "description": "Percentage of prescriptions that trigger PGx best practice advisory (BPA) alert among all prescriptions for each participant",
+                    "timeFrame": "within 6 months of receiving the microarray profiling results"
+                },
+                {
+                    "measure": "Taking actions from PGx best practice advisory alerts",
+                    "description": "Taking actions after receiving PGx best practice advisory alerts includes remove or keep drug, order or do not order an e-consult, patient previously tolerated/responded treatment, not appropriate, or other. Taking actions is a binary variable (yes, no).",
+                    "timeFrame": "within 6 months of receiving the microarray profiling results"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Written informed consent and HIPAA authorization for release of personal health information.\n* Age \u2265 18 years at the time of consent.\n* Eligible for standard of care single-gene DPYD testing (i.e., receiving or expected to receive a fluoropyrimidine-based chemotherapy regimen). The potential participant meets inclusion criteria if the standard of care single-gene DPYD test is planned or previously ordered. If previously ordered, consent must occur no later than 60 days from the date the DPYD results were available.\n* Willing to provide additional buccal swabs if residual DNA from previous DPYD testing is inadequate for microarray testing.\n\nExclusion Criteria:\n\n\u2022 History of prior allogeneic hematopoietic cell transplantation or liver transplantation",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Alicia Patrick",
+                    "role": "CONTACT",
+                    "phone": "(980) 292-1746",
+                    "email": "Alicia.Patrick@atriumhealth.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jai Patel, PharmD",
+                    "affiliation": "Atrium Health Levine Cancer",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Atrium Health Levine Cancer",
+                    "city": "Charlotte",
+                    "state": "North Carolina",
+                    "zip": "28204",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alicia Patrick",
+                            "role": "CONTACT",
+                            "phone": "980-292-1746",
+                            "email": "Alicia.Patrick@atriumhealth.org"
+                        },
+                        {
+                            "name": "Jai Patel, PharmD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.22709,
+                        "lon": -80.84313
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "asFound": "Gastrointestinal Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,331 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06411548",
+            "orgStudyIdInfo": {
+                "id": "231610"
+            },
+            "organization": {
+                "fullName": "University of Virginia",
+                "class": "OTHER"
+            },
+            "briefTitle": "Insulearn Feasibility With MDI",
+            "officialTitle": "Feasibility of a Bolus Calculator Without Carbohydrate Counting in T1D Patients Under MDI Therapy: A Supervised Randomized Controlled Trial",
+            "acronym": "InsuLearn",
+            "therapeuticArea": [
+                "Endocrinology"
+            ],
+            "study": "insulearn-feasibility-with-mdi"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-06-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-05-03",
+            "studyFirstSubmitQcDate": "2024-05-07",
+            "studyFirstPostDateStruct": {
+                "date": "2024-05-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Anas El Fathi",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "University of Virginia"
+            },
+            "leadSponsor": {
+                "name": "University of Virginia",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Medtronic",
+                    "class": "INDUSTRY"
+                },
+                {
+                    "name": "DexCom, Inc.",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a 24-hour, randomized, crossover, single-center trial where participants are randomized to either start with the InsuLearn intervention or the usual care (UC) intervention. In the InsuLearn intervention, insulin doses are optimized using data collected in a 4-weeks at home data collection period.",
+            "detailedDescription": "Following recruitment and screening, 12 participants will be randomized to either the InsuLearn\u2192UC or the UC\u2192InsuLearn sequence. Participants will be trained in the use of CGM (Dexcom G6 or Guardian\u2122 4), smart insulin pen (SIP, InPen\u2122, Medtronic) and the InPen\u2122 bolus calculator phone application. The InPen\u2122 application will be set to the \"meal estimation\" mode where the user can select the meal category: if it is a breakfast/lunch/dinner/snack and if it has low/med/high carb amount. During the one-month data collection period, participants will be asked to use the InPen\u2122 app to log and deliver their insulin doses. Before the hotel admission, InsuLearn will analyze the collected data to learn a new optimized insulin dose for each meal category. InsuLearn will generate a report of suggested new insulin doses that will be reviewed, approved, or changed by the study physician as needed. In the 24-h supervised interventions (hotel admission), the participant will consume three standardized meals, a med-carb lunch, a high-carb dinner, and low-carb breakfast. The insulin dose delivered in each admission will be either calculated by participants as per their UC or is as provided by the InsuLearn approved report. The two interventions are combined into a 2-day admission without a washout period."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Type 1 Diabetes Mellitus"
+            ],
+            "keywords": [
+                "InPen",
+                "Dexcom CGM"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "interventionModelDescription": "Randomized crossover: Participants will be randomized to the order that they experience the use of InsuLearn (for 24 hours each, without washout in between): InsuLearn\u2192UC or UC\u2192InsuLearn. UC stands for usual care.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 10,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "InsuLearn\u2192Usual Care",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "During the first 24 hours of the hotel admission (visit 6), participants' insulin dose will be calculated by the InsuLearn, MD approved, report. The second 24 hours of the hotel admission (visit 7), participants will use their usual care method to calculate their insulin dose.",
+                    "interventionNames": [
+                        "Device: InsuLearn"
+                    ]
+                },
+                {
+                    "label": "Usual Care\u2192InsuLearn",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "During the first 24 hours of the hotel admission (visit 6), participants' insulin dose will be calculated by their usual care method. The second 24 hours of the hotel admission (visit 7), participants will use the InsuLearn, MD approved, report to calculate their insulin dose.",
+                    "interventionNames": [
+                        "Device: InsuLearn"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "InsuLearn",
+                    "description": "InsuLearn is an artificial intelligence (AI)-algorithm that analyses collected participants data: CGM, insulin, and meal categories to learn the optimal insulin dose. InsuLearn will run offline in a study laptop to generate the optimal insulin dose for each meal category. The algorithm will generate an ambulatory glucose profile (AGP) report with new settings for the InPen\u2122 meal estimation bolus calculator. The study physician will review the report and the algorithm recommendations. The study physician can accept or modify the algorithm recommendations as per his judgment. The new settings will be used during the intervention admission.",
+                    "armGroupLabels": [
+                        "InsuLearn\u2192Usual Care",
+                        "Usual Care\u2192InsuLearn"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Low blood glucose index (LBGI)",
+                    "timeFrame": "Six hours after the three meals"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u226518.0 years old at time of consent.\n2. Clinical diagnosis, based on investigator assessment, of type 1 diabetes for at least one year.\n3. Hemoglobin A1c (HbA1c) between 7.0% - 10.0%.\n4. Currently using insulin under multiple daily injections (MDI) therapy for at least six months.\n5. Poor carbohydrate counting, based on their score on the AdultCarbQuiz (a score lower of 33/43).\n6. Willingness to wear the study continuous glucose monitor (CGM) during the duration of the study.\n7. Access to the internet and willingness to upload data during the study as needed.\n8. If female and sexually active, must agree to use a form of contraception to prevent pregnancy while a participant in the study. A negative serum or urine pregnancy test will be required for all females of childbearing potential. Participants who become pregnant will be discontinued from the study. Also, participants who during the study develop and express the intention to become pregnant within the timespan of the study will be discontinued.\n9. Investigator has confidence that the subject can successfully operate all study devices and can adhere to the protocol.\n\nParticipant Exclusion Criteria\n\n1. NPH (neutral protamine hagedorn) insulin\n2. Use of any medication that at the discretion of the investigator is deemed to interfere with the trial.\n3. Currently being treated for a seizure disorder.\n4. A known medical condition that in the judgment of the investigator might interfere with the completion of the protocol, such as but not limited to, the following examples:\n\n   1. Inpatient psychiatric treatment in the past 6 months\n   2. Presence of a known adrenal disorder\n   3. Abnormal liver function test results (Transaminase \\>3 times the upper limit of normal)\n   4. Abnormal renal function test results (calculated GFR \\<60 mL/min/1.73m2).\n   5. Active gastroparesis requiring medical therapy.\n   6. Uncontrolled thyroid disease (TSH undetectable or \\>10 mlU/L).\n   7. Abuse of alcohol or recreational drugs\n   8. Infectious process not anticipated to be resolved prior to study procedures (e.g. meningitis, pneumonia, osteomyelitis, deep tissue infection).\n   9. Uncontrolled arterial hypertension (Resting diastolic blood pressure \\>100 mmHg and/or systolic blood pressure \\>180 mmHg).\n   10. Uncontrolled microvascular complications such as current active proliferative diabetic retinopathy defined as proliferative retinopathy requiring treatment (e.g. laser therapy or VEGF inhibitor injections) in the past 12 months.\n5. Currently pregnant or intent to become pregnant during the trial.\n6. Currently breastfeeding.\n7. A recent injury to body or limb, muscular disorder, use of any medication, any carcinogenic disease, or other significant medical disorder if that injury, medication, or disease in the judgment of the investigator will affect the completion of the protocol.\n8. Participation in another pharmaceutical or device trial at the time of enrolment or during the study.\n9. Currently taking non-insulin glucose-lowering agent during the trial (including GLP-1 receptor agonists, pramlintide, and SGLT2 inhibitors",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jasmeen Dhillon",
+                    "role": "CONTACT",
+                    "phone": "(434) 466-7942",
+                    "email": "jkd9ud@uvahealth.org"
+                },
+                {
+                    "name": "Viola Holmes, RD, CDCES",
+                    "role": "CONTACT",
+                    "phone": "(434) 249-6251",
+                    "email": "vjf7j@uvahealth.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Anas Fathi, PhD",
+                    "affiliation": "University of Virginia Center for Diabetes Technology",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Virginia Center for Diabetes Technology",
+                    "city": "Charlottesville",
+                    "state": "Virginia",
+                    "zip": "22903-2981",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Anas Fathi, PhD",
+                            "role": "CONTACT",
+                            "phone": "434-982-6483",
+                            "email": "fwt9vd@virginia.edu"
+                        },
+                        {
+                            "name": "Marc Breton, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ralf Nass, MD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.02931,
+                        "lon": -78.47668
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003922",
+                    "term": "Diabetes Mellitus, Type 1"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003920",
+                    "term": "Diabetes Mellitus"
+                },
+                {
+                    "id": "D000044882",
+                    "term": "Glucose Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                },
+                {
+                    "id": "D000001327",
+                    "term": "Autoimmune Diseases"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7117",
+                    "name": "Diabetes Mellitus, Type 1",
+                    "asFound": "Type 1 Diabetes Mellitus",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7115",
+                    "name": "Diabetes Mellitus",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M25403",
+                    "name": "Glucose Metabolism Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4629",
+                    "name": "Autoimmune Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M10365",
+                    "name": "Insulin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M173166",
+                    "name": "Insulin, Globin Zinc",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hypo",
+                    "name": "Hypoglycemic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

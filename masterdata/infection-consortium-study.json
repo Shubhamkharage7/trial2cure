@@ -1,0 +1,223 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06153446",
+            "orgStudyIdInfo": {
+                "id": "DTU2023-02DI"
+            },
+            "organization": {
+                "fullName": "Zimmer Biomet",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Infection Consortium Study#1",
+            "officialTitle": "Comparing Diagnostic Accuracy of Synovasure Comprehensive Synovial Fluid Testing to Clinical Guidelines for the Diagnosis of Periprosthetic Joint Infection",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "infection-consortium-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-11-27",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-22",
+            "studyFirstSubmitQcDate": "2023-11-22",
+            "studyFirstPostDateStruct": {
+                "date": "2023-12-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-25",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Zimmer Biomet",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "In this study, the Sponsor wants to evaluate the performance and accuracy of the PJI Panel compared to the currently used multiple-criterion scoring systems for the diagnosis of PJI.",
+            "detailedDescription": "This study aims to evaluate the performance and accuracy of the PJI Panel compared to the currently used multiple-criterion scoring systems for the diagnosis of PJI and will be executed as a retrospective review of existing data.\n\nThe Synovasure R\\&D database consists of PJI Panel test results digitally transferred from the instruments to a laboratory information system (LIS), (CGM LabDAQ, CompuGroup Medical, Phoenix, AZ), which has high data-integrity architecture built on an industry standard ACID (atomicity, consistency, isolation, durability) compliant relational database management system (RDBMS), Microsoft SQL Server. These PJI Panel data come from SF samples submitted to CDL from various clinics and hospitals for clinical diagnostic testing between 2013 and 2022 (CD Laboratories, Towson, MD). The data are deidentified in accordance with an existing IRB approval (WCG-IRB #20150222). The deidentified data includes the institution, ordering physician information, anatomical location of the aspiration, number of days from aspiration to receipt of the sample at the lab, age, gender, and results of comprehensive infection testing including: specimen integrity (red blood cells (RBC) and absorbance at 280 nm (A280)), AD, HNE, CRP, WBC, %PMN, MID Panel, and SF-Cx.\n\nThe Synovasure R\\&D database will be submitted to an exclusion/inclusion screening process to target samples for inclusion in this research activity. Subsequently, samples collected between 2017 and 2022 will be randomly selected for inclusion in this study. Classification of positive and negative samples will be according to the criteria for diagnosis of PJI using Synovasure Comprehensive PJI Synovial Fluid Panel as defined in Table 1. Only samples classified as Infected (positive) and Not Infected (negative) will be qualified for further enrichment.\n\nCase report forms will be completed with data obtained through in-person or remote review of hospital and/or physician office records to enrich the PJI Panel database with the elements included in the 2011 MSIS, 2013 ICM, 2018 New Definition of PJI, 2018 ICM, and 2021 EBJIS definitions of PJI."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "PJI"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 440,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "CDL PJI Database",
+                    "description": "Patients tested for PJI through the PJI Panel at CD Laboratories (CDL)",
+                    "interventionNames": [
+                        "Diagnostic Test: Synovasure\u00ae Comprehensive Infection Panel"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Synovasure\u00ae Comprehensive Infection Panel",
+                    "description": "The Synovasure Comprehensive PJI Test Panel (PJI Panel) is a laboratory-developed test (LDT) panel (CD Laboratories, CLIA Registration No.: 21D0216863) intended to aid the diagnosis of PJI.",
+                    "armGroupLabels": [
+                        "CDL PJI Database"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Positive/Negative Percent Agreement between PJI RISC Panel and Clinical Guidelines",
+                    "description": "The primary endpoint of this study is the rate of agreement (positive and negative) for the diagnosis of PJI between the PJI Panel and the previous and current clinical guidelines.",
+                    "timeFrame": "1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Positive/Negative Predictive Value of PJI RISC Panel",
+                    "description": "The secondary endpoint is defined by the estimate of positive predictive value (PPV) and negative predictive value (NPV) of the PJI Panel compared to the previous and current clinical guidelines.",
+                    "timeFrame": "1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Samples included in the Synovasure R\\&D database from patients tested for PJI through the PJI Panel at CDL.\n\nExclusion Criteria:\n\n* From Synovasure Database\n\n  * Samples not submitted to CDL for PJI testing\n  * Samples submitted to CDL from Institutions not participating in this study\n  * Samples designated as being from anatomical locations other than \"left hip\", \"left knee\", \"right hip\", \"right knee\n  * Samples without SF-Cx results\n  * Samples without SF-CRP results\n  * Samples without AD results\n  * Samples without WBC results\n  * Samples without %PMN results\n  * Samples with RBCs \u2265 1 million\n  * Samples not meeting A280 specification for integrity: Remove A280 \\< 0.342 and A280 \\> 1.19\n  * Samples received more than four (4) days after aspiration\n  * Patient age \\< 18 From Institutional Medical Record\n  * Patient who did not undergo surgical interventions after PJI Panel Testing\n  * Synovasure testing performed less than 6 weeks after index surgery\n  * Evidence of sinus tract communicating with the joint",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patient tested for PJI through the PJI Panel at CD Laboratories (CDL).",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Elena Gardini, PhD",
+                    "role": "CONTACT",
+                    "phone": "2064752093",
+                    "email": "elena.gardini@zimmerbiomet.com"
+                },
+                {
+                    "name": "Ann Blanton",
+                    "role": "CONTACT",
+                    "phone": "574.253.5556",
+                    "email": "ann.blanton@zimmerbiomet.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Yale Fillingham, M.D.",
+                    "affiliation": "Rothman Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Rothman Orthopedic Institute",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19107",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Thema Nicholson, MSc",
+                            "role": "CONTACT",
+                            "phone": "267-339-3615",
+                            "email": "thema.nicholson@rothmanortho.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "asFound": "Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

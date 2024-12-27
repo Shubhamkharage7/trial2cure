@@ -1,0 +1,481 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03269474",
+            "orgStudyIdInfo": {
+                "id": "41142"
+            },
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Computational Drug Repurposing for All EBS Cases",
+            "officialTitle": "Computational Drug Repurposing for All Epidermolysis Bullosa Simplex (EBS) Cases",
+            "therapeuticArea": [
+                "Dermatology",
+                "Other"
+            ],
+            "study": "computational-drug-repurposing-for-all-ebs-cases"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-02",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2017-11-28",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2017-08-21",
+            "studyFirstSubmitQcDate": "2017-08-30",
+            "studyFirstPostDateStruct": {
+                "date": "2017-08-31",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-02-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR_INVESTIGATOR",
+                "investigatorFullName": "Joyce Teng",
+                "investigatorTitle": "Director of Pediatric Dermatology",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Joyce Teng",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The study will compare gene expression differences between blistered and non-blistered skin from individuals with all subtypes of EB, as well as normal skin from non-EB subjects. State of the art computational analysis will be performed to help identify new drugs that might help all EB wound healing and reduce pain. Researchers will focus on drugs that have already been approved for treatment of other dermatologic or non-dermatologic diseases, and therefore be repurposed for treatment of EB. Drug development is a very expensive process taking decades for execution. Drug repurposing on the other hand, significantly reduces the cost and shortens the amount of time that is needed to bring effective treatments to clinical use. To date, there is no specific treatment targeting the physiology and immunologic response in EB patients during wound healing. Market availability of repurposed medications will provide all EB patients rapid access to treatments, thus improving their quality of life.",
+            "detailedDescription": "Although gene, cell, and protein-based therapies are in development for patients suffering from all subtypes of epidermolysis bullosa (EB), new pharmacological treatments are in dire need. Characterizing molecular changes in EB, including gene expression, can identify new therapeutic targets and drugs that modulate those targets. However, sifting through gene expression information to identify the most promising drug targets is a complex data challenge. The goal of the study will identify a computational approach to evaluate and identify existing drugs approved for other diseases that can be repurposed for EB patients. The study will perform an unprecedented characterization of gene expression changes in EB patients compared to healthy, non-EB individuals across multiple tissues. Using a validated computational drug discovery platform, researchers will analyze gene expression and drug data using unique algorithms. In the first year, a list of ten, safety drugs more probable to treat the EB disease state will be identified. The most promising drugs discovered will then be tested in the clinic setting."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Epidermolysis Bullosa",
+                "Healthy",
+                "Genetic Skin Disease",
+                "Epidermolysis Bullosa Simplex",
+                "Epidermolysis Bullosa, Junctional",
+                "Epidermolysis Bullosa Dystrophica"
+            ],
+            "keywords": [
+                "epidermolysis bullosa",
+                "genetic expression",
+                "drug repurposing",
+                "computational approaches",
+                "drug discovery"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Punch biopsies of non-blistering and blistering skin, and peripheral blood mononuclear cells (PBMCs): CD8+ cytotoxic T cells and CD4+ helper T cells."
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Experimental Group",
+                    "description": "Blood and tissue specimen will be collected from subjects with an EB diagnosis. Tissue specimen will be collected from blistered and nonblistered skin.",
+                    "interventionNames": [
+                        "Procedure: Experimental Group"
+                    ]
+                },
+                {
+                    "label": "Control Group",
+                    "description": "Blood and tissue specimen will be collected from healthy subjects with non-EB. Tissue specimen will be collected from an inconspicuous skin area.",
+                    "interventionNames": [
+                        "Procedure: Experimental Group"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Experimental Group",
+                    "description": "Subjects with EB diagnosis",
+                    "armGroupLabels": [
+                        "Control Group",
+                        "Experimental Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Characterize gene expression changes in EB using RNA sequencing (RNA-seq) and Computational Profiling Potential Drug Targets",
+                    "description": "Using bioinformatic algorithms to identify changes in gene expression and review of over 2000 FDA-approved drugs based on predicted modulation of gene expression changes using a computational evolutionary algorithm system.",
+                    "timeFrame": "Through the completion of study in 1 year."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects of all ages\n* Diagnosis of all subtypes of EB subjects\n* Healthy, non-EB subjects\n* Ability to complete study visit to collect tissue and blood specimen\n\nExclusion Criteria:\n\n* Pregnancy, breast feeding\n* Prior history of liver disease\n* Serious known concurrent medical illness or infection, which could potentially present a safety risk and/or prevent tissue collection from subjects",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "0 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Subject of all ages with either 1) a diagnosis of EB subjects or 2) healthy, non-EB subjects",
+            "samplingMethod": "PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Monica Martin",
+                    "role": "CONTACT",
+                    "phone": "650-723-0636",
+                    "email": "momartin@stanford.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Joyce M Teng, MD, PhD",
+                    "affiliation": "Stanford University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Pediatric Dermatology Clinic at Stanford Children's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94304",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Monica Martin",
+                            "role": "CONTACT",
+                            "phone": "650-723-0636",
+                            "email": "PediatricDermStudy@stanford.edu"
+                        },
+                        {
+                            "name": "Elidia V Tafoya, MPH",
+                            "role": "CONTACT",
+                            "phone": "650-724-1982",
+                            "email": "PediatricDermStudy@stanford.edu"
+                        },
+                        {
+                            "name": "Joyce M Teng, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Kavita Sarin, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "15358662",
+                    "type": "BACKGROUND",
+                    "citation": "McLaren PJ, Mayne M, Rosser S, Moffatt T, Becker KG, Plummer FA, Fowke KR. Antigen-specific gene expression profiles of peripheral blood mononuclear cells do not reflect those of T-lymphocyte subsets. Clin Diagn Lab Immunol. 2004 Sep;11(5):977-82. doi: 10.1128/CDLI.11.5.977-982.2004."
+                },
+                {
+                    "pmid": "9384284",
+                    "type": "BACKGROUND",
+                    "citation": "Sleasman JW, Leon BH, Aleixo LF, Rojas M, Goodenow MM. Immunomagnetic selection of purified monocyte and lymphocyte populations from peripheral blood mononuclear cells following cryopreservation. Clin Diagn Lab Immunol. 1997 Nov;4(6):653-8. doi: 10.1128/cdli.4.6.653-658.1997."
+                },
+                {
+                    "pmid": "27043002",
+                    "type": "BACKGROUND",
+                    "citation": "Bray NL, Pimentel H, Melsted P, Pachter L. Near-optimal probabilistic RNA-seq quantification. Nat Biotechnol. 2016 May;34(5):525-7. doi: 10.1038/nbt.3519. Epub 2016 Apr 4. Erratum In: Nat Biotechnol. 2016 Aug 9;34(8):888. doi: 10.1038/nbt0816-888d."
+                },
+                {
+                    "pmid": "19910308",
+                    "type": "BACKGROUND",
+                    "citation": "Robinson MD, McCarthy DJ, Smyth GK. edgeR: a Bioconductor package for differential expression analysis of digital gene expression data. Bioinformatics. 2010 Jan 1;26(1):139-40. doi: 10.1093/bioinformatics/btp616. Epub 2009 Nov 11."
+                },
+                {
+                    "pmid": "24203711",
+                    "type": "BACKGROUND",
+                    "citation": "Law V, Knox C, Djoumbou Y, Jewison T, Guo AC, Liu Y, Maciejewski A, Arndt D, Wilson M, Neveu V, Tang A, Gabriel G, Ly C, Adamjee S, Dame ZT, Han B, Zhou Y, Wishart DS. DrugBank 4.0: shedding new light on drug metabolism. Nucleic Acids Res. 2014 Jan;42(Database issue):D1091-7. doi: 10.1093/nar/gkt1068. Epub 2013 Nov 6."
+                },
+                {
+                    "pmid": "23060433",
+                    "type": "BACKGROUND",
+                    "citation": "Sugaya N, Kanai S, Furuya T. Dr. PIAS 2.0: an update of a database of predicted druggable protein-protein interactions. Database (Oxford). 2012 Oct 10;2012:bas034. doi: 10.1093/database/bas034. Print 2012."
+                },
+                {
+                    "pmid": "17644558",
+                    "type": "BACKGROUND",
+                    "citation": "Subramanian A, Kuehn H, Gould J, Tamayo P, Mesirov JP. GSEA-P: a desktop application for Gene Set Enrichment Analysis. Bioinformatics. 2007 Dec 1;23(23):3251-3. doi: 10.1093/bioinformatics/btm369. Epub 2007 Jul 20."
+                },
+                {
+                    "pmid": "27386970",
+                    "type": "RESULT",
+                    "citation": "Cohn HI, Teng JM. Advancement in management of epidermolysis bullosa. Curr Opin Pediatr. 2016 Aug;28(4):507-16. doi: 10.1097/MOP.0000000000000380."
+                },
+                {
+                    "pmid": "26802230",
+                    "type": "RESULT",
+                    "citation": "Uitto J, Bruckner-Tuderman L, Christiano AM, McGrath JA, Has C, South AP, Kopelan B, Robinson EC. Progress toward Treatment and Cure of Epidermolysis Bullosa: Summary of the DEBRA International Research Symposium EB2015. J Invest Dermatol. 2016 Feb;136(2):352-358. doi: 10.1016/j.jid.2015.10.050."
+                },
+                {
+                    "pmid": "26194911",
+                    "type": "RESULT",
+                    "citation": "Nystrom A, Thriene K, Mittapalli V, Kern JS, Kiritsi D, Dengjel J, Bruckner-Tuderman L. Losartan ameliorates dystrophic epidermolysis bullosa and uncovers new disease mechanisms. EMBO Mol Med. 2015 Sep;7(9):1211-28. doi: 10.15252/emmm.201505061."
+                },
+                {
+                    "pmid": "23651789",
+                    "type": "RESULT",
+                    "citation": "Wally V, Kitzmueller S, Lagler F, Moder A, Hitzl W, Wolkersdorfer M, Hofbauer P, Felder TK, Dornauer M, Diem A, Eiler N, Bauer JW. Topical diacerein for epidermolysis bullosa: a randomized controlled pilot study. Orphanet J Rare Dis. 2013 May 7;8:69. doi: 10.1186/1750-1172-8-69."
+                },
+                {
+                    "pmid": "25832646",
+                    "type": "RESULT",
+                    "citation": "Li J, Zheng S, Chen B, Butte AJ, Swamidass SJ, Lu Z. A survey of current trends in computational drug repositioning. Brief Bioinform. 2016 Jan;17(1):2-12. doi: 10.1093/bib/bbv020. Epub 2015 Mar 31."
+                },
+                {
+                    "pmid": "27940607",
+                    "type": "RESULT",
+                    "citation": "Low YS, Daugherty AC, Schroeder EA, Chen W, Seto T, Weber S, Lim M, Hastie T, Mathur M, Desai M, Farrington C, Radin AA, Sirota M, Kenkare P, Thompson CA, Yu PP, Gomez SL, Sledge GW Jr, Kurian AW, Shah NH. Synergistic drug combinations from electronic health records and gene expression. J Am Med Inform Assoc. 2017 May 1;24(3):565-576. doi: 10.1093/jamia/ocw161."
+                },
+                {
+                    "pmid": "21877134",
+                    "type": "RESULT",
+                    "citation": "Bchetnia M, Tremblay ML, Leclerc G, Duperee A, Powell J, McCuaig C, Morin C, Legendre-Guillemin V, Laprise C. Expression signature of epidermolysis bullosa simplex. Hum Genet. 2012 Mar;131(3):393-406. doi: 10.1007/s00439-011-1077-7. Epub 2011 Aug 30."
+                },
+                {
+                    "pmid": "19267394",
+                    "type": "RESULT",
+                    "citation": "Roth W, Reuter U, Wohlenberg C, Bruckner-Tuderman L, Magin TM. Cytokines as genetic modifiers in K5-/- mice and in human epidermolysis bullosa simplex. Hum Mutat. 2009 May;30(5):832-41. doi: 10.1002/humu.20981."
+                },
+                {
+                    "pmid": "23483391",
+                    "type": "RESULT",
+                    "citation": "Lee B, Geyfman M, Andersen B, Dai X. Analysis of gene expression in skin using laser capture microdissection. Methods Mol Biol. 2013;989:109-17. doi: 10.1007/978-1-62703-330-5_10."
+                },
+                {
+                    "pmid": "25431026",
+                    "type": "RESULT",
+                    "citation": "Lovendorf MB, Mitsui H, Zibert JR, Ropke MA, Hafner M, Dyring-Andersen B, Bonefeld CM, Krueger JG, Skov L. Laser capture microdissection followed by next-generation sequencing identifies disease-related microRNAs in psoriatic skin that reflect systemic microRNA changes in psoriasis. Exp Dermatol. 2015 Mar;24(3):187-93. doi: 10.1111/exd.12604."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "As of now, there are no plans to share the data with other researchers. Once the outcome measures have been accomplished, the research team will publish results for the entire clinicaltrials.gov community and researchers for this vulnerable population study."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000004820",
+                    "term": "Epidermolysis Bullosa"
+                },
+                {
+                    "id": "D000016110",
+                    "term": "Epidermolysis Bullosa Simplex"
+                },
+                {
+                    "id": "D000016108",
+                    "term": "Epidermolysis Bullosa Dystrophica"
+                },
+                {
+                    "id": "D000016109",
+                    "term": "Epidermolysis Bullosa, Junctional"
+                },
+                {
+                    "id": "D000012873",
+                    "term": "Skin Diseases, Genetic"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012868",
+                    "term": "Skin Abnormalities"
+                },
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                },
+                {
+                    "id": "D000030342",
+                    "term": "Genetic Diseases, Inborn"
+                },
+                {
+                    "id": "D000012872",
+                    "term": "Skin Diseases, Vesiculobullous"
+                },
+                {
+                    "id": "D000003095",
+                    "term": "Collagen Diseases"
+                },
+                {
+                    "id": "D000003240",
+                    "term": "Connective Tissue Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "asFound": "Skin Diseases",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15676",
+                    "name": "Skin Diseases, Genetic",
+                    "asFound": "Genetic Skin Disease",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7976",
+                    "name": "Epidermolysis Bullosa",
+                    "asFound": "Epidermolysis Bullosa",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18587",
+                    "name": "Epidermolysis Bullosa, Junctional",
+                    "asFound": "Epidermolysis Bullosa, Junctional",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18586",
+                    "name": "Epidermolysis Bullosa Dystrophica",
+                    "asFound": "Epidermolysis Bullosa Dystrophica",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18588",
+                    "name": "Epidermolysis Bullosa Simplex",
+                    "asFound": "Epidermolysis Bullosa Simplex",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15672",
+                    "name": "Skin Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23686",
+                    "name": "Genetic Diseases, Inborn",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15675",
+                    "name": "Skin Diseases, Vesiculobullous",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15045",
+                    "name": "Rheumatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6323",
+                    "name": "Collagen Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6464",
+                    "name": "Connective Tissue Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2098",
+                    "name": "Epidermolysis Bullosa",
+                    "asFound": "Epidermolysis Bullosa",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3164",
+                    "name": "Junctional Epidermolysis Bullosa",
+                    "asFound": "Epidermolysis Bullosa, Junctional",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1991",
+                    "name": "Dystrophic Epidermolysis Bullosa",
+                    "asFound": "Epidermolysis Bullosa Dystrophica",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2100",
+                    "name": "Epidermolysis Bullosa Simplex",
+                    "asFound": "Epidermolysis Bullosa Simplex",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BC05",
+                    "name": "Musculoskeletal Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

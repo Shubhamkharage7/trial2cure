@@ -1,0 +1,441 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05717439",
+            "orgStudyIdInfo": {
+                "id": "CSP-PT-0003"
+            },
+            "organization": {
+                "fullName": "Senseye, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Feasibility and ML Training Investigation of the Senseye DT for Diagnosis of Adults With PTSD",
+            "officialTitle": "Machine-Learning Training Study of the Senseye Diagnostic Tool for Diagnosis of Adults With Post-Traumatic Stress Disorder (PTSD), Anxiety, and Depression",
+            "therapeuticArea": [
+                "Mental Health",
+                "Other"
+            ],
+            "study": "feasibility-and-ml-training-investigation-of-the-senseye-dt-for-diagnosis-of-adults-with-ptsd"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-01-28",
+            "studyFirstSubmitQcDate": "2023-01-28",
+            "studyFirstPostDateStruct": {
+                "date": "2023-02-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Senseye, Inc.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The aim of this study is to obtain data on the feasibility of the Senseye Diagnostic Tool (DT) to assess the presence and severity of post-traumatic stress disorder (PTSD) symptoms. The study will also collect data on Generalized Anxiety Disorder (GAD) and Major Depressive Disorder (MDD) to aid in assessing the presence and severity of these disorders both for the purpose of discerning them from PTSD and determining the feasibility of diagnosing them independently.",
+            "detailedDescription": "This clinical study will be conducted to inform and train the Senseye DT's machine learning algorithm, to be evaluated in a future study for effectiveness in identifying people with PTSD compared to the Clinician-Administered PTSD Scale for DSM-5, revised version (CAPS-5-R) assessment. The Senseye DT is designed to utilize video data captured from a subject's eyes while they are presented various visual stimuli to extract ocular metrics (i.e., pupil size, gaze pattern, etc.) and heart rate data and use this information to detect the presence and severity of PTSD. Due to the overlapping symptomatology between PTSD, GAD, and MDD and common elements of ANS abnormalities (e.g., hyperarousal in both PTSD and GAD), it is necessary for the Senseye DT's specificity to discern between PTSD, GAD and MDD. This study is therefore designed to fully assess the presence and severity of each of these disorders in subjects to ensure device specificity as well as to test the feasibility to diagnose and rate severity of these conditions.\n\nThe study will be divided into two concurrent phases:\n\nPhase I will focus on assessing the presence of PTSD via Screening through Baseline Study Visits. The objective of this phase is to obtain an accurate baseline diagnosis and severity rating for PTSD using Standard of Care methods and to use the Senseye DT to obtain data necessary for the device to be trained to produce a PTSD diagnosis. Baseline diagnosis and severity of GAD and MDD will also be determined.\n\nPhase II will focus on assessing the severity of PTSD symptoms over time, with the objective to collect data necessary to train the Senseye DT machine learning algorithm to accurately determine a subject's PTSD severity rating correlated to the CAPS-5-R. Phase II consists of follow-up time points of 4 weeks, 8 weeks, and 12 weeks, and assesses changes in PTSD since the baseline severity determined in Phase I. Changes in GAD and MDD from baseline will also be assessed."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "PTSD",
+                "Generalized Anxiety Disorder",
+                "Major Depressive Disorder"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "PTSD positive",
+                    "description": "Subjects meet criteria for PTSD, with or without comorbid Generalized Anxiety Disorder or Major Depressive Disorder",
+                    "interventionNames": [
+                        "Diagnostic Test: CAPS-5-R",
+                        "Diagnostic Test: Senseye DT"
+                    ]
+                },
+                {
+                    "label": "Primary GAD",
+                    "description": "Subjects DO NOT meet criteria for PTSD, but meet criteria for Generalized Anxiety Disorder",
+                    "interventionNames": [
+                        "Diagnostic Test: CAPS-5-R",
+                        "Diagnostic Test: Senseye DT"
+                    ]
+                },
+                {
+                    "label": "Primary MDD",
+                    "description": "Subjects DO NOT meet criteria for PTSD, but meet criteria for Major Depressive Disorder",
+                    "interventionNames": [
+                        "Diagnostic Test: CAPS-5-R",
+                        "Diagnostic Test: Senseye DT"
+                    ]
+                },
+                {
+                    "label": "Comorbid GAD/MDD",
+                    "description": "Subjects DO NOT meet criteria for PTSD, but meet criteria for Generalized Anxiety Disorder and Major Depressive Disorder",
+                    "interventionNames": [
+                        "Diagnostic Test: CAPS-5-R",
+                        "Diagnostic Test: Senseye DT"
+                    ]
+                },
+                {
+                    "label": "Trauma-positive, PTSD/GAD/MDD-negative",
+                    "description": "Subjects have trauma exposure meeting DSM-5-TR Criterion A, but DO NOT meet criteria for PTSD, GAD, or MDD",
+                    "interventionNames": [
+                        "Diagnostic Test: CAPS-5-R",
+                        "Diagnostic Test: Senseye DT"
+                    ]
+                },
+                {
+                    "label": "Trauma-negative",
+                    "description": "Subjects DO NOT have trauma exposure meeting DSM-5-TR Criterion A and DO NOT meet criteria for PTSD, GAD, or MDD",
+                    "interventionNames": [
+                        "Diagnostic Test: Senseye DT"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "CAPS-5-R",
+                    "description": "A semi-structured clinical interview to assess core PTSD symptoms for diagnosis and severity rating.",
+                    "armGroupLabels": [
+                        "Comorbid GAD/MDD",
+                        "PTSD positive",
+                        "Primary GAD",
+                        "Primary MDD",
+                        "Trauma-positive, PTSD/GAD/MDD-negative"
+                    ],
+                    "otherNames": [
+                        "Clinician-Administered Scale for PTSD for DSM-5, Revised version"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Senseye DT",
+                    "description": "Using a machine learning algorithm, Senseye DT will record a series of visual tasks, pupil light reflex, vascular function and heart rate measurement throughout.",
+                    "armGroupLabels": [
+                        "Comorbid GAD/MDD",
+                        "PTSD positive",
+                        "Primary GAD",
+                        "Primary MDD",
+                        "Trauma-negative",
+                        "Trauma-positive, PTSD/GAD/MDD-negative"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Agreement between Senseye DT and CAPS-5-R assessment at baseline",
+                    "description": "The Senseye DT demonstrates a statistically significant difference (p\\<0.05) of ocular signal and/or heart rate data between subjects with PTSD and/or GAD and/or MDD and control subjects at Baseline. Senseye DT results and clinical assessment diagnosis results will be compared using a 2-sample t-test or Wilcoxon rank-sum test.",
+                    "timeFrame": "Baseline"
+                },
+                {
+                    "measure": "Agreement between Senseye DT and CAPS-5-R at 12 weeks",
+                    "description": "The Senseye DT demonstrates a statistically significant difference (p\\<0.05) of ocular signal and/or heart rate data between subjects with PTSD and/or GAD and/or MDD and control subjects at the 12-week follow-up time point. Senseye DT results and clinical assessment diagnosis results will be compared using a 2-sample t-test or Wilcoxon rank-sum test.",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Establishment of Ground Truth - PTSD",
+                    "description": "To obtain data using the Senseye DT measures in both PTSD and control subjects to establish a \"ground truth\" for the Senseye DT's machine learning algorithm to use for objectively diagnosing and ranking severity of PTSD.",
+                    "timeFrame": "Baseline & 12 weeks"
+                },
+                {
+                    "measure": "Establishment of Ground Truth - GAD/MDD",
+                    "description": "To obtain data using the Senseye DT to establish a \"ground truth\" for the Senseye DT's machine learning algorithm to use for objectively diagnosing and ranking severity of GAD and/or MDD.",
+                    "timeFrame": "Baseline & 12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Time to Administer Tool",
+                    "description": "The Senseye DT demonstrates significantly less time to administer than the CAPS-5-R, based on actual recorded time for study staff to administer each assessment. Senseye DT time and CAPS-5-R time will be compared using a 2-sample t-test or Wilcoxon rank-sum test.",
+                    "timeFrame": "Baseline & 12 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Willing and able to read, understand, and sign the IRB-approved Informed Consent Form.\n2. Age 18+.\n3. Study groups: Diagnosed with PTSD, GAD, and/or MDD.\n4. Control groups: Not diagnosed with PTSD, GAD, or MDD.\n5. Deemed likely to comply with the study protocol, including willing communication of adverse events (AEs), mental health treatment history, current and past psychiatric medication, and ability to attend all study follow-up visits.\n6. Medically stable as determined by the clinician or investigator.\n7. Virtual sites: Subject has access to a stable internet and WIFI connection and an iPhone 11 or newer.\n\nExclusion Criteria:\n\n1. Psychotic or self-injurious behavior.\n2. Current diagnosis of epilepsy and/or other current seizure disorders.\n3. A history of or positive at screening for bipolar I or II, mania, or one or more schizophrenia-spectrum or other psychotic disorders, including schizophrenia, schizoaffective disorder, delusional disorder, and psychosis.\n4. Compromised facial neuro-ophthalmic integrity (e.g., due to stroke, MS, ALS, or other neurological conditions).\n5. Current diagnosis of dementia, delirium, amnestic disorders, autism, hydrocephalus, posterior cortical atrophy, aphasia, multiple sclerosis, or stroke-related cognitive dysfunction.\n6. Current eye disorders which prevent the patient from using the Senseye DT (complete list in full protocol).\n7. Active suicidal and/or homicidal intent which may put the participant and/or others at risk per the investigator's clinical judgement, or has suicidal ideation with intent to act within 6 months prior to the start of the screening phase as determined by a C-SSRS score \\> 3, or history of suicidal behavior within the past year prior to the start of the screening phase.\n8. Current reported usage (within 2 weeks of Initial Study Visit and/or planned ongoing usage during the study) of psychotropic and/or non-psychotropic drugs/medication which may affect use of the Senseye DT (complete list in full protocol).\n9. Current reported usage (within 2 weeks of Initial Study Visit and/or planned ongoing usage during the study) of vagal nerve stimulation, deep brain stimulation, transcranial magnetic stimulation, or electroconvulsive therapy.\n10. Any condition which precludes the ability for subjects to safely and accurately complete clinical assessments, questionnaires, or to follow instructions necessary to administer the Senseye DT (e.g., significant developmental disabilities, language disorders, cognitive deficiencies, or other neurodevelopmental disorders).\n11. Traumatic Brain Injury (TBI) within the last 12 months.\n12. Lifetime history of any of the following: surgical procedures involving the brain or meninges, encephalitis, meningitis, degenerative central nervous system (CNS) disorder (e.g., Alzheimer's Disease, Parkinson's Disease), epilepsy, mental retardation, or any other disease/procedure/accident/intervention that, according to the clinician, is deemed associated with significant injury to, or malfunction of, the CNS.\n13. Pregnant or intending on becoming pregnant during the duration of the study as determined by self-report.\n14. Currently incarcerated.\n15. Participant requires a legal guardian to consent.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Adults with or without PTSD, Generalized Anxiety Disorder (GAD), and/or Major Depressive Disorder (MDD)",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Brad Strasser, RAC",
+                    "role": "CONTACT",
+                    "phone": "512-524-6970",
+                    "email": "brad.strasser@senseye.co"
+                },
+                {
+                    "name": "David Zakariaie",
+                    "role": "CONTACT",
+                    "email": "david@senseye.co"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Colorado Anschutz Medical Campus",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Aurora",
+                    "state": "Colorado",
+                    "zip": "80045",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Blair Bacon",
+                            "role": "CONTACT",
+                            "phone": "720-739-0581",
+                            "email": "blair.bacon@cuanschutz.edu"
+                        },
+                        {
+                            "name": "Steven Berkowitz, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.72943,
+                        "lon": -104.83192
+                    }
+                },
+                {
+                    "facility": "Velocity Clinical Research",
+                    "status": "RECRUITING",
+                    "city": "Meridian",
+                    "state": "Idaho",
+                    "zip": "83642",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Daniel Korsgaard, RA",
+                            "role": "CONTACT",
+                            "phone": "208-377-8653",
+                            "phoneExt": "242",
+                            "email": "dkorsgaard@velocityclinical.com"
+                        },
+                        {
+                            "name": "Esther Huffine, MSN, NP-C",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.61211,
+                        "lon": -116.39151
+                    }
+                },
+                {
+                    "facility": "Ralph H. Johnson VA Health Care System",
+                    "status": "RECRUITING",
+                    "city": "Charleston",
+                    "state": "South Carolina",
+                    "zip": "29401",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ronald Acierno, PhD",
+                            "role": "CONTACT",
+                            "phone": "843-789-6519"
+                        },
+                        {
+                            "name": "Ronald Acierno, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.77657,
+                        "lon": -79.93092
+                    }
+                },
+                {
+                    "facility": "Future Search Trials",
+                    "status": "RECRUITING",
+                    "city": "Dallas",
+                    "state": "Texas",
+                    "zip": "75231",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael J Downing, M.D.",
+                            "role": "CONTACT",
+                            "phone": "214-361-7700"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.78306,
+                        "lon": -96.80667
+                    }
+                },
+                {
+                    "facility": "DHR Health Institute for Research and Development",
+                    "status": "RECRUITING",
+                    "city": "Edinburg",
+                    "state": "Texas",
+                    "zip": "78539",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Esmeralda Cardoso-Mendoza",
+                            "role": "CONTACT",
+                            "phone": "956-362-2391",
+                            "email": "e.cardoso@dhr-rgv.com"
+                        },
+                        {
+                            "name": "Adrian Agapito, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 26.30174,
+                        "lon": -98.16334
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001008",
+                    "term": "Anxiety Disorders"
+                },
+                {
+                    "id": "D000003866",
+                    "term": "Depressive Disorder"
+                },
+                {
+                    "id": "D000003865",
+                    "term": "Depressive Disorder, Major"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000019964",
+                    "term": "Mood Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7058",
+                    "name": "Depression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7061",
+                    "name": "Depressive Disorder",
+                    "asFound": "Depressive Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7060",
+                    "name": "Depressive Disorder, Major",
+                    "asFound": "Major Depressive Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4324",
+                    "name": "Anxiety Disorders",
+                    "asFound": "Anxiety Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M24916",
+                    "name": "Stress Disorders, Traumatic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16103",
+                    "name": "Stress Disorders, Post-Traumatic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21835",
+                    "name": "Mood Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

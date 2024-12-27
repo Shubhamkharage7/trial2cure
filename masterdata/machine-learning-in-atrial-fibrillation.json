@@ -1,0 +1,231 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05371405",
+            "orgStudyIdInfo": {
+                "id": "54679"
+            },
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Machine Learning in Atrial Fibrillation",
+            "officialTitle": "Machine Learning in Atrial Fibrillation",
+            "therapeuticArea": [
+                "Cardiovascular",
+                "Other"
+            ],
+            "study": "machine-learning-in-atrial-fibrillation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-02-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-04-22",
+            "studyFirstSubmitQcDate": "2022-05-07",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-20",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-22",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Sanjiv Narayan, MD, PhD",
+                "investigatorTitle": "Professor of Medicine",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Atrial fibrillation is a serious public health issue that affects over 5 million Americans (Miyazaka, Circulation 2006) in whom it may cause skipped beats, dizziness, stroke and even death. Therapy for AF is currently suboptimal, in part because AF represents several disease states of which few have been delineated or used to successfully guide management. This study seeks to clarify this delineation of AF types using machine learning (ML).",
+            "detailedDescription": "This project tests the novel hypothesis that \"Machine learning (ML) in AF patients can integrate physiological data across biological scales stratified by labeled outcomes, and use explainability analyses to identify electrical, structural and clinical determinants of ablation outcome in individual patients to guide personalized therapy\". We address this hypothesis using a combined computational/clinical approach. The project will recruit 120 patients to address 3 Specific Aims.\n\nAim 1. To identify components of AF electrograms that indicate depolarization, repolarization or other mechanisms at the tissue level, using ML trained to monophasic action potentials (MAP). For this prospective protocol, we will collect electrograms using a MAP catheter at multiple atrial sites in patients undergoing AF ablation. We will then test if our algorithms developed previously from our registry, can predict MAP timings from AF electrograms.\n\nAim 2. To identify electrical and structural features of the acute response of AF to ablation near and remote from PVs at the individual heart level using machine learning and biostatistical approaches. For this prospective protocol, we will recruit patients undergoing their standard-of-care ablation and test if an ML classifier developed previously in a registry dataset prospectively predicts acute response to specific ablation strategies.\n\nAim 3. To identify patients in whom ablation is unsuccessful or successful long-term using ML and biostatistics. For this prospective protocol, we will recruit patients undergoing their standard-of-care ablation and test if an ML classifier developed previously in a registry dataset prospectively predicts 1 year freedom from atrial arrhythmias.\n\nThis project is significant because it will establish a deeper understanding of AF and might reveal novel mechanisms of AF maintenance. Our results can be translated directly to practice and may enable the development of better treatment options."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Atrial Fibrillation",
+                "Arrhythmias, Cardiac"
+            ],
+            "keywords": [
+                "machine learning",
+                "ablation",
+                "atrial fibrillation"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 120,
+                "type": "ESTIMATED"
+            }
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Machine Learning Prediction of Ablation Outcome",
+                    "description": "To compare success of AF ablation in each patient at 1 year (defined as absence of AF or atrial tachycardia on outpatient monitoring) to predicted success by the machine learning algorithm developed in this project. The outcome compares observed success at 1 year (Yes, No) to (a) a binary predictor and (b) a continuous variable of success from the algorithm. The machine learning algorithm is trained on clinical and electrophysiological data to predict if certain lesion sets will or will not be successful.",
+                    "timeFrame": "1 year."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Machine Learning to Identify Ablation targets",
+                    "description": "To determine if AF ablation success at 1 year (defined as absence of AF or atrial tachycardia on outpatient monitoring) correlates with the ablation of regions predicted by the machine learning algorithm in this project to be successful ablation targets.",
+                    "timeFrame": "1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* undergoing ablation at Stanford of (a) paroxysmal AF (self-terminates \\< 7 days), or (b) persistent AF (requires cardioversion to terminate).\n* Per our clinical practice and guidelines (Calkins et al, Heart Rhythm 2012), patients will have failed or be intolerant of \u2265 1 anti-arrhythmic drug.\n\nExclusion Criteria:\n\n* active coronary ischemia or decompensated heart failure\n* atrial or ventricular clot on trans-esophageal echocardiography\n* pregnancy (to minimize fluoroscopic exposure)\n* inability or unwillingness to provide informed consent\n* rheumatic valve disease (results in a unique AF phenotype)\n* thrombotic disease or venous filters",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "22 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Subjects will be men and women of any ethnicity aged 22-80 years undergoing ablation at Stanford of (a) paroxysmal AF (self-terminates \\< 7 days), or (b) persistent AF (requires cardioversion to terminate). Per our clinical practice and guidelines (Calkins et al, Heart Rhythm 2012), patients will have failed or be intolerant of \u2265 1 anti-arrhythmic drug.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sanjiv Narayan, MD",
+                    "role": "CONTACT",
+                    "phone": "650-724-1850",
+                    "email": "sanjiv1@stanford.edu"
+                },
+                {
+                    "name": "Kathleen Mills, BA",
+                    "role": "CONTACT",
+                    "email": "kmills2@stanford.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Stanford University",
+                    "status": "RECRUITING",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94305",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sanjiv Narayan, MD",
+                            "role": "CONTACT",
+                            "phone": "650-724-1850",
+                            "email": "sanjiv1@stanford.edu"
+                        },
+                        {
+                            "name": "Kathleen Mills, BA",
+                            "role": "CONTACT",
+                            "email": "kmills2@stanford.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001281",
+                    "term": "Atrial Fibrillation"
+                },
+                {
+                    "id": "D000001145",
+                    "term": "Arrhythmias, Cardiac"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4586",
+                    "name": "Atrial Fibrillation",
+                    "asFound": "Atrial Fibrillation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4453",
+                    "name": "Arrhythmias, Cardiac",
+                    "asFound": "Arrhythmias, Cardiac",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

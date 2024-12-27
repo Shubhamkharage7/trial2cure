@@ -1,0 +1,241 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06138977",
+            "orgStudyIdInfo": {
+                "id": "HUM00230065"
+            },
+            "organization": {
+                "fullName": "University of Michigan",
+                "class": "OTHER"
+            },
+            "briefTitle": "Controlling Locomotion Over Continuously Varying Activities for Agile Powered Prosthetic Legs",
+            "officialTitle": "Controlling Locomotion Over Continuously Varying Activities for Agile Powered Prosthetic Legs",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "controlling-locomotion-over-continuously-varying-activities-for-agile-powered-prosthetic-legs"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-12-06",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2028-01-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2028-01-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-11-13",
+            "studyFirstSubmitQcDate": "2023-11-17",
+            "studyFirstPostDateStruct": {
+                "date": "2023-11-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-31",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-02-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Robert D Gregg",
+                "investigatorTitle": "Associate Professor of Robotics, Associate Professor of Electrical Engineering and Computer Science and Associate Professor of Mechanical Engineering, College of Engineering",
+                "investigatorAffiliation": "University of Michigan"
+            },
+            "leadSponsor": {
+                "name": "University of Michigan",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The overall goal of this project is to model human joint biomechanics over continuously-varying locomotion to enable adaptive control of powered above-knee prostheses. The central hypothesis of this project is that variable joint impedance can be parameterized by a continuous model based on measurable quantities called phase and task variables. This project will use machine learning to identify variable impedance functions from able-bodied data including joint perturbation responses across the phase/task space to bias the solution toward biological values.",
+            "detailedDescription": "The overall goal of this project is to model human joint biomechanics over continuously-varying locomotion to enable adaptive control of powered above-knee prostheses. Above-knee amputees often struggle to perform the varying activities of daily life with conventional prostheses due to the lack of positive mechanical work and active control. Emerging powered prostheses have motors that can perform these missing functions, but the biomechanics experienced by the user depend on the control of these motors. The way the prosthesis interacts with both the user and environment can be controlled through joint impedance--the relationship between joint motion and torque. Prosthetic joint impedance is typically defined via a stiffness, viscosity, and equilibrium angle for discrete phases of gait within a limited set of discrete activities, but this framework does not allow continuous variations of steady-state activities (e.g., walking at different speeds/inclines) or continuous transitions between activities (e.g., walk to stair ascent). The central hypothesis of this project is that variable joint impedance can be parameterized by a continuous model based on measurable quantities called phase and task variables. This project will use machine learning to identify variable impedance functions from able-bodied data including joint perturbation responses across the phase/task space to bias the solution toward biological values. The resulting impedance model will be used with real-time estimates of phase and task variables to control a custom powered knee-ankle prosthesis and the Ossur PowerKnee across activities. The clinical trial will comprise the following human subject experiments.\n\nAim 1.3: N=5 able-bodied subjects will be recruited for initial testing of the walking and stair controllers. Once the powered knee-ankle prosthesis achieves satisfactory performance, we will enroll N=5 amputee subjects to validate these controllers.\n\nAim 2.3: N=5 able-bodied subjects will be recruited for initial testing of the sit-to-stand and walk-stair transition controllers. Once the powered knee-ankle prosthesis achieves satisfactory performance, we will enroll N=5 amputee subjects to validate these controllers.\n\nAim 3.1: N=5 amputee subjects will be enrolled to validate the clinical interface for the powered prosthesis controllers.\n\nAim 3.2: N=5 amputee subjects will be enrolled to validate the transfer of the controllers to the PowerKnee.\n\nAim 3.3: N=10 amputee subjects will be enrolled in a study of endurance and symmetry outcomes with the PowerKnee compared to their take-home prosthesis."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Amputation"
+            ],
+            "keywords": [
+                "prosthetic leg"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 40,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Prosthesis",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants in this arm of the study will perform various tasks while wearing the powered prosthesis",
+                    "interventionNames": [
+                        "Device: Powered prosthesis"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Powered prosthesis",
+                    "description": "A powered prosthesis will be used to restore normative leg biomechanics to above-knee amputee participants during different activities of daily life.",
+                    "armGroupLabels": [
+                        "Prosthesis"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Joint work",
+                    "description": "Mechanical work at the prosthetic knee and ankle will be assessed for participants using the powered prosthesis in A1.3 and A2.3, with comparisons to able-bodied averages. Joint work will be calculated by multiplying the joint's commanded torque by its measured velocity, resulting in units of Joules.",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Tuning time",
+                    "description": "The time for a prosthetist to configure the powered prosthesis for above-knee amputee participants will be assessed in A3.1 and A3.3.",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Endurance test time",
+                    "description": "The time to complete multiple cycles through an ambulation circuit will be recorded with above-knee amputee participants' take-home prosthesis and a powered prosthesis. The ambulation circuit comprises, sit-to-stand, walking, stair ascent/descent, ramp descent/ascent, and stand-to-sit.",
+                    "timeFrame": "1 day"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Inter-leg symmetry",
+                    "description": "Kinematic and kinetic symmetry will be assessed between the sound side and prosthetic side of participants using the powered prosthesis in A1.3 and A2.3, with comparisons to able-bodied averages. The units will be % difference between legs, where 0% indicates perfect symmetry.",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Stance-swing time ratio",
+                    "description": "The stance-swing time ratio will be assessed for participants using the powered prosthesis in A1.3 and A2.3, with comparisons to able-bodied averages. The stance-swing time ratio for above-knee amputee participants will compared between their take-home prosthesis and a powered prosthesis in A3.3.",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Step time symmetry",
+                    "description": "Step time symmetry (between sound and prosthetic side) of above-knee amputee participants will compared using their take-home prosthesis and a powered prosthesis in A3.3. The units will be % difference between legs, where 0% indicates perfect symmetry.",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Step length symmetry",
+                    "description": "Step length symmetry (between sound and prosthetic side) of above-knee amputee participants will compared using their take-home prosthesis and a powered prosthesis in A3.3. The units will be % difference between legs, where 0% indicates perfect symmetry.",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Step width symmetry",
+                    "description": "Step width symmetry (between sound and prosthetic side) of above-knee amputee participants will compared using their take-home prosthesis and a powered prosthesis in A3.3. The units will be % difference between legs, where 0% indicates perfect symmetry.",
+                    "timeFrame": "1 day"
+                },
+                {
+                    "measure": "Prosthesis Evaluation Questionnaire-Mobility",
+                    "description": "Amputee participant responses to the Prosthesis Evaluation Questionnaire-Mobility Subscale will be compared between the take-home leg and powered leg in A3.3. Questions will be answered on a scale from 0 (extremely dissatisfied) to 5 (extremely satisfied).",
+                    "timeFrame": "1 day"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion criteria for able-bodied participants will be:\n\n* Aged between 18 to 65 years\n\nExclusion criteria for able-bodied, young adult participants will be:\n\n* Pregnant (self-report)\n* Any significant neuromuscular or musculoskeletal disorder that would interfere with the study\n* Unable to walk for 20 minutes\n* History of any cardiovascular, vestibular, or visual diseases and/or impairments that may interfere with the study\n* Cognitive deficits that would impair their ability to give informed consent or impair their ability to follow simple instructions during the experiments. In the case of screening for cognitive deficits, the consenting researcher will ask the subject if he/she has any prior history of cognitive deficits.\n* Adults with a known allergy to medical grade tape\n\nInclusion criteria for subjects with amputation will be:\n\n* Aged between 18 to 70 years.\n* Weigh less than 250 lbs due to limitations in the design of the prosthesis.\n* Amputee subjects will be more than two months post independent ambulation with an amputation at the transfemoral level in order to use the above-knee prosthesis.\n* Amputee subjects will have a mobility classification of K2/K3/K4 ambulators (minimum community ambulatory) and have the ability to ambulate without an assistive device beyond their prosthesis.\n\nExclusion criteria for subjects with amputation will be:\n\n* Weigh over 250 pounds body\n* Pregnant (self-report)\n* Any significant neuromuscular or musculoskeletal disorder that would interfere with the study\n* Inactive or physically unfit, unable to walk for 20 minutes\n* An excessively long residual limb length, and/or a non-removable cosmetic cover determined by the prosthetist performing the evaluations\n* Cognitive deficits or visual impairment that would impair their ability to give informed consent or impair their ability to follow simple instructions during the experiments. In the case of screening for cognitive deficits, the consenting researcher will ask the subject if he/she has any prior history of cognitive deficits.\n* Co-morbidity that interferes with the study (e.g., pace maker placement, severe ischemia, cardiac disease, etc.)\n* Adults unable to consent\n* Adults with a known allergy to medical grade tape",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Emily Klinkman, MS",
+                    "role": "CONTACT",
+                    "phone": "734-846-0046",
+                    "email": "emilykk@umich.edu"
+                },
+                {
+                    "name": "Robert D Gregg, PhD",
+                    "role": "CONTACT",
+                    "phone": "734-763-1156",
+                    "email": "rdgregg@umich.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Robert D Gregg, PhD",
+                    "affiliation": "University of Michigan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Rehab Lab, University of Michigan",
+                    "status": "RECRUITING",
+                    "city": "Ann Arbor",
+                    "state": "Michigan",
+                    "zip": "48109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Emily Klinkman, MS",
+                            "role": "CONTACT",
+                            "phone": "734-846-0046",
+                            "email": "emilykk@umich.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.27756,
+                        "lon": -83.74088
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified IPD will be shared upon publication.",
+            "infoTypes": [
+                "STUDY_PROTOCOL"
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

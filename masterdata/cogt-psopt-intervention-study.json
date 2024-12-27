@@ -1,0 +1,269 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06005038",
+            "orgStudyIdInfo": {
+                "id": "71235"
+            },
+            "organization": {
+                "fullName": "Stanford University",
+                "class": "OTHER"
+            },
+            "briefTitle": "CogT pSOPT Intervention Study",
+            "officialTitle": "Personalized Engine for Speed of Information Processing",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "cogt-psopt-intervention-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-12-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-07",
+            "studyFirstSubmitQcDate": "2023-08-14",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-22",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Feng Lin",
+                "investigatorTitle": "Clinical Professor",
+                "investigatorAffiliation": "Stanford University"
+            },
+            "leadSponsor": {
+                "name": "Stanford University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "(JUSTIFICATION: This is the R33 stage of an NIH funded R21/R33 study. R21 stage (IRB-61727) was focused on intervention development; R33 stage will focus on pilot testing the effect of the intervention. The R21 phase was not considered a NIH defined clinical trial; R33 will be considered a NIH defined clinical trial)\n\nThe purpose is to develop and test the effect of a \"personalized\" computer-based cognitive training program. The personalized program tailors the difficulty of the training tasks using a participant's biofeedback (i.e., heart rate) and cognitive performance. Such a personalization will ensure that the participant can perform at his/her ideal training capacity. Participants will be randomized into one of 2 groups and each group will play a different version of computerized training game and have ECG collected to allow subject blinding."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Mild Cognitive Impairment",
+                "Subjective Cognitive Impairment"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 50,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "pSOPT",
+                    "type": "EXPERIMENTAL",
+                    "description": "personalized cognitive training with a close-loop parasympathetic nervous system monitored component",
+                    "interventionNames": [
+                        "Behavioral: pSOPT"
+                    ]
+                },
+                {
+                    "label": "MLA",
+                    "type": "PLACEBO_COMPARATOR",
+                    "description": "computerized mental leisure activities",
+                    "interventionNames": [
+                        "Behavioral: MLA"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "pSOPT",
+                    "description": "computerized cognitive training practicing speed of processing, the difficulty will be adjusted based on real-time monitored RMSSD (parasympathetic nervous system signals)",
+                    "armGroupLabels": [
+                        "pSOPT"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "MLA",
+                    "description": "computerized mental leisure activities on cross-word puzzle, Sudoku, and solitaire; ECG will also be applied.",
+                    "armGroupLabels": [
+                        "MLA"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "composite cognitive measure",
+                    "description": "a composite score of episodic memory and executive function. Episodic memory will be assessed using the Rey Auditory Verbal Learning and Brief Visuospatial Memory tests. Alternative forms of the tests will be used to reduce practice effects.The Z-transform scores across all assessment points within each test will be developed first to derive 2 composite scores (learning and delayed recall). Executive function will be measured using the EXAMINER, a computerized test package designed for RCTs. It includes 8 tests and calculates 4 sub-domain composite scores on working memory (Dot counting and N-back), inhibition (Flanker, Continuous Performance Test, and Anti-saccades), cognitive control (Dimensional Set Shifting), and Fluency (Phonemic Fluency and Category Fluency), and an overall composite score for executive function. A composite score synthesizing EXAMINER composite score, learning, and delayed recall will be created; higher indicates better performance.",
+                    "timeFrame": "Baseline, Week 7, and 3-month"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "central autonomic network (CAN) functional integrity",
+                    "description": "BOLD during resting-state will be collected using a gradient echo-planar imaging sequence. The functional scans will be acquired using simultaneous multi-slice at sub-second TRs. An in-scanner camera will be used to ensure compliance. Identification of CAN involved networks for the study: a functional network template along with 268 ROIs described previously will be used. In this functional template, CAN related networks will be focused, including SN, DMN, subcortical network, and frontoparietal networks, along with ACC subregions. The data will be analyzed using the FSL software packages. fMRI preprocessing will consist of motion correction, slice-timing correction, normalization, and Gaussian spatial smoothing (FWHM 8mm). To calculate resting-state and task-related fMRI, the correlation coefficient between ROI pair across the time course will be Fisher Z-transformed and averaged to derive summary scores for network strength; higher indicates stronger network strength.",
+                    "timeFrame": "Baseline, Week 7, and 3-month"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. criteria related to defining \"mild cognitive impairment\": a. Presence of memory complaint; b. Rey Auditory Verbal Learning Test delayed recall (for memory) \\< 59% of age-adjusted norm; c. Montreal Cognitive Assessment (for global cognition) ranged 18 and 27; d. Functional Assessment Questionnaire (for activities of daily living) \\< 20.\n2. intact score for San Diego Brief Assessment of Capacity to Consent (UBACC).\n3. if a participant is on AD medication (i.e., memantine, cholinesterase inhibitors, amyloid antibodies), antidepressants, anxiolytics, or vascular risk or diseases related medications (e.g., beta-blocker), the dose should be stable for 3 months prior to recruitment.\n4. age 60+,\n5. read and understand English\n6. adequate visual and hearing acuity for testing by self-report,\n7. community-dwelling (including independent living).\n\nExclusion Criteria:\n\n1. current enrollment in another cognitive improvement study;\n2. uncontrollable major depression;\n3. major cerebrovascular and cardiovascular diseases (e.g., congestive heart failure, pacemaker, prior myocardial infarction);\n4. having an active legal guardian (indicating impaired capacity for decision making);\n5. currently pregnant\n6. 3T MRI contraindication\n7. Neurological conditions: Neurodegenerative disease diagnosis such as Parkinson's, Alzheimers, dementia, multiple sclerosis. Of note, other neurological conditions/injury such as stroke, seizures, traumatic brain injury, will be evaluated for inclusion/exclusion on a case-by-case basis based on event recency, severity, and recovery.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "60 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Feng Lin, BS",
+                    "role": "CONTACT",
+                    "phone": "6082156005",
+                    "email": "cogtlab_stanford@stanford.edu"
+                },
+                {
+                    "name": "Sarah Therrien",
+                    "role": "CONTACT",
+                    "phone": "(650) 497-8434",
+                    "email": "cogtlab_stanford@stanford.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "CogT Lab, Stanford University",
+                    "status": "RECRUITING",
+                    "city": "Palo Alto",
+                    "state": "California",
+                    "zip": "94304-0000",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sarah Therrien",
+                            "role": "CONTACT",
+                            "phone": "650-497-8434",
+                            "email": "stherrie@stanford.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.44188,
+                        "lon": -122.14302
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000060825",
+                    "term": "Cognitive Dysfunction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003072",
+                    "term": "Cognition Disorders"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M29705",
+                    "name": "Cognitive Dysfunction",
+                    "asFound": "Cognitive Impairment",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6301",
+                    "name": "Cognition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

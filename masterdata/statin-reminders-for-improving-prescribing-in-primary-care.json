@@ -1,0 +1,333 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06456658",
+            "orgStudyIdInfo": {
+                "id": "240419"
+            },
+            "organization": {
+                "fullName": "Vanderbilt University Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Statin Reminders for Improving Prescribing in Primary Care",
+            "officialTitle": "Interruptive Versus Non-Interruptive Reminders Recommending Statin Prescribing in Primary Care",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "statin-reminders-for-improving-prescribing-in-primary-care"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-07",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-06",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-06-07",
+            "studyFirstSubmitQcDate": "2024-06-07",
+            "studyFirstPostDateStruct": {
+                "date": "2024-06-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-07",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Aileen P. Wright",
+                "investigatorTitle": "Principal Investigator, Instructor",
+                "investigatorAffiliation": "Vanderbilt University Medical Center"
+            },
+            "leadSponsor": {
+                "name": "Vanderbilt University Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Statins reduce cardiovascular events and mortality, but only 30% of eligible primary care patients nationally are on statins. Clinical decision support (CDS) interventions in the electronic health record (EHR) can deliver education to providers and increase adherence to guideline recommendations via many potential forms of delivery. Interruptive alerts are an effective form of CDS but disrupt clinician workflow and increase alert fatigue in an age of clinician burnout and frustration with the EHR. Non-interruptive reminders are proposed as an alternative method of delivering CDS; however, they require active pursuit by the provider, and their effectiveness compared to interruptive alerts has not been rigorously studied. The investigators propose a randomized trial comparing the effect of interruptive vs. non-interruptive reminders displayed to clinicians to increase statin prescribing in primary care clinics."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cholesterol, Elevated",
+                "Clinical Decision Support",
+                "Education"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "SINGLE",
+                    "whoMasked": [
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 6000,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Interruptive Reminder Group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Providers will receive education via a pop-up alert at the time that the chart is opened for eligible patient visits assigned to the interruptive reminder group.",
+                    "interventionNames": [
+                        "Other: Interruptive Reminder"
+                    ]
+                },
+                {
+                    "label": "Non-Interruptive Reminder Group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Providers will be able to seek out education at their own initiative via an on-demand reminder within a section of the chart for eligible patient visits assigned to the non-interruptive reminder group.",
+                    "interventionNames": [
+                        "Other: Non-interruptive Reminder"
+                    ]
+                },
+                {
+                    "label": "No Reminder Group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "No alert recommending a statin will be displayed/available to the provider. The system will record eligibility through triggering a \"silent\" reminder, which is not displayed to the clinician and exists solely for data collection purposes.",
+                    "interventionNames": [
+                        "Other: No Reminder"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Interruptive Reminder",
+                    "description": "The reminder will display at the time the chart is opened for eligible patient visits and alert clinicians that a statin is recommended for the patient and list the reasons the statin is indicated. It will give the clinicians a defaulted option for statin prescription as well as alternatives. If the clinician accepts the alert, an order for a statin will be placed in their \"shopping cart\" for convenience, and the order can be signed to prescribe the medication. If the clinician does not wish to prescribe a statin from the reminder, they can choose an acknowledgement reason.",
+                    "armGroupLabels": [
+                        "Interruptive Reminder Group"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Non-interruptive Reminder",
+                    "description": "The reminder will have the same format as the interruptive reminder group, but it will not be displayed unless providers seek out the education at their own initiative. The reminder will alert clinicians that a statin is recommended for the patient and list the reasons the statin is indicated. It will give the clinicians a defaulted option for statin prescription as well as alternatives. If the clinician accepts the alert, an order for a statin will be placed in their \"shopping cart\" for convenience, and the order can be signed to prescribe the medication. If the clinician does not wish to prescribe a statin from the reminder, they can choose an acknowledgement reason.",
+                    "armGroupLabels": [
+                        "Non-Interruptive Reminder Group"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "No Reminder",
+                    "description": "No reminder recommending a statin will be displayed/available to the provider.",
+                    "armGroupLabels": [
+                        "No Reminder Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Statin prescription within 24 hours",
+                    "description": "Statin prescription within 24 hours post-enrollment (either interruptive, non-interruptive, or silent/hidden reminder).",
+                    "timeFrame": "Baseline to 24-hours"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Statin prescription within 12 months",
+                    "description": "Statin prescription within 12 months post-enrollment.",
+                    "timeFrame": "Baseline to 12 months"
+                },
+                {
+                    "measure": "Low density lipoprotein-cholesterol (LDL-C) level",
+                    "description": "One LDL-C level within 12 months post-enrollment.",
+                    "timeFrame": "Baseline to 12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients between the ages of 18 and 75\n* Seen in primary care visit within Vanderbilt University Medical Center\n* Eligible for statin therapy due to 1) Atherosclerotic cardiovascular disease (ASCVD) 10- year risk greater than or equal to 10%, 2) Type 1 or 2 diabetes and aged 40 years or older, or 3) ASCVD diagnosis\n\nExclusion Criteria:\n\n* Already on statin, ezetimibe, bempedoic acid, or PCSK9 inhibitor\n* Last low-density lipoprotein cholesterol (LDL-C) less than 100 mg/dL\n* Pregnant or lactating\n* Palliative care\n* Statin allergy or adverse effect of statin\n* Rhabdomyolysis\n* Statin contraindicated due to liver disease, defined as 1) Decompensated liver disease, 2) AST or ALT greater than 5 times the upper limit of normal, or 3) Total bilirubin greater than 1.5 mg/dL\n* Statin contraindicated due to kidney disease, defined as 1) Dialysis or 2) Estimated glomerular filtration rate less than 15 ml/min/1.73m\\^2\n* Has had coronary calcium computerized tomography\n* Less than 3 months since lipid panel resulted\n* Acute visit",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "75 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Aileen P Wright, MD, MS",
+                    "role": "CONTACT",
+                    "phone": "615-936-2187",
+                    "email": "aileen.p.wright.1@vumc.org"
+                },
+                {
+                    "name": "Kylie Nairon, PhD",
+                    "role": "CONTACT",
+                    "phone": "615-421-0886",
+                    "email": "kylie.nairon@vumc.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Aileen P Wright, MD, MS",
+                    "affiliation": "Vanderbilt University Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Vanderbilt University Medical Center",
+                    "city": "Nashville",
+                    "state": "Tennessee",
+                    "zip": "37203",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kylie Nairon, PhD",
+                            "role": "CONTACT",
+                            "phone": "615-421-0886",
+                            "email": "kylie.nairon@vumc.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.16589,
+                        "lon": -86.78444
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Individual participant data that underlie the results reported will be made available (including data dictionaries) after de-identification.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "The data will become available 3 months following publication of outcomes and will remain available for at least 5 years.",
+            "accessCriteria": "Data will be made accessible to researchers who provide a methodologically sound proposal that has been approved by the Vanderbilt Institutional Review Board and the study executive committee."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006937",
+                    "term": "Hypercholesterolemia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000006949",
+                    "term": "Hyperlipidemias"
+                },
+                {
+                    "id": "D000050171",
+                    "term": "Dyslipidemias"
+                },
+                {
+                    "id": "D000052439",
+                    "term": "Lipid Metabolism Disorders"
+                },
+                {
+                    "id": "D000008659",
+                    "term": "Metabolic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9988",
+                    "name": "Hypercholesterolemia",
+                    "asFound": "Cholesterol, Elevated",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10000",
+                    "name": "Hyperlipidemias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10002",
+                    "name": "Hyperlipoproteinemias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M26181",
+                    "name": "Dyslipidemias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11639",
+                    "name": "Metabolic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27029",
+                    "name": "Lipid Metabolism Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M21155",
+                    "name": "Hydroxymethylglutaryl-CoA Reductase Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Lipd",
+                    "name": "Lipid Regulating Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

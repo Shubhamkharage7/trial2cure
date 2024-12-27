@@ -1,0 +1,287 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05873387",
+            "orgStudyIdInfo": {
+                "id": "2023.3"
+            },
+            "organization": {
+                "fullName": "Eko Devices, Inc.",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Development of an Algorithm to Detect Pulmonary Hypertension Using an Electronic Stethoscope",
+            "officialTitle": "Deep Learning for Algorithmic Detection of Pulmonary Hypertension Using a Combined Digital Stethoscope and Single-lead Electrocardiogram",
+            "therapeuticArea": [
+                "Cardiovascular"
+            ],
+            "study": "development-of-an-algorithm-to-detect-pulmonary-hypertension-using-an-electronic-stethoscope"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-07-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-05-16",
+            "studyFirstSubmitQcDate": "2023-05-16",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-07-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-07-20",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Eko Devices, Inc.",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The major goal of the study is to determine whether phonocardiography (using the Eko DUO stethoscope which can capture a three lead ECG reading) can present features that relate to the presence of PH diagnosed by echocardiography or right heart catheterization (RHC), and therefore have a potential to assist the provider to suspect PH.",
+            "detailedDescription": "Pulmonary hypertension (PH) is a syndrome resulting from restricted flow through the pulmonary circulation causing increased pulmonary vascular resistance and ultimately right heart failure. There are several different subtypes of PH, however, all carry a poor prognosis and often result in or hasten death. Multiple pathogenic pathways have been implicated in the development of PH, including those at the molecular and genetic levels and in the smooth muscle and endothelial cells and adventitia.\n\nPatients with PH are classified into five groups based on the etiology and mechanism of the disease group.1 Group 1, also called pulmonary arterial hypertension (PAH), is associated with several other systemic diseases (e.g., connective tissue disease), genetic syndromes, or drugs. Whereas, group 2 is associated with left-sided heart disease. Group 3 is due to chronic lung disorders and hypoxemia. Group 4 is due to pulmonary artery obstructions and is the subtype found in patients with chronic thromboembolic pulmonary hypertension. Lastly, Group 5 is idiopathic PH or PH with unidentified mechanism.\n\nPH is a major pathophysiological disorder that can involve multiple clinical conditions and can complicate most cardiovascular and respiratory diseases. PH is defined as an increase in mean pulmonary artery pressure (mPAP) \\>20 mm Hg at rest, as assessed by right heart catheterization. Due to the invasive nature of right heart catheterization, echocardiography is an established non-invasive alternative diagnostic tool.\n\nAbout 80% of all right heart catheterizations have evidence of elevated PA pressures (mPAP\\> 19 mm HG) and \\~60% have a mean PA pressure \\> 25 mm Hg. Also, the prevalence of elevated PA pressure is \\~ 50% on clinically indicated echocardiograms.5 Elevated PA pressure either by echocardiography or right heart catheterization is associated with increased mortality, hospitalizations and heart failure admissions.\n\nHowever, since PH requires either echocardiogram or invasive catheterization, it remains underdiagnosed. Identification of a minimally invasive and rapid screening process for PH will help identify this at risk group in a primary care setting to target for further evaluation and aggressive risk factor modification. We hypothesize that combining phonocardiography (PCG) from heart auscultation with electrocardiography (ECG) may provide specific elements that correlate with PA pressures on echocardiogram and can help screen for the probability of pulmonary hypertension in a patient."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pulmonary Hypertension"
+            ],
+            "keywords": [
+                "digital stethoscopes",
+                "deep learning",
+                "auscultation",
+                "electrocardiogram"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 2420,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Echocardiography ground-truth",
+                    "description": "Subjects with ECG/PCG recordings labeled against echocardiography",
+                    "interventionNames": [
+                        "Device: Use of Eko DUO stethoscope (paired ECG/PCG)"
+                    ]
+                },
+                {
+                    "label": "Right heart catheterization ground-truth",
+                    "description": "Subjects with ECG/PCG recordings labeled against right heart catheterization",
+                    "interventionNames": [
+                        "Device: Use of Eko DUO stethoscope (paired ECG/PCG)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Use of Eko DUO stethoscope (paired ECG/PCG)",
+                    "description": "Auscultation of heart sounds using electronic stethoscope",
+                    "armGroupLabels": [
+                        "Echocardiography ground-truth",
+                        "Right heart catheterization ground-truth"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Build a database of matched ECG/PCG recordings labeled against RHCs and echocardiograms",
+                    "description": "Create a training/validation dataset composed of ECG/PCG recordings by enrolling at least 2200 subjects undergoing echocardiography and at least 220 subjects who have undergone right heart catheterization (RHC)",
+                    "timeFrame": "Up to 2 years to complete database"
+                },
+                {
+                    "measure": "Develop and clinically test a deep learning algorithm that can detect PH and stratify its severity",
+                    "description": "Deliver an algorithm that detects PH with a sensitivity and specificity of \u2265 0.7",
+                    "timeFrame": "Up to 3 years to complete algorithm development"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients, ages \\>18 years, referred for complete 2-dimensional echocardiography or right heart catheterization will be screened for inclusion.\n\nExclusion Criteria:\n\n* Patients undergoing limited echocardiography\n* Intubated patients",
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients will be enrolled from Miriam and Rhode Island Hospital and Cardiovascular Institute outpatient locations where echocardiography or right heart catheterizations are performed. Approximately 40% of the patients enrolled will have a confirmed diagnosis of pulmonary hypertension.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Spencer Kieu",
+                    "role": "CONTACT",
+                    "phone": "714-623-6652",
+                    "email": "spencer.kieu@ekohealth.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Guarav Choudhary, MD",
+                    "affiliation": "Lifespan",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Rhode Island Hospital",
+                    "status": "RECRUITING",
+                    "city": "Providence",
+                    "state": "Rhode Island",
+                    "zip": "02903",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kelly Franchetti",
+                            "role": "CONTACT",
+                            "email": "kfranchetti@lifespan.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.82399,
+                        "lon": -71.41283
+                    }
+                },
+                {
+                    "facility": "The Miriam Hospital",
+                    "status": "RECRUITING",
+                    "city": "Providence",
+                    "state": "Rhode Island",
+                    "zip": "02906",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Lori-Ann Desimone",
+                            "role": "CONTACT",
+                            "email": "LDesimone@Lifespan.org"
+                        },
+                        {
+                            "name": "Guarav Choudhary, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.82399,
+                        "lon": -71.41283
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006976",
+                    "term": "Hypertension, Pulmonary"
+                },
+                {
+                    "id": "D000006973",
+                    "term": "Hypertension"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10024",
+                    "name": "Hypertension",
+                    "asFound": "Hypertension",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10027",
+                    "name": "Hypertension, Pulmonary",
+                    "asFound": "Pulmonary Hypertension",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

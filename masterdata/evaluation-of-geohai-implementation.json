@@ -1,0 +1,370 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05612672",
+            "orgStudyIdInfo": {
+                "id": "R01HS027200",
+                "type": "AHRQ",
+                "link": "https://reporter.nih.gov/quickSearch/R01HS027200"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01HS027200",
+                    "type": "AHRQ",
+                    "link": "https://reporter.nih.gov/quickSearch/R01HS027200"
+                }
+            ],
+            "organization": {
+                "fullName": "Ohio State University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Evaluation of GeoHAI Implementation",
+            "officialTitle": "GeoHAI Implementation in IP Workflow",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "evaluation-of-geohai-implementation"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-02-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-09-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-04-18",
+            "studyFirstSubmitQcDate": "2022-11-04",
+            "studyFirstPostDateStruct": {
+                "date": "2022-11-10",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Courtney Hebert",
+                "investigatorTitle": "Associate Professor",
+                "investigatorAffiliation": "Ohio State University"
+            },
+            "leadSponsor": {
+                "name": "Ohio State University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Agency for Healthcare Research and Quality (AHRQ)",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Geographic Information Systems (GIS) and spatial analysis have become important tools in public health informatics but have rarely been applied to the hospital setting. In this study we apply these tools to address the challenge of Hospital Acquired Infections (HAIs) by building, implementing, and evaluating a new computer application which incorporates mapping and geographic data to assist hospital epidemiologists in identifying HAI clusters and assessing transmission risk. We expect that incorporation of geographic information into the workflow of hospital epidemiologists will have a profound effect on our understanding of disease transmission and HAI risk factors in the hospital setting, radically altering the workflow and speed of response of infection preventionists and improving their ability to prevent HAIs.",
+            "detailedDescription": "Hospital Acquired Infections are common, affecting 3.2% of acute care hospital admissions. Recent reports have shown an improvement in overall HAI rates, primarily driven by improvements in surgical site (SSI) and catheter associated urinary tract infections (CAUTI). Transmissible infections, such as Clostridium difficile (CDI), have not shown the same decrease over time. This may be because prevention of CDI requires a comprehensive hospital-wide approach addressing environmental and patient-level risk factors. Geographic Information Systems (GIS) and spatial analysis techniques have become an important tool in public health informatics because they can integrate a vast number of data sources and explore associations and patterns in the data not visible using traditional biostatistical methods. Applications of GIS and spatial analysis are wide ranging but have largely been ignored in the hospital setting. The objective of this research is to develop a HAI assessment tool, which incorporates geographic data on the hospital and patient-level data from the electronic health record system, that is useful for hospital infection preventionists in better identifying clusters of HAI and assessing potential risk. We bring together a multidisciplinary team of clinical, operational, and academic investigators with expertise in GIS and spatial analysis, patient safety, public health informatics, usability assessment, and mixed- methods evaluation. As part of a larger study, this aim will seek to implement a GeoHAI tool that uses spatio-temporal Bayesian models to identify clusters of NHSN-defined hospital onset CDI and multidrug resistant organisms (MDRO) and predict potential high risk areas given hospital and patient risk factors. Unique to our approach is an evaluation strategy that focuses on the reduction of hospital acquired infection, but also seeks to understand how the tool and the information derived from the tool impacts patient safety practices in the hospital. We expect the implementation of this tool to radically change the workflow and speed of response of infection preventionists, greatly improving their ability to prevent HAI instead of reacting after they have occurred."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Clostridioides Difficile Infection",
+                "Healthcare Associated Infection"
+            ],
+            "keywords": [
+                "Geographic information system"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "Participants will get the intervention and outcomes will be measured pre- and post-implementation",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 25,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "GeoHAI Use",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will use the GeoHAI tool",
+                    "interventionNames": [
+                        "Other: GeoHAI"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "GeoHAI",
+                    "description": "A Geographic healthcare-associated infection (HAI) visualization and assessment tool (GeoHAI) which uses spatio-temporal Bayesian models to identify clusters of National Healthcare Safety Network (NHSN)-defined hospital onset Clostridium difficile (CDI) and multidrug resistant organisms (MDRO), and predict potential high risk areas given hospital and patient risk factors.",
+                    "armGroupLabels": [
+                        "GeoHAI Use"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change from Baseline Healthcare-Associated Infection (HAI) Rate",
+                    "description": "HAI rate at healthcare system level before intervention and after",
+                    "timeFrame": "1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Knowledge of tool",
+                    "description": "Knowledge questions to assess understanding of how to use the GeoHAI tool, assessed after participants are trained on how to use the tool",
+                    "timeFrame": "Immediately post-training"
+                },
+                {
+                    "measure": "Change from baseline skill confidence at one year",
+                    "description": "Self-reported level of confidence on investigating HAI clusters",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Usability score",
+                    "description": "System Usability Scale score, and impacts of the tool on work and workflow (interruptions, workarounds, issues/challenges)",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "GeoHAI Use",
+                    "description": "Self-reported frequency of use of the GeoHAI tool",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Change in Healthcare-Associated Infection (HAI) Investigation Process",
+                    "description": "Change in how infection preventionists investigate Healthcare-Associated Infections (HAIs)",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Number of months healthcare system is below goal HAI rate",
+                    "description": "Monthly HAI rate at healthcare system level before intervention and after",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Feasibility score",
+                    "description": "Score on feasibility, acceptability, and appropriateness domains of validated Implementation Outcome scale (minimum score = 1, maximum score = 5, where higher scores indicate better feasibility)",
+                    "timeFrame": "1 year"
+                },
+                {
+                    "measure": "Time to HAI cluster identification",
+                    "description": "Time from when an HAI test was ordered for the first positive patient ultimately contained in an identified HAI cluster, to when that HAI cluster is identified.",
+                    "timeFrame": "1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Infection preventionist or physician involved in infection prevention at participating health system\n\nExclusion Criteria:\n\n* Not an infection preventionist nor a physician involved in infection prevention\n* Does not work at the participating health system",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ohio State University Office of Responsible Research Practices",
+                    "role": "CONTACT",
+                    "phone": "1-800-678-6251",
+                    "email": "biomedicalirbinfo@osu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Courtney Hebert, MD",
+                    "affiliation": "Ohio State University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "The Ohio State University",
+                    "status": "RECRUITING",
+                    "city": "Columbus",
+                    "state": "Ohio",
+                    "zip": "43210",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Courtney Hebert, MS, MD",
+                            "role": "CONTACT",
+                            "phone": "614-688-6549",
+                            "email": "courtney.hebert@osumc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.96118,
+                        "lon": -82.99879
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000003141",
+                    "term": "Communicable Diseases"
+                },
+                {
+                    "id": "D000003015",
+                    "term": "Clostridium Infections"
+                },
+                {
+                    "id": "D000003428",
+                    "term": "Cross Infection"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000016908",
+                    "term": "Gram-Positive Bacterial Infections"
+                },
+                {
+                    "id": "D000001424",
+                    "term": "Bacterial Infections"
+                },
+                {
+                    "id": "D000001423",
+                    "term": "Bacterial Infections and Mycoses"
+                },
+                {
+                    "id": "D000007049",
+                    "term": "Iatrogenic Disease"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "asFound": "Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "asFound": "Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6642",
+                    "name": "Cross Infection",
+                    "asFound": "Healthcare Associated Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6247",
+                    "name": "Clostridium Infections",
+                    "asFound": "Clostridioides Difficile Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4722",
+                    "name": "Bacterial Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19252",
+                    "name": "Gram-Positive Bacterial Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12136",
+                    "name": "Mycoses",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4721",
+                    "name": "Bacterial Infections and Mycoses",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10099",
+                    "name": "Iatrogenic Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4202",
+                    "name": "Oculocerebral Syndrome With Hypopigmentation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

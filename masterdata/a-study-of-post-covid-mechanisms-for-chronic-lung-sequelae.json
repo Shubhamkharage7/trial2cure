@@ -1,0 +1,450 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06006884",
+            "orgStudyIdInfo": {
+                "id": "23-001888"
+            },
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "A Study of Post COVID-19 Mechanisms for Chronic Lung Sequelae",
+            "officialTitle": "Uncover Mechanisms Underlying the Development of Chronic Lung Sequelae Post COVID-19",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "a-study-of-post-covid-mechanisms-for-chronic-lung-sequelae"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-01-10",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-08",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-08-22",
+            "studyFirstSubmitQcDate": "2023-08-22",
+            "studyFirstPostDateStruct": {
+                "date": "2023-08-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-04",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-05",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Robert Vassallo",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Mayo Clinic"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to understand why some people experience long term effects, such as shortness of breath and fatigue, after a severe COVID-19 infection",
+            "detailedDescription": "Each participant will be in the study for approximately 12 months and will be required to come to Mayo Clinic for 3 visits. These visits will take place approximately 2-3 months after confirmed COVID-19 diagnosis (visit 1), 6 months after diagnosis (visit 2), and 12 months after diagnosis (visit 3).\n\nComprehensive clinical evaluation and symptom characterization, quantitative lung CT image analysis and pulmonary function testing, and quality of life questionnaires will be obtained at each visit. Bronchoscopy with BAL (collected at visits 1 and 3 only) and blood samples (collected at all visits) will dissect the dynamic immunological and molecular signatures in the respiratory tract and in the circulation longitudinally. We will also perform highly sensitive viral reservoir or remnant assays to address the potential contribution of viral factors in regulating chronic lung conditions post-acute COVID-19."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "COVID-19"
+            ],
+            "keywords": [
+                "COVID-19",
+                "SARS-CoV-2",
+                "Long COVID",
+                "chronic lung sequelae",
+                "post-acute"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "Fecal samples will be stored for potential determination of gut microbiome using 16S sequencing in the future if needed."
+            },
+            "enrollmentInfo": {
+                "count": 75,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Sequelae group",
+                    "description": "COVID-19 convalescents that recover from prior severe acute diseases requiring hospitalization and who will be at high risk of chronic lung sequelae (with an estimate of \\>50% having moderate to severe sequelae based on current literature)",
+                    "interventionNames": [
+                        "Procedure: Bronchoscopies and Bronchoalveolar Lavages (BALs)",
+                        "Diagnostic Test: Chest Tomography (CT)",
+                        "Diagnostic Test: Electrocardiogram (ECG)",
+                        "Diagnostic Test: Pulmonary function tests (PFTs)",
+                        "Diagnostic Test: 6 minute walk test (6MWT)"
+                    ]
+                },
+                {
+                    "label": "Recovery group",
+                    "description": "Age and gender matched individuals who had mild SARS-CoV-2 infection and experienced complete resolution of symptoms",
+                    "interventionNames": [
+                        "Procedure: Bronchoscopies and Bronchoalveolar Lavages (BALs)",
+                        "Diagnostic Test: Chest Tomography (CT)",
+                        "Diagnostic Test: Electrocardiogram (ECG)",
+                        "Diagnostic Test: Pulmonary function tests (PFTs)",
+                        "Diagnostic Test: 6 minute walk test (6MWT)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Bronchoscopies and Bronchoalveolar Lavages (BALs)",
+                    "description": "Bronchoscopies use a thin, lighted tube, which enters through the mouth or nose and moves down the throat to the airways to look at the lungs. BALs are done during bronchoscopies to collect samples from the lungs for testing. During this procedure, a saline solution is put through the tube to wash the airways and collect a fluid sample.",
+                    "armGroupLabels": [
+                        "Recovery group",
+                        "Sequelae group"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Chest Tomography (CT)",
+                    "description": "X-ray to create images of the bones and internal organs of the body",
+                    "armGroupLabels": [
+                        "Recovery group",
+                        "Sequelae group"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Electrocardiogram (ECG)",
+                    "description": "Measures the electrical activity of the heart by using sticky pads that are placed on your chest and limbs.",
+                    "armGroupLabels": [
+                        "Recovery group",
+                        "Sequelae group"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Pulmonary function tests (PFTs)",
+                    "description": "Testing to measure how well lungs are working",
+                    "armGroupLabels": [
+                        "Recovery group",
+                        "Sequelae group"
+                    ]
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "6 minute walk test (6MWT)",
+                    "description": "Walking test to see how well the lungs function with exercise over 6 minutes",
+                    "armGroupLabels": [
+                        "Recovery group",
+                        "Sequelae group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Decipher clinical, imaging, immune, molecular and/or viral traits underlying post-acute COVID-19 lung sequelae",
+                    "description": "This study will expand on prior observations from a previous study and discover potential drivers and targets for therapy of post-acute COVID-19 lung disease by recruiting a larger group of COVID-19 convalescents, following up longitudinally up to 12 months after acute infection. This longitudinal approach will allow for assess immune dysregulation and establish the etiology of lung sequelae of COVID-19",
+                    "timeFrame": "4 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nFor the Sequelae Group\n\n* Age \u226518 years at screening, PCR confirmed COVID19 illness (+PCR defines day 0 of illness), hospitalization for COVID-19, absence of pre-existing history of interstitial lung disease, or significant other lung disease.\n* Severity of illness will be categorized as moderate disease (supplemental oxygen need 1-8L at any time during hospitalization), severe disease (need for high flow oxygen delivery \u22658L at any time during hospitalization) and critical illness (need for ICU admission or mechanical ventilation).\n\nControl Recovery Group\n\n* Age \u226518 years at screening\n* PCR confirmed COVID-19 cases who had nonsymptomatic or mild acute infection that do not require hospitalization 7,48,49\n* Absence of pre-existing history of interstitial lung disease, or significant other lung disease, absence of any ongoing respiratory and systemic symptoms.\n\nExclusion Criteria:\n\n* Inability to provide informed consent, evidence of pre-existing interstitial lung disease or chronic lung disease;\n* Active cigarette smoking, vaping or other inhalation use.\n* Immunocompromised host status due to ongoing therapy with methotrexate, CellCept, azathioprine, rituximab, cyclophosphamide or other biologic agents;\n* \\> 20 pack year smoking history.\n* History of chemotherapy or radiation therapy in the last two years; and pregnancy.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "COVID-19 patient records from Mayo Clinic, Rochester MN and Mayo Clinic Health System sites will be reviewed for potential enrollment.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "overallOfficials": [
+                {
+                    "name": "Robert Vassallo, MD",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic Minnesota",
+                    "status": "RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Chris Roberts",
+                            "role": "CONTACT",
+                            "phone": "800-753-1606",
+                            "email": "roberts.chris@mayo.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000086382",
+                    "term": "COVID-19"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000011024",
+                    "term": "Pneumonia, Viral"
+                },
+                {
+                    "id": "D000011014",
+                    "term": "Pneumonia"
+                },
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000018352",
+                    "term": "Coronavirus Infections"
+                },
+                {
+                    "id": "D000003333",
+                    "term": "Coronaviridae Infections"
+                },
+                {
+                    "id": "D000030341",
+                    "term": "Nidovirales Infections"
+                },
+                {
+                    "id": "D000012327",
+                    "term": "RNA Virus Infections"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3013",
+                    "name": "Post-Acute COVID-19 Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2561",
+                    "name": "COVID-19",
+                    "asFound": "COVID-19",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13904",
+                    "name": "Pneumonia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13914",
+                    "name": "Pneumonia, Viral",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20490",
+                    "name": "Coronavirus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6555",
+                    "name": "Coronaviridae Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M23685",
+                    "name": "Nidovirales Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15149",
+                    "name": "RNA Virus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T1303",
+                    "name": "Chronic Graft Versus Host Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000004112",
+                    "term": "Dimercaprol"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002614",
+                    "term": "Chelating Agents"
+                },
+                {
+                    "id": "D000064449",
+                    "term": "Sequestering Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7296",
+                    "name": "Dimercaprol",
+                    "asFound": "Conventional surgery",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5860",
+                    "name": "Chelating Agents",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

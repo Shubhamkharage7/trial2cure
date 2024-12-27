@@ -1,0 +1,579 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT02905357",
+            "orgStudyIdInfo": {
+                "id": "16-01104-2"
+            },
+            "organization": {
+                "fullName": "NYU Langone Health",
+                "class": "OTHER"
+            },
+            "briefTitle": "Heart Attack Research Program- Imaging Study",
+            "officialTitle": "Heart Attack Research Program- Imaging Study",
+            "acronym": "HARP",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "heart-attack-research-program-imaging-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-07-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-09-09",
+            "studyFirstSubmitQcDate": "2016-09-13",
+            "studyFirstPostDateStruct": {
+                "date": "2016-09-19",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2024-05-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-16",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "NYU Langone Health",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The HARP study is a multi-center, diagnostic observational study employing standardized imaging protocols in patients with MINOCA (MI with Non Obstructive Coronary Arteries) to determine the underlying diagnosis in each participant. Participants will be followed for recurrent clinical events, every 6 months, for a maximum of 10 years.",
+            "detailedDescription": "HARP is a multi-center, observational study which enrolls men and women with MI who are referred for cardiac catheterization. Eligible participants with MINOCA (defined as no stenosis of \\>50% in any major epicardial vessel) will undergo optical coherence tomography (OCT) at the time of diagnostic angiography and cardiac magnetic resonance imaging (CMR).\n\nParticipants will also have the option to enroll in the HARP-Platelet Sub-Study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Myocardial Infarction"
+            ],
+            "keywords": [
+                "Myocardial Infarction",
+                "Imaging"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "blood collection in platelet substudy"
+            },
+            "enrollmentInfo": {
+                "count": 450,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "MINOCA",
+                    "description": "OCT and CMR imaging",
+                    "interventionNames": [
+                        "Device: OCT"
+                    ]
+                },
+                {
+                    "label": "MI-CAD",
+                    "description": "Screen failures with MI found to have obstructive CAD. Limited data collection for comparison to MINOCA cohort.",
+                    "interventionNames": [
+                        "Other: CMR"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "OCT",
+                    "description": "Optical Coherence Tomography (OCT): Intracoronary imaging for amount and type of plaque as well as plaque rupture, ulceration, dissection and/or thrombosis.",
+                    "armGroupLabels": [
+                        "MINOCA"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "CMR",
+                    "description": "Cardiac Magnetic Resonance Imaging (CMR): MRI of the heart to identify areas of infarction (damage) and/or edema (swelling).",
+                    "armGroupLabels": [
+                        "MI-CAD"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Proportion of patients with MINOCA who have plaque disruption (any of the following: rupture, erosion, calcified nodule with thrombosis)",
+                    "timeFrame": "1 week"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Proportion of patients with MINOCA who have spontaneous coronary dissection.",
+                    "timeFrame": "1 week"
+                },
+                {
+                    "measure": "Proportion of patients with MINOCA who have late gadolinium enhancement and/or myocardial edema",
+                    "timeFrame": "1 week"
+                },
+                {
+                    "measure": "Correlation of the presence and location of myocardial abnormalities on CMR with presence and location of plaque disruption on OCT among women with MINOCA.",
+                    "timeFrame": "1 week"
+                },
+                {
+                    "measure": "Proportion of patients for whom an etiology can be clearly identified after combining OCT and CMR.",
+                    "timeFrame": "1 week"
+                },
+                {
+                    "measure": "Area under curve of clinical prediction model for plaque disruption on OCT in patients with MINOCA.",
+                    "timeFrame": "1 week"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Composite clinical endpoint: Death, unstable angina, stroke, recurrent MI, catheterizations and revascularization, other cardiac hospitalization.",
+                    "description": "components of composite will also be examined",
+                    "timeFrame": "10 years"
+                },
+                {
+                    "measure": "Perceived stress",
+                    "timeFrame": "1 week"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Acute ischemic symptoms compatible with diagnosis of MI, such as chest pain or anginal equivalent symptoms at rest or new onset exertional anginal equivalent symptoms\n* Objective evidence of MI (either or both of the following):\n\n  * Elevation of troponin to above the laboratory upper limit of normal\n  * ST segment elevation of \u22651mm on 2 contiguous ECG leads\n* Willing to provide informed consent and comply with all aspects of the protocol\n* Age \u2265 21 years\n\nExclusion Criteria:\n\n* Stenosis \u226550% of any major epicardial vessel on invasive angiography, as determined by the angiographer at the time of clinically ordered cardiac catheterization\n* History of known obstructive coronary artery disease at angiography, including history of percutaneous coronary intervention (PCI) or coronary artery bypass grafting (CABG)\n* Recent use of vasospastic agents, such as cocaine, triptans, or ergot alkaloids (\u22641 month)\n* Alternate explanation for troponin elevation, such as hypertensive urgency, acute exacerbation of heart failure, chronic elevation due to kidney disease, pulmonary embolism, cardiac trauma\n* Coronary dissection apparent on angiography\n* Excessive coronary tortuosity which, in the angiographer's opinion, increases the risks of OCT\n* eGFR\\<45 or contraindication to additional contrast needed for OCT in the opinion of the angiographer or treating physician\n* Contraindication to MRI (including but not limited to ferromagnetic implants)\n* Pregnancy\n* Thrombolytic therapy for STEMI (qualifying event)",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "maximumAge": "99 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Men and women with MI and no coronary stenosis of 50% or greater on angiography, consecutive.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Harmony R Reynolds, MD",
+                    "role": "CONTACT",
+                    "phone": "646-501-0302",
+                    "email": "harmony.reynolds@nyumc.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Harmony R Reynolds, MD",
+                    "affiliation": "NYU Langone Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Alabama-Birmingham",
+                    "status": "COMPLETED",
+                    "city": "Birmingham",
+                    "state": "Alabama",
+                    "zip": "35294",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.52066,
+                        "lon": -86.80249
+                    }
+                },
+                {
+                    "facility": "Cedars-Sinai Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Los Angeles",
+                    "state": "California",
+                    "zip": "90048",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.05223,
+                        "lon": -118.24368
+                    }
+                },
+                {
+                    "facility": "UC San Diego Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "San Diego",
+                    "state": "California",
+                    "zip": "92103",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 32.71533,
+                        "lon": -117.15726
+                    }
+                },
+                {
+                    "facility": "Stanford University",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Stanford",
+                    "state": "California",
+                    "zip": "94305",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.42411,
+                        "lon": -122.16608
+                    }
+                },
+                {
+                    "facility": "University of Florida Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Gainesville",
+                    "state": "Florida",
+                    "zip": "32603",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 29.65163,
+                        "lon": -82.32483
+                    }
+                },
+                {
+                    "facility": "Emory University",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30322",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Johns Hopkins Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21287",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Dartmouth-Hitchcock",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Lebanon",
+                    "state": "New Hampshire",
+                    "zip": "03766",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.64229,
+                        "lon": -72.25176
+                    }
+                },
+                {
+                    "facility": "NYU Winthrop",
+                    "status": "RECRUITING",
+                    "city": "Mineola",
+                    "state": "New York",
+                    "zip": "11501",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Wendy Drewes",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Kevin Marzo",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Juan Gaztanaga",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.74927,
+                        "lon": -73.64068
+                    }
+                },
+                {
+                    "facility": "NYU Langone Medical Center",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10016",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Harmony R Reynolds, MD",
+                            "role": "CONTACT",
+                            "phone": "212-263-3627",
+                            "email": "harmony.reynolds@nyumc.org"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Columbia University Medical Center/NYPH",
+                    "status": "COMPLETED",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10032",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Ohio State University Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Columbus",
+                    "state": "Ohio",
+                    "zip": "43210",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 39.96118,
+                        "lon": -82.99879
+                    }
+                },
+                {
+                    "facility": "St. Luke's University Health Network",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Bethlehem",
+                    "state": "Pennsylvania",
+                    "zip": "18015",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.62593,
+                        "lon": -75.37046
+                    }
+                },
+                {
+                    "facility": "University of Pittsburgh Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Pittsburgh",
+                    "state": "Pennsylvania",
+                    "zip": "15213",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.44062,
+                        "lon": -79.99589
+                    }
+                },
+                {
+                    "facility": "Seton Heart (Ascension) Univeristy of Austin, Texas",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Austin",
+                    "state": "Texas",
+                    "zip": "78705",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 30.26715,
+                        "lon": -97.74306
+                    }
+                },
+                {
+                    "facility": "University of Alberta",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Edmonton",
+                    "state": "Alberta",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 53.55014,
+                        "lon": -113.46871
+                    }
+                },
+                {
+                    "facility": "Vancouver General Hospital",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Vancouver",
+                    "state": "British Columbia",
+                    "zip": "V5Z 1M9",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 49.24966,
+                        "lon": -123.11934
+                    }
+                },
+                {
+                    "facility": "St. Boniface General Hospital",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Winnipeg",
+                    "state": "Manitoba",
+                    "zip": "R2H 2A6",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 49.8844,
+                        "lon": -97.14704
+                    }
+                },
+                {
+                    "facility": "University of Calgary",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Calgary",
+                    "country": "Canada",
+                    "geoPoint": {
+                        "lat": 51.05011,
+                        "lon": -114.08529
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "36225342",
+                    "type": "DERIVED",
+                    "citation": "Usui E, Matsumura M, Smilowitz NR, Mintz GS, Saw J, Kwong RY, Hada M, Mahmud E, Giesler C, Shah B, Bangalore S, Razzouk L, Hoshino M, Marzo K, Ali ZA, Bairey Merz CN, Sugiyama T, Har B, Kakuta T, Hochman JS, Reynolds HR, Maehara A. Coronary morphological features in women with non-ST-segment elevation MINOCA and MI-CAD as assessed by optical coherence tomography. Eur Heart J Open. 2022 Sep 30;2(5):oeac058. doi: 10.1093/ehjopen/oeac058. eCollection 2022 Sep."
+                },
+                {
+                    "pmid": "34543066",
+                    "type": "DERIVED",
+                    "citation": "Reynolds HR, Kwong RY, Maehara A, Smilowitz NR. Response by Reynolds et al to Letters Regarding Article, \"Coronary Optical Coherence Tomography and Cardiac Magnetic Resonance Imaging to Determine Underlying Causes of Myocardial Infarction With Nonobstructive Coronary Arteries in Women\". Circulation. 2021 Sep 21;144(12):e209-e210. doi: 10.1161/CIRCULATIONAHA.121.055516. Epub 2021 Sep 20. No abstract available."
+                },
+                {
+                    "pmid": "33191769",
+                    "type": "DERIVED",
+                    "citation": "Reynolds HR, Maehara A, Kwong RY, Sedlak T, Saw J, Smilowitz NR, Mahmud E, Wei J, Marzo K, Matsumura M, Seno A, Hausvater A, Giesler C, Jhalani N, Toma C, Har B, Thomas D, Mehta LS, Trost J, Mehta PK, Ahmed B, Bainey KR, Xia Y, Shah B, Attubato M, Bangalore S, Razzouk L, Ali ZA, Merz NB, Park K, Hada E, Zhong H, Hochman JS. Coronary Optical Coherence Tomography and Cardiac Magnetic Resonance Imaging to Determine Underlying Causes of Myocardial Infarction With Nonobstructive Coronary Arteries in Women. Circulation. 2021 Feb 16;143(7):624-640. doi: 10.1161/CIRCULATIONAHA.120.052008. Epub 2020 Nov 14. Erratum In: Circulation. 2023 Feb 21;147(8):e624. doi: 10.1161/CIR.0000000000001132."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "De-identified data will be shared after the end of the study."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009203",
+                    "term": "Myocardial Infarction"
+                },
+                {
+                    "id": "D000007238",
+                    "term": "Infarction"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007511",
+                    "term": "Ischemia"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000009336",
+                    "term": "Necrosis"
+                },
+                {
+                    "id": "D000017202",
+                    "term": "Myocardial Ischemia"
+                },
+                {
+                    "id": "D000006331",
+                    "term": "Heart Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12155",
+                    "name": "Myocardial Infarction",
+                    "asFound": "Myocardial Infarction",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10282",
+                    "name": "Infarction",
+                    "asFound": "Infarction",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10543",
+                    "name": "Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12284",
+                    "name": "Necrosis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6546",
+                    "name": "Coronary Artery Disease",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19506",
+                    "name": "Myocardial Ischemia",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9419",
+                    "name": "Heart Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

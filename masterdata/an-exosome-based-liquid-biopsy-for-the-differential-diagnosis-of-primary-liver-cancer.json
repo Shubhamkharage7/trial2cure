@@ -1,0 +1,603 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06342414",
+            "orgStudyIdInfo": {
+                "id": "23228/ELUCIDATE"
+            },
+            "organization": {
+                "fullName": "City of Hope Medical Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "An Exosome-Based Liquid Biopsy for the Differential Diagnosis of Primary Liver Cancer",
+            "officialTitle": "An Exosome-Based Liquid Biopsy for the Differential Diagnosis of Primary Liver Cancer",
+            "acronym": "ELUCIDATE",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "an-exosome-based-liquid-biopsy-for-the-differential-diagnosis-of-primary-liver-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-03-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-03-15",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03-15",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-03-26",
+            "studyFirstSubmitQcDate": "2024-04-01",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-01",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-02",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "City of Hope Medical Center",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "It is sometimes difficult to precisely understand whether a primary liver cancer is a hepatocellular carcinoma or a cholangiocarcinoma. The researchers will develop and validate a liquid biopsy, based on exosomal content analysis and powered by machine learning, to help clinicians differentiate these two cancers before surgery.",
+            "detailedDescription": "Primary liver cancers (PLCs) encompass a diverse group of malignancies originating from the liver, collectively ranking as the third leading cause of cancer-related mortality worldwide in 2020. Among PLCs, intrahepatic cholangiocarcinoma (ICC) and hepatocellular carcinoma (HCC) represent the most predominant subtypes. Despite their collective grouping as PLCs, ICC and HCC patients exhibit distinct etiologies, pathologies, and clinical characteristics, necessitating different treatment approaches. Accurate differentiation between ICC and HCC is paramount to optimize patient outcomes and guide personalized treatment decisions. However, a definitive diagnosis is often obtained only after the pathological review of the resected neoplastic tissue, which requires invasive tumor sampling and poses risks of complications such as hemorrhage and tumor cell seeding. Consequently, there is a pressing clinical need to develop noninvasive diagnostic approaches to achieve an accurate differential diagnosis for patients with these distinct forms of PLCs.\n\nThis study involves the development and validation of a liquid biopsy, assessing circulating exosomal microRNAs (exo-miRNA) for indirect sampling of tumor tissue in the bloodstream. The researchers intend to harness machine learning and bioinformatics to create a cost-efficient, non-invasive, clinic-friendly assay with high sensitivity and specificity, aiding the differential diagnosis between ICC and HCC.\n\nThe researchers intend to do so in three phases:\n\n1. To perform comprehensive small RNA-Seq from exo-miRNA from patients with ICC and HCC.\n2. To develop and train a differential diagnosis panel based on advanced machine-learning models to obtain a final differential diagnosis biomarker.\n3. To validate the findings in an independent cohort of ICC and HCC.\n\nIn summary, this proposal promises to improve patient care and help clinicians perform a more reliable differential diagnosis between ICC and HCC in patients with primary liver cancer."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hepatocellular Carcinoma",
+                "Intrahepatic Cholangiocarcinoma",
+                "Cholangiocarcinoma",
+                "Primary Liver Cancer",
+                "Primary Liver Carcinoma",
+                "Hepatic Cancer",
+                "Hepatic Carcinoma"
+            ],
+            "keywords": [
+                "Exosome",
+                "micro RNA",
+                "Differential Diagnosis"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Hepatocellular Carcinoma (Training)",
+                    "description": "A cohort of patients with histologically confirmed hepatocellular carcinoma (HCC)",
+                    "interventionNames": [
+                        "Diagnostic Test: ELUCIDATE"
+                    ]
+                },
+                {
+                    "label": "Intrahepatic Cholangiocarcinoma (Training)",
+                    "description": "A cohort of patients with histologically confirmed intrahepatic cholangiocarcinoma (ICC)",
+                    "interventionNames": [
+                        "Diagnostic Test: ELUCIDATE"
+                    ]
+                },
+                {
+                    "label": "Hepatocellular Carcinoma (Validation)",
+                    "description": "A cohort of patients with histologically confirmed hepatocellular carcinoma (HCC)",
+                    "interventionNames": [
+                        "Diagnostic Test: ELUCIDATE"
+                    ]
+                },
+                {
+                    "label": "Intrahepatic Cholangiocarcinoma (Validation)",
+                    "description": "A cohort of patients with histologically confirmed intrahepatic cholangiocarcinoma (ICC)",
+                    "interventionNames": [
+                        "Diagnostic Test: ELUCIDATE"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "ELUCIDATE",
+                    "description": "ELUCIDATE (Evaluation of Liver Cholangiocarcinoma Intrahepatic)",
+                    "armGroupLabels": [
+                        "Hepatocellular Carcinoma (Training)",
+                        "Hepatocellular Carcinoma (Validation)",
+                        "Intrahepatic Cholangiocarcinoma (Training)",
+                        "Intrahepatic Cholangiocarcinoma (Validation)"
+                    ],
+                    "otherNames": [
+                        "ELUCIDATE (Evaluation of Liver Cholangiocarcinoma Intrahepatic)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sensitivity",
+                    "description": "True Positive Rate: the probability of a positive test result, conditioned on the individual truly being positive",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Specificity",
+                    "description": "True Negative Rate: the probability of a negative test result, conditioned on the individual truly being negative",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                },
+                {
+                    "measure": "Proportion of correct predictions (true positives and true negatives) among the total number of cases (i.e., accuracy)",
+                    "description": "A measure of trueness: proportion of correct predictions (both true positives and true negatives) among the total number of cases examined",
+                    "timeFrame": "Through study completion, an average of 1 year"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* A histologically confirmed diagnosis of hepatocellular carcinoma\n* A histologically confirmed diagnosis of intrahepatic cholangiocarcinoma\n* Received standard diagnostic and staging procedures as per local guidelines\n* Availability of at least one blood-derived sample, drawn before receiving any curative-intent treatment\n\nExclusion Criteria:\n\n* Lack of or inability to provide informed consent\n* Synchronous hepatocellular carcinoma and intrahepatic cholangiocarcinoma\n* Primary liver cancer other than hepatocellular carcinoma or intrahepatic cholangiocarcinoma\n* Secondary liver cancer",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Individuals who were diagnosed with either intrahepatic cholangiocarcinoma or hepatocellular carcinoma (case-case design for a differential diagnosis study)",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "role": "CONTACT",
+                    "phone": "6262183452",
+                    "email": "AJGOEL@COH.ORG"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Ajay Goel, PhD",
+                    "affiliation": "City of Hope Medical Center",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "City of Hope Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Duarte",
+                    "state": "California",
+                    "zip": "91010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "CONTACT",
+                            "phone": "626-218-3452",
+                            "email": "AJGOEL@COH.ORG"
+                        },
+                        {
+                            "name": "Caiming Xu, MD, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yoh Asahi, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Ajay Goel, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.13945,
+                        "lon": -117.97729
+                    }
+                },
+                {
+                    "facility": "Graduate School of Medical Sciences, Kyushu University",
+                    "status": "RECRUITING",
+                    "city": "Fukuoka",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Tomoharu Yoshizumi",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Tomoharu Yoshizumi",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Takeo Toshima",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.6,
+                        "lon": 130.41667
+                    }
+                },
+                {
+                    "facility": "Graduate School of Medical Sciences, Kumamoto University",
+                    "status": "RECRUITING",
+                    "city": "Kumamoto",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Hideo Baba",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Hideo Baba",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.80589,
+                        "lon": 130.69182
+                    }
+                },
+                {
+                    "facility": "Hokkaido University Graduate School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Sapporo",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Akinobu Taketomi",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Akinobu Taketomi",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Yoh Asahi",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Tatsuhiko Kakisaka",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.06667,
+                        "lon": 141.35
+                    }
+                },
+                {
+                    "facility": "Tokushima University",
+                    "status": "RECRUITING",
+                    "city": "Tokushima",
+                    "country": "Japan",
+                    "contacts": [
+                        {
+                            "name": "Mitsuo Shimada",
+                            "role": "CONTACT"
+                        },
+                        {
+                            "name": "Mitsuo Shimada",
+                            "role": "SUB_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Katsuki Miyazaki",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.06667,
+                        "lon": 134.56667
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "29624699",
+                    "type": "BACKGROUND",
+                    "citation": "Marrero JA, Kulik LM, Sirlin CB, Zhu AX, Finn RS, Abecassis MM, Roberts LR, Heimbach JK. Diagnosis, Staging, and Management of Hepatocellular Carcinoma: 2018 Practice Guidance by the American Association for the Study of Liver Diseases. Hepatology. 2018 Aug;68(2):723-750. doi: 10.1002/hep.29913. No abstract available."
+                },
+                {
+                    "pmid": "37823913",
+                    "type": "BACKGROUND",
+                    "citation": "Wu Y, Xia C, Chen J, Qin Q, Ye Z, Song B. Diagnostic performance of magnetic resonance imaging and contrast-enhanced ultrasound in differentiating intrahepatic cholangiocarcinoma from hepatocellular carcinoma: a meta-analysis. Abdom Radiol (NY). 2024 Jan;49(1):34-48. doi: 10.1007/s00261-023-04064-z. Epub 2023 Oct 12."
+                },
+                {
+                    "pmid": "18471552",
+                    "type": "BACKGROUND",
+                    "citation": "El-Serag HB, Marrero JA, Rudolph L, Reddy KR. Diagnosis and treatment of hepatocellular carcinoma. Gastroenterology. 2008 May;134(6):1752-63. doi: 10.1053/j.gastro.2008.02.090."
+                },
+                {
+                    "pmid": "32323164",
+                    "type": "BACKGROUND",
+                    "citation": "Vigano L, Lleo A, Muglia R, Gennaro N, Sama L, Colapietro F, Roncalli M, Aghemo A, Chiti A, Di Tommaso L, Solbiati L, Colombo M, Torzilli G. Intrahepatic cholangiocellular carcinoma with radiological enhancement patterns mimicking hepatocellular carcinoma. Updates Surg. 2020 Jun;72(2):413-421. doi: 10.1007/s13304-020-00750-5. Epub 2020 Apr 22."
+                },
+                {
+                    "pmid": "35200560",
+                    "type": "BACKGROUND",
+                    "citation": "Kovac JD, Jankovic A, Dikic-Rom A, Grubor N, Antic A, Dugalic V. Imaging Spectrum of Intrahepatic Mass-Forming Cholangiocarcinoma and Its Mimickers: How to Differentiate Them Using MRI. Curr Oncol. 2022 Jan 30;29(2):698-723. doi: 10.3390/curroncol29020061."
+                },
+                {
+                    "pmid": "28555885",
+                    "type": "BACKGROUND",
+                    "citation": "Arbelaiz A, Azkargorta M, Krawczyk M, Santos-Laso A, Lapitz A, Perugorria MJ, Erice O, Gonzalez E, Jimenez-Aguero R, Lacasta A, Ibarra C, Sanchez-Campos A, Jimeno JP, Lammert F, Milkiewicz P, Marzioni M, Macias RIR, Marin JJG, Patel T, Gores GJ, Martinez I, Elortza F, Falcon-Perez JM, Bujanda L, Banales JM. Serum extracellular vesicles contain protein biomarkers for primary sclerosing cholangitis and cholangiocarcinoma. Hepatology. 2017 Oct;66(4):1125-1143. doi: 10.1002/hep.29291. Epub 2017 Aug 26."
+                },
+                {
+                    "pmid": "30325540",
+                    "type": "BACKGROUND",
+                    "citation": "Banales JM, Inarrairaegui M, Arbelaiz A, Milkiewicz P, Muntane J, Munoz-Bellvis L, La Casta A, Gonzalez LM, Arretxe E, Alonso C, Martinez-Arranz I, Lapitz A, Santos-Laso A, Avila MA, Martinez-Chantar ML, Bujanda L, Marin JJG, Sangro B, Macias RIR. Serum Metabolites as Diagnostic Biomarkers for Cholangiocarcinoma, Hepatocellular Carcinoma, and Primary Sclerosing Cholangitis. Hepatology. 2019 Aug;70(2):547-562. doi: 10.1002/hep.30319. Epub 2019 Feb 14."
+                },
+                {
+                    "pmid": "33570803",
+                    "type": "BACKGROUND",
+                    "citation": "Huang C, Xu X, Wang M, Xiao X, Cheng C, Ji J, Fang M, Gao C. Serum N-glycan fingerprint helps to discriminate intrahepatic cholangiocarcinoma from hepatocellular carcinoma. Electrophoresis. 2021 Jun;42(11):1187-1195. doi: 10.1002/elps.202000392. Epub 2021 Mar 1."
+                },
+                {
+                    "pmid": "32289533",
+                    "type": "BACKGROUND",
+                    "citation": "Chen VL, Xu D, Wicha MS, Lok AS, Parikh ND. Utility of Liquid Biopsy Analysis in Detection of Hepatocellular Carcinoma, Determination of Prognosis, and Disease Monitoring: A Systematic Review. Clin Gastroenterol Hepatol. 2020 Dec;18(13):2879-2902.e9. doi: 10.1016/j.cgh.2020.04.019. Epub 2020 Apr 11."
+                },
+                {
+                    "pmid": "36399356",
+                    "type": "BACKGROUND",
+                    "citation": "Foda ZH, Annapragada AV, Boyapati K, Bruhm DC, Vulpescu NA, Medina JE, Mathios D, Cristiano S, Niknafs N, Luu HT, Goggins MG, Anders RA, Sun J, Meta SH, Thomas DL, Kirk GD, Adleff V, Phallen J, Scharpf RB, Kim AK, Velculescu VE. Detecting Liver Cancer Using Cell-Free DNA Fragmentomes. Cancer Discov. 2023 Mar 1;13(3):616-631. doi: 10.1158/2159-8290.CD-22-0659."
+                },
+                {
+                    "pmid": "36868481",
+                    "type": "BACKGROUND",
+                    "citation": "Lapitz A, Azkargorta M, Milkiewicz P, Olaizola P, Zhuravleva E, Grimsrud MM, Schramm C, Arbelaiz A, O'Rourke CJ, La Casta A, Milkiewicz M, Pastor T, Vesterhus M, Jimenez-Aguero R, Dill MT, Lamarca A, Valle JW, Macias RIR, Izquierdo-Sanchez L, Perez Castano Y, Caballero-Camino FJ, Riano I, Krawczyk M, Ibarra C, Bustamante J, Nova-Camacho LM, Falcon-Perez JM, Elortza F, Perugorria MJ, Andersen JB, Bujanda L, Karlsen TH, Folseraas T, Rodrigues PM, Banales JM. Liquid biopsy-based protein biomarkers for risk prediction, early diagnosis, and prognostication of cholangiocarcinoma. J Hepatol. 2023 Jul;79(1):93-108. doi: 10.1016/j.jhep.2023.02.027. Epub 2023 Mar 1."
+                },
+                {
+                    "pmid": "36417488",
+                    "type": "BACKGROUND",
+                    "citation": "Wang P, Song Q, Ren J, Zhang W, Wang Y, Zhou L, Wang D, Chen K, Jiang L, Zhang B, Chen W, Qu C, Zhao H, Jiao Y. Simultaneous analysis of mutations and methylations in circulating cell-free DNA for hepatocellular carcinoma detection. Sci Transl Med. 2022 Nov 23;14(672):eabp8704. doi: 10.1126/scitranslmed.abp8704. Epub 2022 Nov 23."
+                },
+                {
+                    "pmid": "31269959",
+                    "type": "BACKGROUND",
+                    "citation": "Ye Q, Ling S, Zheng S, Xu X. Liquid biopsy in hepatocellular carcinoma: circulating tumor cells and circulating tumor DNA. Mol Cancer. 2019 Jul 3;18(1):114. doi: 10.1186/s12943-019-1043-x."
+                },
+                {
+                    "pmid": "29642941",
+                    "type": "BACKGROUND",
+                    "citation": "Li S, Yao J, Xie M, Liu Y, Zheng M. Exosomal miRNAs in hepatocellular carcinoma development and clinical responses. J Hematol Oncol. 2018 Apr 11;11(1):54. doi: 10.1186/s13045-018-0579-3."
+                },
+                {
+                    "pmid": "30897788",
+                    "type": "BACKGROUND",
+                    "citation": "Sasaki R, Kanda T, Yokosuka O, Kato N, Matsuoka S, Moriyama M. Exosomes and Hepatocellular Carcinoma: From Bench to Bedside. Int J Mol Sci. 2019 Mar 20;20(6):1406. doi: 10.3390/ijms20061406."
+                },
+                {
+                    "pmid": "29473340",
+                    "type": "BACKGROUND",
+                    "citation": "Wang M, Gao Y, Feng H, Warner E, An M, Jia J, Chen S, Fang M, Ji J, Gu X, Gao C. A nomogram incorporating six easily obtained parameters to discriminate intrahepatic cholangiocarcinoma and hepatocellular carcinoma. Cancer Med. 2018 Mar;7(3):646-654. doi: 10.1002/cam4.1341. Epub 2018 Feb 23."
+                },
+                {
+                    "pmid": "35480111",
+                    "type": "BACKGROUND",
+                    "citation": "Si YQ, Wang XQ, Pan CC, Wang Y, Lu ZM. An Efficient Nomogram for Discriminating Intrahepatic Cholangiocarcinoma From Hepatocellular Carcinoma: A Retrospective Study. Front Oncol. 2022 Apr 11;12:833999. doi: 10.3389/fonc.2022.833999. eCollection 2022."
+                },
+                {
+                    "pmid": "29573235",
+                    "type": "BACKGROUND",
+                    "citation": "Wang Y, Zhang C, Zhang P, Guo G, Jiang T, Zhao X, Jiang J, Huang X, Tong H, Tian Y. Serum exosomal microRNAs combined with alpha-fetoprotein as diagnostic markers of hepatocellular carcinoma. Cancer Med. 2018 May;7(5):1670-1679. doi: 10.1002/cam4.1390. Epub 2018 Mar 23."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED",
+            "description": "Data collected for the study will be made available to others, including de-identified participant data, at publication, via a signed data access agreement and at the discretion of the investigators' approval of the proposed use of such data"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000006528",
+                    "term": "Carcinoma, Hepatocellular"
+                },
+                {
+                    "id": "D000008113",
+                    "term": "Liver Neoplasms"
+                },
+                {
+                    "id": "D000018281",
+                    "term": "Cholangiocarcinoma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9613",
+                    "name": "Carcinoma, Hepatocellular",
+                    "asFound": "Primary Liver Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11113",
+                    "name": "Liver Neoplasms",
+                    "asFound": "Liver Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20426",
+                    "name": "Cholangiocarcinoma",
+                    "asFound": "Cholangiocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T755",
+                    "name": "Bile Duct Cancer",
+                    "asFound": "Cholangiocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T3096",
+                    "name": "Intrahepatic Cholangiocarcinoma",
+                    "asFound": "Intrahepatic Cholangiocarcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T4700",
+                    "name": "Primary Liver Cancer",
+                    "asFound": "Primary liver cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11110",
+                    "name": "Liver Extracts",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

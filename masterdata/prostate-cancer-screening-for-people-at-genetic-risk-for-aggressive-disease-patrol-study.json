@@ -1,0 +1,438 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04472338",
+            "orgStudyIdInfo": {
+                "id": "RG1004195"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "NCI-2020-04602",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trial Reporting Program)"
+                },
+                {
+                    "id": "8760",
+                    "type": "OTHER",
+                    "domain": "Fred Hutch/University of Washington Cancer Consortium"
+                },
+                {
+                    "id": "RG1004195",
+                    "type": "OTHER",
+                    "domain": "Fred Hutch/University of Washington Cancer Consortium"
+                },
+                {
+                    "id": "P50CA097186",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/P50CA097186"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Washington",
+                "class": "OTHER"
+            },
+            "briefTitle": "Prostate Cancer Screening for People at Genetic Risk for Aggressive Disease, PATROL Study",
+            "officialTitle": "PATROL: Prostate Cancer Screening for People AT Genetic Risk FOr Aggressive Disease",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "prostate-cancer-screening-for-people-at-genetic-risk-for-aggressive-disease-patrol-study"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-05-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2030-08-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2030-08-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-07-10",
+            "studyFirstSubmitQcDate": "2020-07-10",
+            "studyFirstPostDateStruct": {
+                "date": "2020-07-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-21",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Washington",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Cancer Institute (NCI)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "Canary Foundation",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "CureBRCA",
+                    "class": "UNKNOWN"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study investigates ways to detect prostate cancer earlier in people at genetic risk for disease that forms, grows, or spreads quickly (aggressive). Studying samples of blood, urine, and/or tissue in the laboratory may help doctors further understand the genetics of prostate cancer and help identify ways to detect cancer earlier, thereby improving treatment and methods of early detection in the future.",
+            "detailedDescription": "OUTLINE:\n\nParticipants undergo collection of blood, urine, and/or tissue samples every 6-12 months, when any biopsy occurs, and if relevant, at time of curative therapy and 3-9 months after completion of curative therapy for up to 3 years."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Prostate Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Blood, urine, tissue"
+            },
+            "enrollmentInfo": {
+                "count": 450,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Screening (biospecimen collection)",
+                    "description": "Participants undergo collection of blood, urine, and/or tissue samples every 12 months, when any biopsy occurs, and if relevant, at time of curative therapy and 12 months after completion of curative therapy.",
+                    "interventionNames": [
+                        "Procedure: Biospecimen Collection",
+                        "Other: Laboratory Biomarker Analysis",
+                        "Other: Quality-of-Life Assessment",
+                        "Other: Questionnaire Administration"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biospecimen Collection",
+                    "description": "Undergo collection of blood, urine, and/or tissue samples",
+                    "armGroupLabels": [
+                        "Screening (biospecimen collection)"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Laboratory Biomarker Analysis",
+                    "description": "Correlative studies",
+                    "armGroupLabels": [
+                        "Screening (biospecimen collection)"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Quality-of-Life Assessment",
+                    "description": "Ancillary studies",
+                    "armGroupLabels": [
+                        "Screening (biospecimen collection)"
+                    ],
+                    "otherNames": [
+                        "Quality of Life Assessment"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Questionnaire Administration",
+                    "description": "Ancillary studies",
+                    "armGroupLabels": [
+                        "Screening (biospecimen collection)"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Positive predictive values (PPVs) of age-based prostate specific antigen (PSA) thresholds",
+                    "description": "To estimate PPVs of age-based PSA thresholds for biopsy referral in this patient population, will first fit a logistic regression model to estimate the odds that biopsy leads to a prostate cancer diagnosis. The regression will have a binary indicator of prostate cancer diagnosis as the response variable, patient age at biopsy (categorized as \\< 50, 50-59, or \\>= 60 years to correspond to the age-based PSA thresholds) as a fixed effect, and a unique patient identifier as a random effect to account for possibly repeated biopsies. Will then convert the estimated odds that biopsy leads to a prostate cancer diagnosis within each age category into corresponding probabilities of this outcome-i.e., PPV point estimates and associated 95% confidence intervals-using the inverse logit function.",
+                    "timeFrame": "Up to 10 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* People with prostates \u226540 years of age\n* Documented germline pathogenic variant in known or suspected genes associated with prostate cancer risk.\n\nExclusion Criteria:\n\n* Prior diagnosis of prostate cancer\n* Medical contraindication to any of the study procedures (e.g., prostate biopsy)\n* For all cancer types except non-melanoma skin cancer, any cancer treatment with curative intent within the past 12 months (e.g., surgery, radiation, chemotherapy, immunotherapy)\n* Unable to provide written informed consent\n* Unable or unwilling to complete clinical care and study procedures as indicated by the study protocol.",
+            "healthyVolunteers": true,
+            "sex": "MALE",
+            "genderBased": true,
+            "genderDescription": "People with prostates",
+            "minimumAge": "40 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Germline carriers of pathogenic or likely pathogenic mutations in genes associated with increased risk of prostate cancer",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Study Team Coordinator",
+                    "role": "CONTACT",
+                    "phone": "206-598-0850",
+                    "email": "patrolstudy@uw.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Heather H. Cheng, MD, PhD",
+                    "affiliation": "Fred Hutch/University of Washington Cancer Consortium",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "OHSU Knight Cancer Institute",
+                    "status": "RECRUITING",
+                    "city": "Portland",
+                    "state": "Oregon",
+                    "zip": "97239",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Alexandra Sokolova, MD",
+                            "role": "CONTACT",
+                            "phone": "503-494-7999"
+                        },
+                        {
+                            "name": "Alexandra Sokolova, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 45.52345,
+                        "lon": -122.67621
+                    }
+                },
+                {
+                    "facility": "University of Pennsylvania/Abramson Cancer Center",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kara Maxwell, MD, PhD",
+                            "role": "CONTACT",
+                            "phone": "215-615-3004",
+                            "email": "PATROL@pennmedicine.upenn.edu"
+                        },
+                        {
+                            "name": "Kara Maxwell, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                },
+                {
+                    "facility": "University of Texas Health Science Center at San Antonio",
+                    "status": "RECRUITING",
+                    "city": "San Antonio",
+                    "state": "Texas",
+                    "zip": "78229",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael Liss, MD",
+                            "role": "CONTACT",
+                            "phone": "210-567-1100",
+                            "email": "liss@uthscsa.edu"
+                        },
+                        {
+                            "name": "Michael Liss, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.42412,
+                        "lon": -98.49363
+                    }
+                },
+                {
+                    "facility": "Fred Hutch/University of Washington Cancer Consortium",
+                    "status": "RECRUITING",
+                    "city": "Seattle",
+                    "state": "Washington",
+                    "zip": "98109",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Study Team Coordinator",
+                            "role": "CONTACT",
+                            "phone": "206-598-0850",
+                            "email": "patrolstudy@uw.edu"
+                        },
+                        {
+                            "name": "Heather H. Cheng, MD, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 47.60621,
+                        "lon": -122.33207
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000011471",
+                    "term": "Prostatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000005834",
+                    "term": "Genital Neoplasms, Male"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000005832",
+                    "term": "Genital Diseases, Male"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000011469",
+                    "term": "Prostatic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14335",
+                    "name": "Prostatic Neoplasms",
+                    "asFound": "Prostate Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M3724",
+                    "name": "Aggression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8946",
+                    "name": "Genital Neoplasms, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8944",
+                    "name": "Genital Diseases, Male",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14333",
+                    "name": "Prostatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

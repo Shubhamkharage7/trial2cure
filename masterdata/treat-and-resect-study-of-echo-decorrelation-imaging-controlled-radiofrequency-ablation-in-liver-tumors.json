@@ -1,0 +1,325 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05211388",
+            "orgStudyIdInfo": {
+                "id": "UCCC-GI-21-02"
+            },
+            "organization": {
+                "fullName": "University of Cincinnati",
+                "class": "OTHER"
+            },
+            "briefTitle": "Treat-and-resect Study of Echo Decorrelation Imaging-controlled Radiofrequency Ablation in Liver Tumors",
+            "officialTitle": "Treat-and-resect Study of Echo Decorrelation Imaging-controlled Radiofrequency Ablation in Liver Tumors",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "treat-and-resect-study-of-echo-decorrelation-imaging-controlled-radiofrequency-ablation-in-liver-tumors"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-07-11",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-07-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-07-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-16",
+            "studyFirstSubmitQcDate": "2022-01-13",
+            "studyFirstPostDateStruct": {
+                "date": "2022-01-27",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-09-11",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-09-13",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "T. Douglas Mast",
+                "investigatorTitle": "Professor of Biomedical Engineering",
+                "investigatorAffiliation": "University of Cincinnati"
+            },
+            "leadSponsor": {
+                "name": "University of Cincinnati",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will comprise the first pilot clinical trial of 3D, ultrasound-based thermal ablation control using echo decorrelation imaging, directly testing the capability of this approach to ensure reliable tumor treatment. The purpose of this study is to determine the ability of ultrasound echo decorrelation to successfully predict complete ablation of human hepatocellular carcinoma, concomitant diseased liver, and metastatic liver cancer and to determine the potential of echo decorrelation imaging to provide effective real-time control of radiofrequency ablation (RFA) in liver tumors.",
+            "detailedDescription": "To rigorously test the feasibility of 3D echo decorrelation imaging to improve the reliability of clinical thermal ablation, decorrelation-controlled ablation will be assessed in a pilot treat-and-resect study. Patients previously scheduled for resection of metastatic liver tumors or benign liver tumors physiologically similar to hepatocellular carcinoma (HCC) (e.g., hepatocellular adenoma or focal nodular hyperplasia) will first undergo radiofrequency ablation (RFA) of their tumors, with real-time, 3D ultrasound echo decorrelation imaging of the treated region performed throughout each ablation. RFA will be performed in the same surgical procedure as the scheduled tumor resection, immediately prior to resection.\n\nPatients will be enrolled in two arms, the first undergoing RFA controlled by the RFA generator using manufacturer-specified algorithms, and the second undergoing RFA with echo decorrelation imaging providing an additional stopping criterion. For both arms, 3D maps of ablation zones will be constructed from stained tissue sections and rigidly registered to volumetric ultrasound images using the known tumor position and orientation relative to the ultrasound image volume. Overall ROC curves for prediction of local treatment will be constructed using point-by-point comparison of 3D echo decorrelation images to the mapped ablation zone.\n\nThe ability of echo decorrelation to predict and control clinical thermal ablation of human liver tumors will be directly tested by assessing and statistically comparing outcomes of the two study arms, including ROC curves, ablation volume and rate, and conformity to planned ablation zones."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Liver Tumor"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "interventionModelDescription": "A total of 12 subjects is anticipated, providing sufficient statistical power for estimation of an overall ROC curve assessing the capability of decorrelation-controlled RFA to reliably ensure complete ablation in human liver tumors, while also providing sufficient power to estimate a separate ROC curve for prediction of local ablation in generator-controlled RFA.\n\nThe first subjects undergoing the treat-and-resect procedure (at least 2 subjects, or more at discretion of the PI) will be assigned to arm 1 (generator-controlled ablation), and will undergo RFA following manufacturer-specified algorithms. This will allow confirmation of appropriate echo decorrelation thresholds for use as treatment end points.\n\nRemaining subjects will be randomly assigned to arm 1 or arm 2 (echo decorrelation imaging-controlled ablation), up to a total of 6 treat-and-resect procedures in each arm.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 12,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "arm 1: generator-controlled RFA",
+                    "type": "EXPERIMENTAL",
+                    "description": "In up to 6 patients (arm 1: generator-controlled RFA), RFA will be performed directly following manufacturer-specified algorithms, with recording of 3D ultrasound echo decorrelation images during ablation.",
+                    "interventionNames": [
+                        "Procedure: RFA controlled using standard manufacturer-specified algorithms"
+                    ]
+                },
+                {
+                    "label": "arm 2: imaging-controlled RFA",
+                    "type": "EXPERIMENTAL",
+                    "description": "In up to 6 additional patients (arm 2: imaging-controlled RFA), real-time, 3D echo decorrelation imaging during ablation will provide an additional treatment end point.",
+                    "interventionNames": [
+                        "Procedure: RFA controlled using echo decorrelation imaging"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "RFA controlled using echo decorrelation imaging",
+                    "description": "The tumor will be ablated using standard clinical RFA control algorithms specified by the RFA device manufacturer and implemented on the RFA generator, with echo decorrelation imaging providing an additional stopping criterion.\n\nThe targeted ablation zone will be subdivided into one or more contiguous control subvolumes encompassing the tumor. An echo decorrelation threshold will be chosen to provide a target specificity (e.g. 90%) for local ablation prediction, based on ROC curve analysis for ablation prediction in clinical RFA and MWA as well as in controlled ablation of ex vivo human liver tumors. Controlled RFA treatments will proceed until the average cumulative decorrelation exceeds this predetermined threshold within each control subvolume.\n\nTo avoid compromising patient safety, treatments will not be extended beyond manufacturer-specified end points.",
+                    "armGroupLabels": [
+                        "arm 2: imaging-controlled RFA"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "RFA controlled using standard manufacturer-specified algorithms",
+                    "description": "The tumor will be ablated using standard clinical RFA control algorithms specified by the RFA device manufacturer and implemented on the RFA generator, e.g. based on temperatures measured by thermocouples integrated into the RFA probe. 3D echo decorrelation imaging will be performed in real time during ablation, but will not be used to modify treatments.",
+                    "armGroupLabels": [
+                        "arm 1: generator-controlled RFA"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "ROC curves for local prediction of ablation of human liver tumors and concomitant diseased liver.",
+                    "description": "Receiver operating characteristic (ROC) curves for prediction of local ablation (dimensionless), constructed using point-by-point comparison of 3D echo decorrelation images to the mapped ablation zone (dimensionless, possible values between 0 and 1). Determined separately for each arm.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Area under ROC curves",
+                    "description": "Area under ROC curves for prediction of local ablation (dimensionless, possible values between 0 and 1). Determined separately for each arm.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Ablation volumes",
+                    "description": "Volumes (ml) of segmented ablation zones. Determined separately for each arm.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Thermal ablation rates",
+                    "description": "Ablation rates (ml/min), defined as ablation volumes (ml) divided by duration of radiofrequency ablation (min). Determined separately for each arm.",
+                    "timeFrame": "2 years"
+                },
+                {
+                    "measure": "Conformity with planned ablation zone",
+                    "description": "Dice coefficients between segmented ablation volumes and targeted ablation zones (dimensionless, values between 0 and 1). Determined separately for each arm.",
+                    "timeFrame": "2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age \u226518 years.\n2. Scheduled for resection of at least one confirmed primary or metastatic liver tumor with estimated diameter \\<5 cm at the University of Cincinnati Medical Center (UCMC).\n3. Patients may have other disease (typically cirrhosis, hepatitis B or hepatitis C) for primary liver cancer patients and extrahepatic cancer (typically colorectal) for metastatic liver cancer patients.\n4. Ability to understand and the willingness to sign the written research informed consent document for this study.\n\nExclusion Criteria:\n\n1. The tumor for which the resection is scheduled is greater than or equal to 5 cm in diameter.\n2. The tumor for which the resection is scheduled has received: prior ablation; chemoembolization; or, other treatment which in the opinion of the PI would disqualify a patient from participation.\n3. Radiofrequency ablation (RFA) is contra-indicated for safety reasons in the opinion of the PI and/or clinical treatment team according to current standards of care (e.g., tumor adjacent to the heart, bowel, gall bladder, or bile ducts; impaired liver function; implanted cardiac devices).\n4. Proceduralist assessment that research-specific radiofrequency ablation or intraoperative ultrasound imaging would cause substantial patient risk.\n5. Pregnant women, prisoners, institutionalized individuals, or other individuals from vulnerable populations.\n6. Patients who are receiving any other investigational agents. Patients who have received other investigational agents previously who are no longer receiving these investigational agents may be eligible at the discretion of the PI.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "UCCC Clinical Trials Office",
+                    "role": "CONTACT",
+                    "phone": "513-584-7698",
+                    "email": "cancer@uchealth.com"
+                },
+                {
+                    "name": "Christine Vollmer",
+                    "role": "CONTACT",
+                    "phone": "513-213-3203",
+                    "email": "mccordce@ucmail.uc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "T. Douglas Mast, PhD",
+                    "affiliation": "University of Cincinnati",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Cincinnati Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Cincinnati",
+                    "state": "Ohio",
+                    "zip": "45219",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "T. Douglas Mast, PhD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.12713,
+                        "lon": -84.51435
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000008113",
+                    "term": "Liver Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M11113",
+                    "name": "Liver Neoplasms",
+                    "asFound": "Liver Tumors",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M11110",
+                    "name": "Liver Extracts",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16759",
+                    "name": "Tin Fluorides",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

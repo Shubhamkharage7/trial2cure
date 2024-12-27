@@ -1,0 +1,292 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05623488",
+            "orgStudyIdInfo": {
+                "id": "UPCC# 15122, IRB # 852205"
+            },
+            "organization": {
+                "fullName": "University of Pennsylvania",
+                "class": "OTHER"
+            },
+            "briefTitle": "CAR T Cells in Mesothelin-Expressing Breast Cancer",
+            "officialTitle": "Phase 1, Adaptive-design Trial of Human Chimeric Antigen Receptor Modified T Cells in Patients With Mesothelin Expressing Breast Cancer",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "car-t-cells-in-mesothelin-expressing-breast-cancer"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-02-06",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-02",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2038-02",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-11-11",
+            "studyFirstSubmitQcDate": "2022-11-11",
+            "studyFirstPostDateStruct": {
+                "date": "2022-11-21",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Pennsylvania",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "Phase 1 - Safety and Proof of Concept",
+            "detailedDescription": "This is a phase I study to establish the safety and feasibility of lentiviral transduced CAR T cell products in patients with mesothelin expressing breast cancer. This study will be initiated as a single cohort, however the study is designed to allow for additional disease indications and other investigational CAR T cell products to be explored as separate cohorts under this protocol in the future.\n\nCohort 1: Cohort 1 will evaluate the use of huCART-meso cells delivered intratumorally in patients with locally advanced unresectable or metastatic triple-negative breast cancer (TNBC) which is positive for mesothelin expression by IHC. Eligible subjects must also have an accessible lesion that can be targeted for both intratumoral injection and surgical excision/biopsy by either a surgeon or interventional radiology."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Breast Cancer"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "SEQUENTIAL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 12,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Dose Level 1",
+                    "type": "EXPERIMENTAL",
+                    "description": "3.00 x 10\\^7 CAR T cells administered intratumoral",
+                    "interventionNames": [
+                        "Drug: huCART-meso cells",
+                        "Device: Mesothelin Expression Testing"
+                    ]
+                },
+                {
+                    "label": "Dose Level -1",
+                    "type": "EXPERIMENTAL",
+                    "description": "3.00 x 10\\^6 CAR T cells administered intratumoral",
+                    "interventionNames": [
+                        "Drug: huCART-meso cells",
+                        "Device: Mesothelin Expression Testing"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "huCART-meso cells",
+                    "description": "Autologous T cells lentivirally transduced with chimeric anti-mesothelin immunoreceptor M5 scFv fused to the 4-1BB and CD3\u03b6 signaling domains",
+                    "armGroupLabels": [
+                        "Dose Level -1",
+                        "Dose Level 1"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Mesothelin Expression Testing",
+                    "description": "Laboratory Developed Test",
+                    "armGroupLabels": [
+                        "Dose Level -1",
+                        "Dose Level 1"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Occurrence of treatment-limiting toxicities (TLTs)",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Incidence of Treatment-Emergent Adverse Events as assessed by CTCAE v5.0.",
+                    "timeFrame": "15 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Proportion of manufacturing product that do not meet the release criteria.",
+                    "timeFrame": "60 days"
+                },
+                {
+                    "measure": "Proportion of the products that meet the target dose.",
+                    "timeFrame": "60 days"
+                },
+                {
+                    "measure": "Proportion of enrolled subjects that receive study treatment.",
+                    "timeFrame": "60 days"
+                },
+                {
+                    "measure": "Proportion of eligible subjects that receive study treatment",
+                    "timeFrame": "60 days"
+                },
+                {
+                    "measure": "Proportion of subjects for which standard of care treatment is not impacted due to CAR T cell related toxicity.",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Kinetics of expansion and persistence of infused cells by flow cytometry.",
+                    "timeFrame": "90 days"
+                },
+                {
+                    "measure": "Kinetics of expansion and persistence of infused cells by quantitative PCR.",
+                    "timeFrame": "90 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Patients with locally advanced unresectable or metastatic triple-negative breast cancer as confirmed by all of the following:\n\n   1. ER-negative or low-ER positive (\u2264 10% by IHC)\n   2. PR-negative or low-PR positive (\u2264 10% by IHC)\n   3. HER2 negative by IHC/FISH\n2. Patients with an accessible lesion that can be targeted for both intratumoral injection and surgical excision/biopsy by either a surgeon or interventional radiology.\n3. Confirmed tumor mesothelin expression by \u2265 10% of malignant cells by IHC.\n4. Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1.\n5. Adequate organ and bone marrow function defined as:\n\n   1. Bilirubin \u2264 2.0 x ULN\n   2. Serum Creatinine \u2264 1.5 x ULN\n   3. ALT/AST \u2264 3 x ULN\n   4. Must have a minimum level of pulmonary reserve defined as \u2264 Grade 1 dyspnea and pulse oxygen \\> 92% on room air\n   5. Left Ventricle Ejection Fraction (LVEF) \u2265 45% confirmed by echocardiogram\n6. Male and female patients \u2265 18 years of age.\n7. Provides written informed consent.\n8. Subjects of reproductive potential must agree to use acceptable birth control methods\n\nExclusion Criteria:\n\n1. Active invasive cancer other than the study-targeted malignancy.\n2. Evidence of active hepatitis B or hepatitis C. The following would not qualify as an active infection, thus would not exclude the subject from participating:\n\n   1. Positive HBV serology with undetectable viral load and ongoing antiviral prophylaxis for potential HBV reactivation.\n   2. Positive HCV serology with quantitative PCR for plasma HCV RNA below the lower limit of detection, with or without concurrent antiviral HCV treatment.\n3. Patients with ongoing or active infection.\n4. Active autoimmune disease requiring systemic immunosuppressive treatment equivalent to \u2265 10 mg/day of prednisone. Patients with autoimmune neurologic diseases (such as MS) will be excluded.\n5. Planned concurrent treatment with systemic high dose corticosteroids. Patients may be on a stable low dose of steroids (\u2264 10mg daily equivalent of prednisone). Use of inhaled or topical steroids is allowable.\n6. History of allergy or hypersensitivity to study product excipients (human serum albumin, DMSO, and Dextran 40).\n7. Pregnant or breastfeeding women.\n8. Any clinically significant pericardial effusion, Class II-IV cardiovascular disability according to the New York Heart Association Classification or other cardiovascular condition that would preclude assessment of mesothelin induced pericarditis or that may worsen as a result of toxicities expected for this study. This determination will be made by a cardiologist if cardiac issues are suspected.\n9. Patients with significant lung disease as follows:\n\n   1. Patients with radiographic evidence of greater than lobar lymphangitic pulmonary involvement, greater than lobar bronchial wall thickening suggestive of peribronchial lymphatic disease extension, and/or evidence of extensive bilateral parenchymal metastatic burden.\n   2. Patients with radiographic and/or clinical evidence of active radiation pneumonitis.\n   3. Patients with radiographic evidence of underlying interstitial lung disease, including evidence of unresolved drug toxicity from any agent (e.g. chemotherapy, targeted agents, amiodarone, nitrofurantoin, etc).\n10. Patients with active central nervous system (CNS) involvement. Screening for this (e.g. lumbar puncture, brain MRI, etc) is not required unless the patient is symptomatic and/or radiographic findings are present.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Abramson Cancer Center Clinical Trials Service",
+                    "role": "CONTACT",
+                    "phone": "855-216-0098",
+                    "email": "PennCancerTrials@careboxhealth.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Julia Tchou, MD, PhD",
+                    "affiliation": "University of Pennsylvania",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Pennsylvania",
+                    "status": "RECRUITING",
+                    "city": "Philadelphia",
+                    "state": "Pennsylvania",
+                    "zip": "19104",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Abramson Cancer Center Clinical Trials Service",
+                            "role": "CONTACT",
+                            "phone": "855-216-0098",
+                            "email": "PennCancerTrials@careboxhealth.com"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.95233,
+                        "lon": -75.16379
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

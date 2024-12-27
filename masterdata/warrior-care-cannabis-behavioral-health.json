@@ -1,0 +1,823 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06381180",
+            "orgStudyIdInfo": {
+                "id": "Warrior CARE: CBH"
+            },
+            "organization": {
+                "fullName": "Wayne State University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Warrior CARE: Cannabis Behavioral Health",
+            "officialTitle": "Wayne Warrior CAnnabis Research and Education: Cannabis and Behavioral Health",
+            "acronym": "CBH",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "warrior-care-cannabis-behavioral-health"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-09-01",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2030-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2030-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-01-17",
+            "studyFirstSubmitQcDate": "2024-04-18",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-24",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-23",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Leslie Lundahl",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Wayne State University"
+            },
+            "leadSponsor": {
+                "name": "Wayne State University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is a randomized, controlled clinical trial to examine the therapeutic potential of cannabinoids for treating veterans with PTSD and suicidal ideation.",
+            "detailedDescription": "In this clinical trial, we will recruit veterans with PTSD who report using cannabis or have interest in trying cannabis for symptom relief. Veterans will be randomized into one of four different groups: THC (\u22069-tetrahydrocannabinol), CBD (cannabidiol), THC+CBD, and Placebo, and undergo a 12-week treatment phase where they will be asked to vaporize their assigned cannabis dose every day for 12 weeks. Participants will complete weekly questionnaires regarding their mood, behavior and drug consumption. Furthermore, there is a laboratory component that will assess cognition, fear conditioning, and other PTSD-related measures."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Post Traumatic Stress Disorder",
+                "Cannabis Use",
+                "Suicide",
+                "Veterans",
+                "Marijuana"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1",
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 500,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "THC Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "Cannabis with 2.5 mg THC; up to a maximum of 5 doses/day (max dose = 12.5 mg THC)",
+                    "interventionNames": [
+                        "Drug: Tetrahydrocannabinol"
+                    ]
+                },
+                {
+                    "label": "CBD Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "Cannabis with 2.5 mg CBD; up to a maximum of 5 doses/day (max dose = 12.5 mg CBD)",
+                    "interventionNames": [
+                        "Drug: Cannabidiol"
+                    ]
+                },
+                {
+                    "label": "THC & CBD Group",
+                    "type": "EXPERIMENTAL",
+                    "description": "Cannabis with 2.5 mg THC and 2.5 mg CBD; up to a maximum of 5 doses/day (max doses = 12.5 mg THC and 12.5 mg CBD)",
+                    "interventionNames": [
+                        "Drug: Tetrahydrocannabinol",
+                        "Drug: Cannabidiol"
+                    ]
+                },
+                {
+                    "label": "Placebo Group",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Cannabis with \\<1mg THC and \\<1mg CBD; up to a maximum of 5 doses/day (max dose = \\<5 mg THC and \\<5 mg CBD)",
+                    "interventionNames": [
+                        "Drug: Placebo"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "Tetrahydrocannabinol",
+                    "description": "Plant cannabis that will be vaporized",
+                    "armGroupLabels": [
+                        "THC & CBD Group",
+                        "THC Group"
+                    ],
+                    "otherNames": [
+                        "THC"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Cannabidiol",
+                    "description": "Plant cannabidiol that will be vaporized",
+                    "armGroupLabels": [
+                        "CBD Group",
+                        "THC & CBD Group"
+                    ],
+                    "otherNames": [
+                        "CBD"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Placebo",
+                    "description": "Plant will be vaporized.",
+                    "armGroupLabels": [
+                        "Placebo Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Assessing change in PTSD diagnosis and its symptom severity from pre-treatment to post-treatment using the CAPS-5 assessment.",
+                    "description": "PTSD diagnosis will be assessed using the Clinician-Administered PTSD Scale (CAPS-5) for DSM-5 Total Severity Score, a well-validated, semi-structured clinician interview that determines the presence and severity of PTSD symptoms and diagnosis consistent with the DSM-5 and allows for assessing changes in symptom severity over time.",
+                    "timeFrame": "Administered at a pre-treatment visit (at the initial screening visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assessing change in PTSD diagnosis and its symptom severity throughout the study using the PCL-5 assessment",
+                    "description": "The PCL-5 is a 20-item self-report measure that assesses DSM-5 symptoms of PTSD. The PCL-5 is used to monitor symptom change during and after treatment, screen individuals for PTSD, and make a provisional PTSD diagnosis. This assessment will also be used as a safety measure at all visits by assessing PTSD symptom severity.",
+                    "timeFrame": "Administered at every study visit: both pre-treatment visits (the initial screening and baseline visit); during the 12-week treatment phase (all twelve weekly visits); and the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months"
+                },
+                {
+                    "measure": "Assessing Suicidality over time using the C-SSRS assessment.",
+                    "description": "The Columbia Suicide Severity Rating Scale (C-SSRS) is a clinician-administered interview assessing suicidal thoughts and behaviors over time. A baseline form is used to assess lifetime suicidal ideation, intensity, and behavior, and can be compared to current suicidal ideation and intensity assessed over the clinical trial.",
+                    "timeFrame": "Administered at a pre-treatment visit (at the initial screening visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assessing Suicidality throughout the study using the SBQ-R assessment.",
+                    "description": "The Suicide Behavior Questionnaire-Revised (SBQ-R) is a brief (4-item), self-administered questionnaire that taps into four dimensions of suicidality (lifetime ideation/attempt, frequency of recent ideation, risk of suicide attempt and self-reported likelihood of future suicidal behavior). This assessment will also be used as a safety measure at all visits by assessing suicidality.",
+                    "timeFrame": "Administered at every study visit: both pre-treatment visits (the initial screening and baseline visit); during the 12-week treatment phase (all twelve weekly visits); and the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months"
+                },
+                {
+                    "measure": "Assessing mood and anxiety symptoms throughout the study using the BDI-II and STAI-Y Questionnaires.",
+                    "description": "The Beck Depression Inventory-II (BDI-II) is a self-report depression checklist which assesses neurovegetative depressive symptoms. One item asks specifically about suicidal thoughts and will also be checked at every study visit as a safety measure. The State Trait Anxiety Inventory-Form Y (STAI-Y) is a 40-item questionnaire with two scales assessing state and trait anxiety (somatic and cognitive symptoms).",
+                    "timeFrame": "Administered at every study visit: both pre-treatment visits (the initial screening and baseline visit); during the 12-week treatment phase (all twelve weekly visits); and the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Assess emotional state pre- and post-treatment using the PANAS questionnaire.",
+                    "description": "The Positive and Negative Affect Schedule (PANAS) is a 20-item self-report questionnaire, widely used measure of emotional state, which has excellent psychometric properties.",
+                    "timeFrame": "Administered at a pre-treatment visit (at the baseline visit); and at the first post-treatment visit (one week post-treatment)."
+                },
+                {
+                    "measure": "Assess feelings of loneliness pre- and post-treatment using UCLA's 3-ILS assessment.",
+                    "description": "The UCLA Three-Item Loneliness Scale (3-ILS) assesses social isolation and feelings of loneliness.",
+                    "timeFrame": "Administered at a pre-treatment visit (at the initial screening visit); and at the first post-treatment visit (one week post-treatment)."
+                },
+                {
+                    "measure": "Assess childhood and lifetime trauma pre- and post-treatment using the ACE, CTQ, and PCTI questionnaires.",
+                    "description": "The Adverse Childhood Experience Questionnaire for Adults (ACE), the Posttraumatic Cognitions Inventory (PCTI), and the Childhood Trauma Questionnaire (CTQ) are all three separate questionnaires used to measure lifetime and childhood trauma.",
+                    "timeFrame": "Administered once at a pre-treatment visit, specifically at the baseline visit."
+                },
+                {
+                    "measure": "Assess dissociative symptoms pre- and post-treatment using the MDI and DSS assessments.",
+                    "description": "The Multiscale Dissociation Inventory (MDI) is a self-report questionnaire of dissociative symptomatology over the past month. The Dissociation Tension Scale (DSS) is a self-report measure of dissociative symptoms sensitive to weekly changes.",
+                    "timeFrame": "Administered at a pre-treatment visit (at the baseline visit); and at the first post-treatment visit (one week post-treatment)."
+                },
+                {
+                    "measure": "Assess drug effects, liking, and symptoms after cannabis administration using the SCERF and SES visual analog scales.",
+                    "description": "The Subjective Cannabis Effects Rating Form (SCERF) will ask participants to complete a Visual Analog Scale (VAS) of \"good drug effect,\" \"bad drug effect,\" \"strength of drug effect,\" liking,\" \"sedated,\" and \"desire to take again\" and indicate whether they thought they received active drug or placebo. The Subjective Effects Scale (SES) VAS is a 33-item scale which includes the phrase \"I feel...\" followed by adjectives describing a mood (e.g., \"anxious\", \"friendly,\" \"down,\" etc.), a drug effect (e.g., \"high,\" \"stimulated\", \"a good drug effect\") or a physical symptom (e.g., \"hungry,\" \"tired,\" \"restless\").",
+                    "timeFrame": "Administered after cannabis administration; therefore, administered at the baseline visit and electronically during the 12-week treatment phase (at all twelve weekly visits)."
+                },
+                {
+                    "measure": "Assess ethnic-racial discrimination pre- and post-treatment using the CERIS-A and TSDS Questionnaires.",
+                    "description": "The Cross Ethnic-Racial Identity Scale-Adult (CERIS-A) and the Trauma Symptoms of Discrimination Scale (TSDS) are self-report questionnaires we will use to assess ethnic-racial identity attitudes and the traumatizing impact of discrimination.",
+                    "timeFrame": "Administered at a pre-treatment visit (at the baseline visit); and the first post-treatment visit (one week post-treatment)."
+                },
+                {
+                    "measure": "Assess demographics using a self-report assessment",
+                    "description": "Participants will be asked to complete a personal history form to assess age, gender, sex, gender identity, marital status, race/ethnicity, education, employment status, and annual income.",
+                    "timeFrame": "Administered once at a pre-treatment visit, specifically at the initial screening visit."
+                },
+                {
+                    "measure": "Assess toxicant exposure commonly experienced during war using the KGWIC and BPE assessments.",
+                    "description": "The Kansas Gulf War Illness Criteria (KGWIC) and the Burn Pit Exposure (BPE) are self-report questionnaires that contain items on toxicants commonly experienced as well as burn pit exposure during war.",
+                    "timeFrame": "Administered once at a pre-treatment visit, specifically at the baseline visit."
+                },
+                {
+                    "measure": "Assess smoking habits and history using the FTND assessment",
+                    "description": "Subjects who smoke cigarettes will also complete the Fagerstrom Test for Nicotine Dependence (FTND) survey to assess smoking history and habits.",
+                    "timeFrame": "Administered once at a pre-treatment visit, specifically at the baseline visit."
+                },
+                {
+                    "measure": "Assess general health and history pre- and post-treatment using the SF-36 assessment.",
+                    "description": "The Short Form 36 (SF-36) is a brief measure of overall self-reported health that is associated with other objective health measures. Scores will be examined to assess change in general health outcomes over time.",
+                    "timeFrame": "Administered at a pre-treatment visit (the baseline visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assess healthcare utilization throughout the study.",
+                    "description": "The Healthcare Utilization (HU) survey will also assess the number of times participants utilize emergency room, urgent care, specialist, and general practitioner services.",
+                    "timeFrame": "Administered at both pre-treatment visits (the initial screening and baseline visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assess pain pre- and post-treatment using the BPI assessment.",
+                    "description": "The Brief Pain Inventory (BPI) asks participants to identify areas on their body causing pain and rate the severity.",
+                    "timeFrame": "Administered at a pre-treatment visit (the baseline visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assess sleepiness pre- and post-treatment using the ESS questionnaire.",
+                    "description": "The Epworth Sleepiness Scale (ESS) is a self-report questionnaire that will be used to assess daytime sleepiness, which is indicative of sleep problems.",
+                    "timeFrame": "Administered at a pre-treatment visit (the baseline visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assess overall quality of life pre- and post-treatment using the QOL questionnaire.",
+                    "description": "The Quality of Life (QOL) inventory assesses satisfaction in 17 life areas (work, health, recreation, goals, etc.) and will be used to assess the quality of life changes.",
+                    "timeFrame": "Administered at a pre-treatment visit (the baseline visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assess substance use throughout the study using the TLFB assessment.",
+                    "description": "The Timeline Follow-Back (TLFB) will be used to record the time of cannabis use and route of administration as well as any alcohol and other drug use.",
+                    "timeFrame": "Administered at every study visit: both pre-treatment visits (the initial screening and baseline visit); during the 12-week treatment phase (all twelve weekly visits); and the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months"
+                },
+                {
+                    "measure": "Assess neurocognitive and executive function pre- and post-treatment using the WCST, WMS, CVLT, HMDD, WCS, IGT tasks",
+                    "description": "Working Memory will be assessed using the Wechsler Memory Scale (WMS) and the California Verbal Learning Test (CVLT). The Wisconsin Card Sort Task (WCST) assesses abstraction and the ability to shift or maintain cognitive set. The Hypothetical Monetary Delay Discounting (HMDD) and the Iowa Gambling Task (IGT) measure decision-making. Lastly, the Word Color Stroop (WCS) task assesses selective attention capacity and skills.",
+                    "timeFrame": "Administered at a pre-treatment visit (the baseline visit); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months post-treatment visits)."
+                },
+                {
+                    "measure": "Assess physiological measures throughout the study as a safety check",
+                    "description": "Physiological measures include blood pressure, heart rate, oxygen saturation, and skin temperature checks at all study visits",
+                    "timeFrame": "Administered at every study visit: both pre-treatment visits (the initial screening and baseline visit); during the 12-week treatment phase (all twelve weekly visits); and the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months"
+                },
+                {
+                    "measure": "Assess biological samples for genetic markers associated with the endocannabinoid system and other biomarkers (e.g., cortisol) and measure THC and CBD.",
+                    "description": "Biological measures include collection of urine, and saliva. Saliva will be used to measure biomarkers like cortisol and test for endocannabinoid levels. Urine will be used to measure THC and CBD and their metabolites.",
+                    "timeFrame": "Biological samples will be collected at a pre-treatment (at the baseline visit); during the 12-week treatment phase (every two weeks during the treatment phase); and at the four post-treatment visits (one week post-treatment and 3-, 6-, and 9-months po"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* able to provide informed consent, IQ Score \\>80,\n* served in branch of the US armed forces, report using cannabis,\n* report using cannabis (no more than 2x in last month and no more than 100 lifetime use episodes)\n* meet DSM-5 criteria for PTSD w/ Sx of at least 6 months duration\n\nExclusion Criteria:\n\n* urine drug screen positive for any other drugs\n* systolic/diastolic BP \\>140/90 mmHg?\n* any clinically significant medical problems,\n* any current or past serious psychotic or bipolar disorder diagnosis as determined by SCID-5\n* at immediate high risk for suicide based on the C-SSRS\n* current SUD other than Nicotine Use Disorder and Alcohol Use Disorder (mild or moderate)\n* pregnancy, lactating\n* unable to provide informed consent",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "19 Years",
+            "maximumAge": "69 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Leslie Lundahl, PhD",
+                    "role": "CONTACT",
+                    "phone": "3139933960",
+                    "email": "llundahl@wayne.med.edu"
+                },
+                {
+                    "name": "Nareen Sadik, B.S.",
+                    "role": "CONTACT",
+                    "phone": "3139933966",
+                    "email": "fw6362@wayne.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Wayne State University",
+                    "city": "Detroit",
+                    "state": "Michigan",
+                    "zip": "48201",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Nareen Sadik, B.S.",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 42.33143,
+                        "lon": -83.04575
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "26664252",
+                    "type": "BACKGROUND",
+                    "citation": "Olenick M, Flowers M, Diaz VJ. US veterans and their unique issues: enhancing health care professional awareness. Adv Med Educ Pract. 2015 Dec 1;6:635-9. doi: 10.2147/AMEP.S89479. eCollection 2015."
+                },
+                {
+                    "pmid": "23617872",
+                    "type": "BACKGROUND",
+                    "citation": "Boden MT, Babson KA, Vujanovic AA, Short NA, Bonn-Miller MO. Posttraumatic stress disorder and cannabis use characteristics among military veterans with cannabis dependence. Am J Addict. 2013 May-Jun;22(3):277-84. doi: 10.1111/j.1521-0391.2012.12018.x."
+                },
+                {
+                    "pmid": "29952737",
+                    "type": "BACKGROUND",
+                    "citation": "Adkisson K, Cunningham KC, Dedert EA, Dennis MF, Calhoun PS, Elbogen EB, Beckham JC, Kimbrel NA. Cannabis Use Disorder and Post-Deployment Suicide Attempts in Iraq/Afghanistan-Era Veterans. Arch Suicide Res. 2019 Oct-Dec;23(4):678-687. doi: 10.1080/13811118.2018.1488638. Epub 2018 Nov 17."
+                },
+                {
+                    "pmid": "24035186",
+                    "type": "BACKGROUND",
+                    "citation": "Hill MN, Bierer LM, Makotkine I, Golier JA, Galea S, McEwen BS, Hillard CJ, Yehuda R. Reductions in circulating endocannabinoid levels in individuals with post-traumatic stress disorder following exposure to the World Trade Center attacks. Psychoneuroendocrinology. 2013 Dec;38(12):2952-61. doi: 10.1016/j.psyneuen.2013.08.004. Epub 2013 Sep 10."
+                },
+                {
+                    "pmid": "18311684",
+                    "type": "BACKGROUND",
+                    "citation": "Hill MN, Miller GE, Ho WS, Gorzalka BB, Hillard CJ. Serum endocannabinoid content is altered in females with depressive disorders: a preliminary report. Pharmacopsychiatry. 2008 Mar;41(2):48-53. doi: 10.1055/s-2007-993211."
+                },
+                {
+                    "pmid": "32868170",
+                    "type": "BACKGROUND",
+                    "citation": "deRoon-Cassini TA, Stollenwerk TM, Beatka M, Hillard CJ. Meet Your Stress Management Professionals: The Endocannabinoids. Trends Mol Med. 2020 Oct;26(10):953-968. doi: 10.1016/j.molmed.2020.07.002. Epub 2020 Aug 28."
+                },
+                {
+                    "pmid": "30810022",
+                    "type": "BACKGROUND",
+                    "citation": "Abizaid A, Merali Z, Anisman H. Cannabis: A potential efficacious intervention for PTSD or simply snake oil? J Psychiatry Neurosci. 2019 Mar 1;44(2):75-78. doi: 10.1503/jpn.190021. No abstract available."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Zachary RA (1991) Shipley Institute of Living Scale: revised manual. Los Angeles: Western Psychological Services"
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "First MB, Williams JBW, Karg RS, Spitzer RL (2015) User's Guide for the Structured Clinical Interview for DSM-5 Disorders, Research Version (SCID-5-RV). Arlington, VA, American Psychiatric Association"
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Weathers, F.W., et al., The Clinician-Administered PTSD Scale for DSM-5 (CAPS-5). 2013, Washington DC: National Center for PTSD."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Weathers, F.W., Litz, B.T., Keane, T.M., Palmieri, P.A., Marx, B.P., & Schnurr, P.P. (2013). The PTSD Checklist for DSM-5 (PCL-5). Scale available from the National Center for PTSD at www.ptsd.va.gov."
+                },
+                {
+                    "pmid": "28493729",
+                    "type": "BACKGROUND",
+                    "citation": "Weathers FW, Bovin MJ, Lee DJ, Sloan DM, Schnurr PP, Kaloupek DG, Keane TM, Marx BP. The Clinician-Administered PTSD Scale for DSM-5 (CAPS-5): Development and initial psychometric evaluation in military veterans. Psychol Assess. 2018 Mar;30(3):383-395. doi: 10.1037/pas0000486. Epub 2017 May 11."
+                },
+                {
+                    "pmid": "22193671",
+                    "type": "BACKGROUND",
+                    "citation": "Posner K, Brown GK, Stanley B, Brent DA, Yershova KV, Oquendo MA, Currier GW, Melvin GA, Greenhill L, Shen S, Mann JJ. The Columbia-Suicide Severity Rating Scale: initial validity and internal consistency findings from three multisite studies with adolescents and adults. Am J Psychiatry. 2011 Dec;168(12):1266-77. doi: 10.1176/appi.ajp.2011.10111704."
+                },
+                {
+                    "pmid": "11785588",
+                    "type": "BACKGROUND",
+                    "citation": "Osman A, Bagge CL, Gutierrez PM, Konick LC, Kopper BA, Barrios FX. The Suicidal Behaviors Questionnaire-Revised (SBQ-R): validation with clinical and nonclinical samples. Assessment. 2001 Dec;8(4):443-54. doi: 10.1177/107319110100800409."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Beck, A.T., Steer, R.A., & Brown, G.K. (1996). Manual for the Beck Depression Inventory-II. San Antonio, TX: Psychological Corporation."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Spielberger, C. D., Gorsuch, R. L., Lushene, R., Vagg, P. R., & Jacobs, G. A. (1983). Manual for the State-Trait Anxiety Inventory. Palo Alto, CA: Consulting Psychologists Press."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Wechsler, D. (2009). Wechsler Memory Scale - 4th Edition. Pearson Assessments."
+                },
+                {
+                    "pmid": "18889466",
+                    "type": "BACKGROUND",
+                    "citation": "BERG EA. A simple objective technique for measuring flexibility in thinking. J Gen Psychol. 1948 Jul;39:15-22. doi: 10.1080/00221309.1948.9918159. No abstract available."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Milner, B. (1963). Effects of different brain lesions on card sorting. Archives of Neurology, 9, 90-100."
+                },
+                {
+                    "pmid": "9036851",
+                    "type": "BACKGROUND",
+                    "citation": "Bechara A, Damasio H, Tranel D, Damasio AR. Deciding advantageously before knowing the advantageous strategy. Science. 1997 Feb 28;275(5304):1293-5. doi: 10.1126/science.275.5304.1293."
+                },
+                {
+                    "pmid": "1593914",
+                    "type": "BACKGROUND",
+                    "citation": "Ware JE Jr, Sherbourne CD. The MOS 36-item short-form health survey (SF-36). I. Conceptual framework and item selection. Med Care. 1992 Jun;30(6):473-83."
+                },
+                {
+                    "type": "BACKGROUND",
+                    "citation": "Frisch, M.B., Cornell, J., Villanueva, M. & Retzlaff, P.J. (1992). Clinical validation of the quality of life inventory: A measure of life satisfaction for treatment planning and outcome assessment. Psychological Assessment, 4, 92-101."
+                },
+                {
+                    "pmid": "8080219",
+                    "type": "BACKGROUND",
+                    "citation": "Cleeland CS, Ryan KM. Pain assessment: global use of the Brief Pain Inventory. Ann Acad Med Singap. 1994 Mar;23(2):129-38."
+                },
+                {
+                    "pmid": "1798888",
+                    "type": "BACKGROUND",
+                    "citation": "Johns MW. A new method for measuring daytime sleepiness: the Epworth sleepiness scale. Sleep. 1991 Dec;14(6):540-5. doi: 10.1093/sleep/14.6.540."
+                },
+                {
+                    "pmid": "18823934",
+                    "type": "BACKGROUND",
+                    "citation": "Marczylo TH, Lam PM, Nallendran V, Taylor AH, Konje JC. A solid-phase method for the extraction and measurement of anandamide from multiple human biomatrices. Anal Biochem. 2009 Jan 1;384(1):106-13. doi: 10.1016/j.ab.2008.08.040. Epub 2008 Sep 18."
+                },
+                {
+                    "pmid": "22860123",
+                    "type": "BACKGROUND",
+                    "citation": "Matias I, Gatta-Cherifi B, Tabarin A, Clark S, Leste-Lasserre T, Marsicano G, Piazza PV, Cota D. Endocannabinoids measurement in human saliva as potential biomarker of obesity. PLoS One. 2012;7(7):e42399. doi: 10.1371/journal.pone.0042399. Epub 2012 Jul 31."
+                },
+                {
+                    "pmid": "31669786",
+                    "type": "BACKGROUND",
+                    "citation": "Maples-Keller JL, Rauch SAM, Jovanovic T, Yasinski CW, Goodnight JM, Sherrill A, Black K, Michopoulos V, Dunlop BW, Rothbaum BO, Norrholm SD. Changes in trauma-potentiated startle, skin conductance, and heart rate within prolonged exposure therapy for PTSD in high and low treatment responders. J Anxiety Disord. 2019 Dec;68:102147. doi: 10.1016/j.janxdis.2019.102147. Epub 2019 Sep 21."
+                },
+                {
+                    "pmid": "29783077",
+                    "type": "BACKGROUND",
+                    "citation": "Norr AM, Smolenski DJ, Reger GM. Effects of prolonged exposure and virtual reality exposure on suicidal ideation in active duty soldiers: An examination of potential mechanisms. J Psychiatr Res. 2018 Aug;103:69-74. doi: 10.1016/j.jpsychires.2018.05.009. Epub 2018 May 12."
+                },
+                {
+                    "pmid": "10090647",
+                    "type": "BACKGROUND",
+                    "citation": "Haney M, Ward AS, Comer SD, Foltin RW, Fischman MW. Abstinence symptoms following smoked marijuana in humans. Psychopharmacology (Berl). 1999 Feb;141(4):395-404. doi: 10.1007/s002130050849."
+                },
+                {
+                    "pmid": "12439626",
+                    "type": "BACKGROUND",
+                    "citation": "Haney M, Hart CL, Ward AS, Foltin RW. Nefazodone decreases anxiety during marijuana withdrawal in humans. Psychopharmacology (Berl). 2003 Jan;165(2):157-65. doi: 10.1007/s00213-002-1210-3. Epub 2002 Nov 19."
+                },
+                {
+                    "pmid": "21981991",
+                    "type": "BACKGROUND",
+                    "citation": "Petry NM, Alessi SM, Ledgerwood DM. Contingency management delivered by community therapists in outpatient settings. Drug Alcohol Depend. 2012 Apr 1;122(1-2):86-92. doi: 10.1016/j.drugalcdep.2011.09.015. Epub 2011 Oct 5."
+                },
+                {
+                    "pmid": "22250852",
+                    "type": "BACKGROUND",
+                    "citation": "Petry NM, Alessi SM, Ledgerwood DM. A randomized trial of contingency management delivered by community therapists. J Consult Clin Psychol. 2012 Apr;80(2):286-98. doi: 10.1037/a0026826. Epub 2012 Jan 16."
+                },
+                {
+                    "pmid": "33302054",
+                    "type": "BACKGROUND",
+                    "citation": "Ellis JD, Struble CA, Fodor MC, Cairncross M, Lundahl LH, Ledgerwood DM. Contingency management for individuals with chronic health conditions: A systematic review and meta-analysis of randomized controlled trials. Behav Res Ther. 2021 Jan;136:103781. doi: 10.1016/j.brat.2020.103781. Epub 2020 Nov 30."
+                },
+                {
+                    "pmid": "24793364",
+                    "type": "BACKGROUND",
+                    "citation": "Ledgerwood DM, Arfken CL, Petry NM, Alessi SM. Prize contingency management for smoking cessation: a randomized trial. Drug Alcohol Depend. 2014 Jul 1;140:208-12. doi: 10.1016/j.drugalcdep.2014.03.032. Epub 2014 Apr 13."
+                },
+                {
+                    "pmid": "27547173",
+                    "type": "BACKGROUND",
+                    "citation": "Reid HH, Ledgerwood DM. Depressive symptoms affect changes in nicotine withdrawal and smoking urges throughout smoking cessation treatment: Preliminary results. Addict Res Theory. 2016;24(1):48-53. doi: 10.3109/16066359.2015.1060967. Epub 2015 Jun 26."
+                },
+                {
+                    "pmid": "25782872",
+                    "type": "BACKGROUND",
+                    "citation": "Bilgin M, Bindila L, Graessler J, Shevchenko A. Quantitative profiling of endocannabinoids in lipoproteins by LC-MS/MS. Anal Bioanal Chem. 2015 Jul;407(17):5125-31. doi: 10.1007/s00216-015-8559-8. Epub 2015 Mar 18."
+                },
+                {
+                    "pmid": "25436483",
+                    "type": "BACKGROUND",
+                    "citation": "Gachet MS, Rhyn P, Bosch OG, Quednow BB, Gertsch J. A quantitiative LC-MS/MS method for the measurement of arachidonic acid, prostanoids, endocannabinoids, N-acylethanolamines and steroids in human plasma. J Chromatogr B Analyt Technol Biomed Life Sci. 2015 Jan 22;976-977:6-18. doi: 10.1016/j.jchromb.2014.11.001. Epub 2014 Nov 18."
+                },
+                {
+                    "pmid": "20026294",
+                    "type": "BACKGROUND",
+                    "citation": "Marczylo TH, Lam PM, Amoako AA, Konje JC. Anandamide levels in human female reproductive tissues: solid-phase extraction and measurement by ultraperformance liquid chromatography tandem mass spectrometry. Anal Biochem. 2010 May 15;400(2):155-62. doi: 10.1016/j.ab.2009.12.025. Epub 2009 Dec 22."
+                },
+                {
+                    "pmid": "27452639",
+                    "type": "BACKGROUND",
+                    "citation": "Watkins BA, Kim J, Kenny A, Pedersen TL, Pappan KL, Newman JW. Circulating levels of endocannabinoids and oxylipins altered by dietary lipids in older women are likely associated with previously identified gene targets. Biochim Biophys Acta. 2016 Nov;1861(11):1693-1704. doi: 10.1016/j.bbalip.2016.07.007. Epub 2016 Jul 22."
+                },
+                {
+                    "pmid": "28687674",
+                    "type": "BACKGROUND",
+                    "citation": "McDougle DR, Watson JE, Abdeen AA, Adili R, Caputo MP, Krapf JE, Johnson RW, Kilian KA, Holinstat M, Das A. Anti-inflammatory omega-3 endocannabinoid epoxides. Proc Natl Acad Sci U S A. 2017 Jul 25;114(30):E6034-E6043. doi: 10.1073/pnas.1610325114. Epub 2017 Jul 7."
+                },
+                {
+                    "pmid": "3397865",
+                    "type": "BACKGROUND",
+                    "citation": "Watson D, Clark LA, Tellegen A. Development and validation of brief measures of positive and negative affect: the PANAS scales. J Pers Soc Psychol. 1988 Jun;54(6):1063-70. doi: 10.1037//0022-3514.54.6.1063."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002189",
+                    "term": "Marijuana Abuse"
+                },
+                {
+                    "id": "D000040921",
+                    "term": "Stress Disorders, Traumatic"
+                },
+                {
+                    "id": "D000013405",
+                    "term": "Suicide"
+                },
+                {
+                    "id": "D000013313",
+                    "term": "Stress Disorders, Post-Traumatic"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000068099",
+                    "term": "Trauma and Stressor Related Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000016728",
+                    "term": "Self-Injurious Behavior"
+                },
+                {
+                    "id": "D000001526",
+                    "term": "Behavioral Symptoms"
+                },
+                {
+                    "id": "D000019966",
+                    "term": "Substance-Related Disorders"
+                },
+                {
+                    "id": "D000064419",
+                    "term": "Chemically-Induced Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5449",
+                    "name": "Marijuana Abuse",
+                    "asFound": "Cannabis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M24916",
+                    "name": "Stress Disorders, Traumatic",
+                    "asFound": "Traumatic Stress Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16103",
+                    "name": "Stress Disorders, Post-Traumatic",
+                    "asFound": "Post Traumatic Stress Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16191",
+                    "name": "Suicide",
+                    "asFound": "Suicide",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M222",
+                    "name": "Trauma and Stressor Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19089",
+                    "name": "Self-Injurious Behavior",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4818",
+                    "name": "Behavioral Symptoms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21837",
+                    "name": "Substance-Related Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M30302",
+                    "name": "Chemically-Induced Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC25",
+                    "name": "Substance Related Disorders"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000013759",
+                    "term": "Dronabinol"
+                },
+                {
+                    "id": "D000002185",
+                    "term": "Cannabidiol"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000927",
+                    "term": "Anticonvulsants"
+                },
+                {
+                    "id": "D000006213",
+                    "term": "Hallucinogens"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                },
+                {
+                    "id": "D000011619",
+                    "term": "Psychotropic Drugs"
+                },
+                {
+                    "id": "D000018712",
+                    "term": "Analgesics, Non-Narcotic"
+                },
+                {
+                    "id": "D000000700",
+                    "term": "Analgesics"
+                },
+                {
+                    "id": "D000018689",
+                    "term": "Sensory System Agents"
+                },
+                {
+                    "id": "D000018373",
+                    "term": "Peripheral Nervous System Agents"
+                },
+                {
+                    "id": "D000063386",
+                    "term": "Cannabinoid Receptor Agonists"
+                },
+                {
+                    "id": "D000063385",
+                    "term": "Cannabinoid Receptor Modulators"
+                },
+                {
+                    "id": "D000018377",
+                    "term": "Neurotransmitter Agents"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000006728",
+                    "term": "Hormones"
+                },
+                {
+                    "id": "D000006730",
+                    "term": "Hormones, Hormone Substitutes, and Hormone Antagonists"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5445",
+                    "name": "Cannabidiol",
+                    "asFound": "Incentive",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16527",
+                    "name": "Dronabinol",
+                    "asFound": "Bronchiectasis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4246",
+                    "name": "Anticonvulsants",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9305",
+                    "name": "Hallucinogens",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14474",
+                    "name": "Psychotropic Drugs",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4032",
+                    "name": "Analgesics",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20786",
+                    "name": "Analgesics, Non-Narcotic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20504",
+                    "name": "Neurotransmitter Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9789",
+                    "name": "Hormones",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9788",
+                    "name": "Hormone Antagonists",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "AntiConv",
+                    "name": "Anticonvulsants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Analg",
+                    "name": "Analgesics"
+                },
+                {
+                    "abbrev": "PsychDr",
+                    "name": "Psychotropic Drugs"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

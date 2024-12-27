@@ -1,0 +1,388 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05933148",
+            "orgStudyIdInfo": {
+                "id": "STUDY-22-00048"
+            },
+            "organization": {
+                "fullName": "Icahn School of Medicine at Mount Sinai",
+                "class": "OTHER"
+            },
+            "briefTitle": "Network Neurofeedback Using 7-Tesla MRI to Reduce Rumination Levels in Depression",
+            "officialTitle": "Network-based Real-time Neurofeedback Using Ultra-high Field MRI to Reduce Rumination Levels in Depression",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "network-neurofeedback-using-tesla-mri-to-reduce-rumination-levels-in-depression"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-07-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-04",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-04",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-21",
+            "studyFirstSubmitQcDate": "2023-07-05",
+            "studyFirstPostDateStruct": {
+                "date": "2023-07-06",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-05",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Yael Jacob",
+                "investigatorTitle": "Assistant Professor of Psychiatry",
+                "investigatorAffiliation": "Icahn School of Medicine at Mount Sinai"
+            },
+            "leadSponsor": {
+                "name": "Icahn School of Medicine at Mount Sinai",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Patients with major depressive disorder (MDD) exhibit increased levels of rumination (i.e. repetitive thinking and focus on negative mood states) which have been found to increase the risk of depressive relapse. The ability to reduce rumination levels among these patients is greatly needed. Rumination is known to be associated with the default mode network (DMN) region activity. Implementing the Dependency Network Analysis (DEPNA), a recently developed method by the research team to quantify the connectivity influence of network nodes, found that rumination was significantly associated with lower connectivity influence of the left medial orbitofrontal cortex (MOFC) on the right precuneus, both key regions within the DMN. This study implements the first real-time fMRI neurofeedback (Rt-fMRI-NF) network-based protocol for up-regulation of the MOFC influence on the precuneus in patients with MDD to reduce rumination levels. This will allow for more accurate explicit brain connections modulation than the standard single brain region activity; creating a larger opportunity for target clinical neuromodulation treatment in individuals with MDD.",
+            "detailedDescription": "Major depressive disorder (MDD) is the world's largest health problem, and current available treatments fail at relieving symptoms for many patients. Rumination, which is conceptualized as repetitive thinking and focus on one's distress and negative mood states is a core feature of MDD. Patients with MDD exhibit increased levels of rumination which have been found to increase the risk of depressive relapse in remitted patients. The ability to reduce rumination levels among these patients is greatly needed.\n\nNeurofeedback (NF) is a technique that feeds back information about brain signals to the individual in real-time, to allow for implicit modulation of the brain signal in order to improve performance. Yet, classic real-time fMRI-NF protocols focus on single region activity neglecting to consider the neural network dynamics, accounting for direct influences between regions.\n\nImplementing the Dependency Network Analysis (DEPNA), a method developed by the research team, tested whether network connectivity influences during resting-state functional MRI (fMRI) are associated with rumination in patients with MDD. The research team found that rumination was significantly associated with lower connectivity influence of the left medial orbito-frontal cortex (MOFC) on the right precuneus, both key regions within the DMN. This is in line with intracranial recordings studies showing that MOFC activity precedes the precuneus in response to emotional stimuli.\n\nThe research team intend to extend this work by conducting the first real-time fMRI neurofeedback (Rt-fMRINF) protocol for up-regulation of the MOFC influence on the precuneus in patients with MDD and healthy controls to reduce rumination levels. The research team aims to develop an advanced ultra-high field MRI protocol that will allow for rt-fMRI-NF derived from networks' connectivity features as constructed by the DEPNA, and thus training the subject to control explicit brain connections. Specifically, the research team aims to train MDD patients to better regulate rumination levels by upregulating the influence of the MOFC on the precuneus."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Major Depressive Disorder"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "Single-blind sham-controlled randomized trial",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Active Neurofeedback",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Participants randomized to Active neurofeedback will receive real-time data depicting MOFC-precuneus brain activity while in the scanner.",
+                    "interventionNames": [
+                        "Device: Siemens 7T MRI"
+                    ]
+                },
+                {
+                    "label": "Sham Neurofeedback",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "Participants randomized to the Sham neurofeedback control group will receive the feedback of a prior scanned participant's active MOFC-precuneus up-regulation and not their own brain activity. This condition will still visually resemble the active conditions.",
+                    "interventionNames": [
+                        "Device: Sham Neurofeedback"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Siemens 7T MRI",
+                    "description": "The active neurofeedback session will be done within the 7T MRI.",
+                    "armGroupLabels": [
+                        "Active Neurofeedback"
+                    ],
+                    "otherNames": [
+                        "fMRI"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Sham Neurofeedback",
+                    "description": "The sham Neurofeedback resembles the active condition but participants will not see their own brain activity and will instead view a past participant's active feedback from their same population group.",
+                    "armGroupLabels": [
+                        "Sham Neurofeedback"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Self-reported rumination related to negative affect as measured by Rumination Response Style (RRS)",
+                    "description": "The RRS measures ruminative responses to depressed mood. The content of the items is related to depressive cognitions and their possible causes and consequences. Total scores on the RSS can range from 22 to 88, with higher scores corresponding to higher levels of rumination.",
+                    "timeFrame": "Pre-Neurofeedback (day 0) and Post-Neurofeedback (MRI assessment day 1)"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Rumination Response Style (RRS)",
+                    "description": "The RRS measures ruminative responses to depressed mood. The content of the items is related to depressive cognitions and their possible causes and consequences. Total scores on the RSS can range from 22 to 88, with higher scores corresponding to higher levels of rumination.",
+                    "timeFrame": "Pre-MRI Scan at screening (day 0)"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Rumination Response Style (RRS)",
+                    "description": "The RRS measures ruminative responses to depressed mood. The content of the items is related to depressive cognitions and their possible causes and consequences. Total scores on the RSS can range from 22 to 88, with higher scores corresponding to higher levels of rumination.",
+                    "timeFrame": "Post-MRI scan at follow up visit 24 hours"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Rumination Response Style (RRS)",
+                    "description": "The RRS measures ruminative responses to depressed mood. The content of the items is related to depressive cognitions and their possible causes and consequences. Total scores on the RSS can range from 22 to 88, with higher scores corresponding to higher levels of rumination.",
+                    "timeFrame": "Post-MRI scan at follow up visit day 7"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Rumination Response Style (RRS)",
+                    "description": "The RRS measures ruminative responses to depressed mood. The content of the items is related to depressive cognitions and their possible causes and consequences. Total scores on the RSS can range from 22 to 88, with higher scores corresponding to higher levels of rumination.",
+                    "timeFrame": "Post-MRI scan at follow up visit day 30"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Perceive Stress Scale (PSS)",
+                    "description": "A 10-item questionnaire, each item scored 0 (never) to 4 (very often), full scale from 0-40, with higher score indicating higher perceived stress",
+                    "timeFrame": "Pre-MRI Scan at screening (day 0)"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Perceive Stress Scale (PSS)",
+                    "description": "A 10-item questionnaire, each item scored 0 (never) to 4 (very often), full scale from 0-40, with higher score indicating higher perceived stress",
+                    "timeFrame": "Post-MRI scan at follow up visit 24 hours"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Perceive Stress Scale (PSS)",
+                    "description": "A 10-item questionnaire, each item scored 0 (never) to 4 (very often), full scale from 0-40, with higher score indicating higher perceived stress",
+                    "timeFrame": "Post-MRI scan at follow up visit day 7"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Perceive Stress Scale (PSS)",
+                    "description": "A 10-item questionnaire, each item scored 0 (never) to 4 (very often), full scale from 0-40, with higher score indicating higher perceived stress",
+                    "timeFrame": "Post-MRI scan at follow up visit day 30"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Quick Inventory of Depressive Symptomatology (QIDS)",
+                    "description": "Total QIDS scores range from 0 to 27 with scores of 5 or lower indicative of no depression, scores from 6 to 10 indicating mild depression, 11 to 15 indicating moderate depression, 16 to 20 reflecting severe depression, and total scores greater than 21 indicating very severe depression",
+                    "timeFrame": "Pre-MRI scan at screening (day 0)"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Quick Inventory of Depressive Symptomatology (QIDS)",
+                    "description": "Total QIDS scores range from 0 to 27 with scores of 5 or lower indicative of no depression, scores from 6 to 10 indicating mild depression, 11 to 15 indicating moderate depression, 16 to 20 reflecting severe depression, and total scores greater than 21 indicating very severe depression",
+                    "timeFrame": "Post-MRI scan at follow up visit 24 hours"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Quick Inventory of Depressive Symptomatology (QIDS)",
+                    "description": "Total QIDS scores range from 0 to 27 with scores of 5 or lower indicative of no depression, scores from 6 to 10 indicating mild depression, 11 to 15 indicating moderate depression, 16 to 20 reflecting severe depression, and total scores greater than 21 indicating very severe depression",
+                    "timeFrame": "Post-MRI scan at follow up visit day 7"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Quick Inventory of Depressive Symptomatology (QIDS)",
+                    "description": "Total QIDS scores range from 0 to 27 with scores of 5 or lower indicative of no depression, scores from 6 to 10 indicating mild depression, 11 to 15 indicating moderate depression, 16 to 20 reflecting severe depression, and total scores greater than 21 indicating very severe depression",
+                    "timeFrame": "Post-MRI scan at follow up visit day 30"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Montgomery-Asberg Depression Rating Scale (MADRS)",
+                    "description": "Each of the 10 items is rated on a scale of 0 to 6. These individual item scores are added together to form a total score, which can range between 0 and 60 points; higher scores indicated increased depression severity",
+                    "timeFrame": "Pre-MRI scan at screening (day 0)"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Montgomery-Asberg Depression Rating Scale (MADRS)",
+                    "description": "Each of the 10 items is rated on a scale of 0 to 6. These individual item scores are added together to form a total score, which can range between 0 and 60 points; higher scores indicated increased depression severity",
+                    "timeFrame": "Post-MRI scan at follow up visit 24 hours"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Montgomery-Asberg Depression Rating Scale (MADRS)",
+                    "description": "Each of the 10 items is rated on a scale of 0 to 6. These individual item scores are added together to form a total score, which can range between 0 and 60 points; higher scores indicated increased depression severity",
+                    "timeFrame": "Post-MRI scan at follow up visit day 7"
+                },
+                {
+                    "measure": "Self-reported rumination related to negative affect as measured by Montgomery-Asberg Depression Rating Scale (MADRS)",
+                    "description": "Each of the 10 items is rated on a scale of 0 to 6. These individual item scores are added together to form a total score, which can range between 0 and 60 points; higher scores indicated increased depression severity",
+                    "timeFrame": "Post-MRI scan at follow up visit day 30"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Male or female aged 18-65 years who either meet DSM-5 Axis Disorders (SCID) or the Mini International Neuropsychiatric Interview (MINI) for major depressive disorder (MDD) with a current major depressive episode OR does not meet for any current or past psychiatric diagnoses\n* Participants must have a level of understanding of the English language sufficient to agree to all tests and examinations required by the study and must be able to participate fully in the informed consent process\n\nExclusion Criteria:\n\n* Any current or history of schizophrenia or other psychotic disorder, neurodevelopmental disorder, or neurocognitive disorder for patients, active substance use disorder within the past 6 months\n* Unstable medical illness, concomitant use of any medication with central nervous system activity within 1 week of MRI scan\n* Pregnancy\n* Patients who are currently hospitalized in the inpatient psychiatric units at Mount Sinai Hospital or involuntarily admitted/court-ordered\n* Subjects judged to be at serious and imminent suicidal or homicidal risk by the study-affiliated psychiatrist or another MD, and contradictions to MRI",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Grace S. Butler, BA",
+                    "role": "CONTACT",
+                    "phone": "(212) 585-4623",
+                    "phoneExt": "54623",
+                    "email": "grace.butler@mssm.edu"
+                },
+                {
+                    "name": "Rachel Krasner, BA",
+                    "role": "CONTACT",
+                    "email": "rachel.krasner@mssm.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Yael Jacob, PhD",
+                    "affiliation": "Icahn School of Medicine at Mount Sinai",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Icahn School Of Medicine at Mount Sinai",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10029",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Grace S Butler, BA",
+                            "role": "CONTACT",
+                            "phone": "212-585-4623",
+                            "phoneExt": "54623",
+                            "email": "grace.butler@mssm.edu"
+                        },
+                        {
+                            "name": "Rachel Krasner, BA",
+                            "role": "CONTACT",
+                            "email": "rachel.krasner@mssm.edu"
+                        },
+                        {
+                            "name": "Yael Jacob",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Not applicable to the aims of the study."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003866",
+                    "term": "Depressive Disorder"
+                },
+                {
+                    "id": "D000003865",
+                    "term": "Depressive Disorder, Major"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000019964",
+                    "term": "Mood Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7058",
+                    "name": "Depression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7061",
+                    "name": "Depressive Disorder",
+                    "asFound": "Depressive Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7060",
+                    "name": "Depressive Disorder, Major",
+                    "asFound": "Major Depressive Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M2062",
+                    "name": "Rumination Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21835",
+                    "name": "Mood Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5077",
+                    "name": "Rumination Disorder",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

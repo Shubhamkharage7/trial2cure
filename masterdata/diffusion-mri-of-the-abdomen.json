@@ -1,0 +1,284 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05261633",
+            "orgStudyIdInfo": {
+                "id": "2021-1289"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "Protocol Version 7/25/2023",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "A539300",
+                    "type": "OTHER",
+                    "domain": "UW Madison"
+                },
+                {
+                    "id": "1R01EB030497-01",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/1R01EB030497-01"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "briefTitle": "Diffusion MRI of the Abdomen",
+            "officialTitle": "Diffusion Magnetic Resonance Imaging (MRI) of the Abdomen",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "diffusion-mri-of-the-abdomen"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-01",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-11-22",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-02-03",
+            "studyFirstSubmitQcDate": "2022-02-17",
+            "studyFirstPostDateStruct": {
+                "date": "2022-03-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-01-24",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-01-25",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Wisconsin, Madison",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute for Biomedical Imaging and Bioengineering (NIBIB)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this research is to see if a new magnetic resonance imaging (MRI) method will be able to improve the images taken of the abdomen. This new method includes some changes to help avoid movements that may disrupt the images like breathing, heartbeats and other involuntary motion that occurs in the abdomen. This study will these methods in healthy volunteers and validate them in patients with known liver metastases in a single contrast-enhanced MRI visit.",
+            "detailedDescription": "This study will develop and validate novel DW-MRI methods with unprecedented robustness to motion, favorable image quality, and quantitative precision for abdominal imaging. Upon successful completion, these methods will have broad applications, including the assessment of cancer, fibrosis and other disease processes in various abdominal organs such as the liver, pancreas, kidneys, bowel and beyond.\n\nThe primary objective is to demonstrate precise quantitative diffusion parameter mapping that is achieved by the novel, motion-robust, low-distortion DW-MRI methods in a representative and clinically relevant application, for the assessment of liver metastatic disease. Specifically, the investigators will:\n\n1. Compare the repeatability of DW-MRI methods by calculating the squared difference between each pair of repeated ADC measurements in lesions and healthy tissue, and will model this value including the DW-MRI method as a covariate using Generalized Estimating Equations (GEE).\n\nSecondary objectives include optimization of the methods in healthy volunteers, assessment of image quality and distortions, as well gathering preliminary data for assessment of sensitivity and specificity for detection of lesions:\n\n1. Optimization in healthy volunteers\n\n   1. (Aim 1) Optimized bh, M1 and M2 parameters by minimization of the mean squared error and bias of ADC quantification across the liver\n   2. (Aim 2) Optimized motion-corrected averaging via image quality assessment by three radiologists using a Likert scale.\n2. SNR (signal-to-noise ratio) will be evaluated for each DW-MRI dataset, using an expectation-maximization method, accounting for parallel imaging, spatially varying noise, and magnitude operation.\n3. To assess image distortions in DW-MRI, the cross-correlation coefficient (CCC) will be used to assess alignment between each of the DW-MRI datasets and the reference T2-weighted acquisition.\n4. Each DW-MRI reconstruction will be evaluated by three radiologists using a Likert scale between 0 (worst/non-diagnostic) and 4 (best) for several criteria: motion artifacts, spatial resolution, distortions, apparent SNR, and overall image quality. The post-contrast images will serve as a guide to assess for artifacts by demonstrating the liver and the lesions.\n5. Per-lesion sensitivity, specificity, and accuracy will be assessed for each DW-MRI method. McNemar's test will be used to compare the sensitivity and specificity between methods.\n6. Intra-reader variability will be assessed by each reader will repeating ADC measurements after two months.\n7. Inter-reader variability will be assessed in ADC measurements by comparing matching lesions, based on the recorded lesion location across readers.\n\nSpecific Aims Aim 1: Optimize a reliable, motion-robust DW-MRI of the abdomen in healthy volunteers.\n\nAim 2: Optimize, in healthy volunteers, a high-resolution, low-distortion, motion-robust DW-MRI of the abdomen through the synergistic combination of motion-robust DW-MRI with state-of-the-art low-distortion techniques.\n\nAim 3: Demonstrate excellent image quality and precise quantitative diffusion parameter mapping using the novel DW-MRI methods in a representative and clinically relevant application for the assessment of liver metastases, by evaluating in patients:\n\n3a. Quantitative and subjective image quality metrics. 3b. Precision (test-retest repeatability) of ADC measurements in the liver (including healthy parenchyma and lesions) by novel vs. standard DW-MRI methods."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Abdominal Imaging"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 80,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Healthy Volunteers",
+                    "interventionNames": [
+                        "Device: Diffusion Weighted Magnetic Resonance Imaging"
+                    ]
+                },
+                {
+                    "label": "Known Liver Metastases",
+                    "interventionNames": [
+                        "Device: Diffusion Weighted Magnetic Resonance Imaging"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Diffusion Weighted Magnetic Resonance Imaging",
+                    "description": "Diffusion-weighted (DW)-MRI has a unique ability to probe tissue microstructure without the need for ionizing radiation or intravenous contrast agents. DW-MRI of the abdomen is utilized in detection, staging, and treatment surveillance of malignancies, and has shown great promise in various other applications, including for the assessment of fibrosis in the liver, pancreas, kidneys, and other organs.",
+                    "armGroupLabels": [
+                        "Healthy Volunteers",
+                        "Known Liver Metastases"
+                    ],
+                    "otherNames": [
+                        "DW-MRI"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Squared difference between each pair of repeated ADC measurements",
+                    "description": "Compare the repeatability of DW-MRI methods by calculating the squared difference between each pair of repeated apparent diffusion coefficient (ADC) measurements in lesions and healthy tissue, and will model this value including the DW-MRI method as a covariate using Generalized Estimating Equations (GEE).",
+                    "timeFrame": "up to 1.5 hours"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Mean Squared Error of ADC in images from Healthy Volunteers",
+                    "description": "Optimized bh, M1 and M2 parameters in healthy volunteers by minimization of the mean squared error and bias of ADC quantification across the liver.",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Image Quality Score in images from Healthy Volunteers",
+                    "description": "Optimized motion-corrected averaging in healthy volunteers via image quality assessment by three radiologists using a Likert scale, ranging between 0 (worst/non-diagnostic) and 4 (best).",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Signal-to-Noise Ratio (SNR)",
+                    "description": "SNR will be evaluated for each DW-MRI dataset, using an expectation-maximization method, accounting for parallel imaging, spatially varying noise, and magnitude operation",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Cross-correlation coefficient (CCC) of images",
+                    "description": "To assess image distortions in DW-MRI, the cross-correlation coefficient (CCC) will be used to assess alignment between each of the DW-MRI datasets and the reference T2-weighted acquisition.",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Overall Image Quality Score",
+                    "description": "Each DW-MRI reconstruction will be evaluated by three radiologists using a Likert scale between 0 (worst/non-diagnostic) and 4 (best) for several criteria: motion artifacts, spatial resolution, distortions, apparent SNR, and overall image quality. The post-contrast images will serve as a guide to assess for artifacts by demonstrating the liver and the lesions.",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Sensitivity: Number of True Positive Assessments divided by Number of All Positive Assessments",
+                    "description": "Per-lesion sensitivity will be assessed for each DW-MRI method. McNemar's test will be used to compare the sensitivity and specificity between methods.",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Specificity: Number of True Negative Assessments divided by Number of All Negative Assessments",
+                    "description": "Per-lesion specificity will be assessed for each DW-MRI method. McNemar's test will be used to compare the sensitivity and specificity between methods.",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Accuracy: Number of Correct Assessments divided by Number of All Assessments",
+                    "description": "Per-lesion accuracy will be assessed for each DW-MRI method. McNemar's test will be used to compare the sensitivity and specificity between methods.",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "Repeat ADC Measurements to Assess Intra-Reader Variability",
+                    "description": "Intra-reader variability will be assessed by each reader with repeating ADC measurements after two months",
+                    "timeFrame": "up to 1.5 hours"
+                },
+                {
+                    "measure": "ACD Measures For Each Reader to assess Inter-Reader Variability",
+                    "description": "Inter-reader variability will be assessed in ADC measurements by comparing matching lesions, based on the recorded lesion location across readers.",
+                    "timeFrame": "up to 1.5 hours"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria for Healthy Volunteers:\n\n* 18 years of age or older\n\nExclusion Criteria for Healthy Volunteers:\n\n* Patients with contraindication to MRI (e.g. pacemaker, contraindicated metallic implants, claustrophobia, etc)\n* Pregnant or trying to become pregnant (as determined by self-report during MRI safety screening)\n\nInclusion Criteria for Patients:\n\n* 18 years of age or older\n* Radiologically visible solid tumor liver metastasis:\n\n  * At least one metastatic liver lesion must be a minimum of 1 cm in longest diameter\n  * And must not have been treated with locoregional therapies, such as ablation or radiation.\n\nExclusion Criteria for Patients:\n\n* Patients with contraindication to MRI (e.g. pacemaker, contraindicated metallic implants, claustrophobia, etc)\n* Patients with known contraindication to GBCA such as severe kidney disease or previously documented GFR \\< 30 ml/min/1.73 m2\n* Patients requiring intravenous (IV) conscious sedation for imaging are not eligible; patients requiring mild, oral anxiolytics for the MRI will be allowed to participate as long as the following criteria are met:\n\n  * The subject has their own prescription for the medication.\n  * The informed consent process is conducted prior to the self-administration of this medication\n  * They come to the research visit with a driver\n* Pregnant or trying to become pregnant (as determined by self-report during MRI safety screening)\n* Stent in bile ducts\n* Partial hepatectomy",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Healthy volunteers and people with known liver metastases that are 18 years or older.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Gemma Gliori",
+                    "role": "CONTACT",
+                    "phone": "(608) 262-7269",
+                    "email": "ggliori@uwhealth.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Diego Hernando, PhD",
+                    "affiliation": "University of Wisconsin, Madison",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Wisconsin School of Medicine and Public Health",
+                    "status": "RECRUITING",
+                    "city": "Madison",
+                    "state": "Wisconsin",
+                    "zip": "53792",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 43.07305,
+                        "lon": -89.40123
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M22554",
+                    "name": "Pancrelipase",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13114",
+                    "name": "Pancreatin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11110",
+                    "name": "Liver Extracts",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

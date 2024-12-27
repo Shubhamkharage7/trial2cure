@@ -1,0 +1,792 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06349642",
+            "orgStudyIdInfo": {
+                "id": "MC230901"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "23-008413",
+                    "type": "OTHER",
+                    "domain": "Mayo Clinic Institutional Review Board"
+                },
+                {
+                    "id": "NCI-2024-02979",
+                    "type": "REGISTRY",
+                    "domain": "CTRP (Clinical Trials Reporting Program)"
+                }
+            ],
+            "organization": {
+                "fullName": "Mayo Clinic",
+                "class": "OTHER"
+            },
+            "briefTitle": "Predicting Response to Immune Checkpoint Inhibitors Across Solid Tumors Using a Live Tumor Diagnostic Platform",
+            "officialTitle": "Observational Basket Study to Predict Response to Immune Checkpoint Inhibitors Across Solid Tumors Using a Live Tumor Diagnostic Platform",
+            "acronym": "CYBRID-04",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "predicting-response-to-immune-checkpoint-inhibitors-across-solid-tumors-using-a-live-tumor-diagnostic-platform"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-04-24",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-05",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-05",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-01",
+            "studyFirstSubmitQcDate": "2024-04-01",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-05",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-08",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Mayo Clinic",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The primary purpose of this study is to determine the sensitivity of CYBRID Score for predicting in-vivo clinical response based on surgical response or RECIST 1.1 for neoadjuvant and locally advanced/metastatic patients, respectively. The secondary purposes is to determine the sensitivity of the CYBRID Score for predicting in-vivo clinical response based on surgical response or RECIST 1.1 for neoadjuvant and locally advanced/metastatic patients, respectively."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Early Stage Triple-Negative Breast Carcinoma",
+                "Locally Advanced Bladder Urothelial Carcinoma",
+                "Locally Advanced Cervical Carcinoma",
+                "Locally Advanced Clear Cell Renal Cell Carcinoma",
+                "Locally Advanced Colorectal Carcinoma",
+                "Locally Advanced Endometrial Carcinoma",
+                "Locally Advanced Esophageal Carcinoma",
+                "Locally Advanced Liver Carcinoma",
+                "Locally Advanced Lung Non-Small Cell Carcinoma",
+                "Locally Advanced Malignant Skin Neoplasm",
+                "Locally Advanced Triple-Negative Breast Carcinoma",
+                "Metastatic Bladder Urothelial Carcinoma",
+                "Metastatic Cervical Carcinoma",
+                "Metastatic Clear Cell Renal Cell Carcinoma",
+                "Metastatic Colorectal Carcinoma",
+                "Metastatic Endometrial Carcinoma",
+                "Metastatic Esophageal Carcinoma",
+                "Metastatic Liver Carcinoma",
+                "Metastatic Lung Non-Small Cell Carcinoma",
+                "Metastatic Malignant Skin Neoplasm",
+                "Metastatic Malignant Solid Neoplasm",
+                "Metastatic Triple-Negative Breast Carcinoma",
+                "Resectable Bladder Urothelial Carcinoma",
+                "Resectable Colorectal Carcinoma",
+                "Resectable Lung Non-Small Cell Carcinoma",
+                "Resectable Malignant Liver Neoplasm",
+                "Resectable Skin Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Specimens will only be retained for future research if participant grants permission. Research specimen collection kits for optional blood samples will be created and managed by the Mayo Clinic Biospecimen Accessioning and Processing lab. Research tissue samples will be collected at the time of the patient's standard of care biopsy, or if the standard of care biopsy has already occurred then a research only biopsy will be scheduled."
+            },
+            "enrollmentInfo": {
+                "count": 324,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Metastatic Cohort",
+                    "description": "Research tissue samples will be collected at the time of the patient's standard of care biopsy, or if the standard of care biopsy has already occurred then a research only biopsy will be scheduled.",
+                    "interventionNames": [
+                        "Procedure: Biospecimen Collection",
+                        "Procedure: Tissue Collection"
+                    ]
+                },
+                {
+                    "label": "Neoadjuvant Cohort",
+                    "description": "Research tissue samples will be collected at the time of the patient's standard of care biopsy, or if the standard of care biopsy has already occurred then a research only biopsy will be scheduled. Neoadjuvant patients that consent to the optional surgical tissue collection will have an additional research tissue collection at the time of surgery.",
+                    "interventionNames": [
+                        "Procedure: Biospecimen Collection",
+                        "Procedure: Tissue Collection"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biospecimen Collection",
+                    "description": "Undergo blood draw; optional blood specimens for banking will be collected prior to biopsy.",
+                    "armGroupLabels": [
+                        "Metastatic Cohort",
+                        "Neoadjuvant Cohort"
+                    ],
+                    "otherNames": [
+                        "Blood Draw",
+                        "Specimen Collection"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Tissue Collection",
+                    "description": "Tissue specimen will be collected at the time of biopsy",
+                    "armGroupLabels": [
+                        "Metastatic Cohort",
+                        "Neoadjuvant Cohort"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Accuracy of cytoplasmic hybrid (Cybrid) Score for predicting in-vivo clinical response",
+                    "description": "Assessed based on Response Evaluation Criteria In Solid Tumors (RECIST) score best response or pathological complete response to checkpoint inhibitor (CPI) therapy.",
+                    "timeFrame": "Up to 3 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Subjects suspected of or diagnosed with Stage IV/metastatic or patients receiving neoadjuvant CPI for resectable early stage of solid malignancies:\n\n  * Lung: Non-small cell lung cancer (NSCLC)\n  * Kidney: Clear Cell Renal Cell Carcinoma (ccRCC)\n  * Bladder: Urothelial Carcinoma (UC)\n  * Skin: Cutaneous Malignancy, excluding Uveal Melanoma\n  * Breast Cancer: Triple negative breast cancer (TNBC)\n  * Liver and Esophageal cancers\n  * Colon cancer: Mismatch repair deficient (dMMR) colorectal cancer (CRC) only\n  * All tumor types with high tumor mutational burden (TMB_ or are microsatellite instability high (MSI-H)Mismatch repair deficient (dMMR) tumors\n  * Cervical and endometrial cancer\n* LOCALLY ADVANCED/METASTATIC PATIENTS: measurable disease as defined per protocol\n\n  * NOTE: Tumor lesions in a previously irradiated area are not considered measurable disease; Disease that is measurable by physical examination only is not eligible.\n* Eligible based on investigator discretion to receive CPI monotherapy or combination therapy (e.g. combining two CPIs such as anti-PD-1 plus anti-CTLA-4) or CPI therapy in combination with chemotherapy or genome-targeted therapy.\n\n  * Subjects must be treatment-na\u00efve at the time of biopsy if they are newly diagnosed\n  * Subjects who are Stage I, II, or III and have progressed to metastatic cannot have received any anti-cancer treatment for at least 2-4 weeks (depending upon the washout period of prior anti-cancer treatment) prior to biopsy as per the agents used.\n  * Subjects with a confirmed diagnosis who have previously undergone a standard of care (SOC) biopsy must be willing to undergo a separate biopsy procedure solely for the purposes of this study.\n* Eastern Cooperative Oncology Group (ECOG) Performance Status (PS) 0, 1 or 2\n* Negative pregnancy test done \u22647 days prior to enrollment, for persons of childbearing potential only\n* Female subjects must not be pregnant or breastfeeding\n* Female subjects must use appropriate methods of contraception when applicable\n* Clinically able, at investigator discretion, to undergo extra core needle biopsy passes during their biopsy from a tumor site that yields a biopsy of at least 10 mm in length\n* Subjects with a known secondary cancer diagnosis are eligible to participate if participation does not interfere with systemic anti-cancer standard of care treatment for primary diagnosis\n* Able to provide written informed consent\n\nExclusion Criteria:\n\n* Pregnant women because this study involves a greater than minimal risk procedure (study biopsy)\n* Co-morbid systemic illnesses or other severe concurrent disease which, in the judgment of the investigator, would make the patient inappropriate for entry into this study or interfere significantly with the proper assessment of safety for the biopsy\n* Immunocompromised patients and patients known to be HIV positive and currently receiving antiretroviral therapy\n\n  * NOTE: Patients known to be HIV positive, but without clinical evidence of an immunocompromised state, are eligible for this trial\n* Uncontrolled intercurrent illness including, but not limited to:\n\n  * ongoing or active infection\n  * psychiatric illness/social situations that would limit compliance with study requirements\n* Receiving any investigational agent which would be considered as a treatment for the primary neoplasm",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Patients at Mayo Clinic in Rochester who are suspected of or diagnosed with Stage IV/metastatic cancer or receiving neoadjuvant (pre-operative) checkpoint inhibitors (CPI) for a resectable early stage of solid malignancies",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Clinical Trials Referral Office",
+                    "role": "CONTACT",
+                    "phone": "855-776-0015",
+                    "email": "mayocliniccancerstudies@mayo.edu"
+                },
+                {
+                    "name": "Morgan Weidner",
+                    "role": "CONTACT",
+                    "phone": "904-953-2000",
+                    "email": "Weidner.Morgan@mayo.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Dev Mukhopadhyay, Ph.D.",
+                    "affiliation": "Mayo Clinic",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Mayo Clinic in Florida",
+                    "status": "RECRUITING",
+                    "city": "Jacksonville",
+                    "state": "Florida",
+                    "zip": "32224",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Trials Referral Office",
+                            "role": "CONTACT",
+                            "phone": "855-776-0015",
+                            "email": "mayocliniccancerstudies@mayo.edu"
+                        },
+                        {
+                            "name": "Dev Mukhopadhyay, Ph.D.",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.33218,
+                        "lon": -81.65565
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "Mayo Clinic Clinical Trials",
+                    "url": "https://www.mayo.edu/research/clinical-trials"
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000002292",
+                    "term": "Carcinoma, Renal Cell"
+                },
+                {
+                    "id": "D000002295",
+                    "term": "Carcinoma, Transitional Cell"
+                },
+                {
+                    "id": "D000001943",
+                    "term": "Breast Neoplasms"
+                },
+                {
+                    "id": "D000015179",
+                    "term": "Colorectal Neoplasms"
+                },
+                {
+                    "id": "D000016889",
+                    "term": "Endometrial Neoplasms"
+                },
+                {
+                    "id": "D000004938",
+                    "term": "Esophageal Neoplasms"
+                },
+                {
+                    "id": "D000002289",
+                    "term": "Carcinoma, Non-Small-Cell Lung"
+                },
+                {
+                    "id": "D000008113",
+                    "term": "Liver Neoplasms"
+                },
+                {
+                    "id": "D000012878",
+                    "term": "Skin Neoplasms"
+                },
+                {
+                    "id": "D000006528",
+                    "term": "Carcinoma, Hepatocellular"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000007680",
+                    "term": "Kidney Neoplasms"
+                },
+                {
+                    "id": "D000014571",
+                    "term": "Urologic Neoplasms"
+                },
+                {
+                    "id": "D000014565",
+                    "term": "Urogenital Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                },
+                {
+                    "id": "D000001941",
+                    "term": "Breast Diseases"
+                },
+                {
+                    "id": "D000012871",
+                    "term": "Skin Diseases"
+                },
+                {
+                    "id": "D000007414",
+                    "term": "Intestinal Neoplasms"
+                },
+                {
+                    "id": "D000005770",
+                    "term": "Gastrointestinal Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000005767",
+                    "term": "Gastrointestinal Diseases"
+                },
+                {
+                    "id": "D000003108",
+                    "term": "Colonic Diseases"
+                },
+                {
+                    "id": "D000007410",
+                    "term": "Intestinal Diseases"
+                },
+                {
+                    "id": "D000012002",
+                    "term": "Rectal Diseases"
+                },
+                {
+                    "id": "D000014594",
+                    "term": "Uterine Neoplasms"
+                },
+                {
+                    "id": "D000005833",
+                    "term": "Genital Neoplasms, Female"
+                },
+                {
+                    "id": "D000014591",
+                    "term": "Uterine Diseases"
+                },
+                {
+                    "id": "D000005831",
+                    "term": "Genital Diseases, Female"
+                },
+                {
+                    "id": "D000091662",
+                    "term": "Genital Diseases"
+                },
+                {
+                    "id": "D000006258",
+                    "term": "Head and Neck Neoplasms"
+                },
+                {
+                    "id": "D000004935",
+                    "term": "Esophageal Diseases"
+                },
+                {
+                    "id": "D000002283",
+                    "term": "Carcinoma, Bronchogenic"
+                },
+                {
+                    "id": "D000001984",
+                    "term": "Bronchial Neoplasms"
+                },
+                {
+                    "id": "D000008175",
+                    "term": "Lung Neoplasms"
+                },
+                {
+                    "id": "D000012142",
+                    "term": "Respiratory Tract Neoplasms"
+                },
+                {
+                    "id": "D000013899",
+                    "term": "Thoracic Neoplasms"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5220",
+                    "name": "Breast Neoplasms",
+                    "asFound": "Breast Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5546",
+                    "name": "Carcinoma, Non-Small-Cell Lung",
+                    "asFound": "Lung Non-Small Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9613",
+                    "name": "Carcinoma, Hepatocellular",
+                    "asFound": "Liver Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11113",
+                    "name": "Liver Neoplasms",
+                    "asFound": "Liver Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5551",
+                    "name": "Carcinoma, Transitional Cell",
+                    "asFound": "Urothelial Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15681",
+                    "name": "Skin Neoplasms",
+                    "asFound": "Skin Neoplasms",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M8088",
+                    "name": "Esophageal Neoplasms",
+                    "asFound": "Esophageal Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5548",
+                    "name": "Carcinoma, Renal Cell",
+                    "asFound": "Clear Cell Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17890",
+                    "name": "Colorectal Neoplasms",
+                    "asFound": "Colorectal Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M19235",
+                    "name": "Endometrial Neoplasms",
+                    "asFound": "Endometrial Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10703",
+                    "name": "Kidney Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17320",
+                    "name": "Urologic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17315",
+                    "name": "Urogenital Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5218",
+                    "name": "Breast Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15674",
+                    "name": "Skin Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10448",
+                    "name": "Intestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6336",
+                    "name": "Colonic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10444",
+                    "name": "Intestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14844",
+                    "name": "Rectal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17342",
+                    "name": "Uterine Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8945",
+                    "name": "Genital Neoplasms, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17339",
+                    "name": "Uterine Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8943",
+                    "name": "Genital Diseases, Female",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2876",
+                    "name": "Genital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9348",
+                    "name": "Head and Neck Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8085",
+                    "name": "Esophageal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5540",
+                    "name": "Carcinoma, Bronchogenic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5260",
+                    "name": "Bronchial Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11172",
+                    "name": "Lung Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14979",
+                    "name": "Respiratory Tract Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16658",
+                    "name": "Thoracic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5693",
+                    "name": "Transitional Cell Carcinoma",
+                    "asFound": "Urothelial Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T4906",
+                    "name": "Renal Cell Carcinoma",
+                    "asFound": "Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T1341",
+                    "name": "Clear Cell Renal Cell Carcinoma",
+                    "asFound": "Clear Cell Renal Cell Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2141",
+                    "name": "Esophageal Cancer",
+                    "asFound": "Esophageal Carcinoma",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC17",
+                    "name": "Skin and Connective Tissue Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M2342",
+                    "name": "Immune Checkpoint Inhibitors",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

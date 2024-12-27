@@ -1,0 +1,333 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06100185",
+            "orgStudyIdInfo": {
+                "id": "WNTI-2022"
+            },
+            "organization": {
+                "fullName": "Uniformed Services University of the Health Sciences",
+                "class": "FED"
+            },
+            "briefTitle": "Wearable tES for Insomnia",
+            "officialTitle": "Wearable Neurotechnology for Treatment of Insomnia (tES)",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "wearable-tes-for-insomnia"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-10-25",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-09",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-28",
+            "studyFirstSubmitQcDate": "2023-10-20",
+            "studyFirstPostDateStruct": {
+                "date": "2023-10-25",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Uniformed Services University of the Health Sciences",
+                "class": "FED"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to investigate the ability of a translational device, Teledyne PeakSleep, to reduce sleep onset latency, reduce time awake after sleep onset and improve restfulness and the subjective benefits of sleep in a patient population with insomnia via transcranial direct current stimulation (tDCS) applied to frontal lobe circuits.",
+            "detailedDescription": "The purpose of this research study is to investigate a new, targeted intervention to improve outcomes for those suffering from insomnia by attempting to enhance the brain rhythms within the frontal lobe implicated in slow wave generation during the transition from wake to sleep. The device applies a pulsed trapezoidal direct current waveform at 0.75 Hz to the frontal areas of the brain immediately prior to attempted sleep onset to facilitate the transition to sleep.\n\nDuring this cross-over trial, patients will be asked to use a PeakSleep wearable neurotechnology prototype headband, which delivers \\<14 minutes of frontal tDCS over a 30-minute period, immediately before trying to fall asleep. Using an active stimulation versus sham paradigm, we will compare actigraphy data, physiological data, and subjective sleep measures against a pre-treatment baseline in the same patient.\n\nParticipants will complete five in-person visits over the course of the 8-week study. The first visit includes the collection of baseline self-reported data and actigraphy device training. All subsequent visits involve headset training, downloading PeakSleep and actigraphy data, repeating self-reported data measures, and reporting user experience with the device. Participants will not perform any formal sleep study visits and instead provide daily actigraphy data via a FitBit and EEG data when wearing PeakSleep in their own home."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Insomnia"
+            ],
+            "keywords": [
+                "tES",
+                "Insomnia",
+                "Sleep"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 60,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Stimulation",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Short duration repetitive (SDR-) tES with a frequency of 0.75Hz",
+                    "interventionNames": [
+                        "Device: PeakSleep"
+                    ]
+                },
+                {
+                    "label": "Sham Condition",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "Sham condition using a low current amplitude at 25 Hz.",
+                    "interventionNames": [
+                        "Device: Sham"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "PeakSleep",
+                    "description": "The PeakSleepTM is a constant current device which delivers stable stimulation as a function of the impedance measured across the electrodes (e.g. it varies voltage to produce a steady current). The device gradually ramps up the current as the impedance decreases during the stimulation session. The device uses stimulation amplitudes in the range of 100uA to 500uA at each electrode pair. Devices will be configured to deliver 100 stimulation trains over 30 minutes where each train is 6 pulses of 0.75Hz trapezoidal stimulation (each train lasts 8 seconds). The inter-train interval is 10 seconds leading to a total stimulation time of \\<14 minutes with a maximum dose of 1mA (500uA per electrode pair).",
+                    "armGroupLabels": [
+                        "Stimulation"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Sham",
+                    "description": "Sham is delivered with the same devices which are alternatively configured to deliver a trivially low amplitude (e.g. 100uA) waveform of a different frequency (e.g. 25 Hz) for the same treatment duration. Beyond differences in amplitude and frequency of stimulation, devices will be operated in exactly the same way during sham treatment.",
+                    "armGroupLabels": [
+                        "Sham Condition"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Sleep Onset Latency Change from Baseline",
+                    "description": "FitBit actigraphy data will be collected to measure daily sleep onset latency (SOL) for two weeks at baseline (weeks 1-2, averaged) and compared to that of the study period (weeks 3-8).",
+                    "timeFrame": "8 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "ISI Change from Baseline",
+                    "description": "The Insomnia Severity Index (score from 0-28, higher is worse insomnia) will capture sleep habits and insomnia symptomatology during experimental sessions. Compared across pre-screen and 5 visit blocks.",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "PHQ-9 Change from Baseline",
+                    "description": "The Patient Health Questionnaire (PHQ-9, score from 0-27, higher is worse depression) will assess psychiatric conditions at visits 1, 3, and 5.",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "STAI Change from Baseline",
+                    "description": "The State Trait Anxiety Inventory questionnaire (STAI, score from 20-80, higher is worse anxiety) will assess patient anxiety at visits 1, 3, and 5.",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Total Sleep Time",
+                    "description": "FitBit actigraphy data will be collected to measure total sleep time (TST) and time awake after sleep onset (WASO) for two weeks at baseline. During weeks 1-2.",
+                    "timeFrame": "Baseline"
+                },
+                {
+                    "measure": "Total Sleep Time Change from Baseline",
+                    "description": "FitBit actigraphy data will be collected to measure total sleep time (TST) and time awake after sleep onset (WASO) during the first treatment block, for two weeks. During weeks 3-4..",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "EEG spectral changes from baseline (Delta power increase)",
+                    "description": "The PeakSleep device contains 3 EEG sensors (approximately Fp1, Fpz, Fp2) which will collect EEG data for investigation of neural activity for both stimulation and sham conditions. Will occur nightly for two weeks during Treatment 1 (i.e., weeks 3-4).",
+                    "timeFrame": "8 weeks"
+                },
+                {
+                    "measure": "Heart rate variability change from baseline",
+                    "description": "For two weeks during treatment 1, heart rate will be collected daily via FitBit. Averages will be averages compared across treatment blocks (baseline, washout, treatment 1, treatment 2)",
+                    "timeFrame": "8 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosed with sleep onset insomnia\n* Self report insomnia diagnosis (ISI score \u226515)\n* 18-70 years old that are Tricare eligible\n* untreated for insomnia with pharmacotherapy (if treated; they must stop treatment for at least 2 weeks prior to enrollment) \\*treatment with nonpharmacotherapy (e.g. CBT) is allowable as long as the patient still meets other criteria for inclusion and the treatment was discontinued \\>14 days prior to starting the study\\*\n\nExclusion Criteria:\n\n* Neurological Diagnosis including epileptic seizures; recent, multiple, or severe concussion; traumatic brain injury; stroke; multiple sclerosis; or cognitive impairment with or without the use of prescription medication or requirement for hospitalization.\n* Unstable psychiatric disorder requiring weekly clinical visits or medication changes within the last 4 weeks.\n* History of neurodevelopmental disorder such as attention deficit hyperactivity disorder, learning disability, or developmental delay\n* Recent inpatient hospitalization for surgery and/or illness, ending within the last 6 months.\n* Hearing impairments requiring implanted or external devices for amplification.\n* \\*\\*Pregnant or believes there is a chance of pregnancy\n* Current substance use disorder (addiction) within the past year, not including nicotine\n* Current use of narcotics (opioid based medications for the treatment of pain (OxyContin, Percocet, Vicodin, etc.) with or without a prescription within the last year\n* Change in psychotropic (non sleep related) medications within the last 4 weeks (examples include: benzodiazepines, SSRI/SNRIs, bupropion, gabapentin).\n* Consuming more than 10 alcoholic beverages per week\n* Treatment for drug or alcohol use/abuse within the past 1 year\n* Has sleep disorders that require treatment (e.g. CPAP for OSA), other than insomnia.\n* Problems with motor coordination\n* Cuts, scrapes, ingrown hairs, acne, razor burn, or scar tissue at the electrode sites.\n* Tattoos on the head\n* Non-removable metal anywhere in the body except bridges or fillings\n* Any suicidal attempts within the last 12 months.\n* Any other condition that the investigator believes would prevent completion of the study or put participant at risk\n* Any suicidal ideations or thoughts of self-harm (as measured by the PHQ-9, Item 9) within the last 2 weeks\n\n  * Note: Pregnancy Safety data for tES use in pregnant women is scarce but is reviewed in: Antal, Andrea, et al. \"Low intensity transcranial electric stimulation: safety, ethical, legal regulatory and application guidelines.\" Clinical neurophysiology 128.9 (2017): 1774-1809. The authors cite two case studies of tES use in pregnant women with no impact or safety risk for the mother or fetus when tES was applied to the head at 2mA and 20-30 min per day. The recommendation by the authors is to verbally enquire as to the pregnancy status of the subjects and only deliver tES when the benefit outweighs risk. Here we propose to completely exclude this population if the questionnaire reveals they are pregnant or are trying to become pregnant. In the event that the patient is untruthful regarding their pregnancy status we view the risk as insignificant given these reported studies and the fact that our dose is \\<\u00bc the dose used in them. For this reason we have chosen not to perform a urine test to screen for pregnancy as we view it as an obtrusive and unnecessary step given the risk profile.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Adriana Penafiel, BA",
+                    "role": "CONTACT",
+                    "phone": "(240) 630-1951",
+                    "email": "adriana.penafiel.ctr@usuhs.edu"
+                },
+                {
+                    "name": "Sonja T Skeete, BS",
+                    "role": "CONTACT",
+                    "phone": "(301) 319-4599",
+                    "email": "sonja.t.skeete.ctr@health.mil"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "John K Werner, MD PhD",
+                    "affiliation": "Uniformed Services University of the Health Sciences",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Walter Reed National Military Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Bethesda",
+                    "state": "Maryland",
+                    "zip": "20814",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "John K Werner, MD PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.98067,
+                        "lon": -77.10026
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007319",
+                    "term": "Sleep Initiation and Maintenance Disorders"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000020919",
+                    "term": "Sleep Disorders, Intrinsic"
+                },
+                {
+                    "id": "D000020920",
+                    "term": "Dyssomnias"
+                },
+                {
+                    "id": "D000012893",
+                    "term": "Sleep Wake Disorders"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10356",
+                    "name": "Sleep Initiation and Maintenance Disorders",
+                    "asFound": "Insomnia",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22242",
+                    "name": "Parasomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22654",
+                    "name": "Sleep Disorders, Intrinsic",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22655",
+                    "name": "Dyssomnias",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15696",
+                    "name": "Sleep Wake Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

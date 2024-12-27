@@ -1,0 +1,646 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05622344",
+            "orgStudyIdInfo": {
+                "id": "IRB00281972"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "80NSSC21M0057",
+                    "type": "OTHER_GRANT",
+                    "domain": "NASA"
+                }
+            ],
+            "organization": {
+                "fullName": "Johns Hopkins University",
+                "class": "OTHER"
+            },
+            "briefTitle": "StableEyes With Active Neurofeedback",
+            "officialTitle": "StableEyes With Active Neurophysiological Feedback",
+            "acronym": "SWAN",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "stableeyes-with-active-neurofeedback"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-08-08",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-09-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-09-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-11-11",
+            "studyFirstSubmitQcDate": "2022-11-11",
+            "studyFirstPostDateStruct": {
+                "date": "2022-11-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-09",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-10",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Johns Hopkins University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Aeronautics and Space Administration (NASA)",
+                    "class": "FED"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The investigators have developed a self-administered rehabilitation tool that incrementally guides the user to increase head motion to mitigate motion sickness and enhance postural recovery following centrifugation or unilateral vestibular nerve deafferentation surgery.",
+            "detailedDescription": "The rehabilitation device guides users to perform sinusoidal head rotations, matched to a metronome, about the yaw, pitch, and roll axes (60 sec epochs, 5 minutes per axis, 15 min total). The assessment for each axis consists of the number of completed epochs with each epoch requiring head rotations of a different amplitude. Subjects are instructed to begin with an 'easy' amplitude (i.e. small) and increase or decrease amplitude depending on the subject's perception of motion sickness - which is input from 0 (absent motion sick) to 11 (vomit) using a handheld controller. Video-oculography captures eye and head velocity as well as tracks the number of blinks and saccades, metrics that can indicate worsening nausea."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Vestibular Disorder",
+                "Vestibular Schwannoma",
+                "Space Motion Sickness",
+                "Motion Sickness"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "At each site, one group will receive the control and the second group will receive the experimental treatment (novel rehab device).",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 48,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Traditional VPT JHU",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Subjects that have had their eighth cranial nerve resected will receive traditional vestibular rehabilitation exercises at Johns Hopkins University (JHU) site.",
+                    "interventionNames": [
+                        "Behavioral: Traditional Therapy"
+                    ]
+                },
+                {
+                    "label": "SWAN VPT JHU",
+                    "type": "EXPERIMENTAL",
+                    "description": "Subjects that have had their eighth cranial nerve resected will receive the automated vestibular rehabilitation method",
+                    "interventionNames": [
+                        "Device: SWAN"
+                    ]
+                },
+                {
+                    "label": "SWAN Motion Sick Dayton",
+                    "type": "EXPERIMENTAL",
+                    "description": "Healthy control subjects that meet similar similar physical characteristics of astronauts will receive the automated vestibular rehabilitation method post motion sickness.",
+                    "interventionNames": [
+                        "Device: SWAN"
+                    ]
+                },
+                {
+                    "label": "Traditional Motion Sick Dayton",
+                    "type": "NO_INTERVENTION",
+                    "description": "Typically, the suggestion for treating motion sickness once it has started is to avoid motion. Therefore, healthy control subjects that meet similar similar physical characteristics of astronauts will not receive any post motion sickness treatment."
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Traditional Therapy",
+                    "description": "Exercises that teaches subjects to move their heads while viewing still or moving targets.",
+                    "armGroupLabels": [
+                        "Traditional VPT JHU"
+                    ],
+                    "otherNames": [
+                        "Gaze stability exercises"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "SWAN",
+                    "description": "The SWAN device uses video-oculography to monitor head motion while guiding participants to move their head in yaw, pitch, roll planes for 15 minutes. Feedback is provided regarding frequency and plane of head rotation",
+                    "armGroupLabels": [
+                        "SWAN Motion Sick Dayton",
+                        "SWAN VPT JHU"
+                    ],
+                    "otherNames": [
+                        "StableEyes Training Device with video-oculography"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Motion sickness intensity as assessed by subjective rating",
+                    "description": "Subjective rating of motion sickness intensity from 0 to 10. Zero denotes absent motion sickness while 10 denote vomiting.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Change in Vestibulo-Ocular Reflex (VOR) gain as measured by video-oculography",
+                    "description": "Ratio of eye velocity to head velocity that varies from 0 to 1.2. Normal scores are greater than 0.8.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Number of blinks as measured by video-oculography",
+                    "description": "Increase blinking is correlated with worse motion sickness.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Heart rate as measured by a monitor worn over the forearm",
+                    "description": "Heart rate in beats per minute will be measured using a monitor worn over the forearm.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Timed Up and Go Plus",
+                    "description": "Time measured in seconds for a subject to stand up, step over an obstacle then walk 3M before turning around and sitting down.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Foam Stance - Eyes Open",
+                    "description": "Time in seconds to stand on foam with eyes open. Inability to stand for less than 20 seconds is associated with 3x greater risk for falling.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Foam Stance - Eyes Closed",
+                    "description": "Time in seconds to stand on foam with eyes closed. Inability to stand for less than 20 seconds is associated with 3x greater risk for falling.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Foam Stance - Eyes Open with head motion",
+                    "description": "Time to seconds to stand on foam with eyes open while moving head up and down. Inability to stand for less than 20 seconds is associated with 3x greater risk for falling.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Foam Stance - Eyes Closed with head motion",
+                    "description": "Time in seconds to stand on foam with eyes closed while moving head up and down. Inability to stand for less than 20 seconds is associated with 3x greater risk for falling.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Gait speed",
+                    "description": "Velocity to walk 6m within a 10m marked distance, measured in meters/second. Normative data exists based on decade of age.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Gait endurance",
+                    "description": "Distance walked in 2 minutes, measure in meters.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Vertical and torsional alignment nulling test (VAN and TAN)",
+                    "description": "Vertical alignment nulling and torsional alignment nulling ask subjects to adjust lines to there perceived horizontal. Measured in degrees.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Rod and Frame Test",
+                    "description": "Subjects adjust a virtual line to their perceived vertical, measured in degrees.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Rod and Disk Test",
+                    "description": "Subjects adjust a virtual line to their perceived vertical, measured in degrees.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Subjective Visual Vertical",
+                    "description": "Subjects adjust a virtual line to their perceived vertical, measured in degrees.",
+                    "timeFrame": "Daily for up to 4 weeks"
+                },
+                {
+                    "measure": "Change in Daily Activity as assessed by an activity monitor",
+                    "description": "Subjects wear an activity monitor on their wrist Data includes daily distance walked .",
+                    "timeFrame": "Daily for up to 4 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Provision of signed and dated informed consent form\n2. Stated willingness to comply with all study procedures and availability for the duration of the study\n3. In good general health as evidenced by medical history or diagnosed with unilateral vestibular schwannoma\n4. Willing to adhere to the SWAN and/or vestibular rehabilitation regimen\n\nExclusion Criteria:\n\n1. Current use of anti-nausea medication\n2. Presence of cervical spine pathology that limits head motion to \\< 30 degrees in the horizontal or vertical plane (i.e. degenerative disc disease, rheumatoid arthritis)\n3. Any orthopedic pathology that prevents walking or standing independently (i.e. recent surgery)\n4. Legal blindness (20/200 or worse visual acuity)\n5. Treatment using a motion sickness investigational drug or other motion sickness behavioral intervention within 30 days",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Michael Schubert, PhD",
+                    "role": "CONTACT",
+                    "phone": "4108427403",
+                    "email": "mschube1@jhmi.edu"
+                },
+                {
+                    "name": "Matthew Stewart, MD PhD",
+                    "role": "CONTACT",
+                    "phone": "4109553492",
+                    "email": "cstewa16@jhmi.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Matthew Stewart, MD PhD",
+                    "affiliation": "Johns Hopkins University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Johns Hopkins University",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21287",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Michael C Schubert, PhD",
+                            "role": "CONTACT",
+                            "phone": "410-955-3403",
+                            "email": "mschube1@jhmi.edu"
+                        },
+                        {
+                            "name": "Colin R Grove, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "Naval Medical Research Unit",
+                    "status": "NOT_YET_RECRUITING",
+                    "city": "Dayton",
+                    "state": "Ohio",
+                    "zip": "45402",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Rich Folga",
+                            "role": "CONTACT",
+                            "email": "richard.folga.2@us.af.mil"
+                        },
+                        {
+                            "name": "Darcy Gallimore",
+                            "role": "CONTACT",
+                            "email": "darci.gallimore.ctr@us.af.mil"
+                        },
+                        {
+                            "name": "Richard Folga",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.75895,
+                        "lon": -84.19161
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "36075099",
+                    "type": "BACKGROUND",
+                    "citation": "Todd CJ, Schubert MC, Rinaudo CN, Migliaccio AA. Unidirectional Vertical Vestibuloocular Reflex Adaptation in Humans Using 1D and 2D Scenes. Otol Neurotol. 2022 Oct 1;43(9):e1039-e1044. doi: 10.1097/MAO.0000000000003684. Epub 2022 Sep 9."
+                }
+            ],
+            "seeAlsoLinks": [
+                {
+                    "label": "Patent for the rehabilitation device",
+                    "url": "https://patents.google.com/patent/US9782068B2/en"
+                },
+                {
+                    "label": "Patent for the integrated video-oculography and rehabilitation device",
+                    "url": "https://patents.google.com/patent/US10136810B2/en?q=migliaccio&inventor=schubert&oq=migliaccio+and+schubert+"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Currently, we have no plan to share data with other researchers"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009442",
+                    "term": "Neurilemmoma"
+                },
+                {
+                    "id": "D000009464",
+                    "term": "Neuroma, Acoustic"
+                },
+                {
+                    "id": "D000015837",
+                    "term": "Vestibular Diseases"
+                },
+                {
+                    "id": "D000009041",
+                    "term": "Motion Sickness"
+                },
+                {
+                    "id": "D000018489",
+                    "term": "Space Motion Sickness"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018358",
+                    "term": "Neuroendocrine Tumors"
+                },
+                {
+                    "id": "D000017599",
+                    "term": "Neuroectodermal Tumors"
+                },
+                {
+                    "id": "D000009373",
+                    "term": "Neoplasms, Germ Cell and Embryonal"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009463",
+                    "term": "Neuroma"
+                },
+                {
+                    "id": "D000018317",
+                    "term": "Nerve Sheath Neoplasms"
+                },
+                {
+                    "id": "D000009380",
+                    "term": "Neoplasms, Nerve Tissue"
+                },
+                {
+                    "id": "D000003390",
+                    "term": "Cranial Nerve Neoplasms"
+                },
+                {
+                    "id": "D000009423",
+                    "term": "Nervous System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000010524",
+                    "term": "Peripheral Nervous System Neoplasms"
+                },
+                {
+                    "id": "D000000160",
+                    "term": "Vestibulocochlear Nerve Diseases"
+                },
+                {
+                    "id": "D000012181",
+                    "term": "Retrocochlear Diseases"
+                },
+                {
+                    "id": "D000004427",
+                    "term": "Ear Diseases"
+                },
+                {
+                    "id": "D000010038",
+                    "term": "Otorhinolaryngologic Diseases"
+                },
+                {
+                    "id": "D000010039",
+                    "term": "Otorhinolaryngologic Neoplasms"
+                },
+                {
+                    "id": "D000003389",
+                    "term": "Cranial Nerve Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000007759",
+                    "term": "Labyrinth Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12386",
+                    "name": "Neurilemmoma",
+                    "asFound": "Schwannoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12407",
+                    "name": "Neuroma, Acoustic",
+                    "asFound": "Vestibular Schwannoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M18387",
+                    "name": "Vestibular Diseases",
+                    "asFound": "Vestibular Disorder",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12002",
+                    "name": "Motion Sickness",
+                    "asFound": "Motion Sickness",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M20593",
+                    "name": "Space Motion Sickness",
+                    "asFound": "Space Motion Sickness",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12406",
+                    "name": "Neuroma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20495",
+                    "name": "Neuroendocrine Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19845",
+                    "name": "Neuroectodermal Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20388",
+                    "name": "Neuroectodermal Tumors, Primitive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12318",
+                    "name": "Neoplasms, Germ Cell and Embryonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20461",
+                    "name": "Nerve Sheath Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12325",
+                    "name": "Neoplasms, Nerve Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12367",
+                    "name": "Nervous System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13433",
+                    "name": "Peripheral Nervous System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3519",
+                    "name": "Vestibulocochlear Nerve Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15016",
+                    "name": "Retrocochlear Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7601",
+                    "name": "Ear Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12961",
+                    "name": "Otorhinolaryngologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12962",
+                    "name": "Otorhinolaryngologic Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6605",
+                    "name": "Cranial Nerve Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10779",
+                    "name": "Labyrinth Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10782",
+                    "name": "Labyrinthitis",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T5139",
+                    "name": "Schwannoma",
+                    "asFound": "Schwannoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T107",
+                    "name": "Acoustic Neuroma",
+                    "asFound": "Vestibular Schwannoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T4091",
+                    "name": "Neuroendocrine Tumor",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4092",
+                    "name": "Neuroepithelioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC09",
+                    "name": "Ear, Nose, and Throat Diseases"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

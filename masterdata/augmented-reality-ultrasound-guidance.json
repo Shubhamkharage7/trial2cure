@@ -1,0 +1,193 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05964439",
+            "orgStudyIdInfo": {
+                "id": "Pro00016558"
+            },
+            "organization": {
+                "fullName": "Children's National Research Institute",
+                "class": "OTHER"
+            },
+            "briefTitle": "Augmented Reality Ultrasound Guidance",
+            "officialTitle": "HoloUS: Augmented Reality Visualization of Live Ultrasound Images Using HoloLens for Ultrasound-guided Procedures",
+            "acronym": "HoloUS",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "augmented-reality-ultrasound-guidance"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-03-11",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-07-18",
+            "studyFirstSubmitQcDate": "2023-07-25",
+            "studyFirstPostDateStruct": {
+                "date": "2023-07-28",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Children's National Research Institute",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Many medical procedures are done with the aid of ultrasound imaging, but they remain difficult to learn and perform. This study will use augmented reality technology for making these procedures potentially more intuitive, easier, more precise, and safer.",
+            "detailedDescription": "Minimally invasive ultrasound-guided procedures are a mainstay of modern medicine and the number of such procedures continues to grow. Safe, efficient, and precise execution of these procedures requires a clear visualization of the target anatomy and the interventional device (e.g., a needle). While sustained advances in ultrasound technology have led to greatly enhanced visualization of the anatomy and the needle with high image quality, hand-eye coordination of the practitioner continues to be a challenge. In order to properly position the interventional device, the practitioner must alternate their attention between observing the patient, advancing the needle, and viewing the ultrasound image on a separate screen. This study's long-term goal is to develop an advanced visualization platform for ultrasound-guided procedures to overcome this challenge by greatly simplifying hand-eye coordination. The proposed platform will be developed using the latest advances in the augmented reality (AR) technology. Through wearable, see-through AR glasses, the platform will create a virtual display placed in the practitioner's field of view to show live ultrasound images, registered with the transducer and the patient, in the form of a hologram. The investigative team hypothesizes that such visualization will reduce the time of procedure by 20%. This study is aimed providing the practitioner a more intuitive and efficient platform to perform ultrasound-guided procedures and demonstrating improved efficiency through user studies."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Paracentesis"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 44,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HoloUS app for ultrasound visualization",
+                    "type": "EXPERIMENTAL",
+                    "description": "This is a single-arm study. Each study participant will evaluate HoloUS app and serve as their own control.",
+                    "interventionNames": [
+                        "Device: HoloUS app for ultrasound visualization"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "HoloUS app for ultrasound visualization",
+                    "description": "Study participants will wear HoloLens see-through glasses and use the HoloUS app for ultrasound visualization in the conduct of a vascular access procedure in a phantom.",
+                    "armGroupLabels": [
+                        "HoloUS app for ultrasound visualization"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Task completion time",
+                    "description": "This outcome measure examines if the use of augmented reality leads to faster procedure.",
+                    "timeFrame": "The total time from when the needle first punctured the surface of the phantom to when fluid was successfully aspirated into the syringe, or 10 minutes, whichever occurred first"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of attempts",
+                    "description": "Number of times the user needed to successfully withdraw fluid from the vessel.",
+                    "timeFrame": "From when the needle first punctured the surface of the phantom to when fluid was successfully aspirated into the syringe, or 10 minutes, whichever occurred first."
+                },
+                {
+                    "measure": "Number of head adjustments",
+                    "description": "Number of times the user moved or turned their head from its baseline position at the start of the procedure until task completion.",
+                    "timeFrame": "From when the needle first punctured the surface of the phantom to when fluid was successfully aspirated into the syringe, or 10 minutes, whichever occurred first."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Employees of the institution over 18 years.\n* Volunteers participants who provide oral consent.\n* For expert group, participants who have been trained to perform and are comfortable with point-of-care ultrasound procedures (e.g., residents, fellows, attendings, vascular access PAs/NPs).\n\nExclusion Criteria:\n\n* Any previous experience or training using the current version of the HoloUS app on the HoloLens.",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "100 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Raj Shekhar, PhD",
+                    "role": "CONTACT",
+                    "phone": "202-476-1201",
+                    "email": "rshekhar@childrensnational.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Raj Shekhar, PhD",
+                    "affiliation": "Children's National Research Institute",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Children's National Hospital",
+                    "status": "RECRUITING",
+                    "city": "Washington",
+                    "state": "District of Columbia",
+                    "zip": "20010",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Raj Shekhar, PhD",
+                            "role": "CONTACT"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.89511,
+                        "lon": -77.03637
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

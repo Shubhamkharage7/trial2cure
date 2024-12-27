@@ -1,0 +1,518 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT03322995",
+            "orgStudyIdInfo": {
+                "id": "PRO00030656"
+            },
+            "organization": {
+                "fullName": "Medical College of Wisconsin",
+                "class": "OTHER"
+            },
+            "briefTitle": "Pancreatic Cancer Adaptive Neoadjuvant Chemotherapy Trial",
+            "officialTitle": "Adaptive Modification of Neoadjuvant Therapy Based on Clinical Response in Patients With Localized Pancreatic Cancer",
+            "acronym": "PANC",
+            "therapeuticArea": [
+                "Oncology and Hematology"
+            ],
+            "study": "pancreatic-cancer-adaptive-neoadjuvant-chemotherapy-trial"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2018-06-21",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-08-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-08-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2017-10-24",
+            "studyFirstSubmitQcDate": "2017-10-24",
+            "studyFirstPostDateStruct": {
+                "date": "2017-10-26",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-17",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kathleen Christians",
+                "investigatorTitle": "Professor",
+                "investigatorAffiliation": "Medical College of Wisconsin"
+            },
+            "leadSponsor": {
+                "name": "Medical College of Wisconsin",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is an open-label, phase II study in patients with resectable and borderline resectable pancreas cancer.",
+            "detailedDescription": "Patients will receive standard chemotherapy and chemoradiation for pancreatic cancer. The study intervention is an adaptive approach which modifies systemic therapy based on clinical assessments of treatment response. Treatment response will be assessed by imaging (CT scan), biomarker \\[serum cancer antigen (CA)19-9\\] and performance status assessment \\[short physical performance battery (SPPB) and Center for Epidemiologic Studies Depression Scale (CES-D) evaluations\\] at the first restaging assessment.\n\nTreatment response will be categorized as:\n\n1. response;\n2. stable disease;\n3. local disease progression;\n4. metastatic disease progression.\n\nAfter the first restaging evaluation, patients who demonstrate:\n\n1. a response will be maintained on the same chemotherapy;\n2. stable disease will be changed to a defined alternative chemotherapy or molecular profile-directed therapy;\n3. local progression will receive chemoradiation;\n4. metastatic disease will be removed from the trial.\n\nPatients who complete four months of chemotherapy, will be treated with chemoradiation (50.4 Gray (Gy) in 28 fractions). In the absence of local disease progression deemed inoperable, or metastatic disease progression, patients will be offered surgical resection. Patients who did not receive four months of systemic therapy in the neoadjuvant setting will be offered four months of adjuvant therapy at the discretion of their treating physicians."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Pancreatic Cancer"
+            ],
+            "keywords": [
+                "Neoadjuvant",
+                "pancreatic adenocarcinoma",
+                "pancreas cancer",
+                "pancreatic cancer",
+                "molecular profiling",
+                "CA19-9",
+                "surgery",
+                "MCW"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE2"
+            ],
+            "designInfo": {
+                "allocation": "NON_RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 125,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Restaging: Response to Treatment",
+                    "type": "EXPERIMENTAL",
+                    "description": "After the first restaging evaluation, further treatment will be based on treatment response. Patients who demonstrate a response \\[decline in carbohydrate antigen 19-9 (CA19-9) values\\] and radiographic response, along with preserved performance status) will be maintained on the first line chemotherapy for an additional two months.",
+                    "interventionNames": [
+                        "Drug: First-line Chemotherapy"
+                    ]
+                },
+                {
+                    "label": "Restaging: Patients with Stable Disease",
+                    "type": "EXPERIMENTAL",
+                    "description": "Patients who do not have a significant decline in CA19-9 values will be changed to a second-line therapy for an additional two months.",
+                    "interventionNames": [
+                        "Drug: Second-line Chemotherapy"
+                    ]
+                },
+                {
+                    "label": "Restaging: Local Disease Progression",
+                    "type": "EXPERIMENTAL",
+                    "description": "After the first restaging evaluation, further treatment will be based on treatment response. If, at the initial restaging, the patient has local disease progression amenable to surgical resection, he or she will receive chemoradiation, rather than continued chemotherapy, so the window of opportunity for surgical resection is not lost.",
+                    "interventionNames": [
+                        "Radiation: Chemoradiation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "First-line Chemotherapy",
+                    "description": "The first-line therapy will be 5-fluorouracil, leucovorin, irinotecan, and oxaliplatin (FOLFIRINOX) or best available standard of care.",
+                    "armGroupLabels": [
+                        "Restaging: Response to Treatment"
+                    ],
+                    "otherNames": [
+                        "Fluorouracil",
+                        "Folinic acid",
+                        "Camptosar",
+                        "Eloxatin"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Second-line Chemotherapy",
+                    "description": "Second line therapies will be multi-agent and contain gemcitabine. Molecular profiling data from the initial endoscopic ultrasound (EUS)/ fine needle aspirate (FNA) biopsy may be used at the discretion of the treating physician.",
+                    "armGroupLabels": [
+                        "Restaging: Patients with Stable Disease"
+                    ],
+                    "otherNames": [
+                        "Gemzar"
+                    ]
+                },
+                {
+                    "type": "RADIATION",
+                    "name": "Chemoradiation",
+                    "description": "50.4 Gy in 28 fractions.",
+                    "armGroupLabels": [
+                        "Restaging: Local Disease Progression"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Completion of all intended neoadjuvant therapy and surgical therapy",
+                    "description": "This measure is the number of subjects completing all intended neoadjuvant therapy and surgical therapy.",
+                    "timeFrame": "Five years."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Overall survival",
+                    "description": "This measure is the number of subjects alive at the conclusion of the follow-up period.",
+                    "timeFrame": "Five years"
+                },
+                {
+                    "measure": "Progression-free survival",
+                    "description": "This measure is the number of subjects achieving complete response, partial response or maintaining stable disease.",
+                    "timeFrame": "Five years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "INCLUSION CRITERIA\n\n* Be 18 years of age or older.\n* Be able to understand and provide written informed consent or have a legally authorized representative (LAR).\n* Have an Eastern Cooperative Group (ECOG) performance status \\< 2 (please see the appendix).\n* Have documentation of histologically confirmed adenocarcinoma. Biopsy must have been completed prior to start of treatment; additional biopsy is not required for the study.\n* Have clinical stage consistent with resectable or borderline resectable adenocarcinoma of the pancreas, based on CT or MRI findings.\n* Have adequate organ and bone marrow function, as defined by:\n\n  * total leukocytes \\>3 x10\\^3/\u03bcL.\n  * absolute neutrophil count (ANC) \\>1.5x 10\\^3/\u03bcL.\n  * hemoglobin \\>9 g/dL.\n  * platelets \\>100 x 10\\^3/\u03bcL.\n  * creatinine clearance \\>60 mL/min or creatinine \\<1.5 mg/dL; bilirubin \\< 2 mg/dL.\n  * aspartate transaminases (AST/SGOT) and alanine transaminases (ALT/SGPT) \\<3 x upper limit of normal (ULN). At two weeks from biliary decompression, if the subject's serum AST/ALT remains greater 3x ULN, but has demonstrated a progressive decline, the subject may be enrolled into the trial and appropriate modification and dose adjustments will be made to the assigned regimen. Eligibility of subjects whose AST/ALT remain elevated 3x ULN, without demonstrating a downward trend, will be determined at the discretion of the trial principal investigators.\n* Subjects must be CA19-9 producers as defined by a pretreatment CA 19-9 \\> 35 U/mL, when total bilirubin \\<2 mg/dL.\n* Female patients must be postmenopausal (absence of menses for \\> 1 year), surgically sterile, or have a negative pregnancy test and use at least one form of contraception for four weeks prior to Day 1 of the study, during study treatment and during the first four months after study treatment is discontinued. Male patients must be surgically sterile or use barrier contraception during the study and for four months after the last dose of any study drug.\n\nEXCLUSION CRITERIA\n\n* Has received more than two months of FOLFIRINOX or mFOLFIRINOX chemotherapy as first-line therapy.\n* No documentation of a CA19-9 value when total bilirubin \\< 2 prior to initiation of chemotherapy.\n* Has received any additional chemotherapy and/or radiation within three years prior to study enrollment.\n* Has any previous history of another malignancy (other than cured basal or squamous cell carcinoma of the skin or cured in situ carcinoma of the cervix or localized prostate cancer with normal prostate specific antigen) within three years of study enrollment.\n* Uncontrolled comorbidities including, but not limited to, ongoing or active serious infection, symptomatic congestive heart failure, unstable angina, unstable cardiac arrhythmias, psychiatric illness, excessive obesity (BMI \\>55) or situations that would limit compliance with the study requirements or the ability to willingly give written informed consent.\n* Known human immunodeficiency virus (HIV), hepatitis B virus (HBV) or hepatitis C virus (HCV) infection.\n* Pregnant or breastfeeding patients or any patient with childbearing potential not using contraception four weeks prior to treatment.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Medical College of Wisconsin Clinical Cancer Center",
+                    "role": "CONTACT",
+                    "phone": "414-805-8900",
+                    "email": "cccto@mcw.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Kathleen Christians, MD",
+                    "affiliation": "Professor",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Froedtert & the Medical College of Wisconsin",
+                    "status": "RECRUITING",
+                    "city": "Milwaukee",
+                    "state": "Wisconsin",
+                    "zip": "53226",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Froedtert & the Medical College of Wisconsin Clinical Cancer Center",
+                            "role": "CONTACT",
+                            "phone": "414-805-8900",
+                            "email": "cccto@mcw.edu"
+                        },
+                        {
+                            "name": "Kathleen Christians, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 43.0389,
+                        "lon": -87.90647
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000010190",
+                    "term": "Pancreatic Neoplasms"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000004701",
+                    "term": "Endocrine Gland Neoplasms"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000010182",
+                    "term": "Pancreatic Diseases"
+                },
+                {
+                    "id": "D000004700",
+                    "term": "Endocrine System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13110",
+                    "name": "Pancreatic Neoplasms",
+                    "asFound": "Pancreatic Cancer",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7863",
+                    "name": "Endocrine Gland Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13102",
+                    "name": "Pancreatic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7862",
+                    "name": "Endocrine System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4387",
+                    "name": "Pancreatic Cancer",
+                    "asFound": "Pancreatic Cancer",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC19",
+                    "name": "Gland and Hormone Related Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000005472",
+                    "term": "Fluorouracil"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000963",
+                    "term": "Antimetabolites"
+                },
+                {
+                    "id": "D000045504",
+                    "term": "Molecular Mechanisms of Pharmacological Action"
+                },
+                {
+                    "id": "D000000964",
+                    "term": "Antimetabolites, Antineoplastic"
+                },
+                {
+                    "id": "D000000970",
+                    "term": "Antineoplastic Agents"
+                },
+                {
+                    "id": "D000007166",
+                    "term": "Immunosuppressive Agents"
+                },
+                {
+                    "id": "D000007155",
+                    "term": "Immunologic Factors"
+                },
+                {
+                    "id": "D000045505",
+                    "term": "Physiological Effects of Drugs"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M1671",
+                    "name": "Irinotecan",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2985",
+                    "name": "Gemcitabine",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M1674",
+                    "name": "Oxaliplatin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8600",
+                    "name": "Fluorouracil",
+                    "asFound": "According",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M271136",
+                    "name": "Folfirinox",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8618",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6191",
+                    "name": "Leucovorin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29233",
+                    "name": "Levoleucovorin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22554",
+                    "name": "Pancrelipase",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M13114",
+                    "name": "Pancreatin",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4281",
+                    "name": "Antimetabolites",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10212",
+                    "name": "Immunosuppressive Agents",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10201",
+                    "name": "Immunologic Factors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T446",
+                    "name": "Folic Acid",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T447",
+                    "name": "Folinic Acid",
+                    "asFound": "Web-",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T448",
+                    "name": "Folate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T475",
+                    "name": "Vitamin B9",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "ANeo",
+                    "name": "Antineoplastic Agents"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                },
+                {
+                    "abbrev": "Micro",
+                    "name": "Micronutrients"
+                },
+                {
+                    "abbrev": "Hemat",
+                    "name": "Hematinics"
+                },
+                {
+                    "abbrev": "Gast",
+                    "name": "Gastrointestinal Agents"
+                },
+                {
+                    "abbrev": "Vi",
+                    "name": "Vitamins"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

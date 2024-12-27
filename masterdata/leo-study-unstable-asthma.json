@@ -1,0 +1,346 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05308277",
+            "orgStudyIdInfo": {
+                "id": "RC-21-07-01"
+            },
+            "organization": {
+                "fullName": "ResMed",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Leo Study Unstable Asthma",
+            "officialTitle": "Engineering Validation of Leo Device to Assess Clinical Control of Children Recovering From Acute Asthma Exacerbation",
+            "therapeuticArea": [
+                "Respiratory"
+            ],
+            "study": "leo-study-unstable-asthma"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2022-09",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-04-27",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2023-04",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2023-04",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-03-14",
+            "studyFirstSubmitQcDate": "2022-03-25",
+            "studyFirstPostDateStruct": {
+                "date": "2022-04-04",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2022-09-23",
+            "lastUpdatePostDateStruct": {
+                "date": "2022-09-26",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "ResMed",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This is a prospective, observational study to investigate the agreement of the Leo device signal derivation with gold standard asthmatic testing in recently exacerbated asthmatic children.\n\nThis study is designed for engineering validation of a wireless, wearable device (Leo) for assessing clinical control of children recovering from acute respiratory event such as asthma attack. The Leo device will monitor chest impedance, ECG and body position to calculate parameters such as respiration rate, heart rate, lung volume, tidal breathing flow and volume curves, and body position. These parameters will then be used to train and algorithm to assess clinical control of asthma."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Asthma in Children"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "Engineering validation of a lung function monitoring device",
+                "primaryPurpose": "OTHER",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 30,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Single Arm - Leo Device Monitoring",
+                    "type": "OTHER",
+                    "description": "Child's respiratory impedance will be continuously recorded using the Leo device during hospital/ED stay after consent and enrollment, and then during 7 days at home after discharge. The Leo device provides no intervention, and will only monitoring chest impedance for the worn period. Oscillometry and spirometry testing and flow volume assessment using PNT will be performed during study visits with Leo device attached.",
+                    "interventionNames": [
+                        "Device: Leo device monitoring"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Leo device monitoring",
+                    "description": "After consent and enrollment, the child's respiratory impedance will be continuously recorded using the Leo device throughout the day and night during the entire hospital stay or ED visit. The device may be taken off for up to 1 hour per day (i.e., break during bath / shower time). The device will be applied to the skin overlying the mid-sternum area on the chest wall after cleaning of the skin with an alcohol swab after consent has been obtained. The device will be changed every 72 hours or earlier, by the participant's guardian, depending on signs of defect in the signal quality or battery exhaustion, based on daily check of the signal by the research team. Remote monitoring of the child's chest impedance will continue using the Leo device after discharge from hospital/ED for 7 days.",
+                    "armGroupLabels": [
+                        "Single Arm - Leo Device Monitoring"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Airway resistance through oscillometry test",
+                    "description": "Asthma severity measures will be determined through oscillometry test at baseline and follow-up visit. Leo measurements will be assessed for agreement with oscillometry measures.",
+                    "timeFrame": "Baseline visit and 7 days post hospital/ED discharge"
+                },
+                {
+                    "measure": "Asthma Flare-up diary",
+                    "description": "Self-reported asthma flare-up diary score will be measured daily during the remote (at home) period in between visits.",
+                    "timeFrame": "Follow-up for 7 days post hospital/ED discharge"
+                },
+                {
+                    "measure": "CASI questionnaire",
+                    "description": "Questionnaire will be used to determine asthma severity during baseline and follow-up visit. CASI scores include five domains: day symptoms and albuterol use, night symptoms and albuterol use, controller treatment, lung function measures, and exacerbations. Range is from 0 -17, with a higher score indicating worse asthma severity",
+                    "timeFrame": "Baseline visit and 7 days post hospital/ED discharge"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Inhaler usage",
+                    "description": "Propeller sensor will include measures of time stamped data of inhaler usage (controller and rescue inhalers)",
+                    "timeFrame": "Follow-up for 7 days post hospital/ED discharge"
+                },
+                {
+                    "measure": "Tidal breathing from PNT device",
+                    "description": "Agreement and correlation in tidal breathing parameters between Leo and the pneumotachograph (PNT) device. The PNT device parameters are considered standard of care, and will be compared against Leo device to evaluate agreement.",
+                    "timeFrame": "7 days post hospital/ED discharge"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Frequency and severity of localized skin reaction including redness and irritation / itchiness / discomfort.",
+                    "timeFrame": "7 days post hospital/ED discharge"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Children aged \u22652 years old and \\<18 years old at time of consent\n* Children with a legal guardian able to sign consent for study participation\n* Children and caregivers able to read and understand English or Spanish\n* Children who are currently hospitalized with acute exacerbation of asthma\n* Child's caregiver is able to communicate using SMS\n* Child has an asthma inhaler\n\nExclusion Criteria:\n\n* Children with complex medical conditions which may hinder their ability to complete protocol assessments\n* Children with an active skin condition involving the area on the chest wall where the Leo device will be attached. E.g. inflamed and/or infected eczema or other skin conditions involving the anterior chest wall at the time of recruitment\n* Children with any implanted medical devices, E.g. cardiac pacemaker\n* Children with any history of known allergic reaction to adhesives or hydrogels, as the ones used with the Leo device",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "2 Years",
+            "maximumAge": "18 Years",
+            "stdAges": [
+                "CHILD",
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Faizan Javed, PhD",
+                    "role": "CONTACT",
+                    "phone": "+61 413624856",
+                    "email": "faizan.javed@resmed.com.au"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Children's Hospital Colorado",
+                    "status": "RECRUITING",
+                    "city": "Aurora",
+                    "state": "Colorado",
+                    "zip": "80045",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Juana Cerna, MS",
+                            "role": "CONTACT",
+                            "phone": "720-777-8384"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.72943,
+                        "lon": -104.83192
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Data will be shared through planned publications after de-identified analysis.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "CSR"
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000001249",
+                    "term": "Asthma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000001982",
+                    "term": "Bronchial Diseases"
+                },
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                },
+                {
+                    "id": "D000008173",
+                    "term": "Lung Diseases, Obstructive"
+                },
+                {
+                    "id": "D000008171",
+                    "term": "Lung Diseases"
+                },
+                {
+                    "id": "D000012130",
+                    "term": "Respiratory Hypersensitivity"
+                },
+                {
+                    "id": "D000006969",
+                    "term": "Hypersensitivity, Immediate"
+                },
+                {
+                    "id": "D000006967",
+                    "term": "Hypersensitivity"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M4556",
+                    "name": "Asthma",
+                    "asFound": "Asthma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5258",
+                    "name": "Bronchial Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11168",
+                    "name": "Lung Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11170",
+                    "name": "Lung Diseases, Obstructive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10018",
+                    "name": "Hypersensitivity",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14967",
+                    "name": "Respiratory Hypersensitivity",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10020",
+                    "name": "Hypersensitivity, Immediate",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M3777",
+                    "name": "Ethanol",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "Infe",
+                    "name": "Anti-Infective Agents"
+                },
+                {
+                    "abbrev": "CNSDep",
+                    "name": "Central Nervous System Depressants"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,381 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05751993",
+            "orgStudyIdInfo": {
+                "id": "22-0149"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R21CA260092",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R21CA260092"
+                }
+            ],
+            "organization": {
+                "fullName": "UNC Lineberger Comprehensive Cancer Center",
+                "class": "OTHER"
+            },
+            "briefTitle": "Piloting a Reinforcement Learning Tool for Individually Tailoring Just-in-time Adaptive Interventions",
+            "officialTitle": "Piloting a Reinforcement Learning Tool for Individually Tailoring Just-in-time Adaptive Interventions",
+            "therapeuticArea": [
+                "Endocrinology",
+                "Other"
+            ],
+            "study": "piloting-a-reinforcement-learning-tool-for-individually-tailoring-just-in-time-adaptive-interventions"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "NOT_YET_RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-09",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-02",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-02",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-02-20",
+            "studyFirstSubmitQcDate": "2023-02-20",
+            "studyFirstPostDateStruct": {
+                "date": "2023-03-02",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-19",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "UNC Lineberger Comprehensive Cancer Center",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Duke University",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "RTI International",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "National Cancer Institute (NCI)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this pilot study is to conduct a 12-week pilot feasibility study testing usability of a reinforcement learning model (AdaptRL) in a weight loss intervention (ADAPT study). Building upon a previous just-in-time adaptive intervention (JITAI), a reinforcement learning model will generate decision rules unique to each individual that are intended to improve the tailoring of brief intervention messages (e.g., what behavior to message about, what behavior change techniques to include), improve achievement of daily behavioral goals, and improve weight loss in a sample of 20 adults.",
+            "detailedDescription": "Reinforcement Learning (RL), a type of machine learning, holds promise for addressing the limitations of previous approaches to implementing JITAIs. Adaptive RL applications work by updating information about expected \"rewards\" (i.e., proximal outcomes) based on the results of sequentially randomized trials. To realize the potential of adaptive interventions to reduce health disparities in cancer prevention and control, mHealth interventionists first need to identify methods of using digital health participant data to continually adapt decision rules guiding highly tailored intervention delivery. This research team has developed a reinforcement learning model (AdaptRL) that reads in and analyzes user data (e.g., calories, weight, and activity data from Fitbit) in real-time, uses RL to efficiently determine which message a participant should receive up to 3 times per day, and creates a JITAI tailored to optimize daily behavioral goal achievement and weight loss for each participant. The objective of this study is to test the feasibility of using this reinforcement learning model in a pilot weight loss study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Overweight and Obesity",
+                "Overweight",
+                "Obesity"
+            ],
+            "keywords": [
+                "cancer",
+                "risk factor",
+                "just-in-time adaptive intervention (JITAI)"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "primaryPurpose": "HEALTH_SERVICES_RESEARCH",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "ADAPT intervention",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants will receive a smart scale and a physical activity tracker and will have three daily goals: weigh daily, a daily personalized active minutes goal, and a daily calorie goal. For 12 weeks, participants will receive 0-3 text messages per day about their behaviors and progress towards their goals which they will be able to rate (like/dislike), along with weekly personalized feedback, progress graphs, and lessons and resources available on the website.",
+                    "interventionNames": [
+                        "Behavioral: ADAPT"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "ADAPT",
+                    "description": "The intervention is testing the feasibility of a reinforcement learning model to pull in participants' behavioral data (calories, activity, and weight) and use this data along with participants' past behavioral goal achievements to deliver the type of message that should be most effective for a given participant at a given time. At each decision point (morning, midday, and evening on a daily basis), the system evaluates which behaviors a participant is eligible to receive a message about (eating, activity, self-weighing), which intervention options a participant is eligible to receive, and then chooses what type of behavioral message a participant should receive. Over time, the model uses participant data and response to interventions to better tailor message choice.",
+                    "armGroupLabels": [
+                        "ADAPT intervention"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Feasibility (success of using the AdaptRL model)",
+                    "description": "Feasibility as the success of using the AdaptRL model will be defined as the mean number of messages delivered per participant per day.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Study engagement",
+                    "description": "Study engagement will be defined as the percent of person-days in which participants accessed the web app.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Self-monitoring adherence",
+                    "description": "Self-monitoring adherence will be defined as the percent of person-days in which participants tracked at least one weight loss behavior (tracked calories, wore tracker, or self-weighed).",
+                    "timeFrame": "up to 12 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Message satisfaction",
+                    "description": "Message satisfaction will be defined as the percent of delivered messages that were rated as \"liked\" (compared to dislike or not rated).",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Percent weight loss",
+                    "description": "Percent weight loss will be defined as weight change from baseline to 12 weeks calculated as a percent from baseline weight.",
+                    "timeFrame": "12 weeks"
+                },
+                {
+                    "measure": "Moderate-to-vigorous physical activity",
+                    "description": "Moderate-to-vigorous physical activity will be defined as the change in self-reported weekly minutes of moderate-to-vigorous physical activity as measured by the Paffenbarger Activity Questionnaire from baseline to 12 weeks. The minimum is 0, no maximum. Higher numbers represent higher minutes of weekly moderate-to-vigorous physical activity.",
+                    "timeFrame": "Baseline, 12 weeks"
+                },
+                {
+                    "measure": "Dietary intake",
+                    "description": "Dietary intake will be defined as the change in average daily calorie intake as measured by the Automated Self-Administered 24-hour (ASA 24-hour) dietary recalls from baseline to 12 weeks. Daily caloric intake is measured in kcals, with higher numbers indicating higher caloric intake.",
+                    "timeFrame": "Baseline, 12 weeks"
+                },
+                {
+                    "measure": "Adherence to calorie goal",
+                    "description": "Adherence to the calorie goal as the percent of person-days in which participants tracked their calories and stayed at or under their calorie goal will be measured by dietary self-monitoring data tracked in the Fitbit app and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Adherence to daily active minutes goal",
+                    "description": "Adherence to daily active minutes goal, the percent of person-days in which participants met their daily active minute goal, will be measured by activity tracker data tracked in the Fitbit app and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Adherence to daily self-weighing",
+                    "description": "Adherence to daily self-weighing, the percent of person-days in which participants self-weighed will be measured by Fitbit smart scales and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Adherence to daily self-weighing at the participant-day level",
+                    "description": "Adherence to daily self-weighing at the participant-day level, the percent of person-days weighed after the message randomization time until the end of the day will be measured by Fitbit smart scales and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Adherence to the daily self-weighing percent of person-days weighed",
+                    "description": "Adherence to the daily self-weighing percent of person-days weighed the day after the message randomization will be measured by Fitbit smart scales and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Achievement of active minutes goal",
+                    "description": "Achievement of active minutes goal, percent of person-days met active minutes goal after the message randomization time until the end of the day will be measured by activity tracker data tracked in the Fitbit app and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Achievement of active minutes goal percent of person-days",
+                    "description": "Achievement of active minutes goal percent of person-days met active minutes goal the day after the message randomization will be measured by activity tracker data tracked in the Fitbit app and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Achievement of calorie goal (at or under goal)",
+                    "description": "Achievement of calorie goal (at or under goal) percent of person-days met calorie goal after the message randomization time until the end of the day will be measured by dietary self-monitoring data tracked in the Fitbit app and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                },
+                {
+                    "measure": "Achievement of calorie goal (at or under goal) percent of person-days",
+                    "description": "Achievement of calorie goal (at or under goal) percent of person-days met calorie goal the day after the message randomization will be measured by dietary self-monitoring data tracked in the Fitbit app and transmitted via Application Programming Interface (API) to study servers.",
+                    "timeFrame": "up to 12 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Age 18-55 years\n2. Body Mass Index of 25-40 kg/m2\n3. English-speaking and writing\n4. Has a smartphone with a data and text messaging plan\n\nExclusion Criteria:\n\n1. Currently participating in a weight loss, nutrition, or physical activity study or program or other study that would interfere with this study\n2. Currently using prescription medications with known effects on appetite or weight (e.g., oral steroids, weight loss medications), with the exception of individuals on a stable dose of SSRIs for 3 months)\n3. Previous surgical procedure for weight loss or planned weight loss surgery in the next year\n4. Currently pregnant or planning pregnancy in the next 4 months\n5. Lost 10 or more pounds and kept it off in the last 6 months\n6. Report a heart condition, chest pain during periods of activity or rest, or loss of consciousness on the Physical Activity Readiness Questionnaire (PAR-Q; items 1-4). Individuals endorsing joint problems, prescription medication usage, or other medical conditions that could limit exercise will be required to obtain written physician consent to participate\n7. Pre-existing medical condition(s) that preclude adherence to an unsupervised exercise program, diabetes treated with insulin, history of heart attack or stroke, current treatment for cancer, or inability to walk for exercise\n8. Type 1 diabetes or currently receiving medical treatment for Type 2 diabetes\n9. Other health problems which may influence the ability to walk for physical activity or be associated with unintentional weight change, including cancer treatment within the past 5 years or tuberculosis\n10. Health or psychological diagnoses that preclude participation in a prescribed dietary and exercise program, including history of or diagnosis of schizophrenia or bipolar disorder, hospitalization for a psychiatric diagnosis in the past year, a current diagnosis of alcohol or substance abuse\n11. Report a past diagnosis of or receiving treatment for a DSM-5-TR eating disorder (anorexia nervosa, bulimia nervosa, or other diagnosis)\n12. Moving out of the area in the next 4 months\n13. Out of town for a week or more during the study period\n14. Another member of the household is a participant or staff member in this trial\n15. Not willing to attend two study visits\n16. Not willing to wear a Fitbit every day\n17. Reason to suspect that the participant would not adhere to the study intervention\n18. Have participated in another study conducted by the UNC Weight Research Program within the past 12 months",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "55 Years",
+            "stdAges": [
+                "ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Brooke Nezami, PhD, MA",
+                    "role": "CONTACT",
+                    "phone": "919-966-5852",
+                    "email": "bnezami@unc.edu"
+                },
+                {
+                    "name": "Nisha O'Shea, PhD",
+                    "role": "CONTACT",
+                    "email": "nishaoshea@rti.org"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Brooke Nezami, PhD, MA",
+                    "affiliation": "University of North Carolina, Chapel Hill",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of North Carolina at Chapel Hill",
+                    "city": "Chapel Hill",
+                    "state": "North Carolina",
+                    "zip": "27514",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Brooke Nezami, PhD, MA",
+                            "role": "CONTACT",
+                            "phone": "919-966-5852",
+                            "email": "bnezami@unc.edu"
+                        },
+                        {
+                            "name": "Karen Hatley, MPH, RD",
+                            "role": "CONTACT",
+                            "phone": "919-966-5852",
+                            "email": "keericks@email.unc.edu"
+                        },
+                        {
+                            "name": "Brooke Nezami, PhD, MA",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        },
+                        {
+                            "name": "Nisha Gottfredson O'Shea, PhD",
+                            "role": "SUB_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 35.9132,
+                        "lon": -79.05584
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "University of North Carolina Lineberger Comprehensive Cancer Center Clinical Trials",
+                    "url": "http://unclineberger.org/patientcare/clinical-trials/clinical-trials"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009765",
+                    "term": "Obesity"
+                },
+                {
+                    "id": "D000050177",
+                    "term": "Overweight"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000044343",
+                    "term": "Overnutrition"
+                },
+                {
+                    "id": "D000009748",
+                    "term": "Nutrition Disorders"
+                },
+                {
+                    "id": "D000001835",
+                    "term": "Body Weight"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12701",
+                    "name": "Obesity",
+                    "asFound": "Obesity",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26186",
+                    "name": "Overweight",
+                    "asFound": "Overweight",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M25307",
+                    "name": "Overnutrition",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12684",
+                    "name": "Nutrition Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5114",
+                    "name": "Body Weight",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC18",
+                    "name": "Nutritional and Metabolic Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,481 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05127265",
+            "orgStudyIdInfo": {
+                "id": "IRB-202101013"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "R01NS120924",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01NS120924"
+                },
+                {
+                    "id": "R01EB029699",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/R01EB029699"
+                }
+            ],
+            "organization": {
+                "fullName": "University of Florida",
+                "class": "OTHER"
+            },
+            "briefTitle": "Pervasive Sensing and AI in Intelligent ICU",
+            "officialTitle": "Pervasive Sensing and Artificial Intelligence in Intelligent ICU Subtitles: -Intelligent Intensive Care Unit (I2CU): Pervasive Sensing and Artificial Intelligence for Augmented Clinical Decision-making -ADAPT: Autonomous Delirium Monitoring and Adaptive Prevention",
+            "therapeuticArea": [
+                "Critical Care",
+                "Other"
+            ],
+            "study": "pervasive-sensing-and-ai-in-intelligent-icu"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2021-05-24",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-11-04",
+            "studyFirstSubmitQcDate": "2021-11-18",
+            "studyFirstPostDateStruct": {
+                "date": "2021-11-19",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Florida",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "National Institute for Biomedical Imaging and Bioengineering (NIBIB)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Important information related to the visual assessment of patients, such as facial expressions, head and extremity movements, posture, and mobility are captured sporadically by overburdened nurses, or are not captured at all. Consequently, these important visual cues, although associated with critical indices such as physical functioning, pain, delirious state, and impending clinical deterioration, often cannot be incorporated into clinical status. The overall objectives of this project are to sense, quantify, and communicate patients' clinical conditions in an autonomous and precise manner, and develop a pervasive intelligent sensing system that combines deep learning algorithms with continuous data from inertial, color, and depth image sensors for autonomous visual assessment of critically ill patients. The central hypothesis is that deep learning models will be superior to existing acuity clinical scores by predicting acuity in a dynamic, precise, and interpretable manner, using autonomous assessment of pain, emotional distress, and physical function, together with clinical and physiologic data.",
+            "detailedDescription": "The under-assessment of pain is one of the primary barriers to the adequate treatment of pain in critically ill patients, and is associated with many negative outcomes such as chronic pain after discharge, prolonged mechanical ventilation, longer ICU stay, and increased mortality risk. Many ICU patients cannot self-report their pain intensity due to their clinical condition, ventilation devices, and altered consciousness. The monitoring of patients' pain status is yet another task for over-worked nurses, and due to pain's subjective nature, those assessments may vary among care staff. These challenges point to a critical need for developing objective and autonomous pain recognition systems. Delirium is another common complication of patient hospitalization, which is characterized by changes in cognition, activity level, consciousness, and alertness and has rates of up to 80% in surgical patients. The risk factors that have been associated with delirium include age, preexisting cognitive dysfunction, vision and hearing impairment, severe illness, dehydration, electrolyte abnormalities, overmedication, alcohol abuse, and disruptions in sleep patterns. Estimates show that about one third of delirium cases can benefit from drug and non-drug prevention and intervention. However, detecting and predicting pain and delirium is still very limited in practice.\n\nThe aim of this study is to evaluate the ability of the investigators' proposed model to leverage accelerometer, environmental, circadian rhythm biomarkers, and video data in autonomously quantifying pain, characterizing functional activities, and delirium status. The Autonomous Delirium Monitoring and Adaptive Prevention (ADAPT) system will use novel pervasive sensing and deep learning techniques to autonomously quantify patients' mobility and circadian dyssynchrony in terms of nightly disruptions, light intensity, and sound pressure level. This will allow for the integration of these risk factors into a dynamic model for predicting delirium trajectories. Commercially available cameras will be used to monitor patients' facial expressions and contextualize patients' actions by providing imaging data to provide additional patient movement information. Commercially available environmental sensors will be used to provide data on illumination, decibel level, and air quality. Patient blood samples will help determine their circadian rhythm and compare and validate the pervasive sensing system's capabilities of autonomously monitoring circadian dyssynchrony. Electronic health record data will also be collected."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Critical Illness",
+                "Pain",
+                "Delirium",
+                "Confusion"
+            ],
+            "keywords": [
+                "Critical Illness",
+                "Pain",
+                "Delirium",
+                "Confusion",
+                "Patient Acuity",
+                "ICU",
+                "Acute Illness"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_ONLY",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Blood and urine collection on two consecutive days of the study."
+            },
+            "enrollmentInfo": {
+                "count": 400,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "adult ICU patients",
+                    "description": "adult patients aged 18 or older admitted to University of Florida Health Shands Gainesville ICU wards",
+                    "interventionNames": [
+                        "Other: Video Monitoring",
+                        "Other: Accelerometer Monitoring",
+                        "Other: Noise Level Monitoring",
+                        "Other: Light Level Monitoring",
+                        "Other: Air Quality Monitoring",
+                        "Other: EKG Monitoring",
+                        "Other: Vitals Monitoring",
+                        "Other: Biosample Collection",
+                        "Other: Delirium Motor Subtyping Scale 4 (DMSS-4)"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Video Monitoring",
+                    "description": "continuous video monitoring",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Accelerometer Monitoring",
+                    "description": "continuous accelerometer monitoring of patient movements",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Noise Level Monitoring",
+                    "description": "continuous environmental noise monitoring",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Light Level Monitoring",
+                    "description": "continuous environmental light monitoring",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Air Quality Monitoring",
+                    "description": "continuous environmental air quality monitoring",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "EKG Monitoring",
+                    "description": "continuous EKG monitoring",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Vitals Monitoring",
+                    "description": "continuous vitals monitoring (heart rate, oxygen saturation)",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Biosample Collection",
+                    "description": "blood and urine samples collected once on Day 1 and once on Day 2",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Delirium Motor Subtyping Scale 4 (DMSS-4)",
+                    "description": "done daily on delirious patients to subtype delirium",
+                    "armGroupLabels": [
+                        "adult ICU patients"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Algorithmic Activity Labeling",
+                    "description": "The algorithm's output will report on which activity the patient is performing in the corresponding image data.",
+                    "timeFrame": "Image frames collected continuously for up to 7 days maximum."
+                },
+                {
+                    "measure": "Algorithmic Pain Labeling",
+                    "description": "The algorithm's output will report on whether the patient is experiencing pain in the corresponding image data.",
+                    "timeFrame": "Image frames collected continuously for up to 7 days maximum."
+                },
+                {
+                    "measure": "Decibel Levels",
+                    "description": "Determine relative decibel (noise loudness) levels in study patient's ICU room to alert for abnormalities in decibel level (noisiness of environment).",
+                    "timeFrame": "Noise sensor data collected continuously for up to 7 days maximum."
+                },
+                {
+                    "measure": "Lux Levels",
+                    "description": "Determine relative lux (light illumination) levels in study patient's ICU room to alert for abnormalities in illumination level.",
+                    "timeFrame": "Light sensor data collected continuously for up to 7 days maximum."
+                },
+                {
+                    "measure": "Air Quality",
+                    "description": "Determines relative air quality pollution levels in study patient's ICU room to alert for abnormalities in room air quality.",
+                    "timeFrame": "Air quality sensor data collected continuously for up to 7 days maximum."
+                },
+                {
+                    "measure": "Circadian Dyssynchrony Index",
+                    "description": "Blood and urine samples will be collected and processed to determine the presence of dyssynchrony in a subject's internal circadian clock.",
+                    "timeFrame": "Change in internal circadian profile from Day 1 to Day 2."
+                },
+                {
+                    "measure": "Algorithmic Delirium Recognition Profile",
+                    "description": "The algorithm's output will report on whether patient is likely to be delirious or at-risk of delirium based on activity, facial expression, and circadian dyssynchrony index data collected from study devices and biosamples.",
+                    "timeFrame": "Data collected for up to 7 days maximum."
+                },
+                {
+                    "measure": "Delirium Motor Subtyping Scale 4 (DMSS-4)",
+                    "description": "Determines which subtype of delirium a subject is experiencing. This subtyping scale has 13 symptom items (5 hyperactive and 8 hypoactive) derived from the 30-item Delirium Motor Checklist. To subtype a delirious subject, at least 2 symptoms are required to be present from either the hyperactive or hypoactive checklist to meet the subtyping criteria for 'hyperactive delirium' or 'hypoactive delirium'. Patients who meet both hyperactive and hypoactive criteria are determined as 'mixed subtype', while patients meeting neither hyperactive or hypoactive criteria are labeled as 'no subtype'.",
+                    "timeFrame": "Changes from baseline up to a maximum of 7 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Mortality",
+                    "description": "Status of alive or deceased",
+                    "timeFrame": "From baseline (study enrollment) up to a maximum of 7 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* aged 18 or older\n* admitted to UF Health Shands Gainesville ICU ward\n* expected to remain in ICU ward for at least 24 hours at time of screening\n\nExclusion Criteria:\n\n* under the age of 18\n* on any contact/isolation precautions\n* expected to transfer or discharge from the ICU in 24 hours or less\n* unable to provide self-consent or has no available proxy/LAR",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Critically ill adults, aged 18 and over, admitted to UF Health Shands Gainesville ICU wards",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Andrea Davidson, BS",
+                    "role": "CONTACT",
+                    "phone": "352-294-8723",
+                    "email": "adavidson@ufl.edu"
+                },
+                {
+                    "name": "Brooke Armfield, PhD",
+                    "role": "CONTACT",
+                    "phone": "352-294-8723",
+                    "email": "barmfield@ufl.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Azra Bihorac, MD, MS",
+                    "affiliation": "University of Florida",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of Florida Health Shands Hospital",
+                    "status": "RECRUITING",
+                    "city": "Gainesville",
+                    "state": "Florida",
+                    "zip": "32610",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Andrea Davidson, BS",
+                            "role": "CONTACT",
+                            "phone": "352-294-8723",
+                            "email": "adavidson@ufl.edu"
+                        },
+                        {
+                            "name": "Brooke Armfield, PhD",
+                            "role": "CONTACT",
+                            "phone": "352-294-8723",
+                            "email": "barmfield@ufl.edu"
+                        },
+                        {
+                            "name": "Azra Bihorac, MD, MS",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 29.65163,
+                        "lon": -82.32483
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "31142754",
+                    "type": "BACKGROUND",
+                    "citation": "Davoudi A, Malhotra KR, Shickel B, Siegel S, Williams S, Ruppert M, Bihorac E, Ozrazgat-Baslanti T, Tighe PJ, Bihorac A, Rashidi P. Intelligent ICU for Autonomous Patient Monitoring Using Pervasive Sensing and Deep Learning. Sci Rep. 2019 May 29;9(1):8020. doi: 10.1038/s41598-019-44004-w."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000003693",
+                    "term": "Delirium"
+                },
+                {
+                    "id": "D000003221",
+                    "term": "Confusion"
+                },
+                {
+                    "id": "D000016638",
+                    "term": "Critical Illness"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000019954",
+                    "term": "Neurobehavioral Manifestations"
+                },
+                {
+                    "id": "D000009461",
+                    "term": "Neurologic Manifestations"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000019965",
+                    "term": "Neurocognitive Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                },
+                {
+                    "id": "D000020969",
+                    "term": "Disease Attributes"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M19010",
+                    "name": "Critical Illness",
+                    "asFound": "Critical Illness",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M13066",
+                    "name": "Pain",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6894",
+                    "name": "Delirium",
+                    "asFound": "Delirium",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6446",
+                    "name": "Confusion",
+                    "asFound": "Confusion",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21826",
+                    "name": "Neurobehavioral Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12404",
+                    "name": "Neurologic Manifestations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21836",
+                    "name": "Neurocognitive Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22700",
+                    "name": "Disease Attributes",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,506 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05199259",
+            "orgStudyIdInfo": {
+                "id": "HELIO-2021-US-002"
+            },
+            "organization": {
+                "fullName": "Helio Genomics",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "Multi-analyte Blood Test Clinical Trial",
+            "officialTitle": "Collection of Blood to Evaluate Epigenomics and Protein Biomarkers for the Detection of Hepatocellular Carcinoma",
+            "acronym": "LIVER-1",
+            "therapeuticArea": [
+                "Oncology and Hematology",
+                "Other",
+                "Gastroenterology"
+            ],
+            "study": "multi-analyte-blood-test-clinical-trial"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-03-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-01",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-03",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-12-15",
+            "studyFirstSubmitQcDate": "2022-01-05",
+            "studyFirstPostDateStruct": {
+                "date": "2022-01-20",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-13",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-14",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Helio Genomics",
+                "class": "INDUSTRY"
+            }
+        },
+        "oversightModule": {
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUnapprovedDevice": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The objective of this study is the acquisition of whole blood samples and serum samples from participants with untreated Hepatocellular Carcinoma (HCC) and subjects undergoing Hepatocellular Carcinoma (HCC) surveillance. These samples will be used for research purposes to develop and validate the Helio multi-analyte blood test.",
+            "detailedDescription": "This study pertains to the collection of whole blood and serum specimens from participants undergoing Hepatocellular Carcinoma (HCC) surveillance. The participants will fall into two main groups, subjects diagnosed with HCC (HCC positive Group) or subjects without HCC (HCC negative Group).\n\nThe HCC negative Group will be further divided into two sub-groups based on whether the absence of HCC has been determined using CT or MRI procedures (Sub-group 1) or ultrasound (Sub-group 2). Only the participants in sub-group 2 will receive a confirmatory ultrasound approximately 6 months (between 5 to 9 months) after enrollment to confirm the absence of HCC (6-month visit). This additional imaging study is necessary due to the low sensitivity of abdominal ultrasound to detect HCC lesions.\n\nParticipants will be screened for eligibility to participate in the study based on their medical history and records. Participants with a recent confirmed Collection of Blood to Evaluate Epigenomics and Protein Biomarkers for the detection of Hepatocellular Carcinoma diagnosis of HCC (within 6 months of enrollment) may be enrolled in such way to ensure the cases are representative of the major liver disease etiologies in the surveillance population in the United States.\n\nSpecifically, the following causes of cirrhosis will be selected:\n\n* Alcoholic steatohepatitis (ASH);\n* Hepatitis B virus (HBV);\n* Hepatitis C virus (HCV);\n* Non-alcoholic fatty liver disease (NAFLD);\n* Other genetic conditions that cause cirrhosis (i.e., hemochromatosis)\n\nThese blood samples will be used to perform various studies to determine the utility of selected DNA methylation and protein markers for the liver cancer diagnostic test."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Liver Cirrhosis",
+                "Liver Cancer",
+                "HCC",
+                "Hepatocellular Carcinoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "OTHER",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 1200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HCC positive Group",
+                    "description": "Multi-analyte blood test screen in participants with a recent confirmed untreated diagnosis of HCC by CT scan, MRI or biopsy.",
+                    "interventionNames": [
+                        "Diagnostic Test: Multi-analyte Blood Test"
+                    ]
+                },
+                {
+                    "label": "HCC negative Group: Sub-Group 1",
+                    "description": "Multi-analyte blood test screen in participants with a recent confirmed negative diagnosis of HCC by CT or MRI (No lesion, LR-1 or LR-2)",
+                    "interventionNames": [
+                        "Diagnostic Test: Multi-analyte Blood Test"
+                    ]
+                },
+                {
+                    "label": "HCC negative Group: Sub-Group 2",
+                    "description": "Multi-analyte blood test screen in participants with a recent confirmed negative diagnosis of HCC by ultrasound. Participants will be scheduled for a 6 month visit (at least 5 months but no more 9 months form enrollment) for a confirmatory ultrasound.",
+                    "interventionNames": [
+                        "Diagnostic Test: Multi-analyte Blood Test"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Multi-analyte Blood Test",
+                    "description": "A clinical diagnostic test based upon the detection and quantification of DNA methylation markers in cell-free DNA (cfDNA) isolated from plasma and of tumor-specific proteins isolated from serum.",
+                    "armGroupLabels": [
+                        "HCC negative Group: Sub-Group 1",
+                        "HCC negative Group: Sub-Group 2",
+                        "HCC positive Group"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Independent performance measure of sensitivity and specificity of a multi-analyte blood test",
+                    "description": "The primary objective is to measure the performance (sensitivity and specificity) the multi-analyte blood Test for the detection of liver cancers in high-risk particiapnats.",
+                    "timeFrame": "1 - 9 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "To investigate potential endogenous and exogenous interfering substances of a multi-analyte blood test",
+                    "description": "To investigate potential endogenous and exogenous interfering substances of a multi-analyte blood test for the detection of liver cancers within healthy subjects, subjects diagnosed with active cancer, subjects in cancer remission, and subjects diagnosed with a benign disease.",
+                    "timeFrame": "1 - 9 months"
+                },
+                {
+                    "measure": "Ascertain Reference Range(s)",
+                    "description": "Ascertain reference range determination(s) for select CpG methylation sites",
+                    "timeFrame": "1 - 9 months"
+                },
+                {
+                    "measure": "Ascertain Sample Stability",
+                    "description": "Sample stability under various shipping conditions",
+                    "timeFrame": "1 - 9 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Age 18 years or older.\n* Males and Females.\n* Having cirrhosis or meeting the AASLD guidelines for HCC\n* surveillance.\n* Clinically diagnosed with HCC or negative for HCC following disease\n* surveillance.\n* HCC positive Group: Subject has a recent (within 6 months of enrollment) clinically diagnosed, untreated hepatocellular carcinoma as defined by at least one \u22651 cm lesion exhibiting arterial phase hyperenhancement in combination with washout appearance and/or capsule by 4 phase CT scan or multiphase contrast enhanced MRI or biopsy is positive for HCC.\n* HCC negative Group: Non-cancer, at-risk subjects with chronic liver disease undergoing routine imaging surveillance for HCC, where the definitive lack of HCC within 3 months prior to enrollment has been verified by negative imaging, for HCC. No more than 200 subjects without cirrhosis can be enrolled in this group.\n* Sub-Group 1 (approximately 450 subjects) - negative by CT or MRI (No lesion, LR-1 or LR-2)\n* Sub-Group 2 (approximately 450 subjects) - negative by ultrasound\n\nExclusion Criteria:\n\n* Subjects that are unwilling or unable to sign the Informed Consent Form will be excluded.\n* Known cancer diagnosis of a cancer other than HCC within the past 5 years (with the exceptions of basal cell or squamous cell skin cancers).\n* Chemotherapy and/or radiation therapy within 5 years prior to enrollment/sample collection.\n* Prior or current treatment with sorafenib, regorafenib, or other treatment indicated for HCC.\n* Prior treatment with a DNA methyltransferase inhibitor such as with Vidaza (azacitidine) or Dacogen (decitabine)\n* Any HCC treatment prior to enrollment/blood sample collection (e.g., surgery, ablation, embolization, pharmacotherapy, radiotherapy, liver transplant or other treatment indicated for HCC).\n* IV contrast (e.g., CT and MRI) within 1 day \\[or 24 hours\\] of blood collection.\n* Less than 3 days between fine needle aspiration (FNA) of target pathology and blood collection.\n* Less than 7 days between biopsy (other than FNA) of target pathology and blood collection.\n* Any condition the Investigator believes would interfere with his or her ability to provide informed consent, comply with the study protocol, which might confound the interpretation of the study results or put the person at undue risk.\n* For HCC negative subjects, patients with a prior diagnosis of HCC are also excluded.\n* Subjects that are pregnant will be exclude",
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "The subjects will fall into two main groups, subjects diagnosed with HCC (HCC positive Group) or subjects without HCC (HCC negative Group). The HCC negative Group will be further divided into two sub-groups based on whether the absence of HCC has been determined using CT or MRI procedures (Sub-group 1) or ultrasound (Sub-group 2). Only the subjects in sub-group 2 will receive a confirmatory ultrasound approximately 6 months (between 5 to 7 months) after enrollment to confirm the absence of HCC (\"6-month visit). This additional imaging study is necessary due to the low sensitivity of abdominal ultrasound to detect HCC lesions. The blood specimens will be shipped to a clinical diagnostic laborator",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Clinical Operations Manager, BSN, RN",
+                    "role": "CONTACT",
+                    "phone": "626-350-0537",
+                    "email": "octavia@heliogenomics.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Taggert",
+                    "affiliation": "Helio Health",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Providence Facey Medical Foundation",
+                    "status": "RECRUITING",
+                    "city": "Mission Hills",
+                    "state": "California",
+                    "zip": "91345",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Clinical Research Associate",
+                            "role": "CONTACT",
+                            "email": "elyza.carvajal@providence.org"
+                        },
+                        {
+                            "name": "Dilpirt Bagga, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 34.68952,
+                        "lon": -120.4356
+                    }
+                },
+                {
+                    "facility": "Guardian Angel Research Center",
+                    "status": "RECRUITING",
+                    "city": "Tampa",
+                    "state": "Florida",
+                    "zip": "33614",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Study Coordinator",
+                            "role": "CONTACT",
+                            "phone": "813-877-5320",
+                            "email": "lporrod@gmail.com"
+                        },
+                        {
+                            "name": "Alejandro Diego, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 27.94752,
+                        "lon": -82.45843
+                    }
+                },
+                {
+                    "facility": "GI Research Mercy Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Baltimore",
+                    "state": "Maryland",
+                    "zip": "21202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Study Coordinator",
+                            "role": "CONTACT",
+                            "phone": "410-843-2075",
+                            "email": "sshesadri@mdmercy.com"
+                        },
+                        {
+                            "name": "Paul Thuluvath, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.29038,
+                        "lon": -76.61219
+                    }
+                },
+                {
+                    "facility": "South Texas Research Institute",
+                    "status": "RECRUITING",
+                    "city": "Edinburg",
+                    "state": "Texas",
+                    "zip": "78539",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Site Manager",
+                            "role": "CONTACT",
+                            "phone": "956-284-6353",
+                            "email": "margaret.leal@southtexasresearchinstitute.com"
+                        },
+                        {
+                            "name": "Rashmee Patil, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 26.30174,
+                        "lon": -98.16334
+                    }
+                },
+                {
+                    "facility": "Texas Gastro Research",
+                    "status": "RECRUITING",
+                    "city": "El Paso",
+                    "state": "Texas",
+                    "zip": "79936",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sub-I",
+                            "role": "CONTACT",
+                            "phone": "915-529-0009"
+                        },
+                        {
+                            "name": "Emmanuel Gorosphe, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.75872,
+                        "lon": -106.48693
+                    }
+                },
+                {
+                    "facility": "Impact Research Institute",
+                    "status": "RECRUITING",
+                    "city": "Waco",
+                    "state": "Texas",
+                    "zip": "76710",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Site Manager",
+                            "role": "CONTACT",
+                            "phone": "254-294-4780",
+                            "email": "mrichardson@impactresearchtx.com"
+                        },
+                        {
+                            "name": "Nadge Gunn, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 31.54933,
+                        "lon": -97.14667
+                    }
+                },
+                {
+                    "facility": "Digestive & Liver Disease Specialist",
+                    "status": "RECRUITING",
+                    "city": "Norfolk",
+                    "state": "Virginia",
+                    "zip": "23502",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Site Manager",
+                            "role": "CONTACT",
+                            "phone": "757-961-1126",
+                            "email": "sharonb@glstva.com"
+                        },
+                        {
+                            "name": "Whitney Brooks, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 36.84681,
+                        "lon": -76.28522
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000002277",
+                    "term": "Carcinoma"
+                },
+                {
+                    "id": "D000006528",
+                    "term": "Carcinoma, Hepatocellular"
+                },
+                {
+                    "id": "D000008103",
+                    "term": "Liver Cirrhosis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000000230",
+                    "term": "Adenocarcinoma"
+                },
+                {
+                    "id": "D000008113",
+                    "term": "Liver Neoplasms"
+                },
+                {
+                    "id": "D000004067",
+                    "term": "Digestive System Neoplasms"
+                },
+                {
+                    "id": "D000009371",
+                    "term": "Neoplasms by Site"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                },
+                {
+                    "id": "D000005355",
+                    "term": "Fibrosis"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M5534",
+                    "name": "Carcinoma",
+                    "asFound": "Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9613",
+                    "name": "Carcinoma, Hepatocellular",
+                    "asFound": "Hepatocellular Carcinoma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11113",
+                    "name": "Liver Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11103",
+                    "name": "Liver Cirrhosis",
+                    "asFound": "Liver Cirrhosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M3585",
+                    "name": "Adenocarcinoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7256",
+                    "name": "Digestive System Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8886",
+                    "name": "Gastrointestinal Neoplasms",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8485",
+                    "name": "Fibrosis",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

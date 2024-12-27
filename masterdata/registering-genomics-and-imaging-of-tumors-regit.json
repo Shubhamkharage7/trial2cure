@@ -1,0 +1,371 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05386043",
+            "orgStudyIdInfo": {
+                "id": "11163"
+            },
+            "organization": {
+                "fullName": "Indiana University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Registering Genomics and Imaging of Tumors (ReGIT)",
+            "officialTitle": "Registering Genomics and Imaging of Tumors (ReGIT)",
+            "acronym": "ReGIT",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "registering-genomics-and-imaging-of-tumors-regit"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-08",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-07-18",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-07-17",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-07-17",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-04-26",
+            "studyFirstSubmitQcDate": "2022-05-18",
+            "studyFirstPostDateStruct": {
+                "date": "2022-05-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-08-17",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-08-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Jason Parker",
+                "investigatorTitle": "Associate Professor, Department of Radiology and Imaging Sciences",
+                "investigatorAffiliation": "Indiana University"
+            },
+            "leadSponsor": {
+                "name": "Indiana University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Children's Hospital of Philadelphia",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study is investigating how brain tumors might mutate over time, and whether new brain imaging tools like MRI and PET can predict these mutations.",
+            "detailedDescription": "This study is investigating how brain tumors might mutate over time, and whether new brain imaging tools like MRI and PET can predict these mutations. Subjects who are radiologically diagnosed with gliomas and are expected to undergo a tumor biopsy will be enrolled in the study. Subjects will complete two visits and will then undergo a follow-up period. At the baseline visit, subjects will under go a pregnancy test (if applicable), two PET-CT scans using different radioactive tracers, an MRI scan, and blood draws. At the biopsy visit, the subject will undergo an MRI scan as part of their standard of care and at least biopsy samples will be collected for research purposes using stereotactic core biopsy. The study team will take pictures of the locations of tumor samples as they are removed during surgery. The samples then get studied for genetic mutations, and the study team will look at the parts of the image the samples came from to see if they could have been predicted. Follow-up MRIs and potentially other radiology scans will be completed as part of subjects' regular care on a schedule determined by their healthcare provider at the facility ordered by their physician. The study team will follow subjects' care and collect the information from their regularly scheduled treatments and brain scans after their biopsy."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Glioma"
+            ],
+            "keywords": [
+                "glioma",
+                "glioblastoma"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITH_DNA",
+                "description": "Small (\\~30mg) tumor tissue samples are removed from the tumor bed and microenvironment using stereotactic core biopsy immediately before performing tumor resection."
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Baseline Imaging and Biopsy",
+                    "description": "Subjects will receive a PET-CT with the radiopharmaceuticals FET and O-15 Water (under RDRC approval for basic research) prior to their standard of care neurosurgery via stereotactic core biopsy. Research samples will be collected for analysis intraoperatively.",
+                    "interventionNames": [
+                        "Drug: FET F-18",
+                        "Drug: O-15 Radioisotope",
+                        "Procedure: CT scan",
+                        "Procedure: MRI with gadolinium-based contrast",
+                        "Procedure: Biopsy Collection"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DRUG",
+                    "name": "FET F-18",
+                    "description": "PET scan with FET prior to biopsy",
+                    "armGroupLabels": [
+                        "Baseline Imaging and Biopsy"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "O-15 Radioisotope",
+                    "description": "PET scan with O-15 Water prior to biopsy",
+                    "armGroupLabels": [
+                        "Baseline Imaging and Biopsy"
+                    ],
+                    "otherNames": [
+                        "O-15 Water"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "CT scan",
+                    "description": "CT scan prior to biopsy",
+                    "armGroupLabels": [
+                        "Baseline Imaging and Biopsy"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "MRI with gadolinium-based contrast",
+                    "description": "MRI prior to biopsy",
+                    "armGroupLabels": [
+                        "Baseline Imaging and Biopsy"
+                    ]
+                },
+                {
+                    "type": "PROCEDURE",
+                    "name": "Biopsy Collection",
+                    "description": "Biopsy collection during standard of care neurosurgery for glioma diagnosis/excision",
+                    "armGroupLabels": [
+                        "Baseline Imaging and Biopsy"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Classification sensitivity",
+                    "description": "Statistical evaluation of the area under the ROC curve. 3.1.1 SMM classification sensitivity to \\>80% 3.1.2 Reduce computation time by a factor of 10, and maintain accuracy (\\>.95)",
+                    "timeFrame": "Through study completion, an average of 1 year."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria\n\n1. Subject is between 18 and 89 years of age.\n2. Subject has radiologically-diagnosed or suspected WHO Grade II-IV glioma based on physician review or conformance with published WHO criteria as evaluated by the PI\\*.\n3. Subject is treatment-na\u00efve for the above condition.\n4. Subject is planning to undergo surgical resection and biopsy of their brain tumor.\n5. Subject has sufficient tissue so that the study team is able to acquire at least 2 biopsy samples during resection.\n6. Subject is able to read and write in English.\n7. Subject is able to lay supine for up to 80 minutes.\n8. Subject is able to hold still during MRI procedures.\n9. Subject or their LAR has signed the consent form for participation in the study.\n\nExclusion Criteria\n\n1. Subject has conditions that would preclude the completion of an MRI such as claustrophobia, pacemaker, metal objects in the body, and/or pregnancy.\n2. Subject has serious unstable medical or mental illness.\n3. Subject has insufficient tissue to acquire at least two biopsy samples during resection.\n4. Subject has a medical contraindication to any element of the study procedures.\n5. Subject or their LAR has not read and signed the informed consent form, or does not understand its contents.\n6. Subject is pregnant.\\*\\*\n7. Subject is at high risk for NSF (eGFR\\<60 or serum creatine \\>1.3) and cannot follow the weight-based dosing protocol for Gadavist.\\*\\*\\*",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Our subject population will consist of a single-arm of human glioma patients (WHO grade II-IV) in an age range of 18-89 years. Patients will be recruited from the IU Health system of academic hospitals including Simon Cancer Center (an NCI-designated Comprehensive Cancer Center), Methodist Hospital, University Hospital, Neuroscience Center, North Hospital, and Saxony Hospital. The total recruitment target for this protocol is up to 20 glioma patients, or approximately 10 patients per year.",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Jason Parker, PhD",
+                    "role": "CONTACT",
+                    "phone": "(317) 274-2072",
+                    "email": "parkerjg@iu.edu"
+                },
+                {
+                    "name": "Mahsa Servati, MS",
+                    "role": "CONTACT",
+                    "phone": "3172783384",
+                    "email": "mservati@iu.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Jason Parker, PhD",
+                    "affiliation": "Indiana University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Indiana University School of Medicine",
+                    "status": "RECRUITING",
+                    "city": "Indianapolis",
+                    "state": "Indiana",
+                    "zip": "46202",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Mahsa Servati, MS",
+                            "role": "CONTACT",
+                            "phone": "317-278-3384",
+                            "email": "mservati@iu.edu"
+                        },
+                        {
+                            "name": "Jason Parker, PhD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 39.76838,
+                        "lon": -86.15804
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000005910",
+                    "term": "Glioma"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000018302",
+                    "term": "Neoplasms, Neuroepithelial"
+                },
+                {
+                    "id": "D000017599",
+                    "term": "Neuroectodermal Tumors"
+                },
+                {
+                    "id": "D000009373",
+                    "term": "Neoplasms, Germ Cell and Embryonal"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000009375",
+                    "term": "Neoplasms, Glandular and Epithelial"
+                },
+                {
+                    "id": "D000009380",
+                    "term": "Neoplasms, Nerve Tissue"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9020",
+                    "name": "Glioma",
+                    "asFound": "Glioma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9019",
+                    "name": "Glioblastoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20446",
+                    "name": "Neoplasms, Neuroepithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M19845",
+                    "name": "Neuroectodermal Tumors",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20388",
+                    "name": "Neuroectodermal Tumors, Primitive",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12318",
+                    "name": "Neoplasms, Germ Cell and Embryonal",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12320",
+                    "name": "Neoplasms, Glandular and Epithelial",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12325",
+                    "name": "Neoplasms, Nerve Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2519",
+                    "name": "Glioma",
+                    "asFound": "Glioma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "T2518",
+                    "name": "Glioblastoma",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T4092",
+                    "name": "Neuroepithelioma",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M21258",
+                    "name": "Radiopharmaceuticals",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

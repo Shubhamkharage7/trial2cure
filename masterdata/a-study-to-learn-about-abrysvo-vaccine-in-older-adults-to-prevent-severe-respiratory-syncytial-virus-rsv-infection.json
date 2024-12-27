@@ -1,0 +1,395 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06077968",
+            "orgStudyIdInfo": {
+                "id": "C3671030"
+            },
+            "organization": {
+                "fullName": "Pfizer",
+                "class": "INDUSTRY"
+            },
+            "briefTitle": "A Study to Learn About ABRYSVO Vaccine in Older Adults to Prevent Severe Respiratory Syncytial Virus (RSV) Infection.",
+            "officialTitle": "Retrospective Study Evaluating ABRYSVO Vaccine Effectiveness Against Severe Lower Respiratory Tract Infection in Older Adults",
+            "therapeuticArea": [
+                "Respiratory"
+            ],
+            "study": "a-study-to-learn-about-abrysvo-vaccine-in-older-adults-to-prevent-severe-respiratory-syncytial-virus-rsv-infection"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-11-01",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-10-05",
+            "studyFirstSubmitQcDate": "2023-10-05",
+            "studyFirstPostDateStruct": {
+                "date": "2023-10-11",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-29",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-30",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Pfizer",
+                "class": "INDUSTRY"
+            },
+            "collaborators": [
+                {
+                    "name": "Kaiser Permanente",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": true,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The main purpose of this study is to learn about the effectiveness of Pfizer's ABRYSVO vaccine. This vaccine helps to prevent infections caused by Respiratory Syncytial Virus (RSV). RSV is a virus that can cause infections in the airways. These symptoms can be cold-like symptoms, but in some cases can lead to severe symptoms or hospitalization.\n\nThis study uses only healthcare data that are already collected from routine visits to healthcare providers. This means that participants will not be actively enrolled in the study and there are no study treatments. The study will look at data for about two years. This study will look at patient information from:\n\n* Adults ages 60 years and older\n* Are eligible to receive the ABRYSVO vaccination",
+            "detailedDescription": "The primary objective of this retrospective study is to estimate vaccine effectiveness of Pfizer's ABRYSVO vaccine against RSV-related lower respiratory tract infection requiring hospitalization among Kaiser Permanente Southern California members who are eligible for vaccination per current recommendations from the Advisory Committee on Immunization Practices (ACIP). Analyses will employ a retrospective case-control study with test negative design (TND) and a retrospective cohort design. The TND will assess RSV-related outcomes, while the cohort design will assess all-cause outcomes. The cohort study may also assess RSV-related outcomes. Standard of care (SOC) RSV testing and re-testing of remnant SOC respiratory specimens for those who did not have SOC testing will be used to define RSV-related endpoints. For the cohort design, a sensitivity analysis including imputation of results for individuals experiencing lower respiratory tract infections without confirmation of RSV positivity or negativity may also be conducted. In the event that standard of care testing practices decline or there are not enough available specimens for estimating RSV-associated VE, the study may be extended to additional seasons. Secondary objectives of the TND, and if conducted for RSV-related endpoints, of the cohort study, include estimating vaccine effectiveness against: RSV-related lower respiratory tract infection hospitalizations among high-risk groups, RSV-related acute respiratory tract infection hospitalizations, and Emergency Department (ED) visits. The retrospective cohort analysis will provide VE estimates against additional all-cause ARI and LRTI outcomes, as well as incidence rates and rate reductions for study outcomes, and will include outpatient outcomes. Analyses will include stratifications by presence of comorbidity, RSV subgroup, severity, age, frailty, and other selected demographic factors."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Respiratory Syncytial Viruses"
+            ],
+            "keywords": [
+                "Lower respiratory tract infections",
+                "Acute respiratory infections"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "RETROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "NONE_RETAINED",
+                "description": "Standard of care specimens will be salvaged and tested on a multiplex respiratory panel at a contracted vendor."
+            },
+            "enrollmentInfo": {
+                "count": 999,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Vaccinated",
+                    "description": "Patients will be considered vaccinated if they have documented evidence of receiving ABRYSVO \u226530 days before index date (i.e., defined as the date of hospitalization or Emergency Department (ED) admission.)",
+                    "interventionNames": [
+                        "Biological: Prior standard of care receipt of Pfizer's ABRYSVO vaccine"
+                    ]
+                },
+                {
+                    "label": "Unvaccinated",
+                    "description": "Patients will be considered unvaccinated if they do not have documented evidence of receiving ABRYSVO.",
+                    "interventionNames": [
+                        "Biological: Prior standard of care receipt of Pfizer's ABRYSVO vaccine"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BIOLOGICAL",
+                    "name": "Prior standard of care receipt of Pfizer's ABRYSVO vaccine",
+                    "description": "Participants will receive Pfizer's ABRYSVO vaccine as part of standard of care. Vaccine is not administered in this study.",
+                    "armGroupLabels": [
+                        "Unvaccinated",
+                        "Vaccinated"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Test Negative Design (TND) 1. Vaccine Effectiveness (VE) calculated as 1 minus the odds ratio (OR) comparing the odds of being vaccinated with ABRYSVO for RSV-related hospitalized LRTI cases and controls, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using logistic regression. To estimate the effectiveness of ABRYSVO against RSV-related LRTI hospitalizations",
+                    "timeFrame": "Up to 2 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "TND Secondary 1: VE calculated as 1 minus the OR comparing the odds of being vaccinated with ABRYSVO for RSV-related severe LRTI cases and controls, multiplied by 100%. Adjusted for confounding factors using logistic regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against RSV-related severe LRTI.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 2: ABRYSVO VE estimates stratified by age groups. Adjusted for confounding factors using logistic regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against RSV-related LRTI hospitalizations, stratified by age.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 3: ABRYSVO VE estimates stratified by virus subgroups. Adjusted for confounding factors using logistic regression.",
+                    "description": "To further describe the effectiveness of ABRYSVO against RSV-related LRTI hospitalizations, stratified by RSV subgroup (A and B)",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 4: ABRYSVO VE estimates stratified by frailty index. Adjusted for confounding factors using logistic regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against RSV-related LRTI hospitalization stratified by frailty index",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 5: ABRYSVO VE estimates stratified by chronic medical condition risk category. Adjusted for confounding factors using logistic regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against RSV-related LRTI hospitalizations, stratified by chronic medical condition risk category.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 6: VE calculated as 1 minus the OR comparing the odds of being vaccinated with ABRYSVO for RSV-related hospitalized LRTI cases and controls, multiplied by 100%, among those with CHF and COPD.",
+                    "description": "Adjusted for confounding factors using logistic regression. Among those with CHF and COPD, to estimate the effectiveness of ABRYSVO against RSV-related LRTI hospitalizations",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 7-1: VE calculated as 1 minus the OR comparing the odds of being vaccinated with ABRYSVO for ED (without subsequent hospitalization) cases and controls, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using logistic regression. To estimate the effectiveness of ABRYSVO against ED admission (without subsequent hospitalization)",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 7-2: VE calculated as 1 minus the OR comparing the odds of being vaccinated with ABRYSVO for hospitalized or ED visit (without subsequent hospitalization) cases and controls, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using logistic regression. To estimate the effectiveness of ABRYSVO against ED (without subsequent hospitalization) and hospitalization, for RSV-related LRTI separately",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 8: VE calculated as 1 minus the OR comparing the odds of being vaccinated with ABRYSVO for RSV-related death cases and controls, multiplied by 100%. Adjusted for confounding factors using logistic regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against RSV-related death",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 9: VE calculated as 1 minus the OR comparing the odds of being vaccinated with ABRYSVO for hospitalized RSV-related ARI cases and controls, multiplied by 100%. Adjusted for confounding factors using logistic regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against RSV-related ARI hospitalization",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "TND Secondary 10: Describe age, sex, race/ethnicity, clinical and laboratory characteristics, and disease severity of any patients who received ABRYSVO and test positive for RSV",
+                    "description": "To describe demographic, clinical, and laboratory characteristics (i.e., viral subgroup) and disease severity of any RSV events among vaccinated individuals",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 1: VE calculated as 1 minus the hazard ratio (HR) comparing the incidence of all-cause LRTI hospitalization among patients vaccinated with ABRYSVO versus those not vaccinated with ABRYSVO, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using Cox proportional hazard regression. To estimate the effectiveness of ABRYSVO against all-cause LRTI hospitalizations",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 2: VE calculated as 1 minus the hazard ratio (HR) comparing the incidence of severe all-cause LRTI among patients vaccinated with ABRYSVO versus those not vaccinated with ABRYSVO, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using Cox proportional hazard regression. To estimate the effectiveness of ABRYSVO against severe all-cause LRTI.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 3: ABRYSVO all-cause VE estimates stratified by age groups. Adjusted for confounding factors using Cox proportional hazard regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against all-cause LRTI hospitalizations, stratified by age",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 4: ABRYSVO all-cause VE estimates stratified by frailty index. Adjusted for confounding factors using Cox proportional hazard regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against all-cause LRTI hospitalization stratified by frailty index",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 5: ABRYSVO all-cause VE estimates stratified by chronic medical condition risk category. Adjusted for confounding factors using Cox proportional hazard regression.",
+                    "description": "To estimate the effectiveness of ABRYSVO against all-cause LRTI hospitalizations, stratified by chronic medical condition risk category.",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 6: VE calculated as 1 minus the HR comparing the incidence of all-cause LRTI among patients vaccinated with ABRYSVO versus those not vaccinated with ABRYSVO, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using Cox proportional hazard regression. To estimate the effectiveness of ABRYSVO against all-cause LRTI separately for: outpatient visits (without subsequent hospitalization or ED visit within 14 days) and ED events (ED without subsequent hospitalization)",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 7: VE calculated as 1 minus the HR comparing the incidence of all-cause ARI among patients vaccinated with ABRYSVO versus those not vaccinated with ABRYSVO, multiplied by 100%.",
+                    "description": "To estimate the effectiveness of ABRYSVO against all-cause ARI separately for: hospitalizations and ED events (without subsequent hospitalizations)",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 8: VEs calculated as 1 minus the HR comparing the incidence of all-cause respiratory, cardiac, cardiorespiratory, CHF and COPD hospitalizations among patients vaccinated with ABRYSVO versus those not vaccinated, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using Cox proportional hazard regression. To estimate the effectiveness of ABRYSVO against all-cause respiratory, cardiac, cardio-respiratory, and CHF and COPD hospitalizations",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 9: VEs calculated as 1 minus the HR comparing the incidence of all-cause death among patients vaccinated with ABRYSVO versus those not vaccinated with ABRYSVO, multiplied by 100%.",
+                    "description": "Adjusted for confounding factors using Cox proportional hazard regression. To estimate the effectiveness of ABRYSVO against all-cause death",
+                    "timeFrame": "Up to 2 years"
+                },
+                {
+                    "measure": "Cohort Secondary 10: Rate reduction calculated as the rate difference of all-cause ARI/LRTI hospitalizations/outpatient/ED events among patients vaccinated with ABRYSVO versus those not vaccinated with ABRYSVO.",
+                    "description": "To estimate the absolute rate reductions in all-cause ARI/LRTI hospitalizations/outpatient/ED events by vaccination status at defined timepoints, and by important demographic and clinical characteristics",
+                    "timeFrame": "Up to 2 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\nTest Negative Design:\n\n1. KPSC patients eligible to receive ABRYSVO per current ACIP recommendations who are admitted to the hospital with ARI/LRTI, (defined using International Classification of Diseases (ICD) codes listed in Annex 2 Table 1) after start of study period, and who have had an RSV test, either through standard of care testing or blinded study testing of remnant respiratory specimens.\n2. For secondary objectives estimating VE against ED admission, the TND will include KPSC patients eligible to receive ABRYSVO who present to the ED with ARI/LRTI after start of study period, and who have had an RSV test, either through standard of care testing or blinded study testing of remnant respiratory specimens.\n3. We will include membership requirement of 1 year prior to index date, which is defined as the date of hospitalization or ED admission (allowing 45-day administrative gap), to facilitate accurate capture of comorbid conditions.\n\nRetrospective Cohort Design:\n\n1. All KPSC members eligible to receive ABRYSVO as of start of study period.\n2. For the cohort study, patients must have at least 1 year of membership (allowing 45-day administrative gap) prior to start of study period (index date) to facilitate accurate capture of comorbid conditions.\n\nExclusion Criteria:\n\nPatients meeting any of the following criteria will not be included in the study:\n\nTest Negative Design:\n\nPatients who receive another licensed or investigational RSV vaccine prior to hospitalization or ED visit will be excluded from the study population and analysis. Patients will be excluded if the index date is within certain time windows from vaccination date, outlined further in the exposure section below.\n\nCohort Design:\n\nPatients will be excluded for receiving any other licensed or investigational RSV vaccine prior to study start; patients will be censored for receiving any other licensed or investigational RSV vaccine during the study period.",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "60 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "This is a retrospective database study using existing healthcare data, no patients will be actively enrolled.\n\nTND: All KPSC patients will be included who are: 1) eligible for ABRYSVO vaccination per ACIP 2) admitted to the hospital or seen in the ED with an LRTI diagnosis and 3) RSV tested either through standard of care testing (SOC) or blinded testing of remnant SOC respiratory specimens (NP swabs, other) in a centralized lab using a multiplex RT-PCR respiratory panel assay, 4) presenting after start of the study period. Specimens will be de-identified and tested keeping linkage to clinical data.\n\nCohort: The cohort study will include all KPSC members eligible for vaccination as of the start of the study period (depending on the KPSC vaccination start date and rate of vaccine uptake).",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Pfizer CT.gov Call Center",
+                    "role": "CONTACT",
+                    "phone": "1-800-718-1021",
+                    "email": "ClinicalTrials.gov_Inquiries@pfizer.com"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Pfizer CT.gov Call Center",
+                    "affiliation": "Pfizer",
+                    "role": "STUDY_DIRECTOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Pfizer",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10018",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "seeAlsoLinks": [
+                {
+                    "label": "To obtain contact information for a study center near you, click here.",
+                    "url": "https://pmiform.com/clinical-trial-info-request?StudyID=C3671030"
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO",
+            "description": "Pfizer will provide access to individual de-identified participant data and related study documents (e.g. protocol, Statistical Analysis Plan (SAP), Clinical Study Report (CSR)) upon request from qualified researchers, and subject to certain criteria, conditions, and exceptions. Further details on Pfizer's data sharing criteria and process for requesting access can be found at: https://www.pfizer.com/science/clinical_trials/trial_data_and_results/data_requests."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000012141",
+                    "term": "Respiratory Tract Infections"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000012140",
+                    "term": "Respiratory Tract Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "asFound": "Infection",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14978",
+                    "name": "Respiratory Tract Infections",
+                    "asFound": "Respiratory Tract Infections",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14977",
+                    "name": "Respiratory Tract Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "BC08",
+                    "name": "Respiratory Tract (Lung and Bronchial) Diseases"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M17360",
+                    "name": "Vaccines",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

@@ -1,0 +1,354 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05837949",
+            "orgStudyIdInfo": {
+                "id": "22-36680"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "5R01LM013396-02",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/5R01LM013396-02"
+                }
+            ],
+            "organization": {
+                "fullName": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "briefTitle": "Multiple Sclerosis Falls Insight Track",
+            "officialTitle": "Multiple Sclerosis Falls Insight Track: A Personal Health Library to Reduce Falls in Patients With Multiple Sclerosis",
+            "acronym": "MS FIT",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "multiple-sclerosis-falls-insight-track"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-04-12",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-04-12",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-04-12",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-04-17",
+            "studyFirstSubmitQcDate": "2023-04-27",
+            "studyFirstPostDateStruct": {
+                "date": "2023-05-01",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-18",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-21",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of California, San Francisco",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institutes of Health (NIH)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "National Library of Medicine (NLM)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The purpose of this study is to develop an application: MS Falls Insight Track (MS FIT) which allows patients to log their falls and near falls, view their MS relevant data and responses to the clinic intake survey as well as communicate with their care team about falls and receive educational material on falls prevention.",
+            "detailedDescription": "Falls occur in \\>50% patients with multiple sclerosis (MS), worsen participation in daily life and increase healthcare costs. To date there are no established, accessible, tools to evaluate and reduce fall risk. MS Falls InsightTrack is a live personal health library that combines a patient's falls-relevant clinical indicators (from the electronic health record, EHR) with patient-generated data (PGD) from commercial wearable tools and patient-reported outcomes (PROs) and community-level data (sociodemographic data from University of California, San Francisco (UCSF) Health Atlas combined with MS-specific resources from the National MS Society). The tool will track falls/near-falls in real- time and report changes in status that require intervention. It will offer customized action prompts to support fall reduction through a behaviorally informed approach. It will be accessed in the clinic and in the patient's home.\n\nTechnological features. The tool will be accessible, extensible and scalable. The investigators will use modern technologies and industry standards (e.g back-end: Python, flask framework, PostgreSQL; front-end: HTML, CSS, JavaScript and d3.js). The tool will launch from Epic via SMART on FHIR, and will communicate with patients using MyChart.\n\nQualifications of team and setting. The UCSF MS Center is a leading clinical research center in the digital space. Our sub-leads are experts in all aspects of the study (digital technology, human-centered design, implementation science, health literacy) with a varied and experienced Stakeholder Advisory Group.\n\nScientific plan. In Aim 1 (design), the investigators will use a Human-Centered Design approach, engaging 20 patients with MS, clinicians and stakeholders in a series of focus groups, to identify the critical data, devices, visualizations, resources, workflows and accessibility/digital divide considerations for the tool, and the key interventions likely to promote the COM-B model of behavioral change to reduce fall risk.\n\nOur key outcomes will be perceived effectiveness, ease of use and likability. In Aim 2 (evaluate feasibility), investigators will deploy MS Falls Insight Track in 100 diverse adults with MS who are at risk for falls. Participants will wear a Fitbit. The tool will be used by patients in their homes and by clinicians during clinical encounters. The investigators will use an implementation science approach. Our key outcomes will be study retention, tool uptake and sustained use. The investigators will explore impact on fall risk. In Aim 3 (test generalizability) investigators will conduct focus groups with patients with other conditions where falls are common (Orthopedics, Parkinson's Disease, Geriatrics) to understand additional data and design features required to promote generalizability. Our key outcomes will parallel those in Aim 1.\n\nInnovation and Broader Significance. MS Falls Insight Track is a unique, comprehensive, accessible personal health library that can be deployed in larger efficacy trials for falls reduction. Beyond this clinical use case, the closed-loop approach of delivering PGD to the care system and back to the patient, interpreted and actionable, using scalable technology, represents a significant innovation that can sequentially expand the number of wearables, conditions and clinics in which patients and clinical investigators can ask their own questions of PGD."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Multiple Sclerosis"
+            ],
+            "keywords": [
+                "Multiple Sclerosis",
+                "MS",
+                "Falls",
+                "Falling",
+                "Closed-loop",
+                "Digital health",
+                "Falls tracking",
+                "Falls prevention",
+                "FitBit",
+                "Wearables"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "SINGLE_GROUP",
+                "interventionModelDescription": "All participants will be given the MS FIT tool intervention",
+                "primaryPurpose": "PREVENTION",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 100,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "MS FIT: Falls Insight Track",
+                    "type": "EXPERIMENTAL",
+                    "description": "Participants in this arm will receive 12 months use of MS FIT mobile tool intervention",
+                    "interventionNames": [
+                        "Behavioral: MS FIT: Falls Insight Track"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "MS FIT: Falls Insight Track",
+                    "description": "Participants will respond to a set of surveys every two weeks to increase communication on falls with their clinician.",
+                    "armGroupLabels": [
+                        "MS FIT: Falls Insight Track"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Percentage of patients initially use the tool (Adoption)",
+                    "description": "This will be measured by calculating the percentage of patients who use the tool during the initial month of the study, and by the percentage of patient-clinical dyads who use the tool during the clinical visit",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Percentage of patient-clinician encounters initially use the tool (Adoption)",
+                    "description": "This will be measured by calculating the percentage of patient-clinical dyads who use the tool during the clinical visit.",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Percentage of patients who continue to use the tool (Engagement)",
+                    "description": "This will calculate the percentage of patients who continued to use the patient-facing tool at least quarterly",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Percentage of patient-clinician encounters use the tool during the 12-month visit (Engagement)",
+                    "description": "This will be calculated by the percentage of the clinician-patient dyads in Arm 1 who use the in-visit dashboard at the 12-month clinical visit.",
+                    "timeFrame": "12 months"
+                },
+                {
+                    "measure": "Percentage of patients who respond to fall prompts (Adherence)",
+                    "description": "Adherence will be measured by the percentage of falls reporting prompts adhered to per participant, as well as percentage of participants adhering to \\>75% falls prompts",
+                    "timeFrame": "12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Diagnosis of MS (relapsing or progressive) by 2017 McDonald Criteria18\n* Ages 18 and above\n* Any MS therapy, or no treatment\n* California resident to enable clinical telemedicine visits if warranted during the study visit\n* EDSS 2.0-8.0 (moderate to severe impairment, 7= wheelchair but independent transfers)\n* Fall risk, based on MSWS-12 score and previous report of a fall (Hopkins grade \u22651)\n* Technological criteria: availability of Wi-Fi in the home or workspace for connectivity.\n\nExclusion Criteria:\n\n* Cognitive dexterity or visual impairment that, in the opinion of the study neurologist (RB), would put the participant at risk or limit their ability to comply with the study protocol\n* Inability to provide informed consent",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Riley Bove, MD",
+                    "role": "CONTACT",
+                    "phone": "415.595.2795",
+                    "email": "riley.bove@ucsf.edu"
+                },
+                {
+                    "name": "Jaeleene Wijangco, BS",
+                    "role": "CONTACT",
+                    "phone": "415.353.2174",
+                    "email": "jaeleene.wijangco@ucsf.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Riley Bove, MD",
+                    "affiliation": "University of California, San Francisco",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "University of California, San Francisco",
+                    "status": "RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94158",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Riley Bove, MD",
+                            "role": "CONTACT",
+                            "phone": "415-595-2795",
+                            "email": "riley.bove@ucsf.edu"
+                        },
+                        {
+                            "name": "Jaeleene Wijangco, BS",
+                            "role": "CONTACT",
+                            "phone": "415.353.2174",
+                            "email": "jaeleene.wijangco@ucsf.edu"
+                        },
+                        {
+                            "name": "Riley Bove, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The deidentified dataset will be shared with qualified collaborators upon request, provision of CITI and other certifications, and data sharing agreement. We will share the results, once the data are complete and analyzed, with the scientific community and patient/clinician participants through abstracts, presentations and manuscripts.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF"
+            ],
+            "timeFrame": "6 months post trial",
+            "accessCriteria": "Qualified collaborators upon request, provision of CITI and other certifications, and data sharing agreement"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000009103",
+                    "term": "Multiple Sclerosis"
+                },
+                {
+                    "id": "D000012598",
+                    "term": "Sclerosis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                },
+                {
+                    "id": "D000020278",
+                    "term": "Demyelinating Autoimmune Diseases, CNS"
+                },
+                {
+                    "id": "D000020274",
+                    "term": "Autoimmune Diseases of the Nervous System"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000003711",
+                    "term": "Demyelinating Diseases"
+                },
+                {
+                    "id": "D000001327",
+                    "term": "Autoimmune Diseases"
+                },
+                {
+                    "id": "D000007154",
+                    "term": "Immune System Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M12060",
+                    "name": "Multiple Sclerosis",
+                    "asFound": "Multiple Sclerosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M15415",
+                    "name": "Sclerosis",
+                    "asFound": "Sclerosis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M4629",
+                    "name": "Autoimmune Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22098",
+                    "name": "Demyelinating Autoimmune Diseases, CNS",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22094",
+                    "name": "Autoimmune Diseases of the Nervous System",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6909",
+                    "name": "Demyelinating Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10200",
+                    "name": "Immune System Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC20",
+                    "name": "Immune System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

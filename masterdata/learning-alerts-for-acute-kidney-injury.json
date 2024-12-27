@@ -1,0 +1,384 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT02786277",
+            "orgStudyIdInfo": {
+                "id": "YALEAKIALERTLEARN"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "1R01DK113191-01A1",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/1R01DK113191-01A1"
+                }
+            ],
+            "organization": {
+                "fullName": "Yale University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Learning Alerts for Acute Kidney Injury",
+            "officialTitle": "Uplift Modeling to More Narrowly Target Alerts for Acute Kidney Injury",
+            "therapeuticArea": [
+                "Nephrology and Renal Diseases"
+            ],
+            "study": "learning-alerts-for-acute-kidney-injury"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-02-15",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-02",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-08",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2016-05-13",
+            "studyFirstSubmitQcDate": "2016-05-25",
+            "studyFirstPostDateStruct": {
+                "date": "2016-05-30",
+                "type": "ESTIMATED"
+            },
+            "lastUpdateSubmitDate": "2024-03-15",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-18",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Yale University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Diabetes and Digestive and Kidney Diseases (NIDDK)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The primary objective of this study is to determine whether the use of uplift (also known as Conditional Average Treatment Effect - CATE) modeling to empirically identify patients expected to benefit the most from AKI alerting and to target AKI alerts to these patients will reduce the rates of AKI progression, dialysis, and mortality.",
+            "detailedDescription": "Acute kidney injury (AKI) carries a significant, independent risk of mortality among hospitalized patients, but despite its association with poor clinical outcomes, AKI is asymptomatic and frequently overlooked by clinicians, with fewer than half of all AKI patients with documentation of the syndrome in the electronic medical record, which was associated with decreased rates of AKI clinical best practices.\n\nOur research group recently conducted a large-scale multicenter randomized controlled trial of electronic alerts for AKI throughout the Yale New Haven Health System from 2018 to 2020 (ELAIA-1). Our study showed that, overall, alerting physicians to the presence of AKI did not demonstrate a difference in the rate of our primary outcome of progression of AKI, dialysis, or death, despite the alert leading to some process of care changes such as measurement of creatinine and urinalysis. There was, however, substantial heterogeneity among the study sites. The proliferation of alerting systems that are ineffective can lead to the phenomenon of alert fatigue, whereby providers tend to ignore alerts in a high-alert environment, and can have deleterious effects on patient care. Further, given the highly heterogenous nature of AKI, a more personalized approach to AKI alerting may be warranted.\n\nUplift modeling, commonly used in marketing, is a novel concept in the medical field and aims to determine phenotypic characteristics that predict a response (benefit or harm) to a given intervention. In this way, patients who are predicted to benefit most from an intervention are identified and preferentially targeted. Uplift modeling of alerting systems has the potential to both improve alert effectiveness through intelligent targeting, and reduce alert fatigue.\n\nIn this study, we will expand upon our prior AKI alert trial to determine prospectively whether the use of uplift modeling to preferentially target patients expected to benefit from an AKI alert will reduce the rates of AKI progression, dialysis and death among hospitalized patients with AKI. Inpatients at 4 teaching hospitals within the YNHH system with AKI, based on the Kidney Disease: Improving Global Outcomes (KDIGO) creatinine criteria, will be randomized to a \"recommended\" group (with higher scores receiving alerts and lower scores not receiving alerts as recommended) versus an \"anti-recommended\" group (with higher scores not receiving alerts and lower scores receiving alerts as anti-recommended). The primary outcome will be a composite of AKI progression, dialysis, or mortality within 14 days of randomization. Secondary outcomes will focus on AKI-specific process measures."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Acute Kidney Injury"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 3900,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Recommended",
+                    "type": "EXPERIMENTAL",
+                    "description": "Those whose uplift score represents a probability of benefit greater than 0.5 will generate an alert, while those whose uplift score represents a probability of benefit less than 0.5 will not generate an alert.",
+                    "interventionNames": [
+                        "Other: Alert"
+                    ]
+                },
+                {
+                    "label": "Anti-recommended",
+                    "type": "EXPERIMENTAL",
+                    "description": "Those whose uplift score represents a probability of benefit greater than 0.5 will not generate an alert, while those whose uplift score represents a probability of benefit less than 0.5 will generate an alert.",
+                    "interventionNames": [
+                        "Other: Alert"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Alert",
+                    "description": "An alert informing the provider of the presence of acute kidney injury will be fired.",
+                    "armGroupLabels": [
+                        "Anti-recommended",
+                        "Recommended"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Proportion of patients with progression to a higher stage of AKI OR Dialysis OR Death",
+                    "description": "Progression of AKI is defined as the increase in KDIGO stage from the time of randomization to the present. For patients who are discharged, we will impute 14-day creatinine using the last observation carried forward method.\n\nDialysis is defined as the receipt of hemodialysis, continuous renal replacement therapy, or peritoneal dialysis. Isolated ultrafiltration treatments will not be included.\n\nMortality will be determined from hospital administrative records.",
+                    "timeFrame": "Within 14 days from randomization"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "14-day Mortality",
+                    "description": "Proportion of patients who expire from any cause",
+                    "timeFrame": "Assessed from point of randomization to date of death within 14 days of randomization"
+                },
+                {
+                    "measure": "Inpatient mortality",
+                    "description": "Proportion of patients who expire from any cause",
+                    "timeFrame": "Assessed from point of randomization to date of death from any cause, up to one year post-randomization"
+                },
+                {
+                    "measure": "14-day dialysis",
+                    "description": "Proportion of patients who receive dialysis (hemodialysis, continuous renal replacement therapy, or peritoneal dialysis)",
+                    "timeFrame": "Assessed from point of randomization to date of first documented dialysis order, within 14 days of randomization"
+                },
+                {
+                    "measure": "Inpatient dialysis",
+                    "description": "Proportion of patients who receive dialysis (hemodialysis, continuous renal replacement therapy, or peritoneal dialysis)",
+                    "timeFrame": "Assess from point of randomization to date of first documented dialysis order during index hospitalization, up to one year post-randomization"
+                },
+                {
+                    "measure": "Discharge on dialysis",
+                    "description": "Assessed as active orders for dialysis at point of discharge from index hospitalization",
+                    "timeFrame": "Assessed at point of discharge from index hospitalization, up to one year post-randomization"
+                },
+                {
+                    "measure": "Progression to stage 2 AKI",
+                    "description": "Proportion of patients with a doubling of serum creatinine from the date of randomization to 14 days post randomization",
+                    "timeFrame": "Assessed from the date of randomization to 14 days post randomization"
+                },
+                {
+                    "measure": "Progression to stage 3 AKI",
+                    "description": "Proportion of patients with a tripling of serum creatinine from the date of randomization to 14 days post randomization",
+                    "timeFrame": "Assessed from the date of randomization to 14 days post randomization"
+                },
+                {
+                    "measure": "Duration of AKI",
+                    "description": "Defined as the time in hours between AKI onset and AKI cessation during index hospitalization",
+                    "timeFrame": "Assessed from the date of randomization to the cessation of AKI during index hospitalization, up to one year"
+                },
+                {
+                    "measure": "30 day readmission rate",
+                    "description": "Proportion of patients with readmission within 30 days of index hospitalization discharge",
+                    "timeFrame": "Assessed from discharge date of index hospitalization to 30 days post discharge date"
+                },
+                {
+                    "measure": "Index hospitalization cost",
+                    "description": "Total cost of index hospitalization",
+                    "timeFrame": "Assessed from point of randomization to date of discharge from index hospitalization, up to one year"
+                },
+                {
+                    "measure": "Chart documentation of AKI",
+                    "description": "Proportion of patients with chart documentation of AKI as assessed by post-discharge ICD-10 codes",
+                    "timeFrame": "Assessed from date of randomization to date of discharge from index hospitalization, up to one year"
+                },
+                {
+                    "measure": "Proportion of AKI \"Best Practices\" Achieved Per Subject During Index Hospitalization",
+                    "description": "Contrast administration (de novo order of IV contrast agent within 24 hours of randomization), fluid administration (within 24 hours of randomization), aminoglycoside administration (de novo order within 24 hours of randomization), NSAID administration/cessation (de novo order or cessation of order/absence of de novo order of NSAID within 24 hours of randomization), ACE inhibitor administration/cessation, urinalysis order (with or without microscopy within 24 hours of randomization), documentation of AKI (by ICD-9 and ICD-10 codes during index hospitalization), monitoring of creatinine (at least one serum creatinine measurement within 36 hours of randomization), documentation of urine output (within 24 hours of randomization), renal consult order during index hospitalization. Each metric is binary. Outcome is reported as a composite best practice outcome representing the proportion of best practices achieved per subject.",
+                    "timeFrame": "24 hours from randomization to discharge, up to one year post randomization"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n1. Adults \u2265 18 years\n2. Admitted to a participating hospital\n3. Has AKI as defined by creatinine criteria:\n\n   * 0.3 mg/dl increase in inpatient serum creatinine over 48 hours OR\n   * 50% relative increase in inpatient serum creatinine over 7 days\n\nExclusion Criteria:\n\n1. Dialysis order prior to AKI onset\n2. Initial creatinine \u2265 4.0 mg/dl\n3. Prior admission in which patient was randomized\n4. Admission to hospice service or comfort measures only order\n5. ESKD diagnosis code\n6. Kidney transplant within six months\n7. Opted out of electronic health record research",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Francis P Wilson, MD MSCE",
+                    "role": "CONTACT",
+                    "phone": "2037371704",
+                    "email": "francis.p.wilson@yale.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Francis P Wilson, MD MSCE",
+                    "affiliation": "Yale University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Yale New Haven Hospital",
+                    "status": "RECRUITING",
+                    "city": "New Haven",
+                    "state": "Connecticut",
+                    "zip": "06510",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Francis P Wilson, MD MSCE",
+                            "role": "CONTACT",
+                            "email": "francis.p.wilson@yale.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.30815,
+                        "lon": -72.92816
+                    }
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000058186",
+                    "term": "Acute Kidney Injury"
+                },
+                {
+                    "id": "D000014947",
+                    "term": "Wounds and Injuries"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000051437",
+                    "term": "Renal Insufficiency"
+                },
+                {
+                    "id": "D000007674",
+                    "term": "Kidney Diseases"
+                },
+                {
+                    "id": "D000014570",
+                    "term": "Urologic Diseases"
+                },
+                {
+                    "id": "D000052776",
+                    "term": "Female Urogenital Diseases"
+                },
+                {
+                    "id": "D000005261",
+                    "term": "Female Urogenital Diseases and Pregnancy Complications"
+                },
+                {
+                    "id": "D000091642",
+                    "term": "Urogenital Diseases"
+                },
+                {
+                    "id": "D000052801",
+                    "term": "Male Urogenital Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M28998",
+                    "name": "Acute Kidney Injury",
+                    "asFound": "Acute Kidney Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17685",
+                    "name": "Wounds and Injuries",
+                    "asFound": "Injury",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M26718",
+                    "name": "Renal Insufficiency",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10698",
+                    "name": "Kidney Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17319",
+                    "name": "Urologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2875",
+                    "name": "Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27093",
+                    "name": "Female Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14127",
+                    "name": "Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8399",
+                    "name": "Female Urogenital Diseases and Pregnancy Complications",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27095",
+                    "name": "Male Urogenital Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T170",
+                    "name": "Acute Graft Versus Host Disease",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXS",
+                    "name": "Urinary Tract, Sexual Organs, and Pregnancy Conditions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC26",
+                    "name": "Wounds and Injuries"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

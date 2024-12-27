@@ -1,0 +1,273 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05016856",
+            "orgStudyIdInfo": {
+                "id": "STUDY00000064"
+            },
+            "organization": {
+                "fullName": "Florida State University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Smart Reminders to Promote Home-based Cognitive Training",
+            "officialTitle": "Adherence Promotion With Person-centered Technology (APPT): Promoting Adherence to Cognitive Intervention",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "smart-reminders-to-promote-home-based-cognitive-training"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-05",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-11-07",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-10-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-01-01",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-07-28",
+            "studyFirstSubmitQcDate": "2021-08-17",
+            "studyFirstPostDateStruct": {
+                "date": "2021-08-23",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-05-02",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-05-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Walter Boot",
+                "investigatorTitle": "Principal Investigator",
+                "investigatorAffiliation": "Florida State University"
+            },
+            "leadSponsor": {
+                "name": "Florida State University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "This study will examine whether among older adults an adaptive and personalized reminder system can better support adherence to home-based cognitive training over typical reminder systems.",
+            "detailedDescription": "Many cognitive training interventions are associated with poor adherence, and poor adherence is associated with fewer benefits. Further, poor adherence in cognitive intervention studies can interfere with answering fundamental questions regarding intervention efficacy. This study will compare the effects of non-adaptive and smart adherence support systems. Participants will be asked to engage in frequent home-based cognitive training on a computer tablet. In the smart adherence support condition, participants will receive adaptive and tailored reminders based on dynamic algorithms that deploy reminders in a way that considers participant preferences, days and times of previous successful engagement, the success of previous reminder attempts, and answers to brief questions contained within reminder prompts. Parameter weights for these variables will be adjusted dynamically over a 6-month assessment period to ensure that reminders are deployed when they are most likely to be acted upon. This study will investigate adherence to training sessions, multiple times each week for 6 months, representing a large challenge to adherence. Participants will be randomly assigned to one condition or another, and adherence at home will be monitored. This will be an Individually Randomized Group-Treatment Trial (IRGT)."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Adherence, Treatment"
+            ],
+            "keywords": [
+                "adherence",
+                "cognitive intervention",
+                "memory support",
+                "artificial intelligence",
+                "aging",
+                "technology"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "FACTORIAL",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "maskingDescription": "Measures of adherence will be automatically collected and thus assessors will be blind to this outcome. Data will be coded and analyzed with arbitrary condition markers to mask condition during analysis. Participants will not be explicitly told which condition they are in, but will be aware of the reminder messages they are receiving, and thus are not truly blind.",
+                    "whoMasked": [
+                        "INVESTIGATOR",
+                        "OUTCOMES_ASSESSOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 190,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Reminder Only Condition",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "To promote adherence, participants will receive generic reminders when home-based cognitive training has not been completed. This will be in the form of a text message to participants' smart phone.",
+                    "interventionNames": [
+                        "Behavioral: Standard Reminder System (Active Control)"
+                    ]
+                },
+                {
+                    "label": "Smart Adherence Support Condition",
+                    "type": "EXPERIMENTAL",
+                    "description": "To promote adherence, participants will receive reminders when home-based cognitive training has not been completed. This will be in the form of a text message to participants' smart phone. In this condition, participants will receive adaptive and tailored reminders based on dynamic algorithms that deploy reminders in a way that considers participant preferences, days and times of previous successful assessments, the success of previous reminder attempts, and answers to brief questions contained within reminder prompts. Parameter weights for these variables will be adjusted dynamically over a 6-month assessment period to ensure that reminders are deployed when they are most likely to be acted upon.",
+                    "interventionNames": [
+                        "Behavioral: Adherence Promotion With Person-centered Technology (APPT) System"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Adherence Promotion With Person-centered Technology (APPT) System",
+                    "description": "A personalized and adaptive text message reminder system.",
+                    "armGroupLabels": [
+                        "Smart Adherence Support Condition"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "Standard Reminder System (Active Control)",
+                    "description": "A typical text message reminder system.",
+                    "armGroupLabels": [
+                        "Reminder Only Condition"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Adherence (session number)",
+                    "description": "Number of sessions over 6 months",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Adherence (session length)",
+                    "description": "Number of sessions reaching at least 80% of the assigned session duration over 6 months",
+                    "timeFrame": "6 months"
+                },
+                {
+                    "measure": "Adherence (holidays)",
+                    "description": "Number of extended gaps in between sessions over 6 months",
+                    "timeFrame": "6 months"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Objective Cognition (predictor of adherence)",
+                    "description": "A composite measure of objective cognitive ability",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                },
+                {
+                    "measure": "Subjective Cognition (predictor of adherence)",
+                    "description": "A composite measure of subjective cognitive deficit",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                },
+                {
+                    "measure": "Self-Efficacy (predictor of adherence)",
+                    "description": "A composite measure of self-efficacy (beliefs held about ability to complete tasks)",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                },
+                {
+                    "measure": "Technology Proficiency (predictor of adherence)",
+                    "description": "A composite measure of proficiency with technology",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                },
+                {
+                    "measure": "Perceived Training Efficacy (predictor of adherence)",
+                    "description": "A composite measure of belief in the the efficacy of cognitive training",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                },
+                {
+                    "measure": "Personality (predictor of adherence)",
+                    "description": "Measure of stable traits",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                },
+                {
+                    "measure": "Dementia Worry (predictor of adherence)",
+                    "description": "A composite measure of anxiety over cognitive decline",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                },
+                {
+                    "measure": "Busyness Scale (predictor of adherence)",
+                    "description": "Self-reported environmental demands of day-to-day life",
+                    "timeFrame": "Assessed at baseline, predicting adherence variables over 6 months"
+                }
+            ],
+            "otherOutcomes": [
+                {
+                    "measure": "Interview",
+                    "description": "Interview assessing experience in study",
+                    "timeFrame": "6 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* 65 years of age or older\n* normal or corrected to normal visual acuity\n* must pass a dementia screening\n\nExclusion Criteria:\n\n* Parkinson's, Alzheimer's disease, or any other neurodegenerative disease\n* terminal illness\n* blindness or deafness\n* severe motor impairment\n* not living in the Tallahassee area for the entire 6 month study period\n* unable to read at or above 6th grade level",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "65 Years",
+            "stdAges": [
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Walter Boot, PhD",
+                    "role": "CONTACT",
+                    "phone": "850 645-8734",
+                    "email": "boot@psy.fsu.edu"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Department of Psychology, Florida State University",
+                    "status": "RECRUITING",
+                    "city": "Tallahassee",
+                    "state": "Florida",
+                    "zip": "32306-4301",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Walter R Boot, PhD",
+                            "role": "CONTACT",
+                            "phone": "850-645-8734",
+                            "email": "boot@psy.fsu.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.43826,
+                        "lon": -84.28073
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Deidentified adherence data (time and date of intervention engagement) and scored individual difference measures (at the level of the individual) will be shared online.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP",
+                "ICF",
+                "CSR",
+                "ANALYTIC_CODE"
+            ],
+            "timeFrame": "Data will be made available one year after the publication of the first primary outcome paper or two years after the collection of the final participants' data, whichever come first.",
+            "accessCriteria": "Data will be freely available online."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

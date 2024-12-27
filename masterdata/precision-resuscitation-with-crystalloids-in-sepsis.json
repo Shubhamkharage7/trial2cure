@@ -1,0 +1,441 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06253585",
+            "orgStudyIdInfo": {
+                "id": "STUDY00006795"
+            },
+            "organization": {
+                "fullName": "Emory University",
+                "class": "OTHER"
+            },
+            "briefTitle": "Precision Resuscitation With Crystalloids in Sepsis",
+            "officialTitle": "Precision Resuscitation With Crystalloids in Sepsis (PRECISE)",
+            "acronym": "PRECISE",
+            "therapeuticArea": [
+                "Infectious Diseases"
+            ],
+            "study": "precision-resuscitation-with-crystalloids-in-sepsis"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-07",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-06-13",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-05-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-05-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-02-02",
+            "studyFirstSubmitQcDate": "2024-02-02",
+            "studyFirstPostDateStruct": {
+                "date": "2024-02-12",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-07-26",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-29",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Siva Bhavani",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "Emory University"
+            },
+            "leadSponsor": {
+                "name": "Emory University",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Fluids are one of the most common treatments given to patients in the hospital. Fluids are especially important in treating patients with sepsis. Multiple clinical studies have compared the two main types of fluids used in sepsis (normal saline and balanced crystalloids). However, these studies have not found a clear benefit of one type of fluid versus the other. Which fluid should be given to which patient is an essential question because of the ubiquity of this intervention. Even a small difference in mortality could drastically change the standards of care given the national (and worldwide) scale of this intervention. The investigators have developed an algorithm that uses bedside vital signs (temperature, heart rate, respiratory rate, and blood pressure) to identify a group of patients (Group D) who have a significant mortality benefit from balanced crystalloids. The study randomizes adult patients admitted through emergency departments across 6 Emory hospitals belonging to Group D to intervention versus usual care. The intervention arm involves a prompt to clinicians to use balanced crystalloids rather than normal saline.",
+            "detailedDescription": "In this study, the vitals trajectory algorithm will run on all adult patients presenting to the emergency department (ED) across the Emory Healthcare hospitals. Patients will be enrolled and eligible for randomization once they meet suspicion of infection criteria. Suspicion of infection is defined broadly as the ordering of blood cultures in the emergency department. Group D patients with a blood culture order in whom clinicians initiate a normal saline order will be randomized within the electronic health record to either usual care or the intervention arm. In the intervention arm, if a clinician orders normal saline in a patient classified as Group D, there will be an EHR alert to change the order to balanced crystalloids (i.e., Lactated Ringer or Plasma-Lyte solution). The alert will announce that preliminary data suggests a mortality benefit from balanced crystalloids in this patient and will ask the clinician whether there is a strong clinical indication to use normal saline.\n\nThe intervention is intended to start as early in the hospitalization as possible in the emergency department, as early crystalloid resuscitation choices may have effects on outcomes. The primary analysis is an intention-to-treat analysis (i.e., all patients randomized to intervention versus usual care regardless of whether the intervention resulted in a change in fluid choice). The intervention will be continued only for patients admitted from the emergency department to the intensive care unit. For patients in the intervention arm who are admitted to the ICU, the alert will fire every time normal saline is ordered till ICU discharge, death, or for up to 30 days of hospitalization. The intervention is necessarily unblinded when a clinician receives an alert when ordering normal saline on study patients."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Sepsis"
+            ],
+            "keywords": [
+                "Algorithm",
+                "Fluids",
+                "Infection",
+                "Crystalloids",
+                "Normal Saline"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 2002,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "EHR Alert",
+                    "type": "EXPERIMENTAL",
+                    "description": "Enrolled patients who are classified to Group D by the algorithm will be randomized within the electronic health record to the intervention arm.",
+                    "interventionNames": [
+                        "Other: Algorithm Alarm- Crystalloids"
+                    ]
+                },
+                {
+                    "label": "Standard of Care",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Enrolled patients who are classified to Group D by the algorithm will be randomized within the electronic health record to usual care.",
+                    "interventionNames": [
+                        "Other: Standard of Care"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "Algorithm Alarm- Crystalloids",
+                    "description": "The study uses an algorithm implemented within the Electronic Health Record (EHR). This algorithm identifies patients who belong to a sepsis subphenotype known as \"Group D\", in whom published data has shown a mortality benefit from balanced crystalloids compared to normal saline.\n\nThe intervention is an EHR alert when clinicians order normal saline on Group D patients randomized to intervention. In the intervention arm, if a clinician orders normal saline in a patient classified as Group D, there will be an EHR alert to change the order to balanced crystalloids (i.e., Lactated Ringer or Plasma-Lyte solution).",
+                    "armGroupLabels": [
+                        "EHR Alert"
+                    ],
+                    "otherNames": [
+                        "Intervention Group"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "Standard of Care",
+                    "description": "Enrolled patients who are classified to Group D by the algorithm will be randomized within the electronic health record to usual care. In the usual care arm, the clinicians will not have any feedback from the algorithm and will not know the Group classification of their patient or the recommended fluid type.",
+                    "armGroupLabels": [
+                        "Standard of Care"
+                    ],
+                    "otherNames": [
+                        "Usual Care"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Thirty-day mortality",
+                    "description": "Thirty-day mortality",
+                    "timeFrame": "30 days"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Intensive care unit (ICU) admission",
+                    "description": "Rate of ICU admission",
+                    "timeFrame": "Duration of hospital stay up to 30 days"
+                },
+                {
+                    "measure": "In-hospital mortality",
+                    "description": "Rate of in-hospital mortality.",
+                    "timeFrame": "Duration of hospital stay, up to 30 days"
+                },
+                {
+                    "measure": "Use of vasoactive drugs",
+                    "description": "Proportion of patients requiring vasoactive drugs during hospital admission.",
+                    "timeFrame": "Duration of hospital stay up to 30 days"
+                },
+                {
+                    "measure": "New renal replacement therapy (RRT)",
+                    "description": "Proportion of patients requiring (RRT) during hospital admission",
+                    "timeFrame": "Duration of hospital stay up to 30 days"
+                },
+                {
+                    "measure": "Mechanical ventilation",
+                    "description": "Proportion of patients requiring mechanical ventilation during hospital admission.",
+                    "timeFrame": "Duration of hospital stay up to 30 days"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* All adult patients presenting to the Emergency Department, with a blood culture order in the Emergency Department, who are classified as Group D, in whom a clinician initiates a normal saline order\n\nExclusion Criteria:\n\n* None",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Sivasubramanium Bhavani, MD",
+                    "role": "CONTACT",
+                    "phone": "404-712-2970",
+                    "email": "sivasubramanium.bhavani@emory.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Sivasubramanium Bhavani, MD",
+                    "affiliation": "Emory University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Emory Midtown Hospital",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30308",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sivasubramanium Bhavani, MD",
+                            "role": "CONTACT",
+                            "phone": "404-501-1000",
+                            "email": "sivasubramanium.bhavani@emory.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Saint Joseph's Hospital",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30308",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Healthcare System",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30322",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Hospital",
+                    "status": "RECRUITING",
+                    "city": "Atlanta",
+                    "state": "Georgia",
+                    "zip": "30322",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.749,
+                        "lon": -84.38798
+                    }
+                },
+                {
+                    "facility": "Emory Decatur Hospital",
+                    "status": "RECRUITING",
+                    "city": "Decatur",
+                    "state": "Georgia",
+                    "zip": "30033",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sivasubramanium Bhavani, MD",
+                            "role": "CONTACT",
+                            "phone": "404-712-2970",
+                            "email": "sivasubramanium.bhavani@emory.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.77483,
+                        "lon": -84.29631
+                    }
+                },
+                {
+                    "facility": "Emory Johns Creek Hospital",
+                    "status": "RECRUITING",
+                    "city": "Johns Creek",
+                    "state": "Georgia",
+                    "zip": "30097",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 34.02893,
+                        "lon": -84.19858
+                    }
+                },
+                {
+                    "facility": "Emory Hillandale Hospital",
+                    "status": "RECRUITING",
+                    "city": "Lithonia",
+                    "state": "Georgia",
+                    "zip": "30058",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sivasubramanium Bhavani, MD",
+                            "role": "CONTACT",
+                            "phone": "404-501-8000",
+                            "email": "sivasubramanium.bhavani@emory.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 33.71233,
+                        "lon": -84.10519
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "The investigators will share individual participant data that underlie the results reported in an article, after deidentification (text, tables, figures, and appendices).",
+            "infoTypes": [
+                "STUDY_PROTOCOL"
+            ],
+            "timeFrame": "Data will be shared beginning 6 months after publication, without a specified end date.",
+            "accessCriteria": "Data will be shared with researchers who provide a methodologically sound proposal to achieve the aims in an approved proposal. Proposals should be directed to the primary investigator. To gain access, data requestors will need to sign a data access agreement."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000018805",
+                    "term": "Sepsis"
+                },
+                {
+                    "id": "D000014115",
+                    "term": "Toxemia"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000018746",
+                    "term": "Systemic Inflammatory Response Syndrome"
+                },
+                {
+                    "id": "D000007249",
+                    "term": "Inflammation"
+                },
+                {
+                    "id": "D000010335",
+                    "term": "Pathologic Processes"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M20864",
+                    "name": "Sepsis",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M16869",
+                    "name": "Toxemia",
+                    "asFound": "Sepsis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20818",
+                    "name": "Systemic Inflammatory Response Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10293",
+                    "name": "Inflammation",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        },
+        "interventionBrowseModule": {
+            "browseLeaves": [
+                {
+                    "id": "M21860",
+                    "name": "Pharmaceutical Solutions",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M85917",
+                    "name": "Plasma-lyte 148",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "PhSol",
+                    "name": "Pharmaceutical Solutions"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Drugs and Chemicals"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

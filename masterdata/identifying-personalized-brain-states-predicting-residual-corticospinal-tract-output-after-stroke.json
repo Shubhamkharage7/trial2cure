@@ -1,0 +1,259 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT06365099",
+            "orgStudyIdInfo": {
+                "id": "STUDY00000896_Exp2"
+            },
+            "organization": {
+                "fullName": "University of Texas at Austin",
+                "class": "OTHER"
+            },
+            "briefTitle": "Identifying Personalized Brain States Predicting Residual Corticospinal Tract Output After Stroke",
+            "officialTitle": "Identifying Personalized Brain States Predicting Residual Corticospinal Tract Output After Stroke",
+            "therapeuticArea": [
+                "Neurology"
+            ],
+            "study": "identifying-personalized-brain-states-predicting-residual-corticospinal-tract-output-after-stroke"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-04",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-02-02",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2026-03-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-03-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2024-04-05",
+            "studyFirstSubmitQcDate": "2024-04-10",
+            "studyFirstPostDateStruct": {
+                "date": "2024-04-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-04-10",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-04-15",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Texas at Austin",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Emory University",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Transcranial magnetic stimulation (TMS) interventions could feasibly strengthen residual corticospinal tract (CST) connections and promote poststroke hand motor recovery. To maximize the effects of such interventions, they must be delivered during brain activity patterns during which TMS best activates the residual CST and enhances its neural transmission. This approach is termed brain state-dependent TMS. The investigators have recently developed a machine learning framework that identifies personalized brain activity patterns reflecting strong CST activation in neurotypical adults. In this study, the investigators will apply this framework to the poststroke brain for the first time. They will also evaluate relationships between this framework's ability to detect strong and weak CST activation states and measures of CST pathway integrity.\n\nParticipants will visit the laboratory for two days of testing that are separated by at least one night of sleep. On Day 1, participants will provide their informed consent. The MacArthur Competence Assessment Tool and the Frenchay Aphasia Screening Test will be used to evaluate consent capacity and confirm the presence of expressive aphasia as needed. Afterwards, participants will complete eligibility screening and clinical assessment of upper extremity motor impairment, motor function, and disability using the Upper Extremity Fugl-Meyer Assessment, the Wolf Motor Function Test, and the Modified Rankin Scale. Participants will then be screened for the presence of residual CST connections from the lesioned hemisphere to the affected first dorsal interosseous muscle. Recording electrodes will be attached to this muscle in order to record TMS-evoked twitches in these muscles. During this procedure, single-pulse TMS will be applied to each point of a 1 cm resolution grid covering primary and secondary motor areas of the lesioned hemisphere at maximum stimulator output. If TMS reliably elicits a muscle twitch in the affected first dorsal interosseous, that participant will be considered to have residual CST connections and will be eligible for the full study. If no muscle twitch is observed, the participant will not be eligible for the full study. Afterwards, recording electrodes will be removed and the participant will leave the laboratory.\n\nOn Day 2, participants will return to the laboratory. The investigators will confirm continued eligibility and place recording electrodes on the scalp using a swim-type cap. The investigators will also place recording electrodes on the affected first dorsal interosseous as well as the affected abductor pollicis brevis and extensor digitorum communis muscles. After identifying the scalp location at which TMS best elicits muscle twitches in the affected first dorsal interosseous muscle, the investigators will determine the lowest possible TMS intensity that such evokes muscle twitches at least half of the time. Then, the investigators will deliver 6 blocks of 100 single TMS pulses while participants rest quietly with their eyes open. Stimulation will be delivered at an intensity that is 20% greater than the lowest possible TMS intensity that evokes muscle twitches at least half the time. Afterwards, all electrodes will be removed, participation will be complete, and participants will leave the laboratory.\n\nThe investigators will recruit a total of 20 chronic stroke survivors for this study."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Stroke"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE1"
+            ],
+            "designInfo": {
+                "allocation": "NA",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 20,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Single-pulse TMS",
+                    "description": "Single-pulse TMS will be applied to the lesioned hemisphere while participants rest quietly with their eyes open"
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Personalized classifier performance",
+                    "description": "Personalized machine learning classifiers will be used to discriminate between brain activity patterns during which single-pulse TMS elicits large and small motor-evoked potentials from the affected first dorsal interosseous muscle. After fitting each personalized classifier, F1 values will be calculated and used as performance metrics. F1 values will be compared to the empirical chance level, which will be determined using participant-specific permutation testing.",
+                    "timeFrame": "Through study completion, an average of 2 weeks."
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Corticospinal tract-lesion overlap",
+                    "description": "Each participant's most recent clinical T2-weighted scans will be used to create lesion masks. For participants who have experienced ischemic strokes, diffusion-weighted images will be used. For participants who have experienced hemorrhagic strokes, gradient-echo images will be used. Masks will be spatially normalized to each participant's structural T1-weighted scan and the percentage of CST-lesion overlap with the CST tract will be calculated using the Sensorimotor Area Tract Template (SMATT) atlas. Percentage CST-lesion overlap will be regressed against personalized classifier performance.",
+                    "timeFrame": "Through study completion, an average of 2 weeks."
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* History of stroke \\>6 months ago\n* Presence of residual upper extremity hemiparesis\n* Willingness to participate\n* Ability to provide informed consent\n* Upper extremity Fugl-Meyer score \\< 66\n* Mini Mental State Exam score \\> 24\n* Discernable and reliable motor-evoked potential (MEP) following single-pulse transcranial magnetic stimulation to the lesioned hemisphere\n\nExclusion Criteria:\n\n* History of neurological disease and/or neurological injury other than stroke\n* Presence of contraindications to transcranial magnetic stimulation (TMS) or peripheral nerve stimulation (PNS) including:\n\n  * cardiac pacemaker, cochlear implant, cortical stimulator, deep brain stimulator, vagus nerve stimulator, cervical spine epidural stimulator, and/or ventriculoperitoneal shunt\n  * ferromagnetic metallic implants above the level of the seventh cervical vertebrae\n  * seizure in the last 12 months while taking anti-epilepsy medication\n  * history of adverse reactions to TMS or PNS\n  * current, suspected, or planned pregnancy\n  * recent changes (within the last month) to medication use\n* Upper extremity Fugl-Meyer score = 66\n* Mini Mental State Exam score \\<= 24\n* No discernible or reliable MEP elicited following single-pulse TMS to the lesioned hemisphere",
+            "healthyVolunteers": false,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "University of Texas at Austin",
+                    "status": "RECRUITING",
+                    "city": "Austin",
+                    "state": "Texas",
+                    "zip": "78712",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Sara Hussain",
+                            "role": "CONTACT",
+                            "phone": "512-232-2686",
+                            "email": "sara.hussain@austin.utexas.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 30.26715,
+                        "lon": -97.74306
+                    }
+                }
+            ]
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2024-01-10",
+                    "uploadDate": "2024-04-05T17:22",
+                    "filename": "ICF_000.pdf",
+                    "size": 462079
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000020521",
+                    "term": "Stroke"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000002561",
+                    "term": "Cerebrovascular Disorders"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M22306",
+                    "name": "Stroke",
+                    "asFound": "Stroke",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M5810",
+                    "name": "Cerebrovascular Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

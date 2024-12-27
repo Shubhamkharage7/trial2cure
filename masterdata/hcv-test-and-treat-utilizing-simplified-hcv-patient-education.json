@@ -1,0 +1,449 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05582681",
+            "orgStudyIdInfo": {
+                "id": "21-06023705"
+            },
+            "organization": {
+                "fullName": "Weill Medical College of Cornell University",
+                "class": "OTHER"
+            },
+            "briefTitle": "HCV Test and Treat Utilizing Simplified HCV Patient Education",
+            "officialTitle": "HCV Test and Treat Utilizing Simplified HCV Patient Education",
+            "therapeuticArea": [
+                "Gastroenterology"
+            ],
+            "study": "hcv-test-and-treat-utilizing-simplified-hcv-patient-education"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-03",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2022-11-11",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-10",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-10",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2022-10-12",
+            "studyFirstSubmitQcDate": "2022-10-12",
+            "studyFirstPostDateStruct": {
+                "date": "2022-10-17",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-03-06",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-03-07",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "Weill Medical College of Cornell University",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "AbbVie",
+                    "class": "INDUSTRY"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false,
+            "isUsExport": true
+        },
+        "descriptionModule": {
+            "briefSummary": "The study hypothesis is that the test and treat model utilizing video-based patient education will have higher rates of hepatitis C virus (HCV) treatment initiation and treatment completion.",
+            "detailedDescription": "Viral hepatitis C (HCV) represents a major public health concern and is associated with significant morbidity and mortality. HCV screening and treatment among people who use drugs is challenging due to barriers leading to loss within HCV care cascades at most centers providing addiction care.\n\nOne critical element that would improve access to HCV therapy would be a test, educate and treat system, where people obtain drug on the same day as they are confirmed as Hepatitis C viremic."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Hepatitis C"
+            ],
+            "keywords": [
+                "Hepatitis C Virus"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "PHASE4"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "interventionModelDescription": "This is an open label, phase 4 randomized trial to assess test and treat strategy with simplified video-based patient education versus standard of care referral with health care provider delivered patient education.",
+                "primaryPurpose": "TREATMENT",
+                "maskingInfo": {
+                    "masking": "NONE"
+                }
+            },
+            "enrollmentInfo": {
+                "count": 200,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "HCV Education",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "The intervention of HCV education will be performed at the addiction care setting for video- based patient education. Health care provide delivered patient education is the standard of care referral approach. HCV Education will include HCV disease overview, HCV screening, taking Glecaprevir/Pibrentasivir (G/P), and post study drug assessment and management. Participants may be randomized to either the video-based patient education or the HCV delivered patient education.",
+                    "interventionNames": [
+                        "Other: HCV education from a health care provider",
+                        "Drug: Glecaprevir and Pibrentasvir"
+                    ]
+                },
+                {
+                    "label": "Point of Care (POC) HCV Viremia (RNA) testing",
+                    "type": "EXPERIMENTAL",
+                    "description": "All participants will have standardized laboratory assessments for HCV Viremia (RNA testing) as well as Cepheid POC HCV Viremia (RNA) test. The Cepheid Xpert HCV Viral Load (VL) Fingerstick assay is a test designed for the quantitation (amount) of Hepatitis C Virus (HCV) DNA in human whole blood. The HCV RNA result will be compared to standardized laboratory assessment for HCV Viremia. The Cepheid test is being conducted for research use only and will not be used for HCV diagnosis or treatment decisions.",
+                    "interventionNames": [
+                        "Diagnostic Test: Cepheid POC HCV Viremia (RNA) test",
+                        "Other: HCV education from a health care provider",
+                        "Drug: Glecaprevir and Pibrentasvir"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Cepheid POC HCV Viremia (RNA) test",
+                    "description": "The Cepheid Xpert HCV Viral Load (VL) Fingerstick assay is a test designed for the quantitation (amount) of Hepatitis C Virus (HCV) DNA in human whole blood. The HCV RNA result will be compared to standardized laboratory assessment for HCV Viremia. The Cepheid test is for being conducted for research use only and will not be used for HCV diagnosis or treatment decisions.",
+                    "armGroupLabels": [
+                        "Point of Care (POC) HCV Viremia (RNA) testing"
+                    ]
+                },
+                {
+                    "type": "OTHER",
+                    "name": "HCV education from a health care provider",
+                    "description": "HCV education provided by health care provider. HCV Education will include HCV disease overview, HCV screening, treatment with G/P, and post treatment assessment and management",
+                    "armGroupLabels": [
+                        "HCV Education",
+                        "Point of Care (POC) HCV Viremia (RNA) testing"
+                    ]
+                },
+                {
+                    "type": "DRUG",
+                    "name": "Glecaprevir and Pibrentasvir",
+                    "description": "G/P will be provided for 8 weeks.",
+                    "armGroupLabels": [
+                        "HCV Education",
+                        "Point of Care (POC) HCV Viremia (RNA) testing"
+                    ],
+                    "otherNames": [
+                        "G/P"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Number of subjects who initiated treatment within 8-week window from enrollment.",
+                    "timeFrame": "Up to 8 weeks"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Number of subjects who complete treatment in 8 weeks",
+                    "timeFrame": "Up to 8 weeks"
+                },
+                {
+                    "measure": "Sustained Viral Response 12 weeks post dosing (SVR12) (<lower limit of quantification (LLOQ) of HCV RNA in at 12 weeks post treatment with window up to 24 weeks after end of treatment)",
+                    "timeFrame": "Up to 24 weeks"
+                },
+                {
+                    "measure": "SVR12 (<LLOQ of HCV RNA in at 12 weeks post treatment with window up to 24 weeks after end of treatment) from real world evidence post-marketing observational study (RWE PMOS) efficacy G/P9 (compare test and treat arm with PMOS SVR12 result)",
+                    "timeFrame": "Up to 24 weeks"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Men and women age greater or equal to18 at study entry or emancipated minors over greater or equal to 16 to less or equal 70 years at study entry\n* HCV antibody positive\n* HCV treatment na\u00efve (no prior treatment with an approved or investigational anti HCV medication)\n\nExclusion Criteria:\n\n* Current or history of decompensated liver disease (including but not limited to encephalopathy, variceal bleeding, or ascites) prior to study entry\n* History of hepatocellular carcinoma (HCC)\n* Any history of active Hepatitis B or positive HBsAg positive test\n* HCV RNA undetectable",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Robert S Brown, MD, MPH",
+                    "role": "CONTACT",
+                    "phone": "646-962-5483",
+                    "email": "rsb2005@med.conrell.edu"
+                },
+                {
+                    "name": "Jessica Siguencia",
+                    "role": "CONTACT",
+                    "phone": "646-962-5483",
+                    "email": "jms4007@med.cornell.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Robert S Brown, MD, MPH",
+                    "affiliation": "Weill Medical College of Cornell University",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Phoenix House",
+                    "status": "RECRUITING",
+                    "city": "Long Island City",
+                    "state": "New York",
+                    "zip": "11101",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Linda Sacco, PhD",
+                            "role": "CONTACT",
+                            "phone": "888-671-9392"
+                        },
+                        {
+                            "name": "Jessica Siguencia",
+                            "role": "CONTACT",
+                            "phone": "6469625483",
+                            "email": "jms4007@med.cornell.edu"
+                        },
+                        {
+                            "name": "Robert S Brown, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.74482,
+                        "lon": -73.94875
+                    }
+                },
+                {
+                    "facility": "ColumbiaDoctors Midtown",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10019",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Robert S Brown, MD",
+                            "role": "CONTACT",
+                            "phone": "212-326-8500",
+                            "email": "rb464@cumc.columbia.edu"
+                        },
+                        {
+                            "name": "Jessica Siguencia",
+                            "role": "CONTACT",
+                            "phone": "6469625483",
+                            "email": "jms4007@med.cornell.edu"
+                        },
+                        {
+                            "name": "Robert S Brown, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                },
+                {
+                    "facility": "Weill Cornell Medicine Midtown Center for Treatment and Research",
+                    "status": "RECRUITING",
+                    "city": "New York",
+                    "state": "New York",
+                    "zip": "10036",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Christopher Sturiano, PhD",
+                            "role": "CONTACT",
+                            "phone": "212-764-5178",
+                            "email": "chs2036@med.cornell.edu"
+                        },
+                        {
+                            "name": "Jessica Siguencia",
+                            "role": "CONTACT",
+                            "phone": "6469625483",
+                            "email": "jms4007@med.cornell.edu"
+                        },
+                        {
+                            "name": "Robert S Brown, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 40.71427,
+                        "lon": -74.00597
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000006526",
+                    "term": "Hepatitis C"
+                },
+                {
+                    "id": "D000006505",
+                    "term": "Hepatitis"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000008107",
+                    "term": "Liver Diseases"
+                },
+                {
+                    "id": "D000004066",
+                    "term": "Digestive System Diseases"
+                },
+                {
+                    "id": "D000006525",
+                    "term": "Hepatitis, Viral, Human"
+                },
+                {
+                    "id": "D000014777",
+                    "term": "Virus Diseases"
+                },
+                {
+                    "id": "D000007239",
+                    "term": "Infections"
+                },
+                {
+                    "id": "D000012327",
+                    "term": "RNA Virus Infections"
+                },
+                {
+                    "id": "D000086982",
+                    "term": "Blood-Borne Infections"
+                },
+                {
+                    "id": "D000003141",
+                    "term": "Communicable Diseases"
+                },
+                {
+                    "id": "D000018178",
+                    "term": "Flaviviridae Infections"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9592",
+                    "name": "Hepatitis A",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9591",
+                    "name": "Hepatitis",
+                    "asFound": "Hepatitis",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M17522",
+                    "name": "Virus Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9611",
+                    "name": "Hepatitis C",
+                    "asFound": "Hepatitis C",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M11107",
+                    "name": "Liver Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7255",
+                    "name": "Digestive System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M8883",
+                    "name": "Gastrointestinal Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9610",
+                    "name": "Hepatitis, Viral, Human",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M10283",
+                    "name": "Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M6368",
+                    "name": "Communicable Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M15149",
+                    "name": "RNA Virus Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M2593",
+                    "name": "Blood-Borne Infections",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20324",
+                    "name": "Flaviviridae Infections",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC01",
+                    "name": "Infections"
+                },
+                {
+                    "abbrev": "BC06",
+                    "name": "Digestive System Diseases"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

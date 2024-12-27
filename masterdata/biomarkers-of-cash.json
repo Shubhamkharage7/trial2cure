@@ -1,0 +1,539 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04467489",
+            "orgStudyIdInfo": {
+                "id": "IRB20-0518"
+            },
+            "organization": {
+                "fullName": "University of Chicago",
+                "class": "OTHER"
+            },
+            "briefTitle": "Biomarkers of CASH",
+            "officialTitle": "Biomarkers of Cerebral Cavernous Angioma With Symptomatic Hemorrhage (CASH)",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "biomarkers-of-cash"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2020-05-22",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-06-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2025-06-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2020-07-08",
+            "studyFirstSubmitQcDate": "2020-07-08",
+            "studyFirstPostDateStruct": {
+                "date": "2020-07-13",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-14",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-06-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "SPONSOR"
+            },
+            "leadSponsor": {
+                "name": "University of Chicago",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Mayo Clinic",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "University of California, San Francisco",
+                    "class": "OTHER"
+                },
+                {
+                    "name": "National Institute of Neurological Disorders and Stroke (NINDS)",
+                    "class": "NIH"
+                },
+                {
+                    "name": "Barrow Neurological Institute",
+                    "class": "OTHER"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": false,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The project aims to develop prognostic and diagnostic blood tests for symptomatic brain hemorrhage in patients diagnosed with cavernous angiomas, a critical clinical challenge in a disease affecting more than a million Americans. We further examine whether blood biomarkers can replace or enhance the accuracy of advanced imaging in association with lesional bleeding. The project tests a novel integrational approach of biomarker development in a mechanistically defined cerebrovascular disease, with a clinically relevant context of use.",
+            "detailedDescription": "Cerebral cavernous angioma (CA) is a capillary microangiopathy affecting more than a million Americans, predisposing them to a premature risk of brain hemorrhage. Fewer than 200,000 cases who have suffered a recent symptomatic hemorrhage (SH) are most likely to re-bleed again with serious clinical sequelae, and are the primary focus of therapeutic development. Genetic mechanisms of CA have been extensively studied, and consequent signaling aberrations in the neurovascular unit. These include proliferative dysangiogenesis, blood-brain barrier hyperpermeability, inflammation and immune mediated processes, anticoagulant vascular domain, and gut microbiome-driven mechanisms. Plasma levels of molecules reflecting these mechanisms and measures of vascular permeability and hemorrhage leak on magnetic resonance imaging (MRI) have been correlated with CA hemorrhage in pilot studies. It would be desirable to optimize these biomarkers to accurately diagnose CASH, to prognosticate the risk of future SH, and to monitor cases after a bleed and in response to therapy. This would influence clinical management, and select higher risk cases for clinical trials. Additional candidate biomarkers are emerging from ongoing mechanistic and differential transcriptome studies, which would be expected to further enhance the sensitivity and specificity of diagnosis and prediction of CASH. Weighed combinations of levels of plasma proteins and characteristic micro-ribonucleic acids (miRNA) may further strengthen biomarker associations. Plasma biomarkers may reflect (and potentially replace) more cumbersome and expensive imaging biomarkers for monitoring CA hemorrhage. We here assemble CA researchers and propose to deploy advanced statistical and computational biology approaches for the integration of novel candidate biomarkers. In Specific Aim 1 we assess these biomarkers in a large CA cohort to discover the best plasma biomarkers and validate them in sex, age and relevant clinical subgroups. In Specific Aim 2 we compare changes in MRI measures of vascular permeability and hemorrhage with plasma biomarkers over time. In Specific Aim 3 we query the biomarkers in non-CA subjects, to identify potential confounders in the clinical context. This project integrates analytic and computational biology expertise to develop blood tests for better CASH diagnosis and prognosis. The project tests a novel integrational approach of biomarker development in a mechanistically defined cerebrovascular disease with a relevant context of use. This approach is applicable to other neurological diseases with similar pathobiologic features."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Cerebral Cavernous Malformation",
+                "Cavernous Angioma",
+                "Hemorrhagic Microangiopathy"
+            ],
+            "keywords": [
+                "plasma biomarker",
+                "imaging biomarker",
+                "machine learning"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": true,
+            "targetDuration": "1 Year",
+            "designInfo": {
+                "observationalModel": "CASE_CONTROL",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "bioSpec": {
+                "retention": "SAMPLES_WITHOUT_DNA",
+                "description": "plasma samples"
+            },
+            "enrollmentInfo": {
+                "count": 1040,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "CA (non-CASH)",
+                    "description": "Cavernous Angioma (CA) without symptomatic hemorrhage cases scheduled for evaluation by their neurology or neurosurgery teams in an inpatient or outpatient setting",
+                    "interventionNames": [
+                        "Other: observational"
+                    ]
+                },
+                {
+                    "label": "CA (CASH)",
+                    "description": "Cavernous Angioma (CA) with Symptomatic Hemorrhage (SH) cases scheduled for evaluation by their neurology or neurosurgery teams in an inpatient or outpatient setting",
+                    "interventionNames": [
+                        "Other: observational"
+                    ]
+                },
+                {
+                    "label": "Young with seizure",
+                    "description": "Young (\\<30 years old) healthy control cohorts with seizures in the prior year",
+                    "interventionNames": [
+                        "Other: observational"
+                    ]
+                },
+                {
+                    "label": "Young without seizure",
+                    "description": "Young (\\<30 years old) healthy control cohorts without seizures in the prior year",
+                    "interventionNames": [
+                        "Other: observational"
+                    ]
+                },
+                {
+                    "label": "Older with HMA",
+                    "description": "Older (\\>50 years old) with hemorrhagic microangiopathy (HMA)",
+                    "interventionNames": [
+                        "Other: observational"
+                    ]
+                },
+                {
+                    "label": "Older without HMA",
+                    "description": "Older (\\>50 years old) without hemorrhagic microangiopathy (HMA)",
+                    "interventionNames": [
+                        "Other: observational"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "OTHER",
+                    "name": "observational",
+                    "description": "There is no intervention for any group in this observational study.",
+                    "armGroupLabels": [
+                        "CA (CASH)",
+                        "CA (non-CASH)",
+                        "Older with HMA",
+                        "Older without HMA",
+                        "Young with seizure",
+                        "Young without seizure"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Circulating Diagnostic and Prognostic Biomarkers of CASH",
+                    "description": "To test whether individual and combined levels of candidate plasma proteins and miRNAs can be associated with diagnosis of CASH (cross sectional) and can predict/prognosticate future SH (longitudinal) in CAs",
+                    "timeFrame": "5 years"
+                }
+            ],
+            "secondaryOutcomes": [
+                {
+                    "measure": "Correlation of Imaging and Plasma Biomarkers of CASH",
+                    "description": "To assess whether changes in QSM (quantitative susceptibility mapping) and DCEQP (dynamic contrast enhanced quantitative permeability) used as monitoring biomarkers after a SH, are reflected by changes in plasma biomarkers and miRNAs",
+                    "timeFrame": "5 years"
+                },
+                {
+                    "measure": "Confounders of CASH Biomarkers",
+                    "description": "To assess the plasma biomarkers in non-CA young and older subjects, with and without seizures and hemorrhagic microangiopathy on MRI, to clarify potential confounders in the context of clinical use, and to motivate novel hypotheses for broader applications",
+                    "timeFrame": "5 years"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Aim 1 and 2:\n\nInclusion Criteria:\n\n1. Clinical diagnosis of CA\n2. age 18 or older\n3. solitary or multiple\n4. familial or sporadic\n5. with or without prior symptoms\n\nExclusion Criteria:\n\n1. Prior excision of a solitary CA lesion\n2. prior stereotactic radiosurgery or any brain irradiation\n3. spinal cavernoma without brain lesion\n4. other brain pathology unrelated to CA (demyelinating disease, brain tumor)\n5. seizures or stroke unrelated to CA in the prior year\n6. current pregnancy or within 6 months postpartum\n7. reluctance to undergo venipuncture or donate blood specimen, or be called for clinical follow-up for up to one year\n8. homeless or incarcerated persons, or other reason a subject will be unable/unlikely to be reached for follow-up\n\nAim 3:\n\nInclusion Criteria:\n\n1. \\< 30 years of age\n2. one or more seizures (with or without medical therapy) in the prior year\n\nOR\n\n1. \\> 50 years of age\n2. having received an MRI of the brain with SWI (susceptibility weighted imaging) sequences for any indication in the year prior to enrollment\n3. No HMA on brain MRI SWI sequences\n\nOR\n\n1. \\> 50 years of age\n2. having received an MRI of the brain with SWI sequences for any indication in the year prior to enrollment\n3. Two or more microbleeds on SWI brain MRI sequences, adjudicated by neuroradiologist\n\nExclusion Criteria:\n\n1. concurrent brain disease or structural brain pathology\n2. medical illness requiring hospitalization or surgery, seizure or stroke in the prior 12 months\n3. active use of prescription medications in the prior 12 months\n4. current pregnancy or within 6 months postpartum\n5. reluctance to undergo venipuncture or donate blood specimen\n\nOR\n\n1. concurrent brain disease or structural brain pathology\n2. medical illness requiring hospitalization or surgery, or stroke in the prior 12 months other than seizure disorder\n3. active use of prescription medications in the prior 12 months except anticonvulsants\n4. current pregnancy or within 6 months postpartum\n5. reluctance to undergo venipuncture or donate blood specimen\n\nOR\n\n1. concurrent brain disease or structural brain pathology\n2. medical illness requiring hospitalization or surgery within the prior year\n3. any history of stroke or epileptic seizure within the prior year\n4. current pregnancy or within 6 months postpartum\n5. reluctance to undergo venipuncture or donate blood specimen\n\nOR\n\n1. concurrent brain disease or structural brain pathology\n2. medical illness requiring hospitalization or surgery within the prior year\n3. any history of stroke or epileptic seizure within the prior year\n4. current pregnancy or within 6 months postpartum\n5. reluctance to undergo venipuncture or donate blood specimen",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "We propose to recruit human subjects at three sites, with the project approved and coordinated by the University of Chicago Medicine (UCM) central institutional review board (IRB) and endorsed by respective IRBs at the other two enrolling sites. The study involves no more than minimal risks, discussed herein. The enrolling sites include UCM where the project will be led and where the data coordinating center (DCC) is located and all plasma biomarker assays and statistical analyses are planned, the University of California at San Francisco (UCSF), and Mayo Clinic, Rochester, MN (Mayo). UCSF and Mayo are participants in imaging biomarker validations in longitudinal follow-up of cavernous angioma with symptomatic hemorrhage (CASH) subjects in the TR Project. We project enrolling 1,040 cases during 4 years to address hypotheses in 3 Specific Aims (40 cases enrolled in Specific Aim 2 are also included among the 800 subjects addressing hypotheses of Specific Aim 1).",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Agnieszka Stadnik, MS",
+                    "role": "CONTACT",
+                    "phone": "7737028896",
+                    "email": "astadnik@surgery.bsd.uchicago.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Issam Awad, MD",
+                    "affiliation": "University of Chicago",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Barrow Neurological Institute at St. Joseph's Hospital and Medical Center",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Phoenix",
+                    "state": "Arizona",
+                    "zip": "85013",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 33.44838,
+                        "lon": -112.07404
+                    }
+                },
+                {
+                    "facility": "University of California, San Francisco",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "San Francisco",
+                    "state": "California",
+                    "zip": "94117",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 37.77493,
+                        "lon": -122.41942
+                    }
+                },
+                {
+                    "facility": "The University of Chicago Medical Center",
+                    "status": "RECRUITING",
+                    "city": "Chicago",
+                    "state": "Illinois",
+                    "zip": "60637",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Justine Hsu, BSN",
+                            "role": "CONTACT",
+                            "phone": "773-834-1485",
+                            "email": "justinelee89@bsd.uchicago.edu"
+                        },
+                        {
+                            "name": "Issam A Awad, MD",
+                            "role": "PRINCIPAL_INVESTIGATOR"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.85003,
+                        "lon": -87.65005
+                    }
+                },
+                {
+                    "facility": "Mayo Clinic",
+                    "status": "ACTIVE_NOT_RECRUITING",
+                    "city": "Rochester",
+                    "state": "Minnesota",
+                    "zip": "55905",
+                    "country": "United States",
+                    "geoPoint": {
+                        "lat": 44.02163,
+                        "lon": -92.4699
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "33469662",
+                    "type": "DERIVED",
+                    "citation": "Girard R, Li Y, Stadnik A, Shenkar R, Hobson N, Romanos S, Srinath A, Moore T, Lightle R, Shkoukani A, Akers A, Carroll T, Christoforidis GA, Koenig JI, Lee C, Piedad K, Greenberg SM, Kim H, Flemming KD, Ji Y, Awad IA. A Roadmap for Developing Plasma Diagnostic and Prognostic Biomarkers of Cerebral Cavernous Angioma With Symptomatic Hemorrhage (CASH). Neurosurgery. 2021 Feb 16;88(3):686-697. doi: 10.1093/neuros/nyaa478."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "YES",
+            "description": "Within the first year, we will publish the protocol paper. At the end of the 5 year study, we will publish the data dictionary along with study findings. The expression profile data will be made publicly available no later than the date of initial publication or six months after the receipt of the final sequencing data, whichever comes first.",
+            "infoTypes": [
+                "STUDY_PROTOCOL",
+                "SAP"
+            ],
+            "timeFrame": "The expression profile data will be made publicly available no later than the date of initial publication or six months after the receipt of the final sequencing data, whichever comes first.",
+            "accessCriteria": "The expression profile data will be made publicly available."
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000020786",
+                    "term": "Hemangioma, Cavernous, Central Nervous System"
+                },
+                {
+                    "id": "D000006391",
+                    "term": "Hemangioma"
+                },
+                {
+                    "id": "D000006392",
+                    "term": "Hemangioma, Cavernous"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000000013",
+                    "term": "Congenital Abnormalities"
+                },
+                {
+                    "id": "D000009383",
+                    "term": "Neoplasms, Vascular Tissue"
+                },
+                {
+                    "id": "D000009370",
+                    "term": "Neoplasms by Histologic Type"
+                },
+                {
+                    "id": "D000009369",
+                    "term": "Neoplasms"
+                },
+                {
+                    "id": "D000096826",
+                    "term": "Cavernous Sinus Syndromes"
+                },
+                {
+                    "id": "D000001927",
+                    "term": "Brain Diseases"
+                },
+                {
+                    "id": "D000002493",
+                    "term": "Central Nervous System Diseases"
+                },
+                {
+                    "id": "D000009422",
+                    "term": "Nervous System Diseases"
+                },
+                {
+                    "id": "D000020785",
+                    "term": "Central Nervous System Vascular Malformations"
+                },
+                {
+                    "id": "D000009421",
+                    "term": "Nervous System Malformations"
+                },
+                {
+                    "id": "D000054079",
+                    "term": "Vascular Malformations"
+                },
+                {
+                    "id": "D000018376",
+                    "term": "Cardiovascular Abnormalities"
+                },
+                {
+                    "id": "D000002318",
+                    "term": "Cardiovascular Diseases"
+                },
+                {
+                    "id": "D000020141",
+                    "term": "Hemostatic Disorders"
+                },
+                {
+                    "id": "D000014652",
+                    "term": "Vascular Diseases"
+                },
+                {
+                    "id": "D000006474",
+                    "term": "Hemorrhagic Disorders"
+                },
+                {
+                    "id": "D000006402",
+                    "term": "Hematologic Diseases"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M9556",
+                    "name": "Hemorrhage",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12",
+                    "name": "Congenital Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9479",
+                    "name": "Hemangioma",
+                    "asFound": "Angioma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M22541",
+                    "name": "Hemangioma, Cavernous, Central Nervous System",
+                    "asFound": "Cerebral Cavernous Malformation",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M9480",
+                    "name": "Hemangioma, Cavernous",
+                    "asFound": "Cavernous Angioma",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M12328",
+                    "name": "Neoplasms, Vascular Tissue",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12315",
+                    "name": "Neoplasms by Histologic Type",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M16355",
+                    "name": "Syndrome",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5204",
+                    "name": "Brain Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5742",
+                    "name": "Central Nervous System Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M27558",
+                    "name": "Vascular Malformations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M22540",
+                    "name": "Central Nervous System Vascular Malformations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M12365",
+                    "name": "Nervous System Malformations",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M20503",
+                    "name": "Cardiovascular Abnormalities",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M21977",
+                    "name": "Hemostatic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M5059",
+                    "name": "Blood Coagulation Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M17400",
+                    "name": "Vascular Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9560",
+                    "name": "Hemorrhagic Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M9490",
+                    "name": "Hematologic Diseases",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "T2200",
+                    "name": "Familial Cerebral Cavernous Malformation",
+                    "asFound": "Cerebral Cavernous Malformation",
+                    "relevance": "HIGH"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BC23",
+                    "name": "Symptoms and General Pathology"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                },
+                {
+                    "abbrev": "BC16",
+                    "name": "Diseases and Abnormalities at or Before Birth"
+                },
+                {
+                    "abbrev": "BC04",
+                    "name": "Neoplasms"
+                },
+                {
+                    "abbrev": "BC10",
+                    "name": "Nervous System Diseases"
+                },
+                {
+                    "abbrev": "BC14",
+                    "name": "Heart and Blood Diseases"
+                },
+                {
+                    "abbrev": "BC15",
+                    "name": "Blood and Lymph Conditions"
+                },
+                {
+                    "abbrev": "Rare",
+                    "name": "Rare Diseases"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

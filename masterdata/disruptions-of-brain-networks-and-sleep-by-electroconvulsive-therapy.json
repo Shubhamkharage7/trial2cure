@@ -1,0 +1,280 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05905705",
+            "orgStudyIdInfo": {
+                "id": "202204161"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "K01MH128663",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/K01MH128663"
+                }
+            ],
+            "organization": {
+                "fullName": "Washington University School of Medicine",
+                "class": "OTHER"
+            },
+            "briefTitle": "Disruptions of Brain Networks and Sleep by Electroconvulsive Therapy",
+            "officialTitle": "Disruptions of Brain Networks and Sleep by Electroconvulsive Therapy",
+            "acronym": "DNS-ECT",
+            "therapeuticArea": [
+                "Mental Health"
+            ],
+            "study": "disruptions-of-brain-networks-and-sleep-by-electroconvulsive-therapy"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-11",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-03-07",
+                "type": "ACTUAL"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2027-07-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2027-07-31",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-06-06",
+            "studyFirstSubmitQcDate": "2023-06-06",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-15",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-11-22",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-11-24",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "MohammadMehdi Kafashan",
+                "investigatorTitle": "Instructor",
+                "investigatorAffiliation": "Washington University School of Medicine"
+            },
+            "leadSponsor": {
+                "name": "Washington University School of Medicine",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "National Institute of Mental Health (NIMH)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Electroconvulsive therapy (ECT) alleviates treatment-resistant depression (TRD) through repeated generalized seizures. The goal of this study is to evaluate how ECT impacts sleep-wake regulation and efficiency of information transfer in functional networks in different states of arousal.",
+            "detailedDescription": "Graph-based network analyses of electroencephalographic (EEG) signals allow characterization of functional networks. The robustness of local networks to disruption is quantified as local efficiency (Elocal), while network integration is quantified as global information transfer (Eglobal).\n\nAim 1: Assess relationships between sleep slow-wave activity (SWA) and awake Elocal over the course of ECT.\n\nAim 2: Quantify relationships between depression severity and awake Elocal over the course of ECT."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Treatment Resistant Depression"
+            ]
+        },
+        "designModule": {
+            "studyType": "OBSERVATIONAL",
+            "patientRegistry": false,
+            "designInfo": {
+                "observationalModel": "COHORT",
+                "timePerspective": "PROSPECTIVE"
+            },
+            "enrollmentInfo": {
+                "count": 50,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "interventions": [
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Electroencephalography (EEG)",
+                    "description": "High-density EEG will be acquired during resting wakefulness before each ECT session."
+                },
+                {
+                    "type": "DIAGNOSTIC_TEST",
+                    "name": "Quantitative Measurements of Sleep Microstructure",
+                    "description": "Overnight sleep EEG will be recorded one day before each ECT session using the DREEM device. The DREEM device allows continuous recording of multichannel EEG."
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Slow wave activity (SWA) during non-rapid eye movement sleep (NREM) stage N2/N3",
+                    "description": "Total power of EEG slow waves per minute present during N2/N3 sleep",
+                    "timeFrame": "Up to 4 weeks during patients ECT treatment course"
+                },
+                {
+                    "measure": "Graph-based neural connectivity measure of local efficiency of information transfer (Elocal) during wakefulness",
+                    "description": "Elocal will be calculated as the average inverse shortest path length among neighbors of a node within the network. Nodes will be constructed based on 5-minute recordings of eyes closed wakefulness theta band (4-8 Hz) EEG.",
+                    "timeFrame": "Up to 4 weeks during patients ECT treatment course"
+                },
+                {
+                    "measure": "Graph-based neural connectivity measure of global information transfer (Eglobal) during ECT-induced seizure",
+                    "description": "Eglobal will be calculated as the average inverse shortest path length between node pairs in the networks. Nodes will be constructed based on ECT-induced seizure EEG data within the alpha band (8-13 Hz).",
+                    "timeFrame": "Up to 4 weeks during patients ECT treatment course"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Referral for initial ECT index course for Treatment-Resistant Depression (TRD), unipolar major depressive disorder or bipolar depression. Historic failure of response or remission to at least two antidepressant medications of sufficient dose and duration will be used for TRD diagnostic.\n\nExclusion Criteria:\n\n* Diagnoses of schizophrenia or schizoaffective disorders.\n* Subjects who are unable to tolerate the Dreem device for sleep recordings will be excluded from the study.",
+            "sex": "ALL",
+            "minimumAge": "21 Years",
+            "maximumAge": "65 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ],
+            "studyPopulation": "Treatment-Resistant Depression (TRD), unipolar major depressive disorder or bipolar depression",
+            "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Robby Greenspan",
+                    "role": "CONTACT",
+                    "phone": "314-273-6129",
+                    "email": "greenspan@wustl.edu"
+                },
+                {
+                    "name": "MohammadMehdi Kafashan",
+                    "role": "CONTACT",
+                    "phone": "314-273-8848",
+                    "email": "kafashan@wustl.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "MohammadMehdi Kafashan",
+                    "affiliation": "Washington University School of Medicine in St. Louis",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Washington University School of Medicine/Barnes-Jewish Hospital",
+                    "status": "RECRUITING",
+                    "city": "Saint Louis",
+                    "state": "Missouri",
+                    "zip": "63110",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Robby Greenspan",
+                            "role": "CONTACT",
+                            "phone": "314-273-6129",
+                            "email": "greenspan@wustl.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 38.62727,
+                        "lon": -90.19789
+                    }
+                }
+            ]
+        },
+        "referencesModule": {
+            "references": [
+                {
+                    "pmid": "36405897",
+                    "type": "BACKGROUND",
+                    "citation": "Subramanian S, Labonte AK, Nguyen T, Luong AH, Hyche O, Smith SK, Hogan RE, Farber NB, Palanca BJA, Kafashan M; CET-REM Study Group. Correlating electroconvulsive therapy response to electroencephalographic markers: Study protocol. Front Psychiatry. 2022 Nov 3;13:996733. doi: 10.3389/fpsyt.2022.996733. eCollection 2022."
+                },
+                {
+                    "pmid": "32853716",
+                    "type": "BACKGROUND",
+                    "citation": "Hill AT, Zomorrodi R, Hadas I, Farzan F, Voineskos D, Throop A, Fitzgerald PB, Blumberger DM, Daskalakis ZJ. Resting-state electroencephalographic functional network alterations in major depressive disorder following magnetic seizure therapy. Prog Neuropsychopharmacol Biol Psychiatry. 2021 Jun 8;108:110082. doi: 10.1016/j.pnpbp.2020.110082. Epub 2020 Aug 24."
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        },
+        "conditionBrowseModule": {
+            "meshes": [
+                {
+                    "id": "D000061218",
+                    "term": "Depressive Disorder, Treatment-Resistant"
+                }
+            ],
+            "ancestors": [
+                {
+                    "id": "D000003866",
+                    "term": "Depressive Disorder"
+                },
+                {
+                    "id": "D000019964",
+                    "term": "Mood Disorders"
+                },
+                {
+                    "id": "D000001523",
+                    "term": "Mental Disorders"
+                }
+            ],
+            "browseLeaves": [
+                {
+                    "id": "M7058",
+                    "name": "Depression",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M7061",
+                    "name": "Depressive Disorder",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M29783",
+                    "name": "Depressive Disorder, Treatment-Resistant",
+                    "asFound": "Treatment Resistant Depression",
+                    "relevance": "HIGH"
+                },
+                {
+                    "id": "M21835",
+                    "name": "Mood Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M4815",
+                    "name": "Mental Disorders",
+                    "relevance": "LOW"
+                },
+                {
+                    "id": "M14473",
+                    "name": "Psychotic Disorders",
+                    "relevance": "LOW"
+                }
+            ],
+            "browseBranches": [
+                {
+                    "abbrev": "BXM",
+                    "name": "Behaviors and Mental Disorders"
+                },
+                {
+                    "abbrev": "All",
+                    "name": "All Conditions"
+                }
+            ]
+        }
+    },
+    "hasResults": false
+}

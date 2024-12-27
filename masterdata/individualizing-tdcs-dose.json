@@ -1,0 +1,268 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT04742439",
+            "orgStudyIdInfo": {
+                "id": "00104712"
+            },
+            "secondaryIdInfos": [
+                {
+                    "id": "P2CHD086844",
+                    "type": "NIH",
+                    "link": "https://reporter.nih.gov/quickSearch/P2CHD086844"
+                }
+            ],
+            "organization": {
+                "fullName": "Medical University of South Carolina",
+                "class": "OTHER"
+            },
+            "briefTitle": "Individualizing tDCS Dose",
+            "officialTitle": "Testing the Effects of Individualized and 4mA tDCS",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "individualizing-tdcs-dose"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2024-06",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2024-12-31",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2025-12-31",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2026-04-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2021-02-02",
+            "studyFirstSubmitQcDate": "2021-02-02",
+            "studyFirstPostDateStruct": {
+                "date": "2021-02-08",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2024-06-30",
+            "lastUpdatePostDateStruct": {
+                "date": "2024-07-03",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Kevin Caulfield",
+                "investigatorTitle": "Research Assistant Professor-Faculty",
+                "investigatorAffiliation": "Medical University of South Carolina"
+            },
+            "leadSponsor": {
+                "name": "Medical University of South Carolina",
+                "class": "OTHER"
+            },
+            "collaborators": [
+                {
+                    "name": "Eunice Kennedy Shriver National Institute of Child Health and Human Development (NICHD)",
+                    "class": "NIH"
+                }
+            ]
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": true,
+            "isUsExport": false
+        },
+        "descriptionModule": {
+            "briefSummary": "Transcranial direct current stimulation (tDCS) is a noninvasive method of modulating brain activity and has therapeutic potential in many neurological and psychiatric conditions. However, unlike every current FDA-approved form of brain stimulation, there is no method of individualizing stimulation dose. In this study, a method of individualizing tDCS dose on behavioral outcomes and whether this could help to improve the consistency and magnitude of the stimulation effects will be tested."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "tDCS",
+                "Motor Function"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "CROSSOVER",
+                "primaryPurpose": "BASIC_SCIENCE",
+                "maskingInfo": {
+                    "masking": "TRIPLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER",
+                        "INVESTIGATOR"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 70,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "Sham stimulation",
+                    "type": "SHAM_COMPARATOR",
+                    "interventionNames": [
+                        "Device: Sham transcranial direct current stimulation"
+                    ]
+                },
+                {
+                    "label": "Individualized stimulation",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Device: Individualized transcranial direct current stimulation"
+                    ]
+                },
+                {
+                    "label": "2mA stimulation",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Device: 2mA transcranial direct current stimulation"
+                    ]
+                },
+                {
+                    "label": "4mA stimulation",
+                    "type": "EXPERIMENTAL",
+                    "interventionNames": [
+                        "Device: 4mA transcranial direct current stimulation"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "DEVICE",
+                    "name": "Sham transcranial direct current stimulation",
+                    "description": "Participants will receive 30 seconds of ramp up and down stimulation at the start and end of the 20 minute stimulation period.",
+                    "armGroupLabels": [
+                        "Sham stimulation"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "Individualized transcranial direct current stimulation",
+                    "description": "Participants will receive 20 minutes of transcranial direct current stimulation (tDCS) at the individualized dose (maximum of 4mA).",
+                    "armGroupLabels": [
+                        "Individualized stimulation"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "2mA transcranial direct current stimulation",
+                    "description": "Participants will receive 20 minutes of transcranial direct current stimulation (tDCS) at a 2mA dose.",
+                    "armGroupLabels": [
+                        "2mA stimulation"
+                    ]
+                },
+                {
+                    "type": "DEVICE",
+                    "name": "4mA transcranial direct current stimulation",
+                    "description": "Participants will receive 20 minutes of transcranial direct current stimulation (tDCS) at a 4mA dose.",
+                    "armGroupLabels": [
+                        "4mA stimulation"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Change in Motor Evoked Potential Variance",
+                    "description": "MEP variance is measured by single pulses of transcranial magnetic stimulation and contralateral hand electrodes.",
+                    "timeFrame": "Baseline and post-stimulation (20 minutes apart)"
+                },
+                {
+                    "measure": "Difference in Motor Evoked Potential Amplitudes from 4mA and 2mA Stimulation",
+                    "description": "MEP amplitude is measured by single pulses of transcranial magnetic stimulation and contralateral hand electrodes.",
+                    "timeFrame": "Baseline and post-stimulation (20 minutes apart)"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Healthy volunteers or chronic stroke participants (at least 6 months prior to the study)\n* No history of epilepsy\n* No metal in the body\n* No contraindications for TMS or MRI scanning\n* Right handed\n* Ability to find motor hotspot and acquire motor evoked potentials\n\nExclusion Criteria:\n\n* Metal in the body\n* History of epilepsy or claustrophobia\n* Alcohol or substance abuse or dependence\n* Current treatment for any psychiatric conditions (pharmacological or otherwise)\n* Pregnant or actively breastfeeding",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "80 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "centralContacts": [
+                {
+                    "name": "Mark S George",
+                    "role": "CONTACT",
+                    "phone": "8437929888",
+                    "email": "georgem@musc.edu"
+                }
+            ],
+            "overallOfficials": [
+                {
+                    "name": "Mark S George, MD",
+                    "affiliation": "Medical University of South Carolina",
+                    "role": "PRINCIPAL_INVESTIGATOR"
+                }
+            ],
+            "locations": [
+                {
+                    "facility": "Medical University of South Carolina",
+                    "status": "RECRUITING",
+                    "city": "Charleston",
+                    "state": "South Carolina",
+                    "zip": "29425",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Kevin A Caulfield",
+                            "role": "CONTACT",
+                            "email": "caulfiel@musc.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 32.77657,
+                        "lon": -79.93092
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "NO"
+        }
+    },
+    "documentSection": {
+        "largeDocumentModule": {
+            "largeDocs": [
+                {
+                    "typeAbbrev": "ICF",
+                    "hasProtocol": false,
+                    "hasSap": false,
+                    "hasIcf": true,
+                    "label": "Informed Consent Form",
+                    "date": "2023-01-19",
+                    "uploadDate": "2023-12-15T13:46",
+                    "filename": "ICF_000.pdf",
+                    "size": 3039174
+                }
+            ]
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}

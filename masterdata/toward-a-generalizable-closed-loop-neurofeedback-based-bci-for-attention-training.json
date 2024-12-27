@@ -1,0 +1,205 @@
+{
+    "protocolSection": {
+        "identificationModule": {
+            "nctId": "NCT05908253",
+            "orgStudyIdInfo": {
+                "id": "URhodeIsland"
+            },
+            "organization": {
+                "fullName": "University of Rhode Island",
+                "class": "OTHER"
+            },
+            "briefTitle": "Toward a Generalizable Closed-loop Neurofeedback-based BCI for Attention Training",
+            "officialTitle": "Toward a Generalizable Closed-loop Neurofeedback-based BCI for Attention Training",
+            "therapeuticArea": [
+                "Other"
+            ],
+            "study": "toward-a-generalizable-closed-loop-neurofeedback-based-bci-for-attention-training"
+        },
+        "statusModule": {
+            "statusVerifiedDate": "2023-10",
+            "overallStatus": "RECRUITING",
+            "expandedAccessInfo": {
+                "hasExpandedAccess": false
+            },
+            "startDateStruct": {
+                "date": "2023-10-16",
+                "type": "ESTIMATED"
+            },
+            "primaryCompletionDateStruct": {
+                "date": "2024-04-30",
+                "type": "ESTIMATED"
+            },
+            "completionDateStruct": {
+                "date": "2024-04-30",
+                "type": "ESTIMATED"
+            },
+            "studyFirstSubmitDate": "2023-03-01",
+            "studyFirstSubmitQcDate": "2023-06-07",
+            "studyFirstPostDateStruct": {
+                "date": "2023-06-18",
+                "type": "ACTUAL"
+            },
+            "lastUpdateSubmitDate": "2023-10-16",
+            "lastUpdatePostDateStruct": {
+                "date": "2023-10-17",
+                "type": "ACTUAL"
+            }
+        },
+        "sponsorCollaboratorsModule": {
+            "responsibleParty": {
+                "type": "PRINCIPAL_INVESTIGATOR",
+                "investigatorFullName": "Reza Abiri",
+                "investigatorTitle": "Assistant Professor",
+                "investigatorAffiliation": "University of Rhode Island"
+            },
+            "leadSponsor": {
+                "name": "University of Rhode Island",
+                "class": "OTHER"
+            }
+        },
+        "oversightModule": {
+            "oversightHasDmc": true,
+            "isFdaRegulatedDrug": false,
+            "isFdaRegulatedDevice": false
+        },
+        "descriptionModule": {
+            "briefSummary": "The proposed study accelerates the translational aspect of neurofeedback-based attention training using novel technologies, algorithms, and neuromarkers. The presented brain training intervention and approaches will not only be applicable to attention remedy in patients with attention deficits but also can be applied to treatment of other neurocognitive (mental) disorders such as anxiety, depression, and addiction.",
+            "detailedDescription": "After consenting and passing pre-screening questions, each participant will be assigned to a closed-loop neurofeedback group study (1-sham neurofeedback, 2- nonadaptive neurofeedback, 3- adaptive neurofeedback) in a blind process (human subjects are not aware of these groups). Each participant will be asked to complete a three-phase experiment (phase 1: open-loop pre-evaluation, phase 2: closed-loop neurofeedback, phase 3: open-loop post-evaluation) in one single session. Duration of each session will be around two hours. For running the experiment, participant will be seated in a comfortable chair in front of a monitor. A 8 channels EEG cap or 32 channels EEG cap (from gtec company) will be placed on his/her scalp following by electrode placement in the designated areas of 10-20 system. Overall the screening and preparation of setup take about 40 minutes. In the following all the phases for all the groups are explained in detail:\n\nPhase 1: open-loop pre-evaluation \\[consistent among all participants in three groups: 1- sham neurofeedback, 2- nonadaptive neurofeedback 3- adaptive neurofeedback\\] The investigators first setup a real-time BCI system to collect EEG signals and behavioral responses in a synchronous way. The investigators will use their previously established paradigm for visual attention training in which blended images of \"face\" and \"scene\" is shown in a sequence of trials and the behavioral response to primed categories are collected using push buttons. Each composite image is shown for one second. Across trials, if the initial instruction is for face images, the participant will push a key on a keyword with the right hand if the male face is observed and push a different key on a keyword with the left hand if a female face is shown. If the initial instruction is for scene images, the participant will push a key on a keyword with the right hand for indoor scene and push a different key with the left hand for outdoor scene. One run (each run is 8 blocks, each block with 50 trials, each trial one second) will be considered for this phase. With necessary resting time for the participant and preparation of researchers for the phase 2, we approximate 15 minutes for the duration of this phase.\n\nPhase 2: closed-loop neurofeedback \\[only for subjects in group: 1- sham neurofeedback\\] In evaluation phase 1, the investigators build an attentional model per participant to determine his/her attentional state to a primed category in the blended image (50% face image and 50% scene image). During sham neurofeedback task, the participant is asked to control the blurriness and transparency of a face or scene image in the blended image (as feedback reward/punish) by using his/her neural activities. Only neural data is recorded during sham neurofeedback phase. Since, it's a sham method, our algorithm will randomly determine the blurriness and transparency of images regardless of collected EEG data. 5 runs (each run is 8 blocks, each block with 50 trials, each trial is one second) will be considered for this phase. With necessary resting time for the participant and preparation of researchers for the phase 3, we approximate 50 minutes for the duration of this phase.\n\nPhase 2: closed-loop neurofeedback \\[only for subjects in group: 2- nonadaptive neurofeedback\\] In evaluation phase 1, the investigators build an attentional fixed model per participant to determine his/her attentional state to a primed category in the blended image (50% face image and 50% scene image). This model will be fed to online processing pipeline. During nonadaptive neurofeedback task, the participant is asked to control the blurriness and transparency of a face or scene image in the blended image (as feedback reward/punish) by using his/her neural activities. Only neural data is recorded during nonadaptive neurofeedback phase. 5 runs (each run is 8 blocks, each block with 50 trials, each trial is one second) will be considered for this phase. With necessary resting time for the participant and preparation of researchers for the phase 3, we approximate 50 minutes for the duration of this phase.\n\nPhase 2: closed-loop neurofeedback \\[only for subjects in group: 3- adaptive neurofeedback\\] In evaluation phase 1, the investigators build an attentional fixed model per subject to determine his/her attentional state to a primed category in the blended image (50% face image and 50% scene image). This model will be used to initialize the online processing pipeline. During adaptive neurofeedback task, the subject is asked to control the blurriness and transparency of a face or scene image in the blended image (as feedback reward/punish) by using his/her neural activities. Based on employed algorithm, the attential model is adjusted and re-fitted to new upcoming neural data. Only neural data is recorded during adaptive neurofeedback phase. 5 runs (each run is 8 blocks, each block with 50 trials, each trial is one second) will be considered for this phase. With necessary resting time for the participant and preparation of researchers for the phase 3, we approximate 50 minutes for the duration of this phase.\n\nPhase 3: open-loop post-evaluation \\[consistent among all subjects in three groups: 1- sham neurofeedback, 2- nonadaptive neurofeedback 3- adaptive neurofeedback\\] This phase will be completely similar to phase 1. One run (each run is 8 blocks, each block with 50 trials, each trial is one second) will be considered for this phase. With necessary resting time for the participant, we approximate 15 minutes for the duration of this phase."
+        },
+        "conditionsModule": {
+            "conditions": [
+                "Neurofeedback"
+            ]
+        },
+        "designModule": {
+            "studyType": "INTERVENTIONAL",
+            "phases": [
+                "NA"
+            ],
+            "designInfo": {
+                "allocation": "RANDOMIZED",
+                "interventionModel": "PARALLEL",
+                "primaryPurpose": "DIAGNOSTIC",
+                "maskingInfo": {
+                    "masking": "DOUBLE",
+                    "whoMasked": [
+                        "PARTICIPANT",
+                        "CARE_PROVIDER"
+                    ]
+                }
+            },
+            "enrollmentInfo": {
+                "count": 45,
+                "type": "ESTIMATED"
+            }
+        },
+        "armsInterventionsModule": {
+            "armGroups": [
+                {
+                    "label": "sham neurofeedback",
+                    "type": "SHAM_COMPARATOR",
+                    "description": "Both neural activity and accuracy of behavioral responses will be evaluated before and after a closed-loop sham neurofeedback protocol.",
+                    "interventionNames": [
+                        "Behavioral: sham neurofeedback"
+                    ]
+                },
+                {
+                    "label": "nonadaptive neurofeedback",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Both neural activity and accuracy of behavioral responses will be evaluated before and after a closed-loop nonadaptive neurofeedback protocol. In this method, the stimuli is changed using the upcoming neural activity and an open-loop attention model of the corresponding human subject.",
+                    "interventionNames": [
+                        "Behavioral: nonadaptive neurofeedback"
+                    ]
+                },
+                {
+                    "label": "adaptive neurofeedback",
+                    "type": "ACTIVE_COMPARATOR",
+                    "description": "Both neural activity and accuracy of behavioral responses will be evaluated before and after a closed-loop adaptive neurofeedback protocol. In this method, the stimuli is changed using the upcoming neural activity and an adaptive algorithm.",
+                    "interventionNames": [
+                        "Behavioral: adaptive neurofeedback"
+                    ]
+                }
+            ],
+            "interventions": [
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "sham neurofeedback",
+                    "description": "Both neural activity and accuracy of behavioral responses will be evaluated before and after a closed-loop sham neurofeedback protocol.",
+                    "armGroupLabels": [
+                        "sham neurofeedback"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "nonadaptive neurofeedback",
+                    "description": "Both neural activity and accuracy of behavioral responses will be evaluated before and after a closed-loop nonadaptive neurofeedback protocol. In this method, the stimuli is changed using the upcoming neural activity and an open-loop attention model of the corresponding human subject.",
+                    "armGroupLabels": [
+                        "nonadaptive neurofeedback"
+                    ]
+                },
+                {
+                    "type": "BEHAVIORAL",
+                    "name": "adaptive neurofeedback",
+                    "description": "Both neural activity and accuracy of behavioral responses will be evaluated before and after a closed-loop adaptive neurofeedback protocol. In this method, the stimuli is changed using the upcoming neural activity and an adaptive algorithm.",
+                    "armGroupLabels": [
+                        "adaptive neurofeedback"
+                    ]
+                }
+            ]
+        },
+        "outcomesModule": {
+            "primaryOutcomes": [
+                {
+                    "measure": "Accuracy of behavioral performance measured by push buttons in response to stimuli",
+                    "description": "This outcome focuses on the effectiveness of closed-loop algorithms for neurofeedback-based attention training. The behavioral responses to instructed stimuli before and after closed-loop neurofeedback will be measured by push buttons and will be evaluated.",
+                    "timeFrame": "12 months"
+                }
+            ]
+        },
+        "eligibilityModule": {
+            "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults aged over 18 years\n* No prior medical record of brain damage\n* No prior diagnosis of mental issue\n* Ample physical condition to push buttons / keywords\n\nExclusion Criteria:\n\n* Clinical diagnosis of Alzheimer's Disease or other mental issues\n* Medical record of brain damage\n* Upper limb physical disability",
+            "healthyVolunteers": true,
+            "sex": "ALL",
+            "minimumAge": "18 Years",
+            "maximumAge": "70 Years",
+            "stdAges": [
+                "ADULT",
+                "OLDER_ADULT"
+            ]
+        },
+        "contactsLocationsModule": {
+            "locations": [
+                {
+                    "facility": "University of Rhode Island",
+                    "status": "RECRUITING",
+                    "city": "Kingston",
+                    "state": "Rhode Island",
+                    "zip": "02881",
+                    "country": "United States",
+                    "contacts": [
+                        {
+                            "name": "Reza Abiri, PhD",
+                            "role": "CONTACT",
+                            "phone": "401-874-4102",
+                            "email": "reza_abiri@uri.edu"
+                        }
+                    ],
+                    "geoPoint": {
+                        "lat": 41.48038,
+                        "lon": -71.52256
+                    }
+                }
+            ]
+        },
+        "ipdSharingStatementModule": {
+            "ipdSharing": "UNDECIDED"
+        }
+    },
+    "derivedSection": {
+        "miscInfoModule": {
+            "versionHolder": "2024-07-30"
+        }
+    },
+    "hasResults": false
+}
