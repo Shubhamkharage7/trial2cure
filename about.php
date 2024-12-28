@@ -94,7 +94,7 @@
       <div class="container pt-10 pb-12 pt-md-10 pb-md-6 text-center">
         <div class="row">
           <div class="col-md-7 col-lg-6 col-xl-8 mx-auto">
-            <h1 class="display-3 mb-3 ">Hello there 😊 at <span class="display-4 mb-4">Trial<span style="color: #45c4a0;">2</span>Cure,</span></h1>
+            <h1 class="display-3 mb-3 ">Hello there 😊 at <span class="display-4 mb-4">Trial<span style="color: #45c4a0;">2</span>Cure!</span></h1>
             <div class="text-green text-left">
               <div>
                 <h4 class="fs-20 ls-sm">1. Personalized Matches:
