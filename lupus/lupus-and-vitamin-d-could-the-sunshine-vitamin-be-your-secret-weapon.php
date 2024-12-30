@@ -17,16 +17,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Learn how vitamin D helps manage lupus symptoms and boost immune function. Discover the benefits of the sunshine vitamin for autoimmune disease management.">
-    <meta name="keywords" content="Lupus, vitamin D, sunshine vitamin, lupus management, autoimmune disease, lupus treatment, Trial2Cure">
+        content="Discover how vitamin D deficiency affects lupus symptoms and immune function. Learn about safe supplementation, sunlight exposure tips, and evidence-based benefits for lupus management.">
+    <meta name="keywords" content="Lupus vitamin D deficiency, sunshine vitamin benefits, lupus management, autoimmune disease treatment, vitamin D supplementation, lupus symptoms, lupus and sunlight sensitivity, lupus immune system, Trial2Cure">
     <meta name="author" content="Trial2Cure">
-    <title>Lupus & Vitamin D: Sunshine Vitamin Benefits | Trial2Cure</title>
+    <title>Lupus and Vitamin D Deficiency: Benefits & Management Guide | Trial2Cure</title>
     <link rel="canonical" href="https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon" />
 
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Lupus & Vitamin D: Sunshine Vitamin Benefits | Trial2Cure" />
+    <meta property="og:title" content="Lupus and Vitamin D Deficiency: Benefits & Management Guide | Trial2Cure" />
     <meta property="og:description"
-        content="Learn how vitamin D helps manage lupus symptoms and boost immune function. Discover the benefits of the sunshine vitamin for autoimmune disease management." />
+        content="Discover how vitamin D deficiency affects lupus symptoms and immune function. Learn about safe supplementation, sunlight exposure tips, and evidence-based benefits for lupus management." />
     <meta property="og:url" content="https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon" />
     <meta property="og:image" content="https://trial2cure.com/assets/img/vitamin-d-lupus-management.jpg" />
     <meta property="og:image:alt" content="Vitamin D benefits for lupus management - Trial2Cure research insights" />
@@ -35,9 +35,9 @@
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Lupus & Vitamin D: Sunshine Vitamin Benefits | Trial2Cure" />
+    <meta name="twitter:title" content="Lupus and Vitamin D Deficiency: Benefits & Management Guide | Trial2Cure" />
     <meta name="twitter:description"
-        content="Learn how vitamin D helps manage lupus symptoms and boost immune function. Discover the benefits of the sunshine vitamin for autoimmune disease management." />
+        content="Discover how vitamin D deficiency affects lupus symptoms and immune function. Learn about safe supplementation, sunlight exposure tips, and evidence-based benefits for lupus management." />
     <meta name="twitter:url" content="https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon" />
     <meta name="twitter:image" content="https://trial2cure.com/assets/img/vitamin-d-lupus-management.jpg" />
     <meta name="twitter:image:alt" content="Vitamin D benefits for lupus management - Trial2Cure research insights" />
@@ -73,6 +73,10 @@
             },
             "datePublished": "2024-05-03",
             "dateModified": "2024-05-03",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon"
+            },
             "description": "Discover the potential benefits of vitamin D for managing lupus. Learn how the sunshine vitamin might be a secret weapon in your lupus treatment plan."
         }
     </script>
