@@ -17,30 +17,30 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description"
-        content="Learn how vitamin D helps manage lupus symptoms and boost immune function. Discover the benefits of the sunshine vitamin for autoimmune disease management.">
-    <meta name="keywords" content="Lupus, vitamin D, sunshine vitamin, lupus management, autoimmune disease, lupus treatment, Trial2Cure">
+        content="Discover how vitamin D deficiency affects lupus symptoms and immune function. Learn about safe supplementation, sunlight exposure tips, and evidence-based benefits for lupus management.">
+    <meta name="keywords" content="Lupus vitamin D deficiency, sunshine vitamin benefits, lupus management, autoimmune disease treatment, vitamin D supplementation, lupus symptoms, lupus and sunlight sensitivity, lupus immune system, Trial2Cure">
     <meta name="author" content="Trial2Cure">
-    <title>Lupus & Vitamin D: Sunshine Vitamin Benefits | Trial2Cure</title>
+    <title>Lupus and Vitamin D Deficiency: Benefits & Management Guide | Trial2Cure</title>
     <link rel="canonical" href="https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon" />
 
     <!-- Open Graph Tags -->
-    <meta property="og:title" content="Lupus & Vitamin D: Sunshine Vitamin Benefits | Trial2Cure" />
+    <meta property="og:title" content="Lupus and Vitamin D Deficiency: Benefits & Management Guide | Trial2Cure" />
     <meta property="og:description"
-        content="Learn how vitamin D helps manage lupus symptoms and boost immune function. Discover the benefits of the sunshine vitamin for autoimmune disease management." />
+        content="Discover how vitamin D deficiency affects lupus symptoms and immune function. Learn about safe supplementation, sunlight exposure tips, and evidence-based benefits for lupus management." />
     <meta property="og:url" content="https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon" />
-    <meta property="og:image" content="https://trial2cure.com/assets/img/trialtocure-logo.png" />
-    <meta property="og:image:alt" content="Trial2Cure Logo - Your Partner in Clinical Trial Research" />
+    <meta property="og:image" content="https://trial2cure.com/assets/img/vitamin-d-lupus-management.jpg" />
+    <meta property="og:image:alt" content="Vitamin D benefits for lupus management - Trial2Cure research insights" />
     <meta property="og:type" content="article" />
     <meta property="og:site_name" content="Trial2Cure" />
 
     <!-- Twitter Card Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Lupus & Vitamin D: Sunshine Vitamin Benefits | Trial2Cure" />
+    <meta name="twitter:title" content="Lupus and Vitamin D Deficiency: Benefits & Management Guide | Trial2Cure" />
     <meta name="twitter:description"
-        content="Learn how vitamin D helps manage lupus symptoms and boost immune function. Discover the benefits of the sunshine vitamin for autoimmune disease management." />
+        content="Discover how vitamin D deficiency affects lupus symptoms and immune function. Learn about safe supplementation, sunlight exposure tips, and evidence-based benefits for lupus management." />
     <meta name="twitter:url" content="https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon" />
-    <meta name="twitter:image" content="https://trial2cure.com/assets/img/trialtocure-logo.png" />
-    <meta name="twitter:image:alt" content="Trial2Cure Logo - Your Partner in Clinical Trial Research" />
+    <meta name="twitter:image" content="https://trial2cure.com/assets/img/vitamin-d-lupus-management.jpg" />
+    <meta name="twitter:image:alt" content="Vitamin D benefits for lupus management - Trial2Cure research insights" />
     <meta name="twitter:site" content="@trial2cure" />
     <meta name="twitter:creator" content="@trial2cure" />
 
@@ -58,7 +58,7 @@
             "@context": "https://schema.org",
             "@type": "Article",
             "headline": "Lupus and Vitamin D: Could the Sunshine Vitamin Be Your Secret Weapon?",
-            "image": "https://trial2cure.com/assets/img/trialtocure-logo.png",
+            "image": "https://trial2cure.com/assets/img/vitamin-d-lupus-management.jpg",
             "author": {
                 "@type": "Organization",
                 "name": "Trial2Cure"
@@ -68,11 +68,15 @@
                 "name": "Trial2Cure",
                 "logo": {
                     "@type": "ImageObject",
-                    "url": "https://trial2cure.com/assets/img/trialtocure-logo.png"
+                    "url": "https://trial2cure.com/assets/img/vitamin-d-lupus-management.jpg"
                 }
             },
             "datePublished": "2024-05-03",
             "dateModified": "2024-05-03",
+            "mainEntityOfPage": {
+                "@type": "WebPage",
+                "@id": "https://trial2cure.com/lupus/lupus-and-vitamin-d-could-the-sunshine-vitamin-be-your-secret-weapon"
+            },
             "description": "Discover the potential benefits of vitamin D for managing lupus. Learn how the sunshine vitamin might be a secret weapon in your lupus treatment plan."
         }
     </script>
@@ -126,12 +130,7 @@
                     <div class="col-lg-10 mx-auto">
                         <div class="blog single mt-n17">
                             <div class="card">
-                                <figure class="card-img-top">
-                                    <picture>
-                                        <source srcset="../assets/img/trialtocure-logo.webp" type="image/webp">
-                                        <img src="../assets/img/trialtocure-logo.png" alt="Vitamin D benefits for lupus management - Trial2Cure research insights" class="img-fluid" loading="lazy" />
-                                    </picture>
-                                </figure>
+
                                 <div class="card-body">
                                     <div class="classic-view">
                                         <article class="post">
