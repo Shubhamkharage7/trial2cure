@@ -78,9 +78,9 @@
     </script>
 
     <!-- Link Tags -->
-    <link rel="stylesheet" href="./../assets/css/plugins.css">
-    <link rel="stylesheet" href="./../assets/css/style.css">
-    <link rel="stylesheet" href="./../assets/css/colors/green.css">
+    <link rel="stylesheet" href="./../assets/css/plugins.min.css">
+    <link rel="stylesheet" href="./../assets/css/style.min.css">
+    <link rel="stylesheet" href="./../assets/css/colors/green.min.css">
     <link rel="icon" href="./../assets/img/trialtocure-logo.png" type="image/png">
 
     <style>
