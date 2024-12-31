@@ -1,0 +1,163 @@
+/* Mobile-first styles for Vitamin D article */
+:root {
+  --article-spacing-sm: 1rem;
+  --article-spacing-md: 1.5rem;
+  --article-spacing-lg: 2rem;
+}
+
+/* Base styles (mobile-first) */
+.wrapper.bg-soft-green {
+  padding: var(--article-spacing-sm) 0;
+}
+
+.post-header {
+  padding: var(--article-spacing-sm);
+}
+
+.post-header .display-1 {
+  font-size: 2rem;
+  line-height: 1.2;
+  margin-bottom: var(--article-spacing-sm);
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+  padding: 0;
+  margin-bottom: var(--article-spacing-sm);
+}
+
+.post-meta li {
+  font-size: 0.875rem;
+}
+
+.blog.single .card {
+  border-radius: 0.5rem;
+  margin-top: -3rem;
+}
+
+.post-content {
+  padding: var(--article-spacing-sm);
+}
+
+.post-content h2.h1 {
+  font-size: 1.75rem;
+  margin-bottom: var(--article-spacing-sm);
+}
+
+.post-content h4 {
+  font-size: 1.25rem;
+  margin-top: var(--article-spacing-md);
+  margin-bottom: var(--article-spacing-sm);
+}
+
+.post-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: var(--article-spacing-sm);
+}
+
+/* Responsive image styles */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: var(--article-spacing-md) auto;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: transform 0.2s ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .post-content img {
+    transition: none;
+  }
+}
+
+.post-content ul {
+  padding-left: 1.25rem;
+  margin-bottom: var(--article-spacing-sm);
+}
+
+.post-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.5;
+}
+
+.post-content a {
+  padding: 0.125rem 0;
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+  transition: color 0.2s ease;
+}
+
+/* Touch target size for mobile */
+.post-content a, 
+.btn {
+  min-height: 44px;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Tablet (min-width: 576px) */
+@media (min-width: 576px) {
+  .wrapper.bg-soft-green {
+    padding: calc(var(--article-spacing-sm) * 1.5) 0;
+  }
+
+  .post-header .display-1 {
+    font-size: 2.5rem;
+  }
+
+  .post-content {
+    padding: var(--article-spacing-md);
+  }
+}
+
+/* Medium devices (min-width: 768px) */
+@media (min-width: 768px) {
+  .wrapper.bg-soft-green {
+    padding: var(--article-spacing-lg) 0;
+  }
+
+  .post-header .display-1 {
+    font-size: 3rem;
+  }
+
+  .post-content {
+    padding: var(--article-spacing-lg);
+  }
+
+  .post-content h2.h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Large devices (min-width: 992px) */
+@media (min-width: 992px) {
+  .post-header .display-1 {
+    font-size: 3.5rem;
+  }
+
+  .blog.single .card {
+    margin-top: -5rem;
+  }
+}
+
+/* Modern features */
+@supports (hover: hover) {
+  .post-content a:hover {
+    color: var(--bs-primary);
+    text-decoration-thickness: 2px;
+  }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  .post-content a,
+  .btn {
+    transition: none;
+  }
+}
