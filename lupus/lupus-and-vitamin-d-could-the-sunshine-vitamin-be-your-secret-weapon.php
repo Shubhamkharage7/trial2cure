@@ -85,6 +85,7 @@
     <link rel="stylesheet" href="./../assets/css/plugins.min.css">
     <link rel="stylesheet" href="./../assets/css/style.min.css">
     <link rel="stylesheet" href="./../assets/css/colors/green.min.css">
+    <link rel="stylesheet" href="./../assets/css/pages/vitamin-d-article.css">
     <link rel="icon" href="./../assets/img/trialtocure-logo.png" type="image/png">
 
     <style>
@@ -101,16 +102,16 @@
         <!-- /header -->
 
         <section class="wrapper bg-soft-green">
-            <div class="container pt-10 pb-19 pt-md-14 pb-md-20 text-center">
+            <div class="container py-4 py-sm-5 py-md-6 py-lg-7 text-center">
                 <div class="row">
-                    <div class="col-md-10 col-xl-8 mx-auto">
+                    <div class="col-11 col-md-10 col-xl-8 mx-auto">
                         <div class="post-header">
                             <!-- /.post-category -->
-                            <h1 class="display-1 mb-4">Lupus and Vitamin D</h1>
-                            <ul class="post-meta mb-5">
-                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>3 May 2024</span></li>
-                                <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
-                                <li class="post-author"><i class="uil uil-clock"></i><span>3 minute read</span></li>
+                            <h1 class="display-1 mb-3 mb-md-4">Lupus and Vitamin D</h1>
+                            <ul class="post-meta d-flex flex-wrap justify-content-center gap-3 mb-4 mb-md-5 list-unstyled">
+                                <li class="post-date d-flex align-items-center"><i class="uil uil-calendar-alt me-2"></i><span>3 May 2024</span></li>
+                                <li class="post-author d-flex align-items-center"><i class="uil uil-user me-2"></i><span>By Admin</span></li>
+                                <li class="post-author d-flex align-items-center"><i class="uil uil-clock me-2"></i><span>3 minute read</span></li>
                             </ul>
                             <!-- /.post-meta -->
                         </div>
@@ -125,16 +126,16 @@
         <!-- /section -->
 
         <section class="wrapper bg-light">
-            <div class="container">
+            <div class="container pb-5">
                 <div class="row">
-                    <div class="col-lg-10 mx-auto">
-                        <div class="blog single mt-n17">
-                            <div class="card">
+                    <div class="col-11 col-lg-10 mx-auto">
+                        <div class="blog single mt-n4 mt-sm-n5">
+                            <div class="card shadow-sm">
 
-                                <div class="card-body">
+                                <div class="card-body p-4 p-md-5">
                                     <div class="classic-view">
                                         <article class="post">
-                                            <div class="post-content mb-5">
+                                            <div class="post-content mb-4 mb-md-5">
                                                 <h2 class="h1 mb-4">Could the Sunshine Vitamin Be Your Secret Weapon? </h2>
                                                 <p>Living with lupus can be challenging, but there’s a growing body of research that suggests Vitamin D might
                                                     play a significant role in managing the condition. Often called the "sunshine vitamin" because our bodies
@@ -214,8 +215,8 @@
                                                     </li>
                                                 </ul>
                                                 </p>
-                                                <div class="mt-10" style="text-align: center;">
-                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-lg btn-green rounded-pill me-2">Find a study</a>
+                                                <div class="text-center mt-5">
+                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-lg btn-green rounded-pill px-4 py-2 shadow-sm">Find a study</a>
                                                 </div>
 
                                         </article>
