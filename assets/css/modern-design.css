@@ -68,6 +68,7 @@ blockquote p {
 
 /* Enhanced Mobile Responsiveness */
 @media (max-width: 768px) {
+    /* Article Layout */
     .article-header {
         padding: var(--space-lg) var(--space-md);
     }
@@ -78,13 +79,24 @@ blockquote p {
         gap: var(--space-xs);
     }
     
+    /* Content Spacing */
     blockquote {
         margin: var(--space-lg) 0;
         padding: var(--space-md);
     }
     
     .post-content {
-        padding: 0 var(--space-md);
+        padding: var(--space-md);
+    }
+    
+    /* Typography Adjustments */
+    h1, .h1 {
+        font-size: calc(1.5rem + 1vw);
+    }
+    
+    /* Card Adjustments */
+    .card {
+        margin: var(--space-sm);
     }
 }
 
@@ -293,18 +305,25 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     transform: translateY(-2px);
 }
 
-/* Responsive Improvements */
-@media (max-width: 768px) {
+/* Performance Optimizations */
+@supports (backdrop-filter: blur(10px)) {
+    .navbar {
+        background: rgba(255, 255, 255, 0.9);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+    }
+}
+
+/* Print Styles */
+@media print {
+    .navbar,
+    .footer {
+        display: none;
+    }
+    
     .post-content {
-        padding: var(--space-md);
-    }
-    
-    h1, .h1 {
-        font-size: calc(1.5rem + 1vw);
-    }
-    
-    .card {
-        margin: var(--space-sm);
+        max-width: 100%;
+        padding: 0;
     }
 }
 
