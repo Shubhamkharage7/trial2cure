@@ -82,9 +82,23 @@
     </script>
 
     <!-- Link Tags -->
-    <link rel="stylesheet" href="./../assets/css/plugins.min.css">
-    <link rel="stylesheet" href="./../assets/css/style.min.css">
-    <link rel="stylesheet" href="./../assets/css/colors/green.min.css">
+    <!-- Critical CSS -->
+    <style>
+      /* Critical CSS will be inlined here during build */
+      @import url('./../assets/css/critical.css');
+    </style>
+    
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="./../assets/css/plugins.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./../assets/css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./../assets/css/colors/green.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./../assets/css/modern-design.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./../assets/css/plugins.min.css">
+        <link rel="stylesheet" href="./../assets/css/style.min.css">
+        <link rel="stylesheet" href="./../assets/css/colors/green.min.css">
+        <link rel="stylesheet" href="./../assets/css/modern-design.css">
+    </noscript>
     <link rel="stylesheet" href="./../assets/css/modern-design.css">
     <link rel="icon" href="./../assets/img/trialtocure-logo.png" type="image/png">
 
