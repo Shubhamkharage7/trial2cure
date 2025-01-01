@@ -181,6 +181,14 @@ footer .widget ul li a:hover {
     margin: 0 auto;
 }
 
+/* Title spacing fixes */
+.post-header .display-1 {
+    margin: 0 0 1.5rem;
+    line-height: 1.3;
+    font-size: calc(2.5rem + 1vw);
+    letter-spacing: -0.02em;
+}
+
 .post-content {
     max-width: 720px;
     margin: 0 auto;
@@ -191,6 +199,11 @@ footer .widget ul li a:hover {
 }
 
 /* Enhanced List Styling */
+.post-content ul {
+    list-style: none;
+    padding-left: 0;
+}
+
 .post-content ul li {
     position: relative;
     padding-left: var(--space-md);
@@ -291,6 +304,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 /* Enhanced Button Styles */
 .btn-green {
+    color: #fff; /* Ensure text is visible with good contrast */
     background-color: var(--primary-green);
     border-color: var(--primary-green);
     padding: 0.8rem 2rem;
