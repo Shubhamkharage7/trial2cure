@@ -82,9 +82,24 @@
     </script>
 
     <!-- Link Tags -->
-    <link rel="stylesheet" href="./../assets/css/plugins.min.css">
-    <link rel="stylesheet" href="./../assets/css/style.min.css">
-    <link rel="stylesheet" href="./../assets/css/colors/green.min.css">
+    <!-- Critical CSS -->
+    <style>
+      /* Critical CSS will be inlined here during build */
+      @import url('./../assets/css/critical.css');
+    </style>
+    
+    <!-- Non-critical CSS -->
+    <link rel="preload" href="./../assets/css/plugins.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./../assets/css/style.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./../assets/css/colors/green.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="./../assets/css/modern-design.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="./../assets/css/plugins.min.css">
+        <link rel="stylesheet" href="./../assets/css/style.min.css">
+        <link rel="stylesheet" href="./../assets/css/colors/green.min.css">
+        <link rel="stylesheet" href="./../assets/css/modern-design.css">
+    </noscript>
+    <link rel="stylesheet" href="./../assets/css/modern-design.css">
     <link rel="icon" href="./../assets/img/trialtocure-logo.png" type="image/png">
 
     <style>
@@ -135,7 +150,11 @@
                                     <div class="classic-view">
                                         <article class="post">
                                             <div class="post-content mb-5">
-                                                <h2 class="h1 mb-4">Could the Sunshine Vitamin Be Your Secret Weapon? </h2>
+                                                <div class="article-meta mb-4">
+                                                    <span>Last Updated: May 2024</span>
+                                                    <span class="mx-2">•</span>
+                                                    <span>Reading Time: 3 min</span>
+                                                </div>
                                                 <p>Living with lupus can be challenging, but there’s a growing body of research that suggests Vitamin D might
                                                     play a significant role in managing the condition. Often called the "sunshine vitamin" because our bodies
                                                     produce it in response to sunlight, Vitamin D is essential for bone health, immune function, and more. But
