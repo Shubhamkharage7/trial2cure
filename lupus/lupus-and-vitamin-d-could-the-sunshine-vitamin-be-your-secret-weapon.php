@@ -85,6 +85,7 @@
     <link rel="stylesheet" href="./../assets/css/plugins.min.css">
     <link rel="stylesheet" href="./../assets/css/style.min.css">
     <link rel="stylesheet" href="./../assets/css/colors/green.min.css">
+    <link rel="stylesheet" href="./../assets/css/modern-design.css">
     <link rel="icon" href="./../assets/img/trialtocure-logo.png" type="image/png">
 
     <style>
