@@ -121,12 +121,15 @@
                     <div class="col-md-10 col-xl-8 mx-auto">
                         <div class="post-header">
                             <!-- /.post-category -->
-                            <h1 class="display-1 mb-4 text-center">Lupus and Vitamin D</h1>
-                            <ul class="post-meta mb-5">
-                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>3 May 2024</span></li>
-                                <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
-                                <li class="post-author"><i class="uil uil-clock"></i><span>3 minute read</span></li>
-                            </ul>
+                            <h1 class="display-1 mb-3 text-center">Lupus and Vitamin D</h1>
+                            <h2 class="h3 mb-4 text-center">Could the sunshine Vitamin be your secret weapon?</h2>
+                            <div class="text-center">
+                                <ul class="post-meta mb-5 d-flex justify-content-center">
+                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>3 May 2024</span></li>
+                                    <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
+                                    <li class="post-author"><i class="uil uil-clock"></i><span>3 minute read</span></li>
+                                </ul>
+                            </div>
                             <!-- /.post-meta -->
                         </div>
                         <!-- /.post-header -->
