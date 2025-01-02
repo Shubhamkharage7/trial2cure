@@ -122,7 +122,6 @@
                         <div class="post-header">
                             <!-- /.post-category -->
                             <h1 class="display-1 mb-3 text-center">Lupus and Vitamin D</h1>
-                            <h2 class="h3 mb-4 text-center">Could the sunshine Vitamin be your secret weapon?</h2>
                             <div class="text-center">
                                 <ul class="post-meta mb-5 d-flex justify-content-center">
                                     <li class="post-date"><i class="uil uil-calendar-alt"></i><span>3 May 2024</span></li>
@@ -158,9 +157,9 @@
                                     <div class="classic-view">
                                         <article class="post">
                                             <div class="post-content mb-5">
-                                                <h2 class="h3 mb-4 text-center">Could the sunshine Vitamin be your secret weapon?</h2>
+                                                <h4 class="mb-4 text-center">Could the sunshine Vitamin be your secret weapon?</h4>
                                                 <div class="text-center mb-4">
-                                                    <img src="./../assets/img/vitamin-d-lupus-management.jpg" alt="Vitamin D benefits for lupus management" class="img-fluid rounded">
+                                                    <img src="./../assets/img/vitamin-d-lupus-management.jpg" alt="" class="img-fluid rounded">
                                                 </div>
                                                 <p>Living with lupus can be challenging, but there’s a growing body of research that suggests Vitamin D might
                                                     play a significant role in managing the condition. Often called the "sunshine vitamin" because our bodies
