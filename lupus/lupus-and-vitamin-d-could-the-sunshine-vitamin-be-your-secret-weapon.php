@@ -166,7 +166,7 @@
                                                     produce it in response to sunlight, Vitamin D is essential for bone health, immune function, and more. But
                                                     could it be a secret weapon in your fight against lupus? Let’s explore the connection between lupus and
                                                     Vitamin D, and how boosting your levels might benefit your health. For more information, check our <a href="lupus-faq.php">Lupus FAQ</a> or join discussions in our <a href="lupus-qacommunity.php">Lupus Community</a>. </p>
-                                                <h4>The Connection Between Lupus and Vitamin D </h4>
+                                                <h2 class="h3 mb-4 text-center">The Connection Between Lupus and Vitamin D</h2>
                                                 <p>Lupus is an autoimmune disease where the immune system attacks healthy tissues, causing inflammation, pain,
                                                     and damage to various organs. While the exact cause of lupus remains unknown, it’s believed that both
                                                     genetic and environmental factors contribute to its development. Recent studies have shown that roughly 80%
