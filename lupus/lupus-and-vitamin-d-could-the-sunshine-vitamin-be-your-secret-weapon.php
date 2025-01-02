@@ -15,7 +15,7 @@
     </script>
 
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="description"
         content="Discover how vitamin D deficiency affects lupus symptoms and immune function. Learn about safe supplementation, sunlight exposure tips, and evidence-based benefits for lupus management.">
     <meta name="keywords" content="Lupus vitamin D deficiency, sunshine vitamin benefits, lupus management, autoimmune disease treatment, vitamin D supplementation, lupus symptoms, lupus and sunlight sensitivity, lupus immune system, Trial2Cure">
@@ -143,12 +143,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
+                        <div class="article-meta mb-4">
+                            <span>Last Updated: May 2024</span>
+                            <span class="mx-2">•</span>
+                            <span>Reading Time: 3 min</span>
+                        </div>
                         <div class="blog single mt-n17">
-                            <div class="article-meta mb-4">
-                                <span>Last Updated: May 2024</span>
-                                <span class="mx-2">•</span>
-                                <span>Reading Time: 3 min</span>
-                            </div>
                             <div class="card">
 
                                 <div class="card-body">
