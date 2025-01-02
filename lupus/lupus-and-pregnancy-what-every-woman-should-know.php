@@ -100,7 +100,7 @@
                     <div class="col-md-10 col-xl-8 mx-auto">
                         <div class="post-header">
                             <!-- /.post-category -->
-                            <h1 class="display-1 mb-4">Lupus and Pregnancy</h1>
+                            <h1 class="display-1 mb-4 text-center">Lupus and Pregnancy</h1>
                             <ul class="post-meta mb-5">
                                 <li class="post-date"><i class="uil uil-calendar-alt"></i><span>19 June 2024</span></li>
                                 <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
@@ -123,6 +123,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
+                        <div class="article-meta mb-4">
+                            <span>Last Updated: June 2024</span>
+                            <span class="mx-2">•</span>
+                            <span>Reading Time: 3 min</span>
+                        </div>
                         <div class="blog single mt-n17">
                             <div class="card">
                                 <!-- <figure class="card-img-top"><img src="../assets/img/photos/b1.jpg" alt="" /></figure> -->
@@ -222,7 +227,7 @@
                                                 </ul>
                                                 </p>
                                                 <div class="mt-10" style="text-align: center;">
-                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-lg btn-green rounded-pill me-2">Find a study</a>
+                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-sm btn-green rounded-pill me-2">Find a study</a>
                                                 </div>
                                         </article>
                                         <!-- /.post -->

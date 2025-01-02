@@ -108,7 +108,7 @@
                 <div class="row">
                     <div class="col-md-10 col-xl-8 mx-auto">
                         <div class="post-header">
-                            <h1 class="display-1 mb-4">Can Prednisone Make Lupus Worse?</h1>
+                            <h1 class="display-1 mb-4 text-center">Can Prednisone Make Lupus Worse?</h1>
                             <ul class="post-meta mb-5">
                                 <li class="post-date"><i class="uil uil-calendar-alt"></i><span>13 June 2024</span></li>
                                 <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
@@ -124,6 +124,11 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
+                        <div class="article-meta mb-4">
+                            <span>Last Updated: June 2024</span>
+                            <span class="mx-2">•</span>
+                            <span>Reading Time: 3 min</span>
+                        </div>
                         <div class="blog single mt-n17">
                             <div class="card">
                                 <div class="card-body">
@@ -212,7 +217,7 @@
                                                             href="https://my.clevelandclinic.org/">Cleveland Clinic Website</a></li>
                                                 </ul>
                                                 <div class="mt-10 text-center">
-                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-lg btn-green rounded-pill me-2">Find a study</a>
+                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-sm btn-green rounded-pill me-2">Find a study</a>
                                                 </div>
                                             </div>
                                         </article>

@@ -121,7 +121,7 @@
                     <div class="col-md-10 col-xl-8 mx-auto">
                         <div class="post-header">
                             <!-- /.post-category -->
-                            <h1 class="display-1 mb-4">Lupus and Vitamin D</h1>
+                            <h1 class="display-1 mb-4 text-center">Lupus and Vitamin D</h1>
                             <ul class="post-meta mb-5">
                                 <li class="post-date"><i class="uil uil-calendar-alt"></i><span>3 May 2024</span></li>
                                 <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
@@ -234,7 +234,7 @@
                                                 </ul>
                                                 </p>
                                                 <div class="mt-10" style="text-align: center;">
-                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-lg btn-green rounded-pill me-2">Find a study</a>
+                                                    <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-sm btn-green rounded-pill me-2">Find a study</a>
                                                 </div>
 
                                         </article>
