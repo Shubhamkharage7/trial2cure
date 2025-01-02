@@ -158,6 +158,10 @@
                                     <div class="classic-view">
                                         <article class="post">
                                             <div class="post-content mb-5">
+                                                <h2 class="h3 mb-4 text-center">Could the sunshine Vitamin be your secret weapon?</h2>
+                                                <div class="text-center mb-4">
+                                                    <img src="./../assets/img/vitamin-d-lupus-management.jpg" alt="Vitamin D benefits for lupus management" class="img-fluid rounded">
+                                                </div>
                                                 <p>Living with lupus can be challenging, but there’s a growing body of research that suggests Vitamin D might
                                                     play a significant role in managing the condition. Often called the "sunshine vitamin" because our bodies
                                                     produce it in response to sunlight, Vitamin D is essential for bone health, immune function, and more. But
