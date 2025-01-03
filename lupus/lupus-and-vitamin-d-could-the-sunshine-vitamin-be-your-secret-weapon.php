@@ -157,16 +157,18 @@
                                     <div class="classic-view">
                                         <article class="post">
                                             <div class="post-content mb-5">
-                                                <h4 class="mb-4 text-center">Could the sunshine Vitamin be your secret weapon?</h4>
-                                                <div class="text-center mb-4">
-                                                    <img src="./../assets/img/vitamin-d-lupus-management.jpg" alt="" class="img-fluid rounded">
+                                                <section class="article-section introduction-section" aria-labelledby="intro-heading">
+                                                <h2 id="intro-heading" class="section-heading mb-4 text-center text-primary hover-lift transition-300">Could the sunshine Vitamin be your secret weapon?</h2>
+                                                <div class="text-center mb-4 shadow-sm hover-lift transition-300">
+                                                    <img src="./../assets/img/vitamin-d-lupus-management.jpg" alt="Vitamin D supplements and sunlight representing natural sources of vitamin D for lupus management" class="img-fluid rounded hover-scale transition-300">
                                                 </div>
                                                 <p>Living with lupus can be challenging, but there’s a growing body of research that suggests Vitamin D might
                                                     play a significant role in managing the condition. Often called the "sunshine vitamin" because our bodies
                                                     produce it in response to sunlight, Vitamin D is essential for bone health, immune function, and more. But
                                                     could it be a secret weapon in your fight against lupus? Let’s explore the connection between lupus and
                                                     Vitamin D, and how boosting your levels might benefit your health. For more information, check our <a href="lupus-faq.php">Lupus FAQ</a> or join discussions in our <a href="lupus-qacommunity.php">Lupus Community</a>. </p>
-                                                <h4>The Connection Between Lupus and Vitamin D </h4>
+                                                <section class="article-section connection-section mb-4" aria-labelledby="connection-heading">
+                                                    <h2 id="connection-heading" class="section-heading mb-3 text-primary hover-lift transition-300">The Connection Between Lupus and Vitamin D</h2>
                                                 <p>Lupus is an autoimmune disease where the immune system attacks healthy tissues, causing inflammation, pain,
                                                     and damage to various organs. While the exact cause of lupus remains unknown, it’s believed that both
                                                     genetic and environmental factors contribute to its development. Recent studies have shown that roughly 80%
@@ -176,7 +178,8 @@
                                                     immune systems are overactive. Adequate Vitamin D levels may help reduce inflammation and prevent the immune
                                                     system from attacking the body’s own tissues. This has led researchers to believe that maintaining optimal
                                                     Vitamin D levels might help manage lupus symptoms and possibly reduce flare-ups. </p>
-                                                <h4>Why Are Lupus Patients Often Low in Vitamin D? </h4>
+                                                <section class="article-section causes-section mb-4" aria-labelledby="causes-heading">
+                                                    <h2 id="causes-heading" class="section-heading mb-3">Why Are Lupus Patients Often Low in Vitamin D?</h2>
                                                 <p>There are several reasons why lupus patients might have lower Vitamin D levels:
                                                 <ul>
                                                     <li>Sun Avoidance: Lupus can cause photosensitivity, where exposure to sunlight triggers <a href="lupus-rash-guide-butterfly-rash-to-autoimmune-triggers.php">skin rashes</a> or
@@ -198,7 +201,8 @@
                                                         which are common in people with chronic conditions like lupus. </li>
                                                 </ul>
                                                 </p>
-                                                <h4>Getting Enough Vitamin D: What You Need to Know </h4>
+                                                <section class="article-section guidelines-section mb-4" aria-labelledby="guidelines-heading">
+                                                    <h2 id="guidelines-heading" class="section-heading mb-3">Getting Enough Vitamin D: What You Need to Know</h2>
                                                 <p>Given its potential benefits, it’s important for lupus patients to ensure they’re getting enough Vitamin D.
                                                     Here are some ways to do that:
                                                 <ul>
@@ -221,7 +225,8 @@
                                                     adding more Vitamin D to your routine, it’s essential to talk to your healthcare provider first. They can
                                                     help determine the best approach for your specific needs and ensure that any changes to your diet or
                                                     supplements are safe and effective. </p>
-                                                <h4>References:</h4>
+                                                <section class="article-section references-section mb-4" aria-labelledby="references-heading">
+                                                    <h3 id="references-heading" class="section-heading mb-3">References:</h3>
                                                 <p>
                                                 <ul>
                                                     <li>Lupus Foundation of America. (2023). The Role of Vitamin D in Lupus. Retrieved from <a
