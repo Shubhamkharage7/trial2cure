@@ -3,7 +3,8 @@ FROM php:8.0-fpm
 
 # Install Nginx and other dependencies
 RUN apt-get update && \
-    apt-get install -y --no-install-recommends nginx curl gnupg2 build-essential dialog openssh-server && \
+    apt-get install -y --no-install-recommends nginx curl gnupg2 build-essential dialog openssh-server git git-lfs && \
+    git lfs install && \
     # Set up SSH password for root user
     echo "root:Docker!" | chpasswd
 
