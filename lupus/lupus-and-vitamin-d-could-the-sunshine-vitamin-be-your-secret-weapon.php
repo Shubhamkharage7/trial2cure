@@ -122,13 +122,11 @@
                         <div class="post-header">
                             <!-- /.post-category -->
                             <h1 class="display-1 mb-3 text-center">Lupus and Vitamin D</h1>
-                            <div class="text-center">
-                                <ul class="post-meta mb-5 d-flex justify-content-center">
-                                    <li class="post-date"><i class="uil uil-calendar-alt"></i><span>3 May 2024</span></li>
-                                    <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
-                                    <li class="post-author"><i class="uil uil-clock"></i><span>3 minute read</span></li>
-                                </ul>
-                            </div>
+                            <ul class="post-meta mb-5">
+                                <li class="post-date"><i class="uil uil-calendar-alt"></i><span>3 May 2024</span></li>
+                                <li class="post-author"><i class="uil uil-user"></i><span>By Admin</span></li>
+                                <li class="post-author"><i class="uil uil-clock"></i><span>3 minute read</span></li>
+                            </ul>
                             <!-- /.post-meta -->
                         </div>
                         <!-- /.post-header -->
@@ -145,11 +143,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-10 mx-auto">
-                        <div class="article-meta mb-4">
-                            <span>Last Updated: May 2024</span>
-                            <span class="mx-2">•</span>
-                            <span>Reading Time: 3 min</span>
-                        </div>
+
                         <div class="blog single mt-n17">
                             <div class="card">
 
@@ -157,16 +151,14 @@
                                     <div class="classic-view">
                                         <article class="post">
                                             <div class="post-content mb-5">
-                                                <h4 class="mb-4 text-center">Could the sunshine Vitamin be your secret weapon?</h4>
-                                                <div class="text-center mb-4">
-                                                    <img src="./../assets/img/vitamin-d-lupus-management.jpg" alt="" class="img-fluid rounded">
-                                                </div>
+                                                <h2 class="h1 mb-4">Could the sunshine Vitamin be your secret weapon?</h2>
+                                                <figure class="card-img-top"><img src="./../assets/img/vitamin-d-lupus-management.jpg" alt="Vitamin D benefits for lupus management" class="img-fluid rounded" /></figure>
                                                 <p>Living with lupus can be challenging, but there’s a growing body of research that suggests Vitamin D might
                                                     play a significant role in managing the condition. Often called the "sunshine vitamin" because our bodies
                                                     produce it in response to sunlight, Vitamin D is essential for bone health, immune function, and more. But
                                                     could it be a secret weapon in your fight against lupus? Let’s explore the connection between lupus and
                                                     Vitamin D, and how boosting your levels might benefit your health. For more information, check our <a href="lupus-faq.php">Lupus FAQ</a> or join discussions in our <a href="lupus-qacommunity.php">Lupus Community</a>. </p>
-                                                <h4>The Connection Between Lupus and Vitamin D </h4>
+                                                <h4>The Connection Between Lupus and Vitamin D</h4>
                                                 <p>Lupus is an autoimmune disease where the immune system attacks healthy tissues, causing inflammation, pain,
                                                     and damage to various organs. While the exact cause of lupus remains unknown, it’s believed that both
                                                     genetic and environmental factors contribute to its development. Recent studies have shown that roughly 80%
@@ -176,7 +168,7 @@
                                                     immune systems are overactive. Adequate Vitamin D levels may help reduce inflammation and prevent the immune
                                                     system from attacking the body’s own tissues. This has led researchers to believe that maintaining optimal
                                                     Vitamin D levels might help manage lupus symptoms and possibly reduce flare-ups. </p>
-                                                <h4>Why Are Lupus Patients Often Low in Vitamin D? </h4>
+                                                <h4>Why Are Lupus Patients Often Low in Vitamin D?</h4>
                                                 <p>There are several reasons why lupus patients might have lower Vitamin D levels:
                                                 <ul>
                                                     <li>Sun Avoidance: Lupus can cause photosensitivity, where exposure to sunlight triggers <a href="lupus-rash-guide-butterfly-rash-to-autoimmune-triggers.php">skin rashes</a> or
@@ -187,7 +179,7 @@
                                                         body’s ability to convert Vitamin D into its active form. </li>
                                                 </ul>
                                                 </p>
-                                                <h2 class="h1 mb-4">How Can Vitamin D Help with Lupus? </h2>
+                                                <h2 class="h1 mb-4">How Can Vitamin D Help with Lupus?</h2>
                                                 <p>Increasing Vitamin D levels might offer several benefits for lupus patients:
                                                 <ul>
                                                     <li>Immune Regulation: As mentioned earlier, Vitamin D plays a role in regulating the immune system. For
@@ -198,7 +190,7 @@
                                                         which are common in people with chronic conditions like lupus. </li>
                                                 </ul>
                                                 </p>
-                                                <h4>Getting Enough Vitamin D: What You Need to Know </h4>
+                                                <h4>Getting Enough Vitamin D: What You Need to Know</h4>
                                                 <p>Given its potential benefits, it’s important for lupus patients to ensure they’re getting enough Vitamin D.
                                                     Here are some ways to do that:
                                                 <ul>
@@ -214,7 +206,7 @@
                                                     </li>
                                                 </ul>
                                                 </p>
-                                                <h2 class="h1 mb-4">Conclusion: Is Vitamin D Your Secret Weapon?</h2>
+                                                <h2 class="h1 mb-4">Conclusion</h2>
                                                 <p>While Vitamin D isn’t a cure for lupus, it could be a valuable part of your overall management plan. By
                                                     helping to regulate the immune system, strengthen bones, and improve mood, maintaining adequate Vitamin D
                                                     levels might just be the secret weapon you need to better manage your lupus symptoms. Learn more about <a href="latest-advances-in-lupus-treatment-a-comprehensive-guide-to-infusions-radiation-therapy-and-holistic-care.php">latest advances in lupus treatment</a>. If you’re considering
@@ -222,14 +214,13 @@
                                                     help determine the best approach for your specific needs and ensure that any changes to your diet or
                                                     supplements are safe and effective. </p>
                                                 <h4>References:</h4>
-                                                <p>
                                                 <ul>
                                                     <li>Lupus Foundation of America. (2023). The Role of Vitamin D in Lupus. Retrieved from <a
                                                             href="https://www.lupus.org/resources/the-role-of-vitamin-d-in-lupus">https://www.lupus.org/resources/the-role-of-vitamin-d-in-lupus</a>
                                                     </li>
                                                     <li>Mayo Clinic. (2023). Vitamin D and autoimmune diseases. Retrieved from <a
                                                             href="https://www.mayoclinic.org/tests-procedures/vitamin-d-test/about/pac-20388722">Mayo Clinic
-                                                            Website </a> </li>
+                                                            Website</a></li>
                                                     <li>Cleveland Clinic. (2023). Vitamin D: Benefits, deficiency, sources, and risks. Retrieved from <a
                                                             href="https://my.clevelandclinic.org/health/articles/15050-vitamin-d--benefits-deficiency-sources-and-risks">Cleveland
                                                             Clinic Website</a></li>
@@ -238,16 +229,13 @@
                                                             href="https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/">https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/</a>
                                                     </li>
                                                 </ul>
-                                                </p>
                                                 <div class="mt-10" style="text-align: center;">
                                                     <a href="./../clinicaltrials.php?search=Lupus" class="btn btn-sm btn-green rounded-pill me-2">Find a study</a>
                                                 </div>
-
                                         </article>
                                         <!-- /.post -->
                                     </div>
-                                    <!-- /.swiper-container -->
-                                    <!-- /.comment-form -->
+                                    <!-- /.classic-view -->
                                 </div>
                                 <!-- /.card-body -->
                             </div>
