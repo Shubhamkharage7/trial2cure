@@ -15,6 +15,10 @@ jobs:
 
     steps:
     # Checkout code with Git LFS support
+    - uses: actions/checkout@v2
+      with:
+        lfs: true
+    
     - name: Install Git LFS
       run: git lfs install
 
